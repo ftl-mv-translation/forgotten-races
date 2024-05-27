@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FTL>
+
+<mod:findName type="event" name="DESTROYED_REBEL_POD">
+	<mod-append:choice hidden="true" req="unique_vance">
+		<text>(Vance) Welcome them aboard.</text>
+		<event load="FR_DESTROYED_REBEL_POD_VANCE"/>
+	</mod-append:choice>
+</mod:findName>
+
+<event name="FR_DESTROYED_REBEL_POD_VANCE">
+	<text>"Holy shit it's Vance! It's an honor to be abord the same ship as you, sir. If you plan on helping the federation then I will gladly join you!"</text>
+	<crewMember amount="1" class="human"/>
+</event>
+
+</FTL>
+

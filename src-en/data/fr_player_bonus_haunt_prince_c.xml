@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
+<img x="-56" y="-28" w="551" h="443" />
+<offsets>
+	<floor x="50" y="23" />
+	<cloak x="-21" y="-21" />
+</offsets>
+<weaponMounts>
+	<mount x="461" y="63" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="461" y="379" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="346" y="11" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="346" y="433" rotate="true" mirror="false" gib="-1" slide="down" />
+</weaponMounts>
+
+<thrusters sync="true">
+    <thruster x="3" y="297">mup_pony_thrusters</thruster>
+    <thruster x="3" y="126">mup_pony_thrusters</thruster>
+    <thruster x="-4" y="333">mup_pony_thrusters</thruster>
+    <thruster x="-4" y="90">mup_pony_thrusters</thruster>
+    <thruster x="362" y="132">mup_pony_thrusters</thruster>
+    <thruster x="362" y="291">mup_pony_thrusters</thruster>
+    <thruster x="378" y="169">mup_pony_thrusters</thruster>
+    <thruster x="378" y="254">mup_pony_thrusters</thruster>
+</thrusters>
+<explosion />
+

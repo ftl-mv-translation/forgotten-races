@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
+<img x="-103" y="-16" w="700" h="418" />
+<offsets>
+	<floor x="97" y="10" />
+	<cloak x="0" y="0" />
+</offsets>
+<weaponMounts>
+	<mount x="624" y="277" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="624" y="139" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="470" y="83" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="470" y="336" rotate="true" mirror="false" gib="-1" slide="down" />
+</weaponMounts>
+
+<thrusters sync="true">
+    <thruster x="20" y="43">fr_snowman_ice_side_thrusters</thruster>
+    <thruster x="231" y="193">fr_snowman_ice_middle_thrusters</thruster>
+    <thruster x="20" y="342">fr_snowman_ice_side_thrusters</thruster>
+</thrusters>
+<explosion />
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
+<img x="-83" y="-62" w="697" h="406" />
+<offsets>
+	<floor x="77" y="56" />
+	<cloak x="0" y="0" />
+</offsets>
+<weaponMounts>
+	<mount x="648" y="195" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="648" y="213" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="358" y="376" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="358" y="32" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="493" y="94" rotate="true" mirror="true" gib="-1" slide="no" />
+	<mount x="493" y="312" rotate="true" mirror="false" gib="-1" slide="no" />
+</weaponMounts>
+<thrusters sync="true">
+    <thruster x="93" y="35" irotate="true">her_boss_thruster_main</thruster>
+    <thruster x="93" y="264" irotate="true" mirror="true">her_boss_thruster_main</thruster>
+</thrusters>
+<explosion />
+

@@ -1,0 +1,13 @@
+<FTL>
+
+<mod:findName type="event" name="SLUG_DISTRESS_TRICK">
+	<mod-append:choice hidden="true" req="FR_LIST_CREW_SALT_LESS_OBYN" blue="true">
+		<text>(Salt Soldier Crew) Send your Salt to oversee the repairs.</text>
+		<event>
+			<text>Once on board, it becomes clear that nothing is wrong with their O2 system. The slugs attempt to shoot at the salt soldier, who simply turns around to face them and starts slowly walking towards them. The slugs keep firing but it seems their guns have no real effect on the salt person, and what's worse, the close they get to them the more their skin starts to peel off and melt, the slugs quickly surrender and give everything they have, begging for your salt person to stop.</text>
+			<autoReward level="HIGH">stuff</autoReward>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+</FTL>

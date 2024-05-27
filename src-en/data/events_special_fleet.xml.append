@@ -1,0 +1,277 @@
+<FTL>
+
+<mod:findName type="event" name="FINISH_BEACON_FLEET_ELITE_FEDERATION">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="10">
+		<text>(Vance Prime) "Halt loyal soldier! This is Vance prime speaking, you must power down your weapons immediately!"</text>
+			<event>
+				<text>"It's an honor to meet you sir! Yes, we will stand down at your order!"</text>
+					<autoReward level="HIGH">standard</autoReward>
+					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>"Vance prime! Sir, it's a honor to meet you! We are short on supplies but we have a excess of crew currently" The rebels offers to join your crew.</text>
+					<crewMember amount="1" class="human_soldier"/>
+					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>The rebel captain can't believe their eyes when they see that your ship carries the one and only Vance Prime! They quickly apologize and promise to delay the fleet as much as they can before jumping away.</text>
+					<modifyPursuit amount="-2"/>
+					<instantEscape/>
+					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>"We know what you did Prime! No mercy for traitors!"</text>
+				<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</mod-append:choice>
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false" hidden="true" max_group="10">
+		<text>The fleet is now aware of vance and won't send any soldiers who are easily convinced.</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="20">
+		<text>(Forged Identification) Try to pass your ship for a rebel one</text>
+			<event>
+				<text>What? you think we are idiots?</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+			<event>
+				<text>The rebel captain examines the ID before shrugging "Sure, be careful kid, there's a lot of federation spies out there".</text>
+					<ship hostile="false"/>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="FLEET_ELITE_FEDERATION">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT_EXCEEDED" lvl="1" blue="true" hidden="true" max_group="10">
+		<text>(Vance Prime) "Halt soldier! This is Vance prime speaking, you must power down your weapons immediately!"</text>
+			<event>
+				<text>"It's an honor to meet you sir! Yes, we will stand down at your order!"</text>
+					<autoReward level="HIGH">standard</autoReward>
+					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>"Vance prime! Sir, it's a honor to meet you! We are short on supplies but we have a excess of crew currently" The rebels offers to join your crew.</text>
+					<crewMember amount="1" class="human_soldier"/>
+					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>The rebel captain can't believe their eyes when they see that your ship carries the one and only Vance Prime! They quickly apologize and promise to delay the fleet as much as they can before jumping away.</text>
+					<modifyPursuit amount="-2"/>
+					<instantEscape/>
+					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>"We know what you did Prime! No mercy for traitors!"</text>
+				<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</mod-append:choice>
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false" hidden="true" max_group="10">
+		<text>The fleet is now aware of vance and won't send any soldiers who are easily convinced.</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="20">
+		<text>(Forged Identification) Try to pass your ship for a rebel one</text>
+			<event>
+				<text>What? you think we are idiots?</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+			<event>
+				<text>The rebel captain examines the ID before shrugging "Sure, be careful kid, there's a lot of federation spies out there".</text>
+					<ship hostile="false"/>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="FINISH_BEACON_FLEET_ACE_FEDERATION">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT" lvl="1" blue="true" hidden="true">
+		<text>(Vance Prime) "Halt loyal soldier! This is Vance prime speaking, you must power down your weapons immediately!"</text>
+			<event>
+				<text>"Holy shit it's Vance prime! I'm so sorry for attacking you sir! I don't know why you want us to stand down, but we promises to do so!</text>
+					<autoReward level="HIGH">standard</autoReward>
+					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>"Holy shit it's Vance prime! I'm so sorry for attacking you sir! I will help your cause in any way I can!"</text>
+					<crewMember amount="1" class="human_mfk"/>
+					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<ship hostile="false"/>
+			</event>
+	</mod-append:choice>
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false" hidden="true" max_group="0">
+		<text>The fleet is now aware of vance and won't send any soldiers who are easily convinced.</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="20">
+		<text>(Forged Identification) Try to pass your ship for a rebel one</text>
+			<event>
+				<text>What? you think we are idiots?</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="FLEET_ACE_FEDERATION">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="10">
+		<text>(Vance Prime) "Halt loyal soldier! This is Vance prime speaking, you must power down your weapons immediately!"</text>
+			<event>
+				<text>"Holy shit it's Vance prime! I'm so sorry for attacking you sir! I don't know why you want us to stand down, but we promises to do so!</text>
+					<autoReward level="HIGH">standard</autoReward>
+					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>"Holy shit it's Vance prime! I'm so sorry for attacking you sir! I will help your cause in any way I can!"</text>
+					<crewMember amount="1" class="human_mfk"/>
+					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<ship hostile="false"/>
+			</event>
+	</mod-append:choice>
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false"  hidden="true" max_group="10">
+		<text>The fleet is now aware of vance and won't send any soldiers who are easily convinced.</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="20">
+		<text>(Forged Identification) Try to pass your ship for a rebel one</text>
+			<event>
+				<text>What? you think we are idiots?</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="FLEET_CHAOS">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="10">
+		<text>(Vance Prime) "Halt loyal soldier! This is Vance prime speaking, you must power down your weapons immediately!"</text>
+		<event>
+			<text>As vance attempts to hail the fleet, the gnome begins screeching. Vance, without missing a beat, punts the gnome across the room, ending his infernal screeching. With a proud smile he contacts the fleet and demands they give you their supplies.</text>
+			<playSound>gm_owie</playSound>
+			<autoReward level="HIGH">standard</autoReward>
+			<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+			<ship hostile="false"/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false"  hidden="true" max_group="10">
+		<text>It appears the gnome found a way to prevent you from contacting the fleet, no one is happy with this.</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="20">
+		<text>(Forged Identification) Try to pass your ship for a rebel one</text>
+			<event>
+				<text>Before you can hand over the ID, the Gnome screeches, and before you know it, the id is completely illegible, the rebel looks you dead in the eyes for a few moments before locking on their weapons.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="NEBULA_FLEET_CHAOS">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="10">
+		<text>(Vance Prime) "Halt loyal soldier! This is Vance prime speaking, you must power down your weapons immediately!"</text>
+		<event>
+			<text>As vance attempts to hail the fleet, the gnome begins screeching. Vance, without missing a beat, punts the gnome across the room, ending his infernal screeching. With a proud smile he contacts the fleet and demands they give you their supplies.</text>
+			<playSound>gm_owie</playSound>
+			<autoReward level="HIGH">standard</autoReward>
+			<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+			<ship hostile="false"/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false"  hidden="true" max_group="10">
+		<text>It appears the gnome found a way to prevent you from contacting the fleet, no one is happy with this.</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="20">
+		<text>(Forged Identification) Try to pass your ship for a rebel one</text>
+			<event>
+				<text>Before you can hand over the ID, the Gnome screeches, and before you know it, the id is completely illegible, the rebel looks you dead in the eyes for a few moments before locking on their weapons.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="FLEET_CHAOS_FLAGSHIP">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="10">
+		<text>(Vance Prime) "Halt loyal soldier! This is Vance prime speaking, you must power down your weapons immediately!"</text>
+		<event>
+			<text>As vance attempts to hail the fleet, the gnome begins screeching. Vance, without missing a beat, punts the gnome across the room, ending his infernal screeching. With a proud smile he contacts the fleet and demands they give you their supplies.</text>
+			<playSound>gm_owie</playSound>
+			<autoReward level="HIGH">standard</autoReward>
+			<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+			<ship hostile="false"/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false"  hidden="true" max_group="10">
+		<text>It appears the gnome found a way to prevent you from contacting the fleet, no one is happy with this.</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="20">
+		<text>(Forged Identification) Try to pass your ship for a rebel one</text>
+			<event>
+				<text>Before you can hand over the ID, the Gnome screeches, and before you know it, the id is completely illegible, the rebel looks you dead in the eyes for a few moments before locking on their weapons.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="NEBULA_FLEET_CHAOS_FLAGSHIP">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="10">
+		<text>(Vance Prime) "Halt loyal soldier! This is Vance prime speaking, you must power down your weapons immediately!"</text>
+		<event>
+			<text>As vance attempts to hail the fleet, the gnome begins screeching. Vance, without missing a beat, punts the gnome across the room, ending his infernal screeching. With a proud smile he contacts the fleet and demands they give you their supplies.</text>
+			<playSound>gm_owie</playSound>
+			<autoReward level="HIGH">standard</autoReward>
+			<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+			<ship hostile="false"/>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false"  hidden="true" max_group="10">
+		<text>It appears the gnome found a way to prevent you from contacting the fleet, no one is happy with this.</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="20">
+		<text>(Forged Identification) Try to pass your ship for a rebel one</text>
+			<event>
+				<text>Before you can hand over the ID, the Gnome screeches, and before you know it, the id is completely illegible, the rebel looks you dead in the eyes for a few moments before locking on their weapons.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+</FTL>

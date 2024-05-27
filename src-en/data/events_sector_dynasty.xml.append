@@ -1,0 +1,116 @@
+<FTL>
+
+<event name="FR_WITHER_RUINS" unique="true">
+	<preventQuest/>
+	<preventFleet/>
+	<beaconType id="map_icon_fr_wither" global="false">
+		<color r="255" g="232" b="0" a="1.0"/>
+	</beaconType>
+	<text>You jump into what you assume are some ruins, ready to be looted for all they are worth, when you see something you for sure weren't expecting, a strange cubical ship, much smaller than those fleet ships and with a completely different paint job, what's stranger is that there seems to be dynasty ships attacking it!
+	
+	After a few moments you are hailed by said ships, a alpha phantom greets you. "Hail, renegade, it's a great shame that I must say that we need your help, some disgusting lanius abominations that call themselves the "withered" have infested our precious ship! If you can clear those out, we would gladly give you the ship's blueprints as a reward."</text>
+	<ship load="SHIP_FR_QUEST_WITHER_CRUISER" hostile="false"/>
+	<choice hidden="true">
+        <text>Sure, we can do that.</text>
+		<event>
+			<text>"that's the spirit! just be careful to not damage the ship too much, otherwise there shall be hell to pay, understood? If you do manage to kill all of them, you might even earn a special reward."</text>
+				<ship hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>As tempting as it is, we can't afford to pick a fight with...that thing.</text>
+		<event>
+			<text>The captain immediately cuts communication with your ship and you are left to your own devices once more.</text>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_WITHER_RUINS_WITHERED_OFFER">
+	<text>Suddenly you receive a hail from the cruiser "Almighty, don't hurt withered! I surrender! I leave ship and come with!"</text>
+	<clearTriggeredEvent name="FR_WITHER_RUINS_WITHERED_OFFER_TRIGGER"/> 
+	<choice hidden="true">
+		<text>Alright, if you leave the ship you can come with us.</text>
+		<event>
+			<text>"thank you thank you!" The lanius turns the ship's systems offline and teleports into your cruiser, you are hailed by the dynasty.
+			
+			"Ach, will you truly allow that vermin to remain your vessel? Curses! luckily for you, I'm an alpha that's truest to my word, you will receive your blueprints, but don't expect to receive the bonus reward, now leave before I change my mind!"</text>
+				<crewMember amount="1" class="fr_withered" all_skills="2"/>
+				<ship hostile="false"/>
+				<achievement silent="false">ACH_FR_EVENT_WITHER_DEAL</achievement>
+				<unlockCustomShip silent="false">PLAYER_SHIP_FR_ALT_WITHER</unlockCustomShip>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>No, Keep fighting.</text>
+		<event/>
+	</choice>
+</event>
+
+<event name="FR_WITHER_RUINS_DYNASTY_CREWKILL">
+	<text>As you explore the ship's empty halls, you find a single withered crew, cowering and badly injured from the fight "Almighty... p-please don't hurt withered...j-just want...h-help...h-heal...a-and i c-come w-with..."</text>
+	<choice hidden="true" req="medbay" lvl="2">
+		<text>(Upg. Medbay) Use your medbay to stabilize them.</text>
+		<event>
+			<text>"thank you thank you!" The lanius sings after being healed, following you back to the ship, you are hailed by the dynasty.
+			
+			"Ach, will you truly allow that vermin to remain your vessel? Curses! luckily for you, I'm an alpha that's truest to my word, you will receive your blueprints, but don't expect to receive the bonus reward, now leave before I change my mind!"</text>
+				<crewMember amount="1" class="fr_withered" all_skills="2"/>
+				<achievement silent="false">ACH_FR_EVENT_WITHER_DEAL</achievement>
+				<unlockCustomShip silent="false">PLAYER_SHIP_FR_ALT_WITHER</unlockCustomShip>
+		</event>
+	</choice>
+	<choice hidden="true" req="clonebay" lvl="1">
+		<text>(Clone Bay) Register the lanius before it's too late.</text>
+		<event>
+			<text>"thank you thank you!" The lanius sings after being cloned back on your ship, you are hailed by the dynasty.
+			
+			"Ach, will you truly allow that vermin to remain your vessel? Curses! luckily for you, I'm an alpha that's truest to my word, you will receive your blueprints, but don't expect to receive the bonus reward, now leave before I change my mind!"</text>
+				<crewMember amount="1" class="fr_withered" all_skills="2"/>
+				<achievement silent="false">ACH_FR_EVENT_WITHER_DEAL</achievement>
+				<unlockCustomShip silent="false">PLAYER_SHIP_FR_ALT_WITHER</unlockCustomShip>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Leave them to die.</text>
+		<event load="FR_WITHER_RUINS_DYNASTY_WIN"/>
+	</choice>
+</event>
+
+<event name="FR_WITHER_RUINS_DYNASTY_WARNING">
+	<text>"Ach! Stop you fool! Thous are damaging our great ship too much! Either stop damaging it or get out! Art thou after scrap? If so we will give you some as long as you vanished from my sight!"</text>
+	<choice hidden="true">
+		<text>Stop firing.</text>
+		<event>
+			<text>You can tell you're only being paid so the alpha can be assured you'll leave, but it's better than nothing.</text>
+			<autoReward level="LOW">standard</autoReward>
+			<ship hostile="false"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>No no, we can do this!</text>
+		<event>
+			<text>The alpha groans. "Fine, but if thou destroys the ship there shall be hell to pay!"</text>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_WITHER_RUINS_DYNASTY_WIN">
+	<text>The last withered is finally removed, you receive a hail from the dynasty.
+	
+	"Great work, renegade, you truly fight with the fervor of the great reapers of old! What fuels your might fury that allows you to do such a feat?"</text>
+	<choice hidden="true">
+		<text>Scrap and blueprints, mostly.</text>
+		<event>
+			<text>The alpha laughs before transferring the rewards "It's good to see that humor isn't dead now at days, please, accept the blueprints and the special bonus, as promised".</text>
+				<weapon name="LIST_LOOT_DYNASTY"/>
+				<achievement silent="false">ACH_FR_EVENT_WITHER_CREWKILL</achievement>
+				<unlockCustomShip silent="false">PLAYER_SHIP_FR_ALT_WITHER</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+</FTL>

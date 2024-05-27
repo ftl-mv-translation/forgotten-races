@@ -1,0 +1,79 @@
+﻿<FTL>
+
+<ship name="SHIP_FR_QUEST_BILLVAN" auto_blueprint="FR_BOSS_QUEST_BILLVAN">
+	<surrender min="5" max="10" load="FR_BILLVAN_QUEST_SURRENDER"/>
+	<triggeredEvent name="FR_BILLVAN_SURRENDER_TRIGGER" event="FR_BILLVAN_QUEST_SURRENDER" enemyCrew="3" thisFight="true"/>
+	<destroyed load="FR_BILLVAN_QUEST_DEFEAT"/>
+	<deadCrew load="FR_BILLVAN_QUEST_DEFEAT"/>
+</ship>
+
+<ship name="SHIP_FR_QUEST_WITHER_CRUISER" auto_blueprint="FR_BOSS_QUEST_WITHER_CRUISER">
+	<destroyed>
+		<text>The enemy ship breaks apart, destroying it and any withereds left inside. You attempt to hail the dynasty, but all you receive is a ASB shot straight into your engines, you better get out of here quick!</text>
+		<autoReward level="MED">standard</autoReward>
+		<damage amount="3" system="engines" effect="breach"/>
+		<environment type="PDS" target="player"/>
+	</destroyed>
+	<surrender min="10" max="15" load="FR_WITHER_RUINS_DYNASTY_WARNING"/>
+	<deadCrew load="FR_WITHER_RUINS_DYNASTY_CREWKILL"/>
+	<triggeredEvent name="FR_WITHER_RUINS_WITHERED_OFFER_TRIGGER" event="FR_WITHER_RUINS_WITHERED_OFFER" enemyCrew="1" thisFight="true"/>
+</ship>
+
+<ship name="SHIP_FR_QUEST_ENHANCED" auto_blueprint="FR_BOSS_QUEST_AUGMENTED_CRUISER">
+	<destroyed>
+		<text>The enemy cruiser is destroyed, leaving you with a moderate amount of scrap.</text>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_ENHANCED_CHOICE_WIN"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>You've exterminated all the augmented from the ship, leaving you with plenty of things to scrap.</text>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_ENHANCED_CHOICE_WIN"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<ship name="SHIP_FR_BOSS_QUEST_BROKEN_COMMONWEALTH_AUTO" auto_blueprint="FR_BOSS_QUEST_BROKEN_COMMONWEALTH_AUTO">
+	<triggeredEvent event="FR_COMMONWEALTH_AUTO_WIN" time="60" thisFight="true">
+		<triggeredEventBox load="DEFAULT_TIMER" pos="combat">
+			<warning time="10.0" flash="false"/>
+			<tooltip>Hold off this long without destroying the auto so we can hack its security systems.</tooltip>
+		</triggeredEventBox>
+		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+	</triggeredEvent>
+	<destroyed>
+		<text>The ship buckles under your assault and splits into uncountable pieces, seems whatever mystery that ship held will forever go unanswered.</text>
+		<autoReward level="HIGH">standard</autoReward>
+	</destroyed>
+</ship>
+
+<ship name="SHIP_FR_QUEST_PEACEKEEPING_CRUISER" auto_blueprint="MU_ZOLTAN_CRUISER_ELITE">
+	<destroyed>
+		<text>The massive vessel breaks in half, falling down on top of the nearby zoltan shipyard, taking out multiple high value ships parked there. This was a decisive blow against the zoltan government. The Osmian ship hails you.</text>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_PEACEKEEPER_CRUISER_QUEST_DEFEAT"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>As the last zoltan falls, you set the ship's auto pilot to crash on the nearby zoltan shipyard before beaming your crew away, taking out multiple parked zoltan vessels in the process. The Osmian ship hails you.</text>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_PEACEKEEPER_CRUISER_QUEST_DEFEAT"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<ship name="SHIP_FR_QUEST_AUTO_CRUISER" auto_blueprint="FR_BOSS_QUEST_AUTO_CRUISER">
+	<destroyed load="FR_SALT_BATTLESHIP_QUEST_WIN"/>
+	<deadCrew load="FR_SALT_BATTLESHIP_QUEST_WIN"/>
+</ship>
+
+</FTL>

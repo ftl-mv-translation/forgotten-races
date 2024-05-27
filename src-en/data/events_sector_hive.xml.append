@@ -1,0 +1,63 @@
+﻿<FTL>
+<mod:findName type="event" name="HIVE_BISHOP_WIN">
+	<mod-append:choice req="unique_tully" blue="true" hidden="true">
+		<text>(Tully) "Queen Leikonpliiinakra, please listen! It doesn't have to end this way, I have enough power in the federation to convince their leaders to agree to aid the Hive in rebuilding any damage caused by the fed mantis war, if you agree to leave the coalition we will do everything we can to make sure the Hive has a loyal ally in the battles to come! Please, don't this end in more bloodshed!"</text>
+			<event>
+				<text>After an hour long pause, the remaining hive ships all power down their weapons as queen Leikonpliiinakra hails your ship "I'm afraid we are in no place to bargain, we need to be within a greater faction if we have any hope of surviving as is, before it was the coalition but I suppose the federation will also be able to supply out needs. Unfortunately I can't sign any pacts as of yet, this transition must be slow, otherwise we may have issues with opposing ideas from the lesser mantis."
+				
+				      "However, I do believe a meeting with your so called leaders is in order, allow me to accompany you in your little quest."</text>
+				<crewMember amount="1" class="fr_unique_mantis_queen">Leikonpliiinakra</crewMember>
+			</event>
+	</mod-append:choice>
+	<mod-append:choice req="LIST_CREW_FREDDY" blue="true" hidden="true">
+		<text>(Freddy) "Queen Leikonpliiinakra, I understand we have our differences, the cultural divide between our clans is clear as glass, however, this war has claimed the lives of countless mantis, from both sides! Please, let's end all this endless cycle of death! I can grantee a home for the hive within the federation, you just need to give me a chance!"</text>
+			<event>
+				<text>After an hour long pause, the remaining hive ships all power down their weapons as queen Leikonpliiinakra hails your ship "Very well then, Tiifleeiiik, I see your gesture and I'm willing to trust you that you will hold your end of the bargain, not that I have the luxury to bargain."
+				
+				      "I do believe a meeting with the so called leaders of the federation is in order, allow me to accompany you in your little quest."</text>
+				<crewMember amount="1" class="fr_unique_mantis_queen">Leikonpliiinakra</crewMember>
+			</event>
+	</mod-append:choice>
+	<mod-append:choice req="fr_unique_mantis_queen" blue="true" hidden="true">
+		<text>(Leikonpliiinakra) "Listen other me! Its not too late stop! I have seen the federation's inner workings and they are trustworthy! Please don't trow your life away out of pride!"</text>
+			<event>
+				<text>The queen on the other end is speechless, she looked at her doppelganger for several minutes before finally speaking "I-Is...that...me? I...joined the federation?" She stares at her other self for several more minutes before finally snapping back to reality.
+				
+				"Very well then, if you managed to convince that version of me then I suppose that's my grantee. Let's go renegade, bring me to your leaders."</text>
+				<crewMember amount="1" class="fr_unique_mantis_queen">Leikonpliiinakra</crewMember>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+
+<mod:findName type="event" name="ENCOUNTER_BISHOP_CHOICE">
+	<mod-append:choice req="fr_unique_mantis_queen" blue="true" hidden="true">
+		<text>(Leikonpliiinakra) Have the queen contact the bishop instead.</text>
+			<event>
+				<text>"Oh queen! I was not expecting to see you far from nest! Please, let me serve in queen's mission!"</text>
+					<crewMember amount="1" class="mantis_bishop"/>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="MANTIS_CREW">
+	<mod-append:choice req="FR_LIST_CREW_SALT_LESS_OBYN" blue="true" hidden="true">
+		<text>(Salt Crew) Have your Salt Soldier open the pod.</text>
+		<event load="FR_MANTIS_CREW_LIST_SALT"/>
+	</mod-append:choice>
+</mod:findName>
+
+<eventList name="FR_MANTIS_CREW_LIST_SALT">	
+	<event>
+		<text>Your salt soldier approaches the pod, investigating it up and down, trying to find out what's inside it. Eventually he gives up and just opens the pod, only to find a dead mantis, frothing at the mouth. It seems they died from being exposed to the salt soldier's mere presence for an extended period of time.</text>
+	</event>
+	<event>
+		<text>As soon as you open the pod, the Mantis inside falls to the ground and grovels at your feet. "Oh most gracious and noble captain, you are sparing of me! Please, accepting my gratitude and service."</text>
+		<crewMember amount="1" class="mantis"/>
+	</event>
+	<event>
+		<text>A man bursts out of the life-pod screaming and claws his way into a corner. A rare survivor of Mantis captivity. Once calm, the survivor offers to join your crew for a time.</text>
+		<crewMember amount="1" class="human"/>
+	</event>
+</eventList>
+</FTL>

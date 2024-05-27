@@ -1,0 +1,65 @@
+﻿<FTL>
+
+<!--
+	VANCE STUFF
+-->
+
+<mod:findName type="event" name="ENCOUNTER_REBEL">
+	<mod-append:choice req="unique_vance" blue="true" hidden="true">
+		<text>(Vance Prime) "Halt soldier! The rebel movement is under the spell of a treacherous rat! This is your official order to disband!"</text>
+			<event>
+				<text>"It's an honor to meet you sir! Yes, we will stand down at your order!"</text>
+					<autoReward level="HIGH">standard</autoReward>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>"Vance prime! Sir, it's a honor to meet you! We are short on supplies but we have a excess of crew currently!" The rebels offers to join your crew.</text>
+					<crewMember amount="1" class="human_soldier"/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>The rebel captain can't believe their eyes when they see that your ship carries the one and only Vance Prime! They quickly apologize and promise to delay the fleet as much as they can before jumping away.</text>
+					<modifyPursuit amount="-2"/>
+					<instantEscape/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>"We know what you did, Prime! No mercy for traitors!"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="ENCOUNTER_REBEL_SPY">
+	<mod-append:choice req="unique_vance" blue="true" hidden="true">
+		<text>(Vance Prime) "Halt soldier! The rebel movement is under the spell of a treacherous rat! This is your official order to disband!"</text>
+			<event>
+				<text>"It's an honor to meet you sir! Yes, we will stand down at your order!"</text>
+					<autoReward level="HIGH">standard</autoReward>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>"Vance prime! Sir, it's a honor to meet you! We are short on supplies but we have a excess of crew currently!" The rebels offers to join your crew.</text>
+					<crewMember amount="1" class="human_soldier"/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>The rebel captain can't believe their eyes when they see that your ship carries the one and only Vance Prime! They quickly apologize and promise to delay the fleet as much as they can before jumping away.</text>
+					<modifyPursuit amount="-2"/>
+					<instantEscape/>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>"We know what you did Prime! No mercy for traitors!"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+</FTL>

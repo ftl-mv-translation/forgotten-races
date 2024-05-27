@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
+<img x="-56" y="-29" w="551" h="443" />
+<offsets>
+	<floor x="50" y="23" />
+	<cloak x="-21" y="-21" />
+</offsets>
+<weaponMounts>
+	<mount x="518" y="127" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="518" y="316" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="387" y="20" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="387" y="422" rotate="true" mirror="false" gib="-1" slide="down" />
+</weaponMounts>
+
+<thrusters sync="true">
+    <thruster x="3" y="297">fr_prince_a_thrusters</thruster>
+    <thruster x="3" y="126">fr_prince_a_thrusters</thruster>
+    <thruster x="-4" y="333">fr_prince_a_thrusters</thruster>
+    <thruster x="-4" y="90">fr_prince_a_thrusters</thruster>
+    <thruster x="362" y="132">fr_prince_a_thrusters</thruster>
+    <thruster x="362" y="291">fr_prince_a_thrusters</thruster>
+    <thruster x="378" y="169">fr_prince_a_thrusters</thruster>
+    <thruster x="378" y="254">fr_prince_a_thrusters</thruster>
+</thrusters>
+<explosion />
+

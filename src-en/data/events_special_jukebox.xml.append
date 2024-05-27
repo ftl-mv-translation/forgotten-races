@@ -1,0 +1,16 @@
+<mod:findName type="event" name="STORAGE_CHECK_JUKEBOX">
+    <mod-append:choice hidden="true" req="fr_juke_tartarus">
+		<text>FR: Forgotten Tartarus - Composed by Altzeus</text>
+		<event>
+			<playMusic>tartarus</playMusic>
+			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
+		</event>
+	</mod-append:choice>
+    <mod-append:choice hidden="true" req="fr_juke_necronightmare">
+		<text>FR: Necro Nightmare (G's Track) - Composed by Altzeus</text>
+		<event>
+			<playMusic>necronightmare</playMusic>
+			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
+		</event>
+	</mod-append:choice>
+</mod:findName>

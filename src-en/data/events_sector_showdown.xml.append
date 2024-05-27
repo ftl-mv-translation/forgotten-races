@@ -1,0 +1,535 @@
+<FTL>
+
+<mod:findName type="event" name="TRUE_VICTORY">
+	<mod-append:choice req="FR_COMMONWEALTHS_BODY" blue="true" hidden="true">
+		<text>Siphon the energy of the the Paragon into the broken down Obelisk!</text>
+		<event>
+			<text>You swiftly get to work by dismantling the Paragon, inside you find a small ball of energy that's surprisingly cold to the touch. Figuring this must be the bomb's energy source, you carefully open the top of the broken obelisk's cube and gently insert the ball inside of it. </text>
+			<remove name="FR_COMMONWEALTHS_BODY"/>
+			<choice hidden="true">
+				<text>Let's hope this works...</text>
+				<event>
+					<text>Suddenly, the obelisk's body start glowing a tone that can only be described as all the colors of the rainbow combined, getting brighter by the second until the light is finally absorbed back into the obelisk's body, which now seems brand new! The Ancient "wakes up" and looks around, clearly dazed and confused. Meanwhile, the energy ball quickly wisps pass you and returns inside the paragon.</text>
+					<choice hidden="true">
+						<text>Hello?</text>
+						<event>
+							<text>The being jumps back, startled by your presence as it begins to speak in a indecipherable language before their translator slowly starts working again. It then starts to speak to you, their demeanor being rather quick and breathless as they quickly ping pong between a subjects with little pause. "O-Oh d-dear! W-What have we here? A being similar to the crystal kin, a mortal, similar to them, yet very, very much different. Pardon my loss of composure just now sir, or madam, maybe neither. I apologize if I offended you, as I am in a bit of a daze at the moment since it seems that...my memories seem to have been wiped...somehow. Not all of it, just...enough to leave me directionless."</text>
+							<choice hidden="true">
+								<text>Who...are you?</text>
+								<event>
+									<text>The being finally pauses as they stare at you, you assume it's from the rather upfront question before it becomes clear that the pause is not accidental, but intentional. "I...Can't remember, it seems my name was one of the things wiped from my memory. But names are rather...unneeded in this context, in fact, as I have been talking to you, my mainframe has been digging up through the small bits of information that my broken down sensors managed to pick up since I was...decommissioned. You...you saved me didn't you? I was...broken, beyond repair but you...you brought me back from oblivion...though from what I could gather I'm...the only one of my kind alive...aren't I?" The obelisk speaks as the reality of their situation slowly dawns on them, their jumpy and confused demeanor suddenly being replaced by a somber and regretful one.</text>
+									<choice hidden="true">
+										<text>Yes I'm...afraid so.</text>
+										<event>
+											<text>The being stays silent for a moment, before they quickly look around for a few seconds and then move straight towards a door in the back of the room. "Then we have a lot of work to do. This ship was my...old vessel. It may be decrepit and in ruins by now but I...I can bring it back together to its former glory. I may even be able to make some replicas of myself, they might not be like...like others of my kind but...maybe given enough time they can bring the commonwealth back from extinction. I must...however, make some changes to the treacherous design that the royals enforced on us. Don't worry about the specifics, just know that we will serve you and whatever cause you fight for from now on!" </text>
+											<unlockCustomShip silent="false">PLAYER_SHIP_FR_COMMONWEALTH</unlockCustomShip>
+											<achievement silent="false">ACH_FR_EVENT_COMMONWEALTH</achievement>
+											<choice hidden="true">
+												<text>We would be honored!</text>
+												<event load="TRUE_VICTORY_LOAD"/>
+											</choice>
+										</event>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW">
+	<mod-append:choice hidden="true" req="unique_vance">
+		<text>Ask Vance Prime about this.</text>
+		<event load="FR_TRUE_VICTORY_CREW_VANCE"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="unique_cyra">
+		<text>Ask Cyra about this.</text>
+		<event load="FR_TRUE_VICTORY_CREW_CYRA"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_mantis_queen">
+		<text>Ask Queen Leikonpliiinakra about this.</text>
+		<event load="FR_TRUE_VICTORY_CREW_LEIKONPLIIINAKRA"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="FR_LIST_CREW_SNOWMAN_FIGHT">
+		<text>Check on your Snowman.</text>
+		<event load="FR_TRUE_VICTORY_CREW_SNOWMAN"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_lavaman">
+		<text>Check on your Lavaman.</text>
+		<event load="FR_TRUE_VICTORY_CREW_LAVAMAN"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="FR_LIST_CREW_SPIDER_VENOM">
+		<text>Check on the Venomous Spider Queen.</text>
+		<event load="FR_TRUE_VICTORY_CREW_VENOM"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="LIST_GANA">
+		<text>Check on the Gana drone.</text>
+		<event load="FR_TRUE_VICTORY_CREW_GANA"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="FR_LIST_CREW_CYBERPONY">
+		<text>Ask your Cyberpony about this.</text>
+		<event load="FR_TRUE_VICTORY_CREW_CYBERPONY"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_gozer">
+		<text>Ask Goziodeon about this.</text>
+		<event load="FR_TRUE_VICTORY_CREW_GOZER"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="human_humanoid">
+		<text>Ask Stefan about this.</text>
+		<event load="FR_TRUE_VICTORY_CREW_STEFAN"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="FR_LIST_CREW_SAMMY">
+		<text>Ask Michael about this.</text>
+		<event load="FR_TRUE_VICTORY_CREW_SAMMY"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="FR_LIST_CREW_LEAH">
+		<text>Ask Leah about this.</text>
+		<event load="FR_TRUE_VICTORY_CREW_LEAH"/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="TRUE_VICTORY_CREW_WITHER">
+    <mod-append:unlockCustomShip silent="false">PLAYER_SHIP_FR_WITHER_GUARDIAN</mod-append:unlockCustomShip>
+</mod:findName>
+
+<event name="FR_TRUE_VICTORY_CREW_VANCE">
+	<text>"To be frank I'm... Not sure I deserve to be alive after all of this, sure that wasn't... Me, I suppose, but... I share the same blood as that man, I'm a exact copy of him, what makes me special enough to be allowed to live? ... Well, if you want to know what I think, activate the bomb, let us all be forgotten and let this whole mistake of a war end once and for all."</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_VANCE_PRIME_CREWSER</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_LEAH">
+	<text>"Ahaha! Did you see the size of the flagship was just destroyed?! That ship puts all multiversal flagships to shame! You didn't disapoint me either, great job out there, Beyatch!"</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_LEAH_CREWSER</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_SAMMY">
+	<text>"I...I don't know what to say, renegade, all I wanted was to go home and you decided to drag me through this...cuboid hell! For the love of god tell me that you don't plan on blowing all of us up, I don't want to die!"</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_SAMMY_CREWSER</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_STEFAN">
+	<text>"This...this is all madness! Cube people! Multiversal bombs! This doesn't make any sense! I just want to go back to selling my minelaunchers! Do whatever you want with that...thing, I'm the last person who should have a say on this."</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_STEFAN_CREWSER</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_GOZER">
+	<text>"Well done kid! Needless to say you passed with flying colors! You are officially a member of the haunt family now! Welcome to the family kid!"</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_GOZER_CREWSER</unlockCustomShip>
+	<achievement silent="false">ACH_FR_EVENT_GOZER_RECRUIT</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_CYRA">
+	<text>"I'm not sure what to think, renegade, seeing a man I respected so much be willing to do something like that... It's... not something I can truly accept. As for my advice? Don't let this be how your journey ends, destroy that infernal device, please."</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_CYRA_CREWSER</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_LEIKONPLIIINAKRA">
+	<text>"Now this...this victory is exactly what the mantis people needed to regain our pride lost during the fed mantis war! Not only did we stop the rebellion, hopefully forever, but we also managed to defeat the crystal's biggest rival back in the ancient times! I can't wait to see Elder Stonewall's face after this. Thank you, renegade, I promises we will put forward the effort to form a formal alliance between the mantis hive and the federation."</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_SNOWMAN">
+	<text>You look at the snowman, for a moment nothing happens, but soon after a soft smile appears in their "face", a wave a comfort passes over you and you can't help but smile as well.</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_SNOWMAN</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_LAVAMAN">
+	<text>You look at the lavaman, for a moment nothing happens, but soon after a soft smile appears in their "face", a wave a comfort passes over you and you can't help but smile as well.</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_SNOWMAN_2</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_VENOM">
+	<text>The Queen gently nods and bows down softly. Something about this gesture tells you she knows more than you thought.</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_VENOMOUS_SPIDER_QUEEN_CREWSER</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_CYBERPONY">
+	<text>"Neigggh! Horsie [happy]! Horsie [horsie] helped -helped-! [Break bomb]! Snort snort!"</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_CYBERPONY_CREWSER</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_GANA">
+	<text>You stare at the robot for what feels like ages, but nothing happens. Although you feel a strong urge to use the bomb for some reason.</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_GANA_CREWSER</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<mod:findName type="event" name="SHOWDOWN_CASUAL">
+	<mod-append:choice hidden="true" req="unique_vance">
+		<text>(Vance) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_VANCE"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="FR_REQUIREMENT_HAS_TULLY_AND_JERRY">
+		<text>(Tully and Jerry) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_TULLY_AND_JERRY"/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="SHOWDOWN_NORMAL">
+	<mod-append:choice hidden="true" req="unique_vance">
+		<text>(Vance) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_VANCE"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="FR_REQUIREMENT_HAS_TULLY_AND_JERRY">
+		<text>(Tully and Jerry) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_TULLY_AND_JERRY"/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="SHOWDOWN_CHALLENGE">
+	<mod-append:choice hidden="true" req="unique_vance">
+		<text>(Vance) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_VANCE"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="FR_REQUIREMENT_HAS_TULLY_AND_JERRY">
+		<text>(Tully and Jerry) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_TULLY_AND_JERRY"/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="SHOWDOWN_EXTREME">
+	<mod-append:choice hidden="true" req="unique_vance">
+		<text>(Vance) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_VANCE"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="FR_REQUIREMENT_HAS_TULLY_AND_JERRY">
+		<text>(Tully and Jerry) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_TULLY_AND_JERRY"/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="SHOWDOWN_JERRY">
+	<mod:findLike type="choice">
+        <mod:findLike type="event">
+			<mod:findLike type="choice">
+				<mod:findLike type="event">
+					<mod:findLike type="choice">
+						<mod:findLike type="event">
+							<mod:findLike type="choice">
+								<mod:findLike type="event">
+									<mod:findLike type="choice">
+										<mod:findLike type="event">
+											<mod:findLike type="choice">
+												<mod:findLike type="event">
+													<mod:findLike type="choice">
+														<mod:findLike type="event">
+															<mod-append:choice hidden="true" blue="false" lvl="1" max_group="0" req="fr_bonus_prince">
+																<text>Continue...</text>
+																<event>
+																	<text>Before you can proceed on to the Flagship, Jerry pauses, and walks out of the room.</text>
+																	<removeCrew class="unique_jerry_gun">
+																		<clone>false</clone>
+																		<text>You have no idea where Jerry is going, but you follow him.</text>
+																	</removeCrew>
+																	<choice hidden="true">
+																		<text>Continue...</text>
+																		<event>
+																			<text>Jerry enters the room where Prince is sleeping...</text>
+																			<removeCrew class="fr_bonus_prince">
+																				<clone>false</clone>
+																				<text>You have no idea what Jerry is doing, and watch in confusion.</text>
+																			</removeCrew>
+																			<choice hidden="true">
+																				<text>Continue...</text>
+																				<event>
+																					<text>Then, Jerry proceeds to mount Prince! "Alright. Now I'm ready."</text>
+																					<crewMember amount="1" class="fr_bonus_prince_jerry">Jerry</crewMember>
+																					<achievement>ACH_JERRY_STEED</achievement>
+																					<achievement>ACH_FR_EVENT_JERRY_SHADOW_PONY</achievement>
+																					<choice hidden="true">
+																						<text>Continue...</text>
+																						<event load="COMBAT_CHECK"/>
+																					</choice>
+																				</event>
+																			</choice>
+																		</event>
+																	</choice>
+																</event>
+															</mod-append:choice>
+														</mod:findLike>
+													</mod:findLike>
+												</mod:findLike>
+											</mod:findLike>
+										</mod:findLike>
+									</mod:findLike>
+								</mod:findLike>
+							</mod:findLike>
+						</mod:findLike>
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<event name="FR_SHOWDOWN_TULLY_AND_JERRY">
+	<text>Vance pauses, and appears on the vid screen. Both tully and Jerry step forwards, vance is shocked as he looked at them, two of the most important people in his life are now looking at him in the eyes. Jerry is the first to speak 
+	
+	"Uncle...please, i know you are desperate, but it's not too late to turn back! me and tully will let you go if you just...stop"</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Vance looks away and closes his eyes, he sighs deeply and speak, refusing to look at them in the eyes "No...no it's...too late for that, Jerry...Brodric...I...I'm sorry"</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>This time tully is the one to speak, he steps forward more, being right up close to the screen. 
+					
+					"Vance, for the love of god stop this madness! Haven't you seen the death and misery that you have sowed? How have innocents have died because of this? how many billions if not trillions more will die before you are satisfied? You don't HAVE to do this Vance! You can change! We are here for you! We can help you!...please."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>Vance stays silent for almost an hour, the only thing visible on the other side is his back. 
+							
+							Suddenly, the feed is cut, you at first think that vance is too far gone before you hear the sound of someone teleporting aboard, it's vance! with the bomb in toe as well! He can't stop looking at the ground as he hands you the bomb, unable to look anyone in the eyes.
+							
+							"I'm trusting you here Jerry, please don't have me make another mistake..." He speaks as Jerry hugs him, catching the admiral off guard, he finally looks up, greeting Tully's gaze, who has a soft smile on his face. He offfers Vance a handshake, which vance takes after a few minutes of deliberation.
+							
+							It seems bloodshed wasn't needed after all, you wonder if the rebellion will accept this or not.</text>
+							<achievement silent="false">ACH_FR_EVENT_VANCE_TRUEEND_SPARE</achievement>
+							<crewMember amount="1" class="unique_vance" all_skills="2">Vance Prime</crewMember>
+								<choice hidden="true">
+									<text>Continue...</text>
+									<event load="FR_SHOWDOWN_TWIST"/>
+								</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_SHOWDOWN_TWIST">
+	<text>Suddenly, the video feed turns on again, on the other side is the mfk clonebay, everyone is confused for a few minutes before another vance walks out of the machine, he smiled at the camera "You aren't going anywhere, traitor!"</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Your vance, tully and Jerry are all shocked "you...WHAT HAVE YOU DONE?!" Vance yells as he tried to teleport back to his ship, only to find out he was blocked out of it, the other vance laughs "Sorry, we don't accept rats into our ship, i may not have your little bomb, but what we do have is brilliant technicians waiting in universe 1, and when they hear what the paragon is, they will surly be able to make something much, much worse!"</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>The opposing Vance's glare becomes sharper and more hateful, every word that comes out of his mouth is like venom being spit in your direction "You DARE to insult me?! YOU?! A TRAITOR AND A RAT?! After everything we have done you just go crawling back to the very same government force that destroyed your spirit in the past?! You lick their boots and beg for their forgiveness, running away from your responsibilities and leaving your man, the very people that served you for their entire life, without a leader."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>Jerry tried to speak up "U-Uncle? Why...are you doing this-" He is cut off by the other vance "Don't bother, you pathetic coward, no family member of mine licks the boots of federation scum!" Tully open his mouth to speak but the call is shut off.</text>
+								<choice hidden="true">
+									<text>Continue...</text>
+									<event>
+										<text>Jerry collapses to his knees, shocked and speechless as how easily he was betrayed. "I should have known..." Jerry chokes up a sob, and holds his head in his hands while tears form puddles on the ground. Vance, meanwhile, is fuming, he offers his hand to jerry and hugs him. 
+										
+										"Whatever that scumbag told you isn't true, you are a Wentworth Jerry, and you deserve it more than anyone else, okay?" Jerry smile comes back, slowly but surly.</text>
+										<removeCrew class="unique_jerry">
+											<clone>false</clone>
+											<text>Jerry is still recovering from what happened, but he seems to have gotten an idea.</text>
+										</removeCrew>
+										<choice hidden="true">
+											<text>Continue...</text>
+											<event>
+												<text>Suddenly, Jerry gets up, hugs vance one more time before wiping away the tears. "Well, there's only one thing left to do now." He draws out a massive Gatling gun. You aren't sure where he got it from, but you don't have the time to question it.</text>
+												<achievement>ACH_JERRY_END</achievement>
+												<crewMember amount="1" class="unique_jerry_gun">Jerry</crewMember>
+												<ship hostile="true"/>
+												<choice hidden="true" blue="false" lvl="0" max_group="0" req="pony_tamed">
+													<text>Continue...</text>
+													<event>
+														<text>With Jerry armed and ready, it looks like there's nothing left to do but fight!</text>
+														<choice hidden="true">
+															<text>Continue...</text>
+															<event load="COMBAT_CHECK"/>
+														</choice>
+													</event>
+												</choice>
+												<choice hidden="true" blue="false" lvl="1" max_group="0" req="ponyc">
+													<text>Continue...</text>
+													<event>
+														<text>Before you can proceed on to the Flagship, Jerry pauses, and walks out of the room.</text>
+														<removeCrew class="unique_jerry_gun">
+															<clone>false</clone>
+															<text>You have no idea where Jerry is going, but you follow him.</text>
+														</removeCrew>
+														<choice hidden="true">
+															<text>Continue...</text>
+															<event>
+																<text>Jerry enters the room where the Equinoid is sleeping...</text>
+																<removeCrew class="ponyc">
+																	<clone>false</clone>
+																	<text>You have no idea what Jerry is doing, and watch in confusion.</text>
+																</removeCrew>
+																<choice hidden="true">
+																	<text>Continue...</text>
+																	<event>
+																		<text>Then, Jerry proceeds to mount the pony! "Alright. Now I'm ready."</text>
+																		<crewMember amount="1" class="unique_jerry_pony_crystal">Jerry</crewMember>
+																		<achievement>ACH_JERRY_STEED</achievement>
+																		<achievement>ACH_JERRY_CRYSTALSTEED</achievement>
+																		<ship hostile="true"/>
+																		<choice hidden="true">
+																			<text>Continue...</text>
+																			<event load="COMBAT_CHECK"/>
+																		</choice>
+																	</event>
+																</choice>
+															</event>
+														</choice>
+													</event>
+												</choice>
+												<choice hidden="true" blue="false" lvl="1" max_group="0" req="fr_bonus_prince">
+													<text>Continue...</text>
+													<event>
+														<text>Before you can proceed on to the Flagship, Jerry pauses, and walks out of the room.</text>
+														<removeCrew class="unique_jerry_gun">
+															<clone>false</clone>
+															<text>You have no idea where Jerry is going, but you follow him.</text>
+														</removeCrew>
+														<choice hidden="true">
+															<text>Continue...</text>
+															<event>
+																<text>Jerry enters the room where Prince is sleeping...</text>
+																<removeCrew class="fr_bonus_prince">
+																	<clone>false</clone>
+																	<text>You have no idea what Jerry is doing, and watch in confusion.</text>
+																</removeCrew>
+																<choice hidden="true">
+																	<text>Continue...</text>
+																	<event>
+																		<text>Then, Jerry proceeds to mount Prince! "Alright. Now I'm ready."</text>
+																		<crewMember amount="1" class="fr_bonus_prince_jerry">Jerry</crewMember>
+																		<achievement>ACH_JERRY_STEED</achievement>
+																		<achievement>ACH_FR_EVENT_JERRY_SHADOW_PONY</achievement>
+																		<choice hidden="true">
+																			<text>Continue...</text>
+																			<event load="COMBAT_CHECK"/>
+																		</choice>
+																	</event>
+																</choice>
+															</event>
+														</choice>
+													</event>
+												</choice>
+												<choice hidden="true" blue="false" lvl="1" max_group="0" req="pony_tamed">
+													<text>Continue...</text>
+													<event>
+														<text>Before you can proceed on to the Flagship, Jerry pauses, and walks out of the room.</text>
+														<removeCrew class="unique_jerry_gun">
+															<clone>false</clone>
+															<text>You have no idea where Jerry is going, but you follow him.</text>
+														</removeCrew>
+														<choice hidden="true">
+															<text>Continue...</text>
+															<event>
+																<text>Jerry enters the room where the Equinoid is sleeping...</text>
+																<removeCrew class="pony_tamed">
+																	<clone>false</clone>
+																	<text>You have no idea what Jerry is doing, and watch in confusion.</text>
+																</removeCrew>
+																<choice hidden="true">
+																	<text>Continue...</text>
+																	<event>
+																		<text>Then, Jerry proceeds to mount the pony! "Alright. Now I'm ready."</text>
+																		<crewMember amount="1" class="unique_jerry_pony">Jerry</crewMember>
+																		<achievement>ACH_JERRY_STEED</achievement>
+																		<ship hostile="true"/>
+																		<choice hidden="true">
+																			<text>Continue...</text>
+																			<event load="COMBAT_CHECK"/>
+																		</choice>
+																	</event>
+																</choice>
+															</event>
+														</choice>
+													</event>
+												</choice>
+											</event>
+										</choice>
+									</event>
+								</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_SHOWDOWN_VANCE">
+	<text>Vance pauses, and appears on the vid screen. Your vance steps forward while the opposing vance just stares him down with a mix of confusion and disgust. "And just when I thought that the morality of my kind couldn't go any lower, here stands the living proof that me allying with the federation was the right choice. What a pathetic shell of a man you are, too much of a coward to go out like the soldiers that serve you unconditionally and yet too much of a pride-ridden fool to admit your mistakes."</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The opposing Vance's glare becomes sharper and more hateful, every word that comes out of his mouth is like venom being spit in your direction "You DARE to insult me?! YOU?! A TRAITOR AND A RAT?! After everything we have done you just go crawling back to the very same government force that destroyed your spirit in the past?! You lick their boots and beg for their forgiveness, running away from your responsibilities and leaving your man, the very people that served you for their entire life, without a leader."</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>Your Vance is trying his hardest to not break something, his expression being so angry that you start being scared that he will risk popping a blood vessel. He finally speaks again, though he doesn't stop clenching his teeth, and refuses to look at his doppelganger. "If you don't stop this you will regret this moment for the rest of your life!"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>The other vance just laughs "Hah! We will see, rat." Before shutting down the call and turning his weapons and engine online.</text>
+							<achievement silent="false">ACH_FR_EVENT_VANCE_TRUEEND</achievement>
+							<ship hostile="true"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+
+</FTL>

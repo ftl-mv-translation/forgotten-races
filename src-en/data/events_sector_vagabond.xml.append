@@ -1,0 +1,110 @@
+<FTL>
+
+<mod:findName type="event" name="UNLOCK_GHOST_QUEST_WIN">
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+			<mod:findLike type="choice">
+				<mod:findLike type="event">
+					<mod-append:jumpEvent>FR_TARTARUS_COORDINATES</mod-append:jumpEvent>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<event name="FR_TARTARUS_COORDINATES">
+	<text>As you're about to jump away, you receive another hail from the Spook Chasers:
+
+	"Hey kid, before you go, we've got one final proposition for you...
+	Since we can now retire much earlier than we expected, we uh, don't really have a use for this big time contract we were sitting on for a few years. 
+	
+	Now, I don't want to alarm you, but the bounty targets aren't...the usual types. They call themselves the "haunts", funnily enough, but they aren't the ones you just fought they are...something else.
+	
+	The reason we never did it ourselves is... well...how do I put this...The ghosts are ACTUAL GHOSTS! No bundles of gasses or angry nebula here, it's legitimately undead creatures. That's all we know about it, we never...actually read any of the bounties" The leader chuckles awkwardly, looking away.
+	
+	"Look kid, I don't want to force you to accept it, messing with the dead it just...ain't right you know? But we can't do it ourselves, not with this dinky little ship of ours, and besides, we are old now, too old perhaps, a young fella like yourself would surly kick their spectral asses"
+	
+	"just know, a few tried before us but... none of them ever came back, and I fear whatever cause those ghost to exist might have done the same to them."
+	
+	"so, what do you say, kid?"</text>
+	<choice hidden="true" req="fr_bounty_completed_mid_run" lvl="0" max_lvl="0" max_group="1" blue="false">
+		<text>You can count us in!</text>
+		<event>
+			<text>The hunter nods "Good luck kid, i really hope you can pull this through." A strange set of coordinates is then transferred to your ship, you aren't sure where this will lead you, but wherever it is, you better be ready before you head there.</text>
+			<variable name="coords_fr_ghosts" op="set" val="1"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="fr_bounty_completed_mid_run" lvl="1" max_lvl="0" max_group="1" blue="false">
+		<text>That bounty is already completed!</text>
+		<event>
+			<text>"Oh wow! And you are still alive?! Wait, if we gave you that bounty then...why can't we remember you? Gods, I'm too old for this."</text>
+		</event>
+	</choice>
+</event>
+
+<mod:findName type="event" name="UNLOCK_GHOST_QUEST_2">
+	<mod-append:choice req="fr_gozer" blue="true" hidden="true">
+		<text>(Goziodeon) "Hey you airheads! Did you forget who I am?! What are you even doing in that piece of crap anyways? Get out of that ship before I force you out myself!"</text>
+			<event>
+				<text>"Holy shit, Goziodeon! I'm so sorry boss!" The haunts scramble and shut down their guns before sending all their scrap and valuables to you. A few seconds after that the ship is emptied out as all the haunts use the emergency pods to eject out.</text>
+					<autoReward level="HIGH">elite</autoReward>
+					<weapon name="GIFTLIST_ANCIENT_BASIC"/>
+					<ship hostile="false"/>
+						<choice hidden="true">
+							<text>Continue...</text>
+							<event load="UNLOCK_GHOST_QUEST_WIN_GOZER"/>
+						</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<event name="UNLOCK_GHOST_QUEST_WIN_GOZER">
+	<text>So you aren't exactly sure what the ghost hunters will think, you technically did what they asked but not exactly how they wanted you to.</text>
+	<variable name="ach_boss_ghostflag" op="set" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The Ghost Hunter hails you. "What...Well then...That was...something? Here's the bounty reward, I suppose you might as well get the blueprints for our ship, we don't plan on using it anymore anyways."</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_GHOST</unlockCustomShip>
+			<damage amount="-5"/>
+			<item_modify>
+				<item type="fuel" min="10" max="15"/>
+				<item type="scrap" min="80" max="110"/>
+				<item type="missiles" min="7" max="10"/>
+				<item type="drones" min="5" max="9"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>"One last thing. I doubt we will have any use for this anymore, i don't know how i feel about passing my beloved pack to a ghost but...to be honest I just want to leave this place and reflect how my life reached this point."</text>
+					<augment name="PROTON_PACK"/>
+					<jumpEvent>FR_TARTARUS_COORDINATES</jumpEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<mod:findName type="event" name="NEBULA_VAGABOND_ACID">
+	<mod-append:choice req="human_humanoid" blue="true" hidden="true">
+		<text>(Stefan) "I know all about them...unfortunately"</text>
+		<event>
+			<text>Stefan explains that they are mostly contained to hazardous sectors, though he says that he has yet to see any of them since he joined our crew. This seems to satisfy Domodius. "Hark, now that is most curious. I reckoned I hath explored yet every inch there is to see of this universe. I suppose... I must have thought wrong. Please, allow me the honor to accompany thou most intrepid explorer, so that I may be present when such wonders are to be discovered!"</text>
+			<crewMember amount="1" class="phantom_wraith">Domodius</crewMember>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="NEBULA_GHOST_INSANE_ROCKMEN">
+	<mod-append:choice req="FR_LIST_CREW_HAUNT_ALL" blue="true" hidden="true">
+		<text>(Undead Crew) Show them your Actual Ghost crew.</text>
+		<event load="FR_NEBULA_GHOST_INSANE_ROCKMEN_HAUNT"/>
+	</mod-append:choice>
+</mod:findName>
+
+<event name="FR_NEBULA_GHOST_INSANE_ROCKMEN_HAUNT">
+	<text>The rockman panics when he sees your actual undead ghost crew, he bolts out of the bridge and order all his crew to evacuate, a few minutes later you see a bunch of escape pods leaving the ship, giving you free reign over it. You decide to scrap it clean.</text>
+	<autoReward level="HIGH">stuff</autoReward>
+</event>
+
+</FTL>

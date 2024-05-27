@@ -1,0 +1,80 @@
+<FTL>
+
+<mod:findName type="event" name="FMCORE_ONDAMAGE">
+    <mod-append:queueEvent>FR_NEXUS_ARM_SHIP_REPAIR</mod-append:queueEvent>
+</mod:findName>
+
+<event name="FR_NEXUS_ARM_SHIP_REPAIR">
+  <loadEventList seeded="false">
+    <event req="FR_NEXUS_ARM_SHIP">
+	<disableScrapAugments/>
+      <item_modify>
+        <item type="scrap" min="0" max="2"/>
+      </item_modify>
+    </event>
+  </loadEventList>
+</event>
+
+<event name="FR_AUGUSTUS_HEAL">
+  <item_modify>
+    <item type="scrap" min="-10" max="-10"/>
+  </item_modify>
+</event>
+
+<eventList name="FR_TRIRIAC_POSITIVE_EFFECT_LIST">
+	<event load="FR_TRIRIAC_EFFECT_FIRE"/>
+	<event load="FR_TRIRIAC_EFFECT_BREACH"/>
+    <event load="FR_TRIRIAC_EFFECT_SYSTEM_DAMAGE"/>
+	<event load="FR_TRIRIAC_EFFECT_SIREN_ALLY"/>
+	<event load="FR_TRIRIAC_EFFECT_REVENGE"/>
+	<event load="FR_TRIRIAC_EFFECT_KIDNAPPING"/>
+	<event load="FR_TRIRIAC_EFFECT_SHIELD"/>
+	<event load="FR_TRIRIAC_EFFECT_PLASMA"/>
+	<event load="FR_TRIRIAC_EFFECT_BEAM"/>
+ 	<event load="FR_TRIRIAC_EFFECT_HULL_HEAL"/>
+	<event load="FR_TRIRIAC_EFFECT_CREW_HEAL_BOMB"/>
+	<event load="FR_TRIRIAC_EFFECT_SYSTEM_HEAL_BOMB"/>
+</eventList>
+
+<event name="FR_TRIRIAC_EFFECT_FIRE">
+	<enemyDamage amount="0" effect="fire" system="room"/>
+	<enemyDamage amount="0" effect="fire" system="room"/>
+</event>
+<event name="FR_TRIRIAC_EFFECT_BREACH">
+	<enemyDamage amount="0" effect="breach" system="random"/>
+	<enemyDamage amount="0" effect="breach" system="random"/>
+</event>
+<event name="FR_TRIRIAC_EFFECT_SYSTEM_DAMAGE">
+	<enemyDamage amount="1" system="random"/>
+	<enemyDamage amount="1" system="random"/>
+    <enemyDamage amount="-2"/>
+</event>
+<event name="FR_TRIRIAC_EFFECT_SIREN_ALLY">
+	<crewMember amount="1" class="siren"/>
+</event>
+<event name="FR_TRIRIAC_EFFECT_REVENGE">
+	<enemyDamage amount="1"/>
+</event>
+<event name="FR_TRIRIAC_EFFECT_KIDNAPPING">
+	<superBarrage player="true" name="FR_TRIRIAC_KIDNAPPING"/>
+</event>
+<event name="FR_TRIRIAC_EFFECT_PLASMA">
+	<superBarrage player="true" name="FR_TRIRIAC_PLASMA"/>
+</event>
+<event name="FR_TRIRIAC_EFFECT_BEAM">
+	<superBarrage player="true" name="FR_TRIRIAC_RHYME_BEAM"/>
+</event>
+<event name="FR_TRIRIAC_EFFECT_CREW_HEAL_BOMB">
+	<superBarrage player="true" name="FR_TRIRIAC_CREW_HEAL_BOMB"/>
+</event>
+<event name="FR_TRIRIAC_EFFECT_SYSTEM_HEAL_BOMB">
+	<superBarrage player="false" name="FR_TRIRIAC_SYSTEM_HEAL_BOMB"/>
+</event>
+<event name="FR_TRIRIAC_EFFECT_SHIELD">
+	<superShields player="true" amount="5"/>
+</event>
+<event name="FR_TRIRIAC_EFFECT_HULL_HEAL">
+	<damage amount="-1"/>
+</event>
+
+</FTL>
