@@ -1,0 +1,521 @@
+<FTL>
+
+<event name="FR_COMMONWEALTH_FORGE_DRONE" unique="true">
+	<preventQuest/>
+	<preventFleet/>
+	<beaconType id="map_icon_fr_commonwealthdrone" global="true">
+		<color r="0" g="39" b="253" a="1.0"/>
+		<undiscoveredTooltip>A strange broadcast seems to be coming from this beacon.</undiscoveredTooltip>
+		<unvisitedTooltip>This beacon had a ancient drone.</unvisitedTooltip>
+	</beaconType>
+	<text>Upon arriving at the beacon, you come face to face with a strange obelisk auto drone, vastly different from the others you encountered thus far, it bears colors and weapons that you haven't seen before and seems incredibly damaged, with parts of its internal systems exposed and twisted. Strangely, it seems to hail you.</text>
+	<ship load="SHIP_FR_BOSS_QUEST_BROKEN_COMMONWEALTH_AUTO" hostile="false"/> 
+	<choice hidden="true">
+		<text>Approach the autoship and try to receive the hail.</text>
+		<event>
+			<text>The ship blares a mix of static and what could barely be considered words in a loop lasting around 10 seconds or so, whatever its trying to tell you is being lost among all the noise, not just that but the little that actually sounds like language seems to be some kinda incredibly old form of obeliskian, way too old for your modern translators to pick up. You could install a runic translator and hope it can make sense of this junk but it would require a bit of scrap.</text>
+				<choice req="UPG_AETHER_TRANSLATOR" lvl="0" max_group="1" blue="false" hidden="true">
+					<text>Install the runic Translator. [Cost: 10~, 1|]</text>
+						<event>
+							<text>You install the translator and wait to see what it can decode.</text>
+							<hiddenAug>UPG_AETHER_TRANSLATOR</hiddenAug>
+							<achievement silent="false">ACH_OBEL_AETHERTECH</achievement>
+							<item_modify>
+								<item type="drones" min="-1" max="-1"/>
+								<item type="scrap" min="-10" max="-10"/>
+							</item_modify>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+							</choice>
+						</event>
+				</choice>
+				<choice hidden="true" req="UPG_AETHER_TRANSLATOR" lvl="1" max_group="1" blue="true">
+					<text>We already have the translator, decode what the drone is saying!</text>
+						<event>
+							<text>You turn on your runic translator and wait to see what it can decode.</text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+							</choice>
+						</event>
+				</choice>
+				<choice hidden="true" blue="false">
+					<text>Try to manually translate the noises, it may take some time but it's going to be worth it!</text>
+						<event>
+							<text>You decide to do this the hard way, it's for sure possible, you can translate current obelisk dialect just fine, but this isn't going to be easy regardless, you sit back and wait for it to finish over the next few days.</text>
+							<modifyPursuit amount="2"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+							</choice>
+						</event>
+				</choice>
+				<choice hidden="true" req="FR_BLUELIST_DIRECTOR_DRONES" blue="true">
+					<text>See if we can get our director to translate the text for us.</text>
+						<event>
+							<text>You feed the data into your director and wait to see what it can decode.</text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+							</choice>
+						</event>
+				</choice>
+				<choice hidden="true" req="FR_BLUELIST_ANCIENT_NO_COMMONWEALTH" blue="true">
+					<text>Ask one of our non-commonwealth obelisks to translate the weird language.</text>
+						<event>
+							<text>The obelisk freezes as they hear what the drone spoke, it takes a few minutes for you to be able to get them talk to you again, but eventually they agree to translate what the drone is saying, you wait for the ancient to fully decode the message.</text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+							</choice>
+						</event>
+				</choice>
+				<choice hidden="true" req="fr_commonwealth" blue="true">
+					<text>Ask one of our commonwealth obelisks to translate the weird language.</text>
+						<event>
+							<text>The commonwealth obelisk quickly writes up a full translation of what the drone is saying into our common language.</text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+							</choice>
+						</event>
+				</choice>
+				<choice hidden="true" req="FR_BLUELIST_COGNITIVE_NOT_METAL" blue="true">
+					<text>Ask one of our non-metal cognitives to translate the weird language.</text>
+						<event>
+							<text>The cognitive quickly starts to decode the message without a second thought, you wait for the ancient to fully decode the message.</text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+							</choice>
+						</event>
+				</choice>
+				<choice hidden="true">
+					<text>Dear lord, shut down the radio system and attack that damn thing!</text>
+					<event>
+						<text>You power up your weapons and the drone does the same, even in its broken state we shouldn't take their weapons lightly.</text>
+						<ship hostile="true"/> 
+						<choice hidden="true">
+							<text>Continue...</text>
+							<event load="COMBAT_CHECK"/>
+						</choice>
+					</event>
+				</choice>
+				<choice hidden="true">
+					<text>Shut down the radio and get out of there!</text>
+					<event>
+						<text>This isn't worth the trouble, prepare to jump;</text>
+						<choice>
+							<text>Do something onboard the ship.</text>
+							<event load="STORAGE_CHECK"/>
+						</choice>
+						<choice>
+							<text>Do nothing.</text>
+							<event/>
+						</choice>
+					</event>
+				</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Attack that ship, whatever it is it should have something of use inside it.</text>
+		<event>
+			<text>You power up your weapons and the drone does the same, even in its broken state we shouldn't take their weapons lightly.</text>
+			<ship hostile="true"/> 
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Leave the auto ship alone.</text>
+		<event>
+			<text>You have way too much stuff to deal with right now, the last thing you want is fighting with a weird broken down autoship.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED">
+	<text>Once the ship's noises are fully translated you realize it's some kinda mobile weapon and drone factory, a incredible piece of technology that was no doubt used extensively during the obelisk war all those year ago. We might be able to still make us of its incredible factory, but it seems that, even though the ship is barely able to stay together, its security systems are still working, you should still be able to hack them, however that will take some time. Until then you would need to be careful to not destroy the ship, otherwise any hopes of acquiring its special weapons would be destroyed.</text>
+	<choice hidden="true">
+		<text>Start the hacking process then!</text>
+		<event>
+			<text>You power up your internal hacking systems and start slowly chipping away at the ship's internal securities, now all you need to do is hold out until the process is finished.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="FR_LIST_CREW_COMMONWEALTH" blue="true">
+		<text>See if any of our commonwealth crew can speed up the hacking process.</text>
+		<event>
+			<text>Your commonwealth crew, being alive back when those factories were operational, manages to disable the ship's firewalls without much issue.</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="FR_COMMONWEALTH_AUTO_WIN"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="hacking" lvl="3" blue="true">
+		<text>(Advanced Hacking) Use your main hacking system to speed up the hacking process.</text>
+		<event>
+			<text>Your much more advanced on board hacking system makes quick work out of the firewall without any issue.</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="FR_COMMONWEALTH_AUTO_WIN"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>This is too risky, slowly back away from the auto ship.</text>
+		<event>
+			<text>Whatever secret that ship is hiding isn't worth the trouble, let's focus on our main mission.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_COMMONWEALTH_AUTO_WIN">
+	<text>Once the ship's firewall falls it suddenly goes inert, allowing you to interact with the forge itself, it's unfortunately heavily damaged from all the years of disrepair, meaning you can only make a single weapons or drone before the mighty auto ship's systems give out and the whole thing collapses.
+	
+		  Luckily the hacking also revealed the blueprints for a very advanced ship!</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN</unlockCustomShip>
+	<ship hostile="false"/>
+		<choice hidden="true">
+			<text>Let's see what weapon or drone we want the factory to make!</text>
+			<event>
+			<loadEvent>FR_COMMONWEALTH_AUTO_WIN_FORGE</loadEvent>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>We have no use for such a factory, dismantle the autoship.</text>
+			<event>
+				<text>With a heavy heart you decide to fully scrap the ship, at least it yields a lot of scrap.</text>
+				<autoReward level="HIGH">scrap_only</autoReward>
+				<choice>
+					<text>Do something onboard the ship.</text>
+					<event load="STORAGE_CHECK"/>
+				</choice>
+			</event>
+		</choice>
+		<choice req="FR_BLUELIST_MENDERS" blue="true">
+			<text>Use your mender to fully repair the forge as well as to install it on our ship!</text>
+			<event>
+				<text>After a lot of work the mender managed to fully repair the facility's forge and then, very carefully extract it and install it in your ship, not only that, but it seems the factory was some kinda prototype, as it didn't seem to need to be installed in a augment slow to function! Not only that, but you can also salvage the small bits of metal left after the extraction.</text>
+				<achievement silent="false">ACH_FR_EVENT_AUTO</achievement>
+				<hiddenAug>FR_AETHER_FORGE</hiddenAug>
+				<choice hidden="true">
+					<modifyPursuit amount="1"/>
+					<autoReward level="LOW">scrap_only</autoReward>
+					<text>Excellent!</text>
+					<event/>
+				</choice>
+			</event>
+		</choice>
+</event>
+
+<event name="FR_COMMONWEALTH_AUTO_WIN_FORGE">
+ <text> You enter the forge and inspect the blueprints</text>
+ 	<choice hidden="false">
+		<text>Construct A Commonwealth.</text>
+			<event>
+			<crewMember amount="1" class="fr_commonwealth"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-80"/>
+			    <item type="fuel" min="-3" max="-3"/>
+			    <item type="missiles" min="-3" max="-3"/>
+			    <item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+ 	<choice hidden="false">
+		<text>Construct A Proto-Cognitive.</text>
+			<event>
+			<crewMember amount="1" class="fr_proto_cognitive"/>
+			<item_modify>
+				<item type="scrap" min="-150" max="-150"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Laser MK.II Weapon</text>
+			<event>
+			<weapon name="FR_COMMONWEALTH_LASER_2"/>
+			<item_modify>
+				<item type="scrap" min="-140" max="-140"/>
+			    <item type="fuel" min="-10" max="-10"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Ion Weapon</text>
+			<event>
+			<weapon name="FR_COMMONWEALTH_ION"/>
+			<item_modify>
+				<item type="scrap" min="-130" max="-130"/>
+			    <item type="fuel" min="-8" max="-8"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Bomb Weapon</text>
+			<event>
+			<weapon name="FR_COMMONWEALTH_BOMB"/>
+			<item_modify>
+				<item type="scrap" min="-100" max="-100"/>
+			    <item type="missiles" min="-5" max="-5"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>	
+	<choice hidden="false">
+		<text>Forge the Commonwealth Heavy Laser Weapon</text>
+			<event>
+			<weapon name="FR_COMMONWEALTH_HEAVY_LASER"/>
+			<item_modify>
+				<item type="scrap" min="-190" max="-190"/>
+			    <item type="fuel" min="-10" max="-10"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+    <choice hidden="false">
+		<text>Forge the Commonwealth Beam Weapon</text>
+			<event>
+			<weapon name="FR_COMMONWEALTH_BEAM"/>
+			<item_modify>
+				<item type="scrap" min="-200" max="-200"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Focus Weapon</text>
+			<event>
+			<weapon name="FR_COMMONWEALTH_FOCUS"/>
+			<item_modify>
+				<item type="scrap" min="-110" max="-110"/>
+			    <item type="fuel" min="-8" max="-8"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+    <choice hidden="false">
+		<text>Forge the Commonwealth Missile Weapon</text>
+			<event>
+			<weapon name="FR_COMMONWEALTH_MISSILES"/>
+			<item_modify>
+				<item type="scrap" min="-160" max="-160"/>
+			    <item type="missiles" min="-15" max="-15"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Missile Drone</text>
+			<event>
+			<drone name="FR_COMMONWEALTH_COMBAT_MISSILE"/>
+			<item_modify>
+				<item type="scrap" min="-250" max="-250"/>
+			    <item type="drones" min="-25" max="-25"/>
+			    <item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Ion Drone</text>
+			<event>
+			<drone name="FR_COMMONWEALTH_COMBAT_ION"/>
+			<item_modify>
+				<item type="scrap" min="-140" max="-140"/>
+			    <item type="drones" min="-13" max="-13"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Beam Drone</text>
+			<event>
+			<drone name="FR_COMMONWEALTH_COMBAT_PINPOINT"/>
+			<item_modify>
+				<item type="scrap" min="-150" max="-180"/>
+			    <item type="drones" min="-15" max="-8"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Defense Drone</text>
+			<event>
+			<drone name="FR_COMMONWEALTH_DEFENSE"/>
+			<item_modify>
+				<item type="scrap" min="-200" max="-200"/>
+			    <item type="drones" min="-25" max="-25"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Laser Drone Mk.2</text>
+			<event>
+			<drone name="FR_COMMONWEALTH_COMBAT_LASER_2"/>
+			<item_modify>
+				<item type="scrap" min="-150" max="-150"/>
+			    <item type="drones" min="-15" max="-15"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Director Drone</text>
+			<event>
+			<drone name="FR_DIRECTORC"/>
+			<item_modify>
+				<item type="scrap" min="-200" max="-200"/>
+			    <item type="drones" min="-15" max="-15"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Atom Drone</text>
+			<event>
+			<drone name="FR_ATOMC_BOARDER"/>
+			<item_modify>
+				<item type="scrap" min="-180" max="-180"/>
+			    <item type="drones" min="-17" max="-17"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Forge the Commonwealth Mending Drone</text>
+			<event>
+			<drone name="FR_MENDERC"/>
+			<item_modify>
+				<item type="scrap" min="-100" max="-100"/>
+			    <item type="drones" min="-8" max="-8"/>
+			</item_modify>
+			<text>Success!</text>
+			<choice hidden="true">
+				<text>Continue....</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>None of those blueprints are of use, scrap the factory.</text>
+		<event>
+			<text>With a heavy heart you decide to fully scrap the ship, at least it yields a lot of scrap.</text>
+			<autoReward level="HIGH">scrap_only</autoReward>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="FR_BLUELIST_MENDERS" blue="true">
+		<text>Use your mender to fully repair the forge as well as to install it on our ship!</text>
+		<event>
+			<text>After a lot of work the mender managed to fully repair the facility's forge and then, very carefully extract it and install it in your ship, not only that, but it seems the factory was some kinda prototype, as it didn't seem to need to be installed in a augment slow to function! Not only that, but you can also salvage the small bits of metal left after the extraction.</text>
+			<hiddenAug>FR_AETHER_FORGE</hiddenAug>
+			<achievement silent="false">ACH_FR_EVENT_AUTO</achievement>
+			<choice hidden="true">
+				<modifyPursuit amount="1"/>
+				<autoReward level="LOW">scrap_only</autoReward>
+				<text>Excellent!</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+</FTL>

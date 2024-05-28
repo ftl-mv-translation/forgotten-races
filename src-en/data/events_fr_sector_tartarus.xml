@@ -1,0 +1,1870 @@
+<FTL>
+
+<!--Huge thanks to DemonFusion for fixing up the writing to sound a lot more natural!-->
+
+
+<event name="FR_START_TARTARUS">
+	<metaVariable name="fr_juke_tartarus" op="set" val="1"/>
+	<modifyPursuit amount="-15"/>
+	<preventQuest/>
+	<beaconType id="map_icon_fr_tartarus_start" global="false">
+		<color r="252" g="252" b="252" a="1"/>
+	</beaconType>
+	<text load="FR_TEXT_START_TARTARUS"/>
+	<img back="FR_SECTOR_START_TARTARUS" planet="NONE"/>
+	<hiddenAug>FR_UNSLOTED_GHOSTS</hiddenAug>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+
+<textList name="FR_TEXT_START_TARTARUS">
+	<text>After what felt like years you finally arrive at this strange place. This sector can only be described as bizarre; multiple blue stars surround you in a strange circular pattern, yet they seem to emit not heat nor radiation. Not only that but your radio seems to be going crazy as it tries to keep up with the hundreds of hails being sent towards your ship every second. Hails which consist of nothing more than screams and pleas for help. You decide to mute the ship's radio.</text>
+</textList>
+
+<event name="FR_TARTARUS_BOUNTIES_LOAD">
+	<loadEventList seeded="false" first="true">
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS" req="FR_REQUIREMENT_COMPLETED_TARTARUS_AND_IS_CHAOS" lvl="1"/>
+		<event name="FR_TARTARUS_BOUNTIES" req="FR_REQUIREMENT_COMPLETED_TARTARUS_AND_IS_CHAOS" lvl="0" max_lvl="0"/>
+	</loadEventList>
+</event>
+
+<event name="FR_TARTARUS_BOUNTIES">
+	<preventQuest/>
+	<preventFleet/>
+	<variable name="loc_fr_bounty_in_progress" op="set" val="1"/>
+	<loadEventList seeded="false" first="true" default="FR_TARTARUS_EMPTY">
+		<event name="FR_TARTARUS_BOUNTIES_1" req="loc_fr_bounty_progression" lvl="0" max_lvl="0"/>
+		<event name="FR_TARTARUS_BOUNTIES_2" req="loc_fr_bounty_progression" lvl="1" max_lvl="1"/>
+		<event name="FR_TARTARUS_BOUNTIES_3" req="loc_fr_bounty_progression" lvl="2" max_lvl="2"/>
+		<event name="FR_TARTARUS_BOUNTIES_4" req="loc_fr_bounty_progression" lvl="3" max_lvl="3"/>
+		<event name="FR_TARTARUS_BOUNTIES_5" req="loc_fr_bounty_progression" lvl="4" max_lvl="4"/>
+		<event name="FR_TARTARUS_BOUNTIES_6" req="loc_fr_bounty_progression" lvl="5" max_lvl="5"/>
+		<event name="FR_TARTARUS_EMPTY" req="loc_fr_bounty_progression" lvl="10"/>
+	</loadEventList> 
+</event>
+
+<event name="FR_TARTARUS_FINAL_BOSS_LOAD">
+	<preventQuest/>
+	<preventFleet/>
+	<beaconType id="map_icon_fr_tartarus_final" global="true">
+		<color r="255" g="0" b="0" a="1.0"/>
+		<unvisitedTooltip>Location of the final bounty, it seems to only be available after all the other bounties are done first.</unvisitedTooltip>
+		<visitedTooltip>Location of the final bounty.</visitedTooltip>
+	</beaconType>
+	<revisitEvent>FR_TARTARUS_FINAL_BOSS_LOAD</revisitEvent>
+	<loadEventList seeded="false" first="true" default="FR_TARTARUS_EMPTY">
+		<event name="FR_TARTARUS_FINAL_BOSS_CHAOS" req="FR_REQUIREMENT_COMPLETED_TARTARUS_AND_IS_CHAOS" lvl="1"/>
+		<event name="FR_TARTARUS_FINAL_BOSS" req="FR_REQUIREMENT_COMPLETED_TARTARUS_AND_IS_CHAOS" lvl="0" max_lvl="0"/>
+	</loadEventList> 
+</event>
+
+<!--first encounter-->
+<ship name="SHIP_FR_HAUNT_SLIMER" auto_blueprint="FR_BOSS_HAUNT_SLIMER">
+	<destroyed load="FR_HAUNT_SLIMER_DEFEAT"/>
+	<deadCrew load="FR_HAUNT_SLIMER_DEFEAT"/>
+	<crew>
+		<crewMember type="slug" prop="0.40"/>
+		<crewMember type="slug_saboteur" prop="0.60"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_1">
+	<text>After finally getting your bearing straight, you double check the bounties to see who's your closest target, and doing so you notice something strange. Your last bounty had only a barebones descriptions of the target, consisting of their name and ship class, however, now it seems that you've been granted a full blown database full of information on 6 of your 7 targets, the last one seemingly being locked from accessibility as of now.
+	
+	The first target is Slimer of slug royalty, known all throughout space as the biggest glutton there was, something the being was quite proud of, but also the very thing that led to their demise. A batch of poisonous hallucinogenic melons sent them into a deep coma of which they never recovered. While they likely could've been saved, it is speculated that no one chose to help them on account of them being rude, selfish and threatening everyone under them with the death penalty, were they to step out of line.
+	
+	As you finish reading the bounty, something occurs to you: if your target is already dead... why is there still a bounty on them? Before you can ponder anymore, a massive ship appears out of nowhere, a vessel unlike anything else you ever seen - a ship made wholly of slug gel.</text>
+	<ship load="SHIP_FR_HAUNT_SLIMER" hostile="false"/>
+	<choice hidden="true">
+		<text>Hail the vessel.</text>
+		<event>
+			<text>You decide to turn your radio back on, hoping the voices had ceased, and surprisingly they seem to. However it isn't long before you realize the true extent of what you are looking at, as the feed comes to life you see that the captain of the other ship is... a ghost, and not like the kind you've met before, but rather an actual slug soul. You knew this was going to happen, given what the spook chasers said, but still, you weren't sure you could completely believe them until now.</text>
+			<choice hidden="true">
+				<text>Who... are you?</text>
+				<event>
+					<text>The slug doesn't seem to register your question as it begins to jump up and down excitedly. "Food! I haven't... food for... centuriesss!" The radio fails to parse the full transmission but thankfully what you gathered was enough. Without another word the ship turns its teleporters online, a fight is unavoidable.</text>
+					<ship hostile="true"/>	
+						<choice hidden="true">
+							<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+						</choice>
+				</event>
+			</choice>
+			<choice req="fr_gozer" blue="true" hidden="true">
+				<text>(Goziodeon) "Who are you pretenders?! We are the only Haunts in this town! Scram!"</text>
+				<event>
+					<text>The slug laughs. "Your little...organization meansss nothing here! I Will..I will do my master a favor and...devour your little gassseousss body!"</text>
+					<ship hostile="true"/>	
+						<choice hidden="true">
+							<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+						</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_HAUNT_SLIMER_DEFEAT">
+	<text>After that grueling process, the slime ship has been defeated and its captains soul has been put to rest. One down, 6 to go.</text>
+	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>You're about to leave when you notice that the ghost of the slug captain seems to reappear out of nowhere, but before you manage to pull out your blaster, they speak.
+			
+			"You... ended hunger, I'm... not hungry anymore! Oh gloriousss being from the beyond, pleassse let me serve onboard your ssship! I can't go againsst other ssservents though, the ssspell won't allow me, but once thisss isss all over it would be an honor to ssserve you!"
+			
+			Before you can recover from what just happened, you see a warning on your ship's navigation system, warning that the area around your next bounty is filled with ionic energies, it seems whoever is there is immune to ion.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_SLIMER</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--second encounter-->
+<ship name="SHIP_FR_HAUNT_PHYS" auto_blueprint="FR_BOSS_HAUNT_PHYS">
+	<destroyed load="FR_HAUNT_PHYS_DEFEAT"/>
+	<deadCrew load="FR_HAUNT_PHYS_DEFEAT"/>
+	<crew>
+		<crewMember type="shell" prop="0.15"/>
+		<crewMember type="shell_guardian" prop="0.15"/>
+		<crewMember type="shell_mechanic" prop="0.15"/>
+		<crewMember type="shell_scientist" prop="0.15"/>
+		<crewMember type="shell_radiant" prop="0.40"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_2">
+	<text>You ready yourself as you make the jump to the next bounty by reading the entry in the database.
+
+    The 2nd target, Phys, is a Shell whose DNA was mismatched and broken at irreparable levels while being made, a fate which would mean death in any other society. However, the Shell scientists that oversaw the cloning process saw it as a challenge, and so they infused the poor shell with massive amounts of ionic energy, a process that caused it more pain than words can describe. 
+		
+	While her physical body may have been spared, her mind was broken beyond repair from the sheer pain of being infused with so much ionic energy, and in the end she decided to use all that power against her creators, killing all the nearby scientists. Unfortunately her rampage didn't last long, as soon after she was gunned down by the shell special task force. Now, her ghost can't rest, not until she can find a way to forget her pain and move on.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>As soon as you finish reading her bounty, you notice that your target has already found you and is come barreling down towards you, refusing all hails, her ship being brighter than most stars. You have no choice but to engage her ship.</text>
+			<ship load="SHIP_FR_HAUNT_PHYS" hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+					<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_HAUNT_PHYS_DEFEAT">
+	<text>You finally defeat the ghost's ship, its lights finally going out after so long. While you are pleased with your progress, you wonder if there are others victims of the shell government like Phys? Would you have been able to save any of them in the past?</text>
+	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>You are suddenly startled out of your trance as the shell ghost appears in front of you, just like Slimer had done before, they tilt their shell to the side softly and speak in a static-filled voice.
+			
+		    "You - saved - friend! Hhhelp - save - others!" She speaks in chirpy jolts of static, her language being incredibly basic, probably a byproduct of the experiments that produced her. Regardless of why, they offer to join you crew and "save" the other ghosts.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_PHYS</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--second encounter-->
+<ship name="SHIP_FR_HAUNT_ALEENOR" auto_blueprint="FR_BOSS_HAUNT_ALEENOR">
+	<destroyed load="FR_HAUNT_ALEENOR_DEFEAT"/>
+	<deadCrew load="FR_HAUNT_ALEENOR_DEFEAT"/>
+	<crew>
+		<crewMember type="engi" prop="0.30"/>
+		<crewMember type="mantis" prop="0.30"/>
+		<crewMember type="mantis_suzerain" prop="0.40"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_3">
+	<text>You steel yourself before you engage your next target by reading their file in the database. In life they were a famed Bishop of the Mantis Hive, renowned by their kind and one of the best hunters this side of the multiverse. However, something sticks out to you about this target, or rather, lack thereof - some kind of traumatic event that could cause them to stick around after death like your other 2 targets.
+    
+	Strange for sure, but you are way too deep now to turn back, more literally than you first thought - something is causing both your hyperspace and multiverse drive to malfunction, meaning you can't leave this sector no matter how hard you try. You never seen this sorta tech before though, maybe those ghosts have more tricks up their sleeves than you realized.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Soon enough, you finally locate the bishop, noting how incredibly vast the space around each beacon is; you could explore it for weeks and still not find your target. You attempt to hail the opposing vessel. "Ah, Renegade... I hoping not to see you, on... important mission! Given by Queen..." She pauses for a second, as if lost in thought. "Queen... Queen Latrakkpkat! Yes, important mission indeed! Sorry in advance. Don't have time to spare!" 
+			
+			Her weapons power on and any further attempts to hail her are met with null and void.</text>
+			<ship load="SHIP_FR_HAUNT_ALEENOR" hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+					<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_HAUNT_ALEENOR_DEFEAT">
+	<text>It seems the songs and legends weren't wrong after all! Bishops truly are a formidable foe, or at least this one was. 3 spirits down, 4 more to go...</text>
+	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>You aren't going to be caught by surprise this time, you make sure you are mentally ready for the next surprise apparition. It takes a little longer than usual but, like clockwork, the bishop reappears in front of you, her expression being one of relief and pure joy. 
+			
+			"Thank you, kind soul! I hear about how formidable renegade can be, and it warm my long frigid heart to know I wasn't mislead." She speaks through the radio. "I'm sure you have many question, and while I would love answer them, I bound by a foul necromantic spell to not answer any question that pertain to this putrid place, a mockery of afterlife if I have ever seen one, but can answer any question pertaining to my mortem existence."</text>
+				<choice hidden="true">
+					<text>Who are you exactly?</text>
+					<event>
+						<text>The mantis bows to you with great pride. "My name is Aleenor Lakitrapikk, before death I was a loyal servant of Queen Latrakkpkat, the greatest queen that has ever graced our empire. In my time I must have raise thousand mantis, most of which eventually advance enough in ranks to be granted title of Suzerain."</text>
+						<choice hidden="true">
+							<text>How did you end up like this?</text>
+							<event>
+								<text>A lot of the pride from the Mantis' face vanishes, and a wave of sorrow washes over you as she finally speaks. "I died as lived, protecting eggs and hatchlings. There was a fault in incubation system, make fire in their chamber and... well, mantis claw not meant to hold extinguisher. There not enough time to save them all and myself... I'm... sure you can deduce what happen next."</text>
+									<choice hidden="true">
+										<text>My condolences.</text>
+										<event>
+											<text>She smiles softly and nods "Don't worry kind renegade, we must all die someday." She says eerily and with a strange amount of literacy. "I at the very least happy my death wasn't for naught. Regardless, I wish accompany you on your journey. While I can't tell how it end, I wish to be here when it does."</text>
+											<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_ALEENOR</unlockCustomShip>
+										</event>
+									</choice>
+							</event>
+						</choice>
+					</event>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<!--fourth encounter-->
+<ship name="SHIP_FR_HAUNT_VIN" auto_blueprint="FR_BOSS_HAUNT_VIN">
+	<destroyed load="FR_HAUNT_VIN_DEFEAT"/>
+	<deadCrew load="FR_HAUNT_VIN_DEFEAT"/>
+	<crew>
+		<crewMember type="rock" prop="0.40"/>
+		<crewMember type="rock_crusader" prop="0.60"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_4">
+	<text>You ready yourself as you make the jump towards the next bounty. Thinking over what Aleenor said about a 'necromantic spell', you come to the conclusion that these lost souls may not all be here by choice. Regardless, you have a mission to finish, and whatever is causing those poor souls to return as undead will surely make itself known eventually. 
+		  
+	Back to the matter at hands, the next target is another one of royalty, a Paladin rockman, one which died when his ship's auto pilot went haywire while he slept, sending him straight into a nearby red giant. Unfortunately he only realized what was happening when the star was close enough that the heat was enough to wake up even the thickest rockman, but by then it was far too late.</text>
+	<choice hidden="true">
+		<text>Well that isn't disturbing at all.</text>
+		<event>
+			<text>As usual, once the entry is fully read the fearsome Paladin ship appears, weapons already ablaze as expected.</text>
+			<ship load="SHIP_FR_HAUNT_VIN" hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+					<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_HAUNT_VIN_DEFEAT">
+	<text>Next verse, same as the first. Another mighty ship taken down and another soul freed from whoever is keeping them here.</text>
+	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>This time you don't even need to wait for the soul to appear, as the being is already waiting for you inside your private room as soon as the battle finishes. You open your mouth to speak but he gestures for you to stay quiet.
+			
+            "Silence, Federation dog. I do not care about your mission or your cause, all I care about is kicking the ever living CRAP out of that damn necromancer that's keeping all of us trapped under her little finger, and so I will stay with your crew until that deed is done - or you die and I will commandeer your ship, whichever comes first. Once this is done, as a token of good faith, I shall accompany you to your pathetic mission, but once we complete it, we shall part ways, understood?"
+
+			You nod your head in agreement, with the rock Paladin grinning from ear to ear. "Good, you federation dogs are wiser than I thought."</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_VIN</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--fifth encounter-->
+<ship name="SHIP_FR_HAUNT_CLEO" auto_blueprint="FR_BOSS_HAUNT_CLEO">
+	<destroyed load="FR_HAUNT_CLEO_DEFEAT"/>
+	<deadCrew load="FR_HAUNT_CLEO_DEFEAT"/>
+	<triggeredEvent event="FR_HAUNT_CLEO_DEFEAT" thisFight="true">
+		<enemyCrew amount="0" includeClonebay="true"/>
+	</triggeredEvent>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_5">
+	<text>As you ready yourself while making the jump towards the next bounty, your mind swirls with the possibilities of what the end of this journey could look like. Who is this necromancer? Some kind of witch? Eldritch god? Or could they be just as much of a victim as everyone else? Whichever it is, at least it'll be interesting.
+	
+    Regardless, focusing on the next bounty is a better use of your time than wondering about the inevitable, and so you start reading the next target. The 5th target, an MFK soldier from Universe 1, was captured and then tortured to death by using a modified repair drone, more suited for torture than for repairing. After his death it seems he developed some kind of Stockholm syndrome towards drones, seeing them as the only real things worth talking to or interacting with, and growing to despise organics.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Just as you expected, here is the ship of the fallen MFK, weapons blazing.</text>
+			<ship load="SHIP_FR_HAUNT_CLEO" hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+					<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_HAUNT_CLEO_DEFEAT">
+	<text>Fifth vessel down, and yet another soul put to rest yet again.</text>
+	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
+	<ship hostile="false"/>	
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>You wait for hours but the ghost never appears, and you are about to move on when you find a strangely scribbled note in the cockpit addressed to you. It says "Stay out of the second floor and we won't have a problem"... you decide to take them up on the offer.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_CLEO</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--sixth encounter-->
+<ship name="SHIP_FR_HAUNT_ZULU" auto_blueprint="FR_BOSS_HAUNT_ZULU">
+	<destroyed load="FR_HAUNT_ZULU_DEFEAT"/>
+	<deadCrew load="FR_HAUNT_ZULU_DEFEAT"/>
+	<crew>
+		<crewMember type="lanius" prop="0.40"/>
+		<crewMember type="lanius_welder" prop="0.60"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_6">
+	<text>Before you have even a single second to reflect on your mission so far, a blinding yellow flash consumes all space around you before vanishing in a matter of seconds, and in its place stands a brightly lit Lanius ship unlike any other ship that you have ever seen before. Its signal somehow forces itself into your feed, the captain appearing in your screen, a incredibly bright Lanius, possibly what used to be a welder. The being begins to speak, their signal coming in clearer than any other ghost.</text>
+	<ship load="SHIP_FR_HAUNT_ZULU" hostile="false"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>"Ah, so you are that little meat puppet that's being a major thorn in our backside. The fact that you are still here equally impresses and disgusts me. Slimer, that gluttonous idiot, was suppose to devour you and all your puny friends, but it seems I underestimated you." He glaces you up and down.
+			
+			"Your ship... it's nothing to scoff at, and not only that but you managed to somehow cut your way through my most valued servants, I suppose that's impressive. Still, I'm bound to my duty, the duty to smite you down! Our lord G. has ordered me, her most humble servant, to finally end your little annoying visit. Farewell, renegade!" The ship immediately cuts communication and moves into the attack position.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">	
+				<text>Continue...</text>
+					<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_HAUNT_ZULU_DEFEAT">
+	<text>The battle rages on for longer than you think could be possible. Even though at most a few hours passed, the whole galaxy around you looks to have advanced by several eons, many of the stars going out and others appearing.</text>
+	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Shortly after being vanquished, the enemy ship glows brightly and then reappears without a scratch on it with their whole crew back where they were before the fight. The ship, however, shuts off their weapon system and their leader is beamed on board. Your crew is caught off guard and ready themselves to shoot at him, however he signals you that he means no harm.
+			
+			"Captain, it's a pleasure to meet you face to face! I understand why you and your crew might be alarmed at what just happened - I would be too in your shoes, however I just ask you to allow me to explain myself and why I'm here." The Lanius' fervor has seemingly vanished, and they speak so calmly and gently, almost as if they were someone else entirely. After a few minutes of consideration, you gesture your crew to leave the room and after some arguing they relent and leave you with the specter.
+				  </text>
+				<choice hidden="true">
+					<text>Alright, what's going on here?</text>
+					<event>
+						<text>The lanius contemplates for a moment, weighing his options. "My name is Zulu, odd name for a lanius I'm aware - well, it's more of a nickname really, it was given to me by... well... the mastermind behind this whole operation." The lanius frowns and looks to the side. "This whole thing was... technically my fault, and what started this was... my own demise, I'm afraid. But that's not something I'm allowed to talk about - I'm bound to it, unfortunately." </text>
+						<choice hidden="true">
+							<text>So you can't give me actual answers?</text>
+							<event>
+								<text>"Sadly no, but I can help you in other ways. You will very soon meet the person behind all of this, the one who's torturing all those souls, and I want to be there when that happens. Please allow me to serve on your ship until then."</text>
+									<choice hidden="true">
+										<text>It would be an honor, Zulu.</text>
+										<event>
+											<text>"The final bounty can only be read at the exit, if you want to truly end this for good then you need to head there first."</text>
+											<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_ZULU</unlockCustomShip>
+										</event>
+									</choice>
+							</event>
+						</choice>
+					</event>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<!--Final encounter-->
+<ship name="SHIP_FR_HAUNT_G" auto_blueprint="FR_BOSS_HAUNT_G">
+	<destroyed load="FR_HAUNT_G_DEFEAT"/>
+	<deadCrew load="FR_HAUNT_G_DEFEAT"/>
+	<deathEvent thisFight="true">FR_DEATH_G</deathEvent>
+	<miniBoss sound="victory" musicDelay="-1"/>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.20"/>
+		<crewMember type="obelisk" prop="0.60"/>
+		<crewMember type="obelisk_royal" prop="0.20"/>
+	</crew>
+</ship>
+
+<event name="FR_DEATH_G">
+	<lose text="With your multiverse drive, G is able to finally complete her plan. The multiverse will soon know true fear."/>
+</event>
+
+<event name="FR_TARTARUS_FINAL_BOSS">
+	<text>The space here is extremely quiet, almost completely still and empty. No light, no movement, nothing. Whatever this place is, it's the right place to read the final bounty, if it's available that is.
+	
+	Meanwhile the exit beacon appears to be completely inert, it seems you are stuck here until you finish all the bounties.</text>
+	<choice hidden="true">
+		<text>We have work to do still.</text>
+		<event/>
+	</choice>
+	<choice hidden="true" req="loc_fr_bounty_progression" lvl="0" max_lvl="5" blue="false">
+		<text>The Bounty is still locked, you need to finish the other ones first.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice hidden="true" req="loc_fr_bounty_progression" lvl="6" blue="false">
+		<text>All bounties are done, time to face our ultimate foe, read the final bounty.</text>
+		<event load="FR_TARTARUS_FINAL_BOSS_TRUE"/>
+	</choice>
+</event>
+
+<event name="FR_TARTARUS_FINAL_BOSS_TRUE">
+	<text>Finally, after all that madness, the final bounty is viewable, but something is very wrong. The text on it is quite different from all the others, speaking like the target was the one that wrote it. It's all very vague and full of threats, not just that, but the more you read it the more you feel like you are being watched. The final words, however, send chills down your spine. "Run while you can..."</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Space and time seem to distort around you, folding and bending as a massive black, red and white ship emerges from the fabric of reality itself. At this moment your radio blares online and starts filling the ship with screams and pleas for mercy, you try to turn it off but to no avail.</text>
+			<changeBackground>FR_SECTOR_G_TARTARUS</changeBackground>
+			<ship load="SHIP_FR_HAUNT_G" hostile="false"/>
+				<choice hidden="true">
+					<text>Beg.</text>
+					<event>
+						<text>And so as the radios go silent, your video feed goes online. On the other side stands a bright red, cube shaped alien, and their gaze feels like it's penetrating through skin and into your very soul. After what feels like eons they speak.
+						    
+						"Ah, it seems you finally found your way to me. How quaint. To be frank, I expected a being a lot more impressive than... this. I spent eons thinking how this final showdown would look like and had high hopes it would be another royal, perhaps one of the crystalline queens or the great lanius king himself. It seems, however, that I'm stuck with you." 
+							
+						Their voice vibrates through your very soul but you can't help but feel it's also... oddly melancholic? You struggle to compose yourself as Zulu steps inside the room, with one look at the screen he knows exactly what's happening. He pushes you gently aside and speaks with the alien directly.</text>
+							<choice hidden="true">	
+							<text>"G... Please, you must stop all this, allow this mortal to free you from your curse, please!"</text>
+								<event>
+									<text>The alien stops for several minutes before finally addressing the lanius "I'm sorry old friend, this is greater than any of us, but I am glad you at least managed to recover your mind." G then turns their attention back to you, although there is a noticeable change in tone. "You, Renegade, will not be so lucky." 
+									      
+									The lanius attempts to speak but is interrupted by G. "Oh Zulu, I know you are trying to help, but I'm afraid this fight is inevitable. I can't resist the urge for combat imbued onto my soul by that forsaken book. I promise I will bring you back again once this is all over, though." The feed is cut and the massive ship roars to live - just the mere activation of its systems send shock waves across space.</text>
+										<ship hostile="true"/>
+										<playMusic>necronightmare</playMusic>
+										<choice hidden="true">	
+											<text>Continue...</text>
+												<event load="COMBAT_CHECK"/>
+										</choice>
+								</event>
+							</choice>
+					</event>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_HAUNT_G_DEFEAT">
+	<text>The ship fights to its very last, but eventually, all things must fall. The ship slowly cracks apart and folds in on itself like a black hole, vanishing from existence within a blink of an eye. A few moments later, it re-appears again, but this time it's in countless pieces, to the point where the only thing hinting this was the once almighty ship you just fought was the brightly glowing red lights that those fragments emit, alongside their void-like black coloring.</text>
+	<variable name="loc_fr_bounty_progression" op="set" val="10"/>
+	<metaVariable name="prof_fr_bounty_completed" op="set" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<recallBoarders ship="both"/>
+	<playMusic/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>You look around, expecting the same song and dance as before, and as if on cue, G emerges.
+			      
+			"Ah, so what I feared would happen did indeed occur, but to be quite frank I'm glad it ended this way. There are plenty of other worse ways to go... heh." The obelisk chuckles weakly before turning towards Zulu.
+				  
+			"Zulu, I'm... so sorry. I'm so... so sorry about everything...I understand if you can't forgive me, I understand if any of you can't forgive me for what I have done..."</text>
+				<metaVariable name="fr_juke_necronightmare" op="set" val="1"/>
+				<choice hidden="true">
+					<text>Eh, you gave us a lot of scrap and some interesting blueprints.</text>
+						<event>
+						   <text>The room falls silent as the ghosts look at one another, and one by one they each give their thoughts on the matter.
+
+							"Big cube broughhht Phys back from the dead! Phys is happy!" The shell says excitedly, bouncing up and down as she does so.
+
+							"You gave me another chance at life, or, I guesssss un-life, without that excesssssive hunger plaguing my every move. I guessss you're forgiven in my bookssss." The slug says, shrugging.
+
+							"DON'T!! COME!! NEAR!! MY!! DRONES!!" Screeches the MFK from across the door to the other room.
+
+							"What you did, barbaric and cruel... not too different from Mantis! You good cube in my book." The Bishop ponders aloud.
+
+							"Gah! It seems I'm out numbered! Very well, filthy obelisk, you get to live another day - however! If I ever come across you again, I will break you into more pieces than your ship!" The Rockman shouts as he storms out of the room.
+
+							"How could I ever be mad at you dear friend? You went through so much trouble to bring us all back..." The Lanius speaks with a soft smile, causing the obelisk to look away, attempting to hide a grin slowly creeping across their abstract face.</text>
+											<choice hidden="true">
+											<text>Well, we still have a flagship to destroy, if you want you can tag along.</text>
+												<event>
+													<text>The obelisk looks at you, shocked and befuddled "You... want to work with me after... after everything I have done to you?! I... I'm flattered! Flabbergasted! Befuddled! Very well then! Let's... go do that then! Just talk to me again when you are ready to exit this place!" You nod and make sure to talk to G before you get ready to jump.</text>
+													<variable name="fr_bounty_completed_mid_run" op="set" val="1"/>
+													<achievement silent="false">ACH_FR_EVENT_TARTARUS</achievement>
+													<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_G</unlockCustomShip>
+													<jumpEvent>FR_G_SECTOR_SELECT</jumpEvent>
+												</event>
+											</choice>
+					</event>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_G_SECTOR_SELECT">
+	<text>You inform G that you are ready, to which she responds by nodding enthusiastically. 
+
+	"Alright saviour, before I followed this path of dark necromancy I used to be the Obelisk Empire's royal navigator. Back then I discovered a way to make special Aether Waystones that allow any ship to jump to any specific sector - it was my greatest invention, and one I hoped to use in the great war. Unfortunately this whole disaster happened before I could inform the queen about my discoveries, and so I had only the time to make a single Waystone, one I hoped to use to come back home when I was finally freed from this prison." Her voice has a very noticeable sad tone to it, with G trying her best not to get carried away in her memories.
+
+	"Savior, I want you to have this waystone, both as a way for both of us to leave this cursed place as well as a token of gratitude. Just place it where you refill your ship with fuel before your next jump and select the destination in your ship's navigation system"</text>
+	<choice hidden="true">
+		<text>Thank you G...</text>
+		<event>
+			<text>"Don't worry about it, savior, it's the least I could do"</text>
+			<choice req="fr_haunt_urn_unlocked" lvl="0" max_lvl="0" blue="false" hidden="true">	
+				<text>Time to pick our destination!</text>
+					<event load="FR_HAUNT_URN_GIFT"/>
+			</choice>
+			<choice req="fr_haunt_urn_unlocked" lvl="1" blue="false" hidden="true">	
+				<text>Time to pick our destination!</text>
+					<event load="FR_WEAPON_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_HAUNT_URN_GIFT">
+	<text>As you are able to select your destination, G stops you and hands you a weird white and red urn.
+	
+	"Savior, wait a moment please! I almost forgot to give you a parting gift! This urn was something I was developing on my free time, it's a marvelous device that can copy and store the very souls of the undead! With it, you should be able to summon copies of undead foes that you fought in the past."</text>
+	<choice hidden="true">
+		<text>Why would I want to do this?</text>
+		<event>
+			<text>G laughs and shakes her ghostly arm-nubs.
+			
+			"Come on Savior, we both know that you would take the chance to get more scrap no matter what. But if that's not enough for you then you would love to know that you will have access to new weapons and drones."</text>
+			<choice blue="false" hidden="true">	
+				<text>New weapons?! Sign me up!</text>
+					<event>
+						<text>G smiles and lightly hits your back with her nubs.
+						
+						"That's the spirit Savior! Remember, those souls won't be the same as the ones you fought here, so don't be disappointed if you are caught unaware and are unable to beat them, you can try as many times as you want, anytime you want. Though keep in mind, you can only fight each soul once per journey, the soul needs time to charge it up again, after all."
+						
+						"Anyways, I took up enough of your time, Savior, time to use that waystone!"</text>
+						<metaVariable name="fr_haunt_urn_unlocked" op="set" val="1"/>
+						<achievement silent="false">ACH_FR_EVENT_URN</achievement>
+						<choice blue="false" hidden="true">	
+							<text>Got it! Time to get this ship moving again!</text>
+								<event load="FR_WEAPON_SELECT_TARTARUS"/>
+						</choice>
+					</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_WEAPON_SELECT_TARTARUS">
+	<text>"One last thing Savior! I have been hoarding a bunch of weapons infused with ectoplasmic energies, giving them very unique effects! You can only pick one though, which one do you choose? After you pick your weapon we can discuss wehich crew you want to bring with you to the rest of your journey."</text>
+	<choice blue="false" hidden="false">	
+		<text>Pick the Slimer Bomb-Launcher</text>
+		<event>
+			<text>"You want my bomb? Heh, I hope it ssserves you asss well asss it did me in life.".</text>
+			<weapon name="FR_SLIMER_BOMB"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick the 'Physure' Beam</text>
+		<event>
+			<text>"My beam! Very powerful, very shiny!".</text>
+			<weapon name="FR_PHYS_BEAM"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick the 'One Tap' Sniper</text>
+		<event>
+			<text>"The truest gun you ever see, kills anyone with only one shot!".</text>
+			<weapon name="FR_ALEENOR_SNIPER"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick the 'Prometheus' Burst Missiles</text>
+		<event>
+			<text>"At least you have taste! This weapon was desiged to melt rockam, don't waste its glory on weak targets".</text>
+			<weapon name="FR_VIN_MISSILE"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick the Ghostly BattleDrone</text>
+		<event>
+			<text>"YOU WANT ONE OF MY DRONES?! JUST KNOW RENEGADE, IF I SEE EVEN A SINGLE SCRATCH ON IT I WILL SKIN YOU ALIVE!".</text>
+			<drone name="FR_GHOSTLY_DRONE"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick the Holy Pike Beam</text>
+		<event>
+			<text>"Ah, the holy pike, this weapon was passed from generation to generation, and now it will be in the hands of its most honorable master".</text>
+			<weapon name="FR_ZULU_PIKE"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick the Necromantic Cannon</text>
+		<event>
+			<text>"You are a being of taste, renegade, though I can't say I'm surprised, I expected nothing less.".</text>
+			<weapon name="FR_NECROMANTIC_PLASMA"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CREW_SELECT_TARTARUS">
+	<text>Time to pick which haunt to bring with you to the rest of your journey.</text>
+	<choice blue="false" hidden="false">	
+		<text>Pick Slimer</text>
+		<event>
+			<text>"It will be an honor, sssir!".</text>
+			<crewMember amount="1" class="fr_reborn_slimer" all_skills="2">Slimer</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Phys</text>
+		<event>
+			<text>The shell bounces and down happily "Yay! Friend picked me!".</text>
+			<crewMember amount="1" class="fr_reborn_phys" all_skills="2">Phys</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Aleenor</text>
+		<event>
+			<text>The mantis bows to you "I serve you as I served my queen in life, to the very end!".</text>
+			<crewMember amount="1" class="fr_reborn_aleenor" all_skills="2">Aleenor</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Vin</text>
+		<event>
+			<text>The rockman stares you down for a moment before shrugging.</text>
+			<crewMember amount="1" class="fr_reborn_vin" all_skills="2">Vin</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Cleo</text>
+		<event>
+			<text>"FINE! JUST DON'T GET NEAR ME!".</text>
+			<crewMember amount="1" class="fr_reborn_cleo">Cleo</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick ZUlu</text>
+		<event>
+			<text>"It will be an honor fight at your side, friend!".</text>
+			<crewMember amount="1" class="fr_reborn_zulu" all_skills="2">Zulu</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick G</text>
+		<event>
+			<text>"I was sure you were going to pick me, my Obeliskian perfection made that a sure choice!".</text>
+			<crewMember amount="1" class="fr_reborn_g" all_skills="2">G</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_WAYSTONE_SELECT">
+	<text>You put the waystone in your engine's fuel slot and head back to the bridge to select your destination:</text>
+	<variable name="loc_has_salvaged" op="set" val="0"/>
+	<choice hidden="true">
+		<text>Go to the Union Coreworlds.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_UNION_UNIQUE">SECTOR_UNION</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_UNION_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Militia Encampment.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_MILITIA_UNIQUE">SECTOR_UNION</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_MILITIA_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Federation Sector.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_FEDERATION_UNIQUE">SECTOR_FEDERATION</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_FEDERATION_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Harmony Coreworlds.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_HARMONY_UNIQUE">SECTOR_HARMONY</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_HARMONY_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Emancipated Sanctuary.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_SEPARATIST_UNIQUE">SECTOR_SEPARATIS</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_SEPARATIST_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Ministry Capital.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_MINISTRY_UNIQUE">SECTOR_MINISTRY</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_MINISTRY_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Gathering Gardenworlds.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_GATHERING_UNIQUE">SECTOR_GATHERING</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_GATHERING_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Free Mantis Hunting Grounds.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_FREEMANTIS_UNIQUE">SECTOR_FREEMANTIS</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_FREEMANTIS_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Imperial New-Homelands.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_IMPERIAL_UNIQUE">SECTOR_IMPERIAL</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_IMPERIAL_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Theocracy Badlands.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_OUTCAST_UNIQUE">SECTOR_OUTCAST</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_OUTCAST_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Lost Sun Stronghold.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_LOSTSUN_UNIQUE">SECTOR_OUTCAST</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_LOSTSUN_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Lanius Swarmlands.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_LANIUS_UNIQUE">SECTOR_ABANDONED_GENERIC</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_LANIUS_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Black Market.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_PIRATE_UNIQUE">SECTOR_PIRATE</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_PIRATE_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Hacked Civilian Sector.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_HACKER_UNIQUE">SECTOR_UNION</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_HACKER_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Rebel Stronghold.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_REBEL_UNIQUE">SECTOR_REBEL</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_REBEL_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Central Shipyards.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_AUTO_UNIQUE">SECTOR_AUTO</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_AUTO_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Hive Broodworlds.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_HIVE_UNIQUE">SECTOR_HIVE</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_HIVE_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Theocracy Homeworlds.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_THEOCRACY_UNIQUE">SECTOR_THEOCRACY</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_THEOCRACY_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Duskbringer Stronghold.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_DUSKBRINGER_UNIQUE">SECTOR_DUSKBRINGER</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_DUSKBRINGER_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Kleptocracy Capital.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_KLEPTOCRACY_UNIQUE">SECTOR_KLEPTOCRACY</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_KLEPTOCRACY_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Guild Territory.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_CLAN_UNIQUE">SECTOR_KLEPTOCRACY</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_CLAN_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Central Shell Nebulae.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_GENIOCRACY_UNIQUE">SECTOR_GENIOCRACY</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_GENIOCRACY_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Shell Science District.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_MORPH_UNIQUE">SECTOR_GENIOCRACY</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_MORPH_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Eargen Capital.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_REPUBLIC_UNIQUE">SECTOR_REPUBLIC</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_REPUBLIC_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Monk Refuge.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_MONK_UNIQUE">SECTOR_UNEXPLORED_GENERIC</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_MONK_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Spectral Wastelands.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_VAGABOND_UNIQUE">SECTOR_VAGABOND</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_VAGABOND_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Spectral Capital.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_DYNASTY_UNIQUE">SECTOR_DYNASTY</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_DYNASTY_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Coalition Stronghold.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_COALITION_UNIQUE">SECTOR_NEBULA</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_COALITION_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Confederate Coreworlds.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECTOR_CONFEDERATE_UNIQUE">SECTOR_CONFEDERATE</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECTOR_CONFEDERATE_UNIQUE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Hektar Megamarket.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECRET_HEKTAR">SECTOR_KLEPTOCRACY</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECRET_HEKTAR</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Jerome Protectorate.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECRET_JERRY">SECTOR_REBEL</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECRET_JERRY</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Crystalline Origins.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECRET_ORIGINS">SECTOR_IMPERIAL</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECRET_ORIGINS</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Brood Stronghold.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECRET_SPIDER">SECTOR_PIRATE</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECRET_SPIDER</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Wentworth Innovations HQ.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECRET_ESTATE">SECTOR_AUTO</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECRET_ESTATE</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true">
+		<text>Go to the Royal Kleptocracy Nebulae.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECRET_NIGHTS">SECTOR_KLEPTOCRACY</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECRET_NIGHTS</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true" req="FR_REQUIREMENT_POSSIBLE_ANCIENT">
+		<text>Go to the Ancient Recovery Site.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECRET_AUGMENTED">SECTOR_ABANDONED</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECRET_AUGMENTED</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true" req="prof_opened_nexus">
+		<text>Go to the Nexus Point.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECRET_SYLVAN">SECTOR_ABANDONED_GENERIC</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECRET_SYLVAN</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true" req="FR_REQUIREMENT_POSSIBLE_ANCIENT">
+		<text>Go to the Ancient Wastelands.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECRET_ANCIENT">SECTOR_ABANDONED_GENERIC</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECRET_ANCIENT</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+	<choice hidden="true" req="FR_REQUIREMENT_POSSIBLE_ANCIENT">
+		<text>Go to the Obelisk Homeworlds.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<replaceSector name="SECRET_ROYAL">SECTOR_ABANDONED_GENERIC</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECRET_ROYAL</secretSector></event>
+				</choice>
+			</event>
+	</choice>
+</event>
+
+<event name="FR_TARTARUS_EMPTY">
+	<text>There's nothing here, not even a star in sight.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					CHAOS!!
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS">
+	<preventQuest/>
+	<preventFleet/>
+	<variable name="loc_fr_bounty_in_progress_chaos" op="set" val="1"/>
+	<loadEventList seeded="false" first="true" default="FR_TARTARUS_EMPTY_CHAOS">
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_1" req="loc_fr_bounty_progression_chaos" lvl="0" max_lvl="0"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_2" req="loc_fr_bounty_progression_chaos" lvl="1" max_lvl="1"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_3" req="loc_fr_bounty_progression_chaos" lvl="2" max_lvl="2"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_4" req="loc_fr_bounty_progression_chaos" lvl="3" max_lvl="3"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_5" req="loc_fr_bounty_progression_chaos" lvl="4" max_lvl="4"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_6" req="loc_fr_bounty_progression_chaos" lvl="5" max_lvl="5"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_AUTO" req="loc_fr_bounty_progression_chaos" lvl="6" max_lvl="6"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_SIREN" req="loc_fr_bounty_progression_chaos" lvl="7" max_lvl="7"/>
+		<event name="FR_TARTARUS_EMPTY_CHAOS" req="loc_fr_bounty_progression_chaos" lvl="18"/>
+	</loadEventList> 
+</event>
+
+<!--first encounter-->
+<ship name="SHIP_FR_CHAOS_HAUNT_SMOKE" auto_blueprint="FR_BOSS_CHAOS_HAUNT_SMOKE">
+	<destroyed load="FR_CHAOS_HAUNT_SMOKE_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_HAUNT_SMOKE_DEFEAT"/>
+	<crew>
+		<crewMember type="crystal" prop="0.40"/>
+		<crewMember type="crystal_sentinel" prop="0.60"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_1">
+	<text>Suddenly, as you jump to the next beacon, the gnome starts shrieking like never before! Space seems to shake around you as you struggle to stay on your feet, and not only that but the very stars around you turn into a monochrome gray. In all your time as a Renegade, you have never seen anything like this before! The shaking suddenly stops. It takes a while for you to manage to get back on your feet, but once you do, you notice all the bounties have changed... their names, pictures, backstories, everything is now completely different!
+	
+	You hesitantly start to read the first bounty. It describes the story of a crystal sentinel who, after serving a long, faithful life under the crystalline empire, started to hear whispers from beyond the veil. At first it was minor, an inconvenience he could barely even hear, but soon it started getting louder and louder, the words became more clear and whatever those words were, they... changed him. He started doubting the crown and even went so far as to conspire against her, a choice that ended with him being captured and executed.</text>
+	 <img back="FR_SECTOR_CHAOS_TARTARUS" planet="NONE"/>
+     <choice hidden="true">
+        <text>Well that sounds awfully familiar.</text>
+		<event>
+			<text>You eye the gnome but it doesn't really seem to care. Regardless, just as you finish reading the bounty, you see a massive crystal ship - a completely black yet impossibly transparent ship. You hail him, but before you can get a word out to the captain of the ship you are interrupted by a gravelly, chilling voice. "The... the voices... please... silence them! SILENCE THEM!!" He screams and turns on his systems.</text>
+				<ship load="SHIP_FR_CHAOS_HAUNT_SMOKE" hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_HAUNT_SMOKE_DEFEAT">
+	<text>As the strong ship breaks down, you notice the gnome has turned and is now looking in the direction of the next targets beacon. Strange.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>You get ready to leave when you suddenly see the specter that just fought you reappear inside your cockpit. You reach for your blaster but the crystal motions to hear him out first.
+			
+			"Please, kind renegade, I'm not here to fight you, quite the opposite in fact, I'm here to warn you. While I may have regained my sanity, I'm afraid that, by bringing that gnome here you may have caused an irreversible chain of events to start, one which, without decisive action may end with the end of all things." The crystal speaks in a soft and gentle tone.
+				  
+			"I'm here to guide you through this cursed land, though normally this wouldn't be something I worry about, but since the gnome insists on tormenting you too, I'm afraid I must try to be the voice of reason here. And yes, I can see it too, though luckily I can't hear its incessant screeching anymore."He sighs and you consider his offer for a few minutes before eventually agreeing to it.
+				  
+			"You made the right choice captain, I'm at your service" He bows before leaving the room.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--second encounter-->
+<ship name="SHIP_FR_CHAOS_HAUNT_CHILLS" auto_blueprint="FR_BOSS_CHAOS_HAUNT_CHILLS">
+	<destroyed load="FR_CHAOS_HAUNT_CHILLS_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_HAUNT_CHILLS_DEFEAT"/>
+	<crew>
+		<crewMember type="orchid_cultivator" prop="0.30"/>
+		<crewMember type="fr_snowman_smart" prop="0.70"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_2">
+	<text>Seems like you are stuck in this hell now. Regardless, you have no time to mope and gotta keep moving. The next bounty tells the tale of an incredibly successful Vampweed treasure hunter, one which explored hundreds of planets and uncovered artifacts thought to be lost to time. This brought her great success and fame, but was also the cause of her undoing.
+	
+	After a long and arduous expedition, one which killed some of her most loyal and closest friends, Chills - named so for her nerves of steel - found a thought to be cursed tome which was said to have infinite power buried within its pages. However, once she got her fronds on it and started reading it, madness consumed her mind. Whispers, laughter and all matters of senseless words filled her mind's every thought for every second she lived, thoughts so haunting and maddening that she lost control of her ship mid flight, crashing it against a oncoming comet. Strangely, her body was never found.
+		  
+	"What a tragic tale, it seems we aren't the only ones cursed by those terrible voices." Mumbled Smoke, reading the bounty while peeking over your shoulder.</text>
+     <choice hidden="true">
+        <text>Indeed.</text>
+		<event>
+			<text>Suddenly your sensors detect a ship warping in, a completely frozen over vampweed cruiser, which hails you. "Cooooold! It's... so c-coooold inside this b-blasted e-empty v-vacuum! I need h-heat! Y-your b-bodies will be e-enough! Y-yes! P-Please stay s-still!" They shiver as they turn on their weapons.</text>
+				<ship load="SHIP_FR_CHAOS_HAUNT_CHILLS" hostile="true"/>
+				<status type="loss" target="enemy" system="oxygen" amount="1"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_HAUNT_CHILLS_DEFEAT">
+	<text>The ship is vanquished, and hopefully you can learn more about this place.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>"Hm... I am sensing some strange energies around us, Captain. Be on your guard." Smoke warns, but seconds later Chills appears from thin air.
+			
+			"Please! Don't shoot me! I don't know what you did but... it made the voices stop! Not only that, I don't... feel cold anymore. Please allow me to repay your kindness! I want to serve on your ship! Maybe we can find the source of all those voices!" Smoke ponders a bit then nods his head, seemingly supporting her request, and begrudgingly you agree.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--third encounter-->
+<ship name="SHIP_FR_CHAOS_HAUNT_POK" auto_blueprint="FR_BOSS_CHAOS_HAUNT_POK">
+	<destroyed load="FR_CHAOS_HAUNT_POK_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_HAUNT_POK_DEFEAT"/>
+	<crew>
+		<crewMember type="LIST_CREW_MORPH_RANDOM_ONLY" prop="0.30"/>
+		<crewMember type="LIST_CREW_TECHNO_RANDOM_ONLY" prop="0.30"/>
+		<crewMember type="LIST_CREW_MALFORM_RANDOM" prop="0.40"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_3">
+	<text>This time you decide to immediately start reading the next bounty. It tells the story of the morphs, gray blobs invented and genetically engineered by the shell people. All identical and all part of a single being, something that can easily start a gray matter incident. Their main talent was the ability to replicate other organisms to near perfection, with only slightly less durability and being unable to change colors. 
+	
+	However, not all morphs were made identically, as other branches of shell science took to make their own "morphs", though they focused on mimicking other things. Technomorphs focused on mimicking electrical beings and drones, while Malforms were able to mimic highly powerful members of specific species.
+		  
+	That's where your target fits in. After morphing into a strange garden gnome, this morph was able to perfectly mimic individual people down to their very unique attributes. Not only that, unlike the other morphs, durability wasn't an issue - the copy was perfect, sometimes making them even more effective than the copied person themselves. The only drawback being that the morph (who named themselves Pok) couldn't hold the desired form for long, having to constantly switch between multiple forms to stay stable.
+		  
+	The bounty does make a point in saying that the morph wasn't made by either the Rebels or the Shells, the only known factions who use morphs. Not only that, but that morph is filled with elements not present in any universe known so far.</text>
+     <choice hidden="true">
+        <text>But... how is that possible?</text>
+		<event>
+			<text>You turn to ask Smoke about it, however just as you do, a ship jumps in, guns blazing and already almost fully charged, they refuse all hails. Not just that, but somehow they managed to completely disable your shields and  heavily limit your cloaking system - just what is that morph? At least it seems their weapons can't actually damage your hull and seem to be damaged from all the morph slime that infests the ship, making them take a lot longer to fire.</text>
+				<ship load="SHIP_FR_CHAOS_HAUNT_POK" hostile="true"/>
+				<status type="loss" target="player" system="shields" amount="20"/>
+				<status type="limit" target="player" system="cloaking" amount="1"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_HAUNT_POK_DEFEAT">
+	<text>The ship is finally vanquished, you hope this is the last time you ever seen a clone cannon being used against you.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The morph suddenly appears in your bridge, much, much quicker than the other two ghosts. They don't say a word, however, and their body starts morph and changing into various shapes; first a heart, then your ship, then a handshake and finally what looks to be some weird tripod alien with a big X over it.
+			
+			"I think that little bugger wants to join us, can we keep them?" Chills says cheerily, approaching the small slime and starts petting them, with the slime turning back into a heart while being pet.
+				  
+			You look at the morph for a few moments before shrugging and nodding. The morph starts jumping around excitedly, turning into what looks to be a simplistic drawing of a human face smiling.
+				  
+			Curiously, before you open the next bounty, your computer flashed a unexpected message, warning you of powerful defense drones scanned from the next bounty. Seems like the ship's computer already analyzed the bounty, though it does make you wonder why it never warned you of threats before.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_POK</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--fourth encounter-->
+<ship name="SHIP_FR_CHAOS_HAUNT_CHARROR" auto_blueprint="FR_BOSS_CHAOS_HAUNT_CHARROR">
+	<destroyed load="FR_CHAOS_HAUNT_CHARROR_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_HAUNT_CHARROR_DEFEAT"/>
+	<crew>
+		<crewMember type="engi" prop="0.30"/>
+		<crewMember type="engi_separatist" prop="0.30"/>
+		<crewMember type="engi_defender" prop="0.40"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_4">
+	<text>You waste no time and start reading the next bounty. It details the story of one of the harmony's most useful engi defenders, one which never strayed far from any nodes, and thus was never at risk of becoming a separatist. Unfortunately, little did they know that an outside force would be the one to destroy their flawless reputation. No one knows exactly how it happened, all that's known is that the engi vanished for a single week before just... reappearing back where he was before - however, something about him had changed, something that couldn't be fixed no matter how many times he was rebooted or wiped: a desire to become "alive", to get a "soul".
+		  
+	The way it tried doing that was one that most who know of would rather forget. The Engi kidnapped dozens of living beings and killed them in the most painful ways, all in the pursuit to acquire a "soul" of their own. The amount of pain that engi managed to create was staggering, but in the end, they were successful. After years of experiments, they eventually managed to get something resembling a soul. However, they weren't able to keep it for long - the harmony eventually had to resort to extreme measures to put that deviation to an end, and since reintegration has the risk of infecting the whole network, it was deemed that killing them the normal way was the least dangerous option, and so, after a long battle, he was finally put to rest.</text>
+     <choice hidden="true">
+        <text>Reprogram a defender? Who could have managed such a feat?</text>
+		<event>
+			<text>Before you have the chance to ponder more, the Engi target jumps into view, their multicolored ship, memorizing - though the engi themselves had seen better days. Their nanobots all disorganized and emitting a miasma of different colors. The Engi attempts to say something, however it's drowned out by the various sounds of what seems to be distorted error messages before powering on his weapons.</text>
+				<ship load="SHIP_FR_CHAOS_HAUNT_CHARROR" hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_HAUNT_CHARROR_DEFEAT">
+	<text>The nanobots finally go silent as the ship loses its colors for hopefully the last time.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The engi wastes no time before appearing before you, still heavily corrupted, but at least it can communicate now.
+				  
+			"Protocol 120: Gratitudzzzz. [bzzt] Support against [RYYZZZZZRTT] is required, the -skills- of this unit can be of use. _Engi_ no longer under [RZRSTS] control, need to honor *savior* is paramount."
+				  
+			You eye your other crewmates who, while reluctant at first, eventually all agree to accept the help of the engi, though they will require heavy surveillance.
+			
+			Before you open the next bounty, your computer flashed a unexpected message, warning you of a powerful engine signature detected from the next bounty, much much higher than any other bounty so far.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_CHARROR</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--fifth encounter-->
+<ship name="SHIP_FR_CHAOS_HAUNT_LEO" auto_blueprint="FR_BOSS_CHAOS_HAUNT_LEO">
+	<destroyed load="FR_CHAOS_HAUNT_LEO_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_HAUNT_LEO_DEFEAT"/>
+	<crew>
+		<crewMember type="leech" prop="0.40"/>
+		<crewMember type="leech_ampere" prop="0.60"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_5">
+	<text>The bounty of the next ghost is the shortest one so far, telling the tale of a leech Ampere named Leo who was stationed at the boarders of the leech capital, his life was mostly the same save for the rare and occasional fights with pirates. That was, until he was tasked with fighting and detaining a ship of an unknown class, one which refused all hails and was advancing quickly towards the center of the system.
+	
+	The fight lasted only a few seconds, the only survivor was a single dying leech who was too confused to give a proper report, all the rescue team could get out of him was that some "beings" boarded the ship, killed everyone without moving a muscle before knocking out the captain and abducting him. When pressed for details the leech had what seemed to be a stroke before dying, his body's natural regeneration seemingly being shut down by whoever attacked the ship. Leo was never heard from again and neither were the mysterious vessel.</text>
+     <choice hidden="true">
+        <text>I guess he won't be missing for long.</text>
+		<event>
+			<text>Smoke nodded before the leech ship you were expecting arrived, brimming with light coming out of its extremities, the ship refused all hails and simply attacks.</text>
+				<ship load="SHIP_FR_CHAOS_HAUNT_LEO" hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_HAUNT_LEO_DEFEAT">
+	<text>The leech ship finally goes dark, hopefully for the last time.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The leech ghost appears before you, if only for a few moments, and although he doesn't speak, you somehow you feel a great sense of gratitude emanating from him. This sense doesn't last long and soon enough the leech vanishes and reappears elsewhere in the ship, always vanishing before anyone else enters the room.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_LEO</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--sixth encounter-->
+<ship name="SHIP_FR_CHAOS_HAUNT_SEARAK" auto_blueprint="FR_BOSS_CHAOS_HAUNT_SEARAK">
+	<destroyed load="FR_CHAOS_HAUNT_SEARAK_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_HAUNT_SEARAK_DEFEAT"/>
+	<crew>
+		<crewMember type="zoltan_devotee" prop="0.40"/>
+		<crewMember type="zoltan_martyr" prop="0.60"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_6">
+	<text>Your journey is slowly coming to a close, and the bounty list is getting shorter and shorter. You only have 2 targets now, hopefully once you get to the last bounty the true puppet master will reveal themselves.
+	
+	The next ghost is a rather surprising read, it's a duskbringer martyr named Searak, a proud zoltan who was unfortunately one of the first casualties of the duskbringer movement, one which happened while his ship was under attack by a mysterious white vessel. His clonebay was seemly tampered with as he was being cloned, so upon revival... well, let's say his goals swiftly changed. 
+	
+	In a mad fit, he started desperately pouring his backup DNA samples all over the samples from his other crewmates, damaging their minds beyond repair. As the crew was revived, they all became seemingly as mad as Searak, attacking nearby friendly crew in a attempt to force them to be cloned. That's not all - the clonebay wouldn't stop cloning them, breaking one of the few generally respected laws across the multiverse: duplicate cloning.
+		  
+	Being the last duskbringer alive and quickly realizing what just happened, the captain of the ship took the only option he saw appropriate, steering the ship into a nearby pulsar, fully destroying both the ship, the crew and all the tainted DNA samples.</text>
+     <choice hidden="true">
+        <text>A shame we won't ever know the captain's name...</text>
+		<event>
+			<text>Your crew lowered their head and slowly nodded before the duskbringer ship you were expecting arrived, Searak hails you "I see the one the voices warned me about has arrived! To arms brothers and sisters! The time we have been readying for has finally come!" The ship's weapons turn online.</text>
+				<ship load="SHIP_FR_CHAOS_HAUNT_SEARAK" hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_HAUNT_SEARAK_DEFEAT">
+	<text>The ship and the clonebay is fully cleared out of any duskbringers, you can finally breath in peace.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The zoltan, once proud, now appears deflated in front of you. "I... how... how could I been so... easy to manipulate? All my life I fought for what I truly believed but now... all I will ever be remembered is as a lunatic and a traitor. Please, kind captain, allow me to atone for my sins aboard your vessel, I promise I will be by your side when the time comes to fight whoever is behind all of this."</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_SEARAK</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--auto encounter-->
+<ship name="SHIP_FR_CHAOS_HAUNT_AUTO" auto_blueprint="FR_BOSS_CHAOS_HAUNT_AUTO">
+	<destroyed load="FR_CHAOS_HAUNT_AUTO_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_HAUNT_AUTO_DEFEAT"/>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_AUTO">
+	<text>This is it, time to see who is behind all of this. You attempt to access the last bounty but before you have a chance to, an auto ship jumps in out of nowhere! It doesn't seem to be a regular auto ship either, they have a completely different paint job from any other autos in your database, and bear a strange logo engraved on the hull.</text>
+	<ship load="SHIP_FR_CHAOS_HAUNT_AUTO" hostile="false"/>
+     <choice hidden="true">
+        <text>What the- what is a auto ship of all things doing here?</text>
+		<event>
+			<text>Unfortunately none of your crew can answer it, and a couple ghosts don't even recognize it as an auto-ship, as the rebellion simply wasn't a thing in their lifetime. Before you have the chance to ponder, the auto ship hails you with a warning. 
+			
+			"Federation affiliated ship, you have come too far for your own good. Executing protocol L-3312. 'For the Legion!'' " The auto plays a recording of a male voice before moving into attack position.</text>
+				<ship hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_HAUNT_AUTO_DEFEAT">
+	<text>The auto ship, cracked in half under the stress of the battle, desperately tries to charge its engines to escape but it's too late, the fuel tank reaches critical and goes out in a supernova-like explosion. Luckily, you were far enough away to not be hit by it. 
+	
+	Interestingly, the explosion did you a huge favor, as all the small scrap pieces were fused by the explosion's heat, forming loads of easy to collect, medium sized balls of pure scrap.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard_no_item</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text> 
+		<event>
+			<text>Not much was left after the explosion, seems like what happened wasn't an accident, but rather a remotely activated self destruction sequence. However, it seems the process was somewhat incomplete, as after a bit of searching you recover what seems to be the ship's black box.
+			
+			After running enough checks to make sure it isn't a trap, you gather up all your crew and watch the contents of it. There isn't much here, only a short clip on what seems to be Vance Wentworth talking to... something in the background, although the video's quality is way too low to make up who they are among all the blurry pixels, but whoever they are, they formed a deal with him.
+				  
+			Unfortunately the video cuts off before they can reiterate what the deal is, regardless though, if Vance is involved in this then it can't be anything good. You ask Charror to look over the black box for anything else that might be hidden in it and luckily enough he finds blueprints for something called a "scrap maker", a sorta of one time "store" that can turn weapons, drones or augments into scrap which can be used to repair your hull and refill your resources if needed.
+				  
+			That's not all either, hidden behind extreme levels of encryption, Charror also finds the blueprints of a weaker version of the augment that auto had installed and the blueprints for a ship!</text>
+			<augment name="FR_ANNIHILATION_GRID_UNLOCKED"/>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_AUTO</unlockCustomShip>
+			<store>STORE_FR_LEGION_AUTO</store>
+		</event>
+	</choice>
+</event>
+
+<!--Siren encounter-->
+<ship name="SHIP_FR_CHAOS_HAUNT_WATCHER" auto_blueprint="FR_BOSS_CHAOS_HAUNT_WATCHER">
+	<destroyed load="FR_CHAOS_HAUNT_WATCHER_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_HAUNT_WATCHER_DEFEAT"/>
+	<crew>
+		<crewMember type="siren" prop="0.40"/>
+		<crewMember type="siren_harpy" prop="0.60"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_SIREN">
+	<text>It's finally time to see who's behind all of this, who is the final bounty? You take a deep breath and finally open it.
+		  
+		  ...
+		  
+		  It's... blank? No tale, no stats, nothing. The only thing it says is the name of the target "The Watcher". Somehow, reading that name caused a violent physical response, you feel like passing out, similarly to what the gnome made you feel at the start of all of this.</text>
+    <choice req="gnome" lvl="1" blue="false" hidden="true">
+        <text>Actually, where is the gnome?</text>
+		<event>
+			<text>You walk all over the ship as you look for that dammed garden decoration, and you manage to find him just at the last second before it's beamed away.
+			
+			You run to the bridge in hopes of catching the culprit and.. There it is, what might be your last target. A vessel that's unlike any other, trying to look at it not only makes you dizzy, but just the act of locking eyes to it is a challenge, the fuzzy static merging with space. It seems they were readying their ship to jump given the roaring of the engines, but after seeing you turn on your weapons against them, they seemed to change their mind.
+				  
+			No one hails you, no words are exchanged, within a few moments the ship's weapons activate, something tells you this fight won't end like all others.</text>
+				<ship load="SHIP_FR_CHAOS_HAUNT_WATCHER" hostile="true"/>
+				<playMusic>chaos_fight</playMusic>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+    <choice req="gnome" lvl="0" max_lvl="0" blue="false" hidden="true">
+        <text>Actually, shouldn't the gnome be back by now?</text>
+		<event>
+			<text>You walk all over the ship as you look for that dammed garden decoration, and you manage to find him just at the last second before it's beamed away.
+			
+			You run to the bridge in hopes of catching the culprit and.. There it is, what might be your last target. A vessel that's unlike any other, trying to look at it not only makes you dizzy, but just the act of locking eyes to it is a challenge, the fuzzy static merging with space. It seems they were readying their ship to jump given the roaring of the engines, but after seeing you turn on your weapons against them, they seemed to change their mind.
+				  
+			No one hails you, no words are exchanged, within a few moments the ship's weapons activate, something tells you this fight won't end like all others.</text>
+				<ship load="SHIP_FR_CHAOS_HAUNT_WATCHER" hostile="true"/>
+				<playMusic>chaos_fight</playMusic>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_HAUNT_WATCHER_DEFEAT">
+	<text>The ship starts cracking apart, quickly losing any physically it once had and dissolving into dust right in front of you.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<playMusic/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>No crew ever comes to greet you, and not only that, but it seems all the ghosts in your ship were silenced. Whatever those things did it caused all your friends to be silenced, any personality removed and replaced with a blank void, as if their very souls were removed from what little physicality they had as a ectoplasma-filled ghost, nothing more than husks now.
+			
+			The victory is bittersweet, the gnome is gone and all your friends became husks of their previous selves. It seems if you want to escape this place you will need to make the jump to wherever that ship wanted to jump to.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_WATCHER</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--LEGION FLAGSHIP ENCOUNTER-->
+<ship name="SHIP_FR_CHAOS_HAUNT_LEGION_FLAGSHIP" auto_blueprint="FR_BOSS_CHAOS_HAUNT_LEGION_FLAGSHIP">
+	<destroyed load="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_CREWKILL"/>
+	<miniBoss sound="victory" musicDelay="-1"/>
+	<triggeredEvent event="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_CREWKILL" thisFight="true">
+		<enemyCrew amount="0" includeClonebay="true"/>
+	</triggeredEvent>
+	<crew>
+		<crewMember type="human_legion" prop="0.60"/>
+		<crewMember type="human_legion_pyro" prop="0.40"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_FINAL_BOSS_CHAOS">
+	<text>The space here is filled with maddening laughter, whispers speaking unintelligible words and sounds from deep within your memories. 
+	
+	It seems like this is the only place to exit the sector, however the exit beacon is inactive, unresponsive no matter what you try. It seems you are stuck here until you finish the other bounties.</text>
+	<revisitEvent>FR_TARTARUS_FINAL_BOSS_CHAOS</revisitEvent>
+	<choice hidden="true">
+		<text>We have work to do still.</text>
+		<event/>
+	</choice>
+	<choice hidden="true" req="loc_fr_bounty_progression_chaos" lvl="0" max_lvl="7" blue="false">
+		<text>The exit is still locked, you need to finish all the bounties first.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice hidden="true" req="loc_fr_bounty_progression_chaos" lvl="8" blue="false">
+		<text>This is the location that the watcher was trying to jump to, let's see what's in store for us.</text>
+		<event load="FR_TARTARUS_FINAL_BOSS_CHAOS_TRUE"/>
+	</choice>
+</event>
+
+<event name="FR_TARTARUS_FINAL_BOSS_CHAOS_TRUE">
+	<text>What you find on the other side is something you could have never predicted, a massive vessel similar to the flagship of old, but far better equipped, bearing the same paint job as the strange auto you fought against. The ship looms in front of you until you are finally hailed by the big man himself, Admiral Vance Wentworth of the Rebel Fleet.
+	
+	"Well, well, well, If it isn't the thorn in my side, the little federation ship that could. I would say I'm surprised to see you, but after finding out what you did to my auto, I knew you would get through my "partner" and come face to face with me." He flashes a cocky smile, in the background you can see what appears to be another face, bound to a chair next to the cockpit, looking at you with pain reflected from his eyes.</text>
+	<ship load="SHIP_FR_CHAOS_HAUNT_LEGION_FLAGSHIP" hostile="false"/>
+	<img back="FR_SECTOR_G_TARTARUS" planet="NONE"/>
+	<playMusic>showdown</playMusic>
+	<choice hidden="true">
+        <text>Wait, if you're Vance than who's that person in the background?</text>
+		<event>
+			<text>Vance's smile grows tenfold, but he doesn't answer your question.
+			
+			"I see you want an explanation, something to satisfy your gluttonous little mind, no? Well, I'm afraid you will have none of that! I waited YEARS to finally get this plan into motion, and now that I finally have both you and my little friend over here in the perfect spots, years of planning and careful execution, I won't let a little bug like you or a little snake like him stop me from doing what I was born to do! Now, Federation dog, I hope you give this pristine ship at least a little bit of a challenge. I would hate to destroy you before I can fully showcase the power of this vessel!"</text>
+				<ship hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_CREWKILL">
+	<text>The Mighty ship has been defeated! You scan their ship for any remaining lifeforms, at first there doesn't seem to be anyone besides Vance prime left, however, your sensors find something extremely worrisome about the ship. It seems it's trying to activate its auto mode!</text>
+	<ship hostile="false"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_DEFEAT"/>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_DEFEAT">
+	<text>At first it looks like the flagship can still fight on, however a great explosion in the center of the ship proves otherwise. The ship is fully consumed by the explosion a few moments later, leaving a load of scrap for the taking.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="10"/>
+	<recallBoarders ship="both"/>
+	<enemyDamage amount="999"/>
+	<playMusic/>
+	<choice hidden="true">
+		<text>Continue...</text>
+			<event>
+				<text>At first you are overjoyed by what you just accomplished, and while that feeling doesn't go away, it is diminished when you realize what probably happened to the Vance in the cockpit. You take a while scan of the battleship, quickly finding what used to be the bridge of the ship, still mostly intact.
+				
+				It's a time consuming procedure but you manage to find and locate Vance inside the broken off piece of the ship. He's still alive, but only barely. You bring him to your ship and allow him to heal from his injuries. The process is slow, but eventually Vance does wake up.
+					  
+				"You... saved me? Why...?... Don't get me wrong, I'm... very grateful, I'm just...confused."</text>
+				<choice hidden="true">
+					<text>I couldn't just let you die, at least, not before I could get my answers.</text>
+					<event>
+						<text>Vance sights and nods. "Of course... answers. I'm... afraid I know only as much as you do. Vance 1 was never one to share his secrets, though if I were to guess, he wanted to control death itself as a way to rule over the multiverse... or something. I'm sorry if you wanted more information, I was blind sidded as you were." He frowns and closes his eyes.</text>
+							<choice hidden="true">
+							<text>Well, do you at least have anything you can offer to keep me from killing you right now?</text>
+								<event>
+									<text>Vance groans, but nods. "I have the blueprints for that flagship you just destroyed, it was based off a earlier model I had commissioned, though with some modifications, of course. I'm sure your little scientists are very smart, they can figure out the differences." With a wide smirk you nod and take the blueprints.
+										  
+									"I suppose you want me to be your little prisoner no? Well do what you want with me, I'm too tired of all of this to be quite honest with you. Talk to me when you are ready to leave this place, I know the only way to get out of here." You nod and make sure to talk to Vance before you get ready to jump.</text>
+									<variable name="fr_bounty_completed_mid_run" op="set" val="1"/>
+									<crewMember amount="1" class="unique_vance" all_skills="2">Vance Prime</crewMember>
+									<achievement silent="false">ACH_FR_EVENT_TARTARUS_CHAOS</achievement>
+									<unlockCustomShip silent="false">PLAYER_SHIP_FR_LEGION_FLAGSHIP</unlockCustomShip>
+									<jumpEvent>FR_VANCE_SECTOR_SELECT</jumpEvent>
+								</event>
+							</choice>
+					</event>
+				</choice>
+			</event>
+	</choice>
+</event>
+
+<event name="FR_VANCE_SECTOR_SELECT">
+	<text>You inform Vance that you are ready, He sighs and hands you a strange floating cube.
+	
+	"Put this in your engine's fuel storage, it will allow you to jump to any sector you wish. Vance 1 planned on reverse engineering this and then using it to strike at the federation's core worlds once he left this place. As far as I know this is the only one in existence, and I doubt it will survive the process once it's used, so choose wisely."</text>
+	<choice hidden="true">
+		<text>Weird charitable of you vance.</text>
+		<event>
+			<text>"Oh this isn't charity, I just rather get the hell out of this place, even if that means helping you." He snarks.</text>
+			<choice req="prof_fr_chaos_apparitions_unlocked" lvl="0" max_lvl="0" max_group="1" blue="false" hidden="true">	
+				<text>Well, time to pick our destination.</text>
+					<event load="FR_URN_UPGRADE"/>
+			</choice>
+			<choice req="prof_fr_chaos_apparitions_unlocked" lvl="1" max_group="1" blue="false" hidden="true">	
+				<text>Well, time to pick our destination.</text>
+					<event load="FR_WEAPON_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_URN_UPGRADE">
+	<text>Before you can select your destination, a strange sensation fills your very soul, you blink, and suddenly you see the visions of a strange urn-like...thing. It slowly open its white lid ever so slowly, suddenly, the souls of everyone you met in this strange mission seems to fill the urn, before it seals itself again.
+	
+	You blink again, and you wake up from your visions, with no time passing at all even though the whole thing felt like hours.</text>
+		<choice blue="false" hidden="true">	
+			<text>Continue...</text>
+				<event>
+					<text>It takes a few minutes for you to recover, but as you do, you manage to get your thoughts in order enough to select your destination.</text>
+					<metaVariable name="prof_fr_chaos_apparitions_unlocked" op="set" val="1"/>
+					<achievement silent="false">ACH_FR_EVENT_URN_UPGRADE</achievement>
+					<choice blue="false" hidden="true">	
+						<text>Continue...</text>
+							<event load="FR_WEAPON_CHAOS_SELECT_TARTARUS"/>
+					</choice>
+				</event>
+		</choice>
+</event>
+
+<event name="FR_WEAPON_CHAOS_SELECT_TARTARUS">
+	<text>Before you jump away, you notice a bunch of strange weapons quickly heading towards a nearby sun, you can save one of them, but the others will surly be lost. Which one do you want to save?</text>
+	<choice blue="false" hidden="false">	
+		<text>Pick the Smoke Shard Launcher</text>
+		<event>
+			<text>You manage to get to the weapon just in time. Unfortunately all others are lost forever.</text>
+			<weapon name="FR_SMOKE_CRYSTAL_MINELAUNCHER"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick the Snow Flak</text>
+		<event>
+			<text>You manage to get to the weapon just in time. Unfortunately all others are lost forever.</text>
+			<weapon name="FR_CHILLS_SNOW_FLAK"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick the Pok's Clone Cannon</text>
+		<event>
+			<text>You manage to get to the weapon just in time. Unfortunately all others are lost forever.</text>
+			<weapon name="FR_POK_CLONE_LAUNCHER"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick the Debug Drone</text>
+		<event>
+			<text>You manage to get to the weapon just in time. Unfortunately all others are lost forever.</text>
+			<drone name="FR_CHARROR_DRONE"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Leo's Battery</text>
+		<event>
+			<text>You manage to get to the weapon just in time. Unfortunately all others are lost forever.</text>
+			<weapon name="FR_LEO_BATTERY"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Searak's Energy</text>
+		<event>
+			<text>You manage to get to the weapon just in time. Unfortunately all others are lost forever.</text>
+			<weapon name="FR_SEARAK_ENERGY"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick the Auto's Zenith</text>
+		<event>
+			<text>You manage to get to the weapon just in time. Unfortunately all others are lost forever.</text>
+			<weapon name="FR_LEGION_AUTO_ZENITH"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CREW_CHAOS_SELECT_TARTARUS">
+	<text>As you scoop the weapon, you also a strange device alongside the weapon that could bring one of your empty crews back to sentience. Which crew do you want to bring back?</text>
+	<choice blue="false" hidden="false">	
+		<text>Pick Smoke</text>
+		<event>
+			<text>The device does its magic and soon the crew is back like their former self "You...saved me? Renegade, from this onwards, I swear to always fight at your side!".</text>
+			<crewMember amount="1" class="fr_reformed_smoke" all_skills="2">Smoke</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Chills</text>
+		<event>
+			<text>The device does its magic and soon the crew is back like their former self "That's what I'm talking about! Now we can explore the multiverse together! Come one, friend, there's tresure to find!".</text>
+			<crewMember amount="1" class="fr_reformed_chills" all_skills="2">Chills</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Pok</text>
+		<event>
+			<text>The device does its magic and soon the crew is back like their former self "Pok!" The little morph shapeshifts into a form just like yours and hugs you.</text>
+			<crewMember amount="1" class="fr_reformed_pok" all_skills="2">Pok</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Charror</text>
+		<event>
+			<text>The device does its magic and soon the crew is back like their former self "Mercy? This unit is *BZZZT* Thankful".</text>
+			<crewMember amount="1" class="fr_reformed_charror" all_skills="2">Charror</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Leo</text>
+		<event>
+			<text>The device does its magic and soon the crew is back like their former self "Mercy? After everything you still want me to live?...Renegade, you earned a true friend today".</text>
+			<crewMember amount="1" class="fr_reformed_leo" all_skills="2">Leo</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Searak</text>
+		<event>
+			<text>The device does its magic and soon the crew is back like their former self "In all my years of service I have never seen such bravery! If i ever make it back home, I will make sure every duskbringer will sing songs about what you have done today!".</text>
+			<crewMember amount="1" class="fr_reformed_searak" all_skills="2">Searak</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_TARTARUS_EMPTY_CHAOS">
+	<text>There's nothing here, not even a star in sight.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+
+</FTL>

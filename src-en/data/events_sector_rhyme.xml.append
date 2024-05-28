@@ -1,0 +1,14 @@
+<FTL>
+
+<mod:findName type="event" name="HER_FINALE_REAL">
+    <mod-append:unlockCustomShip silent="false">PLAYER_SHIP_FR_REAL</mod-append:unlockCustomShip>
+</mod:findName>
+
+<mod:findName type="event" name="THE_ONE_WHO_RHYMES_WIN_CHAOS">
+    <mod-append:unlockCustomShip shipReq="PLAYER_SHIP_FR_LEGION_FLAGSHIP" silent="false">PLAYER_SHIP_FR_LEGION_FLAGSHIP_2</mod-append:unlockCustomShip>
+</mod:findName>
+
+<mod:findName type="event" name="THE_ONE_WHO_RHYMES_WIN">
+    <mod-append:unlockCustomShip shipReq="PLAYER_SHIP_FR_LEGION_FLAGSHIP" silent="false">PLAYER_SHIP_FR_LEGION_FLAGSHIP_2</mod-append:unlockCustomShip>
+</mod:findName>
+</FTL>

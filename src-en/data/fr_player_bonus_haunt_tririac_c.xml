@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
+<img x="-61" y="-8" w="541" h="437" />
+<offsets>
+	<floor x="55" y="1" />
+	<cloak x="-22" y="-19" />
+</offsets>
+<weaponMounts>
+	<mount x="508" y="198" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="508" y="239" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="461" y="173" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="461" y="264" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="392" y="160" rotate="true" mirror="true" gib="-1" slide="no" />
+	<mount x="392" y="278" rotate="true" mirror="false" gib="-1" slide="no" />
+</weaponMounts>
+
+<thrusters sync="true">
+    <thruster x="-88" y="167" irotate="true">fr_tririac_c_main_thruster</thruster>
+	<thruster x="44" y="93" irotate="true">fr_tririac_c_midside_thruster</thruster>
+	<thruster x="44" y="299" irotate="true">fr_tririac_c_midside_thruster</thruster>
+	<thruster x="110" y="12" irotate="true">fr_tririac_c_far_thruster</thruster>
+	<thruster x="110" y="372" irotate="true">fr_tririac_c_far_thruster</thruster>
+	<thruster x="-30" y="185" irotate="true">fr_tririac_c_top_thruster</thruster>
+</thrusters>
+
+<explosion />
+

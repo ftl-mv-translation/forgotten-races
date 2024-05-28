@@ -1,0 +1,68 @@
+﻿<FTL>
+
+<!--
+	VANCE STUFF
+-->
+
+<mod:findName type="event" name="JERRY_HOME_WIN">
+	<mod-append:choice req="unique_vance" blue="true" hidden="true">
+		<text>(Vance Prime) "Jerry! It's really you! It's...it's been so long" Prime says trying holding back his emotions. In all your time in this mission Vance's face never changed from his regular stoic one, no matter what he was doing his emotions were always absent...until now.</text>
+			<event>
+				<text>Jerry pauses as he looks at his uncle flabbergasted "U-Uncle vance?! W-Wait, those clothes...P-PRIME?! W-What are you doing here?! Shouldn't you be at Universe 0? N-Not only that, but those Renegades were hired by the Federation! Uncle...W-What's going on?"</text>
+				<choice hidden="true">
+				<text>Continue...</text>
+					<event>
+						<text>Vance stays silent for a minute, carefully thinking what to say next. "Vance 1, he... he tried to kill me." Vance speaks deflated. "Not only that, I have been doing a lot of... thinking this past few years. I... I think you were right about me... about what I have done and... I'm sorry Jerry... I'm so, so sorry." As vance speaks you can clearly see his face contort as the words that come out from his mouth seem painful to speak.</text>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>Jerry stares at his uncle for 5 minutes, speechless and stunned. Eventually though, he finds the words he was looking for and looked away before speaking. "Uncle... Prime... I... I'm happy you saw the errors of your ways but... I'm not sure you can stop what you put into motion all those years ago. The lives you took, the ideas you spread... I... You can't revert them Uncle..." He sighs heavily before looking back at him. "But...if you are willing to try to fix your mistake, then I will help you in any way I can."</text>
+										<choice hidden="true">
+										<text>Continue...</text>
+											<event>
+												<text>Vance ruminates on what Jerry said before nodding while hiding his face. "You are right. Let's... let's start the fixing process then. First things first, let's tell Cyra to stand down." Jerry nods and the crew moves back to your cruiser with Jerry on your side.</text>
+												<crewMember amount="1" class="unique_jerry">Jerry</crewMember>
+												<variable name="loc_jerrysave" op="set" val="1"/>
+												<variable name="ach_crew_jerry" op="set" val="1"/>
+											</event>
+										</choice>
+								</event>
+							</choice>
+					</event>
+				</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="CYRA_JERRY">
+	<mod-append:choice req="unique_vance" blue="true" hidden="true">
+		<text>(Vance Prime) "It's me, Cyra. My new orders for you are to stand down. You were one of my best soldiers, I don't want to have to fight you."</text>
+			<event>
+				<text>Cyra stares at Vance for a moment, silently. "Well I'll be dammed, Vance Prime himself huh? Rumor has it that you stole a ship from Vance 1 himself and are now a wanted criminal. What in gods name happened?" Vance growls spitefully at V1's mention. "A lot happened, Cyra. V1 crossed the line and I had to stand down. I wasn't expecting the federation to let me join their ranks so easily, but I suppose when you hold influence over their biggest enemy you can get away with anything!"</text>
+				<choice hidden="true">
+				<text>Continue...</text>
+					<event>
+						<text>Cyra chuckles before powering down her ship. "Well, I suppose if you are going to take Jerry into a little adventure then I might as well come too, it's been awfully boring around here anyways. Feel free to take the schematics of my old ship, it's of no use to me anymore."</text>
+							<crewMember amount="1" class="unique_cyra">Cyra</crewMember>
+							<autoReward level="HIGH">weapon</autoReward>
+							<variable name="loc_killedcyra" op="set" val="1"/>
+							<unlockCustomShip silent="false">PLAYER_SHIP_MFK</unlockCustomShip>
+					</event>
+				</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="DESTROYED_TOM">
+	<mod-append:choice hidden="true" req="unique_vance">
+		<text>(Vance) Welcome them aboard.</text>
+		<event load="FR_DESTROYED_TOM_VANCE"/>
+	</mod-append:choice>
+</mod:findName>
+
+<event name="FR_DESTROYED_TOM_VANCE">
+	<text>"Holy shit it's Vance! It's an honor to be abord the same ship as you, sir. If you plan on helping the federation then I will gladly join you!"</text>
+	<crewMember amount="1" class="human_soldier">Tom</crewMember>
+</event>
+
+</FTL>

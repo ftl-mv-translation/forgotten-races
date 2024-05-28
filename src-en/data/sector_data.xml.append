@@ -1,0 +1,79 @@
+<FTL>
+
+<mod:findName type="sectorDescription" name="SECRET_SYLVAN">
+    <mod:findLike type="rarityList">
+        <mod-append:blueprint name="fr_commonwealth" rarity="5"/>
+        <mod-append:blueprint name="fr_salt" rarity="5"/>
+        <mod-append:blueprint name="fr_proto_cognitive" rarity="5"/>
+        <mod-append:blueprint name="fr_enhanced" rarity="5"/>
+        <mod-append:blueprint name="fr_withered" rarity="5"/>
+        <mod-append:blueprint name="fr_unique_mantis_queen" rarity="5"/>
+        <mod-append:blueprint name="fr_experimental_cognitive" rarity="5"/>
+        <mod-append:blueprint name="fr_reborn_g" rarity="5"/>
+		<mod-append:blueprint name="fr_reborn_phys" rarity="5"/>
+        <mod-append:blueprint name="fr_reborn_aleenor" rarity="5"/>
+        <mod-append:blueprint name="fr_reborn_cleo" rarity="5"/>
+        <mod-append:blueprint name="fr_reborn_slimer" rarity="5"/>
+        <mod-append:blueprint name="fr_reborn_vin" rarity="5"/>
+        <mod-append:blueprint name="fr_reborn_zulu" rarity="5"/>
+        <mod-append:blueprint name="fr_reformed_smoke" rarity="5"/>
+        <mod-append:blueprint name="fr_reformed_chills" rarity="5"/>
+        <mod-append:blueprint name="fr_reformed_pok" rarity="5"/>
+        <mod-append:blueprint name="fr_snowman_smart" rarity="5"/>
+        <mod-append:blueprint name="fr_lavaman" rarity="5"/>
+        <mod-append:blueprint name="fr_reformed_charror" rarity="5"/>
+        <mod-append:blueprint name="fr_reformed_leo" rarity="5"/>
+        <mod-append:blueprint name="fr_reformed_searak" rarity="5"/>
+        <mod-append:blueprint name="fr_watcher" rarity="5"/>
+        <mod-append:blueprint name="fr_gozer" rarity="5"/>
+        <mod-append:blueprint name="fr_CE_avatar" rarity="5"/>
+        <mod-append:blueprint name="fr_errorman" rarity="5"/>
+        <mod-append:blueprint name="fr_bonus_augustus" rarity="5"/>
+        <mod-append:blueprint name="fr_bonus_sally_adult" rarity="5"/>
+        <mod-append:blueprint name="fr_unique_leah_legion" rarity="5"/>
+        <mod-append:blueprint name="fr_bonus_prince" rarity="5"/>
+        <mod-append:blueprint name="fr_spherax" rarity="5"/>
+   </mod:findLike>
+   <mod-append:priorityEvent name="FR_BILLVAN_QUEST" min="1" max="1" priority="2"/>
+</mod:findName>  
+
+<mod:findName type="sectorDescription" name="SECRET_AUGMENTED">
+    <mod-append:priorityEvent name="FR_ENHANCED_CHOICE" min="1" max="1" priority="2"/>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECTOR_DYNASTY_UNIQUE">
+    <mod-append:priorityEvent name="FR_WITHER_RUINS" min="1" max="1" priority="2"/>
+</mod:findName>
+
+<mod:findName type="sectorDescription" name="SECRET_ROYAL">
+    <mod-append:priorityEvent name="FR_COMMONWEALTH_FORGE_DRONE" min="1" max="1" priority="2"/>
+</mod:findName>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+TARTARUS
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<sectorDescription name="SECTOR_FR_TARTARUS" unique="true"> 
+	<nameList>
+		<name>The Forgotten Tartarus</name>
+	</nameList>
+	<trackList>
+		<track>tartarus</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="phantom" rarity="0"/>
+		<blueprint name="mantis" rarity="5"/>
+		<blueprint name="zoltan" rarity="5"/>
+		<blueprint name="slug" rarity="5"/>
+		<blueprint name="rock" rarity="5"/>
+		<blueprint name="human" rarity="5"/>
+	</rarityList>
+	<noExit/>
+    <startEvent>FR_START_TARTARUS</startEvent>
+	<event name="FR_TARTARUS_BOUNTIES_LOAD" min="999" max="999"/>
+	<exitBeacon event="FR_TARTARUS_FINAL_BOSS_LOAD" rebelEvent="FR_TARTARUS_BOUNTIES_LOAD"/>
+</sectorDescription>
+
+</FTL>

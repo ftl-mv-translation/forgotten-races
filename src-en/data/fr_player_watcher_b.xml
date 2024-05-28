@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
+<img x="-84" y="-62" w="697" h="406" />
+<offsets>
+	<floor x="78" y="57" />
+	<cloak x="0" y="0" />
+</offsets>
+<weaponMounts>
+	<mount x="613" y="166" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="613" y="240" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="358" y="374" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="358" y="32" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="484" y="97" rotate="true" mirror="true" gib="-1" slide="no" />
+	<mount x="484" y="309" rotate="true" mirror="false" gib="-1" slide="no" />
+</weaponMounts>
+<thrusters sync="true">
+    <thruster x="93" y="35" irotate="true">fr_watcher_cruiser_b_thruster</thruster>
+    <thruster x="93" y="264" irotate="true" mirror="true">fr_watcher_cruiser_b_thruster</thruster>
+</thrusters>
+<explosion />
+
