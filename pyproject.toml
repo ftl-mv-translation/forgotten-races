@@ -8,7 +8,7 @@ packages = [{include = "forgotten_races_translation"}]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
-mvlocscript = {git = "https://github.com/ftl-mv-translation/mvloc.git", branch = "feature-open-project"}
+mvlocscript = {git = "https://github.com/ftl-mv-translation/mvloc.git"}
 
 
 [build-system]
