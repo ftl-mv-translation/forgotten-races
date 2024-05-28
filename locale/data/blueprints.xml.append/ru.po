@@ -1,9 +1,17 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-05-29 07:30+0000\n"
+"Last-Translator: Юрий <iorgos.grek@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"datablueprintsxmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src-en/data/blueprints.xml.append:11
 msgid ""
@@ -22,22 +30,22 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:18
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_commonwealth\"]/powerList/power[1]"
-msgstr ""
+msgstr "100 ОЗ, регенерирует 1.5 ОЗ/сек, даже когда находится в бою"
 
 #: src-en/data/blueprints.xml.append:19
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_commonwealth\"]/powerList/power[2]"
-msgstr ""
+msgstr "3х скорость ремонта, 0.5х скорость саботажа."
 
 #: src-en/data/blueprints.xml.append:20
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_commonwealth\"]/powerList/power[3]"
-msgstr ""
+msgstr "Не может сражаться, неуязвим к огню или удушью."
 
 #: src-en/data/blueprints.xml.append:21
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_commonwealth\"]/powerList/power[4]"
-msgstr ""
+msgstr "0.90х скорость перемещения."
 
 #: src-en/data/blueprints.xml.append:26
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_spherax\"]/title"
@@ -55,26 +63,31 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_spherax\"]/powerList/power[1]"
 msgstr ""
+"Активная способность: может ускорять или замедлять время в отсеке, где он "
+"находится, на 5 секунд."
 
 #: src-en/data/blueprints.xml.append:34
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_spherax\"]/powerList/power[2]"
-msgstr ""
+msgstr "200 ОЗ, невосприимчив к урону от угроз и оглушению."
 
 #: src-en/data/blueprints.xml.append:35
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_spherax\"]/powerList/power[3]"
 msgstr ""
+"Может телепортироваться между отсеками и кораблями. Скорость саботажа 3х."
 
 #: src-en/data/blueprints.xml.append:36
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_spherax\"]/powerList/power[4]"
 msgstr ""
+"Мгновенно восстанавливает здоровье, если находится вне боя в течение 10 "
+"секунд."
 
 #: src-en/data/blueprints.xml.append:37
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_spherax\"]/powerList/power[5]"
-msgstr ""
+msgstr "Может только стрелять. Стреляет очень медленно, но наносит 5х урон."
 
 #: src-en/data/blueprints.xml.append:42
 msgid ""
@@ -95,21 +108,28 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_billvan\"]/powerList/power[1]"
 msgstr ""
+"Активная способность: может прятаться в коробку и выходить из нее в любой "
+"момент времени. Находясь в коробке, он получает полный иммунитет к урону от "
+"опасностей."
 
 #: src-en/data/blueprints.xml.append:52
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_billvan\"]/powerList/power[2]"
 msgstr ""
+"Активная способность: размещает одновременно пробойную, запирающую и "
+"зажигательную бомбу."
 
 #: src-en/data/blueprints.xml.append:53
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_billvan\"]/powerList/power[3]"
 msgstr ""
+"Восстанавливает здоровье в два раза медленнее при пассивном лечении, но "
+"регенерирует 20 ОЗ/с, пока находится в коробке."
 
 #: src-en/data/blueprints.xml.append:54
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_billvan\"]/powerList/power[4]"
-msgstr ""
+msgstr "Максимальное здоровье увеличено до 150."
 
 #: src-en/data/blueprints.xml.append:59
 msgid ""
@@ -164,21 +184,26 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_sammy\"]/powerList/power[1]"
 msgstr ""
+"Активная способность: переключается между режимами усиления и ослабления. "
+"ТЕКЩИЙ РЕЖИМ: ОСЛАБЛЕНИЕ"
 
 #: src-en/data/blueprints.xml.append:86
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_sammy\"]/powerList/power[2]"
-msgstr ""
+msgstr "Наносит 0.5х урона в бою, получает 1.2х урона в бою."
 
 #: src-en/data/blueprints.xml.append:87
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_sammy\"]/powerList/power[3]"
-msgstr ""
+msgstr "Обучается навыкам в два раза быстрее."
 
 #: src-en/data/blueprints.xml.append:88
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_sammy\"]/powerList/power[4]"
 msgstr ""
+"Постоянно проигрывает громкую музыку через свои громкоговорители, отвлекая "
+"врагов, находящихся с ним в одном отсеке, снижая их урон, скорость ремонта и "
+"саботажа на 50%."
 
 #: src-en/data/blueprints.xml.append:93
 msgid ""
@@ -199,6 +224,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_sammy_buff\"]/powerList/power[1]"
 msgstr ""
+"Активная способность: переключается между режимами усиления и ослабления. "
+"ТЕКЩИЙ РЕЖИМ: УСИЛЕНИЕ"
 
 #: src-en/data/blueprints.xml.append:103
 msgid ""
@@ -214,6 +241,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_sammy_buff\"]/powerList/power[4]"
 msgstr ""
+"Постоянно проигрывает заводную музыку через свои громкоговорители, усиливая "
+"союзников, находящихся с ним в одном отсеке, повышая их урон, скорость "
+"ремонта и саботажа на 50%."
 
 #: src-en/data/blueprints.xml.append:110
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_gozer\"]/desc"
@@ -231,6 +261,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_gozer\"]/powerList/power[1]"
 msgstr ""
+"Периодически теряет способность сражаться, но получает 3х скорости саботажа "
+"и ремонта и становится неуправляемым."
 
 #: src-en/data/blueprints.xml.append:120
 msgid ""
@@ -240,12 +272,14 @@ msgstr "Максимальное здоровье увеличено до 200"
 #: src-en/data/blueprints.xml.append:121
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_gozer\"]/powerList/power[3]"
-msgstr ""
+msgstr "Не может саботировать, но наносит 3х урона в бою."
 
 #: src-en/data/blueprints.xml.append:122
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_gozer\"]/powerList/power[4]"
 msgstr ""
+"Удваивает скорость ремонта других союзных преступников-терзателей, "
+"находящихся с ним в одном отсеке."
 
 #: src-en/data/blueprints.xml.append:127
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_CE_avatar\"]/desc"
@@ -262,7 +296,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:134
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_CE_avatar\"]/powerList/power[1]"
-msgstr ""
+msgstr "Невосприимчив к урону от угроз, может проходить сквозь двери."
 
 #: src-en/data/blueprints.xml.append:135
 msgid ""
