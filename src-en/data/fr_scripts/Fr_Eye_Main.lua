@@ -43,7 +43,7 @@ end
 
 local function eyeFriendlyHurt(ship)
     local function internal(crew)
-        crew.health.first = math.max(crew.health.first + 0.05, crew.health.second)
+        crew.health.first = math.min(crew.health.first + 0.05, crew.health.second)
     end
     local crews = ship.vCrewList
     local index = -1

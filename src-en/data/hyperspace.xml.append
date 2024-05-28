@@ -32,6 +32,7 @@
 	<mod-append:script>data/fr_scripts/Fr_Achievements.lua</mod-append:script>
 	<mod-append:script>data/fr_scripts/Fr_Eye_Movement.lua</mod-append:script>
 	<mod-append:script>data/fr_scripts/Fr_Eye_Main.lua</mod-append:script>
+<!--	<mod-append:script>data/fr_scripts/Fr_Addon_Icon.lua</mod-append:script> -->
 </mod:findLike>
 
 <!--
@@ -3289,6 +3290,9 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</req>
 		<jumpCooldown>continue</jumpCooldown>
 		<buttonText>EAT</buttonText>
+		<powerSounds>
+            <powerSound>mantisSpit2</powerSound>
+        </powerSounds>
 		<tooltip>[COOLDOWN:20s]
 			Eat nearby enemy crew for 40 damage and heals himself for 20 for each enemy in the room.
 			
@@ -3515,7 +3519,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</statBoost>
 		<statBoost name="repairSpeed">
 			<boostType>SET</boostType>
-			<amount>0</amount>
+			<value>0</value>
 			<shipTarget>CURRENT_ROOM</shipTarget>
 			<crewTarget>ENEMIES</crewTarget>
 			<droneTarget>CREW</droneTarget>
@@ -3609,7 +3613,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</statBoost>
 		<statBoost name="healSpeed"> 
 			<boostType>SET</boostType>
-			<amount>0</amount>
+			<value>0</value>
 			<shipTarget>CURRENT_ROOM</shipTarget>
 			<crewTarget>ENEMIES</crewTarget>
 			<droneTarget>DRONES</droneTarget>
@@ -3628,7 +3632,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</statBoost>
 		<statBoost name="repairSpeed"> 
 			<boostType>SET</boostType>
-			<amount>0</amount>
+			<value>0</value>
 			<shipTarget>CURRENT_ROOM</shipTarget>
 			<crewTarget>ENEMIES</crewTarget>
 			<droneTarget>DRONES</droneTarget>
@@ -8237,6 +8241,126 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 <!-- Huuuuuuuuuuge thanks to Blizz for all the help! this wouldn't be possible without their knowledge!-->
 
 <mod:findLike type="crew" limit="1">
+
+<mod:findName type="race" name="blobsalt">
+	<mod:findLike type="powerEffect">
+		<mod:findLike type="temporaryEffect">
+			<mod:findLike type="statBoosts">
+				<mod:findLike type="statBoost" name="trueHealAmount">
+					<mod:findLike type="blackList">
+						<mod-append:fr_salt />
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="race" name="blobsalt">
+	<mod:findLike type="passiveStatBoosts">
+		<mod:findLike type="statBoost" name="healSpeed">
+			<mod:findLike type="blackList">
+				<mod-append:fr_salt />
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="race" name="saltpapy">
+	<mod:findLike type="powerEffect">
+		<mod:findLike type="temporaryEffect">
+			<mod:findLike type="statBoosts">
+				<mod:findLike type="statBoost" name="trueHealAmount">
+					<mod:findLike type="blackList">
+						<mod-append:fr_salt />
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="race" name="saltpapy">
+	<mod:findLike type="passiveStatBoosts">
+		<mod:findLike type="statBoost" name="healSpeed">
+			<mod:findLike type="blackList">
+				<mod-append:fr_salt />
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="race" name="nexus_obyn_cel">
+	<mod:findLike type="powerEffect">
+		<mod:findLike type="temporaryEffect">
+			<mod:findLike type="statBoosts">
+				<mod:findLike type="statBoost" name="trueHealAmount">
+					<mod:findLike type="blackList">
+						<mod-append:fr_salt />
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="race" name="nexus_obyn_cel">
+	<mod:findLike type="passiveStatBoosts">
+		<mod:findLike type="statBoost" name="healSpeed">
+			<mod:findLike type="blackList">
+				<mod-append:fr_salt />
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="race" name="unique_obyn_temp">
+	<mod:findLike type="powerEffect">
+		<mod:findLike type="temporaryEffect">
+			<mod:findLike type="statBoosts">
+				<mod:findLike type="statBoost" name="trueHealAmount">
+					<mod:findLike type="blackList">
+						<mod-append:fr_salt />
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="race" name="unique_obyn_temp">
+	<mod:findLike type="passiveStatBoosts">
+		<mod:findLike type="statBoost" name="healSpeed">
+			<mod:findLike type="blackList">
+				<mod-append:fr_salt />
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="race" name="unique_obyn">
+	<mod:findLike type="powerEffect">
+		<mod:findLike type="temporaryEffect">
+			<mod:findLike type="statBoosts">
+				<mod:findLike type="statBoost" name="trueHealAmount">
+					<mod:findLike type="blackList">
+						<mod-append:fr_salt />
+					</mod:findLike>
+				</mod:findLike>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="race" name="unique_obyn">
+	<mod:findLike type="passiveStatBoosts">
+		<mod:findLike type="statBoost" name="healSpeed">
+			<mod:findLike type="blackList">
+				<mod-append:fr_salt />
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
 
 <mod:findName type="race" name="unique_freddy">
 	<mod:findLike type="powerEffect">
@@ -13250,19 +13374,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 </mod-append:aug>
 
 <!-- MECHANICAL AUGMENTS -->
-
-<mod-append:aug name="FR_UNSLOTED_GHOSTS">
-	<statBoosts>
-		<statBoost name="crewSlots">
-			<boostType>MULT</boostType>
-			<amount>0</amount>
-			<shipTarget>ALL</shipTarget>
-			<crewTarget>ALLIES</crewTarget>
-			<priority>99999</priority>
-			<whiteList load="FR_LIST_CREW_HAUNT_UNDEAD"/>
-		</statBoost>
-	</statBoosts>
-</mod-append:aug>
 	
 <mod-append:aug name="FR_FULL_AUTO">
 	<statBoosts>

@@ -790,4 +790,96 @@
 	<mod-append:metaVariable name="prof_r_boon_fr_commonwealth_equipment" op="set" val="0"/>
 </mod:findName>
 
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    SALT QUEST
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+
+<event name="FR_SALT_BATTLESHIP_QUEST_START">
+	<preventQuest/>
+	<preventFleet/>
+	<quest>
+		<nebulaBeacon>false</nebulaBeacon>
+		<aggressive>2</aggressive>
+	</quest>
+	<beaconType id="map_icon_fr_salt_quest" global="true">
+		<color r="250" g="250" b="250" a="1.0"/>
+	</beaconType>
+	<text>Upon arriving at the prison you notice it's completely empty, save for a single auto ship blocking the entrance. The prison is completely encased by lead plates, preventing any scans of the inside from here.
+	
+	      "A auto ship? why would the rebellion put a auto cruiser of all things here?" Obyn ponders out loud. Any attempts to hail the ship are unsuccessful, and getting close to it seems to send a warning message, though whatever it is it's too garbled to make sense. Seems like the only option is to fight it.</text>
+		<ship load="SHIP_FR_QUEST_AUTO_CRUISER" hostile="false"/>
+		<choice hidden="true">
+			<text>Let's teach this hunk of metal who's boss!</text>
+			<event>
+				<text>The ship's drones whirl to life, a fight is inevitable now.</text>
+				<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Leave the auto ship alone.</text>
+			<event>
+				<text>You have way too much stuff to deal with right now, you apologize to obyn but it seems the damage is already done, obyn leaves without saying another word.</text>
+					<removeCrew class="unique_obyn">
+						<clone>false</clone>
+							<text>Your crew cannot be cloned, as they are still alive.</text>
+					</removeCrew>
+			</event>
+		</choice>
+</event>
+
+<event name="FR_SALT_BATTLESHIP_QUEST_WIN">
+	<text>The giant auto ship breaks apart and is finally silenced, after making sure its systems are down, you park the ship next to the prison and go explore it alongside obyn.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The doors are strangely unlocked, seems like whoever used to run this place thought the auto was enough to protect it. Once inside you see something that leaves your mouth ajar. Thousands, if not millions of cryopods line the walls of the "prison", all of them people just like obyn.
+			
+				  Meanwhile obyn's expression went from anxious to ecstatic in less than a second "S-Salt! People! Holy shit! captain! please help me activate some of those cryopods!" He runs to what looks to be a control panel in the middle of the room. 
+				  
+				  After turning it on, it's revealed that around 90% of the cryopods have failed over the years, a unfortunate but not unexpected fact. Still, over 50 thousands of pods are still intact enough to allow the bodies inside to being able to be awaken without any long lasting damage.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>The process is grueling and takes hours to be able to wield any results, but eventually the first few pods wake up from their slumber. 
+
+								  "w-who...?" the salt person asks looking around in a heavy daze. "it...it worked captain! it worked!!" obyn exclaims, jumping with joy. The next several hours are spent with obyn retelling the most recent events to the newly awake salt people, it takes a long time to fully get them up to speed though. Obyn, realizing how long this is taking, brings you aside for a moment.
+								  
+								  "captain, not gonna lie to you, this might take days if not weeks to get everything sorted, I understand that you have a mission to complete and can't just wait around like me, so, I'm asking you go without me to defeat the flagship."</text>
+									<removeCrew class="unique_obyn">
+										<clone>false</clone>
+										<text></text>
+									</removeCrew>
+									<choice hidden="true">
+										<text>Are you sure obyn?</text>
+										<event>
+											<text>He nods, his face still beaming as he looks over at all the families being reunited. "yes, I'm sure. However, I won't leave you empty handed." he said giving you a USB drive he had in his pocket. "this baby contains the blueprints for a highly advanced ship my people wanted to build before they were all hunted down, I planned on building it myself but...i don't think that life is for me anymore, captain. Please make good use for it. Feel free to also take my old weapon as well, it has no use for me now, plus, i might as well make sure you are well paid for your job here."  you nod and reassure him he won't regret his decision.
+											
+											      "I know I won't! take care captain! and thank you...truly from the bottom of my heart." You thank him back for the partying gift and leave the prison, by now the fleet has certainly caught up with you, but that's alright.
+												  
+												  Just as you are readying yourself to leave, you hear someone shouting your name from behind you, it's one of the salt people, they were so inspired by your courage that they decided to come with you.</text>
+													<autoReward level="HIGH">scrap_only</autoReward>
+													<variable name="loc_fr_obyn_quest_done" op="set" val="1"/>
+													<weapon name="SALT_LAUNCHER"/>
+													<crewMember amount="1" class="fr_salt"/>
+													<achievement silent="false">ACH_FR_EVENT_SALT</achievement>
+													<unlockCustomShip silent="false">PLAYER_SHIP_FR_SALT_BATTLESHIP</unlockCustomShip>
+													<modifyPursuit amount="2"/>
+										</event>
+									</choice>
+						</event>
+					</choice>
+		</event>
+	</choice>
+</event>
+
 </FTL>
