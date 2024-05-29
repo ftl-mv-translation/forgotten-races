@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2024-05-29 08:43+0000\n"
-"Last-Translator: Юрий <iorgos.grek@gmail.com>\n"
+"Last-Translator: Роман <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datablueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -398,7 +398,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:215
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_obyn_cel\"]/powerList/power[2]"
-msgstr "Невосприимчив к урону от угроз и контролю разума."
+msgstr "Невосприимчив к урону от опасностей среды и контролю разума."
 
 #: src-en/data/blueprints.xml.append:223
 msgid ""
@@ -441,6 +441,8 @@ msgstr "Невосприимчив к удушью и урону от огня."
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_proto_cognitive\"]/powerList/power[5]"
 msgstr ""
+"Может перейти в Свободный режим, становясь неуправляемым напрямую, но "
+"получая большой бонус к характеристикам."
 
 #: src-en/data/blueprints.xml.append:238
 msgid ""
@@ -460,32 +462,36 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:245
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_proto_cognitive_automated\"]/powerList/power[1]"
-msgstr ""
+msgstr "Автоматический."
 
 #: src-en/data/blueprints.xml.append:246
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_proto_cognitive_automated\"]/powerList/power[2]"
-msgstr ""
+msgstr "175 максимальное здоровье, медленно восстанавливает себя вне боя."
 
 #: src-en/data/blueprints.xml.append:247
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_proto_cognitive_automated\"]/powerList/power[3]"
-msgstr ""
+msgstr "Наносит 3х урон в бою, перемещается со скоростью 2.5х."
 
 #: src-en/data/blueprints.xml.append:248
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_proto_cognitive_automated\"]/powerList/power[4]"
 msgstr ""
+"Невосприимчив к контролю разума и видит соседние отсеки. Не может "
+"производить ремонт."
 
 #: src-en/data/blueprints.xml.append:249
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_proto_cognitive_automated\"]/powerList/power[5]"
-msgstr ""
+msgstr "Невосприимчив к удушью и урону от огня."
 
 #: src-en/data/blueprints.xml.append:250
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_proto_cognitive_automated\"]/powerList/power[6]"
 msgstr ""
+"Может перейти в Ограниченный режим, становясь управляемым напрямую, но теряя "
+"бонус к характеристикам."
 
 #: src-en/data/blueprints.xml.append:254
 msgid ""
@@ -506,21 +512,29 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_experimental_cognitive\"]/powerList/power[1]"
 msgstr ""
+"200 максимального здоровья, получает на 10% меньше урона в бою. Очень быстро "
+"изучает навыки."
 
 #: src-en/data/blueprints.xml.append:262
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_experimental_cognitive\"]/powerList/power[2]"
 msgstr ""
+"1.5х урона в бою, перемещается и ремонтирует со скоростью 1.5х. Может "
+"телепортироваться куда угодно."
 
 #: src-en/data/blueprints.xml.append:263
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_experimental_cognitive\"]/powerList/power[3]"
 msgstr ""
+"Невосприимчив к удушью и огню, а также к контролю разума. Дает 1 энергию, "
+"если находится внутри управляемой, основной системы."
 
 #: src-en/data/blueprints.xml.append:264
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_experimental_cognitive\"]/powerList/power[4]"
 msgstr ""
+"При каждом прыжке он будет переключаться между автоматическим и ручным "
+"режимами, становясь неконтролируемым и контролируемым соответственно."
 
 #: src-en/data/blueprints.xml.append:268
 msgid ""
@@ -540,27 +554,36 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:275
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_experimental_cognitive_automated\"]/powerList/power[1]"
-msgstr ""
+msgstr "Автоматический."
 
 #: src-en/data/blueprints.xml.append:276
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_experimental_cognitive_automated\"]/powerList/power[2]"
 msgstr ""
+"200 максимального здоровья, получает на 10% меньше урона в бою. Очень быстро "
+"изучает навыки."
 
 #: src-en/data/blueprints.xml.append:277
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_experimental_cognitive_automated\"]/powerList/power[3]"
 msgstr ""
+"1.5х урона в бою, перемещается и ремонтирует со скоростью 1.5х. Может "
+"телепортироваться куда угодно."
 
 #: src-en/data/blueprints.xml.append:278
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_experimental_cognitive_automated\"]/powerList/power[4]"
 msgstr ""
+"Невосприимчив к удушью и огню, а также к контролю разума. Дает 2 энергии, "
+"если находится внутри управляемой, основной системы."
 
 #: src-en/data/blueprints.xml.append:279
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_experimental_cognitive_automated\"]/powerList/power[5]"
 msgstr ""
+"При каждом прыжке он будет переключаться между автоматическим и ручным "
+"режимами, становясь неконтролируемым и контролируемым соответственно. Можно "
+"управлять, будучи на вражеском корабле."
 
 #: src-en/data/blueprints.xml.append:286
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_enhanced\"]/desc"
@@ -578,21 +601,28 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_enhanced\"]/powerList/power[1]"
 msgstr ""
+"Основная активная способность: Высвобождает накопленные нанометаллы, "
+"восстанавливая корпус на 1 единицу. 1 заряд за прыжок."
 
 #: src-en/data/blueprints.xml.append:294
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_enhanced\"]/powerList/power[2]"
 msgstr ""
+"Вторичная активная способность: Сливается с системой, нанося 40 урона себе, "
+"но полностью исцеляя систему."
 
 #: src-en/data/blueprints.xml.append:295
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_enhanced\"]/powerList/power[3]"
 msgstr ""
+"80 здоровья. Медленно восстанавливает здоровье, если оно неполное. "
+"Невосприимчив к удушью и огню. Медленно вытягивает воздух из отсека."
 
 #: src-en/data/blueprints.xml.append:296
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_enhanced\"]/powerList/power[4]"
 msgstr ""
+"Дает энергию в текущий отсек, наносит 1.5x урона. Не может ремонтировать."
 
 #: src-en/data/blueprints.xml.append:300
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_withered\"]/desc"
@@ -614,12 +644,12 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:308
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_withered\"]/powerList/power[2]"
-msgstr ""
+msgstr "120 здоровья. Наносит 3х урона систем."
 
 #: src-en/data/blueprints.xml.append:309
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_withered\"]/powerList/power[3]"
-msgstr ""
+msgstr "Не может сражаться, невосприимчив к контролю разума."
 
 #: src-en/data/blueprints.xml.append:316
 msgid ""
@@ -644,17 +674,19 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:324
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_mantis_queen\"]/powerList/power[2]"
-msgstr ""
+msgstr "250 здоровья. Ремонтирует с обычной скоростью. Наносит 0.35x урона."
 
 #: src-en/data/blueprints.xml.append:325
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_mantis_queen\"]/powerList/power[3]"
-msgstr ""
+msgstr "Атакует в ближнем бою со скоростью 3.5x. Перемещается с 0.5х скоростью."
 
 #: src-en/data/blueprints.xml.append:326
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_mantis_queen\"]/powerList/power[4]"
 msgstr ""
+"Вражеские богомолы Улья не могут сражаться, если находятся в одном отсеке с "
+"Королевой."
 
 #: src-en/data/blueprints.xml.append:331
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_salt\"]/title"
