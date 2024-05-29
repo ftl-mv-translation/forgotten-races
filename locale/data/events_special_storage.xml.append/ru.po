@@ -1,9 +1,17 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-05-30 09:26+0000\n"
+"Last-Translator: Роман <aleev1414@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_special_storagexmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src-en/data/events_special_storage.xml.append:15
 msgid ""
@@ -87,7 +95,7 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_AUG\"]/mod-"
 "append:choice[6]/text"
-msgstr ""
+msgstr "(Забытый Аномальный торговый маяк) Вызвать забытый магазин."
 
 #: src-en/data/events_special_storage.xml.append:82
 msgid ""
@@ -99,18 +107,21 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE\"]/text"
 msgstr ""
+"Вы хотите активировать или деактивировать бонусы? В любой момент времени "
+"может быть активирован только один.\n"
+"\t[Предметы, экипаж и ресурсы можно получить только один раз за прохождение]"
 
 #: src-en/data/events_special_storage.xml.append:101
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE\"]/choice[@req=\"FR_LIST_OBSERVER_BONUSES\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "Снять бонус."
 
 #: src-en/data/events_special_storage.xml.append:105
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE\"]/choice[@req=\"FR_LIST_OBSERVER_BONUSES\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Выберите бонус."
 
 #: src-en/data/events_special_storage.xml.append:109
 msgid ""
@@ -121,21 +132,23 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_DEACTIVATE\"]/text"
 msgstr ""
+"У вас уже активен бонус Наблюдателя. Чтобы сменить его на новый, необходимо "
+"деактивировать текущий."
 
 #: src-en/data/events_special_storage.xml.append:117
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_DEACTIVATE\"]/choice[@req=\"FR_OBSERVER_BOONS\"]/text"
-msgstr ""
+msgstr "Отключить Благо-бонус."
 
 #: src-en/data/events_special_storage.xml.append:121
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_DEACTIVATE\"]/choice[@req=\"FR_OBSERVER_GRANTS\"]/text"
-msgstr ""
+msgstr "Отключить Дар-бонус."
 
 #: src-en/data/events_special_storage.xml.append:125
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_DEACTIVATE\"]/choice[@req=\"FR_OBSERVER_BLESSINGS\"]/text"
-msgstr ""
+msgstr "Отключить Благословение-бонус."
 
 #: src-en/data/events_special_storage.xml.append:129
 msgid ""
@@ -145,13 +158,13 @@ msgstr "Неважно."
 #: src-en/data/events_special_storage.xml.append:150
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/text"
-msgstr ""
+msgstr "Какой бонус вы хотите активировать?"
 
 #: src-en/data/events_special_storage.xml.append:152
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_boon_gift_got\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "Переключить благо бонусы (одноразовый подарок получен)"
 
 #: src-en/data/events_special_storage.xml.append:154
 msgid ""
@@ -438,37 +451,37 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[3]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "(Эфирная кузница) Использовать кузницу."
 
 #: src-en/data/events_special_storage.xml.append:415
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[3]/mod-"
 "append:choice[3]/text"
-msgstr ""
+msgstr "(Инженерия Витэра) Использовать Протокузницу."
 
 #: src-en/data/events_special_storage.xml.append:421
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[3]/mod-"
 "append:choice[4]/text"
-msgstr ""
+msgstr "(Живой корабль) Накормить ему одного члена экипажа."
 
 #: src-en/data/events_special_storage.xml.append:427
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[3]/mod-"
 "append:choice[5]/text"
-msgstr ""
+msgstr "(Обучение МФК) Обучить человека."
 
 #: src-en/data/events_special_storage.xml.append:433
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[3]/mod-"
 "append:choice[6]/text"
-msgstr ""
+msgstr "(Схемы Нексус-Теха) Улучшения Нексуса."
 
 #: src-en/data/events_special_storage.xml.append:439
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[3]/mod-"
 "append:choice[7]/text"
-msgstr ""
+msgstr "(Щит \"Гектар Индастриз\") Модифицировать щит."
 
 #: src-en/data/events_special_storage.xml.append:448
 msgid ""
