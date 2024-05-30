@@ -1,14 +1,24 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-05-31 12:26+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_special_gbxmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src-en/data/events_special_gb.xml.append:9
 msgid ""
 "data/events_special_gb.xml.append$//ship[@name=\"FR_SHIP_GB_GOZER\"]/destroyed/text"
 msgstr ""
+"Лидер призраков уничтожен, и хотя таких как он в других Мультивселенных еще "
+"полно, тем не менее, победа есть победа."
 
 #: src-en/data/events_special_gb.xml.append:12
 msgid ""
@@ -19,6 +29,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_gb.xml.append$//ship[@name=\"FR_SHIP_GB_GOZER\"]/deadCrew/text"
 msgstr ""
+"Лидер призраков уничтожен, и хотя таких как он в других Мультивселенных еще "
+"полно, тем не менее, победа есть победа."
 
 #: src-en/data/events_special_gb.xml.append:20
 msgid ""
@@ -39,6 +51,10 @@ msgstr "Посещенное место. Местонахождение Терз
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/text"
 msgstr ""
+"Согласно базе данных Протонного блока, это главарь призраков, Гозиодеон, "
+"грозный лидер и один из самых преданных слуг в этой части Мультивселенной. "
+"Странно, но его оружие не активируется, как только он видит вас, а вместо "
+"этого вы получаете вызов с его корабля."
 
 #: src-en/data/events_special_gb.xml.append:41
 msgid ""
@@ -49,16 +65,28 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/text"
 msgstr ""
+"\"Так-так-так, что у нас тут, парни? Болван Федерации, который думает, что "
+"сможет справиться с главой призраков?! И это все?!\" Призрак разражается "
+"хохотом, который длится больше минуты, прежде чем он наконец приходит в себя."
+"\n"
+"\t\t\t\n"
+"\t\t\t\"Это самое смешное, что я слышал за последние столетия, поэтому, в "
+"качестве благодарности за то, что ты поднял мне настроение, я не буду сразу "
+"ломать тебе хребет. Скажи мне, маленькая марионетка Федерации, что привело "
+"тебя сюда сегодня?"
 
 #: src-en/data/events_special_gb.xml.append:47
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[1]/text"
-msgstr ""
+msgstr "Мы здесь, чтобы уничтожить тебя, Гозиодеон!"
 
 #: src-en/data/events_special_gb.xml.append:49
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[1]/event/text"
 msgstr ""
+"На его газообразном теле можно увидеть огромную ухмылку: \"Цок-цок-цок, не "
+"тот ты выбрал вариант, приятель!\" Орудия его корабля наконец-то оживает, и "
+"он отказывается от дальнейших переговоров."
 
 #: src-en/data/events_special_gb.xml.append:52
 msgid ""
@@ -68,22 +96,27 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_gb.xml.append:58
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/text"
-msgstr ""
+msgstr "На самом деле мы - новобранцы призраков, именно так мы вас и нашли!"
 
 #: src-en/data/events_special_gb.xml.append:60
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/text"
 msgstr ""
+"Босс группировки в течение нескольких минут осматривает вас и ваш корабль: "
+"\"О? Это так? Тогда кто разрешил тебе присоединиться к нам?\""
 
 #: src-en/data/events_special_gb.xml.append:62
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[1]/text"
-msgstr ""
+msgstr "Винезалеон."
 
 #: src-en/data/events_special_gb.xml.append:64
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[1]/event/text"
 msgstr ""
+"\"Хм, Винезалеон не был уполномочен принимать новых рекрутов, но, полагаю, "
+"он не из тех, кого легко одурачить. Если ты убедил его, тогда ты можешь "
+"стать нашим рекрутом\"."
 
 #: src-en/data/events_special_gb.xml.append:66
 msgid ""
@@ -93,12 +126,16 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_gb.xml.append:72
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[2]/text"
-msgstr ""
+msgstr "Слимер."
 
 #: src-en/data/events_special_gb.xml.append:74
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[2]/event/text"
 msgstr ""
+"Призрак снова разразился хохотом, но на этот раз он позаботился о том, чтобы "
+"его орудия активировались, как только он закончит смеяться. \"Я не доверю "
+"Слимеру даже вынести мусор, с чего ты взял, что я позволю *ему* принимать "
+"новичков? Хоть я и ценю смех, я не уважаю лжецов, возьмите их, парни!\""
 
 #: src-en/data/events_special_gb.xml.append:77
 msgid ""
@@ -108,12 +145,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_gb.xml.append:83
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[3]/text"
-msgstr ""
+msgstr "Соколарей."
 
 #: src-en/data/events_special_gb.xml.append:85
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[3]/event/text"
 msgstr ""
+"Выражение лица призрака становится мрачным, по мере того как активируются "
+"орудия его корабля. \"Нет, просто нет\"."
 
 #: src-en/data/events_special_gb.xml.append:88
 msgid ""
@@ -123,12 +162,16 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_gb.xml.append:94
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[4]/text"
-msgstr ""
+msgstr "Психоделлий."
 
 #: src-en/data/events_special_gb.xml.append:96
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[4]/event/text"
 msgstr ""
+"Призрак снова разразился хохотом, но на этот раз он позаботился о том, чтобы "
+"его орудия активировались, как только он закончит смеяться. \"Психоделлий? "
+"Отбирает новичков? Это смешнее, чем если бы ты сказал, что слизень принял "
+"тебя! Хоть я и ценю смех, я не уважаю лжецов, возьмите их, парни!\""
 
 #: src-en/data/events_special_gb.xml.append:99
 msgid ""
@@ -138,12 +181,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_gb.xml.append:105
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[5]/text"
-msgstr ""
+msgstr "Эллебениар."
 
 #: src-en/data/events_special_gb.xml.append:107
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[5]/event/text"
-msgstr ""
+msgstr "\"Моя жена, говоришь? В таком случае, давай приступим к твоему тесту!\""
 
 #: src-en/data/events_special_gb.xml.append:109
 msgid ""
@@ -153,12 +196,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_gb.xml.append:115
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[6]/text"
-msgstr ""
+msgstr "Зулбазар."
 
 #: src-en/data/events_special_gb.xml.append:117
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER\"]/choice/event/choice[2]/event/choice[6]/event/text"
 msgstr ""
+"\"Это то, что я хотел услышать, у Зульбазара действительно есть талант "
+"находить отличных новобранцев!\""
 
 #: src-en/data/events_special_gb.xml.append:119
 msgid ""
@@ -169,3 +214,7 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_gb.xml.append$//event[@name=\"FR_PROTON_HAUNT_GOZER_JOIN\"]/text"
 msgstr ""
+"\"Как и положено новичкам, я буду сопровождать тебя на пути к уничтожению "
+"Флагмана. Считай это проверкой, если ты справишься, то я буду уверен, что у "
+"тебя есть все необходимое, чтобы присоединиться к нам. Не разочаруй меня, "
+"малыш\"."
