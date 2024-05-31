@@ -1,27 +1,41 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-05-31 16:38+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_special_guardsxmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src-en/data/events_special_guards.xml.append:5
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "(Первый Вэнс) \"Стойте, солдаты! Отступите и дайте нам пройти!\""
 
 #: src-en/data/events_special_guards.xml.append:7
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[1]/event[1]/text"
 msgstr ""
+"\"О-ох, черт! Конечно, сэр!\" Сторожевой корабль повстанцев отступает и "
+"пропускает ваш корабль, задерживая флот и давая вам ящик с ресурсами. Один "
+"из членов их команды также хочет присоединиться к вашему делу."
 
 #: src-en/data/events_special_guards.xml.append:14
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[1]/event[2]/text"
 msgstr ""
+"\"Черта с два! Ты не заслуживаешь больше называться Вэнсом, предатель!\" "
+"Капитан мятежников кричит и вызывает подкрепление, а также сообщает флоту о "
+"вашем визите."
 
 #: src-en/data/events_special_guards.xml.append:18
 msgid ""
@@ -34,12 +48,18 @@ msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
+"(Поддельная идентификация) Попытаться выдать ваш корабль за корабль "
+"повстанцев"
 
 #: src-en/data/events_special_guards.xml.append:26
+#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[2]/event[1]/text"
 msgstr ""
+"\"Черта с два! Ты не заслуживаешь больше называться Вэнсом, предатель!\" "
+"Капитан повстанцев кричит и вызывает подкрепление, а также сообщает флоту о "
+"вашем появлении."
 
 #: src-en/data/events_special_guards.xml.append:30
 msgid ""
@@ -52,18 +72,25 @@ msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[2]/event[2]/text"
 msgstr ""
+"Капитан повстанцев изучает документы, а затем пожимает плечами: \"Конечно, "
+"добро пожаловать в сектор, сынок\"."
 
 #: src-en/data/events_special_guards.xml.append:44
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "(Первый Вэнс) \"Стоять, верные солдаты! Отступите и дайте нам пройти!\""
 
 #: src-en/data/events_special_guards.xml.append:46
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
+"\"Вот черт! Первый Вэнс! Простите, что вел себя так грубо! По документам ваш "
+"корабль является кораблем Федерации, поэтому я предположил, что это была "
+"уловка! Мы позаботимся о том, чтобы флот не стал для вас проблемой в этом "
+"секторе!\" Повстанец также передает вам большое количество припасов, а двое "
+"его солдат присоединяются к вашей команде."
 
 #: src-en/data/events_special_guards.xml.append:53
 msgid ""
@@ -88,6 +115,8 @@ msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_JERRY\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
+"(Первый Вэнс) \"Стоять, верные солдаты! Говорит Первый Вэнс, вы должны "
+"немедленно отключить свои орудия!\""
 
 #: src-en/data/events_special_guards.xml.append:70
 msgid ""
