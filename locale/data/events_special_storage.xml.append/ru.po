@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-01 09:50+0000\n"
+"PO-Revision-Date: 2024-06-02 10:08+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "dataevents_special_storagexmlappend/ru/>\n"
@@ -110,7 +110,7 @@ msgstr "(Забытый Аномальный торговый маяк) Вызв
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_AUG\"]/mod-"
 "append:choice[7]/text"
-msgstr ""
+msgstr "(Универсальный магазин лучей) Вызвать Универсальный магазин лучей."
 
 #: src-en/data/events_special_storage.xml.append:98
 msgid ""
@@ -147,12 +147,12 @@ msgstr ""
 #: src-en/data/events_special_storage.xml.append:117
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_DEACTIVATE\"]/choice[@req=\"FR_OBSERVER_BOONS\"]/text"
-msgstr "Отключить Благо-бонус."
+msgstr "Отключить благо-бонус."
 
 #: src-en/data/events_special_storage.xml.append:121
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_DEACTIVATE\"]/choice[@req=\"FR_OBSERVER_GRANTS\"]/text"
-msgstr "Отключить Дар-бонус."
+msgstr "Отключить дар-бонус."
 
 #: src-en/data/events_special_storage.xml.append:125
 msgid ""
@@ -173,67 +173,71 @@ msgstr "Какой бонус вы хотите активировать?"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_boon_gift_got\""
 " and @lvl=\"1\"]/text"
-msgstr "Переключить благо бонусы (одноразовый подарок получен)"
+msgstr "Переключить благо-бонусы (одноразовый подарок получен)"
 
 #: src-en/data/events_special_storage.xml.append:154
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_boon_gift_got\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "Вы настраиваете бонусы, чтобы дать их экипажу."
 
 #: src-en/data/events_special_storage.xml.append:157
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_boon_gift_got\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:163
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_boon_gift_got\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Бонусы переключаемых даров (доступен одноразовый подарок)"
 
 #: src-en/data/events_special_storage.xml.append:165
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_boon_gift_got\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Вы настраиваете бонусы, чтобы дать их экипажу. Вы также получаете "
+"дополнительный подарок!"
 
 #: src-en/data/events_special_storage.xml.append:170
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_boon_gift_got\""
 " and @lvl=\"0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:176
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "Бонусы переключаемых даров (одноразовые подарки)"
 
 #: src-en/data/events_special_storage.xml.append:178
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "Вы настраиваете бонусы, чтобы дать их экипажу."
 
 #: src-en/data/events_special_storage.xml.append:181
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:187
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Бонусы переключаемых даров (доступны одноразовые подарки)"
 
 #: src-en/data/events_special_storage.xml.append:189
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Вы настраиваете бонусы, чтобы дать их экипажу. Вы также получаете "
+"дополнительный подарок!"
 
 #: src-en/data/events_special_storage.xml.append:194
 msgid ""
@@ -245,7 +249,7 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"0\"]/event/choice[@req=\"sensors\" and @lvl=\"0\"]/event/text"
-msgstr ""
+msgstr "У вас нет сенсоров, поэтому сначала нам нужно их установить."
 
 #: src-en/data/events_special_storage.xml.append:199
 msgid ""
@@ -259,14 +263,14 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"0\"]/event/choice[@req=\"sensors\" and "
 "@lvl=\"0\"]/event/choice/event/text"
-msgstr ""
+msgstr "Теперь нужно их улучшить."
 
 #: src-en/data/events_special_storage.xml.append:204
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"0\"]/event/choice[@req=\"sensors\" and "
 "@lvl=\"0\"]/event/choice/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:212
 msgid ""
@@ -278,50 +282,52 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"0\"]/event/choice[@req=\"sensors\" and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "Пора улучшить свои сенсоры."
 
 #: src-en/data/events_special_storage.xml.append:217
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"0\"]/event/choice[@req=\"sensors\" and "
 "@lvl=\"1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:225
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_blessing_gift_got\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "Бонусы переключаемых благословений (одноразовый подарок получен)"
 
 #: src-en/data/events_special_storage.xml.append:227
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_blessing_gift_got\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "Вы настраиваете бонусы, чтобы дать их экипажу."
 
 #: src-en/data/events_special_storage.xml.append:230
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_blessing_gift_got\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:236
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_blessing_gift_got\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Бонусы одноразовых благословений (доступен одноразовый подарок)"
 
 #: src-en/data/events_special_storage.xml.append:238
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_blessing_gift_got\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Вы настраиваете корабль, чтобы дать ему бонусы. Вы также получаете "
+"дополнительные подарки!"
 
 #: src-en/data/events_special_storage.xml.append:254
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_blessing_gift_got\""
 " and @lvl=\"0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:260
 msgid ""
@@ -332,28 +338,31 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[2]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "Превратить своего Технопата в Технопата Содружества."
 
 #: src-en/data/events_special_storage.xml.append:288
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[2]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "Перезагрузить вашего Технопата Содружества"
 
 #: src-en/data/events_special_storage.xml.append:294
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_OUT_COMMONWEALTH\"]/text"
-msgstr ""
+msgstr "Какого Технопата Содружества вы хотите перезагрузить?"
 
 #: src-en/data/events_special_storage.xml.append:296
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_OUT_COMMONWEALTH\"]/choice[@req=\"fr_technocwmender\"]/text"
 msgstr ""
+"(Технопат Содружества Наладчик) Перезагрузить Технопата Содружества "
+"наладчика."
 
 #: src-en/data/events_special_storage.xml.append:298
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_OUT_COMMONWEALTH\"]/choice[@req=\"fr_technocwmender\"]/event/text"
 msgstr ""
+"Ваш Технопат трансформируется, возвращаясь к своей первоначальной форме."
 
 #: src-en/data/events_special_storage.xml.append:301
 msgid ""
@@ -364,11 +373,14 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_OUT_COMMONWEALTH\"]/choice[@req=\"fr_technocwdirector\"]/text"
 msgstr ""
+"(Технопат директор Содружества) Перезагрузить Технопата директора "
+"Содружества."
 
 #: src-en/data/events_special_storage.xml.append:311
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_OUT_COMMONWEALTH\"]/choice[@req=\"fr_technocwdirector\"]/event/text"
 msgstr ""
+"Ваш Технопат трансформируется, возвращаясь к своей первоначальной форме."
 
 #: src-en/data/events_special_storage.xml.append:314
 msgid ""
@@ -379,11 +391,14 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_OUT_COMMONWEALTH\"]/choice[@req=\"fr_technocwatom\"]/text"
 msgstr ""
+"(Технопат Атомизатор Содружества) Перезагрузить Технопата Атомизатора "
+"Содружества."
 
 #: src-en/data/events_special_storage.xml.append:324
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_OUT_COMMONWEALTH\"]/choice[@req=\"fr_technocwatom\"]/event/text"
 msgstr ""
+"Ваш Технопат трансформируется, возвращаясь к своей первоначальной форме."
 
 #: src-en/data/events_special_storage.xml.append:327
 msgid ""
@@ -399,16 +414,19 @@ msgstr "Неважно, заняться чем-то еще."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_INTO_COMMONWEALTH\"]/text"
 msgstr ""
+"Вы собираетесь превратить своего Технопата в Технопата Содружества.\n"
+"\tПозже это можно будет отменить, но может стоить топлива в зависимости от "
+"того, в какой форме он сейчас находится."
 
 #: src-en/data/events_special_storage.xml.append:346
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_INTO_COMMONWEALTH\"]/choice[@req=\"FR_MENDERC\"]/text"
-msgstr ""
+msgstr "(Наладчик Содружества) Принять форму Наладчика Содружества."
 
 #: src-en/data/events_special_storage.xml.append:348
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_INTO_COMMONWEALTH\"]/choice[@req=\"FR_MENDERC\"]/event/text"
-msgstr ""
+msgstr "Ваш Технопат трансформируется в новую форму."
 
 #: src-en/data/events_special_storage.xml.append:351
 msgid ""
@@ -418,12 +436,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:359
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_INTO_COMMONWEALTH\"]/choice[@req=\"FR_BLUELIST_COMMONWEALTH_CREW_COMBAT_DRONES\"]/text"
-msgstr ""
+msgstr "(Атомизатор Содружества) Принять форму Атомизатора Содружества."
 
 #: src-en/data/events_special_storage.xml.append:361
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_INTO_COMMONWEALTH\"]/choice[@req=\"FR_BLUELIST_COMMONWEALTH_CREW_COMBAT_DRONES\"]/event/text"
-msgstr ""
+msgstr "Ваш Технопат трансформируется в новую форму."
 
 #: src-en/data/events_special_storage.xml.append:364
 msgid ""
@@ -433,12 +451,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:372
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_INTO_COMMONWEALTH\"]/choice[@req=\"FR_DIRECTORC\"]/text"
-msgstr ""
+msgstr "(Директор Содружества) Принять форму Директора Содружества."
 
 #: src-en/data/events_special_storage.xml.append:374
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_TECHNO_TRANSFORM_INTO_COMMONWEALTH\"]/choice[@req=\"FR_DIRECTORC\"]/event/text"
-msgstr ""
+msgstr "Ваш Технопат трансформируется в новую форму."
 
 #: src-en/data/events_special_storage.xml.append:377
 msgid ""
@@ -454,7 +472,7 @@ msgstr "Неважно, заняться чем-то еще."
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[3]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "(Улучшенный Аугментор) Использовать Аугментор."
 
 #: src-en/data/events_special_storage.xml.append:409
 msgid ""
@@ -497,27 +515,33 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_WEAPON\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
+"(Морозное орудие) Разобрать морозное орудие и сделать из него разумного "
+"снеговика."
 
 #: src-en/data/events_special_storage.xml.append:454
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_WEAPON\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
+"(Орудие чистого огня) Разобрать свое огненное орудие или орудие частиц и "
+"сделать из него лавамена."
 
 #: src-en/data/events_special_storage.xml.append:464
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_MFK_TRAINING\"]/text"
-msgstr ""
+msgstr "Какого человека вы хотите обучить?"
 
 #: src-en/data/events_special_storage.xml.append:466
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_MFK_TRAINING\"]/choice[@req=\"human\"]/text"
-msgstr ""
+msgstr "Превратить обычного человека в Солдата [флот ускоряется на 1 прыжок]"
 
 #: src-en/data/events_special_storage.xml.append:468
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_MFK_TRAINING\"]/choice[@req=\"human\"]/event/text"
 msgstr ""
+"Вы получаете новое снаряжение, соответствующее новому рангу, а также "
+"подвергаете члена экипажа интенсивной тренировке."
 
 #: src-en/data/events_special_storage.xml.append:476
 msgid ""
@@ -527,12 +551,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:482
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_MFK_TRAINING\"]/choice[@req=\"FR_HUMAN_ENGINEERS\"]/text"
-msgstr ""
+msgstr "Превратить человека Инженера в Солдата [флот ускоряется на 1 прыжок]"
 
 #: src-en/data/events_special_storage.xml.append:484
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_MFK_TRAINING\"]/choice[@req=\"FR_HUMAN_ENGINEERS\"]/event/text"
 msgstr ""
+"Вы получаете новое снаряжение, соответствующее новому рангу, а также "
+"подвергаете члена экипажа интенсивной тренировке."
 
 #: src-en/data/events_special_storage.xml.append:492
 msgid ""
@@ -542,12 +568,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:498
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_MFK_TRAINING\"]/choice[@req=\"FR_HUMAN_MEDICS\"]/text"
-msgstr ""
+msgstr "Превратить человека Медика в Солдата [флот ускоряется на 1 прыжок]"
 
 #: src-en/data/events_special_storage.xml.append:500
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_MFK_TRAINING\"]/choice[@req=\"FR_HUMAN_MEDICS\"]/event/text"
 msgstr ""
+"Вы получаете новое снаряжение, соответствующее новому рангу, а также "
+"подвергаете члена экипажа интенсивной тренировке."
 
 #: src-en/data/events_special_storage.xml.append:508
 msgid ""
@@ -557,12 +585,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:514
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_MFK_TRAINING\"]/choice[@req=\"FR_HUMAN_SOLDIERS\"]/text"
-msgstr ""
+msgstr "Превратить человека Солдата в МФК [флот ускоряется на 2 прыжка]"
 
 #: src-en/data/events_special_storage.xml.append:516
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_MFK_TRAINING\"]/choice[@req=\"FR_HUMAN_SOLDIERS\"]/event/text"
 msgstr ""
+"Вы получаете новое снаряжение, соответствующее новому рангу, а также "
+"подвергаете члена экипажа интенсивной тренировке."
 
 #: src-en/data/events_special_storage.xml.append:524
 msgid ""
@@ -572,12 +602,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:530
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_MFK_TRAINING\"]/choice[@req=\"human_technician\"]/text"
-msgstr ""
+msgstr "Превратить человека Техника в МФК [флот ускоряется на 2 прыжка]"
 
 #: src-en/data/events_special_storage.xml.append:532
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_MFK_TRAINING\"]/choice[@req=\"human_technician\"]/event/text"
 msgstr ""
+"Вы получаете новое снаряжение, соответствующее новому рангу, а также "
+"подвергаете члена экипажа интенсивной тренировке."
 
 #: src-en/data/events_special_storage.xml.append:540
 msgid ""
@@ -592,12 +624,12 @@ msgstr "Неважно, заняться чем-то еще."
 #: src-en/data/events_special_storage.xml.append:554
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/text"
-msgstr ""
+msgstr "Вы входите в кузницу и изучаете чертежи"
 
 #: src-en/data/events_special_storage.xml.append:556
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[1]/text"
-msgstr ""
+msgstr "Создать обелиска Содружества."
 
 #: src-en/data/events_special_storage.xml.append:565
 msgid ""
@@ -612,7 +644,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:573
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[2]/text"
-msgstr ""
+msgstr "Создать Прото-когнитива."
 
 #: src-en/data/events_special_storage.xml.append:579
 msgid ""
@@ -627,7 +659,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:587
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[3]/text"
-msgstr ""
+msgstr "Выковать орудие лазер мод. II Содружества"
 
 #: src-en/data/events_special_storage.xml.append:594
 msgid ""
@@ -642,7 +674,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:602
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[4]/text"
-msgstr ""
+msgstr "Выковать ионное орудие Содружества"
 
 #: src-en/data/events_special_storage.xml.append:609
 msgid ""
@@ -657,7 +689,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:617
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[5]/text"
-msgstr ""
+msgstr "Выковать бомбовое орудие Содружества"
 
 #: src-en/data/events_special_storage.xml.append:624
 msgid ""
@@ -672,7 +704,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:632
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[6]/text"
-msgstr ""
+msgstr "Выковать тяжелое лазерное орудие Содружества"
 
 #: src-en/data/events_special_storage.xml.append:639
 msgid ""
@@ -687,7 +719,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:647
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[7]/text"
-msgstr ""
+msgstr "Выковать лучевое орудие Содружества"
 
 #: src-en/data/events_special_storage.xml.append:653
 msgid ""
@@ -702,7 +734,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:661
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[8]/text"
-msgstr ""
+msgstr "Выковать точечное орудие Содружества"
 
 #: src-en/data/events_special_storage.xml.append:668
 msgid ""
@@ -717,7 +749,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:676
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[9]/text"
-msgstr ""
+msgstr "Выковать ракетное орудие Содружества"
 
 #: src-en/data/events_special_storage.xml.append:683
 msgid ""
@@ -732,7 +764,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:691
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[10]/text"
-msgstr ""
+msgstr "Выковать орудие хаоса Содружества"
 
 #: src-en/data/events_special_storage.xml.append:697
 msgid ""
@@ -747,7 +779,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:705
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[11]/text"
-msgstr ""
+msgstr "Выковать ракетный дрон Содружества"
 
 #: src-en/data/events_special_storage.xml.append:713
 msgid ""
@@ -762,7 +794,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:721
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[12]/text"
-msgstr ""
+msgstr "Выковать ионный дрон Содружества"
 
 #: src-en/data/events_special_storage.xml.append:728
 msgid ""
@@ -777,7 +809,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:736
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[13]/text"
-msgstr ""
+msgstr "Выковать точечный дрон Содружества"
 
 #: src-en/data/events_special_storage.xml.append:743
 msgid ""
@@ -792,7 +824,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:751
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[14]/text"
-msgstr ""
+msgstr "Выковать точечный дрон Содружества"
 
 #: src-en/data/events_special_storage.xml.append:758
 msgid ""
@@ -807,7 +839,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:766
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[15]/text"
-msgstr ""
+msgstr "Выковать защитный дрон Содружества"
 
 #: src-en/data/events_special_storage.xml.append:773
 msgid ""
@@ -822,7 +854,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:781
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[16]/text"
-msgstr ""
+msgstr "Выковать лазерный дрон Содружества мод. II"
 
 #: src-en/data/events_special_storage.xml.append:788
 msgid ""
@@ -837,7 +869,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:796
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[17]/text"
-msgstr ""
+msgstr "Выковать дрон Директор Содружества"
 
 #: src-en/data/events_special_storage.xml.append:803
 msgid ""
@@ -852,7 +884,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:811
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[18]/text"
-msgstr ""
+msgstr "Выковать Атомный дрон Содружества"
 
 #: src-en/data/events_special_storage.xml.append:818
 msgid ""
@@ -867,7 +899,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:826
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[19]/text"
-msgstr ""
+msgstr "Выковать ремонтный дрон Содружества"
 
 #: src-en/data/events_special_storage.xml.append:833
 msgid ""
@@ -887,12 +919,12 @@ msgstr "Неважно, заняться чем-то еще."
 #: src-en/data/events_special_storage.xml.append:851
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/text"
-msgstr ""
+msgstr "Вы входите в кузницу и изучаете чертежи прототипов"
 
 #: src-en/data/events_special_storage.xml.append:853
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[1]/text"
-msgstr ""
+msgstr "Создать экспериментального когнитива."
 
 #: src-en/data/events_special_storage.xml.append:859
 msgid ""
@@ -907,7 +939,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:867
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[2]/text"
-msgstr ""
+msgstr "Выковать прототип лучевого орудия"
 
 #: src-en/data/events_special_storage.xml.append:874
 msgid ""
@@ -922,7 +954,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:882
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[3]/text"
-msgstr ""
+msgstr "Выковать прототип лазерного орудия"
 
 #: src-en/data/events_special_storage.xml.append:889
 msgid ""
@@ -937,7 +969,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:897
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[4]/text"
-msgstr ""
+msgstr "Выковать прототип тяжелого лазерного орудия"
 
 #: src-en/data/events_special_storage.xml.append:903
 msgid ""
@@ -952,7 +984,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:911
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[5]/text"
-msgstr ""
+msgstr "Выковать прототип плазменного орудия"
 
 #: src-en/data/events_special_storage.xml.append:918
 msgid ""
@@ -967,7 +999,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:926
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[6]/text"
-msgstr ""
+msgstr "Выковать прототип бомбового орудия"
 
 #: src-en/data/events_special_storage.xml.append:933
 msgid ""
@@ -982,7 +1014,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:941
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[7]/text"
-msgstr ""
+msgstr "Выковать прототип оружия хаоса"
 
 #: src-en/data/events_special_storage.xml.append:947
 msgid ""
@@ -997,7 +1029,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:955
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[8]/text"
-msgstr ""
+msgstr "Выковать прототип ракетного орудия"
 
 #: src-en/data/events_special_storage.xml.append:962
 msgid ""
@@ -1010,9 +1042,10 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:970
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[9]/text"
-msgstr ""
+msgstr "Выковать прототип орудия пасификации"
 
 #: src-en/data/events_special_storage.xml.append:976
 msgid ""
@@ -1027,7 +1060,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:984
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[10]/text"
-msgstr ""
+msgstr "Выковать прототип точечного орудия"
 
 #: src-en/data/events_special_storage.xml.append:992
 msgid ""
@@ -1042,7 +1075,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1000
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[11]/text"
-msgstr ""
+msgstr "Выковать прототип минометного орудия"
 
 #: src-en/data/events_special_storage.xml.append:1007
 msgid ""
@@ -1057,7 +1090,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1015
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[12]/text"
-msgstr ""
+msgstr "Выковать прототип защитного дрона"
 
 #: src-en/data/events_special_storage.xml.append:1022
 msgid ""
@@ -1072,7 +1105,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1030
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[13]/text"
-msgstr ""
+msgstr "Выковать прототип ракетного дрона"
 
 #: src-en/data/events_special_storage.xml.append:1037
 msgid ""
@@ -1087,7 +1120,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1045
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[14]/text"
-msgstr ""
+msgstr "Выковать прототип лазерного дрона"
 
 #: src-en/data/events_special_storage.xml.append:1052
 msgid ""
@@ -1102,7 +1135,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1060
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[15]/text"
-msgstr ""
+msgstr "Выковать прототип лучевого дрона"
 
 #: src-en/data/events_special_storage.xml.append:1067
 msgid ""
@@ -1117,7 +1150,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1075
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[16]/text"
-msgstr ""
+msgstr "Выковать прототип плазменного дрона"
 
 #: src-en/data/events_special_storage.xml.append:1082
 msgid ""
@@ -1132,7 +1165,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1090
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[17]/text"
-msgstr ""
+msgstr "Выковать прототип точечного дрона"
 
 #: src-en/data/events_special_storage.xml.append:1097
 msgid ""
@@ -1147,7 +1180,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1105
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[18]/text"
-msgstr ""
+msgstr "Выковать прототип атомного дрона"
 
 #: src-en/data/events_special_storage.xml.append:1112
 msgid ""
@@ -1162,7 +1195,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1120
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[19]/text"
-msgstr ""
+msgstr "Выковать прототип дрона-директора"
 
 #: src-en/data/events_special_storage.xml.append:1127
 msgid ""
@@ -1177,7 +1210,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1135
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_WITHER_ENGINEERING_CRAFT\"]/choice[20]/text"
-msgstr ""
+msgstr "Выковать прототип ремонтного дрона"
 
 #: src-en/data/events_special_storage.xml.append:1142
 msgid ""
@@ -1197,285 +1230,369 @@ msgstr "Неважно, заняться чем-то еще."
 #: src-en/data/events_special_storage.xml.append:1160
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/text"
-msgstr ""
+msgstr "Какую систему следует улучшить?"
 
 #: src-en/data/events_special_storage.xml.append:1162
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"hull\""
 " and @lvl=\"11\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить реактор. [10 повреждений корпуса, "
+"+2 к уровню реактора]"
 
 #: src-en/data/events_special_storage.xml.append:1164
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"hull\""
 " and @lvl=\"11\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"реактора."
 
 #: src-en/data/events_special_storage.xml.append:1170
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"hull\""
 " and not(@lvl)]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [10 повреждений корпуса, +2 уровня "
+"реактора]"
 
 #: src-en/data/events_special_storage.xml.append:1174
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_SHIELD_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить систему щитов. [35 повреждений "
+"корпуса, +2 уровня системы щита]"
 
 #: src-en/data/events_special_storage.xml.append:1176
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_SHIELD_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1182
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_SHIELD_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [35 повреждений корпуса, +2 уровня "
+"системы щита]"
 
 #: src-en/data/events_special_storage.xml.append:1186
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_SHIELD_CAPPED\"]/text"
-msgstr ""
+msgstr "Система щитов уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1190
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_WEAPONS_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить оружие. [33 повреждения корпуса, +"
+"2 уровня оружейной системы]"
 
 #: src-en/data/events_special_storage.xml.append:1192
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_WEAPONS_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1198
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_WEAPONS_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [33 повреждения корпуса, +2 уровня "
+"оружейной системы]"
 
 #: src-en/data/events_special_storage.xml.append:1202
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_WEAPONS_CAPPED\"]/text"
-msgstr ""
+msgstr "Оружейная система уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1206
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_ENGINES_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить двигатели. [20 повреждений "
+"корпуса, +2 уровня системы двигателей]"
 
 #: src-en/data/events_special_storage.xml.append:1208
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_ENGINES_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1214
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_ENGINES_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [20 повреждений корпуса, +2 уровня "
+"системы двигателей]"
 
 #: src-en/data/events_special_storage.xml.append:1218
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_ENGINES_CAPPED\"]/text"
-msgstr ""
+msgstr "Система двигателей уже на максимальном уровне"
 
 #: src-en/data/events_special_storage.xml.append:1222
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_CLOAKING_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить систему маскировки. [39 "
+"повреждений корпуса, +1 уровень системы маскировки]"
 
 #: src-en/data/events_special_storage.xml.append:1224
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_CLOAKING_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1230
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_CLOAKING_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [39 повреждений корпуса, +1 уровень "
+"системы маскировки]"
 
 #: src-en/data/events_special_storage.xml.append:1234
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_CLOAKING_CAPPED\"]/text"
-msgstr ""
+msgstr "Система маскировки уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1238
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_DRONES_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить систему контроля дронов. [30 "
+"повреждений корпуса, +2 уровня системы контроля дронов]"
 
 #: src-en/data/events_special_storage.xml.append:1240
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_DRONES_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1246
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_DRONES_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [30 повреждений корпуса, +2 уровня "
+"системы контроля дронов]"
 
 #: src-en/data/events_special_storage.xml.append:1250
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_DRONES_CAPPED\"]/text"
-msgstr ""
+msgstr "Система контроля дронов уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1254
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_MIND_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить систему контроля разума. [15 "
+"повреждений корпуса, +1 уровень системы контроля разума]"
 
 #: src-en/data/events_special_storage.xml.append:1256
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_MIND_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1262
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_MIND_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [15 повреждений корпуса, +1 уровень "
+"системы контроля разума]"
 
 #: src-en/data/events_special_storage.xml.append:1266
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_MIND_CAPPED\"]/text"
-msgstr ""
+msgstr "Система контроля разума уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1270
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_TELEPORTER_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить систему телепортера. [25 "
+"повреждений корпуса, +1 уровень системы телепортера]"
 
 #: src-en/data/events_special_storage.xml.append:1272
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_TELEPORTER_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1278
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_TELEPORTER_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [25 повреждений корпуса, +1 уровень "
+"системы телепортера]"
 
 #: src-en/data/events_special_storage.xml.append:1282
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_TELEPORTER_CAPPED\"]/text"
-msgstr ""
+msgstr "Система телепортера уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1286
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_CLONEBAY_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить клон-отсек. [20 повреждений "
+"корпуса, +1 уровень системы клон-отсека]"
 
 #: src-en/data/events_special_storage.xml.append:1288
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_CLONEBAY_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1294
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_CLONEBAY_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [20 повреждений корпуса, +1 уровень "
+"системы клон-отсека]"
 
 #: src-en/data/events_special_storage.xml.append:1298
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_CLONEBAY_CAPPED\"]/text"
-msgstr ""
+msgstr "Система клон-отсека уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1302
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_MEDBAY_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить Медотсек. [20 повреждений "
+"корпуса, +1 уровень системы Медотсека]"
 
 #: src-en/data/events_special_storage.xml.append:1304
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_MEDBAY_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1310
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_MEDBAY_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [20 повреждений корпуса, +1 уровень "
+"системы Медотсека]"
 
 #: src-en/data/events_special_storage.xml.append:1314
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_MEDBAY_CAPPED\"]/text"
-msgstr ""
+msgstr "Система Медотсека уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1318
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_OXYGEN_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить систему кислородной установки. [5 "
+"повреждений корпуса, +1 уровень системы кислородной установки]"
 
 #: src-en/data/events_special_storage.xml.append:1320
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_OXYGEN_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1326
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_OXYGEN_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [5 повреждений корпуса, +1 уровень "
+"системы кислородной установки]"
 
 #: src-en/data/events_special_storage.xml.append:1330
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_OXYGEN_CAPPED\"]/text"
-msgstr ""
+msgstr "Система кислородной установки уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1334
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_HACKING_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить систему взлома. [20 повреждений "
+"корпуса, +1 уровень системы взлома]"
 
 #: src-en/data/events_special_storage.xml.append:1336
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_HACKING_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1342
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_HACKING_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [20 повреждений корпуса, +1 уровень "
+"системы взлома]"
 
 #: src-en/data/events_special_storage.xml.append:1346
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_HACKING_CAPPED\"]/text"
-msgstr ""
+msgstr "Система взлома уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1350
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_TEMPORAL_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить систему временного манипулятора. ["
+"22 повреждения корпуса, +1 уровень системы временного манипулятора]"
 
 #: src-en/data/events_special_storage.xml.append:1352
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_TEMPORAL_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1358
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_TEMPORAL_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [22 повреждения корпуса, +1 уровень "
+"системы временного манипулятора]"
 
 #: src-en/data/events_special_storage.xml.append:1362
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_TEMPORAL_CAPPED\"]/text"
-msgstr ""
+msgstr "Система временного манипулятора уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1366
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_ARTILLERY_HULL\"]/text"
 msgstr ""
+"Частично разобрать обшивку, чтобы улучшить артиллерийскую систему. [25 "
+"повреждений корпуса, +1 уровень артиллерийской системы]"
 
 #: src-en/data/events_special_storage.xml.append:1368
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_ARTILLERY_HULL\"]/event/text"
 msgstr ""
+"Вы вырезаете значительный кусок корпуса и используете его для улучшения "
+"своей системы."
 
 #: src-en/data/events_special_storage.xml.append:1374
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_ARTILLERY_HULL_FALSE\"]/text"
 msgstr ""
+"Недостаточно очков прочности корпуса [25 повреждений корпуса, +1 уровень "
+"артиллерийской системы]"
 
 #: src-en/data/events_special_storage.xml.append:1378
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_ENHANCED_AUGMENTER\"]/choice[@req=\"FR_REQUIREMENT_ARTILLERY_CAPPED\"]/text"
-msgstr ""
+msgstr "Артиллерийская система уже максимального уровня"
 
 #: src-en/data/events_special_storage.xml.append:1382
 msgid ""
@@ -1487,197 +1604,211 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_FAIL_REAL\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
+"(Щит некроманта) Настроить щит на противодействие всем попыткам обхода "
+"энергетического щита!"
 
 #: src-en/data/events_special_storage.xml.append:1404
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_FAIL_REAL\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "(Щит некроманта) У противника нет системы обхода щитов."
 
 #: src-en/data/events_special_storage.xml.append:1408
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_FAIL_REAL\"]/mod-"
 "append:choice[3]/text"
-msgstr ""
+msgstr "(Импульсный разряд) Понизить уровень систем противника!"
 
 #: src-en/data/events_special_storage.xml.append:1412
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_FAIL_REAL\"]/mod-"
 "append:choice[4]/text"
-msgstr ""
+msgstr "(Электромагнитный кран) Активировать кран!"
 
 #: src-en/data/events_special_storage.xml.append:1416
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_FAIL_REAL\"]/mod-"
 "append:choice[5]/text"
-msgstr ""
+msgstr "(Оружие расчленяющий кран) Активировать кран!"
 
 #: src-en/data/events_special_storage.xml.append:1420
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_FAIL_REAL\"]/mod-"
 "append:choice[6]/text"
-msgstr ""
+msgstr "(Неистовое улучшение тарана) Протаранить злодеев!"
 
 #: src-en/data/events_special_storage.xml.append:1424
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_FAIL_REAL\"]/mod-"
 "append:choice[7]/text"
-msgstr ""
+msgstr "(Омнисистемный глушитель) Заглушить вражескую систему!"
 
 #: src-en/data/events_special_storage.xml.append:1428
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_FAIL_REAL\"]/mod-"
 "append:choice[8]/text"
 msgstr ""
+"(Омнисистемный глушитель + Аварийный генератор) Заглушить вражескую систему "
+"+!"
 
 #: src-en/data/events_special_storage.xml.append:1435
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_REAL\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
+"(Щит некроманта) Настроить щит на противодействие всем попыткам обхода "
+"энергетического щита!"
 
 #: src-en/data/events_special_storage.xml.append:1439
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_REAL\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "(Щит некроманта) У противника нет системы обхода щита."
 
 #: src-en/data/events_special_storage.xml.append:1443
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_REAL\"]/mod-"
 "append:choice[3]/text"
-msgstr ""
+msgstr "(Импульсный разряд) Понизить уровень систем противника!"
 
 #: src-en/data/events_special_storage.xml.append:1447
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_REAL\"]/mod-"
 "append:choice[4]/text"
-msgstr ""
+msgstr "(Электромагнитный кран) Активировать кран!"
 
 #: src-en/data/events_special_storage.xml.append:1451
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_REAL\"]/mod-"
 "append:choice[5]/text"
-msgstr ""
+msgstr "(Оружие расчленяющий кран) Активировать кран!"
 
 #: src-en/data/events_special_storage.xml.append:1455
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_REAL\"]/mod-"
 "append:choice[6]/text"
-msgstr ""
+msgstr "(Неистовое улучшение тарана) Протаранить злодеев!"
 
 #: src-en/data/events_special_storage.xml.append:1459
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_REAL\"]/mod-"
 "append:choice[7]/text"
-msgstr ""
+msgstr "(Омнисистемный глушитель) Заглушить вражескую систему!"
 
 #: src-en/data/events_special_storage.xml.append:1463
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_REAL\"]/mod-"
 "append:choice[8]/text"
 msgstr ""
+"(Омнисистемный глушитель + Аварийный генератор) Заглушить вражескую систему "
+"+!"
 
 #: src-en/data/events_special_storage.xml.append:1480
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "(Порождение дрона Клео) Установить режим дрона. [Текущий режим: Охрана]"
 
 #: src-en/data/events_special_storage.xml.append:1484
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
+"(Порождение дрона Клео) Установить режим дрона. [Текущий режим: Абордажный]"
 
 #: src-en/data/events_special_storage.xml.append:1488
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[3]/text"
-msgstr ""
+msgstr "(Прото-атомный дрон) Установить режим дрона. [Текущий режим: Охрана]"
 
 #: src-en/data/events_special_storage.xml.append:1492
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[4]/text"
 msgstr ""
+"(Прото-атомный дрон) Установить режим дрона. [Текущий режим: Абордажный]"
 
 #: src-en/data/events_special_storage.xml.append:1496
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[5]/text"
-msgstr ""
+msgstr "(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Лазер]"
 
 #: src-en/data/events_special_storage.xml.append:1500
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[6]/text"
 msgstr ""
+"(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Пронзание]"
 
 #: src-en/data/events_special_storage.xml.append:1504
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[7]/text"
-msgstr ""
+msgstr "(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Ракетный]"
 
 #: src-en/data/events_special_storage.xml.append:1508
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[8]/text"
-msgstr ""
+msgstr "(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Анти-био]"
 
 #: src-en/data/events_special_storage.xml.append:1512
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[9]/text"
-msgstr ""
+msgstr "(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Луч]"
 
 #: src-en/data/events_special_storage.xml.append:1516
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[10]/text"
 msgstr ""
+"(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Статусный]"
 
 #: src-en/data/events_special_storage.xml.append:1520
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[11]/text"
-msgstr ""
+msgstr "(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Бомбовый]"
 
 #: src-en/data/events_special_storage.xml.append:1524
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[12]/text"
-msgstr ""
+msgstr "(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Ионный]"
 
 #: src-en/data/events_special_storage.xml.append:1528
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[13]/text"
 msgstr ""
+"(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Энергетический]"
 
 #: src-en/data/events_special_storage.xml.append:1532
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[14]/text"
 msgstr ""
+"(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Осколочный]"
 
 #: src-en/data/events_special_storage.xml.append:1536
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[15]/text"
-msgstr ""
+msgstr "(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Точечный]"
 
 #: src-en/data/events_special_storage.xml.append:1540
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_TOGGLE\"]/mod-"
 "append:choice[16]/text"
-msgstr ""
+msgstr "(Боевой дрон Аркадии) Установить режим дрона. [Текущий режим: Минный]"
 
 #: src-en/data/events_special_storage.xml.append:1546
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_LASER\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:1548
 msgid ""
@@ -1707,7 +1838,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1566
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_LASER\"]/choice[2]/text"
-msgstr ""
+msgstr "Переключить дрон в Ракетный режим."
 
 #: src-en/data/events_special_storage.xml.append:1568
 msgid ""
@@ -1732,7 +1863,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1584
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_LASER\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Анти-био режим."
 
 #: src-en/data/events_special_storage.xml.append:1586
 msgid ""
@@ -1757,7 +1888,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1602
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_LASER\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Статусный режим."
 
 #: src-en/data/events_special_storage.xml.append:1604
 msgid ""
@@ -1807,7 +1938,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1638
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_LASER\"]/choice[6]/text"
-msgstr ""
+msgstr "Переключить дрон в Ионный режим."
 
 #: src-en/data/events_special_storage.xml.append:1640
 msgid ""
@@ -1832,7 +1963,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1656
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_LASER\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Энергетический режим."
 
 #: src-en/data/events_special_storage.xml.append:1658
 msgid ""
@@ -1857,7 +1988,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1674
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_LASER\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Бомбовый режим."
 
 #: src-en/data/events_special_storage.xml.append:1676
 msgid ""
@@ -1882,7 +2013,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1692
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_LASER\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Осколочный режим."
 
 #: src-en/data/events_special_storage.xml.append:1694
 msgid ""
@@ -1907,7 +2038,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1710
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_LASER\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Точечный режим."
 
 #: src-en/data/events_special_storage.xml.append:1712
 msgid ""
@@ -1937,12 +2068,12 @@ msgstr "Вернуться в меню переключения."
 #: src-en/data/events_special_storage.xml.append:1734
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PIERCE\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:1736
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PIERCE\"]/choice[1]/text"
-msgstr "Перевести дрон в лазерный режим."
+msgstr "Перевести дрон в Лазерный режим."
 
 #: src-en/data/events_special_storage.xml.append:1738
 msgid ""
@@ -1967,7 +2098,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1754
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PIERCE\"]/choice[2]/text"
-msgstr ""
+msgstr "Переключить дрон в Ракетный режим."
 
 #: src-en/data/events_special_storage.xml.append:1756
 msgid ""
@@ -1992,7 +2123,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1772
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PIERCE\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Анти-био режим."
 
 #: src-en/data/events_special_storage.xml.append:1774
 msgid ""
@@ -2017,7 +2148,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1790
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PIERCE\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Статусный режим."
 
 #: src-en/data/events_special_storage.xml.append:1792
 msgid ""
@@ -2067,7 +2198,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1826
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PIERCE\"]/choice[6]/text"
-msgstr ""
+msgstr "Переключить дрон в Ионный режим."
 
 #: src-en/data/events_special_storage.xml.append:1828
 msgid ""
@@ -2092,7 +2223,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1844
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PIERCE\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Энергетический режим."
 
 #: src-en/data/events_special_storage.xml.append:1846
 msgid ""
@@ -2117,7 +2248,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1862
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PIERCE\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Бомбовый режим."
 
 #: src-en/data/events_special_storage.xml.append:1864
 msgid ""
@@ -2142,7 +2273,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1880
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PIERCE\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Осколочный режим."
 
 #: src-en/data/events_special_storage.xml.append:1882
 msgid ""
@@ -2167,7 +2298,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1898
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PIERCE\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Точечный режим."
 
 #: src-en/data/events_special_storage.xml.append:1900
 msgid ""
@@ -2192,7 +2323,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1916
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PIERCE\"]/choice[11]/text"
-msgstr ""
+msgstr "Переключить дрон в Минный режим."
 
 #: src-en/data/events_special_storage.xml.append:1918
 msgid ""
@@ -2222,12 +2353,12 @@ msgstr "Вернуться в меню переключения."
 #: src-en/data/events_special_storage.xml.append:1940
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MISSILE\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:1942
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MISSILE\"]/choice[1]/text"
-msgstr "Перевести дрон в лазерный режим."
+msgstr "Перевести дрон в Лазерный режим."
 
 #: src-en/data/events_special_storage.xml.append:1944
 msgid ""
@@ -2277,7 +2408,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1978
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MISSILE\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Анти-био режим."
 
 #: src-en/data/events_special_storage.xml.append:1980
 msgid ""
@@ -2302,7 +2433,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:1996
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MISSILE\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Статусный режим."
 
 #: src-en/data/events_special_storage.xml.append:1998
 msgid ""
@@ -2352,7 +2483,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2032
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MISSILE\"]/choice[6]/text"
-msgstr ""
+msgstr "Переключить дрон в Ионный режим."
 
 #: src-en/data/events_special_storage.xml.append:2034
 msgid ""
@@ -2377,7 +2508,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2050
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MISSILE\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Энергетический режим."
 
 #: src-en/data/events_special_storage.xml.append:2052
 msgid ""
@@ -2402,7 +2533,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2068
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MISSILE\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Бомбовый режим."
 
 #: src-en/data/events_special_storage.xml.append:2070
 msgid ""
@@ -2427,7 +2558,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2086
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MISSILE\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Осколочный режим."
 
 #: src-en/data/events_special_storage.xml.append:2088
 msgid ""
@@ -2452,7 +2583,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2104
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MISSILE\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Точечный режим."
 
 #: src-en/data/events_special_storage.xml.append:2106
 msgid ""
@@ -2477,7 +2608,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2122
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MISSILE\"]/choice[11]/text"
-msgstr ""
+msgstr "Переключить дрон в Минный режим."
 
 #: src-en/data/events_special_storage.xml.append:2124
 msgid ""
@@ -2507,12 +2638,12 @@ msgstr "Вернуться в меню переключения."
 #: src-en/data/events_special_storage.xml.append:2146
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BIO\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:2148
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BIO\"]/choice[1]/text"
-msgstr "Перевести дрон в лазерный режим."
+msgstr "Перевести дрон в Лазерный режим."
 
 #: src-en/data/events_special_storage.xml.append:2150
 msgid ""
@@ -2562,7 +2693,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2184
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BIO\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Ракетный режим."
 
 #: src-en/data/events_special_storage.xml.append:2186
 msgid ""
@@ -2587,7 +2718,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2202
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BIO\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Статусный режим."
 
 #: src-en/data/events_special_storage.xml.append:2204
 msgid ""
@@ -2637,7 +2768,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2238
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BIO\"]/choice[6]/text"
-msgstr ""
+msgstr "Переключить дрон в Ионный режим."
 
 #: src-en/data/events_special_storage.xml.append:2240
 msgid ""
@@ -2662,7 +2793,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2256
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BIO\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Энергетический режим."
 
 #: src-en/data/events_special_storage.xml.append:2258
 msgid ""
@@ -2687,7 +2818,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2274
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BIO\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Бомбовый режим."
 
 #: src-en/data/events_special_storage.xml.append:2276
 msgid ""
@@ -2712,7 +2843,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2292
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BIO\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Осколочный режим."
 
 #: src-en/data/events_special_storage.xml.append:2294
 msgid ""
@@ -2737,7 +2868,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2310
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BIO\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Точечный режим."
 
 #: src-en/data/events_special_storage.xml.append:2312
 msgid ""
@@ -2762,7 +2893,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2328
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BIO\"]/choice[11]/text"
-msgstr ""
+msgstr "Переключить дрон в Минный режим."
 
 #: src-en/data/events_special_storage.xml.append:2330
 msgid ""
@@ -2792,12 +2923,12 @@ msgstr "Вернуться в меню переключения."
 #: src-en/data/events_special_storage.xml.append:2352
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BEAM\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:2354
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BEAM\"]/choice[1]/text"
-msgstr "Перевести дрон в лазерный режим."
+msgstr "Перевести дрон в Лазерный режим."
 
 #: src-en/data/events_special_storage.xml.append:2356
 msgid ""
@@ -2847,7 +2978,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2390
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BEAM\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Ракетный режим."
 
 #: src-en/data/events_special_storage.xml.append:2392
 msgid ""
@@ -2872,7 +3003,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2408
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BEAM\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Анти-био режим."
 
 #: src-en/data/events_special_storage.xml.append:2410
 msgid ""
@@ -2897,7 +3028,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2426
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BEAM\"]/choice[5]/text"
-msgstr ""
+msgstr "Переключить дрон в Статусный режим."
 
 #: src-en/data/events_special_storage.xml.append:2428
 msgid ""
@@ -2922,7 +3053,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2444
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BEAM\"]/choice[6]/text"
-msgstr ""
+msgstr "Переключить дрон в Ионный режим."
 
 #: src-en/data/events_special_storage.xml.append:2446
 msgid ""
@@ -2947,7 +3078,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2462
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BEAM\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Энергетический режим."
 
 #: src-en/data/events_special_storage.xml.append:2464
 msgid ""
@@ -2972,7 +3103,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2480
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BEAM\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Бомбовый режим."
 
 #: src-en/data/events_special_storage.xml.append:2482
 msgid ""
@@ -2997,7 +3128,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2498
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BEAM\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Осколочный режим."
 
 #: src-en/data/events_special_storage.xml.append:2500
 msgid ""
@@ -3022,7 +3153,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2516
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BEAM\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Точечный режим."
 
 #: src-en/data/events_special_storage.xml.append:2518
 msgid ""
@@ -3047,7 +3178,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2534
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BEAM\"]/choice[11]/text"
-msgstr ""
+msgstr "Переключить дрон в Минный режим."
 
 #: src-en/data/events_special_storage.xml.append:2536
 msgid ""
@@ -3077,12 +3208,12 @@ msgstr "Вернуться в меню переключения."
 #: src-en/data/events_special_storage.xml.append:2558
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_STATUS\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:2560
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_STATUS\"]/choice[1]/text"
-msgstr "Перевести дрон в лазерный режим."
+msgstr "Перевести дрон в Лазерный режим."
 
 #: src-en/data/events_special_storage.xml.append:2562
 msgid ""
@@ -3132,7 +3263,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2596
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_STATUS\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Ракетный режим."
 
 #: src-en/data/events_special_storage.xml.append:2598
 msgid ""
@@ -3157,7 +3288,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2614
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_STATUS\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Анти-био режим."
 
 #: src-en/data/events_special_storage.xml.append:2616
 msgid ""
@@ -3207,7 +3338,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2650
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_STATUS\"]/choice[6]/text"
-msgstr ""
+msgstr "Переключить дрон в Ионный режим."
 
 #: src-en/data/events_special_storage.xml.append:2652
 msgid ""
@@ -3232,7 +3363,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2668
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_STATUS\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Энергетический режим."
 
 #: src-en/data/events_special_storage.xml.append:2670
 msgid ""
@@ -3257,7 +3388,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2686
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_STATUS\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Бомбовый режим."
 
 #: src-en/data/events_special_storage.xml.append:2688
 msgid ""
@@ -3282,7 +3413,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2704
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_STATUS\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Осколочный режим."
 
 #: src-en/data/events_special_storage.xml.append:2706
 msgid ""
@@ -3307,7 +3438,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2722
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_STATUS\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Точечный режим."
 
 #: src-en/data/events_special_storage.xml.append:2724
 msgid ""
@@ -3332,7 +3463,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2740
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_STATUS\"]/choice[11]/text"
-msgstr ""
+msgstr "Переключить дрон в Минный режим."
 
 #: src-en/data/events_special_storage.xml.append:2742
 msgid ""
@@ -3362,12 +3493,12 @@ msgstr "Вернуться в меню переключения."
 #: src-en/data/events_special_storage.xml.append:2764
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BOMB\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:2766
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BOMB\"]/choice[1]/text"
-msgstr "Перевести дрон в лазерный режим."
+msgstr "Перевести дрон в Лазерный режим."
 
 #: src-en/data/events_special_storage.xml.append:2768
 msgid ""
@@ -3417,7 +3548,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2802
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BOMB\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Ракетный режим."
 
 #: src-en/data/events_special_storage.xml.append:2804
 msgid ""
@@ -3442,7 +3573,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2820
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BOMB\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Анти-био режим."
 
 #: src-en/data/events_special_storage.xml.append:2822
 msgid ""
@@ -3467,7 +3598,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2838
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BOMB\"]/choice[5]/text"
-msgstr ""
+msgstr "Переключить дрон в Статусный режим."
 
 #: src-en/data/events_special_storage.xml.append:2840
 msgid ""
@@ -3517,7 +3648,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2874
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BOMB\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Ионный режим."
 
 #: src-en/data/events_special_storage.xml.append:2876
 msgid ""
@@ -3542,7 +3673,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2892
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BOMB\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Энергетический режим."
 
 #: src-en/data/events_special_storage.xml.append:2894
 msgid ""
@@ -3567,7 +3698,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2910
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BOMB\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Осколочный режим."
 
 #: src-en/data/events_special_storage.xml.append:2912
 msgid ""
@@ -3592,7 +3723,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2928
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BOMB\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Точечный режим."
 
 #: src-en/data/events_special_storage.xml.append:2930
 msgid ""
@@ -3617,7 +3748,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:2946
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_BOMB\"]/choice[11]/text"
-msgstr ""
+msgstr "Переключить дрон в Минный режим."
 
 #: src-en/data/events_special_storage.xml.append:2948
 msgid ""
@@ -3647,12 +3778,12 @@ msgstr "Вернуться в меню переключения."
 #: src-en/data/events_special_storage.xml.append:2970
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ION\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:2972
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ION\"]/choice[1]/text"
-msgstr "Перевести дрон в лазерный режим."
+msgstr "Перевести дрон в Лазерный режим."
 
 #: src-en/data/events_special_storage.xml.append:2974
 msgid ""
@@ -3702,7 +3833,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3008
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ION\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Ракетный режим."
 
 #: src-en/data/events_special_storage.xml.append:3010
 msgid ""
@@ -3727,7 +3858,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3026
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ION\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Анти-био режим."
 
 #: src-en/data/events_special_storage.xml.append:3028
 msgid ""
@@ -3752,7 +3883,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3044
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ION\"]/choice[5]/text"
-msgstr ""
+msgstr "Переключить дрон в Статусный режим."
 
 #: src-en/data/events_special_storage.xml.append:3046
 msgid ""
@@ -3802,7 +3933,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3080
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ION\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Энергетический режим."
 
 #: src-en/data/events_special_storage.xml.append:3082
 msgid ""
@@ -3827,7 +3958,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3098
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ION\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Бомбовый режим."
 
 #: src-en/data/events_special_storage.xml.append:3100
 msgid ""
@@ -3852,7 +3983,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3116
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ION\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Осколочный режим."
 
 #: src-en/data/events_special_storage.xml.append:3118
 msgid ""
@@ -3877,7 +4008,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3134
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ION\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Точечный режим."
 
 #: src-en/data/events_special_storage.xml.append:3136
 msgid ""
@@ -3902,7 +4033,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3152
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ION\"]/choice[11]/text"
-msgstr ""
+msgstr "Переключить дрон в Минный режим."
 
 #: src-en/data/events_special_storage.xml.append:3154
 msgid ""
@@ -3932,12 +4063,12 @@ msgstr "Вернуться в меню переключения."
 #: src-en/data/events_special_storage.xml.append:3176
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ENERGY\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:3178
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ENERGY\"]/choice[1]/text"
-msgstr "Перевести дрон в лазерный режим."
+msgstr "Перевести дрон в Лазерный режим."
 
 #: src-en/data/events_special_storage.xml.append:3180
 msgid ""
@@ -3987,7 +4118,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3214
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ENERGY\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Ракетный режим."
 
 #: src-en/data/events_special_storage.xml.append:3216
 msgid ""
@@ -4012,7 +4143,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3232
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ENERGY\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Анти-био режим."
 
 #: src-en/data/events_special_storage.xml.append:3234
 msgid ""
@@ -4037,7 +4168,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3250
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ENERGY\"]/choice[5]/text"
-msgstr ""
+msgstr "Переключить дрон в Статусный режим."
 
 #: src-en/data/events_special_storage.xml.append:3252
 msgid ""
@@ -4087,7 +4218,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3286
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ENERGY\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Ионный режим."
 
 #: src-en/data/events_special_storage.xml.append:3288
 msgid ""
@@ -4112,7 +4243,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3304
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ENERGY\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Бомбовый режим."
 
 #: src-en/data/events_special_storage.xml.append:3306
 msgid ""
@@ -4137,7 +4268,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3322
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ENERGY\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Осколочный режим."
 
 #: src-en/data/events_special_storage.xml.append:3324
 msgid ""
@@ -4162,7 +4293,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3340
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ENERGY\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Точечный режим."
 
 #: src-en/data/events_special_storage.xml.append:3342
 msgid ""
@@ -4187,7 +4318,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3358
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_ENERGY\"]/choice[11]/text"
-msgstr ""
+msgstr "Переключить дрон в Минный режим."
 
 #: src-en/data/events_special_storage.xml.append:3360
 msgid ""
@@ -4217,12 +4348,12 @@ msgstr "Вернуться в меню переключения."
 #: src-en/data/events_special_storage.xml.append:3382
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_FLAK\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:3384
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_FLAK\"]/choice[1]/text"
-msgstr "Перевести дрон в лазерный режим."
+msgstr "Перевести дрон в Лазерный режим."
 
 #: src-en/data/events_special_storage.xml.append:3386
 msgid ""
@@ -4272,7 +4403,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3420
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_FLAK\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Ракетный режим."
 
 #: src-en/data/events_special_storage.xml.append:3422
 msgid ""
@@ -4297,7 +4428,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3438
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_FLAK\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Анти-био режим."
 
 #: src-en/data/events_special_storage.xml.append:3440
 msgid ""
@@ -4322,7 +4453,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3456
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_FLAK\"]/choice[5]/text"
-msgstr ""
+msgstr "Переключить дрон в Статусный режим."
 
 #: src-en/data/events_special_storage.xml.append:3458
 msgid ""
@@ -4372,7 +4503,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3492
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_FLAK\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Ионный режим."
 
 #: src-en/data/events_special_storage.xml.append:3494
 msgid ""
@@ -4397,7 +4528,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3510
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_FLAK\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Энергетический режим."
 
 #: src-en/data/events_special_storage.xml.append:3512
 msgid ""
@@ -4422,7 +4553,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3528
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_FLAK\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Бомбовый режим."
 
 #: src-en/data/events_special_storage.xml.append:3530
 msgid ""
@@ -4447,7 +4578,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3546
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_FLAK\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Точечный режим."
 
 #: src-en/data/events_special_storage.xml.append:3548
 msgid ""
@@ -4472,7 +4603,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3564
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_FLAK\"]/choice[11]/text"
-msgstr ""
+msgstr "Переключить дрон в Минный режим."
 
 #: src-en/data/events_special_storage.xml.append:3566
 msgid ""
@@ -4502,12 +4633,12 @@ msgstr "Вернуться в меню переключения."
 #: src-en/data/events_special_storage.xml.append:3588
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PINPOINT\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:3590
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PINPOINT\"]/choice[1]/text"
-msgstr "Перевести дрон в лазерный режим."
+msgstr "Перевести дрон в Лазерный режим."
 
 #: src-en/data/events_special_storage.xml.append:3592
 msgid ""
@@ -4557,7 +4688,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3626
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PINPOINT\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Ракетный режим."
 
 #: src-en/data/events_special_storage.xml.append:3628
 msgid ""
@@ -4582,7 +4713,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3644
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PINPOINT\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Анти-био режим."
 
 #: src-en/data/events_special_storage.xml.append:3646
 msgid ""
@@ -4607,7 +4738,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3662
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PINPOINT\"]/choice[5]/text"
-msgstr ""
+msgstr "Переключить дрон в Статусный режим."
 
 #: src-en/data/events_special_storage.xml.append:3664
 msgid ""
@@ -4657,7 +4788,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3698
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PINPOINT\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Ионный режим."
 
 #: src-en/data/events_special_storage.xml.append:3700
 msgid ""
@@ -4682,7 +4813,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3716
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PINPOINT\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Энергетический режим."
 
 #: src-en/data/events_special_storage.xml.append:3718
 msgid ""
@@ -4707,7 +4838,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3734
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PINPOINT\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Бомбовый режим."
 
 #: src-en/data/events_special_storage.xml.append:3736
 msgid ""
@@ -4732,7 +4863,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3752
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PINPOINT\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Осколочный режим."
 
 #: src-en/data/events_special_storage.xml.append:3754
 msgid ""
@@ -4757,7 +4888,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3770
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_PINPOINT\"]/choice[11]/text"
-msgstr ""
+msgstr "Переключить дрон в Минный режим."
 
 #: src-en/data/events_special_storage.xml.append:3772
 msgid ""
@@ -4787,12 +4918,12 @@ msgstr "Вернуться в меню переключения."
 #: src-en/data/events_special_storage.xml.append:3794
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MINE\"]/text"
-msgstr ""
+msgstr "В каком режиме должен работать дрон?"
 
 #: src-en/data/events_special_storage.xml.append:3796
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MINE\"]/choice[1]/text"
-msgstr "Перевести дрон в лазерный режим."
+msgstr "Перевести дрон в Лазерный режим."
 
 #: src-en/data/events_special_storage.xml.append:3798
 msgid ""
@@ -4842,7 +4973,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3832
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MINE\"]/choice[3]/text"
-msgstr ""
+msgstr "Переключить дрон в Ракетный режим."
 
 #: src-en/data/events_special_storage.xml.append:3834
 msgid ""
@@ -4867,7 +4998,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3850
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MINE\"]/choice[4]/text"
-msgstr ""
+msgstr "Переключить дрон в Анти-био режим."
 
 #: src-en/data/events_special_storage.xml.append:3852
 msgid ""
@@ -4892,7 +5023,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3868
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MINE\"]/choice[5]/text"
-msgstr ""
+msgstr "Переключить дрон в Статусный режим."
 
 #: src-en/data/events_special_storage.xml.append:3870
 msgid ""
@@ -4942,7 +5073,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3904
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MINE\"]/choice[7]/text"
-msgstr ""
+msgstr "Переключить дрон в Ионный режим."
 
 #: src-en/data/events_special_storage.xml.append:3906
 msgid ""
@@ -4967,7 +5098,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3922
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MINE\"]/choice[8]/text"
-msgstr ""
+msgstr "Переключить дрон в Энергетический режим."
 
 #: src-en/data/events_special_storage.xml.append:3924
 msgid ""
@@ -4992,7 +5123,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3940
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MINE\"]/choice[9]/text"
-msgstr ""
+msgstr "Переключить дрон в Бомбовый режим."
 
 #: src-en/data/events_special_storage.xml.append:3942
 msgid ""
@@ -5017,7 +5148,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3958
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MINE\"]/choice[10]/text"
-msgstr ""
+msgstr "Переключить дрон в Осколочный режим."
 
 #: src-en/data/events_special_storage.xml.append:3960
 msgid ""
@@ -5042,7 +5173,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:3976
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_ARCADIA_MINE\"]/choice[11]/text"
-msgstr ""
+msgstr "Переключить дрон в Точечный режим."
 
 #: src-en/data/events_special_storage.xml.append:3978
 msgid ""
@@ -5232,6 +5363,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[9]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4143
 msgid ""
@@ -5256,6 +5389,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[11]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4166
 msgid ""
@@ -5280,6 +5415,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[13]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4190
 msgid ""
@@ -5304,6 +5441,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[15]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4213
 msgid ""
@@ -5328,6 +5467,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[17]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4237
 msgid ""
@@ -5352,6 +5493,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[19]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4261
 msgid ""
@@ -5376,6 +5519,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[21]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4284
 msgid ""
@@ -5400,6 +5545,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[23]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4308
 msgid ""
@@ -5424,6 +5571,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[25]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4331
 msgid ""
@@ -5448,6 +5597,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[27]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4356
 msgid ""
@@ -5472,6 +5623,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[29]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4380
 msgid ""
@@ -5496,6 +5649,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[31]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4404
 msgid ""
@@ -5520,6 +5675,8 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[33]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4428
 msgid ""
@@ -5544,50 +5701,67 @@ msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[35]/mod-"
 "append:choice/text"
 msgstr ""
+"Вы не можете установить это лабораторное улучшение, поскольку у вас ее есть "
+"внешняя версия."
 
 #: src-en/data/events_special_storage.xml.append:4460
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_LAB\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "Соляные."
 
 #: src-en/data/events_special_storage.xml.append:4464
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_LAB\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "Осмианцы."
 
 #: src-en/data/events_special_storage.xml.append:4468
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_LAB\"]/mod-"
 "append:choice[3]/text"
-msgstr ""
+msgstr "Снеговики и лавамены."
 
 #: src-en/data/events_special_storage.xml.append:4472
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_LAB\"]/mod-"
 "append:choice[4]/text"
-msgstr ""
+msgstr "Сфераксы."
 
 #: src-en/data/events_special_storage.xml.append:4478
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/text"
-msgstr ""
+msgstr "Вы открыли лабораторное меню для: [СОЛЯНЫЕ]"
 
 #: src-en/data/events_special_storage.xml.append:4480
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[@req=\"FR_LAB_SALT_PRO_SLUG_SALT\"]/text"
 msgstr ""
+"Добавлено: Про-слизневая соль.\n"
+"\t\t[Урон, наносимый Соляными по области, перестает наносить урон слизням "
+"всех видов и вместо этого исцеляет их, но взамен наносит двойной урон всем "
+"другим расам. Урон, наносимый способностью Обина, теперь удваивается и "
+"наносит двойной урон врагам и союзникам, а также исцеляет слизней вместо "
+"того, чтобы наносить им урон]"
 
 #: src-en/data/events_special_storage.xml.append:4485
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[@req=\"FR_LAB_SALT_OATH_OF_PEACE\"]/text"
 msgstr ""
+"Добавлено: Клятва мира.\n"
+"\t\t[Соляные не могут сражаться напрямую, вместо этого их урон от саботажа "
+"увеличивается до 2x, а скорость передвижения - до 0.5x]"
 
 #: src-en/data/events_special_storage.xml.append:4490
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[@req=\"FR_LAB_SALT_HEALING_CRYTALS\"]/text"
 msgstr ""
+"Добавлено: Целительные кристаллы.\n"
+"\t\t[Способность Соляных теперь исцеляет их на столько же, сколько наносит "
+"урона врагам, а у Обина его способность исцеляет себя и ближайших союзников "
+"на 6 ОЗ/с, но теряет возможность наносить урон этой способностью.\n"
+"\t\t\n"
+"\t\tСоляные и Обины теперь получают на 100% больше урона из всех источников]"
 
 #: src-en/data/events_special_storage.xml.append:4497
 msgid ""
@@ -5597,32 +5771,32 @@ msgstr "Добавлено: Ничего"
 #: src-en/data/events_special_storage.xml.append:4501
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[5]/text"
-msgstr ""
+msgstr "Осн: Про-слизневая соль. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4505
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[6]/text"
-msgstr ""
+msgstr "Осн: Про-слизневая соль. [Цена: 50~]"
 
 #: src-en/data/events_special_storage.xml.append:4509
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[7]/text"
-msgstr ""
+msgstr "Осн: Клятва мира. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4513
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[8]/text"
-msgstr ""
+msgstr "Осн: Клятва мира. [Цена: 10~, 12|]"
 
 #: src-en/data/events_special_storage.xml.append:4517
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[9]/text"
-msgstr ""
+msgstr "Осн: Целительные кристаллы. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4521
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[10]/text"
-msgstr ""
+msgstr "Осн: Целительные кристаллы. [Цена: 10{]"
 
 #: src-en/data/events_special_storage.xml.append:4525
 msgid ""
@@ -5633,6 +5807,16 @@ msgstr "Вернуться."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT_PRO_SLUG_SALT\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Про-слизневая соль.\n"
+"\t[Эффект: Урон, наносимый Соляными по области, перестает наносить урон "
+"слизням всех видов и вместо этого исцеляет их, но взамен наносит двойной "
+"урон всем другим расам. Урон, наносимый способностью Обина, теперь "
+"удваивается и наносит двойной урон врагам и союзникам, а также исцеляет "
+"слизней вместо того, чтобы наносить им урон]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу расы соляных. Вы также не сможете "
+"деактивировать эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4536
 msgid ""
@@ -5658,11 +5842,18 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT_OATH_OF_PEACE\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Клятва мира.\n"
+"\t[Эффект: Соляные не могут сражаться напрямую, вместо этого их урон от "
+"саботажа увеличивается до 2x, а скорость передвижения - до 0.5x]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу расы соляных. Вы также не сможете "
+"деактивировать эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4563
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT_OATH_OF_PEACE\"]/choice[1]/text"
-msgstr ""
+msgstr "Добавить модификацию. [Цена: 10~, 12|]"
 
 #: src-en/data/events_special_storage.xml.append:4565
 msgid ""
@@ -5683,11 +5874,21 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT_HEALING_CRYSTALS\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Целительные кристаллы.\n"
+"\t[Эффекты: Способность Соляных теперь исцеляет их на столько же, сколько "
+"наносит урона врагам, а у Обина его способность исцеляет себя и ближайших "
+"союзников на 6 ОЗ/с, но теряет возможность наносить урон этой способностью.\n"
+"\t\t\n"
+"\tСоляные и Обины теперь получают на 100% больше урона из всех источников]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу расы соляных. Вы также не сможете "
+"деактивировать эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4593
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT_HEALING_CRYSTALS\"]/choice[1]/text"
-msgstr ""
+msgstr "Добавить модификацию. [Цена: 10{]"
 
 #: src-en/data/events_special_storage.xml.append:4595
 msgid ""
@@ -5707,22 +5908,33 @@ msgstr "Неважно."
 #: src-en/data/events_special_storage.xml.append:4615
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/text"
-msgstr ""
+msgstr "Вы открыли лабораторное меню для: [ОСМИАНЦЫ]"
 
 #: src-en/data/events_special_storage.xml.append:4617
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[@req=\"FR_LAB_OSMIAN_LIGHT_HELPERS\"]/text"
 msgstr ""
+"Добавлено: Световые помощники.\n"
+"\t\t[Осмианцы получают 20% здоровья, скорости ремонта, боевого и урону при "
+"саботаже, если в одном отсеке с ними находится голограмма]"
 
 #: src-en/data/events_special_storage.xml.append:4622
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[@req=\"FR_LAB_OSMIAN_ONE_BODY\"]/text"
 msgstr ""
+"Добавлено: Одно тело.\n"
+"\t\t[Осмианцы больше не генерируют голограммы, вместо этого они на 30 секунд "
+"получают базовые характеристики голограммы (25% сопротивления получаемому "
+"урону, иммунитет к контролю разума, возможность проходить сквозь двери, не "
+"могут сгореть или задохнуться и дают 1 энергию системе, в которой находятся)]"
 
 #: src-en/data/events_special_storage.xml.append:4627
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[@req=\"FR_LAB_OSMIAN_SOULFUL_LIGHT\"]/text"
 msgstr ""
+"Добавлено: Свет души.\n"
+"\t\t[Голограммы Осмианцев действуют вечно, но имеют на 50% меньшие "
+"характеристики]"
 
 #: src-en/data/events_special_storage.xml.append:4632
 msgid ""
@@ -5732,32 +5944,32 @@ msgstr "Добавлено: Ничего"
 #: src-en/data/events_special_storage.xml.append:4636
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[5]/text"
-msgstr ""
+msgstr "Осн: Световые помощники. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4640
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[6]/text"
-msgstr ""
+msgstr "Осн: Световые помощники. [Цена: 45~]"
 
 #: src-en/data/events_special_storage.xml.append:4644
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[7]/text"
-msgstr ""
+msgstr "Осн: Одно тело. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4648
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[8]/text"
-msgstr ""
+msgstr "Осн: Одно тело. [Цена: 5{, 20~]"
 
 #: src-en/data/events_special_storage.xml.append:4652
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[9]/text"
-msgstr ""
+msgstr "Осн: Свет души. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4656
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[@req=\"FR_LAB_SALT_INSTALLED\"]/text"
-msgstr ""
+msgstr "Осн: Свет души. [Цена: 15| 20~]"
 
 #: src-en/data/events_special_storage.xml.append:4660
 msgid ""
@@ -5768,6 +5980,13 @@ msgstr "Вернуться."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN_LIGHT_HELPERS\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Световые помощники.\n"
+"\t[Эффекты: Осмианцы получают 20% здоровья, скорости ремонта, боевого и "
+"урону при саботаже, если в одном отсеке с ними находится голограмма]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу расы соляных. Вы также не сможете "
+"деактивировать эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4671
 msgid ""
@@ -5793,11 +6012,21 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN_ONE_BODY\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Одно тело.\n"
+"\t[Эффекты: Осмианцы больше не генерируют голограммы, вместо этого они на 30 "
+"секунд получают базовые характеристики голограммы (25% сопротивления "
+"получаемому урону, иммунитет к контролю разума, возможность проходить сквозь "
+"двери, не могут сгореть или задохнуться и дают 1 энергию системе, в которой "
+"находятся)].\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу расы осмианцев. Вы также не сможете "
+"деактивировать эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4698
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN_ONE_BODY\"]/choice[1]/text"
-msgstr ""
+msgstr "Добавить модификацию. [Цена: 5{, 20~]"
 
 #: src-en/data/events_special_storage.xml.append:4700
 msgid ""
@@ -5818,11 +6047,18 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN_SOULFUL_LIGHT\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Свет души.\n"
+"\t[Эффекты: Голограммы Осмианцев действуют вечно, но имеют на 50% меньшие "
+"характеристики]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу расы осмианцев. Вы также не сможете "
+"деактивировать эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4726
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN_SOULFUL_LIGHT\"]/choice[1]/text"
-msgstr ""
+msgstr "Добавить модификацию. [Цена: 15| 20~]"
 
 #: src-en/data/events_special_storage.xml.append:4728
 msgid ""
@@ -5842,22 +6078,33 @@ msgstr "Неважно."
 #: src-en/data/events_special_storage.xml.append:4750
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/text"
-msgstr ""
+msgstr "Вы открыли лабораторное меню для: [СНЕГОВИКИ И ЛАВАМЕНЫ]"
 
 #: src-en/data/events_special_storage.xml.append:4752
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[@req=\"FR_LAB_ELEMAN_UNSTABILITY\"]/text"
 msgstr ""
+"Добавлено: Элементарная нестабильность.\n"
+"\t\t[Снеговики автоматически создают пробоины, а лавамены автоматически "
+"разжигают пожар, находясь на вражеском корабле, но при этом наносят только "
+"50% урона экипажу]"
 
 #: src-en/data/events_special_storage.xml.append:4757
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[@req=\"FR_LAB_ELEMAN_ABSORPTION\"]/text"
 msgstr ""
+"Добавлено: Поглощение температуры.\n"
+"\t\t[Снеговики теперь будут исцеляться от удушья, а лавамены - от огня. "
+"Однако их здоровье уменьшается вдвое]"
 
 #: src-en/data/events_special_storage.xml.append:4762
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[@req=\"FR_LAB_ELEMAN_MAINTENANCE\"]/text"
 msgstr ""
+"Добавлено: Тела, требующие особого ухода.\n"
+"\t\t[Снеговики и лавамены теперь будут занимать по 2 места в экипаже, но "
+"получат прибавку в 50% здоровья, 20% урона и 25% скорости передвижения и "
+"ремонта]"
 
 #: src-en/data/events_special_storage.xml.append:4767
 msgid ""
@@ -5867,32 +6114,32 @@ msgstr "Добавлено: Ничего"
 #: src-en/data/events_special_storage.xml.append:4771
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[5]/text"
-msgstr ""
+msgstr "Осн: Элементарная нестабильность. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4775
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[6]/text"
-msgstr ""
+msgstr "Осн: Элементарная нестабильность. [Цена: 45~]"
 
 #: src-en/data/events_special_storage.xml.append:4779
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[7]/text"
-msgstr ""
+msgstr "Осн: Поглощение температуры. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4783
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[8]/text"
-msgstr ""
+msgstr "Осн: Поглощение температуры. [Цена: 25~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:4787
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[9]/text"
-msgstr ""
+msgstr "Осн: Тела, требующие особого ухода. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4791
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[10]/text"
-msgstr ""
+msgstr "Осн: Тела, требующие особого ухода. [Цена: 5{, 5|]"
 
 #: src-en/data/events_special_storage.xml.append:4795
 msgid ""
@@ -5903,6 +6150,14 @@ msgstr "Вернуться."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN_UNSTABILITY\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Элементарная нестабильность.\n"
+"\t[Эффекты: Снеговики автоматически создают пробоины, а лавамены "
+"автоматически разжигают пожар, находясь на вражеском корабле, но при этом "
+"наносят только 50% урона экипажу]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу элементалей. Вы также не сможете "
+"деактивировать эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4806
 msgid ""
@@ -5928,11 +6183,18 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN_ABSORPTION\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Поглощение температуры.\n"
+"\t[Эффекты: Снеговики теперь будут исцеляться от удушья, а лавамены - от "
+"огня. Однако их здоровье уменьшается вдвое]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу элементалей. Вы также не сможете "
+"деактивировать эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4833
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN_ABSORPTION\"]/choice[1]/text"
-msgstr ""
+msgstr "Добавить модификацию. [Цена: 25~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:4835
 msgid ""
@@ -5953,11 +6215,19 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN_MAINTENANCE\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Тела, требующие особого ухода.\n"
+"\t[Эффекты: Снеговики и лавамены теперь будут занимать по 2 места в экипаже, "
+"но получат прибавку в 50% здоровья, 20% урона и 25% скорости передвижения и "
+"ремонта]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу элементалей. Вы также не сможете "
+"деактивировать эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4861
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN_MAINTENANCE\"]/choice[1]/text"
-msgstr ""
+msgstr "Добавить модификацию. [Цена: 5{, 5|]"
 
 #: src-en/data/events_special_storage.xml.append:4863
 msgid ""
@@ -5977,22 +6247,31 @@ msgstr "Неважно."
 #: src-en/data/events_special_storage.xml.append:4884
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/text"
-msgstr ""
+msgstr "Вы открыли лабораторное меню для: [СФЕРАКСЫ]"
 
 #: src-en/data/events_special_storage.xml.append:4886
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[@req=\"FR_LAB_SPHERAX_REFOCUSED\"]/text"
 msgstr ""
+"Добавлено: Перефокусировка энергии.\n"
+"\t\t[Сфераксы теряют способность к телепортации, но получают 100 "
+"дополнительного здоровья, +15% урона и +25% скорости саботажа]"
 
 #: src-en/data/events_special_storage.xml.append:4891
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[@req=\"FR_LAB_SPHERAX_BEHAVIOUR\"]/text"
 msgstr ""
+"Добавлено: Неагрессивное поведение.\n"
+"\t\t[Отсутствие сфераксов на вражеском корабле дает вашему сфераксу 2x "
+"скорость ремонта. Сфираксы на вражеском корабле наносят 0.5x урона]"
 
 #: src-en/data/events_special_storage.xml.append:4896
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[@req=\"FR_LAB_SPHERAX_ELETRONIC\"]/text"
 msgstr ""
+"Добавлено: Электронное превосходство.\n"
+"\t\t[Сфераксы теряют способность к саботажу, но автоматически взламывает "
+"двери на вражеском корабле и разблокирует их на вашем]"
 
 #: src-en/data/events_special_storage.xml.append:4901
 msgid ""
@@ -6002,32 +6281,32 @@ msgstr "Добавлено: Ничего"
 #: src-en/data/events_special_storage.xml.append:4905
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[5]/text"
-msgstr ""
+msgstr "Осн: Перефокусировка энергии. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4909
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[6]/text"
-msgstr ""
+msgstr "Осн: Перефокусировка энергии. [Цена: 55~]"
 
 #: src-en/data/events_special_storage.xml.append:4913
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[7]/text"
-msgstr ""
+msgstr "Осн: Неагрессивное поведение. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4917
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[8]/text"
-msgstr ""
+msgstr "Осн: Неагрессивное поведение. Цена: 30~, 2{]"
 
 #: src-en/data/events_special_storage.xml.append:4921
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[9]/text"
-msgstr ""
+msgstr "Осн: Электронное превосходство. [Улучшение уже установлено]"
 
 #: src-en/data/events_special_storage.xml.append:4925
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[10]/text"
-msgstr ""
+msgstr "Осн: Электронное превосходство. [Цена: 10|]"
 
 #: src-en/data/events_special_storage.xml.append:4929
 msgid ""
@@ -6038,11 +6317,18 @@ msgstr "Вернуться."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX_REFOCUSED\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Перефокусировка энергии.\n"
+"\t[Эффекты: Сфераксы теряют способность к телепортации, но получают 100 "
+"дополнительного здоровья, +15% урона и +25% скорости саботажа]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу сфераксов. Вы также не сможете деактивировать "
+"эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4940
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX_REFOCUSED\"]/choice[1]/text"
-msgstr ""
+msgstr "Добавить модификацию. [Цена: 55~]"
 
 #: src-en/data/events_special_storage.xml.append:4942
 msgid ""
@@ -6063,6 +6349,13 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX_BEHAVIOUR\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Неагрессивное поведение.\n"
+"\t[Эффекты: Отсутствие сфераксов на вражеском корабле дает вашему сфераксу "
+"2x скорость ремонта. Сфираксы на вражеском корабле наносят 0.5x урона]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу сфераксов. Вы также не сможете деактивировать "
+"эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4967
 msgid ""
@@ -6088,11 +6381,18 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX_ELETRONIC\"]/text"
 msgstr ""
+"Вы собираетесь установить модификацию Электронное превосходство.\n"
+"\t[Эффекты: Сфераксы теряют способность к саботажу, но автоматически "
+"взламывает двери на вражеском корабле и разблокирует их на вашем]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу сфераксов. Вы также не сможете деактивировать "
+"эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4995
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX_ELETRONIC\"]/choice[1]/text"
-msgstr ""
+msgstr "Добавить модификацию. [Цена: 10|]"
 
 #: src-en/data/events_special_storage.xml.append:4997
 msgid ""
@@ -6113,18 +6413,20 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_CRATE\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "Открыть ящик с модулями."
 
 #: src-en/data/events_special_storage.xml.append:5032
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_CRATE\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "Открыть ящик с модулями Мультивселенной."
 
 #: src-en/data/events_special_storage.xml.append:5040
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_STORAGE_CHECK_CRATE_AUGMENTS\"]/text"
 msgstr ""
+"Вы уверены, что хотите сделать это?\n"
+"\t[Даст любой полезный модуль и удалит ящик]"
 
 #: src-en/data/events_special_storage.xml.append:5043
 msgid ""
@@ -6145,6 +6447,8 @@ msgstr "Неважно, заняться чем-то еще."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_STORAGE_CHECK_CRATE_MULTIVERSE_AUGMENTS\"]/text"
 msgstr ""
+"Вы уверены, что хотите сделать это?\n"
+"\t[Даст любой модуль Мультивселенной и удалит ящик]"
 
 #: src-en/data/events_special_storage.xml.append:5060
 msgid ""
@@ -6165,306 +6469,428 @@ msgstr "Неважно, заняться чем-то еще."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/text"
 msgstr ""
+"Вы размышляете, какой экипаж принесет кораблю наибольшую пользу (более "
+"высокие ранги заменяют более низкие):"
 
 #: src-en/data/events_special_storage.xml.append:5084
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/text"
 msgstr ""
+"Покормить корабль человеком. 0/2 людей уже поглощен. \n"
+"\t\t\t[Следующий бонус: ваш экипаж получит +25% сопротивления опасностям]"
 
 #: src-en/data/events_special_storage.xml.append:5087
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5091
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5094
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5100
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/text"
 msgstr ""
+"Покормить корабль человеком. 1/2 людей уже поглощен. \n"
+"\t\t\t[Текущий бонус: ваш экипаж имеет +25% сопротивления опасностям]\n"
+"\t\t\t[Следующий бонус: ваш экипаж получит +50% сопротивления опасностям]"
 
 #: src-en/data/events_special_storage.xml.append:5104
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5109
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5112
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5118
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_HALF\"]/text"
 msgstr ""
+"Нет людей для поглощения. 1/2 людей уже поглощено.\n"
+"\t\t\t[Текущий бонус: ваш экипаж имеет +25% сопротивления опасностям]"
 
 #: src-en/data/events_special_storage.xml.append:5123
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_HUMAN_SACRIFICE_2\"]/text"
 msgstr ""
+"Корабль больше не нуждается в людях. \n"
+"\t\t\t[Текущий бонус: ваш экипаж имеет +50% устойчивости к опасностям]"
 
 #: src-en/data/events_special_storage.xml.append:5128
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_0\"]/text"
 msgstr ""
+"Покормить корабль энджи. 0/2 энджи уже поглощены. \n"
+"\t\t\t[Следующий бонус: ваши дроны получат +25% к скорости ремонта, саботажа "
+"и передвижения, а также +10% к урону и исцелению]"
 
 #: src-en/data/events_special_storage.xml.append:5131
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5135
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5138
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5144
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_1\"]/text"
 msgstr ""
+"Покормить корабль энджи. 1/2 энджи уже поглощены. \n"
+"\t\t\t[Текущий бонус: ваши дроны имеют +25% ремонта, саботажа и скорости "
+"передвижения, а также +10% урона и исцеления]\n"
+"\t\t\t[Следующий бонус: ваши дроны получат +50% ремонта, саботажа и скорости "
+"передвижения, а также +20% урона и исцеления]"
 
 #: src-en/data/events_special_storage.xml.append:5148
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5153
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5156
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5162
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_HALF\"]/text"
 msgstr ""
+"Нет энджи для поглощения. 1/2 энджи уже поглощены.\n"
+"\t\t\t[Текущий бонус: ваши дроны имеют +25% к скорости ремонта, саботажа и "
+"передвижения, а также +10% к урону и исцелению]"
 
 #: src-en/data/events_special_storage.xml.append:5167
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_ENGI_SACRIFICE_2\"]/text"
 msgstr ""
+"Корабль больше не нуждается в энджи. \n"
+"\t\t\t[Текущий бонус: ваши дроны имеют +50% к скорости ремонта, саботажа и "
+"передвижения, а также +20% к урону и исцелению]"
 
 #: src-en/data/events_special_storage.xml.append:5172
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_0\"]/text"
 msgstr ""
+"Покормить корабль валуном. 0/2 валунов уже поглощены. \n"
+"\t\t\t[Следующий бонус: ваш корабль будет иметь +10% сопротивления корпуса]"
 
 #: src-en/data/events_special_storage.xml.append:5175
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5179
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5182
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5188
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_1\"]/text"
 msgstr ""
+"Покормить корабль валуном. 1/2 валунов уже поглощены. \n"
+"\t\t\t[Текущий бонус: ваш корабль имеет +10% сопротивления корпуса]\n"
+"\t\t\t[Следующий бонус: ваш корабль будет иметь +20% сопротивления корпуса]"
 
 #: src-en/data/events_special_storage.xml.append:5192
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5197
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5200
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5206
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_HALF\"]/text"
 msgstr ""
+"Нет валунов для поглощения. 1/2 валунов уже поглощены.\n"
+"\t\t\t[Текущий бонус: ваш корабль имеет +10% сопротивления корпуса]"
 
 #: src-en/data/events_special_storage.xml.append:5211
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_ROCK_SACRIFICE_2\"]/text"
 msgstr ""
+"Корабль больше не нуждается в валунах. \n"
+"\t\t\t[Текущий бонус: ваш корабль имеет +20% сопротивления корпуса]"
 
 #: src-en/data/events_special_storage.xml.append:5216
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_0\"]/text"
 msgstr ""
+"Покормить корабль золтаном. 0/2 золтан уже поглощены. \n"
+"\t\t\t[Следующий бонус: ваш корабль будет иметь +20% ионного сопротивления]"
 
 #: src-en/data/events_special_storage.xml.append:5219
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5223
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5226
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5232
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_1\"]/text"
 msgstr ""
+"Покормить корабль золтаном. 1/2 золтан уже поглощены. \n"
+"\t\t\t[Текущий бонус: ваш корабль имеет +20% ионного сопротивления] \n"
+"\t\t\t[Следующий бонус: ваш корабль будет иметь +40% ионного сопротивления]"
 
 #: src-en/data/events_special_storage.xml.append:5236
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5241
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5244
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5250
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_HALF\"]/text"
 msgstr ""
+"Нет золтанов для поглощения. 1/2 золтан уже поглощены.\n"
+"\t\t\t[Текущий бонус: ваш корабль имеет +20% ионного сопротивления]"
 
 #: src-en/data/events_special_storage.xml.append:5255
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_ZOLTAN_SACRIFICE_2\"]/text"
 msgstr ""
+"Корабль больше не нуждается в золтанах. \n"
+"\t\t\t[Текущий бонус: ваш корабль имеет +40% ионного сопротивления]"
 
 #: src-en/data/events_special_storage.xml.append:5260
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_0\"]/text"
 msgstr ""
+"Покормить корабль богомолом. 0/2 богомолов уже поглощены. \n"
+"\t\t\t[Следующий бонус: ваш экипаж получает o2 масштабирование +10% скорости "
+"передвижения и +5% урона экипажа]"
 
 #: src-en/data/events_special_storage.xml.append:5263
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5267
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5270
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5276
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_1\"]/text"
 msgstr ""
+"Покормить корабль богомолом. 1/2 богомолов уже поглощены. \n"
+"\t\t\t[Текущий бонус: ваш экипаж имеет o2 масштабирование +10% скорости "
+"передвижения и +5% урона экипажа]\n"
+"\t\t\t[Следующий бонус: ваш экипаж будет иметь o2 масштабирование +20% "
+"скорости передвижения и +10% урона экипажа]"
 
 #: src-en/data/events_special_storage.xml.append:5280
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5285
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5288
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5294
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_HALF\"]/text"
 msgstr ""
+"Нет богомолов для поглощения. 1/2 богомолов уже поглощены.\n"
+"\t\t\t[Текущий бонус: ваш экипаж имеет o2 масштабирование +10% скорости "
+"передвижения и +5% урона экипажа]"
 
 #: src-en/data/events_special_storage.xml.append:5299
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_MANTIS_SACRIFICE_2\"]/text"
 msgstr ""
+"Корабль больше не нуждается в богомолах. \n"
+"\t\t\t[Текущий бонус: ваш экипаж имеет o2 масштабирование +20% скорости "
+"передвижения и +10% урона экипажа]"
 
 #: src-en/data/events_special_storage.xml.append:5304
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_0\"]/text"
 msgstr ""
+"Покормить корабль кристаллином. 0/2 кристаллина уже поглощены. \n"
+"\t\t\t[Следующий бонус: ваш корабль получает +20% шанс выстрелить осколком "
+"кристалла при попадании]"
 
 #: src-en/data/events_special_storage.xml.append:5307
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5311
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5314
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5320
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_1\"]/text"
 msgstr ""
+"Покормить корабль кристаллином. 1/2 кристаллина уже поглощены. \n"
+"\t\t\t[Текущий бонус: ваш корабль имеет +20% шанс выстрелить осколком "
+"кристалла при попадании в него]\n"
+"\t\t\t[Следующий бонус: ваш корабль будет иметь +40% шанс выстрелить "
+"осколком кристалла при попадании]"
 
 #: src-en/data/events_special_storage.xml.append:5324
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5329
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5332
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5338
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_HALF\"]/text"
 msgstr ""
+"Нет кристаллина для поглощения. 1/2 кристаллина уже поглощены.\n"
+"\t\t\t[Текущий бонус: ваш корабль имеет +20% шанс выстрелить осколком "
+"кристалла при попадании в него]"
 
 #: src-en/data/events_special_storage.xml.append:5343
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_CRYSTAL_SACRIFICE_2\"]/text"
 msgstr ""
+"Корабль больше не нуждается в кристаллинах. \n"
+"\t\t\t[Текущий бонус: ваш корабль имеет +40% к шансу выстрелить осколком "
+"кристалла при попадании в него]"
 
 #: src-en/data/events_special_storage.xml.append:5348
 msgid ""
@@ -6475,16 +6901,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5355
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5358
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5364
 msgid ""
@@ -6495,16 +6925,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5373
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5376
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5382
 msgid ""
@@ -6525,16 +6959,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5399
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5402
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5408
 msgid ""
@@ -6545,16 +6983,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5417
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5420
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5426
 msgid ""
@@ -6575,16 +7017,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5443
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5446
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5452
 msgid ""
@@ -6595,16 +7041,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5461
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5464
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5470
 msgid ""
@@ -6625,16 +7075,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5487
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5490
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5496
 msgid ""
@@ -6645,16 +7099,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5505
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5508
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5514
 msgid ""
@@ -6675,16 +7133,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5531
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5534
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5540
 msgid ""
@@ -6695,16 +7157,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5549
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5552
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5558
 msgid ""
@@ -6725,16 +7191,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LIZARD_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5575
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LIZARD_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5578
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LIZARD_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5584
 msgid ""
@@ -6745,16 +7215,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LIZARD_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5593
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LIZARD_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5596
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LIZARD_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5602
 msgid ""
@@ -6775,16 +7249,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_GHOST_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5619
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_GHOST_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5622
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_GHOST_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5628
 msgid ""
@@ -6795,16 +7273,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_GHOST_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5637
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_GHOST_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5640
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_GHOST_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5646
 msgid ""
@@ -6825,16 +7307,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_PONY_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5663
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_PONY_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5666
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_PONY_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5672
 msgid ""
@@ -6845,16 +7331,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_PONY_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5681
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_PONY_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5684
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_PONY_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5690
 msgid ""
@@ -6875,16 +7365,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MORPH_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5707
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MORPH_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5710
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MORPH_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5716
 msgid ""
@@ -6895,16 +7389,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MORPH_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5725
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MORPH_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5728
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MORPH_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5734
 msgid ""
@@ -6925,16 +7423,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SPIDER_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5751
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SPIDER_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5754
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SPIDER_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5760
 msgid ""
@@ -6945,16 +7447,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SPIDER_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5769
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SPIDER_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5772
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SPIDER_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5778
 msgid ""
@@ -6975,16 +7481,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SIREN_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5795
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SIREN_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5798
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SIREN_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5804
 msgid ""
@@ -6995,16 +7505,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SIREN_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5813
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SIREN_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5816
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SIREN_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5822
 msgid ""
@@ -7025,16 +7539,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_COGNITIVE_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5839
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_COGNITIVE_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5842
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_COGNITIVE_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5848
 msgid ""
@@ -7045,16 +7563,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_COGNITIVE_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5857
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_COGNITIVE_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5860
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_COGNITIVE_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5866
 msgid ""
@@ -7075,16 +7597,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OBELISK_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5883
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OBELISK_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5886
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OBELISK_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5892
 msgid ""
@@ -7095,16 +7621,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OBELISK_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5901
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OBELISK_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5904
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OBELISK_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5910
 msgid ""
@@ -7125,16 +7655,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OSMIAN_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5927
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OSMIAN_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5930
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OSMIAN_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5936
 msgid ""
@@ -7145,16 +7679,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OSMIAN_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5945
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OSMIAN_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5948
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OSMIAN_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5954
 msgid ""
@@ -7175,16 +7713,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SALT_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5971
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SALT_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5974
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SALT_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5980
 msgid ""
@@ -7195,16 +7737,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SALT_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:5989
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SALT_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:5992
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SALT_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5998
 msgid ""
@@ -7225,16 +7771,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SNOWMAN_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:6015
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SNOWMAN_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:6018
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SNOWMAN_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово... з а  ч т о"
 
 #: src-en/data/events_special_storage.xml.append:6024
 msgid ""
@@ -7245,16 +7795,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SNOWMAN_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:6033
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SNOWMAN_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:6036
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SNOWMAN_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово... Они был вашими друзьями!"
 
 #: src-en/data/events_special_storage.xml.append:6042
 msgid ""
@@ -7275,16 +7829,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_AIAVATAR_SACRIFICE_0\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:6059
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_AIAVATAR_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:6062
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_AIAVATAR_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:6068
 msgid ""
@@ -7295,16 +7853,20 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_AIAVATAR_SACRIFICE_1\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
+"боль, но очень надеетесь, что нет."
 
 #: src-en/data/events_special_storage.xml.append:6077
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_AIAVATAR_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
+"душу."
 
 #: src-en/data/events_special_storage.xml.append:6080
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_AIAVATAR_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:6086
 msgid ""
@@ -9288,6 +9850,8 @@ msgstr "Перейти к битве!"
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_ELECTROMAGNETIC_ARM\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr ""
+"[Ограничивает сенсоры до 0 единиц] Снижает точность противника на 10% с "
+"помощью Аварийного генератора."
 
 #: src-en/data/events_special_storage.xml.append:7750
 msgid ""
@@ -9372,6 +9936,9 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_WEAPON_ARM\"]/choice[@req=\"FR_REQUIREMENT_NEXUS_ARM_POWER_BACKUP_OK\"]/text"
 msgstr ""
+"[-5 реактор] Выводит из строя случайное орудие противника с помощью "
+"Аварийного генератора. Также есть 10% шанс получить 10 единиц лома за каждую "
+"единицу энергии, которая требуется выведенному из строя орудию."
 
 #: src-en/data/events_special_storage.xml.append:7825
 msgid ""
@@ -9387,6 +9954,10 @@ msgstr "Перейти к битве!"
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_WEAPON_ARM\"]/choice[@req=\"FR_REQUIREMENT_NEXUS_ARM_POWER_BACKUP_FAILED\"]/text"
 msgstr ""
+"Недостаточно мощности реактора [[-5 реактор]] Выводит из строя случайное "
+"орудие с противника, используя Аварийный генератор. Также есть 10% шанс "
+"получить 10 единиц лома за каждую единицу энергии, которая требуется "
+"выведенному из строя орудию]"
 
 #: src-en/data/events_special_storage.xml.append:7838
 msgid ""
@@ -9466,7 +10037,7 @@ msgstr ""
 #: src-en/data/events_special_storage.xml.append:7913
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_UNINSTALL\"]/choice[@req=\"FR_NEXUS_ARM_WEAPON\"]/text"
-msgstr ""
+msgstr "Демонтировать оружие расчленяющий кран."
 
 #: src-en/data/events_special_storage.xml.append:7917
 msgid ""
@@ -9641,6 +10212,11 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT_RAM\"]/text"
 msgstr ""
+"Вы собираетесь установить улучшение Неистовый таран.\n"
+"[Эффекты: Перед боем вы можете выбрать систему для тарана, нанося 2 урона "
+"корпусу и этой системе, а также создавая пробоину. Такой удар также нанесет "
+"1 урон вашей версии той же системы и вашему корпусу. Игнорирует "
+"сопротивления]"
 
 #: src-en/data/events_special_storage.xml.append:8056
 msgid ""
