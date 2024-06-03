@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-03 17:01+0000\n"
-"Last-Translator: Роман <aleev1414@gmail.com>\n"
+"PO-Revision-Date: 2024-06-04 17:51+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datahyperspace-xml-append/ru/>\n"
 "Language: ru\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/hyperspace.xml.append:100
 msgid ""
@@ -882,8 +882,8 @@ msgid ""
 "append:race[@name=\"fr_reborn_g\"]/powerEffect/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:30с ДЛИТЕЛЬНОСТЬ:10с]\n"
-"\t\tСтановится полностью устойчивым к урону на 10 секунд, но теряет 80% "
-"урона, который наносит экипажу.\n"
+"\t\tСтановится полностью устойчивой к урону на 10 секунд, но теряет 80% "
+"урона в бою.\n"
 "\t\t\n"
 "\t\tСрабатывает, только если в отсеке находится враждебный экипаж."
 
@@ -1028,7 +1028,7 @@ msgid ""
 "append:race[@name=\"fr_reformed_smoke\"]/powerEffect/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:15с -35ОЗ]\n"
-"\t\t\tБлокирует занятый отсек на 12 секунд, не позволяя экипажу перемещаться "
+"\t\t\tЗапирает занятый отсек на 12 секунд, не позволяя экипажу перемещаться "
 "в нем. Повышает урон от дальнобойных атак до 3x, но снижает урон от диверсий "
 "на 50% на 10 секунд.\n"
 "\t\t\n"
@@ -1535,7 +1535,7 @@ msgid ""
 "append:race[@name=\"fr_ghost_ruwen\"]/powerEffect[2]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:28с  ДЛИТЕЛЬНОСТЬ:12с]\n"
-"\t\t\t\tБлокирует отсек и дает следующие эффекты:\n"
+"\t\t\t\tЗапирает отсек и дает следующие эффекты:\n"
 "\t\t\t\t-Регенерация здоровья 3 ОЗ/с\n"
 "\t\t\t\t-Получает 0.5x урона в бою с экипажем\n"
 "\t\t\t\t-Ближайший экипаж получают свойства игнорировать двери\n"
@@ -3368,7 +3368,7 @@ msgstr "Хотите еще?"
 #: src-en/data/hyperspace.xml.append:21306
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SLIMER\"]/description"
-msgstr "Победите явление Слимера и получите пушку для запуска туманных бомб."
+msgstr "Победите явление Слимера и получите Пушку для запуска туманных бомб."
 
 #: src-en/data/hyperspace.xml.append:21307
 msgid ""
@@ -3388,7 +3388,7 @@ msgstr "Ионная нестабильность"
 #: src-en/data/hyperspace.xml.append:21314
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PHYS\"]/description"
-msgstr "Победите явление Физа и получите точечное ионное орудие."
+msgstr "Победите явление Физа и получите Точечное ионное орудие."
 
 #: src-en/data/hyperspace.xml.append:21315
 msgid ""
@@ -3408,7 +3408,7 @@ msgstr "Биологический Немезис"
 #: src-en/data/hyperspace.xml.append:21322
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_ALEENOR\"]/description"
-msgstr "Победите явление Алиеноры и получите лазерное световое анти-био орудие."
+msgstr "Победите явление Алиеноры и получите Лазерное световое анти-био орудие."
 
 #: src-en/data/hyperspace.xml.append:21323
 msgid ""
@@ -3428,7 +3428,7 @@ msgstr "Вечно замороженный"
 #: src-en/data/hyperspace.xml.append:21330
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_VIN\"]/description"
-msgstr "Победите явление Вина и получите замороживающее ракетное орудие."
+msgstr "Победите явление Вина и получите Замороживающее ракетное орудие."
 
 #: src-en/data/hyperspace.xml.append:21331
 msgid ""
@@ -3448,7 +3448,7 @@ msgstr "Нежелательный участник"
 #: src-en/data/hyperspace.xml.append:21338
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CLEO\"]/description"
-msgstr "Победите явление Клео и получите призрачного Размножающегося дрона."
+msgstr "Победите явление Клео и получите Призрачного размножающегося дрона."
 
 #: src-en/data/hyperspace.xml.append:21339
 msgid ""
@@ -3488,7 +3488,7 @@ msgstr "Бесконечные кошмары"
 #: src-en/data/hyperspace.xml.append:21354
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_G\"]/description"
-msgstr "Победите явление Ж и получите эрозионное лучевое орудие."
+msgstr "Победите явление Ж и получите Эрозионное лучевое орудие."
 
 #: src-en/data/hyperspace.xml.append:21355
 msgid ""
