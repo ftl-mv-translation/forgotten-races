@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-03 17:01+0000\n"
-"Last-Translator: Роман <aleev1414@gmail.com>\n"
+"PO-Revision-Date: 2024-06-04 17:51+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datablueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/blueprints.xml.append:11
 msgid ""
@@ -892,11 +892,13 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghostly_battledrone_2\"]/desc"
 msgstr ""
+"Механизм, состоящий из чистых душ и энергии, медленный, но очень прочный и "
+"способный наносить большие повреждения."
 
 #: src-en/data/blueprints.xml.append:387
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghostly_battledrone_2\"]/title"
-msgstr ""
+msgstr "Призрачный боевой дрон мод. II"
 
 #: src-en/data/blueprints.xml.append:388
 msgid ""
@@ -907,38 +909,48 @@ msgstr "G. Battle. II"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghostly_battledrone_2\"]/powerList/power[1]"
 msgstr ""
+"250 максимального здоровья, 0.5x скорость передвижения, невосприимчив к "
+"опасностям. Наносит 2x урона в бою."
 
 #: src-en/data/blueprints.xml.append:394
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghostly_battledrone_2\"]/powerList/power[2]"
-msgstr ""
+msgstr "Саботирует с половинной скоростью."
 
 #: src-en/data/blueprints.xml.append:399
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_specter\"]/desc"
 msgstr ""
+"Душа умершего, возвращенная к жизни с помощью зловещей некромантии. Не "
+"волнуйтесь, она не способна ничего чувствовать."
 
 #: src-en/data/blueprints.xml.append:400
+#, fuzzy
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_specter\"]/title"
-msgstr ""
+msgstr "Неупокоенный призрак"
 
 #: src-en/data/blueprints.xml.append:401
+#, fuzzy
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_specter\"]/short"
-msgstr "Specter"
+msgstr "Призрак"
 
 #: src-en/data/blueprints.xml.append:406
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_specter\"]/powerList/power[1]"
 msgstr ""
+"Невосприимчив к опасностям и оглушению. Не может быть клонирован, исцелен "
+"или воскрешен."
 
 #: src-en/data/blueprints.xml.append:407
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_specter\"]/powerList/power[2]"
 msgstr ""
+"Способен проходить сквозь двери и передвигается со скоростью 1.5x. Не "
+"занимает слот экипажа."
 
 #: src-en/data/blueprints.xml.append:412
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_snowman_smart\"]/desc"
-msgstr ""
+msgstr "Бррр. Теперь с разумом."
 
 #: src-en/data/blueprints.xml.append:413
 msgid ""
@@ -953,35 +965,41 @@ msgstr "Умный снеговик"
 #: src-en/data/blueprints.xml.append:419
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_snowman_smart\"]/powerList/power[1]"
-msgstr ""
+msgstr "1.5x скорость лечения, 0.7x скорость клонирования"
 
 #: src-en/data/blueprints.xml.append:420
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_snowman_smart\"]/powerList/power[2]"
-msgstr ""
+msgstr "Получает 10x урона от огня."
 
 #: src-en/data/blueprints.xml.append:421
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_snowman_smart\"]/powerList/power[3]"
 msgstr ""
+"0.5х урона в дальнем бою и 1.5х урона в ближнем бою. Быстрая атака в ближнем "
+"бою."
 
 #: src-en/data/blueprints.xml.append:422
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_snowman_smart\"]/powerList/power[4]"
-msgstr ""
+msgstr "Получает 0,7х урона от всех членов экипажа, ослабленных удушьем."
 
 #: src-en/data/blueprints.xml.append:423
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_snowman_smart\"]/powerList/power[5]"
 msgstr ""
+"Не может задохнуться, 0.7x скорость передвижения, 1.3х скорость ремонта."
 
 #: src-en/data/blueprints.xml.append:428
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_lavaman\"]/desc"
 msgstr ""
+"Малоизвестные двоюродные братья снеговиков, лавамены на самом деле очень "
+"дружелюбные. К сожалению, высокая температура их тела не позволяет им "
+"заводить друзей."
 
 #: src-en/data/blueprints.xml.append:429
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_lavaman\"]/title"
-msgstr ""
+msgstr "Лавамен"
 
 #: src-en/data/blueprints.xml.append:430
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_lavaman\"]/short"
@@ -990,37 +1008,45 @@ msgstr "Lavaman"
 #: src-en/data/blueprints.xml.append:435
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_lavaman\"]/powerList/power[1]"
-msgstr ""
+msgstr "0.7x скорость лечения, 1.5х скорость клонирования"
 
 #: src-en/data/blueprints.xml.append:436
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_lavaman\"]/powerList/power[2]"
-msgstr ""
+msgstr "Получает 10х урон от удушья."
 
 #: src-en/data/blueprints.xml.append:437
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_lavaman\"]/powerList/power[3]"
 msgstr ""
+"0.5х урона в ближнем бою и 1.5х урона в дальнем бою. Быстрая атака в ближнем "
+"бою."
 
 #: src-en/data/blueprints.xml.append:438
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_lavaman\"]/powerList/power[4]"
-msgstr ""
+msgstr "Наносит 1.5х урона любому экипажу, ослабленному огнем."
 
 #: src-en/data/blueprints.xml.append:439
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_lavaman\"]/powerList/power[5]"
 msgstr ""
+"Не может быть сожжен. 1.3x скорость передвижения и 0.7х скорость ремонта."
 
 #: src-en/data/blueprints.xml.append:444
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_leah_legion\"]/desc"
 msgstr ""
+"Печально известная Мастер Лучей и ваш давний заклятый враг, теперь с "
+"оборудованием нового поколения.\n"
+"\t\t\n"
+"\t\tУнаследованные показатели Легионера: повышенная устойчивость к удушью и "
+"огню, обучена навыками 2 ур."
 
 #: src-en/data/blueprints.xml.append:448
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_leah_legion\"]/title"
-msgstr ""
+msgstr "Луч Легионера"
 
 #: src-en/data/blueprints.xml.append:449
 msgid ""
@@ -1030,30 +1056,42 @@ msgstr "Beam Legion"
 #: src-en/data/blueprints.xml.append:452
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_leah_legion\"]/powerList/power[1]"
-msgstr ""
+msgstr "Теперь она может представлять реальную угрозу."
 
 #: src-en/data/blueprints.xml.append:453
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_leah_legion\"]/powerList/power[2]"
 msgstr ""
+"Перемещается с помощью телепортации и может телепортироваться на вражеский "
+"корабль напрямую."
 
 #: src-en/data/blueprints.xml.append:454
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_leah_legion\"]/powerList/power[3]"
-msgstr ""
+msgstr "Продвинутые бластеры наносят ей 2х урона в дальнем бою."
 
 #: src-en/data/blueprints.xml.append:455
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_leah_legion\"]/powerList/power[4]"
-msgstr ""
+msgstr "Из-за отсутствия очень надежной брони она получает 1,2х урона."
 
 #: src-en/data/blueprints.xml.append:462
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/desc"
 msgstr ""
+"Блестящая представительница древнего рода по имени Ж, которая потеряла "
+"рассудок, пытаясь оживить своего умершего друга.\n"
+"\t\n"
+"\tУнаследованные характеристики призрака-бродяги: обладает возможностью "
+"проходить сквозь двери, подвержена влиянию улучшений лаборатории для "
+"призраков-бродяг.\n"
+"\t\n"
+"\tУнаследованные характеристики обелиска-Дворянина: 0.75x скорость "
+"передвижения, 300 максимального здоровья, 2x урон в бою, 0.05х скорость "
+"ремонта и тушения пожаров, подвержена улучшениям в лаборатории для обелисков."
 
 #: src-en/data/blueprints.xml.append:467
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/title"
-msgstr ""
+msgstr "Некротический дворянин"
 
 #: src-en/data/blueprints.xml.append:468
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/short"
@@ -1063,31 +1101,47 @@ msgstr "Necrolich"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/powerList/power[1]"
 msgstr ""
+"Периодически становится полностью устойчивой к урону, но теряет 80% урона в "
+"бою. \n"
+"\t\tСрабатывает только в том случае, если в отсеке находится враждебный "
+"экипаж."
 
 #: src-en/data/blueprints.xml.append:475
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/powerList/power[2]"
-msgstr ""
+msgstr "Вместо того чтобы получать урон от опасностей, немного исцеляется."
 
 #: src-en/data/blueprints.xml.append:476
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/powerList/power[3]"
 msgstr ""
+"Не позволяет всей вражеской нежити сражаться, находясь в одном отсеке с ней. "
+"Дружественная нежить, находясь в одном отсеке с ней, будет ремонтировать с "
+"удвоенной скоростью."
 
 #: src-en/data/blueprints.xml.append:477
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/powerList/power[4]"
-msgstr ""
+msgstr "Не может саботировать."
 
 #: src-en/data/blueprints.xml.append:482
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/desc"
 msgstr ""
+"Один из самых преданных Епископов, когда-либо назначавшихся на должность, "
+"этот грозная воительница погибла защищая от пожара яйца, находившиеся под ее "
+"опекой; удивительно умная, учитывая репутацию богомолов.\n"
+"\t\n"
+"\tУнаследованные характеристики призраков-бродяг: не получает урона от "
+"удушья, получает эффект от улучшений лаборатории для призраков-бродяг.\n"
+"\t\n"
+"\tУнаследованные характеристики богомолов-Епископов: 2.2х урон в бою, 0.07х "
+"скорость ремонта, затрагивается улучшениями лаборатории для богомолов."
 
 #: src-en/data/blueprints.xml.append:487
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/title"
-msgstr ""
+msgstr "Призрак-Епископ"
 
 #: src-en/data/blueprints.xml.append:488
 msgid ""
@@ -1098,24 +1152,41 @@ msgstr "Haunt Bishop"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/powerList/power[1]"
 msgstr ""
+"Периодически переходит в режим берсерка, который наносит урон всему "
+"вражескому экипажу и текущей системе.\n"
+"\t\tСрабатывает только на вражеском корабле."
 
 #: src-en/data/blueprints.xml.append:495
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/powerList/power[2]"
 msgstr ""
+"125 здоровья, получает в 10х урона от огня. Не может проходить сквозь двери "
+"без помощи своих феромонов."
 
 #: src-en/data/blueprints.xml.append:496
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/powerList/power[3]"
 msgstr ""
+"Вражеский экипаж, находящийся в одном отсеке с ней, теряет иммунитет к "
+"удушью, получает двойной урон от удушья и ухудшает свои характеристики."
 
 #: src-en/data/blueprints.xml.append:501
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/desc"
 msgstr ""
+"Ракушка, рожденная в результате катастрофического генетического "
+"эксперимента, в результате которого она впитала огромное количество ионной "
+"энергии. Ее существование - сплошная боль и тоска.\n"
+"\t\n"
+"\tУнаследованные характеристики призраков-бродяг: не получает урона от "
+"опасностей, обладает возможностью проходить сквозь двери, затрагивается "
+"улучшениями лаборатории для призраков.\n"
+"\t\n"
+"\tУнаследованные характеристики ракушек-Стражей: 0.7х получаемый урон в бою "
+"с экипажем, затрагивается улучшениями лаборатории для ракушек."
 
 #: src-en/data/blueprints.xml.append:506
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/title"
-msgstr ""
+msgstr "Призрак-Страж"
 
 #: src-en/data/blueprints.xml.append:507
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/short"
@@ -1125,29 +1196,44 @@ msgstr "Haunt Guardian"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/powerList/power[1]"
 msgstr ""
+"Периодически ионизирует систему на 5 ионных повреждений и оглушает всех, кто "
+"находится в отсеке. Кроме того, полностью ремонтирует системы в отсеке, в "
+"котором находится.\n"
+"\t\tСрабатывает только в отсеках с системами."
 
 #: src-en/data/blueprints.xml.append:514
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/powerList/power[2]"
-msgstr ""
+msgstr "150 здоровья, 2х скорость передвижения. Не может быть оглушена."
 
 #: src-en/data/blueprints.xml.append:515
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/powerList/power[3]"
-msgstr ""
+msgstr "Не может нормально ремонтировать системы."
 
 #: src-en/data/blueprints.xml.append:516
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/powerList/power[4]"
-msgstr ""
+msgstr "Обеспечивает 3 мощности системе, в отсеке которой находится"
 
 #: src-en/data/blueprints.xml.append:521
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/desc"
 msgstr ""
+"Бывший ас МФК, который был замучен до смерти своим же союзником. Это событие "
+"вызвало у него невероятную злобу ко всем живым существам, и он поклялся "
+"никогда больше не работать ни с кем из них. Теперь он полагается только на "
+"дронов и доверяет только им.\n"
+"\t\n"
+"\tУнаследованные характеристики призраков-бродяг: не получает урона от "
+"опасностей, обладает возможностью проходить сквозь двери, затрагивается "
+"улучшениями лаборатории для призраков-бродяг.\n"
+"\t\n"
+"\tУнаследованные характеристики человека-аса МФК: наносит 2х урон в бою, "
+"начинает 2 ур. навыков, затрагивается улучшениями лаборатории для людей."
 
 #: src-en/data/blueprints.xml.append:526
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/title"
-msgstr ""
+msgstr "МФК-призрак"
 
 #: src-en/data/blueprints.xml.append:527
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/short"
@@ -1157,31 +1243,48 @@ msgstr "Haunt MFK"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/powerList/power[1]"
 msgstr ""
+"Периодически ремонтирует всех дронов в одном отсеке с ним, исцеляя их на 10 "
+"здоровья в течение 10 секунд. \n"
+"\t\tСрабатывает только в том случае, если в отсеке находится дружественный "
+"экипаж."
 
 #: src-en/data/blueprints.xml.append:534
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/powerList/power[2]"
 msgstr ""
+"150 здоровья, 2х скорость саботажа, получает 0.5х урона в бою. 1.5х скорость "
+"передвижения."
 
 #: src-en/data/blueprints.xml.append:535
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/powerList/power[3]"
-msgstr ""
+msgstr "Не теряет навыков при клонировании. Невосприимчив к контролю разума."
 
 #: src-en/data/blueprints.xml.append:536
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/powerList/power[4]"
-msgstr ""
+msgstr "Получает 2.2x урона от дронов и наносит им 0.25x урона."
 
 #: src-en/data/blueprints.xml.append:541
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/desc"
 msgstr ""
+"Король слизней, чей ненасытный аппетит в конце концов привел к летальному "
+"случаю пищевого отравления, вызванного отвратительной партией "
+"галлюциногенных дынь.\n"
+"\t\n"
+"\tУнаследованные характеристики призраков-бродяг: не получает урона от "
+"опасностей, обладает возможностью проходить сквозь двери, затрагивается "
+"улучшениями лаборатории для призраков-бродяг.\n"
+"\t\n"
+"\tУнаследованные характеристики слизней-Диверсантов: телепатические "
+"способности, иммунитет к контролю разума, затрагивается улучшениями "
+"лаборатории для слизней."
 
 #: src-en/data/blueprints.xml.append:546
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/title"
-msgstr ""
+msgstr "Призрак-Диверсант"
 
 #: src-en/data/blueprints.xml.append:547
 msgid ""
@@ -1192,29 +1295,48 @@ msgstr "Haunt Saboteur"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[1]"
 msgstr ""
+"Периодически пожирает по кусочку других вражеских членов экипажа, если они "
+"находятся с ним в отсеке, исцеляя себя при этом. \n"
+"\t\tСрабатывает, только если в отсеке есть вражеский экипаж."
 
 #: src-en/data/blueprints.xml.append:554
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[2]"
 msgstr ""
+"Активная способность: Пожирает часть корабля, чтобы полностью исцелить себя, "
+"наносит 1 урон корпусу, создает на корабле пробоину и полностью уничтожает "
+"систему. Не может быть использована на борту вражеского корабля."
 
 #: src-en/data/blueprints.xml.append:555
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[3]"
-msgstr ""
+msgstr "150 здоровья, не может лечиться обычными способами."
 
 #: src-en/data/blueprints.xml.append:556
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[4]"
 msgstr ""
+"0.25х скорость передвижения, если находится на вражеском корабле. Наносит "
+"0.5х боевого урона."
 
 #: src-en/data/blueprints.xml.append:561
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/desc"
 msgstr ""
+"Брутальный валун-Паладин из далекого прошлого, который погиб по иронии "
+"судьбы, заживо расплавившись, когда его корабль влетел в звезду. Теперь он "
+"занимает должность главного силовика Ж.\n"
+"\t\n"
+"\tУнаследованные характеристики призраков-бродяг: не получает урона от "
+"опасностей, обладает возможностью проходить сквозь двери, затрагивается "
+"улучшениями лаборатории для призраков-бродяг.\n"
+"\t\n"
+"\tУнаследованные характеристики валуна-Паладина: лечится с удвоенной "
+"скоростью, скорость передвижения сильно снижена, невосприимчив к оглушению, "
+"затрагивается улучшениями лаборатории для валунов."
 
 #: src-en/data/blueprints.xml.append:566
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/title"
-msgstr ""
+msgstr "Призрак-Паладин"
 
 #: src-en/data/blueprints.xml.append:567
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/short"
@@ -1224,21 +1346,25 @@ msgstr "Haunt Paladin"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/powerList/power[1]"
 msgstr ""
+"Периодически разжигает огонь в текущем отсеке. \n"
+"\t\tСрабатывает только на вражеском корабле."
 
 #: src-en/data/blueprints.xml.append:574
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/powerList/power[2]"
-msgstr ""
+msgstr "350 здоровья, не может саботировать."
 
 #: src-en/data/blueprints.xml.append:575
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/powerList/power[3]"
-msgstr ""
+msgstr "Не может тушить пожары, но ремонтирует с 1.5х скоростью."
 
 #: src-en/data/blueprints.xml.append:576
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/powerList/power[4]"
 msgstr ""
+"Враги, находящиеся в одном отсеке с Вин, теряют сопротивление к огню и "
+"получают 2х урон от огня."
 
 #: src-en/data/blueprints.xml.append:581
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_zulu\"]/desc"
@@ -2111,6 +2237,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/powerList/power[2]"
 msgstr ""
+"Активная способность: Запирает комнату. На время блокировки у всех союзников "
+"в отсека время перезарядки способностей уменьшается на 80%."
 
 #: src-en/data/blueprints.xml.append:1001
 msgid ""
