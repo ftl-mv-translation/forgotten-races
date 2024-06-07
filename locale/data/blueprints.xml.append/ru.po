@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2024-06-07 18:36+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Роман <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datablueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -7641,6 +7641,9 @@ msgstr "Вихр. арт. гол."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VORTEX_HOLOGRAM\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 40] Открывает 3 разлома на вражеском корабле, вызывая "
+"неконтролируемые осмианские голограммы, которые сражаются в течение 10 "
+"секунд, а затем исчезают."
 
 #: src-en/data/blueprints.xml.append:11013
 msgid ""
@@ -7664,6 +7667,9 @@ msgstr "Вихр. луч. арт."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VORTEX_HEAL\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 40] Странный луч, проникает сквозь все щиты и наносит "
+"5 ионного урона, но при этом исцеляет экипаж на 3 ОЗ/с и ремонтирует корпус "
+"на 2 при попадании."
 
 #: src-en/data/blueprints.xml.append:11069
 msgid ""
@@ -7686,6 +7692,9 @@ msgstr "\"Ктулху\""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VISION\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 23] Залп из 5 мин накладывает на врагов экстремальное "
+"безумие, которое замораживает их на месте и лишает способности действовать в "
+"течение 10 секунд. Не может промахнуться."
 
 #: src-en/data/blueprints.xml.append:11115
 msgid ""
@@ -7709,6 +7718,9 @@ msgstr "€ Арт. Арбитр"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PRIME_PINK\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 25] Выпускает высокоразрушительный точечный луч, "
+"который начинается с 1 урона, но с каждым залпом урон может возрастать до "
+"бесконечности."
 
 #: src-en/data/blueprints.xml.append:11245
 msgid ""
@@ -7731,6 +7743,9 @@ msgstr "O's Arbiter Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JUDGES\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 60/Финальная перезарядка: 3] Этой артиллерии требуется "
+"много времени для выстрела, но после этого она будет стрелять очень быстро. "
+"Наносит 1 урон и проникает сквозь все щиты."
 
 #: src-en/data/blueprints.xml.append:11281
 msgid ""
@@ -7753,6 +7768,9 @@ msgstr "Fed Beam Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ZOLTAN\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 55] Длинный луч, наносящий 2 урона, проникает сквозь 2 "
+"щита и 20% шанс пожара. Цепь повышает 0.5 урона за каждый залп, максимум до "
+"4 урона."
 
 #: src-en/data/blueprints.xml.append:11317
 msgid ""
@@ -7801,8 +7819,8 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_HUMAN\"]/desc"
 msgstr ""
 "[Базовая перезарядка: 50] Тяжелый лазер, который совершает 2 выстрела, "
-"наносящий 3 урона и пробивающий 1 щит каждый. Цепь увеличивает урон на 0.5 а "
-"каждый выстрел до до 5 урона."
+"наносящий 3 урона и проникающий сквозь 1 щит каждый. Цепь увеличивает урон "
+"на 0.5 за каждый выстрел до 5 урона."
 
 #: src-en/data/blueprints.xml.append:11396
 msgid ""
@@ -7825,6 +7843,9 @@ msgstr "Fed Phase Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ENGI\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 45] Фазер, наносит 3 ионных и 2 системных урона, "
+"проникает сквозь все щиты, всегда вызывает пожар. Цепь повышает от 0.5 до 5 "
+"ионного урона."
 
 #: src-en/data/blueprints.xml.append:11437
 msgid ""
@@ -7847,6 +7868,9 @@ msgstr "Jerry Laser Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_LASER\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 25] 4 лазерных выстрела, 4 урона по системам, экипаж "
+"не из Вентворта не может сражаться, а члены экипажа Вентворта исцеляются на "
+"5 секунд при попадании."
 
 #: src-en/data/blueprints.xml.append:11486
 msgid ""
@@ -7869,6 +7893,9 @@ msgstr "Jerry Miss. Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_MISSILE\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 35] 3 ракетных выстрела, 3 урона по системам, экипаж "
+"не из Вентворта не может сражаться, а члены экипажа Вентворта получают "
+"усиление и лечение на 10 секунд при попадании."
 
 #: src-en/data/blueprints.xml.append:11561
 msgid ""
@@ -7891,6 +7918,8 @@ msgstr "Jerry Beam Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_BEAM\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 30] 2 противокорпусных урона лучом, экипаж не из "
+"Вентворта не может сражаться и получает сильное ослабление на 10 секунд."
 
 #: src-en/data/blueprints.xml.append:11671
 msgid ""
@@ -7913,6 +7942,9 @@ msgstr "Jerry Ant. Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_ANTIMATTER\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 20] 3 ионных выстрела, 1 ионный урон, 1 урон корпусу и "
+"системам, точность 20%, экипаж не из Вентворта не может сражаться, а экипаж "
+"Вентворта исцеляется на 5 секунд при попадании."
 
 #: src-en/data/blueprints.xml.append:11757
 msgid ""
@@ -7936,6 +7968,8 @@ msgstr "Tully Laser Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_LASER\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 30] 4 лазерных выстрела, 2 урона и 60 урона экипажу, "
+"враги Федерации получают двойной урон по экипажу."
 
 #: src-en/data/blueprints.xml.append:11833
 msgid ""
@@ -7958,6 +7992,9 @@ msgstr "Tully Miss. Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_MISSILE\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 40] 3 ракетных выстрела, 2 урона корпусу, 5 урона "
+"системам и 75 урона экипажу, враги Федерации получают двойной урон по "
+"экипажу."
 
 #: src-en/data/blueprints.xml.append:11910
 msgid ""
@@ -7980,6 +8017,8 @@ msgstr "Tully Beam Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_BEAM\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 35] 1 лучевой урон, 30 урона экипажу, проникает сквозь "
+"все щиты, враги Федерации получают двойной урон по экипажу."
 
 #: src-en/data/blueprints.xml.append:11990
 msgid ""
@@ -8002,6 +8041,9 @@ msgstr "Tully Ener. Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_ENERGY\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 25] 3 энергетических выстрела, 1 урон корпусу и 2 "
+"ионного урона, 30 урона экипажу, враги Федерации получают двойной урон по "
+"экипажу."
 
 #: src-en/data/blueprints.xml.append:12061
 msgid ""
@@ -8024,6 +8066,9 @@ msgstr "Valentine"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_STEALTH\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 30] Высокотехнологичная ракетная артиллерия, которая "
+"воспроизводит собственные боеприпасы и сбивает системы наведения вражеских "
+"защитных дронов."
 
 #: src-en/data/blueprints.xml.append:12145
 msgid ""
@@ -8047,6 +8092,9 @@ msgstr "'Beset'"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_STEALTH_MINES\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 35] Артиллерия-миномет, стреляющий 5 минами-"
+"невидимками, которые не могут быть сбиты вражескими дронами. Каждая наносит "
+"1 урон корпусу."
 
 #: src-en/data/blueprints.xml.append:12184
 msgid ""
