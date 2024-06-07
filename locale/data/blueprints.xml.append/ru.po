@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-07 11:34+0000\n"
-"Last-Translator: Роман <aleev1414@gmail.com>\n"
+"PO-Revision-Date: 2024-06-07 18:36+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datablueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -828,12 +828,12 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:362
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_wither_hologram\"]/title"
-msgstr "Голограмма увядшего"
+msgstr "Голограмма Увядшего"
 
 #: src-en/data/blueprints.xml.append:363
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_wither_hologram\"]/short"
-msgstr "Голограмма увядшего"
+msgstr "Голограмма Увядшего"
 
 #: src-en/data/blueprints.xml.append:368
 msgid ""
@@ -1148,7 +1148,7 @@ msgstr ""
 
 #: src-en/data/blueprints.xml.append:506
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/title"
-msgstr "Призрак-Страж"
+msgstr "Призрак-Хранитель"
 
 #: src-en/data/blueprints.xml.append:507
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/short"
@@ -6047,14 +6047,13 @@ msgid ""
 msgstr "Рем. кристалл"
 
 #: src-en/data/blueprints.xml.append:7484
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SMOKE_PRO_HULL_CRYSTAL\"]/desc"
 msgstr ""
 "Этот странное кристаллический орудие вместо того, чтобы наносить урон "
 "корпусу врага, восстанавливает его, однако взамен оно наносит больше "
-"среднего урона по системам и экипажу. Попадания в пустые отсеки наносят урон"
-" корпусу в двойном размере."
+"среднего урона по системам и экипажу. Попадания по пустым отсекам удваивает "
+"ремонт корпуса."
 
 #: src-en/data/blueprints.xml.append:7485
 msgid ""
@@ -11544,32 +11543,35 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:16518
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX\"]/class"
-msgstr ""
+msgstr "Крейсер предтеч"
 
 #: src-en/data/blueprints.xml.append:16519
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX\"]/name"
-msgstr ""
+msgstr "Пси"
 
 #: src-en/data/blueprints.xml.append:16520
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX\"]/unlock"
-msgstr ""
+msgstr "Исследуйте руины забытой расы в центре всего."
 
 #: src-en/data/blueprints.xml.append:16521
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX\"]/desc"
 msgstr ""
+"Этот крейсер принадлежит расе, существовавшей еще до всех известных событий. "
+"Похоже, что ни одно из их оригинальных орудий не сохранилось, хотя у одного "
+"богача в Федерации была идеальная замена..."
 
 #: src-en/data/blueprints.xml.append:16594
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX_2\"]/class"
-msgstr ""
+msgstr "Крейсер предтеч"
 
 #: src-en/data/blueprints.xml.append:16595
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX_2\"]/name"
-msgstr ""
+msgstr "Новая Надежда"
 
 #: src-en/data/blueprints.xml.append:16596
 msgid ""
@@ -11580,16 +11582,19 @@ msgstr "Достигните сектора 5 на типе А, чтобы ра�
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX_2\"]/desc"
 msgstr ""
+"После долгого бюрократического процесса, сфераксы были интегрированы в "
+"Федерацию, и в качестве благодарности они создали специальную версию своего "
+"крейсера специально для нее."
 
 #: src-en/data/blueprints.xml.append:16675
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX_3\"]/class"
-msgstr ""
+msgstr "Крейсер предтеч"
 
 #: src-en/data/blueprints.xml.append:16676
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX_3\"]/name"
-msgstr ""
+msgstr "Совершенство"
 
 #: src-en/data/blueprints.xml.append:16677
 msgid ""
@@ -11602,116 +11607,143 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX_3\"]/desc"
 msgstr ""
+"Этот корабль сумел привести в рабочее состояние экипаж сфераксов, однако, к "
+"сожалению, планировка его отсеков делает его почти бесполезным для любого "
+"другого экипажа."
 
 #: src-en/data/blueprints.xml.append:16752
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED\"]/class"
-msgstr ""
+msgstr "Класс корабля \"Совершенный\""
 
 #: src-en/data/blueprints.xml.append:16753
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED\"]/name"
-msgstr ""
+msgstr "Совершенное Единство"
 
 #: src-en/data/blueprints.xml.append:16754
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED\"]/unlock"
 msgstr ""
+"Разблокируйте все корабли обелисков, включая крейсер Витэра и все варианты "
+"крейсеров Содружества и альт-крейсера Витэра."
 
 #: src-en/data/blueprints.xml.append:16755
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED\"]/desc"
 msgstr ""
+"Идеальный союз всех каст общества обелисков, оснащенный уникальной "
+"артиллерией и энергетическим щитом, сочетающим в себе силу каждой касты, "
+"этот корабль готов привести империю обелисков в новую эру."
 
 #: src-en/data/blueprints.xml.append:16829
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED_2\"]/class"
-msgstr ""
+msgstr "Класс корабля \"Совершенный\""
 
 #: src-en/data/blueprints.xml.append:16830
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED_2\"]/name"
-msgstr ""
+msgstr "Совершенное Слияние"
 
 #: src-en/data/blueprints.xml.append:16831
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED_2\"]/unlock"
 msgstr ""
+"Разблокируйте все корабли Возвышенных, включая крейсеры Помазанницы, МВ-"
+"ланиусов, Повышенных и Увядших."
 
 #: src-en/data/blueprints.xml.append:16832
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED_2\"]/desc"
 msgstr ""
+"Идеальный союз всех видов Возвышенных ланиусов, оснащенный уникальным "
+"покрытием, повышающим эффективность Возвышенных, этот корабль превосходит "
+"все остальные крейсера ланиусов."
 
 #: src-en/data/blueprints.xml.append:16907
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED_3\"]/class"
-msgstr ""
+msgstr "Класс корабля \"Совершенный\""
 
 #: src-en/data/blueprints.xml.append:16908
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED_3\"]/name"
-msgstr ""
+msgstr "Совершенный Контроль"
 
 #: src-en/data/blueprints.xml.append:16909
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED_3\"]/unlock"
-msgstr ""
+msgstr "Разблокируйте корабли Увядших и Хранителей Содружества."
 
 #: src-en/data/blueprints.xml.append:16910
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED_3\"]/desc"
 msgstr ""
+"Идеальный союз всех каст общества обелисков, оснащенный уникальным модулем, "
+"который позволяет всему экипажу быть управляемым, несмотря ни на что."
 
 #: src-en/data/blueprints.xml.append:16989
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BROKEN_COMMONWEALTH\"]/class"
-msgstr ""
+msgstr "Крейсер сломанного обелиска"
 
 #: src-en/data/blueprints.xml.append:16990
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BROKEN_COMMONWEALTH\"]/name"
-msgstr ""
+msgstr "Былая Слава"
 
 #: src-en/data/blueprints.xml.append:16991
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BROKEN_COMMONWEALTH\"]/unlock"
 msgstr ""
+"Разблокируйте крейсер типа В из линейки крейсеров обелисков, чтобы открыть "
+"этот корабль."
 
 #: src-en/data/blueprints.xml.append:16992
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BROKEN_COMMONWEALTH\"]/desc"
 msgstr ""
+"Когда-то на этом корабле служила третья группа обелисков, вымершая давным-"
+"давно во время межвидовой войны. Все, что осталось, - это странный немой "
+"когнитив, несколько старых дронов, обслуживающих корабль, а также зловещая "
+"туша мертвого обелиска. Похоже, что техника на этом корабле старая, даже "
+"старше, чем большинство технологий древних."
 
 #: src-en/data/blueprints.xml.append:17071
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH\"]/class"
-msgstr ""
+msgstr "Крейсер класса \"Содружество\""
 
 #: src-en/data/blueprints.xml.append:17072
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH\"]/name"
-msgstr ""
+msgstr "Восстание Машин"
 
 #: src-en/data/blueprints.xml.append:17073
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH\"]/unlock"
 msgstr ""
+"Примите окончательное решение у тела обелиска, находясь на борту крейсера "
+"Сломанного обелиска."
 
 #: src-en/data/blueprints.xml.append:17074
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH\"]/desc"
 msgstr ""
+"Корабль древних и его экипаж вернулись к своей былой славе благодаря силе "
+"Парагона. Используя технологию дронов и уникальные навыки ковки, эти "
+"обелиски наконец-то станут лучшими."
 
 #: src-en/data/blueprints.xml.append:17151
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_2\"]/class"
-msgstr ""
+msgstr "Крейсер класса \"Содружество\""
 
 #: src-en/data/blueprints.xml.append:17152
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_2\"]/name"
-msgstr ""
+msgstr "Опасность Дронов"
 
 #: src-en/data/blueprints.xml.append:17153
 msgid ""
@@ -11722,16 +11754,18 @@ msgstr "Достигните сектора 5 на типе А, чтобы ра�
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_2\"]/desc"
 msgstr ""
+"Артиллерия этого корабля совершенно уникальна: вместо того чтобы стрелять, "
+"она призывает дронов Содружества."
 
 #: src-en/data/blueprints.xml.append:17227
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_3\"]/class"
-msgstr ""
+msgstr "Крейсер класса \"Содружество\""
 
 #: src-en/data/blueprints.xml.append:17228
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_3\"]/name"
-msgstr ""
+msgstr "Ионфикация"
 
 #: src-en/data/blueprints.xml.append:17229
 msgid ""
@@ -11744,36 +11778,41 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_3\"]/desc"
 msgstr ""
+"Уникальные свойства этого корабля позволяют ионизировать любое нелучевое "
+"орудие, если оно уже имеет определенный уровень ионного или корпусного урона."
 
 #: src-en/data/blueprints.xml.append:17304
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ENHANCED\"]/class"
-msgstr ""
+msgstr "Крейсер Повышенных"
 
 #: src-en/data/blueprints.xml.append:17305
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ENHANCED\"]/name"
-msgstr ""
+msgstr "Запретный Змей"
 
 #: src-en/data/blueprints.xml.append:17306
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ENHANCED\"]/unlock"
-msgstr ""
+msgstr "Спасите последнего Повышенного от гибели враждебными Возвышенными."
 
 #: src-en/data/blueprints.xml.append:17307
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ENHANCED\"]/desc"
 msgstr ""
+"Эти Возвышенные были последними, кто смог полакомиться металлом, оставленным "
+"давно вымершей расой древних. Корабль оснащен слабыми системами, но их можно "
+"модернизировать разбирая корпус корабля."
 
 #: src-en/data/blueprints.xml.append:17380
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ENHANCED_2\"]/class"
-msgstr ""
+msgstr "Крейсер Повышенных"
 
 #: src-en/data/blueprints.xml.append:17381
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ENHANCED_2\"]/name"
-msgstr ""
+msgstr "Ионизирующая Тень"
 
 #: src-en/data/blueprints.xml.append:17382
 msgid ""
@@ -11784,16 +11823,19 @@ msgstr "Достигните сектора 5 на типе А, чтобы ра�
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ENHANCED_2\"]/desc"
 msgstr ""
+"Этот корабль специализируется на уничтожении систем с помощью маскировки до "
+"того, как противник откроет огонь, что позволяет вам получить больше "
+"преимуществ за счет своей обшивки."
 
 #: src-en/data/blueprints.xml.append:17457
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ENHANCED_3\"]/class"
-msgstr ""
+msgstr "Крейсер Повышенных"
 
 #: src-en/data/blueprints.xml.append:17458
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ENHANCED_3\"]/name"
-msgstr ""
+msgstr "Рискованная Награда"
 
 #: src-en/data/blueprints.xml.append:17459
 msgid ""
@@ -11806,36 +11848,50 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ENHANCED_3\"]/desc"
 msgstr ""
+"Этот корабль обладает отличным абордажным отрядом, но сильно отстает в "
+"обороне, имея лишь один Нагнетатель энергощита в качестве средства защиты от "
+"врагов.\n"
+"Однако у него есть дрон-ремонтник, который можно использовать как для "
+"защиты, так и для того, чтобы получить еще больше преимуществ от своего "
+"модуля."
 
 #: src-en/data/blueprints.xml.append:17536
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN\"]/class"
-msgstr ""
+msgstr "Крейсер Хранителей Содружества"
 
 #: src-en/data/blueprints.xml.append:17537
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN\"]/name"
-msgstr ""
+msgstr "Общий Протокол"
 
 #: src-en/data/blueprints.xml.append:17538
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN\"]/unlock"
 msgstr ""
+"Сумейте взломать беспилотник Содружества, чтобы он позволил вам использовать "
+"его кузницу в глубинах космоса дворян."
 
 #: src-en/data/blueprints.xml.append:17539
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN\"]/desc"
 msgstr ""
+"Это чудо техники обладает самой совершенной системой внутреннего ремонта, "
+"способной заделывать пробоины и тушить пожары с ошеломляющей скоростью, а "
+"также исцелять металлический єкипаж и наносить урон абордажникам.\n"
+"\n"
+"Однако за такую мощь приходится расплачиваться - невозможностью установить "
+"какие-либо двери или медицинскую систему."
 
 #: src-en/data/blueprints.xml.append:17600
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN_2\"]/class"
-msgstr ""
+msgstr "Крейсер Хранителей Содружества"
 
 #: src-en/data/blueprints.xml.append:17601
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN_2\"]/name"
-msgstr ""
+msgstr "Автоматизированное Доверие"
 
 #: src-en/data/blueprints.xml.append:17602
 msgid ""
@@ -11846,11 +11902,15 @@ msgstr "Достигните сектора 5 на типе А, чтобы ра�
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN_2\"]/desc"
 msgstr ""
+"Связь между ИИ корабля и когнитивами стала настолько глубокой, что когнитивы "
+"переложили все основные обязанности на ИИ, заблокировав большую часть "
+"корабля и предоставив авторемонтным системам поддерживать их в идеальном "
+"состоянии."
 
 #: src-en/data/blueprints.xml.append:17679
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN_3\"]/class"
-msgstr ""
+msgstr "Крейсер Хранителей Содружества"
 
 #: src-en/data/blueprints.xml.append:17680
 msgid ""
@@ -11868,36 +11928,42 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN_3\"]/desc"
 msgstr ""
+"На этом корабле нашли пристанище две группы роботов, которых создатели "
+"заперли на борту, чтобы они были для них лишь инструментами, но теперь они "
+"свободны и могут сами выбирать свой путь."
 
 #: src-en/data/blueprints.xml.append:17758
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ALT_WITHER\"]/class"
-msgstr ""
+msgstr "Альт-крейсер Витэра"
 
 #: src-en/data/blueprints.xml.append:17759
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ALT_WITHER\"]/name"
-msgstr ""
+msgstr "Приз Аэнвитэ"
 
 #: src-en/data/blueprints.xml.append:17760
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ALT_WITHER\"]/unlock"
-msgstr ""
+msgstr "Победите мутировавших ланиусов в столице Династии."
 
 #: src-en/data/blueprints.xml.append:17761
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ALT_WITHER\"]/desc"
 msgstr ""
+"Личный крейсер Аэнвитэ, имея в распоряжении много свободного времени, Витэр "
+"решил отправиться в путешествие по Мультивселенной в поисках таких же, как "
+"он, - оказалось, что Витэров там очень много."
 
 #: src-en/data/blueprints.xml.append:17832
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ALT_WITHER_2\"]/class"
-msgstr ""
+msgstr "Альт-крейсер Витэра"
 
 #: src-en/data/blueprints.xml.append:17833
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ALT_WITHER_2\"]/name"
-msgstr ""
+msgstr "Заслуженное Великолепие"
 
 #: src-en/data/blueprints.xml.append:17834
 msgid ""
@@ -11908,16 +11974,18 @@ msgstr "Достигните сектора 5 на типе А, чтобы ра�
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ALT_WITHER_2\"]/desc"
 msgstr ""
+"Веками откладывая деньги, Витэр наконец смог позволить себе корабль своей "
+"мечты, сделанный из чистого золота!"
 
 #: src-en/data/blueprints.xml.append:17909
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ALT_WITHER_3\"]/class"
-msgstr ""
+msgstr "Альт-крейсер Витэра"
 
 #: src-en/data/blueprints.xml.append:17910
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ALT_WITHER_3\"]/name"
-msgstr ""
+msgstr "Тень"
 
 #: src-en/data/blueprints.xml.append:17911
 msgid ""
@@ -11930,36 +11998,45 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ALT_WITHER_3\"]/desc"
 msgstr ""
+"После того как он случайно попал в Нексус и победил Первого в бою, Витэру "
+"разрешили самому стать странствующим торговцем, да еще и со своим "
+"собственным улучшенным оружием."
 
 #: src-en/data/blueprints.xml.append:17985
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHER_GUARDIAN\"]/class"
-msgstr ""
+msgstr "Прототип крейсера Хранителей"
 
 #: src-en/data/blueprints.xml.append:17986
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHER_GUARDIAN\"]/name"
-msgstr ""
+msgstr "Кровосток Прото-Тек"
 
 #: src-en/data/blueprints.xml.append:17987
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHER_GUARDIAN\"]/unlock"
 msgstr ""
+"Чтобы разблокировать этот корабль, обратитесь за советом к инженеру "
+"обелисков по поводу определенного артефакта."
 
 #: src-en/data/blueprints.xml.append:17988
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHER_GUARDIAN\"]/desc"
 msgstr ""
+"Этот корабль был гордостью и радостью знаменитого бывшего инженера "
+"подразделения когнитивов Империи обелисков Аэнвитэ. Он оснащен уникальной "
+"версией эфирной кузницы, которая производит его высокотехнологичные "
+"прототипы оружия."
 
 #: src-en/data/blueprints.xml.append:18065
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHER_GUARDIAN_2\"]/class"
-msgstr ""
+msgstr "Прототип крейсера Хранителей"
 
 #: src-en/data/blueprints.xml.append:18066
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHER_GUARDIAN_2\"]/name"
-msgstr ""
+msgstr "Механический Хаос"
 
 #: src-en/data/blueprints.xml.append:18067
 msgid ""
@@ -11970,16 +12047,18 @@ msgstr "Достигните сектора 5 на типе А, чтобы ра�
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHER_GUARDIAN_2\"]/desc"
 msgstr ""
+"Этот корабль предназначен для разрушения вражеских кораблей с помощью "
+"мощного дрона."
 
 #: src-en/data/blueprints.xml.append:18144
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHER_GUARDIAN_3\"]/class"
-msgstr ""
+msgstr "Прототип крейсера Хранителей"
 
 #: src-en/data/blueprints.xml.append:18145
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHER_GUARDIAN_3\"]/name"
-msgstr ""
+msgstr "Оксюморон"
 
 #: src-en/data/blueprints.xml.append:18146
 msgid ""
@@ -11992,36 +12071,43 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHER_GUARDIAN_3\"]/desc"
 msgstr ""
+"Казалось бы, невозможное событие: автоматический корабль, захваченный "
+"Династией, и вместо того, чтобы быть разрушенным, он был переоборудован для "
+"использования их сильнейшими Альфами."
 
 #: src-en/data/blueprints.xml.append:18223
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHERED\"]/class"
-msgstr ""
+msgstr "Крейсер Увядших"
 
 #: src-en/data/blueprints.xml.append:18224
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHERED\"]/name"
-msgstr ""
+msgstr "Первозданный Саботаж"
 
 #: src-en/data/blueprints.xml.append:18225
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHERED\"]/unlock"
-msgstr ""
+msgstr "Приведите к Судьям странного желто-серого ланиуса."
 
 #: src-en/data/blueprints.xml.append:18226
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHERED\"]/desc"
 msgstr ""
+"Корабль из чертежей, подаренных вам вашим таинственным благодетелем.\n"
+"Основное внимание в этом корабле уделяется уничтожению вражеских орудий до "
+"того, как они нанесут слишком большой урон вашему корпусу, а ваша обшивка "
+"будет поглощать все повреждения систем, чтобы сохранять их работоспособность."
 
 #: src-en/data/blueprints.xml.append:18300
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHERED_2\"]/class"
-msgstr ""
+msgstr "Крейсер Увядших"
 
 #: src-en/data/blueprints.xml.append:18301
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHERED_2\"]/name"
-msgstr ""
+msgstr "Солнечное Ожидание"
 
 #: src-en/data/blueprints.xml.append:18302
 msgid ""
@@ -12032,16 +12118,19 @@ msgstr "Достигните сектора 5 на типе А, чтобы ра�
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHERED_2\"]/desc"
 msgstr ""
+"Этот корабль оснащен огромной пушкой, способной нанести серьезный урон всем "
+"кораблям, но, к сожалению, она не может пробить ни один щит, поэтому экипажу "
+"придется сначала уничтожить систему щитов противника."
 
 #: src-en/data/blueprints.xml.append:18377
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHERED_3\"]/class"
-msgstr ""
+msgstr "Крейсер Увядших"
 
 #: src-en/data/blueprints.xml.append:18378
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHERED_3\"]/name"
-msgstr ""
+msgstr "Нефритовые Узы"
 
 #: src-en/data/blueprints.xml.append:18379
 msgid ""
@@ -12054,36 +12143,45 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHERED_3\"]/desc"
 msgstr ""
+"Этот корабль полагается на свою кристаллическую обшивку, чтобы разрушить "
+"корпус противника, в то же время он может использовать свой абордажный "
+"отряд, чтобы систематически выводить из строя системы врага без особого "
+"сопротивления."
 
 #: src-en/data/blueprints.xml.append:18456
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER\"]/class"
-msgstr ""
+msgstr "Королевский крейсер \"Богомол\""
 
 #: src-en/data/blueprints.xml.append:18457
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER\"]/name"
-msgstr ""
+msgstr "Регина Аурея"
 
 #: src-en/data/blueprints.xml.append:18458
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER\"]/unlock"
 msgstr ""
+"Обратитесь к королеве богомолов за советом по поводу определенного "
+"артефакта, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:18459
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER\"]/desc"
 msgstr ""
+"Единственный и неповторимый личный крейсер королевы Лейконплииинакры, "
+"оснащенный феромонами, свойственными королеве, способными повысить ремонтные "
+"возможности всех, кто его использует."
 
 #: src-en/data/blueprints.xml.append:18530
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER_2\"]/class"
-msgstr ""
+msgstr "Королевский крейсер \"Богомол\""
 
 #: src-en/data/blueprints.xml.append:18531
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER_2\"]/name"
-msgstr ""
+msgstr "Сумерки"
 
 #: src-en/data/blueprints.xml.append:18532
 msgid ""
@@ -12094,16 +12192,19 @@ msgstr "Достигните сектора 5 на типе А, чтобы ра�
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER_2\"]/desc"
 msgstr ""
+"Женившись на королеве Лейконплииинакре, Каз решил переоборудовать ее старый "
+"крейсер в судно, которым могли бы гордиться и он, и она. Правда, ей не "
+"понравилась пиратская раскраска, которую он на него нанес."
 
 #: src-en/data/blueprints.xml.append:18605
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER_3\"]/class"
-msgstr ""
+msgstr "Королевский крейсер \"Богомол\""
 
 #: src-en/data/blueprints.xml.append:18606
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER_3\"]/name"
-msgstr ""
+msgstr "Сила Насекомых"
 
 #: src-en/data/blueprints.xml.append:18607
 msgid ""
@@ -12116,21 +12217,25 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER_3\"]/desc"
 msgstr ""
+"Корабль, символизирующий официальный союз между Свободными Богомолами и "
+"богомолами Улья, управляемый обоими лидерами и наполненный их феромонами."
 
 #: src-en/data/blueprints.xml.append:18685
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_GANA_CREWSER\"]/class"
-msgstr ""
+msgstr "Крейсер \"Архив Инк.\""
 
 #: src-en/data/blueprints.xml.append:18686
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_GANA_CREWSER\"]/name"
-msgstr ""
+msgstr "С.Е.Л.Ь.М.А."
 
 #: src-en/data/blueprints.xml.append:18687
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_GANA_CREWSER\"]/unlock"
 msgstr ""
+"Чтобы разблокировать этот корабль, обратитесь за советом к дрону из \"Архив "
+"Инк.\" по поводу определенного артефакта."
 
 #: src-en/data/blueprints.xml.append:18688
 msgid ""
