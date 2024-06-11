@@ -1,17 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-08 18:49+0000\n"
-"Last-Translator: Роман <aleev1414@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
-"dataevents_sector_showdownxmlappend/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/events_sector_showdown.xml.append:5
 msgid ""
@@ -25,8 +17,8 @@ msgid ""
 "append:choice/event/text"
 msgstr ""
 "Вы быстро приступаете к работе, разбирая Парагон, внутри которого находите "
-"небольшой энергетический шар, удивительно холодный на ощупь. Решив, что это, "
-"должно быть, источник энергии бомбы, вы осторожно открываете верхнюю часть "
+"небольшой энергетический шар, удивительно холодный на ощупь. Решив, что это,"
+" должно быть, источник энергии бомбы, вы осторожно открываете верхнюю часть "
 "куба сломанного обелиска и аккуратно вставляете шар внутрь."
 
 #: src-en/data/events_sector_showdown.xml.append:10
@@ -255,8 +247,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_sector_showdown.xml.append$//event[@name=\"FR_TRUE_VICTORY_CREW_GOZER\"]/text"
 msgstr ""
-"\"Молодец, малыш! Не стоит и говорить, что ты сдал экзамен с блеском! Теперь "
-"ты официально член семьи привидений! Добро пожаловать в семью, малыш!\""
+"\"Молодец, малыш! Не стоит и говорить, что ты сдал экзамен с блеском! Теперь"
+" ты официально член семьи привидений! Добро пожаловать в семью, малыш!\""
 
 #: src-en/data/events_sector_showdown.xml.append:139
 msgid ""
@@ -454,6 +446,12 @@ msgid ""
 "append:choice/event/choice/event/choice/event/text"
 msgstr "Затем Джерри оседлал Принца! \"Хорошо. Теперь я готов\"."
 
+#: src-en/data/events_sector_showdown.xml.append:286
+msgid ""
+"data/events_sector_showdown.xml.append$//mod:findName[@name=\"SHOWDOWN_JERRY\"]/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod-"
+"append:choice/event/choice/event/choice/event/crewMember"
+msgstr ""
+
 #: src-en/data/events_sector_showdown.xml.append:290
 msgid ""
 "data/events_sector_showdown.xml.append$//mod:findName[@name=\"SHOWDOWN_JERRY\"]/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod-"
@@ -510,6 +508,11 @@ msgstr ""
 "\t\t\t\t\t\t\t\"Я доверяю тебе, Джерри, пожалуйста, не дай мне совершить еще одну ошибку...\" Он обнимает Джерри, заставая адмирала врасплох. Наконец он поднимает глаза, встречая взгляд Талли, на лице которого играет мягкая улыбка. Он протягивает Вэнсу руку для рукопожатия, которую Вэнс пожимает после нескольких минут раздумий.\n"
 "\t\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\tПохоже, кровопролитие все же не понадобилось. Интересно, примет ли это Восстание или нет?"
+
+#: src-en/data/events_sector_showdown.xml.append:340
+msgid ""
+"data/events_sector_showdown.xml.append$//event[@name=\"FR_SHOWDOWN_TULLY_AND_JERRY\"]/choice/event/choice/event/choice/event/crewMember"
+msgstr ""
 
 #: src-en/data/events_sector_showdown.xml.append:342
 msgid ""
@@ -605,6 +608,11 @@ msgstr ""
 "теперь осталось сделать только одно\". Он достает огромную пушку Гатлинга. "
 "Вы не знаете, откуда он ее взял, но у вас нет времени на расспросы."
 
+#: src-en/data/events_sector_showdown.xml.append:382
+msgid ""
+"data/events_sector_showdown.xml.append$//event[@name=\"FR_SHOWDOWN_TWIST\"]/choice/event/choice/event/choice/event/choice/event/choice/event/crewMember"
+msgstr ""
+
 #: src-en/data/events_sector_showdown.xml.append:385
 msgid ""
 "data/events_sector_showdown.xml.append$//event[@name=\"FR_SHOWDOWN_TWIST\"]/choice/event/choice/event/choice/event/choice/event/choice/event/choice[@req=\"pony_tamed\""
@@ -667,6 +675,11 @@ msgid ""
 "data/events_sector_showdown.xml.append$//event[@name=\"FR_SHOWDOWN_TWIST\"]/choice/event/choice/event/choice/event/choice/event/choice/event/choice[@req=\"ponyc\"]/event/choice/event/choice/event/text"
 msgstr "Затем Джерри садится на пони! \"Хорошо. Теперь я готов\"."
 
+#: src-en/data/events_sector_showdown.xml.append:414
+msgid ""
+"data/events_sector_showdown.xml.append$//event[@name=\"FR_SHOWDOWN_TWIST\"]/choice/event/choice/event/choice/event/choice/event/choice/event/choice[@req=\"ponyc\"]/event/choice/event/choice/event/crewMember"
+msgstr ""
+
 #: src-en/data/events_sector_showdown.xml.append:419
 msgid ""
 "data/events_sector_showdown.xml.append$//event[@name=\"FR_SHOWDOWN_TWIST\"]/choice/event/choice/event/choice/event/choice/event/choice/event/choice[@req=\"ponyc\"]/event/choice/event/choice/event/choice/text"
@@ -713,6 +726,11 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_sector_showdown.xml.append$//event[@name=\"FR_SHOWDOWN_TWIST\"]/choice/event/choice/event/choice/event/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/event/choice/event/choice/event/text"
 msgstr "Затем Джерри оседлал Принца! \"Хорошо. Теперь я готов\"."
+
+#: src-en/data/events_sector_showdown.xml.append:448
+msgid ""
+"data/events_sector_showdown.xml.append$//event[@name=\"FR_SHOWDOWN_TWIST\"]/choice/event/choice/event/choice/event/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/event/choice/event/choice/event/crewMember"
+msgstr ""
 
 #: src-en/data/events_sector_showdown.xml.append:452
 msgid ""
@@ -768,6 +786,12 @@ msgid ""
 "data/events_sector_showdown.xml.append$//event[@name=\"FR_SHOWDOWN_TWIST\"]/choice/event/choice/event/choice/event/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"1\"]/event/choice/event/choice/event/text"
 msgstr "Затем Джерри садится на пони! \"Хорошо. Теперь я готов\"."
+
+#: src-en/data/events_sector_showdown.xml.append:481
+msgid ""
+"data/events_sector_showdown.xml.append$//event[@name=\"FR_SHOWDOWN_TWIST\"]/choice/event/choice/event/choice/event/choice/event/choice/event/choice[@req=\"pony_tamed\""
+" and @lvl=\"1\"]/event/choice/event/choice/event/crewMember"
+msgstr ""
 
 #: src-en/data/events_sector_showdown.xml.append:485
 msgid ""

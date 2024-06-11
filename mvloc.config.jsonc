@@ -34,6 +34,10 @@
         "data/events_sector_droppoint.xml.append",
         "data/events_sector_coalition.xml.append",
         "data/events_sector_augmented.xml.append",
+		"data/sector_data.xml.append",
+		"data/events_sector_nexus.xml.append",
+		"data/events_sector_obelisk.xml.append",
+		"data/events_special_defeat.xml.append",
         "data/hyperspace.xml.append",
         "mod-appendix/metadata.xml"
     ],
@@ -74,6 +78,9 @@
         "//eventButton/inactiveTooltip",
         "//undiscoveredTooltip",
         "//visitedTooltip",
+		"//win/@text",
+		"//lose/@text",
+		"//crewMember",
 
         "//crewMember/@name",
         "//sectorDescription/nameList/name",

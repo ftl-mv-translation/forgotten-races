@@ -78,6 +78,12 @@ msgstr ""
 "first, let's tell Cyra to stand down.\" Jerry nods and the crew moves back "
 "to your cruiser with Jerry on your side."
 
+#: src-en/data/events_sector_jerry.xml.append:24
+msgid ""
+"data/events_sector_jerry.xml.append$//mod:findName[@name=\"JERRY_HOME_WIN\"]/mod-"
+"append:choice/event/choice/event/choice/event/choice/event/crewMember"
+msgstr "Jerry"
+
 #: src-en/data/events_sector_jerry.xml.append:39
 msgid ""
 "data/events_sector_jerry.xml.append$//mod:findName[@name=\"CYRA_JERRY\"]/mod-"
@@ -115,6 +121,12 @@ msgstr ""
 "it's been awfully boring around here anyways. Feel free to take the "
 "schematics of my old ship, it's of no use to me anymore.\""
 
+#: src-en/data/events_sector_jerry.xml.append:46
+msgid ""
+"data/events_sector_jerry.xml.append$//mod:findName[@name=\"CYRA_JERRY\"]/mod-"
+"append:choice/event/choice/event/crewMember"
+msgstr "Cyra"
+
 #: src-en/data/events_sector_jerry.xml.append:58
 msgid ""
 "data/events_sector_jerry.xml.append$//mod:findName[@name=\"DESTROYED_TOM\"]/mod-"
@@ -127,3 +139,8 @@ msgid ""
 msgstr ""
 "\"Holy shit it's Vance! It's an honor to be abord the same ship as you, sir."
 " If you plan on helping the federation then I will gladly join you!\""
+
+#: src-en/data/events_sector_jerry.xml.append:65
+msgid ""
+"data/events_sector_jerry.xml.append$//event[@name=\"FR_DESTROYED_TOM_VANCE\"]/crewMember"
+msgstr "Tom"

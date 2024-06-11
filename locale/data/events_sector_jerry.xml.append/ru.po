@@ -1,27 +1,19 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-09 16:20+0000\n"
-"Last-Translator: Роман <aleev1414@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
-"dataevents_sector_jerryxmlappend/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/events_sector_jerry.xml.append:9
 msgid ""
 "data/events_sector_jerry.xml.append$//mod:findName[@name=\"JERRY_HOME_WIN\"]/mod-"
 "append:choice/text"
 msgstr ""
-"(Вэнс Первый) \"Джерри! Это действительно ты! Мы... так давно не виделись\", "
-"- говорит Первый, пытаясь сдержать свои эмоции. За все время, проведенное на "
-"этом задании, лицо Вэнса ни разу не менялось от обычного невозмутимого, что "
-"бы он ни делал, его эмоции всегда отсутствовали... до этого момента."
+"(Вэнс Первый) \"Джерри! Это действительно ты! Мы... так давно не виделись\","
+" - говорит Первый, пытаясь сдержать свои эмоции. За все время, проведенное "
+"на этом задании, лицо Вэнса ни разу не менялось от обычного невозмутимого, "
+"что бы он ни делал, его эмоции всегда отсутствовали... до этого момента."
 
 #: src-en/data/events_sector_jerry.xml.append:11
 msgid ""
@@ -88,13 +80,19 @@ msgstr ""
 "скажем Сайре, чтобы она отступила\". Джерри кивает, и экипаж возвращается "
 "обратно на ваш крейсер вместе с Джерри на вашей стороне."
 
+#: src-en/data/events_sector_jerry.xml.append:24
+msgid ""
+"data/events_sector_jerry.xml.append$//mod:findName[@name=\"JERRY_HOME_WIN\"]/mod-"
+"append:choice/event/choice/event/choice/event/choice/event/crewMember"
+msgstr ""
+
 #: src-en/data/events_sector_jerry.xml.append:39
 msgid ""
 "data/events_sector_jerry.xml.append$//mod:findName[@name=\"CYRA_JERRY\"]/mod-"
 "append:choice/text"
 msgstr ""
-"(Вэнс Первый) \"Это я, Сайра. Мой новый приказ для тебя - отступить. Ты была "
-"одним из моих лучших солдат, и я не хочу, чтобы мне пришлось с тобой "
+"(Вэнс Первый) \"Это я, Сайра. Мой новый приказ для тебя - отступить. Ты была"
+" одним из моих лучших солдат, и я не хочу, чтобы мне пришлось с тобой "
 "сражаться\"."
 
 #: src-en/data/events_sector_jerry.xml.append:41
@@ -107,8 +105,8 @@ msgstr ""
 "являетесь разыскиваемым преступником. Что, во имя богов, произошло?\" Вэнс "
 "злобно рычит при упоминании В 1. \"Многое случилось, Сайра. В 1 перешел "
 "черту, и мне пришлось пойти на это. Я не ожидал, что Федерация так легко "
-"примет меня в свои ряды, но, полагаю, когда ты имеешь влияние на их главного "
-"врага, тебе все может сойти с рук!\""
+"примет меня в свои ряды, но, полагаю, когда ты имеешь влияние на их главного"
+" врага, тебе все может сойти с рук!\""
 
 #: src-en/data/events_sector_jerry.xml.append:43
 msgid ""
@@ -126,6 +124,12 @@ msgstr ""
 "присоединиться, здесь было ужасно скучно. Не стесняйтесь, берите схемы моего"
 " старого корабля, он мне больше не нужен\"."
 
+#: src-en/data/events_sector_jerry.xml.append:46
+msgid ""
+"data/events_sector_jerry.xml.append$//mod:findName[@name=\"CYRA_JERRY\"]/mod-"
+"append:choice/event/choice/event/crewMember"
+msgstr ""
+
 #: src-en/data/events_sector_jerry.xml.append:58
 msgid ""
 "data/events_sector_jerry.xml.append$//mod:findName[@name=\"DESTROYED_TOM\"]/mod-"
@@ -139,3 +143,8 @@ msgstr ""
 "\"Черт возьми, это Вэнс! Для меня большая честь находиться на одном корабле "
 "с вами, сэр. Если вы планируете помочь Федерации, я с удовольствием "
 "присоединюсь к вам!\""
+
+#: src-en/data/events_sector_jerry.xml.append:65
+msgid ""
+"data/events_sector_jerry.xml.append$//event[@name=\"FR_DESTROYED_TOM_VANCE\"]/crewMember"
+msgstr ""
