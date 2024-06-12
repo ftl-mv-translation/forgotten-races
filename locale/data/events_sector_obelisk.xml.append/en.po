@@ -1,0 +1,628 @@
+#
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src-en/data/events_sector_obelisk.xml.append:8
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/undiscoveredTooltip"
+msgstr "A strange broadcast seems to be coming from this beacon."
+
+#: src-en/data/events_sector_obelisk.xml.append:9
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/unvisitedTooltip"
+msgstr "This beacon had an ancient drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:11
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/text"
+msgstr ""
+"Upon arriving at the beacon, you come face to face with a bizarre automated "
+"vessel of Obelisk design. It bears colors and weapons of makes and models "
+"you haven't seen before, even in this dreadful place, and it attempts to "
+"open communication."
+
+#: src-en/data/events_sector_obelisk.xml.append:14
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/text"
+msgstr "Approach the auto-ship and try to receive the hail."
+
+#: src-en/data/events_sector_obelisk.xml.append:16
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/text"
+msgstr ""
+"The ship blares a mix of static and what could barely be considered words in"
+" a loop lasting around 10 seconds or so. Not only did the signal distortion "
+"make the message a nightmare to decode, but the actual speech appeared to be"
+" a dialect of Obelisk speech far too old for Aenwithe's translation "
+"algorithm to decode. You do think that, if you install a better translation "
+"package, you may be able to understand the message."
+
+#: src-en/data/events_sector_obelisk.xml.append:18
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+" and @lvl=\"0\"]/text"
+msgstr "Install the Runic Translator. [Cost: 10~, 1|]"
+
+#: src-en/data/events_sector_obelisk.xml.append:20
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+" and @lvl=\"0\"]/event/text"
+msgstr "You install the translator and wait to see what it can decode."
+
+#: src-en/data/events_sector_obelisk.xml.append:28
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+" and @lvl=\"0\"]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:34
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+" and @lvl=\"1\"]/text"
+msgstr "We already have the translator, decode what the drone is saying!"
+
+#: src-en/data/events_sector_obelisk.xml.append:36
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+" and @lvl=\"1\"]/event/text"
+msgstr "You turn on your runic translator and wait to see what it can decode."
+
+#: src-en/data/events_sector_obelisk.xml.append:38
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+" and @lvl=\"1\"]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:44
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/text"
+msgstr "Try to manually translate the noises."
+
+#: src-en/data/events_sector_obelisk.xml.append:46
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/event/text"
+msgstr ""
+"You decide to do it the hard way. Decoding the message is extremely "
+"difficult, and you spend no fewer than a few days sitting in front of the "
+"auto-ship, enriching your translator."
+
+#: src-en/data/events_sector_obelisk.xml.append:49
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:55
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/text"
+msgstr "See if we can get our Director to translate the text for us."
+
+#: src-en/data/events_sector_obelisk.xml.append:57
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/event/text"
+msgstr ""
+"You feed the data into your Director and wait to see what it can decode."
+
+#: src-en/data/events_sector_obelisk.xml.append:59
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:65
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/text"
+msgstr ""
+"Ask one of our non-Commonwealth obelisks to translate the weird language."
+
+#: src-en/data/events_sector_obelisk.xml.append:67
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/text"
+msgstr ""
+"The Obelisk freezes as they hear the drone's message. It takes a few "
+"minutes, but they do agree to translate the message for you."
+
+#: src-en/data/events_sector_obelisk.xml.append:69
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:75
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/text"
+msgstr "Ask one of our commonwealth obelisks to translate the weird language."
+
+#: src-en/data/events_sector_obelisk.xml.append:77
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/event/text"
+msgstr ""
+"The Commonwealth Obelisk quickly writes up a full translation of the message"
+" for you and your crew to read."
+
+#: src-en/data/events_sector_obelisk.xml.append:79
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:85
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/text"
+msgstr "Ask one of our non-Metal Cognitives to translate the weird language."
+
+#: src-en/data/events_sector_obelisk.xml.append:87
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/text"
+msgstr ""
+"The Cognitive immediately sets to work decoding the message, with no sign of"
+" difficulty."
+
+#: src-en/data/events_sector_obelisk.xml.append:89
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:95
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/text"
+msgstr "Dear lord, shut down the radio system and blow it up!"
+
+#: src-en/data/events_sector_obelisk.xml.append:97
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/event/text"
+msgstr ""
+"You power up your weapons, and the drone does the same. Even in its damaged "
+"state, it's likely to put up quite a fight."
+
+#: src-en/data/events_sector_obelisk.xml.append:100
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:106
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/text"
+msgstr "Shut down the radio and get out of there!"
+
+#: src-en/data/events_sector_obelisk.xml.append:108
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/text"
+msgstr ""
+"You decide decoding the message isn't worth your time, instead preparing to "
+"jump."
+
+#: src-en/data/events_sector_obelisk.xml.append:110
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/choice[1]/text"
+msgstr "Do something onboard the ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:114
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/choice[2]/text"
+msgstr "Do nothing."
+
+#: src-en/data/events_sector_obelisk.xml.append:122
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/text"
+msgstr ""
+"Attack that ship, whatever it is it should have something of use inside it."
+
+#: src-en/data/events_sector_obelisk.xml.append:124
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/event/text"
+msgstr ""
+"You power up your weapons, and the drone does the same. Even in its damaged "
+"state, it's likely to put up quite a fight."
+
+#: src-en/data/events_sector_obelisk.xml.append:127
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:133
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/text"
+msgstr "Leave the auto ship alone."
+
+#: src-en/data/events_sector_obelisk.xml.append:135
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/text"
+msgstr ""
+"You have far more important problems to solve than handling a damaged auto-"
+"ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:137
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/choice[1]/text"
+msgstr "Do something onboard the ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:141
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/choice[2]/text"
+msgstr "Do nothing."
+
+#: src-en/data/events_sector_obelisk.xml.append:149
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/text"
+msgstr ""
+"One the ships' cacophony is fully translated, you discover it was likely "
+"used as a mobile weapons factory, used in the Obelisk civil wars so long "
+"ago. Even in its damaged state, the auto-ship's ability to synthesize new "
+"equipment could prove useful. Accessing the forge may prove difficult, "
+"however, without shutting the auto-ship down."
+
+#: src-en/data/events_sector_obelisk.xml.append:151
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/text"
+msgstr "Attempt to hack the ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:153
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/event/text"
+msgstr ""
+"You set up a program to attack the auto-ship's AI module. If you want this "
+"plan to work, you will have to hold out against the ship without destroying "
+"it!"
+
+#: src-en/data/events_sector_obelisk.xml.append:156
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:162
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/text"
+msgstr "See if any of our Commonwealth crew can speed up the hacking process."
+
+#: src-en/data/events_sector_obelisk.xml.append:164
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/text"
+msgstr ""
+"Your Commonwealth crew, having been around at the height of these drones' "
+"usage, manages to disable the auto-ship's firewalls without much issue."
+
+#: src-en/data/events_sector_obelisk.xml.append:166
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:172
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/text"
+msgstr ""
+"(Advanced Hacking) Use your main hacking system to speed up the hacking "
+"process."
+
+#: src-en/data/events_sector_obelisk.xml.append:174
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/event/text"
+msgstr ""
+"Your highly advanced hacking system is well-suited to the task, and the "
+"drone submits without much resistance."
+
+#: src-en/data/events_sector_obelisk.xml.append:176
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_obelisk.xml.append:182
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/text"
+msgstr "This is too risky, back away from the auto-ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:184
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/event/text"
+msgstr ""
+"Whatever secrets this ship holds are not relevant to the current mission. "
+"You turn away, preparing to jump."
+
+#: src-en/data/events_sector_obelisk.xml.append:186
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/event/choice[1]/text"
+msgstr "Do something onboard the ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:190
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/event/choice[2]/text"
+msgstr "Do nothing."
+
+#: src-en/data/events_sector_obelisk.xml.append:198
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/text"
+msgstr ""
+"Once the ship's firewall is broken, it's only a matter of time until you're able to bring the entire vessel under your command. The miraculous forge within is still intact, but the damaged state of the ship means you will likely only get a single piece of equipment out of it before the ship falls apart from the strain.\n"
+"\t\n"
+"\tThankfully, however, amidst the extraneous files, you do find the blueprints for a similar ship design!"
+
+#: src-en/data/events_sector_obelisk.xml.append:204
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[1]/text"
+msgstr "Make a Commonwealth weapon or drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:210
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/text"
+msgstr "Scrap the ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:212
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/event/text"
+msgstr ""
+"You decide to salvage the old auto-ship, making do with the basic scrap "
+"metal you can collect from it."
+
+#: src-en/data/events_sector_obelisk.xml.append:215
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/event/choice/text"
+msgstr "Do something onboard the ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:221
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_BLUELIST_MENDERS\"]/text"
+msgstr "(Mender Drone) Repair the forge and install it on your ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:223
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_BLUELIST_MENDERS\"]/event/text"
+msgstr ""
+"It takes a long time, as the forge is a delicate piece of technology even in"
+" its prime state. With much careful maneuvering, however, your Mender is "
+"able to fully reconstruct the forge, preparing it for installation."
+
+#: src-en/data/events_sector_obelisk.xml.append:233
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/text"
+msgstr ""
+"You breach the forge's firewalls, figuring out what you can construct."
+
+#: src-en/data/events_sector_obelisk.xml.append:235
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/text"
+msgstr "Construct a Commonwealth Obelisk."
+
+#: src-en/data/events_sector_obelisk.xml.append:244
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/event/text"
+msgstr ""
+"As your new ally hovers out of the forge, mildly confused, the old auto-ship"
+" begins to crumble, becoming nothing more than a useless wreck. The Obelisk "
+"hovers out, and joins your crew!"
+
+#: src-en/data/events_sector_obelisk.xml.append:248
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/text"
+msgstr "Construct a Proto-Cognitive."
+
+#: src-en/data/events_sector_obelisk.xml.append:254
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/event/text"
+msgstr ""
+"As your new ally hovers out of the forge, mildly confused, the old auto-ship"
+" begins to crumble, becoming nothing more than a useless wreck. The "
+"Cognitive hovers out, and joins your crew!"
+
+#: src-en/data/events_sector_obelisk.xml.append:258
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[3]/text"
+msgstr "Construct a Commonwealth Harbinger."
+
+#: src-en/data/events_sector_obelisk.xml.append:265
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[3]/event/text"
+msgstr ""
+"As the new weapon rolls out of the forge, the old auto-ship begins to "
+"crumble, becoming nothing more than a useless wreck. You take the weapon "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:269
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[4]/text"
+msgstr "Construct a Commonwealth Plasma Cannon."
+
+#: src-en/data/events_sector_obelisk.xml.append:276
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[4]/event/text"
+msgstr ""
+"As the new weapon rolls out of the forge, the old auto-ship begins to "
+"crumble, becoming nothing more than a useless wreck. You take the weapon "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:280
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[5]/text"
+msgstr "Construct a Commonwealth Payload."
+
+#: src-en/data/events_sector_obelisk.xml.append:287
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[5]/event/text"
+msgstr ""
+"As the new weapon rolls out of the forge, the old auto-ship begins to "
+"crumble, becoming nothing more than a useless wreck. You take the weapon "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:291
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/text"
+msgstr "Construct a Commonwealth Heavy Harbinger."
+
+#: src-en/data/events_sector_obelisk.xml.append:298
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/event/text"
+msgstr ""
+"As the new weapon rolls out of the forge, the old auto-ship begins to "
+"crumble, becoming nothing more than a useless wreck. You take the weapon "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:302
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/text"
+msgstr "Construct a Commonwealth Eradicator."
+
+#: src-en/data/events_sector_obelisk.xml.append:308
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/event/text"
+msgstr ""
+"As the new weapon rolls out of the forge, the old auto-ship begins to "
+"crumble, becoming nothing more than a useless wreck. You take the weapon "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:312
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[8]/text"
+msgstr "Construct a Commonwealth Purifier."
+
+#: src-en/data/events_sector_obelisk.xml.append:319
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[8]/event/text"
+msgstr ""
+"As the new weapon rolls out of the forge, the old auto-ship begins to "
+"crumble, becoming nothing more than a useless wreck. You take the weapon "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:323
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[9]/text"
+msgstr "Construct a Commonwealth Carnage."
+
+#: src-en/data/events_sector_obelisk.xml.append:330
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[9]/event/text"
+msgstr ""
+"As the new weapon rolls out of the forge, the old auto-ship begins to "
+"crumble, becoming nothing more than a useless wreck. You take the weapon "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:334
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/text"
+msgstr "Construct a Commonwealth Carnage Drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:342
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/event/text"
+msgstr ""
+"As the new drone schematic rolls out of the forge, the old auto-ship begins "
+"to crumble, becoming nothing more than a useless wreck. You take the drone "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:346
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/text"
+msgstr "Construct a Commonwealth Phaser Drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:353
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/event/text"
+msgstr ""
+"As the new drone schematic rolls out of the forge, the old auto-ship begins "
+"to crumble, becoming nothing more than a useless wreck. You take the drone "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:357
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[12]/text"
+msgstr "Construct a Commonwealth Purifier Drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:364
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[12]/event/text"
+msgstr ""
+"As the new drone schematic rolls out of the forge, the old auto-ship begins "
+"to crumble, becoming nothing more than a useless wreck. You take the drone "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:368
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[13]/text"
+msgstr "Construct a Commonwealth Overwatcher."
+
+#: src-en/data/events_sector_obelisk.xml.append:375
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[13]/event/text"
+msgstr ""
+"As the new drone schematic rolls out of the forge, the old auto-ship begins "
+"to crumble, becoming nothing more than a useless wreck. You take the drone "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:379
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[14]/text"
+msgstr "Construct a Commonwealth Harbinger Drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:386
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[14]/event/text"
+msgstr ""
+"As the new drone schematic rolls out of the forge, the old auto-ship begins "
+"to crumble, becoming nothing more than a useless wreck. You take the drone "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:390
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[15]/text"
+msgstr "Construct a Proto-Director."
+
+#: src-en/data/events_sector_obelisk.xml.append:397
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[15]/event/text"
+msgstr ""
+"As the new drone schematic rolls out of the forge, the old auto-ship begins "
+"to crumble, becoming nothing more than a useless wreck. You take the drone "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:401
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[16]/text"
+msgstr "Construct a Proto-Atomizer."
+
+#: src-en/data/events_sector_obelisk.xml.append:408
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[16]/event/text"
+msgstr ""
+"As the new drone schematic rolls out of the forge, the old auto-ship begins "
+"to crumble, becoming nothing more than a useless wreck. You take the drone "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:412
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[17]/text"
+msgstr "Construct a Proto-Mender."
+
+#: src-en/data/events_sector_obelisk.xml.append:419
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[17]/event/text"
+msgstr ""
+"As the new drone schematic rolls out of the forge, the old auto-ship begins "
+"to crumble, becoming nothing more than a useless wreck. You take the drone "
+"aboard."
+
+#: src-en/data/events_sector_obelisk.xml.append:423
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/text"
+msgstr "None of these will be useful. Scrap the ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:425
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/event/text"
+msgstr ""
+"You decide to salvage the old auto-ship, making do with the basic scrap "
+"metal you can collect from it."
+
+#: src-en/data/events_sector_obelisk.xml.append:428
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/event/choice/text"
+msgstr "Do something onboard the ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:434
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_BLUELIST_MENDERS\"]/text"
+msgstr "(Mender Drone) Repair the forge and install it on your ship."
+
+#: src-en/data/events_sector_obelisk.xml.append:436
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_BLUELIST_MENDERS\"]/event/text"
+msgstr ""
+"It takes a long time, as the forge is a delicate piece of technology even in"
+" its prime state. With much careful maneuvering, however, your Mender is "
+"able to fully reconstruct the forge, preparing it for installation."

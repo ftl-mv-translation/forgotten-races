@@ -75,6 +75,12 @@ msgstr ""
 " first, let's go tell Cyra to stand down.\" Jerry nods and the crew moves "
 "back to your cruiser with Jerry on your side."
 
+#: src-en/data/events_sector_jerry.xml.append:26
+msgid ""
+"data/events_sector_jerry.xml.append$//mod:findName[@name=\"JERRY_HOME_WIN\"]/mod-"
+"append:choice/event/choice/event/choice/event/choice/event/crewMember"
+msgstr "Jerry"
+
 #: src-en/data/events_sector_jerry.xml.append:41
 msgid ""
 "data/events_sector_jerry.xml.append$//mod:findName[@name=\"CYRA_JERRY\"]/mod-"
@@ -107,6 +113,12 @@ msgstr ""
 "around here anyways. Feel free to take the schematics of my old ship; it's "
 "of no use to me anymore.\""
 
+#: src-en/data/events_sector_jerry.xml.append:50
+msgid ""
+"data/events_sector_jerry.xml.append$//mod:findName[@name=\"CYRA_JERRY\"]/mod-"
+"append:choice/event/choice/event/crewMember"
+msgstr "Cyra"
+
 #: src-en/data/events_sector_jerry.xml.append:62
 msgid ""
 "data/events_sector_jerry.xml.append$//mod:findName[@name=\"DESTROYED_TOM\"]/mod-"
@@ -120,3 +132,8 @@ msgstr ""
 "\"Holy shit! I-it's Vance! It's an honor to be abord the same ship as you, "
 "sir. If you plan on helping the Federation, then I will gladly join you... "
 "no matter if it means ditching the Rebels.\""
+
+#: src-en/data/events_sector_jerry.xml.append:69
+msgid ""
+"data/events_sector_jerry.xml.append$//event[@name=\"FR_DESTROYED_TOM_VANCE\"]/crewMember"
+msgstr "Tom"

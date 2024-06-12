@@ -34,6 +34,10 @@
         "data/events_sector_droppoint.xml.append",
         "data/events_sector_coalition.xml.append",
         "data/events_sector_augmented.xml.append",
+        "data/sector_data.xml.append",
+        "data/events_sector_nexus.xml.append",
+        "data/events_sector_obelisk.xml.append",
+        "data/events_special_defeat.xml.append",
         "data/hyperspace.xml.append",
         "mod-appendix/metadata.xml"
     ],
@@ -91,7 +95,10 @@
         "//customStore/category/customTitle",
         "//spawnCrew/name",
         "//mod-append:customShip/crew/*/@name",
-        "//customShip/crew/*/@name"
+        "//customShip/crew/*/@name",
+        "//win/@text",
+        "//lose/@text",
+        "//crewMember",
     ],
 
     "useDummyRoot": true,
