@@ -19,11 +19,11 @@ msgid ""
 "append:shipIcon[2]/tooltip"
 msgstr ""
 "BONUS HAUNT LOOT:\n"
-"This enemy is carrying a special supernatural weapon or drone. Destroying the vessel only has a 50% chance to drop the item, but killing the crew will guarantee it drops.\n"
+"This enemy is carrying a special preternaturally-enhanced weapon or drone. Destroying the vessel only has a 50% chance to drop the item, but killing the crew will guarantee it drops.\n"
 "\n"
-"The first time you roll the special loot by either crew killing the ship or landing the 50% chance you will also unlock a ship.\n"
+"The first time you obtain the loot weapon, you will also unlock a ship.\n"
 "\n"
-"If the ship is an auto, the loot will always drop."
+"If the ship is an automated vessel, the loot will always drop."
 
 #: src-en/data/hyperspace.xml.append:114
 msgid ""
@@ -31,9 +31,9 @@ msgid ""
 "append:shipIcon[3]/tooltip"
 msgstr ""
 "HAUNT LOOT:\n"
-"This enemy is carrying a special supernatural weapon or drone. Destroying the vessel only has a 50% chance to drop the item, but killing the crew will guarantee it drops.\n"
+"This enemy is carrying a special preternaturally-enhanced weapon or drone. Destroying the vessel only has a 50% chance to drop the item, but killing the crew will guarantee it drops.\n"
 "\n"
-"If the ship is an auto, the loot will always drop."
+"If the ship is an automated vessel, the loot will always drop."
 
 #: src-en/data/hyperspace.xml.append:121
 msgid ""
@@ -41,7 +41,7 @@ msgid ""
 "append:shipIcon[4]/tooltip"
 msgstr ""
 "FLAGSHIP LOOT:\n"
-"This enemy is carrying a special supernatural weapon or drone. Destroying the vessel or killing the crew will guarantee it drops."
+"This enemy is carrying a special preternaturally-enhanced weapon or drone. Destroying the vessel or killing the crew will guarantee it drops."
 
 #: src-en/data/hyperspace.xml.append:126
 msgid ""
@@ -49,7 +49,7 @@ msgid ""
 "append:shipIcon[5]/tooltip"
 msgstr ""
 "HAUNTING THREAT:\n"
-"This enemy will pose a major threat to an unprepared vessel. You can't escape either, so be ready to use everything you have to win."
+"This enemy will pose a major threat to an unprepared vessel. The dark energies it emits prevent your FTL Drive from charging, so you will have to use everything you've got to win!"
 
 #: src-en/data/hyperspace.xml.append:131
 msgid ""
@@ -57,15 +57,15 @@ msgid ""
 "append:shipIcon[6]/tooltip"
 msgstr ""
 "CHAOTIC HAUNTING THREAT:\n"
-"There's no escape now, renegade :)"
+"There's no escape now, Renegade.\n"
+"\t/\n"
+":)"
 
 #: src-en/data/hyperspace.xml.append:138
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[7]/tooltip"
-msgstr ""
-"???:\n"
-"r e s t  n o w"
+msgstr "Rest now."
 
 #: src-en/data/hyperspace.xml.append:142
 msgid ""
@@ -73,17 +73,15 @@ msgid ""
 "append:shipIcon[8]/tooltip"
 msgstr ""
 "HAUNTED ROOMS:\n"
-"This enemy has one or more Haunted Resistant rooms, marked by the pink border Haunted Resistant rooms will take no system or ion damage from weapons, not only that, but your crew will have their sabotage damage halved while in that room. The system can be damaged by crew and fires and will take hull damage as normal."
+"This enemy has one or more haunted rooms, marked by the pink border. Haunted rooms are immune to system and ion damage, and are sabotaged at half speed. These rooms take fire and hull damage as normal."
 
 #: src-en/data/hyperspace.xml.append:147
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[9]/tooltip"
 msgstr ""
-"ERROR ROOMS:\n"
-"This enemy has one or more Error Resistant rooms, marked by the rapidly flashing colors. Error Resistant rooms will take no system or ion damage from weapons. \n"
-"\n"
-"Your crew will also have their sabotage damage set to 0.1x and take 100 damage per second while in that room. Enemy crew will instead be healed by 100 hp/s while in that room."
+"CORRUPTED ROOMS:\n"
+"This enemy has one or more corrupted rooms, marked by rapidly flashing colors. Corrupted rooms are immune to system and ion damage, are sabotaged at a tenth of the normal speed, and deal 100 hp/s in damage to your crew. Enemy crew are healed at 100 hp/s in these rooms."
 
 #: src-en/data/hyperspace.xml.append:152
 msgid ""
@@ -91,15 +89,15 @@ msgid ""
 "append:shipIcon[10]/tooltip"
 msgstr ""
 "BREACH SEALANT:\n"
-"Breaches on this enemy will automatically be repaired even in the absence of crew."
+"Breaches on the enemy ship will automatically be repaired even in the absence of crew."
 
 #: src-en/data/hyperspace.xml.append:157
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[11]/tooltip"
 msgstr ""
-"ANCIENT WEAPON PRE-IGNITER:\n"
-"This enemy's weapons start charged and will fire as soon as the fight starts. Their weapons weapons charge 15% faster as well."
+"ANCIENT HYPER-IGNITER:\n"
+"This enemy's weapons start charged, and they will all fire as soon as the fight starts. Additionally, their weapons charge 15% faster."
 
 #: src-en/data/hyperspace.xml.append:162
 msgid ""
@@ -107,7 +105,7 @@ msgid ""
 "append:shipIcon[12]/tooltip"
 msgstr ""
 "WEAPON PRE-IGNITER:\n"
-"This enemy's weapons start charged and will fire as soon as the fight starts."
+"This enemy's weapons start charged, and they will all fire as soon as the fight starts."
 
 #: src-en/data/hyperspace.xml.append:167
 msgid ""
@@ -115,7 +113,7 @@ msgid ""
 "append:shipIcon[13]/tooltip"
 msgstr ""
 "XENOPHOBIA:\n"
-"Human crew from this enemy will gain a 33% buff to all main stats, but alien crew have a 40% loss to all main stats.\n"
+"This enemy's human crew will gain a 33% buff to all main stats, but their non-human crew have a 40% loss to all main stats.\n"
 "(Main stats include health, damage, repair, sabotage, and movement speed)."
 
 #: src-en/data/hyperspace.xml.append:173
@@ -124,7 +122,7 @@ msgid ""
 "append:shipIcon[14]/tooltip"
 msgstr ""
 "NEW ORDER:\n"
-"Zoltan crew from this enemy provide 1 extra power and have 1.5x repair speed and combat damage, but all other crew have a 40% loss to all main stats. Duskbringer teleporters also allow them to teleport across ships.\n"
+"This enemy's Zoltan crew provide 1 extra power, can teleport to any room on either ship, and have 1.5x repair speed and combat damage, but their non-Zoltan crew have a 40% loss to all main stats.\n"
 "(Main stats include health, damage, repair, sabotage, and movement speed)."
 
 #: src-en/data/hyperspace.xml.append:179
@@ -133,7 +131,7 @@ msgid ""
 "append:shipIcon[15]/tooltip"
 msgstr ""
 "DENSER MOLECULES:\n"
-"Ghost crew from this ship gains 20 extra health but can't phase through doors."
+"This ship's Ghost crew have 20 extra health, but they can't phase through doors."
 
 #: src-en/data/hyperspace.xml.append:184
 msgid ""
@@ -141,7 +139,7 @@ msgid ""
 "append:shipIcon[16]/tooltip"
 msgstr ""
 "CHEMICAL PROLIFERATION:\n"
-"Ghost crew from this ship heal from fire. Gouls heal at half the speed from fires of other Ghosts."
+"This ship's Ghost crew passively heal from fire. Gouls heal from this at halved speed."
 
 #: src-en/data/hyperspace.xml.append:189
 msgid ""
@@ -149,7 +147,7 @@ msgid ""
 "append:shipIcon[17]/tooltip"
 msgstr ""
 "HULKING MASS:\n"
-"Morph crew from this ship gain 50% extra health, but move at half speed."
+"This ship's Morph crew have 50% extra health, but move at half speed."
 
 #: src-en/data/hyperspace.xml.append:194
 msgid ""
@@ -157,15 +155,15 @@ msgid ""
 "append:shipIcon[18]/tooltip"
 msgstr ""
 "COMBAT SYSTEMS:\n"
-"Engi crew from this ship gain standard combat damage and 10 health, but lose 25% of their repair speed."
+"This ship's Engi crew have standard combat damage and 10 extra health, but lose 25% of their repair speed."
 
 #: src-en/data/hyperspace.xml.append:199
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[19]/tooltip"
 msgstr ""
-"HEKTAR ULTRA-STICK GEL(TM):\n"
-"Enemies take 50% less damage from all sources in them and also benefit from 50% stun resistance but all crew move 20% slower in empty rooms while in the enemy ship."
+"HEKTAR ULTRA-STICK GEL(tm):\n"
+"Enemy crew on their ship are stunned for half the usual duration. In this ship's empty rooms, enemies take halved damage from all sources, and your crew move 20% slower."
 
 #: src-en/data/hyperspace.xml.append:204
 msgid ""
@@ -173,7 +171,7 @@ msgid ""
 "append:shipIcon[20]/tooltip"
 msgstr ""
 "ENVIRONMENTAL ADAPTATION:\n"
-"Engi crew from this ship gain complete suffocation immunity."
+"This ship's Engi crew are immune to suffocation."
 
 #: src-en/data/hyperspace.xml.append:209
 msgid ""
@@ -181,7 +179,7 @@ msgid ""
 "append:shipIcon[21]/tooltip"
 msgstr ""
 "CRYSTALLIZED HYDROGEN:\n"
-"Crystal crew from this ship gain complete suffocation immunity."
+"This ship's Crystal crew are immune to suffocation."
 
 #: src-en/data/hyperspace.xml.append:214
 msgid ""
@@ -189,7 +187,7 @@ msgid ""
 "append:shipIcon[22]/tooltip"
 msgstr ""
 "COMMONWEALTH ENERGY SHIELD:\n"
-"This enemy is protected by an advanced Energy Shield. Hacking, Mind Control, boarding drones, teleportation, and all hull-damaging and/or ion weapons will all be blocked until disabled. The shield also has a 50% chance to negate ion damage."
+"This enemy is protected by an advanced energy shield which also has a 50% chance to negate ion damage."
 
 #: src-en/data/hyperspace.xml.append:219
 msgid ""
@@ -197,38 +195,37 @@ msgid ""
 "append:shipIcon[23]/tooltip"
 msgstr ""
 "COMMONWEALTH AETHER FORGE:\n"
-"A incredibly advanced forging and anti boarding ship system, provides a unique item making opportunity if the ship is disabled while also dealing 3 damage a second to any boarder inside the ship."
+"Although the primary purpose of this vessel's forge is to make new weapons, it also runs a basic defense system that deals 3 hp/s in damage to your crew if they board the ship."
 
 #: src-en/data/hyperspace.xml.append:224
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[24]/tooltip"
 msgstr ""
-"WITHER PERFECTION:\n"
-"This enemy's systems are improved in multiple ways:\n"
-"\t- 5% Faster weapon cooldown;\n"
-"\t- 10% Faster shield cooldown;\n"
-"\t- 15% Faster engine recharge;\n"
-"\t- 5% Chance to not take hull and system damage;\n"
-"\t- 25% Chance to resist ion damage;\n"
-"\t- Enemy crew and drones in their ship are healed for 1hp/s;\n"
-"\t- Your crew and drones in their ship are damaged for 1hp/s."
+"PERFECTED INTERNALS:\n"
+"This enemy's systems are highly optimized, boasting a number of special bonuses.\n"
+"- 5% faster weapon charge.\n"
+"- 10% faster shield charge.\n"
+"- 15% faster FTL Drive charge.\n"
+"- 5% hull resist chance, 5% system resist chance, and 25% ion resist chance.\n"
+"- Friendly crew and drones in your ship constantly heal 1 hp/s.\n"
+"- Enemy crew and drones in your ship constantly take 1 hp/s in damage."
 
 #: src-en/data/hyperspace.xml.append:235
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[25]/tooltip"
 msgstr ""
-"WITHER'S ENERGY SHIELD:\n"
-"This enemy is protected by an advanced Energy Shield. Hacking, Mind Control, boarding drones, teleportation, and all hull-damaging and/or ion weapons will all be blocked until disabled. The shield will also prevent your crew from using short-range teleporters while inside the enemy ship.."
+"PECULIAR SHIELDING:\n"
+"This enemy is protected by an advanced energy shield which also prevents your crew from using short-range teleporters while inside the enemy ship."
 
 #: src-en/data/hyperspace.xml.append:240
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[26]/tooltip"
 msgstr ""
-"SLIMER ECTOPLASMA GEL:\n"
-"Breaches on this enemy will automatically be repaired even in the absence of crew. Your boarders are unable to fight and are slowed by 50% in empty rooms. Meanwhile, enemy's crew are immune to hazards while in empty rooms."
+"ECTOPLASMIC GEL:\n"
+"Breaches on the enemy ship will automatically be repaired even in the absence of crew. In this ship's empty rooms, enemy crew are immune to hazards, and your crew move at half speed and lose the ability to fight."
 
 #: src-en/data/hyperspace.xml.append:245
 msgid ""
@@ -236,7 +233,7 @@ msgid ""
 "append:shipIcon[27]/tooltip"
 msgstr ""
 "IONIZED NEBULA GAS:\n"
-"This ship is flooded to the brim with ionized nebula gasses, rendering it immune to ion damage while also passively damaging your boarding crew over time, drones take double damage. Enemy crew is also immune to stuns while inside their ship."
+"Enemy crew on this ship are immune to being stunned, and the ship itself is immune to ion damage. Your crew will take damage over time while boarding, and drones take double damage."
 
 #: src-en/data/hyperspace.xml.append:250
 msgid ""
@@ -244,23 +241,23 @@ msgid ""
 "append:shipIcon[28]/tooltip"
 msgstr ""
 "GHOSTLY PHEROMONES:\n"
-"Gives enemy crew different buffs depending on how much their o2 system is powered, effects are:\n"
-"\t- At level one: Grants suffocation immunity\n"
-"\t- At level two: Grants door phasing properties\n"
-"\t- At level three: Grants localized teleportation\n"
-"\t- At level four: Grants cross ship teleportation"
+"The enemy ship gains increasingly strong bonuses to crew for each powered level of Life Support.\n"
+"- 1 power: Friendly crew gain immunity to suffocation.\n"
+"- 2 power: Friendly crew gain the ability to phase through doors.\n"
+"- 3 power: Friendly crew gain the ability to teleport to any room on your ship.\n"
+"- 4 power: Friendly crew gain the ability to teleport to any room and to either ship directly."
 
 #: src-en/data/hyperspace.xml.append:259
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[29]/tooltip"
 msgstr ""
-"HAUNTED GHOSTLY PHEROMONES:\n"
-"Gives enemy crew different buffs depending on how much their o2 system is powered, effects are:\n"
-"\t- At level one: Grants hazard immunity\n"
-"\t- At level two: Grants door phasing and 20% increased sabotage damage\n"
-"\t- At level three: Grants localized teleportation and 20% increased crew health\n"
-"\t- At level four: Grants cross ship teleportation and 20% increased crew damage"
+"HAUNTED PHEROMONES:\n"
+"The enemy ship gains increasingly strong bonuses to crew for each powered level of Life Support.\n"
+"- 1 power: Friendly crew gain immunity to all hazards.\n"
+"- 2 power: Friendly crew gain 20% extra sabotage speed and the ability to phase through doors.\n"
+"- 3 power: Friendly crew gain 20% extra health and the ability to teleport to any room on your ship.\n"
+"- 4 power: Friendly crew gain 20% extra combat damage and the ability to teleport to any room and to either ship directly."
 
 #: src-en/data/hyperspace.xml.append:268
 msgid ""
@@ -268,7 +265,7 @@ msgid ""
 "append:shipIcon[30]/tooltip"
 msgstr ""
 "MOLTEN ARMOR:\n"
-"Constantly deals 15 hp/s while inside this ship which scales depending on the drone/crew's fire resistance, crews that are healed by fire damage will be healed instead. Has a 50% chance to negate hull damage."
+"Your crew on this ship passively take 15 hp/s in damage. This damage counts as fire damage, and is modified accordingly. The ship also has a 50% chance to negate hull damage."
 
 #: src-en/data/hyperspace.xml.append:273
 msgid ""
@@ -276,7 +273,7 @@ msgid ""
 "append:shipIcon[31]/tooltip"
 msgstr ""
 "ENERGY SIPHON:\n"
-"Enemies in the same room as their drones will deal 25% more damage and heal for 10 hp/s. Their drones, however, will deal 20% less damage while in a room with their crew."
+"Enemies in the same room as their drones will deal 25% more damage and heal for 3.5 hp/s. Their drones, however, deal halved damage in combat when being siphoned."
 
 #: src-en/data/hyperspace.xml.append:278
 msgid ""
@@ -291,32 +288,32 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[33]/tooltip"
 msgstr ""
-"HOLY FURY:\n"
-"Enemy crew heal and are cloned 50% faster. Enemy beams pierce 2 additional shield layers."
+"HOLY CONVICTION:\n"
+"Enemy crew heal and are cloned 50% faster, and the enemy ship's beam weapons pierce 2 additional shield layers."
 
 #: src-en/data/hyperspace.xml.append:288
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[34]/tooltip"
 msgstr ""
-"NECROMANTIC ENERGY SHIELD:\n"
-"This ginormous energy shield is what keeps G protected from the outside. Has 80 hitpoints and all regular effects of energy shields."
+"MAGICAL SHIELD:\n"
+"An absurdly powerful energy shield protecting G's ship. Has an integrity of 80 hitpoints."
 
 #: src-en/data/hyperspace.xml.append:293
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[35]/tooltip"
 msgstr ""
-"HAUNTED NECROMANTIC ENERGY SHIELD:\n"
-"This ginormous energy shield is what keeps G protected from the outside. Has 80 hitpoints, all regular effects of energy shields while also having a 50% chance to resist ion damage."
+"HAUNTED SHIELD:\n"
+"An absurdly powerful energy shield protecting G's ship. Has an integrity of 80 hitpoints, and gives the enemy ship a 50% chance to resist ion damage."
 
 #: src-en/data/hyperspace.xml.append:298
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[36]/tooltip"
 msgstr ""
-"NECROMANTIC PROJECTION:\n"
-"Enemy ghosts have 100 more health and resist mind control."
+"NECROMANTIC AURA:\n"
+"The enemy's Ghost crew have 100 more health and resist mind control."
 
 #: src-en/data/hyperspace.xml.append:303
 msgid ""
@@ -324,15 +321,15 @@ msgid ""
 "append:shipIcon[37]/tooltip"
 msgstr ""
 "AETHER NECRONOMICON:\n"
-"Enemy crew will be revived as specters after dying, that effect doesn't interfere with the regular cloning process. Specters can't be revived."
+"Enemy crew will be revived as Specters after dying; this does not interrupt standard cloning processes. Specters can't be revived."
 
 #: src-en/data/hyperspace.xml.append:308
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[38]/tooltip"
 msgstr ""
-"CARBON CRYSTAL ARMOR:\n"
-"Every time you deal hull damage to this enemy with your weapons, a shard will break off and fly towards your ship. It will not pierce any shields, but will do 2 damage to a random room if it hits. The shards can't miss or be targeted by most defense drones and will always breach. Systems also have 20% chance to not be damage on hit."
+"CARBON ARMOR:\n"
+"Every time you deal hull damage to this enemy with your weapons, a shard will break off and fly towards your ship. It will not pierce any shields, but it can't miss or be shot down by defense drones, deals 2 damage, and always breaches. The ship also has a 20% chance to negate system damage."
 
 #: src-en/data/hyperspace.xml.append:313
 msgid ""
@@ -340,7 +337,7 @@ msgid ""
 "append:shipIcon[39]/tooltip"
 msgstr ""
 "FROZEN SPORES:\n"
-"Your crew will take 50% more damage from all sources and move 25% slower when inside the enemy ship as well as when in the same room as an enemy snowman."
+"Your crew will take 50% more damage from all sources and move 25% slower when inside the enemy ship, as well as when in the same room as an enemy snowman."
 
 #: src-en/data/hyperspace.xml.append:318
 msgid ""
@@ -348,7 +345,7 @@ msgid ""
 "append:shipIcon[40]/tooltip"
 msgstr ""
 "FRIGID AIR:\n"
-"Enemy snowmans heal by 20hp/s while inside the enemy ship."
+"The enemy's Snowman crew heal by 20hp/s while inside the enemy ship."
 
 #: src-en/data/hyperspace.xml.append:323
 msgid ""
@@ -356,23 +353,23 @@ msgid ""
 "append:shipIcon[41]/tooltip"
 msgstr ""
 "LIVING SHIP:\n"
-"This enemy ship has consumed one or more of their crew, giving it the effects similar to other augments. The augments mimicked will be have their icons shown here."
+"This enemy ship is alive, and has consumed one or more of its old crewmates. The augments it has acquired from this process have their icons displayed."
 
 #: src-en/data/hyperspace.xml.append:328
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[42]/tooltip"
 msgstr ""
-"GHOSTLY REPAIR BOTS:\n"
-"Enemy's systems will be automatically repaired depending how much power is put in the drone system, if it's present."
+"SPECTRAL NANOMACHINES:\n"
+"This enemy will automatically repair all of its systems at the speed of a human, multiplied by the amount of power in its Drone Control."
 
 #: src-en/data/hyperspace.xml.append:333
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[43]/tooltip"
 msgstr ""
-"ENERGY SHIELD BATTERY:\n"
-"Enemy's shields are augmented with rechargeable zoltan shield layers. The amount of layers this augment provides scales with your shield system level."
+"SHIELD ADAPTER:\n"
+"This enemy can naturally generate layers of energy shielding. The regeneration rate and maximum number of layers is dependent on the strength of their Shields, and they regenerate regular shielding at half the rate."
 
 #: src-en/data/hyperspace.xml.append:338
 msgid ""
@@ -380,7 +377,7 @@ msgid ""
 "append:shipIcon[44]/tooltip"
 msgstr ""
 "ANNIHILATION GRID:\n"
-"This enemy's doors are extra protected from boarders, reducing their damage to doors by 50%. All boarder crew and drones will take a base damage of 10hp/s, be unable to phase through doors or use handheld teleporters."
+"Your crew on this ship lose 10 hp/s, lose the ability to phase through doors or move by teleporting, and deal halved damage to doors."
 
 #: src-en/data/hyperspace.xml.append:343
 msgid ""
@@ -388,15 +385,15 @@ msgid ""
 "append:shipIcon[45]/tooltip"
 msgstr ""
 "SELF AWARE COGNITIVE INTELLIGENCE:\n"
-"This enemy's systems are manned at the max level across the board."
+"This enemy is automated, and all of their systems are automatically manned at level 2 skill."
 
 #: src-en/data/hyperspace.xml.append:348
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[46]/tooltip"
 msgstr ""
-"ENERGY HULL:\n"
-"This ship's hull is directly tied to its energy shield, if it's fully depleted, the ship will collapse."
+"HARD-LIGHT HULL:\n"
+"This ship's hull health is always equal to the integrity of its energy shield."
 
 #: src-en/data/hyperspace.xml.append:353
 msgid ""
@@ -404,68 +401,68 @@ msgid ""
 "append:shipIcon[47]/tooltip"
 msgstr ""
 "ZOLTAN ENERGY GRID:\n"
-"Your crew and drones (including anaerobic crew) will take a base damage of 4hp/s with an extra 2hp for each level of Door Control above 1. Crews and drones that die while on the enemy ship will fully repair the system they die in, this will also overwrite any death effects they might have."
+"Your crew on this ship lose 4 hp/s, plus an extra 2 hp/s for every level of Door Control it has beyond the first. If they die, they fully repair the system they are standing in, overwriting any other death effect they may have."
 
 #: src-en/data/hyperspace.xml.append:358
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[48]/tooltip"
 msgstr ""
-"STATIC FORCES:\n"
-"This ship's rooms are protected by some kind of mysterious static energy. All boarders onboard this ship will have their mind overcome by static, disabling their AI and making them uncontrollable. Once they return to your ship, they will go back to normal."
+"FIELD OF STATIC:\n"
+"This ship's rooms are protected by some kind of mysterious static energy. Your crew onboard this ship will be frozen in place, entranced by its horrifying interior until removed from the ship."
 
 #: src-en/data/hyperspace.xml.append:363
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[49]/tooltip"
 msgstr ""
-"WATCHER'S SHIELD:\n"
-"This enemy is protected by a esoteric and highly resilient Energy Shield. In addition to the usual Super Shield benefits, energy shields also have 50% chance to resist no-ion damage.\n"
-"\n"
-"It also allowed enemy crew to bypass energy shields, this ability also can't be removed."
+"WATCHER'S PROTECTION:\n"
+"This enemy is protected by an energy shield infused with esoteric, powerful chaos. It has an integrity of 15 hit points, doubles as a hard-light bypass unit that cannot be counteracted, and grants this ship a 50% chance to take no damage from non-ion damage."
 
 #: src-en/data/hyperspace.xml.append:368
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[50]/tooltip"
 msgstr ""
-"LEGION'S AEGIS:\n"
-"This enemy is protected by a highly resilient Energy Shield. In addition to the usual Super Shield benefits, weapons and artilleries cooldowns are also reduced by 10%."
+"LEGIONNAIRE'S AEGIS:\n"
+"This enemy is protected by a highly resilient energy shield. It has an integrity of 10 hit points, and increases the enemy's weapon and artillery charge rate by 10%."
 
 #: src-en/data/hyperspace.xml.append:373
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[51]/tooltip"
 msgstr ""
-"LEGION'S SPIRIT:\n"
-"Humans in this ship gain a enhanced version of the effects of all the primary human lab upgrades."
+"SPIRIT OF THE REBELLION:\n"
+"This enemy's Human crew are considered to have all three of their basic lab upgrades."
 
 #: src-en/data/hyperspace.xml.append:378
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[52]/tooltip"
 msgstr ""
-"R.U.E.S.'S ROYAL PLATING:\n"
-"This ship's plating mimics many augments exclusive to other races in a weaker form:\n"
-"\t+ Grants 20% chance to not take hull or system damage, +50% ion resistance, 30% slower enemy sabotage and a opportunity to ram enemies before battle.\n"
-"\t+ Automatically repairs breaches, grants 20% reduced damage from all sources and 25% reduced stun duration to friendly crew while in empty rooms.\n"
-"\t+ 15% crew damage, 20% crew speed, 5% crew health and 10% reduced ability cooldowns all which scale with powered 02 levels."
+"EXPERIMENTAL PLATING:\n"
+"This ship's unique hull armor provides several bonuses.\n"
+"- 20% hull resist chance, 20% system resist chance, 50% ion resistance chance.\n"
+"- The enemy ship automatically repairs breaches even in the absence of crew.\n"
+"- Enemy crew in empty rooms on the enemy ship take 20% less damage from all sources and 25% reduced stun duration.\n"
+"- For each powered level of enemy Life Support, enemy crew gain an additional 15% combat damage, 20% movement speed, 5% maximum health, and 10% faster power charge rate.\n"
+"- 30% reduction to your boarders' sabotage speed."
 
 #: src-en/data/hyperspace.xml.append:388
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[53]/tooltip"
 msgstr ""
-"R.U.E.S.'S GENETICS:\n"
-"Enemy rock, slugs, mantis and leech have the benefits of all the basic crew lab upgrades."
+"R.U.E.S. GENETICS BANK:\n"
+"The enemy's Leech, Slug, Mantis, and Rockman crew are considered to have all three of their respective basic lab upgrades."
 
 #: src-en/data/hyperspace.xml.append:393
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[54]/tooltip"
 msgstr ""
-"GOLDEN SYSTEMS:\n"
-"This ship's systems scale off of their scrap hoard. Every 10 scrap they gain 1% Weapon cooldown speed and every 5 scrap they gain +1% Shield recharge rate."
+"GILDED SYSTEMS:\n"
+"This ship's systems become more efficient the more scrap it carries. Every 10 scrap, its weapons charge 1% faster. Every 5 scrap, its shields regenerate 1% faster."
 
 #: src-en/data/hyperspace.xml.append:398
 msgid ""
@@ -473,23 +470,23 @@ msgid ""
 "append:shipIcon[55]/tooltip"
 msgstr ""
 "SCRAP HOARD:\n"
-"This ship has a personal reserve of 100 scrap, any bonuses the crew or augments have that scales with scrap will instead scale with this."
+"This ship carries 100 scrap in its cargo bay."
 
 #: src-en/data/hyperspace.xml.append:403
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[56]/tooltip"
 msgstr ""
-"INFESTED:\n"
-"Every 25 seconds an enemy spider hatchling will spawn in the same room as your crew. This spider will live for 5 seconds and deals 0.5x damage."
+"SPIDER INFESTATION:\n"
+"Every 25 seconds, a hostile spider will violently burst out of all of your crew. This spider will live for 5 seconds, and deals 0.5x combat damage."
 
 #: src-en/data/hyperspace.xml.append:408
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[57]/tooltip"
 msgstr ""
-"SHADOW MIST:\n"
-"Your projectiles have 25% chance to miss or be nullified before hitting the enemy's hull."
+"CLOAK OF DARKNESS:\n"
+"Your projectiles have a 25% chance to have no effect against this ship."
 
 #: src-en/data/hyperspace.xml.append:413
 msgid ""
@@ -497,7 +494,7 @@ msgid ""
 "append:shipIcon[58]/tooltip"
 msgstr ""
 "FORBIDDEN DESIGN:\n"
-"This enemy is protected by a highly resilient Energy Shield. In addition to the usual Super Shield benefits, It inflicts crew with the blasphemy debuff while in the enemy ship. This debuff completely removes their death effects while on the enemy ship."
+"This enemy is protected by horrific eldritch technology, which projects a 12-point energy shield and inflicts your boarders with Blasphemy until they leave the ship. Blasphemy disables all death effects."
 
 #: src-en/data/hyperspace.xml.append:1742
 msgid "data/hyperspace.xml.append$//powerEffect[@name=\"Fr_Fast\"]/buttonText"
@@ -507,7 +504,7 @@ msgstr "SPEED"
 msgid "data/hyperspace.xml.append$//powerEffect[@name=\"Fr_Fast\"]/tooltip"
 msgstr ""
 "[COOLDOWN:35s]\n"
-"\t\t\tSpeeds up the room by the equivelent effect of a Lvl 1 temporal system."
+"\t\t\tSpeeds up time in the room, as if by a level 1 Temporal Manipulator."
 
 #: src-en/data/hyperspace.xml.append:1778
 msgid "data/hyperspace.xml.append$//powerEffect[@name=\"Fr_Slow\"]/buttonText"
@@ -517,7 +514,7 @@ msgstr "SLOW"
 msgid "data/hyperspace.xml.append$//powerEffect[@name=\"Fr_Slow\"]/tooltip"
 msgstr ""
 "[COOLDOWN:35s]\n"
-"\t\t\tSlows down the room by the equivelent effect of a Lvl 1 temporal system."
+"\t\t\tSlows down time in the room, as if by a level 1 Temporal Manipulator."
 
 #: src-en/data/hyperspace.xml.append:1825
 msgid ""
@@ -531,7 +528,7 @@ msgid ""
 "append:race[@name=\"fr_unique_billvan\"]/powerEffect[1]/tooltip"
 msgstr ""
 "[COOLDOWN:5s]\n"
-"\t\t\tHide in a box. Heals you for 20 hp/s and gives full hazard immunity."
+"\t\t\tBillvan hides in a box. Heals Billvan for 20 hp/s and gives him full hazard immunity."
 
 #: src-en/data/hyperspace.xml.append:1849
 msgid ""
@@ -573,7 +570,7 @@ msgid ""
 "append:race[@name=\"fr_unique_sammy\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:15s  CURRENT MODE: DEBUFF]\n"
-"\t\t\tSwaps between Buff and debuff mode."
+"\t\t\tSwaps between Buff and Debuff mode."
 
 #: src-en/data/hyperspace.xml.append:2016
 msgid ""
@@ -587,7 +584,7 @@ msgid ""
 "append:race[@name=\"fr_unique_sammy_buff\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:15s  CURRENT MODE: BUFF]\n"
-"\t\t\tSwaps between Buff and debuff mode."
+"\t\t\tSwaps between Buff and Debuff mode."
 
 #: src-en/data/hyperspace.xml.append:2058
 msgid ""
@@ -615,7 +612,7 @@ msgid ""
 "append:race[@name=\"fr_sylvan_cel\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:45s]\n"
-"\t\t\t\tDeploy a Breach, Ion, fire and Lockdown bomb (30 crew damage, 2 system damage, 5s stun, 3 ion damage). No crew friendly fire, but can affect your own systems."
+"\t\t\t\tDeploy a Breach, Ion, Fire, and Lockdown bomb (30 crew damage, 2 system damage, 5s stun, 3 ion damage). No crew friendly fire, but can affect your own systems."
 
 #: src-en/data/hyperspace.xml.append:2248
 msgid ""
@@ -642,10 +639,10 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_withered\"]/powerEffect/tooltip"
 msgstr ""
-"Ready: Heal to full health, deal 1 hull damage to the current room, deals x5"
-" boosted sabotage (doesn't stack with the normal bonus) and regenerates 5 "
-"hp/s for 12 seconds. Can't be teleported back to your ship and becomes "
-"uncontrollable for the duration of this effect."
+"Ready: Heal to full health, deal 1 hull damage to the current room, deal x5 "
+"boosted sabotage damage (doesn't stack with the normal bonus) and "
+"regenerates 5 hp/s for 12 seconds. Becomes uncontrollable and unable to "
+"teleport for the duration of this effect."
 
 #: src-en/data/hyperspace.xml.append:2395
 msgid ""
@@ -714,9 +711,9 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_experimental_cognitive\"]/powerEffect/tooltip"
 msgstr ""
-"Current in manual mode mode. Will switch to Automated mode once the ship "
-"jumps to another beacon or sector. Fully heals itself and the system in the "
-"same room as them."
+"Currently in manual mode. Will switch to Automated mode once the ship jumps "
+"to another beacon or sector. Fully heals itself and the system in the same "
+"room as them upon jumping."
 
 #: src-en/data/hyperspace.xml.append:2658
 msgid ""
@@ -729,9 +726,9 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_experimental_cognitive_automated\"]/powerEffect/tooltip"
 msgstr ""
-"Current in Automatic mode mode. Will switch to Manual mode once the ship "
-"jumps to another beacon or sector. Fully heals itself and the system in the "
-"same room as them."
+"Currently in Automatic mode. Will switch to Manual mode once the ship jumps "
+"to another beacon or sector. Fully heals itself and the system in the same "
+"room as them upon jumping."
 
 #: src-en/data/hyperspace.xml.append:3023
 msgid ""
@@ -745,7 +742,7 @@ msgid ""
 "append:race[@name=\"fr_reborn_g\"]/powerEffect/tooltip"
 msgstr ""
 "[CD:30s  DURATION:10s]\n"
-"\t\tBecomes completely damage resistant for 10 seconds but lose 80% of crew damage.\n"
+"\t\tBecomes completely immune to damage for 10 seconds, but lose 80% of crew damage.\n"
 "\t\t\n"
 "\t\tOnly triggers if there's a hostile crew in the room."
 
@@ -777,7 +774,7 @@ msgid ""
 "append:race[@name=\"fr_reborn_cleo\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:30s DURATION:10s]\n"
-"\t\t\tHeals the drones in the same room as cleo for 10 health over 10 seconds.\n"
+"\t\t\tHeals the drones in the same room as Cleo for 10 health over 10 seconds.\n"
 "\t\t\t\n"
 "\t\t\tOnly triggers if there's a friendly crew in the room."
 
@@ -807,7 +804,7 @@ msgid ""
 "append:race[@name=\"fr_reborn_slimer\"]/powerEffect[2]/tooltip"
 msgstr ""
 "[COOLDOWN:20s]\n"
-"\t\t\tEat nearby enemy crew for 40 damage and heals himself for 20 for each enemy in the room.\n"
+"\t\t\tEats all nearby enemy crew for 40 damage and heals himself for 20 for each enemy in the room.\n"
 "\t\t\t\n"
 "\t\t\tOnly triggers if there's a hostile crew in the room."
 
@@ -815,7 +812,7 @@ msgstr ""
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_reborn_phys\"]/powerEffect/buttonText"
-msgstr "IONIZE"
+msgstr "SHOCK"
 
 #: src-en/data/hyperspace.xml.append:3351
 msgid ""
@@ -869,7 +866,7 @@ msgid ""
 "append:race[@name=\"fr_reborn_zulu\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:30s]\n"
-"\t\t\tMoves at 20% speed, has 40% lower damage and sabotage but instantly drains o2 and heals nearby allies by 10 hp/s."
+"\t\t\tMoves at 20% speed and has 40% lower damage and sabotage, but instantly drains oxygen and heals nearby allies by 10 hp/s."
 
 #: src-en/data/hyperspace.xml.append:3731
 msgid ""
@@ -883,9 +880,9 @@ msgid ""
 "append:race[@name=\"fr_reformed_smoke\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:15s  -35HP]\n"
-"\t\t\tLocks down the occupied room for 12 seconds, preventing crew from moving in. Raises ranged damage to 3x but lowers sabotage damage by 50% for 10 seconds.\n"
+"\t\t\tLocks down the occupied room for 12 seconds. Raises ranged damage to 3x but lowers sabotage damage by 50% for 10 seconds.\n"
 "\t\t\n"
-"\t\t\tOnly triggers on enemy system rooms."
+"\t\t\tOnly triggers in enemy system rooms."
 
 #: src-en/data/hyperspace.xml.append:3818
 msgid ""
@@ -899,7 +896,7 @@ msgid ""
 "append:race[@name=\"fr_reformed_chills\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:45s  DURATION:10s]\n"
-"\t\t\tFreezes the temperature of the room, spawning a snowman to attack enemies."
+"\t\t\tLowers the temperature of the room, spawning a Snowman to attack enemies."
 
 #: src-en/data/hyperspace.xml.append:3858
 msgid ""
@@ -913,7 +910,7 @@ msgid ""
 "append:race[@name=\"fr_reformed_pok\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:60s]\n"
-"\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TULLY]"
+"\t\t\tTransforms into a copy of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TULLY]"
 
 #: src-en/data/hyperspace.xml.append:3933
 msgid ""
@@ -927,9 +924,9 @@ msgid ""
 "append:race[@name=\"fr_reformed_charror\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:45s  DURATION:20s]\n"
-"\t\t\tCorrupts nearby non-Charror robotic crew and drones, disabling their AI, preventing them from fighting and sabotaging and making them uncontrollable for 20 seconds. Also halves damage taken.\n"
+"\t\t\tCorrupts nearby robotic crew and drones, completely freezing them for 20 seconds. Also halves damage taken.\n"
 "\t\t\t\n"
-"\t\t\tOnly triggers if there's a hostile crew in the room."
+"\t\t\tOnly triggers if there is a hostile crew in the room."
 
 #: src-en/data/hyperspace.xml.append:4115
 msgid ""
@@ -943,7 +940,7 @@ msgid ""
 "append:race[@name=\"fr_reformed_leo\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:30s  DURATION:10s]\n"
-"\t\t\tHacks the doors of the room they are in for 10 seconds, during that time he gains 5x sabotage damage, damages enemies in the room for 1.5 hp/s and becomes invisible at the cost of taking triple global damage and being unable to fight or move.\n"
+"\t\t\tHacks the doors of the room they are in for 10 seconds. During that time, he gains 5x sabotage damage, damages enemies in the room for 1.5 hp/s, and becomes invisible at the cost of taking triple damage and being unable to fight or move.\n"
 "\t\t\t\n"
 "\t\t\tOnly triggers on enemy system rooms."
 
@@ -959,8 +956,8 @@ msgid ""
 "append:race[@name=\"fr_reformed_searak\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:25s]\n"
-"\t\t\tStart suicide countdown. When countdown is finished, explode for 150 crew damage to all enemies crew in the room while also starting a fire and dealing 2 system damage to the current room. If the countdown is interrupted by death, the ability will be canceled. Cannot activate while stunned or teleporting. \n"
-"\t\t\tThe explosion will only do 25 self-damage to the Martyr. After the explosion triggers, searak will be unable to act for 15 seconds."
+"\t\t\tStart blast countdown. When countdown is finished, explode for 150 crew damage to all enemies crew in the room while also starting a fire and dealing 2 system damage to the current room. If the countdown is interrupted by death, the ability will be canceled. Cannot activate while stunned or teleporting. \n"
+"\t\t\tThe explosion will only do 25 self-damage to Searak, and he will be unable to act for 15 seconds."
 
 #: src-en/data/hyperspace.xml.append:4441
 msgid ""
@@ -1839,7 +1836,7 @@ msgid ""
 "append:race[@name=\"fr_bonus_sally_hatchling\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:20s]\n"
-"\t\t\tMetamorphs into its adult form while also fully healing the crew."
+"\t\t\tMetamorphs into their adult form while also fully healing the crew."
 
 #: src-en/data/hyperspace.xml.append:7222
 msgid ""
@@ -1853,7 +1850,7 @@ msgid ""
 "append:race[@name=\"fr_bonus_sally_adult\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:20s]\n"
-"\t\t\tMetamorphs into its weaver form while also fully healing the crew."
+"\t\t\tMetamorphs into their weaver form while also fully healing the crew."
 
 #: src-en/data/hyperspace.xml.append:7232
 msgid ""
@@ -1873,7 +1870,7 @@ msgid ""
 "append:race[@name=\"fr_bonus_sally_weaver\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:20s  DURATION:10s]\n"
-"\t\t\tFully heal this crew and buffs all other friendly spiders' damage by 2x for 10 seconds."
+"\t\t\tFully heal this crew and buff all other allied Spiders' damage by 2x for 10 seconds."
 
 #: src-en/data/hyperspace.xml.append:7293
 msgid ""
@@ -1885,7 +1882,7 @@ msgstr "Sally"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_prince\"]/powerEffect/buttonText"
-msgstr "SHADOWS"
+msgstr "DARKNESS"
 
 #: src-en/data/hyperspace.xml.append:7341
 msgid ""
@@ -1893,13 +1890,13 @@ msgid ""
 "append:race[@name=\"fr_bonus_prince\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:30s  DURATION:10s]\n"
-"\t\t\tCloaks the room in darkness, nullifing all enemy crew ranged damage and setting their repair and sabotage speed to 0.25x."
+"\t\t\tCloaks the room in shadow, nullifing all enemy crew ranged damage and setting their repair and sabotage speed to 0.25x."
 
 #: src-en/data/hyperspace.xml.append:7436
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_prince_jerry\"]/powerEffect/buttonText"
-msgstr "SHADOWS"
+msgstr "DARKNESS"
 
 #: src-en/data/hyperspace.xml.append:7437
 msgid ""
@@ -1907,7 +1904,7 @@ msgid ""
 "append:race[@name=\"fr_bonus_prince_jerry\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:30s  DURATION:10s]\n"
-"\t\t\tCloaks the room in darkness, setting their repair and sabotage speed to 0.25x."
+"\t\t\tCloaks the room in shadow, setting enemy repair and sabotage speed to 0.25x."
 
 #: src-en/data/hyperspace.xml.append:7524
 msgid ""
@@ -1919,7 +1916,7 @@ msgstr "Tririac"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_tririac\"]/powerEffect/buttonText"
-msgstr "CONTROL"
+msgstr "COMMAND"
 
 #: src-en/data/hyperspace.xml.append:7607
 msgid ""
@@ -1927,7 +1924,7 @@ msgid ""
 "append:race[@name=\"fr_bonus_tririac\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:20s  DURATION:10s]\n"
-"\t\t\tMind controls a random enemy crew in the same room as Tiriac for 10 seconds."
+"\t\t\tMind controls a random enemy in the same room as Tririac for 10 seconds."
 
 #: src-en/data/hyperspace.xml.append:7672
 msgid ""
@@ -2011,7 +2008,7 @@ msgstr "Experimental Mender"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_GHOSTLY_DRONE\"]/tooltipName"
-msgstr "Ghostly BattleDrone"
+msgstr "Ghostly Battle Drone"
 
 #: src-en/data/hyperspace.xml.append:8459
 msgid ""
@@ -2099,7 +2096,7 @@ msgstr ""
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_INFESTATION\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/buttonText"
-msgstr "INFESTED!"
+msgstr "INFESTED"
 
 #: src-en/data/hyperspace.xml.append:12968
 msgid ""
@@ -2163,7 +2160,7 @@ msgid ""
 "append:aug[@name=\"FR_LAB_OSMIAN_ONE_BODY\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:35s DURATION:30s]\n"
-"\t\t\t\t\tGains 25% damage taken resistance, gives 1 power to the current system, can't burn, suffocate or be mind controlled and phases through doors."
+"\t\t\t\t\tPartially fuses with the ship. Gives 1 power to the current system, and gains 25% resistance to damage, immunity to mind control and hazards, and door phasing."
 
 #: src-en/data/hyperspace.xml.append:14127
 msgid ""
@@ -2177,7 +2174,7 @@ msgid ""
 "append:aug[@name=\"FR_LAB_OSMIAN_SOULFUL_LIGHT\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:7s]\n"
-"\t\t\t\t\t\tSpawns a hologram assistant that can do all normal crew functions, with lvl2 skill level. Weaker than the temporary version."
+"\t\t\t\t\t\tSpawns a hologram assistant that can perform all normal crew functions at level 2 skill. Weaker than the temporary version."
 
 #: src-en/data/hyperspace.xml.append:14173
 msgid ""
@@ -2224,38 +2221,38 @@ msgstr ""
 #: src-en/data/hyperspace.xml.append:16336
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_1\"]/name"
-msgstr "Total Ionization"
+msgstr "Unlimited Power"
 
 #: src-en/data/hyperspace.xml.append:16337
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_1\"]/description"
 msgstr ""
 "Have all your weapon slots filled with weapons that deal ion damage while "
-"using any of the commonwealth cruisers."
+"using any of the Commonwealth cruisers."
 
 #: src-en/data/hyperspace.xml.append:16342
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_2\"]/name"
-msgstr "Artillery Frenzy"
+msgstr "Carry A Big Stick"
 
 #: src-en/data/hyperspace.xml.append:16343
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_2\"]/description"
 msgstr ""
-"Upgrade your artillery to level 5 without upgrading your weapon system while"
-" using any of the commonwealth cruisers."
+"Upgrade your Artillery to level 5 without upgrading your Weapon Control "
+"while using any of the Commonwealth cruisers."
 
 #: src-en/data/hyperspace.xml.append:16348
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_3\"]/name"
-msgstr "Ion Overload"
+msgstr "Overwhelming Force"
 
 #: src-en/data/hyperspace.xml.append:16349
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_3\"]/description"
 msgstr ""
 "Have any weapon that deals 5 or more ion damage while using any of the "
-"commonwealth cruisers."
+"Commonwealth cruisers."
 
 #: src-en/data/hyperspace.xml.append:16484
 msgid ""
@@ -3437,8 +3434,8 @@ msgstr "Boon of The Extinct"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_COMMONWEALTH\"]/description"
 msgstr ""
-"Show an Commonwealth crew to Thest. \n"
-"\t\t\t\tWhile in effect; Your Commonwealth crew can teleport anywhere."
+"Show a Commonwealth crew to Thest. \n"
+"\t\t\t\tWhile in effect, your Commonwealth crew can move anywhere by teleporting."
 
 #: src-en/data/hyperspace.xml.append:20880
 msgid ""
@@ -3463,8 +3460,8 @@ msgstr "Boon of The Forgotten"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SALT\"]/description"
 msgstr ""
-"Show an Salt crew to Thest. \n"
-"\t\t\t\tWhile in effect; Your salts become immune to suffocation and stuns."
+"Show a Salt crew to Thest. \n"
+"\t\t\t\tWhile in effect, your Salt crew become immune to suffocation and stun."
 
 #: src-en/data/hyperspace.xml.append:20891
 msgid ""
@@ -3484,14 +3481,14 @@ msgstr "Receive the Boon of ??? from Thest."
 #: src-en/data/hyperspace.xml.append:20899
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_HAUNT_CREW\"]/name"
-msgstr "Boon of Haunters"
+msgstr "Boon of the Lost"
 
 #: src-en/data/hyperspace.xml.append:20900
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_HAUNT_CREW\"]/description"
 msgstr ""
 "Show a Reborn Haunt crew to Thest. \n"
-"\t\t\t\tWhile in effect; All crew can phase through doors and are immune to suffocation damage."
+"\t\t\t\tWhile in effect, all crew can phase through doors and are immune to suffocation damage."
 
 #: src-en/data/hyperspace.xml.append:20902
 msgid ""
@@ -3511,14 +3508,14 @@ msgstr "Receive the Boon of ??? from Thest."
 #: src-en/data/hyperspace.xml.append:20910
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SNOWMAN\"]/name"
-msgstr "Boon of Snow"
+msgstr "Boon of Winter"
 
 #: src-en/data/hyperspace.xml.append:20911
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SNOWMAN\"]/description"
 msgstr ""
 "Show a Snowman crew to Thest. \n"
-"\t\t\t\tWhile in effect; All Snowman crew will slow all enemies in the same room as them by 50%."
+"\t\t\t\tWhile in effect, all Snowman crew will slow all enemies in the same room as them by 50%."
 
 #: src-en/data/hyperspace.xml.append:20913
 msgid ""
@@ -3538,14 +3535,14 @@ msgstr "Receive the Boon of ??? from Thest."
 #: src-en/data/hyperspace.xml.append:20921
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_LAVAMAN\"]/name"
-msgstr "Boon of Lava"
+msgstr "Boon of Summer"
 
 #: src-en/data/hyperspace.xml.append:20922
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_LAVAMAN\"]/description"
 msgstr ""
 "Show a Lavaman crew to Thest. \n"
-"\t\t\t\tWhile in effect; All Lavaman crew will constantly deal 2 damage per second to all enemies in the same room as them."
+"\t\t\t\tWhile in effect, all Lavaman crew will constantly deal 2 damage per second to all enemies in the same room as them."
 
 #: src-en/data/hyperspace.xml.append:20924
 msgid ""
@@ -3571,8 +3568,8 @@ msgstr "Boon of Artificiality"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_AIAVATAR\"]/description"
 msgstr ""
-"Show a AI Avatar crew to Thest. \n"
-"\t\t\t\tWhile in effect; All AI Avatars crew will only use 0.1x the space of a normal crew."
+"Show an AI Avatar crew to Thest. \n"
+"\t\t\t\tWhile in effect, all AI Avatars crew will only use 0.1x the space of a normal crew."
 
 #: src-en/data/hyperspace.xml.append:20935
 msgid ""
@@ -3598,8 +3595,8 @@ msgstr "Boon of The Precursors"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SPHERAX\"]/description"
 msgstr ""
-"Show a spherax crew to Thest. \n"
-"\t\t\t\tWhile in effect; Your spherax crew can't be stunned."
+"Show a Spherax crew to Thest. \n"
+"\t\t\t\tWhile in effect, your Spherax crew can't be stunned."
 
 #: src-en/data/hyperspace.xml.append:20946
 msgid ""
@@ -3624,14 +3621,14 @@ msgstr "Receive the Blessing of ??? from Wakeson."
 
 #: src-en/data/hyperspace.xml.append:20956
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_ION\"]/name"
-msgstr "Blessing of The Ion"
+msgstr "Blessing of Ionization"
 
 #: src-en/data/hyperspace.xml.append:20957
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_ION\"]/description"
 msgstr ""
-"Show a commonwealth weapon to Wakeson. \n"
-"\t\t\t\tWhile in effect; You gain 50% ion resistance."
+"Show a Commonwealth weapon to Wakeson. \n"
+"\t\t\t\tWhile in effect, you gain 50% ion resistance."
 
 #: src-en/data/hyperspace.xml.append:20959
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_ION\"]/header"
@@ -3640,7 +3637,7 @@ msgstr "Blessing Received"
 #: src-en/data/hyperspace.xml.append:20965
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SALT_GUN\"]/name"
-msgstr "Blessing of Seasoning"
+msgstr "Blessing of Salt"
 
 #: src-en/data/hyperspace.xml.append:20966
 msgid ""
@@ -3656,8 +3653,8 @@ msgstr "Receive the Blessing of ??? from Wakeson."
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SALT_GUN\"]/description"
 msgstr ""
-"Show a salt weapon to Wakeson. \n"
-"\t\t\t\tWhile in effect; Immediately gain a random special weapon."
+"Show a Salt weapon to Wakeson. \n"
+"\t\t\t\tWhile in effect, gain a random special weapon at the start of the run."
 
 #: src-en/data/hyperspace.xml.append:20970
 msgid ""
@@ -3683,8 +3680,8 @@ msgstr "Receive the Blessing of ??? from Wakeson."
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_HAUNT_GUN\"]/description"
 msgstr ""
-"Show a haunt weapon to Wakeson. \n"
-"\t\t\t\tWhile in effect; Obtain a random multiverse augment."
+"Show a Haunt weapon to Wakeson. \n"
+"\t\t\t\tWhile in effect, gain a random base Multiverse augment at the start of the run."
 
 #: src-en/data/hyperspace.xml.append:20981
 msgid ""
@@ -3694,7 +3691,7 @@ msgstr "Blessing Received"
 #: src-en/data/hyperspace.xml.append:20987
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_WITHER_GUN\"]/name"
-msgstr "Blessing of Withering"
+msgstr "Blessing of Prototypes"
 
 #: src-en/data/hyperspace.xml.append:20988
 msgid ""
@@ -3710,8 +3707,8 @@ msgstr "Receive the Blessing of ??? from Wakeson."
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_WITHER_GUN\"]/description"
 msgstr ""
-"Show a Prototype Wither weapon to Wakeson. \n"
-"\t\t\t\tWhile in effect; All beam weapons pierce 1 additional shield layer."
+"Show a Prototype weapon to Wakeson. \n"
+"\t\t\t\tWhile in effect, all beam weapons pierce 1 additional shield layer."
 
 #: src-en/data/hyperspace.xml.append:20992
 msgid ""
@@ -3727,7 +3724,7 @@ msgstr "Forgotten Events"
 #: src-en/data/hyperspace.xml.append:21000
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_ENHANCED\"]/name"
-msgstr "Forbidden Snak"
+msgstr "Forbidden Snack"
 
 #: src-en/data/hyperspace.xml.append:21001
 msgid ""
@@ -3737,17 +3734,17 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21002
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_ENHANCED\"]/description"
-msgstr "Rescue one of the last Enhanced crew deep inside augmented space."
+msgstr "Rescue one of the last Enhanced crew deep in Augmented space."
 
 #: src-en/data/hyperspace.xml.append:21003
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_ENHANCED\"]/secretDescription"
-msgstr "Rescue a rare augmented inside their home."
+msgstr "Rescue a rare Augmented inside their home."
 
 #: src-en/data/hyperspace.xml.append:21008
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TESTER\"]/name"
-msgstr "Testing Testing"
+msgstr "Testing, Testing, One, Two, Three"
 
 #: src-en/data/hyperspace.xml.append:21009
 msgid ""
@@ -3767,7 +3764,7 @@ msgstr "Ditch your ship."
 #: src-en/data/hyperspace.xml.append:21016
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_COMMONWEALTH\"]/name"
-msgstr "Common Savior"
+msgstr "New Beginning"
 
 #: src-en/data/hyperspace.xml.append:21017
 msgid ""
@@ -3777,17 +3774,16 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21018
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_COMMONWEALTH\"]/description"
-msgstr ""
-"Repair the broken commonwealth body by bringing it to the end of everything."
+msgstr "Repair a broken Obelisk corpse with the power of the Paragon."
 
 #: src-en/data/hyperspace.xml.append:21019
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_COMMONWEALTH\"]/secretDescription"
-msgstr "Bring back a extinct race of cubes."
+msgstr "Bring back an extinct race of alien cubes."
 
 #: src-en/data/hyperspace.xml.append:21024
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_AUTO\"]/name"
-msgstr "Wealth Out of The Broken"
+msgstr "Old War Machines"
 
 #: src-en/data/hyperspace.xml.append:21025
 msgid ""
@@ -3798,13 +3794,13 @@ msgstr "???"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_AUTO\"]/description"
 msgstr ""
-"Fully repair and integrate the broken aether forge from the commonwealth "
-"auto."
+"Fully repair and integrate the broken Aether Forge from a derelict "
+"Commonwealth auto-ship."
 
 #: src-en/data/hyperspace.xml.append:21027
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_AUTO\"]/secretDescription"
-msgstr "Fully repair and integrate the broken forge."
+msgstr "Fully repair and integrate a broken weapon factory."
 
 #: src-en/data/hyperspace.xml.append:21032
 msgid ""
@@ -3819,17 +3815,17 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21034
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TARTARUS\"]/description"
-msgstr "End G's madness and fully complete the big time bounty."
+msgstr "End G's madness and free the spirits of the damned from Tartarus."
 
 #: src-en/data/hyperspace.xml.append:21035
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TARTARUS\"]/secretDescription"
-msgstr "Help the Spook Chasers (again) with their big time bounty."
+msgstr "Help the Spook Chasers with a big-time bounty."
 
 #: src-en/data/hyperspace.xml.append:21040
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TARTARUS_CHAOS\"]/name"
-msgstr "Flag Shipped"
+msgstr "A Long Detour"
 
 #: src-en/data/hyperspace.xml.append:21041
 msgid ""
@@ -3839,19 +3835,19 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21042
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TARTARUS_CHAOS\"]/description"
-msgstr "Stop Vance 1's evil plan and save the life of vance prime."
+msgstr "Stop Vance 1's evil plan and rescue Vance Prime from his clutches.."
 
 #: src-en/data/hyperspace.xml.append:21043
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TARTARUS_CHAOS\"]/secretDescription"
 msgstr ""
-"Help the Spook Chasers (again) with their big time bounty while in chaos "
-"mode."
+"Help the Spook Chasers with a big-time bounty while undertaking the chaotic "
+"challenge."
 
 #: src-en/data/hyperspace.xml.append:21048
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_OSMIAN\"]/name"
-msgstr "Osmosis Raider"
+msgstr "Enemy Of The State"
 
 #: src-en/data/hyperspace.xml.append:21049
 msgid ""
@@ -3861,20 +3857,16 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21050
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_OSMIAN\"]/description"
-msgstr ""
-"Contribute to the zoltan capital raiding by ensuring the victory of the "
-"\"terrorists\"."
+msgstr "Take the side of the \"terrorists\" and finish what they started."
 
 #: src-en/data/hyperspace.xml.append:21051
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_OSMIAN\"]/secretDescription"
-msgstr ""
-"Take the advice of your Osmian and help the \"terrorists\" take down the "
-"zoltan capital."
+msgstr "Attack the Ministry's capital city."
 
 #: src-en/data/hyperspace.xml.append:21056
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SALT\"]/name"
-msgstr "The Salted Mines"
+msgstr "A Ray Of Hope"
 
 #: src-en/data/hyperspace.xml.append:21057
 msgid ""
@@ -3884,21 +3876,17 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21058
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SALT\"]/description"
-msgstr ""
-"Find the last few members of obyn's species in a salt prison in the middle "
-"of nowhere."
+msgstr "Discover the last remaining members of Obyn's kind."
 
 #: src-en/data/hyperspace.xml.append:21059
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SALT\"]/secretDescription"
-msgstr ""
-"Steal the coordinates from nights to a salt prison and help obyn find the "
-"last few members of his species."
+msgstr "Help a bounty hunter with a very personal quest."
 
 #: src-en/data/hyperspace.xml.append:21064
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHERED\"]/name"
-msgstr "A Mysterious Benefactor"
+msgstr "Mysterious Benefactor"
 
 #: src-en/data/hyperspace.xml.append:21065
 msgid ""
@@ -3908,17 +3896,17 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21066
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHERED\"]/description"
-msgstr "Present a withered crew to Thest."
+msgstr "Present a Withered Lanius to Thest."
 
 #: src-en/data/hyperspace.xml.append:21067
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHERED\"]/secretDescription"
-msgstr "Present a rare augmented lanius to the judges and receive your prize."
+msgstr "Present a rare Augmented Lanius to the Judges."
 
 #: src-en/data/hyperspace.xml.append:21072
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_DEAL\"]/name"
-msgstr "A Deal With The Lanius"
+msgstr "Embrace Mercy"
 
 #: src-en/data/hyperspace.xml.append:21073
 msgid ""
@@ -3928,14 +3916,12 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21074
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_DEAL\"]/description"
-msgstr ""
-"Take the deal by the final withered and refuse to complete your mission."
+msgstr "Take the deal offered by the final Withered vessel."
 
 #: src-en/data/hyperspace.xml.append:21075
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_DEAL\"]/secretDescription"
-msgstr ""
-"Take the deal offered by the strange lanius deep in the dynasty capital."
+msgstr "Accept a suspicious deal deep in the Dynasty's capital."
 
 #: src-en/data/hyperspace.xml.append:21080
 msgid ""
@@ -3950,20 +3936,17 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21082
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_CREWKILL\"]/description"
-msgstr ""
-"Complete the mission to fully clear out the withered from the ancient ship."
+msgstr "Take the deal offered by the final Withered vessel."
 
 #: src-en/data/hyperspace.xml.append:21083
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_CREWKILL\"]/secretDescription"
-msgstr ""
-"Finish the mission to clear out all the strange lanius from the ship in the "
-"dynasty capital."
+msgstr "Reject a suspicious deal deep in the Dynasty's capital."
 
 #: src-en/data/hyperspace.xml.append:21088
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_GOZER_RECRUIT\"]/name"
-msgstr "Hired!"
+msgstr "La Familia"
 
 #: src-en/data/hyperspace.xml.append:21089
 msgid ""
@@ -3973,18 +3956,17 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21090
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_GOZER_RECRUIT\"]/description"
-msgstr ""
-"Bring Goziodeon to the true end and become a official member of the family."
+msgstr "Bring Goziodeon to the true end."
 
 #: src-en/data/hyperspace.xml.append:21091
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_GOZER_RECRUIT\"]/secretDescription"
-msgstr "Become a official member of the crime boss family."
+msgstr "Become a official member of the local mafia."
 
 #: src-en/data/hyperspace.xml.append:21096
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_TRUEEND\"]/name"
-msgstr "A Black Mirror"
+msgstr "Twisted Reflection"
 
 #: src-en/data/hyperspace.xml.append:21097
 msgid ""
@@ -3999,12 +3981,12 @@ msgstr "Bring Vance face to face with his counterpart in the True Ending."
 #: src-en/data/hyperspace.xml.append:21099
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_TRUEEND\"]/secretDescription"
-msgstr "Bring two vance primes together."
+msgstr "Bring two instances of the most evil man in the Multiverse together."
 
 #: src-en/data/hyperspace.xml.append:21104
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_PEACE\"]/name"
-msgstr "Peace Was Always A Option"
+msgstr "Turning Your Back"
 
 #: src-en/data/hyperspace.xml.append:21105
 msgid ""
@@ -4014,17 +3996,19 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21106
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_PEACE\"]/description"
-msgstr "Have Vance make the multiverse flagship stand out peacefully."
+msgstr "Have Vance convince the Multiverse Flagship to stand down."
 
 #: src-en/data/hyperspace.xml.append:21107
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_PEACE\"]/secretDescription"
-msgstr "Have Vance convince the mv flagship to stand down."
+msgstr ""
+"Have the most evil man in the Multiverse convince the Multiverse Flagship to"
+" stand down."
 
 #: src-en/data/hyperspace.xml.append:21112
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_TRUEEND_SPARE\"]/name"
-msgstr "True Pacifist"
+msgstr "Touching The Void"
 
 #: src-en/data/hyperspace.xml.append:21113
 msgid ""
@@ -4035,17 +4019,17 @@ msgstr "???"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_TRUEEND_SPARE\"]/description"
 msgstr ""
-"Have Vance Prime reconsider his motives and give you the paragon willingly."
+"Have Vance Prime reconsider his motives and give you the Paragon willingly."
 
 #: src-en/data/hyperspace.xml.append:21115
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_TRUEEND_SPARE\"]/secretDescription"
-msgstr "Have tully and Jerry convince vance that peace is an option."
+msgstr "Convince the most evil man in the Multiverse to stand down."
 
 #: src-en/data/hyperspace.xml.append:21120
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SAMMY\"]/name"
-msgstr "Friend of the Spider"
+msgstr "A Very Special Episode"
 
 #: src-en/data/hyperspace.xml.append:21121
 msgid ""
@@ -4055,18 +4039,17 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21122
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SAMMY\"]/description"
-msgstr "Recruit Sammy the spider."
+msgstr "Recruit Sammy the Spider."
 
 #: src-en/data/hyperspace.xml.append:21123
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SAMMY\"]/secretDescription"
-msgstr ""
-"Replace Stephan with Sammy by suggesting that Stephan turn himself in."
+msgstr "Suggest that a reformed psychopath turn himself in."
 
 #: src-en/data/hyperspace.xml.append:21128
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_LEAH_RECRUIT\"]/name"
-msgstr "Beam Lover"
+msgstr "The Beam Master"
 
 #: src-en/data/hyperspace.xml.append:21129
 msgid ""
@@ -4076,16 +4059,18 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21130
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_LEAH_RECRUIT\"]/description"
-msgstr "Recruit Leah the beam master."
+msgstr "Recruit Leah."
 
 #: src-en/data/hyperspace.xml.append:21131
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_LEAH_RECRUIT\"]/secretDescription"
-msgstr "Have Jerry on board while remebering leah's name."
+msgstr ""
+"Remember the name of your lifelong nemesis, and find help from a close "
+"friend to convince them."
 
 #: src-en/data/hyperspace.xml.append:21136
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN\"]/name"
-msgstr "Reward Urned"
+msgstr "A Well-Urned Reward"
 
 #: src-en/data/hyperspace.xml.append:21137
 msgid ""
@@ -4100,12 +4085,12 @@ msgstr "Activate the Haunted Urn after acquiring it from G."
 #: src-en/data/hyperspace.xml.append:21139
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN\"]/secretDescription"
-msgstr "Activate the Haunted Urn."
+msgstr "Open a mysterious urn."
 
 #: src-en/data/hyperspace.xml.append:21144
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_UPGRADE\"]/name"
-msgstr "Promotion Urned!"
+msgstr "Promotion Urned."
 
 #: src-en/data/hyperspace.xml.append:21145
 msgid ""
@@ -4115,18 +4100,17 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21146
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_UPGRADE\"]/description"
-msgstr ""
-"Upgrade your urn after defeating the Legion flagship for the first time."
+msgstr "Upgrade your urn after clearing Chaos Tartarus."
 
 #: src-en/data/hyperspace.xml.append:21147
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_UPGRADE\"]/secretDescription"
-msgstr "Upgrade the Haunted Urn in the chaotic tartarus."
+msgstr "Strengthen a mysterious urn with chaos energy."
 
 #: src-en/data/hyperspace.xml.append:21152
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_BONUS\"]/name"
-msgstr "Bonus Urned!"
+msgstr "Bonus Urned."
 
 #: src-en/data/hyperspace.xml.append:21153
 msgid ""
@@ -4136,14 +4120,12 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21154
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_BONUS\"]/description"
-msgstr ""
-"Upgrade your urn by mixing the souls of all the apparitions after beating "
-"them in combat."
+msgstr "Upgrade your urn by beating every Apparition."
 
 #: src-en/data/hyperspace.xml.append:21155
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_BONUS\"]/secretDescription"
-msgstr "Complete all normal and chaotic haunt's apparitions."
+msgstr "Further strengthen a mysterious urn with twisted soul."
 
 #: src-en/data/hyperspace.xml.append:21160
 msgid ""
@@ -4168,7 +4150,7 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:21168
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SPHERAX\"]/name"
-msgstr "Back From Nnonexistance!"
+msgstr "Back From The Brink"
 
 #: src-en/data/hyperspace.xml.append:21169
 msgid ""
@@ -4180,7 +4162,7 @@ msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SPHERAX\"]/description"
 msgstr ""
 "Find the last surviving vault of a bygone race of aliens in the center of "
-"everything."
+"the Multiverse."
 
 #: src-en/data/hyperspace.xml.append:21171
 msgid ""
@@ -4196,12 +4178,12 @@ msgstr "Forgotten Renegades"
 #: src-en/data/hyperspace.xml.append:21178
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_RENEGADE_COMMONWEALTH\"]/name"
-msgstr "High Importance Mission"
+msgstr "High-Importance Mission"
 
 #: src-en/data/hyperspace.xml.append:21179
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_RENEGADE_COMMONWEALTH\"]/description"
-msgstr "Defeat the Commonwealth Renegade and get the big commonwealth gun."
+msgstr "Defeat the Commonwealth Renegade and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21180
 msgid ""
@@ -4227,7 +4209,7 @@ msgstr "Hungry For More?"
 #: src-en/data/hyperspace.xml.append:21189
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SLIMER\"]/description"
-msgstr "Defeat the Slimer Apparition and get the nebula bomb launcher gun."
+msgstr "Defeat the Slimer Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21190
 msgid ""
@@ -4247,7 +4229,7 @@ msgstr "Ionic Instability"
 #: src-en/data/hyperspace.xml.append:21197
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PHYS\"]/description"
-msgstr "Defeat the Phys Apparition and get the ionic pinpoint gun."
+msgstr "Defeat the Phys Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21198
 msgid ""
@@ -4267,7 +4249,7 @@ msgstr "Biological Nemesis"
 #: src-en/data/hyperspace.xml.append:21205
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_ALEENOR\"]/description"
-msgstr "Defeat the Aleenor Apparition and get the anti-bio light laser gun."
+msgstr "Defeat the Aleenor Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21206
 msgid ""
@@ -4287,7 +4269,7 @@ msgstr "Ever-Frozen"
 #: src-en/data/hyperspace.xml.append:21213
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_VIN\"]/description"
-msgstr "Defeat the Vin Apparition and get the frozen missile gun."
+msgstr "Defeat the Vin Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21214
 msgid ""
@@ -4307,7 +4289,7 @@ msgstr "Unwilling Participant"
 #: src-en/data/hyperspace.xml.append:21221
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CLEO\"]/description"
-msgstr "Defeat the Cleo Apparition and get the ghostly spawn drone."
+msgstr "Defeat the Cleo Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21222
 msgid ""
@@ -4327,7 +4309,7 @@ msgstr "Shadow Crusade"
 #: src-en/data/hyperspace.xml.append:21229
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_ZULU\"]/description"
-msgstr "Defeat the Zulu Apparition and get the shadow pinpoint gun."
+msgstr "Defeat the Zulu Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21230
 msgid ""
@@ -4347,7 +4329,7 @@ msgstr "Endless Nightmares"
 #: src-en/data/hyperspace.xml.append:21237
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_G\"]/description"
-msgstr "Defeat the G Apparition and get the eroding beam gun."
+msgstr "Defeat the G Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21238
 msgid ""
@@ -4367,7 +4349,7 @@ msgstr "Bound By Death"
 #: src-en/data/hyperspace.xml.append:21245
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_DEADSHIP\"]/description"
-msgstr "Defeat the Deadship Apparition and get the rainbow ion gun."
+msgstr "Defeat the Deadship Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21246
 msgid ""
@@ -4387,7 +4369,7 @@ msgstr "Crystallized Madness"
 #: src-en/data/hyperspace.xml.append:21253
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SMOKE\"]/description"
-msgstr "Defeat the Smoke Apparition and get the pro-hull crystal gun."
+msgstr "Defeat the Smoke Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21254
 msgid ""
@@ -4407,7 +4389,7 @@ msgstr "Melted Ambition"
 #: src-en/data/hyperspace.xml.append:21261
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CHILLS\"]/description"
-msgstr "Defeat the Chills Apparition and get the fire kernel gun."
+msgstr "Defeat the Chills Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21262
 msgid ""
@@ -4422,12 +4404,12 @@ msgstr "Apparition Vanquished"
 #: src-en/data/hyperspace.xml.append:21268
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_POK\"]/name"
-msgstr "Morphed Self"
+msgstr "Endless Forms"
 
 #: src-en/data/hyperspace.xml.append:21269
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_POK\"]/description"
-msgstr "Defeat the Pok Apparition and get the morph bomb gun."
+msgstr "Defeat the Pok Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21270
 msgid ""
@@ -4447,7 +4429,7 @@ msgstr "[ERROR]"
 #: src-en/data/hyperspace.xml.append:21277
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CHARROR\"]/description"
-msgstr "Defeat the Charror Apparition and get the sentry combat drone."
+msgstr "Defeat the Charror Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21278
 msgid ""
@@ -4467,7 +4449,7 @@ msgstr "Sparking Powers"
 #: src-en/data/hyperspace.xml.append:21285
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_LEO\"]/description"
-msgstr "Defeat the Leo Apparition and get the adapt flak gun."
+msgstr "Defeat the Leo Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21286
 msgid ""
@@ -4487,7 +4469,7 @@ msgstr "Endless Explosions"
 #: src-en/data/hyperspace.xml.append:21293
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SEARAK\"]/description"
-msgstr "Defeat the Searak Apparition and get the energy gatling gun."
+msgstr "Defeat the Searak Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21294
 msgid ""
@@ -4507,7 +4489,7 @@ msgstr "Shielded Innards"
 #: src-en/data/hyperspace.xml.append:21301
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_AUTO\"]/description"
-msgstr "Defeat the Auto Legion Apparition and get the tile beam gun."
+msgstr "Defeat the Auto Legion Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21302
 msgid ""
@@ -4527,7 +4509,7 @@ msgstr "C.I.E."
 #: src-en/data/hyperspace.xml.append:21309
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_WATCHER\"]/description"
-msgstr "Defeat the Watcher Apparition and get the siren pinpoint."
+msgstr "Defeat the Watcher Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21310
 msgid ""
@@ -4542,13 +4524,12 @@ msgstr "Apparition Vanquished"
 #: src-en/data/hyperspace.xml.append:21316
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_FLAGSHIP\"]/name"
-msgstr "Coalition Fission."
+msgstr "Coalition Fission"
 
 #: src-en/data/hyperspace.xml.append:21317
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_FLAGSHIP\"]/description"
-msgstr ""
-"Defeat the Coalition Flagship Apparition and get the cloned RUES leader."
+msgstr "Defeat the Coalition Flagship Apparition and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21318
 msgid ""
@@ -4563,13 +4544,13 @@ msgstr "Apparition Vanquished"
 #: src-en/data/hyperspace.xml.append:21324
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_AUGUSTUS\"]/name"
-msgstr "The Ghost With The Most (Cash)."
+msgstr "The Ghost With The Most (Cash)"
 
 #: src-en/data/hyperspace.xml.append:21325
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_AUGUSTUS\"]/description"
 msgstr ""
-"Defeat the Augustus Apparition, unlock his ship and get the Golden Halberd."
+"Defeat the Augustus Apparition, unlock its ship and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21326
 msgid ""
@@ -4584,14 +4565,13 @@ msgstr "Apparition Vanquished"
 #: src-en/data/hyperspace.xml.append:21332
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SALLY\"]/name"
-msgstr "Last Resort."
+msgstr "Last Resort"
 
 #: src-en/data/hyperspace.xml.append:21333
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SALLY\"]/description"
 msgstr ""
-"Defeat the Sally Apparition, unlock her ship and get the Spectral Spider "
-"Bomb."
+"Defeat the Sally Apparition, unlock its ship and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21334
 msgid ""
@@ -4606,14 +4586,14 @@ msgstr "Apparition Vanquished"
 #: src-en/data/hyperspace.xml.append:21340
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PRINCE\"]/name"
-msgstr "From The Depths."
+msgstr "From The Depths"
 
 #: src-en/data/hyperspace.xml.append:21341
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PRINCE\"]/description"
 msgstr ""
-"Defeat the Prince of Darkness Apparition, unlock their ship and get the "
-"Prince's Hell Cannon."
+"Defeat the Prince of Darkness Apparition, unlock its ship and obtain its "
+"special loot."
 
 #: src-en/data/hyperspace.xml.append:21342
 msgid ""
@@ -4628,14 +4608,13 @@ msgstr "Apparition Vanquished"
 #: src-en/data/hyperspace.xml.append:21348
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_TRIRIAC\"]/name"
-msgstr "Endless Thralldom."
+msgstr "Endless Thralldom"
 
 #: src-en/data/hyperspace.xml.append:21349
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_TRIRIAC\"]/description"
 msgstr ""
-"Defeat the Tririac Apparition, unlock their ship and get Tririac's Abductor "
-"Pinpoint."
+"Defeat the Tririac Apparition, unlock its ship and obtain its special loot."
 
 #: src-en/data/hyperspace.xml.append:21350
 msgid ""
@@ -4705,12 +4684,12 @@ msgstr "Undead Fish"
 #: src-en/data/hyperspace.xml.append:21381
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"FISH_CAUGHT_FR_TARTARUS\"]/secretDescription"
-msgstr "Fish the undead fish. REQUIRES ARC'S FISHING MOD"
+msgstr "Catch a very special fish. REQUIRES ARC'S FISHING MOD"
 
 #: src-en/data/hyperspace.xml.append:21382
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"FISH_CAUGHT_FR_TARTARUS\"]/description"
-msgstr "Catch a Undead Fish."
+msgstr "Catch an Undead Fish."
 
 #: src-en/data/hyperspace.xml.append:21383
 msgid ""
