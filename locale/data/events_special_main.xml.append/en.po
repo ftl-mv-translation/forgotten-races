@@ -98,13 +98,91 @@ msgstr ""
 "\t\n"
 "\t[You can now summon Haunted Apparitions on empty beacons!]"
 
-#: src-en/data/events_special_main.xml.append:297
-msgid "data/events_special_main.xml.append$//event[@name=\"ADDON_FR\"]/text"
+#: src-en/data/events_special_main.xml.append:308
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/text"
 msgstr ""
-"FORGOTTEN RACES\n"
-"\tDeveloped by Gabriel Cooper and HereticChurch\n"
-"\tCurrently Enabled.\n"
-"    \n"
-"\tThis mod brings back the in-cannon extinct subclass of the Ancients/Obelisks called the \"Commonwealth\". It adds content for the now almost extinct salt people race and a new cruiser line for the osmians, as well as a brand new sector with unique music and a few unlocks beacons all throughout the game.\n"
+"Upon arriving at the prison, you notice it's completely empty, save for a single auto-ship blocking the entrance. The prison is completely encased by lead plates, preventing any scans of the inside from here.\n"
+"\t\n"
+"\t    \"An auto-ship? Why would the Rebellion put an auto-cruiser of all things here?\" Obyn ponders out loud. The cruiser ignores all of your hails, and the warning message spewing forth from its comms is somewhat distorted."
+
+#: src-en/data/events_special_main.xml.append:313
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[1]/text"
+msgstr "Let's teach this hunk of metal who's boss!"
+
+#: src-en/data/events_special_main.xml.append:315
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[1]/event/text"
+msgstr ""
+"The ship's drones whirl to life, defending their mothership. This is gonna "
+"be tough."
+
+#: src-en/data/events_special_main.xml.append:318
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[1]/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_special_main.xml.append:324
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[2]/text"
+msgstr "Leave the auto ship alone."
+
+#: src-en/data/events_special_main.xml.append:326
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[2]/event/text"
+msgstr ""
+"You decide you have other more important things to do than chase a mystery. "
+"Obyn is clearly unhappy, taking this moment to resign from your crew."
+
+#: src-en/data/events_special_main.xml.append:329
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[2]/event/removeCrew/text"
+msgstr "Your crew cannot be cloned, as they are still alive."
+
+#: src-en/data/events_special_main.xml.append:336
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/text"
+msgstr ""
+"The giant auto ship breaks apart and is finally silenced, after making sure "
+"its systems are down, you park the ship next to the prison and go explore it"
+" alongside obyn."
+
+#: src-en/data/events_special_main.xml.append:339
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_special_main.xml.append:341
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/text"
+msgstr ""
+"The doors are unlocked - whoever built this facility likely thought the auto-cruiser was enough defense. Within the facility, you find thousands upon thousands of pods, each holding... a number of whitish crystals. Salt people, frozen in stasis, thought extinct!\n"
+"\t\t\t\n"
+"\t\t\t\t  Obyn practically screamed with elation. \"Captain! Holy... shit... I... l-let me open 'em up!\" He sprints to a terminal on the side of the room, mashing away at the keyboard."
+
+#: src-en/data/events_special_main.xml.append:345
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_special_main.xml.append:347
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/choice/event/text"
+msgstr ""
+"The process is a grueling one, taking multiple hours to bring the Salt people within out of stasis without the risk of system shock. Only one out of every ten pods ended up being viable for reanimation... but eventually, another Saltman stepped out of the pod, dazed.\n"
 "\n"
-"\tForgotten Races also adds 146 new ships, 141 weapons and drones not counting artilleries (mostly exclusive to said ships), 54 new crews that can be found on the new ships, a revived questline with dozens of unlocks that wasn't implemented to multiverse years ago and 2 new renegade bosses, both with exclusive weapons. Those ships all have some kinda gimmick, not all of them have a very complicated one however."
+"\t\t\t\t\t\t\t\t  \"W-who...?\" the Salt person asks, looking around. \"It... it worked, Captain! It worked!\" Obyn jumps for joy, sitting down next to the newly refreshed Saltman. However, his joy briefly dampens as he pulls you aside... \"Captain... this may take days, or even weeks to sort out. You can't wait, but... I can. I'm asking you... go on without me.\""
+
+#: src-en/data/events_special_main.xml.append:355
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/choice/event/choice/text"
+msgstr "Are you sure obyn?"
+
+#: src-en/data/events_special_main.xml.append:357
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/choice/event/choice/event/text"
+msgstr ""
+"Obyn looks over the many reunited families as they all step out of their pods. \"Yes, Captain. Though... there's no way I'll leave you empty-handed.\" The once-only Saltman hands you a thumb drive. \"Here's the blueprints to a cruiser for my kin. I wanted to build it, but... I don't think that life is for me anymore. You'll get better use out of it.\"\n"
+"\n"
+"\t\t\t\t\t\t\t\t\t\t\tHe steps forward, careful to not suck all the moisture out of you. \"Feel free to take the weapons from my ship. I won't be using them anymore, either...\" You nod, assuring him of his decision. One of the other Saltmen, inspired by your act of kindness, offers to join your crew. Although the Rebel fleet will certainly have caught up by now, you're not too mad about it."

@@ -22,7 +22,7 @@
 <text name="map_icon_fr_cleo_apparition">@CLEO [!]@</text>
 <text name="map_icon_fr_zulu_apparition">@ZULU [!]@</text>
 <text name="map_icon_fr_g_apparition">@G [!]@</text>
-<text name="map_icon_fr_deadship_apparition">@DEADSHIP [!]@</text>
+<text name="map_icon_fr_deadship_apparition">@THE DEADSHIP [!]@</text>
 
 <text name="map_icon_fr_smoke_apparition">@SMOKE [!]@</text>
 <text name="map_icon_fr_chills_apparition">@CHILLS [!]@</text>
@@ -48,13 +48,43 @@
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 
-<text name="tip_fr_haunt">Tip: Haunt weapons are extremely mysterious pieces of technology which are very well stated for their cost, but have very esoteric effects and can be cumbersome to use.</text>
-<text name="tip_fr_wither">Tip: Wither weapons apply a special crew effect that removes the status immunity from crews hit by it and lasts 10 seconds. This includes: Suffocation, Fire and Stun. Those weapons also don't have any natural chances for fires or breaches, instead they all apply the stacking Erosion effect.</text>
-<text name="tip_fr_wither_crew">Tip: Wither crew drones weren't tested enough to be able to withstand switching modes, their internal components are also too esoteric and incompatible with the body of a techno-morph, preventing them from morphing into those drones.</text>
+<text name="tip_fr_haunt">Tip: Haunt weapons are mysterious pieces of technology forged in the depths of Tartarus. They are very strong, but often highly specialized.</text>
+<text name="tip_fr_wither">Tip: Aenwithe's prototype weapons apply a special crew effect that removes immunity to fire, suffocation, and stun. They rarely create these effects themselves, instead often creating erosion.</text>
+<text name="tip_fr_wither_crew">Tip: Aenwithe's crew drones do not have the capability to withstand switching modes, and are too complex for Technopaths to replicate. They can, however, be very powerful.</text>
 <text name="tip_fr_mfk_loot_1">MFK LOOT
 System damage is converted to hull damage
 Fire chance is converted to breach chance
-Hullbuster</text>
+Has hullbust</text>
 <text name="tip_fr_fish_food">Tip: Check the storage menu to use the fish.</text>
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    TEMP EROSION
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<text name="erosion_chance">Erosion Chance: \1%</text>  <!-- \1: chance, \2 is low/medium/high -->
+<text name="erosion_effect">Erosion: \1 (\2 seconds)</text>  <!-- \1: total damage, \2: duration, \3: damage rate -->
+
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    META
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<text name="addon_hover_fr">FORGOTTEN RACES
+    Currently Enabled.
+    Click to see more info.</text>
+<text name="info_addon_fr">FORGOTTEN RACES
+    Developed by Gabriel Cooper and HereticChurch
+    Currently Enabled.
+
+	This addon expands on a number of canonical races, such as the Commonwealth, Salt, and Osmians, and reimplements a scrapped concept from old Multiverse plans in the form of a brand new secret sector and meta-progression component.
+
+	It also adds 128 new playable ships, 137 weapons and drones, 49 new crew types, and a variety of new bosses to fight. Explore the long-forgotten secrets of the Multiverse like you've never seen before... and indulge in a little bit of power along the way.
+</text>
 
 </FTL>

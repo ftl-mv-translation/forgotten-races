@@ -255,8 +255,7 @@
 	<name>fr_ghost_turzil</name>
 	<name>fr_ghost_stephan</name>
 	<name>fr_ghost_ellie</name>
-	<name>fr_ghost_jerry_pony</name>
-	<name>fr_ghost_jerry_gun</name>
+
 	<name>fr_ghost_jerry</name>
 	<name>fr_ghost_haynes</name>
 	<name>fr_ghost_tully</name>
@@ -332,8 +331,6 @@
 	<name>fr_ghost_turzil</name>
 	<name>fr_ghost_stephan</name>
 	<name>fr_ghost_ellie</name>
-	<name>fr_ghost_jerry_pony</name>
-	<name>fr_ghost_jerry_gun</name>
 	<name>fr_ghost_jerry</name>
 	<name>fr_ghost_haynes</name>
 	<name>fr_ghost_tully</name>
@@ -449,8 +446,6 @@
 	<name>fr_ghost_turzil</name>
 	<name>fr_ghost_stephan</name>
 	<name>fr_ghost_ellie</name>
-	<name>fr_ghost_jerry_pony</name>
-	<name>fr_ghost_jerry_gun</name>
 	<name>fr_ghost_jerry</name>
 	<name>fr_ghost_haynes</name>
 	<name>fr_ghost_tully</name>
@@ -515,8 +510,6 @@
 	<name>fr_ghost_turzil</name>
 	<name>fr_ghost_stephan</name>
 	<name>fr_ghost_ellie</name>
-	<name>fr_ghost_jerry_pony</name>
-	<name>fr_ghost_jerry_gun</name>
 	<name>fr_ghost_jerry</name>
 	<name>fr_ghost_haynes</name>
 	<name>fr_ghost_tully</name>
@@ -573,8 +566,6 @@
 	<name>fr_ghost_turzil</name>
 	<name>fr_ghost_stephan</name>
 	<name>fr_ghost_ellie</name>
-	<name>fr_ghost_jerry_pony</name>
-	<name>fr_ghost_jerry_gun</name>
 	<name>fr_ghost_jerry</name>
 	<name>fr_ghost_haynes</name>
 	<name>fr_ghost_tully</name>
@@ -695,8 +686,6 @@
 	<name>fr_ghost_turzil</name>
 	<name>fr_ghost_stephan</name>
 	<name>fr_ghost_ellie</name>
-	<name>fr_ghost_jerry_pony</name>
-	<name>fr_ghost_jerry_gun</name>
 	<name>fr_ghost_jerry</name>
 	<name>fr_ghost_haynes</name>
 	<name>fr_ghost_tully</name>
@@ -735,8 +724,6 @@
 	<name>fr_ghost_turzil</name>
 	<name>fr_ghost_stephan</name>
 	<name>fr_ghost_ellie</name>
-	<name>fr_ghost_jerry_pony</name>
-	<name>fr_ghost_jerry_gun</name>
 	<name>fr_ghost_jerry</name>
 	<name>fr_ghost_haynes</name>
 	<name>fr_ghost_tully</name>
@@ -1199,8 +1186,6 @@
 	<mod-append:name>fr_ghost_turzil</mod-append:name>
 	<mod-append:name>fr_ghost_stephan</mod-append:name>
 	<mod-append:name>fr_ghost_ellie</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_pony</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_gun</mod-append:name>
 	<mod-append:name>fr_ghost_jerry</mod-append:name>
 	<mod-append:name>fr_ghost_haynes</mod-append:name>
 	<mod-append:name>fr_ghost_tully</mod-append:name>
@@ -1465,8 +1450,6 @@
 	<mod-append:name>fr_ghost_turzil</mod-append:name>
 	<mod-append:name>fr_ghost_stephan</mod-append:name>
 	<mod-append:name>fr_ghost_ellie</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_pony</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_gun</mod-append:name>
 	<mod-append:name>fr_ghost_jerry</mod-append:name>
 	<mod-append:name>fr_ghost_haynes</mod-append:name>
 	<mod-append:name>fr_ghost_tully</mod-append:name>
@@ -1636,8 +1619,6 @@
 	<mod-append:name>fr_ghost_turzil</mod-append:name>
 	<mod-append:name>fr_ghost_stephan</mod-append:name>
 	<mod-append:name>fr_ghost_ellie</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_pony</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_gun</mod-append:name>
 	<mod-append:name>fr_ghost_jerry</mod-append:name>
 	<mod-append:name>fr_ghost_haynes</mod-append:name>
 	<mod-append:name>fr_ghost_tully</mod-append:name>
@@ -1779,8 +1760,6 @@
 	<mod-append:name>fr_ghost_turzil</mod-append:name>
 	<mod-append:name>fr_ghost_stephan</mod-append:name>
 	<mod-append:name>fr_ghost_ellie</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_pony</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_gun</mod-append:name>
 	<mod-append:name>fr_ghost_jerry</mod-append:name>
 	<mod-append:name>fr_ghost_haynes</mod-append:name>
 	<mod-append:name>fr_ghost_tully</mod-append:name>
@@ -4487,7 +4466,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_QUEST_BROKEN_COMMONWEALTH_AUTO" layout="fr_boss_quest_broken_commonwealth_auto" img="fr_boss_quest_broken_commonwealth_auto">
-	<class>Broken Commonwealth Auto</class>
+	<class>Derelict Forgecraft</class>
 	<systemList>
 		<drones power="5" max="5" room="5" start="true" />
 		<engines power="2" max="2" room="3" start="true" />
@@ -4514,7 +4493,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_QUEST_AUTO_CRUISER" layout="fr_boss_quest_auto_cruiser" img="fr_boss_quest_auto_cruiser">
-	<class>Auto Cruiser Class</class>
+	<class>Auto-Cruiser</class>
 	<systemList>
 		<cloaking power="1" max="1" room="10" start="true" />
 		<doors power="3" max="3" room="8" start="true" />
@@ -4544,7 +4523,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_QUEST_AUGMENTED_CRUISER" layout="fr_boss_quest_augmented_cruiser" img="fr_boss_quest_augmented_cruiser">
-	<class>Augmented Cruiser Class</class>
+	<class>Augmented Cruiser</class>
 	<systemList>
 		<engines power="1" max="1" room="6" start="true" />
 		<medbay power="3" max="3" room="4" start="true" />
@@ -4567,7 +4546,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_QUEST_WITHER_CRUISER" layout="fr_boss_quest_wither_cruiser" img="fr_boss_quest_wither_cruiser">
-	<class>Wither Cruiser</class>
+	<class>Peculiar Cruiser</class>
 	<systemList>
 		<artillery power="2" max="2" room="3" start="true" weapon="FR_ARTILLERY_ALT_WITHER" />
 		<clonebay power="1" max="1" room="17" start="true" />
@@ -4593,7 +4572,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_GB_GOZER" layout="fr_gb_gozer" img="fr_gb_gozer">
-	<class>Boss Capital Ship</class>
+	<class>Goziodeon's Cruiser</class>
 	<systemList>
 		<doors power="2" max="2" room="16" start="true" />
 		<drones power="4" max="4" room="11" start="true" />
@@ -4624,7 +4603,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="MU_ZOLTAN_CRUISER_ELITE" layout="mu_zoltan_cruiser_elite" img="mu_zoltan_cruiser_elite">
-	<class>Peace-Keeping Cruiser</class>
+	<class>Peacekeeping Cruiser</class>
 	<minSector>1</minSector>
 	<maxSector>8</maxSector>
 	<systemList>
@@ -4807,7 +4786,7 @@
 -->
 
 <shipBlueprint name="FR_BOSS_HAUNT_SLIMER" layout="fr_boss_haunt_slimer" img="fr_boss_haunt_slimer">
-	<class>Slime Class</class>
+	<class>Gooey Jailer</class>
 	<systemList>
 		<engines power="5" max="5" room="9" start="true" />
 		<medbay power="4" max="4" room="4" start="true" />
@@ -4835,7 +4814,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_HAUNT_PHYS" layout="fr_boss_haunt_phys" img="fr_boss_haunt_phys">
-	<class>Ion Class</class>
+	<class>Electrified Transport</class>
 	<systemList>
 		<battery power="3" max="3" room="10" start="true" />
 		<engines power="3" max="3" room="8" start="true" />
@@ -4864,7 +4843,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_HAUNT_ALEENOR" layout="fr_boss_haunt_aleenor" img="fr_boss_haunt_aleenor">
-	<class>Bio Class</class>
+	<class>Ethereal Mothership</class>
 	<systemList>
 		<cloaking power="5" max="5" room="2" start="true" />
 		<clonebay power="3" max="3" room="11" start="true" />
@@ -4894,7 +4873,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_HAUNT_VIN" layout="fr_boss_haunt_vin" img="fr_boss_haunt_vin">
-	<class>Lava Class</class>
+	<class>Molten Transport</class>
 	<systemList>
 		<engines power="1" max="1" room="8" start="true" />
 		<medbay power="4" max="4" room="2" start="true" />
@@ -4922,7 +4901,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_HAUNT_CLEO" layout="fr_boss_haunt_cleo" img="fr_boss_haunt_cleo">
-	<class>Drone Class</class>
+	<class>Lonesome Guard</class>
 	<systemList>
 		<artillery power="3" max="3" room="3" start="true" weapon="FR_ARTILLERY_HAUNT_CLEO_ENEMY" />
 		<clonebay power="3" max="3" room="13" start="true" />
@@ -4952,7 +4931,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_HAUNT_ZULU" layout="fr_boss_haunt_zulu" img="fr_boss_haunt_zulu">
-	<class>Holy Class</class>
+	<class>Luminous Destroyer</class>
 	<systemList>
 		<doors power="3" max="3" room="11" start="true" />
 		<engines power="4" max="4" room="3" start="true" />
@@ -4979,7 +4958,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_HAUNT_G" layout="fr_boss_haunt_g" img="fr_boss_haunt_g">
-	<class>Necromancer Class</class>
+	<class>G's Battleship</class>
 	<systemList>
 		<artillery power="3" max="3" room="12" start="true" weapon="FR_ARTILLERY_NECROMANTIC_PORTAL" />
 		<clonebay power="3" max="3" room="5" start="true" />
@@ -5009,7 +4988,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_CHAOS_HAUNT_SMOKE" layout="fr_boss_chaos_haunt_smoke" img="fr_boss_chaos_haunt_smoke">
-	<class>Carbon Class</class>
+	<class>Smoldering Transport</class>
 	<systemList>
 		<drones power="8" max="8" room="1" start="true" />
 		<engines power="1" max="1" room="6" start="true" />
@@ -5036,7 +5015,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_CHAOS_HAUNT_CHILLS" layout="fr_boss_chaos_haunt_chills" img="fr_boss_chaos_haunt_chills">
-	<class>Frost Class</class>
+	<class>Frozen Guard</class>
 	<systemList>
 		<engines power="2" max="2" room="10" start="true" />
 		<clonebay power="2" max="2" room="1" start="true" />
@@ -5061,7 +5040,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_CHAOS_HAUNT_POK" layout="fr_boss_chaos_haunt_pok" img="fr_boss_chaos_haunt_pok">
-	<class>Kop Class</class>
+	<class>Ectoplasmic Stoops</class>
 	<systemList>
 		<doors power="3" max="3" room="4" start="true" />
 		<engines power="3" max="3" room="7" start="true" />
@@ -5088,7 +5067,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_CHAOS_HAUNT_CHARROR" layout="fr_boss_chaos_haunt_charror" img="fr_boss_chaos_haunt_charror">
-	<class>Corrupt Class</class>
+	<class>Corrupted Station</class>
 	<systemList>
 		<clonebay power="3" max="3" room="1" start="true" />
 		<doors power="3" max="3" room="10" start="true" />
@@ -5121,7 +5100,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_CHAOS_HAUNT_LEO" layout="fr_boss_chaos_haunt_leo" img="fr_boss_chaos_haunt_leo">
-	<class>EMP Class</class>
+	<class>Disrupting Picket</class>
 	<systemList>
 		<clonebay power="1" max="1" room="5" start="true" />
 		<engines power="8" max="8" room="13" start="true" />
@@ -5146,7 +5125,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_CHAOS_HAUNT_SEARAK" layout="fr_boss_chaos_haunt_searak" img="fr_boss_chaos_haunt_searak">
-	<class>Energy Class</class>
+	<class>Energized Bomber</class>
 	<systemList>
 		<clonebay power="4" max="4" room="7" start="true" />
 		<engines power="1" max="1" room="3" start="true" />
@@ -5171,7 +5150,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_CHAOS_HAUNT_AUTO" layout="fr_boss_chaos_haunt_auto" img="fr_boss_chaos_haunt_auto">
-	<class>Legion AutoShip Class</class>
+	<class>Legionnaire Auto-Transport</class>
 	<systemList>
 		<cloaking power="2" max="2" room="2" start="true" />
 		<doors power="3" max="3" room="13" start="true" />
@@ -5200,7 +5179,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_CHAOS_HAUNT_WATCHER" layout="fr_boss_chaos_haunt_watcher" img="fr_boss_chaos_haunt_watcher">
-	<class>????</class>
+	<class>The Watcher</class>
 	<systemList>
 		<artillery power="3" max="3" room="2" start="true" weapon="FR_ARTILLERY_WATCHER" />
 		<artillery power="3" max="3" room="1" start="true" weapon="FR_ARTILLERY_WATCHER" />
@@ -5226,33 +5205,32 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_BOSS_CHAOS_HAUNT_LEGION_FLAGSHIP" layout="fr_boss_chaos_haunt_legion_flagship" img="fr_boss_chaos_haunt_legion_flagship">
-	<class>Legion Flagship Class</class>
+	<class>Legionnare Flagship</class>
 	<systemList>
-		<artillery power="3" max="3" room="6" start="true" weapon="FR_ARTILLERY_LEGION_FLAGSHIP_ION" />
-		<artillery power="3" max="3" room="3" start="true" weapon="FR_ARTILLERY_LEGION_FLAGSHIP_LASER" />
-		<artillery power="3" max="3" room="2" start="true" weapon="FR_ARTILLERY_LEGION_FLAGSHIP_MISSILE" />
-		<artillery power="3" max="3" room="7" start="true" weapon="FR_ARTILLERY_LEGION_FLAGSHIP_BEAM" />
-		<doors power="3" max="3" room="17" start="true" />
-		<drones power="3" max="3" room="8" start="true" />
-		<engines power="2" max="2" room="20" start="true" />
-		<medbay power="3" max="3" room="4" start="true" />
-		<mind power="3" max="3" room="9" start="true" />
-		<oxygen power="2" max="2" room="16" start="true" />
-		<pilot power="3" max="3" room="0" start="true" />
-		<shields power="2" max="12" room="15" start="true" />
-		<teleporter power="4" max="4" room="1" start="true" />
-		<temporal power="2" max="2" room="5" start="true" />
+		<artillery power="2" max="2" room="6" start="true" weapon="FR_ARTILLERY_LEGION_FLAGSHIP_ION_ENEMY" />
+		<artillery power="2" max="2" room="3" start="true" weapon="FR_ARTILLERY_LEGION_FLAGSHIP_LASER_ENEMY" />
+		<artillery power="2" max="2" room="2" start="true" weapon="FR_ARTILLERY_LEGION_FLAGSHIP_MISSILE_ENEMY" />
+		<artillery power="2" max="2" room="7" start="true" weapon="FR_ARTILLERY_LEGION_FLAGSHIP_BEAM_ENEMY" />
+		<doors power="2" max="2" room="17" start="true" />
+		<drones power="1" max="1" room="8" start="true" />
+		<engines power="1" max="1" room="20" start="true" />
+		<medbay power="2" max="2" room="4" start="true" />
+		<mind power="2" max="2" room="9" start="true" />
+		<oxygen power="1" max="1" room="16" start="true" />
+		<pilot power="2" max="2" room="0" start="true" />
+		<shields power="8" max="12" room="15" start="true" />
+		<teleporter power="2" max="2" room="1" start="true" />
+		<temporal power="1" max="1" room="5" start="true" />
 		<weapons power="5" max="5" room="14" start="true" />
 	</systemList>
 	<weaponSlots>2</weaponSlots>
 	<droneSlots>2</droneSlots>
-	<weaponList missiles="15" count="2">
+	<weaponList missiles="10" count="2">
 		<weapon name="LANCE_1" />
 		<weapon name="BOMB_CLUSTER" />
 	</weaponList>
-	<droneList drones="15" count="2">
+	<droneList drones="10" count="1">
 		<drone name="DRONE_SHIELD" />
-		<drone name="COMBAT_1_BEAM" />
 	</droneList>
 	<health amount="45" />
 	<maxPower amount="90" />
@@ -5477,7 +5455,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_APPARITION_DEADSHIP" layout="fr_apparition_deadship" img="fr_apparition_deadship">
-	<class>Apparition Cruiser</class>
+	<class>Apparition Flagship</class>
 	<systemList>
 		<artillery power="2" max="3" room="17" start="true" weapon="FR_ARTILLERY_HAUNT_FLAGSHIP_PHASE" />
 		<artillery power="2" max="3" room="2" start="true" weapon="FR_ARTILLERY_HAUNT_FLAGSHIP_LASER" />
@@ -5743,7 +5721,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="FR_APPARITION_FLAGSHIP" layout="fr_apparition_flagship" img="fr_apparition_flagship">
-	<class>Apparition Cruiser</class>
+	<class>Apparition Flagship</class>
 	<systemList>
 		<artillery power="2" max="3" room="10" start="true" weapon="FR_ARTILLERY_RUES_FLAGSHIP_LEECH" />
 		<artillery power="2" max="3" room="7" start="true" weapon="FR_ARTILLERY_RUES_FLAGSHIP_SLUG" />

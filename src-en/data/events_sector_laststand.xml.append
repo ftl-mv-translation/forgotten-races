@@ -7,7 +7,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_LEGION_FLAGSHIP" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "The Legion?! And their Flagship, no less?!!" An awkward pause ensures as they realize your intentions aren't even remotely hostile. "W-Wait... you aren't here on Vance's orders? W-Well, in that case... destroy that Flagship, leave this reality and never come back!"</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "The Legion?! And their Flagship, no less?!!" An awkward pause ensures as they realize your intentions aren't even remotely hostile. "W-Wait... you aren't here on Vance's orders? W-Well, in that case... g-go destroy that Flagship, leave this reality and never come back!"</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -27,7 +27,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_TESTER_A" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Is that... The Tester? ...I can't believe it, I never thought I would see the day that ship would ever take to space again, but here it is!" Tully seems unusually elated by the sight and elaborates further.
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Is that... The Tester? ...I can't believe it. I never thought I would see the day that ship would ever take to space again, but here it is!" Tully seems unusually elated by the sight and elaborates further.
 					
 					"That was the very first ship I ever took command of. It was in service as a Federation training vessel for an incredibly long time, but its FTL Drive was completely destroyed in combat against the Rebels. At the time, we weren't able to find a compatible drive to replace the broken one, so we were forced to relegate the ship to the testing of experimental tech. It really warms my heart to see it back in service."</text>
 					<choice hidden="true">
@@ -39,7 +39,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_TESTER_B" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I see Arcadia finally decided to get involved in the war. Frankly, it's about time. But the fact that our savior is a fully-automated ship is very worrisome, so we will have to keep a close eye on you. Now go, destroy that Flagship."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I see Arcadia finally decided to get involved in the war. Frankly, it's about time. The fact that our savior is a fully-automated ship is very worrisome, so... we will have to keep a close eye on you. Go now, and blow up that Flagship."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -49,7 +49,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_TESTER_C" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I recognize that ship... the fate of its last crew was gruesome beyond words, and yet somehow the ship is still flying. I hope that your crew are more successful than the last one, Captain. Godspeed."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I recognize that ship... the fate of its last crew was gruesome beyond words, and yet... somehow... the ship is still flying. I hope that your crew are more successful than her last, Captain. Godspeed."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -79,7 +79,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_REAL" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I... what... how..." He stutters as he stares as the screen before recoiling in pain and yelling. "JUST GO!"</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I... what... how..." He stutters as he stares as the screen, the mere presence of your ship something he never could have expected. After a while, he sputters out a few words. "...just go!"</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -89,7 +89,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_RUES_FLAGSHIP" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He immediately jumps back at the sight of your ship and is about to order all nearby ships to open fire on you. Somehow, you're able to explain to Tully that your intentions are not hostile. "Fine, just... just go. Don't make me regret this."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He immediately jumps back at the sight of your ship and orders all nearby ships to open fire on you. Somehow, you're able to defuse the situation and explain to Tully that your intentions are not hostile. "Fine, just... just go. Don't make me regret this."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -99,7 +99,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_FEDERATION_FLAGSHIP" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. His demeanor quickly shifts at the sight of your ship. "That's our Prototype! It took way too long to get here, we've already lost so many good men to the Rebels... you already know what you need to do, now get to it. I have faith in your abilities."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. His demeanor quickly shifts at the sight of your ship. "Ahhh, that's our Prototype! It took way too long to get here, we've already lost so many good men to the Rebels... you already know what you need to do. Now, get to it! I have faith in your abilities."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -109,7 +109,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_SALT_BATTLESHIP" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Is that... no way, that's an actual Salt Cruiser! I thought for certain that the Exotic Hunter's Guild had destroyed all traces of your existence... and yet here you are. Let's hope that the arsenal you bring is effective against more than just Slugs."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Is that... no way, that's an actual Salt Cruiser! I thought for certain that the Exotic Hunter's Guild had destroyed all traces of your existence... and yet, here you are. Let's hope that the arsenal you bring is effective against more than just Slugs."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -129,7 +129,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_WITHER_GUARDIAN" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He looks in bewilderment at your ship. "I can't make sense of this... your vessel looks familiar, but yet we cannot identify anything about it. Whoever you are, I hope you came with good intentions. And if you have, please assist us in defeating the Flagship."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He looks in bewilderment at your ship. "I can't make sense of this... your vessel looks familiar, but we cannot identify anything about it. Whoever you are, I hope you came with good intentions. And if you have, please assist us in defeating the Flagship."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -149,7 +149,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_HAUNT_DEADSHIP" blue="false"> <!-- Type A/B -->
                 <text>Contact Federation command.</text>
                 <event>
-                    <text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He jumps back at the sight of your ship. "A third party managed to capture a rebel flagship? Or, at least most of one... I don't know who you are or understand how your ship is still fully functional. If you're able to take out the Multiverse Flagship with that, can you bring it back to us so we can take a look?"</text>
+                    <text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He jumps back at the sight of your ship. "A third party managed to capture a rebel flagship? Or, at least, most of one... I don't know who you are or understand how your ship is still fully functional. If you're able to take out the Multiverse Flagship with that, can you bring it back to us so we can take a look?"</text>
                     <choice hidden="true">
                         <text>Continue...</text>
                         <event load="LAST_STAND_START_2"/>
@@ -199,7 +199,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_VANCE_CREWSER" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He jumps back in complete horror at the sight of your ship. "D-Don't shoot, we surrender!" You spend several moments trying to reason with everyone, but eventually they stop panicking. "I can't believe you of all people have come to our aid... if what you say is true, then you will have no qualms about destroying the Flagship. Now go. And don't come back."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He jumps back in complete horror at the sight of your ship. "D-Don't shoot, we surrender!" You spend several moments trying to reason with everyone, but eventually they stop panicking. "I can't believe you of all people have come to our aid... if what you say is true, then you will certainly have no qualms about destroying the Flagship. Now go. And don't come back."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -259,7 +259,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_SAMMY_CREWSER" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Hold on... I recognize you from children's television of all places, 'Sammy and Friends'. I don't understand what compelled you to come here, but it's too late to back down now. Let's hope that your cruiser came here with more intentions than just promoting the brand."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Hold on... I recognize you... 'Sammy and Friends', right? I don't understand what compelled you to come here, but it's too late to back down now. Let's hope that your cruiser came here with more intentions than just promoting the brand."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -409,7 +409,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_LEGON_AUTO" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He recoils in shock at the sight of your ship. "An automated vessel painted in the colors of the Legion? Vance must be going crazy... but we've received no substantial reports of this ship attacking civilians or Federation personnel. I hope this means that you're not on the Rebellion's side, and that you're willing to take on their Flagship."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He recoils in shock at the sight of your ship. "An automated vessel, painted in the colors of the Legion? Vance must be going crazy... but we've received no substantial reports of this ship attacking civilians or Federation personnel. I hope this means that you're not on the Rebellion's side, and that you're willing to take on their Flagship."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -429,7 +429,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_FEDERATION_AUTO" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He looks surprised at the sight of your ship. "Our Automated Cruiser project actually succeeded? Well I never... I'm impressed that you've managed to get this far, now go and complete the mission. Don't let us down."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He looks surprised at the sight of your ship. "Our Automated Cruiser project actually succeeded? Well I never... I'm impressed that you've managed to get this far. Now, go and complete your mission. Don't let us down."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -439,7 +439,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_WATCHER" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I... where... what's... happening? Why do I feel so... sleepy, all of a sudden? ...Oh... I heard some of the reports surrounding your ship... I won't mess with you if you don't mess with us, deal? Now, please... destroy that Flagship." </text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "I... where... what's... happening? Why do I feel so... sleepy, all of a sudden? ...Oh... I heard some of the reports surrounding your ship... I won't mess with you if you don't mess with us, deal? Now, please... destroy that Flagship."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -449,7 +449,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_CEL_AUTO" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "What...Is that? A auto ship obviously, yet it feels like it's much more advanced than anything we ever made. I really hope you wish to help us, as I'm not sure if we could take you on at our current state." </text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "What... is that? An automated ship, obviously, yet... it feels like it's much more advanced than anything we ever made. I really hope you wish to help us, as I'm not sure if we could take you on at our current state."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -459,7 +459,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_AUGUSTUS" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He looks surprised at the sight of your ship. "Wow...A ship that size made out of such rare materials is not something I would ever expect to see. Let's hope your ship fights as well as it shines."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He looks surprised at the sight of your ship. "Wow... A ship that size made out of such rare materials is not something I would ever expect to see. Let's hope your ship fights as well as it shines."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -469,7 +469,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_SALLY" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He jumps back at the sight of your ship. "YOU GOTTA BE KIDDING ME?! GHOST SPIDERS?! If there's anyone sentient there then just go destroy the flagship or leave and never come back!"</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He jumps back at the sight of your ship. "YOU GOTTA BE KIDDING ME?! GHOST SPIDERS?! If there's anyone sentient there, then... just go destroy the Flagship... o-or, leave and never come back!"</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -479,7 +479,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_LEAH_CREWSER" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "That's a interesting paintjob for the mv rebel cruiser, don't think I have seen any of those in the wild. Oh, wait a moment, I think I recognise the owner of this cruiser, isn't she the daughter of some super rich rebel guy? I wonder why she decided to aid the federation with all the money her daddy has. Or maybe you just stole it, doesn't matter to me, all that matters is taking down the flagship."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "That's a interesting paintjob for your cruiser model, don't think I've seen any out there. Oh... wait a moment, I... think I know who drives a ship like that, isn't she the daughter of some super rich Rebel guy? I wonder why she decided to aid the Federation, what with all the money her daddy has. Or... maybe you just stole it. Doesn't matter to me, all that matters is if it can take down the Flagship."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -489,7 +489,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_JUDGES" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "That hull is strangely similar to the reports we received about a strange ship that seems to appear right before the flagship appears, very strange don't you think? Either way, if you want to be useful this time around, we would greatly accept your help."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "That hull is... shockingly similar to Federation reports about an unknown ship, commonly seen interacting with Renegades around the Flagship. Very strange, don't you think? Either way, if you want to be useful this time around, we would greatly accept your help."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -499,7 +499,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_PRINCE" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. You can see him squinting his eyed at the screen, as if he was trying to make out the shape of your ship. "What am I suppouse to be looking at? The sensor clearly says someone is there, but I can't for the life of me make out anything in the cameras. Well, whoever or whatever you are, please go take out the flagship."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. You can see him squinting his eyed at the screen, as if he was trying to make out the shape of your ship. "What am I supposed to be looking at? The sensor clearly says someone is there, but I can't for the life of me make out anything in the cameras. Well, whoever or whatever you are, please go take out the Flagship."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -509,7 +509,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_TRIRIAC" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. Everyone in the room just stares at you for a few minutes before the call ends, the ships protecting the entrance power down their weapons letting you pass. Suddenly he seems to regain his consciousness, though for some reason he believed he willingly allowed you to pass.</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. Everyone in the room just stares at you for a few minutes before the call ends, and the ships protecting the entrance power down their weapons letting you pass. Tully regains his consciousness just as the call ends, though he believes he willingly allowed you to pass.</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -519,7 +519,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_SPHERAX" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "What kind of ship is that even? I saw thousands of renegades pass through this very checkpoint, and none of them ever looked like...this. Whatever you are, please help us."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "What... kind of ship is that? I've seen thousands of Renegades pass through this very checkpoint, and none of them ever looked like... this. Whatever you are, please help us."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -532,24 +532,18 @@
 
 <mod:findName type="event" name="LAST_STAND_START_2">
 	<mod-append:choice hidden="true" req="unique_vance" blue="true">
-		<text>(Vance) Contact Tully.</text>
-		<event>
-			<text>As soon as Tully lays his eyes on Vance, they immediately get in the call with him.</text>
-			<choice hidden="true">
-				<text>Continue...</text>
-				<event load="FR_TULLY_CONTACT_VANCE"/>
-			</choice>
-		</event>
+		<text>(Vance Prime) Contact Tully.</text>
+		<event load="FR_TULLY_CONTACT_VANCE"/>
 	</mod-append:choice>
 </mod:findName>
 
 <event name="FR_TULLY_CONTACT_VANCE">
-	<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. Tully's expression is in clear shock at the sight of your crew. His eyes can be seen flooding with such endless disbelief, disdain and pure, unadulterated confusion, that he stays silent for several minutes. The rest of the officers remain still, staring at him and back at you, waiting for whatever order Tully might give to them. Suddenly, Tully speaks up... or rather, he shouts out. "VANCE?! What the hell are you doing here?!"</text>
+	<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. Tully's expression is in clear shock at the sight of your crew. His eyes can be seen flooding with endless disbelief, disdain and pure, unadulterated confusion, and he stays silent for several minutes. The rest of the officers remain still, awkwardly staring at him and back at you, waiting for whatever order Tully might give to them. Suddenly, Tully speaks up... or rather, he shouts out. "...VANCE?! What the hell are you doing here?!"</text>
 		<variable name="loc_fr_vance_peaceful" op="add" val="1"/>
 		<choice hidden="true" blue="false">
-			<text>Before you can speak, Admiral Vance steps forward into the vidscreen, lightly pushing you away off camera. He stares down at his old friend, his expression going through very similar phases as Tully's. "Brodric Tully, it truly has been ages, hasn't it?" He speaks in a tone that can be seen as remorseful, smug and elated all at once.</text> 
+			<text>Before you can speak, Admiral Vance steps forward into the vidscreen, lightly pushing you away off camera. He stares down at his old friend, his expression contorting similarly to the Admiral's. "Brodric Tully, it truly has been ages, hasn't it?" He speaks in a tone that can be seen as remorseful, smug and elated all at once.</text> 
 			<event>
-				<text>With his fists clenched, Tully finally gathers the strength needed to compose himself as his eyes focus squarely on Vance. "Vance Wentworth, I have absolutely no idea why you are here in person. Much less, from what I can gather from the log of your ship, why you have been working with Federation soldiers for the past month? I have no idea what made you switch sides, unless this is all just a farce. But.. we have no time for finger-pointing or deliberations over our past, we can do that later. Right now, the biggest threat is the Flagship currently on its way to the Capital. 
+				<text>With his fists clenched, Tully finally gathers the strength needed to compose himself as his eyes focus squarely on Vance. "Vance Wentworth, I have absolutely no idea why you are here in person. Much less, from what I can gather from the log of your ship, why you have been working with Federation soldiers for the past month? I have no idea what made you switch sides, unless this is all just a ploy. But.. we have no time for finger-pointing or deliberations over our past, we can do that later. Right now, the biggest threat is the Flagship currently on its way to the Capital. 
 				
 				If you truly are working for our side and didn't tell your men to stand down, then I assume that can only mean they're not following your orders anymore. I do, however, hope you can peacefully resolve this. If you can somehow manage to get the Flagship to stand down, I will make sure that their crew have a fair trial. I fully expect you to betray me again, Vance. Please, for everyone's sake... prove me wrong."</text>
 				<choice hidden="true" blue="false">
@@ -562,9 +556,9 @@
 
 <mod:findName type="event" name="BOSS_TEXT_1">
 	<mod-append:choice hidden="true" req="unique_vance">
-		<text>(Vance) Contact the Flagship.</text>
+		<text>(Vance Prime) Contact the Flagship.</text>
 		<event>
-			<text>The Flagship doesn't take long to notice you. Before it can begin to target you, Vance taps into the other Vance's personal comms..</text>
+			<text>The Flagship doesn't take long to notice you. Before it can lock on its weapons, Vance Prime hails the Rebel fleet, speaking to its local Vance.</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event load="FR_FLAGSHIP_VANCE"/>
@@ -574,7 +568,7 @@
 </mod:findName>
 
 <event name="FR_FLAGSHIP_VANCE">
-	<text>The other Vance appears shocked when he sees Vance Prime on the other end. He opens his mouth to talk, but Prime stops him. "Admiral Vance, I understand what your orders were, but they don't matter anymore. Surrender peacefully, and I will ensure you and your crew will be treated fairly."</text>
+	<text>The other Vance appears shocked when he sees Vance Prime on the other end. He opens his mouth to talk, but Vance Prime stops him. "Admiral Vance, I understand what your orders were, but... they don't matter anymore. Surrender peacefully, and I will ensure you and your crew will be treated fairly."</text>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
@@ -598,7 +592,7 @@
 </event>
 
 <event name="FR_FLAGSHIP_VANCE_SUCCESS">
-	<text>You watch on as Vance is left staring at Prime, trying to understand his own thoughts and what would lead him to make such a request. Eventually, and much to the disbelief of the entire crew, Vance nods his head. "Very well, Vance Prime. We offer our surrender. I hope for the sake of this reality that you know what you're doing."</text>
+	<text>You watch on as Vance is left staring at Prime, trying to understand his own thoughts and what would lead him to make such a request. Eventually, and much to the disbelief of the entire crew, Vance nods his head. "Very well, Vance Prime. We offer our surrender. I hope, for the sake of this reality, that you know what you're doing."</text>
 	<achievement silent="false">ACH_FR_EVENT_VANCE_PEACE</achievement>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -638,7 +632,7 @@
 															<choice hidden="true">
 																<text>Continue...</text>
 																<event>
-																	<text>Then, Jerry proceeds to mount Prince! "Alright. Now I'm ready."</text>
+																	<text>Then, Jerry proceeds to mount Prince! The demonic Equinoid lets out a bone-chilling neigh, ready to ride into battle. "Alright. Now I'm ready."</text>
 																	<crewMember amount="1" class="fr_bonus_prince_jerry">Jerry</crewMember>
 																	<achievement>ACH_JERRY_STEED</achievement>
 																	<achievement>ACH_FR_EVENT_JERRY_SHADOW_PONY</achievement>

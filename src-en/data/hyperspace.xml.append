@@ -32,7 +32,7 @@
 	<mod-append:script>data/fr_scripts/Fr_Achievements.lua</mod-append:script>
 	<mod-append:script>data/fr_scripts/Fr_Eye_Movement.lua</mod-append:script>
 	<mod-append:script>data/fr_scripts/Fr_Eye_Main.lua</mod-append:script>
-<!--	<mod-append:script>data/fr_scripts/Fr_Addon_Icon.lua</mod-append:script> -->
+	<!--<mod-append:script>data/fr_scripts/Fr_Addon_Icon.lua</mod-append:script>-->
 </mod:findLike>
 
 <!--
@@ -103,177 +103,175 @@ This enemy's weapon system has been heavily damaged, it will take 50% longer to 
 	<mod-append:shipIcon>
 		<name>icon_fr_bonus_haunt_loot</name>
 		<tooltip>BONUS HAUNT LOOT:
-This enemy is carrying a special supernatural weapon or drone. Destroying the vessel only has a 50% chance to drop the item, but killing the crew will guarantee it drops.
+This enemy is carrying a special preternaturally-enhanced weapon or drone. Destroying the vessel only has a 50% chance to drop the item, but killing the crew will guarantee it drops.
 
-The first time you roll the special loot by either crew killing the ship or landing the 50% chance you will also unlock a ship.
+The first time you obtain the loot weapon, you will also unlock a ship.
 
-If the ship is an auto, the loot will always drop.</tooltip>
+If the ship is an automated vessel, the loot will always drop.</tooltip>
 	</mod-append:shipIcon>
     <mod-append:shipIcon>
             <name>icon_fr_haunt_loot</name>
             <tooltip>HAUNT LOOT:
-This enemy is carrying a special supernatural weapon or drone. Destroying the vessel only has a 50% chance to drop the item, but killing the crew will guarantee it drops.
+This enemy is carrying a special preternaturally-enhanced weapon or drone. Destroying the vessel only has a 50% chance to drop the item, but killing the crew will guarantee it drops.
 
-If the ship is an auto, the loot will always drop.</tooltip>
+If the ship is an automated vessel, the loot will always drop.</tooltip>
     </mod-append:shipIcon>
     <mod-append:shipIcon>
             <name>icon_fr_flagship_loot</name>
             <tooltip>FLAGSHIP LOOT:
-This enemy is carrying a special supernatural weapon or drone. Destroying the vessel or killing the crew will guarantee it drops.</tooltip>
+This enemy is carrying a special preternaturally-enhanced weapon or drone. Destroying the vessel or killing the crew will guarantee it drops.</tooltip>
     </mod-append:shipIcon>
   	<mod-append:shipIcon>
         <name>icon_fr_haunting_threat</name>
         <tooltip>HAUNTING THREAT:
-This enemy will pose a major threat to an unprepared vessel. You can't escape either, so be ready to use everything you have to win.</tooltip>
+This enemy will pose a major threat to an unprepared vessel. The dark energies it emits prevent your FTL Drive from charging, so you will have to use everything you've got to win!</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_chaotic_haunting_threat</name>
         <tooltip>CHAOTIC HAUNTING THREAT:
-There's no escape now, renegade :)</tooltip>
+There's no escape now, Renegade.
+	/
+:)</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_static_threat</name>
-        <tooltip>???:
-r e s t  n o w</tooltip>
+        <tooltip>Rest now.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
 		<name>icon_fr_haunted_room</name>
 		<tooltip>HAUNTED ROOMS:
-This enemy has one or more Haunted Resistant rooms, marked by the pink border Haunted Resistant rooms will take no system or ion damage from weapons, not only that, but your crew will have their sabotage damage halved while in that room. The system can be damaged by crew and fires and will take hull damage as normal.</tooltip>
+This enemy has one or more haunted rooms, marked by the pink border. Haunted rooms are immune to system and ion damage, and are sabotaged at half speed. These rooms take fire and hull damage as normal.</tooltip>
 	</mod-append:shipIcon>
 	<mod-append:shipIcon>
 		<name>icon_fr_error_room</name>
-		<tooltip>ERROR ROOMS:
-This enemy has one or more Error Resistant rooms, marked by the rapidly flashing colors. Error Resistant rooms will take no system or ion damage from weapons. 
-
-Your crew will also have their sabotage damage set to 0.1x and take 100 damage per second while in that room. Enemy crew will instead be healed by 100 hp/s while in that room.</tooltip>
+		<tooltip>CORRUPTED ROOMS:
+This enemy has one or more corrupted rooms, marked by rapidly flashing colors. Corrupted rooms are immune to system and ion damage, are sabotaged at a tenth of the normal speed, and deal 100 hp/s in damage to your crew. Enemy crew are healed at 100 hp/s in these rooms.</tooltip>
 	</mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_breach_sealant</name>
         <tooltip>BREACH SEALANT:
-Breaches on this enemy will automatically be repaired even in the absence of crew.</tooltip>
+Breaches on the enemy ship will automatically be repaired even in the absence of crew.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_ancient_weapon_pre_igniter</name>
-        <tooltip>ANCIENT WEAPON PRE-IGNITER:
-This enemy's weapons start charged and will fire as soon as the fight starts. Their weapons weapons charge 15% faster as well.</tooltip>
+        <tooltip>ANCIENT HYPER-IGNITER:
+This enemy's weapons start charged, and they will all fire as soon as the fight starts. Additionally, their weapons charge 15% faster.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_weapon_pre_igniter</name>
         <tooltip>WEAPON PRE-IGNITER:
-This enemy's weapons start charged and will fire as soon as the fight starts.</tooltip>
+This enemy's weapons start charged, and they will all fire as soon as the fight starts.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_xenophobia</name>
         <tooltip>XENOPHOBIA:
-Human crew from this enemy will gain a 33% buff to all main stats, but alien crew have a 40% loss to all main stats.
+This enemy's human crew will gain a 33% buff to all main stats, but their non-human crew have a 40% loss to all main stats.
 (Main stats include health, damage, repair, sabotage, and movement speed).</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_new_order</name>
         <tooltip>NEW ORDER:
-Zoltan crew from this enemy provide 1 extra power and have 1.5x repair speed and combat damage, but all other crew have a 40% loss to all main stats. Duskbringer teleporters also allow them to teleport across ships.
+This enemy's Zoltan crew provide 1 extra power, can teleport to any room on either ship, and have 1.5x repair speed and combat damage, but their non-Zoltan crew have a 40% loss to all main stats.
 (Main stats include health, damage, repair, sabotage, and movement speed).</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_denser_molecules</name>
         <tooltip>DENSER MOLECULES:
-Ghost crew from this ship gains 20 extra health but can't phase through doors.</tooltip>
+This ship's Ghost crew have 20 extra health, but they can't phase through doors.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_chemical_proliferation</name>
         <tooltip>CHEMICAL PROLIFERATION:
-Ghost crew from this ship heal from fire. Gouls heal at half the speed from fires of other Ghosts.</tooltip>
+This ship's Ghost crew passively heal from fire. Gouls heal from this at halved speed.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_hulking_mass</name>
         <tooltip>HULKING MASS:
-Morph crew from this ship gain 50% extra health, but move at half speed.</tooltip>
+This ship's Morph crew have 50% extra health, but move at half speed.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_combat_systems</name>
         <tooltip>COMBAT SYSTEMS:
-Engi crew from this ship gain standard combat damage and 10 health, but lose 25% of their repair speed.</tooltip>
+This ship's Engi crew have standard combat damage and 10 extra health, but lose 25% of their repair speed.</tooltip>
     </mod-append:shipIcon>
 		<mod-append:shipIcon>
         <name>icon_hektar_gel</name>
-        <tooltip>HEKTAR ULTRA-STICK GEL(TM):
-Enemies take 50% less damage from all sources in them and also benefit from 50% stun resistance but all crew move 20% slower in empty rooms while in the enemy ship.</tooltip>
+        <tooltip>HEKTAR ULTRA-STICK GEL(tm):
+Enemy crew on their ship are stunned for half the usual duration. In this ship's empty rooms, enemies take halved damage from all sources, and your crew move 20% slower.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_environmental_adaptation</name>
         <tooltip>ENVIRONMENTAL ADAPTATION:
-Engi crew from this ship gain complete suffocation immunity.</tooltip>
+This ship's Engi crew are immune to suffocation.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_crystallized_hydrogen</name>
         <tooltip>CRYSTALLIZED HYDROGEN:
-Crystal crew from this ship gain complete suffocation immunity.</tooltip>
+This ship's Crystal crew are immune to suffocation.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
 	        <name>icon_fr_commonwealth_shield_boss</name>
             <tooltip>COMMONWEALTH ENERGY SHIELD:
-This enemy is protected by an advanced Energy Shield. Hacking, Mind Control, boarding drones, teleportation, and all hull-damaging and/or ion weapons will all be blocked until disabled. The shield also has a 50% chance to negate ion damage.</tooltip>
+This enemy is protected by an advanced energy shield which also has a 50% chance to negate ion damage.</tooltip>
 	</mod-append:shipIcon>
 	<mod-append:shipIcon>
 	        <name>icon_fr_aether_forge</name>
             <tooltip>COMMONWEALTH AETHER FORGE:
-A incredibly advanced forging and anti boarding ship system, provides a unique item making opportunity if the ship is disabled while also dealing 3 damage a second to any boarder inside the ship.</tooltip>
+Although the primary purpose of this vessel's forge is to make new weapons, it also runs a basic defense system that deals 3 hp/s in damage to your crew if they board the ship.</tooltip>
 	</mod-append:shipIcon>
 	<mod-append:shipIcon>
 	        <name>icon_fr_wither_perfection</name>
-            <tooltip>WITHER PERFECTION:
-This enemy's systems are improved in multiple ways:
-	- 5% Faster weapon cooldown;
-	- 10% Faster shield cooldown;
-	- 15% Faster engine recharge;
-	- 5% Chance to not take hull and system damage;
-	- 25% Chance to resist ion damage;
-	- Enemy crew and drones in their ship are healed for 1hp/s;
-	- Your crew and drones in their ship are damaged for 1hp/s.</tooltip>
+            <tooltip>PERFECTED INTERNALS:
+This enemy's systems are highly optimized, boasting a number of special bonuses.
+- 5% faster weapon charge.
+- 10% faster shield charge.
+- 15% faster FTL Drive charge.
+- 5% hull resist chance, 5% system resist chance, and 25% ion resist chance.
+- Friendly crew and drones in your ship constantly heal 1 hp/s.
+- Enemy crew and drones in your ship constantly take 1 hp/s in damage.</tooltip>
 	</mod-append:shipIcon>
 	<mod-append:shipIcon>
 	        <name>icon_fr_wither_shield</name>
-            <tooltip>WITHER'S ENERGY SHIELD:
-This enemy is protected by an advanced Energy Shield. Hacking, Mind Control, boarding drones, teleportation, and all hull-damaging and/or ion weapons will all be blocked until disabled. The shield will also prevent your crew from using short-range teleporters while inside the enemy ship..</tooltip>
+            <tooltip>PECULIAR SHIELDING:
+This enemy is protected by an advanced energy shield which also prevents your crew from using short-range teleporters while inside the enemy ship.</tooltip>
 	</mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_slimergel</name>
-        <tooltip>SLIMER ECTOPLASMA GEL:
-Breaches on this enemy will automatically be repaired even in the absence of crew. Your boarders are unable to fight and are slowed by 50% in empty rooms. Meanwhile, enemy's crew are immune to hazards while in empty rooms.</tooltip>
+        <tooltip>ECTOPLASMIC GEL:
+Breaches on the enemy ship will automatically be repaired even in the absence of crew. In this ship's empty rooms, enemy crew are immune to hazards, and your crew move at half speed and lose the ability to fight.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_haunt_gas</name>
         <tooltip>IONIZED NEBULA GAS:
-This ship is flooded to the brim with ionized nebula gasses, rendering it immune to ion damage while also passively damaging your boarding crew over time, drones take double damage. Enemy crew is also immune to stuns while inside their ship.</tooltip>
+Enemy crew on this ship are immune to being stunned, and the ship itself is immune to ion damage. Your crew will take damage over time while boarding, and drones take double damage.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_ghostly_pheromones</name>
         <tooltip>GHOSTLY PHEROMONES:
-Gives enemy crew different buffs depending on how much their o2 system is powered, effects are:
-	- At level one: Grants suffocation immunity
-	- At level two: Grants door phasing properties
-	- At level three: Grants localized teleportation
-	- At level four: Grants cross ship teleportation</tooltip>
+The enemy ship gains increasingly strong bonuses to crew for each powered level of Life Support.
+- 1 power: Friendly crew gain immunity to suffocation.
+- 2 power: Friendly crew gain the ability to phase through doors.
+- 3 power: Friendly crew gain the ability to teleport to any room on your ship.
+- 4 power: Friendly crew gain the ability to teleport to any room and to either ship directly.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_ghostly_pheromones_haunted</name>
-        <tooltip>HAUNTED GHOSTLY PHEROMONES:
-Gives enemy crew different buffs depending on how much their o2 system is powered, effects are:
-	- At level one: Grants hazard immunity
-	- At level two: Grants door phasing and 20% increased sabotage damage
-	- At level three: Grants localized teleportation and 20% increased crew health
-	- At level four: Grants cross ship teleportation and 20% increased crew damage</tooltip>
+        <tooltip>HAUNTED PHEROMONES:
+The enemy ship gains increasingly strong bonuses to crew for each powered level of Life Support.
+- 1 power: Friendly crew gain immunity to all hazards.
+- 2 power: Friendly crew gain 20% extra sabotage speed and the ability to phase through doors.
+- 3 power: Friendly crew gain 20% extra health and the ability to teleport to any room on your ship.
+- 4 power: Friendly crew gain 20% extra combat damage and the ability to teleport to any room and to either ship directly.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_molten_armor</name>
         <tooltip>MOLTEN ARMOR:
-Constantly deals 15 hp/s while inside this ship which scales depending on the drone/crew's fire resistance, crews that are healed by fire damage will be healed instead. Has a 50% chance to negate hull damage.</tooltip>
+Your crew on this ship passively take 15 hp/s in damage. This damage counts as fire damage, and is modified accordingly. The ship also has a 50% chance to negate hull damage.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_energy_siphon</name>
         <tooltip>ENERGY SIPHON:
-Enemies in the same room as their drones will deal 25% more damage and heal for 10 hp/s. Their drones, however, will deal 20% less damage while in a room with their crew.</tooltip>
+Enemies in the same room as their drones will deal 25% more damage and heal for 3.5 hp/s. Their drones, however, deal halved damage in combat when being siphoned.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_emergency_auto</name>
@@ -282,138 +280,138 @@ This ship has a sophisticated form of autopilot which will keep it fully functio
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_holy_fury</name>
-        <tooltip>HOLY FURY:
-Enemy crew heal and are cloned 50% faster. Enemy beams pierce 2 additional shield layers.</tooltip>
+        <tooltip>HOLY CONVICTION:
+Enemy crew heal and are cloned 50% faster, and the enemy ship's beam weapons pierce 2 additional shield layers.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_necromancer_shield</name>
-        <tooltip>NECROMANTIC ENERGY SHIELD:
-This ginormous energy shield is what keeps G protected from the outside. Has 80 hitpoints and all regular effects of energy shields.</tooltip>
+        <tooltip>MAGICAL SHIELD:
+An absurdly powerful energy shield protecting G's ship. Has an integrity of 80 hitpoints.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_necromancer_shield_haunted</name>
-        <tooltip>HAUNTED NECROMANTIC ENERGY SHIELD:
-This ginormous energy shield is what keeps G protected from the outside. Has 80 hitpoints, all regular effects of energy shields while also having a 50% chance to resist ion damage.</tooltip>
+        <tooltip>HAUNTED SHIELD:
+An absurdly powerful energy shield protecting G's ship. Has an integrity of 80 hitpoints, and gives the enemy ship a 50% chance to resist ion damage.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_necromantic_projection</name>
-        <tooltip>NECROMANTIC PROJECTION:
-Enemy ghosts have 100 more health and resist mind control.</tooltip>
+        <tooltip>NECROMANTIC AURA:
+The enemy's Ghost crew have 100 more health and resist mind control.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_aether_necronomicon</name>
         <tooltip>AETHER NECRONOMICON:
-Enemy crew will be revived as specters after dying, that effect doesn't interfere with the regular cloning process. Specters can't be revived.</tooltip>
+Enemy crew will be revived as Specters after dying; this does not interrupt standard cloning processes. Specters can't be revived.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_carbon_crystal_armor</name>
-        <tooltip>CARBON CRYSTAL ARMOR:
-Every time you deal hull damage to this enemy with your weapons, a shard will break off and fly towards your ship. It will not pierce any shields, but will do 2 damage to a random room if it hits. The shards can't miss or be targeted by most defense drones and will always breach. Systems also have 20% chance to not be damage on hit.</tooltip>
+        <tooltip>CARBON ARMOR:
+Every time you deal hull damage to this enemy with your weapons, a shard will break off and fly towards your ship. It will not pierce any shields, but it can't miss or be shot down by defense drones, deals 2 damage, and always breaches. The ship also has a 20% chance to negate system damage.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_frozen_spores</name>
         <tooltip>FROZEN SPORES:
-Your crew will take 50% more damage from all sources and move 25% slower when inside the enemy ship as well as when in the same room as an enemy snowman.</tooltip>
+Your crew will take 50% more damage from all sources and move 25% slower when inside the enemy ship, as well as when in the same room as an enemy snowman.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_frigid_air</name>
         <tooltip>FRIGID AIR:
-Enemy snowmans heal by 20hp/s while inside the enemy ship.</tooltip>
+The enemy's Snowman crew heal by 20hp/s while inside the enemy ship.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_living_ship</name>
         <tooltip>LIVING SHIP:
-This enemy ship has consumed one or more of their crew, giving it the effects similar to other augments. The augments mimicked will be have their icons shown here.</tooltip>
+This enemy ship is alive, and has consumed one or more of its old crewmates. The augments it has acquired from this process have their icons displayed.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_ghostly_repair_bots</name>
-        <tooltip>GHOSTLY REPAIR BOTS:
-Enemy's systems will be automatically repaired depending how much power is put in the drone system, if it's present.</tooltip>
+        <tooltip>SPECTRAL NANOMACHINES:
+This enemy will automatically repair all of its systems at the speed of a human, multiplied by the amount of power in its Drone Control.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_energy_shield_battery</name>
-        <tooltip>ENERGY SHIELD BATTERY:
-Enemy's shields are augmented with rechargeable zoltan shield layers. The amount of layers this augment provides scales with your shield system level.</tooltip>
+        <tooltip>SHIELD ADAPTER:
+This enemy can naturally generate layers of energy shielding. The regeneration rate and maximum number of layers is dependent on the strength of their Shields, and they regenerate regular shielding at half the rate.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_annihilation_grid</name>
         <tooltip>ANNIHILATION GRID:
-This enemy's doors are extra protected from boarders, reducing their damage to doors by 50%. All boarder crew and drones will take a base damage of 10hp/s, be unable to phase through doors or use handheld teleporters.</tooltip>
+Your crew on this ship lose 10 hp/s, lose the ability to phase through doors or move by teleporting, and deal halved damage to doors.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_self_aware_cognitive_intelligence</name>
         <tooltip>SELF AWARE COGNITIVE INTELLIGENCE:
-This enemy's systems are manned at the max level across the board.</tooltip>
+This enemy is automated, and all of their systems are automatically manned at level 2 skill.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_energy_hull</name>
-        <tooltip>ENERGY HULL:
-This ship's hull is directly tied to its energy shield, if it's fully depleted, the ship will collapse.</tooltip>
+        <tooltip>HARD-LIGHT HULL:
+This ship's hull health is always equal to the integrity of its energy shield.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_zoltan_energy_grid</name>
         <tooltip>ZOLTAN ENERGY GRID:
-Your crew and drones (including anaerobic crew) will take a base damage of 4hp/s with an extra 2hp for each level of Door Control above 1. Crews and drones that die while on the enemy ship will fully repair the system they die in, this will also overwrite any death effects they might have.</tooltip>
+Your crew on this ship lose 4 hp/s, plus an extra 2 hp/s for every level of Door Control it has beyond the first. If they die, they fully repair the system they are standing in, overwriting any other death effect they may have.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_static</name>
-        <tooltip>STATIC FORCES:
-This ship's rooms are protected by some kind of mysterious static energy. All boarders onboard this ship will have their mind overcome by static, disabling their AI and making them uncontrollable. Once they return to your ship, they will go back to normal.</tooltip>
+        <tooltip>FIELD OF STATIC:
+This ship's rooms are protected by some kind of mysterious static energy. Your crew onboard this ship will be frozen in place, entranced by its horrifying interior until removed from the ship.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_watcher_shield</name>
-        <tooltip>WATCHER'S SHIELD:
-This enemy is protected by a esoteric and highly resilient Energy Shield. In addition to the usual Super Shield benefits, energy shields also have 50% chance to resist no-ion damage.
-
-It also allowed enemy crew to bypass energy shields, this ability also can't be removed.</tooltip>
+        <tooltip>WATCHER'S PROTECTION:
+This enemy is protected by an energy shield infused with esoteric, powerful chaos. It has an integrity of 15 hit points, doubles as a hard-light bypass unit that cannot be counteracted, and grants this ship a 50% chance to take no damage from non-ion damage.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_legion_aegis</name>
-        <tooltip>LEGION'S AEGIS:
-This enemy is protected by a highly resilient Energy Shield. In addition to the usual Super Shield benefits, weapons and artilleries cooldowns are also reduced by 10%.</tooltip>
+        <tooltip>LEGIONNAIRE'S AEGIS:
+This enemy is protected by a highly resilient energy shield. It has an integrity of 10 hit points, and increases the enemy's weapon and artillery charge rate by 10%.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_legion_spirit</name>
-        <tooltip>LEGION'S SPIRIT:
-Humans in this ship gain a enhanced version of the effects of all the primary human lab upgrades.</tooltip>
+        <tooltip>SPIRIT OF THE REBELLION:
+This enemy's Human crew are considered to have all three of their basic lab upgrades.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_rues_plating</name>
-        <tooltip>R.U.E.S.'S ROYAL PLATING:
-This ship's plating mimics many augments exclusive to other races in a weaker form:
-	+ Grants 20% chance to not take hull or system damage, +50% ion resistance, 30% slower enemy sabotage and a opportunity to ram enemies before battle.
-	+ Automatically repairs breaches, grants 20% reduced damage from all sources and 25% reduced stun duration to friendly crew while in empty rooms.
-	+ 15% crew damage, 20% crew speed, 5% crew health and 10% reduced ability cooldowns all which scale with powered 02 levels.</tooltip>
+        <tooltip>EXPERIMENTAL PLATING:
+This ship's unique hull armor provides several bonuses.
+- 20% hull resist chance, 20% system resist chance, 50% ion resistance chance.
+- The enemy ship automatically repairs breaches even in the absence of crew.
+- Enemy crew in empty rooms on the enemy ship take 20% less damage from all sources and 25% reduced stun duration.
+- For each powered level of enemy Life Support, enemy crew gain an additional 15% combat damage, 20% movement speed, 5% maximum health, and 10% faster power charge rate.
+- 30% reduction to your boarders' sabotage speed.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_rues_lab</name>
-        <tooltip>R.U.E.S.'S GENETICS:
-Enemy rock, slugs, mantis and leech have the benefits of all the basic crew lab upgrades.</tooltip>
+        <tooltip>R.U.E.S. GENETICS BANK:
+The enemy's Leech, Slug, Mantis, and Rockman crew are considered to have all three of their respective basic lab upgrades.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_golden_systems</name>
-        <tooltip>GOLDEN SYSTEMS:
-This ship's systems scale off of their scrap hoard. Every 10 scrap they gain 1% Weapon cooldown speed and every 5 scrap they gain +1% Shield recharge rate.</tooltip>
+        <tooltip>GILDED SYSTEMS:
+This ship's systems become more efficient the more scrap it carries. Every 10 scrap, its weapons charge 1% faster. Every 5 scrap, its shields regenerate 1% faster.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_scrap_amount</name>
         <tooltip>SCRAP HOARD:
-This ship has a personal reserve of 100 scrap, any bonuses the crew or augments have that scales with scrap will instead scale with this.</tooltip>
+This ship carries 100 scrap in its cargo bay.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_infested</name>
-        <tooltip>INFESTED:
-Every 25 seconds an enemy spider hatchling will spawn in the same room as your crew. This spider will live for 5 seconds and deals 0.5x damage.</tooltip>
+        <tooltip>SPIDER INFESTATION:
+Every 25 seconds, a hostile spider will violently burst out of all of your crew. This spider will live for 5 seconds, and deals 0.5x combat damage.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_shadow_mist</name>
-        <tooltip>SHADOW MIST:
-Your projectiles have 25% chance to miss or be nullified before hitting the enemy's hull.</tooltip>
+        <tooltip>CLOAK OF DARKNESS:
+Your projectiles have a 25% chance to have no effect against this ship.</tooltip>
     </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_fr_forbidden_design</name>
         <tooltip>FORBIDDEN DESIGN:
-This enemy is protected by a highly resilient Energy Shield. In addition to the usual Super Shield benefits, It inflicts crew with the blasphemy debuff while in the enemy ship. This debuff completely removes their death effects while on the enemy ship.</tooltip>
+This enemy is protected by horrific eldritch technology, which projects a 12-point energy shield and inflicts your boarders with Blasphemy until they leave the ship. Blasphemy disables all death effects.</tooltip>
     </mod-append:shipIcon>
    </mod:findLike>
 </mod:findLike>
@@ -1743,7 +1741,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<jumpCooldown>full</jumpCooldown>
 		<buttonText>SPEED</buttonText>
 		<tooltip>[COOLDOWN:35s]
-			Speeds up the room by the equivelent effect of a Lvl 1 temporal system.</tooltip>
+			Speeds up time in the room, as if by a level 1 Temporal Manipulator.</tooltip>
 		<cooldownColor r="255" g="0" b="0" />
 		<finishSounds>
 			<finishSound>temporalEnd</finishSound>
@@ -1779,7 +1777,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<jumpCooldown>full</jumpCooldown>
 		<buttonText>SLOW</buttonText>
 		<tooltip>[COOLDOWN:35s]
-			Slows down the room by the equivelent effect of a Lvl 1 temporal system.</tooltip>
+			Slows down time in the room, as if by a level 1 Temporal Manipulator.</tooltip>
 		<cooldownColor r="0" g="0" b="255" />
 		<finishSounds>
 			<finishSound>temporalEnd</finishSound>
@@ -1826,7 +1824,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<jumpCooldown>full</jumpCooldown>
 		<buttonText>HIDE</buttonText>
 		<tooltip>[COOLDOWN:5s]
-			Hide in a box. Heals you for 20 hp/s and gives full hazard immunity.</tooltip>
+			Billvan hides in a box. Heals Billvan for 20 hp/s and gives him full hazard immunity.</tooltip>
 		<cooldownColor r="168" g="157" b="80" />
 		<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 		<transformRace>fr_unique_billvan_box</transformRace>
@@ -1949,7 +1947,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<jumpCooldown>full</jumpCooldown>
 		<buttonText>CHANGE TUNE</buttonText>
 		<tooltip>[COOLDOWN:15s  CURRENT MODE: DEBUFF]
-			Swaps between Buff and debuff mode.</tooltip>
+			Swaps between Buff and Debuff mode.</tooltip>
 		<cooldownColor r="237" g="223" b="56"/>
 		<transformRace>fr_unique_sammy_buff</transformRace>
 	</powerEffect>
@@ -2017,7 +2015,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<jumpCooldown>full</jumpCooldown>
 		<buttonText>CHANGE TUNE</buttonText>
 		<tooltip>[COOLDOWN:15s  CURRENT MODE: BUFF]
-			Swaps between Buff and debuff mode.</tooltip>
+			Swaps between Buff and Debuff mode.</tooltip>
 		<cooldownColor r="95" g="15" b="159"/>
 		<transformRace>fr_unique_sammy</transformRace>
 	</powerEffect>
@@ -2201,7 +2199,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>BOMB</buttonText>
 			<tooltip>[COOLDOWN:45s]
-				Deploy a Breach, Ion, fire and Lockdown bomb (30 crew damage, 2 system damage, 5s stun, 3 ion damage). No crew friendly fire, but can affect your own systems.</tooltip>
+				Deploy a Breach, Ion, Fire, and Lockdown bomb (30 crew damage, 2 system damage, 5s stun, 3 ion damage). No crew friendly fire, but can affect your own systems.</tooltip>
 			<cooldownColor r="220" g="35" b="200"/>
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>multi_bomb_detinate</effectAnim>
@@ -2334,7 +2332,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			<friendlyFire>false</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<buttonText>ASSIMILATE</buttonText>
-			<tooltip>Ready: Heal to full health, deal 1 hull damage to the current room, deals x5 boosted sabotage (doesn't stack with the normal bonus) and regenerates 5 hp/s for 12 seconds. Can't be teleported back to your ship and becomes uncontrollable for the duration of this effect.</tooltip>
+			<tooltip>Ready: Heal to full health, deal 1 hull damage to the current room, deal x5 boosted sabotage damage (doesn't stack with the normal bonus) and regenerates 5 hp/s for 12 seconds. Becomes uncontrollable and unable to teleport for the duration of this effect.</tooltip>
 			<cooldownColor r="255" g="255" b="0" />
 			<effectAnim>explosion_random</effectAnim>
 			<selfHealth>999</selfHealth>
@@ -2581,7 +2579,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			<initialCharges>1</initialCharges>
 			<chargesPerJump>1</chargesPerJump>
 			<buttonText>MANUAL</buttonText>
-			<tooltip>Current in manual mode mode. Will switch to Automated mode once the ship jumps to another beacon or sector. Fully heals itself and the system in the same room as them.</tooltip>
+			<tooltip>Currently in manual mode. Will switch to Automated mode once the ship jumps to another beacon or sector. Fully heals itself and the system in the same room as them upon jumping.</tooltip>
 			<cooldownColor r="255" g="232" b="0"/>
 			<selfHealth>999</selfHealth>
 			<sysDamage>-99</sysDamage>
@@ -2658,7 +2656,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			<initialCharges>1</initialCharges>
 			<chargesPerJump>1</chargesPerJump>
 			<buttonText>AUTOMATIC</buttonText>
-			<tooltip>Current in Automatic mode mode. Will switch to Manual mode once the ship jumps to another beacon or sector. Fully heals itself and the system in the same room as them.</tooltip>
+			<tooltip>Currently in Automatic mode. Will switch to Manual mode once the ship jumps to another beacon or sector. Fully heals itself and the system in the same room as them upon jumping.</tooltip>
 			<cooldownColor r="255" g="232" b="0"/>
 			<selfHealth>999</selfHealth>
 			<sysDamage>-99</sysDamage>
@@ -3024,7 +3022,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<jumpCooldown>continue</jumpCooldown>
 		<buttonText>IMMUNE</buttonText>
 		<tooltip>[CD:30s  DURATION:10s]
-		Becomes completely damage resistant for 10 seconds but lose 80% of crew damage.
+		Becomes completely immune to damage for 10 seconds, but lose 80% of crew damage.
 		
 		Only triggers if there's a hostile crew in the room.</tooltip>
 		<cooldownColor r="255" g="0" b="0"/>
@@ -3181,7 +3179,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<jumpCooldown>continue</jumpCooldown>
 		<buttonText>REPAIR</buttonText>
 		<tooltip>[COOLDOWN:30s DURATION:10s]
-			Heals the drones in the same room as cleo for 10 health over 10 seconds.
+			Heals the drones in the same room as Cleo for 10 health over 10 seconds.
 			
 			Only triggers if there's a friendly crew in the room.</tooltip>
 		<cooldownColor r="0" g="0" b="146"/>
@@ -3294,7 +3292,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
             <powerSound>mantisSpit2</powerSound>
         </powerSounds>
 		<tooltip>[COOLDOWN:20s]
-			Eat nearby enemy crew for 40 damage and heals himself for 20 for each enemy in the room.
+			Eats all nearby enemy crew for 40 damage and heals himself for 20 for each enemy in the room.
 			
 			Only triggers if there's a hostile crew in the room.</tooltip>
 		<cooldownColor r="131" g="255" b="73"/>
@@ -3349,7 +3347,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</req>
 		<cooldown>25</cooldown>
 		<jumpCooldown>continue</jumpCooldown>
-		<buttonText>IONIZE</buttonText>
+		<buttonText>SHOCK</buttonText>
 		<tooltip>[COOLDOWN:25s]
 			Violently expels ion energy. Inflicts 5 ion damage, stuns everyone else in the room and fully repairs systems.
 			
@@ -3645,7 +3643,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<jumpCooldown>continue</jumpCooldown>
 		<buttonText>SHINE</buttonText>
 		<tooltip>[COOLDOWN:30s]
-			Moves at 20% speed, has 40% lower damage and sabotage but instantly drains o2 and heals nearby allies by 10 hp/s.</tooltip>
+			Moves at 20% speed and has 40% lower damage and sabotage, but instantly drains oxygen and heals nearby allies by 10 hp/s.</tooltip>
 		<cooldownColor r="255" g="243" b="0"/>
 		<temporaryEffect>
 			<duration>10</duration>
@@ -3732,9 +3730,9 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<lockdown>true</lockdown>
 		<buttonText>LOCKDOWN</buttonText>
 		<tooltip>[COOLDOWN:15s  -35HP]
-			Locks down the occupied room for 12 seconds, preventing crew from moving in. Raises ranged damage to 3x but lowers sabotage damage by 50% for 10 seconds.
+			Locks down the occupied room for 12 seconds. Raises ranged damage to 3x but lowers sabotage damage by 50% for 10 seconds.
 		
-			Only triggers on enemy system rooms.</tooltip>
+			Only triggers in enemy system rooms.</tooltip>
 		<cooldownColor r="0" g="0" b="0"/>
 		<effectAnim>explosion_crystal</effectAnim>
 		<temporaryEffect>
@@ -3819,7 +3817,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<shipFriendlyFire>false</shipFriendlyFire>
 		<buttonText>BLIZZARD</buttonText>
 		<tooltip>[COOLDOWN:45s  DURATION:10s]
-			Freezes the temperature of the room, spawning a snowman to attack enemies.</tooltip>
+			Lowers the temperature of the room, spawning a Snowman to attack enemies.</tooltip>
 		<cooldownColor r="196" g="196" b="196"/>
 		<effectAnim>cultivator_spore_explosion</effectAnim>
 		<spawnCrew>
@@ -3859,7 +3857,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<jumpCooldown>continue</jumpCooldown>
 		<buttonText>MORPH</buttonText>
 		<tooltip>[COOLDOWN:60s]
-			Transform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TULLY]</tooltip>
+			Transforms into a copy of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TULLY]</tooltip>
 		<cooldownColor r="133" g="0" b="255"/>
 		<transformRace>fr_ghost_tully</transformRace>
 		<activateWhenReady>true</activateWhenReady>
@@ -3934,9 +3932,9 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</powerSounds>
 		<buttonText>CORRUPT</buttonText>
 		<tooltip>[COOLDOWN:45s  DURATION:20s]
-			Corrupts nearby non-Charror robotic crew and drones, disabling their AI, preventing them from fighting and sabotaging and making them uncontrollable for 20 seconds. Also halves damage taken.
+			Corrupts nearby robotic crew and drones, completely freezing them for 20 seconds. Also halves damage taken.
 			
-			Only triggers if there's a hostile crew in the room.</tooltip>
+			Only triggers if there is a hostile crew in the room.</tooltip>
 		<cooldownColor r="255" g="0" b="0"/>
 		<temporaryEffect>
 			<duration>20</duration>
@@ -4116,7 +4114,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</powerSounds>
 		<buttonText>MERGE</buttonText>
 		<tooltip>[COOLDOWN:30s  DURATION:10s]
-			Hacks the doors of the room they are in for 10 seconds, during that time he gains 5x sabotage damage, damages enemies in the room for 1.5 hp/s and becomes invisible at the cost of taking triple global damage and being unable to fight or move.
+			Hacks the doors of the room they are in for 10 seconds. During that time, he gains 5x sabotage damage, damages enemies in the room for 1.5 hp/s, and becomes invisible at the cost of taking triple damage and being unable to fight or move.
 			
 			Only triggers on enemy system rooms.</tooltip>
 		<cooldownColor r="0" g="255" b="148"/>
@@ -4239,8 +4237,8 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</req>
 		<buttonText>SUPERNOVA</buttonText>
 		<tooltip>[COOLDOWN:25s]
-			Start suicide countdown. When countdown is finished, explode for 150 crew damage to all enemies crew in the room while also starting a fire and dealing 2 system damage to the current room. If the countdown is interrupted by death, the ability will be canceled. Cannot activate while stunned or teleporting. 
-			The explosion will only do 25 self-damage to the Martyr. After the explosion triggers, searak will be unable to act for 15 seconds.</tooltip>
+			Start blast countdown. When countdown is finished, explode for 150 crew damage to all enemies crew in the room while also starting a fire and dealing 2 system damage to the current room. If the countdown is interrupted by death, the ability will be canceled. Cannot activate while stunned or teleporting. 
+			The explosion will only do 25 self-damage to Searak, and he will be unable to act for 15 seconds.</tooltip>
 		<effectAnim>duskbringer_detonation_anim</effectAnim>
 		<effectPostAnim>fr_explosion_searak</effectPostAnim>
 		<animFrame followCrew="true">7</animFrame>
@@ -4589,124 +4587,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			<deathSound>death1</deathSound>
 			<deathSound>death2</deathSound>
 		</deathSounds>
-		<passiveStatBoosts>  
-			<statBoost name="canFight">
-				<boostType>SET</boostType>
-				<value>false</value>
-				<shipTarget>TARGETS_ME</shipTarget>
-				<crewTarget>ALL</crewTarget>
-				<whiteList>
-					<unique_cyra/>
-				</whiteList>
-			</statBoost>
-		</passiveStatBoosts>
-		<powerEffect>
-			<cooldown>60</cooldown>
-			<jumpCooldown>reset</jumpCooldown>
-			<buttonText>MORPH</buttonText>
-			<tooltip>[COOLDOWN:60s]
-				Transform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: GUN JERRY]</tooltip>
-			<cooldownColor r="133" g="0" b="255"/>
-			<transformRace>fr_ghost_jerry_gun</transformRace>
-			<activateWhenReady>true</activateWhenReady>
-			<shipFriendlyFire>true</shipFriendlyFire>
-		</powerEffect>
-</mod-append:race>
-
-<mod-append:race name="fr_ghost_jerry_gun">
-		<essential>1</essential>
-		<canSuffocate>false</canSuffocate>
-		<canBurn>false</canBurn>
-		<canPhaseThroughDoors>true</canPhaseThroughDoors>
-		<suffocationModifier>0.83</suffocationModifier>
-		<fireDamageMultiplier>0.83</fireDamageMultiplier>
-		<damageMultiplier>1.5</damageMultiplier>
-		<moveSpeedMultiplier>0.6</moveSpeedMultiplier>
-		<sabotageSpeedMultiplier>3</sabotageSpeedMultiplier>
-		<damageTakenMultiplier>0.5</damageTakenMultiplier>
-		<canPunch>false</canPunch>
-		<animBase>rock</animBase>
-		<shootingSounds>
-			<shootingSound>detectiveShoot1</shootingSound>
-			<shootingSound>detectiveShoot2</shootingSound>
-			<shootingSound>detectiveShoot3</shootingSound>
-		</shootingSounds>
-		<skills>
-			<piloting req="13"/>
-			<engines req="13"/>
-			<shields req="50"/>
-			<weapons req="58"/>
-			<repair req="16"/>
-			<combat req="7"/>
-		</skills>
-		<deathSounds>
-			<deathSound>death1</deathSound>
-			<deathSound>death2</deathSound>
-		</deathSounds>
-		<passiveStatBoosts>  
-			<statBoost name="canFight">
-				<boostType>SET</boostType>
-				<value>false</value>
-				<shipTarget>TARGETS_ME</shipTarget>
-				<crewTarget>ALL</crewTarget>
-				<whiteList>
-					<unique_cyra/>
-				</whiteList>
-			</statBoost>
-		</passiveStatBoosts>
-		<powerEffect>
-			<cooldown>60</cooldown>
-			<jumpCooldown>reset</jumpCooldown>
-			<buttonText>MORPH</buttonText>
-			<tooltip>[COOLDOWN:60s]
-				Transform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: PONY JERRY]</tooltip>
-			<cooldownColor r="133" g="0" b="255"/>
-			<transformRace>fr_ghost_jerry_pony</transformRace>
-			<activateWhenReady>true</activateWhenReady>
-			<shipFriendlyFire>true</shipFriendlyFire>
-		</powerEffect>
-</mod-append:race>
-
-<mod-append:race name="fr_ghost_jerry_pony">
-		<essential>1</essential>
-		<canSuffocate>false</canSuffocate>
-		<canBurn>false</canBurn>
-		<canPhaseThroughDoors>true</canPhaseThroughDoors>
-		<maxHealth>300</maxHealth>
-		<suffocationModifier>0.83</suffocationModifier>
-		<fireDamageMultiplier>0.83</fireDamageMultiplier>
-		<damageMultiplier>2.0</damageMultiplier>
-		<fireRepairMultiplier>2.0</fireRepairMultiplier>
-		<sabotageSpeedMultiplier>5</sabotageSpeedMultiplier>
-		<damageTakenMultiplier>0.5</damageTakenMultiplier>
-		<moveSpeedMultiplier>4.0</moveSpeedMultiplier>
-		<healSpeed>3.0</healSpeed>
-		<canPunch>false</canPunch>
-		<animBase>rock</animBase>
-		<shootingSounds>
-			<shootingSound>detectiveShoot1</shootingSound>
-			<shootingSound>detectiveShoot2</shootingSound>
-			<shootingSound>detectiveShoot3</shootingSound>
-		</shootingSounds>
-		<skills>
-			<piloting req="13"/>
-			<engines req="13"/>
-			<shields req="50"/>
-			<weapons req="58"/>
-			<repair req="16"/>
-			<combat req="7"/>
-		</skills>
-		<deathSounds>
-			<deathSound>death1</deathSound>
-			<deathSound>death2</deathSound>
-		</deathSounds>
-		<deathEffect>
-			<ion>9</ion>
-			<persDamage>100</persDamage>
-			<stun>20</stun>
-			<friendlyFire>false</friendlyFire>
-			<shipFriendlyFire>false</shipFriendlyFire>
-		</deathEffect>
 		<passiveStatBoosts>  
 			<statBoost name="canFight">
 				<boostType>SET</boostType>
@@ -7300,7 +7180,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</powerSounds>
 		<buttonText>METAMORPH</buttonText>
 		<tooltip>[COOLDOWN:20s]
-			Metamorphs into its adult form while also fully healing the crew.</tooltip>
+			Metamorphs into their adult form while also fully healing the crew.</tooltip>
 		<cooldownColor r="197" g="149" b="97" />
 		<transformRace>fr_bonus_sally_adult</transformRace>
 		<selfHealth>999</selfHealth>
@@ -7341,7 +7221,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</powerSounds>
 		<buttonText>METAMORPH</buttonText>
 		<tooltip>[COOLDOWN:20s]
-			Metamorphs into its weaver form while also fully healing the crew.</tooltip>
+			Metamorphs into their weaver form while also fully healing the crew.</tooltip>
 		<cooldownColor r="197" g="149" b="97" />
 		<transformRace>fr_bonus_sally_weaver</transformRace>
 		<selfHealth>999</selfHealth>
@@ -7389,7 +7269,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</powerSounds>
 		<buttonText>EMPOWER</buttonText>
 		<tooltip>[COOLDOWN:20s  DURATION:10s]
-			Fully heal this crew and buffs all other friendly spiders' damage by 2x for 10 seconds.</tooltip>
+			Fully heal this crew and buff all other allied Spiders' damage by 2x for 10 seconds.</tooltip>
 		<cooldownColor r="197" g="149" b="97" />
 		<selfHealth>999</selfHealth>
 		<temporaryEffect>
@@ -7457,11 +7337,10 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<powerSounds>
 			<powerSound>phase</powerSound>
 		</powerSounds>
-		<buttonText>SHADOWS</buttonText>
+		<buttonText>DARKNESS</buttonText>
 		<tooltip>[COOLDOWN:30s  DURATION:10s]
-			Cloaks the room in darkness, nullifing all enemy crew ranged damage and setting their repair and sabotage speed to 0.25x.</tooltip>
+			Cloaks the room in shadow, nullifing all enemy crew ranged damage and setting their repair and sabotage speed to 0.25x.</tooltip>
 		<cooldownColor r="27" g="27" b="27" />
-		<selfHealth>999</selfHealth>
 		<roomStatBoosts>
 			<statBoost name="sabotageSpeedMultiplier">
 				<boostType>SET</boostType>
@@ -7554,9 +7433,9 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<powerSounds>
 			<powerSound>horseControl</powerSound>
 		</powerSounds>
-		<buttonText>SHADOWS</buttonText>
+		<buttonText>DARKNESS</buttonText>
 		<tooltip>[COOLDOWN:30s  DURATION:10s]
-			Cloaks the room in darkness, setting their repair and sabotage speed to 0.25x.</tooltip>
+			Cloaks the room in shadow, setting enemy repair and sabotage speed to 0.25x.</tooltip>
 		<cooldownColor r="27" g="27" b="27" />
 		<selfHealth>999</selfHealth>
 		<roomStatBoosts>
@@ -7653,6 +7532,17 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 				<stunned>false</stunned>
 			</extraConditions>
 		</statBoost>
+		<statBoost name="deathEffect">
+			<boostType>SET</boostType>
+			<deathEffect>
+				<fireChance>0</fireChance>
+			</deathEffect>
+			<shipTarget>CURRENT_ROOM</shipTarget>
+			<crewTarget>ENEMY</crewTarget>
+			<affectsSelf>false</affectsSelf>
+			<priority>99999</priority>
+			<whiteList load="FR_LIST_CREW_THINGS"/>
+		</statBoost>
 		<statBoost name="powerRechargeMultiplier">
 			<boostType>MULT</boostType>
 			<amount>0.75</amount>
@@ -7713,9 +7603,9 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<finishSounds>
 			<finishSound>mindControlEnd</finishSound>
 		</finishSounds>
-		<buttonText>CONTROL</buttonText>
+		<buttonText>COMMAND</buttonText>
 		<tooltip>[COOLDOWN:20s  DURATION:10s]
-			Mind controls a random enemy crew in the same room as Tiriac for 10 seconds.</tooltip>
+			Mind controls a random enemy in the same room as Tririac for 10 seconds.</tooltip>
 		<cooldownColor r="194" g="190" b="118" />
 		<temporaryEffect>
 			<duration>10</duration>
@@ -8562,7 +8452,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 	</mod-append:drone>
 	<mod-append:drone name="FR_GHOSTLY_DRONE">
 		<crewBlueprint>fr_ghostly_drone</crewBlueprint>
-		<tooltipName>Ghostly Battledrone</tooltipName>
+		<tooltipName>Ghostly Battle Drone</tooltipName>
 	</mod-append:drone>
 	<mod-append:drone name="FR_CLEO_SPAWN_ANTI_PERSONNEL">
 		<crewBlueprint>fr_cleo_spawn</crewBlueprint>
@@ -9533,7 +9423,16 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 				<crewTarget>ALLIES</crewTarget>
 				<affectsSelf>true</affectsSelf>
 				<priority>9999</priority>
-				<maxStacks id="fr_lanius_buff">1</maxStacks>
+				<maxStacks id="fr_lanius_buff_o2">1</maxStacks>
+			</statBoost>
+			<statBoost name="suffocationModifier">
+				<boostType>MULT</boostType>
+				<amount>0.5</amount>
+				<shipTarget>ORIGINAL_OTHER_SHIP</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<affectsSelf>true</affectsSelf>
+				<priority>9999</priority>
+				<maxStacks id="fr_lanius_buff_suffocation">1</maxStacks>
 			</statBoost>
 			<shipTarget>ALL</shipTarget>
 			<crewTarget>ALLIES</crewTarget>
@@ -13065,7 +12964,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 					<friendlyFire>false</friendlyFire>
 					<shipFriendlyFire>false</shipFriendlyFire>
 					<jumpCooldown>reset</jumpCooldown>
-					<buttonText>INFESTED!</buttonText>
+					<buttonText>INFESTED</buttonText>
 					<tooltip>[COOLDOWN:15s]
 						A spider will burst out of this crew, dealing 5 damage to them and spawning a hatchling that lives for 7 seconds and can't be controlled.</tooltip>
 					<cooldownColor r="120" g="33" b="190" />
@@ -14180,7 +14079,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 					</req>
 					<buttonText>FUSE</buttonText>
 					<tooltip>[COOLDOWN:35s DURATION:30s]
-					Gains 25% damage taken resistance, gives 1 power to the current system, can't burn, suffocate or be mind controlled and phases through doors.</tooltip>
+					Partially fuses with the ship. Gives 1 power to the current system, and gains 25% resistance to damage, immunity to mind control and hazards, and door phasing.</tooltip>
 					<cooldownColor r="58" g="241" b="183"/>
 					<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 					<temporaryEffect>
@@ -14227,7 +14126,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 					</req>
 					<buttonText>HOLOGRAM</buttonText>
 					<tooltip>[COOLDOWN:7s]
-						Spawns a hologram assistant that can do all normal crew functions, with lvl2 skill level. Weaker than the temporary version.</tooltip>
+						Spawns a hologram assistant that can perform all normal crew functions at level 2 skill. Weaker than the temporary version.</tooltip>
 					<cooldownColor r="58" g="241" b="183"/>
 					<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 					<powerCharges>1</powerCharges>
@@ -15468,8 +15367,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
                 <mod-append:fr_ghost_turzil />
                 <mod-append:fr_ghost_stephan />
                 <mod-append:fr_ghost_ellie />
-                <mod-append:fr_ghost_jerry_pony />
-                <mod-append:fr_ghost_jerry_gun />
                 <mod-append:fr_ghost_jerry />
                 <mod-append:fr_ghost_haynes />
                 <mod-append:fr_ghost_tully />
@@ -15534,8 +15431,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
                 <mod-append:fr_ghost_turzil />
                 <mod-append:fr_ghost_stephan />
                 <mod-append:fr_ghost_ellie />
-                <mod-append:fr_ghost_jerry_pony />
-                <mod-append:fr_ghost_jerry_gun />
                 <mod-append:fr_ghost_jerry />
                 <mod-append:fr_ghost_haynes />
                 <mod-append:fr_ghost_tully />
@@ -15598,8 +15493,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
                 <mod-append:fr_ghost_turzil />
                 <mod-append:fr_ghost_stephan />
                 <mod-append:fr_ghost_ellie />
-                <mod-append:fr_ghost_jerry_pony />
-                <mod-append:fr_ghost_jerry_gun />
                 <mod-append:fr_ghost_jerry />
                 <mod-append:fr_ghost_haynes />
                 <mod-append:fr_ghost_tully />
@@ -15679,8 +15572,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
                 <mod-append:fr_ghost_turzil />
                 <mod-append:fr_ghost_stephan />
                 <mod-append:fr_ghost_ellie />
-                <mod-append:fr_ghost_jerry_pony />
-                <mod-append:fr_ghost_jerry_gun />
                 <mod-append:fr_ghost_jerry />
                 <mod-append:fr_ghost_haynes />
                 <mod-append:fr_ghost_tully />
@@ -16062,8 +15953,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
                 <mod-append:fr_ghost_turzil />
                 <mod-append:fr_ghost_stephan />
                 <mod-append:fr_ghost_ellie />
-                <mod-append:fr_ghost_jerry_pony />
-                <mod-append:fr_ghost_jerry_gun />
                 <mod-append:fr_ghost_jerry />
                 <mod-append:fr_ghost_haynes />
                 <mod-append:fr_ghost_tully />
@@ -16124,8 +16013,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
                 <mod-append:fr_ghost_turzil />
                 <mod-append:fr_ghost_stephan />
                 <mod-append:fr_ghost_ellie />
-                <mod-append:fr_ghost_jerry_pony />
-                <mod-append:fr_ghost_jerry_gun />
                 <mod-append:fr_ghost_jerry />
                 <mod-append:fr_ghost_haynes />
                 <mod-append:fr_ghost_tully />
@@ -16190,8 +16077,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
                 <mod-append:fr_ghost_turzil />
                 <mod-append:fr_ghost_stephan />
                 <mod-append:fr_ghost_ellie />
-                <mod-append:fr_ghost_jerry_pony />
-                <mod-append:fr_ghost_jerry_gun />
                 <mod-append:fr_ghost_jerry />
                 <mod-append:fr_ghost_haynes />
                 <mod-append:fr_ghost_tully />
@@ -16251,8 +16136,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			<mod-append:fr_ghost_turzil />
 			<mod-append:fr_ghost_stephan />
 			<mod-append:fr_ghost_ellie />
-			<mod-append:fr_ghost_jerry_pony />
-			<mod-append:fr_ghost_jerry_gun />
 			<mod-append:fr_ghost_jerry />
 			<mod-append:fr_ghost_haynes />
 			<mod-append:fr_ghost_tully />
@@ -16450,20 +16333,20 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 
 <mod-append:ship name="PLAYER_SHIP_FR_COMMONWEALTH" b="true" c="true">
 	<achievement name="ACH_SHIP_FR_COMMONWEALTH_1" layout="all">
-		<name>Total Ionization</name>
-		<description>Have all your weapon slots filled with weapons that deal ion damage while using any of the commonwealth cruisers.</description>
+		<name>Unlimited Power</name>
+		<description>Have all your weapon slots filled with weapons that deal ion damage while using any of the Commonwealth cruisers.</description>
 		<icon>fr_ach_ship_commonwealth_1</icon>
 		<lockImage>fr_ach_ship_commonwealth_1_locked</lockImage>
     </achievement>
 	<achievement name="ACH_SHIP_FR_COMMONWEALTH_2" layout="all">
-		<name>Artillery Frenzy</name>
-		<description>Upgrade your artillery to level 5 without upgrading your weapon system while using any of the commonwealth cruisers.</description>
+		<name>Carry A Big Stick</name>
+		<description>Upgrade your Artillery to level 5 without upgrading your Weapon Control while using any of the Commonwealth cruisers.</description>
 		<icon>fr_ach_ship_commonwealth_2</icon>
 		<lockImage>fr_ach_ship_commonwealth_2_locked</lockImage>
     </achievement>
 	<achievement name="ACH_SHIP_FR_COMMONWEALTH_3" layout="all">
-		<name>Ion Overload</name>
-		<description>Have any weapon that deals 5 or more ion damage while using any of the commonwealth cruisers.</description>
+		<name>Overwhelming Force</name>
+		<description>Have any weapon that deals 5 or more ion damage while using any of the Commonwealth cruisers.</description>
 		<icon>fr_ach_ship_commonwealth_3</icon>
 		<lockImage>fr_ach_ship_commonwealth_3_locked</lockImage>
     </achievement>
@@ -20992,8 +20875,8 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 				<secretName>Boon of ???</secretName>
 				<secretDescription>Receive the Boon of ??? from Thest.</secretDescription>
 				<name>Boon of The Extinct</name>
-				<description>Show an Commonwealth crew to Thest. 
-				While in effect; Your Commonwealth crew can teleport anywhere.</description>
+				<description>Show a Commonwealth crew to Thest. 
+				While in effect, your Commonwealth crew can move anywhere by teleporting.</description>
 				<header>Boon Received</header>
 				<icon>fr_ach_boon_commonwealth</icon>
 				<lockImage>ach_locked</lockImage>
@@ -21003,8 +20886,8 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 				<secretName>Boon of ???</secretName>
 				<secretDescription>Receive the Boon of ??? from Thest.</secretDescription>
 				<name>Boon of The Forgotten</name>
-				<description>Show an Salt crew to Thest. 
-				While in effect; Your salts become immune to suffocation and stuns.</description>
+				<description>Show a Salt crew to Thest. 
+				While in effect, your Salt crew become immune to suffocation and stun.</description>
 				<header>Boon Received</header>
 				<icon>fr_ach_boon_salt</icon>
 				<lockImage>ach_locked</lockImage>
@@ -21013,9 +20896,9 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			<achievement name="ACH_FR_BOON_HAUNT_CREW">
 				<secretName>Boon of ???</secretName>
 				<secretDescription>Receive the Boon of ??? from Thest.</secretDescription>
-				<name>Boon of Haunters</name>
+				<name>Boon of the Lost</name>
 				<description>Show a Reborn Haunt crew to Thest. 
-				While in effect; All crew can phase through doors and are immune to suffocation damage.</description>
+				While in effect, all crew can phase through doors and are immune to suffocation damage.</description>
 				<header>Boon Received</header>
 				<icon>fr_ach_boon_haunt_crew</icon>
 				<lockImage>ach_locked</lockImage>
@@ -21024,9 +20907,9 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			<achievement name="ACH_FR_BOON_SNOWMAN">
 				<secretName>Boon of ???</secretName>
 				<secretDescription>Receive the Boon of ??? from Thest.</secretDescription>
-				<name>Boon of Snow</name>
+				<name>Boon of Winter</name>
 				<description>Show a Snowman crew to Thest. 
-				While in effect; All Snowman crew will slow all enemies in the same room as them by 50%.</description>
+				While in effect, all Snowman crew will slow all enemies in the same room as them by 50%.</description>
 				<header>Boon Received</header>
 				<icon>fr_ach_boon_snow</icon>
 				<lockImage>ach_locked</lockImage>
@@ -21035,9 +20918,9 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			<achievement name="ACH_FR_BOON_LAVAMAN">
 				<secretName>Boon of ???</secretName>
 				<secretDescription>Receive the Boon of ??? from Thest.</secretDescription>
-				<name>Boon of Lava</name>
+				<name>Boon of Summer</name>
 				<description>Show a Lavaman crew to Thest. 
-				While in effect; All Lavaman crew will constantly deal 2 damage per second to all enemies in the same room as them.</description>
+				While in effect, all Lavaman crew will constantly deal 2 damage per second to all enemies in the same room as them.</description>
 				<header>Boon Received</header>
 				<icon>fr_ach_boon_lava</icon>
 				<lockImage>ach_locked</lockImage>
@@ -21047,8 +20930,8 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 				<secretName>Boon of ???</secretName>
 				<secretDescription>Receive the Boon of ??? from Thest.</secretDescription>
 				<name>Boon of Artificiality</name>
-				<description>Show a AI Avatar crew to Thest. 
-				While in effect; All AI Avatars crew will only use 0.1x the space of a normal crew.</description>
+				<description>Show an AI Avatar crew to Thest. 
+				While in effect, all AI Avatars crew will only use 0.1x the space of a normal crew.</description>
 				<header>Boon Received</header>
 				<icon>fr_ach_boon_aiavatar</icon>
 				<lockImage>ach_locked</lockImage>
@@ -21058,8 +20941,8 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 				<secretName>Boon of ???</secretName>
 				<secretDescription>Receive the Boon of ??? from Thest.</secretDescription>
 				<name>Boon of The Precursors</name>
-				<description>Show a spherax crew to Thest. 
-				While in effect; Your spherax crew can't be stunned.</description>
+				<description>Show a Spherax crew to Thest. 
+				While in effect, your Spherax crew can't be stunned.</description>
 				<header>Boon Received</header>
 				<icon>fr_ach_boon_spherax</icon>
 				<lockImage>ach_locked</lockImage>
@@ -21070,20 +20953,20 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			<achievement name="ACH_FR_BOON_ION">
 				<secretName>Blessing of ???</secretName>
 				<secretDescription>Receive the Blessing of ??? from Wakeson.</secretDescription>
-				<name>Blessing of The Ion</name>
-				<description>Show a commonwealth weapon to Wakeson. 
-				While in effect; You gain 50% ion resistance.</description>
+				<name>Blessing of Ionization</name>
+				<description>Show a Commonwealth weapon to Wakeson. 
+				While in effect, you gain 50% ion resistance.</description>
 				<header>Blessing Received</header>
 				<icon>fr_ach_boon_ion</icon>
 				<lockImage>ach_locked</lockImage>
 				<multiDifficulty>false</multiDifficulty>
 			</achievement>
 			<achievement name="ACH_FR_BOON_SALT_GUN">
-				<name>Blessing of Seasoning</name>
+				<name>Blessing of Salt</name>
 				<secretName>Blessing of ???</secretName>
 				<secretDescription>Receive the Blessing of ??? from Wakeson.</secretDescription>
-				<description>Show a salt weapon to Wakeson. 
-				While in effect; Immediately gain a random special weapon.</description>
+				<description>Show a Salt weapon to Wakeson. 
+				While in effect, gain a random special weapon at the start of the run.</description>
 				<header>Blessing Received</header>
 				<icon>fr_ach_boon_salt_gun</icon>
 				<lockImage>ach_locked</lockImage>
@@ -21093,19 +20976,19 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 				<name>Blessing of Haunting</name>
 				<secretName>Blessing of ???</secretName>
 				<secretDescription>Receive the Blessing of ??? from Wakeson.</secretDescription>
-				<description>Show a haunt weapon to Wakeson. 
-				While in effect; Obtain a random multiverse augment.</description>
+				<description>Show a Haunt weapon to Wakeson. 
+				While in effect, gain a random base Multiverse augment at the start of the run.</description>
 				<header>Blessing Received</header>
 				<icon>fr_ach_boon_haunt_gun</icon>
 				<lockImage>ach_locked</lockImage>
 				<multiDifficulty>false</multiDifficulty>
 			</achievement>
 			<achievement name="ACH_FR_BOON_WITHER_GUN">
-				<name>Blessing of Withering</name>
+				<name>Blessing of Prototypes</name>
 				<secretName>Blessing of ???</secretName>
 				<secretDescription>Receive the Blessing of ??? from Wakeson.</secretDescription>
-				<description>Show a Prototype Wither weapon to Wakeson. 
-				While in effect; All beam weapons pierce 1 additional shield layer.</description>
+				<description>Show a Prototype weapon to Wakeson. 
+				While in effect, all beam weapons pierce 1 additional shield layer.</description>
 				<header>Blessing Received</header>
 				<icon>fr_ach_boon_wither_gun</icon>
 				<lockImage>ach_locked</lockImage>
@@ -21114,15 +20997,15 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</section>
 		<section text="Forgotten Events" hidden="false">
 			<achievement name="ACH_FR_EVENT_ENHANCED">
-				<name>Forbidden Snak</name>
+				<name>Forbidden Snack</name>
 				<secretName>???</secretName>
-				<description>Rescue one of the last Enhanced crew deep inside augmented space.</description>
-				<secretDescription>Rescue a rare augmented inside their home.</secretDescription>
+				<description>Rescue one of the last Enhanced crew deep in Augmented space.</description>
+				<secretDescription>Rescue a rare Augmented inside their home.</secretDescription>
 				<icon>fr_ach_event_enhanced</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_TESTER">
-				<name>Testing Testing</name>
+				<name>Testing, Testing, One, Two, Three</name>
 				<secretName>???</secretName>
 				<description>Ditch your ship for the new and improved Tester.</description>
 				<secretDescription>Ditch your ship.</secretDescription>
@@ -21130,146 +21013,146 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_COMMONWEALTH">
-				<name>Common Savior</name>
+				<name>New Beginning</name>
 				<secretName>???</secretName>
-				<description>Repair the broken commonwealth body by bringing it to the end of everything.</description>
-				<secretDescription>Bring back a extinct race of cubes.</secretDescription>
+				<description>Repair a broken Obelisk corpse with the power of the Paragon.</description>
+				<secretDescription>Bring back an extinct race of alien cubes.</secretDescription>
 				<icon>fr_ach_event_commonwealth</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_AUTO">
-				<name>Wealth Out of The Broken</name>
+				<name>Old War Machines</name>
 				<secretName>???</secretName>
-				<description>Fully repair and integrate the broken aether forge from the commonwealth auto.</description>
-				<secretDescription>Fully repair and integrate the broken forge.</secretDescription>
+				<description>Fully repair and integrate the broken Aether Forge from a derelict Commonwealth auto-ship.</description>
+				<secretDescription>Fully repair and integrate a broken weapon factory.</secretDescription>
 				<icon>fr_ach_event_auto</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_TARTARUS">
 				<name>Ghosts With The Most</name>
 				<secretName>???</secretName>
-				<description>End G's madness and fully complete the big time bounty.</description>
-				<secretDescription>Help the Spook Chasers (again) with their big time bounty.</secretDescription>
+				<description>End G's madness and free the spirits of the damned from Tartarus.</description>
+				<secretDescription>Help the Spook Chasers with a big-time bounty.</secretDescription>
 				<icon>fr_ach_event_tartarus</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_TARTARUS_CHAOS">
-				<name>Flag Shipped</name>
+				<name>A Long Detour</name>
 				<secretName>???</secretName>
-				<description>Stop Vance 1's evil plan and save the life of vance prime.</description>
-				<secretDescription>Help the Spook Chasers (again) with their big time bounty while in chaos mode.</secretDescription>
+				<description>Stop Vance 1's evil plan and rescue Vance Prime from his clutches..</description>
+				<secretDescription>Help the Spook Chasers with a big-time bounty while undertaking the chaotic challenge.</secretDescription>
 				<icon>fr_ach_event_tartarus_chaos</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_OSMIAN">
-				<name>Osmosis Raider</name>
+				<name>Enemy Of The State</name>
 				<secretName>???</secretName>
-				<description>Contribute to the zoltan capital raiding by ensuring the victory of the "terrorists".</description>
-				<secretDescription>Take the advice of your Osmian and help the "terrorists" take down the zoltan capital.</secretDescription>
+				<description>Take the side of the "terrorists" and finish what they started.</description>
+				<secretDescription>Attack the Ministry's capital city.</secretDescription>
 				<icon>fr_ach_event_osmian</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_SALT">
-				<name>The Salted Mines</name>
+				<name>A Ray Of Hope</name>
 				<secretName>???</secretName>
-				<description>Find the last few members of obyn's species in a salt prison in the middle of nowhere.</description>
-				<secretDescription>Steal the coordinates from nights to a salt prison and help obyn find the last few members of his species.</secretDescription>
+				<description>Discover the last remaining members of Obyn's kind.</description>
+				<secretDescription>Help a bounty hunter with a very personal quest.</secretDescription>
 				<icon>fr_ach_event_salt</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_WITHERED">
-				<name>A Mysterious Benefactor</name>
+				<name>Mysterious Benefactor</name>
 				<secretName>???</secretName>
-				<description>Present a withered crew to Thest.</description>
-				<secretDescription>Present a rare augmented lanius to the judges and receive your prize.</secretDescription>
+				<description>Present a Withered Lanius to Thest.</description>
+				<secretDescription>Present a rare Augmented Lanius to the Judges.</secretDescription>
 				<icon>fr_ach_event_withered</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_WITHER_DEAL">
-				<name>A Deal With The Lanius</name>
+				<name>Embrace Mercy</name>
 				<secretName>???</secretName>
-				<description>Take the deal by the final withered and refuse to complete your mission.</description>
-				<secretDescription>Take the deal offered by the strange lanius deep in the dynasty capital.</secretDescription>
+				<description>Take the deal offered by the final Withered vessel.</description>
+				<secretDescription>Accept a suspicious deal deep in the Dynasty's capital.</secretDescription>
 				<icon>fr_ach_event_wither_deal</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_WITHER_CREWKILL">
 				<name>A Job Well Done</name>
 				<secretName>???</secretName>
-				<description>Complete the mission to fully clear out the withered from the ancient ship.</description>
-				<secretDescription>Finish the mission to clear out all the strange lanius from the ship in the dynasty capital.</secretDescription>
+				<description>Take the deal offered by the final Withered vessel.</description>
+				<secretDescription>Reject a suspicious deal deep in the Dynasty's capital.</secretDescription>
 				<icon>fr_ach_event_wither_crewkill</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_GOZER_RECRUIT">
-				<name>Hired!</name>
+				<name>La Familia</name>
 				<secretName>???</secretName>
-				<description>Bring Goziodeon to the true end and become a official member of the family.</description>
-				<secretDescription>Become a official member of the crime boss family.</secretDescription>
+				<description>Bring Goziodeon to the true end.</description>
+				<secretDescription>Become a official member of the local mafia.</secretDescription>
 				<icon>fr_ach_event_gozer_recruit</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_VANCE_TRUEEND">
-				<name>A Black Mirror</name>
+				<name>Twisted Reflection</name>
 				<secretName>???</secretName>
 				<description>Bring Vance face to face with his counterpart in the True Ending.</description>
-				<secretDescription>Bring two vance primes together.</secretDescription>
+				<secretDescription>Bring two instances of the most evil man in the Multiverse together.</secretDescription>
 				<icon>fr_ach_event_vance_trueend</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_VANCE_PEACE">
-				<name>Peace Was Always A Option</name>
+				<name>Turning Your Back</name>
 				<secretName>???</secretName>
-				<description>Have Vance make the multiverse flagship stand out peacefully.</description>
-				<secretDescription>Have Vance convince the mv flagship to stand down.</secretDescription>
+				<description>Have Vance convince the Multiverse Flagship to stand down.</description>
+				<secretDescription>Have the most evil man in the Multiverse convince the Multiverse Flagship to stand down.</secretDescription>
 				<icon>fr_ach_event_vance_peace</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_VANCE_TRUEEND_SPARE">
-				<name>True Pacifist</name>
+				<name>Touching The Void</name>
 				<secretName>???</secretName>
-				<description>Have Vance Prime reconsider his motives and give you the paragon willingly.</description>
-				<secretDescription>Have tully and Jerry convince vance that peace is an option.</secretDescription>
+				<description>Have Vance Prime reconsider his motives and give you the Paragon willingly.</description>
+				<secretDescription>Convince the most evil man in the Multiverse to stand down.</secretDescription>
 				<icon>fr_ach_event_vance_trueend_peace</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_SAMMY">
-				<name>Friend of the Spider</name>
+				<name>A Very Special Episode</name>
 				<secretName>???</secretName>
-				<description>Recruit Sammy the spider.</description>
-				<secretDescription>Replace Stephan with Sammy by suggesting that Stephan turn himself in.</secretDescription>
+				<description>Recruit Sammy the Spider.</description>
+				<secretDescription>Suggest that a reformed psychopath turn himself in.</secretDescription>
 				<icon>fr_ach_event_sammy</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_LEAH_RECRUIT">
-				<name>Beam Lover</name>
+				<name>The Beam Master</name>
 				<secretName>???</secretName>
-				<description>Recruit Leah the beam master.</description>
-				<secretDescription>Have Jerry on board while remebering leah's name.</secretDescription>
+				<description>Recruit Leah.</description>
+				<secretDescription>Remember the name of your lifelong nemesis, and find help from a close friend to convince them.</secretDescription>
 				<icon>fr_ach_event_leah</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_URN">
-				<name>Reward Urned</name>
+				<name>A Well-Urned Reward</name>
 				<secretName>???</secretName>
 				<description>Activate the Haunted Urn after acquiring it from G.</description>
-				<secretDescription>Activate the Haunted Urn.</secretDescription>
+				<secretDescription>Open a mysterious urn.</secretDescription>
 				<icon>fr_ach_event_urn</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_URN_UPGRADE">
-				<name>Promotion Urned!</name>
+				<name>Promotion Urned.</name>
 				<secretName>???</secretName>
-				<description>Upgrade your urn after defeating the Legion flagship for the first time.</description>
-				<secretDescription>Upgrade the Haunted Urn in the chaotic tartarus.</secretDescription>
+				<description>Upgrade your urn after clearing Chaos Tartarus.</description>
+				<secretDescription>Strengthen a mysterious urn with chaos energy.</secretDescription>
 				<icon>fr_ach_event_urn_upgrade</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>	
 			<achievement name="ACH_FR_EVENT_URN_BONUS">
-				<name>Bonus Urned!</name>
+				<name>Bonus Urned.</name>
 				<secretName>???</secretName>
-				<description>Upgrade your urn by mixing the souls of all the apparitions after beating them in combat.</description>
-				<secretDescription>Complete all normal and chaotic haunt's apparitions.</secretDescription>
+				<description>Upgrade your urn by beating every Apparition.</description>
+				<secretDescription>Further strengthen a mysterious urn with twisted soul.</secretDescription>
 				<icon>fr_ach_event_urn_bonus</icon>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
@@ -21282,9 +21165,9 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_EVENT_SPHERAX">
-				<name>Back From Nnonexistance!</name>
+				<name>Back From The Brink</name>
 				<secretName>???</secretName>
-				<description>Find the last surviving vault of a bygone race of aliens in the center of everything.</description>
+				<description>Find the last surviving vault of a bygone race of aliens in the center of the Multiverse.</description>
 				<secretDescription>???</secretDescription>
 				<icon>fr_ach_event_spherax</icon>
 				<lockImage>ach_locked</lockImage>
@@ -21292,8 +21175,8 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		</section>
 		<section text="Forgotten Renegades" hidden="false">
 			<achievement name="ACH_FR_RENEGADE_COMMONWEALTH">
-				<name>High Importance Mission</name>
-				<description>Defeat the Commonwealth Renegade and get the big commonwealth gun.</description>
+				<name>High-Importance Mission</name>
+				<description>Defeat the Commonwealth Renegade and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Renegade and get its loot.</secretDescription>
 				<icon>fr_renegade_commonwealth</icon>
 				<header>Renegade Defeated</header>
@@ -21303,7 +21186,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<section text="Forgotten Apparitions" hidden="false">
 			<achievement name="ACH_FR_APPARITION_SLIMER">
 				<name>Hungry For More?</name>
-				<description>Defeat the Slimer Apparition and get the nebula bomb launcher gun.</description>
+				<description>Defeat the Slimer Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_slimer</icon>
 				<header>Apparition Vanquished</header>
@@ -21311,7 +21194,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_PHYS">
 				<name>Ionic Instability</name>
-				<description>Defeat the Phys Apparition and get the ionic pinpoint gun.</description>
+				<description>Defeat the Phys Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_phys</icon>
 				<header>Apparition Vanquished</header>
@@ -21319,7 +21202,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_ALEENOR">
 				<name>Biological Nemesis</name>
-				<description>Defeat the Aleenor Apparition and get the anti-bio light laser gun.</description>
+				<description>Defeat the Aleenor Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_aleenor</icon>
 				<header>Apparition Vanquished</header>
@@ -21327,7 +21210,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_VIN">
 				<name>Ever-Frozen</name>
-				<description>Defeat the Vin Apparition and get the frozen missile gun.</description>
+				<description>Defeat the Vin Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_vin</icon>
 				<header>Apparition Vanquished</header>
@@ -21335,7 +21218,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_CLEO">
 				<name>Unwilling Participant</name>
-				<description>Defeat the Cleo Apparition and get the ghostly spawn drone.</description>
+				<description>Defeat the Cleo Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_cleo</icon>
 				<header>Apparition Vanquished</header>
@@ -21343,7 +21226,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_ZULU">
 				<name>Shadow Crusade</name>
-				<description>Defeat the Zulu Apparition and get the shadow pinpoint gun.</description>
+				<description>Defeat the Zulu Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_zulu</icon>
 				<header>Apparition Vanquished</header>
@@ -21351,7 +21234,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_G">
 				<name>Endless Nightmares</name>
-				<description>Defeat the G Apparition and get the eroding beam gun.</description>
+				<description>Defeat the G Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_g</icon>
 				<header>Apparition Vanquished</header>
@@ -21359,7 +21242,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_DEADSHIP">
 				<name>Bound By Death</name>
-				<description>Defeat the Deadship Apparition and get the rainbow ion gun.</description>
+				<description>Defeat the Deadship Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_deadship</icon>
 				<header>Apparition Vanquished</header>
@@ -21367,7 +21250,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_SMOKE">
 				<name>Crystallized Madness</name>
-				<description>Defeat the Smoke Apparition and get the pro-hull crystal gun.</description>
+				<description>Defeat the Smoke Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_smoke</icon>
 				<header>Apparition Vanquished</header>
@@ -21375,15 +21258,15 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_CHILLS">
 				<name>Melted Ambition</name>
-				<description>Defeat the Chills Apparition and get the fire kernel gun.</description>
+				<description>Defeat the Chills Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_chills</icon>
 				<header>Apparition Vanquished</header>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_POK">
-				<name>Morphed Self</name>
-				<description>Defeat the Pok Apparition and get the morph bomb gun.</description>
+				<name>Endless Forms</name>
+				<description>Defeat the Pok Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_pok</icon>
 				<header>Apparition Vanquished</header>
@@ -21391,7 +21274,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_CHARROR">
 				<name>[ERROR]</name>
-				<description>Defeat the Charror Apparition and get the sentry combat drone.</description>
+				<description>Defeat the Charror Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_charror</icon>
 				<header>Apparition Vanquished</header>
@@ -21399,7 +21282,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_LEO">
 				<name>Sparking Powers</name>
-				<description>Defeat the Leo Apparition and get the adapt flak gun.</description>
+				<description>Defeat the Leo Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_leo</icon>
 				<header>Apparition Vanquished</header>
@@ -21407,7 +21290,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_SEARAK">
 				<name>Endless Explosions</name>
-				<description>Defeat the Searak Apparition and get the energy gatling gun.</description>
+				<description>Defeat the Searak Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_searak</icon>
 				<header>Apparition Vanquished</header>
@@ -21415,7 +21298,7 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_AUTO">
 				<name>Shielded Innards</name>
-				<description>Defeat the Auto Legion Apparition and get the tile beam gun.</description>
+				<description>Defeat the Auto Legion Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_auto</icon>
 				<header>Apparition Vanquished</header>
@@ -21423,47 +21306,47 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_WATCHER">
 				<name>C.I.E.</name>
-				<description>Defeat the Watcher Apparition and get the siren pinpoint.</description>
+				<description>Defeat the Watcher Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_watcher</icon>
 				<header>Apparition Vanquished</header>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_FLAGSHIP">
-				<name>Coalition Fission.</name>
-				<description>Defeat the Coalition Flagship Apparition and get the cloned RUES leader.</description>
+				<name>Coalition Fission</name>
+				<description>Defeat the Coalition Flagship Apparition and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot.</secretDescription>
 				<icon>fr_apparition_flagship</icon>
 				<header>Apparition Vanquished</header>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_AUGUSTUS">
-				<name>The Ghost With The Most (Cash).</name>
-				<description>Defeat the Augustus Apparition, unlock his ship and get the Golden Halberd.</description>
+				<name>The Ghost With The Most (Cash)</name>
+				<description>Defeat the Augustus Apparition, unlock its ship and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot and ship.</secretDescription>
 				<icon>fr_apparition_augustus</icon>
 				<header>Apparition Vanquished</header>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_SALLY">
-				<name>Last Resort.</name>
-				<description>Defeat the Sally Apparition, unlock her ship and get the Spectral Spider Bomb.</description>
+				<name>Last Resort</name>
+				<description>Defeat the Sally Apparition, unlock its ship and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot and ship.</secretDescription>
 				<icon>fr_apparition_sally</icon>
 				<header>Apparition Vanquished</header>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_PRINCE">
-				<name>From The Depths.</name>
-				<description>Defeat the Prince of Darkness Apparition, unlock their ship and get the Prince's Hell Cannon.</description>
+				<name>From The Depths</name>
+				<description>Defeat the Prince of Darkness Apparition, unlock its ship and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot and ship.</secretDescription>
 				<icon>fr_apparition_prince</icon>
 				<header>Apparition Vanquished</header>
 				<lockImage>ach_locked</lockImage>
 			</achievement>
 			<achievement name="ACH_FR_APPARITION_TRIRIAC">
-				<name>Endless Thralldom.</name>
-				<description>Defeat the Tririac Apparition, unlock their ship and get Tririac's Abductor Pinpoint.</description>
+				<name>Endless Thralldom</name>
+				<description>Defeat the Tririac Apparition, unlock its ship and obtain its special loot.</description>
 				<secretDescription>Defeat the ??? Apparition and get its loot and ship.</secretDescription>
 				<icon>fr_apparition_tririac</icon>
 				<header>Apparition Vanquished</header>
@@ -21495,8 +21378,8 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 		<section text="Forgotten Fish" hidden="false">
 			<achievement name="FISH_CAUGHT_FR_TARTARUS">
 				<name>Undead Fish</name>
-				<secretDescription>Fish the undead fish. REQUIRES ARC'S FISHING MOD</secretDescription>
-				<description>Catch a Undead Fish.</description>
+				<secretDescription>Catch a very special fish. REQUIRES ARC'S FISHING MOD</secretDescription>
+				<description>Catch an Undead Fish.</description>
 				<header>Fish Caught!</header>
 				<icon>fish_fr_tartarus</icon>
 				<variable name="fish_obtained_FR_TARTARUS" amount="1" />
@@ -23764,8 +23647,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 	<mod-append:name>fr_ghost_turzil</mod-append:name>
 	<mod-append:name>fr_ghost_stephan</mod-append:name>
 	<mod-append:name>fr_ghost_ellie</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_pony</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_gun</mod-append:name>
 	<mod-append:name>fr_ghost_jerry</mod-append:name>
 	<mod-append:name>fr_ghost_haynes</mod-append:name>
 	<mod-append:name>fr_ghost_tully</mod-append:name>
@@ -23868,8 +23749,6 @@ This enemy is protected by a highly resilient Energy Shield. In addition to the 
 	<mod-append:name>fr_ghost_turzil</mod-append:name>
 	<mod-append:name>fr_ghost_stephan</mod-append:name>
 	<mod-append:name>fr_ghost_ellie</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_pony</mod-append:name>
-	<mod-append:name>fr_ghost_jerry_gun</mod-append:name>
 	<mod-append:name>fr_ghost_jerry</mod-append:name>
 	<mod-append:name>fr_ghost_haynes</mod-append:name>
 	<mod-append:name>fr_ghost_tully</mod-append:name>

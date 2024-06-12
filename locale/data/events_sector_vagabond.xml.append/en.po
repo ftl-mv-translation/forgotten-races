@@ -24,37 +24,77 @@ msgstr ""
 "\t\n"
 "\t\"so, what do you say, kid?\""
 
-#: src-en/data/events_sector_vagabond.xml.append:31
+#: src-en/data/events_sector_vagabond.xml.append:20
 msgid ""
-"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice[@req=\"fr_bounty_completed_mid_run\""
+"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice/text"
+msgstr "Huh?"
+
+#: src-en/data/events_sector_vagabond.xml.append:22
+msgid ""
+"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice/event/text"
+msgstr ""
+"Since we can now retire much earlier than we expected, we uh, don't really "
+"have a use for this big-time contract we were sitting on for a few years. "
+"The bounty targets this time around... aren't exactly the usual fare. They "
+"call themselves the \"Haunts\", but... they're not the same as the ones you "
+"just fought."
+
+#: src-en/data/events_sector_vagabond.xml.append:24
+msgid ""
+"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice/event/choice/text"
+msgstr "...what do you mean?"
+
+#: src-en/data/events_sector_vagabond.xml.append:26
+msgid ""
+"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice/event/choice/event/text"
+msgstr ""
+"All we read is that... the ghosts this time around are, uh... real. No "
+"clouds of angry gas here, they're actually the souls of the damned. We "
+"forgot to read the rest...\" The leader looks away, chuckling awkwardly."
+
+#: src-en/data/events_sector_vagabond.xml.append:28
+msgid ""
+"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice/event/choice/event/choice/text"
+msgstr "That... that can't be possible."
+
+#: src-en/data/events_sector_vagabond.xml.append:30
+msgid ""
+"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice/event/choice/event/choice/event/text"
+msgstr ""
+"I know. But... I guess it is, if someone is offering us that kind of money. Messing with the dead just... feels iffy to begin with, not to mention that we couldn't possibly survive with this dinky little ship. Besides, we're too old now to go chasing such big problems, not to mention nobody who's ever taken the bounty has come back.\n"
+"\n"
+"\t\t\t\t\t\t\t...but you, Renegade... you're young, spry, fresh! You might be able to give them a run for their money. So... what do you say, kid?\""
+
+#: src-en/data/events_sector_vagabond.xml.append:34
+msgid ""
+"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice/event/choice/event/choice/event/choice[@req=\"fr_bounty_completed_mid_run\""
 " and @lvl=\"0\"]/text"
 msgstr "You can count us in!"
 
-#: src-en/data/events_sector_vagabond.xml.append:33
+#: src-en/data/events_sector_vagabond.xml.append:36
 msgid ""
-"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice[@req=\"fr_bounty_completed_mid_run\""
+"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice/event/choice/event/choice/event/choice[@req=\"fr_bounty_completed_mid_run\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
-"The hunter nods \"Good luck kid, i really hope you can pull this through.\" "
-"A strange set of coordinates is then transferred to your ship, you aren't "
-"sure where this will lead you, but wherever it is, you better be ready "
-"before you head there."
+"The hunter nods. \"Excellent. We'll send the coordinates shortly.\" A set of"
+" coordinates, much, much further away than you expected, pops into your "
+"navigator console."
 
-#: src-en/data/events_sector_vagabond.xml.append:38
+#: src-en/data/events_sector_vagabond.xml.append:41
 msgid ""
-"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice[@req=\"fr_bounty_completed_mid_run\""
+"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice/event/choice/event/choice/event/choice[@req=\"fr_bounty_completed_mid_run\""
 " and @lvl=\"1\"]/text"
-msgstr "That bounty is already completed!"
+msgstr "We've already been there!"
 
-#: src-en/data/events_sector_vagabond.xml.append:40
+#: src-en/data/events_sector_vagabond.xml.append:43
 msgid ""
-"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice[@req=\"fr_bounty_completed_mid_run\""
+"data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice/event/choice/event/choice/event/choice[@req=\"fr_bounty_completed_mid_run\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"\"Oh wow! And you are still alive?! Wait, if we gave you that bounty "
-"then...why can't we remember you? Gods, I'm too old for this.\""
+"You offer proof of your journey. \"And you're still alive!? I'm... w-wow! "
+"Wait... d-did we give you the bounty before? Gods, I'm too old for this...\""
 
-#: src-en/data/events_sector_vagabond.xml.append:47
+#: src-en/data/events_sector_vagabond.xml.append:56
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"UNLOCK_GHOST_QUEST_2\"]/mod-"
 "append:choice/text"
@@ -63,7 +103,7 @@ msgstr ""
 "doing in that piece of crap anyways? Get out of that ship before I force you"
 " out myself!\""
 
-#: src-en/data/events_sector_vagabond.xml.append:49
+#: src-en/data/events_sector_vagabond.xml.append:58
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"UNLOCK_GHOST_QUEST_2\"]/mod-"
 "append:choice/event/text"
@@ -73,25 +113,25 @@ msgstr ""
 "seconds after that the ship is emptied out as all the haunts use the "
 "emergency pods to eject out."
 
-#: src-en/data/events_sector_vagabond.xml.append:54
+#: src-en/data/events_sector_vagabond.xml.append:63
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"UNLOCK_GHOST_QUEST_2\"]/mod-"
 "append:choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_vagabond.xml.append:62
+#: src-en/data/events_sector_vagabond.xml.append:71
 msgid ""
 "data/events_sector_vagabond.xml.append$//event[@name=\"UNLOCK_GHOST_QUEST_WIN_GOZER\"]/text"
 msgstr ""
 "So you aren't exactly sure what the ghost hunters will think, you "
 "technically did what they asked but not exactly how they wanted you to."
 
-#: src-en/data/events_sector_vagabond.xml.append:65
+#: src-en/data/events_sector_vagabond.xml.append:74
 msgid ""
 "data/events_sector_vagabond.xml.append$//event[@name=\"UNLOCK_GHOST_QUEST_WIN_GOZER\"]/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_vagabond.xml.append:67
+#: src-en/data/events_sector_vagabond.xml.append:76
 msgid ""
 "data/events_sector_vagabond.xml.append$//event[@name=\"UNLOCK_GHOST_QUEST_WIN_GOZER\"]/choice/event/text"
 msgstr ""
@@ -99,12 +139,12 @@ msgstr ""
 "Here's the bounty reward, I suppose you might as well get the blueprints for"
 " our ship, we don't plan on using it anymore anyways.\""
 
-#: src-en/data/events_sector_vagabond.xml.append:77
+#: src-en/data/events_sector_vagabond.xml.append:86
 msgid ""
 "data/events_sector_vagabond.xml.append$//event[@name=\"UNLOCK_GHOST_QUEST_WIN_GOZER\"]/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_vagabond.xml.append:79
+#: src-en/data/events_sector_vagabond.xml.append:88
 msgid ""
 "data/events_sector_vagabond.xml.append$//event[@name=\"UNLOCK_GHOST_QUEST_WIN_GOZER\"]/choice/event/choice/event/text"
 msgstr ""
@@ -113,13 +153,13 @@ msgstr ""
 "I just want to leave this place and reflect how my life reached this "
 "point.\""
 
-#: src-en/data/events_sector_vagabond.xml.append:90
+#: src-en/data/events_sector_vagabond.xml.append:99
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"NEBULA_VAGABOND_ACID\"]/mod-"
 "append:choice/text"
 msgstr "(Stefan) \"I know all about them...unfortunately\""
 
-#: src-en/data/events_sector_vagabond.xml.append:92
+#: src-en/data/events_sector_vagabond.xml.append:101
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"NEBULA_VAGABOND_ACID\"]/mod-"
 "append:choice/event/text"
@@ -132,13 +172,13 @@ msgstr ""
 " intrepid explorer, so that I may be present when such wonders are to be "
 "discovered!\""
 
-#: src-en/data/events_sector_vagabond.xml.append:100
+#: src-en/data/events_sector_vagabond.xml.append:109
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"NEBULA_GHOST_INSANE_ROCKMEN\"]/mod-"
 "append:choice/text"
 msgstr "(Undead Crew) Show them your Actual Ghost crew."
 
-#: src-en/data/events_sector_vagabond.xml.append:106
+#: src-en/data/events_sector_vagabond.xml.append:115
 msgid ""
 "data/events_sector_vagabond.xml.append$//event[@name=\"FR_NEBULA_GHOST_INSANE_ROCKMEN_HAUNT\"]/text"
 msgstr ""

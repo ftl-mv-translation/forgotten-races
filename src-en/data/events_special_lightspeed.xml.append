@@ -10,7 +10,7 @@
 <mod:findName type="event" name="REROUTE_MENU_LASTSTAND">
 	<mod-append:choice req="FR_REQUIREMENT_TARTARUS_COORDINATES_OR_SPOOK_CHASERS" lvl="1" blue="false" hidden="true">
 		<text>Jump to the Ghost Bounty Sector.</text>
-		<event load="FR_LIGHTSPEED_SECTOR_WARP_TARTARUS"/>
+		<event load="FR_LIGHTSPEED_SECTOR_WARP_TARTARUS_BOSS"/>
 	</mod-append:choice>
 </mod:findName>
 
@@ -28,13 +28,13 @@
 
 <event name="FR_LIGHTSPEED_SECTOR_WARP_TARTARUS">
 	<text>You are about to reroute. Below is the Atlas entry for this sector.
-	Name: Forgotten Tartarus Sector
+	Name: Tartarus
 	Type: Hostile
 	Unique: True
 	Dominant Faction: The Haunts
-	Rebel Threat Level: Non-Existent
+	Rebel Threat Level: None
 	
-	The only kind of information you can find about this sector are scraps at best, a series of names that seem important but nothing more than that. Apparently this sector is home to...actual undead ghosts if the reports are to be believed, but that's not possible right? Actual ghosts don't exist, surly...right? One thing is for sure though, once you go in there's no coming out until the deeds are done.</text>
+	Most of the information on this distant sector is completely blank. All you can make out is a list of bizarre names from the bounty, and a foreboding title offered to the sector: Tartarus. The Spook Chasers told you this stretch of space was home to actual undead, but that can't possibly be true... right?</text>
 	<choice hidden="true">
 		<text>Continue with the jump.</text>
 		<event>
@@ -54,12 +54,55 @@
 		</event>
 	</choice>
 </event>
+
+<event name="FR_LIGHTSPEED_SECTOR_WARP_TARTARUS_BOSS">
+	<text>You are about to reroute. Below is the Atlas entry for this sector.
+	Name: Tartarus
+	Type: Hostile
+	Unique: True
+	Dominant Faction: The Haunts
+	Rebel Threat Level: None
+	
+	Most of the information on this distant sector is completely blank. All you can make out is a list of bizarre names from the bounty, and a foreboding title offered to the sector: Tartarus. The Spook Chasers told you this stretch of space was home to actual undead, but that can't possibly be true... right?</text>
+	<choice hidden="true">
+		<text>Continue with the jump.</text>
+		<event>
+			<text>You prepare to jump to the new co-ordinates, and change your flight path accordingly.</text>
+			<variable name="coords_fr_ghosts" op="set" val="0"/>
+			<variable name="loc_laststand" op="add" val="1"/>
+			<variable name="fish_sector" op="set" val="16"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="FR_JUMP_TO_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event>
+			<loadEvent>ATLAS_MENU_NOEQUIPMENT</loadEvent>
+		</event>
+	</choice>
+</event>
+
 <event name="FR_JUMP_TO_TARTARUS">
 	<secretSector>SECTOR_FR_TARTARUS</secretSector>
 </event>
 
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					FISH
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
 <event name="FISH_FR_TARTARUS_GIVE">
-  <text>You reeled in a unique Undead fish!</text>
+  <text>You reeled in a unique undead fish!</text>
   
   <weapon name="FISH_FOOD_FR_TARTARUS"/>
   <choice>

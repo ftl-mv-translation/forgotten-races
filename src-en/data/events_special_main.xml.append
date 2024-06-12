@@ -151,8 +151,8 @@
 		<event load="FR_LEGION_FLAGSHIP_SURGE"/>
 		<image>statusUI/fr_top_flagship_surge</image>
 		<customLocation x="254" y="76"/>
-		<tooltip>Trigger the flagship's zenith surge.</tooltip>
-		<inactiveTooltip>The ship's systems need to cooldown first before they can send another surge.</inactiveTooltip>
+		<tooltip>Trigger the flagship's Zenith surge.</tooltip>
+		<inactiveTooltip>The ship's systems need to cool down first before they can send another surge.</inactiveTooltip>
 		<req lvl="1">fr_flagship_surge_ready</req>
 		<noDanger>false</noDanger>
 		<jumpClear>false</jumpClear>
@@ -189,8 +189,8 @@
 		<event load="FR_RUES_FLAGSHIP_SURGE"/>
 		<image>statusUI/fr_top_flagship_surge</image>
 		<customLocation x="254" y="76"/>
-		<tooltip>Trigger the flagship's bio beam surge.</tooltip>
-		<inactiveTooltip>The ship's systems need to cooldown first before they can send another surge.</inactiveTooltip>
+		<tooltip>Trigger the flagship's Rad-Beam surge.</tooltip>
+		<inactiveTooltip>The ship's systems need to cool down first before they can send another surge.</inactiveTooltip>
 		<req lvl="1">fr_flagship_surge_ready</req>
 		<noDanger>false</noDanger>
 		<jumpClear>false</jumpClear>
@@ -227,8 +227,8 @@
 		<event load="FR_FEDERATION_FLAGSHIP_SURGE"/>
 		<image>statusUI/fr_top_flagship_surge</image>
 		<customLocation x="254" y="76"/>
-		<tooltip>Trigger the flagship's energy surge.</tooltip>
-		<inactiveTooltip>The ship's systems need to cooldown first before they can send another surge.</inactiveTooltip>
+		<tooltip>Trigger the flagship's Energy surge.</tooltip>
+		<inactiveTooltip>The ship's systems need to cool down first before they can send another surge.</inactiveTooltip>
 		<req lvl="1">fr_flagship_surge_ready</req>
 		<noDanger>false</noDanger>
 		<jumpClear>false</jumpClear>
@@ -268,7 +268,7 @@
 		<anim>fr_haunt_urn_object</anim>
 		<hoverAnim>fr_haunt_urn_object_hover</hoverAnim>
 		<inactiveAnim hide="true"/>
-		<tooltip>The Haunted Urn.</tooltip>
+		<tooltip>An odd urn.</tooltip>
 		<clickAction>
 			<event load="FR_HAUNT_URN"/>
 			<destroy/>
@@ -277,31 +277,101 @@
 </mod:findName>
 
 <event name="FR_HAUNT_URN">
-	<text>You notice this weird, out of place urn, you wonder what something so ancient looking is doing at a multiverse hanger out of all placed. You pick up the urn cautiously, and as you do, you suddenly realize what it's meant for, but you can't find the words to spell it out, nor can you remember where it came from, all you know is how to use it.
+	<text>You notice an odd urn sitting in the hangar. You can't tell what it's doing here, especially since it looks so old... but when you pick it up, you are instilled with a sense of purpose. You can't describe it, almost as if the words were permanently stuck on the tip of your tongue, but you do know how to use it.
 	
-	[You can now summon Haunted Apparitions on empty beacons!]</text>
+	[You can now summon a Haunted Apparition at any empty beacon.]</text>
 	<achievement silent="false">ACH_FR_EVENT_URN</achievement>
 	<variable name="loc_fr_urn_picked_up" op="set" val="1"/>
 	<playSound>ghostDeath</playSound>
 </event>
 
+
 <!--
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-			                    ADDON INFO
+			                    SALT QUEST
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 
-<event name="ADDON_FR">
-    <text>FORGOTTEN RACES
-	Developed by Gabriel Cooper and HereticChurch
-	Currently Enabled.
-    
-	This mod brings back the in-cannon extinct subclass of the Ancients/Obelisks called the "Commonwealth". It adds content for the now almost extinct salt people race and a new cruiser line for the osmians, as well as a brand new sector with unique music and a few unlocks beacons all throughout the game.
 
-	Forgotten Races also adds 146 new ships, 141 weapons and drones not counting artilleries (mostly exclusive to said ships), 54 new crews that can be found on the new ships, a revived questline with dozens of unlocks that wasn't implemented to multiverse years ago and 2 new renegade bosses, both with exclusive weapons. Those ships all have some kinda gimmick, not all of them have a very complicated one however.</text>
+<event name="FR_SALT_BATTLESHIP_QUEST_START">
+	<preventQuest/>
+	<preventFleet/>
+	<quest>
+		<nebulaBeacon>false</nebulaBeacon>
+		<aggressive>2</aggressive>
+	</quest>
+	<beaconType id="map_icon_fr_salt_quest" global="true">
+		<color r="250" g="250" b="250" a="1.0"/>
+	</beaconType>
+	<text>Upon arriving at the prison, you notice it's completely empty, save for a single auto-ship blocking the entrance. The prison is completely encased by lead plates, preventing any scans of the inside from here.
+	
+	    "An auto-ship? Why would the Rebellion put an auto-cruiser of all things here?" Obyn ponders out loud. The cruiser ignores all of your hails, and the warning message spewing forth from its comms is somewhat distorted.</text>
+		<ship load="SHIP_FR_QUEST_AUTO_CRUISER" hostile="false"/>
+		<choice hidden="true">
+			<text>Let's teach this hunk of metal who's boss!</text>
+			<event>
+				<text>The ship's drones whirl to life, defending their mothership. This is gonna be tough.</text>
+				<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Leave the auto-ship alone.</text>
+			<event>
+				<text>You decide you have other more important things to do than chase a mystery. Obyn is clearly unhappy, taking this moment to resign from your crew.</text>
+					<removeCrew class="unique_obyn">
+						<clone>false</clone>
+							<text>Your crew cannot be cloned, as they are still alive.</text>
+					</removeCrew>
+			</event>
+		</choice>
 </event>
+
+<event name="FR_SALT_BATTLESHIP_QUEST_WIN">
+	<text>The giant auto ship breaks apart and is finally silenced, after making sure its systems are down, you park the ship next to the prison and go explore it alongside obyn.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The doors are unlocked - whoever built this facility likely thought the auto-cruiser was enough defense. Within the facility, you find thousands upon thousands of pods, each holding... a number of whitish crystals. Salt people, frozen in stasis, thought extinct!
+			
+				  Obyn practically screamed with elation. "Captain! Holy... shit... I... l-let me open 'em up!" He sprints to a terminal on the side of the room, mashing away at the keyboard.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>The process is a grueling one, taking multiple hours to bring the Salt people within out of stasis without the risk of system shock. Only one out of every ten pods ended up being viable for reanimation... but eventually, another Saltman stepped out of the pod, dazed.
+
+								  "W-who...?" the Salt person asks, looking around. "It... it worked, Captain! It worked!" Obyn jumps for joy, sitting down next to the newly refreshed Saltman. However, his joy briefly dampens as he pulls you aside... "Captain... this may take days, or even weeks to sort out. You can't wait, but... I can. I'm asking you... go on without me."</text>
+									<removeCrew class="unique_obyn">
+										<clone>false</clone>
+										<text></text>
+									</removeCrew>
+									<choice hidden="true">
+										<text>Are you sure, Obyn?</text>
+										<event>
+											<text>Obyn looks over the many reunited families as they all step out of their pods. "Yes, Captain. Though... there's no way I'll leave you empty-handed." The once-only Saltman hands you a thumb drive. "Here's the blueprints to a cruiser for my kin. I wanted to build it, but... I don't think that life is for me anymore. You'll get better use out of it."
+
+											He steps forward, careful to not suck all the moisture out of you. "Feel free to take the weapons from my ship. I won't be using them anymore, either..." You nod, assuring him of his decision. One of the other Saltmen, inspired by your act of kindness, offers to join your crew. Although the Rebel fleet will certainly have caught up by now, you're not too mad about it.</text>
+												<autoReward level="HIGH">scrap_only</autoReward>
+												<variable name="loc_fr_obyn_quest_done" op="set" val="1"/>
+												<weapon name="SALT_LAUNCHER"/>
+												<crewMember amount="1" class="fr_salt"/>
+												<achievement silent="false">ACH_FR_EVENT_SALT</achievement>
+												<unlockCustomShip silent="false">PLAYER_SHIP_FR_SALT_BATTLESHIP</unlockCustomShip>
+												<modifyPursuit amount="2"/>
+										</event>
+									</choice>
+						</event>
+					</choice>
+		</event>
+	</choice>
+</event>
+
 
 </FTL>
 

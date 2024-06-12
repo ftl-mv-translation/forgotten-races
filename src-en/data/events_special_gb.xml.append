@@ -6,7 +6,7 @@
 
 <ship name="FR_SHIP_GB_GOZER" auto_blueprint="FR_GB_GOZER">
 	<destroyed>
-		<text>The leader of the haunts is destroyed, though, like all other figureheads in the multiverse, there's always more of them across other universes. Still, a victory is a victory.</text>
+		<text>The leader of the Haunts is destroyed. Like all other figureheads in the Multiverse, however, there's always another in another universe. Still, a victory is a victory.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -14,7 +14,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>The leader of the haunts is destroyed, though, like all other figureheads in the multiverse, there's always more of them across other universes. Still, a victory is a victory.</text>
+		<text>The leader of the Haunts is destroyed. Like all other figureheads in the Multiverse, however, there's always another in another universe. Still, a victory is a victory.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -34,19 +34,19 @@
 		<unvisitedTooltip>The location of a Haunt.</unvisitedTooltip>
 		<visitedTooltip>Explored location. Location of a Haunt.</visitedTooltip>
 	</beaconType>
-	<text>According to the Proton Pack's database, this is the Haunt's head honcho, Goziodeon, a fearful leader and one with the most loyal servants in this side of the multiverse. Strangely enough, his weapons don't power up as soon as he sees you, instead you receive a hail from his ship.</text>
+	<text>According to the Proton Pack's database, this is the Haunts' head honcho, Goziodeon. A fearful leader, and one with the most loyal servants this side of the Multiverse. Strangely enough, his weapons don't power up as soon as he sees you. Instead, you receive a hail from his ship.</text>
 	<ship load="FR_SHIP_GB_GOZER" hostile="false"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
 	    <text>Continue...</text>
 		<event>
-		    <text>"Well well well, what do we have here boys? A federation meathead that thinks they can take on the head honcho of the Haunts?! Is that it?!" The ghost bursts into laughter, lasting more than a minute before he finally recomposes himself.
+		    <text>"Well well well, what do we have here boys? A Federation meathead that thinks they can take on the head honcho of the Haunts?! Is that it?!" The ghost bursts into laughter, lasting more than a minute before he finally recomposes himself.
 			
-			"That's the funniest thing I heard in centuries, so, as a treat for lighting up my mood, I won't break your spine immediately. Tell me, little federation puppet, what brings you here today?</text>
+			"Oh, that's the funniest thing I heard in centuries! So, as a treat for lighting up my mood, I won't break your spine immediately. Tell me, little Federation puppet, what brings you here today?</text>
 		    	<choice hidden="true">
 			        <text>We are here to take you down, Goziodeon!</text>
 		                <event>
-			                <text>You can see a enormous grin form across his gaseous body "Tsk, tsk tsk, wrong choice buddy" His ship's weapons finally lights to life and he refuses any more hails.</text>
+			                <text>You can see a enormous grin form across the entirety of his gaseous body. "Tsk, tsk tsk, wrong choice buddy." His ship's weapons finally spring to life and he refuses any more hails.</text>
 			                    <ship hostile="true"/> 
 			                        <choice hidden="true">
 				                        <text>Continue...</text>
@@ -55,13 +55,13 @@
 		                </event>
 	            </choice>
 				<choice hidden="true">
-		            <text>We are actually a new recruit from the Haunts, it's how we found you in the first place!</text>
+		            <text>We are here to join you!</text>
 		                <event>
-			                <text>The mob boss inspects you and your ship over a few minutes "oh? Is that so? Then who authorized you to join us?"</text>
+			                <text>The mob boss inspects you and your ship. "Oh? Is that so? Then... who authorized you to join us?"</text>
 								<choice hidden="true">
 									<text>Vinezaleon.</text>
 									<event>
-										<text>"Hmm, Vinezaleon wasn't exactly authorized to allow new recruits in, though suppose he isn't one to be fooled easily, if you convinced him then you are more than welcome to be our recruit."</text>
+										<text>"Hmm, Vinezaleon wasn't exactly authorized to allow new recruits in. Though... I suppose he isn't one to be fooled easily. If you convinced him, then you are more than welcome to be our recruit."</text>
 										<choice hidden="true">
 											<text>Continue...</text>
 											<event load="FR_PROTON_HAUNT_GOZER_JOIN"/>
@@ -69,42 +69,42 @@
 									</event>
 								</choice>
 								<choice hidden="true">
-									<text>Slimer.</text>
-										<event>
-											<text>The ghost bursts into laughter again, but this time he make sure his weapons turn on as soon as he finishes laughing. "I wouldn't trust Slimer to even take out the trash, what makes you think I would let *him* welcome newcomers? While I appreciate the laughter, I have no respect for liars, get them boys!"</text>
-												<ship hostile="true"/> 
-													<choice hidden="true">
-														<text>Continue...</text>
-															<event load="COMBAT_CHECK"/>
-													</choice>
-										</event>
+								<text>Slimer.</text>
+									<event>
+										<text>The Ghost bursts into laughter again, ensuring all his guns turn on as soon as he stops. "I wouldn't trust Slimer to even take out the trash, what makes you think I would let HIM welcome newcomers? While I appreciate the laughter you give me, I have no respect for liars. Get 'em, boys!"</text>
+										<ship hostile="true"/> 
+										<choice hidden="true">
+											<text>Continue...</text>
+												<event load="COMBAT_CHECK"/>
+										</choice>
+									</event>
 								</choice>
 								<choice hidden="true">
 									<text>Socolarei.</text>
 										<event>
-											<text>The ghost's expression turns into a grim one as his ship's weapons turn on. "No, just no."</text>
-												<ship hostile="true"/> 
-													<choice hidden="true">
-														<text>Continue...</text>
-															<event load="COMBAT_CHECK"/>
-													</choice>
+											<text>The ghost's expression turns into a grim one as his ship's weapons turn on. "...no, just no."</text>
+											<ship hostile="true"/> 
+											<choice hidden="true">
+												<text>Continue...</text>
+													<event load="COMBAT_CHECK"/>
+											</choice>
 										</event>
 								</choice>
 								<choice hidden="true">
 									<text>Psycadellius.</text>
 										<event>
-											<text>The ghost bursts into laughter again, but this time he make sure his weapons turn on as soon as he finishes laughing. "Psycadellius? Screening for newcomers? That's funnier than if you said slimer welcomed you in! While I appreciate the laughter, I have no respect for liars, get them boys!"</text>
+											<text>The Ghost bursts into laughter again, ensuring all his guns turn on as soon as he stops. "Psycadellius? Screening for newcomers? It would be less funny if you said Slimer welcomed you in! While I appreciate the laughter you give me, I have no respect for liars. Get 'em, boys!"</text>
 												<ship hostile="true"/> 
-													<choice hidden="true">
-														<text>Continue...</text>
-															<event load="COMBAT_CHECK"/>
-													</choice>
+												<choice hidden="true">
+													<text>Continue...</text>
+														<event load="COMBAT_CHECK"/>
+												</choice>
 										</event>
 								</choice>
 								<choice hidden="true">
 									<text>Ellebeneare.</text>
 									<event>
-										<text>"My wife you say? Well in that case, let's get on with your test!"</text>
+										<text>"My wife, you say? Well... in that case, let's get on with your test!"</text>
 										<choice hidden="true">
 											<text>Continue...</text>
 											<event load="FR_PROTON_HAUNT_GOZER_JOIN"/>
@@ -114,7 +114,7 @@
 								<choice hidden="true">
 									<text>Zulbazare.</text>
 									<event>
-										<text>"Ah that's what I wanted to hear, Zulbazare truly has an eye for great recruits!"</text>
+										<text>"Ah, that's what I wanted to hear! Zulbazare truly has an eye for great new blood!"</text>
 										<choice hidden="true">
 											<text>Continue...</text>
 											<event load="FR_PROTON_HAUNT_GOZER_JOIN"/>
@@ -128,7 +128,7 @@
 </event>
 
 <event name="FR_PROTON_HAUNT_GOZER_JOIN">
-	<text>"As is customary for newcomers, I will accompany you in your way to take out the flagship, think of it as a test, if you can do this then I will be certain you have what it takes to join us. Don't disappoint me kid."</text>
+	<text>"As is customary for new Renegades, I will accompany you on your journey to defeat the Flagship. Think of it as a test... a test to see if you're cut out for this. Don't disappoint me, kid!"</text>
 	<crewMember amount="1" class="fr_gozer" all_skills="2">Goziodeon</crewMember>
 </event>
 

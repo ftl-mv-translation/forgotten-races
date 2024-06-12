@@ -9,7 +9,7 @@
 
 <ship name="SHIP_FR_QUEST_WITHER_CRUISER" auto_blueprint="FR_BOSS_QUEST_WITHER_CRUISER">
 	<destroyed>
-		<text>The enemy ship breaks apart, destroying it and any withereds left inside. You attempt to hail the dynasty, but all you receive is a ASB shot straight into your engines, you better get out of here quick!</text>
+		<text>The enemy ship breaks apart, destroying it and any Withered left inside. You attempt to hail the Dynasty, but all you receive is a ASB shot straight into your engines. You need to get out of here!</text>
 		<autoReward level="MED">standard</autoReward>
 		<damage amount="3" system="engines" effect="breach"/>
 		<environment type="PDS" target="player"/>
@@ -29,7 +29,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>You've exterminated all the augmented from the ship, leaving you with plenty of things to scrap.</text>
+		<text>You've exterminated all the Augmented from the ship, leaving you with plenty of ship to scrap.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -42,19 +42,19 @@
 	<triggeredEvent event="FR_COMMONWEALTH_AUTO_WIN" time="60" thisFight="true">
 		<triggeredEventBox load="DEFAULT_TIMER" pos="combat">
 			<warning time="10.0" flash="false"/>
-			<tooltip>Hold off this long without destroying the auto so we can hack its security systems.</tooltip>
+			<tooltip>Survive without destroying the auto-ship, so the hack routine can run.</tooltip>
 		</triggeredEventBox>
 		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
 	</triggeredEvent>
 	<destroyed>
-		<text>The ship buckles under your assault and splits into uncountable pieces, seems whatever mystery that ship held will forever go unanswered.</text>
+		<text>The ship buckles under your assault and splits into uncountable pieces. Whatever mystery the ship held will forever go unanswered.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</destroyed>
 </ship>
 
 <ship name="SHIP_FR_QUEST_PEACEKEEPING_CRUISER" auto_blueprint="MU_ZOLTAN_CRUISER_ELITE">
 	<destroyed>
-		<text>The massive vessel breaks in half, falling down on top of the nearby zoltan shipyard, taking out multiple high value ships parked there. This was a decisive blow against the zoltan government. The Osmian ship hails you.</text>
+		<text>The massive cruiser splits down the middle, the wreckage crashing down atop a Ministry shipyard and destroying several other parked Zoltan craft. The blow was a decisive one, with other vessels beginning to turn around and avoiding the scene. The Osmian ship hails you.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -62,7 +62,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>As the last zoltan falls, you set the ship's auto pilot to crash on the nearby zoltan shipyard before beaming your crew away, taking out multiple parked zoltan vessels in the process. The Osmian ship hails you.</text>
+		<text>As the last Zoltan aboard falls, you set the ship's autopilot on a collision course with a nearby Ministry shipyard, destroying several other parked Zoltan craft. The Osmian ship hails you.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>

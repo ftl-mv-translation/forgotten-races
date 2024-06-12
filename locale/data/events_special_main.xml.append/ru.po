@@ -1,17 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-08 18:49+0000\n"
-"Last-Translator: Роман <aleev1414@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
-"dataevents_special_mainxmlappend/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/events_special_main.xml.append:14
 msgid ""
@@ -102,21 +94,78 @@ msgstr "Урна с привидениями."
 #: src-en/data/events_special_main.xml.append:280
 msgid "data/events_special_main.xml.append$//event[@name=\"FR_HAUNT_URN\"]/text"
 msgstr ""
-"Вы замечаете эту странную, необычную урну и задаетесь вопросом, что такая "
-"древняя вещь делает в ангаре Мультивселенной. Вы осторожно поднимаете урну и "
-"с ужасом понимаете, для чего она предназначена, но не можете найти слов, "
-"чтобы произнести их, и не можете вспомнить, откуда она взялась, все, что вы "
-"знаете, - это как ее использовать.\n"
+"Вы замечаете эту странную, необычную урну и задаетесь вопросом, что такая древняя вещь делает в ангаре Мультивселенной. Вы осторожно поднимаете урну и с ужасом понимаете, для чего она предназначена, но не можете найти слов, чтобы произнести их, и не можете вспомнить, откуда она взялась, все, что вы знаете, - это как ее использовать.\n"
 "\t\n"
 "\t[Теперь вы можете вызывать явления с привидениями на пустых маяках!]"
 
-#: src-en/data/events_special_main.xml.append:297
-msgid "data/events_special_main.xml.append$//event[@name=\"ADDON_FR\"]/text"
+#: src-en/data/events_special_main.xml.append:308
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/text"
 msgstr ""
-"FORGOTTEN RACES\n"
-"\tРазработано Gabriel Cooper и HereticChurch\n"
-"\tВ настоящее время включен.\n"
-"\n"
-"\tЭтот мод возвращает в игру вымерший подкласс древних/обелисков под названием \"Содружество\". Он добавляет контент для уже почти исчезнувшей расы соляных людей и новую линейку крейсеров для осмиан, а также совершенно новый сектор с уникальной музыкой и несколько разблокированных маяков по всей игре.\n"
-"\n"
-"\tForgotten Races также добавляет 146 новых кораблей, 141 видов оружия и дронов, не считая артиллерии (в основном эксклюзивной для этих кораблей), 54 новых членов экипажа, которых можно найти на новых кораблях, возрожденную квестовую линию с десятками разблокировок, которая не была реализована в multiverse много лет назад, и 2 новых босса-ренегата, оба с эксклюзивным оружием. Все эти корабли имеют какую-то особенность, однако не все из них очень сложные."
+
+#: src-en/data/events_special_main.xml.append:313
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[1]/text"
+msgstr "Давайте покажем этому куску металла, кто здесь хозяин!"
+
+#: src-en/data/events_special_main.xml.append:315
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_main.xml.append:318
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_main.xml.append:324
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[2]/text"
+msgstr "Оставить в покое автомобильный корабль."
+
+#: src-en/data/events_special_main.xml.append:326
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_main.xml.append:329
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_START\"]/choice[2]/event/removeCrew/text"
+msgstr "Вашего члена экипажа нельзя клонировать, так как он все еще жив."
+
+#: src-en/data/events_special_main.xml.append:336
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/text"
+msgstr ""
+"Убедившись, что его системы отключены, вы сажаете корабль на площадку рядом "
+"с тюрьмой и отправляетесь исследовать ее вместе с Обином."
+
+#: src-en/data/events_special_main.xml.append:339
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_main.xml.append:341
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_main.xml.append:345
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_main.xml.append:347
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_main.xml.append:355
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/choice/event/choice/text"
+msgstr "Вы уверены, Обин?"
+
+#: src-en/data/events_special_main.xml.append:357
+msgid ""
+"data/events_special_main.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/choice/event/choice/event/text"
+msgstr ""
