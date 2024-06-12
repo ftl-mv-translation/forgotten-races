@@ -1,18 +1,25 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-06-13 12:50+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_shipsxmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/events_ships.xml.append:12
-#, fuzzy
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_FR_QUEST_WITHER_CRUISER\"]/destroyed/text"
 msgstr ""
 "Вражеский корабль разлетается на части, уничтожая его и всех оставшихся "
 "внутри Увядших. Вы пытаетесь вызвать Династию, но все, что вы получаете, - "
-"это выстрел ПКБ прямо в ваши двигатели, лучше убираться отсюда поскорее!"
+"это выстрел из ПКБ прямо по вашим двигателям. Вам нужно убираться отсюда!"
 
 #: src-en/data/events_ships.xml.append:24
 msgid ""
@@ -26,7 +33,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_ships.xml.append:32
-#, fuzzy
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_FR_QUEST_ENHANCED\"]/deadCrew/text"
 msgstr ""
@@ -39,29 +45,27 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_ships.xml.append:45
-#, fuzzy
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_FR_BOSS_QUEST_BROKEN_COMMONWEALTH_AUTO\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr ""
-"Продержитесь так долго, не уничтожая автоматический корабль, чтобы мы смогли"
-" взломать его системы безопасности."
+"Выживать, не уничтожая автоматический корабль, чтобы можно было запустить "
+"процедуру взлома."
 
 #: src-en/data/events_ships.xml.append:50
-#, fuzzy
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_FR_BOSS_QUEST_BROKEN_COMMONWEALTH_AUTO\"]/destroyed/text"
 msgstr ""
-"Корабль разлетается на бесчисленные куски, и кажется, что все тайны, которые"
-" хранил этот корабль, навсегда останутся неразгаданными."
+"Корабль сминается под вашей атакой и разлетается на бесчисленные куски. "
+"Какие бы тайны ни хранил корабль, они навсегда останутся неразгаданными."
 
 #: src-en/data/events_ships.xml.append:57
-#, fuzzy
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_FR_QUEST_PEACEKEEPING_CRUISER\"]/destroyed/text"
 msgstr ""
-"Огромное судно разламывается пополам и падает на близлежащую золтанскую "
-"верфь, уничтожая несколько стоящих там дорогостоящих кораблей. Это был "
-"решающий удар по правительству золтанов. Осмианский корабль вызывает вас."
+"Огромный крейсер разламывается на части, его обломки падают на верфь "
+"Министерства и уничтожают несколько стоявших там золтанских кораблей. Это "
+"был решающий удар, и другие корабли начали разворачиваться и уходить от "
+"места событий. Осмианский корабль вызывает вас."
 
 #: src-en/data/events_ships.xml.append:60
 msgid ""
@@ -69,14 +73,13 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_ships.xml.append:65
-#, fuzzy
 msgid ""
 "data/events_ships.xml.append$//ship[@name=\"SHIP_FR_QUEST_PEACEKEEPING_CRUISER\"]/deadCrew/text"
 msgstr ""
-"Когда последний золтанец умирает, вы переводите корабль в режим автопилота, "
-"и программируете его, чтобы он врезался в близлежащую золтанскую верфь, а "
-"затем телепортируете свою команду, уничтожив при этом несколько стоящих на "
-"стоянке золтанских кораблей. Осмианский корабль вызывает вас."
+"Когда последний золтанец на борту погибает, вы настраиваете автопилот "
+"корабля на курс столкновения с ближайшей верфью Министерства, уничтожив "
+"несколько других стоящих там золтанских кораблей. Осмианский корабль "
+"вызывает вас на связь."
 
 #: src-en/data/events_ships.xml.append:68
 msgid ""
