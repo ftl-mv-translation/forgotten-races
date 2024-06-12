@@ -1,26 +1,33 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-06-13 12:50+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_special_guardsxmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/events_special_guards.xml.append:5
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[1]/text"
-msgstr "(Вэнс Первый) \"Стойте, солдаты! Отступите и дайте нам пройти!\""
+msgstr "(Вэнс Первый) \"Стой, солдат! Отступи и дай нам пройти!\""
 
 #: src-en/data/events_special_guards.xml.append:7
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[1]/event[1]/text"
 msgstr ""
-"\"О-ох, черт! Конечно, сэр!\" Сторожевой корабль повстанцев отступает и "
-"пропускает ваш корабль, задерживая флот и давая вам ящик с ресурсами. Один "
-"из членов их команды также хочет присоединиться к вашему делу."
+"\"О-ох, черт! Конечно, сэр!\" Сторожевой корабль отступает и пропускает ваш "
+"корабль. Один из членов его экипажа команды хочет перейти на ваш корабль, "
+"после чего Вэнс приказывает сторожевому кораблю отправить припасы, а также "
+"передать ложные данные флоту."
 
 #: src-en/data/events_special_guards.xml.append:14
 msgid ""
@@ -38,22 +45,20 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_guards.xml.append:24
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
 
 #: src-en/data/events_special_guards.xml.append:26
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[2]/event[1]/text"
 msgstr ""
-"\"Черта с два! Ты не заслуживаешь больше называться Вэнсом, предатель!\" "
-"Капитан повстанцев кричит и вызывает подкрепление, а также сообщает флоту о "
-"вашем появлении."
+"\"Черта с два! Это хорошая шутка, мы перестали использовать документы с "
+"фотографиями много лет назад!\" Корабль повстанцев подает сигнал бедствия, "
+"вызывая подкрепление!"
 
 #: src-en/data/events_special_guards.xml.append:30
 msgid ""
@@ -62,32 +67,28 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_guards.xml.append:35
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[2]/event[2]/text"
 msgstr ""
-"Капитан повстанцев изучает документы, а затем пожимает плечами: \"Конечно, "
-"добро пожаловать в сектор, сынок\"."
+"Капитан повстанцев изучает документы, а затем пожимает плечами: \"Э-э-э... "
+"конечно. Добро пожаловать в сектор, сынок\"."
 
 #: src-en/data/events_special_guards.xml.append:44
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
 "append:choice[1]/text"
-msgstr "(Вэнс Первый) \"Стойте, солдаты! Отступите и дайте нам пройти!\""
+msgstr "(Вэнс Первый) \"Стой, солдат! Отступи и дай нам пройти!\""
 
 #: src-en/data/events_special_guards.xml.append:46
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
-"\"Вот черт! Вэнс Первый! Простите, что вел себя так грубо! По документам ваш"
-" корабль является кораблем Федерации, поэтому я предположил, что это была "
-"уловка! Мы позаботимся о том, чтобы флот не стал для вас проблемой в этом "
-"секторе!\" Повстанец также передает вам большое количество припасов, а двое "
-"его солдат присоединяются к вашей команде."
+"\"Вот черт! Вэнс Первый! Простите за недоразумение, мы опознали вас как "
+"федерала! Мы позаботимся о том, чтобы флот не создавал для вас проблем\". "
+"Когда охранник подает разрешающий сигнал, на помощь вам отправляется пара "
+"асов МФК, а также несколько ящиков с припасами."
 
 #: src-en/data/events_special_guards.xml.append:53
 msgid ""
@@ -97,13 +98,13 @@ msgstr ""
 "(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
 
 #: src-en/data/events_special_guards.xml.append:55
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
 "append:choice[2]/event/text"
 msgstr ""
-"\"Надо же, а я-то думал, что вы, псы Федерации, не можете быть глупее\". "
-"Похоже, они также вызвали подкрепление."
+"\"Вау. Просто... вау. А я-то думал, что вы, псы Федерации, не можете стать "
+"еще глупее!\" Корабль повстанцев подает сигнал бедствия, вызывая "
+"подкрепление!"
 
 #: src-en/data/events_special_guards.xml.append:59
 msgid ""
@@ -112,113 +113,102 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_guards.xml.append:68
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_JERRY\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Вэнс Первый) \"Стоять, верные солдаты! Я хочу видеть своего племянника, "
-"позвольте нам пройти немедленно!\""
+"(Вэнс Первый) \"Стой, солдат! Отступи и дай нам пройти! Мне нужно увидеть "
+"моего племянника!\""
 
 #: src-en/data/events_special_guards.xml.append:70
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_JERRY\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
-"\"Погоди-ка, Вэнс Первый?! Как-что, КОГДА вы вступили в Федерацию?! Это "
-"бессмыслица!\" Капитан МФК пытается собраться с мыслями, но в конце концов "
-"сдается и пропускает вашу команду, хотя он задерживает флот лишь на "
-"небольшое время."
+"\"Погоди-ка, Вэнс Первый?! Как... п-почему, когда вы присоединились к "
+"Федерации? Это... бессмысленно...\" Охранник замирает. В конце концов, они "
+"соглашаются пропустить вас, хотя у них хватает духу лишь на то, чтобы "
+"отогнать флот на небольшое расстояние."
 
 #: src-en/data/events_special_guards.xml.append:75
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_JERRY\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
 
 #: src-en/data/events_special_guards.xml.append:77
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_JERRY\"]/mod-"
 "append:choice[2]/event/text"
-msgstr "\"О, вы тот, кого искал Джерри! Сюда, сэр Бангледотом!\""
+msgstr "\"Герцог Бангледотом...? Джерри ждал вас! Сюда!\""
 
 #: src-en/data/events_special_guards.xml.append:86
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_COALITIONHOLD\"]/mod-"
 "append:choice/text"
 msgstr ""
-"(Лейконплииинакра) \"Давайте зададим другой вопрос: какие отростки *вы* "
-"цените больше всего?\""
+"(Лейконплииинакра) \"Давайте зададим другой вопрос. Какие отростки вы цените "
+"больше всего?\""
 
 #: src-en/data/events_special_guards.xml.append:88
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_COALITIONHOLD\"]/mod-"
 "append:choice/event/text"
 msgstr ""
-"\"О БОЖЕ! КОРОЛЕВА ЛЕЙКОНПЛИИИНАКРА?! Мне так жаль! Я не ожидал, что вы "
-"окажетесь на борту корабля Федерации! Я передаю это как дань уважения! "
-"Пожалуйста, не отрубайте мне руки!\" Охранники присылают ящик, полный "
-"металлолома и элитного оружия!"
+"\"Боже мой! Королева Лейконплииинакра?! М-мне так жаль! П-пожалуйста, не "
+"отрезайте мне руки, я пропущу вас!\" Охранник выгружает несколько ящиков с "
+"ценным металлоломом и один с оружием из лучшего арсенала Коалиции прямо в "
+"ваш грузовой отсек."
 
 #: src-en/data/events_special_guards.xml.append:97
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_COALITION\"]/mod-"
 "append:choice/text"
 msgstr ""
-"(Лейконплииинакра) \" Нарушители?! Слушай сюда, слабак, ты позволишь нам "
-"пройти через сектор, иначе все вы будете публично казнены, понятно?\""
+"(Лейконплииинакра) \"Нарушители?! Слушай сюда, слабак, ты позволишь нам "
+"пройти через сектор. В противном случае я публично казню вас всех! Вы поняли?"
+"\""
 
 #: src-en/data/events_special_guards.xml.append:99
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_COALITION\"]/mod-"
 "append:choice/event/text"
 msgstr ""
-"Охранники разбегаются при виде королевы: \"К-конечно, ваше Высочество! "
+"При виде Королевы охранники вскочили на ноги. \"Конечно, ваше Высочество! "
 "Сюда!\" Охранник пропускает вас, а также передает вам немного припасов."
 
 #: src-en/data/events_special_guards.xml.append:107
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_LEECH_COALITION\"]/mod-"
 "append:choice/text"
 msgstr ""
-"(Лейконплииинакра) \" Охранники, я требую, чтобы вы немедленно пропустили "
+"(Лейконплииинакра) \" Охранники! Я требую, чтобы вы немедленно пропустили "
 "меня в этот сектор!\""
 
 #: src-en/data/events_special_guards.xml.append:109
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_LEECH_COALITION\"]/mod-"
 "append:choice/event/text"
 msgstr ""
 "Вы слышите напряженную речь на другом конце связи, прежде чем капитан "
-"наконец связывается с вами: \"Конечно, ваше Высочество\" Они также присылают"
-" вам немного припасов в качестве дара."
+"наконец связывается с вами: \"К-конечно, ваше Высочество\" Они также "
+"присылают вам немного припасов в качестве дара."
 
 #: src-en/data/events_special_guards.xml.append:117
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_MANTIS\"]/mod-"
 "append:choice/text"
 msgstr ""
-"(Лейконплииинакра) \" Охранники, я требую, чтобы вы немедленно пропустили "
+"(Лейконплииинакра) \"Охранники! Я требую, чтобы вы немедленно пропустили "
 "меня в этот сектор!\""
 
 #: src-en/data/events_special_guards.xml.append:119
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_MANTIS\"]/mod-"
 "append:choice/event/text"
 msgstr ""
-"Охранники все дружно кланяются своей королеве: \"О, конечно, ваше "
+"Охранники все дружно кланяются своей королеве. \"О, конечно, ваше "
 "Высочество! Примите дары!\"."
 
 #: src-en/data/events_special_guards.xml.append:127
@@ -230,12 +220,11 @@ msgstr ""
 "пропустить!\""
 
 #: src-en/data/events_special_guards.xml.append:129
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_HIVE\"]/mod-"
 "append:choice/event/text"
 msgstr ""
-"Все охранники дружно преклоняются перед своей королевой: \"Королева "
-"Лейконплииинакра благослови верных воинов прекрасным видением! Я прошу "
-"присоединиться к миссии королевы!\" Королева удовлетворяет просьбу, и "
-"Епископ присоединяется к команде, и преподносит дары."
+"Охранники все вместе кланяются своей королеве. \"Королева Лейконплииинакра "
+"благословила верных воинов прекрасным зрением! Я прошу присоединиться к "
+"миссии Королевы!\" Королева благословляет Епископа, разрешая ему "
+"присоединиться к вашей команде, и он поднимается на борт, неся с собой дары!"
