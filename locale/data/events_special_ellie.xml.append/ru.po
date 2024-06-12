@@ -1,9 +1,17 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-06-13 12:50+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_special_elliexmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/events_special_ellie.xml.append:13
 msgid ""
@@ -12,12 +20,12 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_ellie.xml.append:25
-#, fuzzy
 msgid ""
 "data/events_special_ellie.xml.append$//event[@name=\"FR_RECUIT_SAMMY\"]/text"
 msgstr ""
-"Вдруг, когда Стефана уводят, вы слышите знакомый голос - это Пейден! Он "
-"бежит к вам, костюм явно мешает ему: \"Ренегат! Подождите минутку!\""
+"Вдруг, когда Стефана уводят, вы слышите знакомый голос, который зовет вас. "
+"Это был Пейден! Он бежит к вам, причем костюм явно сильно мешает ему "
+"двигаться. \"Ренегат! Подождите минутку!\""
 
 #: src-en/data/events_special_ellie.xml.append:27
 msgid ""
@@ -25,31 +33,30 @@ msgid ""
 msgstr "Пейден?"
 
 #: src-en/data/events_special_ellie.xml.append:29
-#, fuzzy
 msgid ""
 "data/events_special_ellie.xml.append$//event[@name=\"FR_RECUIT_SAMMY\"]/choice/event/text"
 msgstr ""
-"Пейден останавливается, чтобы отдышаться, когда доходит до вас, явно измученный: \"Я Майкл\", - говорит он раздраженно.\n"
+"Пейден останавливается, чтобы отдышаться, тяжело дыша и пыхтя он прерывисто "
+"говорит. \"М-меня зовут Майкл!\"\n"
 "\t\t\t\n"
-"\t\t\t\"Но, несмотря ни на что, меня уволили с работы, высшее начальство сказало, что причина - \"нарушение поведения персонажа во время шоу\", так что я хотел спросить, не могли бы вы позволить мне отправиться с вами, моя семья живет в Узле 17, в конце концов.\""
+"\t\t\t\"Н-неважно, но я думаю, что хотел бы отправиться с вами! Моя семья "
+"живет в Узле 17, и... высшие чины вроде как только что уволили меня за то, "
+"что я \"вышел из образа персонажа посреди шоу\"\"."
 
 #: src-en/data/events_special_ellie.xml.append:33
-#, fuzzy
 msgid ""
 "data/events_special_ellie.xml.append$//event[@name=\"FR_RECUIT_SAMMY\"]/choice/event/choice/text"
 msgstr "Конечно, Пейден!"
 
 #: src-en/data/events_special_ellie.xml.append:35
-#, fuzzy
 msgid ""
 "data/events_special_ellie.xml.append$//event[@name=\"FR_RECUIT_SAMMY\"]/choice/event/choice/event/text"
 msgstr ""
-"Он отвечает: \"Я Майкл. По крайней мере, они разрешили мне оставить костюм, "
-"сказали, что брызги крови на нем делают его непригодным и опасным для "
-"здоровья. Может, я и не очень хороший боец, но я уверен, что вы сможете "
-"найти применение моим навыкам где-нибудь\"."
+"Он вздыхает. \"...Майкл. По крайней мере, они разрешили мне оставить костюм. "
+"Они сказали, что из-за брызг крови он будет непригодным и опасным для "
+"здоровья... о, Боже, разве может сегодняшний день быть еще хуже!?\""
 
 #: src-en/data/events_special_ellie.xml.append:37
 msgid ""
 "data/events_special_ellie.xml.append$//event[@name=\"FR_RECUIT_SAMMY\"]/choice/event/choice/event/crewMember"
-msgstr ""
+msgstr "Майкл"
