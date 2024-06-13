@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2024-06-14 16:42+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Aleev <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "dataevents_special_storagexmlappend/ru/>\n"
 "Language: ru\n"
@@ -81,11 +81,10 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:62
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_AUG\"]/mod-"
 "append:choice[5]/text"
-msgstr "(Умный термостат) Создать снеговика. [5 топлива]"
+msgstr "(Умный термостат) Создать снеговика. [5{]"
 
 #: src-en/data/events_special_storage.xml.append:64
 msgid ""
@@ -122,18 +121,16 @@ msgstr ""
 "за прохождение."
 
 #: src-en/data/events_special_storage.xml.append:100
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE\"]/choice[@req=\"FR_LIST_OBSERVER_BONUSES\""
 " and @lvl=\"1\"]/text"
-msgstr "Снять бонус."
+msgstr "Отключить бонус."
 
 #: src-en/data/events_special_storage.xml.append:104
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE\"]/choice[@req=\"FR_LIST_OBSERVER_BONUSES\""
 " and @lvl=\"0\"]/text"
-msgstr "Выберите бонус."
+msgstr "Включить бонус."
 
 #: src-en/data/events_special_storage.xml.append:108
 msgid ""
@@ -148,19 +145,16 @@ msgstr ""
 "деактивировать текущий."
 
 #: src-en/data/events_special_storage.xml.append:116
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_DEACTIVATE\"]/choice[@req=\"FR_OBSERVER_BOONS\"]/text"
 msgstr "Отключить благо-бонус."
 
 #: src-en/data/events_special_storage.xml.append:120
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_DEACTIVATE\"]/choice[@req=\"FR_OBSERVER_GRANTS\"]/text"
 msgstr "Отключить дар-бонус."
 
 #: src-en/data/events_special_storage.xml.append:124
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_DEACTIVATE\"]/choice[@req=\"FR_OBSERVER_BLESSINGS\"]/text"
 msgstr "Отключить бонус благословения."
@@ -176,11 +170,10 @@ msgid ""
 msgstr "Какой бонус вы хотите активировать?"
 
 #: src-en/data/events_special_storage.xml.append:151
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_boon_gift_got\""
 " and @lvl=\"1\"]/text"
-msgstr "Переключить благо-бонусы (одноразовый подарок получен)"
+msgstr "Переключить благо-бонусы (Одноразовый подарок получен)"
 
 #: src-en/data/events_special_storage.xml.append:153
 msgid ""
@@ -195,11 +188,10 @@ msgid ""
 msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:162
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_boon_gift_got\""
 " and @lvl=\"0\"]/text"
-msgstr "Бонусы переключаемых даров (доступен одноразовый подарок)"
+msgstr "Переключить на благо-бонусы. [Подарок доступен]"
 
 #: src-en/data/events_special_storage.xml.append:164
 msgid ""
@@ -222,11 +214,10 @@ msgid ""
 msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:175
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"1\"]/text"
-msgstr "Бонусы переключаемых даров (одноразовые подарки)"
+msgstr "Переключить на дар-бонусы. [Подарок выдан]"
 
 #: src-en/data/events_special_storage.xml.append:177
 msgid ""
@@ -235,18 +226,16 @@ msgid ""
 msgstr "Вы настраиваете бонусы, чтобы применить выбранный вами дар."
 
 #: src-en/data/events_special_storage.xml.append:180
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr "Готово..."
+msgstr "Сделано."
 
 #: src-en/data/events_special_storage.xml.append:186
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"0\"]/text"
-msgstr "Бонусы переключаемых даров (доступны одноразовые подарки)"
+msgstr "Переключить на дар-бонусы. [Подарок доступен]"
 
 #: src-en/data/events_special_storage.xml.append:188
 msgid ""
@@ -283,12 +272,11 @@ msgid ""
 msgstr "Ваши сенсорные системы были улучшены."
 
 #: src-en/data/events_special_storage.xml.append:203
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"0\"]/event/choice[@req=\"sensors\" and "
 "@lvl=\"0\"]/event/choice/event/choice/text"
-msgstr "Готово..."
+msgstr "Сделано."
 
 #: src-en/data/events_special_storage.xml.append:211
 msgid ""
@@ -303,19 +291,17 @@ msgid ""
 msgstr "Ваши сенсорные системы были улучшены."
 
 #: src-en/data/events_special_storage.xml.append:216
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_grant_gift_got\""
 " and @lvl=\"0\"]/event/choice[@req=\"sensors\" and "
 "@lvl=\"1\"]/event/choice/text"
-msgstr "Готово..."
+msgstr "Сделано."
 
 #: src-en/data/events_special_storage.xml.append:224
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_blessing_gift_got\""
 " and @lvl=\"1\"]/text"
-msgstr "Бонусы переключаемых благословений (одноразовый подарок получен)"
+msgstr "Переключить на благословение-бонусы. [Подарок выдан]"
 
 #: src-en/data/events_special_storage.xml.append:226
 msgid ""
@@ -330,11 +316,10 @@ msgid ""
 msgstr "Готово."
 
 #: src-en/data/events_special_storage.xml.append:235
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_blessing_gift_got\""
 " and @lvl=\"0\"]/text"
-msgstr "Бонусы одноразовых благословений (доступен одноразовый подарок)"
+msgstr "Переключить на благословение-бонусы. [Подарок доступен]"
 
 #: src-en/data/events_special_storage.xml.append:237
 msgid ""
@@ -345,11 +330,10 @@ msgstr ""
 "также получаете дополнительный подарок!"
 
 #: src-en/data/events_special_storage.xml.append:253
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_OBSERVER_PRESENCE_ACTIVATE\"]/choice[@req=\"loc_fr_free_blessing_gift_got\""
 " and @lvl=\"0\"]/event/choice/text"
-msgstr "Готово..."
+msgstr "Сделано..."
 
 #: src-en/data/events_special_storage.xml.append:259
 msgid ""
@@ -363,11 +347,10 @@ msgid ""
 msgstr "Превратить своего Технопата в Технопата Содружества."
 
 #: src-en/data/events_special_storage.xml.append:287
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[2]/mod-"
 "append:choice[2]/text"
-msgstr "Перезагрузить вашего Технопата Содружества"
+msgstr "Сбросить Технопата Содружества."
 
 #: src-en/data/events_special_storage.xml.append:293
 msgid ""
@@ -504,11 +487,10 @@ msgid ""
 msgstr "(Эфирная кузница) Использовать кузницу."
 
 #: src-en/data/events_special_storage.xml.append:414
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[3]/mod-"
 "append:choice[3]/text"
-msgstr "(Инженерия Витэра) Использовать Протокузницу."
+msgstr "(Инженерия Аэнвитэ) Использовать Протокузницу."
 
 #: src-en/data/events_special_storage.xml.append:420
 msgid ""
@@ -1516,7 +1498,6 @@ msgid ""
 msgstr "(Импульсный разряд) Понизить уровень систем противника!"
 
 #: src-en/data/events_special_storage.xml.append:1255
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_FAIL_REAL\"]/mod-"
 "append:choice[4]/text"
@@ -1566,7 +1547,6 @@ msgid ""
 msgstr "(Импульсный разряд) Понизить уровень систем противника!"
 
 #: src-en/data/events_special_storage.xml.append:1290
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_REAL\"]/mod-"
 "append:choice[4]/text"
@@ -6184,25 +6164,21 @@ msgid ""
 msgstr "Осн: Перефокусировка энергии. [Цена: 55~]"
 
 #: src-en/data/events_special_storage.xml.append:4752
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[7]/text"
 msgstr "Осн: Неагрессивное поведение. [Улучшение уже добавлено]"
 
 #: src-en/data/events_special_storage.xml.append:4756
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[8]/text"
-msgstr "Осн: Неагрессивное поведение. Цена: 30~, 2{]"
+msgstr "Осн: Неагрессивное поведение. [Цена: 30~, 2{]"
 
 #: src-en/data/events_special_storage.xml.append:4760
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[9]/text"
 msgstr "Осн: Электронное превосходство. [Улучшение уже добавлено]"
 
 #: src-en/data/events_special_storage.xml.append:4764
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[10]/text"
 msgstr "Осн: Электронное превосходство. [Цена: 10|]"
@@ -6311,14 +6287,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:4865
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_CRATE\"]/mod-"
 "append:choice[1]/text"
 msgstr "Открыть ящик с модулями."
 
 #: src-en/data/events_special_storage.xml.append:4871
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_CRATE\"]/mod-"
 "append:choice[2]/text"
@@ -6397,10 +6371,9 @@ msgstr ""
 "душу."
 
 #: src-en/data/events_special_storage.xml.append:4933
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/event/choice/text"
-msgstr "Готово..."
+msgstr "Сделано."
 
 #: src-en/data/events_special_storage.xml.append:4939
 msgid ""
@@ -6425,10 +6398,9 @@ msgstr ""
 "душу."
 
 #: src-en/data/events_special_storage.xml.append:4951
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/event/choice/text"
-msgstr "Готово..."
+msgstr "Сделано."
 
 #: src-en/data/events_special_storage.xml.append:4957
 msgid ""
@@ -6467,10 +6439,9 @@ msgstr ""
 "душу."
 
 #: src-en/data/events_special_storage.xml.append:4977
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_0\"]/event/choice/text"
-msgstr "Готово..."
+msgstr "Сделано."
 
 #: src-en/data/events_special_storage.xml.append:4983
 msgid ""
@@ -8022,10 +7993,9 @@ msgid ""
 msgstr "Разобрать Установщик крио-стражей."
 
 #: src-en/data/events_special_storage.xml.append:5987
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"SENTRY_FROST\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:5990
 msgid ""
@@ -8044,10 +8014,9 @@ msgid ""
 msgstr "Разобрать Морозный лазер мод. I"
 
 #: src-en/data/events_special_storage.xml.append:6001
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"LASER_FROST_1\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6004
 msgid ""
@@ -8066,10 +8035,9 @@ msgid ""
 msgstr "Разобрать Морозный лазер мод. II"
 
 #: src-en/data/events_special_storage.xml.append:6015
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"LASER_FROST_2\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6018
 msgid ""
@@ -8088,10 +8056,9 @@ msgid ""
 msgstr "Разобрать Морозный лазер мод. II+"
 
 #: src-en/data/events_special_storage.xml.append:6029
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"LASER_FROST_2_PLAYER\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6032
 msgid ""
@@ -8110,10 +8077,9 @@ msgid ""
 msgstr "Разобрать Зарядный замораживатель."
 
 #: src-en/data/events_special_storage.xml.append:6043
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"FROST_CHARGEGUN\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6046
 msgid ""
@@ -8132,10 +8098,9 @@ msgid ""
 msgstr "Разобрать хаотический Зарядный замораживатель."
 
 #: src-en/data/events_special_storage.xml.append:6057
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"FROST_CHARGEGUN_CHAOS\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6060
 msgid ""
@@ -8154,10 +8119,9 @@ msgid ""
 msgstr "Разобрать ракетную установку \"Борей\"."
 
 #: src-en/data/events_special_storage.xml.append:6071
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"TRC_MISSILES_FROST\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6074
 msgid ""
@@ -8176,10 +8140,9 @@ msgid ""
 msgstr "Разобрать Морозное осколочное орудие."
 
 #: src-en/data/events_special_storage.xml.append:6085
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"TRC_SHOTGUN_FROST\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6088
 msgid ""
@@ -8198,10 +8161,9 @@ msgid ""
 msgstr "Разобрать Морозную споровую установку."
 
 #: src-en/data/events_special_storage.xml.append:6099
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"FR_CHILLS_SPORE_BOMBLAUNCHER\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6102
 msgid ""
@@ -8220,10 +8182,9 @@ msgid ""
 msgstr "Разобрать Снежное осколочное орудие."
 
 #: src-en/data/events_special_storage.xml.append:6113
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"FR_CHILLS_SNOW_FLAK\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6116
 msgid ""
@@ -8239,13 +8200,12 @@ msgstr ""
 #: src-en/data/events_special_storage.xml.append:6125
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"FR_VIN_FROST_MISSILE\"]/text"
-msgstr "Разобрать ракетную установку \"Чион\"."
+msgstr "Разобрать ракетную установку \"Хиона\"."
 
 #: src-en/data/events_special_storage.xml.append:6127
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"FR_VIN_FROST_MISSILE\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6130
 msgid ""
@@ -8277,10 +8237,9 @@ msgid ""
 msgstr "Разобрать Ускоритель частиц мод. I"
 
 #: src-en/data/events_special_storage.xml.append:6150
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"LASER_PARTICLE\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6153
 msgid ""
@@ -8298,10 +8257,9 @@ msgid ""
 msgstr "Разобрать Ускоритель частиц мод. II"
 
 #: src-en/data/events_special_storage.xml.append:6164
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"LASER_PARTICLE_2\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6167
 msgid ""
@@ -8319,10 +8277,9 @@ msgid ""
 msgstr "Разобрать Пучок частиц."
 
 #: src-en/data/events_special_storage.xml.append:6178
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"BEAM_PARTICLE\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6181
 msgid ""
@@ -8340,10 +8297,9 @@ msgid ""
 msgstr "Разобрать ракетную установку частиц."
 
 #: src-en/data/events_special_storage.xml.append:6192
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"MISSILES_PARTICLE\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6195
 msgid ""
@@ -8361,10 +8317,9 @@ msgid ""
 msgstr "Разобрать ракетную установку частиц+."
 
 #: src-en/data/events_special_storage.xml.append:6206
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"MISSILES_PARTICLE_PLAYER\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6209
 msgid ""
@@ -8382,10 +8337,9 @@ msgid ""
 msgstr "Разобрать Огненно-ионный бластер."
 
 #: src-en/data/events_special_storage.xml.append:6220
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"ION_FIRE\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6223
 msgid ""
@@ -8403,10 +8357,9 @@ msgid ""
 msgstr "Разобрать луч \"Факел\"."
 
 #: src-en/data/events_special_storage.xml.append:6234
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"BEAM_FIRE\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6237
 msgid ""
@@ -8424,10 +8377,9 @@ msgid ""
 msgstr "Разобрать луч \"Факел\"+"
 
 #: src-en/data/events_special_storage.xml.append:6248
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"BEAM_FIRE_PLAYER\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6251
 msgid ""
@@ -8445,10 +8397,9 @@ msgid ""
 msgstr "Разобрать пронзающий \"Факел\"."
 
 #: src-en/data/events_special_storage.xml.append:6262
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"BEAM_FIRE_PIERCE\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6265
 msgid ""
@@ -8466,10 +8417,9 @@ msgid ""
 msgstr "Разобрать упреждающий \"Факел\"."
 
 #: src-en/data/events_special_storage.xml.append:6276
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"BEAM_FIRE_INSTANT\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6279
 msgid ""
@@ -8487,10 +8437,9 @@ msgid ""
 msgstr "Разобрать Огненную бомбу."
 
 #: src-en/data/events_special_storage.xml.append:6290
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"BOMB_FIRE\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6293
 msgid ""
@@ -8508,10 +8457,9 @@ msgid ""
 msgstr "Разобрать Черри бомбу."
 
 #: src-en/data/events_special_storage.xml.append:6304
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"BOMB_CHERRI\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6307
 msgid ""
@@ -8529,10 +8477,9 @@ msgid ""
 msgstr "Разобрать пронзающий \"Факел\" из добычи."
 
 #: src-en/data/events_special_storage.xml.append:6318
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"LOOT_CULTIST_1\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6321
 msgid ""
@@ -8545,16 +8492,14 @@ msgid ""
 msgstr "Нагревательные элементы этого орудия позволят вам создать лавамена!"
 
 #: src-en/data/events_special_storage.xml.append:6330
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"FR_VIN_MISSILE\"]/text"
-msgstr "Разобрать залповую ракетницу \"Прометей\"."
+msgstr "Разобрать залповую ракетную установку \"Прометей\"."
 
 #: src-en/data/events_special_storage.xml.append:6332
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FIRE_DISMANTLE\"]/choice[@req=\"FR_VIN_MISSILE\"]/event/text"
-msgstr "Оружие разобрано..."
+msgstr "Вы разбираете орудие."
 
 #: src-en/data/events_special_storage.xml.append:6335
 msgid ""
@@ -8572,18 +8517,16 @@ msgid ""
 msgstr "Неважно, заняться чем-то еще."
 
 #: src-en/data/events_special_storage.xml.append:6359
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_CREW_REAL\"]/mod-"
 "append:choice[1]/text"
-msgstr "Найдите адмирала Первого Вэнса."
+msgstr "Искать Вэнса Первого."
 
 #: src-en/data/events_special_storage.xml.append:6363
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_CREW_REAL\"]/mod-"
 "append:choice[2]/text"
-msgstr "Найдите МФК аса Сайру."
+msgstr "Искать Сайру."
 
 #: src-en/data/events_special_storage.xml.append:6367
 msgid ""
@@ -8592,11 +8535,10 @@ msgid ""
 msgstr "Найдите королеву Лейконплииинакру."
 
 #: src-en/data/events_special_storage.xml.append:6371
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_CREW_REAL\"]/mod-"
 "append:choice[4]/text"
-msgstr "Найдите Пейдена/Майкла."
+msgstr "Искать Майкла."
 
 #: src-en/data/events_special_storage.xml.append:6375
 msgid ""
@@ -9338,22 +9280,19 @@ msgid ""
 msgstr "(Урна с приведениями) Выбрать, какое привидение призвать."
 
 #: src-en/data/events_special_storage.xml.append:6942
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN\"]/text"
-msgstr "С каким призраком вы хотите сразиться?"
+msgstr "Какое явление вы хотите вызвать?"
 
 #: src-en/data/events_special_storage.xml.append:6944
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN\"]/choice[1]/text"
-msgstr "Обычным явлением"
+msgstr "Возрожденные явления (Из Тартара)."
 
 #: src-en/data/events_special_storage.xml.append:6950
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_CHAOS_APPARITIONS\"]/text"
-msgstr "Хаотическим явлением"
+msgstr "Призрачные привидений (из хаотического Тартара)."
 
 #: src-en/data/events_special_storage.xml.append:6956
 msgid ""
@@ -9377,10 +9316,9 @@ msgstr ""
 "возрожденных явлений и пройти Тартар в режиме хаоса]"
 
 #: src-en/data/events_special_storage.xml.append:6968
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_BONUS_APPARITIONS\"]/text"
-msgstr "Бонусные явления"
+msgstr "Противоестественные явления (Бонусные приведения)."
 
 #: src-en/data/events_special_storage.xml.append:6974
 msgid ""
@@ -9410,12 +9348,9 @@ msgstr ""
 "одно, вы откроете следующее."
 
 #: src-en/data/events_special_storage.xml.append:6990
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_NORMAL\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_SLIMER\"]/text"
-msgstr ""
-"Явление Слимера (оставляет после себя Бомбу-стимулятор туманности) "
-"[Затрачивает 10 топлива]"
+msgstr "Слимер. (оставляет после себя Бомбу-стимулятор туманности) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:6992
 msgid ""
@@ -9435,12 +9370,9 @@ msgid ""
 msgstr "Слимер. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7009
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_NORMAL\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_PHYS\"]/text"
-msgstr ""
-"Явление Физа (оставляет после себя Ионическую точечный луч) [Затрачивает 10 "
-"топлива]"
+msgstr "Физ. (оставляет после себя Ионический точечный луч) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7011
 msgid ""
@@ -9460,12 +9392,9 @@ msgid ""
 msgstr "Физ. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7028
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_NORMAL\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_ALEENOR\"]/text"
-msgstr ""
-"Явление Алиеноры (оставляет после себя Легкий Анти-Био лазер) [Затрачивает "
-"10 топлива]"
+msgstr "Алеенор. (оставляет после себя Легкий Анти-Био лазер) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7030
 msgid ""
@@ -9485,12 +9414,9 @@ msgid ""
 msgstr "Алиенор. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7047
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_NORMAL\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_VIN\"]/text"
-msgstr ""
-"Явление Вин (оставляет после себя ракетную установку \"Чион\") [Затрачивает "
-"10 топлива]"
+msgstr "Вин. (оставляет после себя ракетную установку \"Хиона\") [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7049
 msgid ""
@@ -9510,12 +9436,9 @@ msgid ""
 msgstr "Вин. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7066
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_NORMAL\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_CLEO\"]/text"
-msgstr ""
-"Явление Клео (оставляет после себя Размножающийся дрон) [Затрачивает 10 "
-"топлива]"
+msgstr "Клео. (оставляет после себя дрон Порождение) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7068
 msgid ""
@@ -9535,12 +9458,9 @@ msgid ""
 msgstr "Клео. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7085
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_NORMAL\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_ZULU\"]/text"
-msgstr ""
-"Явление Зулу (оставляет после себя Теневой точечный луч) [Затрачивает 10 "
-"топлива]"
+msgstr "Зулу. (оставляет после себя Теневой точечный луч) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7087
 msgid ""
@@ -9560,11 +9480,9 @@ msgid ""
 msgstr "Зулу. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7104
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_NORMAL\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_G\"]/text"
-msgstr ""
-"Явление Ж (оставляет после себя Эрозионный луч) [Затрачивает 10 топлива]"
+msgstr "Ж. (оставляет после себя Эрозионный луч) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7106
 msgid ""
@@ -9579,18 +9497,14 @@ msgid ""
 msgstr "Ж. [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7119
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_NORMAL\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_G\"]/text"
-msgstr "Явление Ж [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Ж. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7123
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_NORMAL\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_DEADSHIP\"]/text"
-msgstr ""
-"Явление Корабля мертвых (оставляет после себя Радужный ион) [Затрачивает 10 "
-"топлива]"
+msgstr "Корабль мертвых. (оставляет после себя Радужный ион) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7125
 msgid ""
@@ -9600,16 +9514,14 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7134
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_NORMAL\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_DEADSHIP\"]/text"
-msgstr "Явление Корабля мертвых [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Корабль мертвых. [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7138
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_NORMAL\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_DEADSHIP\"]/text"
-msgstr "Явление Корабля мертвых [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Корабль мертвых. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7142
 msgid ""
@@ -9625,12 +9537,11 @@ msgstr ""
 "откроете следующее."
 
 #: src-en/data/events_special_storage.xml.append:7150
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_SMOKE\"]/text"
 msgstr ""
-"Явление Смоука (оставляет после себя Импульсное про-корпусное "
-"кристаллическое орудие) [Затрачивает 10 топлива]"
+"Смоук. (оставляет после себя Импульсное про-корпусное кристаллическое орудие)"
+" [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7152
 msgid ""
@@ -9645,18 +9556,14 @@ msgid ""
 msgstr "Смоук. [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7165
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_SMOKE\"]/text"
-msgstr "Явление Смоука [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Смоук. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7169
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_CHILLS\"]/text"
-msgstr ""
-"Явление Чиллз (оставляет после себя Зажигательный зерномет) [Затрачивает 10 "
-"топлива]"
+msgstr "Чиллс. (оставляет после себя Зажигательный зерномет) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7171
 msgid ""
@@ -9666,23 +9573,19 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7180
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_CHILLS\"]/text"
-msgstr "Явление Чиллс [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Чиллс. [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7184
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_CHILLS\"]/text"
-msgstr "Явление Чиллс [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Чиллс. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7188
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_POK\"]/text"
-msgstr ""
-"Явление Пок (оставляет после себя Морф-бомбу) [Затрачивает 10 топлива]"
+msgstr "Пок. (оставляет после себя Морф-бомбу) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7190
 msgid ""
@@ -9692,24 +9595,19 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7199
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_POK\"]/text"
-msgstr "Явление Пока [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Пок. [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7203
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_POK\"]/text"
-msgstr "Явление Пока [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Пок. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7207
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_CHARROR\"]/text"
-msgstr ""
-"Явление Чарро (оставляет после себя Часовой боевой дрон) [Затрачивает 10 "
-"топлива]"
+msgstr "Чарро. (оставляет после себя боевой дрон-страж) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7209
 msgid ""
@@ -9719,24 +9617,19 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7218
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_CHARROR\"]/text"
-msgstr "Явление Чарро [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Чарро. [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7222
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_CHARROR\"]/text"
-msgstr "Явление Чарро [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Чарро. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7226
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_LEO\"]/text"
-msgstr ""
-"Явление Лео (оставляет после себя Адаптирующуюся осколочное орудие) "
-"[Затрачивает 10 топлива]"
+msgstr "Лео. (оставляет после себя Адаптирующуюся осколочное орудие) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7228
 msgid ""
@@ -9746,24 +9639,19 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7237
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_LEO\"]/text"
-msgstr "Явление Лео [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Лео. [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7241
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_LEO\"]/text"
-msgstr "Явление Лео [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Лео. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7245
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_SEARAK\"]/text"
-msgstr ""
-"Явление Сирака (оставляет после себя Энергетическое орудие Гатлинга) "
-"[Затрачивает 10 топлива]"
+msgstr "Сирак. (оставляет после себя Энергетический Гатлинг) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7247
 msgid ""
@@ -9773,24 +9661,21 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7256
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_SEARAK\"]/text"
-msgstr "Явление Сирака [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Сирака. [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7260
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_SEARAK\"]/text"
-msgstr "Явление Сирака [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Сирак. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7264
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_AUTO\"]/text"
 msgstr ""
 "Явление Автоматического корабля (оставляет после себя Автоматический луч "
-"золтан) [Затрачивает 10 топлива]"
+"золтан) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7266
 msgid ""
@@ -9800,24 +9685,19 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7275
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_AUTO\"]/text"
-msgstr "Явление Автоматического корабля [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Явление Автоматического корабля [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7279
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_AUTO\"]/text"
-msgstr "Явление Автоматического корабля [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Явление Автоматического корабля [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7283
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_WATCHER\"]/text"
-msgstr ""
-"Явление Наблюдателя (оставляет после себя Точечный луч сирен) [Затрачивает "
-"10 топлива]"
+msgstr "Наблюдатель. (оставляет после себя Точечный луч сирен) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7285
 msgid ""
@@ -9827,24 +9707,19 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7294
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_WATCHER\"]/text"
-msgstr "Явление Наблюдателя [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Наблюдатель [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7298
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_WATCHER\"]/text"
-msgstr "Явление Наблюдателя [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Наблюдатель [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7302
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_FLAGSHIP\"]/text"
-msgstr ""
-"Явление Флагмана (оставляет после себя клонированного лидера ЭЭРЕ) "
-"[Затрачивает 10 топлива]"
+msgstr "??? (оставляет после себя ???) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7304
 msgid ""
@@ -9854,16 +9729,14 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7313
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_FLAGSHIP\"]/text"
-msgstr "Явление Флагмана [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "??? [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7317
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_CHAOS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_FLAGSHIP\"]/text"
-msgstr "Явление Флагмана [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Флагман ЭЭРЕ. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7321
 msgid ""
@@ -9879,12 +9752,9 @@ msgstr ""
 "одно, вы откроете следующее."
 
 #: src-en/data/events_special_storage.xml.append:7330
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_AUGUSTUS\"]/text"
-msgstr ""
-"Явление Августа (оставляет после себя Золотую алебарду) [Затрачивает 10 "
-"топлива]"
+msgstr "Август. (оставляет после себя Золотую алебарду) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7332
 msgid ""
@@ -9894,24 +9764,19 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7341
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_AUGUSTUS\"]/text"
-msgstr "Явление Августа [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Август. [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7345
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_AUGUSTUS\"]/text"
-msgstr "Явление Августа [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Август [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7349
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_SALLY\"]/text"
-msgstr ""
-"Явление Салли (оставляет после себя спектральную Арахно-бомбу) [Затрачивает "
-"10 топлива]"
+msgstr "Салли. (оставляет после себя спектральную Арахно-бомбу) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7351
 msgid ""
@@ -9921,16 +9786,14 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7360
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_SALLY\"]/text"
-msgstr "Явление Салли [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Салли. [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7364
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_SALLY\"]/text"
-msgstr "Явление Салли [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Салли. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7368
 msgid ""
@@ -9945,24 +9808,19 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7379
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_PRINCE\"]/text"
-msgstr "Явление Князя Тьмы [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Князь Тьмы [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7383
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_PRINCE\"]/text"
-msgstr "Явление Князя Тьмы [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Князь Тьмы [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7387
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_APPARITION_TRIRIAC\"]/text"
-msgstr ""
-"Явление Тририака (оставляет после себя Похищающий точечный луч Тририака) "
-"[Затрачивает 10 топлива]"
+msgstr "Тририак. (оставляет после себя Похищающий точечный луч Тририака) [10{]"
 
 #: src-en/data/events_special_storage.xml.append:7389
 msgid ""
@@ -9972,16 +9830,14 @@ msgstr ""
 "после чего свет затухает. На вашей навигационной системе появился маркер!"
 
 #: src-en/data/events_special_storage.xml.append:7398
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/choice[@req=\"FR_REQUIREMENT_PROGRESS_APPARITION_TRIRIAC\"]/text"
-msgstr "Явление Тририака [ЯВЛЕНИЕ ЕЩЕ НЕ ОБНАРУЖЕНО]"
+msgstr "Тририак. [Непосещенный]"
 
 #: src-en/data/events_special_storage.xml.append:7402
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/choice[@req=\"FR_REQUIREMENT_DEFEATED_APPARITION_TRIRIAC\"]/text"
-msgstr "Явление Тририака [УЖЕ ПОБЕЖДЕНО]"
+msgstr "Тририак. [Побежден]"
 
 #: src-en/data/events_special_storage.xml.append:7406
 msgid ""
@@ -10263,14 +10119,10 @@ msgid ""
 msgstr "Перейти к битве!"
 
 #: src-en/data/events_special_storage.xml.append:7646
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_WEAPON_ARM\"]/choice[@req=\"reactor\""
 " and not(@lvl)]/text"
-msgstr ""
-"Недостаточно мощности реактора [[-8 реактор] Выводит из строя случайное "
-"орудие противника. Также с вероятностью 10% дает 10 единиц лома за каждую "
-"единицу энергии, которая требуется выведенному из строя орудию]"
+msgstr "Недостаточно энергии реактора!"
 
 #: src-en/data/events_special_storage.xml.append:7650
 msgid ""
@@ -10291,14 +10143,9 @@ msgid ""
 msgstr "Перейти к битве!"
 
 #: src-en/data/events_special_storage.xml.append:7661
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_WEAPON_ARM\"]/choice[@req=\"FR_REQUIREMENT_NEXUS_ARM_POWER_BACKUP_FAILED\"]/text"
-msgstr ""
-"Недостаточно мощности реактора [[-5 реактор]] Выводит из строя случайное "
-"орудие с противника, используя Аварийный генератор. Также есть 10% шанс "
-"получить 10 единиц лома за каждую единицу энергии, которая требуется "
-"выведенному из строя орудию]"
+msgstr "Недостаточно энергии реактора!"
 
 #: src-en/data/events_special_storage.xml.append:7665
 msgid ""
@@ -10547,13 +10394,11 @@ msgstr ""
 "улучшения]"
 
 #: src-en/data/events_special_storage.xml.append:7858
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT\"]/choice[@req=\"FR_REQUIREMENT_AUTOMAN_UPGRADE_1\"]/text"
 msgstr "Улучшенный автопилот 2 ур. [Цена: 100~]"
 
 #: src-en/data/events_special_storage.xml.append:7862
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT\"]/choice[@req=\"FR_REQUIREMENT_NO_AUTOMAN_UPGRADE\"]/text"
 msgstr "Улучшенный автопилот 1 ур. [Цена: 100~]"
@@ -10851,10 +10696,9 @@ msgid ""
 msgstr "Перейти к битве!"
 
 #: src-en/data/events_special_storage.xml.append:8090
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_PILOT_RAM\"]/choice[@req=\"battery_enemy\"]/text"
-msgstr "Резервная батарея"
+msgstr "Резервная батарея."
 
 #: src-en/data/events_special_storage.xml.append:8092
 msgid ""
@@ -10972,18 +10816,16 @@ msgid ""
 msgstr "Какое улучшение вы хотите установить?"
 
 #: src-en/data/events_special_storage.xml.append:8201
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES\"]/choice[@req=\"FR_NEXUS_ENGINES_JUMP\""
 " and @lvl=\"1\"]/text"
-msgstr "Прыжок на неограниченную дальность. [УЖЕ УСТАНОВЛЕНО]"
+msgstr "Неограниченный прыжок. [УЖЕ УСТАНОВЛЕНО]"
 
 #: src-en/data/events_special_storage.xml.append:8205
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES\"]/choice[@req=\"FR_NEXUS_ENGINES_JUMP\""
 " and @lvl=\"0\"]/text"
-msgstr "Прыжок на неограниченную дальность [Цена: 50~, 5{, 5|]"
+msgstr "Неограниченный прыжок. [Цена: 50~, 5{, 5|]"
 
 #: src-en/data/events_special_storage.xml.append:8209
 msgid ""
@@ -11037,12 +10879,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:8243
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES_JUMP\"]/text"
 msgstr ""
-"Вы собираетесь установить улучшение Прыжок на неограниченную дальность.\n"
-"[Эффекты: Позволяет прыгать на любой маяк, независимо от того, посещался ли он ранее за 2 топлива]"
+"Вы собираетесь установить улучшение Неограниченный прыжок.\n"
+"[Эффекты: Позволяет прыгать на любой маяк, независимо от того, посещался ли "
+"он ранее за 2 топлива]"
 
 #: src-en/data/events_special_storage.xml.append:8246
 msgid ""
@@ -12111,7 +11953,6 @@ msgid ""
 msgstr "Повышенная дозировка. [УЖЕ УСТАНОВЛЕНО]"
 
 #: src-en/data/events_special_storage.xml.append:9207
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MEDBAY\"]/choice[@req=\"FR_NEXUS_MEDBAY_BOOST\""
 " and @lvl=\"0\"]/text"
@@ -12917,64 +12758,54 @@ msgstr ""
 "недостатке места в хранилище приведет к уничтожению предметов]"
 
 #: src-en/data/events_special_storage.xml.append:9944
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_MODULAR_SHIELD\"]/choice[@req=\"FR_HEKTAR_SUPERSHIELD_BASE\"]/text"
-msgstr "Настроить свой щит [Без модулей]"
+msgstr "Настроить свой щит. [Без модулей]"
 
 #: src-en/data/events_special_storage.xml.append:9948
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_MODULAR_SHIELD\"]/choice[@req=\"FR_HEKTAR_SUPERSHIELD_BIO\"]/text"
-msgstr "Настроить свой щит [Анти-Био модуль]"
+msgstr "Настроить свой щит. [Анти-Био модуль]"
 
 #: src-en/data/events_special_storage.xml.append:9952
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_MODULAR_SHIELD\"]/choice[@req=\"FR_HEKTAR_SUPERSHIELD_COOLDOWN\"]/text"
-msgstr "Настроить свой щит [Модуль перезарядки]"
+msgstr "Настроить свой щит. [Модуль перезарядки]"
 
 #: src-en/data/events_special_storage.xml.append:9956
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_MODULAR_SHIELD\"]/choice[@req=\"FR_HEKTAR_SUPERSHIELD_LOCKDOWN\"]/text"
-msgstr "Настроить свой щит [Модуль изоляции]"
+msgstr "Настроить свой щит. [Модуль изоляции]"
 
 #: src-en/data/events_special_storage.xml.append:9960
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_MODULAR_SHIELD\"]/choice[@req=\"FR_HEKTAR_SUPERSHIELD_PIERCE\"]/text"
-msgstr "Настроить свой щит [Модуль пронзания]"
+msgstr "Настроить свой щит. [Модуль пронзания]"
 
 #: src-en/data/events_special_storage.xml.append:9964
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_MODULAR_SHIELD\"]/choice[@req=\"FR_HEKTAR_SUPERSHIELD_STUN\"]/text"
-msgstr "Настроить свой щит [Модуль оглушения]"
+msgstr "Настроить свой щит. [Модуль оглушения]"
 
 #: src-en/data/events_special_storage.xml.append:9968
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_MODULAR_SHIELD\"]/choice[@req=\"FR_HEKTAR_SUPERSHIELD_ACCURACY\"]/text"
-msgstr "Настроить свой щит [Модуль точности]"
+msgstr "Настроить свой щит. [Модуль точности]"
 
 #: src-en/data/events_special_storage.xml.append:9972
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_MODULAR_SHIELD\"]/choice[@req=\"FR_HEKTAR_SUPERSHIELD_FIRE\"]/text"
-msgstr "Настроить свой щит [модуль поджога]"
+msgstr "Настроить свой щит. [Модуль поджога]"
 
 #: src-en/data/events_special_storage.xml.append:9976
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_MODULAR_SHIELD\"]/choice[@req=\"FR_HEKTAR_SUPERSHIELD_HULL\"]/text"
-msgstr "Настроить свой щит [Противокорпусный модуль]"
+msgstr "Настроить свой щит. [Противокорпусный модуль]"
 
 #: src-en/data/events_special_storage.xml.append:9980
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_MODULAR_SHIELD\"]/choice[@req=\"FR_HEKTAR_SUPERSHIELD_POWER\"]/text"
-msgstr "Настроить свой щит [Модуль мощности]"
+msgstr "Настроить свой щит. [Модуль мощности]"
 
 #: src-en/data/events_special_storage.xml.append:9984
 msgid ""
