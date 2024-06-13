@@ -1,21 +1,26 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-06-13 12:50+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_special_fleetxmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/events_special_fleet.xml.append:5
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Вэнс Первый) \"Стоять, верные солдаты! Говорит Вэнс Первый, вы должны "
-"немедленно отключить свои орудия!\""
+"(Вэнс Первый) \"Стой, солдат! Это Вэнс Первый! Отставить, отключи оружие!\""
 
 #: src-en/data/events_special_fleet.xml.append:7
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/event[1]/text"
@@ -24,23 +29,21 @@ msgstr ""
 "приказ!\""
 
 #: src-en/data/events_special_fleet.xml.append:13
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/event[2]/text"
 msgstr ""
 "\"Вэнс Первый! Сэр, для меня большая честь познакомиться с вами! У нас мало "
-"припасов, но в данный момент у нас избыток экипажа\". Повстанец предлагает "
+"припасов, но у нас на борту слишком много людей!\" Повстанец хочет "
 "присоединиться к вашей команде."
 
 #: src-en/data/events_special_fleet.xml.append:19
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/event[3]/text"
 msgstr ""
-"Капитан повстанцев не может поверить своим глазам, когда видит, что на вашем"
-" корабле находится единственный и неповторимый Вэнс Первый! Он быстро "
+"Капитан повстанцев не может поверить своим глазам, когда видит, что на вашем "
+"корабле находится единственный и неповторимый Вэнс Первый! Он быстро "
 "извиняется и обещает задержать флот настолько, насколько это возможно, "
 "прежде чем уйти в прыжок."
 
@@ -57,28 +60,25 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_fleet.xml.append:35
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
-"Флот теперь знает о Вэнсе и не будет посылать солдат, которых легко "
-"переубедить."
+"Флот теперь знает о предательстве Вэнс Первый и не пошлет к вам больше "
+"солдат, которых можно переубедить."
 
 #: src-en/data/events_special_fleet.xml.append:39
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
 
 #: src-en/data/events_special_fleet.xml.append:41
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[3]/event[1]/text"
-msgstr "Что? Вы думаете, мы идиоты?"
+msgstr "Что? Ты думаешь, мы идиоты? Ваши документы поддельные!\""
 
 #: src-en/data/events_special_fleet.xml.append:43
 msgid ""
@@ -87,25 +87,21 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_fleet.xml.append:48
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[3]/event[2]/text"
 msgstr ""
-"Капитан повстанцев изучает документы, а затем пожимает плечами: \"Конечно, "
-"будь осторожен, сынок, здесь много шпионов Федерации\"."
+"Капитан повстанцев изучает документы, а затем пожимает плечами: \"Э-э-э, "
+"конечно. Будь осторожен, сынок, там много шпионов Федерации\"."
 
 #: src-en/data/events_special_fleet.xml.append:56
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Вэнс Первый) \"Стоять, верные солдаты! Говорит Вэнс Первый, вы должны "
-"немедленно отключить свои орудия!\""
+"(Вэнс Первый) \"Стой, солдат! Это Вэнс Первый! Отставить, отключи оружие!\""
 
 #: src-en/data/events_special_fleet.xml.append:58
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/event[1]/text"
@@ -114,23 +110,21 @@ msgstr ""
 "приказ!\""
 
 #: src-en/data/events_special_fleet.xml.append:64
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/event[2]/text"
 msgstr ""
 "\"Вэнс Первый! Сэр, для меня большая честь познакомиться с вами! У нас мало "
-"припасов, но в данный момент у нас избыток экипажа\". Повстанец предлагает "
+"припасов, но у нас на борту слишком много людей!\" Повстанец хочет "
 "присоединиться к вашей команде."
 
 #: src-en/data/events_special_fleet.xml.append:70
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/event[3]/text"
 msgstr ""
-"Капитан повстанцев не может поверить своим глазам, когда видит, что на вашем"
-" корабле находится единственный и неповторимый Вэнс Первый! Он быстро "
+"Капитан повстанцев не может поверить своим глазам, когда видит, что на вашем "
+"корабле находится единственный и неповторимый Вэнс Первый! Он быстро "
 "извиняется и обещает задержать флот настолько, насколько это возможно, "
 "прежде чем уйти в прыжок."
 
@@ -147,28 +141,25 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_fleet.xml.append:86
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
-"Флот теперь знает о Вэнсе и не будет посылать солдат, которых легко "
-"переубедить."
+"Флот теперь знает о предательстве Вэнс Первый и не пошлет к вам больше "
+"солдат, которых можно переубедить."
 
 #: src-en/data/events_special_fleet.xml.append:90
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
 
 #: src-en/data/events_special_fleet.xml.append:92
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[3]/event[1]/text"
-msgstr "Что? Вы думаете, мы идиоты?"
+msgstr "Что? Ты думаешь, мы идиоты? Ваши документы поддельные!\""
 
 #: src-en/data/events_special_fleet.xml.append:94
 msgid ""
@@ -177,64 +168,58 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_fleet.xml.append:99
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[3]/event[2]/text"
 msgstr ""
-"Капитан повстанцев изучает документы, а затем пожимает плечами: \"Конечно, "
-"будь осторожен, сынок, здесь много шпионов Федерации\"."
+"Капитан повстанцев изучает документы, а затем пожимает плечами: \"Э-э-э, "
+"конечно. Будь осторожен, сынок, там много шпионов Федерации\"."
 
 #: src-en/data/events_special_fleet.xml.append:107
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Вэнс Первый) \"Стоять, верные солдаты! Говорит Вэнс Первый, вы должны "
-"немедленно отключить свои орудия!\""
+"(Вэнс Первый) \"Стой, солдат! Это Вэнс Первый! Отставить, отключи оружие!\""
 
 #: src-en/data/events_special_fleet.xml.append:109
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/event[1]/text"
 msgstr ""
-"\"Черт возьми, это же первый Вэнс! Мне очень жаль, что я напал на вас, сэр! "
-"Я не знаю, почему вы хотите, чтобы мы отступили, но мы обещаем это сделать!"
+"\"Черт возьми... это Вэнс Первый! Простите, что напал на вас, сэр... Не "
+"знаю, почему вы просите меня остановиться, но я это сделаю!\""
 
 #: src-en/data/events_special_fleet.xml.append:115
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/event[2]/text"
 msgstr ""
-"\"Черт возьми, это же Вэнс Первый! Мне очень жаль, что я напал на вас, сэр! "
-"Я помогу вашему делу всем, чем смогу!\""
+"\"Черт возьми, это же Вэнс Первый! М-мне очень жаль, что я напал на вас, "
+"сэр! Я помогу вашему делу всем, чем смогу!\""
 
 #: src-en/data/events_special_fleet.xml.append:122
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
-"Флот теперь знает о Вэнсе и не будет посылать солдат, которых легко "
-"переубедить."
+"Флот теперь знает о предательстве Вэнс Первый и не пошлет к вам больше "
+"солдат, которых можно переубедить."
 
 #: src-en/data/events_special_fleet.xml.append:126
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
 
 #: src-en/data/events_special_fleet.xml.append:128
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[3]/event/text"
-msgstr "Что? Вы думаете, мы идиоты?"
+msgstr ""
+"Что? Ты думаешь, мы идиоты? Мы знаем, когда ты пытаешься нас обмануть, "
+"маленькая крыса!\""
 
 #: src-en/data/events_special_fleet.xml.append:130
 msgid ""
@@ -243,55 +228,50 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_fleet.xml.append:139
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Вэнс Первый) \"Стоять, верные солдаты! Говорит Вэнс Первый, вы должны "
-"немедленно отключить свои орудия!\""
+"(Вэнс Первый) \"Стой, солдат! Это Вэнс Первый! Отставить, отключи оружие!\""
 
 #: src-en/data/events_special_fleet.xml.append:141
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/event[1]/text"
 msgstr ""
-"\"Черт возьми, это же первый Вэнс! Мне очень жаль, что я напал на вас, сэр! "
-"Я не знаю, почему вы хотите, чтобы мы отступили, но мы обещаем это сделать!"
+"\"Черт возьми, это же Вэнс Первый! М-мне очень жаль, что я напал на вас, "
+"сэр! Я помогу вашему делу всем, чем смогу!\""
 
 #: src-en/data/events_special_fleet.xml.append:147
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/event[2]/text"
 msgstr ""
-"\"Черт возьми, это же Вэнс Первый! Мне очень жаль, что я напал на вас, сэр! "
-"Я помогу вашему делу всем, чем смогу!\""
+"\"Черт возьми, это же Вэнс Первый! М-мне очень жаль, что я напал на вас, "
+"сэр! Я помогу вашему делу всем, чем смогу!\""
 
 #: src-en/data/events_special_fleet.xml.append:154
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
-"Флот теперь знает о Вэнсе и не будет посылать солдат, которых легко "
-"переубедить."
+"Флот теперь знает о предательстве Вэнс Первый и не пошлет к вам больше "
+"солдат, которых можно переубедить."
 
 #: src-en/data/events_special_fleet.xml.append:158
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
 
 #: src-en/data/events_special_fleet.xml.append:160
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[3]/event/text"
-msgstr "Что? Вы думаете, мы идиоты?"
+msgstr ""
+"Что? Ты думаешь, мы идиоты? Мы знаем, когда ты пытаешься нас обмануть, "
+"маленькая крыса!\""
 
 #: src-en/data/events_special_fleet.xml.append:162
 msgid ""
@@ -300,50 +280,44 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_fleet.xml.append:171
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Вэнс Первый) \"Стоять, верные солдаты! Говорит Вэнс Первый, вы должны "
-"немедленно отключить свои орудия!\""
+"(Вэнс Первый) \"Стой, солдат! Это Вэнс Первый! Отставить, отключи оружие!\""
 
 #: src-en/data/events_special_fleet.xml.append:173
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
-"Когда Вэнс попытался вызвать флот, гном начал визжать. Вэнс, не раздумывая, "
-"швыряет гнома через всю комнату, прекращая его адский визг. С гордой улыбкой"
-" он связывается с флотом и требует, чтобы они отдали вам свои припасы."
+"Пока Вэнс пытается вызвать флот, гном начинает визжать, пытаясь заглушить "
+"ваши сообщения. Не теряя времени, адмирал швыряет гнома в угол, заставляя "
+"его на время замолчать, и требует, чтобы флот пропустил вас."
 
 #: src-en/data/events_special_fleet.xml.append:181
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
-"Похоже, гном нашел способ помешать вам связаться с флотом, и это никому не "
-"нравится."
+msgstr "Гном, похоже, глушит вашу связь. Вы не можете связаться с флотом."
 
 #: src-en/data/events_special_fleet.xml.append:185
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
 
 #: src-en/data/events_special_fleet.xml.append:187
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
-"Прежде чем вы успеваете передать документы, гном визжит, и вы не успеваете "
-"опомниться, как документ становится полностью нечитаемым, а повстанец "
-"несколько мгновений смотрит вам в глаза, прежде чем схватиться за оружие."
+"Как только вы показываете свои документы, гном вскрикивает, преобразуя "
+"данные на вашей карточке в ряд когнитоопасных символов. Повстанец "
+"заваливается назад, его глаза становятся совершенно черными, изо рта "
+"вытекают галлоны крови, а остальные напуганные повстанцы занимают боевые "
+"позиции!"
 
 #: src-en/data/events_special_fleet.xml.append:190
 msgid ""
@@ -352,50 +326,44 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_fleet.xml.append:199
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Вэнс Первый) \"Стоять, верные солдаты! Говорит Вэнс Первый, вы должны "
-"немедленно отключить свои орудия!\""
+"(Вэнс Первый) \"Стой, солдат! Это Вэнс Первый! Отставить, отключи оружие!\""
 
 #: src-en/data/events_special_fleet.xml.append:201
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
-"Когда Вэнс попытался вызвать флот, гном начал визжать. Вэнс, не раздумывая, "
-"швыряет гнома через всю комнату, прекращая его адский визг. С гордой улыбкой"
-" он связывается с флотом и требует, чтобы они отдали вам свои припасы."
+"Пока Вэнс пытается вызвать флот, гном начинает визжать, пытаясь заглушить "
+"ваши сообщения. Не теряя времени, адмирал швыряет гнома в угол, заставляя "
+"его на время замолчать, и требует, чтобы флот пропустил вас."
 
 #: src-en/data/events_special_fleet.xml.append:209
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
-"Похоже, гном нашел способ помешать вам связаться с флотом, и это никому не "
-"нравится."
+msgstr "Гном, похоже, глушит вашу связь. Вы не можете связаться с флотом."
 
 #: src-en/data/events_special_fleet.xml.append:213
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
 
 #: src-en/data/events_special_fleet.xml.append:215
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
-"Прежде чем вы успеваете передать документы, гном визжит, и вы не успеваете "
-"опомниться, как документ становится полностью нечитаемым, а повстанец "
-"несколько мгновений смотрит вам в глаза, прежде чем схватиться за оружие."
+"Как только вы показываете свои документы, гном вскрикивает, преобразуя "
+"данные на вашей карточке в ряд когнитоопасных символов. Повстанец "
+"заваливается назад, его глаза становятся совершенно черными, изо рта "
+"вытекают галлоны крови, а остальные напуганные повстанцы занимают боевые "
+"позиции!"
 
 #: src-en/data/events_special_fleet.xml.append:217
 msgid ""
@@ -404,50 +372,44 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_fleet.xml.append:226
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Вэнс Первый) \"Стоять, верные солдаты! Говорит Вэнс Первый, вы должны "
-"немедленно отключить свои орудия!\""
+"(Вэнс Первый) \"Стой, солдат! Это Вэнс Первый! Отставить, отключи оружие!\""
 
 #: src-en/data/events_special_fleet.xml.append:228
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
-"Когда Вэнс попытался вызвать флот, гном начал визжать. Вэнс, не раздумывая, "
-"швыряет гнома через всю комнату, прекращая его адский визг. С гордой улыбкой"
-" он связывается с флотом и требует, чтобы они отдали вам свои припасы."
+"Пока Вэнс пытается вызвать флот, гном начинает визжать, пытаясь заглушить "
+"ваши сообщения. Не теряя времени, адмирал швыряет гнома в угол, заставляя "
+"его на время замолчать, и требует, чтобы флот пропустил вас."
 
 #: src-en/data/events_special_fleet.xml.append:236
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
-"Похоже, гном нашел способ помешать вам связаться с флотом, и это никому не "
-"нравится."
+msgstr "Гном, похоже, глушит вашу связь. Вы не можете связаться с флотом."
 
 #: src-en/data/events_special_fleet.xml.append:240
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
 
 #: src-en/data/events_special_fleet.xml.append:242
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
-"Прежде чем вы успеваете передать документы, гном визжит, и вы не успеваете "
-"опомниться, как документ становится полностью нечитаемым, а повстанец "
-"несколько мгновений смотрит вам в глаза, прежде чем схватиться за оружие."
+"Как только вы показываете свои документы, гном вскрикивает, преобразуя "
+"данные на вашей карточке в ряд когнитоопасных символов. Повстанец "
+"заваливается назад, его глаза становятся совершенно черными, изо рта "
+"вытекают галлоны крови, а остальные напуганные повстанцы занимают боевые "
+"позиции!"
 
 #: src-en/data/events_special_fleet.xml.append:244
 msgid ""
@@ -456,50 +418,44 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_fleet.xml.append:253
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Вэнс Первый) \"Стоять, верные солдаты! Говорит Вэнс Первый, вы должны "
-"немедленно отключить свои орудия!\""
+"(Вэнс Первый) \"Стой, солдат! Это Вэнс Первый! Отставить, отключи оружие!\""
 
 #: src-en/data/events_special_fleet.xml.append:255
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
-"Когда Вэнс попытался вызвать флот, гном начал визжать. Вэнс, не раздумывая, "
-"швыряет гнома через всю комнату, прекращая его адский визг. С гордой улыбкой"
-" он связывается с флотом и требует, чтобы они отдали вам свои припасы."
+"Пока Вэнс пытается вызвать флот, гном начинает визжать, пытаясь заглушить "
+"ваши сообщения. Не теряя времени, адмирал швыряет гнома в угол, заставляя "
+"его на время замолчать, и требует, чтобы флот пропустил вас."
 
 #: src-en/data/events_special_fleet.xml.append:263
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
-"Похоже, гном нашел способ помешать вам связаться с флотом, и это никому не "
-"нравится."
+msgstr "Гном, похоже, глушит вашу связь. Вы не можете связаться с флотом."
 
 #: src-en/data/events_special_fleet.xml.append:267
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
 
 #: src-en/data/events_special_fleet.xml.append:269
-#, fuzzy
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
-"Прежде чем вы успеваете передать документы, гном визжит, и вы не успеваете "
-"опомниться, как документ становится полностью нечитаемым, а повстанец "
-"несколько мгновений смотрит вам в глаза, прежде чем схватиться за оружие."
+"Как только вы показываете свои документы, гном вскрикивает, преобразуя "
+"данные на вашей карточке в ряд когнитоопасных символов. Повстанец "
+"заваливается назад, его глаза становятся совершенно черными, изо рта "
+"вытекают галлоны крови, а остальные напуганные повстанцы занимают боевые "
+"позиции!"
 
 #: src-en/data/events_special_fleet.xml.append:271
 msgid ""
