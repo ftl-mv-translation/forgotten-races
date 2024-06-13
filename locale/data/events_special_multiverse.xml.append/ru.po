@@ -1,9 +1,17 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-06-13 12:50+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_special_multiversexmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/events_special_multiverse.xml.append:19
 msgid ""
@@ -12,27 +20,27 @@ msgid ""
 msgstr "А, я вспомнил. ты, должно быть, Лия!"
 
 #: src-en/data/events_special_multiverse.xml.append:21
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"SYLVAN_ROYAL_NORMAL\"]/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod-"
 "append:choice/event/text"
 msgstr ""
 "\"Подожди... ты вспомнил?! Конечно... конечно, вспомнил! Меньшего от своего "
-"заклятого врага я и не ожидала! Пришло время для финальной битвы, сцука!\""
+"заклятого врага я и не ожидала! Пришло время свести счеты раз и навсегда, "
+"сцука!\""
 
 #: src-en/data/events_special_multiverse.xml.append:23
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"SYLVAN_ROYAL_NORMAL\"]/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod-"
 "append:choice/event/choice[1]/text"
 msgstr "Пора положить этому конец!"
 
 #: src-en/data/events_special_multiverse.xml.append:25
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"SYLVAN_ROYAL_NORMAL\"]/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod-"
 "append:choice/event/choice[1]/event/text"
-msgstr "Оба корабля активируют орудия и готовятся к бою."
+msgstr ""
+"Вы пристально смотрите на своего врага, и оба готовите все имеющееся у вас "
+"оружие!"
 
 #: src-en/data/events_special_multiverse.xml.append:28
 msgid ""
@@ -41,11 +49,10 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:34
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"SYLVAN_ROYAL_NORMAL\"]/mod:findLike/mod:findLike/mod:findLike/mod:findLike/mod-"
 "append:choice/event/choice[@req=\"unique_jerry\"]/text"
-msgstr "(Джерри) Подождите, неужели нет другого способа прекратить это?"
+msgstr "(Джерри) Подождите... неужели нет другого способа прекратить это?"
 
 #: src-en/data/events_special_multiverse.xml.append:49
 msgid ""
@@ -54,27 +61,27 @@ msgid ""
 msgstr "А, я вспомнил. ты, должно быть, Лия!"
 
 #: src-en/data/events_special_multiverse.xml.append:51
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"SYLVAN_ROYAL_DEAD\"]/mod:findLike/mod:findLike/mod-"
 "append:choice/event/text"
 msgstr ""
 "\"Подожди... ты вспомнил?! Конечно... конечно, вспомнил! Меньшего от своего "
-"заклятого врага я и не ожидала! Пришло время для финальной битвы, сцука!\""
+"заклятого врага я и не ожидала! Пришло время свести счеты раз и навсегда, "
+"сцука!\""
 
 #: src-en/data/events_special_multiverse.xml.append:53
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"SYLVAN_ROYAL_DEAD\"]/mod:findLike/mod:findLike/mod-"
 "append:choice/event/choice[1]/text"
 msgstr "Пора положить этому конец!"
 
 #: src-en/data/events_special_multiverse.xml.append:55
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"SYLVAN_ROYAL_DEAD\"]/mod:findLike/mod:findLike/mod-"
 "append:choice/event/choice[1]/event/text"
-msgstr "Оба корабля активируют орудия и готовятся к бою."
+msgstr ""
+"Вы пристально смотрите на своего врага, и оба готовите все имеющееся у вас "
+"оружие!"
 
 #: src-en/data/events_special_multiverse.xml.append:58
 msgid ""
@@ -83,20 +90,24 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:64
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"SYLVAN_ROYAL_DEAD\"]/mod:findLike/mod:findLike/mod-"
 "append:choice/event/choice[@req=\"unique_jerry\"]/text"
-msgstr "(Джерри) Подождите, неужели нет другого способа прекратить это?"
+msgstr "(Джерри) Подождите... неужели нет другого способа прекратить это?"
 
 #: src-en/data/events_special_multiverse.xml.append:74
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_LEAH_JERRY_ROYAL\"]/text"
 msgstr ""
-"Лия кажется удивленной при виде Джерри: \"Джерри?! Что ты здесь делаешь?! Вэнс ни за что не позволил бы тебе находиться в таком опасном месте!\"\n"
+"Лия в ошеломлена тем, что Джерри находится на борту вашего корабля. \"Джерри"
+"?! Что ты здесь делаешь?! Вэнс ни за что не позволил бы тебе находиться в "
+"таком опасном месте!\"\n"
 "\n"
-"\t\tДжерри вздыхает: \"Это... долгая история. Послушай, Лия, вся эта затея с моим дядей - огромная ошибка и ничем хорошим она не закончится, что бы ни произошло. Я знаю, какая ты настойчивая, такую решимость нельзя растрачивать в попытке осуществить такой ужасный план. Так что... что, если ты присоединишься к нам в попытке остановить моего дядю?\""
+"\t\tДжерри вздохнул. \"Это... долгая, долгая история. Послушай, Лия. Вся эта "
+"операция, которую затеял мой дядя, это... огромная ошибка. Это ничем хорошим "
+"не закончится. Я знаю, какой настойчивой ты можешь быть, но такая решимость "
+"не должна быть пущена на какой-то ужасный, обреченный план! Что, если... ты "
+"присоединишься к нам?\""
 
 #: src-en/data/events_special_multiverse.xml.append:78
 msgid ""
@@ -104,33 +115,43 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:80
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_LEAH_JERRY_ROYAL\"]/choice/event/text"
 msgstr ""
-"Лия моргает, озадаченная тем, что только что сказал Джерри: \"Ты действительно просишь меня присоединиться к тебе и моему заклятому врагу?! Джерри, послушай, ты мне нравишься, но это очень сложная просьба. Как я могу знать, что это не ловушка?\"\n"
+"Лия моргает, озадаченная предложением Джерри. \"Ты... ты... ты действительно "
+"предлагаешь мне присоединиться к моему заклятому врагу? Джерри... послушай. "
+"Ты мне нравишься, но это очень, очень сложная просьба. Откуда мне знать, что "
+"это не ловушка?\"\n"
 "\n"
-"\t\t\t\t\t\"Да ладно, Лия, зачем твоему лучшему другу врать тебе?\" Вы успеваете заметить, как Джерри тайком подмигивает вам, а Лия тем временем делает шаг назад: \"Ты... ты думаешь, что я твоя лучшая подруга?... В таком случае, тебе лучше предоставить мне лучшую комнату на твоем корабле, сцука!\" Джерри вздыхает, пока Лия телепортируется на ваш корабль."
+"\t\t\t\t\"Да ладно, Лия! Зачем твоему лучшему другу врать тебе?\" Джерри "
+"тайно подмигивает вам, видя как Лия сдается. \"Ты... ты думаешь, что мы... "
+"лучшие друзья...? В таком случае... лаааааадно. Но лучше бы ты дал мне самую "
+"лучшую каюту на всем корабле, сцука!\" Джерри вздыхает с облегчением, когда "
+"Лия телепортируется к вам."
 
 #: src-en/data/events_special_multiverse.xml.append:83
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_LEAH_JERRY_ROYAL\"]/choice/event/crewMember"
-msgstr ""
+msgstr "Лия"
 
 #: src-en/data/events_special_multiverse.xml.append:85
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_LEAH_JERRY_ROYAL\"]/choice/event/choice/text"
-msgstr "О нет, Сильван!"
+msgstr "Подожди! А как же Сильван?"
 
 #: src-en/data/events_special_multiverse.xml.append:93
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_LEAH_JERRY_ROYAL_DEAD\"]/text"
 msgstr ""
-"Лия кажется удивленной при виде Джерри: \"Джерри?! Что ты здесь делаешь?! Вэнс ни за что не позволил бы тебе находиться в таком опасном месте!\"\n"
+"Лия в ошеломлена тем, что Джерри находится на борту вашего корабля. \"Джерри"
+"?! Что ты здесь делаешь?! Вэнс ни за что не позволил бы тебе находиться в "
+"таком опасном месте!\"\n"
 "\n"
-"\t\tДжерри вздыхает: \"Это... долгая история. Послушай, Лия, вся эта затея с моим дядей - огромная ошибка и ничем хорошим она не закончится, что бы ни произошло. Я знаю, какая ты настойчивая, такую решимость нельзя растрачивать в попытке осуществить такой ужасный план. Так что... что, если ты присоединишься к нам в попытке остановить моего дядю?\""
+"\t\tДжерри вздохнул. \"Это... долгая, долгая история. Послушай, Лия. Вся эта "
+"операция, которую затеял мой дядя, это... огромная ошибка. Это ничем хорошим "
+"не закончится. Я знаю, какой настойчивой ты можешь быть, но такая решимость "
+"не должна быть пущена на какой-то ужасный, обреченный план! Что, если... ты "
+"присоединишься к нам?\""
 
 #: src-en/data/events_special_multiverse.xml.append:97
 msgid ""
@@ -138,27 +159,32 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:99
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_LEAH_JERRY_ROYAL_DEAD\"]/choice/event/text"
 msgstr ""
-"Лия моргает, озадаченная тем, что только что сказал Джерри: \"Ты действительно просишь меня присоединиться к тебе и моему заклятому врагу?! Джерри, послушай, ты мне нравишься, но это очень сложная просьба. Как я могу знать, что это не ловушка?\"\n"
+"Лия моргает, озадаченная предложением Джерри. \"Ты... ты... ты действительно "
+"предлагаешь мне присоединиться к моему заклятому врагу? Джерри... послушай. "
+"Ты мне нравишься, но это очень, очень сложная просьба. Откуда мне знать, что "
+"это не ловушка?\"\n"
 "\n"
-"\t\t\t\t\t\"Да ладно, Лия, зачем твоему лучшему другу врать тебе?\" Вы успеваете заметить, как Джерри тайком подмигивает вам, а Лия тем временем делает шаг назад: \"Ты... ты думаешь, что я твоя лучшая подруга?... В таком случае, тебе лучше предоставить мне лучшую комнату на твоем корабле, сцука!\" Джерри вздыхает, пока Лия телепортируется на ваш корабль."
+"\t\t\t\t\"Да ладно, Лия! Зачем твоему лучшему другу врать тебе?\" Джерри "
+"тайно подмигивает вам, видя как Лия сдается. \"Ты... ты думаешь, что мы... "
+"лучшие друзья...? В таком случае... лаааааадно. Но лучше бы ты дал мне самую "
+"лучшую каюту на всем корабле, сцука!\" Джерри вздыхает с облегчением, когда "
+"Лия телепортируется к вам."
 
 #: src-en/data/events_special_multiverse.xml.append:102
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_LEAH_JERRY_ROYAL_DEAD\"]/choice/event/crewMember"
-msgstr ""
+msgstr "Лия"
 
 #: src-en/data/events_special_multiverse.xml.append:108
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/text"
 msgstr ""
-"\"О да, этот маленький слизень был неплохим бойцом, странно, почему он не "
-"включил щиты, пока мы сражались\". Вы смотрите на нее, не зная, что сказать,"
-" и решаете, что лучше проигнорировать ее комментарий."
+"\"О, точно! Этот маленький слизень устроил неплохой бой, хотя... Не понимаю, "
+"зачем он отключил свои щиты на время боя\". Вы бросаете взгляд на Лию, не "
+"зная, что ответить на ее комментарий а затем поворачиваетесь к Сильвану."
 
 #: src-en/data/events_special_multiverse.xml.append:113
 msgid ""
@@ -244,7 +270,7 @@ msgstr ""
 #: src-en/data/events_special_multiverse.xml.append:140
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/choice/event/choice[@req=\"unique_obyn\"]/event/choice/event/choice[@req=\"medbay\"]/event/crewMember"
-msgstr ""
+msgstr "Сильван"
 
 #: src-en/data/events_special_multiverse.xml.append:142
 msgid ""
@@ -268,7 +294,7 @@ msgstr ""
 #: src-en/data/events_special_multiverse.xml.append:151
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/choice/event/choice[@req=\"unique_obyn\"]/event/choice/event/choice[@req=\"clonebay\"]/event/crewMember"
-msgstr ""
+msgstr "Сильван"
 
 #: src-en/data/events_special_multiverse.xml.append:153
 msgid ""
@@ -292,7 +318,7 @@ msgstr ""
 #: src-en/data/events_special_multiverse.xml.append:162
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/choice/event/choice[@req=\"unique_obyn\"]/event/choice/event/choice[@req=\"RECON_AND_TELEPORT\"]/event/crewMember"
-msgstr ""
+msgstr "Сильван"
 
 #: src-en/data/events_special_multiverse.xml.append:164
 msgid ""
@@ -388,7 +414,7 @@ msgstr ""
 #: src-en/data/events_special_multiverse.xml.append:201
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/choice/event/choice[@req=\"LIST_VARIANT_BILLY\"]/event/choice/event/choice/event/choice/event/choice[@req=\"medbay\"]/event/crewMember"
-msgstr ""
+msgstr "Сильван"
 
 #: src-en/data/events_special_multiverse.xml.append:206
 msgid ""
@@ -408,7 +434,7 @@ msgstr ""
 #: src-en/data/events_special_multiverse.xml.append:209
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/choice/event/choice[@req=\"LIST_VARIANT_BILLY\"]/event/choice/event/choice/event/choice/event/choice[@req=\"clonebay\"]/event/crewMember"
-msgstr ""
+msgstr "Сильван"
 
 #: src-en/data/events_special_multiverse.xml.append:214
 msgid ""
@@ -428,7 +454,7 @@ msgstr ""
 #: src-en/data/events_special_multiverse.xml.append:217
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/choice/event/choice[@req=\"LIST_VARIANT_BILLY\"]/event/choice/event/choice/event/choice/event/choice[@req=\"RECON_AND_TELEPORT\"]/event/crewMember"
-msgstr ""
+msgstr "Сильван"
 
 #: src-en/data/events_special_multiverse.xml.append:230
 msgid ""
@@ -447,7 +473,7 @@ msgstr ""
 #: src-en/data/events_special_multiverse.xml.append:233
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/choice/event/choice[@req=\"medbay\"]/event/crewMember"
-msgstr ""
+msgstr "Сильван"
 
 #: src-en/data/events_special_multiverse.xml.append:238
 msgid ""
@@ -466,7 +492,7 @@ msgstr ""
 #: src-en/data/events_special_multiverse.xml.append:241
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/choice/event/choice[@req=\"clonebay\"]/event/crewMember"
-msgstr ""
+msgstr "Сильван"
 
 #: src-en/data/events_special_multiverse.xml.append:246
 msgid ""
@@ -485,17 +511,15 @@ msgstr ""
 #: src-en/data/events_special_multiverse.xml.append:249
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/choice/event/choice[@req=\"RECON_AND_TELEPORT\"]/event/crewMember"
-msgstr ""
+msgstr "Сильван"
 
 #: src-en/data/events_special_multiverse.xml.append:315
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_NORMAL\"]/text"
 msgstr ""
 "Из туннеля появляется массивный крейсер, конструкция которого вам еще не "
-"встречалась! Этот корабль выглядит древним, но в то же время на много лет "
-"впереди по уровню развития технологий! Капитан этого необычного судна "
-"вызывает вас."
+"встречалась! Этот корабль выглядит... древним, но по уровню развития "
+"превосходит ваш на тысячелетия. Его капитан вызывает вас."
 
 #: src-en/data/events_special_multiverse.xml.append:319
 msgid ""
@@ -503,16 +527,13 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:321
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_NORMAL\"]/choice/event/text"
 msgstr ""
-"\"Приветствую вас! Что привело вас в этот уединенный уголок космоса? А, это "
-"неважно, видите ли, мы выполняем очень важную миссию, и так случилось, что у"
-" нас закончилось топливо как раз в тот момент, когда мы совершили этот "
-"прыжок, так что, похоже, мы оказались в несколько затруднительном положении."
-" Я, однако, очень разумный кубоид, и поэтому я предоставлю вам шанс "
-"позволить нам продолжить нашу миссию без дальнейших проблем, договорились?\""
+"\"Приветствую вас! Мы выполняем важную миссию, и так случилось, что наши "
+"запасы топлива иссякли именно в ходе этого прыжка. Я считаю себя "
+"благоразумным кубоидом и прошу вас предоставить нам топливо для дальнейшего "
+"путешествия... мы не можем ждать слишком долго\"."
 
 #: src-en/data/events_special_multiverse.xml.append:323
 msgid ""
@@ -520,13 +541,12 @@ msgid ""
 msgstr "Приготовиться к бою!"
 
 #: src-en/data/events_special_multiverse.xml.append:325
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_NORMAL\"]/choice/event/choice[1]/event/text"
 msgstr ""
-"\"Ах, ну я надеялся, что это задание не будет включать кровопролитие, но "
-"задание важнее наших моральных принципов. Просто знайте, что я не получаю от"
-" этого никакого удовольствия\"."
+"\"Я надеялся, что наша миссия не закончится кровопролитием, но, похоже, нам "
+"придется взять свое топливо силой. Только знайте, я не получаю от этого "
+"никакого удовольствия...\""
 
 #: src-en/data/events_special_multiverse.xml.append:328
 msgid ""
@@ -539,7 +559,6 @@ msgid ""
 msgstr "Заплатите дань топливом, чтобы избежать боя."
 
 #: src-en/data/events_special_multiverse.xml.append:336
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_NORMAL\"]/choice/event/choice[2]/event/text"
 msgstr "\"Мудрый выбор Ренегат. Увидимся\"."
@@ -550,14 +569,12 @@ msgid ""
 msgstr "Использовать благословение, чтобы избежать битвы."
 
 #: src-en/data/events_special_multiverse.xml.append:352
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_CHALLENGE\"]/text"
 msgstr ""
-"Из туннеля появляется массивный крейсер, конструкция которого вам еще не "
-"встречалась! Этот корабль выглядит древним, но в то же время на много лет "
-"впереди по уровню развития технологий! Капитан этого необычного судна "
-"вызывает вас."
+"Из туннеля появляется массивный крейсер такой конструкции, какой вы еще "
+"никогда не видели! Этот корабль выглядит... древним, но по уровню развития "
+"превосходит ваш на тысячелетия. Его капитан вызывает вас."
 
 #: src-en/data/events_special_multiverse.xml.append:356
 msgid ""
@@ -565,16 +582,13 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:358
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_CHALLENGE\"]/choice/event/text"
 msgstr ""
-"\"Приветствую вас! Что привело вас в этот уединенный уголок космоса? А, это "
-"неважно, видите ли, мы выполняем очень важную миссию, и так случилось, что у"
-" нас закончилось топливо как раз в тот момент, когда мы совершили этот "
-"прыжок, так что, похоже, мы оказались в несколько затруднительном положении."
-" Я, однако, очень разумный кубоид, и поэтому я предоставлю вам шанс "
-"позволить нам продолжить нашу миссию без дальнейших проблем, договорились?\""
+"\"Приветствую вас! Мы выполняем важную миссию, и так случилось, что наши "
+"запасы топлива иссякли именно в ходе этого прыжка. Я считаю себя "
+"благоразумным кубоидом и прошу вас предоставить нам топливо для дальнейшего "
+"путешествия... мы не можем ждать слишком долго\"."
 
 #: src-en/data/events_special_multiverse.xml.append:360
 msgid ""
@@ -582,13 +596,12 @@ msgid ""
 msgstr "Приготовиться к бою!"
 
 #: src-en/data/events_special_multiverse.xml.append:362
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_CHALLENGE\"]/choice/event/choice[1]/event/text"
 msgstr ""
-"\"Ах, ну я надеялся, что это задание не будет включать кровопролитие, но "
-"задание важнее наших моральных принципов. Просто знайте, что я не получаю от"
-" этого никакого удовольствия\"."
+"\"Я надеялся, что наша миссия не закончится кровопролитием, но, похоже, нам "
+"придется взять свое топливо силой. Только знайте, я не получаю от этого "
+"никакого удовольствия...\""
 
 #: src-en/data/events_special_multiverse.xml.append:365
 msgid ""
@@ -601,7 +614,6 @@ msgid ""
 msgstr "Заплатите дань топливом, чтобы избежать боя."
 
 #: src-en/data/events_special_multiverse.xml.append:373
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_CHALLENGE\"]/choice/event/choice[2]/event/text"
 msgstr "\"Мудрый выбор Ренегат. Увидимся\"."
@@ -612,14 +624,12 @@ msgid ""
 msgstr "Использовать благословение, чтобы избежать битвы."
 
 #: src-en/data/events_special_multiverse.xml.append:389
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_EXTREME\"]/text"
 msgstr ""
-"Из туннеля появляется массивный крейсер, конструкция которого вам еще не "
-"встречалась! Этот корабль выглядит древним, но в то же время на много лет "
-"впереди по уровню развития технологий! Капитан этого необычного судна "
-"вызывает вас."
+"Из туннеля появляется массивный крейсер такой конструкции, какой вы еще "
+"никогда не видели! Этот корабль выглядит... древним, но по уровню развития "
+"превосходит ваш на тысячелетия. Его капитан вызывает вас."
 
 #: src-en/data/events_special_multiverse.xml.append:393
 msgid ""
@@ -627,16 +637,13 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:395
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_EXTREME\"]/choice/event/text"
 msgstr ""
-"\"Приветствую вас! Что привело вас в этот уединенный уголок космоса? А, это "
-"неважно, видите ли, мы выполняем очень важную миссию, и так получилось, что "
-"топливо закончилось как раз в тот момент, когда мы совершили этот прыжок, "
-"так что, похоже, мы оказались в несколько затруднительном положении. К "
-"сожалению, силы, превосходящие меня, вынуждают меня сражаться с вами за это "
-"топливо, но я обещаю вам, что сделаю это быстро\"."
+"\"Приветствую вас! Мы выполняем важную миссию, и так случилось, что наши "
+"запасы топлива иссякли именно во время этого прыжка. К сожалению, мы не "
+"можем тратить время на переговоры, так как наша миссия очень срочная. Только "
+"знайте, я не получаю от этого никакого удовольствия...\""
 
 #: src-en/data/events_special_multiverse.xml.append:397
 msgid ""
@@ -659,14 +666,12 @@ msgid ""
 msgstr "Использовать благословение, чтобы избежать битвы."
 
 #: src-en/data/events_special_multiverse.xml.append:416
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_CHAOS\"]/text"
 msgstr ""
-"Из туннеля появляется массивный крейсер, конструкция которого вам еще не "
-"встречалась! Этот корабль выглядит древним, но в то же время на много лет "
-"впереди по уровню развития технологий! Капитан этого необычного судна "
-"вызывает вас."
+"Из туннеля появляется массивный крейсер такой конструкции, какой вы еще "
+"никогда не видели! Этот корабль выглядит... древним, но по уровню развития "
+"превосходит ваш на тысячелетия. Его капитан вызывает вас."
 
 #: src-en/data/events_special_multiverse.xml.append:420
 msgid ""
@@ -674,16 +679,13 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:422
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_CHAOS\"]/choice/event/text"
 msgstr ""
-"\"Приветствую вас! Что привело вас в этот уединенный уголок космоса? А, это "
-"неважно, видите ли, мы выполняем очень важную миссию, и так получилось, что "
-"топливо закончилось как раз в тот момент, когда мы совершили этот прыжок, "
-"так что, похоже, мы оказались в несколько затруднительном положении. К "
-"сожалению, силы, превосходящие меня, вынуждают меня сражаться с вами за это "
-"топливо, но я обещаю вам, что сделаю это быстро\"."
+"\"Приветствую вас! Мы выполняем важную миссию, и так случилось, что наши "
+"запасы топлива иссякли именно во время этого прыжка. К сожалению, мы не "
+"можем тратить время на переговоры, так как наша миссия очень срочная. Только "
+"знайте, я не получаю от этого никакого удовольствия...\""
 
 #: src-en/data/events_special_multiverse.xml.append:424
 msgid ""
@@ -739,14 +741,13 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:471
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MTBOSS_COMMONWEALTH_DROP\"]/text"
 msgstr ""
-"Вы также удивлены, обнаружив среди обломков особо древнюю вещь! Вы никогда "
-"не видели ничего даже отдаленно похожего на это, поэтому предполагаете, что "
-"это прототип, сделанный на заказ тем странным видом, к которому принадлежали"
-" Ренегаты."
+"Вы также удивлены, обнаружив среди обломков особый предмет! Вы никогда "
+"раньше не видели ничего даже близко похожего, поэтому предполагаете, что это "
+"оружие, сделанное на заказ тем странным видом, к которому принадлежали "
+"Ренегаты."
 
 #: src-en/data/events_special_multiverse.xml.append:478
 msgid ""
@@ -782,32 +783,29 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:506
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MTBOSS_COMMONWEALTH_DROP_CHAOS\"]/text"
 msgstr ""
-"Вы также удивлены, обнаружив среди обломков особо древнюю вещь! Вы никогда "
-"не видели ничего даже отдаленно похожего на это, поэтому предполагаете, что "
-"это прототип, сделанный на заказ тем странным видом, к которому принадлежали"
-" Ренегаты."
+"Вы также удивлены, обнаружив среди обломков особый предмет! Вы никогда "
+"раньше не видели ничего даже близко похожего, поэтому предполагаете, что это "
+"оружие, сделанное на заказ тем странным видом, к которому принадлежали "
+"Ренегаты."
 
 #: src-en/data/events_special_multiverse.xml.append:521
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[1]/text"
 msgstr "Представить своего соляного."
 
 #: src-en/data/events_special_multiverse.xml.append:523
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
 "\"Это... это... соляной человек... который больше не является... охотником "
 "за головами... как...? Я... я думал, это невозможно... Можно сказать, я... "
-"потрясен. Молодец, путник. Ожидайте... награды перед следующим "
-"путешествием\"."
+"потрясен. Молодец, путник. Ожидайте... награды перед следующим путешествием\""
+"."
 
 #: src-en/data/events_special_multiverse.xml.append:527
 msgid ""
@@ -816,20 +814,18 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:533
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[2]/text"
 msgstr "Представить сферакса."
 
 #: src-en/data/events_special_multiverse.xml.append:535
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[2]/event/text"
 msgstr ""
-"\"Эта... эта форма... Я был уверен, что они исчезли раньше... путник, однако"
-" вам удалось обзавестись этими... невероятными сторонниками... Я теряю дар "
+"\"Эта... эта форма... Я был уверен, что они исчезли раньше... и все же, "
+"путник... вы обзавелись этим... невероятным последователем... Я теряю дар "
 "речи. Молодец, путник. Ожидайте... награды перед следующим путешествием\"."
 
 #: src-en/data/events_special_multiverse.xml.append:539
@@ -839,21 +835,19 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:545
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[3]/text"
 msgstr "Представить Обина."
 
 #: src-en/data/events_special_multiverse.xml.append:547
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
 "\"А... великий... охотник за головами... последний в своем роде... такой "
-"тяжелый груз лег... на его плечи. Молодец, путник. Ожидайте... награды перед"
-" следующим путешествием\"."
+"тяжелый груз лег... на его плечи. Молодец, путник. Ожидайте... награды перед "
+"следующим путешествием\"."
 
 #: src-en/data/events_special_multiverse.xml.append:551
 msgid ""
@@ -862,11 +856,10 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:557
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[4]/text"
-msgstr "Представить экипаж \"Содружества\"."
+msgstr "Представить экипаж Содружества."
 
 #: src-en/data/events_special_multiverse.xml.append:559
 msgid ""
@@ -885,22 +878,20 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:569
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[5]/text"
-msgstr "Представить неупокоенное привидение."
+msgstr "Представить приведение."
 
 #: src-en/data/events_special_multiverse.xml.append:571
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[5]/event/text"
 msgstr ""
-"\"Это... это настоящий... призрак? ... Должен сказать, я... не думал, что "
-"такое возможно... честно говоря, я с трудом... верю своим глазам... Можно "
-"сказать, я... очень... очень... впечатлен. Отличная работа, путник. "
-"Ожидайте... награды до следующего путешествия\"."
+"\"Это... это настоящее... приведение? ... Должен сказать, я... не думал, что "
+"это возможно... воскрешать мертвых. Честно говоря... я с трудом... верю "
+"своим глазам... Можно сказать, я... очень... очень... впечатлен. Отличная "
+"работа, путник. Ожидайте... награды до следующего путешествия\"."
 
 #: src-en/data/events_special_multiverse.xml.append:575
 msgid ""
@@ -909,20 +900,18 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:581
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[6]/text"
 msgstr "Представить снеговика."
 
 #: src-en/data/events_special_multiverse.xml.append:583
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[6]/event/text"
 msgstr ""
-"\"Живой снеговик... Похоже, все эти... детские истории могут... существовать"
-" на самом деле... Вы узнаете... что-то новое каждый день... Можно сказать, "
+"\"Живой снеговик... Похоже, все эти... детские истории могут... существовать "
+"на самом деле... Вы узнаете... что-то новое каждый день... Можно сказать, "
 "я... очень... впечатлен. Молодец, путник. Ожидайте... награды до следующего "
 "путешествия\"."
 
@@ -933,21 +922,19 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:593
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[7]/text"
 msgstr "Представить лавамена."
 
 #: src-en/data/events_special_multiverse.xml.append:595
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[7]/event/text"
 msgstr ""
 "\"Живое существо из лавы... Полагаю... что-то подобное... в конце концов... "
-"должно было быть создано... Можно сказать, я... очень... впечатлен. Молодец,"
-" путник. Ожидайте... награды до следующего путешествия\"."
+"должно было быть создано... Можно сказать, я... очень... впечатлен. Молодец, "
+"путник. Ожидайте... награды до следующего путешествия\"."
 
 #: src-en/data/events_special_multiverse.xml.append:599
 msgid ""
@@ -962,15 +949,13 @@ msgid ""
 msgstr "Представить ИИ-аватара."
 
 #: src-en/data/events_special_multiverse.xml.append:607
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[8]/event/text"
 msgstr ""
-"\"Это... захватывающе... полностью искусственный интеллект... без "
-"физического... тела и все же... может взаимодействовать с нашим миром... "
-"можно сказать, что я впечатлен. Отличная работа, путник. Ожидайте... награды"
-" перед следующим путешествием\"."
+"\"Это... восхитительно... У него нет физического... тела, и все же... он "
+"может взаимодействовать... с нами. Можно сказать, что я впечатлен. Отличная "
+"работа, путник. Ожидайте... награды перед следующим путешествием\"."
 
 #: src-en/data/events_special_multiverse.xml.append:611
 msgid ""
@@ -979,14 +964,12 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:620
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ROCKMAN_REAL\"]/mod-"
 "append:choice[1]/text"
 msgstr "Предъявить орудие или дрон Содружества."
 
 #: src-en/data/events_special_multiverse.xml.append:622
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ROCKMAN_REAL\"]/mod-"
 "append:choice[1]/event/text"
@@ -995,7 +978,7 @@ msgstr ""
 "представления о том, что у вас в РУКАХ, не так ли? Это оборудование... Я "
 "ДУМАЛ, что все оно было УНИЧТОЖЕНО нашими ПРАОТЦАМИ! Но если я вижу его "
 "своими ГЛАЗАМИ, то, возможно, мы СМОЖЕМ... АХ! Что я ГОВОРЮ, это больше НЕ "
-"ИМЕЕТ значения, НЕВАЖНО, я ОДАРЮ вас БЛАГОСЛОВЕНИЕМ ИОНОВ. Но имейте "
+"ИМЕЕТ значения! НЕВАЖНО, я ОДАРЮ вас БЛАГОСЛОВЕНИЕМ ИОНИЗАЦИИ. Но имейте "
 "ТЕРПЕНИЕ. Это не сейчас, а ПОТОМ!\""
 
 #: src-en/data/events_special_multiverse.xml.append:626
@@ -1005,14 +988,12 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:632
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ROCKMAN_REAL\"]/mod-"
 "append:choice[2]/text"
 msgstr "Предъявить соляное орудие."
 
 #: src-en/data/events_special_multiverse.xml.append:634
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ROCKMAN_REAL\"]/mod-"
 "append:choice[2]/event/text"
@@ -1029,22 +1010,20 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:644
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ROCKMAN_REAL\"]/mod-"
 "append:choice[3]/text"
 msgstr "Предъявить орудие привидений."
 
 #: src-en/data/events_special_multiverse.xml.append:646
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ROCKMAN_REAL\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
 "\"ЧТО это во имя ВЕЛИКОГО АДМИРАЛА ТАКОЕ?! Я никогда не ВИДЕЛ ничего "
-"подобного! ГДЕ вы приобрели это СТРАННОЕ орудие, РЕНЕГАТ? Ах, забудьте об "
-"этом! Я ОДАРЮ вас БЛАГОСЛОВЕНИЕМ ПРИВИДЕНИЙ. Но имейте ТЕРПЕНИЕ. Это не "
-"сейчас, а ПОТОМ!\""
+"подобного! ГДЕ вы приобрели это СТРАННОЕ орудие, РЕНЕГАТ? Это... ЭТО "
+"ВЕЛИКОЛЕПНО! Я ОДАРЮ вас БЛАГОСЛОВЕНИЕМ ПРИВИДЕНИЙ. Но имейте ТЕРПЕНИЕ. Это "
+"не сейчас, а ПОТОМ!\""
 
 #: src-en/data/events_special_multiverse.xml.append:650
 msgid ""
@@ -1053,23 +1032,21 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:656
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ROCKMAN_REAL\"]/mod-"
 "append:choice[4]/text"
-msgstr "Предъявить прототип увядающей пушки."
+msgstr "Предъявить прототип орудия."
 
 #: src-en/data/events_special_multiverse.xml.append:658
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ROCKMAN_REAL\"]/mod-"
 "append:choice[4]/event/text"
 msgstr ""
-"\"ЭТО... ОРУДИЕ... самая ПРЕКРАСНАЯ вещь, которую я КОГДА-ЛИБО видел! "
-"МАТЕРИАЛ, ИСПОЛНЕНИЕ! Все, чего не хватает, - это немного ТЕСТИРОВАНИЯ. "
-"Спасибо, РЕНЕГАТ, что показали мне этот ПРЕКРАСНЫЙ образец ТЕХНОЛОГИИ! Я "
-"ОДАРЮ вас БЛАГОСЛОВЕНИЕМ ПРИВИДЕНИЙ. Но имейте ТЕРПЕНИЕ. Это не сейчас, а "
-"ПОТОМ!\""
+"\"ЭТО... ОРУДИЕ... это самая ПРЕКРАСНАЯ вещь, которую я КОГДА-ЛИБО видел! "
+"МАТЕРИАЛ, ИСПОЛНЕНИЕ! Все, чего не хватает, - это проведения ПОЛЕВЫХ "
+"ИСПЫТАНИЙ. Спасибо, РЕНЕГАТ, что показали мне этот ПРЕКРАСНЫЙ образец "
+"ТЕХНОЛОГИИ! Я ОДАРЮ вас БЛАГОСЛОВЕНИЕМ ПРОТОТИПОВ. Но имейте ТЕРПЕНИЕ. Это "
+"не сейчас, а ПОТОМ!\""
 
 #: src-en/data/events_special_multiverse.xml.append:662
 msgid ""
@@ -1084,14 +1061,19 @@ msgid ""
 msgstr "Ваш Увядший, похоже, желает предстать перед Сестом."
 
 #: src-en/data/events_special_multiverse.xml.append:673
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_NORMAL\"]/mod-"
 "append:choice/event/text"
 msgstr ""
-"Сест делает паузу, анализируя состав экипажа. Через несколько минут он улыбается: \"А... значит, кто-то наконец... пришел забрать приз\". Он на мгновение задумывается, а затем протягивает вам несколько странных чертежей ланиусоподобного корабля.\n"
+"Сест делает паузу, анализируя состав экипажа. Через несколько минут Судья "
+"улыбается: \"А... значит, кто-то наконец... пришел забрать приз\". Он на "
+"мгновение задумывается, а затем протягивает вам чертежи корабля, похожего на "
+"корабль ланиусов!\n"
 "\t\t\t\n"
-"\t\t\t\"Кто-то искал нас... давным-давно с... простой просьбой... если кто-то захочет... представить ланиуса такого типа... то мы должны дать ему эти чертежи. Не спрашивайте... кто это был, так как я тоже не знаю, кто это был. Наслаждайтесь своим... призом, Ренегат\"."
+"\t\t\t\"Кто-то искал нас... давным-давно с... простой просьбой... если кто-"
+"то.... представит ланиуса такого типа... то мы должны дать им эти чертежи. "
+"Не спрашивайте... кто это был, так как я тоже не знаю, кто это был. "
+"Наслаждайтесь своим... призом, Ренегат\"."
 
 #: src-en/data/events_special_multiverse.xml.append:683
 msgid ""
@@ -1130,14 +1112,19 @@ msgid ""
 msgstr "Ваш Увядший, похоже, желает предстать перед Сестом."
 
 #: src-en/data/events_special_multiverse.xml.append:708
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ORACLE_AGAIN\"]/mod-"
 "append:choice/event/text"
 msgstr ""
-"Сест делает паузу, анализируя состав экипажа. Через несколько минут он улыбается: \"А... значит, кто-то наконец... пришел забрать приз\". Он на мгновение задумывается, а затем протягивает вам несколько странных чертежей ланиусоподобного корабля.\n"
+"Сест делает паузу, анализируя состав экипажа. Через несколько минут Судья "
+"улыбается: \"А... значит, кто-то наконец... пришел забрать приз\". Он на "
+"мгновение задумывается, а затем протягивает вам чертежи корабля, похожего на "
+"корабль ланиусов!\n"
 "\t\t\t\n"
-"\t\t\t\"Кто-то искал нас... давным-давно с... простой просьбой... если кто-то захочет... представить ланиуса такого типа... то мы должны дать ему эти чертежи. Не спрашивайте... кто это был, так как я тоже не знаю, кто это был. Наслаждайтесь своим... призом, Ренегат\"."
+"\t\t\t\"Кто-то искал нас... давным-давно с... простой просьбой... если кто-"
+"то.... представит ланиуса такого типа... то мы должны дать им эти чертежи. "
+"Не спрашивайте... кто это был, так как я тоже не знаю, кто это был. "
+"Наслаждайтесь своим... призом, Ренегат\"."
 
 #: src-en/data/events_special_multiverse.xml.append:718
 msgid ""
@@ -1176,14 +1163,19 @@ msgid ""
 msgstr "Ваш Увядший, похоже, желает предстать перед Сестом."
 
 #: src-en/data/events_special_multiverse.xml.append:743
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ORACLE_FIRST\"]/mod-"
 "append:choice/event/text"
 msgstr ""
-"Сест делает паузу, анализируя состав экипажа. Через несколько минут он улыбается: \"А... значит, кто-то наконец... пришел забрать приз\". Он на мгновение задумывается, а затем протягивает вам несколько странных чертежей ланиусоподобного корабля.\n"
+"Сест делает паузу, анализируя состав экипажа. Через несколько минут Судья "
+"улыбается: \"А... значит, кто-то наконец... пришел забрать приз\". Он на "
+"мгновение задумывается, а затем протягивает вам чертежи корабля, похожего на "
+"корабль ланиусов!\n"
 "\t\t\t\n"
-"\t\t\t\"Кто-то искал нас... давным-давно с... простой просьбой... если кто-то захочет... представить ланиуса такого типа... то мы должны дать ему эти чертежи. Не спрашивайте... кто это был, так как я тоже не знаю, кто это был. Наслаждайтесь своим... призом, Ренегат\"."
+"\t\t\t\"Кто-то искал нас... давным-давно с... простой просьбой... если кто-"
+"то.... представит ланиуса такого типа... то мы должны дать им эти чертежи. "
+"Не спрашивайте... кто это был, так как я тоже не знаю, кто это был. "
+"Наслаждайтесь своим... призом, Ренегат\"."
 
 #: src-en/data/events_special_multiverse.xml.append:753
 msgid ""
