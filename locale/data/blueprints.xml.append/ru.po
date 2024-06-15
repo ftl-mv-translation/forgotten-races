@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-15 13:12+0000\n"
-"Last-Translator: Aleev <aleev1414@gmail.com>\n"
+"PO-Revision-Date: 2024-06-15 15:13+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datablueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -1182,7 +1182,7 @@ msgstr "Haunt Guardian"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/powerList/power[1]"
 msgstr ""
-"Периодически наносит 5 ионных повреждений системе, в которой находится, и "
+"Периодически наносит 5 ионного урона системе, в которой находится, и "
 "оглушает всех остальных в отсеке. Кроме того, полностью восстанавливает "
 "системы в отсеке, в которой она находится.\n"
 "\t\tСрабатывает только в отсеках с системами."
@@ -4245,15 +4245,15 @@ msgstr "Расщеп."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_BEAM\"]/desc"
 msgstr ""
-"Этот прототип луча наносит ужасающее количество повреждений корпусу и "
-"системам, а также оставляет после себя коррозийный эффект на системах, но "
-"щиты полностью сводят на нет его возможности."
+"Этот прототип луча наносит ужасающее количество урона корпусу и системам, а "
+"также оставляет после себя коррозийный эффект на системах, но щиты полностью "
+"сводят на нет его возможности."
 
 #: src-en/data/blueprints.xml.append:2601
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_BEAM\"]/tooltip"
 msgstr ""
-"5 повреждений корпусу и 7 повреждений системе за попадание по отсеку, не "
+"5 урону по корпусу и 7 урона по системе за каждый пораженный отсек, не "
 "пробивает щиты."
 
 #: src-en/data/blueprints.xml.append:2694
@@ -5549,7 +5549,7 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_NECROMANTIC_LASER\"]/desc"
 msgstr ""
 "Странный лазер, созданный Ж, пропитанный таинственной силой некромантии. Он "
-"выпускает серию мощных снарядов, каждый из которых наносит сильный "
+"выпускает залп мощных снарядов, каждый из которых наносит сильный "
 "коррозионный эффект и пробивает корпус."
 
 #: src-en/data/blueprints.xml.append:6152
@@ -6745,7 +6745,7 @@ msgstr "'Uitzilcapac'"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_B\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 30] Выпускает серию из 4 мин, которые наносят "
+"[Базовая перезарядка: 30] Выпускает залп из 4 мин, которые наносят "
 "незначительный урон, но замедляют время в пораженных отсеках. Мины также "
 "накладывают эффект \"Богохульство\"."
 
@@ -6753,8 +6753,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_B\"]/tooltip"
 msgstr ""
-"Артиллерия: Выпускает серию из 4 мин, которые наносят только 1 урон корпусу,"
-" но замедляют пораженные отсеки на 5 секунд. Вызывает богохульство."
+"Артиллерия: Выпускает залп из 4 мин, которые наносят только 1 урон корпусу, "
+"но замедляют пораженные отсеки на 5 секунд. Вызывает богохульство."
 
 #: src-en/data/blueprints.xml.append:8876
 msgid ""
@@ -6770,7 +6770,7 @@ msgstr "\"Абхолос\""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_C\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 30] Выпускает серию из 5 мин, которые не наносят урона "
+"[Базовая перезарядка: 30] Выпускает залп из 5 мин, которые не наносят урона "
 "корпусу и экипажу, но вызывают у врагов абсолютное безумие и накладывает "
 "эффект \"Богохульство\"."
 
@@ -6896,15 +6896,15 @@ msgstr "А. зол. оск. арт."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER_B\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 30] Стреляет очередью из 8 медленно движущихся "
+"[Базовая перезарядка: 30] Стреляет залпом из 8 медленно движущихся "
 "золотистых осколочных снарядов. Всегда делает пробоины."
 
 #: src-en/data/blueprints.xml.append:9332
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER_B\"]/tooltip"
 msgstr ""
-"Артиллерия: Стреляет очередью из 8 медленно движущихся золотистых осколочных"
-" снарядов. Всегда делает пробоины."
+"Артиллерия: Стреляет залпом из 8 медленно движущихся золотистых осколочных "
+"снарядов. Всегда делает пробоины."
 
 #: src-en/data/blueprints.xml.append:9376
 msgid ""
@@ -6953,10 +6953,9 @@ msgstr ""
 "средний шанс на вспомогательные эффекты."
 
 #: src-en/data/blueprints.xml.append:9454
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_B\"]/title"
-msgstr "Артиллерия дронов Содружества"
+msgstr "Дроновая артиллерия Содружества"
 
 #: src-en/data/blueprints.xml.append:9455
 msgid ""
@@ -7028,10 +7027,9 @@ msgstr ""
 "50% шанс вызвать пожар. Никогда не промахивается."
 
 #: src-en/data/blueprints.xml.append:9568
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TESTER_B\"]/title"
-msgstr "Артиллерия дронов Аркадии"
+msgstr "Дроновая артиллерия Аркадии"
 
 #: src-en/data/blueprints.xml.append:9569
 msgid ""
@@ -7039,12 +7037,11 @@ msgid ""
 msgstr "Арт. дронов Аркадии"
 
 #: src-en/data/blueprints.xml.append:9570
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TESTER_B\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 50] Вместо того чтобы стрелять из оружия, он призывает"
-" 4 случайных дрона Аркадии. Выброс длится 10 секунд."
+"[Базовая перезарядка: 50] Вместо того чтобы стрелять из орудия, эта "
+"артиллерия разворачивает 4 случайных многоцелевых дронов Аркадии."
 
 #: src-en/data/blueprints.xml.append:9571
 msgid ""
@@ -7054,24 +7051,21 @@ msgstr ""
 "течение 10 секунд."
 
 #: src-en/data/blueprints.xml.append:9602
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_CLEO_ENEMY\"]/title"
-msgstr "Артиллерия поддержки Клео"
+msgstr "Абордажная дроновая артиллерия Клео"
 
 #: src-en/data/blueprints.xml.append:9603
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_CLEO_ENEMY\"]/short"
-msgstr "Арт. подд. Клео"
+msgstr "А. др. арт. Клео"
 
 #: src-en/data/blueprints.xml.append:9604
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_CLEO_ENEMY\"]/desc"
 msgstr ""
-"Артиллерия, стреляющая 3 боеголовками, которые при попадании превращаются в "
-"недолговечную неуправляемую команду. Не может промахнуться."
+"Выпускает 3 боеприпаса, каждый из которых при контакте превращается в "
+"абордажный дрон. Не может промахнуться."
 
 #: src-en/data/blueprints.xml.append:9605
 msgid ""
@@ -7081,25 +7075,22 @@ msgstr ""
 "промахнуться."
 
 #: src-en/data/blueprints.xml.append:9670
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_CLEO\"]/title"
-msgstr "Артиллерия поддержки Клео"
+msgstr "Абордажная дроновая артиллерия Клео"
 
 #: src-en/data/blueprints.xml.append:9671
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_CLEO\"]/short"
-msgstr "Арт. подд. Клео"
+msgstr "А. др. арт. Клео"
 
 #: src-en/data/blueprints.xml.append:9672
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_CLEO\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 40] Стреляет 3 боеголовками, которые при попадании "
-"превращаются в недолговечную неуправляемую команду. Каждый наносит 1 урон "
-"системе и 15 урон экипажу."
+"[Базовая перезарядка: 40] Выпускает 3 капсулы дронов, каждая из которых при "
+"столкновении превращается в мощный абордажный дрон. Каждая капсула также "
+"наносит урон системе и экипажу."
 
 #: src-en/data/blueprints.xml.append:9673
 msgid ""
@@ -7119,12 +7110,11 @@ msgid ""
 msgstr "Перегр. арт. подд. Клео"
 
 #: src-en/data/blueprints.xml.append:9741
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_CLEO_B\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 50] Выпускает 1 боеголовку, которая при попадании "
-"превращается в сильно усиленный экипаж. Не может промахнуться."
+"[Базовая перезарядка: 50] Выпускает одну капсулу с дроном, которая при "
+"попадании выпускает мощный боевой дрон. Не может промахнуться."
 
 #: src-en/data/blueprints.xml.append:9742
 msgid ""
@@ -7136,7 +7126,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:9798
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_CLEO_B_ENEMY\"]/title"
-msgstr "Сверхзаряженная беспилотная артиллерия Клео"
+msgstr "Сверхзаряженная дроновая артиллерия Клео"
 
 #: src-en/data/blueprints.xml.append:9799
 msgid ""
@@ -7144,12 +7134,11 @@ msgid ""
 msgstr "Перегр. арт. подд. Клео"
 
 #: src-en/data/blueprints.xml.append:9800
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_CLEO_B_ENEMY\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 50] Выпускает 1 боеголовку, которая при попадании "
-"превращается в сильно усиленный экипаж. Не может промахнуться."
+"[Базовая перезарядка: 50] Выпускает одну капсулу с дроном, которая при "
+"попадании выпускает мощный боевой дрон. Не может промахнуться."
 
 #: src-en/data/blueprints.xml.append:9801
 msgid ""
@@ -7159,10 +7148,9 @@ msgstr ""
 "усиленный экипаж. Не может промахнуться."
 
 #: src-en/data/blueprints.xml.append:9858
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_CLEO_C\"]/title"
-msgstr "Артиллерия случайной поддержки Клео"
+msgstr "Случайная артиллерия аборджаных дронов Клео"
 
 #: src-en/data/blueprints.xml.append:9859
 msgid ""
@@ -7170,13 +7158,12 @@ msgid ""
 msgstr "Арт. случ. подд. Клео"
 
 #: src-en/data/blueprints.xml.append:9860
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_CLEO_C\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 50] Выстреливает 3 боеголовки, которые превращаются в "
-"случайный боевой абордажный дрон, действующий ограниченное время после "
-"попадания. 10% точность."
+"[Базовая перезарядка: 50] Выпускает 3 капсулы с дронами, каждая из которых "
+"при попадании создает случайный временный абордажный дрон. Имеет повышенную "
+"точность."
 
 #: src-en/data/blueprints.xml.append:9861
 msgid ""
@@ -7186,7 +7173,6 @@ msgstr ""
 "абордажный дрон, действующий ограниченное время. 10% точность."
 
 #: src-en/data/blueprints.xml.append:9919
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL\"]/title"
 msgstr "Портальная артиллерия Тартара"
@@ -7197,42 +7183,35 @@ msgid ""
 msgstr "Порт. арт. Тартара"
 
 #: src-en/data/blueprints.xml.append:9922
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 40] Открывает 2 разлома между самим Тартаром и "
-"вражеским кораблем, порождая 2 любых обычных призрака, которые живут 20 "
-"секунд."
+"[Базовая перезарядка: 40] Открывает 2 межпространственных разлома между "
+"Тартаром и целью. Каждый разлом создает временный экипаж призраков."
 
 #: src-en/data/blueprints.xml.append:9923
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL\"]/tooltip"
 msgstr ""
-"Бомбовая артиллерия, посылает 2 бомбы, которые наносят только тяжелый "
-"эрозионный урон и вызывают 1 случайного обычного призрака на каждую бомбу. "
-"Они живут 20 секунд."
+"Бомбовая артиллерия, отправляет 2 бомбы, которые наносят только урон эрозией "
+"и призывают по 1 обычному призраку на каждую бомбу. Они живут 20 секунд."
 
 #: src-en/data/blueprints.xml.append:9987
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B\"]/title"
-msgstr "Экто-артиллерия Тартара"
+msgstr "Эктоплазменная артиллерия Тартара"
 
 #: src-en/data/blueprints.xml.append:9988
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B\"]/short"
-msgstr "Экто-арт. Тартара"
+msgstr "Экт. арт. Тарт."
 
 #: src-en/data/blueprints.xml.append:9990
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 40] Открывает 3 разлома, которые вызывают постоянное "
-"наложение несуммируемого эффекта легкой эрозии на систему."
+"[Базовая перезарядка: 40] Открывает 3 межпространственных разлома, которые "
+"накладывают постоянный, не суммирующийся эффект эрозии на целевую систему."
 
 #: src-en/data/blueprints.xml.append:9991
 msgid ""
@@ -7242,24 +7221,21 @@ msgstr ""
 "который длится вечно, но не складывается."
 
 #: src-en/data/blueprints.xml.append:10032
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B_ENEMY\"]/title"
-msgstr "Экто-артиллерия Тартара"
+msgstr "Эктоплазменная артиллерия Тартара"
 
 #: src-en/data/blueprints.xml.append:10033
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B_ENEMY\"]/short"
-msgstr "Экто-арт. Тартара"
+msgstr "Экт. арт. Тарт."
 
 #: src-en/data/blueprints.xml.append:10035
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B_ENEMY\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 40] Открывает 3 разлома, которые вызывают постоянное "
-"наложение несуммируемого эффекта легкой эрозии на систему."
+"[Базовая перезарядка: 40] Открывает 3 межпространственных разлома, которые "
+"накладывают постоянный, не суммирующийся эффект эрозии на целевую систему."
 
 #: src-en/data/blueprints.xml.append:10036
 msgid ""
@@ -7269,7 +7245,6 @@ msgstr ""
 "который длится вечно, но не складывается."
 
 #: src-en/data/blueprints.xml.append:10077
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/title"
 msgstr "Артиллерия привидений Тартара"
@@ -7280,13 +7255,12 @@ msgid ""
 msgstr "Арт. прив. Тартара"
 
 #: src-en/data/blueprints.xml.append:10080
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 40] Открывает разлом из Тартара, порождая любую "
-"обычную команду призраков, которые живут 10 секунд и имеют сокращенную "
-"скорость перезарядки способностей."
+"[Базовая перезарядка: 40] Открывает один мощный межпространственный разлом "
+"из Тартара, порождая любого из семи обычных приведений в качестве временного "
+"союзника. У призванных приведений уменьшенное время действия способностей."
 
 #: src-en/data/blueprints.xml.append:10081
 msgid ""
@@ -7307,13 +7281,12 @@ msgid ""
 msgstr "\"Иалдагорт\""
 
 #: src-en/data/blueprints.xml.append:10143
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_WATCHER\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 25] Выпускает серию из 4 мин, которые наносят врагам "
-"неограниченный урон, суммирующийся со временем, и наносят 1 противокорпусный"
-" урон."
+"[Базовая перезарядка: 25] Выпускает залп из 4 мин, каждая из которых "
+"накладывает постоянный, бесконечно суммируемый эффект яда, наносящий 3 ОЗ/с "
+"урона, а также 1 обычный урон и 2 по отсекам без систем."
 
 #: src-en/data/blueprints.xml.append:10144
 msgid ""
@@ -7333,26 +7306,23 @@ msgid ""
 msgstr "\"Алетейя\""
 
 #: src-en/data/blueprints.xml.append:10206
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_WATCHER_B\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 25] Выпускает серию из 5 мин, которые не наносят "
-"урона, но при попадании порождают неконтролируемую сирену, которая живет 10 "
-"секунд."
+"[Базовая перезарядка: 25] Выпускает залп из 5 мин, которые не наносят урона, "
+"но при попадании порождают неконтролируемую временную сирену."
 
 #: src-en/data/blueprints.xml.append:10207
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_WATCHER_B\"]/tooltip"
 msgstr ""
-"Выпускает серию из 5 мин, которые не наносят урона, но при попадании "
+"Выпускает залп из 5 мин, которые не наносят урона, но при попадании "
 "порождают неконтролируемую сирену, которая живет 10 секунд."
 
 #: src-en/data/blueprints.xml.append:10271
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_BEAM\"]/title"
-msgstr "Призрачно-лучевая артиллерия"
+msgstr "Лучевая артиллерия призраков"
 
 #: src-en/data/blueprints.xml.append:10272
 msgid ""
@@ -7360,13 +7330,11 @@ msgid ""
 msgstr "Призр. луч. арт."
 
 #: src-en/data/blueprints.xml.append:10273
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_BEAM\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 45] Выпускает луч, который проникает сквозь все щиты, "
-"наносит 1 урон и накладывает среднюю эрозию. Средний шанс вспомогательного "
-"эффекта."
+"[Базовая перезарядка: 45] Выпускает луч, который пробивает все щиты, наносит "
+"1 урон и накладывает эффект эрозии."
 
 #: src-en/data/blueprints.xml.append:10274
 msgid ""
@@ -7376,10 +7344,9 @@ msgstr ""
 "шанс вспомогательного эффекта."
 
 #: src-en/data/blueprints.xml.append:10312
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_LASER\"]/title"
-msgstr "Призрачно-лазерная артиллерия"
+msgstr "Лазерная артиллерия призраков"
 
 #: src-en/data/blueprints.xml.append:10313
 msgid ""
@@ -7387,13 +7354,11 @@ msgid ""
 msgstr "Призр. лаз. арт."
 
 #: src-en/data/blueprints.xml.append:10314
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_LASER\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 43] Выпускает 3 лазера, которые наносят 3 урона "
-"корпусу, но не наносят урона системам, накладывают сильный эффект эрозии. "
-"Высокий шанс вспомогательного эффекта."
+"[Базовая перезарядка: 43] Выпускает залп из 3 лазерных зарядов, которые "
+"наносят по 3 повреждения корпусу и применяют сильный эффект эрозии."
 
 #: src-en/data/blueprints.xml.append:10315
 msgid ""
@@ -7404,10 +7369,9 @@ msgstr ""
 "вспомогательного эффекта."
 
 #: src-en/data/blueprints.xml.append:10362
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_PHASE\"]/title"
-msgstr "Призрачно-фазерная артиллерия"
+msgstr "Фазерная артиллерия приведений"
 
 #: src-en/data/blueprints.xml.append:10363
 msgid ""
@@ -7418,8 +7382,8 @@ msgstr "Призр. фаз. арт."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_PHASE\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 40] Стреляет очередью из 4 ионных зарядов, наносящих "
-"по 1 ионному урону, проникает сквозь все щиты. Накладывает слабый эффект "
+"[Базовая перезарядка: 40] Стреляет залпом из 4 ионных зарядов, наносящих по "
+"1 ионному урону, проникает сквозь все щиты. Накладывает слабый эффект "
 "эрозии. Низкий шанс вспомогательного эффекта."
 
 #: src-en/data/blueprints.xml.append:10365
@@ -7430,10 +7394,9 @@ msgstr ""
 "низкий шанс вспомогательного эффекта."
 
 #: src-en/data/blueprints.xml.append:10414
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_B_BEAM\"]/title"
-msgstr "Хаотичная призрачно-лучевая артиллерия"
+msgstr "Хаотичная лучевая артиллерия приведений"
 
 #: src-en/data/blueprints.xml.append:10415
 msgid ""
@@ -7441,13 +7404,12 @@ msgid ""
 msgstr "Хаот. призр. луч. арт."
 
 #: src-en/data/blueprints.xml.append:10416
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_B_BEAM\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 45] Выпускает луч, наносящий 2 урона корпусу и 4 урона"
-" системе. Враги, попавшие в цель, будут навсегда лишены возможности "
-"использовать свои способности."
+"[Базовая перезарядка: 45] Выпускает луч, наносящий 2 повреждения корпусу и 4 "
+"повреждения системам за каждый задетый отсек. Враги, пораженные лучом, будут "
+"навсегда охвачены безумием."
 
 #: src-en/data/blueprints.xml.append:10417
 msgid ""
@@ -7457,10 +7419,9 @@ msgstr ""
 "под огонь, не могут использовать свои способности."
 
 #: src-en/data/blueprints.xml.append:10454
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_B_LASER\"]/title"
-msgstr "Хаотичная призрачно-лазерная артиллерия"
+msgstr "Хаотичная лазерная артиллерия призраков"
 
 #: src-en/data/blueprints.xml.append:10455
 msgid ""
@@ -7468,13 +7429,12 @@ msgid ""
 msgstr "Хаот. призр. лаз. арт."
 
 #: src-en/data/blueprints.xml.append:10456
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_B_LASER\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 43] Выпускает 3 лазера, которые наносят 1 урон, "
-"проникает сквозь все щиты, враги, попавшие под обстрел, будут навсегда "
-"лишены возможности использовать свои способности."
+"[Базовая перезарядка: 43] Выпускает 3 лазера, которые наносят по 1 урону и "
+"пробивают все щиты. Враги, пораженные лазерами, будут навсегда охвачены "
+"безумием."
 
 #: src-en/data/blueprints.xml.append:10457
 msgid ""
@@ -7484,10 +7444,9 @@ msgstr ""
 "щиты, враги, попавшие под обстрел, не смогут использовать свои способности."
 
 #: src-en/data/blueprints.xml.append:10500
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_B_PHASE\"]/title"
-msgstr "Хаотическое призрачно-фазерная артиллерия"
+msgstr "Хаотическая фазерная артиллерия приведений"
 
 #: src-en/data/blueprints.xml.append:10501
 msgid ""
@@ -7495,13 +7454,12 @@ msgid ""
 msgstr "Хаот. призр. фаз. арт."
 
 #: src-en/data/blueprints.xml.append:10502
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_HAUNT_FLAGSHIP_B_PHASE\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 40] Выпускает одиночный ионный выстрел, наносящий 3 "
-"ионных урона, проникает сквозь все щиты. Враги, попавшие под снаряд, будут "
-"навсегда лишены возможности использовать свои способности."
+"[Базовая перезарядка: 40] Выпускает один ионный выстрел, наносящий 3 ионных "
+"урона и пробивающий все щиты. Враги, пораженные выстрелом, будут навсегда "
+"охвачены безумием."
 
 #: src-en/data/blueprints.xml.append:10503
 msgid ""
@@ -7511,10 +7469,9 @@ msgstr ""
 "удар, не могут использовать свои способности."
 
 #: src-en/data/blueprints.xml.append:10549
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_LASER\"]/title"
-msgstr "Лазерная артиллерия Легиона"
+msgstr "Лазерная артиллерия Легионеров"
 
 #: src-en/data/blueprints.xml.append:10550
 msgid ""
@@ -7522,27 +7479,25 @@ msgid ""
 msgstr "Лаз.арт. Лег."
 
 #: src-en/data/blueprints.xml.append:10551
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_LASER\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 45] Выпускает 4 лазера, которые при попадании оглушают"
-" экипаж на 20 секунд, нанося 1 урон корпусу и 2 урона системам со 100% "
-"точностью. Имеет небольшой шанс вспомогательного эффекта."
+"[Базовая перезарядка: 45] Выпускает 4 лазера, которые при попадании оглушают "
+"экипаж на 20 секунд, могут создавать опасность, наносят 1 урон корпусу и 2 "
+"урона системам и не могут промахнуться."
 
 #: src-en/data/blueprints.xml.append:10552
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_LASER\"]/tooltip"
 msgstr ""
 "Выпускает 4 лазера в сторону противника, каждый из которых наносит 1 урон "
 "корпусу и 2 урона системам со 100% точностью и 100% шансом оглушения в "
-"течение 20 секунд. Небольшой шанс вспомогательных эффектов."
+"течение 20 секунд."
 
 #: src-en/data/blueprints.xml.append:10588
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_LASER_ENEMY\"]/title"
-msgstr ""
+msgstr "Лазерная артиллерия Легионеров"
 
 #: src-en/data/blueprints.xml.append:10589
 msgid ""
@@ -7553,17 +7508,22 @@ msgstr "Лаз.арт. Лег."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_LASER_ENEMY\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 45] Выпускает 4 лазера, которые при попадании оглушают "
+"экипаж на 20 секунд, могут создавать опасность, наносят 1 урон корпусу и 2 "
+"урона системам и не могут промахнуться."
 
 #: src-en/data/blueprints.xml.append:10591
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_LASER_ENEMY\"]/tooltip"
 msgstr ""
+"Выпускает 4 лазера в сторону противника, каждый из которых наносит 1 урон "
+"корпусу и 2 урона системам со 100% точностью и 100% шансом оглушения в "
+"течение 20 секунд."
 
 #: src-en/data/blueprints.xml.append:10627
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_MISSILE\"]/title"
-msgstr "Ракетная артиллерия Легиона"
+msgstr "Ракетная артиллерия Легионеров"
 
 #: src-en/data/blueprints.xml.append:10628
 msgid ""
@@ -7571,27 +7531,24 @@ msgid ""
 msgstr "Ракет. арт. Лег."
 
 #: src-en/data/blueprints.xml.append:10629
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_MISSILE\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 55] Выпускает 3 ракеты, которые не наносят урона "
-"корпусу, но наносят 4 урона системам и 150 урона экипажу. Невидим для ЗД. "
-"Всегда оставляет пробоины. Ослабляет экипаж при попадании."
+"[Базовая перезарядка: 55] Выпускает 3 ракеты, каждая из которых наносит 4 "
+"урона по системам и 150 урона по экипажу. Ракеты всегда создают пробоину и "
+"повреждают экипаж при попадании."
 
 #: src-en/data/blueprints.xml.append:10630
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_MISSILE\"]/tooltip"
 msgstr ""
-"Выпускает 3 ракеты; 4 урона системам за каждую, без урона по корпусу и 150 "
-"урона экипажу; проникает сквозь все щиты. Не может быть атакован защитными "
-"дронами. Всегда оставляет пробоины. Ослабляет экипаж при попадании"
+"Выпускает 3 ракеты; 4 урона системам и 150 урона по экипажу; пробивает все "
+"щиты. Ракеты не могут быть сбиты защитными дронами. Всегда создает пробоину."
 
 #: src-en/data/blueprints.xml.append:10696
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_MISSILE_ENEMY\"]/title"
-msgstr ""
+msgstr "Ракетная артиллерия Легионеров"
 
 #: src-en/data/blueprints.xml.append:10697
 msgid ""
@@ -7602,17 +7559,21 @@ msgstr "Ракет. арт. Лег."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_MISSILE_ENEMY\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 55] Выпускает 3 ракеты, каждая из которых наносит 4 "
+"урона по системам и 150 урона по экипажу. Ракеты всегда создают пробоину и "
+"повреждают экипаж при попадании."
 
 #: src-en/data/blueprints.xml.append:10699
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_MISSILE_ENEMY\"]/tooltip"
 msgstr ""
+"Выпускает 3 ракеты; 4 урона системам и 150 урона по экипажу; пробивает все "
+"щиты. Ракеты не могут быть сбиты защитными дронами. Всегда создает пробоину."
 
 #: src-en/data/blueprints.xml.append:10766
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_BEAM\"]/title"
-msgstr "Лучевая артиллерия Легиона"
+msgstr "Лучевая артиллерия Легионеров"
 
 #: src-en/data/blueprints.xml.append:10767
 msgid ""
@@ -7620,13 +7581,12 @@ msgid ""
 msgstr "Луч. арт. Лег."
 
 #: src-en/data/blueprints.xml.append:10768
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_BEAM\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 50] Выпускает медленный луч, который наносит 3 урона, "
-"но имеет -1 проникновение щита, также противокорпусный. Имеет высокий шанс "
-"вспомогательных эффектов."
+"[Базовая перезарядка: 50] Выпускает медленный луч, наносящий 3 урона при "
+"попадании в корпус, но пробивающий 1 слой щита. Имеет высокий шанс наложения "
+"статусных эффектов."
 
 #: src-en/data/blueprints.xml.append:10769
 msgid ""
@@ -7638,7 +7598,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:10792
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_BEAM_ENEMY\"]/title"
-msgstr ""
+msgstr "Лучевая артиллерия Легионеров"
 
 #: src-en/data/blueprints.xml.append:10793
 msgid ""
@@ -7649,6 +7609,9 @@ msgstr "Луч. арт. Лег."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_BEAM_ENEMY\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 50] Выпускает медленный луч, наносящий 3 урона при "
+"попадании в корпус, но пробивающий 1 слой щита. Имеет высокий шанс наложения "
+"статусных эффектов."
 
 #: src-en/data/blueprints.xml.append:10795
 msgid ""
@@ -7658,10 +7621,9 @@ msgstr ""
 "вспомогательных эффектов, также противокорпусный."
 
 #: src-en/data/blueprints.xml.append:10817
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_ION\"]/title"
-msgstr "Плазменная артиллерия Легиона"
+msgstr "Плазменная артиллерия Легионеров"
 
 #: src-en/data/blueprints.xml.append:10818
 msgid ""
@@ -7669,12 +7631,12 @@ msgid ""
 msgstr "Плазм. арт. Лег."
 
 #: src-en/data/blueprints.xml.append:10819
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_ION\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 35] Выпускает 3 плазменных выстрела, наносящих 1 "
-"ионный урон и урон системам, всегда поджигает и имеет 1 проникновение щита."
+"[Базовая перезарядка: 35] Выпускает 3 плазменных выстрела, которые наносят "
+"по 1 ионному и системному урону, всегда вызывают пожар и пробивают 1 слой "
+"щита."
 
 #: src-en/data/blueprints.xml.append:10820
 msgid ""
@@ -7686,7 +7648,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:10854
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_ION_ENEMY\"]/title"
-msgstr ""
+msgstr "Плазменная артиллерия Легионеров"
 
 #: src-en/data/blueprints.xml.append:10855
 msgid ""
@@ -7697,6 +7659,9 @@ msgstr "Плазм. арт. Лег."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_ION_ENEMY\"]/desc"
 msgstr ""
+"[Базовая перезарядка: 35] Выпускает 3 плазменных выстрела, которые наносят "
+"по 1 ионному и системному урону, всегда вызывают пожар и пробивают 1 слой "
+"щита."
 
 #: src-en/data/blueprints.xml.append:10857
 msgid ""
@@ -7716,13 +7681,12 @@ msgid ""
 msgstr "Бомб. арт. ЭЭРЕ"
 
 #: src-en/data/blueprints.xml.append:10895
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_RUES_FLAGSHIP_MANTIS\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 40] Мощный кассетный бомбовый залп, выпускающий 6 "
-"мощных бомб, которые наносят 2 урона системам, 30 экипажу и имеют 30% шанс "
-"вызвать пожар."
+"[Базовая перезарядка: 40] Мощный залп кассетных бомб. Выпускает 6 бомб; "
+"каждая наносит 2 урона системам и 30 - экипажу, а также имеет приличный шанс "
+"разжечь пожар."
 
 #: src-en/data/blueprints.xml.append:10896
 msgid ""
@@ -7742,13 +7706,12 @@ msgid ""
 msgstr "Луч. арт. ЭЭРЕ"
 
 #: src-en/data/blueprints.xml.append:10927
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_RUES_FLAGSHIP_SLUG\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 50] Выпускает быстрый длинный луч, наносящий 105 урона"
-" экипажу и проникает сквозь все щиты, но не наносящий урона корпусу или "
-"системам. Имеет высокий шанс пробоины и эффект ослабления для экипажа."
+"[Базовая перезарядка: 50] Выпускает длинный, быстро движущийся рад-луч, "
+"наносящий 105 единиц урона экипажу и пробивающий все щиты. Имеет высокий "
+"шанс на создание пробоины."
 
 #: src-en/data/blueprints.xml.append:10928
 msgid ""
@@ -7769,13 +7732,11 @@ msgid ""
 msgstr "Оск. арт. ЭЭРЕ"
 
 #: src-en/data/blueprints.xml.append:10991
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_RUES_FLAGSHIP_LEECH\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 55] Осколочная пушка, очень неточная, но стреляющая 20"
-" снарядами, каждый из которых наносит 2 урона, но имеет на 50% меньшую "
-"точность, может вызвать пожар."
+"[Базовая перезарядка: 55] Осколочное орудие. Оно выпускает не менее 20 "
+"снарядов, каждый из которых наносит 2 урона, но артиллерия ужасно неточна."
 
 #: src-en/data/blueprints.xml.append:10992
 msgid ""
@@ -7795,12 +7756,11 @@ msgid ""
 msgstr "Рак. арт. ЭЭРЕ"
 
 #: src-en/data/blueprints.xml.append:11037
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_RUES_FLAGSHIP_ROCK\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 60] Выпускает 3 ракеты, которые наносят 4 урона "
-"корпусу, но не наносят урона системам и экипажу. Всегда делает пробоины."
+"[Базовая перезарядка: 60] Выпускает залп из 3 ракет, каждая из которых "
+"наносит 4 урона корпусу и всегда создает пробоину."
 
 #: src-en/data/blueprints.xml.append:11038
 msgid ""
@@ -7820,20 +7780,20 @@ msgid ""
 msgstr "Вихр. рад. лаз. арт."
 
 #: src-en/data/blueprints.xml.append:11076
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VORTEX\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 48] Производит 4 выстрела, наносит урон системам и "
-"экипажу, попавший под огонь экипаж не может быть клонирован, телепортирован "
-"или исцелен."
+"[Базовая перезарядка: 48] Выпускает залп из 4 лазеров. Каждый лазер "
+"пробивает все щиты, наносит огромный урон системе и экипажу, а также "
+"вызывает у экипажа радиационное отравление, блокирующее исцеление, "
+"клонирование и телепортацию."
 
 #: src-en/data/blueprints.xml.append:11077
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VORTEX\"]/tooltip"
 msgstr ""
 "4 залпа лазерного оружия, 4 системных повреждения, 45 повреждений экипажа с "
-"полным пробитием щитов, умеренным пробитием, но без повреждений корпуса. "
+"полным пробитием щитов, умеренным пробитием, но без урона по корпусу. "
 "Экипаж, пораженный лазером, не может быть клонирован или телепортирован."
 
 #: src-en/data/blueprints.xml.append:11141
@@ -7847,7 +7807,6 @@ msgid ""
 msgstr "Вихр. арт. гол."
 
 #: src-en/data/blueprints.xml.append:11144
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VORTEX_HOLOGRAM\"]/desc"
 msgstr ""
@@ -7874,13 +7833,12 @@ msgid ""
 msgstr "Вихр. луч. арт."
 
 #: src-en/data/blueprints.xml.append:11200
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VORTEX_HEAL\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 40] Странный луч, проникает сквозь все щиты и наносит "
-"5 ионного урона, но при этом исцеляет экипаж на 3 ОЗ/с и ремонтирует корпус "
-"на 2 при попадании."
+"[Базовая перезарядка: 40] Странный луч, пробивающий все щиты и наносящий 5 "
+"ионного урона, но при этом ремонтирующий 2 единицы прочности корпуса за "
+"пораженный отсек и исцеляющий пораженный экипаж со скоростью 3 ОЗ/с."
 
 #: src-en/data/blueprints.xml.append:11201
 msgid ""
@@ -7900,19 +7858,18 @@ msgid ""
 msgstr "\"Ктулху\""
 
 #: src-en/data/blueprints.xml.append:11246
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VISION\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 23] Залп из 5 мин накладывает на врагов экстремальное "
-"безумие, которое замораживает их на месте и лишает способности действовать в"
-" течение 10 секунд. Не может промахнуться."
+"[Базовая перезарядка: 23] Выпускает залп из 5 мин, каждая из которых "
+"накладывает на цель абсолютное безумие, лишая пораженный экипаж всех сил и "
+"способностей."
 
 #: src-en/data/blueprints.xml.append:11247
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VISION\"]/tooltip"
 msgstr ""
-"Выпускает очередь из 5 мин, которые накладывают на врагов экстремальное "
+"Выпускает залп из 5 мин, которые накладывают на врагов экстремальное "
 "безумие, замораживая их на месте и лишая возможности действовать в течение "
 "10 секунд. Невозможно промахнуться."
 
@@ -7927,13 +7884,12 @@ msgid ""
 msgstr "€ Арт. Арбитр"
 
 #: src-en/data/blueprints.xml.append:11376
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PRIME_PINK\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 25] Выпускает высокоразрушительный точечный луч, "
-"который начинается с 1 урона, но с каждым залпом урон может возрастать до "
-"бесконечности."
+"[Базовая перезарядка: 25] Выпускает разрушительный точечный луч. Его урон "
+"начинается с 1 единицы и увеличивается на 1 единицу при каждом выстреле без "
+"верхней границы."
 
 #: src-en/data/blueprints.xml.append:11377
 msgid ""
@@ -7943,10 +7899,9 @@ msgstr ""
 "который увеличивает урон на 1 с каждой цепочкой без какого-либо предела."
 
 #: src-en/data/blueprints.xml.append:11410
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JUDGES\"]/title"
-msgstr "Артиллерийская установка Наблюдателей \"Арбитр\""
+msgstr "Артиллерийская установка \"Арбитр\" Наблюдателя"
 
 #: src-en/data/blueprints.xml.append:11411
 msgid ""
@@ -7954,13 +7909,12 @@ msgid ""
 msgstr "O's Arbiter Art."
 
 #: src-en/data/blueprints.xml.append:11412
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JUDGES\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 60/Финальная перезарядка: 3] Этой артиллерии требуется"
-" много времени для выстрела, но после этого она будет стрелять очень быстро."
-" Наносит 1 урон и проникает сквозь все щиты."
+"[Базовая перезарядка: 60/Финальная перезарядка: 3] Эта точечная артиллерия "
+"долго заряжается, но каждый следующий выстрел происходит быстрее. Наносит 1 "
+"урон, пробивает все щиты."
 
 #: src-en/data/blueprints.xml.append:11413
 msgid ""
@@ -7980,13 +7934,12 @@ msgid ""
 msgstr "Fed Beam Art."
 
 #: src-en/data/blueprints.xml.append:11448
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ZOLTAN\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 55] Длинный луч, наносящий 2 урона, проникает сквозь 2"
-" щита и 20% шанс пожара. Цепь повышает 0.5 урона за каждый залп, максимум до"
-" 4 урона."
+"[Базовая перезарядка: 55] Длиннолучевая артиллерия, наносящая 2 урона, "
+"пробивающая 2 слоя щита и увеличивающий на 0.5 урон при каждом выстреле до 8 "
+"раз."
 
 #: src-en/data/blueprints.xml.append:11449
 msgid ""
@@ -8006,13 +7959,11 @@ msgid ""
 msgstr "Fed Kernel Art."
 
 #: src-en/data/blueprints.xml.append:11482
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ORCHID\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 55] Зерномет стреляет 3 зарядами, наносит 1 урон за "
-"выстрел, пробивает все щиты и имеет 30% шанс создать пробоину. Цепь "
-"увеличивает урон на 0.25 за каждый выстрел до 2 урона."
+"[Базовая перезарядка: 55] Зерномет наносящий 1 урон за выстрел и "
+"увеличивающий на 0.25 урон за каждый выстрел до 4 раз."
 
 #: src-en/data/blueprints.xml.append:11483
 msgid ""
@@ -8047,7 +7998,6 @@ msgstr ""
 "пробивают 1 щит каждый. Каждый выстрел наносит 0.5 урона, максимум 5 урона."
 
 #: src-en/data/blueprints.xml.append:11564
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ENGI\"]/title"
 msgstr "Тяжелая фазовая артиллерия Федерации"
@@ -8058,13 +8008,12 @@ msgid ""
 msgstr "Fed Phase Art."
 
 #: src-en/data/blueprints.xml.append:11568
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ENGI\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 45] Фазер, наносит 3 ионных и 2 системных урона, "
-"проникает сквозь все щиты, всегда вызывает пожар. Цепь повышает от 0.5 до 5 "
-"ионного урона."
+"[Базовая перезарядка: 45] Фазерная артиллерия, выпускающая один заряд. Он "
+"наносит 3 ионных и 2 системных урона, пробивает все щиты и увеличивает на "
+"0.5 ионный урон за выстрел до 4 раз."
 
 #: src-en/data/blueprints.xml.append:11569
 msgid ""
@@ -8084,13 +8033,12 @@ msgid ""
 msgstr "Jerry Laser Art."
 
 #: src-en/data/blueprints.xml.append:11617
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_LASER\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 25] 4 лазерных выстрела, 4 урона по системам, экипаж "
-"не из Вентворта не может сражаться, а члены экипажа Вентворта исцеляются на "
-"5 секунд при попадании."
+"[Базовая перезарядка: 25] Выпускает залп из 4 лазерных зарядов. Каждый лазер "
+"наносит 4 урона системе, усиливает экипаж Вентворта и временно лишает "
+"возможности сражаться экипажу, не являющимися членами Вентворта."
 
 #: src-en/data/blueprints.xml.append:11618
 msgid ""
@@ -8110,13 +8058,12 @@ msgid ""
 msgstr "Jerry Missile Art."
 
 #: src-en/data/blueprints.xml.append:11692
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_MISSILE\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 35] 3 ракетных выстрела, 3 урона по системам, экипаж "
-"не из Вентворта не может сражаться, а члены экипажа Вентворта получают "
-"усиление и лечение на 10 секунд при попадании."
+"[Базовая перезарядка: 35] Выпускает залп из 3 ракет. Каждая ракета наносит 3 "
+"системных повреждения, усиливает экипаж Вентворта и временно лишает "
+"возможности сражаться экипажу, не являющимися членами Вентворта."
 
 #: src-en/data/blueprints.xml.append:11693
 msgid ""
@@ -8136,12 +8083,12 @@ msgid ""
 msgstr "Jerry Beam Art."
 
 #: src-en/data/blueprints.xml.append:11802
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_BEAM\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 30] 2 противокорпусных урона лучом, экипаж не из "
-"Вентворта не может сражаться и получает сильное ослабление на 10 секунд."
+"[Базовая перезарядка: 30] Лучевая артиллерия, которая наносит 2 урона "
+"корпусу корабля, наносит урон корпусу и временно отключает способность "
+"сражаться у членов экипажа, не относящихся членами Вентворта."
 
 #: src-en/data/blueprints.xml.append:11803
 msgid ""
@@ -8161,13 +8108,12 @@ msgid ""
 msgstr "Jerry Ant. Art."
 
 #: src-en/data/blueprints.xml.append:11888
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_ANTIMATTER\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 20] 3 ионных выстрела, 1 ионный урон, 1 урон корпусу и"
-" системам, точность 20%, экипаж не из Вентворта не может сражаться, а экипаж"
-" Вентворта исцеляется на 5 секунд при попадании."
+"[Базовая перезарядка: 20] Выпускает залп из 3 ионных выстрелов. Каждый заряд "
+"наносит 1 ионный урон, урон корпусу и системам, исцеляет экипаж Вентворта и "
+"лишает способности сражаться экипажа, не являющихся членами Вентворта."
 
 #: src-en/data/blueprints.xml.append:11889
 msgid ""
@@ -8188,12 +8134,11 @@ msgid ""
 msgstr "Tully Laser Art."
 
 #: src-en/data/blueprints.xml.append:11964
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_LASER\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 30] 4 лазерных выстрела, 2 урона и 60 урона экипажу, "
-"враги Федерации получают двойной урон по экипажу."
+"[Базовая перезарядка: 30] Выпускает шквал из 4 лазеров. Каждый лазер наносит "
+"2 урона, бонусный урон экипажу и удвоенный урон против врагов Федерации."
 
 #: src-en/data/blueprints.xml.append:11965
 msgid ""
@@ -8213,13 +8158,12 @@ msgid ""
 msgstr "Tully Miss. Art."
 
 #: src-en/data/blueprints.xml.append:12041
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_MISSILE\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 40] 3 ракетных выстрела, 2 урона корпусу, 5 урона "
-"системам и 75 урона экипажу, враги Федерации получают двойной урон по "
-"экипажу."
+"[Базовая перезарядка: 40] Выпускает шквал из 3 ракет. Каждая ракета наносит "
+"2 повреждения корпусу, бонусный урон системе и экипажу, а врагам Федерации - "
+"удвоенный урон."
 
 #: src-en/data/blueprints.xml.append:12042
 msgid ""
@@ -8239,12 +8183,12 @@ msgid ""
 msgstr "Tully Beam Art."
 
 #: src-en/data/blueprints.xml.append:12121
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_BEAM\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 35] 1 лучевой урон, 30 урона экипажу, проникает сквозь"
-" все щиты, враги Федерации получают двойной урон по экипажу."
+"[Базовая перезарядка: 35] Выпускает луч, наносящий 1 урон корпусу. Он "
+"пробивает все щиты, наносит бонусный урон экипажу, а врагам Федерации "
+"наносит удвоенный урон экипажу."
 
 #: src-en/data/blueprints.xml.append:12122
 msgid ""
@@ -8264,13 +8208,12 @@ msgid ""
 msgstr "Tully Ener. Art."
 
 #: src-en/data/blueprints.xml.append:12192
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_ENERGY\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 25] 3 энергетических выстрела, 1 урон корпусу и 2 "
-"ионного урона, 30 урона экипажу, враги Федерации получают двойной урон по "
-"экипажу."
+"[Базовая перезарядка: 25] Выпускает залп из 3 энергетических зарядов. Каждый "
+"заряд наносит 1 урон корпусу и 2 ионного урона, а врагам Федерации наносит "
+"удвоенный урон экипажу."
 
 #: src-en/data/blueprints.xml.append:12193
 msgid ""
@@ -8290,12 +8233,11 @@ msgid ""
 msgstr "Valentine"
 
 #: src-en/data/blueprints.xml.append:12276
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_STEALTH\"]/desc"
 msgstr ""
 "[Базовая перезарядка: 30] Высокотехнологичная ракетная артиллерия, которая "
-"воспроизводит собственные боеприпасы и сбивает системы наведения вражеских "
+"копирует собственные боеголовки и сбивает системы прицеливания вражеских "
 "защитных дронов."
 
 #: src-en/data/blueprints.xml.append:12277
@@ -8317,13 +8259,11 @@ msgid ""
 msgstr "'Beset'"
 
 #: src-en/data/blueprints.xml.append:12315
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_STEALTH_MINES\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 35] Артиллерия-миномет, стреляющий 5 минами-"
-"невидимками, которые не могут быть сбиты вражескими дронами. Каждая наносит "
-"1 урон корпусу."
+"[Базовая перезарядка: 35] Выпускает залп из 5 мин, которые наносят 1 урон "
+"корпусу каждая и их нельзя сбить защитными дронами."
 
 #: src-en/data/blueprints.xml.append:12316
 msgid ""
@@ -8615,12 +8555,11 @@ msgid ""
 msgstr "Дрон Её"
 
 #: src-en/data/blueprints.xml.append:13164
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_REAL_COMBAT_HER\"]/desc"
 msgstr ""
 "Лучевой дрон, способный самостоятельно вывести из строя вражеский корабль, "
-"но только если щиты отключены. Накладывает на врагов \"крайнее безумие\", "
+"но только если щиты отключены. Накладывает на врагов абсолютное безумие, "
 "которое заставляет их застыть на месте и лишает способности действовать в "
 "течение 5 секунд."
 
@@ -8723,11 +8662,10 @@ msgid ""
 msgstr "Рыба-нежить"
 
 #: src-en/data/blueprints.xml.append:13525
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FISH_FOOD_FR_TARTARUS\"]/desc"
 msgstr ""
-"Раба-нежить, при употреблении в пищу дает бонус +50% к саботажу и "
+"Раба-нежить. При употреблении в пищу дает бонус +50% к саботажу и "
 "возможность проходить сквозь двери всему дружественному экипажу."
 
 #: src-en/data/blueprints.xml.append:13526
@@ -8741,11 +8679,10 @@ msgid ""
 msgstr "Совершенные щиты"
 
 #: src-en/data/blueprints.xml.append:13575
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_PERFECTED_SHIELD\"]/desc"
 msgstr ""
-"Результат работы всех основных каст обелисков, которое сильнее вместе чем по одиночке. \n"
+"Щиты, созданные в результате командной работы всех каст обелисков.\n"
 "\t\n"
 "\tИмеет целостность 20 единиц и дает +50% сопротивления ионному урону."
 
@@ -8755,13 +8692,14 @@ msgid ""
 msgstr "Совершенная обшивка"
 
 #: src-en/data/blueprints.xml.append:13586
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_PERFECTED_PLATING\"]/desc"
 msgstr ""
-"Результат работы всех основных каст обелисков, которое сильнее вместе чем по одиночке. \n"
+"Обшивка корпуса созданная в результате командной работы всех видов "
+"Возвышенных. Она прочнее, чем все ее компоненты по отдельности.\n"
 "\t\n"
-"\tОбладает эффектом каждого крана и сокращает время действия активных способностей экипажа на 50%."
+"\tОбладает эффектом каждого крана и сокращает время действия активных "
+"способностей экипажа на 50%."
 
 #: src-en/data/blueprints.xml.append:13596
 msgid ""
@@ -8769,13 +8707,15 @@ msgid ""
 msgstr "Совершенные детали"
 
 #: src-en/data/blueprints.xml.append:13597
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_PERFECTED_INTERNALS\"]/desc"
 msgstr ""
-"Результат работы всех типов когнитивов, которые сильнее вместе, чем по одиночке. \n"
+"Внутренние компоненты созданные в результате командной работы всех типов "
+"когнитивов. Они прочнее, чем все ее компоненты по отдельности.\n"
 "\t\n"
-"\tЗаделывает пробоины, тушит пожары, лечит дружественный металлоидный экипаж на 5 ОЗ/с и наносит урон вражескому металлоидному экипажу и абордажным дронам на столько же.\n"
+"\tЗаделывает пробоины, тушит пожары, лечит дружественный металлоидный экипаж "
+"на 5 ОЗ/с и наносит урон вражескому металлоидному экипажу и абордажным "
+"дронам на столько же.\n"
 "\t\n"
 "\tДелает весь экипаж управляемым."
 
@@ -8785,11 +8725,10 @@ msgid ""
 msgstr "Ионические щиты"
 
 #: src-en/data/blueprints.xml.append:13610
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_SHIELD\"]/desc"
 msgstr ""
-"Версия фирменного эфирного щита обелисков Содружества. Имеет целостность 6 "
+"Вариант фирменного эфирного щита обелисков Содружества. Имеет целостность 6 "
 "единиц, но также увеличивает скорость зарядки стандартного щита на 20% и "
 "дает 50% сопротивления ионному урону."
 
@@ -8798,12 +8737,13 @@ msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AETHER_FORGE\"]/titl
 msgstr "Эфирная кузница"
 
 #: src-en/data/blueprints.xml.append:13619
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AETHER_FORGE\"]/desc"
 msgstr ""
-"Этот модуль позволяет создавать технологии Содружества в пустых маяках за счет большого количества ресурсов. \n"
+"Этот модуль позволяет вам потреблять большее количество ресурсов, создавая "
+"технологии Содружества.\n"
 "\t\n"
-"\tКузница также выпускает наномашины, которые прогрызают абордажников, нанося 3 урона в секунду."
+"\tКузница также выпускает наномашины, которые прогрызают абордажников, "
+"наносит 3 ОЗ/с урона всем членам вражеского экипажа на борту."
 
 #: src-en/data/blueprints.xml.append:13629
 msgid ""
@@ -8822,20 +8762,18 @@ msgstr ""
 "снижает количество получаемого лома на 15%."
 
 #: src-en/data/blueprints.xml.append:13640
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_MAINTENANCE_INFRASTRUCTURE\"]/title"
-msgstr "И.О.С."
+msgstr "И.О.С. сеть"
 
 #: src-en/data/blueprints.xml.append:13641
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_MAINTENANCE_INFRASTRUCTURE\"]/desc"
 msgstr ""
-"Инфраструктура обслуживания Содружества - это невероятно развитая сеть "
-"ремонтных и защитных узлов по всему кораблю, которая наносит урон "
-"абордажникам со скоростью 5 ОЗ/с, тушит пожары, чинит пробоины и исцеляет "
-"союзных дронов и металлоидов по всему кораблю на 5 ОЗ/с."
+"Сеть инфраструктуры обслуживания Содружества - это невероятно развитая сеть "
+"узлов, производящих наномашины по всему кораблю. Она автоматически тушит "
+"пожары, ремонтирует пробоины, наносит 5 ОЗ/с урона абордажникам и исцеляет "
+"на 5 ОЗ/с дроны и металлический экипаж."
 
 #: src-en/data/blueprints.xml.append:13649
 msgid ""
@@ -8843,13 +8781,12 @@ msgid ""
 msgstr "Ионизатор Содружества"
 
 #: src-en/data/blueprints.xml.append:13650
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_IONIZER\"]/desc"
 msgstr ""
-"Это чрезвычайно продвинутый модуль удваивает ионный урон, наносимый вашими орудиями и артиллерией.\n"
-"\t\n"
-"\tИонный урон ограничен максимум 9 единицами."
+"Чрезвычайно продвинутая система нагнетания, которая удваивает весь ионный "
+"урон, наносимый вашими орудиями и артиллерией. Этот модуль не может "
+"увеличить ионный урон, наносимый любым оружием, больше 9."
 
 #: src-en/data/blueprints.xml.append:13659
 msgid ""
@@ -8857,15 +8794,12 @@ msgid ""
 msgstr "Труп Содружества"
 
 #: src-en/data/blueprints.xml.append:13660
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTHS_BODY\"]/desc"
 msgstr ""
-"Это старое, сломанное, обветшалое тело принадлежит существу ныне исчезнувшей"
-" фракции 3-х обелисков, к сожалению, оно не подлежит восстановлению, хотя, "
-"возможно... если вы сможете найти источник энергии, достаточно большой, "
-"чтобы стереть Мультивселенную, то, возможно... просто возможно, вы сможете "
-"восстановить существо."
+"Разбитый, дряхлый труп обелиска, скорее всего, судя по его сероватому "
+"оттенку, принадлежащего вымершему виду Содружества. Хотя восстановление не "
+"невозможно, оно это будет сделать очень и очень сложно."
 
 #: src-en/data/blueprints.xml.append:13668
 msgid ""
@@ -8873,90 +8807,86 @@ msgid ""
 msgstr "Увядшая обшивка"
 
 #: src-en/data/blueprints.xml.append:13669
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_WITHERED_PLATING\"]/desc"
 msgstr ""
-"Металл, из которого изготовлена это обшивка, чрезвычайно прочен, когда дело доходит до защиты систем, что дает кораблю 100% шанс защитить ваши системы от всех видов повреждений.\n"
-"\t\n"
-"\tТакая конструкция также учитывает урон при саботаже, благодаря чему системы корабля получают всего 0.01x урона при саботаже и наносят урон абордажникам на 1 ОЗ/с.\n"
-"\t\n"
-"\tК сожалению, для поддержания обшивки в идеальном состоянии требуется лом, что снижает ваш доход от лома на 40%."
+"Эта обшивка корпуса состоит из чрезвычайно прочного сплава, пропитанного "
+"эфиром, который делает ваш корабль невосприимчивым к системным повреждениям "
+"и чрезвычайно устойчивым к саботажу, а также наносит абордажникам урон со "
+"скоростью 1 ОЗ/с. Для сохранения своей целостности, она поглощает лом, "
+"снижая его добычу на 40%."
 
 #: src-en/data/blueprints.xml.append:13677
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_WITHER_PERFECTION\"]/title"
-msgstr "Увядшее совершенство"
+msgstr "Совершенство Аэнвитэ"
 
 #: src-en/data/blueprints.xml.append:13678
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_WITHER_PERFECTION\"]/desc"
 msgstr ""
-"Это единственное в своем роде творение улучшает корабль множеством способов, хотя ни одно из них сам по себе не является слишком важным:\n"
-"\t- На 5% быстрее перезарядка оружия;\n"
-"\t- На 10% быстрее перезаряжается щит;\n"
-"\t- На 15% быстрее зарядка двигателя;\n"
-"\t- 5% шанс не получить корпусный урон и системный;\n"
-"\t- 25% шанс противостоять ионному урону;\n"
-"\t- Дружественный экипаж и дроны на вашем корабле получают исцеление на 1 ОЗ/с;\n"
-"\t- Вражеский экипаж и дроны на вашем корабле получают урон на 1 ОЗ/с."
+"Ряд специализированных оптимизаций корабля, которые дают ряд различных "
+"преимуществ.\n"
+"\t- На 5% быстрее заряжается оружие.\n"
+"\t- На 10% быстрее зарядка щита.\n"
+"\t- На 15% быстрее зарядка ССД.\n"
+"\t- 5% шанс сопротивления урону по корпусу, 5% шанс сопротивления урону по "
+"системам и 25% шанс сопротивления ионному урону.\n"
+"\t- Дружественный экипаж и дроны на вашем корабле постоянно получают "
+"исцеление на 1 ОЗ/с;\n"
+"\t- Вражеский экипаж и дроны на вашем корабле постоянно получают урон на 1 "
+"ОЗ/с."
 
 #: src-en/data/blueprints.xml.append:13692
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_WITHER_ENGINEERING\"]/title"
-msgstr "Инженерия Витэра"
+msgstr "Мастерская Аэнвитэ"
 
 #: src-en/data/blueprints.xml.append:13693
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_WITHER_ENGINEERING\"]/desc"
 msgstr ""
-"Это великолепное творение позволяет экипажу ковать удивительно продвинутые технологии за счет большого количества ресурсов, однако чертежи не были проверены на оптимизацию, поэтому они могут содержать некоторые менее... ортодоксальные функции. \n"
-"\t\n"
-"\tОн также позволяет кораблю прыгать к любому маяку в секторе за 1 топливо."
+"Эта великолепная бортовая исследовательская лаборатория позволяет экипажу "
+"корабля создавать новейшие технологии, тратя на это ресурсы. Она также "
+"позволяет кораблю прыгать к любому маяку в секторе без дополнительных затрат "
+"топлива."
 
 #: src-en/data/blueprints.xml.append:13701
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_WITHER_SHIELD\"]/title"
-msgstr "Увядшее экранирование"
+msgstr "Экранирующее устройство Аэнвитэ"
 
 #: src-en/data/blueprints.xml.append:13702
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_WITHER_SHIELD\"]/desc"
 msgstr ""
-"Эта высокотехнологичная система щитов способна выдержать 10 попаданий и при "
-"этом предотвратить телепортацию противника на борт."
+"Высокотехнологичный энергетический щит с целостностью 10 единиц. Он также "
+"отключает телепортацию вражеского экипажа на короткие расстояния."
 
 #: src-en/data/blueprints.xml.append:13710
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LEGION_AEGIS\"]/title"
-msgstr "Эгида Легиона"
+msgstr "Эгида Легионера"
 
 #: src-en/data/blueprints.xml.append:13711
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LEGION_AEGIS\"]/desc"
 msgstr ""
-"Этот корабль защищен невероятно мощным щитом, который был разработан лучшими техниками повстанцев и передан Флагману адмирала Вэнса. \n"
-"\t\n"
-"\tИмеет 10 ОЗ, уменьшает время перезарядки оружия на 10% и обнаруживает жизненные сигнатуры врагов."
+"Этот невероятно мощный энергетический щит был выкован лучшими техниками "
+"повстанцев и установлен на секретном Флагмане под руководством Вэнса-1. Он "
+"обладает целостностью в 10 единиц, увеличивает скорость зарядки оружия на "
+"10% и может похвастаться встроенными сканерами жизненных форм."
 
 #: src-en/data/blueprints.xml.append:13719
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LEGION_SPIRIT\"]/title"
-msgstr "Дух Легиона"
+msgstr "Дух Восстания"
 
 #: src-en/data/blueprints.xml.append:13720
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LEGION_SPIRIT\"]/desc"
 msgstr ""
-"Люди на этом корабле тренируются, чтобы быть в отличной форме как физически, так и психологически, получая усиленную версию эффектов всех первичных улучшений человеческих лабораторий, которые также складываются с другими улучшениями лабораторий, если это возможно.\n"
-"\t\n"
-"\tОднако эта атмосфера невероятно угнетает нечеловеческий экипаж: хотя их характеристики не снижаются, их ДНК не сохраняется в Резервном банке ДНК клон-отсека, что не позволяет клонировать их, а также лечить их обычными способами."
+"Атмосфера корабля способствует абсолютной преданности делу повстанцев, "
+"включая угнетение инакомыслящих. Считается, что ваш человеческий экипаж "
+"имеет все свои базовые лаборатории; этот эффект складывается с реальными "
+"лабораториями экипажа. Ваш нечеловеческий экипаж не может лечиться или быть "
+"клонированным."
 
 #: src-en/data/blueprints.xml.append:13728
 msgid ""
@@ -8964,53 +8894,62 @@ msgid ""
 msgstr "Экспер. обшивка ЭЭРЕ"
 
 #: src-en/data/blueprints.xml.append:13729
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_RUES_ROYAL_PLATING\"]/desc"
 msgstr ""
-"Венец совместных усилий всех рас Коалиции, покрытие корабля, которое хотя и не обладает такими же поглощающими свойствами, как у Паладинов, но невероятно гибкое и универсальное, имитирует многие модули других рас (а также свои собственные), хотя и в более слабом виде:\n"
-"\t+ Каменно-соляное покрытие корпуса: Дает 20% шанс не получить повреждения корпуса и систем, +50% сопротивление ионному урону, 30% замедление вражеского саботажа и возможность таранить врагов перед боем.\n"
-"\t+ Гель слизней: Автоматически заделывает пробоины, снижает на 20% урон от всех источников и на 25% длительность оглушения дружественного экипажа, находящегося в пустых отсеках.\n"
-"\t+ Феромоны: Увеличивает на 15% урон, 20% скорость передвижения, 5% здоровье и 10% сокращает временя действия способностей, все эффекты масштабируются от уровня кислородной установки."
+"Попытка объединить все фирменные модули фракций, входящих в Коалицию.\n"
+"\t- 20% сопрот. корпуса, 20% - систем, 50% - ионам.\n"
+"\t- Автомат. заделывает пробоины на вашем корабле.\n"
+"\t- Дружеств. экипаж в пустых отсеках получает на 20% меньше урона от всех "
+"источников и на 25% меньше длительности оглушения.\n"
+"\t- За каждый уровень жизнеобеспечения дружеств. экипаж получает доп. 15% "
+"боевого урона, 20% скорости передвижения, 5% макс. здоровья и 10% скорости "
+"зарядки способностей.\n"
+"\t- На 30% снижает скорость саботажа противника.\n"
+"\t- Дает возможность таранить врагов перед боем."
 
 #: src-en/data/blueprints.xml.append:13743
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_RUES_GENETICS\"]/title"
-msgstr "Генетика ЭЭРЕ"
+msgstr "Генетический банк ЭЭРЕ"
 
 #: src-en/data/blueprints.xml.append:13744
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_RUES_GENETICS\"]/desc"
 msgstr ""
-"Предоставляет все 3 базовых улучшения лаборатории: пиявки, богомолы, валуны "
-"и слизни. Складывается с другими улучшениями."
+"С этим модулем считается, что пиявки, богомолы, валуны и слизни обладают "
+"всеми тремя соответствующими лабораторными улучшениями. Этот модуль "
+"суммируется с фактическими улучшениями лаборатории."
 
 #: src-en/data/blueprints.xml.append:13752
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FEDERATIONS_UNITY\"]/title"
-msgstr "Союз Федерации"
+msgstr "Дух Федерации"
 
 #: src-en/data/blueprints.xml.append:13753
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FEDERATIONS_UNITY\"]/desc"
 msgstr ""
-"Дает множество уникальных эффектов в зависимости от того, какой экипаж находится на вашем корабле. \n"
-"\t- Люди: Экипаж имеет 2-й уровень всех навыков. \n"
-"\t- Энджи: Экипаж получает дополнительно 50% скорости ремонта. \n"
-"\t- Богомолы: Экипаж наносит дополнительное 50% урона в бою. \n"
-"\t- Валуны: Экипаж получает дополнительно 50% здоровья. \n"
-"\t- Золтаны: Экипаж дает 1 единицу энергии текущей системе. \n"
-"\t- Слизни: Экипаж становится невосприимчивым к контролю разума. \n"
-"\t- Орхидея: Экипаж получает орхидею для производства кислорода на вашем корабле. \n"
-"\t- Ланиусы: Экипаж потребляет кислород с той же скоростью, что и ланиусы, находясь на борту вражеского корабля. \n"
-"\t- Призраки: Экипаж может проходить сквозь двери. \n"
-"\t- Пиявки: Экипаж высасывает 1 энергию из вражеских систем. \n"
-"\t- Ракушки: Экипаж получает на 20% меньше урона в бою. \n"
-"\t- Кристаллины: Экипаж получает дополнительно 40% урона при саботаже. \n"
-"\tСекретные расы дают секретные эффекты!"
+"На этом корабле царит атмосфера абсолютного единства. Все члены экипажа "
+"получают не суммирующиеся бонусы, зависящие от того, представители какого "
+"вида присутствуют на корабле.\n"
+"\t- Человек: Экипаж имеет 2-й уровень всех навыков.\n"
+"\t- Энджи: Экипаж получает +50% скорости ремонта.\n"
+"\t- Богомол: Экипаж получает +50% боевого урона.\n"
+"\t- Валун: Экипаж получает +50% макс. здоровья.\n"
+"\t- Золтан: Экипаж дает 1 доп. энергию системе, в которой он находится, если "
+"он на вашем корабле.\n"
+"\t- Слизень: Экипаж получает иммунитет к контролю разума.\n"
+"\t- Орхидея: Экипаж вырабатывает кислород с той же скоростью, что и орхидея, "
+"находясь на вашем корабле.\n"
+"\t- Ланиус: Находясь на вражеском корабле, экипаж истощает кислород с той же "
+"скоростью, что и ланиус, и получает половину урона от удушья.\n"
+"\t- Призрак: Экипаж получает способность проходить сквозь двери.\n"
+"\t- Пиявка: Экипаж истощает 1 доп. энергию из системы, в которой он "
+"находится, если он на вражеском корабле.\n"
+"\t- Ракушка: Экипаж получает 20% сопротивления боевому урону.\n"
+"\t- Кристаллин: экипаж получает +40% урона при саботаже.\n"
+"\t\n"
+"\tМенее известные расы могут давать эффекты, которые еще предстоит описать."
 
 #: src-en/data/blueprints.xml.append:13775
 #, fuzzy
@@ -12175,7 +12114,7 @@ msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
 #: src-en/data/blueprints.xml.append:16142
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_HAUNT_FLAGSHIP\"]/title"
-msgstr "Призрачный Флагман"
+msgstr "Флагман приведений"
 
 #: src-en/data/blueprints.xml.append:16143
 msgid ""
@@ -13846,13 +13785,12 @@ msgstr ""
 "разблокировать корабль."
 
 #: src-en/data/blueprints.xml.append:20095
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SAMMY_CREWSER\"]/desc"
 msgstr ""
 "Этот крейсер является официальным рекламным крейсером для нового хитового "
-"сериала \"Паук Пейден\", что интересно, он также может выполнять роль "
-"пушечного корабля."
+"шоу \"Паук Пейден\", что интересно, он также может выполнять роль пушечного "
+"корабля."
 
 #: src-en/data/blueprints.xml.append:20170
 #, fuzzy
