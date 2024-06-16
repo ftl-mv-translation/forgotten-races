@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2024-06-17 11:42+0000\n"
-"Last-Translator: Aleev <aleev1414@gmail.com>\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datablueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -68,8 +68,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_spherax\"]/powerList/power[1]"
 msgstr ""
-"Активная способность: Может ускорять или замедлять время в отсеке, где он "
-"находится, на 5 секунд."
+"Активная способность: Может ускорять или замедлять время в отсеке, в котором "
+"он находится, на 5 секунд."
 
 #: src-en/data/blueprints.xml.append:34
 msgid ""
@@ -12429,7 +12429,7 @@ msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
 
 #: src-en/data/blueprints.xml.append:16467
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_PRINCE\"]/title"
-msgstr "Корабль Принца"
+msgstr "Корабль Князя"
 
 #: src-en/data/blueprints.xml.append:16468
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_PRINCE\"]/desc"
@@ -14367,7 +14367,6 @@ msgstr ""
 "совершенно невозможным."
 
 #: src-en/data/blueprints.xml.append:22381
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REAL_2\"]/class"
 msgstr "Крейсер Наблюдателей"
@@ -14402,33 +14401,26 @@ msgid ""
 msgstr "Кондитерская"
 
 #: src-en/data/blueprints.xml.append:22458
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_SLIMER\"]/unlock"
-msgstr ""
-"Разберитесь с второй целью Ловцов приведений и отправьте приведение-слизня "
-"на покой в забытый Тартар."
+msgstr "Упокойте душу прожорливого слизня, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:22459
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_SLIMER\"]/desc"
 msgstr ""
-"Пилотируемое вечно голодным слизнем, бывшим членом группы \"Приведения\" "
-"Слимером, это судно раньше было прогулочным крейсером, а затем было "
-"переоборудовано для получения совсем других удовольствий."
+"Изначально это судно было простым прогулочным лайнером, пока Слимер не "
+"занялся им и не переоборудовал для утоления своего бесконечного голода."
 
 #: src-en/data/blueprints.xml.append:22530
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_SLIMER_2\"]/class"
-msgstr "Крейсер класса \"Слимер\""
+msgstr "Крейсер Слимера"
 
 #: src-en/data/blueprints.xml.append:22531
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_SLIMER_2\"]/name"
-msgstr "Затуманенное Зрение"
+msgstr "Катаракта"
 
 #: src-en/data/blueprints.xml.append:22532
 msgid ""
@@ -14436,26 +14428,22 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:22533
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_SLIMER_2\"]/desc"
 msgstr ""
-"Внешний вид этого корабля, некогда покрытый гелем, теперь пропитан газом "
-"туманности, благодаря чему этот раствор стал устойчивым. Хотя это не "
-"улучшило внешний вид корабля, продажа газов принесла много лома, что "
-"позволило Слимеру нанять Атаманов для работы на него."
+"Студенистый корпус этого корабля впитал в себя столько газа туманности, что "
+"Слимеру удалось продать часть ее. Этим он оплачивает услуги лучших Атаманов, "
+"которых может предложить Клептократия."
 
 #: src-en/data/blueprints.xml.append:22604
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_SLIMER_3\"]/class"
-msgstr "Крейсер класса \"Слимер\""
+msgstr "Крейсер Слимера"
 
 #: src-en/data/blueprints.xml.append:22605
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_SLIMER_3\"]/name"
-msgstr "Слизистый Буфет"
+msgstr "Все, что вы можете съесть"
 
 #: src-en/data/blueprints.xml.append:22606
 msgid ""
@@ -14465,55 +14453,44 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:22607
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_SLIMER_3\"]/desc"
 msgstr ""
-"Этот полупрозрачный корабль - единственный известный корабль слизней, "
-"способный перемещаться в другие реальности и вербовать новых слизней в свое "
-"дело."
+"Этот корабль - единственная известная Мультиверсальная итерация корабля "
+"Слимера, которая успешно завербовала несколько Слимеров в свою команду."
 
 #: src-en/data/blueprints.xml.append:22677
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_PHYS\"]/class"
-msgstr "Крейсер класса \"Ион\""
+msgstr "Крейсер Физ"
 
 #: src-en/data/blueprints.xml.append:22678
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_PHYS\"]/name"
-msgstr "Ионизированное Разрушение"
+msgstr "Разрушитель"
 
 #: src-en/data/blueprints.xml.append:22679
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_PHYS\"]/unlock"
-msgstr ""
-"Разберитесь с второй целью Ловцов приведений и отправьте измученное "
-"приведение ракушки на покой в забытый Тартар."
+msgstr "Упокойте душу погибшей ракушки, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:22680
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_PHYS\"]/desc"
 msgstr ""
-"Личный крейсер, принадлежащий нестабильной ракушке, бывшему члену группы "
-"\"Приведения\" Физу, был до отказа заполнен ионизированными газами "
-"туманности, обеспечивающими уникальную защиту по сравнению с другими газами "
-"ракушек."
+"Судно, которым владеет Физ в своем стремлении прекратить вечные страдания, "
+"пронизывающие ее сущность. Он наполнен ионизированными газами, "
+"представляющими настоящую угрозу для абордажников."
 
 #: src-en/data/blueprints.xml.append:22751
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_PHYS_2\"]/class"
-msgstr "Крейсер класса \"Ион\""
+msgstr "Крейсер Физ"
 
 #: src-en/data/blueprints.xml.append:22752
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_PHYS_2\"]/name"
-msgstr "Шокированная Ракушка"
+msgstr "Потрясенные"
 
 #: src-en/data/blueprints.xml.append:22753
 msgid ""
@@ -14521,24 +14498,22 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:22754
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_PHYS_2\"]/desc"
 msgstr ""
-"Этот корабль отказался от телепорта, чтобы установить на нем очень мощный анти-био луч - ужасающую технологию.\n"
-"Такая мощь привлекла внимание правительства ракушек, которое отправило на корабль своих лучших ракушек."
+"Итерация корабля Физ, в которой телепортатор заменен на мощный "
+"противопехотный луч. Гениократия заметила его и поддержала его своими "
+"лучшими ракушками-союзниками."
 
 #: src-en/data/blueprints.xml.append:22825
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_PHYS_3\"]/class"
-msgstr "Крейсер класса \"Ион\""
+msgstr "Крейсер Физ"
 
 #: src-en/data/blueprints.xml.append:22826
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_PHYS_3\"]/name"
-msgstr "Мертвая Душа"
+msgstr "Утраченная Невинность"
 
 #: src-en/data/blueprints.xml.append:22827
 msgid ""
@@ -14548,55 +14523,44 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:22828
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_PHYS_3\"]/desc"
 msgstr ""
-"В результате увиденных ужасов, произошедших с ними в других реальностях, "
-"экипаж Физа стал равнодушным и апатичным к Мультивселенной, хотя, по крайней"
-" мере, за это время они успели овладеть своими ионными способностями."
+"Увидев ужасы того, что случилось с ними в других вселенных, экипаж этого "
+"корабля, состоящий исключительно из копий Физ, устал и разочаровался в "
+"Мультивселенной."
 
 #: src-en/data/blueprints.xml.append:22899
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ALEENOR\"]/class"
-msgstr "Крейсер класса \"Био\""
+msgstr "Крейсер Алеенор"
 
 #: src-en/data/blueprints.xml.append:22900
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ALEENOR\"]/name"
-msgstr "Рад Страх"
+msgstr "Супра Мортем"
 
 #: src-en/data/blueprints.xml.append:22901
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ALEENOR\"]/unlock"
-msgstr ""
-"Разберитесь с второй целью Ловцов приведений и отправьте страшное приведение"
-" богомола на покой в забытый Тартар."
+msgstr "Упокойте душу горделивого Епископа, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:22902
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ALEENOR\"]/desc"
 msgstr ""
-"Личный крейсер ужасного богомола, бывшего члена группы \"Приведения\" "
-"Алиенор, оснащенный уникальными феромонами, этот крейсер может легко "
-"уничтожить ничего не подозревающие корабли благодаря своим мощным абордажным"
-" возможностям."
+"Личное творение Алеенор, созданное в глубинах Тартара после ее смерти. Оно "
+"оснащено единственной в своем роде смесью феромонов."
 
 #: src-en/data/blueprints.xml.append:22974
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ALEENOR_2\"]/class"
-msgstr "Крейсер класса \"Био\""
+msgstr "Крейсер Алеенор"
 
 #: src-en/data/blueprints.xml.append:22975
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ALEENOR_2\"]/name"
-msgstr "Теневые Ускорители"
+msgstr "Уже Умершие"
 
 #: src-en/data/blueprints.xml.append:22976
 msgid ""
@@ -14604,26 +14568,22 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:22977
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ALEENOR_2\"]/desc"
 msgstr ""
-"На старте этот корабль обладает внушительной абордажным отрядом, однако у "
-"него нет возможности купить телепортатор. К счастью, он оснащен призрачными "
-"феромонами Алиенор, позволяющими вашему экипажу брать врага на абордаж при "
-"условии, что они вложат достаточно средств в свою систему жизнеобеспечения."
+"Грозная абордажная команда этого корабля полагается на феромоны Алеенор, "
+"чтобы взять вражеский корабль на абордаж. Поэтому кислород имеет решающее "
+"значение."
 
 #: src-en/data/blueprints.xml.append:23047
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ALEENOR_3\"]/class"
-msgstr "Крейсер класса \"Био\""
+msgstr "Крейсер Алеенор"
 
 #: src-en/data/blueprints.xml.append:23048
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ALEENOR_3\"]/name"
-msgstr "Тайный Страх"
+msgstr "Теневая Леди"
 
 #: src-en/data/blueprints.xml.append:23049
 msgid ""
@@ -14633,54 +14593,46 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23050
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ALEENOR_3\"]/desc"
 msgstr ""
-"Этот корабль оснащен значительно улучшенной системой маскировки, позволяющей ему быстрее перезаряжаться и не позволяющей стрельбе демаскировать его.\n"
-"Однако он не может иметь щиты, дроны или энергетические щиты."
+"Несколько копий Алеенора совместно работали над созданием этого корабля, "
+"объединив свои знания, чтобы значительно улучшить его маскировочное "
+"устройство за счет способности использовать щиты, энергетические щиты и "
+"дроны."
 
 #: src-en/data/blueprints.xml.append:23116
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_VIN\"]/class"
-msgstr "Крейсер класса \"Лава\""
+msgstr "Крейсер Вина"
 
 #: src-en/data/blueprints.xml.append:23117
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_VIN\"]/name"
 msgstr "Расплавленное Знамение"
 
 #: src-en/data/blueprints.xml.append:23118
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_VIN\"]/unlock"
-msgstr ""
-"Разберитесь с второй целью Ловцов призраков и отправьте вечно плавящегося "
-"приведения Паладина на покой в забытый Тартар."
+msgstr "Упокойте душу мстительного Паладина, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23119
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_VIN\"]/desc"
 msgstr ""
-"Личный крейсер вечно плавящегося Паладина, бывшего члена группы "
-"\"Приведения\" Вина, содержит в своем корпусе настоящую лаву, благодаря чему"
-" достигает невыносимо высоких температур, смертельных для всех, кто не "
-"является валуном или призрачным."
+"Крейсер, принадлежащий ВинУ, вечно плавящемуся Паладину. Его внутреннее "
+"пространство залито лавой, что делает его совершенно негостеприимным для "
+"тех, кто не является валуном или призраком."
 
 #: src-en/data/blueprints.xml.append:23191
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_VIN_2\"]/class"
-msgstr "Крейсер класса \"Лава\""
+msgstr "Крейсер Вина"
 
 #: src-en/data/blueprints.xml.append:23192
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_VIN_2\"]/name"
-msgstr "Белое Пламя"
+msgstr "Долина Смерти"
 
 #: src-en/data/blueprints.xml.append:23193
 msgid ""
@@ -14688,19 +14640,16 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23194
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_VIN_2\"]/desc"
 msgstr ""
-"Говорят, что синий огонь горит жарче, чем желтый. Оказывается, то же самое "
-"относится и к лаве, хотя повышение температуры не сильно меняет "
-"характеристики ее брони."
+"Известно, что белый огонь горит жарче красного. Хотя это не сильно меняет "
+"функциональность брони, но зрелище, безусловно, впечатляет."
 
 #: src-en/data/blueprints.xml.append:23266
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_VIN_3\"]/class"
-msgstr "Крейсер класса \"Лава\""
+msgstr "Крейсер Вина"
 
 #: src-en/data/blueprints.xml.append:23267
 msgid ""
@@ -14715,20 +14664,17 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23269
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_VIN_3\"]/desc"
 msgstr ""
-"Путешествие между реальностями позволило Вину значительно адаптироваться к "
-"своему призрачному телу, став быстрее и пластичнее, чем обычный Паладин. "
-"Огонь снаружи его корабля, возможно, и утих, но внутри он пылает как "
-"никогда."
+"Путешествие между вселенными позволило этой троице Винов привыкнуть к своим "
+"призрачным телам. Хотя снаружи корабль частично остыл, внутри него огонь "
+"пылает как никогда."
 
 #: src-en/data/blueprints.xml.append:23342
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_CLEO\"]/class"
-msgstr "Крейсер класса \"Дрон\""
+msgstr "Крейсер Клео"
 
 #: src-en/data/blueprints.xml.append:23343
 msgid ""
@@ -14736,33 +14682,26 @@ msgid ""
 msgstr "Агорафобия"
 
 #: src-en/data/blueprints.xml.append:23344
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_CLEO\"]/unlock"
-msgstr ""
-"Разберитесь с второй целью Ловцов приведений и отправьте безжалостное "
-"приведение аса МФК в забытый Тартар."
+msgstr "Успокойте душу параноика-аса, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23345
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_CLEO\"]/desc"
 msgstr ""
-"Личный крейсер безжалостного аса МФК, бывшего члена группы \"Приведения\" Клео, не подходит ни для кого, кроме самого Клео, и больше ни для одной души.\n"
-"\t\n"
-"\tПоэтому Клео во многом полагается на дроны, а сам управляет всем со своего корабля."
+"На корабле нет ни одной каюты, кроме каюты Клео. Все функции, которые "
+"выполняют живые члены экипажа, возложены на дроны корабля."
 
 #: src-en/data/blueprints.xml.append:23419
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_CLEO_2\"]/class"
-msgstr "Крейсер класса \"Дрон\""
+msgstr "Крейсер Клео"
 
 #: src-en/data/blueprints.xml.append:23420
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_CLEO_2\"]/name"
-msgstr "Андрофобия"
+msgstr "Конфликт Интересов"
 
 #: src-en/data/blueprints.xml.append:23421
 msgid ""
@@ -14770,26 +14709,22 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23422
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_CLEO_2\"]/desc"
 msgstr ""
-"После обнаружения и захвата корабля асов МФК, Клео был вынужден служить в их"
-" рядах и снова сражаться вместе с другими МФК. По крайней мере, они улучшили"
-" его артиллерию и дали ему дрона, чтобы помочь ему справляться с "
-"трудностями."
+"Корабль Клео был найден и захвачен кораблем асов МФК, и ему пришлось "
+"вступить в ряды своих старых работодателей. В качестве компенсации они "
+"подарили ему дрон, но он все равно зол."
 
 #: src-en/data/blueprints.xml.append:23498
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_CLEO_3\"]/class"
-msgstr "Крейсер класса \"Дрон\""
+msgstr "Крейсер Клео"
 
 #: src-en/data/blueprints.xml.append:23499
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_CLEO_3\"]/name"
-msgstr "Антропофобия"
+msgstr "Мушкетер"
 
 #: src-en/data/blueprints.xml.append:23500
 msgid ""
@@ -14799,53 +14734,44 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23501
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_CLEO_3\"]/desc"
 msgstr ""
-"Используя полученные травмы как возможность сплотиться, экипаж этого корабля"
-" был вынужден разнообразить свои навыки, чтобы управлять любой частью судна."
+"Группа Клео на борту этого судна использовала свою общую травму, как "
+"возможность сплотиться и разнообразить свои навыки благодаря поднявшемуся "
+"боевому духу."
 
 #: src-en/data/blueprints.xml.append:23576
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ZULU\"]/class"
-msgstr "Крейсер класса \"Святой\""
+msgstr "Крейсер Зулу"
 
 #: src-en/data/blueprints.xml.append:23577
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ZULU\"]/name"
-msgstr "Золотое Сияние"
+msgstr "Сияние"
 
 #: src-en/data/blueprints.xml.append:23578
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ZULU\"]/unlock"
-msgstr ""
-"Разберитесь с второй целью Ловцов приведений и отправьте фанатичного "
-"приведения Сварщика на покой в забытый Тартар."
+msgstr "Упокойте душу фанатичного Сварщика, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23579
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ZULU\"]/desc"
 msgstr ""
-"Личный крейсер фанатичного Сварщика, бывшего члена группы \"Приведения\" Зулу, оснащен экзотической и эзотерической адаптивной системой, позволяющей лучам пробивать два дополнительных слоя щита.\n"
-"\t\n"
-"\tОднако на корабль невозможно установить какую-либо систему жизнеобеспечения."
+"На месте системы жизнеобеспечения на личном корабле Зулу находится "
+"уникальная технология, позволяющая использовать лучи."
 
 #: src-en/data/blueprints.xml.append:23649
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ZULU_2\"]/class"
-msgstr "Крейсер класса \"Святой\""
+msgstr "Крейсер Зулу"
 
 #: src-en/data/blueprints.xml.append:23650
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ZULU_2\"]/name"
-msgstr "Кристалл Теней"
+msgstr "Мефилес"
 
 #: src-en/data/blueprints.xml.append:23651
 msgid ""
@@ -14853,24 +14779,21 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23652
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ZULU_2\"]/desc"
 msgstr ""
-"Мрачное отражение корабля Зулу, искаженная реальность, где он так и не нашел"
-" в себе силы продолжать поиски и оказался на темной стороне."
+"Искаженное воплощение крейсера Зулу, пришедшее из вселенной, где ланиусы "
+"потеряли желание продолжать борьбу за свет."
 
 #: src-en/data/blueprints.xml.append:23723
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ZULU_3\"]/class"
-msgstr "Крейсер класса \"Святой\""
+msgstr "Крейсер Зулу"
 
 #: src-en/data/blueprints.xml.append:23724
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ZULU_3\"]/name"
-msgstr "Призматический Спаситель"
+msgstr "Спаситель Света"
 
 #: src-en/data/blueprints.xml.append:23725
 msgid ""
@@ -14880,54 +14803,46 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23726
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_ZULU_3\"]/desc"
 msgstr ""
-"Освободившись от своего проклятия, Зулу решил отправиться в путешествие по "
-"Мультивселенной, исследуя неизвестные вселенные в надежде освободить новые "
-"версии себя, которые все еще могут быть прокляты."
+"Освободившись от своего проклятия, Зулу решил странствовать по "
+"Мультивселенной, собирая и выкупая все новые и новые экземпляры себя, "
+"нуждающиеся в помощи."
 
 #: src-en/data/blueprints.xml.append:23797
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_G\"]/class"
-msgstr "Крейсер класса \"Некромант\""
+msgstr "Крейсер Ж"
 
 #: src-en/data/blueprints.xml.append:23798
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_G\"]/name"
-msgstr "Эвокатор Сомнио"
+msgstr "Реституция"
 
 #: src-en/data/blueprints.xml.append:23799
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_G\"]/unlock"
 msgstr ""
-"Разберитесь с второй целью Ловцов приведений и отправьте на покой последнее "
-"приведение, чтобы остановить безумие нежити."
+"Упокойте душу меланхоличной некромантки, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23800
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_G\"]/desc"
 msgstr ""
-"Личный крейсер обелиска-Некролича, бывшего лидера группы \"Приведения\" "
-"известную как Ж, может похвастаться крайне низкой физической прочностью, "
-"однако чудовищный энергетический щит с лихвой компенсирует эту слабость."
+"Личный корабль Ж, могущественной некромантки из рода обелисков. Оптимизация "
+"корабля была проведена за счет его корпуса, но его абсурдно мощный "
+"энергетический щит не делает это проблемой."
 
 #: src-en/data/blueprints.xml.append:23872
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_G_2\"]/class"
-msgstr "Крейсер класса \"Некромант\""
+msgstr "Крейсер Ж"
 
 #: src-en/data/blueprints.xml.append:23873
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_G_2\"]/name"
-msgstr "Наследие Ж"
+msgstr "Литиктук Асат"
 
 #: src-en/data/blueprints.xml.append:23874
 msgid ""
@@ -14935,26 +14850,22 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23875
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_G_2\"]/desc"
 msgstr ""
-"Ж, справившись с поставленной задачей, вернулась в свой старый дом в Лийтхик"
-" Юк, разнесла весть о своих открытиях и в одночасье стала национальным "
-"героем. Этот корабль был подарен королевой К в знак признательности за ее "
-"открытия."
+"Выполнив свою цель - познать некромантию и завершить работу над Путеводным "
+"камнем, Ж вернулась на родину и стала разносить весть. Это судно было "
+"подарен ей Королевой У в качестве награды."
 
 #: src-en/data/blueprints.xml.append:23946
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_G_3\"]/class"
-msgstr "Крейсер класса \"Некромант\""
+msgstr "Крейсер Ж"
 
 #: src-en/data/blueprints.xml.append:23947
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_G_3\"]/name"
-msgstr "Неоновая Пытка"
+msgstr "Истинные Муки"
 
 #: src-en/data/blueprints.xml.append:23948
 msgid ""
@@ -14964,54 +14875,47 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:23949
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_G_3\"]/desc"
 msgstr ""
-"После бесконечных веков посещения других вселенных Ж, к сожалению, вернулась"
-" к своим старым привычкам, снова занявшись некромантией и поработив не "
-"только другие свои версии, но и саму себя."
+"Проведя много веков в качестве странницы по Мультивселенной, Ж вернулась к "
+"своим старым делишкам. В результате несколько копий ее самой оказались "
+"втянутыми в эту историю."
 
 #: src-en/data/blueprints.xml.append:24021
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_FLAGSHIP\"]/class"
-msgstr "Крейсер \"Корабль мертвых\""
+msgstr "Корабль Мертвых"
 
 #: src-en/data/blueprints.xml.append:24022
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_FLAGSHIP\"]/name"
 msgstr "Оставайся Пухленьким"
 
 #: src-en/data/blueprints.xml.append:24023
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_FLAGSHIP\"]/unlock"
 msgstr ""
-"Победите все явления ИЛИ разблокируйте все обычные корабли приведений, в том"
-" числе их типы Б и В."
+"Победите явление этого корабля ИЛИ разблокируйте все варианты всех обычных "
+"кораблей приведений, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:24024
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_FLAGSHIP\"]/desc"
 msgstr ""
-"Конечный результат того, что должно было произойти, если бы Ж смогла полностью осуществить свой план.\n"
-"\t\n"
-"\tЭтот корабль может воскресить любой экипаж в виде приведений, не теряя при этом возможности их клонировать. Этот Флагман - настоящее воплощение кошмаров."
+"Конечный продукт того, что могло бы произойти, если бы Ж смогла осуществить "
+"свой план. Экипаж корабля находится под ее защитой, а их духи превращаются в "
+"приведений."
 
 #: src-en/data/blueprints.xml.append:24098
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_FLAGSHIP_2\"]/class"
-msgstr "Крейсер \"Корабль мертвых\""
+msgstr "Корабль Мертвых"
 
 #: src-en/data/blueprints.xml.append:24099
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_FLAGSHIP_2\"]/name"
-msgstr "Безумие"
+msgstr "Глаз в Небесах"
 
 #: src-en/data/blueprints.xml.append:24100
 msgid ""
@@ -15020,78 +14924,70 @@ msgstr ""
 "Разблокируйте все корабли хаотических приведений, а также их типы Б и В."
 
 #: src-en/data/blueprints.xml.append:24101
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_FLAGSHIP_2\"]/desc"
 msgstr ""
-"Свергнув Ж, загадочный Наблюдатель решил довести ее планы до конца, но уже с помощью собственных слуг.\n"
-"\n"
-"Мало того, он изменил Некрономикон, чтобы превратить приведений в сирен."
+"Лишив Ж титула самого могущественного некроманта во вселенной, Наблюдатель "
+"решил довести ее планы до конца на своих условиях."
 
 #: src-en/data/blueprints.xml.append:24175
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_FLAGSHIP_3\"]/class"
-msgstr "Крейсер \"Корабль мертвых\""
+msgstr "Корабль Мертвых"
 
 #: src-en/data/blueprints.xml.append:24176
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_FLAGSHIP_3\"]/name"
 msgstr "Ухмылка Гозера"
 
 #: src-en/data/blueprints.xml.append:24177
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_FLAGSHIP_3\"]/unlock"
-msgstr "Разблокируйте все корабли типов A и Б на этой странице."
+msgstr ""
+"Разблокируйте оба других проекта этой серии, чтобы разблокировать этот "
+"корабль."
 
 #: src-en/data/blueprints.xml.append:24178
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_HAUNT_FLAGSHIP_3\"]/desc"
 msgstr ""
-"Этим кораблем командует страшный Гозер, лидер группы \"Приведения\", которые"
-" захватили частично разрушенный Флагман и сделали его своим домом."
+"Корабль под командованием Гозиодеона. Несмотря на частичное разрушение, этот "
+"корабль был приведен в рабочее состояние благодаря стараниям его приведений."
 
 #: src-en/data/blueprints.xml.append:24248
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE\"]/class"
-msgstr "Крейсер класса \"Углерод\""
+msgstr "Крейсер Смоука"
 
 #: src-en/data/blueprints.xml.append:24249
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE\"]/name"
-msgstr "Углеродное Преступление"
+msgstr "Разрушающийся Хаос"
 
 #: src-en/data/blueprints.xml.append:24250
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE\"]/unlock"
-msgstr "В хаотическом Тартаре освободите приведение-кристаллина от мучений."
+msgstr ""
+"Освободите душу бдительного Стража в зоне хаоса, чтобы разблокировать этот "
+"корабль."
 
 #: src-en/data/blueprints.xml.append:24251
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE\"]/desc"
 msgstr ""
-"Корабль приведения по имени Смоук. Оснащенный самым прочным кристаллическим "
-"покрытием, известным Федерации, этот корабль может легко восстановить любые "
-"повреждения корпуса, нанося взамен очень большой урон."
+"Этот крейсер был разработан Смоуком и обладает самым мощным корпусом из "
+"известных кристаллических кораблей. Он создан специально для того, чтобы "
+"принимать удары на себя в качестве основной формы нападения."
 
 #: src-en/data/blueprints.xml.append:24323
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE_2\"]/class"
-msgstr "Крейсер класса \"Углерод\""
+msgstr "Крейсер Смоука"
 
 #: src-en/data/blueprints.xml.append:24324
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE_2\"]/name"
-msgstr "Треснувшая Жемчужина"
+msgstr "Илия"
 
 #: src-en/data/blueprints.xml.append:24325
 msgid ""
@@ -15099,24 +14995,23 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:24326
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE_2\"]/desc"
 msgstr ""
-"У этого корабля нет настоящих атакующих орудий, поэтому он вынужден полагаться на свою невероятно мощную кристаллическую броню для нанесения непосредственных повреждений корпусу.\n"
-"Зато у него очень мощный экипаж, способный разобраться с системами противника до того, как они принесут проблемы."
+"Этот корабль использует свой мощный абордажный экипаж для уничтожения "
+"вражеских систем до того, как они станут слишком опасными для его прочного "
+"кристаллического корпуса, что является его единственным эффективным "
+"средством нападения."
 
 #: src-en/data/blueprints.xml.append:24397
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE_3\"]/class"
-msgstr "Крейсер класса \"Углерод\""
+msgstr "Крейсер Смоука"
 
 #: src-en/data/blueprints.xml.append:24398
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE_3\"]/name"
-msgstr "Ониксия"
+msgstr "Оникс"
 
 #: src-en/data/blueprints.xml.append:24399
 msgid ""
@@ -15126,52 +15021,46 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:24400
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE_3\"]/desc"
 msgstr ""
-"Путешествие по Мультивселенной стало для Смоука величайшим просветлением, а "
-"поиск тех, кто прошел через то же, что и он, помог ему по-настоящему понять,"
-" что значит быть приведением."
+"Одиночное путешествие по Мультивселенной недолго оставалось таковым для "
+"Смоука. Компания помогла ему по-настоящему понять все тонкости бытия "
+"призрака."
 
 #: src-en/data/blueprints.xml.append:24473
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS\"]/class"
-msgstr "Крейсер класса \"Мороз\""
+msgstr "Крейсер Чиллс"
 
 #: src-en/data/blueprints.xml.append:24474
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS\"]/name"
-msgstr "Иней"
+msgstr "Белая Мгла"
 
 #: src-en/data/blueprints.xml.append:24475
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS\"]/unlock"
-msgstr "В хаотичном Тартаре освободите приведение вампсорняка от мучений."
+msgstr ""
+"Освободите душу прилежного Вампсорянка в зоне хаоса, чтобы разблокировать "
+"этот корабль."
 
 #: src-en/data/blueprints.xml.append:24476
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS\"]/desc"
 msgstr ""
-"Корабль приведения по имени Чиллс. Оснащенный мощной пусковой установкой для"
-" запуска бомб и спорами, настолько холодными, что они накладывают на врагов "
-"сильный негативный эффект, этот корабль очень жуткий."
+"Фирменное судно Чиллс - действительно самое холодное на свете. Даже споры, "
+"образующиеся на его борту, могут выжить только в холоде."
 
 #: src-en/data/blueprints.xml.append:24547
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS_2\"]/class"
-msgstr "Крейсер класса \"Мороз\""
+msgstr "Крейсер Чиллс"
 
 #: src-en/data/blueprints.xml.append:24548
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS_2\"]/name"
-msgstr "Термокошмар"
+msgstr "Тепловой Шок"
 
 #: src-en/data/blueprints.xml.append:24549
 msgid ""
@@ -15179,26 +15068,21 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:24550
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS_2\"]/desc"
 msgstr ""
-"Снаружи этот корабль может быть горячим, но благодаря использованию ряда "
-"высокотехнологичных термоэлектрических устройств внутри он может холоднее, "
-"чем другие корабли. Тем не менее, были приняты меры, чтобы пожары снаружи не"
-" сеяли хаос внутри."
+"Использование передовых методов изоляции позволяет этому кораблю быть "
+"невероятно горячим снаружи, но холодным, как зимнее утро, внутри."
 
 #: src-en/data/blueprints.xml.append:24621
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS_3\"]/class"
-msgstr "Крейсер класса \"Мороз\""
+msgstr "Крейсер Чиллс"
 
 #: src-en/data/blueprints.xml.append:24622
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS_3\"]/name"
-msgstr "Шокирующий Лиловый"
+msgstr "Вечная Мерзлота"
 
 #: src-en/data/blueprints.xml.append:24623
 msgid ""
@@ -15208,19 +15092,17 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:24624
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS_3\"]/desc"
 msgstr ""
-"Корабль использует тонны энергии, чтобы поддерживать внутреннюю температуру "
-"как можно ближе к нулевой отметке. Это идеальная окружающая среда для группы"
-" Чиллс, чтобы захватить Мультивселенную со всеми её благами."
+"Экстремальное количество энергии поступает в систему климат-контроля этого "
+"корабля, создавая почти идеальную среду для команды, состоящей исключительно "
+"из Чиллс, которые планируют свою следующую большую охоту за сокровищами."
 
 #: src-en/data/blueprints.xml.append:24697
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_POK\"]/class"
-msgstr "Крейсер класса \"Ток\""
+msgstr "Крейсер Пока"
 
 #: src-en/data/blueprints.xml.append:24698
 msgid ""
@@ -15228,25 +15110,24 @@ msgid ""
 msgstr "Ток Кок"
 
 #: src-en/data/blueprints.xml.append:24699
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_POK\"]/unlock"
-msgstr "В хаотическом Тартаре освободите от мучений приведения-морфа."
+msgstr ""
+"Освободите душу любящего морфа в зоне хаоса, чтобы разблокировать этот "
+"корабль."
 
 #: src-en/data/blueprints.xml.append:24700
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_POK\"]/desc"
 msgstr ""
-"Корабль приведения по имени Пок.\n"
-"Все крейсеры морфов, это живые организмы, но этот доведен до крайности: он может поглощать экипаж и получать огромные преимущества в зависимости от поглощаемой расы.\n"
-"Однако он более хлипкий и начинает с меньшим количеством оборудования, чем большинство других кораблей."
+"Судно Пока, скорее всего, было создано таким же образом, как и он сам. Весь "
+"корабль живой, что делает его стены странно хлюпкими и наделяет способностью "
+"потреблять органическую материю в качестве пропитания."
 
 #: src-en/data/blueprints.xml.append:24772
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_POK_2\"]/class"
-msgstr "Крейсер класса \"Ток\""
+msgstr "Крейсер Пока"
 
 #: src-en/data/blueprints.xml.append:24773
 msgid ""
@@ -15259,19 +15140,16 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:24775
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_POK_2\"]/desc"
 msgstr ""
-"Этот корабль содержит широкий выбор возможных жертв для утоления вечного "
-"голода, что позволит вам получить хорошее преимущество за счет своего "
-"экипажа."
+"На этом живом корабле собрана разнообразная команда, что позволит вам с "
+"самого начала путешествия кормить корабль всем, чем он пожелает."
 
 #: src-en/data/blueprints.xml.append:24846
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_POK_3\"]/class"
-msgstr "Крейсер класса \"Ток\""
+msgstr "Крейсер Пока"
 
 #: src-en/data/blueprints.xml.append:24847
 msgid ""
@@ -15286,46 +15164,42 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:24849
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_POK_3\"]/desc"
 msgstr ""
-"Этот корабль представляет собой сочетание трех разных кораблей Пока, хотя "
-"трудно утверждать, поскольку он не стал больше, а только крепче. Поки "
-"выжили, и, к счастью, им удалось поглотить несколько проигравших кораблей, и"
-" теперь они стали сильнее, чем когда-либо."
+"Три копии судна Пока в итоге попытались съесть друг друга. Оставшееся судно "
+"очень плотное, а копии Пока, управляющие им, необычайно крупные и трудно "
+"совместимые."
 
 #: src-en/data/blueprints.xml.append:24919
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHARROR\"]/class"
-msgstr "Класс крейсера \"Порочный\""
+msgstr "Крейсер Чарро"
 
 #: src-en/data/blueprints.xml.append:24920
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHARROR\"]/name"
-msgstr "Сломанн... ый/тзз"
+msgstr "Сбой Сегментации"
 
 #: src-en/data/blueprints.xml.append:24921
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHARROR\"]/unlock"
-msgstr "В хаотическом Тартаре освободите приведение-энджи от его мучений."
+msgstr ""
+"Освободите душу сломанного Защитника в зоне хасоса, чтобы разблокировать "
+"этот корабль."
 
 #: src-en/data/blueprints.xml.append:24922
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHARROR\"]/desc"
 msgstr ""
-"Корабль приведения по имени Чарро, или Персонаж-Ошибка.\n"
-"Дроны на этом корабле не могут лечить экипаж, вместо этого они ремонтируют поврежденные системы и устраняют опасности, в зависимости от того, насколько силен дрон, управляющий кораблем."
+"Личный крейсер Чаррора, или Чаррора-ошибки. Его эксперименты с Медботами "
+"привели к тому, что наномашины перестали выполнять свое первоначальное "
+"предназначение."
 
 #: src-en/data/blueprints.xml.append:24997
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHARROR_2\"]/class"
-msgstr "Класс крейсера \"Порочный\""
+msgstr "Крейсер Чарро"
 
 #: src-en/data/blueprints.xml.append:24998
 msgid ""
@@ -15343,16 +15217,14 @@ msgid ""
 msgstr "could_not_find: PLAYER_SHIP_FR_CHAOS_HAUNT_CHARROR_2: desc"
 
 #: src-en/data/blueprints.xml.append:25076
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHARROR_3\"]/class"
-msgstr "Класс крейсера \"Порочный\""
+msgstr "Крейсер Чарро"
 
 #: src-en/data/blueprints.xml.append:25077
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHARROR_3\"]/name"
-msgstr "Троян"
+msgstr "День Зеро"
 
 #: src-en/data/blueprints.xml.append:25078
 msgid ""
@@ -15362,51 +15234,46 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:25079
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_CHARROR_3\"]/desc"
 msgstr ""
-"Как будто Чарро и так не был достаточно испорчен, но встреча с себе "
-"подобными привела к его дальнейшей деградации. Теперь группа Чарро хочет "
-"найти других себе подобных и создать своего рода испорченную связь Гармонии."
+"Путешествие Чарро по Мультивселенной дало ему союзников в лице самого себя. "
+"Теперь группа планирует объединить свои силы, чтобы уничтожить все Каналы "
+"связи Гармонии."
 
 #: src-en/data/blueprints.xml.append:25155
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_LEO\"]/class"
-msgstr "Крейсер класса \"ЭМИ\""
+msgstr "Крейсер Лео"
 
 #: src-en/data/blueprints.xml.append:25156
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_LEO\"]/name"
-msgstr "Возрождение"
+msgstr "Тихая Жизнь"
 
 #: src-en/data/blueprints.xml.append:25157
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_LEO\"]/unlock"
-msgstr "В хаотичном Тартаре освободите от мучений приведение-пиявку."
+msgstr ""
+"Освободите душу непоколебимого Ампера в зоне хаоса, чтобы разблокировать "
+"этот корабль."
 
 #: src-en/data/blueprints.xml.append:25158
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_LEO\"]/desc"
 msgstr ""
-"Корабль приведения по имени Лео.\n"
-"Двигатели этого корабля обладают уникальным свойством понижать уровень систем противника в обмен на шанс уклонения."
+"Лео настроил двигатель корабля таким образом, что его можно использовать в "
+"качестве оружия, высасывающего энергию, как и сами пиявки."
 
 #: src-en/data/blueprints.xml.append:25229
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_LEO_2\"]/class"
-msgstr "Крейсер класса \"ЭМИ\""
+msgstr "Крейсер Лео"
 
 #: src-en/data/blueprints.xml.append:25230
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_LEO_2\"]/name"
-msgstr "Пре-ЭМИ"
+msgstr "Короткое Замыкание"
 
 #: src-en/data/blueprints.xml.append:25231
 msgid ""
@@ -15414,21 +15281,16 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:25232
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_LEO_2\"]/desc"
 msgstr ""
-"Этот корабль отказывается от защиты в пользу очень сильной атаки, являясь "
-"единственным известным кораблем приведений, использующим в своем арсенале "
-"Предзажигатель. К сожалению, он оснащен только лучевым оружием, которое не "
-"способно пробить щиты, что вынуждает его использовать мощное ЭМИ для "
-"нанесения урона."
+"Этот корабль полностью отказывается от защиты в обмен на предзажигательный "
+"луч, разрушающий защиту противника с помощью системы выброса двигателя."
 
 #: src-en/data/blueprints.xml.append:25304
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_LEO_3\"]/class"
-msgstr "Крейсер класса \"ЭМИ\""
+msgstr "Крейсер Лео"
 
 #: src-en/data/blueprints.xml.append:25305
 msgid ""
@@ -15443,48 +15305,43 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:25307
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_LEO_3\"]/desc"
 msgstr ""
-"Этот корабль начинает забег без энергии, поэтому ему приходится полагаться "
-"на свой экипаж, который вырабатывает энергию и мощное вспомогательное "
-"оборудование, чтобы сгладить ситуацию."
+"Реактора этого корабля едва хватает на питание бортового освещения, не "
+"оставляя ничего для основных систем. Трех Лео должно быть достаточно, чтобы ("
+"в значительной степени) исправить эту проблему."
 
 #: src-en/data/blueprints.xml.append:25379
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SEARAK\"]/class"
-msgstr "Крейсер класса \"Энергия\""
+msgstr "Крейсер Сирака"
 
 #: src-en/data/blueprints.xml.append:25380
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SEARAK\"]/name"
-msgstr "Навитас Навис"
+msgstr "Клипеус Фидеи"
 
 #: src-en/data/blueprints.xml.append:25381
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SEARAK\"]/unlock"
-msgstr "В хаотичном Тартаре освободите от мучений приведение Вестника Заката."
+msgstr ""
+"Освободите душу отчаянного Мученика в зоне хаоса, чтобы разблокировать этот "
+"корабль."
 
 #: src-en/data/blueprints.xml.append:25382
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SEARAK\"]/desc"
 msgstr ""
-"Корабль приведение по имени Сирак. Революционная система энергетического "
-"щита, являющаяся вершиной технологии энергетических щитов, позволяет "
-"перезаряжать слои энергетического щита вместо обычных слоев щита. После "
-"негативного опыта работы с клон-отсеками, Сирак поклялся никогда больше не "
-"попадать в них."
+"На борту этого корабля Сирак создал революционную технологию, позволяющую "
+"его кораблю естественным образом перезаряжать энергетические щиты. В отличие "
+"от большинства кораблей Вестников Заката, на нем нету даже клон-отсека, что "
+"в основном объясняется травмой, полученной Сираком."
 
 #: src-en/data/blueprints.xml.append:25448
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SEARAK_2\"]/class"
-msgstr "Крейсер класса \"Энергия\""
+msgstr "Крейсер Сирака"
 
 #: src-en/data/blueprints.xml.append:25449
 msgid ""
@@ -15497,24 +15354,21 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:25451
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SEARAK_2\"]/desc"
 msgstr ""
-"Этот корабль не оснащен оружием, вместо этого он значительно усиливает "
-"золтанов, но ослабевает экипаж других рас."
+"Этот корабль полностью отказывается от оружия, а для борьбы с врагами "
+"использует мощные энергетические щиты и технологии золтанского превосходства."
 
 #: src-en/data/blueprints.xml.append:25516
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SEARAK_3\"]/class"
-msgstr "Крейсер класса \"Энергия\""
+msgstr "Крейсер Сирака"
 
 #: src-en/data/blueprints.xml.append:25517
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SEARAK_3\"]/name"
-msgstr "Световой Щит"
+msgstr "Общая Память"
 
 #: src-en/data/blueprints.xml.append:25518
 msgid ""
@@ -15524,16 +15378,14 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:25519
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_SEARAK_3\"]/desc"
 msgstr ""
-"У этого корабля нет никаких возможностей для лечения экипажа, кроме "
-"телепортера и ракет, мало того, на нем даже нельзя установить никаких "
-"медицинских систем."
+"На борту этого судна переплелись судьбы нескольких Сираков. Их общая травма "
+"привела к тому, что они полностью отказались от традиционных медицинских "
+"систем, полагаясь на более специализированные методы."
 
 #: src-en/data/blueprints.xml.append:25582
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_AUTO\"]/class"
 msgstr "Автоматический крейсер Легиона"
@@ -15544,31 +15396,29 @@ msgid ""
 msgstr "Праймикс"
 
 #: src-en/data/blueprints.xml.append:25584
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_AUTO\"]/unlock"
-msgstr "В хаотичном Тартаре уничтожьте странный автоматический корабль."
+msgstr ""
+"Уничтожьте автоматический корабль в самом неожиданном месте в зоне хаоса, "
+"чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:25585
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_AUTO\"]/desc"
 msgstr ""
-"Этот крейсер - главная гордость повстанцев, этот автоматический корабль "
-"чрезвычайно эффективно защищает себя от абордажников, но при этом может "
-"иметь на борту экипаж."
+"Ценный корабль повстанцев, который чрезвычайно эффективен в использовании "
+"автоматических средств защиты, не теряя при этом способности содержать "
+"экипаж."
 
 #: src-en/data/blueprints.xml.append:25657
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_AUTO_2\"]/class"
-msgstr "Автоматический крейсер золтан"
+msgstr "Автокрейсер Министерства"
 
 #: src-en/data/blueprints.xml.append:25658
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_AUTO_2\"]/name"
-msgstr "Эксперимент золтан"
+msgstr "Люкс Аетерна"
 
 #: src-en/data/blueprints.xml.append:25659
 msgid ""
@@ -15576,26 +15426,22 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:25660
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_AUTO_2\"]/desc"
 msgstr ""
-"Корпус этого уникального крейсера состоит из твердых и легких материалов "
-"энергетического щита, что делает их единым целым. Поскольку его корпус "
-"связан с энергетическим щитом, в случае разрушения одного из них корабль "
-"будет уничтожен."
+"Эксперимент Министерства, в ходе которого пытались создать корабль, "
+"состоящий в основном из твердого света. В какой-то степени это удалось - "
+"корабль и его энергетический щит являются одним целым."
 
 #: src-en/data/blueprints.xml.append:25738
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_AUTO_3\"]/class"
-msgstr "Автоматический крейсер Федерации"
+msgstr "Автокрейсер Федерации"
 
 #: src-en/data/blueprints.xml.append:25739
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_AUTO_3\"]/name"
-msgstr "Антракс"
+msgstr "Перегрузка"
 
 #: src-en/data/blueprints.xml.append:25740
 msgid ""
@@ -15605,52 +15451,46 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:25741
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_HAUNT_AUTO_3\"]/desc"
 msgstr ""
-"Первая и единственная попытка Федерации создать автоматический корабль "
-"размером с крейсер. Из-за отсутствия возможности набирать экипаж, ему было "
-"позволено нарушить правила безопасности Федерации, доведя свои системы до "
+"Первый и единственный автоматический корабль Федерации размером с крейсер. "
+"Не имея места для экипажа, инженеры корабля довели его системы до "
 "абсолютного предела."
 
 #: src-en/data/blueprints.xml.append:25803
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER\"]/class"
-msgstr "Класс \"Наблюдатель\""
+msgstr "Крейсер Наблюдателя"
 
 #: src-en/data/blueprints.xml.append:25804
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER\"]/name"
-msgstr "Сессио Вигилис"
+msgstr "Бдительность"
 
 #: src-en/data/blueprints.xml.append:25805
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER\"]/unlock"
-msgstr "В хаотическом Тартаре уничтожьте Наблюдателя."
+msgstr ""
+"Уничтожьте неописуемую гнусную сущность в зоне хаоса, чтобы разблокировать "
+"этот корабль."
 
 #: src-en/data/blueprints.xml.append:25806
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER\"]/desc"
 msgstr ""
-"Личный крейсер Наблюдателя, его предназначение неизвестно, как и его цели.\n"
-"Используйте это могучее судно с умом."
+"Личный крейсер Наблюдателя. Управляйте этим судном с умом - планы вашего "
+"нового партнера известны только ему самому."
 
 #: src-en/data/blueprints.xml.append:25878
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER_2\"]/class"
-msgstr "Класс \"Наблюдатель\""
+msgstr "Крейсер Наблюдателя"
 
 #: src-en/data/blueprints.xml.append:25879
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER_2\"]/name"
-msgstr "Картина"
+msgstr "Красивые Картинки"
 
 #: src-en/data/blueprints.xml.append:25880
 msgid ""
@@ -15658,19 +15498,16 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:25881
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER_2\"]/desc"
 msgstr ""
-"Этот корабль обладает сверхъестественной способностью вызывать абордажников,"
-" просто выстрелив из своей артиллерии, что в сочетании с его удивительным "
-"экипажем делает его грозным судном."
+"Этот корабль способен создавать мощную абордажную команду, используя свою "
+"артиллерию. Это усиливает и без того могущественного Наблюдателя."
 
 #: src-en/data/blueprints.xml.append:25954
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER_3\"]/class"
-msgstr "Класс \"Она\""
+msgstr "Ее воплощение"
 
 #: src-en/data/blueprints.xml.append:25955
 msgid ""
@@ -15685,18 +15522,17 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:25957
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER_3\"]/desc"
 msgstr ""
-"Вот что произойдет, если задуманное Наблюдателем воплотится в жизнь: сосуд, "
-"созданный из чистой силы и зла."
+"Возможный результат осуществления планов Наблюдателя. Созданное из чистого "
+"зла, чистой силы и чистого хаоса, Ее новое, самое могущественное проявление "
+"решило совершить пробный вылет по Мультивселенной."
 
 #: src-en/data/blueprints.xml.append:26019
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_AUGUSTUS\"]/class"
-msgstr "Крейсер класса \"Золотой\""
+msgstr "Крейсер Августа"
 
 #: src-en/data/blueprints.xml.append:26020
 msgid ""
@@ -15704,26 +15540,23 @@ msgid ""
 msgstr "Ауреум Империум"
 
 #: src-en/data/blueprints.xml.append:26021
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_AUGUSTUS\"]/unlock"
-msgstr ""
-"Получите особую добычу из явления-фантома после победы над всеми обычными и "
-"хаотичными явлениями."
+msgstr "Победите первое из особых явлений, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26022
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_AUGUSTUS\"]/desc"
 msgstr ""
-"Этот блестящий крейсер обладает аномальной силой, которая улучшает его "
-"системы тем сильнее, чем больше у вас лома."
+"Крейсер, которым владеет Август, привидение самого богатого из когда-либо "
+"живших фантомов. Его системы содержат сверхъестественно усиленные "
+"компоненты, эффективность которых растет по мере того, как вокруг них "
+"накапливается все больше ценностей."
 
 #: src-en/data/blueprints.xml.append:26093
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_AUGUSTUS_2\"]/class"
-msgstr "Крейсер класса \"Золотой\""
+msgstr "Крейсер Августа"
 
 #: src-en/data/blueprints.xml.append:26094
 msgid ""
@@ -15736,19 +15569,17 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26096
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_AUGUSTUS_2\"]/desc"
 msgstr ""
-"Этот крейсер получает большое количество ресурсов, но не имеет возможности "
-"использовать их напрямую, вместо этого ему нужно сначала превратить их в "
-"лом."
+"Этот крейсер начинает с большим количеством ресурсов, но не имеет "
+"возможности их использовать. Вместо этого он должен сначала превратить эти "
+"ресурсы в лом."
 
 #: src-en/data/blueprints.xml.append:26166
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_AUGUSTUS_3\"]/class"
-msgstr "Крейсер класса \"Золотой\""
+msgstr "Крейсер Августа"
 
 #: src-en/data/blueprints.xml.append:26167
 msgid ""
@@ -15763,55 +15594,45 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26169
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_AUGUSTUS_3\"]/desc"
 msgstr ""
-"Вначале этот крейсер может обладать лишь минимумом оборонительных систем, но"
-" его способность быстро накапливать лом, а значит, и энергию, позволит со "
-"временем значительно увеличить его мощность."
+"Несколько копий Августа объединились, чтобы собрать побольше богатств. Хотя "
+"вначале крейсер очень слаб, его способность накапливать огромное количество "
+"лома позволяет ему быстро превратиться в абсолютную силу."
 
 #: src-en/data/blueprints.xml.append:26239
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_SALLY\"]/class"
-msgstr "Крейсер класса \"Кожа\""
+msgstr "Крейсер Салли"
 
 #: src-en/data/blueprints.xml.append:26240
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_SALLY\"]/name"
-msgstr "Мясистый Панцирь"
+msgstr "Гнев Природы"
 
 #: src-en/data/blueprints.xml.append:26241
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_SALLY\"]/unlock"
-msgstr ""
-"Получите особую добычу из явления-паука, победив все обычные и хаотические "
-"явления."
+msgstr "Победите второе из особых явлений, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26242
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_SALLY\"]/desc"
 msgstr ""
-"После долгих экспериментов пауку-приведению этого корабля удалось "
-"разработать метод распространения гигантской расы Инопланетных Пауков, "
-"заражая людей яйцами, которые растут на них как паразиты, а затем вырываются"
-" наружу в виде полноценных детенышей."
+"После долгих экспериментов Салли обнаружила способ распространения паучьего "
+"рода без особых усилий: вынашивать яйца внутри своих врагов, а затем "
+"прорываться сквозь их тела и бороться за жизнь."
 
 #: src-en/data/blueprints.xml.append:26315
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_SALLY_2\"]/class"
-msgstr "Крейсер класса \"Кожа\""
+msgstr "Крейсер Салли"
 
 #: src-en/data/blueprints.xml.append:26316
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_SALLY_2\"]/name"
-msgstr "Морфицированная Плоть"
+msgstr "Запутанные Паутины"
 
 #: src-en/data/blueprints.xml.append:26317
 msgid ""
@@ -15819,26 +15640,22 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26318
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_SALLY_2\"]/desc"
 msgstr ""
-"Этот крейсер - попытка Салли подружиться с другими такими же \"пауками\", "
-"как она, и создать мощный союз с группой трансформировавшихся морфов, "
-"которым нравилось оставаться в форме Королевы пауков, единственной форме, "
-"которую Салли не могла воспроизвести."
+"Салли попыталась подружиться с несколькими \"пауками\", похожими на нее. На "
+"самом деле это были морфы в форме Королев пауков - единственная форма, "
+"которую Салли не могла повторить."
 
 #: src-en/data/blueprints.xml.append:26391
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_SALLY_3\"]/class"
-msgstr "Крейсер класса \"Кожа\""
+msgstr "Крейсер Салли"
 
 #: src-en/data/blueprints.xml.append:26392
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_SALLY_3\"]/name"
-msgstr "Франкенсалли"
+msgstr "Мэри Шелли"
 
 #: src-en/data/blueprints.xml.append:26393
 msgid ""
@@ -15848,54 +15665,43 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26394
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_SALLY_3\"]/desc"
 msgstr ""
-"Этот крейсер из гнилой плоти не оснащен никакими медицинскими системами, "
-"поэтому для победы он полагается на способность Салли полностью исцелять "
-"себя и делиться."
+"Салли подружилась с несколькими своими клонами. На выбранном ими корабле нет "
+"медицинских систем, ведь для исцеления им нужно только раздвоиться."
 
 #: src-en/data/blueprints.xml.append:26470
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_PRINCE\"]/class"
-msgstr "Крейсер класса \"Демон\""
+msgstr "Крейсер Князя"
 
 #: src-en/data/blueprints.xml.append:26471
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_PRINCE\"]/name"
-msgstr "Кошмар Теней"
+msgstr "Кошмар"
 
 #: src-en/data/blueprints.xml.append:26472
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_PRINCE\"]/unlock"
-msgstr ""
-"Получите особую добычу из явления-эквиноида, победив все обычные и "
-"хаотические явления."
+msgstr "Победите третье из особых явлений, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26473
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_PRINCE\"]/desc"
 msgstr ""
-"Благодаря способности крейсера медленно убивать врагов, не давая им "
-"возможности провести контратаку, он является очень эффективным судном для "
-"уничтожения экипажа."
+"Враги не в состоянии дать отпор личному кораблю Князя, что позволяет ему "
+"медленно уничтожать их экипаж одним за другим."
 
 #: src-en/data/blueprints.xml.append:26549
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_PRINCE_2\"]/class"
-msgstr "Крейсер класса \"Демон\""
+msgstr "Крейсер Князя"
 
 #: src-en/data/blueprints.xml.append:26550
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_PRINCE_2\"]/name"
-msgstr "Фелл-Файр"
+msgstr "Бейлфайер"
 
 #: src-en/data/blueprints.xml.append:26551
 msgid ""
@@ -15903,25 +15709,22 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26552
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_PRINCE_2\"]/desc"
 msgstr ""
-"Обзаведясь элитной группой лошадей, Князь Тьмы решил улучшить внешний вид "
-"своего корабля, прежде чем отправиться в путешествие по просторам вселенной,"
-" вселяя страх в сердца каждого."
+"Обзаведясь несколькими верными союзниками-эквиноидами, Князь Тьмы решил "
+"покорить всю Мультивселенную. Распространение ужаса - вот их единственная "
+"цель."
 
 #: src-en/data/blueprints.xml.append:26625
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_PRINCE_3\"]/class"
-msgstr "Крейсер класса \"Демон\""
+msgstr "Крейсер Князя"
 
 #: src-en/data/blueprints.xml.append:26626
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_PRINCE_3\"]/name"
-msgstr "Адское Пламя"
+msgstr "Ангмар"
 
 #: src-en/data/blueprints.xml.append:26627
 msgid ""
@@ -15931,55 +15734,45 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26628
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_PRINCE_3\"]/desc"
 msgstr ""
-"На этом демоническом корабле обитают самые могущественные арх-демоны, "
-"известные Федерации, - группа страшных чудовищ, способных убить вас еще до "
-"того, как вы поймете, что подверглись нападению."
+"Князья Тьмы создали нечто вроде королевского совета. Поговаривают, что в нем "
+"заседают демонические лошади, способные убивать одним лишь взглядом."
 
 #: src-en/data/blueprints.xml.append:26702
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_TRIRIAC\"]/class"
-msgstr "Крейсер класса \"Хаос\""
+msgstr "Крейсер Тририака"
 
 #: src-en/data/blueprints.xml.append:26703
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_TRIRIAC\"]/name"
-msgstr "Контролируемый Хаос"
+msgstr "Истина"
 
 #: src-en/data/blueprints.xml.append:26704
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_TRIRIAC\"]/unlock"
 msgstr ""
-"Получите особую добычу из явления Нечто после победы над всеми обычными и "
-"хаотичными явлениями."
+"Победите четвертое из особых явлений, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26705
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_TRIRIAC\"]/desc"
 msgstr ""
-"Это судно - богохульство, воплощенное в реальность. Оно принадлежит "
-"отколовшейся группе бывших Культистов Того, Кто Рифмует, которые узнали "
-"глубокие и темные секреты, скрытые от них Тем, Кто Рифмует. Теперь, чувствуя"
-" себя преданными, все о чем они мечтают - это раскрыть его предательство."
+"Тририак и его союзники обнаружили ряд секретов, которые скрывали от него Она "
+"и Тот, Кто Рифмует. Теперь все, о чего он хочет, - это разоблачение богов на "
+"корабле, созданном из богохульства, воплощенного в жизнь."
 
 #: src-en/data/blueprints.xml.append:26781
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_TRIRIAC_2\"]/class"
-msgstr "Крейсер класса \"Хаос\""
+msgstr "Крейсер Тририака"
 
 #: src-en/data/blueprints.xml.append:26782
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_TRIRIAC_2\"]/name"
-msgstr "Заклинатель Времени"
+msgstr "Дилатация"
 
 #: src-en/data/blueprints.xml.append:26783
 msgid ""
@@ -15987,25 +15780,21 @@ msgid ""
 msgstr "Достигните сектора 5 на типе А, чтобы разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26784
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_TRIRIAC_2\"]/desc"
 msgstr ""
-"Этот крейсер специализируется на управлении и контроле времени с помощью "
-"Временного манипулятора и мощной артиллерии, которая замедляет течение "
-"времени в отсеках при попадании."
+"В своем стремлении раскрыть правду Тририак экспериментировал с технологией "
+"манипуляции временем, чтобы защитить себя."
 
 #: src-en/data/blueprints.xml.append:26855
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_TRIRIAC_3\"]/class"
-msgstr "Крейсер класса \"Хаос\""
+msgstr "Крейсер Тририака"
 
 #: src-en/data/blueprints.xml.append:26856
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_TRIRIAC_3\"]/name"
-msgstr "Безумные Видения"
+msgstr "Лоботомия"
 
 #: src-en/data/blueprints.xml.append:26857
 msgid ""
@@ -16015,9 +15804,8 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:26858
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_HAUNT_TRIRIAC_3\"]/desc"
 msgstr ""
-"Одного взгляда на это судно достаточно, чтобы все, кто его видит, сошли с "
-"ума, исключение составляют лишь существа, рожденные самим хаосом."
+"Благодаря работе множества Тририаков на этом корабле, он способен "
+"окончательно сводить с ума, как ни одно другое судно."
