@@ -39,7 +39,11 @@
         "data/events_sector_obelisk.xml.append",
         "data/events_special_defeat.xml.append",
         "data/hyperspace.xml.append",
-        "mod-appendix/metadata.xml"
+        "mod-appendix/metadata.xml",
+        "data/events_fr_sector_commonwealth.xml",
+        "data/events_fr_special_finalfight.xml",
+        "data/events_special_transports.xml.append",
+        "data/events_special_trapper.xml.append",
     ],
     "stringSelectionXPath": [
         // XML text extraction rules (XPath)
@@ -85,7 +89,6 @@
         "//unvisitedTooltip",
         "//mod:findName/text",
         "//text",
-        "//tooltip",
         "//metadata/title",
         "//metadata/description",
         "//mod:findLike/mod-append:drone/tooltipName",
@@ -99,6 +102,10 @@
         "//win/@text",
         "//lose/@text",
         "//crewMember",
+        "//mod:findLike[@type='victories']//name",
+        "//mod:findLike[@type='victories']//description",
+        "//mod:findLike[@type='victories']//secretName",
+        "//mod:findLike[@type='victories']//secretDescription",
     ],
 
     "useDummyRoot": true,
