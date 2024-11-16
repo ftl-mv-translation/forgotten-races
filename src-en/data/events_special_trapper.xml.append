@@ -1,0 +1,51 @@
+<FTL>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					COMMONWEALTH
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
+<event name="FR_TRAPPER_COMMONWEALTH" unique="true">
+	<text>It appears even the Commonwealth had Trapper class vessels, because an Commonwealth ship is laying a small defensive minefield at this beacon. They don't notice you luckily.</text>
+	<ship load="FR_SHIP_COMMONWEALTH_TRAPPER" hostile="false"/> 
+	<choice hidden="true">
+		<text>Attack the Trapper!</text>
+		<event>
+			<text>You power up your weapons and fight the Commonwealth ship.</text>
+			<ship hostile="true"/> 
+            <choice hidden="true">
+                <text>Continue...</text>
+                <event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH_FIGHT"/>
+            </choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Avoid them.</text>
+		<event>
+			<text>You decide not to fight the Commonwealths, and fly away.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="FR_DESTROYED_TRAPPER_COMMONWEALTH">
+	<text>While scrapping the wreckage of the Trapper ship, you find a functional Mine Launcher weapon drifting in the midst of the wreckage.</text>
+	<autoReward level="MED">standard</autoReward>
+	<weapon name="FR_COMMONWEALTH_MINELAUNCHER"/>
+</event>
+<event name="FR_DEAD_CREW_TRAPPER_COMMONWEALTH">
+	<text>The Trapper has been emptied of crew. While scrapping it, you find a Mine Launcher in its storage.</text>
+	<autoReward level="MED">standard</autoReward>
+	<weapon name="FR_COMMONWEALTH_MINELAUNCHER"/>
+</event>
+
+</FTL>

@@ -23,21 +23,63 @@ function()
 end
 )
 
--- Crew number check
+-- enemy check (by julk and me)
 
-script.on_game_event("FR_OPERATOR_QUEST",false,
-function()
-  playerShip = Hyperspace.ships.player
-  crewCount = playerShip:CountCrew(false)
-  variable = 0
-  if (crewCount > 5) or (crewcount > 4 and playerShip.bAutomated == true ) then
-    variable = 1
+mods.fr.enemyChecker = {}
+local flagshipSurgeChecker = mods.fr.enemyChecker 
+flagshipSurgeChecker["FR_OBELISK_FLAGSHIP_NOBLE_SURGE"] = true
+flagshipSurgeChecker["FR_OBELISK_FLAGSHIP_COMMONWEALTH_SURGE"] = true
+flagshipSurgeChecker["FR_OBELISK_FLAGSHIP_WITHER_SURGE"] = true
+flagshipSurgeChecker["FR_OBELISK_FLAGSHIP_ROYAL_SURGE"] = true
+flagshipSurgeChecker["FR_OBELISK_FLAGSHIP_G_SURGE"] = true
+flagshipSurgeChecker["FR_OBELISK_FLAGSHIP_Y_SURGE"] = true
+
+script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(ShipManager)
+  local OtherShipManager = Hyperspace.ships(1 - ShipManager.iShipId)
+  for k,v in pairs(flagshipSurgeChecker) do
+    if Hyperspace.ships.player and Hyperspace.ships.player:GetAugmentationValue(k) > 0 and ShipManager.iShipId == 0 then
+      if OtherShipManager and OtherShipManager._targetable.hostile then
+        Hyperspace.playerVariables.fr_enemy_present = 1
+      else
+        Hyperspace.playerVariables.fr_enemy_present = 0
+      end
+    end
   end
-  Hyperspace.playerVariables.forgorEnoughCrew = variable
 end)
 
+-- asb check (by me)
+
+mods.fr.asbChecker = {}
+local flagshipASBChecker = mods.fr.asbChecker 
+flagshipASBChecker["FR_OBELISK_FLAGSHIP_Y_SURGE"] = true
+
+script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(ShipManager)
+  for k,v in pairs(flagshipASBChecker) do
+    if Hyperspace.ships.player and Hyperspace.ships.player:GetAugmentationValue(k) > 0 and ShipManager.iShipId == 0 then
+      local SpaceManager = Hyperspace.Global.GetInstance():GetCApp().world.space
+      if SpaceManager.bPDS then
+        Hyperspace.playerVariables.fr_asb_check = 1
+      else
+        Hyperspace.playerVariables.fr_asb_check = 0
+      end
+    end
+  end
+end)
+
+-- ion resist check
+script.on_game_event("FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO",false,
+function()
+  if Hyperspace.ships.player:GetAugmentationValue("ION_ARMOR") >= 1 then
+    Hyperspace.playerVariables.fr_full_ion_immunity = 1
+  else
+    Hyperspace.playerVariables.fr_full_ion_immunity = 0
+  end
+end
+)
+
+
 -- Discharge Surge
-local vter = mods.inferno.vter
+local vter = mods.fusion.vter
 script.on_game_event("FR_DISCHARGE", false, 
 function()
     local shipManager = Hyperspace.ships.enemy
@@ -53,9 +95,9 @@ function()
 end)
 
 -- Vin apparition teleport code (by Arc)
-script.on_game_event("FR_HAUNT_APPARITION_VIN", false, function()
-    local shipManager = Hyperspace.ships(1)
-    local pShipManager = Hyperspace.ships(0)
+script.on_game_event("FR_REVENANT_APPARITION_VIN", false, function()
+    local shipManager = Hyperspace.ships.enemy
+    local pShipManager = Hyperspace.ships.player
     local sysDamage = Hyperspace.Damage()
     sysDamage.iIonDamage = 3 --15 seconds
     shipManager:DamageSystem(9, sysDamage) --9 is teleporter system id
@@ -63,3 +105,4 @@ script.on_game_event("FR_HAUNT_APPARITION_VIN", false, function()
         crewmem.extend:InitiateTeleport(pShipManager.iShipId,0,0)
     end
 end)
+

@@ -1,4 +1,4 @@
-local vter = mods.inferno.vter
+local vter = mods.fusion.vter
 
 local function string_starts(str, start)
     return string.sub(str, 1, string.len(start)) == start

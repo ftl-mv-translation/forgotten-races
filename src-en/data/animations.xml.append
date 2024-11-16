@@ -1532,7 +1532,7 @@
 
 <!-- 
 **********************************************************************************************************************
-                                                HAUNTS
+                                                REVENANTS
 **********************************************************************************************************************
 -->
 
@@ -3052,7 +3052,7 @@ SLIMER ANIMATIONS
 
 <!--
 *******************
-  CHAOS HAUNT ANIMATIONS
+  CHAOS REVENANTS ANIMATIONS
 ********************
 -->
 
@@ -8886,6 +8886,253 @@ SLIMER ANIMATIONS
 	<time>1</time>
 </anim>
 
+
+<!-- 
+*********************************************************************************************************
+                   COLLECTOR SYLVAN
+*********************************************************************************************************
+-->
+
+<animSheet name="fr_unique_collector" w="315" h="455" fw="35" fh="35">people/fr_unique_collector_base.png</animSheet>
+<anim name="fr_unique_collector_clone">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="6" x="0" y="1" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_collector_death_right">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="7" x="2" y="0" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_collector_walk_down">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="0" y="12" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_collector_walk_right">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="4" y="12" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_collector_walk_up">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="0" y="11" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_collector_walk_left">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="4" y="11" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_collector_shoot_down">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="3" x="0" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_collector_shoot_right">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="3" x="3" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_collector_shoot_up">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="3" x="6" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_collector_shoot_left">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="3" x="6" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_collector_fire_down">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="0" y="9" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_collector_fire_right">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="4" y="9" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_collector_fire_up">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="0" y="8" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_collector_fire_left">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="4" y="8" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_collector_repair">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="9" x="0" y="7" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_collector_punch_up">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="6" x="0" y="5" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_collector_punch_down">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="6" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_collector_teleport">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="9" x="0" y="2" />
+	<time>0.5</time>
+</anim>
+<anim name="fr_unique_collector_type_right">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="0" y="4" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_collector_type_left">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="4" y="4" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_collector_type_up">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="0" y="3" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_collector_type_down">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="4" x="4" y="3" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_collector_portrait">
+	<sheet>fr_unique_collector</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+
+<!-- 
+*********************************************************************************************************
+                   COMMONWEALTH SYLVAN (CYLVAN)
+*********************************************************************************************************
+-->
+
+<animSheet name="fr_unique_cylvan" w="315" h="455" fw="35" fh="35">people/fr_unique_cylvan_base.png</animSheet>
+<anim name="fr_unique_cylvan_clone">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="6" x="0" y="1" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_cylvan_death_right">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="7" x="2" y="0" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_cylvan_walk_down">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="0" y="12" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_cylvan_walk_right">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="4" y="12" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_cylvan_walk_up">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="0" y="11" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_cylvan_walk_left">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="4" y="11" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_cylvan_shoot_down">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="3" x="0" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_cylvan_shoot_right">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="3" x="3" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_cylvan_shoot_up">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="3" x="6" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_cylvan_shoot_left">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="3" x="6" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_cylvan_fire_down">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="0" y="9" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_cylvan_fire_right">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="4" y="9" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_cylvan_fire_up">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="0" y="8" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_cylvan_fire_left">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="4" y="8" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_cylvan_repair">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="9" x="0" y="7" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_cylvan_punch_up">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="6" x="0" y="5" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_cylvan_punch_down">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="6" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_cylvan_teleport">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="9" x="0" y="2" />
+	<time>0.5</time>
+</anim>
+<anim name="fr_unique_cylvan_type_right">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="0" y="4" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_cylvan_type_left">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="4" y="4" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_cylvan_type_up">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="0" y="3" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_cylvan_type_down">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="4" x="4" y="3" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_cylvan_portrait">
+	<sheet>fr_unique_cylvan</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+
 <!-- 
 *********************************************************************************************************
                    BILLVAN
@@ -9126,10 +9373,645 @@ SLIMER ANIMATIONS
 	<desc length="1" x="0" y="0" />
 	<time>1</time>
 </anim>
+
+<!-- 
+*********************************************************************************************************
+                   QUEEN Y
+*********************************************************************************************************
+-->
+
+<animSheet name="fr_unique_y" w="560" h="455" fw="35" fh="35">people/fr_unique_y_base.png</animSheet>
+<anim name="fr_unique_y_clone">
+	<sheet>fr_unique_y</sheet>
+	<desc length="6" x="0" y="2" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_y_death_right">
+	<sheet>fr_unique_y</sheet>
+	<desc length="14" x="2" y="0" />
+	<time>2</time>
+</anim>
+<anim name="fr_unique_y_death_left">
+	<sheet>fr_unique_y</sheet>
+	<desc length="14" x="0" y="2" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_unique_y_walk_down">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="0" y="12" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_y_walk_right">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="8" y="12" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_y_walk_up">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="0" y="11" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_y_walk_left">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="8" y="11" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_y_shoot_down">
+	<sheet>fr_unique_y</sheet>
+	<desc length="3" x="0" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_y_shoot_right">
+	<sheet>fr_unique_y</sheet>
+	<desc length="3" x="3" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_y_shoot_up">
+	<sheet>fr_unique_y</sheet>
+	<desc length="3" x="6" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_y_shoot_left">
+	<sheet>fr_unique_y</sheet>
+	<time>1.0</time>
+	<desc length="3" x="0" y="1" />
+</anim>
+<anim name="fr_unique_y_fire_down">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="0" y="9" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_y_fire_right">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="8" y="9" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_y_fire_up">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="0" y="8" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_y_fire_left">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="8" y="8" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_unique_y_repair">
+	<sheet>fr_unique_y</sheet>
+	<desc length="16" x="0" y="7" />
+	<time>1.75</time>
+</anim>
+<anim name="fr_unique_y_punch_up">
+	<sheet>fr_unique_y</sheet>
+	<desc length="12" x="3" y="1" />
+	<time>1.5</time>
+</anim>
+<anim name="fr_unique_y_punch_down">
+	<sheet>fr_unique_y</sheet>
+	<desc length="12" x="3" y="6" />
+	<time>1.5</time>
+</anim>
+<anim name="fr_unique_y_teleport">
+	<sheet>fr_unique_y</sheet>
+	<desc length="16" x="0" y="3" />
+	<time>0.5</time>
+</anim>
+<anim name="fr_unique_y_type_right">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="0" y="5" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_unique_y_type_left">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="8" y="5" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_unique_y_type_up">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="0" y="4" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_unique_y_type_down">
+	<sheet>fr_unique_y</sheet>
+	<desc length="8" x="8" y="4" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_unique_y_portrait">
+	<sheet>fr_unique_y</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+
+<!-- ABSOLUTE COGNITIVE -->
+<animSheet name="fr_absolute_cognitive" w="560" h="280" fw="35" fh="35">people/fr_absolute_cognitive_base.png</animSheet>
+
+<anim name="fr_absolute_cognitive_clone">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="10" x="0" y="3" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_absolute_cognitive_death_right">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="9" x="0" y="5" />
+	<time>2</time>
+</anim>
+<anim name="fr_absolute_cognitive_death_left">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="9" x="0" y="5" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_absolute_cognitive_walk_down">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>0.6</time>
+</anim>
+<anim name="fr_absolute_cognitive_walk_right">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_walk_up">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_walk_left">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_shoot_down">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_shoot_right">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_shoot_up">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_shoot_left">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_fire_down">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_absolute_cognitive_fire_right">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_absolute_cognitive_fire_up">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_absolute_cognitive_fire_left">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_absolute_cognitive_repair">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="4" x="0" y="1" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_absolute_cognitive_punch_up">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_punch_down">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_teleport">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="8" x="2" y="0" />
+	<time>0.5</time>
+</anim>
+<anim name="fr_absolute_cognitive_type_right">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_type_left">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_type_up">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_type_down">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_absolute_cognitive_portrait">
+	<sheet>fr_absolute_cognitive</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+
+
+<!-- 
+*********************************************************************************************************
+                   DEVISERS
+*********************************************************************************************************
+-->
+
+<animSheet name="fr_deviser" w="560" h="455" fw="35" fh="35">people/fr_deviser_base.png</animSheet>
+<anim name="fr_deviser_clone">
+	<sheet>fr_deviser</sheet>
+	<desc length="6" x="0" y="2" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_deviser_death_right">
+	<sheet>fr_deviser</sheet>
+	<desc length="14" x="2" y="0" />
+	<time>2</time>
+</anim>
+<anim name="fr_deviser_death_left">
+	<sheet>fr_deviser</sheet>
+	<desc length="14" x="0" y="2" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_deviser_walk_down">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="0" y="12" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_walk_right">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="8" y="12" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_walk_up">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="0" y="11" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_walk_left">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="8" y="11" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_shoot_down">
+	<sheet>fr_deviser</sheet>
+	<desc length="3" x="0" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_shoot_right">
+	<sheet>fr_deviser</sheet>
+	<desc length="3" x="3" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_shoot_up">
+	<sheet>fr_deviser</sheet>
+	<desc length="3" x="6" y="10" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_shoot_left">
+	<sheet>fr_deviser</sheet>
+	<desc length="3" x="0" y="1" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_fire_down">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="0" y="9" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_fire_right">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="8" y="9" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_fire_up">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="0" y="8" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_fire_left">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="8" y="8" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_deviser_repair">
+	<sheet>fr_deviser</sheet>
+	<desc length="16" x="0" y="7" />
+	<time>1.75</time>
+</anim>
+<anim name="fr_deviser_punch_up">
+	<sheet>fr_deviser</sheet>
+	<desc length="12" x="3" y="1" />
+	<time>1.5</time>
+</anim>
+<anim name="fr_deviser_punch_down">
+	<sheet>fr_deviser</sheet>
+	<desc length="12" x="3" y="6" />
+	<time>1.5</time>
+</anim>
+<anim name="fr_deviser_teleport">
+	<sheet>fr_deviser</sheet>
+	<desc length="16" x="0" y="3" />
+	<time>0.5</time>
+</anim>
+<anim name="fr_deviser_type_right">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="0" y="5" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_deviser_type_left">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="8" y="5" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_deviser_type_up">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="0" y="4" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_deviser_type_down">
+	<sheet>fr_deviser</sheet>
+	<desc length="8" x="8" y="4" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_deviser_portrait">
+	<sheet>fr_deviser</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+
+<!-- 
+*********************************************************************************************************
+                   G Cognitive
+*********************************************************************************************************
+-->
+
+<animSheet name="fr_necromantic_cognitive" w="560" h="280" fw="35" fh="35">people/fr_necromantic_cognitive_base.png</animSheet>
+
+<anim name="fr_necromantic_cognitive_clone">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="10" x="0" y="3" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_necromantic_cognitive_death_right">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="9" x="0" y="5" />
+	<time>2</time>
+</anim>
+<anim name="fr_necromantic_cognitive_death_left">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="9" x="0" y="5" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_necromantic_cognitive_walk_down">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>0.6</time>
+</anim>
+<anim name="fr_necromantic_cognitive_walk_right">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_walk_up">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_walk_left">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_shoot_down">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_shoot_right">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_shoot_up">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_shoot_left">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_fire_down">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_necromantic_cognitive_fire_right">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_necromantic_cognitive_fire_up">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_necromantic_cognitive_fire_left">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_necromantic_cognitive_repair">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="4" x="0" y="1" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_necromantic_cognitive_punch_up">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_punch_down">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_teleport">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="8" x="2" y="0" />
+	<time>0.5</time>
+</anim>
+<anim name="fr_necromantic_cognitive_type_right">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_type_left">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_type_up">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_type_down">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_portrait">
+	<sheet>fr_necromantic_cognitive</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_necromantic_cognitive_beacon" w="560" h="280" fw="35" fh="35">people/fr_necromantic_cognitive_beacon_base.png</animSheet>
+
+<anim name="fr_necromantic_cognitive_beacon_clone">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="10" x="0" y="3" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_death_right">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="9" x="0" y="5" />
+	<time>2</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_death_left">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="9" x="0" y="5" />
+	<time>0.75</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_walk_down">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>0.6</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_walk_right">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_walk_up">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_walk_left">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="4" x="0" y="7" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_shoot_down">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_shoot_right">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_shoot_up">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_shoot_left">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_fire_down">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_fire_right">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_fire_up">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_fire_left">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="10" x="0" y="4" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_repair">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="4" x="0" y="1" />
+	<time>0.8</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_punch_up">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_punch_down">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="15" x="0" y="6" />
+	<time>1.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_teleport">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="8" x="2" y="0" />
+	<time>0.5</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_type_right">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_type_left">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_type_up">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_type_down">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="4" x="0" y="2" />
+	<time>2.0</time>
+</anim>
+<anim name="fr_necromantic_cognitive_beacon_portrait">
+	<sheet>fr_necromantic_cognitive_beacon</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+
+
 <!-- 
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
-					BONUS HAUNT
+					BONUS REVENANTS
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
 -->
@@ -11345,6 +12227,16 @@ SLIMER ANIMATIONS
 **********************************************************************************************************************
 -->
 
+<animSheet name="fr_commonwealth_mine_launcher" w="344" h="46" fw="43" fh="46">weapon_ancient/fr_commonwealth_mine_launcher.png</animSheet>
+<weaponAnim name="fr_commonwealth_mine_launcher">
+	<sheet>fr_commonwealth_mine_launcher</sheet>
+	<desc length="8" x="0" y="0" />
+	<chargedFrame>6</chargedFrame>
+	<fireFrame>7</fireFrame>
+	<firePoint x="22" y="21" />
+	<mountPoint x="2" y="20" />
+</weaponAnim>
+
 <animSheet name="fr_commonwealth_bomblauncher" w="609" h="68" fw="29" fh="68">weapon_ancient/fr_commonwealth_bomblauncher.png</animSheet>
 <weaponAnim name="fr_commonwealth_bomblauncher">
 	<sheet>fr_commonwealth_bomblauncher</sheet>
@@ -11642,11 +12534,11 @@ SLIMER ANIMATIONS
 
 <!-- 
 **********************************************************************************************************************
-                                                HAUNTS 
+                                                REVENANTS 
 **********************************************************************************************************************
 -->
 
-<animSheet name="fr_slimer_bomblauncher" w="646" h="47" fw="38" fh="47">weapon_haunt/fr_slimer_bomblauncher.png</animSheet>
+<animSheet name="fr_slimer_bomblauncher" w="646" h="47" fw="38" fh="47">weapon_revenant/fr_slimer_bomblauncher.png</animSheet>
 <weaponAnim name="fr_slimer_bomblauncher">
 	<sheet>fr_slimer_bomblauncher</sheet>
 	<desc length="17" x="0" y="0"/>
@@ -11654,10 +12546,10 @@ SLIMER ANIMATIONS
 	<fireFrame>12</fireFrame>
 	<firePoint x="21" y="22" />
 	<mountPoint x="2" y="29" />
-	<chargeImage>weapon_haunt/fr_slimer_bomblauncher_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_slimer_bomblauncher_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_phys_beam" w="336" h="54" fw="42" fh="54">weapon_haunt/fr_phys_beam.png</animSheet>
+<animSheet name="fr_phys_beam" w="336" h="54" fw="42" fh="54">weapon_revenant/fr_phys_beam.png</animSheet>
 <weaponAnim name="fr_phys_beam">
 	<sheet>fr_phys_beam</sheet>
 	<desc length="8" x="0" y="0"/>
@@ -11665,10 +12557,10 @@ SLIMER ANIMATIONS
 	<fireFrame>2</fireFrame>
 	<firePoint x="24" y="25" />
 	<mountPoint x="6" y="33" />
-	<chargeImage>weapon_haunt/fr_phys_beam_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_phys_beam_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_aleenor_sniper" w="280" h="86" fw="28" fh="86">weapon_haunt/fr_aleenor_sniper.png</animSheet>
+<animSheet name="fr_aleenor_sniper" w="280" h="86" fw="28" fh="86">weapon_revenant/fr_aleenor_sniper.png</animSheet>
 <weaponAnim name="fr_aleenor_sniper">
 	<sheet>fr_aleenor_sniper</sheet>
 	<desc length="10" x="0" y="0"/>
@@ -11676,17 +12568,17 @@ SLIMER ANIMATIONS
 	<fireFrame>3</fireFrame>
 	<firePoint  x="16" y="36"/>
 	<mountPoint x="4" y="60"/>
-	<chargeImage>weapon_haunt/fr_aleenor_sniper_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_aleenor_sniper_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_vin_missile_launcher_charge_glow" w="195" h="53" fw="39" fh="53">weapon_haunt/fr_vin_missile_launcher_charge_glow.png</animSheet>
+<animSheet name="fr_vin_missile_launcher_charge_glow" w="195" h="53" fw="39" fh="53">weapon_revenant/fr_vin_missile_launcher_charge_glow.png</animSheet>
 <anim name="fr_vin_missile_launcher_charge_glow">
 	<sheet>fr_vin_missile_launcher_charge_glow</sheet>
 	<desc length="5" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 
-<animSheet name="fr_vin_missile_launcher" w="468" h="53" fw="39" fh="53">weapon_haunt/fr_vin_missile_launcher.png</animSheet>
+<animSheet name="fr_vin_missile_launcher" w="468" h="53" fw="39" fh="53">weapon_revenant/fr_vin_missile_launcher.png</animSheet>
 <weaponAnim name="fr_vin_missile_launcher">
 	<sheet>fr_vin_missile_launcher</sheet>
 	<desc length="12" x="0" y="0"/>
@@ -11697,18 +12589,18 @@ SLIMER ANIMATIONS
 	<boost>fr_vin_missile_launcher_charge_glow</boost>
 </weaponAnim>
 
-<animSheet name="fr_zulu_holy_pike" w="494" h="80" fw="38" fh="80">weapon_haunt/fr_zulu_holy_pike.png</animSheet>
+<animSheet name="fr_zulu_holy_pike" w="465" h="72" fw="31" fh="72">weapon_revenant/fr_zulu_holy_pike.png</animSheet>
 <weaponAnim name="fr_zulu_holy_pike">
 	<sheet>fr_zulu_holy_pike</sheet>
-	<desc length="13" x="0" y="0"/>
-	<chargedFrame>7</chargedFrame>
-	<fireFrame>8</fireFrame>
-	<firePoint  x="19" y="3"/>
-	<mountPoint x="1" y="79"/>
-	<chargeImage>weapon_haunt/fr_zulu_holy_pike_glow.png</chargeImage>
+	<desc length="15" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="18" y="15"/>
+	<mountPoint x="0" y="51"/>
+	<chargeImage>weapon_revenant/fr_zulu_holy_pike_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_necromantic_plasma" w="238" h="77" fw="34" fh="77">weapon_haunt/fr_necromantic_plasma.png</animSheet>
+<animSheet name="fr_necromantic_plasma" w="238" h="77" fw="34" fh="77">weapon_revenant/fr_necromantic_plasma.png</animSheet>
 <weaponAnim name="fr_necromantic_plasma">
 	<sheet>fr_necromantic_plasma</sheet>
 	<desc length="7" x="0" y="0" />
@@ -11716,10 +12608,10 @@ SLIMER ANIMATIONS
 	<fireFrame>6</fireFrame>
 	<firePoint x="18" y="26" />
 	<mountPoint x="4" y="49" />
-	<chargeImage>weapon_haunt/fr_necromantic_plasma_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_necromantic_plasma_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_necromantic_laser" w="285" h="105" fw="57" fh="105">weapon_haunt/fr_necromantic_laser.png</animSheet>
+<animSheet name="fr_necromantic_laser" w="285" h="105" fw="57" fh="105">weapon_revenant/fr_necromantic_laser.png</animSheet>
 <weaponAnim name="fr_necromantic_laser">
 	<sheet>fr_necromantic_laser</sheet>
 	<desc length="5" x="0" y="0" />
@@ -11731,11 +12623,11 @@ SLIMER ANIMATIONS
 
 <!-- 
 **********************************************************************************************************************
-                                               CHAOS HAUNTS 
+                                               CHAOS REVENANTS 
 **********************************************************************************************************************
 -->
 
-<animSheet name="fr_smoke_crystal_minelauncher" w="114" h="44" fw="38" fh="44">weapon_haunt/fr_smoke_crystal_minelauncher.png</animSheet>
+<animSheet name="fr_smoke_crystal_minelauncher" w="114" h="44" fw="38" fh="44">weapon_revenant/fr_smoke_crystal_minelauncher.png</animSheet>
 <weaponAnim name="fr_smoke_crystal_minelauncher">
 	<sheet>fr_smoke_crystal_minelauncher</sheet>
 	<desc length="3" x="0" y="0"/>
@@ -11743,10 +12635,10 @@ SLIMER ANIMATIONS
 	<fireFrame>2</fireFrame>
 	<firePoint  x="20" y="10"/>
 	<mountPoint x="8" y="20"/>
-	<chargeImage>weapon_haunt/fr_smoke_crystal_minelauncher_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_smoke_crystal_minelauncher_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_smoke_repair_bomb" w="435" h="48" fw="29" fh="48">weapon_haunt/fr_smoke_repair_bomb.png</animSheet>
+<animSheet name="fr_smoke_repair_bomb" w="435" h="48" fw="29" fh="48">weapon_revenant/fr_smoke_repair_bomb.png</animSheet>
 <weaponAnim name="fr_smoke_repair_bomb">
 	<sheet>fr_smoke_repair_bomb</sheet>
 	<desc length="15" x="0" y="0" />
@@ -11754,10 +12646,10 @@ SLIMER ANIMATIONS
 	<fireFrame>12</fireFrame>
 	<firePoint x="17" y="23" />
 	<mountPoint x="2" y="30" />
-	<chargeImage>weapon_haunt/fr_smoke_repair_bomb_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_smoke_repair_bomb_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_chills_snow_flak" w="1072" h="79" fw="67" fh="79">weapon_haunt/fr_chills_snow_flak.png</animSheet>
+<animSheet name="fr_chills_snow_flak" w="1072" h="79" fw="67" fh="79">weapon_revenant/fr_chills_snow_flak.png</animSheet>
 <weaponAnim name="fr_chills_snow_flak">
 	<sheet>fr_chills_snow_flak</sheet>
 	<desc length="16" x="0" y="0"/>
@@ -11765,17 +12657,17 @@ SLIMER ANIMATIONS
 	<fireFrame>8</fireFrame>
 	<firePoint  x="31" y="20"/>
 	<mountPoint x="6" y="51"/>
-	<chargeImage>weapon_haunt/fr_chills_snow_flak_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_chills_snow_flak_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_chills_spore_bomblauncher_chain_glow" w="123" h="62" fw="41" fh="62">weapon_haunt/fr_chills_spore_bomblauncher_chain_glow.png</animSheet>
+<animSheet name="fr_chills_spore_bomblauncher_chain_glow" w="123" h="62" fw="41" fh="62">weapon_revenant/fr_chills_spore_bomblauncher_chain_glow.png</animSheet>
 <anim name="fr_chills_spore_bomblauncher_chain_glow">
 	<sheet>fr_chills_spore_bomblauncher_chain_glow</sheet>
 	<desc length="3" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 
-<animSheet name="fr_chills_spore_bomblauncher" w="369" h="62" fw="41" fh="62">weapon_haunt/fr_chills_spore_bomblauncher.png</animSheet>
+<animSheet name="fr_chills_spore_bomblauncher" w="369" h="62" fw="41" fh="62">weapon_revenant/fr_chills_spore_bomblauncher.png</animSheet>
 <weaponAnim name="fr_chills_spore_bomblauncher">
 	<sheet>fr_chills_spore_bomblauncher</sheet>
 	<desc length="9" x="0" y="0"/>
@@ -11783,11 +12675,11 @@ SLIMER ANIMATIONS
 	<fireFrame>8</fireFrame>
 	<firePoint x="25" y="12" />
 	<mountPoint x="8" y="38" />
-	<chargeImage>weapon_haunt/fr_chills_spore_bomblauncher_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_chills_spore_bomblauncher_glow.png</chargeImage>
 	<boost>fr_chills_spore_bomblauncher_chain_glow</boost>
 </weaponAnim>
 
-<animSheet name="fr_pok_clone_launcher" w="756" h="80" fw="54" fh="80">weapon_haunt/fr_pok_clone_launcher.png</animSheet>
+<animSheet name="fr_pok_clone_launcher" w="756" h="80" fw="54" fh="80">weapon_revenant/fr_pok_clone_launcher.png</animSheet>
 <weaponAnim name="fr_pok_clone_launcher">
 	<sheet>fr_pok_clone_launcher</sheet>
 	<desc length="14" x="0" y="0"/>
@@ -11795,11 +12687,11 @@ SLIMER ANIMATIONS
 	<fireFrame>6</fireFrame>
 	<firePoint  x="29" y="8"/>
 	<mountPoint x="9" y="38"/>
-	<chargeImage>weapon_haunt/fr_pok_clone_launcher_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_pok_clone_launcher_glow.png</chargeImage>
 	<time>0.5</time>
 </weaponAnim>
 
-<animSheet name="fr_leo_battery" w="150" h="101" fw="50" fh="101">weapon_haunt/fr_leo_battery.png</animSheet>
+<animSheet name="fr_leo_battery" w="150" h="101" fw="50" fh="101">weapon_revenant/fr_leo_battery.png</animSheet>
 <weaponAnim name="fr_leo_battery">
 	<sheet>fr_leo_battery</sheet>
 	<desc length="3" x="0" y="0"/>
@@ -11807,16 +12699,16 @@ SLIMER ANIMATIONS
 	<fireFrame>2</fireFrame>
 	<firePoint x="0" y="0" />
 	<mountPoint x="9" y="70" />
-	<chargeImage>weapon_haunt/fr_leo_battery_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_leo_battery_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_searak_energy_chain_glow" w="141" h="67" fw="47" fh="67">weapon_haunt/fr_searak_energy_chain_glow.png</animSheet>
+<animSheet name="fr_searak_energy_chain_glow" w="141" h="67" fw="47" fh="67">weapon_revenant/fr_searak_energy_chain_glow.png</animSheet>
 <anim name="fr_searak_energy_chain_glow">
 	<sheet>fr_searak_energy_chain_glow</sheet>
 	<desc length="3" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
-<animSheet name="fr_searak_energy" w="940" h="67" fw="47" fh="67">weapon_haunt/fr_searak_energy.png</animSheet>
+<animSheet name="fr_searak_energy" w="940" h="67" fw="47" fh="67">weapon_revenant/fr_searak_energy.png</animSheet>
 <weaponAnim name="fr_searak_energy">
 	<sheet>fr_searak_energy</sheet>
 	<desc length="20" x="0" y="0"/>
@@ -11825,10 +12717,10 @@ SLIMER ANIMATIONS
 	<firePoint  x="38" y="13" charge="10"/>
 	<mountPoint x="9" y="44"/>
 	<boost>fr_searak_energy_chain_glow</boost>
-	<chargeImage>weapon_haunt/fr_searak_energy_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_searak_energy_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_legion_auto_zenith" w="370" h="93" fw="37" fh="93">weapon_haunt/fr_legion_auto_zenith.png</animSheet>
+<animSheet name="fr_legion_auto_zenith" w="370" h="93" fw="37" fh="93">weapon_revenant/fr_legion_auto_zenith.png</animSheet>
 <weaponAnim name="fr_legion_auto_zenith">
 	<sheet>fr_legion_auto_zenith</sheet>
 	<desc length="10" x="0" y="0"/>
@@ -11836,10 +12728,10 @@ SLIMER ANIMATIONS
 	<fireFrame>7</fireFrame>
 	<firePoint  x="23" y="11"/>
 	<mountPoint x="7" y="75"/>
-	<chargeImage>weapon_haunt/fr_legion_auto_zenith_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_legion_auto_zenith_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_watcher_beam" w="510" h="76" fw="51" fh="76">weapon_haunt/fr_watcher_beam.png</animSheet>
+<animSheet name="fr_watcher_beam" w="510" h="76" fw="51" fh="76">weapon_revenant/fr_watcher_beam.png</animSheet>
 <weaponAnim name="fr_watcher_beam">
 	<sheet>fr_watcher_beam</sheet>
 	<desc length="10" x="0" y="0"/>
@@ -11847,7 +12739,7 @@ SLIMER ANIMATIONS
 	<fireFrame>2</fireFrame>
 	<firePoint  x="28" y="31"/>
 	<mountPoint x="8" y="50"/>
-	<chargeImage>weapon_haunt/fr_watcher_beam_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_watcher_beam_glow.png</chargeImage>
 </weaponAnim>
 
 <!-- 
@@ -11856,7 +12748,7 @@ SLIMER ANIMATIONS
 **********************************************************************************************************************
 -->
 
-<animSheet name="fr_slimer_nebula_stimulants" w="612" h="45" fw="36" fh="45">weapon_haunt/fr_slimer_nebula_stimulants.png</animSheet>
+<animSheet name="fr_slimer_nebula_stimulants" w="612" h="45" fw="36" fh="45">weapon_revenant/fr_slimer_nebula_stimulants.png</animSheet>
 <weaponAnim name="fr_slimer_nebula_stimulants">
 	<sheet>fr_slimer_nebula_stimulants</sheet>
 	<desc length="17" x="0" y="0" />
@@ -11864,10 +12756,10 @@ SLIMER ANIMATIONS
 	<fireFrame>12</fireFrame>
 	<firePoint x="21" y="23" />
 	<mountPoint x="6" y="28" />
-	<chargeImage>weapon_haunt/fr_slimer_nebula_stimulants_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_slimer_nebula_stimulants_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_phys_ion_pinpoint" w="190" h="91" fw="38" fh="91">weapon_haunt/fr_phys_ion_pinpoint.png</animSheet>
+<animSheet name="fr_phys_ion_pinpoint" w="190" h="91" fw="38" fh="91">weapon_revenant/fr_phys_ion_pinpoint.png</animSheet>
 <weaponAnim name="fr_phys_ion_pinpoint">
 	<sheet>fr_phys_ion_pinpoint</sheet>
 	<desc length="5" x="0" y="0" />
@@ -11875,10 +12767,10 @@ SLIMER ANIMATIONS
 	<fireFrame>2</fireFrame>
 	<firePoint x="21" y="34" />
 	<mountPoint x="6" y="68" />
-	<chargeImage>weapon_haunt/fr_phys_ion_pinpoint_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_phys_ion_pinpoint_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_aleenor_bio_light_laser" w="690" h="102" fw="46" fh="102">weapon_haunt/fr_aleenor_bio_light_laser.png</animSheet>
+<animSheet name="fr_aleenor_bio_light_laser" w="690" h="102" fw="46" fh="102">weapon_revenant/fr_aleenor_bio_light_laser.png</animSheet>
 <weaponAnim name="fr_aleenor_bio_light_laser">
 	<sheet>fr_aleenor_bio_light_laser</sheet>
 	<desc length="15" x="0" y="0" />
@@ -11888,7 +12780,7 @@ SLIMER ANIMATIONS
 	<mountPoint x="4" y="60" />
 </weaponAnim>
 
-<animSheet name="fr_vin_frost_missile" w="442" h="75" fw="34" fh="75">weapon_haunt/fr_vin_frost_missile.png</animSheet>
+<animSheet name="fr_vin_frost_missile" w="442" h="75" fw="34" fh="75">weapon_revenant/fr_vin_frost_missile.png</animSheet>
 <weaponAnim name="fr_vin_frost_missile">
 	<sheet>fr_vin_frost_missile</sheet>
 	<desc length="13" x="0" y="0" />
@@ -11898,25 +12790,25 @@ SLIMER ANIMATIONS
 	<mountPoint x="7" y="49" />
 </weaponAnim>
 
-<animSheet name="fr_zulu_shadow_pinpoint" w="494" h="80" fw="38" fh="80">weapon_haunt/fr_zulu_shadow_pinpoint.png</animSheet>
+<animSheet name="fr_zulu_shadow_pinpoint" w="465" h="72" fw="31" fh="72">weapon_revenant/fr_zulu_shadow_pinpoint.png</animSheet>
 <weaponAnim name="fr_zulu_shadow_pinpoint">
 	<sheet>fr_zulu_shadow_pinpoint</sheet>
-	<desc length="13" x="0" y="0"/>
-	<chargedFrame>7</chargedFrame>
-	<fireFrame>8</fireFrame>
-	<firePoint  x="19" y="3"/>
-	<mountPoint x="1" y="79"/>
-	<chargeImage>weapon_haunt/fr_zulu_shadow_pinpoint_glow.png</chargeImage>
+	<desc length="15" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="18" y="15"/>
+	<mountPoint x="0" y="51"/>
+	<chargeImage>weapon_revenant/fr_zulu_shadow_pinpoint_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_g_erosion_beam_chain_glow" w="144" h="94" fw="36" fh="94">weapon_haunt/fr_g_erosion_beam_chain_glow.png</animSheet>
+<animSheet name="fr_g_erosion_beam_chain_glow" w="144" h="94" fw="36" fh="94">weapon_revenant/fr_g_erosion_beam_chain_glow.png</animSheet>
 <anim name="fr_g_erosion_beam_chain_glow">
 	<sheet>fr_g_erosion_beam_chain_glow</sheet>
 	<desc length="4" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 
-<animSheet name="fr_g_erosion_beam" w="576" h="94" fw="36" fh="94">weapon_haunt/fr_g_erosion_beam.png</animSheet>
+<animSheet name="fr_g_erosion_beam" w="576" h="94" fw="36" fh="94">weapon_revenant/fr_g_erosion_beam.png</animSheet>
 <weaponAnim name="fr_g_erosion_beam">
 	<sheet>fr_g_erosion_beam</sheet>
 	<desc length="16" x="0" y="0" />
@@ -11924,11 +12816,11 @@ SLIMER ANIMATIONS
 	<fireFrame>2</fireFrame>
 	<firePoint x="17" y="46" />
 	<mountPoint x="4" y="63" />
-	<chargeImage>weapon_haunt/fr_g_erosion_beam_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_g_erosion_beam_glow.png</chargeImage>
 	<boost>fr_g_erosion_beam_chain_glow</boost>
 </weaponAnim>
 
-<animSheet name="fr_deadship_rainbow_ion" w="240" h="51" fw="30" fh="51">weapon_haunt/fr_deadship_rainbow_ion.png</animSheet>
+<animSheet name="fr_deadship_rainbow_ion" w="240" h="51" fw="30" fh="51">weapon_revenant/fr_deadship_rainbow_ion.png</animSheet>
 <weaponAnim name="fr_deadship_rainbow_ion">
 	<sheet>fr_deadship_rainbow_ion</sheet>
 	<desc length="8" x="0" y="0" />
@@ -11936,10 +12828,10 @@ SLIMER ANIMATIONS
 	<fireFrame>6</fireFrame>
 	<firePoint x="16" y="16" />
 	<mountPoint x="6" y="31" />
-	<chargeImage>weapon_haunt/fr_deadship_rainbow_ion_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_deadship_rainbow_ion_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_smoke_pro_hull_crystal" w="420" h="61" fw="35" fh="61">weapon_haunt/fr_smoke_pro_hull_crystal.png</animSheet>
+<animSheet name="fr_smoke_pro_hull_crystal" w="420" h="61" fw="35" fh="61">weapon_revenant/fr_smoke_pro_hull_crystal.png</animSheet>
 <weaponAnim name="fr_smoke_pro_hull_crystal">
 	<sheet>fr_smoke_pro_hull_crystal</sheet>
 	<desc length="12" x="0" y="0" />
@@ -11949,7 +12841,7 @@ SLIMER ANIMATIONS
 	<mountPoint x="6" y="41" />
 </weaponAnim>
 
-<animSheet name="fr_chills_fire_kernal" w="352" h="61" fw="32" fh="61">weapon_haunt/fr_chills_fire_kernal.png</animSheet>
+<animSheet name="fr_chills_fire_kernal" w="352" h="61" fw="32" fh="61">weapon_revenant/fr_chills_fire_kernal.png</animSheet>
 <weaponAnim name="fr_chills_fire_kernal">
 	<sheet>fr_chills_fire_kernal</sheet>
 	<desc length="11" x="0" y="0" />
@@ -11957,10 +12849,10 @@ SLIMER ANIMATIONS
 	<fireFrame>8</fireFrame>
 	<firePoint x="17" y="18" />
 	<mountPoint x="4" y="35" />
-	<chargeImage>weapon_haunt/fr_chills_fire_kernal_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_chills_fire_kernal_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_pok_morph_bomb_launcher" w="612" h="50" fw="36" fh="50">weapon_haunt/fr_pok_morph_bomb_launcher.png</animSheet>
+<animSheet name="fr_pok_morph_bomb_launcher" w="612" h="50" fw="36" fh="50">weapon_revenant/fr_pok_morph_bomb_launcher.png</animSheet>
 <weaponAnim name="fr_pok_morph_bomb_launcher">
 	<sheet>fr_pok_morph_bomb_launcher</sheet>
 	<desc length="17" x="0" y="0" />
@@ -11968,17 +12860,17 @@ SLIMER ANIMATIONS
 	<fireFrame>12</fireFrame>
 	<firePoint x="21" y="19" />
 	<mountPoint x="8" y="34" />
-	<chargeImage>weapon_haunt/fr_pok_morph_bomb_launcher_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_pok_morph_bomb_launcher_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_leo_adapt_flak_chain_glow" w="168" h="55" fw="42" fh="55">weapon_haunt/fr_leo_adapt_flak_chain_glow.png</animSheet>
+<animSheet name="fr_leo_adapt_flak_chain_glow" w="168" h="55" fw="42" fh="55">weapon_revenant/fr_leo_adapt_flak_chain_glow.png</animSheet>
 <anim name="fr_leo_adapt_flak_chain_glow">
 	<sheet>fr_leo_adapt_flak_chain_glow</sheet>
 	<desc length="4" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 
-<animSheet name="fr_leo_adapt_flak" w="420" h="55" fw="42" fh="55">weapon_haunt/fr_leo_adapt_flak.png</animSheet>
+<animSheet name="fr_leo_adapt_flak" w="420" h="55" fw="42" fh="55">weapon_revenant/fr_leo_adapt_flak.png</animSheet>
 <weaponAnim name="fr_leo_adapt_flak">
 	<sheet>fr_leo_adapt_flak</sheet>
 	<desc length="10" x="0" y="0" />
@@ -11986,17 +12878,17 @@ SLIMER ANIMATIONS
 	<fireFrame>5</fireFrame>
 	<firePoint x="18" y="8" />
 	<mountPoint x="4" y="27" />
-	<chargeImage>weapon_haunt/fr_leo_adapt_flak_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_leo_adapt_flak_glow.png</chargeImage>
 	<boost>fr_leo_adapt_flak_chain_glow</boost>
 </weaponAnim>
 
-<animSheet name="fr_searak_energy_gatling_chain_glow" w="152" h="75" fw="38" fh="75">weapon_haunt/fr_searak_energy_gatling_chain_glow.png</animSheet>
+<animSheet name="fr_searak_energy_gatling_chain_glow" w="152" h="75" fw="38" fh="75">weapon_revenant/fr_searak_energy_gatling_chain_glow.png</animSheet>
 <anim name="fr_searak_energy_gatling_chain_glow">
 	<sheet>fr_searak_energy_gatling_chain_glow</sheet>
 	<desc length="4" x="0" y="0" />
 	<time>1.0</time>
 </anim>
-<animSheet name="fr_searak_energy_gatling" w="494" h="75" fw="38" fh="75">weapon_haunt/fr_searak_energy_gatling.png</animSheet>
+<animSheet name="fr_searak_energy_gatling" w="494" h="75" fw="38" fh="75">weapon_revenant/fr_searak_energy_gatling.png</animSheet>
 <weaponAnim name="fr_searak_energy_gatling">
 	<sheet>fr_searak_energy_gatling</sheet>
 	<desc length="13" x="0" y="0" />
@@ -12004,11 +12896,11 @@ SLIMER ANIMATIONS
 	<fireFrame>2</fireFrame>
 	<firePoint x="20" y="16" />
 	<mountPoint x="9" y="55" />
-	<chargeImage>weapon_haunt/fr_searak_energy_gatling_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_searak_energy_gatling_glow.png</chargeImage>
 	<boost>fr_searak_energy_gatling_chain_glow</boost>
 </weaponAnim>
 
-<animSheet name="fr_zoltan_auto_beam" w="731" h="98" fw="43" fh="98">weapon_haunt/fr_zoltan_auto_beam.png</animSheet>
+<animSheet name="fr_zoltan_auto_beam" w="731" h="98" fw="43" fh="98">weapon_revenant/fr_zoltan_auto_beam.png</animSheet>
 <weaponAnim name="fr_zoltan_auto_beam">
 	<sheet>fr_zoltan_auto_beam</sheet>
 	<desc length="17" x="0" y="0" />
@@ -12016,10 +12908,10 @@ SLIMER ANIMATIONS
 	<fireFrame>9</fireFrame>
 	<firePoint x="23" y="55" />
 	<mountPoint x="4" y="71" />
-	<chargeImage>weapon_haunt/fr_zoltan_auto_beam_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_zoltan_auto_beam_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_watcher_siren_pinpoint" w="510" h="76" fw="51" fh="76">weapon_haunt/fr_watcher_siren_pinpoint.png</animSheet>
+<animSheet name="fr_watcher_siren_pinpoint" w="510" h="76" fw="51" fh="76">weapon_revenant/fr_watcher_siren_pinpoint.png</animSheet>
 <weaponAnim name="fr_watcher_siren_pinpoint">
 	<sheet>fr_watcher_siren_pinpoint</sheet>
 	<desc length="10" x="0" y="0" />
@@ -12027,10 +12919,10 @@ SLIMER ANIMATIONS
 	<fireFrame>2</fireFrame>
 	<firePoint x="28" y="31" />
 	<mountPoint x="8" y="50" />
-	<chargeImage>weapon_haunt/fr_watcher_siren_pinpoint_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_watcher_siren_pinpoint_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_augustus_beam" w="300" h="41" fw="30" fh="41">weapon_haunt/fr_augustus_beam.png</animSheet>
+<animSheet name="fr_augustus_beam" w="300" h="41" fw="30" fh="41">weapon_revenant/fr_augustus_beam.png</animSheet>
 <weaponAnim name="fr_augustus_beam">
 	<sheet>fr_augustus_beam</sheet>
 	<desc length="10" x="0" y="0" />
@@ -12038,10 +12930,10 @@ SLIMER ANIMATIONS
 	<fireFrame>2</fireFrame>
 	<firePoint x="16" y="13" />
 	<mountPoint x="3" y="30" />
-	<chargeImage>weapon_haunt/fr_augustus_beam_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_augustus_beam_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_sally_bomb" w="624" h="43" fw="39" fh="43">weapon_haunt/fr_sally_bomb.png</animSheet>
+<animSheet name="fr_sally_bomb" w="624" h="43" fw="39" fh="43">weapon_revenant/fr_sally_bomb.png</animSheet>
 <weaponAnim name="fr_sally_bomb">
 	<sheet>fr_sally_bomb</sheet>
 	<desc length="16" x="0" y="0" />
@@ -12049,10 +12941,10 @@ SLIMER ANIMATIONS
 	<fireFrame>13</fireFrame>
 	<firePoint x="23" y="17" />
 	<mountPoint x="7" y="30" />
-	<chargeImage>weapon_haunt/fr_sally_bomb_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_sally_bomb_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_prince_cannon" w="480" h="121" fw="40" fh="121">weapon_haunt/fr_prince_cannon.png</animSheet>
+<animSheet name="fr_prince_cannon" w="480" h="121" fw="40" fh="121">weapon_revenant/fr_prince_cannon.png</animSheet>
 <weaponAnim name="fr_prince_cannon">
 	<sheet>fr_prince_cannon</sheet>
 	<desc length="12" x="0" y="0" />
@@ -12060,10 +12952,10 @@ SLIMER ANIMATIONS
 	<fireFrame>6</fireFrame>
 	<firePoint x="23" y="46" />
 	<mountPoint x="6" y="81" />
-	<chargeImage>weapon_haunt/fr_prince_cannon_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_prince_cannon_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_tririac_abductor" w="235" h="57" fw="47" fh="57">weapon_haunt/fr_tririac_abductor.png</animSheet>
+<animSheet name="fr_tririac_abductor" w="235" h="57" fw="47" fh="57">weapon_revenant/fr_tririac_abductor.png</animSheet>
 <weaponAnim name="fr_tririac_abductor">
 	<sheet>fr_tririac_abductor</sheet>
 	<desc length="5" x="0" y="0" />
@@ -12071,7 +12963,7 @@ SLIMER ANIMATIONS
 	<fireFrame>2</fireFrame>
 	<firePoint x="22" y="4" />
 	<mountPoint x="13" y="45" />
-	<chargeImage>weapon_haunt/fr_tririac_abductor_glow.png</chargeImage>
+	<chargeImage>weapon_revenant/fr_tririac_abductor_glow.png</chargeImage>
 </weaponAnim>
 
 <!-- 
@@ -12080,13 +12972,56 @@ SLIMER ANIMATIONS
 **********************************************************************************************************************
 -->
 
+<animSheet name="fr_cel_missilelauncher" w="200" h="77" fw="40" fh="77">weapon_misc/fr_cel_missilelauncher.png</animSheet>
+<weaponAnim name="fr_cel_missilelauncher">
+	<sheet>fr_cel_missilelauncher</sheet>
+	<desc length="5" x="0" y="0"/>
+	<chargedFrame>3</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="23" y="4"/>
+	<mountPoint x="0" y="51"/>
+</weaponAnim>
+
+<animSheet name="fr_cel_beam" w="1150" h="91" fw="50" fh="91">weapon_misc/fr_cel_beam.png</animSheet>
+<weaponAnim name="fr_cel_beam">
+	<sheet>fr_cel_beam</sheet>
+	<desc length="23" x="0" y="0"/>
+	<chargedFrame>8</chargedFrame>
+	<fireFrame>9</fireFrame>
+	<firePoint x="28" y="33"/>
+	<mountPoint x="0" y="69"/>
+	<chargeImage>weapon_misc/fr_cel_beam_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_cel_ion" w="368" h="66" fw="46" fh="66">weapon_misc/fr_cel_ion.png</animSheet>
+<weaponAnim name="fr_cel_ion">
+	<sheet>fr_cel_ion</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="28" y="2"/>
+	<mountPoint x="1" y="42"/>
+	<chargeImage>weapon_misc/fr_cel_ion_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_cel_bomblauncher" w="986" h="52" fw="58" fh="52">weapon_misc/fr_cel_bomblauncher.png</animSheet>
+<weaponAnim name="fr_cel_bomblauncher">
+	<sheet>fr_cel_bomblauncher</sheet>
+	<desc length="17" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>15</fireFrame>
+	<firePoint x="32" y="25"/>
+	<mountPoint x="0" y="34"/>
+	<chargeImage>weapon_misc/fr_cel_bomblauncher_glow.png</chargeImage>
+</weaponAnim>
+
 <animSheet name="fr_prime_laser_pink" w="930" h="132" fw="31" fh="132">weapon_misc/fr_prime_laser_pink.png</animSheet>
 <weaponAnim name="fr_prime_laser_pink">
 	<sheet>fr_prime_laser_pink</sheet>
 	<desc length="30" x="0" y="0"/>
 	<chargedFrame>8</chargedFrame>
 	<fireFrame>26</fireFrame>
-	<firePoint  x="20" y="53"/>
+	<firePoint x="20" y="53"/>
 	<mountPoint x="7" y="116"/>
 </weaponAnim>
 
@@ -12096,7 +13031,7 @@ SLIMER ANIMATIONS
 	<desc length="9" x="0" y="0"/>
 	<chargedFrame>5</chargedFrame>
 	<fireFrame>6</fireFrame>
-	<firePoint  x="17" y="46"/>
+	<firePoint x="17" y="46"/>
 	<mountPoint x="4" y="93"/>
 	<chargeImage>weapon_misc/fr_royal_ancient_artillery_glow.png</chargeImage>
 </weaponAnim>
@@ -12183,14 +13118,14 @@ SLIMER ANIMATIONS
 	<chargeImage>weapon_misc/fr_mfk_beam_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_billvan_laser" w="420" h="78" fw="30" fh="78">weapon_misc/fr_billvan_laser.png</animSheet>
+<animSheet name="fr_billvan_laser" w="351" h="83" fw="27" fh="83">weapon_misc/fr_billvan_laser.png</animSheet>
 <weaponAnim name="fr_billvan_laser">
 	<sheet>fr_billvan_laser</sheet>
-	<desc length="14" x="0" y="0" />
-	<chargedFrame>7</chargedFrame>
+	<desc length="13" x="0" y="0" />
+	<chargedFrame>8</chargedFrame>
 	<fireFrame>10</fireFrame>
-	<firePoint x="20" y="14" />
-	<mountPoint x="8" y="53" />
+	<firePoint x="15" y="9" />
+	<mountPoint x="2" y="55" />
 </weaponAnim>
 
 <!-- 
@@ -12198,6 +13133,48 @@ SLIMER ANIMATIONS
                                                  PROJECTILES 
 **********************************************************************************************************************
 -->
+
+<animSheet name="fr_bomb_obelisk_flagship_noble" w="490" h="35" fw="35" fh="35">projectiles/fr_bomb_obelisk_flagship_noble.png</animSheet>
+<anim name="fr_bomb_obelisk_flagship_noble">
+	<sheet>fr_bomb_obelisk_flagship_noble</sheet>
+	<desc length="14" x="0" y="0" />
+	<time>1.0</time>
+</anim>
+
+<animSheet name="fr_bomb_obelisk_flagship_royal" w="490" h="35" fw="35" fh="35">projectiles/fr_bomb_obelisk_flagship_royal.png</animSheet>
+<anim name="fr_bomb_obelisk_flagship_royal">
+	<sheet>fr_bomb_obelisk_flagship_royal</sheet>
+	<desc length="14" x="0" y="0" />
+	<time>1.0</time>
+</anim>
+
+<animSheet name="fr_bomb_obelisk_flagship_commonwealth" w="490" h="35" fw="35" fh="35">projectiles/fr_bomb_obelisk_flagship_commonwealth.png</animSheet>
+<anim name="fr_bomb_obelisk_flagship_commonwealth">
+	<sheet>fr_bomb_obelisk_flagship_commonwealth</sheet>
+	<desc length="14" x="0" y="0" />
+	<time>1.0</time>
+</anim>
+
+<animSheet name="fr_bomb_obelisk_flagship_wither" w="490" h="35" fw="35" fh="35">projectiles/fr_bomb_obelisk_flagship_wither.png</animSheet>
+<anim name="fr_bomb_obelisk_flagship_wither">
+	<sheet>fr_bomb_obelisk_flagship_wither</sheet>
+	<desc length="14" x="0" y="0" />
+	<time>1.0</time>
+</anim>
+
+<animSheet name="fr_bomb_obelisk_flagship_g" w="490" h="35" fw="35" fh="35">projectiles/fr_bomb_obelisk_flagship_g.png</animSheet>
+<anim name="fr_bomb_obelisk_flagship_g">
+	<sheet>fr_bomb_obelisk_flagship_g</sheet>
+	<desc length="14" x="0" y="0" />
+	<time>1.0</time>
+</anim>
+
+<animSheet name="fr_bomb_obelisk_flagship_y" w="490" h="35" fw="35" fh="35">projectiles/fr_bomb_obelisk_flagship_y.png</animSheet>
+<anim name="fr_bomb_obelisk_flagship_y">
+	<sheet>fr_bomb_obelisk_flagship_y</sheet>
+	<desc length="14" x="0" y="0" />
+	<time>1.0</time>
+</anim>
 
 <animSheet name="fr_bomb_slimer_nebula" w="315" h="35" fw="35" fh="35">projectiles/fr_bomb_slimer_nebula.png</animSheet>
 <anim name="fr_bomb_slimer_nebula">
@@ -12353,9 +13330,24 @@ SLIMER ANIMATIONS
 	<time>1</time>
 </anim>
 
+
+<animSheet name="fr_missile_obelisk" w="80" h="32" fw="80" fh="32">projectiles/fr_missile_obelisk.png</animSheet>
+<anim name="fr_missile_obelisk">
+	<sheet>fr_missile_obelisk</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+
 <animSheet name="fr_bomb_commonwealth" w="150" h="17" fw="15" fh="17">projectiles/fr_bomb_commonwealth.png</animSheet>
 <anim name="fr_bomb_commonwealth">
 	<sheet>fr_bomb_commonwealth</sheet>
+	<desc length="10" x="0" y="0" />
+	<time>0.35</time>
+</anim>
+
+<animSheet name="fr_bomb_commonwealth_chaos" w="150" h="17" fw="15" fh="17">projectiles/fr_bomb_commonwealth_chaos.png</animSheet>
+<anim name="fr_bomb_commonwealth_chaos">
+	<sheet>fr_bomb_commonwealth_chaos</sheet>
 	<desc length="10" x="0" y="0" />
 	<time>0.35</time>
 </anim>
@@ -12371,6 +13363,13 @@ SLIMER ANIMATIONS
 <animSheet name="fr_laser_commonwealth" w="60" h="20" fw="60" fh="20">projectiles/fr_laser_commonwealth.png</animSheet>
 <anim name="fr_laser_commonwealth">
 	<sheet>fr_laser_commonwealth</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>0.3</time>
+</anim>
+
+<animSheet name="fr_laser_y" w="60" h="20" fw="60" fh="20">projectiles/fr_laser_y.png</animSheet>
+<anim name="fr_laser_y">
+	<sheet>fr_laser_y</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>0.3</time>
 </anim>
@@ -12399,6 +13398,13 @@ SLIMER ANIMATIONS
 <animSheet name="fr_energy_commonwealth" w="24" h="24" fw="24" fh="24">projectiles/fr_energy_commonwealth.png</animSheet>
 <anim name="fr_energy_commonwealth">
 	<sheet>fr_energy_commonwealth</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>0.3</time>
+</anim>
+
+<animSheet name="fr_energy_y" w="24" h="24" fw="24" fh="24">projectiles/fr_energy_y.png</animSheet>
+<anim name="fr_energy_y">
+	<sheet>fr_energy_y</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>0.3</time>
 </anim>
@@ -12434,6 +13440,27 @@ SLIMER ANIMATIONS
 <animSheet name="fr_missile_wither" w="80" h="32" fw="80" fh="32">projectiles/fr_missile_wither.png</animSheet>
 <anim name="fr_missile_wither">
 	<sheet>fr_missile_wither</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_missile_y" w="80" h="32" fw="80" fh="32">projectiles/fr_missile_y.png</animSheet>
+<anim name="fr_missile_y">
+	<sheet>fr_missile_y</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_missile_g" w="80" h="32" fw="80" fh="32">projectiles/fr_missile_g.png</animSheet>
+<anim name="fr_missile_g">
+	<sheet>fr_missile_g</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_missile_wither_missile" w="32" h="80" fw="32" fh="80">projectiles/fr_missile_wither_missile.png</animSheet>
+<anim name="fr_missile_wither_missile">
+	<sheet>fr_missile_wither_missile</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
 </anim>
@@ -12516,9 +13543,9 @@ SLIMER ANIMATIONS
 	<time>0.3</time>
 </anim>
 
-<animSheet name="fr_ion_haunt" w="24" h="24" fw="24" fh="24">projectiles/fr_ion_haunt.png</animSheet>
-<anim name="fr_ion_haunt">
-	<sheet>fr_ion_haunt</sheet>
+<animSheet name="fr_ion_revenant" w="24" h="24" fw="24" fh="24">projectiles/fr_ion_revenant.png</animSheet>
+<anim name="fr_ion_revenant">
+	<sheet>fr_ion_revenant</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>0.3</time>
 </anim>
@@ -12678,16 +13705,16 @@ SLIMER ANIMATIONS
 	<time>1</time>
 </anim>
 
-<animSheet name="fr_laser_haunt" w="60" h="20" fw="60" fh="20">projectiles/fr_laser_haunt.png</animSheet>
-<anim name="fr_laser_haunt">
-	<sheet>fr_laser_haunt</sheet>
+<animSheet name="fr_laser_revenant" w="60" h="20" fw="60" fh="20">projectiles/fr_laser_revenant.png</animSheet>
+<anim name="fr_laser_revenant">
+	<sheet>fr_laser_revenant</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>0.3</time>
 </anim>
 
-<animSheet name="fr_laser_haunt_b" w="60" h="20" fw="60" fh="20">projectiles/fr_laser_haunt_b.png</animSheet>
-<anim name="fr_laser_haunt_b">
-	<sheet>fr_laser_haunt_b</sheet>
+<animSheet name="fr_laser_revenant_b" w="60" h="20" fw="60" fh="20">projectiles/fr_laser_revenant_b.png</animSheet>
+<anim name="fr_laser_revenant_b">
+	<sheet>fr_laser_revenant_b</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>0.3</time>
 </anim>
@@ -12826,11 +13853,47 @@ SLIMER ANIMATIONS
 	<time>1</time>
 </anim>
 
+<animSheet name="fr_bomb_cel" w="525" h="35" fw="35" fh="35">projectiles/fr_bomb_cel.png</animSheet>
+<anim name="fr_bomb_cel">
+	<sheet>fr_bomb_cel</sheet>
+	<desc length="15" x="0" y="0" />
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_ion_cel" w="24" h="24" fw="24" fh="24">projectiles/fr_ion_cel.png</animSheet>
+<anim name="fr_ion_cel">
+	<sheet>fr_ion_cel</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_missile_cel" w="17" h="55" fw="17" fh="55">projectiles/fr_missile_cel.png</animSheet>
+<anim name="fr_missile_cel">
+	<sheet>fr_missile_cel</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+
+
 <!-- 
 **********************************************************************************************************************
                                                  EFFECTS 
 **********************************************************************************************************************
 -->
+
+<animSheet name="fr_buff_poison_y" w="352" h="32" fw="32" fh="32">effects/fr_buff_poison_y.png</animSheet>
+<anim name="fr_buff_poison_y">
+	<sheet>fr_buff_poison_y</sheet>
+	<desc length="11" x="0" y="0" />
+	<time>1.0</time>
+</anim>
+
+<animSheet name="fr_explosion_ancient" w="320" h="32" fh="32" fw="32">people/explosion_ancient.png</animSheet>
+<anim name="fr_explosion_ancient">
+	<sheet>fr_explosion_ancient</sheet>
+	<desc length="10" x="0" y="0" />
+	<time>1</time>
+</anim>
 
 <animSheet name="fr_explosion_energy_white" w="144" h="16" fw="16" fh="16">effects/fr_explosion_energy_white.png</animSheet>
 <anim name="fr_explosion_energy_white">
@@ -12906,6 +13969,13 @@ SLIMER ANIMATIONS
 <animSheet name="fr_explosion_ion_arcadia" w="288" h="32" fw="32" fh="32">effects/fr_explosion_ion_arcadia.png</animSheet>
 <anim name="fr_explosion_ion_arcadia">
 	<sheet>fr_explosion_ion_arcadia</sheet>
+	<desc length="9" x="0" y="0"/>
+	<time>0.5</time>
+</anim>
+
+<animSheet name="fr_explosion_ion_y" w="288" h="32" fw="32" fh="32">effects/fr_explosion_ion_y.png</animSheet>
+<anim name="fr_explosion_ion_y">
+	<sheet>fr_explosion_ion_y</sheet>
 	<desc length="9" x="0" y="0"/>
 	<time>0.5</time>
 </anim>
@@ -13050,9 +14120,9 @@ SLIMER ANIMATIONS
 	<time>0.2</time>
 </anim>
 
-<animSheet name="fr_erosion_haunt" w="175" h="35" fw="35" fh="35">effects/fr_erosion_haunt.png</animSheet>
-<anim name="fr_erosion_haunt">
-	<sheet>fr_erosion_haunt</sheet>
+<animSheet name="fr_erosion_revenant" w="175" h="35" fw="35" fh="35">effects/fr_erosion_revenant.png</animSheet>
+<anim name="fr_erosion_revenant">
+	<sheet>fr_erosion_revenant</sheet>
 	<desc length="5" x="0" y="0"/>
 	<time>0.2</time>
 </anim>
@@ -13148,13 +14218,6 @@ SLIMER ANIMATIONS
 	<time>1.0</time>
 </anim>
 
-<animSheet name="fr_wither" w="280" h="35" fw="35" fh="35">effects/fr_buff_wither.png</animSheet>
-<anim name="fr_wither">
-	<sheet>fr_wither</sheet>
-	<desc length="8" x="0" y="0"/>
-	<time>1.0</time>
-</anim>
-
 <animSheet name="fr_explosion_jerry" w="576" h="64" fw="64" fh="64">effects/fr_explosion_jerry.png</animSheet>
 <anim name="fr_explosion_jerry">
 	<sheet>fr_explosion_jerry</sheet>
@@ -13183,6 +14246,20 @@ SLIMER ANIMATIONS
 	<time>0.75</time>
 </anim>
 
+<animSheet name="fr_explosion_y" w="640" h="64" fw="64" fh="64">effects/fr_explosion_y.png</animSheet>
+<anim name="fr_explosion_y">
+	<sheet>fr_explosion_y</sheet>
+	<desc length="10" x="0" y="0" />
+	<time>0.75</time>
+</anim>
+
+<animSheet name="fr_explosion_chaos" w="640" h="64" fw="64" fh="64">effects/fr_explosion_chaos.png</animSheet>
+<anim name="fr_explosion_chaos">
+	<sheet>fr_explosion_chaos</sheet>
+	<desc length="10" x="0" y="0" />
+	<time>0.75</time>
+</anim>
+
 <animSheet name="fr_explosion_wither_normal" w="640" h="64" fw="64" fh="64">effects/fr_explosion_wither_normal.png</animSheet>
 <anim name="fr_explosion_wither_normal">
 	<sheet>fr_explosion_wither_normal</sheet>
@@ -13200,6 +14277,13 @@ SLIMER ANIMATIONS
 <animSheet name="fr_buff_shield_charror" w="35" h="35" fw="35" fh="35">effects/fr_buff_shield_charror.png</animSheet>
 <anim name="fr_buff_shield_charror">
 	<sheet>fr_buff_shield_charror</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<animSheet name="fr_buff_necromantic_cognitive" w="35" h="35" fw="35" fh="35">effects/fr_buff_necromantic_cognitive.png</animSheet>
+<anim name="fr_buff_necromantic_cognitive">
+	<sheet>fr_buff_necromantic_cognitive</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
@@ -13295,6 +14379,354 @@ SLIMER ANIMATIONS
 **********************************************************************************************************************
 -->
 
+<animSheet name="fr_artillery_obelisk_flagship_beam_noble" w="880" h="113" fw="88" fh="113">artillery_player/fr_artillery_obelisk_flagship_beam_noble.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_beam_noble">
+	<sheet>fr_artillery_obelisk_flagship_beam_noble</sheet>
+	<desc length="10" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="43" y="60" />
+	<mountPoint x="11" y="77" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_beam_noble_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_bomb_noble" w="1806" h="80" fw="86" fh="80">artillery_player/fr_artillery_obelisk_flagship_bomb_noble.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_bomb_noble">
+	<sheet>fr_artillery_obelisk_flagship_bomb_noble</sheet>
+	<desc length="21" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>18</fireFrame>
+	<firePoint x="46" y="37" />
+	<mountPoint x="2" y="40" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_bomb_noble_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_missile_noble" w="2200" h="115" fw="100" fh="115">artillery_player/fr_artillery_obelisk_flagship_missile_noble.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_missile_noble">
+	<sheet>fr_artillery_obelisk_flagship_missile_noble</sheet>
+	<desc length="22" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>21</fireFrame>
+	<firePoint x="44" y="67" />
+	<mountPoint x="1" y="45" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_missile_noble_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_ion_noble" w="704" h="117" fw="88" fh="117">artillery_player/fr_artillery_obelisk_flagship_ion_noble.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_ion_noble">
+	<sheet>fr_artillery_obelisk_flagship_ion_noble</sheet>
+	<desc length="8" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="44" y="57" />
+	<mountPoint x="1" y="75" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_ion_noble_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_laser_noble" w="574" h="105" fw="82" fh="105">artillery_player/fr_artillery_obelisk_flagship_laser_noble.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_laser_noble">
+	<sheet>fr_artillery_obelisk_flagship_laser_noble</sheet>
+	<desc length="7" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="41" y="37" />
+	<mountPoint x="2" y="63" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_laser_noble_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_beam_royal" w="880" h="113" fw="88" fh="113">artillery_player/fr_artillery_obelisk_flagship_beam_royal.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_beam_royal">
+	<sheet>fr_artillery_obelisk_flagship_beam_royal</sheet>
+	<desc length="10" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="43" y="60" />
+	<mountPoint x="11" y="77" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_beam_royal_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_bomb_royal" w="1806" h="80" fw="86" fh="80">artillery_player/fr_artillery_obelisk_flagship_bomb_royal.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_bomb_royal">
+	<sheet>fr_artillery_obelisk_flagship_bomb_royal</sheet>
+	<desc length="21" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>18</fireFrame>
+	<firePoint x="46" y="37" />
+	<mountPoint x="2" y="40" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_bomb_royal_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_missile_royal" w="2200" h="115" fw="100" fh="115">artillery_player/fr_artillery_obelisk_flagship_missile_royal.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_missile_royal">
+	<sheet>fr_artillery_obelisk_flagship_missile_royal</sheet>
+	<desc length="22" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>21</fireFrame>
+	<firePoint x="44" y="67" />
+	<mountPoint x="1" y="45" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_missile_royal_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_ion_royal" w="704" h="117" fw="88" fh="117">artillery_player/fr_artillery_obelisk_flagship_ion_royal.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_ion_royal">
+	<sheet>fr_artillery_obelisk_flagship_ion_royal</sheet>
+	<desc length="8" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="44" y="57" />
+	<mountPoint x="1" y="75" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_ion_royal_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_laser_royal" w="574" h="105" fw="82" fh="105">artillery_player/fr_artillery_obelisk_flagship_laser_royal.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_laser_royal">
+	<sheet>fr_artillery_obelisk_flagship_laser_royal</sheet>
+	<desc length="7" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="41" y="37" />
+	<mountPoint x="2" y="63" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_laser_royal_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_beam_commonwealth" w="880" h="113" fw="88" fh="113">artillery_player/fr_artillery_obelisk_flagship_beam_commonwealth.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_beam_commonwealth">
+	<sheet>fr_artillery_obelisk_flagship_beam_commonwealth</sheet>
+	<desc length="10" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="43" y="60" />
+	<mountPoint x="11" y="77" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_beam_commonwealth_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_bomb_commonwealth" w="1806" h="80" fw="86" fh="80">artillery_player/fr_artillery_obelisk_flagship_bomb_commonwealth.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_bomb_commonwealth">
+	<sheet>fr_artillery_obelisk_flagship_bomb_commonwealth</sheet>
+	<desc length="21" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>18</fireFrame>
+	<firePoint x="46" y="37" />
+	<mountPoint x="2" y="40" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_bomb_commonwealth_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_missile_commonwealth" w="2200" h="115" fw="100" fh="115">artillery_player/fr_artillery_obelisk_flagship_missile_commonwealth.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_missile_commonwealth">
+	<sheet>fr_artillery_obelisk_flagship_missile_commonwealth</sheet>
+	<desc length="22" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>21</fireFrame>
+	<firePoint x="44" y="67" />
+	<mountPoint x="1" y="45" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_missile_commonwealth_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_ion_commonwealth" w="704" h="117" fw="88" fh="117">artillery_player/fr_artillery_obelisk_flagship_ion_commonwealth.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_ion_commonwealth">
+	<sheet>fr_artillery_obelisk_flagship_ion_commonwealth</sheet>
+	<desc length="8" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="44" y="57" />
+	<mountPoint x="1" y="75" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_ion_commonwealth_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_laser_commonwealth" w="574" h="105" fw="82" fh="105">artillery_player/fr_artillery_obelisk_flagship_laser_commonwealth.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_laser_commonwealth">
+	<sheet>fr_artillery_obelisk_flagship_laser_commonwealth</sheet>
+	<desc length="7" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="41" y="37" />
+	<mountPoint x="2" y="63" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_laser_commonwealth_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_beam_wither" w="880" h="113" fw="88" fh="113">artillery_player/fr_artillery_obelisk_flagship_beam_wither.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_beam_wither">
+	<sheet>fr_artillery_obelisk_flagship_beam_wither</sheet>
+	<desc length="10" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="43" y="60" />
+	<mountPoint x="11" y="77" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_beam_wither_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_bomb_wither" w="1806" h="80" fw="86" fh="80">artillery_player/fr_artillery_obelisk_flagship_bomb_wither.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_bomb_wither">
+	<sheet>fr_artillery_obelisk_flagship_bomb_wither</sheet>
+	<desc length="21" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>18</fireFrame>
+	<firePoint x="46" y="37" />
+	<mountPoint x="2" y="40" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_bomb_wither_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_missile_wither_chain_glow" w="99" h="115" fw="99" fh="115">artillery_player/fr_artillery_obelisk_flagship_missile_wither_chain_glow.png</animSheet>
+<anim name="fr_artillery_obelisk_flagship_missile_wither_chain_glow">
+	<sheet>fr_artillery_obelisk_flagship_missile_wither_chain_glow</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1.0</time>
+</anim>
+
+<animSheet name="fr_artillery_obelisk_flagship_missile_wither" w="2200" h="115" fw="100" fh="115">artillery_player/fr_artillery_obelisk_flagship_missile_wither.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_missile_wither">
+	<sheet>fr_artillery_obelisk_flagship_missile_wither</sheet>
+	<desc length="22" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>21</fireFrame>
+	<firePoint x="44" y="67" />
+	<mountPoint x="1" y="45" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_missile_wither_glow.png</chargeImage>
+	<boost>fr_artillery_obelisk_flagship_missile_wither_chain_glow</boost>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_ion_wither" w="704" h="117" fw="88" fh="117">artillery_player/fr_artillery_obelisk_flagship_ion_wither.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_ion_wither">
+	<sheet>fr_artillery_obelisk_flagship_ion_wither</sheet>
+	<desc length="8" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="44" y="57" />
+	<mountPoint x="1" y="75" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_ion_wither_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_laser_wither" w="574" h="105" fw="82" fh="105">artillery_player/fr_artillery_obelisk_flagship_laser_wither.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_laser_wither">
+	<sheet>fr_artillery_obelisk_flagship_laser_wither</sheet>
+	<desc length="7" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="41" y="37" />
+	<mountPoint x="2" y="63" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_laser_wither_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_beam_g" w="880" h="113" fw="88" fh="113">artillery_player/fr_artillery_obelisk_flagship_beam_g.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_beam_g">
+	<sheet>fr_artillery_obelisk_flagship_beam_g</sheet>
+	<desc length="10" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="43" y="60" />
+	<mountPoint x="11" y="77" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_beam_g_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_bomb_g" w="1806" h="80" fw="86" fh="80">artillery_player/fr_artillery_obelisk_flagship_bomb_g.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_bomb_g">
+	<sheet>fr_artillery_obelisk_flagship_bomb_g</sheet>
+	<desc length="21" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>18</fireFrame>
+	<firePoint x="46" y="37" />
+	<mountPoint x="2" y="40" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_bomb_g_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_missile_g" w="2200" h="115" fw="100" fh="115">artillery_player/fr_artillery_obelisk_flagship_missile_g.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_missile_g">
+	<sheet>fr_artillery_obelisk_flagship_missile_g</sheet>
+	<desc length="22" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>21</fireFrame>
+	<firePoint x="44" y="67" />
+	<mountPoint x="1" y="45" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_missile_g_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_ion_g" w="704" h="117" fw="88" fh="117">artillery_player/fr_artillery_obelisk_flagship_ion_g.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_ion_g">
+	<sheet>fr_artillery_obelisk_flagship_ion_g</sheet>
+	<desc length="8" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="44" y="57" />
+	<mountPoint x="1" y="75" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_ion_g_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_laser_g" w="574" h="105" fw="82" fh="105">artillery_player/fr_artillery_obelisk_flagship_laser_g.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_laser_g">
+	<sheet>fr_artillery_obelisk_flagship_laser_g</sheet>
+	<desc length="7" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="41" y="37" />
+	<mountPoint x="2" y="63" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_laser_g_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_beam_y" w="880" h="113" fw="88" fh="113">artillery_player/fr_artillery_obelisk_flagship_beam_y.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_beam_y">
+	<sheet>fr_artillery_obelisk_flagship_beam_y</sheet>
+	<desc length="10" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint x="43" y="60" />
+	<mountPoint x="11" y="77" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_beam_y_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_bomb_y" w="1806" h="80" fw="86" fh="80">artillery_player/fr_artillery_obelisk_flagship_bomb_y.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_bomb_y">
+	<sheet>fr_artillery_obelisk_flagship_bomb_y</sheet>
+	<desc length="21" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>18</fireFrame>
+	<firePoint x="46" y="37" />
+	<mountPoint x="2" y="40" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_bomb_y_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_missile_y" w="2200" h="115" fw="100" fh="115">artillery_player/fr_artillery_obelisk_flagship_missile_y.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_missile_y">
+	<sheet>fr_artillery_obelisk_flagship_missile_y</sheet>
+	<desc length="22" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>21</fireFrame>
+	<firePoint x="44" y="67" />
+	<mountPoint x="1" y="45" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_missile_y_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_ion_y" w="704" h="117" fw="88" fh="117">artillery_player/fr_artillery_obelisk_flagship_ion_y.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_ion_y">
+	<sheet>fr_artillery_obelisk_flagship_ion_y</sheet>
+	<desc length="8" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint x="44" y="57" />
+	<mountPoint x="1" y="75" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_ion_y_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_obelisk_flagship_laser_y" w="574" h="105" fw="82" fh="105">artillery_player/fr_artillery_obelisk_flagship_laser_y.png</animSheet>
+<weaponAnim name="fr_artillery_obelisk_flagship_laser_y">
+	<sheet>fr_artillery_obelisk_flagship_laser_y</sheet>
+	<desc length="7" x="0" y="0" />
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>4</fireFrame>
+	<firePoint x="41" y="37" />
+	<mountPoint x="2" y="63" />
+	<chargeImage>artillery_player/fr_artillery_obelisk_flagship_laser_y_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="fr_artillery_dreadnaught_commonwealth" w="2085" h="196" fw="139" fh="196">artillery_boss/fr_artillery_dreadnaught_commonwealth.png</animSheet>
+<weaponAnim name="fr_artillery_dreadnaught_commonwealth">
+	<sheet>fr_artillery_dreadnaught_commonwealth</sheet>
+	<desc length="15" x="0" y="0" />
+	<chargedFrame>11</chargedFrame>
+	<fireFrame>12</fireFrame>
+	<firePoint x="70" y="85" />
+	<mountPoint x="0" y="0" />
+</weaponAnim>
+
 <animSheet name="fr_artillery_tririac_a" w="2250" h="74" fw="75" fh="74">artillery_player/fr_artillery_tririac_a.png</animSheet>
 <weaponAnim name="fr_artillery_tririac_a">
 	<sheet>fr_artillery_tririac_a</sheet>
@@ -13351,14 +14783,14 @@ SLIMER ANIMATIONS
 	<mountPoint x="6" y="107"/>
 </weaponAnim>
 
-<animSheet name="fr_artillery_alt_wither_a" w="1807" h="244" fw="139" fh="244">artillery_player/fr_artillery_alt_wither_a.png</animSheet>
+<animSheet name="fr_artillery_alt_wither_a" w="5977" h="244" fw="139" fh="244">artillery_player/fr_artillery_alt_wither_a.png</animSheet>
 <weaponAnim name="fr_artillery_alt_wither_a">
 	<sheet>fr_artillery_alt_wither_a</sheet>
-	<desc length="13" x="0" y="0"/>
-	<chargedFrame>10</chargedFrame>
-	<fireFrame>11</fireFrame>
-	<firePoint  x="69" y="5"/>
-	<mountPoint x="0" y="0"/>
+	<desc length="43" x="0" y="0" />
+	<chargedFrame>34</chargedFrame>
+	<fireFrame>35</fireFrame>
+	<firePoint x="69" y="5" />
+	<mountPoint x="0" y="0" />
 </weaponAnim>
 
 <animSheet name="fr_artillery_alt_wither_b" w="1807" h="244" fw="139" fh="244">artillery_player/fr_artillery_alt_wither_b.png</animSheet>
@@ -13415,48 +14847,48 @@ SLIMER ANIMATIONS
 	<time>1.25</time>
 </weaponAnim>
 
-<animSheet name="fr_artillery_haunt_cleo_enemy" w="99" h="57" fw="33" fh="57">artillery_player/fr_artillery_haunt_cleo_enemy.png</animSheet>
-<weaponAnim name="fr_artillery_haunt_cleo_enemy">
-	<sheet>fr_artillery_haunt_cleo_enemy</sheet>
+<animSheet name="fr_artillery_revenant_cleo_enemy" w="99" h="57" fw="33" fh="57">artillery_player/fr_artillery_revenant_cleo_enemy.png</animSheet>
+<weaponAnim name="fr_artillery_revenant_cleo_enemy">
+	<sheet>fr_artillery_revenant_cleo_enemy</sheet>
 	<desc length="3" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>2</fireFrame>
 	<firePoint  x="16" y="9"/>
 	<mountPoint x="0" y="0"/>
-	<chargeImage>artillery_player/fr_artillery_haunt_cleo_enemy_glow.png</chargeImage>
+	<chargeImage>artillery_player/fr_artillery_revenant_cleo_enemy_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_artillery_haunt_cleo" w="99" h="66" fw="33" fh="66">artillery_player/fr_artillery_haunt_cleo.png</animSheet>
-<weaponAnim name="fr_artillery_haunt_cleo">
-	<sheet>fr_artillery_haunt_cleo</sheet>
+<animSheet name="fr_artillery_revenant_cleo" w="99" h="66" fw="33" fh="66">artillery_player/fr_artillery_revenant_cleo.png</animSheet>
+<weaponAnim name="fr_artillery_revenant_cleo">
+	<sheet>fr_artillery_revenant_cleo</sheet>
 	<desc length="3" x="0" y="0" />
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>2</fireFrame>
 	<firePoint x="16" y="23" />
 	<mountPoint x="16" y="52" />
-	<chargeImage>artillery_player/fr_artillery_haunt_cleo_glow.png</chargeImage>
+	<chargeImage>artillery_player/fr_artillery_revenant_cleo_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_artillery_haunt_cleo_b" w="99" h="66" fw="33" fh="66">artillery_player/fr_artillery_haunt_cleo_b.png</animSheet>
-<weaponAnim name="fr_artillery_haunt_cleo_b">
-	<sheet>fr_artillery_haunt_cleo_b</sheet>
+<animSheet name="fr_artillery_revenant_cleo_b" w="99" h="66" fw="33" fh="66">artillery_player/fr_artillery_revenant_cleo_b.png</animSheet>
+<weaponAnim name="fr_artillery_revenant_cleo_b">
+	<sheet>fr_artillery_revenant_cleo_b</sheet>
 	<desc length="3" x="0" y="0" />
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>2</fireFrame>
 	<firePoint x="16" y="23" />
 	<mountPoint x="16" y="52" />
-	<chargeImage>artillery_player/fr_artillery_haunt_cleo_b_glow.png</chargeImage>
+	<chargeImage>artillery_player/fr_artillery_revenant_cleo_b_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_artillery_haunt_cleo_c" w="99" h="66" fw="33" fh="66">artillery_player/fr_artillery_haunt_cleo_c.png</animSheet>
-<weaponAnim name="fr_artillery_haunt_cleo_c">
-	<sheet>fr_artillery_haunt_cleo_c</sheet>
+<animSheet name="fr_artillery_revenant_cleo_c" w="99" h="66" fw="33" fh="66">artillery_player/fr_artillery_revenant_cleo_c.png</animSheet>
+<weaponAnim name="fr_artillery_revenant_cleo_c">
+	<sheet>fr_artillery_revenant_cleo_c</sheet>
 	<desc length="3" x="0" y="0" />
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>2</fireFrame>
 	<firePoint x="16" y="23" />
 	<mountPoint x="16" y="52" />
-	<chargeImage>artillery_player/fr_artillery_haunt_cleo_c_glow.png</chargeImage>
+	<chargeImage>artillery_player/fr_artillery_revenant_cleo_c_glow.png</chargeImage>
 </weaponAnim>
 
 <animSheet name="fr_artillery_g" w="5977" h="244" fw="139" fh="244">artillery_player/fr_artillery_g.png</animSheet>
@@ -13489,65 +14921,65 @@ SLIMER ANIMATIONS
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
 
-<animSheet name="fr_artillery_haunt_flagship_beam" w="231" h="85" fw="33" fh="85">artillery_player/fr_artillery_haunt_flagship_beam.png</animSheet>
-<animSheet name="fr_artillery_haunt_flagship_laser" w="297" h="58" fw="33" fh="58">artillery_player/fr_artillery_haunt_flagship_laser.png</animSheet>
-<animSheet name="fr_artillery_haunt_flagship_ion" w="264" h="65" fw="33" fh="65">artillery_player/fr_artillery_haunt_flagship_ion.png</animSheet>
-<weaponAnim name="fr_artillery_haunt_flagship_ion">
-	<sheet>fr_artillery_haunt_flagship_ion</sheet>
+<animSheet name="fr_artillery_revenant_flagship_beam" w="231" h="85" fw="33" fh="85">artillery_player/fr_artillery_revenant_flagship_beam.png</animSheet>
+<animSheet name="fr_artillery_revenant_flagship_laser" w="297" h="58" fw="33" fh="58">artillery_player/fr_artillery_revenant_flagship_laser.png</animSheet>
+<animSheet name="fr_artillery_revenant_flagship_ion" w="264" h="65" fw="33" fh="65">artillery_player/fr_artillery_revenant_flagship_ion.png</animSheet>
+<weaponAnim name="fr_artillery_revenant_flagship_ion">
+	<sheet>fr_artillery_revenant_flagship_ion</sheet>
 	<desc length="8" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>5</fireFrame>
 	<firePoint  x="16" y="20"/>
 	<mountPoint x="0" y="0"/>
-	<chargeImage>artillery_player/fr_artillery_haunt_flagship_ion_glow.png</chargeImage>
+	<chargeImage>artillery_player/fr_artillery_revenant_flagship_ion_glow.png</chargeImage>
 </weaponAnim>
-<weaponAnim name="fr_artillery_haunt_flagship_laser">
-	<sheet>fr_artillery_haunt_flagship_laser</sheet>
+<weaponAnim name="fr_artillery_revenant_flagship_laser">
+	<sheet>fr_artillery_revenant_flagship_laser</sheet>
 	<desc length="9" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>4</fireFrame>
 	<firePoint  x="16" y="14"/>
 	<mountPoint x="0" y="0"/>
-	<chargeImage>artillery_player/fr_artillery_haunt_flagship_laser_glow.png</chargeImage>
+	<chargeImage>artillery_player/fr_artillery_revenant_flagship_laser_glow.png</chargeImage>
 </weaponAnim>
-<weaponAnim name="fr_artillery_haunt_flagship_beam">
-	<sheet>fr_artillery_haunt_flagship_beam</sheet>
+<weaponAnim name="fr_artillery_revenant_flagship_beam">
+	<sheet>fr_artillery_revenant_flagship_beam</sheet>
 	<desc length="7" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>2</fireFrame>
 	<firePoint  x="16" y="23"/>
 	<mountPoint x="0" y="0"/>
-	<chargeImage>artillery_player/fr_artillery_haunt_flagship_beam_glow.png</chargeImage>
+	<chargeImage>artillery_player/fr_artillery_revenant_flagship_beam_glow.png</chargeImage>
 </weaponAnim>
 
-<animSheet name="fr_artillery_haunt_flagship_b_beam" w="231" h="85" fw="33" fh="85">artillery_player/fr_artillery_haunt_flagship_b_beam.png</animSheet>
-<animSheet name="fr_artillery_haunt_flagship_b_laser" w="297" h="58" fw="33" fh="58">artillery_player/fr_artillery_haunt_flagship_b_laser.png</animSheet>
-<animSheet name="fr_artillery_haunt_flagship_b_ion" w="264" h="65" fw="33" fh="65">artillery_player/fr_artillery_haunt_flagship_b_ion.png</animSheet>
-<weaponAnim name="fr_artillery_haunt_flagship_b_ion">
-	<sheet>fr_artillery_haunt_flagship_b_ion</sheet>
+<animSheet name="fr_artillery_revenant_flagship_b_beam" w="231" h="85" fw="33" fh="85">artillery_player/fr_artillery_revenant_flagship_b_beam.png</animSheet>
+<animSheet name="fr_artillery_revenant_flagship_b_laser" w="297" h="58" fw="33" fh="58">artillery_player/fr_artillery_revenant_flagship_b_laser.png</animSheet>
+<animSheet name="fr_artillery_revenant_flagship_b_ion" w="264" h="65" fw="33" fh="65">artillery_player/fr_artillery_revenant_flagship_b_ion.png</animSheet>
+<weaponAnim name="fr_artillery_revenant_flagship_b_ion">
+	<sheet>fr_artillery_revenant_flagship_b_ion</sheet>
 	<desc length="8" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>5</fireFrame>
 	<firePoint  x="16" y="20"/>
 	<mountPoint x="0" y="0"/>
-	<chargeImage>artillery_player/fr_artillery_haunt_flagship_b_ion_glow.png</chargeImage>
+	<chargeImage>artillery_player/fr_artillery_revenant_flagship_b_ion_glow.png</chargeImage>
 </weaponAnim>
-<weaponAnim name="fr_artillery_haunt_flagship_b_laser">
-	<sheet>fr_artillery_haunt_flagship_b_laser</sheet>
+<weaponAnim name="fr_artillery_revenant_flagship_b_laser">
+	<sheet>fr_artillery_revenant_flagship_b_laser</sheet>
 	<desc length="9" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>4</fireFrame>
 	<firePoint  x="16" y="14"/>
 	<mountPoint x="0" y="0"/>
 </weaponAnim>
-<weaponAnim name="fr_artillery_haunt_flagship_b_beam">
-	<sheet>fr_artillery_haunt_flagship_b_beam</sheet>
+<weaponAnim name="fr_artillery_revenant_flagship_b_beam">
+	<sheet>fr_artillery_revenant_flagship_b_beam</sheet>
 	<desc length="7" x="0" y="0"/>
 	<chargedFrame>1</chargedFrame>
 	<fireFrame>2</fireFrame>
 	<firePoint  x="16" y="23"/>
 	<mountPoint x="0" y="0"/>
-	<chargeImage>artillery_player/fr_artillery_haunt_flagship_b_beam_glow.png</chargeImage>
+	<chargeImage>artillery_player/fr_artillery_revenant_flagship_b_beam_glow.png</chargeImage>
 </weaponAnim>
 
 <animSheet name="fr_artillery_rues_flagship_leeches" w="288" h="53" fw="36" fh="53">artillery_player/fr_artillery_rues_flagship_leeches.png</animSheet>
@@ -13789,76 +15221,6 @@ SLIMER ANIMATIONS
 **********************************************************************************************************************
 -->
 
-<animSheet name="fr_room_resist_3x2" w="105" h="70" fw="105" fh="70">effects/fr_room_resist_3x2.png</animSheet>
-<anim name="fr_room_resist_3x2">
-	<sheet>fr_room_resist_3x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_resist_1x4" w="35" h="140" fw="35" fh="140">effects/fr_room_resist_1x4.png</animSheet>
-<anim name="fr_room_resist_1x4">
-	<sheet>fr_room_resist_1x4</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_resist_4x1" w="140" h="35" fw="140" fh="35">effects/fr_room_resist_4x1.png</animSheet>
-<anim name="fr_room_resist_4x1">
-	<sheet>fr_room_resist_4x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_2x1" w="70" h="35" fw="70" fh="35">effects/fr_room_ion_resist_2x1.png</animSheet>
-<anim name="fr_room_ion_resist_2x1">
-	<sheet>fr_room_ion_resist_2x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_3x1" w="35" h="105" fw="35" fh="105">effects/fr_room_ion_resist_3x1.png</animSheet>
-<anim name="fr_room_ion_resist_3x1">
-	<sheet>fr_room_ion_resist_3x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_1x2" w="35" h="70" fw="35" fh="70">effects/fr_room_ion_resist_1x2.png</animSheet>
-<anim name="fr_room_ion_resist_1x2">
-	<sheet>fr_room_ion_resist_1x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_2x2" w="70" h="70" fw="70" fh="70">effects/fr_room_ion_resist_2x2.png</animSheet>
-<anim name="fr_room_ion_resist_2x2">
-	<sheet>fr_room_ion_resist_2x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_3x1" w="105" h="35" fw="105" fh="35">effects/fr_room_ion_resist_3x1.png</animSheet>
-<anim name="fr_room_ion_resist_3x1">
-	<sheet>fr_room_ion_resist_3x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_4x1" w="140" h="35" fw="140" fh="35">effects/fr_room_ion_resist_4x1.png</animSheet>
-<anim name="fr_room_ion_resist_4x1">
-	<sheet>fr_room_ion_resist_4x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_3x3" w="105" h="105" fw="105" fh="105">effects/fr_room_ion_resist_3x3.png</animSheet>
-<anim name="fr_room_ion_resist_3x3">
-	<sheet>fr_room_ion_resist_3x3</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
 <animSheet name="fr_icon_chaos_telepad" w="35" h="35" fw="35" fh="35">effects/fr_icon_chaos_telepad.png</animSheet>
 <anim name="fr_icon_chaos_telepad">
 	<sheet>fr_icon_chaos_telepad</sheet>
@@ -13878,55 +15240,6 @@ SLIMER ANIMATIONS
 	<time>1</time>
 </anim>
 
-<animSheet name="fr_room_ion_resist_pink_2x1" w="70" h="35" fw="70" fh="35">effects/fr_room_ion_resist_pink_2x1.png</animSheet>
-<anim name="fr_room_ion_resist_pink_2x1">
-	<sheet>fr_room_ion_resist_pink_2x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_pink_1x2" w="35" h="70" fw="35" fh="70">effects/fr_room_ion_resist_pink_1x2.png</animSheet>
-<anim name="fr_room_ion_resist_pink_1x2">
-	<sheet>fr_room_ion_resist_pink_1x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_pink_1x3" w="35" h="105" fw="35" fh="105">effects/fr_room_ion_resist_pink_1x3.png</animSheet>
-<anim name="fr_room_ion_resist_pink_1x3">
-	<sheet>fr_room_ion_resist_pink_1x3</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_pink_2x2" w="70" h="70" fw="70" fh="70">effects/fr_room_ion_resist_pink_2x2.png</animSheet>
-<anim name="fr_room_ion_resist_pink_2x2">
-	<sheet>fr_room_ion_resist_pink_2x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_pink_3x2" w="105" h="70" fw="105" fh="70">effects/fr_room_ion_resist_pink_3x2.png</animSheet>
-<anim name="fr_room_ion_resist_pink_3x2">
-	<sheet>fr_room_ion_resist_pink_3x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_pink_3x1" w="105" h="35" fw="105" fh="35">effects/fr_room_ion_resist_pink_3x1.png</animSheet>
-<anim name="fr_room_ion_resist_pink_3x1">
-	<sheet>fr_room_ion_resist_pink_3x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_resist_pink_4x1" w="140" h="35" fw="140" fh="35">effects/fr_room_ion_resist_pink_4x1.png</animSheet>
-<anim name="fr_room_ion_resist_pink_4x1">
-	<sheet>fr_room_ion_resist_pink_4x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
 <animSheet name="fr_room_ion_resist_pink_telepad_off_2x2" w="70" h="70" fw="70" fh="70">effects/fr_room_ion_resist_pink_telepad_off_2x2.png</animSheet>
 <anim name="fr_room_ion_resist_pink_telepad_off_2x2">
 	<sheet>fr_room_ion_resist_pink_telepad_off_2x2</sheet>
@@ -13936,13 +15249,6 @@ SLIMER ANIMATIONS
 <animSheet name="fr_room_ion_resist_pink_telepad_on_2x2" w="70" h="70" fw="70" fh="70">effects/fr_room_ion_resist_pink_telepad_on_2x2.png</animSheet>
 <anim name="fr_room_ion_resist_pink_telepad_on_2x2">
 	<sheet>fr_room_ion_resist_pink_telepad_on_2x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_sabotage_resist_3x1" w="105" h="35" fw="105" fh="35">effects/fr_room_sabotage_resist_3x1.png</animSheet>
-<anim name="fr_room_sabotage_resist_3x1">
-	<sheet>fr_room_sabotage_resist_3x1</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
 </anim>
@@ -13977,27 +15283,6 @@ SLIMER ANIMATIONS
 <animSheet name="fr_room_telepad_on_3x2" w="105" h="70" fw="105" fh="70">effects/fr_room_telepad_on_3x2.png</animSheet>
 <anim name="fr_room_telepad_on_3x2">
 	<sheet>fr_room_telepad_on_3x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_ion_immune_3x1" w="105" h="35" fw="105" fh="35">effects/fr_room_ion_immune_3x1.png</animSheet>
-<anim name="fr_room_ion_immune_3x1">
-	<sheet>fr_room_ion_immune_3x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_heal_3x1" w="105" h="35" fw="105" fh="35">effects/fr_room_heal_3x1.png</animSheet>
-<anim name="fr_room_heal_3x1">
-	<sheet>fr_room_heal_3x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_heal_2x2" w="70" h="70" fw="70" fh="70">effects/fr_room_heal_2x2.png</animSheet>
-<anim name="fr_room_heal_2x2">
-	<sheet>fr_room_heal_2x2</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
 </anim>
@@ -14066,9 +15351,37 @@ SLIMER ANIMATIONS
 	<time>1</time>
 </anim>
 
+<animSheet name="fr_room_artillery_8" w="105" h="35" fw="105" fh="35">ship/interior/room_artillery_fr_8.png</animSheet>
+<anim name="fr_room_artillery_8">
+	<sheet>fr_room_artillery_8</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_9" w="105" h="35" fw="105" fh="35">ship/interior/room_artillery_fr_9.png</animSheet>
+<anim name="fr_room_artillery_9">
+	<sheet>fr_room_artillery_9</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_fr_20" w="35" h="70" fw="35" fh="70">ship/interior/room_artillery_fr_20.png</animSheet>
+<anim name="fr_room_artillery_fr_20">
+	<sheet>fr_room_artillery_fr_20</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
 <animSheet name="fr_room_artillery_fr_21" w="35" h="70" fw="35" fh="70">ship/interior/room_artillery_fr_21.png</animSheet>
 <anim name="fr_room_artillery_fr_21">
 	<sheet>fr_room_artillery_fr_21</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_fr_22" w="35" h="105" fw="35" fh="105">ship/interior/room_artillery_fr_22.png</animSheet>
+<anim name="fr_room_artillery_fr_22">
+	<sheet>fr_room_artillery_fr_22</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
 </anim>
@@ -14087,6 +15400,146 @@ SLIMER ANIMATIONS
 	<time>1</time>
 </anim>
 
+<animSheet name="fr_room_artillery_26" w="140" h="35" fw="140" fh="35">ship/interior/room_artillery_fr_26.png</animSheet>
+<anim name="fr_room_artillery_26">
+	<sheet>fr_room_artillery_26</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_27" w="140" h="35" fw="140" fh="35">ship/interior/room_artillery_fr_27.png</animSheet>
+<anim name="fr_room_artillery_27">
+	<sheet>fr_room_artillery_27</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_noble_1" w="70" h="35" fw="70" fh="35">ship/interior/room_artillery_fr_noble_1.png</animSheet>
+<anim name="fr_room_artillery_noble_1">
+	<sheet>fr_room_artillery_noble_1</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_noble_2" w="70" h="35" fw="70" fh="35">ship/interior/room_artillery_fr_noble_2.png</animSheet>
+<anim name="fr_room_artillery_noble_2">
+	<sheet>fr_room_artillery_noble_2</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_noble_3" w="35" h="70" fw="35" fh="70">ship/interior/room_artillery_fr_noble_3.png</animSheet>
+<anim name="fr_room_artillery_noble_3">
+	<sheet>fr_room_artillery_noble_3</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_noble_4" w="35" h="70" fw="35" fh="70">ship/interior/room_artillery_fr_noble_4.png</animSheet>
+<anim name="fr_room_artillery_noble_4">
+	<sheet>fr_room_artillery_noble_4</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_noble_5" w="35" h="70" fw="35" fh="70">ship/interior/room_artillery_fr_noble_5.png</animSheet>
+<anim name="fr_room_artillery_noble_5">
+	<sheet>fr_room_artillery_noble_5</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_royal_1" w="70" h="70" fw="70" fh="70">ship/interior/room_artillery_fr_royal_1.png</animSheet>
+<anim name="fr_room_artillery_royal_1">
+	<sheet>fr_room_artillery_royal_1</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_royal_2" w="70" h="70" fw="70" fh="70">ship/interior/room_artillery_fr_royal_2.png</animSheet>
+<anim name="fr_room_artillery_royal_2">
+	<sheet>fr_room_artillery_royal_2</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_royal_3" w="70" h="70" fw="70" fh="70">ship/interior/room_artillery_fr_royal_3.png</animSheet>
+<anim name="fr_room_artillery_royal_3">
+	<sheet>fr_room_artillery_royal_3</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_commonwealth_2" w="105" h="35" fw="105" fh="35">ship/interior/room_artillery_fr_commonwealth_2.png</animSheet>
+<anim name="fr_room_artillery_commonwealth_2">
+	<sheet>fr_room_artillery_commonwealth_2</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_commonwealth_3" w="35" h="105" fw="35" fh="105">ship/interior/room_artillery_fr_commonwealth_3.png</animSheet>
+<anim name="fr_room_artillery_commonwealth_3">
+	<sheet>fr_room_artillery_commonwealth_3</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_commonwealth_4" w="70" h="70" fw="70" fh="70">ship/interior/room_artillery_fr_commonwealth_4.png</animSheet>
+<anim name="fr_room_artillery_commonwealth_4">
+	<sheet>fr_room_artillery_commonwealth_4</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_commonwealth_5" w="105" h="35" fw="105" fh="35">ship/interior/room_artillery_fr_commonwealth_5.png</animSheet>
+<anim name="fr_room_artillery_commonwealth_5">
+	<sheet>fr_room_artillery_commonwealth_5</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_wither_2" w="70" h="70" fw="70" fh="70">ship/interior/room_artillery_fr_wither_2.png</animSheet>
+<anim name="fr_room_artillery_wither_2">
+	<sheet>fr_room_artillery_wither_2</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_wither_3" w="70" h="70" fw="70" fh="70">ship/interior/room_artillery_fr_wither_3.png</animSheet>
+<anim name="fr_room_artillery_wither_3">
+	<sheet>fr_room_artillery_wither_3</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_wither_4" w="70" h="70" fw="70" fh="70">ship/interior/room_artillery_fr_wither_4.png</animSheet>
+<anim name="fr_room_artillery_wither_4">
+	<sheet>fr_room_artillery_wither_4</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_y_1" w="105" h="70" fw="105" fh="70">ship/interior/room_artillery_fr_y_1.png</animSheet>
+<anim name="fr_room_artillery_y_1">
+	<sheet>fr_room_artillery_y_1</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_y_2" w="105" h="70" fw="105" fh="70">ship/interior/room_artillery_fr_y_2.png</animSheet>
+<anim name="fr_room_artillery_y_2">
+	<sheet>fr_room_artillery_y_2</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="fr_room_artillery_y_3" w="105" h="70" fw="105" fh="70">ship/interior/room_artillery_fr_y_3.png</animSheet>
+<anim name="fr_room_artillery_y_3">
+	<sheet>fr_room_artillery_y_3</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
 
 <!-- 
 **********************************************************************************************************************
@@ -14101,114 +15554,9 @@ SLIMER ANIMATIONS
 	<time>1</time>
 </anim>
 
-<animSheet name="fr_room_salt_1x2" w="35" h="70" fw="35" fh="70">effects/fr_room_salt_1x2.png</animSheet>
-<anim name="fr_room_salt_1x2">
-	<sheet>fr_room_salt_1x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_salt_1x3" w="35" h="105" fw="35" fh="105">effects/fr_room_salt_1x3.png</animSheet>
-<anim name="fr_room_salt_1x3">
-	<sheet>fr_room_salt_1x3</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_salt_2x1" w="70" h="35" fw="70" fh="35">effects/fr_room_salt_2x1.png</animSheet>
-<anim name="fr_room_salt_2x1">
-	<sheet>fr_room_salt_2x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_salt_2x2" w="70" h="70" fw="70" fh="70">effects/fr_room_salt_2x2.png</animSheet>
-<anim name="fr_room_salt_2x2">
-	<sheet>fr_room_salt_2x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_salt_2x3" w="70" h="105" fw="70" fh="105">effects/fr_room_salt_2x3.png</animSheet>
-<anim name="fr_room_salt_2x3">
-	<sheet>fr_room_salt_2x3</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_salt_3x1" w="105" h="35" fw="105" fh="35">effects/fr_room_salt_3x1.png</animSheet>
-<anim name="fr_room_salt_3x1">
-	<sheet>fr_room_salt_3x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_salt_3x2" w="105" h="70" fw="105" fh="70">effects/fr_room_salt_3x2.png</animSheet>
-<anim name="fr_room_salt_3x2">
-	<sheet>fr_room_salt_3x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_gas_haunt_1x1" w="35" h="35" fw="35" fh="35">effects/fr_room_gas_haunt_1x1.png</animSheet>
-<anim name="fr_room_gas_haunt_1x1">
-	<sheet>fr_room_gas_haunt_1x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_gas_haunt_1x2" w="35" h="70" fw="35" fh="70">effects/fr_room_gas_haunt_1x2.png</animSheet>
-<anim name="fr_room_gas_haunt_1x2">
-	<sheet>fr_room_gas_haunt_1x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_gas_haunt_2x1" w="70" h="35" fw="70" fh="35">effects/fr_room_gas_haunt_2x1.png</animSheet>
-<anim name="fr_room_gas_haunt_2x1">
-	<sheet>fr_room_gas_haunt_2x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_gas_haunt_2x2" w="70" h="70" fw="70" fh="70">effects/fr_room_gas_haunt_2x2.png</animSheet>
-<anim name="fr_room_gas_haunt_2x2">
-	<sheet>fr_room_gas_haunt_2x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_gas_haunt_3x1" w="105" h="35" fw="105" fh="35">effects/fr_room_gas_haunt_3x1.png</animSheet>
-<anim name="fr_room_gas_haunt_3x1">
-	<sheet>fr_room_gas_haunt_3x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_gas_haunt_3x2" w="105" h="70" fw="105" fh="70">effects/fr_room_gas_haunt_3x2.png</animSheet>
-<anim name="fr_room_gas_haunt_3x2">
-	<sheet>fr_room_gas_haunt_3x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_gas_haunt_1x3" w="35" h="105" fw="35" fh="105">effects/fr_room_gas_haunt_1x3.png</animSheet>
-<anim name="fr_room_gas_haunt_1x3">
-	<sheet>fr_room_gas_haunt_1x3</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_gas_haunt_2x3" w="70" h="105" fw="70" fh="105">effects/fr_room_gas_haunt_2x3.png</animSheet>
-<anim name="fr_room_gas_haunt_2x3">
-	<sheet>fr_room_gas_haunt_2x3</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_room_gas_haunt_2x4" w="70" h="140" fw="70" fh="140">effects/fr_room_gas_haunt_2x4.png</animSheet>
-<anim name="fr_room_gas_haunt_2x4">
-	<sheet>fr_room_gas_haunt_2x4</sheet>
+<animSheet name="fr_room_gas_phys_1x1" w="35" h="35" fw="35" fh="35">effects/fr_room_gas_phys_1x1.png</animSheet>
+<anim name="fr_room_gas_phys_1x1">
+	<sheet>fr_room_gas_phys_1x1</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
 </anim>
@@ -14219,36 +15567,6 @@ SLIMER ANIMATIONS
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
 </anim>
-<animSheet name="fr_room_static_1x2" w="35" h="70" fw="35" fh="70">effects/fr_room_static_1x2.png</animSheet>
-<anim name="fr_room_static_1x2">
-	<sheet>fr_room_static_1x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-<animSheet name="fr_room_static_1x3" w="35" h="105" fw="35" fh="105">effects/fr_room_static_1x3.png</animSheet>
-<anim name="fr_room_static_1x3">
-	<sheet>fr_room_static_1x3</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-<animSheet name="fr_room_static_2x1" w="70" h="35" fw="70" fh="35">effects/fr_room_static_2x1.png</animSheet>
-<anim name="fr_room_static_2x1">
-	<sheet>fr_room_static_2x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-<animSheet name="fr_room_static_3x1" w="105" h="35" fw="105" fh="35">effects/fr_room_static_3x1.png</animSheet>
-<anim name="fr_room_static_3x1">
-	<sheet>fr_room_static_3x1</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-<animSheet name="fr_room_static_2x2" w="70" h="70" fw="70" fh="70">effects/fr_room_static_2x2.png</animSheet>
-<anim name="fr_room_static_2x2">
-	<sheet>fr_room_static_2x2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
 
 <animSheet name="fr_room_blasphemy_1x1" w="35" h="35" fw="35" fh="35">effects/fr_room_blasphemy_1x1.png</animSheet>
 <anim name="fr_room_blasphemy_1x1">
@@ -14256,57 +15574,17 @@ SLIMER ANIMATIONS
 	<desc length="1" x="0" y="0" />
 	<time>1</time>
 </anim>
-<animSheet name="fr_room_blasphemy_1x2" w="35" h="70" fw="35" fh="70">effects/fr_room_blasphemy_1x2.png</animSheet>
-<anim name="fr_room_blasphemy_1x2">
-	<sheet>fr_room_blasphemy_1x2</sheet>
+
+<animSheet name="fr_room_ion_resist_pink_floor_1x1" w="35" h="35" fw="35" fh="35">effects/fr_room_ion_resist_pink_floor_1x1.png</animSheet>
+<anim name="fr_room_ion_resist_pink_floor_1x1">
+	<sheet>fr_room_ion_resist_pink_floor_1x1</sheet>
 	<desc length="1" x="0" y="0" />
 	<time>1</time>
 </anim>
-<animSheet name="fr_room_blasphemy_1x3" w="35" h="105" fw="35" fh="105">effects/fr_room_blasphemy_1x3.png</animSheet>
-<anim name="fr_room_blasphemy_1x3">
-	<sheet>fr_room_blasphemy_1x3</sheet>
-	<desc length="1" x="0" y="0" />
-	<time>1</time>
-</anim>
-<animSheet name="fr_room_blasphemy_1x4" w="35" h="140" fw="35" fh="140">effects/fr_room_blasphemy_1x4.png</animSheet>
-<anim name="fr_room_blasphemy_1x4">
-	<sheet>fr_room_blasphemy_1x4</sheet>
-	<desc length="1" x="0" y="0" />
-	<time>1</time>
-</anim>
-<animSheet name="fr_room_blasphemy_2x1" w="70" h="35" fw="70" fh="35">effects/fr_room_blasphemy_2x1.png</animSheet>
-<anim name="fr_room_blasphemy_2x1">
-	<sheet>fr_room_blasphemy_2x1</sheet>
-	<desc length="1" x="0" y="0" />
-	<time>1</time>
-</anim>
-<animSheet name="fr_room_blasphemy_3x1" w="105" h="35" fw="105" fh="35">effects/fr_room_blasphemy_3x1.png</animSheet>
-<anim name="fr_room_blasphemy_3x1">
-	<sheet>fr_room_blasphemy_3x1</sheet>
-	<desc length="1" x="0" y="0" />
-	<time>1</time>
-</anim>
-<animSheet name="fr_room_blasphemy_4x1" w="140" h="35" fw="140" fh="35">effects/fr_room_blasphemy_4x1.png</animSheet>
-<anim name="fr_room_blasphemy_4x1">
-	<sheet>fr_room_blasphemy_4x1</sheet>
-	<desc length="1" x="0" y="0" />
-	<time>1</time>
-</anim>
-<animSheet name="fr_room_blasphemy_3x2" w="105" h="70" fw="105" fh="70">effects/fr_room_blasphemy_3x2.png</animSheet>
-<anim name="fr_room_blasphemy_3x2">
-	<sheet>fr_room_blasphemy_3x2</sheet>
-	<desc length="1" x="0" y="0" />
-	<time>1</time>
-</anim>
-<animSheet name="fr_room_blasphemy_2x2" w="70" h="70" fw="70" fh="70">effects/fr_room_blasphemy_2x2.png</animSheet>
-<anim name="fr_room_blasphemy_2x2">
-	<sheet>fr_room_blasphemy_2x2</sheet>
-	<desc length="1" x="0" y="0" />
-	<time>1</time>
-</anim>
-<animSheet name="fr_room_blasphemy_2x3" w="70" h="105" fw="70" fh="105">effects/fr_room_blasphemy_2x3.png</animSheet>
-<anim name="fr_room_blasphemy_2x3">
-	<sheet>fr_room_blasphemy_2x3</sheet>
+
+<animSheet name="fr_room_ion_resist_pink_wall_1x1" w="35" h="35" fw="35" fh="35">effects/fr_room_ion_resist_pink_wall_1x1.png</animSheet>
+<anim name="fr_room_ion_resist_pink_wall_1x1">
+	<sheet>fr_room_ion_resist_pink_wall_1x1</sheet>
 	<desc length="1" x="0" y="0" />
 	<time>1</time>
 </anim>
@@ -14601,19 +15879,47 @@ SLIMER ANIMATIONS
 
 <!-- 
 **********************************************************************************************************************
+                                                 SHIP EFFECTS
+**********************************************************************************************************************
+-->
+
+<animSheet name="fr_osmian_black_hole_animation_a" w="564" h="152" fw="141" fh="152">effects_ship/fr_osmian_black_hole_animation_a.png</animSheet>
+<anim name="fr_osmian_black_hole_animation_a">
+	<sheet>fr_osmian_black_hole_animation_a</sheet>
+	<desc length="4" x="0" y="0" />
+	<time>0.75</time>
+</anim>
+
+<animSheet name="fr_osmian_black_hole_animation_b" w="564" h="152" fw="141" fh="152">effects_ship/fr_osmian_black_hole_animation_b.png</animSheet>
+<anim name="fr_osmian_black_hole_animation_b">
+	<sheet>fr_osmian_black_hole_animation_b</sheet>
+	<desc length="4" x="0" y="0" />
+	<time>0.75</time>
+</anim>
+
+<animSheet name="fr_osmian_black_hole_animation_c" w="564" h="152" fw="141" fh="152">effects_ship/fr_osmian_black_hole_animation_c.png</animSheet>
+<anim name="fr_osmian_black_hole_animation_c">
+	<sheet>fr_osmian_black_hole_animation_c</sheet>
+	<desc length="4" x="0" y="0" />
+	<time>0.75</time>
+</anim>
+
+
+<!-- 
+**********************************************************************************************************************
                                                  CLICKABLES
 **********************************************************************************************************************
 -->
 
-<animSheet name="fr_haunt_urn_object" w="13" h="21" fw="13" fh="21">decor/fr_haunt_urn.png</animSheet>
-<anim name="fr_haunt_urn_object">
-	<sheet>fr_haunt_urn_object</sheet>
+<animSheet name="fr_revenant_urn_object" w="13" h="21" fw="13" fh="21">decor/fr_revenant_urn.png</animSheet>
+<anim name="fr_revenant_urn_object">
+	<sheet>fr_revenant_urn_object</sheet>
 	<desc length="1" x="0" y="0" />
 	<time>1</time>
 </anim>
-<animSheet name="fr_haunt_urn_object_hover" w="13" h="21" fw="13" fh="21">decor/fr_haunt_urn_hover.png</animSheet>
-<anim name="fr_haunt_urn_object_hover">
-	<sheet>fr_haunt_urn_object_hover</sheet>
+<animSheet name="fr_revenant_urn_object_hover" w="13" h="21" fw="13" fh="21">decor/fr_revenant_urn_hover.png</animSheet>
+<anim name="fr_revenant_urn_object_hover">
+	<sheet>fr_revenant_urn_object_hover</sheet>
 	<desc length="1" x="0" y="0" />
 	<time>1</time>
 </anim>

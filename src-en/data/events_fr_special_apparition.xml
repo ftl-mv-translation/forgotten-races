@@ -8,16 +8,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_SLIMER" auto_blueprint="FR_APPARITION_SLIMER">
-	<destroyed load="FR_HAUNT_APPARITION_SLIMER_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_SLIMER_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_SLIMER_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_SLIMER_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_SLIMER">
+<event name="FR_REVENANT_APPARITION_SLIMER">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_slimer_apparition" global="true">
 		<color r="54" g="255" b="0" a="1.0"/>
@@ -40,37 +42,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_SLIMER_DESTROYED">
+<event name="FR_REVENANT_APPARITION_SLIMER_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_slimer_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_slimer_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_SLIMER_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_SLIMER_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_SLIMER_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_SLIMER_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_SLIMER_DROP"/>
+	<event load="FR_REVENANT_APPARITION_SLIMER_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_SLIMER_DEADCREW">
+<event name="FR_REVENANT_APPARITION_SLIMER_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_slimer_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_slimer_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_SLIMER_DROP"/>
+		<event load="FR_REVENANT_APPARITION_SLIMER_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_SLIMER_DROP">
+<event name="FR_REVENANT_APPARITION_SLIMER_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_SLIMER</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -86,16 +88,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_PHYS" auto_blueprint="FR_APPARITION_PHYS">
-	<destroyed load="FR_HAUNT_APPARITION_PHYS_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_PHYS_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_PHYS_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_PHYS_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_PHYS">
+<event name="FR_REVENANT_APPARITION_PHYS">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_phys_apparition" global="true">
 		<color r="0" g="255" b="255" a="1.0"/>
@@ -118,37 +122,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_PHYS_DESTROYED">
+<event name="FR_REVENANT_APPARITION_PHYS_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_phys_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_phys_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_PHYS_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_PHYS_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_PHYS_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_PHYS_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_PHYS_DROP"/>
+	<event load="FR_REVENANT_APPARITION_PHYS_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_PHYS_DEADCREW">
+<event name="FR_REVENANT_APPARITION_PHYS_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_phys_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_phys_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_PHYS_DROP"/>
+		<event load="FR_REVENANT_APPARITION_PHYS_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_PHYS_DROP">
+<event name="FR_REVENANT_APPARITION_PHYS_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_PHYS</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -164,16 +168,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_ALEENOR" auto_blueprint="FR_APPARITION_ALEENOR">
-	<destroyed load="FR_HAUNT_APPARITION_ALEENOR_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_ALEENOR_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_ALEENOR_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_ALEENOR_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_ALEENOR">
+<event name="FR_REVENANT_APPARITION_ALEENOR">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_aleenor_apparition" global="true">
 		<color r="255" g="0" b="255" a="1.0"/>
@@ -196,37 +202,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_ALEENOR_DESTROYED">
+<event name="FR_REVENANT_APPARITION_ALEENOR_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_aleenor_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_aleenor_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_ALEENOR_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_ALEENOR_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_ALEENOR_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_ALEENOR_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_ALEENOR_DROP"/>
+	<event load="FR_REVENANT_APPARITION_ALEENOR_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_ALEENOR_DEADCREW">
+<event name="FR_REVENANT_APPARITION_ALEENOR_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_aleenor_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_aleenor_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_ALEENOR_DROP"/>
+		<event load="FR_REVENANT_APPARITION_ALEENOR_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_ALEENOR_DROP">
+<event name="FR_REVENANT_APPARITION_ALEENOR_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_ALEENOR</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -242,16 +248,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_VIN" auto_blueprint="FR_APPARITION_VIN">
-	<destroyed load="FR_HAUNT_APPARITION_VIN_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_VIN_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_VIN_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_VIN_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_VIN">
+<event name="FR_REVENANT_APPARITION_VIN">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_vin_apparition" global="true">
 		<color r="255" g="125" b="0" a="1.0"/>
@@ -274,37 +282,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_VIN_DESTROYED">
+<event name="FR_REVENANT_APPARITION_VIN_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_vin_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_vin_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_VIN_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_VIN_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_VIN_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_VIN_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_VIN_DROP"/>
+	<event load="FR_REVENANT_APPARITION_VIN_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_VIN_DEADCREW">
+<event name="FR_REVENANT_APPARITION_VIN_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_vin_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_vin_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_VIN_DROP"/>
+		<event load="FR_REVENANT_APPARITION_VIN_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_VIN_DROP">
+<event name="FR_REVENANT_APPARITION_VIN_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_VIN</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -320,16 +328,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_CLEO" auto_blueprint="FR_APPARITION_CLEO">
-	<destroyed load="FR_HAUNT_APPARITION_CLEO_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_CLEO_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_CLEO_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_CLEO_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_CLEO">
+<event name="FR_REVENANT_APPARITION_CLEO">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_cleo_apparition" global="true">
 		<color r="0" g="0" b="255" a="1.0"/>
@@ -354,37 +364,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_CLEO_DESTROYED">
+<event name="FR_REVENANT_APPARITION_CLEO_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_cleo_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_cleo_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_CLEO_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_CLEO_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_CLEO_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_CLEO_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_CLEO_DROP"/>
+	<event load="FR_REVENANT_APPARITION_CLEO_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_CLEO_DEADCREW">
+<event name="FR_REVENANT_APPARITION_CLEO_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_cleo_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_cleo_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_CLEO_DROP"/>
+		<event load="FR_REVENANT_APPARITION_CLEO_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_CLEO_DROP">
+<event name="FR_REVENANT_APPARITION_CLEO_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_CLEO</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -400,16 +410,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_ZULU" auto_blueprint="FR_APPARITION_ZULU">
-	<destroyed load="FR_HAUNT_APPARITION_ZULU_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_ZULU_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_ZULU_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_ZULU_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_ZULU">
+<event name="FR_REVENANT_APPARITION_ZULU">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_zulu_apparition" global="true">
 		<color r="255" g="255" b="0" a="1.0"/>
@@ -432,37 +444,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_ZULU_DESTROYED">
+<event name="FR_REVENANT_APPARITION_ZULU_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_zulu_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_zulu_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_ZULU_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_ZULU_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_ZULU_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_ZULU_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_ZULU_DROP"/>
+	<event load="FR_REVENANT_APPARITION_ZULU_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_ZULU_DEADCREW">
+<event name="FR_REVENANT_APPARITION_ZULU_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_zulu_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_zulu_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_ZULU_DROP"/>
+		<event load="FR_REVENANT_APPARITION_ZULU_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_ZULU_DROP">
+<event name="FR_REVENANT_APPARITION_ZULU_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_ZULU</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -478,23 +490,25 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_G" auto_blueprint="FR_APPARITION_G">
-	<destroyed load="FR_HAUNT_APPARITION_G_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_G_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_G_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_G_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_G">
+<event name="FR_REVENANT_APPARITION_G">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_g_apparition" global="true">
 		<color r="255" g="0" b="0" a="1.0"/>
 	</beaconType>
 	<text>You reach the spot specified by the urn. As expected, a vessel of unique design orbits the beacon, hailing you the moment it senses your presence.
 	
-	"Ohoho! A new target dummy! Perfect! Renegade, my name is G, of the royal city Liythkyk Yuk! Prepare for your last living moments, staring at my perfect energy shields!"</text>
+	"Ohoho! A new target dummy! Perfect! Renegade, my name is G, of the Royal city Liythkyk Yuk! Prepare for your last living moments, staring at my perfect energy shields!"</text>
 	<playSound>ghostDeath</playSound>
 	<variable name="loc_fr_g_apparition_progress" op="set" val="0"/>
 	<ship load="FR_SHIP_APPARITION_G" hostile="true"/> 
@@ -508,39 +522,51 @@
 						</choice>
 				</event>
 		</choice>
+		<choice hidden="true" req="fr_unique_y" blue="true">
+			<text>(Queen Y) "Stand down, loyal servent. This is an order!"</text>
+				<event>
+					<text>G is visibly taken aback as she powers down her weapons. "M-My queen! I'm so sorry your highness! Please forgive my transgression!" She quickly transfers all the scrap she has on hand as well as the special weapon her ship carried!</text>
+					<ship hostile="false"/> 
+					<metaVariable name="prof_fr_g_apparition_killed" op="set" val="1"/>
+					<variable name="loc_fr_g_apparition_killed" op="set" val="1"/>
+					<achievement silent="false">ACH_FR_APPARITION_G</achievement>
+					<weapon name="FR_G_EROSION_BEAM"/>
+					<autoReward level="HIGH">standard_no_item</autoReward>
+				</event>
+		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_G_DESTROYED">
+<event name="FR_REVENANT_APPARITION_G_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_g_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_g_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_G_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_G_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_G_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_G_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_G_DROP"/>
+	<event load="FR_REVENANT_APPARITION_G_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_G_DEADCREW">
+<event name="FR_REVENANT_APPARITION_G_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_g_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_g_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_G_DROP"/>
+		<event load="FR_REVENANT_APPARITION_G_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_G_DROP">
+<event name="FR_REVENANT_APPARITION_G_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_G</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -556,19 +582,21 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_DEADSHIP" auto_blueprint="FR_APPARITION_DEADSHIP">
-	<destroyed load="FR_HAUNT_APPARITION_DEADSHIP_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_DEADSHIP_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_DEADSHIP_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_DEADSHIP_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_DEADSHIP">
+<event name="FR_REVENANT_APPARITION_DEADSHIP">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_deadship_apparition" global="true">
-		<color r="255" g="100" b="100" a="1.0"/>
+		<color r="197" g="148" b="148" a="1"/>
 	</beaconType>
 	<text>You reach the spot specified by the urn. As expected, a vessel of unique design orbits the beacon, hailing you the moment it senses your presence.
 	
@@ -588,32 +616,32 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_DEADSHIP_DESTROYED">
+<event name="FR_REVENANT_APPARITION_DEADSHIP_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_deadship_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_deadship_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_DEADSHIP_DROP"/>
+		<event load="FR_REVENANT_APPARITION_DEADSHIP_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_DEADSHIP_DEADCREW">
+<event name="FR_REVENANT_APPARITION_DEADSHIP_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_deadship_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_deadship_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_DEADSHIP_DROP"/>
+		<event load="FR_REVENANT_APPARITION_DEADSHIP_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_DEADSHIP_DROP">
+<event name="FR_REVENANT_APPARITION_DEADSHIP_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_DEADSHIP</achievement>
-	<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_FLAGSHIP</unlockCustomShip>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_REVENANT_FLAGSHIP</unlockCustomShip>
 	<autoReward level="HIGH">scrap_only</autoReward>
 	<weapon name="FR_DEADSHIP_RAINBOW_ION"/>
 </event>
@@ -627,16 +655,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_SMOKE" auto_blueprint="FR_APPARITION_SMOKE">
-	<destroyed load="FR_HAUNT_APPARITION_SMOKE_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_SMOKE_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_SMOKE_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_SMOKE_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_SMOKE">
+<event name="FR_REVENANT_APPARITION_SMOKE">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_smoke_apparition" global="true">
 		<color r="90" g="90" b="90" a="1.0"/>
@@ -659,37 +689,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_SMOKE_DESTROYED">
+<event name="FR_REVENANT_APPARITION_SMOKE_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_smoke_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_smoke_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_SMOKE_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_SMOKE_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_SMOKE_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_SMOKE_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_SMOKE_DROP"/>
+	<event load="FR_REVENANT_APPARITION_SMOKE_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_SMOKE_DEADCREW">
+<event name="FR_REVENANT_APPARITION_SMOKE_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_smoke_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_smoke_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_SMOKE_DROP"/>
+		<event load="FR_REVENANT_APPARITION_SMOKE_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_SMOKE_DROP">
+<event name="FR_REVENANT_APPARITION_SMOKE_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_SMOKE</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -705,20 +735,22 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_CHILLS" auto_blueprint="FR_APPARITION_CHILLS">
-	<destroyed load="FR_HAUNT_APPARITION_CHILLS_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_CHILLS_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_CHILLS_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_CHILLS_DEADCREW"/>
 	<crew>
 		<crewMember type="orchid_cultivator" prop="0.75"/>
 		<crewMember type="fr_lavaman" prop="0.25"/>
 	</crew>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_CHILLS">
+<event name="FR_REVENANT_APPARITION_CHILLS">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_chills_apparition" global="true">
 		<color r="255" g="255" b="255" a="1.0"/>
@@ -741,37 +773,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_CHILLS_DESTROYED">
+<event name="FR_REVENANT_APPARITION_CHILLS_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_chills_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_chills_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_CHILLS_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_CHILLS_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_CHILLS_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_CHILLS_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_CHILLS_DROP"/>
+	<event load="FR_REVENANT_APPARITION_CHILLS_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_CHILLS_DEADCREW">
+<event name="FR_REVENANT_APPARITION_CHILLS_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_chills_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_chills_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_CHILLS_DROP"/>
+		<event load="FR_REVENANT_APPARITION_CHILLS_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_CHILLS_DROP">
+<event name="FR_REVENANT_APPARITION_CHILLS_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_CHILLS</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -787,16 +819,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_POK" auto_blueprint="FR_APPARITION_POK">
-	<destroyed load="FR_HAUNT_APPARITION_POK_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_POK_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_POK_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_POK_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_POK">
+<event name="FR_REVENANT_APPARITION_POK">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_pok_apparition" global="true">
 		<color r="150" g="0" b="255" a="1.0"/>
@@ -819,37 +853,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_POK_DESTROYED">
+<event name="FR_REVENANT_APPARITION_POK_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_pok_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_pok_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_POK_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_POK_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_POK_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_POK_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_POK_DROP"/>
+	<event load="FR_REVENANT_APPARITION_POK_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_POK_DEADCREW">
+<event name="FR_REVENANT_APPARITION_POK_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_pok_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_pok_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_POK_DROP"/>
+		<event load="FR_REVENANT_APPARITION_POK_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_POK_DROP">
+<event name="FR_REVENANT_APPARITION_POK_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_POK</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -865,16 +899,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_CHARROR" auto_blueprint="FR_APPARITION_CHARROR">
-	<destroyed load="FR_HAUNT_APPARITION_CHARROR_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_CHARROR_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_CHARROR_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_CHARROR_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_CHARROR">
+<event name="FR_REVENANT_APPARITION_CHARROR">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_charror_apparition" global="true">
 		<color r="134" g="175" b="192" a="1.0"/>
@@ -899,37 +935,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_CHARROR_DESTROYED">
+<event name="FR_REVENANT_APPARITION_CHARROR_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_charror_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_charror_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_CHARROR_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_CHARROR_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_CHARROR_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_CHARROR_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_CHARROR_DROP"/>
+	<event load="FR_REVENANT_APPARITION_CHARROR_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_CHARROR_DEADCREW">
+<event name="FR_REVENANT_APPARITION_CHARROR_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_charror_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_charror_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_CHARROR_DROP"/>
+		<event load="FR_REVENANT_APPARITION_CHARROR_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_CHARROR_DROP">
+<event name="FR_REVENANT_APPARITION_CHARROR_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_CHARROR</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -945,16 +981,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_LEO" auto_blueprint="FR_APPARITION_LEO">
-	<destroyed load="FR_HAUNT_APPARITION_LEO_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_LEO_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_LEO_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_LEO_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_LEO">
+<event name="FR_REVENANT_APPARITION_LEO">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_leo_apparition" global="true">
 		<color r="0" g="104" b="0" a="1.0"/>
@@ -989,37 +1027,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_LEO_DESTROYED">
+<event name="FR_REVENANT_APPARITION_LEO_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_leo_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_leo_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_LEO_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_LEO_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_LEO_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_LEO_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_LEO_DROP"/>
+	<event load="FR_REVENANT_APPARITION_LEO_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_LEO_DEADCREW">
+<event name="FR_REVENANT_APPARITION_LEO_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_leo_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_leo_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_LEO_DROP"/>
+		<event load="FR_REVENANT_APPARITION_LEO_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_LEO_DROP">
+<event name="FR_REVENANT_APPARITION_LEO_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_LEO</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -1035,16 +1073,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_SEARAK" auto_blueprint="FR_APPARITION_SEARAK">
-	<destroyed load="FR_HAUNT_APPARITION_SEARAK_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_SEARAK_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_SEARAK_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_SEARAK_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_SEARAK">
+<event name="FR_REVENANT_APPARITION_SEARAK">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_searak_apparition" global="true">
 		<color r="100" g="70" b="0" a="1.0"/>
@@ -1067,37 +1107,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_SEARAK_DESTROYED">
+<event name="FR_REVENANT_APPARITION_SEARAK_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_searak_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_searak_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_SEARAK_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_SEARAK_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_SEARAK_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_SEARAK_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_SEARAK_DROP"/>
+	<event load="FR_REVENANT_APPARITION_SEARAK_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_SEARAK_DEADCREW">
+<event name="FR_REVENANT_APPARITION_SEARAK_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_searak_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_searak_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_SEARAK_DROP"/>
+		<event load="FR_REVENANT_APPARITION_SEARAK_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_SEARAK_DROP">
+<event name="FR_REVENANT_APPARITION_SEARAK_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_SEARAK</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -1113,19 +1153,21 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_AUTO" auto_blueprint="FR_APPARITION_AUTO">
-	<destroyed load="FR_HAUNT_APPARITION_AUTO_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_AUTO_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_AUTO_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_AUTO_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_AUTO">
+<event name="FR_REVENANT_APPARITION_AUTO">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_auto_apparition" global="true">
-		<color r="237" g="89" b="85" a="1.0"/>
+		<color r="76" g="57" b="57" a="1"/>
 	</beaconType>
 	<text>You reach the spot specified by the urn. As expected, a vessel of unique design orbits the beacon, hailing you the moment it senses your presence.
 	
@@ -1145,29 +1187,29 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_AUTO_DESTROYED">
+<event name="FR_REVENANT_APPARITION_AUTO_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_auto_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_auto_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_AUTO_DROP"/>
+		<event load="FR_REVENANT_APPARITION_AUTO_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_AUTO_DEADCREW">
+<event name="FR_REVENANT_APPARITION_AUTO_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_auto_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_auto_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_AUTO_DROP"/>
+		<event load="FR_REVENANT_APPARITION_AUTO_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_AUTO_DROP">
+<event name="FR_REVENANT_APPARITION_AUTO_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_AUTO</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -1183,16 +1225,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_WATCHER" auto_blueprint="FR_APPARITION_WATCHER">
-	<destroyed load="FR_HAUNT_APPARITION_WATCHER_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_WATCHER_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_WATCHER_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_WATCHER_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_WATCHER">
+<event name="FR_REVENANT_APPARITION_WATCHER">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_watcher_apparition" global="true">
 		<color r="156" g="156" b="156" a="1.0"/>
@@ -1215,37 +1259,37 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_WATCHER_DESTROYED">
+<event name="FR_REVENANT_APPARITION_WATCHER_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_watcher_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_watcher_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_WATCHER_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_WATCHER_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_WATCHER_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_WATCHER_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_WATCHER_DROP"/>
+	<event load="FR_REVENANT_APPARITION_WATCHER_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_WATCHER_DEADCREW">
+<event name="FR_REVENANT_APPARITION_WATCHER_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_watcher_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_watcher_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_WATCHER_DROP"/>
+		<event load="FR_REVENANT_APPARITION_WATCHER_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_WATCHER_DROP">
+<event name="FR_REVENANT_APPARITION_WATCHER_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.</text>
 	<achievement silent="false">ACH_FR_APPARITION_WATCHER</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -1261,16 +1305,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_FLAGSHIP" auto_blueprint="FR_APPARITION_FLAGSHIP">
-	<destroyed load="FR_HAUNT_APPARITION_FLAGSHIP_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_FLAGSHIP_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_FLAGSHIP_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_FLAGSHIP_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_FLAGSHIP">
+<event name="FR_REVENANT_APPARITION_FLAGSHIP">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_flagship_apparition" global="true">
 		<color r="96" g="33" b="89" a="1.0"/>
@@ -1293,7 +1339,7 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_FLAGSHIP_DESTROYED">
+<event name="FR_REVENANT_APPARITION_FLAGSHIP_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_flagship_apparition_killed" op="set" val="1"/>
@@ -1304,11 +1350,11 @@
 	</choice>
 	<choice req="prof_fr_bonus_apparitions_unlocked" lvl="1" max_group="1" blue="false" hidden="true">	
 		<text>Continue...</text>
-			<event load="FR_HAUNT_APPARITION_FLAGSHIP_DROP"/>
+			<event load="FR_REVENANT_APPARITION_FLAGSHIP_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_FLAGSHIP_DEADCREW">
+<event name="FR_REVENANT_APPARITION_FLAGSHIP_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_flagship_apparition_killed" op="set" val="1"/>
@@ -1319,7 +1365,7 @@
 	</choice>
 	<choice req="prof_fr_bonus_apparitions_unlocked" lvl="1" max_group="1" blue="false" hidden="true">	
 		<text>Continue...</text>
-			<event load="FR_HAUNT_APPARITION_FLAGSHIP_DROP"/>
+			<event load="FR_REVENANT_APPARITION_FLAGSHIP_DROP"/>
 	</choice>
 </event>
 
@@ -1333,13 +1379,13 @@
 					<achievement silent="false">ACH_FR_EVENT_URN_BONUS</achievement>
 					<choice blue="false" hidden="true">	
 						<text>Continue...</text>
-							<event load="FR_HAUNT_APPARITION_FLAGSHIP_DROP"/>
+							<event load="FR_REVENANT_APPARITION_FLAGSHIP_DROP"/>
 					</choice>
 				</event>
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_FLAGSHIP_DROP">
+<event name="FR_REVENANT_APPARITION_FLAGSHIP_DROP">
 	<text>You find a very strange individual in the bowels of the ship. Upon noticing your presence, they immediately bow and swear absolute fealty to you, claiming you "created" them. The remains of one of the ship's rooms reveal several documents mentioning the existence of a project to clone the leaders of the Coalition! Thankfully... the project appears to have been scrapped following a single attempt ending in failure.</text>
 	<achievement silent="false">ACH_FR_APPARITION_FLAGSHIP</achievement>
 	<autoReward level="LOW">standard_no_item</autoReward>
@@ -1356,19 +1402,21 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_AUGUSTUS" auto_blueprint="FR_APPARITION_AUGUSTUS">
-	<destroyed load="FR_HAUNT_APPARITION_AUGUSTUS_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_AUGUSTUS_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_AUGUSTUS_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_AUGUSTUS_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_AUGUSTUS">
+<event name="FR_REVENANT_APPARITION_AUGUSTUS">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_augustus_apparition" global="true">
-		<color r="255" g="208" b="0" a="1"/>
+		<color r="255" g="195" b="0" a="1"/>
 	</beaconType>
 	<text>You reach the spot specified by the urn. As expected, a vessel of unique design orbits the beacon, hailing you the moment it senses your presence. The ship's hull appears to be made entirely out of gold; rumor has it a ship like this belonged only to the richest Phantom to ever live. Augustus, slain by mutiny, the ghost of a Ghost with the most.
 	
@@ -1388,42 +1436,42 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_AUGUSTUS_DESTROYED">
+<event name="FR_REVENANT_APPARITION_AUGUSTUS_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_augustus_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_augustus_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_AUGUSTUS_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_AUGUSTUS_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_AUGUSTUS_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_AUGUSTUS_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_AUGUSTUS_DROP"/>
+	<event load="FR_REVENANT_APPARITION_AUGUSTUS_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_AUGUSTUS_DEADCREW">
+<event name="FR_REVENANT_APPARITION_AUGUSTUS_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_augustus_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_augustus_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_AUGUSTUS_DROP"/>
+		<event load="FR_REVENANT_APPARITION_AUGUSTUS_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_AUGUSTUS_DROP">
+<event name="FR_REVENANT_APPARITION_AUGUSTUS_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.
 		
 	In addition, someone who appears to be the same person you just killed appears aboard your ship, fading into existence. Before you can fire upon him, he swears loyalty, praising you for freeing him from his "captor", apparently an impostor.</text>
 	<achievement silent="false">ACH_FR_APPARITION_AUGUSTUS</achievement>
-	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BONUS_HAUNT_AUGUSTUS</unlockCustomShip>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BONUS_REVENANT_AUGUSTUS</unlockCustomShip>
 	<crewMember amount="1" class="fr_bonus_augustus" all_skills="2">Augustus</crewMember>
 	<autoReward level="LOW">standard_no_item</autoReward>
 	<weapon name="FR_AUGUSTUS_BEAM"/>
@@ -1438,16 +1486,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_SALLY" auto_blueprint="FR_APPARITION_SALLY">
-	<destroyed load="FR_HAUNT_APPARITION_SALLY_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_SALLY_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_SALLY_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_SALLY_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_SALLY">
+<event name="FR_REVENANT_APPARITION_SALLY">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_sally_apparition" global="true">
 		<color r="220" g="185" b="149" a="1"/>
@@ -1470,42 +1520,42 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_SALLY_DESTROYED">
+<event name="FR_REVENANT_APPARITION_SALLY_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_sally_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_sally_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_SALLY_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_SALLY_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_SALLY_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_SALLY_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_SALLY_DROP"/>
+	<event load="FR_REVENANT_APPARITION_SALLY_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_SALLY_DEADCREW">
+<event name="FR_REVENANT_APPARITION_SALLY_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_sally_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_sally_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_SALLY_DROP"/>
+		<event load="FR_REVENANT_APPARITION_SALLY_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_SALLY_DROP">
+<event name="FR_REVENANT_APPARITION_SALLY_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.
 		
 		In addition, someone who appears to be the same person you just killed appears aboard your ship, fading into existence. Before you can fire upon them, they swear loyalty, praising you for freeing them from their "captor", apparently an impostor.</text>
 	<achievement silent="false">ACH_FR_APPARITION_SALLY</achievement>
-	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BONUS_HAUNT_SALLY</unlockCustomShip>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BONUS_REVENANT_SALLY</unlockCustomShip>
 	<crewMember amount="1" class="fr_bonus_sally_weaver" all_skills="2">Sally</crewMember>
 	<autoReward level="LOW">standard_no_item</autoReward>
 	<weapon name="FR_SALLY_BOMB"/>
@@ -1520,19 +1570,21 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_PRINCE" auto_blueprint="FR_APPARITION_PRINCE">
-	<destroyed load="FR_HAUNT_APPARITION_PRINCE_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_PRINCE_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_PRINCE_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_PRINCE_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_PRINCE">
+<event name="FR_REVENANT_APPARITION_PRINCE">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_prince_apparition" global="true">
-		<color r="79" g="79" b="79" a="1"/>
+		<color r="83" g="17" b="17" a="1"/>
 	</beaconType>
 	<text>You reach the spot specified by the urn. As expected, a vessel of unique design orbits the beacon, hailing you the moment it senses your presence. A shroud of absolute darkness masks parts of the ship's true appearance. According to legend, a vessel like this was commanded by a being known as the Prince of Darkness, a demonic spirit in the form of an Equinoid. The Prince does not speak to you, simply branding their message directly in your mind.
 	
@@ -1552,42 +1604,42 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_PRINCE_DESTROYED">
+<event name="FR_REVENANT_APPARITION_PRINCE_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_prince_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_prince_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_PRINCE_DROP_CHANCE"/>
+		<event load="FR_REVENANT_APPARITION_PRINCE_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_HAUNT_APPARITION_PRINCE_DROP_CHANCE">
+<eventList name="FR_REVENANT_APPARITION_PRINCE_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">standard_no_item</autoReward>
 	</event>
-	<event load="FR_HAUNT_APPARITION_PRINCE_DROP"/>
+	<event load="FR_REVENANT_APPARITION_PRINCE_DROP"/>
 </eventList>
 
-<event name="FR_HAUNT_APPARITION_PRINCE_DEADCREW">
+<event name="FR_REVENANT_APPARITION_PRINCE_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_prince_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_prince_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_PRINCE_DROP"/>
+		<event load="FR_REVENANT_APPARITION_PRINCE_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_PRINCE_DROP">
+<event name="FR_REVENANT_APPARITION_PRINCE_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.
 		
 		The Prince manifests in front of you as you return to the ship. Before you can draw your blaster, you hear the words ring out in your head. "Be not afraid, mortal. I come to offer your spoils of war, and to join you for the remainder of your errand. I do hope your presence will not tarnish my reputation."</text>
 	<achievement silent="false">ACH_FR_APPARITION_PRINCE</achievement>
-	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BONUS_HAUNT_PRINCE</unlockCustomShip>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BONUS_REVENANT_PRINCE</unlockCustomShip>
 	<crewMember amount="1" class="fr_bonus_prince" all_skills="2">Prince of Darkness</crewMember>
 	<autoReward level="LOW">standard_no_item</autoReward>
 	<weapon name="FR_PRINCE_CANNON"/>
@@ -1602,16 +1654,18 @@
 -->	
 
 <ship name="FR_SHIP_APPARITION_TRIRIAC" auto_blueprint="FR_APPARITION_TRIRIAC">
-	<destroyed load="FR_HAUNT_APPARITION_TRIRIAC_DESTROYED"/>
-	<deadCrew load="FR_HAUNT_APPARITION_TRIRIAC_DEADCREW"/>
+	<destroyed load="FR_REVENANT_APPARITION_TRIRIAC_DESTROYED"/>
+	<deadCrew load="FR_REVENANT_APPARITION_TRIRIAC_DEADCREW"/>
 </ship>
 
-<event name="FR_HAUNT_APPARITION_TRIRIAC">
+<event name="FR_REVENANT_APPARITION_TRIRIAC">
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_tririac_apparition" global="true">
 		<color r="128" g="128" b="62" a="1"/>
@@ -1636,34 +1690,34 @@
 		</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_TRIRIAC_DESTROYED">
+<event name="FR_REVENANT_APPARITION_TRIRIAC_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_tririac_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_tririac_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_TRIRIAC_DROP"/>
+		<event load="FR_REVENANT_APPARITION_TRIRIAC_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_TRIRIAC_DEADCREW">
+<event name="FR_REVENANT_APPARITION_TRIRIAC_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<metaVariable name="prof_fr_tririac_apparition_killed" op="set" val="1"/>
 	<variable name="loc_fr_tririac_apparition_killed" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_HAUNT_APPARITION_TRIRIAC_DROP"/>
+		<event load="FR_REVENANT_APPARITION_TRIRIAC_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_HAUNT_APPARITION_TRIRIAC_DROP">
+<event name="FR_REVENANT_APPARITION_TRIRIAC_DROP">
 	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.
 		
 	The strange entity in command begins to manifest in front of you, and you brace yourself for a mental assault unlike anything you've ever seen. But... it doesn't come, and the burly being simply retreats into the bowels of the ship. Perhaps... they will work with you, for now.</text>
 	<achievement silent="false">ACH_FR_APPARITION_TRIRIAC</achievement>
-	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BONUS_HAUNT_TRIRIAC</unlockCustomShip>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BONUS_REVENANT_TRIRIAC</unlockCustomShip>
 	<crewMember amount="1" class="fr_bonus_tririac" all_skills="2">Tririac</crewMember>
 	<autoReward level="LOW">standard_no_item</autoReward>
 	<weapon name="FR_TRIRIAC_ABDUCTOR"/>

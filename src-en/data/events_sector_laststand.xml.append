@@ -479,7 +479,7 @@
 			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_LEAH_CREWSER" blue="false">
 				<text>Contact Federation command.</text>
 				<event>
-					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "That's a interesting paintjob for your cruiser model, don't think I've seen any out there. Oh... wait a moment, I... think I know who drives a ship like that, isn't she the daughter of some super rich Rebel guy? I wonder why she decided to aid the Federation, what with all the money her daddy has. Or... maybe you just stole it. Doesn't matter to me, all that matters is if it can take down the Flagship."</text>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "That's a interesting paint-job for your cruiser model, don't think I've seen any out there. Oh... wait a moment, I... think I know who drives a ship like that, isn't she the daughter of some super rich Rebel guy? I wonder why she decided to aid the Federation, what with all the money her daddy has. Or... maybe you just stole it. Doesn't matter to me, all that matters is if it can take down the Flagship."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="LAST_STAND_START_2"/>
@@ -526,6 +526,26 @@
 					</choice>
 				</event>
             </mod-append:choice>
+			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_OBELISK_FLAGSHIP" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. He jumps back at the sight of your ship. "Dear lord, what kind of ship is *that*?! *5* artilleries?! Which madman would make something so obscenely powerful?! Well...whoever you are, you are our last hope. It seems like we're in good hands, but I hope you won't turn your guns at us once you are done with that Flagship..."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+            </mod-append:choice>
+			<mod-append:choice hidden="true" max_group="1" req="FR_SHIP_CYLVAN" blue="false">
+				<text>Contact Federation command.</text>
+				<event>
+					<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. "Woah! what kind of ship is this? It's as if the merchant merged his ship with the ships from the MV drive hologram. Whoever you are, please help us!"</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_2"/>
+					</choice>
+				</event>
+            </mod-append:choice>
 		</mod:findLike>
     </mod:findLike>
 </mod:findName>
@@ -543,7 +563,7 @@
 		<choice hidden="true" blue="false">
 			<text>Before you can speak, Admiral Vance steps forward into the vidscreen, lightly pushing you away off camera. He stares down at his old friend, his expression contorting similarly to the Admiral's. "Brodric Tully, it truly has been ages, hasn't it?" He speaks in a tone that can be seen as remorseful, smug and elated all at once.</text> 
 			<event>
-				<text>With his fists clenched, Tully finally gathers the strength needed to compose himself as his eyes focus squarely on Vance. "Vance Wentworth, I have absolutely no idea why you are here in person. Much less, from what I can gather from the log of your ship, why you have been working with Federation soldiers for the past month? I have no idea what made you switch sides, unless this is all just a ploy. But.. we have no time for finger-pointing or deliberations over our past, we can do that later. Right now, the biggest threat is the Flagship currently on its way to the Capital. 
+				<text>With his fists clenched, Tully finally gathers the strength needed to compose himself as his eyes focus squarely on Vance. "Vance Wentworth, I have absolutely no idea why you are here in person. Much less, from what I can gather from the log of your ship, why you have been working with Federation soldiers for the past month? I have no idea what made you switch sides, unless this is all just a ploy. But.. we have no time for finger-pointing or deliberations over our past, we can do that later. Right now, the biggest threat is the Flagship currently on its way to the Capitol. 
 				
 				If you truly are working for our side and didn't tell your men to stand down, then I assume that can only mean they're not following your orders anymore. I do, however, hope you can peacefully resolve this. If you can somehow manage to get the Flagship to stand down, I will make sure that their crew have a fair trial. I fully expect you to betray me again, Vance. Please, for everyone's sake... prove me wrong."</text>
 				<choice hidden="true" blue="false">

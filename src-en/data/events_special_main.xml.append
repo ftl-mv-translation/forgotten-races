@@ -39,8 +39,224 @@
 		<mod-append:event name="FR_HER_EXTRALIFE" req="FR_HER_VISION"/>
 		<mod-append:event name="FR_TRIRIAC_EFFECTS" req="FR_FORBIDDEN_DESIGN"/>
 		<mod-append:event name="FR_TRIRIAC_EFFECTS" req="FR_FORBIDDEN_DESIGN_SHIELD"/>
+		<mod-append:event name="FR_COLLECTORS_SHIELD_RECHARGE_GIVER" req="FR_COLLECTORS_SHIELD"/>
+		<mod-append:event name="FR_GIVE_NOBLE_FLAGSHIP_SURGE" req="FR_OBELISK_FLAGSHIP_NOBLE_SURGE"/>
+		<mod-append:event name="FR_GIVE_COMMONWEALTH_FLAGSHIP_SURGE" req="FR_OBELISK_FLAGSHIP_COMMONWEALTH_SURGE"/>
+		<mod-append:event name="FR_GIVE_WITHER_FLAGSHIP_SURGE" req="FR_OBELISK_FLAGSHIP_WITHER_SURGE"/>
+		<mod-append:event name="FR_GIVE_ROYAL_FLAGSHIP_SURGE" req="FR_OBELISK_FLAGSHIP_ROYAL_SURGE"/>
+		<mod-append:event name="FR_GIVE_G_FLAGSHIP_SURGE" req="FR_OBELISK_FLAGSHIP_G_SURGE"/>
+		<mod-append:event name="FR_GIVE_Y_FLAGSHIP_SURGE" req="FR_OBELISK_FLAGSHIP_Y_SURGE"/>
     </mod:findLike>
 </mod:findName>
+
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    OBELISK SURGES
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<!-- OBELISK NOBLE -->
+
+<event name="FR_GIVE_NOBLE_FLAGSHIP_SURGE">
+	<eventButton name="FR_UI_NOBLE_FLAGSHIP_SURGE_BUTTON">
+		<event load="FR_NOBLE_FLAGSHIP_SURGE"/>
+		<image>statusUI/fr_top_flagship_surge</image>
+		<customLocation x="254" y="76"/>
+		<tooltip>Trigger the flagship's Harbinger surge.</tooltip>
+		<inactiveTooltip>The ship's systems need to cool down first before they can send another surge OR there isn't an enemy present.</inactiveTooltip>
+		<req lvl="1">FR_SURGE_AND_ENEMY</req>
+		<noDanger>false</noDanger>
+		<jumpClear>false</jumpClear>
+	</eventButton>
+	<loadEvent>START_BEACON_EXPLAIN</loadEvent>
+</event>
+
+<event name="FR_NOBLE_FLAGSHIP_SURGE_READY">
+	<variable name="fr_flagship_surge_ready" op="set" val="1"/>
+</event>
+
+<event name="FR_NOBLE_FLAGSHIP_SURGE">
+	<variable name="fr_flagship_surge_ready" op="set" val="0"/>
+	<triggeredEvent event="FR_NOBLE_FLAGSHIP_SURGE_READY" time="25.0">
+		<triggeredEventBox load="DEFAULT_TIMER" pos="default">
+			<warning time="0" flash="false"/>
+			<tooltip>Time until the surge is ready again.</tooltip>
+		</triggeredEventBox>
+		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+	</triggeredEvent>
+	<superBarrage player="true" name="FR_NOBLE_FLAGSHIP_SURGE"/>
+</event>
+
+<!-- OBELISK ROYAL -->
+
+<event name="FR_GIVE_ROYAL_FLAGSHIP_SURGE">
+	<eventButton name="FR_UI_ROYAL_FLAGSHIP_SURGE_BUTTON">
+		<event load="FR_ROYAL_FLAGSHIP_SURGE"/>
+		<image>statusUI/fr_top_flagship_surge</image>
+		<customLocation x="254" y="76"/>
+		<tooltip>Trigger the flagship's Havoceizer surge.</tooltip>
+		<inactiveTooltip>The ship's systems need to cool down first before they can send another surge OR there isn't an enemy present.</inactiveTooltip>
+		<req lvl="1">FR_SURGE_AND_ENEMY</req>
+		<noDanger>false</noDanger>
+		<jumpClear>false</jumpClear>
+	</eventButton>
+	<loadEvent>START_BEACON_EXPLAIN</loadEvent>
+</event>
+
+<event name="FR_ROYAL_FLAGSHIP_SURGE_READY">
+	<variable name="fr_flagship_surge_ready" op="set" val="1"/>
+</event>
+
+<event name="FR_ROYAL_FLAGSHIP_SURGE">
+	<variable name="fr_flagship_surge_ready" op="set" val="0"/>
+	<triggeredEvent event="FR_ROYAL_FLAGSHIP_SURGE_READY" time="25.0">
+		<triggeredEventBox load="DEFAULT_TIMER" pos="default">
+			<warning time="0" flash="false"/>
+			<tooltip>Time until the surge is ready again.</tooltip>
+		</triggeredEventBox>
+		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+	</triggeredEvent>
+	<superBarrage player="true" name="FR_ROYAL_FLAGSHIP_SURGE"/>
+</event>
+
+<!-- OBELISK COMMONWEALTH -->
+
+<event name="FR_GIVE_COMMONWEALTH_FLAGSHIP_SURGE">
+	<eventButton name="FR_UI_COMMONWEALTH_FLAGSHIP_SURGE_BUTTON">
+		<event load="FR_COMMONWEALTH_FLAGSHIP_SURGE"/>
+		<image>statusUI/fr_top_flagship_surge</image>
+		<customLocation x="254" y="76"/>
+		<tooltip>Trigger the flagship's Commonwealth Harbinger Drone surge.</tooltip>
+		<inactiveTooltip>The ship's systems need to cool down first before they can send another surge OR there isn't an enemy present.</inactiveTooltip>
+		<req lvl="1">FR_SURGE_AND_ENEMY</req>
+		<noDanger>false</noDanger>
+		<jumpClear>false</jumpClear>
+	</eventButton>
+	<loadEvent>START_BEACON_EXPLAIN</loadEvent>
+</event>
+
+<event name="FR_COMMONWEALTH_FLAGSHIP_SURGE_READY">
+	<variable name="fr_flagship_surge_ready" op="set" val="1"/>
+</event>
+
+<event name="FR_COMMONWEALTH_FLAGSHIP_SURGE">
+	<variable name="fr_flagship_surge_ready" op="set" val="0"/>
+	<triggeredEvent event="FR_COMMONWEALTH_FLAGSHIP_SURGE_READY" time="25.0">
+		<triggeredEventBox load="DEFAULT_TIMER" pos="default">
+			<warning time="0" flash="false"/>
+			<tooltip>Time until the surge is ready again.</tooltip>
+		</triggeredEventBox>
+		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+	</triggeredEvent>
+	<clearSuperDrones player="true"/>
+	<superDrones player="true" name="FR_COMMONWEALTH_FLAGSHIP_SURGE" />
+</event>
+
+<!-- OBELISK DEVISER -->
+
+<event name="FR_GIVE_WITHER_FLAGSHIP_SURGE">
+	<eventButton name="FR_UI_WITHER_FLAGSHIP_SURGE_BUTTON">
+		<event load="FR_WITHER_FLAGSHIP_SURGE"/>
+		<image>statusUI/fr_top_flagship_surge</image>
+		<customLocation x="254" y="76"/>
+		<tooltip>Trigger the flagship's prototype pacifier surge.</tooltip>
+		<inactiveTooltip>The ship's systems need to cool down first before they can send another surge OR there isn't an enemy present.</inactiveTooltip>
+		<req lvl="1">FR_SURGE_AND_ENEMY</req>
+		<noDanger>false</noDanger>
+		<jumpClear>false</jumpClear>
+	</eventButton>
+	<loadEvent>START_BEACON_EXPLAIN</loadEvent>
+</event>
+
+<event name="FR_WITHER_FLAGSHIP_SURGE_READY">
+	<variable name="fr_flagship_surge_ready" op="set" val="1"/>
+</event>
+
+<event name="FR_WITHER_FLAGSHIP_SURGE">
+	<variable name="fr_flagship_surge_ready" op="set" val="0"/>
+	<triggeredEvent event="FR_WITHER_FLAGSHIP_SURGE_READY" time="25.0">
+		<triggeredEventBox load="DEFAULT_TIMER" pos="default">
+			<warning time="0" flash="false"/>
+			<tooltip>Time until the surge is ready again.</tooltip>
+		</triggeredEventBox>
+		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+	</triggeredEvent>
+	<superBarrage player="true" name="FR_WITHER_FLAGSHIP_SURGE"/>
+</event>
+
+<!-- OBELISK G -->
+
+<event name="FR_GIVE_G_FLAGSHIP_SURGE">
+	<eventButton name="FR_UI_G_FLAGSHIP_SURGE_BUTTON">
+		<event load="FR_G_FLAGSHIP_SURGE"/>
+		<image>statusUI/fr_top_flagship_surge</image>
+		<customLocation x="254" y="76"/>
+		<tooltip>Trigger the flagship's Tartarus Portal surge.</tooltip>
+		<inactiveTooltip>The ship's systems need to cool down first before they can send another surge OR there isn't an enemy present.</inactiveTooltip>
+		<req lvl="1">FR_SURGE_AND_ENEMY</req>
+		<noDanger>false</noDanger>
+		<jumpClear>false</jumpClear>
+	</eventButton>
+	<loadEvent>START_BEACON_EXPLAIN</loadEvent>
+</event>
+
+<event name="FR_G_FLAGSHIP_SURGE_READY">
+	<variable name="fr_flagship_surge_ready" op="set" val="1"/>
+</event>
+
+<event name="FR_G_FLAGSHIP_SURGE">
+	<variable name="fr_flagship_surge_ready" op="set" val="0"/>
+	<triggeredEvent event="FR_G_FLAGSHIP_SURGE_READY" time="25.0">
+		<triggeredEventBox load="DEFAULT_TIMER" pos="default">
+			<warning time="0" flash="false"/>
+			<tooltip>Time until the surge is ready again.</tooltip>
+		</triggeredEventBox>
+		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+	</triggeredEvent>
+	<superBarrage player="true" name="FR_G_FLAGSHIP_SURGE"/>
+</event>
+
+<!-- OBELISK Y -->
+
+<event name="FR_GIVE_Y_FLAGSHIP_SURGE">
+	<eventButton name="FR_UI_Y_FLAGSHIP_SURGE_BUTTON">
+		<event load="FR_Y_FLAGSHIP_SURGE"/>
+		<image>statusUI/fr_top_flagship_surge</image>
+		<customLocation x="254" y="76"/>
+		<tooltip>Deploy a friendly ASB platform for the current beacon.</tooltip>
+		<inactiveTooltip>The beacon is already under ASB fire OR there isn't an enemy present.</inactiveTooltip>
+		<req lvl="1">FR_NO_ASB_AND_ENEMY</req>
+		<noDanger>false</noDanger>
+		<jumpClear>false</jumpClear>
+	</eventButton>
+	<loadEvent>START_BEACON_EXPLAIN</loadEvent>
+</event>
+
+<event name="FR_Y_FLAGSHIP_SURGE">
+	<environment type="PDS" target="enemy" />
+	<noASBPlanet />
+</event>
+
+
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                   MISC
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<event name="FR_COLLECTORS_SHIELD_RECHARGE_GIVER">
+	<triggeredEvent event="FR_COLLECTORS_SHIELD_RECHARGE" seeded="false" loops="999999999" thisFight="false" minTime="30.0" maxTime="30.0">
+		<playerDamage amount="1"/>
+	</triggeredEvent>
+</event>
+
+<event name="FR_COLLECTORS_SHIELD_RECHARGE">
+	<superShields player="true"/>
+</event>
 
 <event name="FR_TRIRIAC_EFFECTS">
 	<triggeredEvent event="FR_TRIRIAC_POSITIVE_EFFECT_LIST" loops="999999999" seeded="false">
@@ -129,8 +345,8 @@
         <mod-append:event name="BOON_SELECT_FR_LAVAMAN" req="prof_r_boon_fr_lavaman"/>
         <mod-append:event name="BOON_SELECT_FR_SNOWMAN" req="prof_r_boon_fr_snowman"/>
         <mod-append:event name="BOON_SELECT_FR_WITHER_WEAPON" req="prof_r_boon_fr_wither_gun"/>
-        <mod-append:event name="BOON_SELECT_FR_HAUNT_CREW" req="prof_r_boon_fr_haunt_crew"/>
-        <mod-append:event name="BOON_SELECT_FR_HAUNT_GUN" req="prof_r_boon_fr_haunt_gun"/>
+        <mod-append:event name="BOON_SELECT_FR_REVENANT_CREW" req="prof_r_boon_fr_revenant_crew"/>
+        <mod-append:event name="BOON_SELECT_FR_REVENANT_GUN" req="prof_r_boon_fr_revenant_gun"/>
         <mod-append:event name="BOON_SELECT_FR_SALT_GUN" req="prof_r_boon_fr_salt_gun"/>
         <mod-append:event name="BOON_SELECT_FR_SALT_CREW" req="prof_r_boon_fr_salt_crew"/>
         <mod-append:event name="BOON_SELECT_FR_COMMONWEALTH_CREW" req="prof_r_boon_fr_commonwealth_crew"/>
@@ -261,25 +477,25 @@
 -->
 
 <mod:findName type="event" name="START_BEACON_PREP_LOAD">
-	<mod-append:backgroundObject name="FR_HANGAR_HAUNT_URN">
+	<mod-append:backgroundObject name="FR_HANGAR_REVENANT_URN">
 		<layer z="0">background</layer>
 		<spawnArea x="1173" y="265" w="0" h="0" center="true"/>
-		<req lvl="1">fr_haunt_urn_unlocked</req>
-		<anim>fr_haunt_urn_object</anim>
-		<hoverAnim>fr_haunt_urn_object_hover</hoverAnim>
+		<req lvl="1">fr_revenant_urn_unlocked</req>
+		<anim>fr_revenant_urn_object</anim>
+		<hoverAnim>fr_revenant_urn_object_hover</hoverAnim>
 		<inactiveAnim hide="true"/>
 		<tooltip>An odd urn.</tooltip>
 		<clickAction>
-			<event load="FR_HAUNT_URN"/>
+			<event load="FR_REVENANT_URN"/>
 			<destroy/>
 		</clickAction>
 	</mod-append:backgroundObject>
 </mod:findName>
 
-<event name="FR_HAUNT_URN">
-	<text>You notice an odd urn sitting in the hangar. You can't tell what it's doing here, especially since it looks so old... but when you pick it up, you are instilled with a sense of purpose. You can't describe it, almost as if the words were permanently stuck on the tip of your tongue, but you do know how to use it.
+<event name="FR_REVENANT_URN">
+	<text>You notice an odd urn sitting in the hangar. You can't tell what it's doing here, especially since it looks so old...but when you pick it up, you are instilled with a sense of purpose. You can't describe it, almost as if the words were permanently stuck on the tip of your tongue, but you do know how to use it.
 	
-	[You can now summon a Haunted Apparition at any empty beacon.]</text>
+	[You can now summon a Revenant Apparition at any empty beacon.]</text>
 	<achievement silent="false">ACH_FR_EVENT_URN</achievement>
 	<variable name="loc_fr_urn_picked_up" op="set" val="1"/>
 	<playSound>ghostDeath</playSound>
@@ -299,15 +515,17 @@
 	<preventQuest/>
 	<preventFleet/>
 	<quest>
-		<nebulaBeacon>false</nebulaBeacon>
+		<nebulaBeacon>true</nebulaBeacon>
 		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
 	</quest>
 	<beaconType id="map_icon_fr_salt_quest" global="true">
 		<color r="250" g="250" b="250" a="1.0"/>
 	</beaconType>
-	<text>Upon arriving at the prison, you notice it's completely empty, save for a single auto-ship blocking the entrance. The prison is completely encased by lead plates, preventing any scans of the inside from here.
+	<text>Upon arriving at the prison, you notice it's completely empty, save for a single Auto-ship blocking the entrance. The prison is completely encased by lead plates, preventing any scans of the inside from here.
 	
-	    "An auto-ship? Why would the Rebellion put an auto-cruiser of all things here?" Obyn ponders out loud. The cruiser ignores all of your hails, and the warning message spewing forth from its comms is somewhat distorted.</text>
+	    "An Auto-ship? Why would the Rebellion put an auto-cruiser of all things here?" Obyn ponders out loud. The cruiser ignores all of your hails, and the warning message spewing forth from its comms is somewhat distorted.</text>
 		<ship load="SHIP_FR_QUEST_AUTO_CRUISER" hostile="false"/>
 		<choice hidden="true">
 			<text>Let's teach this hunk of metal who's boss!</text>
@@ -321,7 +539,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Leave the auto-ship alone.</text>
+			<text>Leave the Auto-ship alone.</text>
 			<event>
 				<text>You decide you have other more important things to do than chase a mystery. Obyn is clearly unhappy, taking this moment to resign from your crew.</text>
 					<removeCrew class="unique_obyn">
@@ -333,20 +551,20 @@
 </event>
 
 <event name="FR_SALT_BATTLESHIP_QUEST_WIN">
-	<text>The giant auto ship breaks apart and is finally silenced, after making sure its systems are down, you park the ship next to the prison and go explore it alongside obyn.</text>
+	<text>The giant Auto-ship breaks apart and is finally silenced, after making sure its systems are down, you park the ship next to the prison and go explore it alongside Obyn.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>The doors are unlocked - whoever built this facility likely thought the auto-cruiser was enough defense. Within the facility, you find thousands upon thousands of pods, each holding... a number of whitish crystals. Salt people, frozen in stasis, thought extinct!
+			<text>The doors are unlocked - whoever built this facility likely thought the Auto-cruiser was enough defense. Within the facility, you find thousands upon thousands of pods, each holding...a number of whitish crystals. Salt people, frozen in stasis, thought extinct!
 			
-				  Obyn practically screamed with elation. "Captain! Holy... shit... I... l-let me open 'em up!" He sprints to a terminal on the side of the room, mashing away at the keyboard.</text>
+				  Obyn practically screamed with elation. "Captain! Holy...shit...I...l-let me open 'em up!" He sprints to a terminal on the side of the room, mashing away at the keyboard.</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
-							<text>The process is a grueling one, taking multiple hours to bring the Salt people within out of stasis without the risk of system shock. Only one out of every ten pods ended up being viable for reanimation... but eventually, another Saltman stepped out of the pod, dazed.
+							<text>The process is a grueling one, taking multiple hours to bring the Salt people within out of stasis without the risk of system shock. Only one out of every ten pods ended up being viable for reanimation...but eventually, another Saltman stepped out of the pod, dazed.
 
-								  "W-who...?" the Salt person asks, looking around. "It... it worked, Captain! It worked!" Obyn jumps for joy, sitting down next to the newly refreshed Saltman. However, his joy briefly dampens as he pulls you aside... "Captain... this may take days, or even weeks to sort out. You can't wait, but... I can. I'm asking you... go on without me."</text>
+								  "W-who...?" the Salt person asks, looking around. "It...it worked, Captain! It worked!" Obyn jumps for joy, sitting down next to the newly refreshed Saltman. However, his joy briefly dampens as he pulls you aside... "Captain...this may take days, or even weeks to sort out. You can't wait, but...I can. I'm asking you...go on without me."</text>
 									<removeCrew class="unique_obyn">
 										<clone>false</clone>
 										<text></text>
@@ -354,7 +572,7 @@
 									<choice hidden="true">
 										<text>Are you sure, Obyn?</text>
 										<event>
-											<text>Obyn looks over the many reunited families as they all step out of their pods. "Yes, Captain. Though... there's no way I'll leave you empty-handed." The once-only Saltman hands you a thumb drive. "Here's the blueprints to a cruiser for my kin. I wanted to build it, but... I don't think that life is for me anymore. You'll get better use out of it."
+											<text>Obyn looks over the many reunited families as they all step out of their pods. "Yes, Captain. Though...there's no way I'll leave you empty-handed." The once-only Saltman hands you a thumb drive. "Here's the blueprints to a cruiser for my kin. I wanted to build it, but...I don't think that life is for me anymore. You'll get better use out of it."
 
 											He steps forward, careful to not suck all the moisture out of you. "Feel free to take the weapons from my ship. I won't be using them anymore, either..." You nod, assuring him of his decision. One of the other Saltmen, inspired by your act of kindness, offers to join your crew. Although the Rebel fleet will certainly have caught up by now, you're not too mad about it.</text>
 												<autoReward level="HIGH">scrap_only</autoReward>
@@ -374,4 +592,3 @@
 
 
 </FTL>
-

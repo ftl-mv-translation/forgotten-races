@@ -1,4 +1,4 @@
-local vter = mods.inferno.vter
+local vter = mods.fusion.vter
 
 -- Artillery surges
 
@@ -47,6 +47,7 @@ enemyCrewToPlayerCrew["human_rebel_medic"] = "human_medic"
 --enemyCrewToPlayerCrew["rock_paladin_enemy"] = "rock_paladin"
 enemyCrewToPlayerCrew["zoltan_osmian_enemy"] = "zoltan_osmian"
 enemyCrewToPlayerCrew["fr_bonus_augustus_enemy"] = "fr_bonus_augustus"
+enemyCrewToPlayerCrew["fr_bonus_prince_enemy"] = "fr_bonus_prince"
 
 -- Handle teleportation beams
 script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM, function(shipManager, projectile, location, damage, realNewTile, beamHitType)
@@ -79,10 +80,17 @@ end
 mods.fr.temporalWeapons = {}
 local temporalWeapons = mods.fr.temporalWeapons 
 temporalWeapons["FR_ARTILLERY_TRIRIAC_B"] = true
+temporalWeapons["FR_CEL_MISSILE"] = true
+temporalWeapons["FR_DRONE_CEL_LASER"] = true
+temporalWeapons["FR_DRONE_CEL_BEAM"] = true
+temporalWeapons["FR_CEL_LASER"] = true
+temporalWeapons["FR_CEL_ION"] = true
+temporalWeapons["FR_CEL_BOMB"] = true
+temporalWeapons["FR_CEL_BEAM"] = true
 
 local userdata_table = mods.multiverse.userdata_table
 
-script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(shipManager, projectile, location, damage, shipFriendlyFire)
+local function fr_slow_rooms(shipManager, projectile, location, damage, shipFriendlyFire)
     local weaponName = nil
     pcall(function() weaponName = projectile.extend.name end)
     if temporalWeapons[weaponName] then
@@ -97,7 +105,10 @@ script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(shipMa
             speedtable.speedTime = 5
         end
     end
-end)
+end
+
+script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM, fr_slow_rooms)
+script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, fr_slow_rooms)
 
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(ship)
     for room in vter(ship.ship.vRoomList) do
@@ -110,4 +121,34 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(ship)
             end
         end
     end
+end)
+
+
+--Pro Hull code, stolen from mv for now
+
+local beamDamageMods = mods.multiverse.beamDamageMods
+beamDamageMods["FR_ARTILLERY_VORTEX_HEAL"] = {iDamage = -2}
+beamDamageMods["FR_COMMONWEALTH_FOCUS"] = {iDamage = -5}
+beamDamageMods["FR_WITHER_PROTOTYPE_HAVOC"] = {iDamage = -4}
+
+--Y's artilleries downgrading
+
+mods.fr.downgradeWeapons = {} 
+local downgradeWeapon = mods.fr.downgradeWeapons
+downgradeWeapon["FR_ARTILLERY_OBELISK_FLAGSHIP_MISSILE_Y"] =  {3, 0.5}
+downgradeWeapon["FR_ARTILLERY_OBELISK_FLAGSHIP_ION_Y"] =  {1, 1}
+downgradeWeapon["FR_ARTILLERY_OBELISK_FLAGSHIP_BEAM_Y"] =  {1, 0.25}
+downgradeWeapon["FR_ARTILLERY_OBELISK_FLAGSHIP_LASER_Y"] =  {1, 0.5}
+downgradeWeapon["FR_ARTILLERY_OBELISK_FLAGSHIP_BOMB_Y"] =  {2, 1}
+
+script.on_internal_event(Defines.InternalEvents.DAMAGE_SYSTEM,
+function(ship, projectile, roomId, damage)
+    if projectile then
+        local sys = ship:GetSystemInRoom(roomId)
+        local downgradeWeapon = mods.fr.downgradeWeapons[projectile.extend.name]
+        if sys and downgradeWeapon and math.random()<downgradeWeapon[2] then
+            sys:UpgradeSystem(math.max(1,sys.powerState.second-downgradeWeapon[1])-sys.powerState.second)
+        end
+    end
+    return Defines.Chain.CONTINUE
 end)

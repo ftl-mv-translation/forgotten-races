@@ -19,7 +19,7 @@
 	<choice hidden="true">
 		<text>Huh?</text>
 		<event>
-			<text>Since we can now retire much earlier than we expected, we uh, don't really have a use for this big-time contract we were sitting on for a few years. The bounty targets this time around... aren't exactly the usual fare. They call themselves the "Haunts", but... they're not the same as the ones you just fought.</text>
+			<text>Since we can now retire much earlier than we expected, we uh, don't really have a use for this big-time contract we were sitting on for a few years. The bounty targets this time around... aren't exactly the usual fare. They call themselves the "Revenants", but... they're not the same as the ones you just fought.</text>
 			<choice hidden="true">
 				<text>...what do you mean?</text>
 				<event>
@@ -105,13 +105,13 @@
 </mod:findName>
 
 <mod:findName type="event" name="NEBULA_GHOST_INSANE_ROCKMEN">
-	<mod-append:choice req="FR_LIST_CREW_HAUNT_ALL" blue="true" hidden="true">
-		<text>(Undead Crew) Show them an actual ghost.</text>
-		<event load="FR_NEBULA_GHOST_INSANE_ROCKMEN_HAUNT"/>
+	<mod-append:choice req="FR_LIST_CREW_REVENANT_ALL" blue="true" hidden="true">
+		<text>(Revenant Crew) Show them an actual ghost.</text>
+		<event load="FR_NEBULA_GHOST_INSANE_ROCKMEN_REVENANT"/>
 	</mod-append:choice>
 </mod:findName>
 
-<event name="FR_NEBULA_GHOST_INSANE_ROCKMEN_HAUNT">
+<event name="FR_NEBULA_GHOST_INSANE_ROCKMEN_REVENANT">
 	<text>The Rockman screams and begins to run around in circles at the mere sight. It takes less than a minute for the entire crew to eject, scrambling to escape. This, of course, leaves you free to do whatever you like with the pristine ship.</text>
 	<autoReward level="HIGH">stuff</autoReward>
 </event>

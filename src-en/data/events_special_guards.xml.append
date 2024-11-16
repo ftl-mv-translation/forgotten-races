@@ -11,7 +11,7 @@
 					<ship hostile="false"/>
 			</event>
 			<event>
-				<text>"Like hell we will! You don't deserve to be called vance anymore you traitor!" The rebel captain bellows and calls for reinforcement, as well as informing the fleet of your intrusion.</text>
+				<text>"Like hell we will! You don't deserve to be called Vance anymore, you traitor!" the Rebel captain bellows and calls for reinforcement, as well as informing the fleet of your intrusion.</text>
 					<modifyPursuit amount="2"/>
 					<ship hostile="true"/>
 					<choice hidden="true">
@@ -32,7 +32,7 @@
 					</choice>
 			</event>
 			<event>
-				<text>The rebel captain examines the ID, before shrugging. "Ehhh... sure. Welcome to the sector, kid".</text>
+				<text>The rebel captain examines the ID, before shrugging. "Ehhh...sure. Welcome to the sector, kid".</text>
 					<modifyPursuit amount="-1"/>
 					<ship hostile="false"/>
 			</event>
@@ -52,7 +52,7 @@
 	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="10">
 		<text>(Forged Identification) Try to pass your ship for a rebel one</text>
 			<event>
-				<text>"Wow. Just... wow. And here I thought you Federation dogs couldn't get any more stupid!" The Rebel ship sends a distress signal, calling for backup!</text>
+				<text>"Wow. Just...wow. And here I thought you Federation dogs couldn't get any more stupid!" The Rebel ship sends a distress signal, calling for backup!</text>
 					<ship hostile="true"/>
 					<modifyPursuit amount="1"/>
 					<choice hidden="true">
@@ -67,7 +67,7 @@
 	<mod-append:choice req="unique_vance" blue="true" hidden="true">
 		<text>(Vance Prime) "Halt, soldier! Stand down, and allow us to pass! I need to see my nephew!"</text>
 			<event>
-				<text>"Wait a second... Vance Prime? How... w-why, when did you join the Federation!? This makes... no sense..." The guard staggers. They eventually agree to let you pass, though they only have the heart to push the fleet back a small amount.</text>
+				<text>"Wait a second...Vance Prime? How...w-why, when did you join the Federation!? This makes...no sense..." The guard staggers. They eventually agree to let you pass, though they only have the heart to push the fleet back a small amount.</text>
 				<modifyPursuit amount="-1"/>
 			</event>
 	</mod-append:choice>
@@ -94,7 +94,7 @@
 
 <mod:findName type="event" name="GUARD_COALITION">
 	<mod-append:choice req="fr_unique_mantis_queen" blue="true" hidden="true">
-		<text>(Leikonpliiinakra) "Intruders?! Listen here, you weakling, you will allow us passage through the sector. Otherwise, I will publically execute all of you! Do you understand?"</text>
+		<text>(Leikonpliiinakra) "Intruders?! Listen here, you weakling, you will allow us passage through the sector. Otherwise, I will publicly execute all of you! Do you understand?"</text>
 			<event>
 				<text>The guards scramble to attention at the sight of the Queen. "O-Of course, your highness! Right this way!" The guard allows you to pass while also sending some supplies your way.</text>
 					<autoReward level="MED">standard</autoReward>
@@ -132,5 +132,240 @@
 			</event>
 	</mod-append:choice>
 </mod:findName>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					COMMONWEALTH GUARD
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+<event name="FR_START_BEACON_COMMONWEALTH">
+	<text>You reach the other side of the portal at last, and there you find a guard that looks identical to the Obelisk designs you've seen, though this one flies colors that you don't recognise. The ship doesn't make any hostile moves yet, as it appears to be analyzing you and your intentions first.</text>
+	<variable name="loc_unique_sectors" op="add" val="1"/>
+	<metaVariable name="fr_juke_commonwealth" op="set" val="1"/>
+	<modifyPursuit amount="-10"/>
+	<ship load="FR_SHIP_COMMONWEALTH_GUARD" hostile="false"/>
+	<changeBackground>BACK_SECTOR_ANCIENT</changeBackground>
+	<playSound>lightspeed</playSound>
+	<choice hidden="true">
+		<text>Hail them.</text>
+		<event>
+			<text>The ship responds, though the crew's speech seems to be too old for the translator to keep up, only managing to translate a few words that likely still exist in the modern Obelisk language "Beware - Exterminators - Unwelcome - Surrender"</text>
+			<choice hidden="true">
+				<text>We don't want to hurt you! We came in peace!</text>
+				<event>
+					<text>Despite your peaceful declarations, the enemy ship turns its weapons online! It seems they either didn't understand you or didn't believe you. Either way, a fight is unavoidable.</text>
+					<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="FR_COMMONWEALTHS_BODY" blue="true" hidden="true">
+				<text>(Commonwealth's Body) Show them the broken body, maybe they can help us repair it.</text>
+				<event>
+					<text>A loud shriek can be heard from the other side, and soon after the other ship cuts the transmission and refuses all further hails. Well then...</text>
+					<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="fr_commonwealth" blue="true" hidden="true">
+				<text>(Commonwealth Crew) Your Commonwealth crew wants to talk to them.</text>
+				<event>
+					<text>The mere sight of your Commonwealth crew seems to put them at ease, enough for them to turn their weapons offline immediately. After a long chat, your Commonwealth manages to convince them to install a translator that can translate the old Commonwealth language into something understandable.
+
+					"Apologies for the hostile introduction, we're always on high alert whenever outsiders appear. I'm afraid our past trauma with the Exterminators still haunts us to this day. We are the Commonwealth and we bid you welcome to our humble refuge."
+					</text>
+					<choice hidden="true">
+						<text>Exterminators?</text>
+						<event>
+							<text>The being nods its main cube. "The ones adorned in white and pink, those that ordered our demise, and those whose might we simply couldn't match. They are out there still, and if they found us... Well, I'm afraid the last of our kind would vanish, for good this time."
+
+							The being sits in silence for a moment before speaking again "We weren't expecting you to harbor one of our kind. I'm surprised we didn't detect them sooner, though I suppose our equipment aren't what they used to be. Entropy certainly is a cruel mistress."
+							</text>
+							<choice hidden="true">
+								<text>How do we leave this sector?</text>
+								<event>
+									<text>The Commonwealth shakes its head. "I'm afraid it won't be that easy. Others of my kind might not welcome outsiders, even those who harbor our kind. Still, if you wish to leave, then simply look for the rift deep within our sector. It's the only way out, and it's also guarded by our most fearsome vessel. Be prepared for a fight, as no one is ever allowed to leave."
+
+									"Still, I will do what I can to aid you by repairing your hull and gifting you one of our weapons. Peace be with you, outsiders."</text>
+									<weapon name="FR_GIFTLIST_COMMONWEALTH_WEAPONS"/>
+									<damage amount="-50"/>
+									<choice hidden="true">
+										<text>Thank you.</text>
+										<event>
+											<text>The guard nods before bidding you farewell.</text>
+											<quest event="FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER"/>
+											<noQuestText/> 
+											<choice hidden="true">
+												<text>Continue...</text>
+												<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH_STORAGE"/>
+											</choice>
+										</event>
+									</choice>
+									<choice req="FR_COMMONWEALTHS_BODY" blue="true" hidden="true">
+										<text>(Commonwealth's Body) What about this body? Is there a way to revive them?</text>
+										<event>
+											<text>The guard examines the body for a few minutes before speaking "There might be a way indeed. There is a repair center that might have the tools needed to revive them. Here, let me mark it for you in your map."</text>
+											<quest event="FR_COMMONWEALTH_REPAIR_CENTER"/>
+											<choice hidden="true">
+												<text>Thank you.</text>
+												<event>
+													<text>The guard nods before bidding you farewell.</text>
+													<choice hidden="true">
+														<text>Continue...</text>
+														<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH_STORAGE"/>
+													</choice>
+												</event>
+											</choice>
+										</event>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_GUARD_COMMONWEALTH_SURRENDER">
+	<text>The enemy ship won't hold out much longer like this. Perhaps you can get them to surrender?</text>
+	<choice hidden="true">
+		<text>Power down your weapons.</text>
+		<event>
+			<text>It takes a bit before the enemy ship realizes what you just did, but once they do they also power off their weapons and drones. They hail you, sending you files that seem to be a rudimentary translator. Even with the translator files, you can barely make out a request asking that you allow their drone to install a proper translator in your ship, which you quickly agree to.
+
+			Once the drone is done, you are able to properly communicate with the strange vessel. "Greetings, Outsider. We are the Commonwealth and we bid you welcome to our humble refuge. We apologise for our hasty actions, we thought you were one of the Exterminators. We offer some scrap as an apology for any damaged we might have caused."</text>
+			<surrender/>
+			<enemyDamage amount="-25"/>
+			<ship hostile="false"/>
+            <autoReward level="HIGH">standard</autoReward>
+			<choice hidden="true">
+				<text>Thank you, but who are these "Exterminators"?</text>
+				<event>
+					<text>The being nods its main cube "The ones adorned in white and pink, those that ordered our demise, and those whose might we simply couldn't match. They are out there still, and if they found us... Well, I'm afraid the last of our kind would vanish, for good this time."
+
+					The being sits in silence for a moment before speaking again "We weren't expecting you to harbor one of our kind. I'm surprised we didn't detect them sooner, though I suppose our equipment aren't what they used to be. Entropy certainly is a cruel mistress."
+					</text>
+					<choice hidden="true">
+						<text>How do we leave this sector?</text>
+						<event>
+							<text>The Commonwealth shakes its head. "I'm afraid it won't be that easy. Others of my kind might not welcome outsiders, even those who harbor our kind. Still, if you wish to leave, then simply look for the rift deep within our sector. It's the only way out, and it's also guarded by our most fearsome vessel. Be prepared for a fight, as no one is ever allowed to leave."
+
+							"Still, I will do what I can to aid you by repairing your hull and gifting you one of our weapons. Peace be with you, outsiders."</text>
+							<weapon name="FR_GIFTLIST_COMMONWEALTH_WEAPONS"/>
+							<damage amount="-50"/>
+							<choice hidden="true">
+								<text>Thank you.</text>
+								<event>
+									<text>The guard nods before bidding you farewell.</text>
+									<noQuestText/>
+									<quest event="FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER"/>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH_STORAGE"/>
+									</choice>
+								</event>
+							</choice>
+							<choice req="FR_COMMONWEALTHS_BODY" blue="true" hidden="true">
+								<text>(Commonwealth's Body) What about this body? Is there a way to revive them?</text>
+								<event>
+									<text>The guard examines the body for a few minutes before speaking "There might be a way indeed. There is a repair center that might have the tools needed to revive them. Here, let me mark it for you in your map."</text>
+									<quest event="FR_COMMONWEALTH_REPAIR_CENTER"/>
+									<choice hidden="true">
+										<text>Thank you.</text>
+										<event>
+											<text>The guard nods before bidding you farewell.</text>
+											<choice hidden="true">
+												<text>Continue...</text>
+												<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH_STORAGE"/>
+											</choice>
+										</event>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>No, keep fighting.</text>
+		<event/>
+	</choice>
+</event> 
+
+<event name="FR_GUARD_COMMONWEALTH_DESTROY">
+	<text>You have defeated the strange Obelisk guard. Whatever might have been in their cargo has certainly been destroyed. Just as you are about to leave, you notice a strange device that survived the fight - a strange translator that seems to be tuned to the extremely old language that the guard spoke. It appears you are in the sector controlled by a group named the Commonwealth. If only we had that before the fight...
+
+	You also decide to scan the sector for any points of interest and you notice another huge power spike at the heart of the sector, identical to the portal you came from. If there's a way to leave this place, this will likely be your way out.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<quest event="FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH_GUARD"/>
+	</choice>
+</event>
+<event name="FR_GUARD_COMMONWEALTH_DEADCREW">
+	<text>You have defeated the strange Obelisk guard. Without crew on board to stop you, you can investigate their cargo. You find a strange blue weapon as well as a strange translator that seems to be tuned to the extremely old language that the guard spoke. It appears you are in the sector controlled by a group named the Commonwealth. If only we had that before the fight...
+
+	In the cargo you find a map pointing to a specific location in the sector, some kind of rift that was marked as the "exit". Seems like that's your destination if you want to leave this place.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<quest event="FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER"/>
+	<weapon name="FR_GIFTLIST_COMMONWEALTH_WEAPONS"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH_GUARD"/>
+	</choice>
+</event>
+
+<event name="FR_GUARD_COMMONWEALTH_FOLLOWUP">
+	<noQuestText/>
+	<removeHazards/>
+	<clearCustomFleet/>
+	<text>By killing the Commonwealth guard, you have no doubt caused them to dispatch reinforcements to track you down. Watch your step as you explore the sector.</text>
+	<quest event="FR_REINFORCEMENTS_COMMONWEALTH"/>
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+
+<event name="FR_REINFORCEMENTS_COMMONWEALTH">
+	<preventQuest/>
+	<beaconType id="map_icon_reinforcements" global="true" req="LOOT_COMPASS">
+		<color r="200" g="55" b="82" a="1"/>
+		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType>
+	<text>You catch sight of a heavily powered Commonwealth ship, but they don't seem pleased to see you. "Outsider! How dare you destroy our guard! Prepare to feel our wrath!" The ship moves in to attack, and it doesn't take long for you to realize this is one of the ships sent by the guards to hunt you down for attacking.</text>
+	<ship load="FR_SHIP_COMMONWEALTH_REINFORCEMENTS" hostile="true"/>
+	<environment type="PDS" target="player"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
 
 </FTL>

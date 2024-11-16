@@ -1,56 +1,65 @@
-local vter = mods.inferno.vter
+local vter = mods.fusion.vter
 
 --Augustus crew's scrap thingy (kokoro, chooseche and chrono)
 
-local healthDef = Hyperspace.StatBoostDefinition()
-healthDef.stat = Hyperspace.CrewStat.MAX_HEALTH
-healthDef.amount = 0
-healthDef.duration = -1
-healthDef.maxStacks = 1
-healthDef.cloneClear = false
-healthDef.boostType = Hyperspace.StatBoostDefinition.BoostType.FLAT
-healthDef.boostSource = Hyperspace.StatBoostDefinition.BoostSource.AUGMENT
-healthDef.shipTarget = Hyperspace.StatBoostDefinition.ShipTarget.ALL
-healthDef.crewTarget = Hyperspace.StatBoostDefinition.CrewTarget.ALL
-healthDef.realBoostId = Hyperspace.StatBoostDefinition.statBoostDefs:size()
-Hyperspace.StatBoostDefinition.statBoostDefs:push_back(healthDef)
-local healthStatBoost = Hyperspace.StatBoost(healthDef)
+local augustushealthDef = Hyperspace.StatBoostDefinition()
+augustushealthDef.stat = Hyperspace.CrewStat.MAX_HEALTH
+augustushealthDef.amount = 0
+augustushealthDef.duration = -1
+augustushealthDef.maxStacks = 1
+augustushealthDef.cloneClear = false
+augustushealthDef.boostType = Hyperspace.StatBoostDefinition.BoostType.FLAT
+augustushealthDef.boostSource = Hyperspace.StatBoostDefinition.BoostSource.AUGMENT
+augustushealthDef.shipTarget = Hyperspace.StatBoostDefinition.ShipTarget.ALL
+augustushealthDef.crewTarget = Hyperspace.StatBoostDefinition.CrewTarget.ALL
+augustushealthDef.realBoostId = Hyperspace.StatBoostDefinition.statBoostDefs:size()
+Hyperspace.StatBoostDefinition.statBoostDefs:push_back(augustushealthDef)
+local augustushealthStatBoost = Hyperspace.StatBoost(augustushealthDef)
 
-local damageDef = Hyperspace.StatBoostDefinition()
-damageDef.stat = Hyperspace.CrewStat.DAMAGE_MULTIPLIER
-damageDef.amount = 0
-damageDef.duration = -1
-damageDef.maxStacks = 1
-damageDef.cloneClear = false
-damageDef.boostType = Hyperspace.StatBoostDefinition.BoostType.FLAT
-damageDef.boostSource = Hyperspace.StatBoostDefinition.BoostSource.AUGMENT
-damageDef.shipTarget = Hyperspace.StatBoostDefinition.ShipTarget.ALL
-damageDef.crewTarget = Hyperspace.StatBoostDefinition.CrewTarget.ALL
-damageDef.realBoostId = Hyperspace.StatBoostDefinition.statBoostDefs:size()
-Hyperspace.StatBoostDefinition.statBoostDefs:push_back(damageDef)
-local damageStatBoost = Hyperspace.StatBoost(damageDef)
+local augustusdamageDef = Hyperspace.StatBoostDefinition()
+augustusdamageDef.stat = Hyperspace.CrewStat.DAMAGE_MULTIPLIER
+augustusdamageDef.amount = 0
+augustusdamageDef.duration = -1
+augustusdamageDef.maxStacks = 1
+augustusdamageDef.cloneClear = false
+augustusdamageDef.boostType = Hyperspace.StatBoostDefinition.BoostType.FLAT
+augustusdamageDef.boostSource = Hyperspace.StatBoostDefinition.BoostSource.AUGMENT
+augustusdamageDef.shipTarget = Hyperspace.StatBoostDefinition.ShipTarget.ALL
+augustusdamageDef.crewTarget = Hyperspace.StatBoostDefinition.CrewTarget.ALL
+augustusdamageDef.realBoostId = Hyperspace.StatBoostDefinition.statBoostDefs:size()
+Hyperspace.StatBoostDefinition.statBoostDefs:push_back(augustusdamageDef)
+local augustusdamageStatBoost = Hyperspace.StatBoost(augustusdamageDef)
 
-local sabotageDef = Hyperspace.StatBoostDefinition()
-sabotageDef.stat = Hyperspace.CrewStat.SABOTAGE_SPEED_MULTIPLIER
-sabotageDef.amount = 0
-sabotageDef.duration = -1
-sabotageDef.maxStacks = 1
-sabotageDef.cloneClear = false
-sabotageDef.boostType = Hyperspace.StatBoostDefinition.BoostType.FLAT
-sabotageDef.boostSource = Hyperspace.StatBoostDefinition.BoostSource.AUGMENT
-sabotageDef.shipTarget = Hyperspace.StatBoostDefinition.ShipTarget.ALL
-sabotageDef.crewTarget = Hyperspace.StatBoostDefinition.CrewTarget.ALL
-sabotageDef.realBoostId = Hyperspace.StatBoostDefinition.statBoostDefs:size()
-Hyperspace.StatBoostDefinition.statBoostDefs:push_back(sabotageDef)
-local sabotageStatBoost = Hyperspace.StatBoost(sabotageDef)
+local augustussabotageDef = Hyperspace.StatBoostDefinition()
+augustussabotageDef.stat = Hyperspace.CrewStat.SABOTAGE_SPEED_MULTIPLIER
+augustussabotageDef.amount = 0
+augustussabotageDef.duration = -1
+augustussabotageDef.maxStacks = 1
+augustussabotageDef.cloneClear = false
+augustussabotageDef.boostType = Hyperspace.StatBoostDefinition.BoostType.FLAT
+augustussabotageDef.boostSource = Hyperspace.StatBoostDefinition.BoostSource.AUGMENT
+augustussabotageDef.shipTarget = Hyperspace.StatBoostDefinition.ShipTarget.ALL
+augustussabotageDef.crewTarget = Hyperspace.StatBoostDefinition.CrewTarget.ALL
+augustussabotageDef.realBoostId = Hyperspace.StatBoostDefinition.statBoostDefs:size()
+Hyperspace.StatBoostDefinition.statBoostDefs:push_back(augustussabotageDef)
+local augustussabotageStatBoost = Hyperspace.StatBoost(augustussabotageDef)
+
+local oldScrap = 0
 
 script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipMgr)
     if shipMgr.iShipId ~= 0 then
         return
     end
-    healthDef.amount = math.max(shipMgr.currentScrap // 2, 0)
-    damageDef.amount = math.max(shipMgr.currentScrap / 100, 0)
-    sabotageDef.amount = math.max(shipMgr.currentScrap / 100, 0)
+    local ScrapLevel = shipMgr.currentScrap
+    if ScrapLevel ~= oldScrap then
+        augustushealthDef.amount = math.max(ScrapLevel // 2, 0)
+        Hyperspace.StatBoostDefinition.statBoostDefs:push_back(augustushealthDef)
+        augustusdamageDef.amount = math.max(ScrapLevel / 100, 0)
+        Hyperspace.StatBoostDefinition.statBoostDefs:push_back(augustusdamageDef)
+        augustussabotageDef.amount = math.max(ScrapLevel / 100, 0)
+        Hyperspace.StatBoostDefinition.statBoostDefs:push_back(augustussabotageDef)
+    end
+    oldScrap = ScrapLevel
 end)
 
 script.on_internal_event(Defines.InternalEvents.CREW_LOOP, function(crew)
@@ -59,23 +68,12 @@ script.on_internal_event(Defines.InternalEvents.CREW_LOOP, function(crew)
     end
     local userdata = mods.multiverse.userdata_table(crew, 'mods.fr.augustus')
     if not userdata.createdStatBoost then
-        Hyperspace.StatBoostManager.GetInstance():CreateTimedAugmentBoost(healthStatBoost, crew)
-        Hyperspace.StatBoostManager.GetInstance():CreateTimedAugmentBoost(damageStatBoost, crew)
-        Hyperspace.StatBoostManager.GetInstance():CreateTimedAugmentBoost(sabotageStatBoost, crew)
+        Hyperspace.StatBoostManager.GetInstance():CreateTimedAugmentBoost(augustushealthStatBoost, crew)
+        Hyperspace.StatBoostManager.GetInstance():CreateTimedAugmentBoost(augustusdamageStatBoost, crew)
+        Hyperspace.StatBoostManager.GetInstance():CreateTimedAugmentBoost(augustussabotageStatBoost, crew)
         userdata.createdStatBoost = true
     end
 end)
-
-
---[[script.on_internal_event(Defines.InternalEvents.CREW_LOOP, function(crew)
-    if crew:GetSpecies() == "fr_bonus_augustus" and Hyperspace.ships(0) and Hyperspace.ships(0).currentScrap then
-       local scraptotal = Hyperspace.ships(0).currentScrap
-       local currenthealth = crew.health.first
-       crew:SetHealthBoost(scraptotal / 2)
-       crew.health.first = currenthealth
-    end
-end)
-]]
 
 --Funny name compatibility
 
@@ -144,6 +142,9 @@ mods.hackslow.customRaceNames.addonNames.forgottenraces = {
     fr_bonus_prince = {"Prince of Darkness"}, 
     fr_bonus_prince_jerry = {"Jerry"}, 
     fr_bonus_tririac = {"Tririac"}, 
+    fr_unique_y = {"Y"}, 
+    fr_unique_collector = {"Collector"}, 
+    fr_unique_cylvan = {"Cylvan"}, 
     human = {
         male = {
             "Gabriel Cooper",
@@ -155,32 +156,34 @@ mods.hackslow.customRaceNames.addonNames.forgottenraces = {
     }
 }
 
--- Tririac's Mind control ability (originally by pepson but heavily edited by chrono and me)
+-- Tririac's Mind control ability (by arc)
+
 
 local userdata_table = mods.multiverse.userdata_table
+local resists_mind_control = mods.multiverse.resists_mind_control
+local can_be_mind_controlled = mods.multiverse.can_be_mind_controlled
 
 script.on_internal_event(Defines.InternalEvents.ACTIVATE_POWER, function(power, ship)
     if power.crew.blueprint.name ~= "fr_bonus_tririac" then
         return
     end
-    for crew in vter(ship.vCrewList) do
-        if power.powerRoom == crew.iRoomId and power.crew ~= crew and power.crew.iShipId ~= crew.iShipId and crew.bMindControlled == false then
-            local mctable = userdata_table(crew, "mods.fr.mccrew")
-            crew:SetMindControl(true)
-            mctable.mcTime = 10
-            power:CancelPower(true)
-            break
-        end
-    end
-end)
-
-script.on_internal_event(Defines.InternalEvents.CREW_LOOP, function(crew)
-    local mctable = userdata_table(crew, "mods.fr.mccrew")
-    if mctable.mcTime then
-        mctable.mcTime = math.max(mctable.mcTime - Hyperspace.FPS.SpeedFactor/16, 0)
-        if mctable.mcTime <= 0 then
-            crew:SetMindControl(false)
-            mctable.mcTime = nil
+    local roomId = power.crew.iRoomId
+    local mindControlledCrew = 0
+    for crewmem in vter(ship.vCrewList) do
+        local doControl = crewmem.iRoomId == roomId and
+                          crewmem.currentShipId == ship.iShipId and
+                          crewmem.iShipId ~= power.crew.iShipId and
+                          crewmem ~= power.crew
+        if doControl then
+            if can_be_mind_controlled(crewmem) then
+                crewmem:SetMindControl(true)
+                local mcTable = userdata_table(crewmem, "mods.mv.crewStuff")
+                mcTable.mcTime = math.max(10, mcTable.mcTime or 0)
+                mindControlledCrew = mindControlledCrew + 1
+                if mindControlledCrew >= 1 then break end
+            elseif resists_mind_control(crewmem) then
+                crewmem.bResisted = true
+            end
         end
     end
 end)

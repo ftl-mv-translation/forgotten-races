@@ -4,7 +4,6 @@
 		<text>(Tully) Tully seems like he has something to say.</text>
 			<event>
 				<text>At your suggestion, Tully stands up and speaks. "Queen Leikonpliiinakra, please listen! It doesn't have to end this way. I have enough power in the Federation to convince our leaders to aid the Hive in rebuilding any damage caused by the Federation-Mantis War. If you leave the coalition, we will do everything we can to make sure the Hive has a loyal ally in the battles to come! Please, don't this end in more bloodshed!"
-					<!-- Recommendation from Alder: between breaks in long blocks of text, split them up into sub-events to avoid overflowing text despite the scroll bar they added. I find it's cleaner. -->
 					After what feels like an hour-long pause, the remaining Hive ships all power down their weapons as Leikonpliiinakra hails your ship. "I'm afraid... we are in no place to bargain, we need to join a greater alliance if we have any hope of surviving as is. Before today, it was the Coalition, but I suppose... the Federation will also be able to supply our needs. Unfortunately, I can't sign any pacts as of yet. This transition must be slow and deliberate, lest the lesser Mantis oppose it."
 				
 				    "However... I do believe a meeting with your so-called leaders is in order. Allow me to accompany you in your little quest." Tully slumps back, sighing with relief as Leikonpliiinakra cuts comms, shortly before making her presence known on your ship.</text>
@@ -38,7 +37,7 @@
 
 <mod:findName type="event" name="ENCOUNTER_BISHOP_CHOICE">
 	<mod-append:choice req="fr_unique_mantis_queen" blue="true" hidden="true">
-		<text>(Leikonpliiinakra) Have the Queen contact the bishop instead.</text>
+		<text>(Leikonpliiinakra) Have the Queen contact the Bishop instead.</text>
 			<event>
 				<text>"Oh, Queen! I was not expecting to see you far from nest! Please, let me serve in Queen's mission!"</text>
 					<crewMember amount="1" class="mantis_bishop"/>

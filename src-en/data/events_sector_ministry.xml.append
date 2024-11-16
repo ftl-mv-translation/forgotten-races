@@ -1,9 +1,9 @@
 <FTL>
 <mod:findName type="event" name="OSMIA_RAID_ASSIST">
 	<mod-append:choice req="FR_REQUIREMENT_OSMIAN_OR_ACHIEVEMENT" blue="true" hidden="true">
-		<text>We can now deal a crippling blow to the Zoltan government. If we take out their capital building, they will be forced to withdraw their forces away from fighting the Osmian ship, giving it enough time to complete its mission!</text>
+		<text>We can now deal a crippling blow to the Zoltan government. If we take out their capitol building, they will be forced to withdraw their forces away from fighting the Osmian ship, giving it enough time to complete its mission!</text>
 			<event>
-				<text>Without giving them a warning, you charge up your weapons and take a well aimed shot at the capital building, destroying its supports and causing it to crumble.
+				<text>Without giving them a warning, you charge up your weapons and take a well aimed shot at the capitol building, destroying its supports and causing it to crumble.
 				
 				    Almost immediately, a massive peacekeeping cruiser emerges from the sky, weapons armed and ready. The plan appears to have worked, but you will have to take down your new foe to settle the deal!</text>
 					<ship load="SHIP_FR_QUEST_PEACEKEEPING_CRUISER" hostile="true"/>

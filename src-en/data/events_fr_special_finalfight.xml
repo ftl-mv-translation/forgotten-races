@@ -1,0 +1,437 @@
+<FTL>
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					FLAGSHIP - UNLOCK!
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<event name="FR_FINALFIGHT_START">
+	<text>As you forcefully land your ship, you realize that you are still able to see the massive portal. Your concerns only grow worse as you make out that something massive has landed at a distance away. Whoever that is must have used a highly advanced FTL jammer to stop you mid-jump, and they appear to be moving in on your location quickly. If you have any last minute preparations, now is the time to do them.</text>
+	<jumpEvent>FR_GO_TO_FINALFIGHT</jumpEvent>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+
+<!--By the way I don't think this text actually shows up because the secretSector tag immediately drags you away, if you want to see the text the secretSector tag should be behind a choice tag-->
+<event name="FR_GO_TO_FINALFIGHT">
+	<text>Now fully geared up and ready for your final fight, it's time to see who stopped you.</text>
+	<secretSector>FR_FINALFIGHT</secretSector>
+</event>
+
+<event name="FR_BEGIN_THE_FIGHT">
+	<text>The wait is eating you alive as the enemy ship approaches your location until they finally slow down in front of you.</text>
+	<img back="BACKGROUND" planet="FR_PLANET_COMMONWEALTH_RIFT"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>You can't believe your eyes when you see who stopped you. It's a giant flagship-like Obelisk ship! Not any Obelisk either, they bear the colors of the Exterminators! Aenwithe is absolutely speechless, his cuboid can barely comprehend what he's seeing.
+
+			"But... That design was never meant to be used ever again! Queen Y would never accept... Wait..." Wither's sensors stop cold in their tracks as you pick up a hail from the other vessel, where you find that the pilot is none other than Queen Y herself, the leader of the Obelisks and the most powerful entity among all Exterminators.
+	
+			"What? Surprised, Aenwithe? Frankly, you shouldn't be. Did you really think I would sit around and do nothing while you and your little friend go to wonderland together? Hah! Never! A queen of my stature would never let an enemy have the upper hand. Speaking of enemy..." The queen turns to you with a glare, palpable malice exuding from her very presence.</text>
+			<ship load="SHIP_FR_QUEST_ROYAL_FLAGSHIP" hostile="false"/> 
+			<choice hidden="true">
+				<text>Wait, the portal is still open!</text>
+				<event>
+					<text>"Precisely, little fleshling creature, you led me right to their little hidey-hole, the last bastion of "hope" for the loathsome cast that should have been completely eliminated eons ago!"
+		
+					Aenwithe blinks, "Wait... that's why you brought the Exterminator... You... you want to purge them again?!" Y laughs as loudly as her voice modules would allow her to, "Oh but of course! We Royals are perfect in every way, and for these little creatures to continue existing... well, that would cast doubt on that notion, wouldn't it?</text>
+					<choice hidden="true">
+						<text>If you want to hurt them, you will have to get through us first!</text>
+						<event>
+							<text>The queen laughs again, "How cute. The measly mortal standing on the side of failure thinks they can do it all. Well, it's your funeral little one. Not even that gruff admiral with their shiny white flagship could stop us. What hope do you think you have?" At this moment you see a huge fleet of Royal ships jumping in. This might be the end...</text>
+							<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_ROYAL</customFleet>
+							<ship hostile="true"/>
+							<choice hidden="true" blue="false">
+								<text>Time to end this!</text>
+								<event load="FR_COMMONWEALTH_MORALITY_CHECK"/>
+							</choice>
+							<choice hidden="true" req="unique_jerry" blue="true">
+								<text>(Jerry) Hail Y.</text>
+								<event load="FR_BEGIN_THE_FIGHT_JERRY"/>
+							</choice>
+							<choice hidden="true" req="fr_reborn_g" blue="true">
+								<text>(G) Hail Y.</text>
+								<event load="FR_BEGIN_THE_FIGHT_G"/>
+							</choice>
+							<choice hidden="true" req="unique_vance" blue="true">
+								<text>(Vance Prime) Hail Y.</text>
+								<event load="FR_BEGIN_THE_FIGHT_VANCE"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_BEGIN_THE_FIGHT_VANCE">
+	<text>Y seems confused that Vance is alive and well, however that confusion quickly becomes amusement, "Hah! So you decided to deny yourself a worthy death? What a pathetic worm you are. What's your plan, little mortal? Run away like a coward again?"
+
+	Vance's stoic expression doesn't change, instead he simply stares Y down, mute as a rock.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Y seems oddly bothered by this, her temper clearly rising, "What happened little mortal? Too scared to even speak?!"
+
+			Finally, Vance's expression changes slightly, a coy smile forming at the corner of his lips. "No, this was simply a distraction."
+		
+			Suddenly a huge explosion triggers inside the Exterminator's artillery system. "You see, after so many years of piloting flagships, you learn a thing or two about their weak points. Just because yours is made of aether, it won't change the underlying physics."
+		
+			Before Y has a chance to reply Vance shuts down the call, turning back with a wide smile on his face. It seems Vance managed to disable one of the Exterminator's artilleries!</text>
+			<status type="loss" target="enemy" system="artillery" amount="3"/>
+			<enemyDamage amount="3" system="artillery" effect="fire"/>
+			<choice hidden="true" blue="false">
+				<text>Continue...</text>
+				<event load="FR_COMMONWEALTH_MORALITY_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_BEGIN_THE_FIGHT_G">
+	<text>Y seems to be become a lot more confused once she sees G "G...? What happened to you? And why are you onboard the mortal's vessel?"
+
+	G simply laughs, her unnatural red glow becoming stronger "Oh my dear Y, you truly are clueless about anything outside your little palace, aren't you? Did none of your servents ever tell you about my disappearance? Or did you never care enough to notice that I was gone to begin with?"</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Y is taken aback from the sudden hostility, "How dare you speak to your queen like this?! I demand you show some humility and KNEEL BEFORE YOUR GOD!" Her temper flares and the exterminator shoots a warning shot towards your vessel.
+
+			G isn't bothered by the show of force, however. "Still as ill tempered as the day you ascended. No matter, your time has come, and I won't allow your temper tantrums to risk me dying a second time!"
+		
+			Suddenly the Exterminator's teleporting system starts glowing a deep red hue before suddenly catching fire. Whatever G did must have permanently damaged it!</text>
+			<status type="loss" target="enemy" system="teleporter" amount="2"/>
+			<enemyDamage amount="3" system="teleporter" effect="fire"/>
+			<choice hidden="true" blue="false">
+				<text>Continue...</text>
+				<event load="FR_COMMONWEALTH_MORALITY_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_BEGIN_THE_FIGHT_JERRY">
+	<text>Jerry stutters, unsure of how to react to the news. "Uncle... He... You..." The queen laughs yet again, "Oh, you are sad your uncle died a failure? What a pathetic whelp you are. The multiverse will be a better place without the likes of you around."</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Jerry collapses to his knees, shocked and speechless. "You monster..." Jerry chokes up a sob, and holds his head in his hands while tears form puddles on the ground.</text>
+			<removeCrew class="unique_jerry">
+				<clone>false</clone>
+				<text>Jerry sits in the corner, crying. The Exterminator looms, its frightful artilleries charging. You want to console him, but you have to get going.</text>
+			</removeCrew>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>Suddenly, Jerry gets back up to his feet, wiping away the tears. "Well, there's only one thing left to do now." He draws out a massive Gatling gun. You aren't sure where he got it from, but you don't have the time to question it.</text>
+					<achievement>ACH_JERRY_END</achievement>
+					<crewMember amount="1" class="unique_jerry_gun">Jerry</crewMember>
+					<choice hidden="true" blue="false" lvl="0" max_group="0" req="pony_tamed">
+						<text>Continue...</text>
+						<event>
+							<text>With Jerry armed and ready, it looks like there's nothing left to do but fight!</text>
+							<!--The morality check event was missing-->
+							<choice hidden="true" blue="false">
+								<text>Continue...</text>
+								<event load="FR_COMMONWEALTH_MORALITY_CHECK"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true" blue="false" lvl="1" max_group="0" req="ponyc">
+						<text>Continue...</text>
+						<event>
+							<text>Before you begin your fight with the Exterminator, Jerry pauses, and walks out of the room.</text>
+							<removeCrew class="unique_jerry_gun">
+								<clone>false</clone>
+								<text>You have no idea where Jerry is going, but you follow him.</text>
+							</removeCrew>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>Jerry enters the room where the Equinoid is sleeping...</text>
+									<removeCrew class="ponyc">
+										<clone>false</clone>
+										<text>You have no idea what Jerry is doing, and watch in confusion.</text>
+									</removeCrew>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event>
+											<text>Then, Jerry proceeds to mount the pony! "Alright. Now I'm ready."</text>
+											<crewMember amount="1" class="unique_jerry_pony_crystal">Jerry</crewMember>
+											<achievement>ACH_JERRY_STEED</achievement>
+											<achievement>ACH_JERRY_CRYSTALSTEED</achievement>
+											<choice hidden="true" blue="false">
+												<text>Continue...</text>
+												<event load="FR_COMMONWEALTH_MORALITY_CHECK"/>
+											</choice>
+										</event>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true" blue="false" lvl="1" max_group="0" req="pony_tamed">
+						<text>Continue...</text>
+						<event>
+							<text>Before you begin your fight with the Exterminator, Jerry pauses, and walks out of the room.</text>
+							<removeCrew class="unique_jerry_gun">
+								<clone>false</clone>
+								<text>You have no idea where Jerry is going, but you follow him.</text>
+							</removeCrew>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>Jerry enters the room where the Equinoid is sleeping...</text>
+									<removeCrew class="pony_tamed">
+										<clone>false</clone>
+										<text>You have no idea what Jerry is doing, and watch in confusion.</text>
+									</removeCrew>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event>
+											<text>Then, Jerry proceeds to mount the pony! "Alright. Now I'm ready."</text>
+											<crewMember amount="1" class="unique_jerry_pony">Jerry</crewMember>
+											<achievement>ACH_JERRY_STEED</achievement>
+											<choice hidden="true" blue="false">
+												<text>Continue...</text>
+												<event load="FR_COMMONWEALTH_MORALITY_CHECK"/>
+											</choice>
+										</event>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true" blue="false" lvl="1" max_group="0" req="fr_bonus_prince">
+						<text>Continue...</text>
+						<event>
+							<text>Before you begin your fight with the Exterminator, Jerry pauses, and walks out of the room.</text>
+							<removeCrew class="unique_jerry_gun">
+								<clone>false</clone>
+								<text>You have no idea where Jerry is going, but you follow him.</text>
+							</removeCrew>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event>
+									<text>Jerry enters the room where Prince is sleeping...</text>
+									<removeCrew class="fr_bonus_prince">
+										<clone>false</clone>
+										<text>You have no idea what Jerry is doing, and watch in confusion.</text>
+									</removeCrew>
+									<choice hidden="true">
+										<text>Continue...</text>
+										<event>
+											<text>Then, Jerry proceeds to mount Prince! The demonic Equinoid lets out a bone-chilling neigh, ready to ride into battle. "Alright. Now I'm ready."</text>
+											<crewMember amount="1" class="fr_bonus_prince_jerry">Jerry</crewMember>
+											<achievement>ACH_JERRY_STEED</achievement>
+											<achievement>ACH_FR_EVENT_JERRY_SHADOW_PONY</achievement>
+											<choice hidden="true" blue="false">
+												<text>Continue...</text>
+												<event load="FR_COMMONWEALTH_MORALITY_CHECK"/>
+											</choice>
+										</event>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<ship name="SHIP_FR_QUEST_ROYAL_FLAGSHIP" auto_blueprint="FR_BOSS_QUEST_ROYAL_FLAGSHIP">
+	<destroyed load="FR_FINALFIGHT_WIN"/>
+	<deadCrew load="FR_FINALFIGHT_AUTO"/>
+	<deadCrewAuto/>
+	<finalBoss ach="true" creditsText="credit_victory_true_mutual" text="This is not the victory you hoped for, but it's one nonetheless." creditsBackground="VICTORY_TRUE" music="paragon"/>
+</ship>
+
+<event name="FR_FINALFIGHT_AUTO">
+	<text>It appears this ship is also equipped with an advanced AI system. Now that the crew is dead, it has taken control!</text>
+</event>
+
+<event name="FR_COMMONWEALTH_MORALITY_CHECK">
+	<loadEventList seeded="false" first="false" generate="true">
+		<event name="FR_COMMONWEALTH_MORALITY_CHECK_POSITIVE" req="fr_rep_commonwealth" lvl="-999" max_lvl="-1"/>
+		<event name="FR_COMMONWEALTH_MORALITY_CHECK_NEUTRAL" req="fr_rep_commonwealth" lvl="0" max_lvl="2"/>
+		<event name="FR_COMMONWEALTH_MORALITY_CHECK_NEGATIVE" req="fr_rep_commonwealth" lvl="3" max_lvl="999"/>
+	</loadEventList>
+</event>
+
+<event name="FR_COMMONWEALTH_MORALITY_CHECK_POSITIVE">
+	<text>Suddenly you receive a hail coming from the portal, "Outsider! You showed us kindness in a way that no other being has ever shown, and for that you have our support!" You detect a few fleets jumping in, all aimed at the Exterminator!	
+
+	"We've brought ASB fire and payloads to assist your fight! We'll keep the other Royal vessels busy, you just need to focus on taking down the Exterminator!"</text>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_COMMONWEALTH</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_ROYAL</customFleet>
+	<environment type="PDS" target="enemy"/>
+	<noASBPlanet/>
+	<playMusic>exterminator_good</playMusic>
+	<triggeredEvent event="FR_COMMONWEALTH_FLEET_SUPPORT" loops="999999999" thisFight="true" minTime="30.0" maxTime="30.0">
+		<warningMessage id="warning_support" r="120" g="255" b="120" x="444" y="46" time="5.0" centerText="true" flash="true" sound="surgeWarning" useWarningLine="true"/>
+		<triggeredEventBox load="DEFAULT_TIMER">
+			<warning time="5.0" flash="true"/>
+			<tooltip>The EMP Payload Surge will occur after this countdown.</tooltip>
+		</triggeredEventBox>
+	</triggeredEvent>
+	<choice hidden="true" blue="false">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="FR_COMMONWEALTH_MORALITY_CHECK_NEUTRAL">
+	<text>Suddenly you receive a hail coming from the portal and detect a few fleets jumping in, all aimed at the Royal Fleet!
+		
+	"Outsider! We'll keep the other Royal vessels busy as you fight the Exterminator. We're all counting on you, but regardless of whether we survive, it's been an honor to fight alongside you."</text>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_COMMONWEALTH</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_ROYAL</customFleet>
+	<playMusic>exterminator_neutral</playMusic>
+	<choice hidden="true" blue="false">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="FR_COMMONWEALTH_MORALITY_CHECK_NEGATIVE">
+	<text>You shut your eyes and hope for a miracle, but nothing happens. You will have to deal with both the flagship and the fleet all alone.</text>
+	<environment type="PDS" target="player"/>
+	<noASBPlanet/>
+	<playMusic>exterminator_bad</playMusic>
+	<choice hidden="true" blue="false">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="FR_FINALFIGHT_WIN">
+	<text>You watch in triumphant jubilation as the Flagship explodes. You've won this battle and saved the Commonwealth!</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_OBELISK_FLAGSHIP</unlockCustomShip>
+	<achievement silent="false">ACH_FR_EVENT_FLAGSHIP</achievement>
+	<clearSuperDrones player="false"/>
+	<choice hidden="true" blue="false">
+		<text>Continue...</text>
+		<event load="FR_FINALFIGHT_EPILOGUE"/>
+	</choice>
+</event>
+
+
+<event name="FR_FINALFIGHT_EPILOGUE">
+	<text>As the flagship gradualy falls apart, you can't help but be proud of your work here - You just saved a nearly extinct race from being completely wiped out. Once you make sure the flagship is destroyed you perform a scan of the area to see who's still alive.</text>
+	<img back="VICTORY_TRUE" planet="NONE"/>
+	<unlockCustomShip shipReq="PLAYER_SHIP_FR_OBELISK_FLAGSHIP" silent="false">PLAYER_SHIP_FR_ELITE_OBELISK_FLAGSHIP</unlockCustomShip>
+	<choice hidden="true" req="fr_rep_commonwealth" lvl="-999" max_lvl="-1" max_group="0" blue="false">
+        <text>Continue...</text>
+        <event>
+            <text>You are soon hailed by what appears to be the commanding ship of the commonwealth ship. Their ship has taken a beating, but it's still standing strong! The other Commonwealth vessels have also overwhelmed the royal fleet completely!
+			
+			"Outsider! You demonstrated high excellence and bravery in this fight, and your battle prowess was such that it could be written into song! Now only have you killed the being that kept us in fear at every waking moment, but you also destroyed their biggest weapon and symbol of oppression. For that, we are forever grateful."</text>
+			<choice hidden="true" blue="false">
+				<text>We only did what we could, you people deserve to live a happy and safe life.</text>
+				<event>
+					<text>Their makeshift leader smiles, "Ever humble I see! I'm sure that I speak for all the commonwealth people that, from this day onwards, you are no longer an outsider, but an honorary member of our refuge! All hail our saviours!" 
+						
+					Suddenly your comms are filled with messages of dozens of obelisk ships cheering for you! Once they all call down their leader speaks again.
+				
+					"Now, what's your next step, saviour?"</text>
+					<choice hidden="true" blue="false">
+						<text>We still need to defeat the Rebel Flagship back in the reality we came from, do you think you could aid us?</text>
+						<event>
+							<text>"Gladly! Commonwealths! We march for one more battle today! Follow our saviours and slay all those that oppose them!"</text>
+							<choice hidden="true" blue="false">
+								<text>Continue...</text>
+								<event load="FR_FINALFIGHT_EPILOGUE_GOOD"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+        </event>
+    </choice>
+	<choice hidden="true" req="fr_rep_commonwealth" lvl="0" max_lvl="2" max_group="0" blue="false">
+        <text>Continue...</text>
+        <event>
+            <text>The battlefield is pretty quiet after the fight, it takes quite a while to get the attention of any surving Commonwealths. After a while you find that only a handful of fleets survived, all badly damaged and some even unable to warp away.</text>
+			<choice hidden="true" blue="false">
+				<text>Continue...</text>
+				<event>
+					<text>You ask if there's anything you can do to help, but the Commonwealth don't seem interested in your offer, as they worry that your presence might lure more Obelisks to their refuge. They politely ask you to leave.</text>
+					<choice hidden="true" blue="false">
+						<text>Continue...</text>
+						<event>
+							<text>Not wanting to start another fight, you oblige. You set your sights to the Federation Capital in hopes that there's still someone there left to help.</text>
+							<choice hidden="true" blue="false">
+								<text>Continue...</text>
+								<event load="FR_FINALFIGHT_EPILOGUE_NEUTRAL"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+        </event>
+    </choice>
+    <choice hidden="true" req="fr_rep_commonwealth" lvl="3" max_lvl="999" max_group="0" blue="false">
+        <text>Continue...</text>
+        <event>
+            <text>The royal fleet is still standing, however they are too busy panicking after seeing the Exterminator fall. Now is the perfect time to jump away!</text>
+			<choice hidden="true" blue="false">
+				<text>Continue...</text>
+				<event>
+					<text>With the Exterminator destroyed, any forces keeping your engine down are lifted, and you are able to swiftly excape back to the Federation Capital, right before an ASB shot hits your ship.</text>
+					<choice hidden="true" blue="false">
+						<text>Continue...</text>
+						<event load="FR_FINALFIGHT_EPILOGUE_BAD"/>
+					</choice>
+				</event>
+			</choice>
+        </event>
+    </choice>
+</event>
+
+<event name="FR_FINALFIGHT_EPILOGUE_GOOD">
+	<text>You reach the federation capital with a massive Commonwealth fleet by your side. With what feels like only a minute, the Multiverse Flagship is obliterated thanks to having a giant fleet at your command and technology that is lightyears ahead of theirs.
+
+	Once the dust settles, Tully contacts you, and after a few stressful moments where you try to explain what hell just happened, he welcomes the Commonwealth to stay as long as they want and, as a sign of thanks, offers to properly integrate them into the Federation!</text>
+	<changeBackground>BACK_EVENT_FEDBASE</changeBackground>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_COMMONWEALTH</customFleet>
+	<customFleet right="true" firing="false" autoDarkening="false">CUSTOM_FLEET_REBEL</customFleet>
+	<metaVariable name="fr_juke_exterminator_good" op="set" val="1"/>
+	<win ach="commonwealth" music="paragon" creditsText="fr_credit_victory_commonwealth" text="The future looks brighter than ever. Your tale will echo throughout the multiverse for all eternity." creditsBackground="FR_VICTORY_COMMONWEALTH"/>
+</event>
+
+<event name="FR_FINALFIGHT_EPILOGUE_NEUTRAL">
+	<text>It seems you arrived at the last moment, as many Federation fleets suffer from the onslaught of Rebel ships. Fortunately, your advanced weapons make quick work of the flagship, turning the tide in favor of the Federation. In the aftermath of the attacks, you contact Tully and tell him everything that happened. What happens from now on is out of your hands, but your job here is done.</text>
+	<changeBackground>BACK_EVENT_FEDBASE</changeBackground>
+	<customFleet right="true" firing="false" autoDarkening="false">CUSTOM_FLEET_REBEL</customFleet>
+	<metaVariable name="fr_juke_exterminator_neutral" op="set" val="1"/>
+	<win ach="commonwealth" music="paragon" creditsText="fr_credit_victory_commonwealth" text="This victory may not be what you were hoping for, but the work of a renegade is never over. You set your sights to the next universe and jump." creditsBackground="VICTORY_DEFAULT"/>
+</event>
+
+<event name="FR_FINALFIGHT_EPILOGUE_BAD">
+	<text>You finally arrive at the Federation Capital, but it appears that you were too late. The Rebel forces have already destroyed the Federation resistance with the help of their Flagship and all Federation comms are dead silent. You attempt to fight the Rebel Flagship, but without the Federation fleet keeping the Rebel fleet busy, their ships are able to quickly swarm you. Even with the aether tech you aquired, it isn't enough. As your ship falls, so does this reality's last hope for the Federation...</text>
+	<changeBackground>BACK_EVENT_FEDBASE</changeBackground>
+	<customFleet right="true" firing="false" autoDarkening="false">CUSTOM_FLEET_REBEL</customFleet>
+	<customFleet right="false" firing="false" autoDarkening="false">CUSTOM_FLEET_REBEL</customFleet>
+	<damage amount="999"/>
+	<damage amount="-1"/>
+	<metaVariable name="fr_juke_exterminator_bad" op="set" val="1"/>
+	<win ach="commonwealth" music="her_credits" creditsText="fr_credit_victory_commonwealth_bad" text="..." creditsBackground="VICTORY_TRUE"/>
+</event>
+
+</FTL>

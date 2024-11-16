@@ -13,7 +13,12 @@
 <text name="map_icon_fr_salt_quest">#SALT [!]#</text>
 <text name="map_icon_fr_tartarus_final">#FINAL BOUNTY/EXIT [!]#</text>
 <text name="map_icon_fr_wither">#RUINS? [!]#</text>
+<text name="map_icon_fr_commonwealth_portal">#STRANGE SIGNATURE [!]#</text>
+<text name="map_icon_fr_commonwealth_factory">#FACTORY [!]#</text>
+<text name="map_icon_fr_commonwealth_rift">#EXIT PORTAL [!]#</text>
+<text name="map_icon_fr_cel_probe">#PROBE LOCATED#</text>
 
+<text name="map_icon_fr_commonwealth_store">STORE [COMMONWEALTH]</text>
 
 <text name="map_icon_fr_slimer_apparition">@SLIMER [!]@</text>
 <text name="map_icon_fr_phys_apparition">@PHYS [!]@</text>
@@ -48,8 +53,7 @@
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 
-<text name="tip_fr_haunt">Tip: Haunt weapons are mysterious pieces of technology forged in the depths of Tartarus. They are very strong, but often highly specialized.</text>
-<text name="tip_fr_wither">Tip: Aenwithe's prototype weapons apply a special crew effect that removes immunity to fire, suffocation, and stun. They rarely create these effects themselves, instead often creating erosion.</text>
+<text name="tip_fr_revenant">Tip: Revenant weapons are mysterious pieces of technology forged in the depths of Tartarus. They are very strong, but often highly specialized.</text>
 <text name="tip_fr_wither_crew">Tip: Aenwithe's crew drones do not have the capability to withstand switching modes, and are too complex for Technopaths to replicate. They can, however, be very powerful.</text>
 <text name="tip_fr_mfk_loot_1">MFK LOOT
 System damage is converted to hull damage
@@ -59,13 +63,13 @@ Has hullbust</text>
 <!--
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-			                    TEMP EROSION
+			                    ENDING
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 
-<text name="erosion_chance">Erosion Chance: \1%</text>  <!-- \1: chance, \2 is low/medium/high -->
-<text name="erosion_effect">Erosion: \1 (\2 seconds)</text>  <!-- \1: total damage, \2: duration, \3: damage rate -->
+<text name="fr_credit_victory_commonwealth">Congratulations, you've completed the Forgotten Races' Ending! Though this is the end to the story, obviously there's always more runs to be had. We hope you've had fun with the addon so far!</text>
+<text name="fr_credit_victory_commonwealth_bad">...</text>
 
 <!--
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

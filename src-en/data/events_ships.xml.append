@@ -7,9 +7,9 @@
 	<deadCrew load="FR_BILLVAN_QUEST_DEFEAT"/>
 </ship>
 
-<ship name="SHIP_FR_QUEST_WITHER_CRUISER" auto_blueprint="FR_BOSS_QUEST_WITHER_CRUISER">
+<ship name="SHIP_FR_QUEST_WITHER_GUARDIAN" auto_blueprint="FR_BOSS_QUEST_WITHER_GUARDIAN">
 	<destroyed>
-		<text>The enemy ship breaks apart, destroying it and any Withered left inside. You attempt to hail the Dynasty, but all you receive is a ASB shot straight into your engines. You need to get out of here!</text>
+		<text>The enemy ship breaks apart, destroying it and any Withered left inside. You attempt to hail the Dynasty, but all you receive is an ASB shot straight into your engines. You need to get out of here!</text>
 		<autoReward level="MED">standard</autoReward>
 		<damage amount="3" system="engines" effect="breach"/>
 		<environment type="PDS" target="player"/>
@@ -29,7 +29,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>You've exterminated all the Augmented from the ship, leaving you with plenty of ship to scrap.</text>
+		<text>You've exterminated all of the Augmented from the ship, leaving you with plenty of ship to scrap.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -42,12 +42,12 @@
 	<triggeredEvent event="FR_COMMONWEALTH_AUTO_WIN" time="60" thisFight="true">
 		<triggeredEventBox load="DEFAULT_TIMER" pos="combat">
 			<warning time="10.0" flash="false"/>
-			<tooltip>Survive without destroying the auto-ship, so the hack routine can run.</tooltip>
+			<tooltip>Survive without destroying the Auto-ship, so the hack routine can run.</tooltip>
 		</triggeredEventBox>
 		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
 	</triggeredEvent>
 	<destroyed>
-		<text>The ship buckles under your assault and splits into uncountable pieces. Whatever mystery the ship held will forever go unanswered.</text>
+		<text>The ship buckles under your assault and splinters into uncountable pieces. Whatever mystery the ship held will forever go unanswered.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</destroyed>
 </ship>
@@ -74,6 +74,333 @@
 <ship name="SHIP_FR_QUEST_AUTO_CRUISER" auto_blueprint="FR_BOSS_QUEST_AUTO_CRUISER">
 	<destroyed load="FR_SALT_BATTLESHIP_QUEST_WIN"/>
 	<deadCrew load="FR_SALT_BATTLESHIP_QUEST_WIN"/>
+</ship>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					COMMONWEALTH SHIPS
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+<ship name="SHIP_FR_QUEST_COMMONWEALTH_AUTO_CRUISER" auto_blueprint="FR_BOSS_QUEST_COMMONWEALTH_AUTO_CRUISER">
+	<destroyed load="FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED"/>
+	<deadCrew load="FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED"/>
+	<surrender min="3" max="6" load="FR_COMMONWEALTH_REPAIR_CENTER_SURRENDER"/>
+</ship>
+
+<ship name="SHIP_FR_QUEST_COMMONWEALTH_DREADNAUGHT" auto_blueprint="FR_BOSS_QUEST_COMMONWEALTH_DREADNAUGHT">
+	<destroyed load="FR_COMMONWEALTH_RIFT_WIN"/>
+	<deadCrew load="FR_COMMONWEALTH_RIFT_AI"/>
+	<deadCrewAuto/>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.7"/>
+		<crewMember type="fr_proto_cognitive" prop="0.3"/>	
+	</crew>
+</ship>
+
+
+<ship name="FR_SHIP_COMMONWEALTH_GUARD" auto_blueprint="FR_COMMONWEALTH_GUARD">
+	<destroyed load="FR_GUARD_COMMONWEALTH_DESTROY"/>
+	<deadCrew load="FR_GUARD_COMMONWEALTH_DEADCREW"/>
+	<surrender min="3" max="5" load="FR_GUARD_COMMONWEALTH_SURRENDER"/>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.7"/>
+		<crewMember type="fr_proto_cognitive" prop="0.3"/>	
+	</crew>
+</ship>
+
+<ship name="FR_SHIP_COMMONWEALTH_TRAPPER" auto_blueprint="FR_COMMONWEALTH_TRAPPER">
+	<destroyed load="FR_DESTROYED_TRAPPER_COMMONWEALTH"/>
+	<deadCrew load="FR_DEAD_CREW_TRAPPER_COMMONWEALTH"/>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.6"/>
+		<crewMember type="fr_proto_cognitive" prop="0.4"/>	
+	</crew>
+	<weaponOverride count="1">
+		<name>FR_COMMONWEALTH_MINELAUNCHER</name>
+	</weaponOverride>
+</ship>
+
+<ship name="FR_SHIP_COMMONWEALTH_TRANSPORT" auto_blueprint="FR_COMMONWEALTH_TRANSPORT">
+	<escape timer="40" min="999" max="999" >
+		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<ship hostile="true"/>
+	</escape>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.8"/>
+		<crewMember type="fr_proto_cognitive" prop="0.2"/>	
+	</crew>
+	<destroyed load="TRANSPORT_DESTROYED"/>
+	<deadCrew load="FR_TRANSPORT_COMMONWEALTH_CAPTURE"/>
+</ship>
+
+<ship name="FR_SHIP_COMMONWEALTH_STATION" auto_blueprint="FR_COMMONWEALTH_STATION">
+	<destroyed>
+		<text>The massive station's ionic weapons suddenly backfire, causing a gigantic explosion. Soon enough, the station is nothing more than scrap.</text>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text>A few Commonwealths tried to activate their escape pods, but it seems that they weren't as functional as they thought, as every one of them broke and killed the escapee in one way or another.</text>
+		<autoReward level="HIGH">standard</autoReward>
+	</deadCrew>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.5"/>
+		<crewMember type="fr_proto_cognitive" prop="0.5"/>	
+	</crew>
+</ship>
+
+<ship name="FR_SHIP_COMMONWEALTH_GENERIC" auto_blueprint="FR_LIST_SHIPS_COMMONWEALTH_GENERIC">
+	<destroyed load="FR_COMMONWEALTH_DESTROYED"/>
+	<deadCrew load="FR_COMMONWEALTH_DEADCREW"/>
+	<triggeredEvent event="FR_COMMONWEALTH_SURRENDER" enemyCrew="3" thisFight="true" clearOnJump="true"/>
+	<surrender min="3" max="4" load="FR_COMMONWEALTH_SURRENDER"/>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.6"/>
+		<crewMember type="fr_proto_cognitive" prop="0.4"/>	
+	</crew>
+</ship>
+
+<ship name="FR_SHIP_COMMONWEALTH_GENERIC_LARGE" auto_blueprint="FR_LIST_SHIPS_COMMONWEALTH_GENERIC_LARGE">
+	<destroyed load="FR_COMMONWEALTH_DESTROYED"/>
+	<deadCrew load="FR_COMMONWEALTH_DEADCREW"/>
+	<triggeredEvent event="FR_COMMONWEALTH_SURRENDER" enemyCrew="3" thisFight="true" clearOnJump="true"/>
+	<surrender min="3" max="4" load="FR_COMMONWEALTH_SURRENDER"/>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.6"/>
+		<crewMember type="fr_proto_cognitive" prop="0.4"/>	
+	</crew>
+</ship>
+
+<ship name="FR_SHIP_COMMONWEALTH_GENERIC_STORE" auto_blueprint="FR_LIST_SHIPS_COMMONWEALTH_GENERIC">
+	<triggeredEvent event="FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_SURRENDER" enemyCrew="3" thisFight="true" clearOnJump="true"/>
+	<surrender min="3" max="4" load="FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_SURRENDER"/>
+	<destroyed>
+		<text load="FR_TEXT_DESTROYED_COMMONWEALTH"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_KILL"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text load="FR_TEXT_DEAD_CREW_COMMONWEALTH"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_KILL"/>
+		</choice>
+	</deadCrew>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.6"/>
+		<crewMember type="fr_proto_cognitive" prop="0.4"/>	
+	</crew>
+</ship>
+
+<ship name="SHIP_FR_COMMONWEALTH_AUTO_STORE" auto_blueprint="FR_LIST_SHIPS_COMMONWEALTH_AUTO">
+	<destroyed>
+		<text>The ship breaks apart and you quickly salvage what you can.</text>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_STORE_HOSTILE_COMMONWEALTH_AUTO_WIN"/>
+		</choice>
+	</destroyed>
+</ship>
+
+<ship name="SHIP_FR_COMMONWEALTH_AUTO_ASTEROID" auto_blueprint="FR_LIST_SHIPS_COMMONWEALTH_AUTO">
+	<escape timer="40" min="999" max="999"/>
+	<destroyed>
+		<text>The ship breaks apart and with it the knowledge of your sins.</text>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<gotaway load="FR_NEUTRAL_COMMONWEALTH_AUTO_ESCAPE"/>
+</ship>
+
+<ship name="SHIP_FR_COMMONWEALTH_AUTO" auto_blueprint="FR_LIST_SHIPS_COMMONWEALTH_AUTO">
+	<destroyed>
+		<text>The Commonwealth Auto-ship has been destroyed. You scrap what remains.</text>
+		<autoReward level="HIGH">standard</autoReward>
+	</destroyed>
+</ship>
+
+<ship name="FR_SHIP_COMMONWEALTH_REINFORCEMENTS" auto_blueprint="FR_LIST_SHIPS_COMMONWEALTH_GENERIC">
+	<destroyed load="DESTROYED_REINFORCEMENTS" />
+	<deadCrew load="DEADCREW_REINFORCEMENTS" />
+</ship>
+
+<ship name="SHIP_FR_COMMONWEALTH_ESCAPEE_GUARD" auto_blueprint="FR_COMMONWEALTH_GUARD">
+	<destroyed>
+		<text load="FR_TEXT_DESTROYED_COMMONWEALTH"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_NEUTRAL_COMMONWEALTH_ROYAL_GUARD_KILL"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text load="FR_TEXT_DEAD_CREW_COMMONWEALTH"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_NEUTRAL_COMMONWEALTH_ROYAL_GUARD_KILL"/>
+		</choice>
+	</deadCrew>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.6"/>
+		<crewMember type="fr_proto_cognitive" prop="0.4"/>	
+	</crew>
+</ship>
+
+<ship name="SHIP_FR_COMMONWEALTH_ESCAPEE_ROYAL" auto_blueprint="FR_COMMONWEALTH_ABDUCTOR_ROYAL">
+	<destroyed>
+		<text>The pink lights go out right before the ship explodes; you feel a wave of relief wash over your body as you watch the debris slowly disintegrate.</text>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_NEUTRAL_COMMONWEALTH_ROYAL_ESCAPEE_KILL"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>The Royal and their Cognitive slaves tried their best, but in the end their arrogance was their demise.</text>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_NEUTRAL_COMMONWEALTH_ROYAL_ESCAPEE_KILL"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<ship name="FR_SHIP_COMMONWEALTH_PULSAR_TEST" auto_blueprint="FR_LIST_SHIPS_COMMONWEALTH_GENERIC_LARGE">
+	<triggeredEvent event="FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER" enemyCrew="2" thisFight="true" clearOnJump="true"/>
+	<surrender min="3" max="4" load="FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER"/>
+	<destroyed>
+		<text>With a major crack through its midsection, the massive ship breaks apart into pieces. It crumbled faster than you expected for something that big.</text>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_KILL"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>The testers didn't even try to escape; they fought until the very end.</text>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_KILL"/>
+		</choice>
+	</deadCrew>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.5"/>
+		<crewMember type="fr_proto_cognitive" prop="0.5"/>	
+	</crew>
+</ship>
+
+<ship name="FR_SHIP_COMMONWEALTH_SOLAR_AUTO" auto_blueprint="FR_LIST_SHIPS_COMMONWEALTH_AUTO">
+	<escape timer="60" min="999" max="999"/>
+	<destroyed>
+		<text>The ship breaks apart. You consider telling the station what you have done, but you decide it's best to just leave before they can confront you about it.</text>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<gotaway load="FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION_ESCAPE"/>
+</ship>
+
+<ship name="SHIP_FR_CYLVAN_CEL_PROBE" auto_blueprint="MU_CONTINUITY_AUTO">
+	<weaponOverride count="2">
+		<name>PRIME_LASER</name>
+		<name>PRIME_LASER</name>
+	</weaponOverride>
+	<destroyed>
+		<text>"Error - error - error - error - Continuity has failed to be enforced. Sending request for reinfor-" The ship explodes before it can send the signal. You are hailed by the Sylvan you just saved.</text>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_MORAL_CHECK"/>
+		</choice>
+	</destroyed>
+</ship>
+
+<ship name="SHIP_FR_CYLVAN" auto_blueprint="FR_BOSS_QUEST_CYLVAN">
+	<destroyed load="FR_SYLVAN_COMMONWEALTH_CYLVAN_DEFEAT"/>
+	<deadCrew load="FR_SYLVAN_COMMONWEALTH_CYLVAN_CREWKILL"/>
+</ship>
+
+<event name="FR_SYLVAN_COMMONWEALTH_CYLVAN_CREWKILL">
+	<text>It seems as though this is the end of Cylvan, but suddenly a teleporter signal registers - you've been boarded, again? Cylvan reappears on your deck. "Sssstranger, it'ssss not sssso eassssy to get rid of me!"</text>
+	<achievement silent="false">ACH_SYLVAN_CREWKILL</achievement>
+	<boarders min="1" max="1" class="fr_unique_cylvan"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>As if that wasn't enough, even more Cognitives beam aboard! Where are these guys coming from?</text>
+			<boarders min="2" max="3" class="fr_proto_cognitive"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+</event> 
+
+<ship name="FR_SHIP_COLLECTOR_CONTINUITY_PROBE_WEAPON" auto_blueprint="MU_CONTINUITY_AUTO">
+	<weaponOverride count="1">
+		<name>FR_LIST_ENEMY_WEAPONS_CEL</name>
+	</weaponOverride>
+	<destroyed>
+		<text>"Error - error - error - error - Continuity has failed to be enforced. Sending request for quarant-" The ship explodes before it can send the signal. As you scrap the ship, you find a strange weapon that the probe carried survived the fight!</text>
+		<autoReward level="HIGH">standard_no_item</autoReward>
+		<weapon name="FR_LIST_ENEMY_WEAPONS_CEL"/>
+	</destroyed>
+</ship>
+
+<ship name="FR_SHIP_COLLECTOR_CONTINUITY_PROBE_DRONE" auto_blueprint="MU_CONTINUITY_AUTO">
+	<droneOverride count="1">
+		<name>FR_LIST_ENEMY_DRONES_CEL</name>
+	</droneOverride>
+	<destroyed>
+		<text>"Error - error - error - error - Continuity has failed to be enforced. Sending request for quarant-" The ship explodes before it can send the signal. As you scrap the ship, you find a strange drone that the probe carried survived the fight!</text>
+		<autoReward level="HIGH">standard_no_item</autoReward>
+		<drone name="FR_LIST_ENEMY_DRONES_CEL"/>
+	</destroyed>
+</ship>
+
+<ship name="SHIP_FR_COMMONWEALTH_AUTO_OFFLINE" auto_blueprint="FR_COMMONWEALTH_AUTO_3_OFF">
+	<destroyed>
+		<text>The Auto-ship couldn't even send a distress message before being obliterated. You scrap what remains.</text>
+		<autoReward level="HIGH">standard</autoReward>
+	</destroyed>
+</ship>
+
+<ship name="FR_SHIP_COMMONWEALTH_STATION_GAS" auto_blueprint="FR_COMMONWEALTH_STATION">
+	<destroyed>
+		<text>The massive station's ionic weapons suddenly backfire, cause a gigantic explosion. Soon enough, the station is nothing more than scrap. Unfortunately, the station's explosion destroyed every gas container aboard, leaving the rare gasses to escape into space.</text>
+		<autoReward level="MED">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text>Inside the station you find a huge room filled with tanks of rare nebula gasses. However, you can only carry so many back to your ship before you have to move on.</text>
+		<autoReward level="HIGH">standard</autoReward>
+		<augment name="NEBULA_GASSES"/>
+	</deadCrew>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.7"/>
+		<crewMember type="fr_proto_cognitive" prop="0.3"/>	
+	</crew>
+</ship>
+
+<ship name="FR_SHIP_COMMONWEALTH_PIRATE" auto_blueprint="FR_COMMONWEALTH_MOTHERSHIP_WRECK">
+	<destroyed load="FR_COMMONWEALTH_DESTROYED"/>
+	<deadCrew load="FR_COMMONWEALTH_DEADCREW"/>
+	<triggeredEvent event="FR_COMMONWEALTH_SURRENDER" enemyCrew="3" thisFight="true" clearOnJump="true"/>
+	<surrender min="3" max="4" load="FR_COMMONWEALTH_SURRENDER"/>
+	<crew>
+		<crewMember type="fr_commonwealth" prop="0.6"/>
+		<crewMember type="fr_proto_cognitive" prop="0.4"/>	
+	</crew>
 </ship>
 
 </FTL>

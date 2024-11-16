@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <FTL>
 
 <mod:findName type="event" name="DESTROYED_REBEL_POD">
@@ -13,5 +12,50 @@
 	<crewMember amount="1" class="human"/>
 </event>
 
-</FTL>
+<event name="FR_COMMONWEALTH_DESTROYED">
+	<text load="FR_TEXT_DESTROYED_COMMONWEALTH"/>
+	<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH"/>
+	<autoReward level="HIGH">standard</autoReward>
+</event>
+<textList name="FR_TEXT_DESTROYED_COMMONWEALTH">
+	<text>The ship's blue lights go out, and this time they won't ever turn back on...</text>
+	<text>With how easily you can get rid of the Commonwealth ships, it's no surprise that they are afraid of you. They have dealt with someone like you before after all.</text>
+	<text>The ship collapses on its own weight after its supports have been destroyed. At least they didn't suffer...</text>
+	<text>It seems their ion-infused equipment are no match for your raw might and battle experience.</text>
+</textList>
 
+<event name="FR_COMMONWEALTH_DEADCREW">
+	<text load="FR_TEXT_DEAD_CREW_COMMONWEALTH"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH"/>
+</event>
+<textList name="FR_TEXT_DEAD_CREW_COMMONWEALTH">
+	<text>The internals of the ship are filled with broken parts and a strange, glowing liquid that you assume is what oils the Commonwealth. A grim sight to behold.</text>
+	<text>The more of their kind you kill, the more you can feel yourself become like the Exterminators. The thought terrifies you.</text>
+	<text>You see a few escape pods eject from the ship right before you kill the captain. You consider chasing them down, but you'd rather allow some of them to live.</text>
+	<text>Killing the Commonwealth isn't like killing other Obelisks - their bodies are soft and squishy, made out of more delicate nanomachines that can't deal any real damage in combat. The unfairness of the fight isn't lost on you.</text>
+</textList>
+
+<event name="FR_COMMONWEALTH_SURRENDER">
+	<text load="FR_TEXT_SURRENDER_COMMONWEALTH"/>
+	<choice hidden="true">
+		<text>Let them go.</text>
+		<event>
+			<text>The Commonwealth lets out a sigh of relief, quickly transferring what they could before having their ship jump away in a hurry.</text>
+			<autoReward level="HIGH">standard</autoReward>
+			<ship hostile="false"/>
+			<recallBoarders ship="both" force="true"/>
+			<instantEscape/>
+		</event>
+	</choice>
+	<choice>
+		<text>No.</text>
+		<event/>
+	</choice>
+</event>
+<textList name="FR_TEXT_SURRENDER_COMMONWEALTH">
+	<text>"Outsider! Please stop your advance, if it's scrap you want, then we have plenty to give, just please let us live!"</text>
+	<text>The Commonwealth desperately hails you - they are willing to empty their valuables as long as you let them live.</text>
+</textList>
+
+</FTL>

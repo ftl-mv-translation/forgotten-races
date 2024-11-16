@@ -1,10 +1,8 @@
 <FTL>
-
-<!--Huge thanks to DemonFusion for fixing up the writing to sound a lot more natural!-->
-
-
+	
 <event name="FR_START_TARTARUS">
 	<metaVariable name="fr_juke_tartarus" op="set" val="1"/>
+	<variable name="loc_unique_sectors" op="add" val="1"/>
 	<modifyPursuit amount="-15"/>
 	<preventQuest/>
 	<beaconType id="map_icon_fr_tartarus_start" global="false">
@@ -20,7 +18,7 @@
 </event>
 
 <textList name="FR_TEXT_START_TARTARUS">
-	<text>The jump into Tartarus was long and difficult, seeming to take ages. What you see on the other end of your journey can only be described as... bizarre. Multiple blue stars surround you, in a perfectly circular pattern, but they seem to emit no discernible signs of radiation. Your comms struggle under the might of thousands of hails from all directions, all points in space and time, being sent every second, their contents being only horrific screams and pleas for help. You decide to mute the ship's radio, an act which notably takes several attempts.</text>
+	<text>The jump into Tartarus was long and difficult, seeming to take ages. What you see on the other end of your journey can only be described as... bizarre. Multiple blue stars surround you in a perfectly circular pattern, but they seem to emit no discernible signs of radiation. Your comms struggle under the might of thousands of hails from all directions, all points in space and time, being sent every second, their contents being only horrific screams and pleas for help. You decide to mute the ship's radio, an act which notably takes several attempts.</text>
 </textList>
 
 <event name="FR_TARTARUS_BOUNTIES_LOAD">
@@ -61,9 +59,9 @@
 </event>
 
 <!--first encounter-->
-<ship name="SHIP_FR_HAUNT_SLIMER" auto_blueprint="FR_BOSS_HAUNT_SLIMER">
-	<destroyed load="FR_HAUNT_SLIMER_DEFEAT"/>
-	<deadCrew load="FR_HAUNT_SLIMER_DEFEAT"/>
+<ship name="SHIP_FR_REVENANT_SLIMER" auto_blueprint="FR_BOSS_REVENANT_SLIMER">
+	<destroyed load="FR_REVENANT_SLIMER_DEFEAT"/>
+	<deadCrew load="FR_REVENANT_SLIMER_DEFEAT"/>
 	<crew>
 		<crewMember type="slug" prop="0.40"/>
 		<crewMember type="slug_saboteur" prop="0.60"/>
@@ -74,7 +72,7 @@
 	<text>After figuring out where you are and what you're here to do, you check your list of bounties. Six of the seven entries have been mysteriously populated with information, with the seventh remaining blank. With no other leads, you begin to parse the document, revealing your first target: Slimer, the long-dead spirit of a Slug king.
 
 	Slimer was known throughout the Multiverse as the biggest glutton there ever was, a fact that they wore proudly. They were laid low by a batch of hallucinogenic melons, sending them into a deep coma from which they never recovered. Nobody chose to help them, on account of how rude, selfish, and vengeful Slimer could be in life. As you finish reading the entry, you look up to see a gigantic vessel out of the viewport, composed entirely out of Slug repair gel!</text>
-	<ship load="SHIP_FR_HAUNT_SLIMER" hostile="false"/>
+	<ship load="SHIP_FR_REVENANT_SLIMER" hostile="false"/>
 	<choice hidden="true">
 		<text>Hail the vessel.</text>
 		<event>
@@ -91,7 +89,7 @@
 				</event>
 			</choice>
 			<choice req="fr_gozer" blue="true" hidden="true">
-				<text>(Goziodeon) "Who are you pretenders?! We are the only Haunts in this town! Scram!"</text>
+				<text>(Goziodeon) "Who are you pretenders?! We are the only Rivals to the Spook Chasers in this town! Scram!"</text>
 				<event>
 					<text>The Slug simply chuckles, briefly breaking out of their starving daze, before emitting a form of preternatural screeching that your translator can barely keep up with. "...hugh-... y-your little... organization meansss... nothing here! I will... I will do my master a favor and... devour your little gassseousss body!" The feed cuts before you can even respond, and you hear the sound of a teleporter locking onto your ship. Battle stations!</text>
 					<ship hostile="true"/>	
@@ -105,8 +103,8 @@
 	</choice>
 </event>
 
-<event name="FR_HAUNT_SLIMER_DEFEAT">
-	<text>After a grueling battle, the gelatinous vessel has finally met its fate. You can only hope it's captain's spirit has been put to rest in the process, as you sift through the wreckage for valuable scrap metals.</text>
+<event name="FR_REVENANT_SLIMER_DEFEAT">
+	<text>After a grueling battle, the gelatinous vessel has finally met its fate. You can only hope its captain's spirit has been put to rest in the process, as you sift through the wreckage for valuable scrap metals.</text>
 	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
@@ -117,15 +115,15 @@
 			Your crew drop their blasters as the Slug raises their empty hands. "Oh... oh, glorious savior! You are truly... a kind heart beyond me! The spell, it binds me. I cannot help now, but... I will see what I can do, savior!"
 			
 			The next bounty seems to warn you that the target will be immune to ion damage.</text>
-			<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_SLIMER</unlockCustomShip>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_REVENANT_SLIMER</unlockCustomShip>
 		</event>
 	</choice>
 </event>
 
 <!--second encounter-->
-<ship name="SHIP_FR_HAUNT_PHYS" auto_blueprint="FR_BOSS_HAUNT_PHYS">
-	<destroyed load="FR_HAUNT_PHYS_DEFEAT"/>
-	<deadCrew load="FR_HAUNT_PHYS_DEFEAT"/>
+<ship name="SHIP_FR_REVENANT_PHYS" auto_blueprint="FR_BOSS_REVENANT_PHYS">
+	<destroyed load="FR_REVENANT_PHYS_DEFEAT"/>
+	<deadCrew load="FR_REVENANT_PHYS_DEFEAT"/>
 	<crew>
 		<crewMember type="shell" prop="0.15"/>
 		<crewMember type="shell_guardian" prop="0.15"/>
@@ -143,7 +141,7 @@
 		<text>Continue...</text>
 		<event>
 			<text>As soon as you finish reading her bounty, you spot your target already barreling towards you. Cyan power crackles along the ship's hull, arcing electricity obliterating nearby chunks of debris as the vessel moves into attack position, refusing all hails. Prepare for battle!</text>
-			<ship load="SHIP_FR_HAUNT_PHYS" hostile="true"/>
+			<ship load="SHIP_FR_REVENANT_PHYS" hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
 					<event load="COMBAT_CHECK"/>
@@ -152,7 +150,7 @@
 	</choice>
 </event>
 
-<event name="FR_HAUNT_PHYS_DEFEAT">
+<event name="FR_REVENANT_PHYS_DEFEAT">
 	<text>The Shell vessel splits into several pieces, the energy racing along its hull fading into nothing. You wonder if there were others like Phys, victims of the Shells trying a little too hard.</text>
 	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
 	<autoReward level="HIGH">standard</autoReward>
@@ -162,15 +160,15 @@
 			<text>Your train of thought is interrupted by Phys manifesting directly on your bridge, just as Slimer did earlier, and you get a good look at her for the first time. The ghost is on the smaller side, with several cracks running down her shell, all pulsating with electricity as she tilts to the side.
 
 			"You... s-save friend! Help... save thhhhhhe othhhhhers!" Phys' voice is filled with static, and her speech is very crude, but you do get an idea of what she's imploring you to do before she fades away... if you could save Slimer and Phys from this, then maybe the other souls could be saved!</text>
-			<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_PHYS</unlockCustomShip>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_REVENANT_PHYS</unlockCustomShip>
 		</event>
 	</choice>
 </event>
 
 <!--second encounter-->
-<ship name="SHIP_FR_HAUNT_ALEENOR" auto_blueprint="FR_BOSS_HAUNT_ALEENOR">
-	<destroyed load="FR_HAUNT_ALEENOR_DEFEAT"/>
-	<deadCrew load="FR_HAUNT_ALEENOR_DEFEAT"/>
+<ship name="SHIP_FR_REVENANT_ALEENOR" auto_blueprint="FR_BOSS_REVENANT_ALEENOR">
+	<destroyed load="FR_REVENANT_ALEENOR_DEFEAT"/>
+	<deadCrew load="FR_REVENANT_ALEENOR_DEFEAT"/>
 	<crew>
 		<crewMember type="engi" prop="0.30"/>
 		<crewMember type="mantis" prop="0.30"/>
@@ -186,7 +184,7 @@
 		<text>Continue...</text>
 		<event>
 			<text>Aleenor's vessel does not appear immediately to you, and you have to chase the bright pink vessel down, forcing the Bishop to hail. "Ah, a Renegade...! I hoping not to see you, on... important mission! Given by Queen..." She pauses for a second, as if struggling to remember. "...Queen... Queen Latrakkpkat! Yes, important mission indeed! Sorry in advance. Don't have time to spare!" Her weapons power on, and any further attempts to hail her are met with radio silence.</text>
-			<ship load="SHIP_FR_HAUNT_ALEENOR" hostile="true"/>
+			<ship load="SHIP_FR_REVENANT_ALEENOR" hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
 					<event load="COMBAT_CHECK"/>
@@ -195,7 +193,7 @@
 	</choice>
 </event>
 
-<event name="FR_HAUNT_ALEENOR_DEFEAT">
+<event name="FR_REVENANT_ALEENOR_DEFEAT">
 	<text>Bishops are truly formidable, especially this one, but you manage to triumph. Violet pheromones and scintillating pieces of room spread out into space.</text>
 	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
 	<autoReward level="HIGH">standard</autoReward>
@@ -204,7 +202,7 @@
 		<event>
 			<text>You brace yourself for another manifestation, seeing as how the last two appeared to you following combat. Like clockwork, the Mantis appears on your bridge, her expression one of... relief.
 
-			"Kind soul...! I hear stories about how formidable Renegade can be, and... it warms heart to know I wasn't mislead." She is oddly fluent in your tongue, which helps ease communication. "If... you have question, I can answer about me! Though... I am bound to stay silent about Tartarus... a foul necromantic spell, from one who saved me."</text>
+			"Kind soul...! I hear stories about how formidable Renegades can be, and... it warms heart to know I wasn't misled." She is oddly fluent in your tongue, which helps ease communication. "If... you have question, I can answer about me! Though... I am bound to stay silent about Tartarus... a foul necromantic spell, from one who saved me."</text>
 				<choice hidden="true">
 					<text>Who are you, exactly?</text>
 					<event>
@@ -217,7 +215,7 @@
 										<text>My condolences.</text>
 										<event>
 											<text>The Bishop simply smiles and nods, speaking with an eerie amount of literacy. "We all must die someday, Renegade. I am simply happy my death wasn't for nothing. Regardless... you have aid from me when you need! Can't tell when your journey will end, but... I want to be with you when it does."</text>
-											<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_ALEENOR</unlockCustomShip>
+											<unlockCustomShip silent="false">PLAYER_SHIP_FR_REVENANT_ALEENOR</unlockCustomShip>
 										</event>
 									</choice>
 							</event>
@@ -229,9 +227,9 @@
 </event>
 
 <!--fourth encounter-->
-<ship name="SHIP_FR_HAUNT_VIN" auto_blueprint="FR_BOSS_HAUNT_VIN">
-	<destroyed load="FR_HAUNT_VIN_DEFEAT"/>
-	<deadCrew load="FR_HAUNT_VIN_DEFEAT"/>
+<ship name="SHIP_FR_REVENANT_VIN" auto_blueprint="FR_BOSS_REVENANT_VIN">
+	<destroyed load="FR_REVENANT_VIN_DEFEAT"/>
+	<deadCrew load="FR_REVENANT_VIN_DEFEAT"/>
 	<crew>
 		<crewMember type="rock" prop="0.40"/>
 		<crewMember type="rock_crusader" prop="0.60"/>
@@ -246,7 +244,7 @@
 		<text>Well, that isn't disturbing at all.</text>
 		<event>
 			<text>As usual, once you finish reading your entry, you spot a fearsome Rock vessel in front of you, its armor plates glowing as if they were made of lava. Its weapons are ablaze, and its comms are silent. No time to waste on formalities!</text>
-			<ship load="SHIP_FR_HAUNT_VIN" hostile="true"/>
+			<ship load="SHIP_FR_REVENANT_VIN" hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
 					<event load="COMBAT_CHECK"/>
@@ -255,7 +253,7 @@
 	</choice>
 </event>
 
-<event name="FR_HAUNT_VIN_DEFEAT">
+<event name="FR_REVENANT_VIN_DEFEAT">
 	<text>Next verse, same as the first. Another mighty ship taken down and another soul freed from whoever is keeping them here.</text>
 	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
 	<autoReward level="HIGH">standard</autoReward>
@@ -267,16 +265,16 @@
 			"Federation dog. I do not care about your mission, or your cause. All I care about is kicking the teeth out of that Crystal-damned necromancer keeping all of us trapped under her finger. So, I will remain close until the deed is done - or, until you die, leaving me free to commandeer your ship, whichever comes first. Then, I will accompany you to the end of your pathetic little errand, if only because it is a fair trade. Understood?"
 			
 			You nod, Vin grins and lets go of you, leaving the room as he speaks "Good, now get back to work, this ship isn't going to fly itself".</text>
-			<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_VIN</unlockCustomShip>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_REVENANT_VIN</unlockCustomShip>
 		</event>
 	</choice>
 </event>
 
 <!--fifth encounter-->
-<ship name="SHIP_FR_HAUNT_CLEO" auto_blueprint="FR_BOSS_HAUNT_CLEO">
-	<destroyed load="FR_HAUNT_CLEO_DEFEAT"/>
-	<deadCrew load="FR_HAUNT_CLEO_DEFEAT"/>
-	<triggeredEvent event="FR_HAUNT_CLEO_DEFEAT" thisFight="true">
+<ship name="SHIP_FR_REVENANT_CLEO" auto_blueprint="FR_BOSS_REVENANT_CLEO">
+	<destroyed load="FR_REVENANT_CLEO_DEFEAT"/>
+	<deadCrew load="FR_REVENANT_CLEO_DEFEAT"/>
+	<triggeredEvent event="FR_REVENANT_CLEO_DEFEAT" thisFight="true">
 		<enemyCrew amount="0" includeClonebay="true"/>
 	</triggeredEvent>
 </ship>
@@ -289,7 +287,7 @@
 		<text>Continue...</text>
 		<event>
 			<text>Just as you expected, Cleo's vessel is ready for you. A powerful Rebel ship, painted in dark blue colors with an ethereal pattern shimmering across its surface, lies in wait, ready to strike.</text>
-			<ship load="SHIP_FR_HAUNT_CLEO" hostile="true"/>
+			<ship load="SHIP_FR_REVENANT_CLEO" hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
 					<event load="COMBAT_CHECK"/>
@@ -298,7 +296,7 @@
 	</choice>
 </event>
 
-<event name="FR_HAUNT_CLEO_DEFEAT">
+<event name="FR_REVENANT_CLEO_DEFEAT">
 	<text>The ship crumbles to pieces, with the cargo bay causing almost a hundred drones to tumble out.</text>
 	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
 	<ship hostile="false"/>	
@@ -307,15 +305,15 @@
 		<text>Continue...</text>
 		<event>
 			<text>You wait for a long time, but... Cleo never appears. However, as you rest in your quarters, a small slip of paper ejects itself from the vent cover, with a hastily scribbled note on it. "stay out of the maintenance closet and we won't have a problem"</text>
-			<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_CLEO</unlockCustomShip>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_REVENANT_CLEO</unlockCustomShip>
 		</event>
 	</choice>
 </event>
 
 <!--sixth encounter-->
-<ship name="SHIP_FR_HAUNT_ZULU" auto_blueprint="FR_BOSS_HAUNT_ZULU">
-	<destroyed load="FR_HAUNT_ZULU_DEFEAT"/>
-	<deadCrew load="FR_HAUNT_ZULU_DEFEAT"/>
+<ship name="SHIP_FR_REVENANT_ZULU" auto_blueprint="FR_BOSS_REVENANT_ZULU">
+	<destroyed load="FR_REVENANT_ZULU_DEFEAT"/>
+	<deadCrew load="FR_REVENANT_ZULU_DEFEAT"/>
 	<crew>
 		<crewMember type="lanius" prop="0.40"/>
 		<crewMember type="lanius_welder" prop="0.60"/>
@@ -324,7 +322,7 @@
 
 <event name="FR_TARTARUS_BOUNTIES_6">
 	<text>Before you can even reflect on this jump, or check your bounties, your entire command center is flooded by a golden light, and a Lanius vessel makes itself known. Its hail somehow forces its way into your feed, the usual static of an empty call in Tartarus being replaced with golden religious symbols and frightening imagery flashing in sequence. On the other end of the forced call is a shining, golden Lanius Welder, standing proud like some sort of knight.</text>
-	<ship load="SHIP_FR_HAUNT_ZULU" hostile="false"/>
+	<ship load="SHIP_FR_REVENANT_ZULU" hostile="false"/>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
@@ -340,7 +338,7 @@
 	</choice>
 </event>
 
-<event name="FR_HAUNT_ZULU_DEFEAT">
+<event name="FR_REVENANT_ZULU_DEFEAT">
 	<text>Even though the battle took a few minutes at most, around you it seems as if several eons have passed. Stars have appeared where there were none, and others have transformed into dwarves, nebulas, or vanished entirely.</text>
 	<variable name="loc_fr_bounty_progression" op="add" val="1"/>
 	<autoReward level="HIGH">standard</autoReward>
@@ -362,7 +360,7 @@
 										<text>It would be an honor, Zulu.</text>
 										<event>
 											<text>"Excellent." The Welder nods, their form dissipating as the other souls whisper words of joy around you. "Your final bounty can only be read at the exit... she cannot conceal herself if you're close to her."</text>
-											<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_ZULU</unlockCustomShip>
+											<unlockCustomShip silent="false">PLAYER_SHIP_FR_REVENANT_ZULU</unlockCustomShip>
 										</event>
 									</choice>
 							</event>
@@ -374,9 +372,9 @@
 </event>
 
 <!--Final encounter-->
-<ship name="SHIP_FR_HAUNT_G" auto_blueprint="FR_BOSS_HAUNT_G">
-	<destroyed load="FR_HAUNT_G_DEFEAT"/>
-	<deadCrew load="FR_HAUNT_G_DEFEAT"/>
+<ship name="SHIP_FR_REVENANT_G" auto_blueprint="FR_BOSS_REVENANT_G">
+	<destroyed load="FR_REVENANT_G_DEFEAT"/>
+	<deadCrew load="FR_REVENANT_G_DEFEAT"/>
 	<deathEvent thisFight="true">FR_DEATH_G</deathEvent>
 	<miniBoss sound="victory" musicDelay="-1"/>
 	<crew>
@@ -415,7 +413,7 @@
 
 			"BEG."</text>
 			<changeBackground>FR_SECTOR_G_TARTARUS</changeBackground>
-			<ship load="SHIP_FR_HAUNT_G" hostile="false"/>
+			<ship load="SHIP_FR_REVENANT_G" hostile="false"/>
 				<choice hidden="true">
 					<text>Beg.</text>
 					<event>
@@ -442,7 +440,7 @@
 	</choice>
 </event>
 
-<event name="FR_HAUNT_G_DEFEAT">
+<event name="FR_REVENANT_G_DEFEAT">
 	<text>G's ship fights to the bitter end, and it couldn't have been more of a climactic exit. As you land the final shot to its oddly fragile hull, the chipped, broken cubes collapse into themselves, the entire ship folding into a singularity before exploding in a flash of light that threatens to shred your retinas. By the time the smoke clears, the fragments of her ship are visible again, a million tiny shards of tech you don't recognize. Finally... you've won.</text>
 	<variable name="loc_fr_bounty_progression" op="set" val="10"/>
 	<metaVariable name="prof_fr_bounty_completed" op="set" val="1"/>
@@ -461,7 +459,7 @@
 				<choice hidden="true">
 					<text>Eh, you gave us a lot of scrap. Can't go wrong with that.</text>
 						<event>
-						   <text>The room falls utterly silent. The Haunts all look to each other, then to you, then to G, wanting to speak about this bizarre matter.
+						   <text>The room falls utterly silent. The Revenants all look to each other, then to you, then to G, wanting to speak about this bizarre matter.
 
 							Phys is the first to speak, ever so chipper after you freed her from her pain. "Big cube brought Phys back... Phys happy! Phys very happy, can... can live! Live again!"
 
@@ -482,7 +480,7 @@
 													<text>The cube stares at you, rather shocked and befuddled. "After... after all of this, after eons of what I've done, you... still want to work with me? I'm... impressed. Flabbergasted, even. Well... I'll have an exit plan drawn up in just a moment. Thank you... Captain."</text>
 													<variable name="fr_bounty_completed_mid_run" op="set" val="1"/>
 													<achievement silent="false">ACH_FR_EVENT_TARTARUS</achievement>
-													<unlockCustomShip silent="false">PLAYER_SHIP_FR_HAUNT_G</unlockCustomShip>
+													<unlockCustomShip silent="false">PLAYER_SHIP_FR_REVENANT_G</unlockCustomShip>
 													<jumpEvent>FR_G_SECTOR_SELECT</jumpEvent>
 												</event>
 											</choice>
@@ -495,18 +493,18 @@
 <event name="FR_G_SECTOR_SELECT">
 	<text>You inform G that you are ready, to which she responds by nodding enthusiastically. 
 
-	"Before I followed the dark path of necromancy, I was the Royal Navigator of the Obelisk Empire. I charted out every hyperspace lane, every optimal beacon position, every Multiversal tunnel... I even discovered the cluster phenomenon!" G's pride swells, and she tilts upwards. "My greatest invention, however... was the waystone. A way to reach anywhere, any time, regardless of your fuel, or your FTL drive's capabilities. Sadly, I was dragged into this whole mess before I could inform Queen Y, and only had time to make a single waystone... which I now entrust to you." G places a perfectly cubical device, brimming with fuschia light, into your hands.
+	"Before I followed the dark path of necromancy, I was the Royal Navigator of the Obelisk Empire. I charted out every hyperspace lane, every optimal beacon position, every Multiversal tunnel... I even discovered the cluster phenomenon!" G's pride swells, and she tilts upwards. "My greatest invention, however... was the waystone. A way to reach anywhere, any time, regardless of your fuel, or your FTL drive's capabilities. Sadly, I was dragged into this whole mess before I could inform Queen Y, and only had time to make a single waystone... which I now entrust to you." G places a perfectly cubical device, brimming with fuchsia light, into your hands.
 
 	"This is how we will leave this cursed place. Just set a destination in your navigation system and leave the waystone next to your engines... it'll do all the work for you!"</text>
 	<choice hidden="true">
 		<text>Thank you, G.</text>
 		<event>
 			<text>"Don't worry about it... savior. It's the least I could do."</text>
-			<choice req="fr_haunt_urn_unlocked" lvl="0" max_lvl="0" blue="false" hidden="true">	
+			<choice req="fr_revenant_urn_unlocked" lvl="0" max_lvl="0" blue="false" hidden="true">	
 				<text>Let's get out of here.</text>
-					<event load="FR_HAUNT_URN_GIFT"/>
+					<event load="FR_REVENANT_URN_GIFT"/>
 			</choice>
-			<choice req="fr_haunt_urn_unlocked" lvl="1" blue="false" hidden="true">	
+			<choice req="fr_revenant_urn_unlocked" lvl="1" blue="false" hidden="true">	
 				<text>Let's get out of here.</text>
 					<event load="FR_WEAPON_SELECT_TARTARUS"/>
 			</choice>
@@ -514,7 +512,7 @@
 	</choice>
 </event>
 
-<event name="FR_HAUNT_URN_GIFT">
+<event name="FR_REVENANT_URN_GIFT">
 	<text>As you begin to dial in your destination, G stops you, offering another gift: an urn, painted a bright red with a white, pointed lid.
 	
 	"Savior... hold. I would like to offer you another token of my appreciation. This urn is something I've constructed in my free time, using what I've learned... it can conjure mimicries of the dead, without so much as touching their resting spirits."</text>
@@ -528,7 +526,7 @@
 						<text>G's expression narrows, and she gives you a pat on the back. It's mildly uncomfortable, what with her limbs being cube-shaped.
 						
 						"That's the spirit, savior! Perhaps there are more souls yet to be found amongst the urn's power... though, only time will tell."</text>
-						<metaVariable name="fr_haunt_urn_unlocked" op="set" val="1"/>
+						<metaVariable name="fr_revenant_urn_unlocked" op="set" val="1"/>
 						<achievement silent="false">ACH_FR_EVENT_URN</achievement>
 						<choice blue="false" hidden="true">	
 							<text>Got it.</text>
@@ -628,78 +626,71 @@
 	<choice blue="false" hidden="false">	
 		<text>Pick Slimer.</text>
 		<event>
-			<text>Slimer slides over to you, nodding as he feels the weight of a thousand galaxies lift from his spirit. "It will be an honor to ssssserve you, Captain!"</text>
+			<text>Slimer slides over to you, nodding as he feels the weight of a thousand galaxies lift from his spirit. "It will be an honor to ssssserve you, Captain!"
+
+			(Press the jump button to pick a destination)</text>
 			<crewMember amount="1" class="fr_reborn_slimer" all_skills="2">Slimer</crewMember>
-			<choice blue="false" hidden="true">	
-				<text>Continue...</text>
-					<event load="FR_WAYSTONE_SELECT"/>
-			</choice>
+			<jumpEvent>FR_WAYSTONE_SELECT</jumpEvent>
 		</event>
 	</choice>
 	<choice blue="false" hidden="false">	
 		<text>Pick Phys.</text>
 		<event>
-			<text>Phys bounces up and down as she feels the weight of a thousand galaxies lift from her spirit. "Yay! Friend picked me!"</text>
+			<text>Phys bounces up and down as she feels the weight of a thousand galaxies lift from her spirit. "Yay! Friend picked me!"
+
+			(Press the jump button to pick a destination)</text>
 			<crewMember amount="1" class="fr_reborn_phys" all_skills="2">Phys</crewMember>
-			<choice blue="false" hidden="true">	
-				<text>Continue...</text>
-					<event load="FR_WAYSTONE_SELECT"/>
-			</choice>
+			<jumpEvent>FR_WAYSTONE_SELECT</jumpEvent>
 		</event>
 	</choice>
 	<choice blue="false" hidden="false">	
 		<text>Pick Aleenor.</text>
 		<event>
-			<text>Aleenor bows respectfully as she feels the weight of a thousand galaxies lift from her spirit. "I serve you as I served my Queen in life. To the very end!"</text>
+			<text>Aleenor bows respectfully as she feels the weight of a thousand galaxies lift from her spirit. "I serve you as I served my Queen in life. To the very end!"
+
+			(Press the jump button to pick a destination)</text>
 			<crewMember amount="1" class="fr_reborn_aleenor" all_skills="2">Aleenor</crewMember>
-			<choice blue="false" hidden="true">	
-				<text>Continue...</text>
-					<event load="FR_WAYSTONE_SELECT"/>
-			</choice>
+			<jumpEvent>FR_WAYSTONE_SELECT</jumpEvent>
 		</event>
 	</choice>
 	<choice blue="false" hidden="false">	
 		<text>Pick Vin.</text>
 		<event>
-			<text>Vin simply stares at you for a moment, before shrugging. Even as the weight of a thousand galaxies lifts from his spirit, he doesn't react.</text>
+			<text>Vin simply stares at you for a moment, before shrugging. Even as the weight of a thousand galaxies lifts from his spirit, he doesn't react.
+
+			(Press the jump button to pick a destination)</text>
 			<crewMember amount="1" class="fr_reborn_vin" all_skills="2">Vin</crewMember>
-			<choice blue="false" hidden="true">	
-				<text>Continue...</text>
-					<event load="FR_WAYSTONE_SELECT"/>
-			</choice>
+			<jumpEvent>FR_WAYSTONE_SELECT</jumpEvent>
 		</event>
 	</choice>
 	<choice blue="false" hidden="false">	
 		<text>Pick Cleo.</text>
 		<event>
-			<text>Cleo screeches from the nearby room as he feels the weight of a thousand galaxies lift from his spirit. "Fine. Just... d-don't stand anywhere close to me!"</text>
+			<text>Cleo screeches from the nearby room as he feels the weight of a thousand galaxies lift from his spirit. "Fine. Just... d-don't stand anywhere close to me!"
+
+			(Press the jump button to pick a destination)</text>
 			<crewMember amount="1" class="fr_reborn_cleo">Cleo</crewMember>
-			<choice blue="false" hidden="true">	
-				<text>Continue...</text>
-					<event load="FR_WAYSTONE_SELECT"/>
-			</choice>
+			<jumpEvent>FR_WAYSTONE_SELECT</jumpEvent>
 		</event>
 	</choice>
 	<choice blue="false" hidden="false">	
 		<text>Pick Zulu.</text>
 		<event>
-			<text>Zulu stretches his metallic form as he feels the weight of a thousand galaxies lift from his spirit. "It will be an honor to fight at your side, friend!"</text>
+			<text>Zulu stretches his metallic form as he feels the weight of a thousand galaxies lift from his spirit. "It will be an honor to fight at your side, friend!"
+
+			(Press the jump button to pick a destination)</text>
 			<crewMember amount="1" class="fr_reborn_zulu" all_skills="2">Zulu</crewMember>
-			<choice blue="false" hidden="true">	
-				<text>Continue...</text>
-					<event load="FR_WAYSTONE_SELECT"/>
-			</choice>
+			<jumpEvent>FR_WAYSTONE_SELECT</jumpEvent>
 		</event>
 	</choice>
 	<choice blue="false" hidden="false">	
 		<text>Pick G.</text>
 		<event>
-			<text>G shakes and shudders as she feels the weight of a thousand galaxies lift from her spirit. "You picked me... good choice. I'm sure my physical perfection had sooooomething to do with it..."</text>
+			<text>G shakes and shudders as she feels the weight of a thousand galaxies lift from her spirit. "You picked me... good choice. I'm sure my physical perfection had sooooomething to do with it..."
+
+			(Press the jump button to pick a destination)</text>
 			<crewMember amount="1" class="fr_reborn_g" all_skills="2">G</crewMember>
-			<choice blue="false" hidden="true">	
-				<text>Continue...</text>
-					<event load="FR_WAYSTONE_SELECT"/>
-			</choice>
+			<jumpEvent>FR_WAYSTONE_SELECT</jumpEvent>
 		</event>
 	</choice>
 </event>
@@ -768,7 +759,7 @@
 			</event>
 	</choice>
 	<choice hidden="true">
-		<text>Go to the Ministry Capital.</text> 
+		<text>Go to the Ministry Capitol.</text> 
 			<event>
 				<text>You put the coordinates and allow the waystone to do its thing.</text>
 				<variable name="loc_sector_count" op="add" val="-1"/>
@@ -936,7 +927,7 @@
 			</event>
 	</choice>
 	<choice hidden="true">
-		<text>Go to the Kleptocracy Capital.</text> 
+		<text>Go to the Kleptocracy Capitol.</text> 
 			<event>
 				<text>You put the coordinates and allow the waystone to do its thing.</text>
 				<variable name="loc_sector_count" op="add" val="-1"/>
@@ -984,7 +975,7 @@
 			</event>
 	</choice>
 	<choice hidden="true">
-		<text>Go to the Eargen Capital.</text> 
+		<text>Go to the Eargen Capitol.</text> 
 			<event>
 				<text>You put the coordinates and allow the waystone to do its thing.</text>
 				<variable name="loc_sector_count" op="add" val="-1"/>
@@ -1020,7 +1011,7 @@
 			</event>
 	</choice>
 	<choice hidden="true">
-		<text>Go to the Spectral Capital.</text> 
+		<text>Go to the Spectral Capitol.</text> 
 			<event>
 				<text>You put the coordinates and allow the waystone to do its thing.</text>
 				<variable name="loc_sector_count" op="add" val="-1"/>
@@ -1163,6 +1154,18 @@
 				</choice>
 			</event>
 	</choice>
+	<choice hidden="true" req="prof_went_commonwealth_rift">
+		<text>Go to the Commonwealth Refuge.</text> 
+			<event>
+				<text>You put the coordinates and allow the waystone to do its thing.</text>
+				<variable name="loc_sector_count" op="add" val="-1"/>
+				<replaceSector name="SECRET_FR_COMMONWEALTH">SECTOR_ABANDONED_GENERIC</replaceSector>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event><secretSector>SECRET_FR_COMMONWEALTH</secretSector></event>
+				</choice>
+			</event>
+	</choice>
 	<choice hidden="true" req="FR_REQUIREMENT_POSSIBLE_ANCIENT">
 		<text>Go to the Obelisk Homeworlds.</text> 
 			<event>
@@ -1218,9 +1221,9 @@
 </event>
 
 <!--first encounter-->
-<ship name="SHIP_FR_CHAOS_HAUNT_SMOKE" auto_blueprint="FR_BOSS_CHAOS_HAUNT_SMOKE">
-	<destroyed load="FR_CHAOS_HAUNT_SMOKE_DEFEAT"/>
-	<deadCrew load="FR_CHAOS_HAUNT_SMOKE_DEFEAT"/>
+<ship name="SHIP_FR_CHAOS_REVENANT_SMOKE" auto_blueprint="FR_BOSS_CHAOS_REVENANT_SMOKE">
+	<destroyed load="FR_CHAOS_REVENANT_SMOKE_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_REVENANT_SMOKE_DEFEAT"/>
 	<crew>
 		<crewMember type="crystal" prop="0.40"/>
 		<crewMember type="crystal_sentinel" prop="0.60"/>
@@ -1236,7 +1239,7 @@
         <text>Well... that sounds awfully familiar.</text>
 		<event>
 			<text>You eye the gnome, but it has simply returned to an inert state. Setting it down, you look up to find a huge Crystal ship staring right back at you, your comms filling with demonic whispers and static as its impossible darkness shrouds everything beyond your viewport. The hail it sends is audio-only, but you can hear the distinctive, shimmering voice of a Crystal screaming in pain as the ship raises its weapons. "The... th-the-the... the voices... the VOICES! GET OUT OF MY HEAD!"</text>
-				<ship load="SHIP_FR_CHAOS_HAUNT_SMOKE" hostile="true"/>
+				<ship load="SHIP_FR_CHAOS_REVENANT_SMOKE" hostile="true"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 						<event load="COMBAT_CHECK"/>
@@ -1245,7 +1248,7 @@
 	</choice>
 </event>
 
-<event name="FR_CHAOS_HAUNT_SMOKE_DEFEAT">
+<event name="FR_CHAOS_REVENANT_SMOKE_DEFEAT">
 	<text>The Crystal vessel shatters into a number of sharp pieces, spiraling into the abyss. As you look back down to the Gnome, it has mysteriously turned in the approximate direction of your next target.</text>
 	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
 	<autoReward level="HIGH">standard</autoReward>
@@ -1254,16 +1257,16 @@
 		<event>
 			<text>As you look up, you see Smoke, standing right in front of you. His appearance, though distorted by a spiritual luminescence, is exactly as your entry described. Before you can draw your blaster, he raises his hand, simply wishing to speak.
 
-			"Thank you, kind Renegade. Although I may have... regained my sanity... there are far more dangerous matters to talk about at this moment. If that... that gnome... is really what I think it is, then... you may have caused an irreversible chain of events to start, one which could end all things if allowed to play out, just by bringing it here." Smoke spoke in a soft, gentle tone, helping reassure you of his turn to the light as his form begins to disintegrate into the air. "I will do my best to guide you through this sector, though... I am, sadly, bound from serving directly aboard your craft. I hope you can understand my predicament."</text>
-			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_SMOKE</unlockCustomShip>
+			"Thank you, kind Renegade. Although I may have... regained my sanity... there are far more dangerous matters to talk about at this moment. If that... that gnome... is really what I think it is, then... you may have caused an irreversible chain of events to start, one which could end all things if allowed to play out, just by bringing it here." Smoke spoke in a soft, gentle tone, helping to reassure you of his turn to the light as his form begins to disintegrate into the air. "I will do my best to guide you through this sector, though... I am, sadly, bound from serving directly aboard your craft. I hope you can understand my predicament."</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_SMOKE</unlockCustomShip>
 		</event>
 	</choice>
 </event>
 
 <!--second encounter-->
-<ship name="SHIP_FR_CHAOS_HAUNT_CHILLS" auto_blueprint="FR_BOSS_CHAOS_HAUNT_CHILLS">
-	<destroyed load="FR_CHAOS_HAUNT_CHILLS_DEFEAT"/>
-	<deadCrew load="FR_CHAOS_HAUNT_CHILLS_DEFEAT"/>
+<ship name="SHIP_FR_CHAOS_REVENANT_CHILLS" auto_blueprint="FR_BOSS_CHAOS_REVENANT_CHILLS">
+	<destroyed load="FR_CHAOS_REVENANT_CHILLS_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_REVENANT_CHILLS_DEFEAT"/>
 	<crew>
 		<crewMember type="orchid_cultivator" prop="0.30"/>
 		<crewMember type="fr_snowman_smart" prop="0.70"/>
@@ -1278,7 +1281,7 @@
         <text>Continue...</text>
 		<event>
 			<text>Your short-range sensors suddenly detect the presence of a ship - a Vampweed vessel, completely iced over, its plant components all frozen to death. Chills herself appears on the other end of the viewscreen, shivering. "C-cold... so.. cold... I... I-I, I need heat! Y-... you will do just fine!"</text>
-				<ship load="SHIP_FR_CHAOS_HAUNT_CHILLS" hostile="true"/>
+				<ship load="SHIP_FR_CHAOS_REVENANT_CHILLS" hostile="true"/>
 				<status type="loss" target="enemy" system="oxygen" amount="1"/>
 				<choice hidden="true">
 					<text>Continue...</text>
@@ -1288,7 +1291,7 @@
 	</choice>
 </event>
 
-<event name="FR_CHAOS_HAUNT_CHILLS_DEFEAT">
+<event name="FR_CHAOS_REVENANT_CHILLS_DEFEAT">
 	<text>The ship shudders, cracks, and shatters into a million pieces, something a Vampweed ship definitely should not do. Hopefully, without someone actively gunning for your body heat, you can figure out more about this place.</text>
 	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
 	<autoReward level="HIGH">standard</autoReward>
@@ -1298,15 +1301,15 @@
 			<text>Before you can begin to think, you hear Smoke's voice around the ship. "Hm... I feel a sort of... power. A strange sort of... R-Renegade, watch out, watch out!"
 
 			Chills manifests before you, looking just as shocked as you. Before you can gun her down, she shouted out. "D-don't shoot! I... t-the voices, they're... gone? I... I still feel cold, but... I can... kinda think clearly! I-I'm... sorry, Renegade..." Smoke sighs with exasperation, but Chills perks up for a moment as her form begins to dissipate, melding into the air alongside Smoke's. "Perhaps I could... help you, too? I'll tag along!"</text>
-			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_CHILLS</unlockCustomShip>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_CHILLS</unlockCustomShip>
 		</event>
 	</choice>
 </event>
 
 <!--third encounter-->
-<ship name="SHIP_FR_CHAOS_HAUNT_POK" auto_blueprint="FR_BOSS_CHAOS_HAUNT_POK">
-	<destroyed load="FR_CHAOS_HAUNT_POK_DEFEAT"/>
-	<deadCrew load="FR_CHAOS_HAUNT_POK_DEFEAT"/>
+<ship name="SHIP_FR_CHAOS_REVENANT_POK" auto_blueprint="FR_BOSS_CHAOS_REVENANT_POK">
+	<destroyed load="FR_CHAOS_REVENANT_POK_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_REVENANT_POK_DEFEAT"/>
 	<crew>
 		<crewMember type="LIST_CREW_MORPH_RANDOM_ONLY" prop="0.30"/>
 		<crewMember type="LIST_CREW_TECHNO_RANDOM_ONLY" prop="0.30"/>
@@ -1322,7 +1325,7 @@
         <text>But... how is that possible?</text>
 		<event>
 			<text>You turn to the air, ready to ask Smoke about how it could be possible, but you are interrupted by a gelatinous ship jumping in, likely captained by Pok. You receive no hail, and are instead struck by a pulse of chaotic energy that cripples a few of your ship's systems. What the hell...?</text>
-				<ship load="SHIP_FR_CHAOS_HAUNT_POK" hostile="true"/>
+				<ship load="SHIP_FR_CHAOS_REVENANT_POK" hostile="true"/>
 				<status type="loss" target="player" system="shields" amount="20"/>
 				<status type="limit" target="player" system="cloaking" amount="1"/>
 				<choice hidden="true">
@@ -1333,7 +1336,7 @@
 	</choice>
 </event>
 
-<event name="FR_CHAOS_HAUNT_POK_DEFEAT">
+<event name="FR_CHAOS_REVENANT_POK_DEFEAT">
 	<text>Pok's vessel splatters into a number of purple globs. You pray that this is the last time you'll have to face a ship with a clone cannon - that weapon was outlawed the moment it hit the market.</text>
 	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
 	<autoReward level="HIGH">standard</autoReward>
@@ -1342,18 +1345,18 @@
 		<event>
 			<text>Pok manifests on your bridge almost immediately, much quicker than the other two spectres. They shape their form into a heart, then a copy of your vessel, then a handshake, then finally some sort of weird tripod alien thing, crossed out. You have no idea how a Morph can shape itself so quickly!
 
-			Chills remanifests on your ship, and the blob practically jumps into her arms, cooing softly. Smoke speaks from the background, resolute. "I... guess we can keep this Morph around, then."
+			Chills re-manifests on your ship, and the blob practically jumps into her arms, cooing softly. Smoke speaks from the background, resolute. "I... guess we can keep this Morph around, then."
 			
 			The next bounty seems to warn you that the target will have highly powerful defense drones.</text>
-			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_POK</unlockCustomShip>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_POK</unlockCustomShip>
 		</event>
 	</choice>
 </event>
 
 <!--fourth encounter-->
-<ship name="SHIP_FR_CHAOS_HAUNT_CHARROR" auto_blueprint="FR_BOSS_CHAOS_HAUNT_CHARROR">
-	<destroyed load="FR_CHAOS_HAUNT_CHARROR_DEFEAT"/>
-	<deadCrew load="FR_CHAOS_HAUNT_CHARROR_DEFEAT"/>
+<ship name="SHIP_FR_CHAOS_REVENANT_CHARROR" auto_blueprint="FR_BOSS_CHAOS_REVENANT_CHARROR">
+	<destroyed load="FR_CHAOS_REVENANT_CHARROR_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_REVENANT_CHARROR_DEFEAT"/>
 	<crew>
 		<crewMember type="engi" prop="0.30"/>
 		<crewMember type="engi_separatist" prop="0.30"/>
@@ -1369,7 +1372,7 @@
         <text>Reprogram a Defender? Who could have managed such a feat?</text>
 		<event>
 			<text>Smoke shrugs, just as confused as you are. Before you have time to ponder more, a multicolored Engi ship jumps into the beacon, its mesmerizing display of colors shining across the hull as its lights flicker violently. The ship hails you, revealing a captain whose nanomachines were actively falling apart into a prismatic miasma around their body. Charror tries to speak, but their speech is heavily marred by several error messages and angry screeches. That doesn't matter, though - the ship's guns are hot!</text>
-				<ship load="SHIP_FR_CHAOS_HAUNT_CHARROR" hostile="true"/>
+				<ship load="SHIP_FR_CHAOS_REVENANT_CHARROR" hostile="true"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 						<event load="COMBAT_CHECK"/>
@@ -1378,7 +1381,7 @@
 	</choice>
 </event>
 
-<event name="FR_CHAOS_HAUNT_CHARROR_DEFEAT">
+<event name="FR_CHAOS_REVENANT_CHARROR_DEFEAT">
 	<text>The ship breaks into pieces, its nanomachines losing their color and reverting to their normal, gray tones.</text>
 	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
 	<autoReward level="HIGH">standard</autoReward>
@@ -1388,15 +1391,15 @@
 			<text>The Engi wastes no time appearing before you, barely able to stay stable.
 
 			"Protocol 120: Gratitu-ZzZzZz. Support against [ERROR CODE 0x0004] is required, the SKILLS of this unit can bzZzZzZzZz of use. Unit no longer under [ERROR CODE 0x0004] control, need to honor SAVIOR izZzZz... paramount." The other apparitions just shrug, keeping an eye on Charror as their form melds with the ship.</text>
-			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_CHARROR</unlockCustomShip>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_CHARROR</unlockCustomShip>
 		</event>
 	</choice>
 </event>
 
 <!--fifth encounter-->
-<ship name="SHIP_FR_CHAOS_HAUNT_LEO" auto_blueprint="FR_BOSS_CHAOS_HAUNT_LEO">
-	<destroyed load="FR_CHAOS_HAUNT_LEO_DEFEAT"/>
-	<deadCrew load="FR_CHAOS_HAUNT_LEO_DEFEAT"/>
+<ship name="SHIP_FR_CHAOS_REVENANT_LEO" auto_blueprint="FR_BOSS_CHAOS_REVENANT_LEO">
+	<destroyed load="FR_CHAOS_REVENANT_LEO_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_REVENANT_LEO_DEFEAT"/>
 	<crew>
 		<crewMember type="leech" prop="0.40"/>
 		<crewMember type="leech_ampere" prop="0.60"/>
@@ -1404,14 +1407,14 @@
 </ship>
 
 <event name="FR_TARTARUS_BOUNTIES_CHAOS_5">
-	<text>The next bounty on your list has the shortest entry so far. Leo, a Leech Ampere, was stationed at the boarders of the Eargen Capital, leading a mostly unremarkable existence marked by the occasional battle with pirates or Rebels. One day, however, his life was flipped upside down by a vessel of unknown make and class, rushing towards the center of the system.
+	<text>The next bounty on your list has the shortest entry so far. Leo, a Leech Ampere, was stationed at the boarders of the Eargen Capitol, leading a mostly unremarkable existence marked by the occasional battle with pirates or Rebels. One day, however, his life was flipped upside down by a vessel of unknown make and class, rushing towards the center of the system.
 
 	The fight, according to Eargen intel, lasted less than ten seconds, with the entire crew having been killed in a particularly gruesome fashion. Analysis of biohazardous matter on the walls suggested that most of the crew died because their heads burst, with all of their nerve cells having been charred to a crisp. Leo was reported missing, and the ship immediately vanished following the fight; it is likely he was abducted.</text>
      <choice hidden="true">
         <text>I guess he won't be missing for long.</text>
 		<event>
 			<text>Smoke nods in agreement. Shortly afterwards, a Leech vessel appears in front of you, a brilliant green light radiating from its extremities. No hail, no quarter, it simply raises its weapons and opens fire.</text>
-				<ship load="SHIP_FR_CHAOS_HAUNT_LEO" hostile="true"/>
+				<ship load="SHIP_FR_CHAOS_REVENANT_LEO" hostile="true"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 						<event load="COMBAT_CHECK"/>
@@ -1420,7 +1423,7 @@
 	</choice>
 </event>
 
-<event name="FR_CHAOS_HAUNT_LEO_DEFEAT">
+<event name="FR_CHAOS_REVENANT_LEO_DEFEAT">
 	<text>The lights fade into nonexistence as the ship is torn apart, its careful, curved design destroyed under your might.</text>
 	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
 	<autoReward level="HIGH">standard</autoReward>
@@ -1428,15 +1431,15 @@
 		<text>Continue...</text>
 		<event>
 			<text>The Leech takes a long time to finally manifest before you and the other spectres. Although Leo doesn't speak, you feel a sense of gratitude radiating from him. He simply dissipates into the ship's ambiance, occasionally popping up from place to place in the most well-hidden spots.</text>
-			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_LEO</unlockCustomShip>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_LEO</unlockCustomShip>
 		</event>
 	</choice>
 </event>
 
 <!--sixth encounter-->
-<ship name="SHIP_FR_CHAOS_HAUNT_SEARAK" auto_blueprint="FR_BOSS_CHAOS_HAUNT_SEARAK">
-	<destroyed load="FR_CHAOS_HAUNT_SEARAK_DEFEAT"/>
-	<deadCrew load="FR_CHAOS_HAUNT_SEARAK_DEFEAT"/>
+<ship name="SHIP_FR_CHAOS_REVENANT_SEARAK" auto_blueprint="FR_BOSS_CHAOS_REVENANT_SEARAK">
+	<destroyed load="FR_CHAOS_REVENANT_SEARAK_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_REVENANT_SEARAK_DEFEAT"/>
 	<crew>
 		<crewMember type="zoltan_devotee" prop="0.40"/>
 		<crewMember type="zoltan_martyr" prop="0.60"/>
@@ -1451,7 +1454,7 @@
         <text>A shame we won't ever know the captain's name...</text>
 		<event>
 			<text>Your crew, and the spirits, lower their heads in thought, before a scathing hail makes itself known as a ship powers up its weapons. It's Searak. "I see! The ones the voices warn me of have finally arrived... and not a moment too soon! Brothers, sisters, to arms, to arms!"</text>
-				<ship load="SHIP_FR_CHAOS_HAUNT_SEARAK" hostile="true"/>
+				<ship load="SHIP_FR_CHAOS_REVENANT_SEARAK" hostile="true"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 						<event load="COMBAT_CHECK"/>
@@ -1460,7 +1463,7 @@
 	</choice>
 </event>
 
-<event name="FR_CHAOS_HAUNT_SEARAK_DEFEAT">
+<event name="FR_CHAOS_REVENANT_SEARAK_DEFEAT">
 	<text>The ship, and its unusually powerful clonebay, have finally been rent apart. You turn away from the command console, expecting Searak to make his presence known.</text>
 	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
 	<autoReward level="HIGH">standard</autoReward>
@@ -1468,20 +1471,20 @@
 		<text>Continue...</text>
 		<event>
 			<text>The once-proud Martyr manifests himself in front of you, his pride and vigor taken from him. "...how...? How could I have been so... easy to... manipulate? For all of my life, I... fought for what I thought was right, but... now, all I will ever be remembered as is... a lunatic. And, a traitor." The other apparitions step closer, and Smoke offers a hand to shake, which Searak takes before fading away. "I may not be able to atone, but... the least I can do is help you get through this hellscape."</text>
-			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_SEARAK</unlockCustomShip>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_SEARAK</unlockCustomShip>
 		</event>
 	</choice>
 </event>
 
 <!--auto encounter-->
-<ship name="SHIP_FR_CHAOS_HAUNT_AUTO" auto_blueprint="FR_BOSS_CHAOS_HAUNT_AUTO">
-	<destroyed load="FR_CHAOS_HAUNT_AUTO_DEFEAT"/>
-	<deadCrew load="FR_CHAOS_HAUNT_AUTO_DEFEAT"/>
+<ship name="SHIP_FR_CHAOS_REVENANT_AUTO" auto_blueprint="FR_BOSS_CHAOS_REVENANT_AUTO">
+	<destroyed load="FR_CHAOS_REVENANT_AUTO_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_REVENANT_AUTO_DEFEAT"/>
 </ship>
 
 <event name="FR_TARTARUS_BOUNTIES_CHAOS_AUTO">
-	<text>You wait with anticipation, eager to reveal the final bounty. Before you can pull up the page, however, the file scrambles itself as a... Rebel auto-ship? It appears infront of you, weapons already primed, its sensor cluster glowing an ominous red as its odd, golden stripes glimmer in the light of a nearby star.</text>
-	<ship load="SHIP_FR_CHAOS_HAUNT_AUTO" hostile="false"/>
+	<text>You wait with anticipation, eager to reveal the final bounty. Before you can pull up the page, however, the file scrambles itself as a... Rebel Auto-ship? It appears in front of you, weapons already primed, its sensor cluster glowing an ominous red as its odd, golden stripes glimmer in the light of a nearby star.</text>
+	<ship load="SHIP_FR_CHAOS_REVENANT_AUTO" hostile="false"/>
      <choice hidden="true">
         <text>What the...?</text>
 		<event>
@@ -1497,27 +1500,27 @@
 	</choice>
 </event>
 
-<event name="FR_CHAOS_HAUNT_AUTO_DEFEAT">
-	<text>The auto-ship manages to fight for a couple of minutes, even with a missing aft. As it finally begins to crumble, it desperately charges its FTL Drive in an attempt to escape, but it is stopped in its tracks by a fuel tank ignition that obliterates the entire vessel! Not much scrap is left, but the pieces that are there are chunks of extremely valuable Aether.</text>
+<event name="FR_CHAOS_REVENANT_AUTO_DEFEAT">
+	<text>The Auto-ship manages to fight for a couple of minutes, even with a missing aft. As it finally begins to crumble, it desperately charges its FTL Drive in an attempt to escape, but it is stopped in its tracks by a fuel tank ignition that obliterates the entire vessel! Not much scrap is left, but the pieces that are there are chunks of extremely valuable Aether.</text>
 	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<choice hidden="true">
 		<text>Continue...</text> 
 		<event>
-			<text>A little bit of searching allows you to salvage one item that wasn't broken by the blast: the auto-ship's black box. Charror sets to work decrypting its contents, a task that proves shockingly difficult, but they eventually manage to extract a short video clip.
+			<text>A little bit of searching allows you to salvage one item that wasn't broken by the blast: the Auto-ship's black box. Charror sets to work decrypting its contents, a task that proves shockingly difficult, but they eventually manage to extract a short video clip.
 
 			Everyone crowds around to watch nobody less than Vance Wentworth striking a deal with... something. The pixels around it are so blurry and over-compressed that identification is impossible, but you already know it can't possibly be good if Vance is directly involved. Charror also manages to dig up both the blueprints for a similar Auto-ship and data on an advanced form of emancipation grid similar to the one fielded by your foe!</text>
 			<augment name="FR_ANNIHILATION_GRID_UNLOCKED"/>
-			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_HAUNT_AUTO</unlockCustomShip>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_AUTO</unlockCustomShip>
 			<store>STORE_FR_LEGION_AUTO</store>
 		</event>
 	</choice>
 </event>
 
 <!--Siren encounter-->
-<ship name="SHIP_FR_CHAOS_HAUNT_WATCHER" auto_blueprint="FR_BOSS_CHAOS_HAUNT_WATCHER">
-	<destroyed load="FR_CHAOS_HAUNT_WATCHER_DEFEAT"/>
-	<deadCrew load="FR_CHAOS_HAUNT_WATCHER_DEFEAT"/>
+<ship name="SHIP_FR_CHAOS_REVENANT_WATCHER" auto_blueprint="FR_BOSS_CHAOS_REVENANT_WATCHER">
+	<destroyed load="FR_CHAOS_REVENANT_WATCHER_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_REVENANT_WATCHER_DEFEAT"/>
 	<crew>
 		<crewMember type="siren" prop="0.40"/>
 		<crewMember type="siren_harpy" prop="0.60"/>
@@ -1534,7 +1537,7 @@
 			<text>In front of you stands the gnome... for all of one second, before it teleports away. You look up to the viewport, and immediately look away. Static and dizziness fills your mind, the mere sight of the vessel in front of you making you feel like you want to vomit... and yet, nothing comes up when you begin to dry-heave. The Watcher's eye fills every screen, whispers intruding on every corner of your mind and the minds of everyone aboard, everyone finally knowing what has tormented the ghosts for so long.
 
 				Your final target is truly unlike any other, its form seeming to merge with the space around you. The unearthly roar of their engines echoes through your ship, despite the two of you being in space, but... the Watcher's vessel seems to slow down, instead pointing its weapons at you! Perhaps they want to leave no witnesses, you ponder for a moment, before locking eyes once more with the demonic presence and giving the command to open fire!</text>
-				<ship load="SHIP_FR_CHAOS_HAUNT_WATCHER" hostile="true"/>
+				<ship load="SHIP_FR_CHAOS_REVENANT_WATCHER" hostile="true"/>
 				<playMusic>chaos_fight</playMusic>
 				<choice hidden="true">
 					<text>Continue...</text>
@@ -1548,7 +1551,7 @@
 			<text>In front of you stands the gnome... for all of one second, before it teleports away. You look up to the viewport, and immediately look away. Static and dizziness fills your mind, the mere sight of the vessel in front of you making you feel like you want to vomit... and yet, nothing comes up when you begin to dry-heave. The Watcher's eye fills every screen, whispers intruding on every corner of your mind and the minds of everyone aboard, everyone finally knowing what has tormented the ghosts for so long.
 
 				Your final target is truly unlike any other, its form seeming to merge with the space around you. The unearthly roar of their engines echoes through your ship, despite the two of you being in space, but... the Watcher's vessel seems to slow down, instead pointing its weapons at you! Perhaps they want to leave no witnesses, you ponder for a moment, before locking eyes once more with the demonic presence and giving the command to open fire!</text>
-				<ship load="SHIP_FR_CHAOS_HAUNT_WATCHER" hostile="true"/>
+				<ship load="SHIP_FR_CHAOS_REVENANT_WATCHER" hostile="true"/>
 				<playMusic>chaos_fight</playMusic>
 				<choice hidden="true">
 					<text>Continue...</text>
@@ -1558,7 +1561,7 @@
 	</choice>
 </event>
 
-<event name="FR_CHAOS_HAUNT_WATCHER_DEFEAT">
+<event name="FR_CHAOS_REVENANT_WATCHER_DEFEAT">
 	<text>A massive gash splits across the ship's hull, tendrils of static pouring out of it before the abominable excuse for a space-worthy ship explodes, disintegrating into nothing but dust right in front of your eyes.</text>
 	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
 	<playMusic/>
@@ -1574,11 +1577,11 @@
 </event>
 
 <!--LEGION FLAGSHIP ENCOUNTER-->
-<ship name="SHIP_FR_CHAOS_HAUNT_LEGION_FLAGSHIP" auto_blueprint="FR_BOSS_CHAOS_HAUNT_LEGION_FLAGSHIP">
-	<destroyed load="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_DEFEAT"/>
-	<deadCrew load="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_CREWKILL"/>
+<ship name="SHIP_FR_CHAOS_REVENANT_LEGION_FLAGSHIP" auto_blueprint="FR_BOSS_CHAOS_REVENANT_LEGION_FLAGSHIP">
+	<destroyed load="FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_REVENANT_LEGION_FLAGSHIP_CREWKILL"/>
 	<miniBoss sound="victory" musicDelay="-1"/>
-	<triggeredEvent event="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_CREWKILL" thisFight="true">
+	<triggeredEvent event="FR_CHAOS_REVENANT_LEGION_FLAGSHIP_CREWKILL" thisFight="true">
 		<enemyCrew amount="0" includeClonebay="true"/>
 	</triggeredEvent>
 </ship>
@@ -1603,10 +1606,10 @@
 </event>
 
 <event name="FR_TARTARUS_FINAL_BOSS_CHAOS_TRUE">
-	<text>Although it isn't the absolute assault upon your senses the Watcher was, the vessel which jumps into combat range is no less fearsome. An older model of Rebel Flagship, retrofitted with technology you can barely understand, and painted in the same bizarre colors as the auto-ship you ran into earlier! Hailing you from the bridge is none other than Vance Wentworth, Admiral of the Rebel Fleet.
+	<text>Although it isn't the absolute assault upon your senses the Watcher was, the vessel which jumps into combat range is no less fearsome. An older model of Rebel Flagship, retrofitted with technology you can barely understand, and painted in the same bizarre colors as the Auto-ship you ran into earlier! Hailing you from the bridge is none other than Vance Wentworth, Admiral of the Rebel Fleet.
 
 	"Well, well... if it isn't the little Federation ship that could." Vance hisses, briefly turning and smiling to a bound and gagged individual in the corner flanked by two Rebel soldiers in unidentifiable armor. "After finding out what you did to my little drone, I had a feeling I'd have to do this myself... it seems my business partner was no trouble for you."</text>
-	<ship load="SHIP_FR_CHAOS_HAUNT_LEGION_FLAGSHIP" hostile="false"/>
+	<ship load="SHIP_FR_CHAOS_REVENANT_LEGION_FLAGSHIP" hostile="false"/>
 	<img back="FR_SECTOR_G_TARTARUS" planet="NONE"/>
 	<playMusic>showdown</playMusic>
 	<choice hidden="true">
@@ -1624,16 +1627,16 @@
 	</choice>
 </event>
 
-<event name="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_CREWKILL">
+<event name="FR_CHAOS_REVENANT_LEGION_FLAGSHIP_CREWKILL">
 	<text>You have picked the flagship clean of all of its crew, aside from the restrained man on the bridge. Before you can breathe a sigh of relief, the ship sputters to life, activating an automated setting!</text>
 	<ship hostile="false"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_DEFEAT"/>
+		<event load="FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT"/>
 	</choice>
 </event>
 
-<event name="FR_CHAOS_HAUNT_LEGION_FLAGSHIP_DEFEAT">
+<event name="FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT">
 	<text>At first, it looks like the flagship could never fall. However, a great blast from the center of the vessel instantly proves you wrong. It is instantly consumed in the explosion, sending out a shockwave that nearly tears your own vessel in half!</text>
 	<variable name="loc_fr_bounty_progression_chaos" op="add" val="10"/>
 	<recallBoarders ship="both"/>
@@ -1671,7 +1674,7 @@
 </event>
 
 <event name="FR_VANCE_SECTOR_SELECT">
-	<text>You inform Vance that you are ready to leave. He sighs, handing you a small, floating cube that pulses with fuschia light.
+	<text>You inform Vance that you are ready to leave. He sighs, handing you a small, floating cube that pulses with fuchsia light.
 	
 	"Put this in your engine's fuel tank. Vance-1 probably planned on using this to strike at Universe 0 when he left Tartarus. As far as I know, this is the only tool of its kind that exists... so choose your destination wisely, Renegade."</text>
 	<choice hidden="true">
@@ -1775,7 +1778,7 @@
 		</event>
 	</choice>
 	<choice blue="false" hidden="false">	
-		<text>Pick the auto-ship's laser.</text>
+		<text>Pick the Auto-ship's laser.</text>
 		<event>
 			<text>You are able to snag the odd weapon out of the bunch, the others streaking past your ship and into the star. All hope of retrieving them is lost.</text>
 			<weapon name="FR_LEGION_AUTO_ZENITH"/>
@@ -1864,5 +1867,8 @@
 		<event load="STORAGE_CHECK"/>
 	</choice>
 </event>
+
+
+
 
 </FTL>

@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
-<img x="-12" y="-38" w="599" h="260" />
+<img x="-72" y="-30" w="599" h="260" />
 <offsets>
-	<floor x="6" y="32" />
-	<cloak x="-24" y="8" />
+	<floor x="67" y="24" />
+	<cloak x="-1" y="1" />
 </offsets>
 <weaponMounts>
-	<mount x="570" y="77" rotate="true" mirror="true" gib="-1" slide="right" />
-	<mount x="515" y="50" rotate="true" mirror="true" gib="-1" slide="up" />
-	<mount x="570" y="186" rotate="true" mirror="false" gib="-1" slide="right" />
-	<mount x="515" y="208" rotate="true" mirror="false" gib="-1" slide="down" />
-	<mount x="90" y="117" rotate="true" mirror="false" gib="-1" slide="no" />
+	<mount x="566" y="61" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="566" y="227" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="490" y="29" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="490" y="254" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="488" y="149" rotate="true" mirror="true" gib="-1" slide="no" />
 </weaponMounts>
+
+<mv-hullAnims>
+	<hullAnim x="423" y="68">fr_osmian_black_hole_animation_b</hullAnim>
+</mv-hullAnims>
+
 <explosion />
 

@@ -14,6 +14,24 @@
 	</mod-append:choice>
 </mod:findName>
 
+
+<mod:findName type="event" name="ATLAS_MENU">
+	<mod-append:choice req="SEC SECRET_FR_COMMONWEALTH" blue="false" hidden="true">
+		<text>Proceed to the Commonwealth Sector.</text>
+		<event load="FR_COMMONWEALTH_WARP"/>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="ATLAS_MENU_NOEQUIPMENT">
+	<mod-append:choice req="SEC SECRET_FR_COMMONWEALTH" blue="false" hidden="true">
+		<text>Proceed to the Commonwealth Sector.</text>
+		<event load="FR_COMMONWEALTH_WARP"/>
+	</mod-append:choice>
+</mod:findName>
+
+
+
+
 <!--
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -31,14 +49,14 @@
 	Name: Tartarus
 	Type: Hostile
 	Unique: True
-	Dominant Faction: The Haunts
+	Dominant Faction: The Revenants
 	Rebel Threat Level: None
 	
 	Most of the information on this distant sector is completely blank. All you can make out is a list of bizarre names from the bounty, and a foreboding title offered to the sector: Tartarus. The Spook Chasers told you this stretch of space was home to actual undead, but that can't possibly be true... right?</text>
 	<choice hidden="true">
 		<text>Continue with the jump.</text>
 		<event>
-			<text>You prepare to jump to the new co-ordinates, and change your flight path accordingly.</text>
+			<text>You prepare to jump to the new coordinates, and change your flight path accordingly.</text>
 			<variable name="coords_fr_ghosts" op="set" val="0"/>
 			<variable name="fish_sector" op="set" val="16"/>
 			<choice hidden="true">
@@ -60,14 +78,14 @@
 	Name: Tartarus
 	Type: Hostile
 	Unique: True
-	Dominant Faction: The Haunts
+	Dominant Faction: The Revenants
 	Rebel Threat Level: None
 	
 	Most of the information on this distant sector is completely blank. All you can make out is a list of bizarre names from the bounty, and a foreboding title offered to the sector: Tartarus. The Spook Chasers told you this stretch of space was home to actual undead, but that can't possibly be true... right?</text>
 	<choice hidden="true">
 		<text>Continue with the jump.</text>
 		<event>
-			<text>You prepare to jump to the new co-ordinates, and change your flight path accordingly.</text>
+			<text>You prepare to jump to the new coordinates, and change your flight path accordingly.</text>
 			<variable name="coords_fr_ghosts" op="set" val="0"/>
 			<variable name="loc_laststand" op="add" val="1"/>
 			<variable name="fish_sector" op="set" val="16"/>
@@ -87,6 +105,48 @@
 
 <event name="FR_JUMP_TO_TARTARUS">
 	<secretSector>SECTOR_FR_TARTARUS</secretSector>
+</event>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					COMMONWEALTH
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
+<event name="FR_ENTER_COMMONWEALTH">
+	<text load="TEXT_LIGHTSPEED"/>
+	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="LOAD_ATLAS_MARKER"/>
+	</choice>
+</event>
+<event name="FR_COMMONWEALTH_WARP">
+	<text>Name: ???
+	Type: ???
+	Dominant Faction: ???
+	Rebel Threat Level: ???
+
+	There is no data about the next sector in your Atlas.</text>
+	<variable name="fish_sector" op="set" val="14"/>
+	<choice hidden="true">
+		<text>Exit hyperspeed.</text>
+		<event load="FR_START_BEACON_COMMONWEALTH"/>
+	</choice>
+	<choice hidden="true" req="loc_task_accepted" blue="false">
+		<text>Your connection with C.U.R.A. is currently unavailable.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice hidden="true" req="COORDS" blue="false">
+		<text>You cannot reroute during this jump.</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
 </event>
 
 <!--

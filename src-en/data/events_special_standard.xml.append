@@ -1,0 +1,19 @@
+<FTL>
+<event name="FR_EMPTY_COMMONWEALTH">
+	<text load="FR_EMPTY_COMMONWEALTH" />
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK" />
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event />
+	</choice>
+</event>
+<textList name="FR_EMPTY_COMMONWEALTH">
+	<text planet="FR_PLANET_COMMONWEALTH_TRIO">Three artificial planets, heavily damaged, float in the distance. They are void of a star to orbit, and some day they will crash into each other, but for now this beacon is safe.</text>
+	<text planet="FR_PLANET_COMMONWEALTH">With all the strange events that occurred today, it makes it hard for you to rest even for a moment. Still if you wish to leave the sector, you need all the rest you can get.</text>
+	<text planet="FR_PLANET_COMMONWEALTH_GARUNTEE">A Commonwealth settlement has been established on the nearby artificial planet. It looks very well protected, and you decide it's best to be left alone.</text>
+	<text planet="FR_PLANET_COMMONWEALTH">Not an Commonwealth ship to be seen. You're surprised how busy this sector has been considering the Commonwealth are supposedly close to extinction, but you're happy to take a break.</text>
+</textList>
+</FTL>

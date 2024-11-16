@@ -14,8 +14,6 @@ if not mods.iconsUninstalled then
     mods.iconsUninstalled = {}
 end
 
-
-
 --------------------
 ----DO NOT TOUCH----
 ---- THE BELOW  ----
@@ -80,9 +78,16 @@ if not mods.iconsHooked then
     end, function() end)
 
     script.on_internal_event(Defines.InternalEvents.ON_MOUSE_L_BUTTON_DOWN, function(x, y)
-        if Hyperspace.Global.GetInstance():GetCApp().world.bStartedGame then
+        local cmdGui = Hyperspace.Global.GetInstance():GetCApp().gui
+        if Hyperspace.Global.GetInstance():GetCApp().world.bStartedGame and not (Hyperspace.ships.player.bJumping or cmdGui.event_pause or cmdGui.menu_pause or cmdGui.bPaused or cmdGui.bAutoPaused or cmdGui.touch_pause) then
             local mousePos = Hyperspace.Mouse.position
             for addon, iconTable in pairs(mods.icons) do
+                if iconTable.hover then
+                    local worldManager = Hyperspace.Global.GetInstance():GetCApp().world
+                    Hyperspace.CustomEventsParser.GetInstance():LoadEvent(worldManager, iconTable.event,false,-1)
+                end
+            end
+            for addon, iconTable in pairs(mods.iconsUninstalled) do
                 if iconTable.hover then
                     local worldManager = Hyperspace.Global.GetInstance():GetCApp().world
                     Hyperspace.CustomEventsParser.GetInstance():LoadEvent(worldManager, iconTable.event,false,-1)

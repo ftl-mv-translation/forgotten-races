@@ -1,49 +1,4 @@
 <FTL>
-
-<mod:findName type="event" name="TRUE_VICTORY">
-	<mod-append:choice req="FR_COMMONWEALTHS_BODY" blue="true" hidden="true">
-		<text>Siphon the energy of the the Paragon into the broken down Obelisk.</text>
-		<event>
-			<text>You swiftly get to work by dismantling the Paragon. Inside, you find a small ball of energy that's surprisingly cold to the touch. Figuring this must be the bomb's energy source, you carefully open the top of the broken Obelisk's cube, and gently insert the ball inside of it.</text>
-			<remove name="FR_COMMONWEALTHS_BODY"/>
-			<choice hidden="true">
-				<text>Let's hope this works...</text>
-				<event>
-					<text>The Obelisk's body begins to glow, emitting a luminous hue that could only be described as every possible color, real or imagined, simultaneously. The light becomes blinding, before it is all absorbed into the Obelisk's body, restoring it to a pristine state of being. The Obelisk "wakes up" and looks around, clearly dazed and confused. Meanwhile, the energy ball you extracted flits past you, returning to its home in the weapon of mass destruction you pried it from.</text>
-					<choice hidden="true">
-						<text>Hello?</text>
-						<event>
-							<text>The being jumps back, startled by your presence as it begins to speak in a indecipherable language. The mere sound of their speech splits your ears, and your head, but fades as its translator returns to working order. It then starts to speak to you, their demeanor being rather quick and breathless as they rapidly shift between subjects with very little warning. 
-							
-							"O-Oh d-dear! W-What have we here? A being similar to the crystal-kin, a mortal, similar to them, yet very, very much different. Pardon my loss of composure just now sir, or madam, maybe neither. I apologize if I offended you, as I am in a bit of a daze at the moment since it seems that... my memories seem to have been... purged. Not all of them, just... enough to leave me with no guidance."</text>
-							<choice hidden="true">
-								<text>Who... are you?</text>
-								<event>
-									<text>The being finally pauses as they stare at you, trying to access their memory. "I... can't remember, it seems my name was one of the things wiped from my memory. But names are rather... unnecessary in this context, in fact. As I have been talking to you, my mainframe has been digging through the small bits of information that my sensors managed to pick up since I was... decommissioned. You... you saved me didn't you? I was... broken, beyond repair but you... you brought me back from oblivion. Though, from what I could gather I'm... the only one of my kind alive... aren't I?" 
-									
-									The Obelisk speaks as the reality of their situation slowly dawns on them, their jumpy and confused demeanor suddenly being replaced by a somber and regretful one.</text>
-									<choice hidden="true">
-										<text>Yes I'm... afraid so.</text>
-										<event>
-											<text>The being stays silent for a moment, before they quickly look around for a few seconds and then move straight towards a door in the back of the room. "Then, we have a lot of work to do. This ship was my... old vessel. It may be decrepit and in ruins by now but I... I can bring it back together to its former glory. I may even be able to make some replicas of myself, they might not be like... like others of my kind but... maybe given enough time they can bring the Commonwealth back from extinction. I must... however, make some changes to the treacherous design that the Royals enforced on us. Don't worry about the specifics, just know that we will serve you and whatever cause you fight for from now on!" </text>
-											<unlockCustomShip silent="false">PLAYER_SHIP_FR_COMMONWEALTH</unlockCustomShip>
-											<achievement silent="false">ACH_FR_EVENT_COMMONWEALTH</achievement>
-											<choice hidden="true">
-												<text>We would be honored!</text>
-												<event load="TRUE_VICTORY_LOAD"/>
-											</choice>
-										</event>
-									</choice>
-								</event>
-							</choice>
-						</event>
-					</choice>
-				</event>
-			</choice>
-		</event>
-	</mod-append:choice>
-</mod:findName>
-
 <mod:findName type="event" name="TRUE_VICTORY_CREW">
 	<mod-append:choice hidden="true" req="unique_vance">
 		<text>Ask Vance Prime about this.</text>
@@ -96,7 +51,7 @@
 </mod:findName>
 
 <mod:findName type="event" name="TRUE_VICTORY_CREW_WITHER">
-    <mod-append:unlockCustomShip silent="false">PLAYER_SHIP_FR_WITHER_GUARDIAN</mod-append:unlockCustomShip>
+    <mod-append:unlockCustomShip silent="false">PLAYER_SHIP_FR_ALT_WITHER</mod-append:unlockCustomShip>
 </mod:findName>
 
 <event name="FR_TRUE_VICTORY_CREW_VANCE">
@@ -164,7 +119,7 @@
 </event>
 
 <event name="FR_TRUE_VICTORY_CREW_SNOWMAN">
-	<text>You look at the snowman. For a moment, nothing happens, but soon after a soft smile appears in their "face". A wave a comfort passes over you and you can't help but smile as well.</text>
+	<text>You look at the Snowman. For a moment, nothing happens, but soon after a soft smile appears in their "face". A wave a comfort passes over you and you can't help but smile as well.</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_SNOWMAN</unlockCustomShip>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -173,7 +128,7 @@
 </event>
 
 <event name="FR_TRUE_VICTORY_CREW_LAVAMAN">
-	<text>You look at the lavaman. For a moment, nothing happens, but soon after a soft smile appears in their "face". A wave a comfort passes over you and you can't help but smile as well.</text>
+	<text>You look at the Lavaman. For a moment, nothing happens, but soon after a soft smile appears in their "face". A wave a comfort passes over you and you can't help but smile as well.</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_SNOWMAN_2</unlockCustomShip>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -217,6 +172,10 @@
 		<text>(Tully and Jerry) Hail Vance.</text>
 		<event load="FR_SHOWDOWN_TULLY_AND_JERRY"/>
 	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_y">
+		<text>(Y) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_Y"/>
+	</mod-append:choice>
 </mod:findName>
 
 <mod:findName type="event" name="SHOWDOWN_NORMAL">
@@ -227,6 +186,10 @@
 	<mod-append:choice hidden="true" req="FR_REQUIREMENT_HAS_TULLY_AND_JERRY">
 		<text>(Tully and Jerry) Hail Vance.</text>
 		<event load="FR_SHOWDOWN_TULLY_AND_JERRY"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_y">
+		<text>(Y) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_Y"/>
 	</mod-append:choice>
 </mod:findName>
 
@@ -239,6 +202,10 @@
 		<text>(Tully and Jerry) Hail Vance.</text>
 		<event load="FR_SHOWDOWN_TULLY_AND_JERRY"/>
 	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_y">
+		<text>(Y) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_Y"/>
+	</mod-append:choice>
 </mod:findName>
 
 <mod:findName type="event" name="SHOWDOWN_EXTREME">
@@ -250,7 +217,35 @@
 		<text>(Tully and Jerry) Hail Vance.</text>
 		<event load="FR_SHOWDOWN_TULLY_AND_JERRY"/>
 	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_y">
+		<text>(Y) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_Y"/>
+	</mod-append:choice>
 </mod:findName>
+
+<event name="FR_SHOWDOWN_Y">
+	<text>Vance pauses, and appears on the vidscreen. He stares at the queen, visible confusion plastered on his face.
+	
+	"You...You were supposed to be dead. I shot you an hour ago!"</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Y just laughs in his face. "You mortals are so predictable. Whoever you think you shot clearly wasn't me. No queen worthy of her rank would ever die to the likes of you!"</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>Vance's eye twitches before he suddenly turns off the video call. Y then turns around and returns to her post, clearly proud of what she just did.</text>
+					<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
 
 <mod:findName type="event" name="SHOWDOWN_JERRY">
 	<mod:findLike type="choice">
@@ -319,23 +314,23 @@
 <event name="FR_SHOWDOWN_TULLY_AND_JERRY">
 	<text>Vance pauses, and appears on the vidscreen. Both Tully and Jerry step forwards. Vance stares in utter disbelief, the two most important people in his life standing in front of him. Jerry is the first to speak up.
 	
-	"Uncle... please! I know it's not too late. It's never too late! Put down that bomb, and... and we'll be willing to talk."</text>
+	"Uncle...please! I know it's not too late. It's never too late! Put down that bomb, and...and we'll be willing to talk."</text>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>Vance looks away and closes his eyes. He sighs deeply, speaking in a hushed tone, refusing to look the duo in the eyes. '...no, no! No... it's far too late for that. Jerry... Brodric... I'm sorry.'</text>
+			<text>Vance looks away and closes his eyes. He sighs deeply, speaking in a hushed tone, refusing to look the duo in the eyes. '...no, no! No...it's far too late for that. Jerry...Brodric...I'm sorry.'</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
 					<text>Tully steps in shortly after, nearly filling the screen with his presence. He begins to tear up, a mixture of rage, sadness, and righteous fire filling his eyes.
 					
-					"Vance! For the love of God, stop this madness! You see the death and the misery you've sowed! Trillions, maybe even quadrillions of innocents have died because of the Rebellion - how many more will have to fall before you're finally satisfied!? You may never be able to fully atone for your actions, but... you can still fix your mistakes, leave a positive impact on the Multiverse! I'm here for you. Jerry's here for you. We can help. Please... stand down."</text>
+					"Vance! For the love of God, stop this madness! You see the death and the misery you've sowed! Trillions, maybe even quadrillions of innocents have died because of the Rebellion - how many more will have to fall before you're finally satisfied!? You may never be able to fully atone for your actions, but...you can still fix your mistakes, leave a positive impact on the Multiverse! I'm here for you. Jerry's here for you. We can help. Please...stand down."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
-							<text>Vance is frozen in place. His legendarily stoic demeanor finally seems to break, and the Admiral of the Rebellion begins to tear up. The video feed cuts out as you hear the sound of a teleporter sending someone in... against all odds, you've managed to convince him to hand over the bomb, and he does so without looking anybody in the eyes.
+							<text>Vance is frozen in place. His legendarily stoic demeanor finally seems to break, and the Admiral of the Rebellion begins to tear up. The video feed cuts out as you hear the sound of a teleporter sending someone in...against all odds, you've managed to convince him to hand over the bomb, and he does so without looking anybody in the eyes.
 
-							Jerry opens his arms for a hug, which catches the Admiral off guard. He takes it, simply remaining silent for a few moments, before speaking up. "I-I'm trusting you, Jerry... please, don't let me make another mistake..." Behind him, as he breaks from the embrace, he finds Tully offering him a handshake. After a moment of deliberation, he clasps Tully's hand in his own, ready to make things right.</text>
+							Jerry opens his arms for a hug, which catches the Admiral off guard. He takes it, simply remaining silent for a few moments, before speaking up. "I-I'm trusting you, Jerry...please, don't let me make another mistake..." Behind him, as he breaks from the embrace, he finds Tully offering him a handshake. After a moment of deliberation, he clasps Tully's hand in his own, ready to make things right.</text>
 							<achievement silent="false">ACH_FR_EVENT_VANCE_TRUEEND_SPARE</achievement>
 							<crewMember amount="1" class="unique_vance" all_skills="2">Vance Prime</crewMember>
 							<choice hidden="true">
@@ -355,21 +350,21 @@
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>Tully, Jerry, and Vance Prime collectively drop their jaws in shock at the new sight, the latter speaking up as he desperately tried to teleport back, to no avail. "You... w-what have you done!?" As MFK Aces begin to surround the cloned Vance, saluting, their new leader speaks up. "Kissing the Federation's ass after so long? We don't allow rats like you within our glorious ranks. I may not have your little bomb, but once Universe 1 gets ahold of all of this Obelisk technology, I'm certain we can make something much, muuuuuch worse."</text>
+			<text>Tully, Jerry, and Vance Prime collectively drop their jaws in shock at the new sight, the latter speaking up as he desperately tried to teleport back, to no avail. "You...w-what have you done!?" As MFK Aces begin to surround the cloned Vance, saluting, their new leader speaks up. "Kissing the Federation's ass after so long? We don't allow rats like you within our glorious ranks. I may not have your little bomb, but once Universe 1 gets ahold of all of this Obelisk technology, I'm certain we can make something much, muuuuuch worse."</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>The new Vance's glare narrows to something sharp, hateful, utterly violent. Every word out of his mouth is akin to the venom of a snake, all of his old fire reigniting in a concentrated blaze. "You... you DARE to insult me with THIS!? After everything you, and me, and every other Vance across the Multiverse has done to build a brighter future, you come craaaaawling back to the very same force that crushed your spirit so long ago? And now, you lick their boots, and beg for forgiveness, running away from every responsibility you've ever had, every wonderful opportunity, and leave all of your men without a leader, all of your friends and family without the father and uncle they need!"</text>
+					<text>The new Vance's glare narrows to something sharp, hateful, utterly violent. Every word out of his mouth is akin to the venom of a snake, all of his old fire reigniting in a concentrated blaze. "You...you DARE to insult me with THIS!? After everything you, and me, and every other Vance across the Multiverse has done to build a brighter future, you come craaaaawling back to the very same force that crushed your spirit so long ago? And now, you lick their boots, and beg for forgiveness, running away from every responsibility you've ever had, every wonderful opportunity, and leave all of your men without a leader, all of your friends and family without the father and uncle they need!"</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
-							<text>Jerry tries to speak up, but he's cut off by the clone before he can even say a word. "Oh, don't come crying to me, you spoiled little shit... no family member of mine throws their lot in with the Feds and expects me to think of them as my blood." Tully jumps in, attempting to defend Jerry, but the feed is cut before he can say anything.</text>
+							<text>Jerry tries to speak up, but he's cut off by the clone before he can even say a word. "Oh, don't come crying to me, you spoiled little shit...no family member of mine throws their lot in with the Feds and expects me to think of them as my blood." Tully jumps in, attempting to defend Jerry, but the feed is cut before he can say anything.</text>
 								<choice hidden="true">
 									<text>Continue...</text>
 									<event>
 										<text>Jerry collapses to his knees, shocked and speechless as how easily he was betrayed. "I should have known..." Jerry chokes up a sob, and holds his head in his hands while tears form puddles on the ground. Vance Prime is fuming in the background, exhibiting much the same anger as his clone at being chewed out for going back on his mistakes. He steps over to his nephew...
 										
-										"That scumbag over there is a liar... you're a Wentworth, Jerry, and nothing will ever take that away from you. Certainly not the decree of some Multiversal tyrant." He contains his anger for one moment, offering Jerry a hand.</text>
+										"That scumbag over there is a liar...you're a Wentworth, Jerry, and nothing will ever take that away from you. Certainly not the decree of some Multiversal tyrant." He contains his anger for one moment, offering Jerry a hand.</text>
 										<removeCrew class="unique_jerry">
 											<clone>false</clone>
 											<text>Jerry is still recovering from what happened, but he seems to have gotten an idea.</text>
@@ -508,7 +503,7 @@
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>The new Vance's glare narrows to something sharp, hateful, utterly violent. Every word out of his mouth is akin to the venom of a snake, all of his old fire reigniting in a concentrated blaze. "You... you DARE to insult me with THIS!? After everything you, and me, and every other Vance across the Multiverse has done to build a brighter future, you come craaaaawling back to the very same force that crushed your spirit so long ago? And now, you lick their boots, and beg for forgiveness, running away from every responsibility you've ever had, every wonderful opportunity, and leave all of your men without a leader, all of your friends and family without the father and uncle they need!"</text>
+			<text>The new Vance's glare narrows to something sharp, hateful, utterly violent. Every word out of his mouth is akin to the venom of a snake, all of his old fire reigniting in a concentrated blaze. "You...you DARE to insult me with THIS!? After everything you, and me, and every other Vance across the Multiverse has done to build a brighter future, you come craaaaawling back to the very same force that crushed your spirit so long ago? And now, you lick their boots, and beg for forgiveness, running away from every responsibility you've ever had, every wonderful opportunity, and leave all of your men without a leader, all of your friends and family without the father and uncle they need!"</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
@@ -516,7 +511,7 @@
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
-							<text>The other Vance simply laughs at the threat, triggering the artilleries and the Multiverse drive once more. "Oh, we will see about that... you dirty little rat."</text>
+							<text>The other Vance simply laughs at the threat, triggering the artilleries and the Multiverse drive once more. "Oh, we will see about that...you dirty little rat."</text>
 							<achievement silent="false">ACH_FR_EVENT_VANCE_TRUEEND</achievement>
 							<ship hostile="true"/>
 							<choice hidden="true">

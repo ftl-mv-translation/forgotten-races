@@ -5,10 +5,787 @@
 <!--
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					SYLVAN
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
+<event name="FR_SYLVAN_COMMONWEALTH_SPAWNER">
+	<preventQuest/>
+	<runFromFleet closest="true"/>
+	<preventBossFleet forever="true"/>
+	<beaconType id="map_icon_merchant" global="true" req="SYLVAN_BEACON_CHECK">
+		<color r="155" g="90" b="205" a="1.0"/>
+		<unvisitedTooltip>This is the location of the Traveling Merchant.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+	</beaconType>
+	<loadEventList seeded="false" first="true" generate="false">
+		<event name="FR_NEUTRAL_COMMONWEALTH" req="loc_sylvankilled"/>
+		<event name="FR_NEUTRAL_COMMONWEALTH" req="quarantine"/>
+		<event name="GNOME_HATER" req="chaos_mode"/>
+		<event name="SYLVAN_SPAWNER_EXTREME" req="challenge_level" lvl="3" max_lvl="3"/>
+		<event name="SYLVAN_SPAWNER_CHALLENGE" req="challenge_level" lvl="2" max_lvl="2"/>
+		<event name="SYLVAN_SPAWNER_NORMAL" req="challenge_level" lvl="1" max_lvl="1"/>
+		<event name="SYLVAN_SPAWNER_CASUAL" req="challenge_level" lvl="0" max_lvl="0"/>
+	</loadEventList>
+</event>
+
+<mod:findName type="event" name="SYLVAN_LOADER">
+    <mod:findLike type="loadEventList">
+		<mod-append:event name="FR_SYLVAN_COMMONWEALTH_LOADER" req="SEC SECRET_FR_COMMONWEALTH" lvl="1"/>
+    </mod:findLike>
+</mod:findName>
+
+<event name="FR_SYLVAN_COMMONWEALTH_LOADER">
+	<loadEventList seeded="false" first="false" default="FR_SYLVAN_COMMONWEALTH">
+		<event name="SYLVAN_ATTACKED" req="loc_sylvanattacked"/>
+		<event name="SYLVAN_BETRAYED" req="loc_sylvanbetrayed"/>
+	</loadEventList> 
+</event> 
+
+<event name="FR_SYLVAN_COMMONWEALTH">
+	<text>"Ssstranger, Ssstranger! Now thisss isss a ssstrange place to find each other in, eh? Thossse cube people ssseem sssurprisssingly friendly asss well. I actually came here to help you out in your missssion, can't let my mossst valuable cussstomer die on me, can I? Though, I'm afraid we might only have a sssingle ssshot at leaving thisss place, ssso how about I join your crew for the time being? After we do our ussssual trading of courssse."</text>
+	<ship load="SHIP_TRAVELING_MERCHANT_CHALLENGE" hostile="false"/>
+	<choice hidden="true" req="unique_sylvan" max_group="0">
+		<text>(Sylvan) Use Sylvan to hail Sylvan.</text>
+		<event>
+			<text>"I ssssee you are not the ssstranger but rather me, me. I'm afraid no dissscountsss though. There's an infinite me'sss and I can't go giving all of them free ssscrap! Heheh... heh... You sssshould know thisss."</text>
+			<achievement>ACH_SYLVAN_SELF</achievement>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="unique_guntput">
+		<text>(Guntput) Guntput wishes to speak to Sylvan.</text>
+		<event>
+			<text>When Sylvan sees Guntput, he gulps but stays silent. Guntput frowns, "Stupid Slug man! You hide in big ship but send Renegade to help us? Where were you when Anurak murdered, or when Hektar returns? Nowhere, as I saw! Some hero you are, you are coward! Greedy corrupt Slug like all the others, and with less excuse too!" Guntput spits, just for good measure.</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>You expect Sylvan to retort, but instead he just chuckles uncomfortably. "Well Guntput, I'm glad you're alive at leasssst. Heh..." Sylvan falls silent for a moment. "Well, would you ssstill care to trade sssstranger? Thossse goodsss won't sssell themsssselvesss you know."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<loadEvent>FR_SYLVAN_COMMONWEALTH</loadEvent>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>See what he's offering.</text>
+		<event load="FR_SYLVAN_TRADE_COMMONWEALTH"/>
+	</choice>
+	<choice hidden="true" req="pilot" lvl="1" max_group="2" blue="false">
+		<text>Sell some resources first.</text>
+		<event load="FR_SYLVAN_COMMONWEALTH_CONVERT_MENU"/>
+	</choice>
+
+	<choice hidden="true" req="fr_loc_cylvan_quest" lvl="0" max_lvl="0" max_group="3" blue="true">
+		<text>Sylvan has a story he wants to tell.</text>
+		<event load="FR_SYLVAN_CYLVAN_STORY"/>
+	</choice>
+	
+	<choice hidden="true" req="pilot" lvl="1" max_group="4" blue="false">
+		<text>Attack!</text>
+		<event load="FR_SYLVAN_COMMONWEALTH_ATTACK"/>
+	</choice>
+	<choice hidden="true" req="pilot" lvl="1" max_group="5" blue="false">
+		<text>Decline his offer.</text>
+		<event>
+			<text>"Maybe a different time then, ssstranger! I'm certain thisss won't be the lassst we sssee each other, in thisss reality or another."</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_SYLVAN_CYLVAN_STORY">
+	<text>"Ssstranger! While I made myssself acquainted with thisss sssector I came acrossss sssomething very unexpected, another Sssylvan already made thisss place their home! Not only that, it ssseemsss that they befriended the Obelisssksss living here, to the point they gave him hisss own unique cruissser!"
+
+	"Now, He told me that he wasss being tracked by sssome very powerful Autosss. He refusssed to tell me why they were after him, but whatever the reassson, I sssussspect our interference with thisss sssector might have caussse whoever sssent thossse Autosss to want to take advantage of the commotion. We ssshould go check up on him once we are done trading."
+	</text>
+	<choice hidden="true">
+		<text>Sure.</text>
+		<event>
+			<text>"Thank you, Ssstranger, now, care for some trading?"</text>
+			<achievement>ACH_SYLVAN_STORY</achievement>
+			<quest event="FR_SYLVAN_COMMONWEALTH_CYLVAN"/>
+			<variable name="fr_loc_cylvan_quest" op="set" val="1"/>
+			<choice>
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Decline.</text>
+		<event>
+			<text>"That'ssss alright, ssstranger. At leassst you ssseem confident in your ssship!"</text>
+			<choice>
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_SYLVAN_TRADE_COMMONWEALTH">
+	<text>"Aaaaah. Ssstranger ssstranger, before I found myself stuck in this strange place I made sure to stock up on all the valuable aether weapons I could fine, take a look."</text>
+	<crewMember amount="1" class="unique_sylvan">Sylvan</crewMember>
+	<store>FR_STORE_SYLVAN_COMMONWEALTH</store>
+</event>
+
+<event name="FR_SYLVAN_COMMONWEALTH_ATTACK">
+	<text>For some insane reason, you have decided to attack the traveling merchant. Are you REALLY sure you want to do this? This might be the strongest enemy you'll ever face, so you better be prepared if you're going to take him on.</text>
+	<choice hidden="true" blue="false" req="challenge_level" lvl="0" max_lvl="0">
+		<text>Yes!</text>
+		<event>
+			<text>You raise your weapons against Sylvan, ready to battle. "Ssstranger, ssso it'sss come to thisss? A true ssshame... and to think I thought we could be friendsss..."</text>
+			<playMusic>sylvan</playMusic>
+			<variable name="loc_sylvanattacked" op="set" val="1"/>
+			<deathEvent thisFight="true">DEATH_TO_SYLVAN</deathEvent>
+			<boarders min="3" max="3" class="slug_clansman"/>
+			<triggeredEvent event="STOP_MUSIC" jumps="1"/>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" blue="false" req="challenge_level" lvl="1" max_lvl="1">
+		<text>Yes!</text>
+		<event>
+			<text>You raise your weapons against Sylvan, ready to battle. "Ssstranger, ssso it'sss come to thisss? A true ssshame... and to think I thought we could be friendsss..."</text>
+			<playMusic>sylvan</playMusic>
+			<variable name="loc_sylvanattacked" op="set" val="1"/>
+			<deathEvent thisFight="true">DEATH_TO_SYLVAN</deathEvent>
+			<boarders min="3" max="3" class="slug_clansman"/>
+			<triggeredEvent event="STOP_MUSIC" jumps="1"/>
+			<triggeredEvent event="SHIELD_SURGE_SYLVAN" seeded="false" loops="999999999" thisFight="true" minTime="60.0" maxTime="60.0">
+				<warningMessage id="warning_shield_surge_player" x="692" y="84" time="5.0" centerText="true" flash="true" sound="surgeWarning" useWarningLine="true"/>
+				<triggeredEventBox load="DEFAULT_SMALL" pos="combat">
+					<warning time="10.0" flash="true"/>
+					<tooltip>Sylvan's shields will regenerate in this long.</tooltip>
+				</triggeredEventBox>
+			</triggeredEvent>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" blue="false" req="challenge_level" lvl="2" max_lvl="2">
+		<text>Yes!</text>
+		<event>
+			<text>You raise your weapons against Sylvan, ready to battle. "Ssstranger, ssso it'sss come to thisss? A true ssshame... and to think I thought we could be friendsss..."</text>
+			<playMusic>sylvan</playMusic>
+			<variable name="loc_sylvanattacked" op="set" val="1"/>
+			<deathEvent thisFight="true">DEATH_TO_SYLVAN</deathEvent>
+			<boarders min="3" max="3" class="slug_clansman"/>
+			<triggeredEvent event="STOP_MUSIC" jumps="1"/>
+			<triggeredEvent event="SHIELD_SURGE_SYLVAN" seeded="false" loops="999999999" thisFight="true" minTime="45.0" maxTime="45.0">
+				<warningMessage id="warning_shield_surge_player" x="692" y="84" time="5.0" centerText="true" flash="true" sound="surgeWarning" useWarningLine="true"/>
+				<triggeredEventBox load="DEFAULT_SMALL" pos="combat">
+					<warning time="10.0" flash="true"/>
+					<tooltip>Sylvan's shields will regenerate in this long.</tooltip>
+				</triggeredEventBox>
+			</triggeredEvent>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" blue="false" req="challenge_level" lvl="3" max_lvl="3">
+		<text>Yes!</text>
+		<event>
+			<text>You raise your weapons against Sylvan, ready to battle. "Ssstranger, ssso it'sss come to thisss? A true ssshame... and to think I thought we could be friendsss..."</text>
+			<playMusic>sylvan</playMusic>
+			<variable name="loc_sylvanattacked" op="set" val="1"/>
+			<deathEvent thisFight="true">DEATH_TO_SYLVAN</deathEvent>
+			<boarders min="3" max="3" class="slug_clansman"/>
+			<triggeredEvent event="STOP_MUSIC" jumps="1"/>
+			<triggeredEvent event="SHIELD_SURGE_SYLVAN" seeded="false" loops="999999999" thisFight="true" minTime="30.0" maxTime="30.0">
+				<warningMessage id="warning_shield_surge_player" x="692" y="84" time="5.0" centerText="true" flash="true" sound="surgeWarning" useWarningLine="true"/>
+				<triggeredEventBox load="DEFAULT_SMALL" pos="combat">
+					<warning time="10.0" flash="true"/>
+					<tooltip>Sylvan's shields will regenerate in this long.</tooltip>
+				</triggeredEventBox>
+			</triggeredEvent>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>This is a horrible idea. Go back!</text>
+		<event>
+			<text>Sylvan gazes at you strangely, but says nothing, waiting for what you'll say next.</text>
+			<choice hidden="true">
+				<text>See what he's offering.</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text>Sell some resources first.</text>
+				<event load="FR_SYLVAN_COMMONWEALTH_CONVERT_MENU"/>
+			</choice>
+			<choice hidden="true">
+				<text>Decline his offer.</text>
+				<event>
+					<text>"Maybe a different time then, ssstranger! I'm certain thisss won't be the lassst we sssee each other, in thisss reality or another."</text>
+					<choice>
+						<text>Do something onboard the ship.</text>
+						<event load="STORAGE_CHECK"/>
+					</choice>
+					<choice>
+						<text>Do nothing.</text>
+						<event/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event> 
+
+<event name="FR_SYLVAN_COMMONWEALTH_CONVERT_MENU">
+	<text>"Low on sssscrap, sstranger? High on resssourcesss? Well lucky for you ssstranger, I can take care of that!"</text>
+	<choice hidden="true" req="pilot" lvl="1" max_group="0" blue="false">
+		<text>Sell some fuel.</text>
+		<event load="FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL"/>
+	</choice>
+	<choice hidden="true" req="pilot" lvl="1" max_group="1" blue="false">
+		<text>Sell some ammunition.</text>
+		<event load="FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO"/>
+	</choice>
+	<choice hidden="true" req="pilot" lvl="1" max_group="2" blue="false">
+		<text>Sell some drone parts.</text>
+		<event load="FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES"/>
+	</choice>
+	<choice hidden="true" req="loc_sector_count" lvl="1" max_group="3" blue="false">
+		<text>Nevermind.</text>
+		<event>
+			<loadEvent>FR_SYLVAN_COMMONWEALTH</loadEvent>
+		</event>
+	</choice>
+</event> 
+
+<event name="FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL">
+	<text>"Fuel! Heh heh, can never have enough. But I'll take sssome off of your hands, if you desssire."</text>
+	<!--5-->
+	<choice req="challenge_level" lvl="0" max_lvl="2" blue="false" max_group="0">
+		<text>Sell 5 fuel.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="fuel" min="-5" max="-5"/>
+				<item type="scrap" min="10" max="10"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="challenge_level" lvl="3" blue="false" max_group="0">
+		<text>Sell 5 fuel.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="fuel" min="-5" max="-5"/>
+				<item type="scrap" min="7" max="7"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<!--10-->
+	<choice req="challenge_level" lvl="0" max_lvl="2" blue="false" max_group="1">
+		<text>Sell 10 fuel.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="fuel" min="-10" max="-10"/>
+				<item type="scrap" min="20" max="20"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="challenge_level" lvl="3" blue="false" max_group="1">
+		<text>Sell 10 fuel.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="fuel" min="-10" max="-10"/>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<!--15-->
+	<choice req="challenge_level" lvl="0" max_lvl="2" blue="false" max_group="2">
+		<text>Sell 15 fuel.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="fuel" min="-15" max="-15"/>
+				<item type="scrap" min="30" max="30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="challenge_level" lvl="3" blue="false" max_group="2">
+		<text>Sell 15 fuel.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="fuel" min="-15" max="-15"/>
+				<item type="scrap" min="22" max="22"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<!--nevermind-->
+	<choice hidden="true" max_group="3">
+		<text>Nevermind.</text>
+		<event>
+			<loadEvent>FR_SYLVAN_COMMONWEALTH</loadEvent>
+		</event>
+	</choice>
+</event> 
+<event name="FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO">
+	<text>"Missiles! Crucial for any heavy payload, but if you find yourssself with more than you can handle ssstranger, I'll gladly buy sssome off of you."</text>
+	<!--5-->
+	<choice req="challenge_level" lvl="0" max_lvl="2" blue="false" max_group="0">
+		<text>Sell 5 missiles.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="missiles" min="-5" max="-5"/>
+				<item type="scrap" min="15" max="15"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="challenge_level" lvl="3" blue="false" max_group="0">
+		<text>Sell 5 missiles.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="missiles" min="-5" max="-5"/>
+				<item type="scrap" min="11" max="11"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<!--10-->
+	<choice req="challenge_level" lvl="0" max_lvl="2" blue="false" max_group="1">
+		<text>Sell 10 missiles.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="missiles" min="-10" max="-10"/>
+				<item type="scrap" min="30" max="30"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="challenge_level" lvl="3" blue="false" max_group="1">
+		<text>Sell 10 missiles.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="missiles" min="-10" max="-10"/>
+				<item type="scrap" min="22" max="22"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<!--15-->
+	<choice req="challenge_level" lvl="0" max_lvl="2" blue="false" max_group="2">
+		<text>Sell 15 missiles.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="missiles" min="-15" max="-15"/>
+				<item type="scrap" min="45" max="45"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="challenge_level" lvl="3" blue="false" max_group="2">
+		<text>Sell 15 missiles.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="missiles" min="-15" max="-15"/>
+				<item type="scrap" min="33" max="33"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<!--nevermind-->
+	<choice hidden="true" max_group="3">
+		<text>Nevermind.</text>
+		<event>
+			<loadEvent>FR_SYLVAN_COMMONWEALTH</loadEvent>
+		</event>
+	</choice>
+</event> 
+<event name="FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES">
+	<text>"Drone partsss! If you find yourssself with too many partsss and not enough usssesss for them, I think I can sssolve your problemsss..."</text>
+	<!--5-->
+	<choice req="challenge_level" lvl="0" max_lvl="2" blue="false" max_group="0">
+		<text>Sell 5 parts.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="drones" min="-5" max="-5"/>
+				<item type="scrap" min="25" max="25"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="challenge_level" lvl="3" blue="false" max_group="0">
+		<text>Sell 5 parts.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="drones" min="-5" max="-5"/>
+				<item type="scrap" min="20" max="20"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<!--10-->
+	<choice req="challenge_level" lvl="0" max_lvl="2" blue="false" max_group="1">
+		<text>Sell 10 parts.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="drones" min="-10" max="-10"/>
+				<item type="scrap" min="50" max="50"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="challenge_level" lvl="3" blue="false" max_group="1">
+		<text>Sell 10 parts.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="drones" min="-10" max="-10"/>
+				<item type="scrap" min="40" max="40"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<!--15-->
+	<choice req="challenge_level" lvl="0" max_lvl="2" blue="false" max_group="2">
+		<text>Sell 15 parts.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="drones" min="-15" max="-15"/>
+				<item type="scrap" min="75" max="75"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice req="challenge_level" lvl="3" blue="false" max_group="2">
+		<text>Sell 15 parts.</text>
+		<event>
+			<text>"Another day, another profit for both of ussss, eh ssstranger?"</text>
+			<disableScrapAugments/>
+			<item_modify>
+				<item type="drones" min="-15" max="-15"/>
+				<item type="scrap" min="60" max="60"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<loadEvent>FR_SYLVAN_TRADE_COMMONWEALTH</loadEvent>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<!--nevermind-->
+	<choice hidden="true" max_group="3">
+		<text>Nevermind.</text>
+		<event>
+			<loadEvent>FR_SYLVAN_COMMONWEALTH</loadEvent>
+		</event>
+	</choice>
+</event> 
+
+<event name="FR_SYLVAN_COMMONWEALTH_CYLVAN" unique="true">
+	<preventQuest/>
+	<preventFleet/>
+	<nebulaBeacon>true</nebulaBeacon>
+	<createNebula>false</createNebula>
+    <beaconType id="map_icon_quest" global="true">
+        <color r="155" g="90" b="205" a="1.0"/>
+        <unvisitedTooltip>This is the location of a quest from the Traveling Merchant.</unvisitedTooltip>
+        <visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+    </beaconType>
+	<text>You've arrived at the coordinates Sylvan gave. In the distance you can see a two ships in the middle of an intense dogfight. You see both the Obelisk ship your Sylvan talked about as well as a strange Auto-ship that seems heavily well armed.</text>
+	<img planet="FR_PLANET_COMMONWEALTH"/>
+	<choice hidden="true">
+		<text>Attack the Auto!</text>
+		<event>
+			<text>You aim carefully and hit auto's piloting engines, disabling it for the fight!</text>
+			<ship load="SHIP_FR_CYLVAN_CEL_PROBE" hostile="true"/>
+			<status type="loss" target="enemy" system="engines" amount="10"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Attack Sylvan!</text>
+		<event>
+			<text>The Commonwealth Sylvan is caught off guard by your first try, you manage to hit their engines and force them to run at half power for the fight.</text>
+			<status type="loss" target="enemy" system="engines" amount="4"/>
+			<playMusic>sylvan</playMusic>
+			<deathEvent thisFight="true">DEATH_TO_SYLVAN</deathEvent>
+			<triggeredEvent event="STOP_MUSIC" jumps="1" />
+			<jumpEvent>FR_CYLVAN_RUN</jumpEvent>
+			<boarders min="3" max="3" class="fr_proto_cognitive"/>
+			<ship load="SHIP_FR_CYLVAN" hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>We can't be the only ones looking for this. Leave.</text>
+		<event>
+			<text>You might never see that tech that Sylvan promised, but it's better than being dead.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CYLVAN_RUN">
+	<text>"You think you can jussst run away after what you have done?! Nonono! You will finisssh this!"</text>
+	<achievement>ACH_SYLVAN_RUN</achievement>
+	<damage amount="2" system="engines" effect="fire"/>
+	<damage amount="3" system="engines" effect="fire"/>
+	<resetFtl/>
+</event> 
+
+
+<event name="FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_MORAL_CHECK">
+	<loadEventList seeded="false" first="false" generate="true">
+		<event name="FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_FRIEND" req="fr_rep_commonwealth" lvl="-999" max_lvl="-1"/>
+		<event name="FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_NEUTRAL" req="fr_rep_commonwealth" lvl="0" max_lvl="2"/>
+		<event name="FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_ENEMY" req="fr_rep_commonwealth" lvl="3" max_lvl="999"/>
+	</loadEventList>
+</event>
+
+<event name="FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_FRIEND">
+	<text>The Sylvan is overjoyed to see you "Ssstranger! It makes me so happy to see that the ally of my people was the one to save me! That probe was much tougher than I expected, when I saw it attacking one of my people I...I couldn't just sit there and watch, you know?" 
+		
+	"But that's in the past, right ssstranger? I suppose I can't hide here forever, I know you want to escape this place, so let me join your crew, it's the least I can do. While you are at it, you might as well have the blueprints for my ship, it served me well and so it will serve you well as well."</text>
+	<crewMember amount="1" all_skills="2" class="fr_unique_cylvan">Cylvan</crewMember>
+	<autoReward level="HIGH">standard</autoReward>
+	<achievement>ACH_FR_EVENT_CYLVAN</achievement>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_DESERTER_SYLVAN</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+	</choice>
+</event>
+
+<event name="FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_NEUTRAL">
+	<text>The Sylvan is relieved to see you "Ssstranger! Thank you for putting your life on the line to save me! That probe was much tougher than I expected, when I saw it attacking one of my people I...I couldn't just sit there and watch, you know?" 
+		
+	"But that's in the past, right ssstranger? I suppose you might as well have the blueprints for my ship, you earned it after all."</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_DESERTER_SYLVAN</unlockCustomShip>
+	<achievement>ACH_FR_EVENT_CYLVAN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+	</choice>
+</event>
+
+<event name="FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_ENEMY">
+	<text>Strangely Sylvan doesn't say anything, instead he beams what seems to be the blueprints for his ship and a present. Your sensors can detect it's a bomb and so you nearly avoid a disaster. It makes sense, he must not be happy about all the Commonwealths you killed.</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_DESERTER_SYLVAN</unlockCustomShip>
+	<achievement>ACH_FR_EVENT_CYLVAN</achievement>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+	</choice>
+</event>
+
+<event name="FR_SYLVAN_COMMONWEALTH_CYLVAN_DEFEAT">
+	<text>Cylvan's hull finally breaks apart; even aether hulls can't take punishment forever, as you know well by now. Strangely, you are hailed by the Auto-ship you were sent here to kill. It's badly damaged enough that its ship recognition systems seem to be completely broken, as it thinks you are another member of whatever faction it belongs to. 
+		
+	"Continuity has been enforced thanks to: you. Please accept this as a reward and return this package back to Prime." The auto ship transfers over a strange and powerful weapon as well as the blueprints to a cruiser sized auto ship!</text>
+	<weapon name="FR_LIST_ENEMY_WEAPONS_CEL"/>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_CEL_AUTO</unlockCustomShip>
+	<clearJumpEvent/>
+	<clearTriggeredEvent name="FR_CYLVAN_RUN" />
+	<playMusic />
+	<metaVariable name="juke_sylvan" op="set" val="1" />
+	<clearTriggeredEvent name="STOP_MUSIC" />
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_NEGATIVE_SEVERE_COMMONWEALTH"/>
+	</choice>
+</event>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 					LEAH
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->	
+
+<mod:findName type="event" name="NEMESIS">
+	<mod-append:choice hidden="true" req="FR_LIST_CREW_LEAH" blue="true">
+		<text>(Leah) "You aren't the beam master, I am!".</text>
+		<event>
+			<text>The other Leah's eyes widen before she narrows them, a grin spreading across her face "So it is true, the federation managed to convince some other me to join them, I have no clue how you managed to do that, beyatch, but this universe isn't big enough for two Leahs. Get ready to be beamed, beyatch!"</text>
+			<choice hidden="true">
+				<text>Here we go again.</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+</mod:findName>
 
 <mod:findName type="event" name="SYLVAN_ROYAL_NORMAL">
 	<mod:findLike type="choice">
@@ -73,7 +850,7 @@
 <event name="FR_LEAH_JERRY_ROYAL">
 	<text>Leah is taken aback at the sight of Jerry aboard your ship. "Jerry?! What are you doing here?! There's no way Vance would ever let you be somewhere so dangerous!"
 
-		Jerry sighed. "It's... a long, long story. Look, Leah. This whole operation my uncle's doing is... a giant mistake. There's no way this will end well. I know how persistent you can be, such determination shouldn't be thrown away on some terrible, doomed plan! What if... you joined us instead?"</text>
+		Jerry sighed. "It's... a long, long story. Look, Leah. This whole operation my uncle's doing is... a giant mistake. There's no way this will end well. I know how persistent you can be - such determination shouldn't be thrown away on some terrible, doomed plan! What if... you joined us instead?"</text>
 		<choice hidden="true" blue="false">
 			<text>Continue...</text> 
 			<event>
@@ -92,7 +869,7 @@
 <event name="FR_LEAH_JERRY_ROYAL_DEAD">
 	<text>Leah is taken aback at the sight of Jerry aboard your ship. "Jerry?! What are you doing here?! There's no way Vance would ever let you be somewhere so dangerous!"
 
-		Jerry sighed. "It's... a long, long story. Look, Leah. This whole operation my uncle's doing is... a giant mistake. There's no way this will end well. I know how persistent you can be, such determination shouldn't be thrown away on some terrible, doomed plan! What if... you joined us instead?"</text>
+		Jerry sighed. "It's... a long, long story. Look, Leah. This whole operation my uncle's doing is... a giant mistake. There's no way this will end well. I know how persistent you can be - such determination shouldn't be thrown away on some terrible, doomed plan! What if... you joined us instead?"</text>
 		<choice hidden="true" blue="false">
 			<text>Continue...</text> 
 			<event>
@@ -105,7 +882,7 @@
 </event>
 
 <event name="FR_SYLVAN_INJURED">
-	<text>"Oh, right! That little slug boy put up quite the fight, though... I'm not sure why he'd shut off his shields for the fight." You glare at Leah, unsure what to say about her comment, before turning to Sylvan's chest.</text>
+	<text>"Oh, right! That little Slug boy put up quite the fight, though... I'm not sure why he'd shut off his shields for the fight." You glare at Leah, unsure what to say about her comment, before turning to Sylvan's chest.</text>
 	<achievement silent="false">ACH_FR_EVENT_LEAH_RECRUIT</achievement>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<unlockCustomShip silent="false">PLAYER_SHIP_SYLVAN</unlockCustomShip>
@@ -123,11 +900,11 @@
 			<choice hidden="true" req="unique_obyn">
 				<text>(Obyn) "My dearest Sylvan!"</text>
 				<event>
-					<text>"You weren't wrong Obyn... we did ssssee each other again..." Sylvan puts his hand to his chest, as if feeling if he still has a pulse. His face shows a look of disappointment at what he feels. "I don't have much longer, Obyn. Do you remember that sssship we sssaid we would build together? Well... I finisssshed it. The blueprintsss in my cargo bay. If there'ssss one thing I can trussst about my ssship, it'sss that the cargo bay alwaysss sssurvivesss the fight..."</text>
+					<text>"You weren't wrong Obyn... we did ssssee each other again..." Sylvan puts his hand to his chest, as if feeling if he still has a pulse. His face shows a look of disappointment at what he feels. "I don't have much longer, Obyn. Do you remember that sssship we sssaid we would build together? Well... I finissshed it. The blueprintsss in my cargo bay. If there'ssss one thing I can trussst about my ssship, it'sss that the cargo bay alwaysss sssurvivesss the fight..."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
-							<text>"Thank you sssstranger, for reuniting me with Obyn one lassst time. It hassss been an honor. There'sss a little extra sssomething in that cargo bay for you." Sylvan turns to Obyn one last time. "Obyn... I love you. Goodbye." And with that, the traveling merchant slumps over unconscious. Obyn's tears mark stains on his robes, and you aren't sure if you can do anything to save him.</text>
+							<text>"Thank you sssstranger, for reuniting me with Obyn one lassst time. It hasss been an honor. There'sss a little extra sssomething in that cargo bay for you." Sylvan turns to Obyn one last time. "Obyn... I love you. Goodbye." And with that, the traveling merchant slumps over unconscious. Obyn's tears mark stains on his robes, and you aren't sure if you can do anything to save him.</text>
 							<achievement>ACH_SYLVAN_LOVER</achievement>
 							<choice hidden="true">
 								<text>There's nothing we can do. Go check the cargo bay.</text>
@@ -264,57 +1041,61 @@
 
 <mod:findName type="event" name="MV_TRAVELER_SECRET_NORMAL">
     <mod:findLike type="loadEventList">
-		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_NORMAL"/>
+		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CRUISER_NORMAL"/>
+		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_NORMAL"/>
     </mod:findLike>
 </mod:findName>
 
 <mod:findName type="event" name="MV_TRAVELER_SECRET_CHALLENGE">
     <mod:findLike type="loadEventList">
-		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CHALLENGE"/>
+		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CRUISER_CHALLENGE"/>
+		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_CHALLENGE"/>
     </mod:findLike>
 </mod:findName>
 
 <mod:findName type="event" name="MV_TRAVELER_SECRET_EXTREME">
     <mod:findLike type="loadEventList">
-		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_EXTREME"/>
+		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CRUISER_EXTREME"/>
+		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_EXTREME"/>
     </mod:findLike>
 </mod:findName>
 
 <mod:findName type="event" name="MV_TRAVELER_SECRET_CHAOS">
     <mod:findLike type="loadEventList">
-		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CHAOS"/>
+		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CRUISER_CHAOS"/>
+		<mod-append:event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_CHAOS"/>
     </mod:findLike>
 </mod:findName>
 
 <!--
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-			                    COMMONWEALTH RENEGADE
+			                    COMMONWEALTH CRUISER RENEGADE
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 
-<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_NORMAL" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_NORMAL">
-	<destroyed load="FR_MTBOSS_COMMONWEALTH_DESTROYED"/>
-	<deadCrew load="FR_MTBOSS_COMMONWEALTH_DEADCREW"/>
+<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_CRUISER_NORMAL" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_CRUISER_NORMAL">
+	<destroyed load="FR_MTBOSS_COMMONWEALTH_CRUISER_DESTROYED"/>
+	<deadCrew load="FR_MTBOSS_COMMONWEALTH_CRUISER_DEADCREW"/>
 </ship>
-<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_CHALLENGE" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_CHALLENGE">
-	<destroyed load="FR_MTBOSS_COMMONWEALTH_DESTROYED"/>
-	<deadCrew load="FR_MTBOSS_COMMONWEALTH_DEADCREW"/>
+<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_CRUISER_CHALLENGE" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_CRUISER_CHALLENGE">
+	<destroyed load="FR_MTBOSS_COMMONWEALTH_CRUISER_DESTROYED"/>
+	<deadCrew load="FR_MTBOSS_COMMONWEALTH_CRUISER_DEADCREW"/>
 </ship>
-<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_EXTREME" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_EXTREME">
-	<destroyed load="FR_MTBOSS_COMMONWEALTH_DESTROYED"/>
-	<deadCrew load="FR_MTBOSS_COMMONWEALTH_DEADCREW"/>
+<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_CRUISER_EXTREME" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_CRUISER_EXTREME">
+	<destroyed load="FR_MTBOSS_COMMONWEALTH_CRUISER_DESTROYED"/>
+	<deadCrew load="FR_MTBOSS_COMMONWEALTH_CRUISER_DEADCREW"/>
 </ship>
-<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_CHAOS" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_CHAOS">
-	<destroyed load="FR_MTBOSS_COMMONWEALTH_DESTROYED_CHAOS"/>
-	<deadCrew load="FR_MTBOSS_COMMONWEALTH_DEADCREW_CHAOS"/>
+<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_CRUISER_CHAOS" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_CRUISER_CHAOS">
+	<destroyed load="FR_MTBOSS_COMMONWEALTH_CRUISER_DESTROYED_CHAOS"/>
+	<deadCrew load="FR_MTBOSS_COMMONWEALTH_CRUISER_DEADCREW_CHAOS"/>
 </ship>
 
-<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_NORMAL">
+<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CRUISER_NORMAL">
 	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millennia beyond yours in terms of advancement. The captain hails you.</text>
 	<playSound>mysteriousBeacon</playSound>
-	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_NORMAL" hostile="false"/> 
+	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_CRUISER_NORMAL" hostile="false"/> 
 	<choice hidden="true">
 	    <text>Continue...</text>
 		<event>
@@ -348,10 +1129,10 @@
 	</choice>
 </event>
 
-<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CHALLENGE">
-	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millenia beyond yours in terms of advancement. The captain hails you.</text>
+<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CRUISER_CHALLENGE">
+	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millennia beyond yours in terms of advancement. The captain hails you.</text>
 	<playSound>mysteriousBeacon</playSound>
-	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_CHALLENGE" hostile="false"/> 
+	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_CRUISER_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
 	    <text>Continue...</text>
 		<event>
@@ -385,10 +1166,10 @@
 	</choice>
 </event>
 
-<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_EXTREME">
-	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millenia beyond yours in terms of advancement. The captain hails you.</text>
+<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CRUISER_EXTREME">
+	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millennia beyond yours in terms of advancement. The captain hails you.</text>
 	<playSound>mysteriousBeacon</playSound>
-	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_EXTREME" hostile="false"/> 
+	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_CRUISER_EXTREME" hostile="false"/> 
 	<choice hidden="true">
 	    <text>Continue...</text>
 		<event>
@@ -412,10 +1193,10 @@
 	</choice>
 </event>
 
-<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CHAOS">
-	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millenia beyond yours in terms of advancement. The captain hails you.</text>
+<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CRUISER_CHAOS">
+	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millennia beyond yours in terms of advancement. The captain hails you.</text>
 	<playSound>gm_renegade</playSound>
-	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_CHAOS" hostile="false"/> 
+	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_CRUISER_CHAOS" hostile="false"/> 
 	<choice hidden="true">
 	    <text>Continue...</text>
 		<event>
@@ -439,75 +1220,297 @@
 	</choice>
 </event>
 
-<event name="FR_MTBOSS_COMMONWEALTH_DESTROYED">
+<event name="FR_MTBOSS_COMMONWEALTH_CRUISER_DESTROYED">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<metaVariable name="prof_renegades_killed" op="add" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_MTBOSS_COMMONWEALTH_DROP_CHANCE"/>
+		<event load="FR_MTBOSS_COMMONWEALTH_CRUISER_DROP_CHANCE"/>
 	</choice>
 </event>
 
-<eventList name="FR_MTBOSS_COMMONWEALTH_DROP_CHANCE">
+<eventList name="FR_MTBOSS_COMMONWEALTH_CRUISER_DROP_CHANCE">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">stuff</autoReward>
 	</event>
-	<event load="FR_MTBOSS_COMMONWEALTH_DROP"/>
+	<event load="FR_MTBOSS_COMMONWEALTH_CRUISER_DROP"/>
 </eventList>
 
-<event name="FR_MTBOSS_COMMONWEALTH_DEADCREW">
+<event name="FR_MTBOSS_COMMONWEALTH_CRUISER_DEADCREW">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<metaVariable name="prof_renegades_killed" op="add" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_MTBOSS_COMMONWEALTH_DROP"/>
+		<event load="FR_MTBOSS_COMMONWEALTH_CRUISER_DROP"/>
 	</choice>
 </event>
 
-<event name="FR_MTBOSS_COMMONWEALTH_DROP">
+<event name="FR_MTBOSS_COMMONWEALTH_CRUISER_DROP">
 	<text>You're also surprised to find a special item among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it's a custom weapon, made by whatever strange species the Renegades were.</text>
-	<achievement silent="false">ACH_FR_RENEGADE_COMMONWEALTH</achievement>
+	<achievement silent="false">ACH_FR_RENEGADE_COMMONWEALTH_CRUISER</achievement>
 	<autoReward level="LOW">stuff</autoReward>
 	<weapon name="FR_COMMONWEALTH_ARTILLERY"/>
 </event>
 
-<event name="FR_MTBOSS_COMMONWEALTH_DESTROYED_CHAOS">
+<event name="FR_MTBOSS_COMMONWEALTH_CRUISER_DESTROYED_CHAOS">
 	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<metaVariable name="prof_renegades_killed" op="add" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_MTBOSS_COMMONWEALTH_DROP_CHANCE_CHAOS"/>
+		<event load="FR_MTBOSS_COMMONWEALTH_CRUISER_DROP_CHANCE_CHAOS"/>
 	</choice>
 </event>
 
-<eventList name="FR_MTBOSS_COMMONWEALTH_DROP_CHANCE_CHAOS">
+<eventList name="FR_MTBOSS_COMMONWEALTH_CRUISER_DROP_CHANCE_CHAOS">
 	<event>
 		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
 		<autoReward level="LOW">stuff</autoReward>
 	</event>
-	<event load="FR_MTBOSS_COMMONWEALTH_DROP_CHAOS"/>
+	<event load="FR_MTBOSS_COMMONWEALTH_CRUISER_DROP_CHAOS"/>
 </eventList>
 
-<event name="FR_MTBOSS_COMMONWEALTH_DEADCREW_CHAOS">
+<event name="FR_MTBOSS_COMMONWEALTH_CRUISER_DEADCREW_CHAOS">
 	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<metaVariable name="prof_renegades_killed" op="add" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
-		<event load="FR_MTBOSS_COMMONWEALTH_DROP_CHAOS"/>
+		<event load="FR_MTBOSS_COMMONWEALTH_CRUISER_DROP_CHAOS"/>
 	</choice>
 </event>
 
-<event name="FR_MTBOSS_COMMONWEALTH_DROP_CHAOS">
+<event name="FR_MTBOSS_COMMONWEALTH_CRUISER_DROP_CHAOS">
 	<text>You're also surprised to find a special item among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it's a custom weapon, made by whatever strange species the Renegades were.</text>
-	<achievement silent="false">ACH_FR_RENEGADE_COMMONWEALTH</achievement>
+	<achievement silent="false">ACH_FR_RENEGADE_COMMONWEALTH_CRUISER</achievement>
 	<autoReward level="LOW">stuff</autoReward>
 	<weapon name="FR_COMMONWEALTH_ARTILLERY_CHAOS"/>
 </event>
+
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    COMMONWEALTH GUARDIAN RENEGADE
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_NORMAL" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_NORMAL">
+	<destroyed load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DESTROYED"/>
+	<deadCrew load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DEADCREW"/>
+	<triggeredEvent event="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DEADCREW" thisFight="true">
+		<enemyCrew amount="0" includeClonebay="true"/>
+	</triggeredEvent>
+</ship>
+<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_CHALLENGE" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_CHALLENGE">
+	<destroyed load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DESTROYED"/>
+	<deadCrew load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DEADCREW"/>
+	<triggeredEvent event="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DEADCREW" thisFight="true">
+		<enemyCrew amount="0" includeClonebay="true"/>
+	</triggeredEvent>
+</ship>
+<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_EXTREME" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_EXTREME">
+	<destroyed load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DESTROYED"/>
+	<deadCrew load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DEADCREW"/>
+	<triggeredEvent event="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DEADCREW" thisFight="true">
+		<enemyCrew amount="0" includeClonebay="true"/>
+	</triggeredEvent>
+</ship>
+<ship name="SHIP_FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_CHAOS" auto_blueprint="FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_CHAOS">
+	<destroyed load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DESTROYED_CHAOS"/>
+	<deadCrew load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DEADCREW_CHAOS"/>
+	<triggeredEvent event="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DEADCREW" thisFight="true">
+		<enemyCrew amount="0" includeClonebay="true"/>
+	</triggeredEvent>
+</ship>
+
+<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_NORMAL">
+	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millennia beyond yours in terms of advancement. It also seems to be mostly automated, however your sensors still detect crew inside it. The ship hails you:
+
+	"EXTERMINATOR DETECTED! THREAT COUNTERMEASURES INITIATED! CHOICE PROPOSED: GIVE TRIBUTE OR: PERISH!"</text>
+	<playSound>mysteriousBeacon</playSound>
+	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_NORMAL" hostile="false"/> 
+	<choice hidden="true">
+		<text>Prepare to fight!</text>
+			<event>
+				<text>"AGGRESSIVE BEHAVIOUR DETECTED. INITIATING COMBAT PROTOCOLS."</text>
+					<ship hostile="true"/> 
+						<choice hidden="true">
+							<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+						</choice>
+			</event>
+	</choice>
+	<choice>
+		<text>Pay the tribute to avoid the fight.</text>
+			<event>
+				<text>"A wise choice, Renegade. See you around."</text>
+					<item_modify>
+						<item type="scrap" min="-20" max="-50"/>
+					</item_modify>
+					<instantEscape/>
+			</event>
+	</choice>
+	<choice hidden="true" req="JUDGE_BOON_RENEGADE">
+		<text>Use your blessing to avoid combat.</text>
+			<event load="MV_TRAVELER_BOON"/>
+	</choice>
+</event>
+
+<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_CHALLENGE">
+	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millennia beyond yours in terms of advancement. It also seems to be mostly automated, however your sensors still detect crew inside it. The ship hails you:
+
+	"EXTERMINATOR DETECTED! THREAT COUNTERMEASURES INITIATED! CHOICE PROPOSED: GIVE TRIBUTE OR: PERISH!"</text>
+	<playSound>mysteriousBeacon</playSound>
+	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_CHALLENGE" hostile="false"/> 
+	<choice hidden="true">
+		<text>Prepare to fight!</text>
+			<event>
+				<text>"AGGRESSIVE BEHAVIOUR DETECTED. INITIATING COMBAT PROTOCOLS."</text>
+					<ship hostile="true"/> 
+						<choice hidden="true">
+							<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+						</choice>
+			</event>
+	</choice>
+	<choice>
+		<text>Pay the tribute to avoid the fight.</text>
+			<event>
+				<text>"A wise choice, Renegade. See you around."</text>
+					<item_modify>
+						<item type="scrap" min="-20" max="-50"/>
+					</item_modify>
+					<instantEscape/>
+			</event>
+	</choice>
+	<choice hidden="true" req="JUDGE_BOON_RENEGADE">
+		<text>Use your blessing to avoid combat.</text>
+			<event load="MV_TRAVELER_BOON"/>
+	</choice>
+</event>
+
+<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_EXTREME">
+	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millennia beyond yours in terms of advancement. It also seems to be mostly automated, however your sensors still detect crew inside it. The ship hails you:
+
+	"EXTERMINATOR DETECTED! THREAT COUNTERMEASURES INITIATED! COMBAT PROTOCOLS INITIATED."</text>
+	<playSound>mysteriousBeacon</playSound>
+	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_EXTREME" hostile="false"/> 
+	<choice hidden="true">
+		<text>Prepare to fight!</text>
+			<event>
+				<text>"PERISH TYRANT. FOR THE COMMONWEALTH'S FREEDOM."</text>
+					<ship hostile="true"/> 
+						<choice hidden="true">
+							<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+						</choice>
+			</event>
+	</choice>
+	<choice hidden="true" req="JUDGE_BOON_RENEGADE">
+		<text>Use your blessing to avoid combat.</text>
+			<event load="MV_TRAVELER_BOON"/>
+	</choice>
+</event>
+
+<event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_CHAOS">
+	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millennia beyond yours in terms of advancement. It also seems to be mostly automated, however your sensors still detect crew inside it. The ship hails you:
+
+	"EXTERMINATOR DETECTED! THREAT COUNTERMEASURES INITIATED! COMBAT PROTOCOLS INITIATED."</text>
+	<playSound>gm_renegade</playSound>
+	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_CHAOS" hostile="false"/> 
+	<choice hidden="true">
+		<text>Prepare to fight!</text>
+			<event>
+				<text>"PERISH TYRANT. FOR THE COMMONWEALTH'S FREEDOM."</text>
+					<ship hostile="true"/> 
+						<choice hidden="true">
+							<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+						</choice>
+			</event>
+	</choice>
+	<choice hidden="true" req="JUDGE_BOON_RENEGADE">
+		<text>Use your blessing to avoid combat.</text>
+			<event load="MV_TRAVELER_BOON"/>
+	</choice>
+</event>
+
+<event name="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DESTROYED">
+	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<metaVariable name="prof_renegades_killed" op="add" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DROP_CHANCE"/>
+	</choice>
+</event>
+
+<eventList name="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DROP_CHANCE">
+	<event>
+		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
+		<autoReward level="LOW">stuff</autoReward>
+	</event>
+	<event load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DROP"/>
+</eventList>
+
+<event name="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DEADCREW">
+	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<metaVariable name="prof_renegades_killed" op="add" val="1"/>
+	<ship hostile="false"/> 
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DROP"/>
+	</choice>
+</event>
+
+<event name="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DROP">
+	<text>You're also surprised to find a special item among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it's a custom drone, made by whatever strange species the Renegades were.</text>
+	<achievement silent="false">ACH_FR_RENEGADE_COMMONWEALTH_GUARDIAN</achievement>
+	<autoReward level="LOW">stuff</autoReward>
+	<drone name="FR_COMMONWEALTH_COMBAT_BOMB"/>
+</event>
+
+<event name="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DESTROYED_CHAOS">
+	<text>The mighty vessel has been eliminated! Within its wreckage remains plenty of scrap and supplies for the taking.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<metaVariable name="prof_renegades_killed" op="add" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DROP_CHANCE_CHAOS"/>
+	</choice>
+</event>
+
+<eventList name="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DROP_CHANCE_CHAOS">
+	<event>
+		<text>You find the remains of a unique weapon model among the ruins of the ship, but it appears it did not survive the fight. You'll have to be more careful next time, or get lucky. Fortunately, there's still a bit more supplies to take with you.</text>
+		<autoReward level="LOW">stuff</autoReward>
+	</event>
+	<event load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DROP_CHAOS"/>
+</eventList>
+
+<event name="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DEADCREW_CHAOS">
+	<text>The mighty vessel has been vanquished! Within the now cleared cruiser, plenty of scrap and supplies remain for the taking.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<ship hostile="false"/> 
+	<metaVariable name="prof_renegades_killed" op="add" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DROP_CHAOS"/>
+	</choice>
+</event>
+
+<event name="FR_MTBOSS_COMMONWEALTH_GUARDIAN_DROP_CHAOS">
+	<text>You're also surprised to find a special item among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it's a custom weapon, made by whatever strange species the Renegades were.</text>
+	<achievement silent="false">ACH_FR_RENEGADE_COMMONWEALTH_GUARDIAN</achievement>
+	<autoReward level="LOW">stuff</autoReward>
+	<drone name="FR_COMMONWEALTH_COMBAT_BOMB_CHAOS"/>
+</event>
+
 
 
 <!-- 
@@ -565,12 +1568,12 @@
 			</choice>
 		</event>
 	</mod-append:choice>
-	<mod-append:choice req="FR_LIST_CREW_HAUNT_UNDEAD" blue="false">
-		<text>Present your Haunt crew.</text>
+	<mod-append:choice req="FR_LIST_CREW_REVENANT_UNDEAD" blue="false">
+		<text>Present your Revenant crew.</text>
 		<event>
 			<text>"Is... is that an actual... ghost? I must say, I... didn't think it was possible... to bring back the dead. Frankly... I can scarcely... believe my own eyes... You can say I am... very... very... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
-			<metaVariable name="prof_r_boon_fr_haunt_crew" op="set" val="1"/>
-			<achievement silent="false">ACH_FR_BOON_HAUNT_CREW</achievement>
+			<metaVariable name="prof_r_boon_fr_revenant_crew" op="set" val="1"/>
+			<achievement silent="false">ACH_FR_BOON_REVENANT_CREW</achievement>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
@@ -580,7 +1583,7 @@
 	<mod-append:choice req="FR_LIST_CREW_SNOWMAN_FIGHT" blue="false">
 		<text>Present your Snowman crew.</text>
 		<event>
-			<text>"A... living snowman... It seems all those... stories for kids can... actually happen... you learn... something new everyday... You can say I am... very... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
+			<text>"A... living Snowman... It seems all those... stories for kids can... actually happen... you learn... something new everyday... You can say I am... very... impressed. Well done, traveler. Expect... rewards before your next journey."</text>
 			<metaVariable name="prof_r_boon_fr_snowman" op="set" val="1"/>
 			<achievement silent="false">ACH_FR_BOON_SNOWMAN</achievement>
 			<choice hidden="true">
@@ -640,12 +1643,12 @@
 			</choice>
 		</event>
 	</mod-append:choice>
-	<mod-append:choice req="FR_BLUELIST_HAUNT_ALL" blue="false">
-		<text>Present a Haunt gun.</text>
+	<mod-append:choice req="FR_BLUELIST_REVENANT_ALL" blue="false">
+		<text>Present a Revenant gun.</text>
 		<event>
-			<text>"WHAT in the GREAT ADMIRAL'S top shape ARSE is THIS?! I have never SEEN anything like this! WHERE did you acquire this WEIRD gun, RENEGADE? It's... IT'S WONDERFUL! I shall BLESS you with the BLESSING OF HAUNTING. But have PATIENCE. It is not for now, but for LATER!"</text>
-			<metaVariable name="prof_r_boon_fr_haunt_gun" op="set" val="1"/>
-			<achievement silent="false">ACH_FR_BOON_HAUNT_GUN</achievement>
+			<text>"WHAT in the GREAT ADMIRAL'S top shape ARSE is THIS?! I have never SEEN anything like this! WHERE did you acquire this WEIRD gun, RENEGADE? It's... IT'S WONDERFUL! I shall BLESS you with the BLESSING OF THE UNDEAD. But have PATIENCE. It is not for now, but for LATER!"</text>
+			<metaVariable name="prof_r_boon_fr_revenant_gun" op="set" val="1"/>
+			<achievement silent="false">ACH_FR_BOON_REVENANT_GUN</achievement>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event load="THE_JUDGES_ROCK_ADVICE"/>
@@ -778,8 +1781,8 @@
 	<mod-append:metaVariable name="prof_r_boon_fr_lavaman" op="set" val="0"/>
 	<mod-append:metaVariable name="prof_r_boon_fr_snowman" op="set" val="0"/>
 	<mod-append:metaVariable name="prof_r_boon_fr_wither_gun" op="set" val="0"/>
-	<mod-append:metaVariable name="prof_r_boon_fr_haunt_crew" op="set" val="0"/>
-	<mod-append:metaVariable name="prof_r_boon_fr_haunt_gun" op="set" val="0"/>
+	<mod-append:metaVariable name="prof_r_boon_fr_revenant_crew" op="set" val="0"/>
+	<mod-append:metaVariable name="prof_r_boon_fr_revenant_gun" op="set" val="0"/>
 	<mod-append:metaVariable name="prof_r_boon_fr_salt_gun" op="set" val="0"/>
 	<mod-append:metaVariable name="prof_r_boon_fr_salt_crew" op="set" val="0"/>
 	<mod-append:metaVariable name="prof_r_boon_fr_commonwealth_crew" op="set" val="0"/>

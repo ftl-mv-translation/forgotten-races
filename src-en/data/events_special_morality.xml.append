@@ -6,4 +6,82 @@
 	<variable name="rep_zoltan" op="add" val="4"/>
 </event>
 
+<event name="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH_GUARD">
+	<text>[NOTORIETY INCREASED - COMMONWEALTH REFUGE]
+	Your actions here, justifiable or not, will not reflect well in the eyes of the Commonwealth Refuge or its citizens. Continuously perform actions like this and you might start to see negative reactions from the Commonwealth's Citizens.</text>
+	<variable name="fr_rep_commonwealth" op="add" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_GUARD_COMMONWEALTH_FOLLOWUP"/>
+	</choice>
+</event>
+
+<event name="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH_FIGHT">
+	<text>[NOTORIETY INCREASED - COMMONWEALTH REFUGE]
+	Your actions here, justifiable or not, will not reflect well in the eyes of the Commonwealth Refuge or its citizens. Continuously perform actions like this and you might start to see negative reactions from the Commonwealth's Citizens.</text>
+	<variable name="fr_rep_commonwealth" op="add" val="1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH">
+	<text>[NOTORIETY INCREASED - COMMONWEALTH REFUGE]
+	Your actions here, justifiable or not, will not reflect well in the eyes of the Commonwealth Refuge or its citizens. Continuously perform actions like this and you might start to see negative reactions from the Commonwealth's Citizens.</text>
+	<variable name="fr_rep_commonwealth" op="add" val="1"/>
+</event>
+
+<event name="FR_MORALITY_UPDATE_NEGATIVE_SEVERE_COMMONWEALTH">
+	<text>[NOTORIETY INCREASED X2 - COMMONWEALTH REFUGE]
+	Your actions here, justifiable or not, will not reflect well in the eyes of the Commonwealth Refuge or its citizens. Continuously perform actions like this and you might start to see negative reactions from the Commonwealth's Citizens.
+	For your extra egregious actions, your notoriety was increased twice.</text>
+	<variable name="fr_rep_commonwealth" op="add" val="2"/>
+</event>
+
+<event name="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH_STORAGE">
+	<text>[NOTORIETY DECREASED - COMMONWEALTH REFUGE]
+	You have done a good deed here in the eyes of the Commonwealth Refuge. If you've gained notoriety from other actions in the past, you're more likely to be forgiven for them.</text>
+	<variable name="fr_rep_commonwealth" op="add" val="-1"/>
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+
+<event name="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH_STORE">
+	<text>[NOTORIETY DECREASED - COMMONWEALTH REFUGE]
+	You have done a good deed here in the eyes of the Commonwealth Refuge. If you've gained notoriety from other actions in the past, you're more likely to be forgiven for them.</text>
+	<variable name="fr_rep_commonwealth" op="add" val="-1"/>
+	<store>FR_STORE_COMMONWEALTH</store>
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+
+<event name="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH">
+	<text>[NOTORIETY DECREASED - COMMONWEALTH REFUGE]
+		You have done a good deed here in the eyes of the Commonwealth Refuge. If you've gained notoriety from other actions in the past, you're more likely to be forgiven for them.</text>
+	<variable name="fr_rep_commonwealth" op="add" val="-1"/>
+</event>
+
+<event name="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH_FIGHT">
+	<text>[NOTORIETY DECREASED - COMMONWEALTH REFUGE]
+	You have done a good deed here in the eyes of the Commonwealth Refuge. If you've gained notoriety from other actions in the past, you're more likely to be forgiven for them.</text>
+	<variable name="fr_rep_commonwealth" op="add" val="-1"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
 </FTL>

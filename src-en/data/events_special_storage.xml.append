@@ -29,10 +29,14 @@
 		<text>(Observer's Presence) Change your bonus.</text>
 		<event load="STORAGE_CHECK_FR_OBSERVER_PRESENCE"/>
 	</mod-append:choice>
+	<mod-append:choice req="FR_AUTO_HUNTER_GEAR" blue="true" hidden="true">
+		<text>(Auto Hunter Gear) Scan the sector for a nearby probe.</text>
+		<event load="STORAGE_CHECK_FR_AUTO_HUNTER_GEAR"/>
+	</mod-append:choice>
 	<mod-append:choice req="FR_FRIGID_AIR" hidden="true" blue="true">
         <text>(Frigid Air) Make a Snowman. [3{]</text>
 		<event>
-			<text>You gather up all the snow that formed inside the ship and use it to make a brand new snowman!</text>
+			<text>You gather up all the snow that formed inside the ship and use it to make a brand new Snowman!</text>
 			<item_modify>
 				<item type="fuel" min="-3" max="-3"/>
 			</item_modify>
@@ -61,7 +65,7 @@
 	<mod-append:choice req="FR_SMART_THERMOSTAT" hidden="true" blue="true">
         <text>(Smart Thermostat) Make a Snowman. [5{]</text>
 		<event>
-			<text>You gather up all the snow that formed inside the ship and use it to make a brand new snowman!</text>
+			<text>You gather up all the snow that formed inside the ship and use it to make a brand new Snowman!</text>
 			<item_modify>
 				<item type="fuel" min="-5" max="-5"/>
 			</item_modify>
@@ -72,7 +76,7 @@
                 </choice>	
 		</event>
 	</mod-append:choice>
-	<mod-append:choice req="FR_FORGGOTEN_WALLACE" hidden="true" blue="true">
+	<mod-append:choice req="FR_FORGOTTEN_WALLACE" hidden="true" blue="true">
         <text>(Forgotten Anomalous Merchant Beacon) Summon the Forgotten store.</text>
         <event>
 			<store>FR_FORGOTTEN_WALLACE_STORE</store>
@@ -656,6 +660,17 @@
 			<weapon name="FR_COMMONWEALTH_HAVOC"/>
 			<item_modify>
 				<item type="scrap" min="-180" max="-180"/>
+			</item_modify>
+			<text>Your new weapon rolls out of the forge, ready to be installed at your leisure.</text>
+		</event>
+	</choice>
+	<choice hidden="false">
+		<text>Construct a Commonwealth Onslaught.</text>
+			<event>
+			<weapon name="FR_COMMONWEALTH_MINELAUNCHER"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-80"/>
+			    <item type="missiles" min="-20" max="-20"/>
 			</item_modify>
 			<text>Your new weapon rolls out of the forge, ready to be installed at your leisure.</text>
 		</event>
@@ -4393,6 +4408,9 @@
 </event>
 <event name="FR_INSTALL_LAB_SALT_PRO_SLUG_SALT">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_SALT_PRO_SLUG_SALT</hiddenAug>
+	<hiddenAug>FR_LAB_SALT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_SALT</loadEvent>
 </event>
 
 <event name="STORAGE_CHECK_LAB_FR_SALT_OATH_OF_PEACE">
@@ -4421,6 +4439,9 @@
 </event>
 <event name="FR_INSTALL_LAB_SALT_OATH_OF_PEACE">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_SALT_OATH_OF_PEACE</hiddenAug>
+	<hiddenAug>FR_LAB_SALT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_SALT</loadEvent>
 </event>
 
 <event name="STORAGE_CHECK_LAB_FR_SALT_HEALING_CRYSTALS">
@@ -4448,6 +4469,9 @@
 </event>
 <event name="FR_INSTALL_LAB_SALT_HEALING_CRYSTALS">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_SALT_HEALING_CRYTALS</hiddenAug>
+	<hiddenAug>FR_LAB_SALT_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_SALT</loadEvent>
 </event>
 
 <event name="STORAGE_CHECK_LAB_FR_OSMIAN">
@@ -4526,6 +4550,9 @@
 </event>
 <event name="FR_INSTALL_LAB_OSMIAN_LIGHT_HELPERS">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_OSMIAN_LIGHT_HELPERS</hiddenAug>
+	<hiddenAug>FR_LAB_OSMIAN_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_OSMIAN</loadEvent>
 </event>
 
 <event name="STORAGE_CHECK_LAB_FR_OSMIAN_ONE_BODY">
@@ -4554,6 +4581,9 @@
 </event>
 <event name="FR_INSTALL_LAB_OSMIAN_ONE_BODY">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_OSMIAN_ONE_BODY</hiddenAug>
+	<hiddenAug>FR_LAB_OSMIAN_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_OSMIAN</loadEvent>
 </event>
 
 <event name="STORAGE_CHECK_LAB_FR_OSMIAN_SOULFUL_LIGHT">
@@ -4582,6 +4612,9 @@
 </event>
 <event name="FR_INSTALL_LAB_OSMIAN_SOULFUL_LIGHT">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_OSMIAN_SOULFUL_LIGHT</hiddenAug>
+	<hiddenAug>FR_LAB_OSMIAN_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_OSMIAN</loadEvent>
 </event>
 
 
@@ -4661,6 +4694,9 @@
 </event>
 <event name="FR_INSTALL_LAB_ELEMAN_UNSTABILITY">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_ELEMAN_UNSTABILITY</hiddenAug>
+	<hiddenAug>FR_LAB_ELEMAN_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_ELEMAN</loadEvent>
 </event>
 
 <event name="STORAGE_CHECK_LAB_FR_ELEMAN_ABSORPTION">
@@ -4689,6 +4725,9 @@
 </event>
 <event name="FR_INSTALL_LAB_ELEMAN_ABSORPTION">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_ELEMAN_ABSORPTION</hiddenAug>
+	<hiddenAug>FR_LAB_ELEMAN_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_ELEMAN</loadEvent>
 </event>
 
 <event name="STORAGE_CHECK_LAB_FR_ELEMAN_MAINTENANCE">
@@ -4717,6 +4756,9 @@
 </event>
 <event name="FR_INSTALL_LAB_ELEMAN_MAINTENANCE">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_ELEMAN_MAINTENANCE</hiddenAug>
+	<hiddenAug>FR_LAB_ELEMAN_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_ELEMAN</loadEvent>
 </event>
 
 <event name="STORAGE_CHECK_LAB_FR_SPHERAX">
@@ -4795,10 +4837,13 @@
 </event>
 <event name="FR_INSTALL_LAB_SPHERAX_REFOCUSED">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_SPHERAX_REFOCUSED</hiddenAug>
+	<hiddenAug>FR_LAB_SPHERAX_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_SPHERAX</loadEvent>
 </event>
 
 <event name="STORAGE_CHECK_LAB_FR_SPHERAX_BEHAVIOUR">
-	<text>You are about to install the Non-Agressive Behaviour modification.
+	<text>You are about to install the Non-Aggressive Behaviour modification.
 	[Effects: Not having any Spherax on the enemy ship will give all of your Spherax doubled repair speed. Spherax on the enemy ship deal halved combat damage.]
 	
 	[Warning: After installing this, you will not be able to install any more primary upgrades for Spherax crew. You will not be able to deactivate this mod either.]</text>
@@ -4823,6 +4868,9 @@
 </event>
 <event name="FR_INSTALL_LAB_SPHERAX_BEHAVIOUR">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_SPHERAX_BEHAVIOUR</hiddenAug>
+	<hiddenAug>FR_LAB_SPHERAX_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_SPHERAX</loadEvent>
 </event>
 
 <event name="STORAGE_CHECK_LAB_FR_SPHERAX_ELETRONIC">
@@ -4850,6 +4898,9 @@
 </event>
 <event name="FR_INSTALL_LAB_SPHERAX_ELETRONIC">
 	<variable name="loc_lab_upgrades" op="add" val="1"/>
+	<hiddenAug>FR_LAB_SPHERAX_ELETRONIC</hiddenAug>
+	<hiddenAug>FR_LAB_SPHERAX_INSTALLED</hiddenAug>
+	<loadEvent>STORAGE_CHECK_LAB_FR_SPHERAX</loadEvent>
 </event>
 
 <!--
@@ -5728,7 +5779,7 @@
 			</event>
 		</choice>
 		<choice req="FR_LIST_OBELISK_SACRIFICE_1" max_group="18" blue="false" hidden="true">
-			<text>Feed it a obelisk. 1/2 Obelisk already fed.
+			<text>Feed it a Obelisk. 1/2 Obelisk already fed.
 			[Current bonus: Your ship has 3 additional energy shield layers.]
 			[Next bonus: Your ship will have 6 additional energy shield layers.]</text>
 			<event>
@@ -5957,6 +6008,32 @@
             </item_modify>
 	  </event>
 	</mod-append:choice>
+	<mod-append:choice req="FR_COMMONWEALTH_MINELAUNCHER" hidden="true">
+		<text>Use your Commonwealth 'Onslaught' Mine Launcher. [-10}, gives 3 delay]</text>
+        <event>
+            <text>You rig the ammunition and set a trap for the Rebels. It's definitely illegal to do, but you'll be gone before it matters.</text>
+            <modifyPursuit amount="-3" />
+            <item_modify>
+                <item type="missiles" min="-10" max="-10" />
+            </item_modify>
+			<choice hidden="true" req="loc_mine_counter" max_group="0" lvl="0" blue="false">
+				<text>Continue...</text>
+				<event load="TRAP_WARNING_1" />
+			</choice>
+			<choice hidden="true" req="loc_mine_counter" max_group="0" lvl="1" blue="false">
+				<text>Continue...</text>
+				<event load="TRAP_WARNING_2" />
+			</choice>
+			<choice hidden="true" req="loc_mine_counter" max_group="0" lvl="2" blue="false">
+				<text>Continue...</text>
+				<event load="TRAP_WARNING_3" />
+			</choice>
+			<choice hidden="true" req="loc_mine_counter" max_group="0" lvl="3" blue="false">
+				<text>Continue...</text>
+				<event load="MORALITY_UPDATE_GENERAL" />
+			</choice>
+        </event>
+	  </mod-append:choice>
 	<mod-append:choice req="FR_GOLDEN_ANCIENT_MINELAUNCHER" hidden="true">
 	  <text>Use your Golden 'Onslaught' Mine Launcher. [-30~, gives 2 delay, does not impact notoriety]</text>
         <event>
@@ -5989,7 +6066,7 @@
 			<choice>
 				<text>Continue...</text>
 				<event>
-					<text>The cryogenic components of the weapon allow you to build a living snowman!</text>
+					<text>The cryogenic components of the weapon allow you to build a living Snowman!</text>
 					<crewMember amount="1" class="fr_snowman_smart"/>
 				</event>
 			</choice>
@@ -6003,7 +6080,7 @@
 			<choice>
 				<text>Continue...</text>
 				<event>
-					<text>The cryogenic components of the weapon allow you to build a living snowman!</text>
+					<text>The cryogenic components of the weapon allow you to build a living Snowman!</text>
 					<crewMember amount="1" class="fr_snowman_smart"/>
 				</event>
 			</choice>
@@ -6017,7 +6094,7 @@
 			<choice>
 				<text>Continue...</text>
 				<event>
-					<text>The cryogenic components of the weapon allow you to build a living snowman!</text>
+					<text>The cryogenic components of the weapon allow you to build a living Snowman!</text>
 					<crewMember amount="1" class="fr_snowman_smart"/>
 				</event>
 			</choice>
@@ -6031,7 +6108,7 @@
 			<choice>
 				<text>Continue...</text>
 				<event>
-					<text>The cryogenic components of the weapon allow you to build a living snowman!</text>
+					<text>The cryogenic components of the weapon allow you to build a living Snowman!</text>
 					<crewMember amount="1" class="fr_snowman_smart"/>
 				</event>
 			</choice>
@@ -6045,7 +6122,7 @@
 			<choice>
 				<text>Continue...</text>
 				<event>
-					<text>The cryogenic components of the weapon allow you to build a living snowman!</text>
+					<text>The cryogenic components of the weapon allow you to build a living Snowman!</text>
 					<crewMember amount="1" class="fr_snowman_smart"/>
 				</event>
 			</choice>
@@ -6059,7 +6136,7 @@
 			<choice>
 				<text>Continue...</text>
 				<event>
-					<text>The cryogenic components of the weapon allow you to build a living snowman!</text>
+					<text>The cryogenic components of the weapon allow you to build a living Snowman!</text>
 					<crewMember amount="1" class="fr_snowman_smart"/>
 				</event>
 			</choice>
@@ -6073,7 +6150,7 @@
 			<choice>
 				<text>Continue...</text>
 				<event>
-					<text>The cryogenic components of the weapon allow you to build a living snowman!</text>
+					<text>The cryogenic components of the weapon allow you to build a living Snowman!</text>
 					<crewMember amount="1" class="fr_snowman_smart"/>
 				</event>
 			</choice>
@@ -6087,7 +6164,7 @@
 			<choice>
 				<text>Continue...</text>
 				<event>
-					<text>The cryogenic components of the weapon allow you to build a living snowman!</text>
+					<text>The cryogenic components of the weapon allow you to build a living Snowman!</text>
 					<crewMember amount="1" class="fr_snowman_smart"/>
 				</event>
 			</choice>
@@ -6101,7 +6178,7 @@
 			<choice>
 				<text>Continue...</text>
 				<event>
-					<text>The cryogenic components of the weapon allow you to build a living snowman!</text>
+					<text>The cryogenic components of the weapon allow you to build a living Snowman!</text>
 					<crewMember amount="1" class="fr_snowman_smart"/>
 				</event>
 			</choice>
@@ -6115,7 +6192,7 @@
 			<choice>
 				<text>Continue...</text>
 				<event>
-					<text>The cryogenic components of the weapon allow you to build a living snowman!</text>
+					<text>The cryogenic components of the weapon allow you to build a living Snowman!</text>
 					<crewMember amount="1" class="fr_snowman_smart"/>
 				</event>
 			</choice>
@@ -6129,7 +6206,7 @@
 			<choice>
 				<text>Continue...</text>
 				<event>
-					<text>The cryogenic components of the weapon allow you to build a living snowman!</text>
+					<text>The cryogenic components of the weapon allow you to build a living Snowman!</text>
 					<crewMember amount="1" class="fr_snowman_smart"/>
 				</event>
 			</choice>
@@ -6924,14 +7001,14 @@
 <!--
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-					HAUNTED URN
+					REVENANT URN
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->	
 
 <mod:findName type="event" name="STORAGE_CHECK_REAL">
 	<mod-append:choice req="loc_fr_urn_picked_up" blue="true" hidden="true">
-		<text>(Haunted Urn) Choose which Haunted Apparition to summon.</text>
+		<text>(Revenant Urn) Choose which Revenant Apparition to summon.</text>
 		<event>
         <loadEvent>STORAGE_CHECK_FR_URN</loadEvent>
         </event>
@@ -6965,7 +7042,7 @@
 			<event load="OPTION_INVALID"/>
 		</choice>
         <choice req="FR_REQUIREMENT_CAN_FIGHT_BONUS_APPARITIONS" lvl="1" max_group="2" hidden="true">
-			<text>Unnatural Apparitions (Bonus Haunts).</text>
+			<text>Umbral Apparitions (Bonus Revenants).</text>
 			<event>
 				<loadEvent>STORAGE_CHECK_FR_URN_BONUS</loadEvent>
 			</event>
@@ -6987,155 +7064,155 @@
 <event name="STORAGE_CHECK_FR_URN_NORMAL">
 	<text>You check what reborn apparition can be summoned. You can summon an apparition as many times as you want until they are defeated; slaying one will unlock the next.</text>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_SLIMER" lvl="1" max_group="0" blue="false" hidden="false">
-		<text>Slimer. (Drops a Nebula Stimulants Bomb-Launcher) [10{]</text>
+		<text color="fr_lime">Slimer. (Drops a Nebula Stimulants Bomb-Launcher) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_slimer_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_SLIMER"/>
+			<quest event="FR_REVENANT_APPARITION_SLIMER"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_SLIMER" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Slimer. [Unvisited]</text>
+		<text color="fr_lime">Slimer. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_SLIMER" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Slimer. [Defeated]</text>
+		<text color="fr_lime">Slimer. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_PHYS" lvl="1" max_group="1" blue="false" hidden="false">
-		<text>Phys. (Drops an Ionic Pinpoint) [10{]</text>
+		<text color="fr_cyan">Phys. (Drops an Ionic Pinpoint) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_phys_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_PHYS"/>
+			<quest event="FR_REVENANT_APPARITION_PHYS"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_PHYS" lvl="1" max_group="1" blue="false" hidden="true">
-		<text>Phys. [Unvisited]</text>
+		<text color="fr_cyan">Phys. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_PHYS" lvl="1" max_group="1" blue="false" hidden="true">
-		<text>Phys. [Defeated]</text>
+		<text color="fr_cyan">Phys. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_ALEENOR" lvl="1" max_group="2" blue="false" hidden="false">
-		<text>Aleenor. (Drops an Anti-Bio Light Laser) [10{]</text>
+		<text color="fr_pink">Aleenor. (Drops an Anti-Bio Light Laser) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_aleenor_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_ALEENOR"/>
+			<quest event="FR_REVENANT_APPARITION_ALEENOR"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_ALEENOR" lvl="1" max_group="2" blue="false" hidden="true">
-		<text>Aleenor. [Unvisited]</text>
+		<text color="fr_pink">Aleenor. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_ALEENOR" lvl="1" max_group="2" blue="false" hidden="true">
-		<text>Aleenor. [Defeated]</text>
+		<text color="fr_pink">Aleenor. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_VIN" lvl="1" max_group="3" blue="false" hidden="false">
-		<text>Vin. (Drops the 'Chione' Missile Launcher) [10{]</text>
+		<text color="fr_orange">Vin. (Drops the 'Chione' Missile Launcher) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_vin_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_VIN"/>
+			<quest event="FR_REVENANT_APPARITION_VIN"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_VIN" lvl="1" max_group="3" blue="false" hidden="true">
-		<text>Vin. [Unvisited]</text>
+		<text color="fr_orange">Vin. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_VIN" lvl="1" max_group="3" blue="false" hidden="true">
-		<text>Vin. [Defeated]</text>
+		<text color="fr_orange">Vin. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_CLEO" lvl="1" max_group="4" blue="false" hidden="false">
-		<text>Cleo. (Drops the Spawn Drone) [10{]</text>
+		<text color="fr_blue">Cleo. (Drops the Spawn Drone) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_cleo_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_CLEO"/>
+			<quest event="FR_REVENANT_APPARITION_CLEO"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_CLEO" lvl="1" max_group="4" blue="false" hidden="true">
-		<text>Cleo. [Unvisited]</text>
+		<text color="fr_blue">Cleo. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_CLEO" lvl="1" max_group="4" blue="false" hidden="true">
-		<text>Cleo. [Defeated]</text>
+		<text color="fr_blue">Cleo. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_ZULU" lvl="1" max_group="5" blue="false" hidden="false">
-		<text>Zulu. (Drops a Shadow Pinpoint) [10{]</text>
+		<text color="fr_yellow">Zulu. (Drops a Shadow Pinpoint) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_zulu_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_ZULU"/>
+			<quest event="FR_REVENANT_APPARITION_ZULU"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_ZULU" lvl="1" max_group="5" blue="false" hidden="true">
-		<text>Zulu. [Unvisited]</text>
+		<text color="fr_yellow">Zulu. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_ZULU" lvl="1" max_group="5" blue="false" hidden="true">
-		<text>Zulu. [Defeated]</text>
+		<text color="fr_yellow">Zulu. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_G" lvl="1" max_group="6" blue="false" hidden="false">
-		<text>G. (Drops the Erosion Beam) [10{]</text>
+		<text color="fr_red">G. (Drops the Erosion Beam) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_g_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_G"/>
+			<quest event="FR_REVENANT_APPARITION_G"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_G" lvl="1" max_group="6" blue="false" hidden="true">
-		<text>G. [Unvisited]</text>
+		<text color="fr_red">G. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_G" lvl="1" max_group="6" blue="false" hidden="true">
-		<text>G. [Defeated]</text>
+		<text color="fr_red">G. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_DEADSHIP" lvl="1" max_group="7" blue="false" hidden="false">
-		<text>The Deadship. (Drops the Rainbow Ion) [10{]</text>
+		<text color="fr_salmon">The Deadship. (Drops the Rainbow Ion) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_deadship_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_DEADSHIP"/>
+			<quest event="FR_REVENANT_APPARITION_DEADSHIP"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_DEADSHIP" lvl="1" max_group="7" blue="false" hidden="true">
-		<text>The Deadship. [Unvisited]</text>
+		<text color="fr_salmon">The Deadship. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_DEADSHIP" lvl="1" max_group="7" blue="false" hidden="true">
-		<text>The Deadship [Defeated]</text>
+		<text color="fr_salmon">The Deadship [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="pilot" lvl="1" max_group="99" blue="false">
@@ -7147,174 +7224,174 @@
 <event name="STORAGE_CHECK_FR_URN_CHAOS">
 	<text>You check what haunted apparition can be summoned. You can summon an apparition as many times as you want until they are defeated; slaying one will unlock the next.</text>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_SMOKE" lvl="1" max_group="0" blue="false" hidden="false">
-		<text>Smoke. (Drops a Pro-Hull Crystal Burst) [10{]</text>
+		<text color="fr_black">Smoke. (Drops a Pro-Hull Crystal Burst) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_smoke_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_SMOKE"/>
+			<quest event="FR_REVENANT_APPARITION_SMOKE"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_SMOKE" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Smoke. [Unvisited]</text>
+		<text color="fr_black">Smoke. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_SMOKE" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Smoke. [Defeated]</text>
+		<text color="fr_black">Smoke. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_CHILLS" lvl="1" max_group="1" blue="false" hidden="false">
-		<text>Chills. (Drops a Fire Kernel Launcher) [10{]</text>
+		<text color="fr_white">Chills. (Drops a Fire Kernel Launcher) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_chills_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_CHILLS"/>
+			<quest event="FR_REVENANT_APPARITION_CHILLS"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_CHILLS" lvl="1" max_group="1" blue="false" hidden="true">
-		<text>Chills. [Unvisited]</text>
+		<text color="fr_white">Chills. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_CHILLS" lvl="1" max_group="1" blue="false" hidden="true">
-		<text>Chills. [Defeated]</text>
+		<text color="fr_white">Chills. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_POK" lvl="1" max_group="2" blue="false" hidden="false">
-		<text>Pok. (Drops a Morph Bomb-Launcher) [10{]</text>
+		<text color="fr_purple">Pok. (Drops a Morph Bomb-Launcher) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_pok_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_POK"/>
+			<quest event="FR_REVENANT_APPARITION_POK"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_POK" lvl="1" max_group="2" blue="false" hidden="true">
-		<text>Pok. [Unvisited]</text>
+		<text color="fr_purple">Pok. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_POK" lvl="1" max_group="2" blue="false" hidden="true">
-		<text>Pok. [Defeated]</text>
+		<text color="fr_purple">Pok. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_CHARROR" lvl="1" max_group="3" blue="false" hidden="false">
-		<text>Charror. (Drops a Sentry Combat Drone) [10{]</text>
+		<text color="fr_lead">Charror. (Drops a Sentry Combat Drone) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_charror_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_CHARROR"/>
+			<quest event="FR_REVENANT_APPARITION_CHARROR"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_CHARROR" lvl="1" max_group="3" blue="false" hidden="true">
-		<text>Charror. [Unvisited]</text>
+		<text color="fr_lead">Charror. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_CHARROR" lvl="1" max_group="3" blue="false" hidden="true">
-		<text>Charror. [Defeated]</text>
+		<text color="fr_lead">Charror. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_LEO" lvl="1" max_group="4" blue="false" hidden="false">
-		<text>Leo. (Drops an Adaptive Flak Launcher) [10{]</text>
+		<text color="fr_green">Leo. (Drops an Adaptive Flak Launcher) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_leo_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_LEO"/>
+			<quest event="FR_REVENANT_APPARITION_LEO"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_LEO" lvl="1" max_group="4" blue="false" hidden="true">
-		<text>Leo. [Unvisited]</text>
+		<text color="fr_green">Leo. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_LEO" lvl="1" max_group="4" blue="false" hidden="true">
-		<text>Leo. [Defeated]</text>
+		<text color="fr_green">Leo. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_SEARAK" lvl="1" max_group="5" blue="false" hidden="false">
-		<text>Searak. (Drops an Energy Gatling) [10{]</text>
+		<text color="fr_brown">Searak. (Drops an Energy Gatling) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_searak_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_SEARAK"/>
+			<quest event="FR_REVENANT_APPARITION_SEARAK"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_SEARAK" lvl="1" max_group="5" blue="false" hidden="true">
-		<text>Searak. [Unvisited]</text>
+		<text color="fr_brown">Searak. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_SEARAK" lvl="1" max_group="5" blue="false" hidden="true">
-		<text>Searak. [Defeated]</text>
+		<text color="fr_brown">Searak. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_AUTO" lvl="1" max_group="6" blue="false" hidden="false">
-		<text>Auto-apparition. (Drops a Zoltan Auto Beam.) [10{]</text>
+		<text color="fr_auto">Auto-apparition. (Drops a Zoltan Auto Beam.) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_auto_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_AUTO"/>
+			<quest event="FR_REVENANT_APPARITION_AUTO"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_AUTO" lvl="1" max_group="6" blue="false" hidden="true">
-		<text>Auto-apparition. [Unvisited]</text>
+		<text color="fr_auto">Auto-apparition. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_AUTO" lvl="1" max_group="6" blue="false" hidden="true">
-		<text>Auto-apparition. [Defeated]</text>
+		<text color="fr_auto">Auto-apparition. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_WATCHER" lvl="1" max_group="7" blue="false" hidden="false">
-		<text>The Watcher. (Drops a Siren Pinpoint Beam) [10{]</text>
+		<text color="fr_gray">The Watcher. (Drops a Siren Pinpoint Beam) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_watcher_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_WATCHER"/>
+			<quest event="FR_REVENANT_APPARITION_WATCHER"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_WATCHER" lvl="1" max_group="7" blue="false" hidden="true">
-		<text>The Watcher. [Unvisited]</text>
+		<text color="fr_gray">The Watcher. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_WATCHER" lvl="1" max_group="7" blue="false" hidden="true">
-		<text>The Watcher. [Defeated]</text>
+		<text color="fr_gray">The Watcher. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_FLAGSHIP" lvl="1" max_group="8" blue="false" hidden="false">
-		<text>??? (Drops ???) [10{]</text>
+		<text color="fr_coalition">??? (Drops ???) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_flagship_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_FLAGSHIP"/>
+			<quest event="FR_REVENANT_APPARITION_FLAGSHIP"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_FLAGSHIP" lvl="1" max_group="8" blue="false" hidden="true">
-		<text>??? [Unvisited]</text>
+		<text color="fr_coalition">??? [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_FLAGSHIP" lvl="1" max_group="8" blue="false" hidden="true">
-		<text>The R.U.E.S. Flagship. [Defeated]</text>
+		<text color="fr_coalition">The R.U.E.S. Flagship. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="pilot" lvl="1" max_group="99" blue="false">
@@ -7325,81 +7402,81 @@
 
 
 <event name="STORAGE_CHECK_FR_URN_BONUS">
-	<text>You check what unnatural apparition can be summoned. You can summon an apparition as many times as you want until they are defeated; slaying one will unlock the next.</text>
+	<text>You check what umbral apparition can be summoned. You can summon an apparition as many times as you want until they are defeated; slaying one will unlock the next.</text>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_AUGUSTUS" lvl="1" max_group="0" blue="false" hidden="false">
-		<text>Augustus. (Drops a Golden Halberd) [10{]</text>
+		<text color="fr_gold">Augustus. (Drops a Golden Halberd) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_augustus_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_AUGUSTUS"/>
+			<quest event="FR_REVENANT_APPARITION_AUGUSTUS"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_AUGUSTUS" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Augustus. [Unvisited]</text>
+		<text color="fr_gold">Augustus. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_AUGUSTUS" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Augustus. [Defeated]</text>
+		<text color="fr_gold">Augustus. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_SALLY" lvl="1" max_group="1" blue="false" hidden="false">
-		<text>Sally. (Drops a Spectral Arachno-Bomb) [10{]</text>
+		<text color="fr_sally">Sally. (Drops a Spectral Arachno-Bomb) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_sally_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_SALLY"/>
+			<quest event="FR_REVENANT_APPARITION_SALLY"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_SALLY" lvl="1" max_group="1" blue="false" hidden="true">
-		<text>Sally. [Unvisited]</text>
+		<text color="fr_sally">Sally. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_SALLY" lvl="1" max_group="1" blue="false" hidden="true">
-		<text>Sally. [Defeated]</text>
+		<text color="fr_sally">Sally. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_PRINCE" lvl="1" max_group="2" blue="false" hidden="false">
-		<text>The Prince of Darkness. (Drops the Prince's Hell Cannon) [10{]</text>
+		<text color="fr_crimson">The Prince of Darkness. (Drops the Prince's Hell Cannon) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_prince_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_PRINCE"/>
+			<quest event="FR_REVENANT_APPARITION_PRINCE"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_PRINCE" lvl="1" max_group="2" blue="false" hidden="true">
-		<text>The Prince of Darkness. [Unvisited]</text>
+		<text color="fr_crimson">The Prince of Darkness. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_PRINCE" lvl="1" max_group="2" blue="false" hidden="true">
-		<text>The Prince of Darkness. [Defeated]</text>
+		<text color="fr_crimson">The Prince of Darkness. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_CAN_FIGHT_APPARITION_TRIRIAC" lvl="1" max_group="3" blue="false" hidden="false">
-		<text>Tririac. (Drops Tririac's Abductor Pinpoint) [10{]</text>
+		<text color="fr_tririac">Tririac. (Drops Tririac's Abductor Pinpoint) [10{]</text>
 		<event>
 			<text>You cautiously open the urn's top. A blinding light escapes the urn, before it falls dormant. A marker has appeared on your navigation system!</text>
 			<item_modify>
 				<item type="fuel" min="-10" max="-10"/>
 			</item_modify>
 			<variable name="loc_fr_tririac_apparition_progress" op="set" val="1"/>
-			<quest event="FR_HAUNT_APPARITION_TRIRIAC"/>
+			<quest event="FR_REVENANT_APPARITION_TRIRIAC"/>
 		</event>
 	</choice>
 	<choice req="FR_REQUIREMENT_PROGRESS_APPARITION_TRIRIAC" lvl="1" max_group="3" blue="false" hidden="true">
-		<text>Tririac. [Unvisited]</text>
+		<text color="fr_tririac">Tririac. [Unvisited]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_REQUIREMENT_DEFEATED_APPARITION_TRIRIAC" lvl="1" max_group="3" blue="false" hidden="true">
-		<text>Tririac. [Defeated]</text>
+		<text color="fr_tririac">Tririac. [Defeated]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="pilot" lvl="1" max_group="99" blue="false">
@@ -8206,15 +8283,15 @@
 		<event load="STORAGE_CHECK_FR_NEXUS_ENGINES_JUMP"/>
 	</choice>
 	<choice req="FR_NEXUS_ENGINES_DODGE" lvl="2" max_group="1" blue="false" hidden="true">
-		<text> Engine Efficacy. [UNAVAILABLE: You already have the max of this upgrade]</text>
+		<text>Engine Efficacy. [UNAVAILABLE: You already have the max of this upgrade]</text>
 		<event load="OPTION_INVALID"/>
 	</choice>
 	<choice req="FR_NEXUS_ENGINES_DODGE" lvl="1" max_lvl="1" max_group="1" blue="false" hidden="true">
-		<text> Engine Efficacy LvL 2. [Cost: 100~, 5{]</text>
+		<text>Engine Efficacy LvL 2. [Cost: 100~, 5{]</text>
 		<event load="STORAGE_CHECK_FR_NEXUS_ENGINES_DODGE"/>
 	</choice>
 	<choice req="FR_NEXUS_ENGINES_DODGE" lvl="0" max_lvl="1" max_group="1" blue="false" hidden="true">
-		<text> Engine Efficacy LvL 1. [Cost: 100~, 5{]</text>
+		<text>Engine Efficacy LvL 1. [Cost: 100~, 5{]</text>
 		<event load="STORAGE_CHECK_FR_NEXUS_ENGINES_DODGE"/>
 	</choice>
 	<choice req="FR_NEXUS_ENGINES_FUEL" lvl="3" max_group="2" blue="false" hidden="true">
@@ -8926,7 +9003,7 @@
 
 <event name="STORAGE_CHECK_FR_NEXUS_CLOAK_EMP">
     <text>You are about to install the EMP Blast upgrade.
-[Effects: When cloaking, non-surge enemy combat drones and hacking probes attached to your hull are destroyed.]</text>
+[Effects: When cloaking, non-surge enemy combat drones are stunned and hacking probes attached to your hull are destroyed.]</text>
     <choice hidden="true">
         <text>Perform the upgrade. [Cost: 150~ , 6{, 6|, 6}]</text>
         <event>
@@ -9769,7 +9846,7 @@
 
 <event name="STORAGE_CHECK_FR_NEXUS_DOORS_GRID">
     <text>You are about to install the Improvised E-Grid upgrade.
-[Effects: Enemy boarders lose 2hp/s, plus an extra 1 hp/s for each level of the Doors system.]</text>
+[Effects: Enemy boarders lose 2 hp/s, plus an extra 1 hp/s for each level of the Doors system.]</text>
     <choice hidden="true">
         <text>Perform the upgrade. [Cost: 100~]</text>
         <event>
@@ -9991,7 +10068,7 @@
 	<text>Currently configuring Modular Shield. [No modules]</text>
 	<choice hidden="true" req="MODULE_BIO" blue="false">
 		<text>Install the Anti-Bio Module.
-		Effect: Makes your ship an auto-ship while slotted.
+		Effect: Makes your ship an Auto-ship while slotted.
 		</text>
 		<event>
 			<text>...</text>
@@ -10381,7 +10458,7 @@
 		<text>Detach the module.</text>
 		<event>
 			<text>...</text>
-			<remove name="FR_HEKTAR_SUPERSHIELD_FIRE"/>
+			<remove name="FR_HEKTAR_SUPERSHIELD_PIERCE"/>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
@@ -10559,7 +10636,7 @@
       <weapon name="FISH_FOOD_FR_TARTARUS"/>
     </event>
   </mod-append:choice>
-  <mod-append:choice blue="true" req="fish_obtained_FR_TARTARUS" lvl="0" max_lvl="0">
+  <mod-append:choice blue="true" req="fish_obtained_FR_TARTARUS" lvl="0" max_lvl="0" hidden="true">
     <text>Unknown</text>
     <event load="OPTION_INVALID"/>
   </mod-append:choice>
@@ -10619,5 +10696,155 @@
         </event>
     </mod-append:choice>
 </mod:findName>
+
+<!-- 
+**********************************************************************************************************************
+                                         REPUTATION
+**********************************************************************************************************************
+-->
+
+<mod:findName type="event" name="STORAGE_CHECK_STATUS_NOTORIETY">
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="-999" max_lvl="-6">
+		<text>Commonwealth Notoriety [--5]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="-5" max_lvl="-5">
+		<text>Commonwealth Notoriety [-5]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="-4" max_lvl="-4">
+		<text>Commonwealth Notoriety [-4]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="-3" max_lvl="-3">
+		<text>Commonwealth Notoriety [-3]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="-2" max_lvl="-2">
+		<text>Commonwealth Notoriety [-2]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="-1" max_lvl="-1">
+		<text>Commonwealth Notoriety [-1]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="1" max_lvl="1">
+		<text>Commonwealth Notoriety [1]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="2" max_lvl="2">
+		<text>Commonwealth Notoriety [2]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="3" max_lvl="3">
+		<text>Commonwealth Notoriety [3]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="4" max_lvl="4">
+		<text>Commonwealth Notoriety [4]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="5" max_lvl="5">
+		<text>Commonwealth Notoriety [5]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_rep_commonwealth" lvl="6" max_lvl="999">
+		<text>Commonwealth Notoriety [5++]</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+</mod:findName>
+
+<!-- 
+**********************************************************************************************************************
+                                         TRANSPORT
+**********************************************************************************************************************
+-->
+
+<mod:findName type="event" name="STORAGE_CHECK_STATUS_LOOT">
+	<mod-append:choice hidden="true" req="fr_ach_trans_commonwealth" lvl="1" blue="false">
+		<text>(Commonwealth Refuge)</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+</mod:findName>
+
+<!-- 
+**********************************************************************************************************************
+                                         PROBE HUNTER
+**********************************************************************************************************************
+-->
+
+<event name="STORAGE_CHECK_FR_AUTO_HUNTER_GEAR">
+    <text>Are you sure you want to do this? 
+[Spawns a quest marker for a guaranteed encounter]</text>
+    <choice hidden="true" req="loc_laststand" lvl="0" max_group="0" blue="false">
+        <text>Yes.</text>
+		<event>
+			<text>Which kind of probe do you want to hunt? This will dictate what its reward will be.</text>
+			<choice>
+				<text>Weapon focused.</text>
+				<event load="STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_LOCATED_WEAPONS"/>
+			</choice>
+			<choice>
+				<text>Drone focused.</text>
+				<event load="STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_LOCATED_DRONES"/>
+			</choice>
+			<choice>
+				<text>Nevermind, do something else.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+		</event>
+    </choice>
+    <choice hidden="true" req="loc_laststand" lvl="1" max_group="0" blue="false">
+        <text id="storage_not_enough_time"/>
+        <event load="OPTION_INVALID"/>
+    </choice>
+    <choice req="pilot" lvl="1" max_group="1" blue="false">
+        <text>Nevermind, do something else.</text>
+        <event load="STORAGE_CHECK"/>
+    </choice>
+</event>
+
+
+<event name="STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_LOCATED_WEAPONS">
+	<text>Your gear does its job and finds a matching probe in the vicinity. You mark down the coordinates.</text>
+	<quest event="STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_PROBE_WEAPONS"/>
+</event>
+
+<event name="STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_LOCATED_DRONES">
+	<text>Your gear does its job and finds a matching probe in the vicinity. You mark down the coordinates.</text>
+	<quest event="STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_PROBE_DRONES"/>
+</event>
+
+<event name="STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_PROBE_WEAPONS">
+	<preventQuest/>
+	<preventFleet/>
+	<beaconType id="map_icon_fr_cel_probe" global="true">
+		<color r="0" g="255" b="178" a="1"/>
+		<unvisitedTooltip>Location of a Probe.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+	</beaconType>
+	<text>You find a nearby continuity probe repairing itself. If you strike now, it won't have a chance to flee.</text>
+	<ship load="FR_SHIP_COLLECTOR_CONTINUITY_PROBE_WEAPON" hostile="true"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_PROBE_DRONES">
+	<preventQuest/>
+	<preventFleet/>
+	<beaconType id="map_icon_fr_cel_probe" global="true">
+		<color r="0" g="255" b="178" a="1"/>
+		<unvisitedTooltip>Location of a Probe.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+	</beaconType>
+	<text>You find a nearby continuity probe repairing itself. If you strike now, it won't have a chance to flee.</text>
+	<ship load="FR_SHIP_COLLECTOR_CONTINUITY_PROBE_DRONE" hostile="true"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
 
 </FTL>
