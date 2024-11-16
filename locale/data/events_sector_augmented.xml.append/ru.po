@@ -1,9 +1,17 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-11-16 19:22+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_sector_augmentedxmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.8.1\n"
 
 #: src-en/data/events_sector_augmented.xml.append:3
 msgid ""
@@ -21,12 +29,11 @@ msgid ""
 msgstr "Спасти \"предателя\" в шаттле."
 
 #: src-en/data/events_sector_augmented.xml.append:8
-#, fuzzy
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE\"]/choice[1]/event/text"
 msgstr ""
-"Вы быстро догоняете маленький шаттл и предлагаете его обитателю безопасность"
-" на вашем корабле. Как ни странно, из шаттла на ваш корабль поднимается "
+"Вы быстро догоняете маленький шаттл и предлагаете его обитателю безопасность "
+"на вашем корабле. Как ни странно, из шаттла на ваш корабль поднимается "
 "Возвышенный странного цвета и быстро благодарит вас, прежде чем орудия "
 "разъяренного корабля Возвышенных приходит в действие!"
 
@@ -66,12 +73,11 @@ msgid ""
 msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_augmented.xml.append:35
-#, fuzzy
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/text"
 msgstr ""
-"Странный ланиус очень рад вашей помощи. \"Великий, спаси Церковь от подлых "
-"Возвышенных!\" поясняет ланиус, слегка подпрыгивая."
+"После окончания боя вы осматриваете свой корабль, пытаясь найти странного "
+"ланиуса."
 
 #: src-en/data/events_sector_augmented.xml.append:37
 msgid ""
@@ -84,6 +90,16 @@ msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
+"Странный ланиус очень рад вашей помощи. \"Великий, спаси церковь от подлых "
+"Возвышенных!\" - восклицает ланиус, слегка подпрыгивая на месте.\n"
+"\n"
+"\t\t\tВы отвечаете, что в этом нет ничего особенного, просто не хотелось "
+"оставлять его умирать вот так.\n"
+"\t\t\t\t\n"
+"\t\t\t\"Я тоже скромный! Я пойду с вами куда угодно! А еще поделись "
+"чертежами крейсера, я сам его сделал!\" Ланиус отталкивает вас в сторону и "
+"от руки рисует в компьютере чертежи странного синего крейсера ланиусов, "
+"после чего еще раз благодарит вас."
 
 #: src-en/data/events_sector_augmented.xml.append:49
 msgid ""
@@ -96,38 +112,54 @@ msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"После боя вы находите ланиуса в плохом состоянии. Кажется, он на грани... "
+"\"Великий... один... защитил... церковь...\", - тяжело произносит ланиус, "
+"каждый вздох которого грозит стать последним..."
 
 #: src-en/data/events_sector_augmented.xml.append:53
-#, fuzzy
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"0\"]/text"
-msgstr "Мы ничего не можем сделать."
+msgstr "Мы ничего не можем сделать..."
 
 #: src-en/data/events_sector_augmented.xml.append:55
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"0\"]/event/text"
 msgstr ""
+"\"Пожалуйста... возьмите... чертежи крейсера... сделанные... мной... для... "
+"достой... го... д... друг... а\". Ланиус протягивает вам чертежи странного "
+"синего крейсера ланиусов, похоже, нарисованные от руки, после чего он "
+"растворяются в луже металла..."
 
 #: src-en/data/events_sector_augmented.xml.append:59
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"medbay\" and "
 "@lvl=\"0\"]/event/choice/text"
-msgstr ""
+msgstr "Покойся с миром..."
 
 #: src-en/data/events_sector_augmented.xml.append:65
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"2\"]/text"
-msgstr ""
+msgstr "(Улучш. Медотсек) Спасти его!"
 
 #: src-en/data/events_sector_augmented.xml.append:67
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"2\"]/event/text"
 msgstr ""
+"Быстро, как молния, вы и ваш экипаж переносите ланиуса в Медотсек. Его "
+"улучшенные способности позволяют обратить вспять процесс распада и в конце "
+"концов стабилизировать состояние ланиуса. После полного выздоровления он "
+"прыгает от радости, когда снова видит вас.\n"
+"\n"
+"\t\t\t\t\t\"Спаситель! Дважды спаситель! Ты спас церковь от самой смерти! Я "
+"буду сражаться с вами до конца вселенной! А еще поделюсь чертежами крейсера, "
+"я сам его сделал!\" Ланиус отталкивает вас в сторону и от руки рисует в "
+"компьютере чертежи странного синего крейсера ланиусов, после чего еще раз "
+"благодарит вас."
 
 #: src-en/data/events_sector_augmented.xml.append:70
 msgid ""
@@ -140,13 +172,23 @@ msgstr "Церковь"
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"clonebay\"]/text"
-msgstr ""
+msgstr "(Улучш. Клон-отсек) Спасти его!"
 
 #: src-en/data/events_sector_augmented.xml.append:78
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"clonebay\"]/event/text"
 msgstr ""
+"Быстро, как молния, вы и ваш экипаж переносите ланиуса в Клон-отсек, успевая "
+"зарегистрировать его в нем до того, как он растворится в луже металла. После "
+"того как процесс клонирования завершился и ланиус выходит из Клон-отсека, он "
+"прыгает от радости, увидев вас снова.\n"
+"\n"
+"\t\t\t\t\t\"Спаситель! Дважды спаситель! Ты спас церковь от самой смерти! Я "
+"буду сражаться с вами до конца вселенной! А еще поделюсь чертежами крейсера, "
+"я сам его сделал!\" Ланиус отталкивает вас в сторону и от руки рисует в "
+"компьютере чертежи странного синего крейсера ланиусов, после чего еще раз "
+"благодарит вас."
 
 #: src-en/data/events_sector_augmented.xml.append:81
 msgid ""
@@ -158,13 +200,22 @@ msgstr "Церковь"
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"LIST_CREW_MEDICAL\"]/text"
-msgstr ""
+msgstr "(Член экипажа-Медик) Спасти его!"
 
 #: src-en/data/events_sector_augmented.xml.append:89
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"LIST_CREW_MEDICAL\"]/event/text"
 msgstr ""
+"Быстро, как молния, ваш Медик пытаетесь стабилизировать его состояние. С "
+"трудом, но вашему экипажу удается обратить вспять процесс распада и в конце "
+"концов стабилизировать состояние ланиуса.\n"
+"\n"
+"\t\t\t\t\t\"Спаситель! Дважды спаситель! Ты спас церковь от самой смерти! Я "
+"буду сражаться с вами до конца вселенной! А еще поделюсь чертежами крейсера, "
+"я сам его сделал!\" Ланиус отталкивает вас в сторону и от руки рисует в "
+"компьютере чертежи странного синего крейсера ланиусов, после чего еще раз "
+"благодарит вас."
 
 #: src-en/data/events_sector_augmented.xml.append:92
 msgid ""
@@ -176,13 +227,22 @@ msgstr "Церковь"
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[5]/text"
-msgstr ""
+msgstr "(Медицинский дрон) Спасти его!"
 
 #: src-en/data/events_sector_augmented.xml.append:100
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[5]/event/text"
 msgstr ""
+"Быстро, как молния, ваш медицинский дрон пытается стабилизировать его "
+"состояние. С трудом, но дрону удается обратить вспять процесс распада и в "
+"конце концов стабилизировать состояние ланиуса.\n"
+"\n"
+"\t\t\t\t\t\"Спаситель! Дважды спаситель! Ты спас церковь от самой смерти! Я "
+"буду сражаться с вами до конца вселенной! А еще поделюсь чертежами крейсера, "
+"я сам его сделал!\" Ланиус отталкивает вас в сторону и от руки рисует в "
+"компьютере чертежи странного синего крейсера ланиусов, после чего еще раз "
+"благодарит вас."
 
 #: src-en/data/events_sector_augmented.xml.append:103
 msgid ""
@@ -194,13 +254,22 @@ msgstr "Церковь"
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[6]/text"
-msgstr ""
+msgstr "(Исцеляющая бомба) Спасти его! [-1}]"
 
 #: src-en/data/events_sector_augmented.xml.append:111
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[6]/event/text"
 msgstr ""
+"Быстро, как молния, вы добираетесь до системы управления оружием и "
+"запускаете бомбу в отсек, где находится ланиус. Бомба взрывается как раз "
+"вовремя, чтобы обратить вспять процесс распада и стабилизировать ланиуса.\n"
+"\n"
+"\t\t\t\t\t\"Спаситель! Дважды спаситель! Ты спас церковь от самой смерти! Я "
+"буду сражаться с вами до конца вселенной! А еще поделюсь чертежами крейсера, "
+"я сам его сделал!\" Ланиус отталкивает вас в сторону и от руки рисует в "
+"компьютере чертежи странного синего крейсера ланиусов, после чего еще раз "
+"благодарит вас."
 
 #: src-en/data/events_sector_augmented.xml.append:114
 msgid ""
