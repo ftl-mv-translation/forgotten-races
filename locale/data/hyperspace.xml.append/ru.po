@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2024-11-16 19:22+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Aleev <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datahyperspace-xml-append/ru/>\n"
 "Language: ru\n"
@@ -23,17 +23,13 @@ msgstr ""
 "Помимо обычных преимуществ суперщита, щиты перезаряжаются на 25% быстрее."
 
 #: src-en/data/hyperspace.xml.append:112
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
-"БОНУСНАЯ ДОБЫЧА ПРИВИДЕНИЙ:\n"
-"Этот враг несет особое оружие или дрон, усиленный сверхъестественным образом. При уничтожении корабля вероятность выпадения предмета составляет всего 50%, но убийство экипажа гарантирует его выпадение.\n"
-"\n"
-"При первом получении добытого орудия вы также разблокируете корабль.\n"
-"\n"
-"Если корабль автоматический, добыча будет выпадать всегда."
+"ШАПОЧКИ ИЗ ФОЛЬГИ:\n"
+"Пока вражеский Контроль разума запитан до 3-го уровня, весь вражеский экипаж "
+"получает полный иммунитет к КР]"
 
 #: src-en/data/hyperspace.xml.append:117
 msgid ""
@@ -402,22 +398,23 @@ msgstr ""
 "Каждый раз, когда вы наносите этому врагу урон по корпусу своим оружием, от него отламывается осколок и летит к вашему кораблю. Он не пробивает щиты, но не может промахнуться или быть сбит защитными дронами, наносит 2 урона и всегда создает пробоину. Корабль также имеет 20% шанс свести на нет урон по системам."
 
 #: src-en/data/hyperspace.xml.append:340
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[43]/tooltip"
 msgstr ""
 "ЗАМОРОЖЕННЫЕ СПОРЫ:\n"
-"Ваш экипаж получает на 50% больше урона от всех источников и будет двигаться на 25% медленнее, находясь на корабле врага, а также в том же отсеке, что и вражеский снеговик."
+"Ваш экипаж получает на 50% больше урона от всех источников и будет двигаться "
+"на 25% медленнее, находясь на корабле врага, а также в том же отсеке, что и "
+"вражеский снеговик."
 
 #: src-en/data/hyperspace.xml.append:345
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[44]/tooltip"
 msgstr ""
 "ХОЛОДНЫЙ ВОЗДУХ:\n"
-"Экипаж вражеских снеговиков восстанавливают здоровье на 20 ОЗ/с, пока находится на борту вражеского корабля."
+"Экипаж вражеских снеговиков восстанавливают здоровье на 20 ОЗ/с, пока "
+"находится на борту вражеского корабля."
 
 #: src-en/data/hyperspace.xml.append:350
 msgid ""
@@ -891,13 +888,14 @@ msgid ""
 msgstr "СОЛЬ"
 
 #: src-en/data/hyperspace.xml.append:3285
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_obyn_cel\"]/powerEffect/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:20с  ДЛИТЕЛЬНОСТЬ:15с]\n"
-"\t\t\t\tНепрерывно наносит урон ближайшим членам экипажа и замедляет их скорость на 25%. Враги теряют 4 ОЗ/с, союзники - 2 ОЗ/с, слизни теряют дополнительные 4 ОЗ/с."
+"\t\t\t\tНепрерывно наносит урон ближайшим членам экипажа и замедляет их "
+"скорость на 25%. Враги теряют 4 ОЗ/с, союзники - 2 ОЗ/с, слизни теряют "
+"дополнительные 4 ОЗ/с."
 
 #: src-en/data/hyperspace.xml.append:3370
 msgid ""
@@ -1132,13 +1130,14 @@ msgid ""
 msgstr "БЛЕСК"
 
 #: src-en/data/hyperspace.xml.append:4802
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_reborn_zulu\"]/powerEffect/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:30с]\n"
-"\t\t\tПередвигается со скоростью 20% и наносит на 40% меньший урон при саботаже, но мгновенно поглощает кислород, а также исцеляет ближайших союзников на 10 ОЗ/с."
+"\t\t\tПередвигается со скоростью 20% и наносит на 40% меньший урон при "
+"саботаже, но мгновенно поглощает кислород, а также исцеляет ближайших "
+"союзников на 10 ОЗ/с."
 
 #: src-en/data/hyperspace.xml.append:4888
 msgid ""
@@ -1491,7 +1490,6 @@ msgid ""
 msgstr "СТИМУЛЯНТЫ"
 
 #: src-en/data/hyperspace.xml.append:6538
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_ghost_vortigon\"]/powerEffect[2]/tooltip"
@@ -1566,7 +1564,6 @@ msgid ""
 msgstr "БЛОКИРОВКА"
 
 #: src-en/data/hyperspace.xml.append:6775
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_ghost_ruwen\"]/powerEffect[2]/tooltip"
@@ -1627,13 +1624,13 @@ msgid ""
 msgstr "СОЛЬ"
 
 #: src-en/data/hyperspace.xml.append:6946
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_ghost_obyn\"]/powerEffect[2]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:20с ДЛИТЕЛЬНОСТЬ:15с]\n"
-"\t\t\t\tНепрерывно наносит урон ближайшему экипажу. Враги теряют 4 ОЗ/с, союзники - 2 ОЗ/с, слизни теряют дополнительные 4 ОЗ/с."
+"\t\t\t\tНепрерывно наносит урон ближайшему экипажу. Враги теряют 4 ОЗ/с, "
+"союзники - 2 ОЗ/с, слизни теряют дополнительные 4 ОЗ/с."
 
 #: src-en/data/hyperspace.xml.append:7010
 msgid ""
@@ -1882,13 +1879,15 @@ msgid ""
 msgstr "ЗАЖЕЧЬ"
 
 #: src-en/data/hyperspace.xml.append:7787
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_ghost_alkali\"]/powerEffect[2]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:18с ДЛИТЕЛЬНОСТЬ:15с -75ОЗ]\n"
-"\t\t\t\tПолностью вылечивает всех членов дружественного экипажа в отсеке. Медленно восстанавливает потерянное здоровье, а также исцеляет всех дружественных членов экипажа на корабле со скоростью 5,5 ОЗ/с и дает временный иммунитет к удушью."
+"[ПЕРЕЗАРЯДКА:18с  ДЛИТЕЛЬНОСТЬ:15с  -75ОЗ]\n"
+"\t\t\t\tПолностью вылечивает всех членов дружественного экипажа в отсеке. "
+"Медленно восстанавливает потерянное здоровье, а также исцеляет всех "
+"дружественных членов экипажа на корабле со скоростью 5,5 ОЗ/с и дает "
+"временный иммунитет к удушью."
 
 #: src-en/data/hyperspace.xml.append:7832
 msgid ""
@@ -1997,13 +1996,13 @@ msgid ""
 msgstr "РЫЧАТЬ"
 
 #: src-en/data/hyperspace.xml.append:8043
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_ghost_queen\"]/powerEffect[2]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:20с ДЛИТЕЛЬНОСТЬ:9с]\n"
-"\t\t\t\tДает бонус к регенерации 2 ОЗ/с и 50% скорости передвижения другим союзным паукам, находящимся поблизости."
+"[ПЕРЕЗАРЯДКА:20с  ДЛИТЕЛЬНОСТЬ:9с]\n"
+"\t\t\t\tДает бонус к регенерации 2 ОЗ/с и 50% скорости передвижения другим "
+"союзным паукам, находящимся поблизости."
 
 #: src-en/data/hyperspace.xml.append:8127
 msgid ""
@@ -2162,13 +2161,13 @@ msgid ""
 msgstr "ТЬМА"
 
 #: src-en/data/hyperspace.xml.append:8567
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_prince\"]/powerEffect/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:30с ДЛИТЕЛЬНОСТЬ:10с]\n"
-"\t\t\tПогружает отсек во тьму, сводя на нет весь урон, наносимый вражеским экипажем, и снижая скорость ремонта и саботажа до 0.25x."
+"[ПЕРЕЗАРЯДКА:30с  ДЛИТЕЛЬНОСТЬ:10с]\n"
+"\t\t\tПогружает отсек во тьму, сводя на нет весь урон, наносимый вражеским "
+"экипажем, и снижая скорость ремонта и саботажа до 0.25x."
 
 #: src-en/data/hyperspace.xml.append:8636
 msgid ""
@@ -2177,13 +2176,13 @@ msgid ""
 msgstr "ТЬМА"
 
 #: src-en/data/hyperspace.xml.append:8637
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_prince_enemy\"]/powerEffect/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:30с ДЛИТЕЛЬНОСТЬ:10с]\n"
-"\t\t\tПогружает отсек во тьму, сводя на нет весь урон, наносимый вражеским экипажем, и снижая скорость ремонта и саботажа до 0.25x."
+"[ПЕРЕЗАРЯДКА:30с  ДЛИТЕЛЬНОСТЬ:10с]\n"
+"\t\t\tПогружает отсек во тьму, сводя на нет весь урон, наносимый вражеским "
+"экипажем, и снижая скорость ремонта и саботажа до 0.25x."
 
 #: src-en/data/hyperspace.xml.append:8743
 msgid ""
@@ -2448,13 +2447,14 @@ msgid ""
 msgstr "СОЛЬ"
 
 #: src-en/data/hyperspace.xml.append:15601
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_SALT_PRO_SLUG_SALT\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:20с ДЛИТЕЛЬНОСТЬ:15с]\n"
-"\t\t\t\tНепрерывно наносит урон ближайшему экипажу и замедляет его скорость на 25%. Враги теряют 8 ОЗ/с, союзники - 4 ОЗ/с, а слизни исцеляются на 4 ОЗ/с."
+"[ПЕРЕЗАРЯДКА:20с  ДЛИТЕЛЬНОСТЬ:15с]\n"
+"\t\t\t\tНепрерывно наносит урон ближайшему экипажу и замедляет его скорость "
+"на 25%. Враги теряют 8 ОЗ/с, союзники - 4 ОЗ/с, а слизни исцеляются на 4 "
+"ОЗ/с."
 
 #: src-en/data/hyperspace.xml.append:15740
 msgid ""
@@ -2463,13 +2463,12 @@ msgid ""
 msgstr "СОЛЬ"
 
 #: src-en/data/hyperspace.xml.append:15741
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_SALT_HEALING_CRYTALS\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:20с ДЛИТЕЛЬНОСТЬ:15с]\n"
-"\t\t\t\tНепрерывно исцеляет ближайший дружественный экипаж на 6ОХ/с."
+"[ПЕРЕЗАРЯДКА:20с  ДЛИТЕЛЬНОСТЬ:15с]\n"
+"\t\t\t\tНепрерывно исцеляет ближайший дружественный экипаж на 6 ОЗ/с."
 
 #: src-en/data/hyperspace.xml.append:15870
 msgid ""
@@ -2633,39 +2632,34 @@ msgid "data/hyperspace.xml.append$//unique_anointed[@name=\"Anointed\"]/@name"
 msgstr "Помазанница"
 
 #: src-en/data/hyperspace.xml.append:19005
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER\"]/crew/unique_wither[1]/@name"
-msgstr "Витэр"
+msgstr "Аэнвитэ"
 
 #: src-en/data/hyperspace.xml.append:19006
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER\"]/crew/unique_wither[2]/@name"
-msgstr "Витэр"
+msgstr "Аэнвитэ"
 
 #: src-en/data/hyperspace.xml.append:19007
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER\"]/crew/unique_wither[3]/@name"
-msgstr "Витэр"
+msgstr "Аэнвитэ"
 
 #: src-en/data/hyperspace.xml.append:19016
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER_2\"]/crew/unique_wither[1]/@name"
-msgstr "Витэр"
+msgstr "Аэнвитэ"
 
 #: src-en/data/hyperspace.xml.append:19017
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER_2\"]/crew/unique_wither[2]/@name"
-msgstr "Витэр"
+msgstr "Аэнвитэ"
 
 #: src-en/data/hyperspace.xml.append:19027
 msgid ""
@@ -4198,7 +4192,6 @@ msgid ""
 msgstr "Встаньте на сторону \"террористов\" и завершите начатое ими дело."
 
 #: src-en/data/hyperspace.xml.append:24213
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_OSMIAN\"]/secretDescription"
 msgstr "Атакуйте столицу Министерства."
@@ -4258,7 +4251,6 @@ msgid ""
 msgstr "Примите предложение последнего судна Увядших."
 
 #: src-en/data/hyperspace.xml.append:24237
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_DEAL\"]/secretDescription"
 msgstr "Согласитесь на сделку в глубинах столицы Династии."
@@ -4279,7 +4271,6 @@ msgid ""
 msgstr "Примите предложение, предложенное последним судном Увядших."
 
 #: src-en/data/hyperspace.xml.append:24245
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_CREWKILL\"]/secretDescription"
 msgstr "Откажитесь от подозрительной сделки в глубинах столицы Династии."
@@ -4652,10 +4643,9 @@ msgid ""
 msgstr "Миссия высокой важности"
 
 #: src-en/data/hyperspace.xml.append:24391
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_RENEGADE_COMMONWEALTH_CRUISER\"]/description"
-msgstr "Победите Ренегата Содружества и получите его особый прототип."
+msgstr "Победите Крейсера-Ренегата Содружества и получите его особый прототип."
 
 #: src-en/data/hyperspace.xml.append:24392
 msgid ""
@@ -4673,10 +4663,9 @@ msgid ""
 msgstr "Опечатка \"Фиксатор\""
 
 #: src-en/data/hyperspace.xml.append:24399
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_RENEGADE_COMMONWEALTH_GUARDIAN\"]/description"
-msgstr "Победите Ренегата Содружества и получите его особый прототип."
+msgstr "Победите Хранителя-Ренегата Содружества и получите его особый прототип."
 
 #: src-en/data/hyperspace.xml.append:24400
 msgid ""
