@@ -1,9 +1,17 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-11-16 19:22+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_special_storagexmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.8.1\n"
 
 #: src-en/data/events_special_storage.xml.append:15
 msgid ""
@@ -33,11 +41,10 @@ msgid ""
 msgstr "(Присутствие Наблюдателей) Изменить свой бонус."
 
 #: src-en/data/events_special_storage.xml.append:33
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_AUG\"]/mod-"
 "append:choice[3]/text"
-msgstr "(Холодный воздух) Создать снеговика. [3{]"
+msgstr "(Автоохотник) Просканировать сектор в поисках ближайшего зонда."
 
 #: src-en/data/events_special_storage.xml.append:37
 msgid ""
@@ -46,7 +53,6 @@ msgid ""
 msgstr "(Холодный воздух) Создать снеговика. [3{]"
 
 #: src-en/data/events_special_storage.xml.append:39
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_AUG\"]/mod-"
 "append:choice[4]/event/text"
@@ -87,7 +93,6 @@ msgid ""
 msgstr "(Умный термостат) Создать снеговика. [5{]"
 
 #: src-en/data/events_special_storage.xml.append:68
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_AUG\"]/mod-"
 "append:choice[6]/event/text"
@@ -746,10 +751,9 @@ msgstr ""
 " для вас время."
 
 #: src-en/data/events_special_storage.xml.append:668
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_AETHER_FORGE_CRAFT\"]/choice[11]/text"
-msgstr "Выковать дрон \"Бойня\" Содружества."
+msgstr "Выковать миномет \"Натиск\" Содружества."
 
 #: src-en/data/events_special_storage.xml.append:675
 msgid ""
@@ -6173,14 +6177,17 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:4846
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX_BEHAVIOUR\"]/text"
 msgstr ""
 "Вы собираетесь добавить модификацию Неагрессивное поведение.\n"
-"\t[Если на вражеском корабле нет ни одного сферакса, все ваши сфераксы получают удвоенную скорость ремонта. Сфераксы на вражеском корабле наносят вдвое меньше боевого урона]\n"
+"\t[Если на вражеском корабле нет ни одного сферакса, все ваши сфераксы "
+"получают удвоенную скорость ремонта. Сфераксы на вражеском корабле наносят "
+"вдвое меньше боевого урона]\n"
 "\t\n"
-"\t[Предупреждение: После ее добавления вы больше не сможете применять основные модификации к экипажу сфераксов. Вы также не сможете деактивировать эту модификацию]"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу сфераксов. Вы также не сможете деактивировать "
+"эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:4851
 msgid ""
@@ -7527,13 +7534,14 @@ msgid ""
 msgstr "Готово..."
 
 #: src-en/data/events_special_storage.xml.append:5782
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OBELISK_SACRIFICE_1\"]/text"
 msgstr ""
 "Покормить корабль обелиском. [1/2]\n"
-"\t\t\t[Текущий бонус: ваш корабль имеет 3 дополнительных слоя энергетического щита]\n"
-"\t\t\t[Следующий бонус: ваш корабль получит 6 дополнительных слоя энергетического щита]"
+"\t\t\t[Текущий бонус: ваш корабль имеет 3 дополнительных слоя "
+"энергетического щита]\n"
+"\t\t\t[Следующий бонус: ваш корабль получит 6 дополнительных слоя "
+"энергетического щита]"
 
 #: src-en/data/events_special_storage.xml.append:5786
 msgid ""
@@ -7856,23 +7864,21 @@ msgstr ""
 "любые вопросы морали."
 
 #: src-en/data/events_special_storage.xml.append:6012
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JOB_FLEET\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
-"Использовать золотой миномет \"Натиск\" [-30~, дает задержку флота на 2 "
-"прыжка, не влияет на дурную репутацию]"
+"Использовать миномет \"Натиск\" Содружества [-10~, дает задержку флота на 3 "
+"прыжка]"
 
 #: src-en/data/events_special_storage.xml.append:6014
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JOB_FLEET\"]/mod-"
 "append:choice[2]/event/text"
 msgstr ""
-"Вы загружаете лом в пустые шахты и устраиваете ловушку для повстанцев. Это, "
-"конечно, незаконно, но высокая стоимость развалин шахты наверняка привлечет "
-"внимание всех, кто отправится расследовать ваши злодеяния."
+"Вы подготавливаете боеприпасы и устраиваете ловушку для повстанцев. Это, "
+"безусловно, незаконно, но вы успеете исчезнуть до того, как это будет иметь "
+"значение."
 
 #: src-en/data/events_special_storage.xml.append:6020
 msgid ""
@@ -7938,7 +7944,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:6069
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"SENTRY_FROST\"]/event/choice/event/text"
 msgstr ""
@@ -7960,7 +7965,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:6083
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"LASER_FROST_1\"]/event/choice/event/text"
 msgstr ""
@@ -7982,7 +7986,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:6097
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"LASER_FROST_2\"]/event/choice/event/text"
 msgstr ""
@@ -8004,7 +8007,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:6111
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"LASER_FROST_2_PLAYER\"]/event/choice/event/text"
 msgstr ""
@@ -8026,7 +8028,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:6125
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"FROST_CHARGEGUN\"]/event/choice/event/text"
 msgstr ""
@@ -8048,7 +8049,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:6139
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"FROST_CHARGEGUN_CHAOS\"]/event/choice/event/text"
 msgstr ""
@@ -8070,7 +8070,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:6153
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"TRC_MISSILES_FROST\"]/event/choice/event/text"
 msgstr ""
@@ -8092,7 +8091,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:6167
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"TRC_SHOTGUN_FROST\"]/event/choice/event/text"
 msgstr ""
@@ -8114,7 +8112,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:6181
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"FR_CHILLS_SPORE_BOMBLAUNCHER\"]/event/choice/event/text"
 msgstr ""
@@ -8136,7 +8133,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:6195
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"FR_CHILLS_SNOW_FLAK\"]/event/choice/event/text"
 msgstr ""
@@ -8158,7 +8154,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_storage.xml.append:6209
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_FROST_DISMANTLE\"]/choice[@req=\"FR_VIN_FROST_MISSILE\"]/event/choice/event/text"
 msgstr ""
@@ -9224,11 +9219,10 @@ msgid ""
 msgstr "На свет появляется новый демон."
 
 #: src-en/data/events_special_storage.xml.append:7011
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_REAL\"]/mod-"
 "append:choice/text"
-msgstr "(Урна с приведениями) Выбрать, какое привидение призвать."
+msgstr "(Урна с ревенантами) Выбрать, какого ревенанта призвать."
 
 #: src-en/data/events_special_storage.xml.append:7019
 msgid ""
@@ -9267,10 +9261,9 @@ msgstr ""
 "возрожденных явлений и пройти Тартар в режиме хаоса]"
 
 #: src-en/data/events_special_storage.xml.append:7045
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN\"]/choice[@req=\"FR_REQUIREMENT_CAN_FIGHT_BONUS_APPARITIONS\"]/text"
-msgstr "Противоестественные явления (Бонусные приведения)."
+msgstr "Умбральные явления (Бонусные ревенанты)."
 
 #: src-en/data/events_special_storage.xml.append:7051
 msgid ""
@@ -9696,13 +9689,12 @@ msgid ""
 msgstr "Неважно, заняться чем-то еще."
 
 #: src-en/data/events_special_storage.xml.append:7405
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_URN_BONUS\"]/text"
 msgstr ""
-"Вы узнаете, какое противоестественное явление может быть призвано. Вы можете"
-" призвать приведений сколько угодно раз, пока они не будут побеждены; убив "
-"одно, вы откроете следующее."
+"Вы узнаете, какое умбральное явление может быть призвано. Вы можете призвать "
+"приведений сколько угодно раз, пока они не будут побеждены; убив одно, вы "
+"откроете следующее."
 
 #: src-en/data/events_special_storage.xml.append:7407
 msgid ""
@@ -11565,12 +11557,13 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:9005
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLOAK_EMP\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение ЭМИ-взрыв.\n"
-"[Эффекты: Во время маскировки уничтожаются вражеские боевые дроны и зонды Взломщика, прикрепленные к вашему корпусу]"
+"[Эффекты: Во время маскировки вражеские боевые дроны, не находящиеся в зоне "
+"поражения, оглушаются, а хакерские зонды, прикрепленные к вашему корпусу, "
+"уничтожаются]"
 
 #: src-en/data/events_special_storage.xml.append:9008
 msgid ""
@@ -12497,12 +12490,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:9848
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_DOORS_GRID\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Импровизированная электросеть.\n"
-"[Эффекты: Вражеские абордажники теряют 2 ОЗ/с, плюс еще 1 ОЗ/с за каждый уровень системы дверей]"
+"[Эффекты: Вражеские абордажники теряют 2 ОЗ/с, плюс еще 1 ОЗ/с за каждый "
+"уровень системы дверей]"
 
 #: src-en/data/events_special_storage.xml.append:9851
 msgid ""
@@ -12734,12 +12727,12 @@ msgid ""
 msgstr "Текущая конфигурация модульного щита. [Нет модулей]"
 
 #: src-en/data/events_special_storage.xml.append:10070
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_MODULAR_SHIELD_BASE\"]/choice[@req=\"MODULE_BIO\"]/text"
 msgstr ""
-"Установить анти-био модуль.\n"
-"\t\tЭффект: Делает ваш корабль автоматическим кораблем, пока он находится в слоте."
+"Установить Анти-био модуль.\n"
+"\t\tЭффект: Делает ваш корабль автоматическим кораблем, пока он находится в "
+"слоте."
 
 #: src-en/data/events_special_storage.xml.append:10074
 msgid ""
@@ -13576,108 +13569,114 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [--5]"
 
 #: src-en/data/events_special_storage.xml.append:10712
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [-5]"
 
 #: src-en/data/events_special_storage.xml.append:10716
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[3]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [-4]"
 
 #: src-en/data/events_special_storage.xml.append:10720
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[4]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [-3]"
 
 #: src-en/data/events_special_storage.xml.append:10724
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[5]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [-2]"
 
 #: src-en/data/events_special_storage.xml.append:10728
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[6]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [-1]"
 
 #: src-en/data/events_special_storage.xml.append:10732
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[7]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [1]"
 
 #: src-en/data/events_special_storage.xml.append:10736
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[8]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [2]"
 
 #: src-en/data/events_special_storage.xml.append:10740
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[9]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [3]"
 
 #: src-en/data/events_special_storage.xml.append:10744
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[10]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [4]"
 
 #: src-en/data/events_special_storage.xml.append:10748
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[11]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [5]"
 
 #: src-en/data/events_special_storage.xml.append:10752
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[12]/text"
-msgstr ""
+msgstr "Дурная слава Содружества [5++]"
 
 #: src-en/data/events_special_storage.xml.append:10765
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_LOOT\"]/mod-"
 "append:choice/text"
-msgstr ""
+msgstr "(Убежище Содружества)"
 
 #: src-en/data/events_special_storage.xml.append:10777
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR\"]/text"
 msgstr ""
+"Вы уверены, что хотите сделать это? \n"
+"[Появляется квестовый маркер для гарантированной встречи]"
 
 #: src-en/data/events_special_storage.xml.append:10780
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR\"]/choice[@req=\"loc_laststand\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Да."
 
 #: src-en/data/events_special_storage.xml.append:10782
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR\"]/choice[@req=\"loc_laststand\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"На какой вид зонда вы хотите охотиться? От этого будет зависеть "
+"вознаграждение."
 
 #: src-en/data/events_special_storage.xml.append:10784
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR\"]/choice[@req=\"loc_laststand\""
 " and @lvl=\"0\"]/event/choice[1]/text"
-msgstr ""
+msgstr "Нацеленное оружие."
 
 #: src-en/data/events_special_storage.xml.append:10788
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR\"]/choice[@req=\"loc_laststand\""
 " and @lvl=\"0\"]/event/choice[2]/text"
-msgstr ""
+msgstr "Нацеленный дрон."
 
 #: src-en/data/events_special_storage.xml.append:10792
 msgid ""
@@ -13694,26 +13693,32 @@ msgstr "Неважно, заняться чем-то еще."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_LOCATED_WEAPONS\"]/text"
 msgstr ""
+"Ваше оборудование делает свою работу и находит подходящий зонд поблизости. "
+"Вы отмечаете координаты."
 
 #: src-en/data/events_special_storage.xml.append:10814
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_LOCATED_DRONES\"]/text"
 msgstr ""
+"Ваше оборудование делает свою работу и находит подходящий зонд поблизости. "
+"Вы отмечаете координаты."
 
 #: src-en/data/events_special_storage.xml.append:10823
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_PROBE_WEAPONS\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "Местоположение зонда."
 
 #: src-en/data/events_special_storage.xml.append:10824
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_PROBE_WEAPONS\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Исследованное место. Ничего интересного."
 
 #: src-en/data/events_special_storage.xml.append:10826
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_PROBE_WEAPONS\"]/text"
 msgstr ""
+"Вы обнаружили поблизости зонд непрерывности, который ремонтирует себя. Если "
+"вы нападете сейчас, у него не будет шанса сбежать."
 
 #: src-en/data/events_special_storage.xml.append:10829
 msgid ""
@@ -13723,17 +13728,19 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:10839
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_PROBE_DRONES\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "Местоположение зонда."
 
 #: src-en/data/events_special_storage.xml.append:10840
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_PROBE_DRONES\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Исследованное место. Ничего интересного."
 
 #: src-en/data/events_special_storage.xml.append:10842
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUTO_HUNTER_GEAR_PROBE_DRONES\"]/text"
 msgstr ""
+"Вы обнаружили поблизости зонд непрерывности, который ремонтирует себя. Если "
+"вы нападете сейчас, у него не будет шанса сбежать."
 
 #: src-en/data/events_special_storage.xml.append:10845
 msgid ""
