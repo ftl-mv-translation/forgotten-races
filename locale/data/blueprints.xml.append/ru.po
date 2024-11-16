@@ -1,9 +1,17 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-11-16 19:22+0000\n"
+"Last-Translator: Aleev <aleev1414@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"datablueprintsxmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.8.1\n"
 
 #: src-en/data/blueprints.xml.append:10
 msgid ""
@@ -16,11 +24,12 @@ msgid ""
 msgstr "Простолюдин"
 
 #: src-en/data/blueprints.xml.append:12
-#, fuzzy
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_commonwealth\"]/desc"
 msgstr ""
 "Член Содружества обелисков, касты, которая, как считалось, была полностью "
-"уничтожена Дворянами."
+"уничтожена Дворянами.\n"
+"\n"
+"\tНаследует характеристики обелисков: невосприимчивость к огню и удушью."
 
 #: src-en/data/blueprints.xml.append:19
 msgid ""
@@ -33,10 +42,9 @@ msgid ""
 msgstr "3х скорость ремонта, 0.5х скорость саботажа."
 
 #: src-en/data/blueprints.xml.append:21
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_commonwealth\"]/powerList/power[3]"
-msgstr "Не может сражаться, неуязвим к огню или удушью."
+msgstr "Не может сражаться, 0.90x скорость передвижения."
 
 #: src-en/data/blueprints.xml.append:26
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_deviser\"]/title"
@@ -363,18 +371,16 @@ msgstr ""
 "самосовершенствовании и упорно идущих к своей цели."
 
 #: src-en/data/blueprints.xml.append:188
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_spherax\"]/powerList/power[1]"
 msgstr ""
-"Активная способность: Может ускорять или замедлять время в отсеке, в котором"
-" он находится, на 5 секунд."
+"Активная способность: Может ускорять или замедлять время в отсеке, в котором "
+"он находится, на 5 секунд."
 
 #: src-en/data/blueprints.xml.append:189
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_spherax\"]/powerList/power[2]"
-msgstr "300 здоровья, невосприимчивость к опасностям."
+msgstr "200 здоровья, невосприимчивость к опасностям."
 
 #: src-en/data/blueprints.xml.append:190
 msgid ""
@@ -405,13 +411,15 @@ msgid ""
 msgstr "Изгнанник"
 
 #: src-en/data/blueprints.xml.append:199
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_billvan\"]/desc"
 msgstr ""
-"Став свидетелем гибели брата от рук повстанцев, этот Билли решил продолжить миссию брата, даже обнаружил Нексус и убедил Сильван Первого принять его.\n"
+"Став свидетелем гибели брата от рук повстанцев, этот Билли решил продолжить "
+"миссию брата, даже обнаружил Нексус и убедил Сильван Первого принять его.\n"
 "\t\n"
-"\tНаследует характеристики Сильвана: 1.5х боевой урон, огромная устойчивость урону от опасностей, телепатические способности, иммунитет к контролю разума, начинает со второго уровня всех навыков, не теряет навыки при клонировании"
+"\tНаследует характеристики Сильвана: 1.5х боевой урон, телепатические "
+"способности, иммунитет к контролю разума, начинает со второго уровня всех "
+"навыков, не теряет навыки при клонировании"
 
 #: src-en/data/blueprints.xml.append:206
 msgid ""
@@ -429,7 +437,6 @@ msgstr ""
 "зажигательную бомбу."
 
 #: src-en/data/blueprints.xml.append:208
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_billvan\"]/powerList/power[3]"
 msgstr ""
@@ -475,7 +482,6 @@ msgstr ""
 "зажигательную бомбу."
 
 #: src-en/data/blueprints.xml.append:225
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_billvan_box\"]/powerList/power[3]"
 msgstr ""
@@ -633,10 +639,9 @@ msgstr ""
 "Невосприимчив к урону от опасностей среды, может проходить сквозь двери."
 
 #: src-en/data/blueprints.xml.append:290
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_CE_avatar\"]/powerList/power[2]"
-msgstr "Максимальное здоровье снижено до 50"
+msgstr "Максимальное здоровье снижено до 50."
 
 #: src-en/data/blueprints.xml.append:291
 msgid ""
@@ -686,12 +691,11 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_sylvan_cel\"]/short
 msgstr "Силовик"
 
 #: src-en/data/blueprints.xml.append:367
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_sylvan_cel\"]/powerList/power[1]"
 msgstr ""
 "Активная способность: Одновременно размещает пробойную, запирающую, "
-"зажигательную и ионную бомбу"
+"зажигательную и ионную бомбу."
 
 #: src-en/data/blueprints.xml.append:368
 msgid ""
@@ -701,10 +705,9 @@ msgstr ""
 "телепортации."
 
 #: src-en/data/blueprints.xml.append:369
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_sylvan_cel\"]/powerList/power[3]"
-msgstr "Наносит 2х урона в бою"
+msgstr "Наносит 2х урона в бою."
 
 #: src-en/data/blueprints.xml.append:374
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_obyn_cel\"]/desc"
@@ -722,14 +725,13 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_obyn_cel\"]/short"
 msgstr "Силовик"
 
 #: src-en/data/blueprints.xml.append:383
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_obyn_cel\"]/powerList/power[1]"
 msgstr ""
-"Активная способность: Наносит урон и замедляет всех находящихся рядом членов"
-" экипажа. Экипаж противника теряет 4 ОЗ/с, дружественный экипаж теряет 2 "
-"ОЗ/с, слизни любого типа теряют дополнительные 4 ОЗ/с. Сам Обин "
-"невосприимчив к этому эффекту."
+"Активная способность: Наносит урон и замедляет всех находящихся рядом членов "
+"экипажа. Экипаж противника теряет 4 ОЗ/с, дружественный экипаж теряет 2 ОЗ/"
+"с, слизни любого типа теряют еще 4 ОЗ/с. Сам Обин невосприимчив к этому "
+"эффекту."
 
 #: src-en/data/blueprints.xml.append:384
 msgid ""
@@ -755,7 +757,6 @@ msgstr ""
 "переключаться между ручным и автоматическим режимами."
 
 #: src-en/data/blueprints.xml.append:399
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_proto_cognitive\"]/powerList/power[1]"
 msgstr "150 максимальное здоровье, медленно восстанавливает себя вне боя."
@@ -808,10 +809,9 @@ msgid ""
 msgstr "Автоматическое состояние."
 
 #: src-en/data/blueprints.xml.append:415
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_proto_cognitive_automated\"]/powerList/power[2]"
-msgstr "175 максимальное здоровье, медленно восстанавливает себя вне боя."
+msgstr "175 максимального здоровья, медленно восстанавливает себя вне боя."
 
 #: src-en/data/blueprints.xml.append:416
 msgid ""
@@ -831,12 +831,11 @@ msgid ""
 msgstr "Невосприимчив к удушью и урону от огня."
 
 #: src-en/data/blueprints.xml.append:419
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_proto_cognitive_automated\"]/powerList/power[6]"
 msgstr ""
-"Может перейти в Ограниченный режим, становясь управляемым напрямую, но теряя"
-" бонус к характеристикам."
+"Может перейти в Ограниченный режим, становясь управляемым напрямую, но теряя "
+"бонус к характеристикам."
 
 #: src-en/data/blueprints.xml.append:423
 msgid ""
@@ -857,12 +856,11 @@ msgstr ""
 "чередовать автоматическое и ручное управление."
 
 #: src-en/data/blueprints.xml.append:430
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_experimental_cognitive\"]/powerList/power[1]"
 msgstr ""
-"200 максимального здоровья, получает на 10% меньше урона в бою. Очень быстро"
-" изучает навыки."
+"200 максимального здоровья, получает на 10% меньше урона в бою. Очень быстро "
+"изучает навыки."
 
 #: src-en/data/blueprints.xml.append:431
 msgid ""
@@ -909,12 +907,11 @@ msgid ""
 msgstr "Автоматический."
 
 #: src-en/data/blueprints.xml.append:445
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_experimental_cognitive_automated\"]/powerList/power[2]"
 msgstr ""
-"200 максимального здоровья, получает на 10% меньше урона в бою. Очень быстро"
-" изучает навыки."
+"200 максимального здоровья, получает на 10% меньше урона в бою. Очень быстро "
+"изучает навыки."
 
 #: src-en/data/blueprints.xml.append:446
 msgid ""
@@ -968,7 +965,6 @@ msgstr ""
 "но полностью исцеляя систему."
 
 #: src-en/data/blueprints.xml.append:464
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_enhanced\"]/powerList/power[3]"
 msgstr ""
@@ -982,7 +978,6 @@ msgstr ""
 "Дает энергию в текущий отсек, наносит 1.5x урона. Не может ремонтировать."
 
 #: src-en/data/blueprints.xml.append:469
-#, fuzzy
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_withered\"]/desc"
 msgstr ""
 "Причудливо мутировавший ланиус, который полакомился необычным куском "
@@ -998,14 +993,14 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_withered\"]/short"
 msgstr "Увядший"
 
 #: src-en/data/blueprints.xml.append:476
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_withered\"]/powerList/power[1]"
 msgstr ""
 "Активная способность: Ассимилирует часть корпуса корабля, нанося "
-"незначительный урон корпусу, но дает 5х усиленный саботаж (не суммируется с "
-"обычным бонусом) и регенерируя 5 ОЗ/с в течение 12 секунд. Пока этот эффект "
-"активен, он неконтролируем и не может быть телепортирован обратно."
+"незначительный урон корпусу, но дает 5х усиленный урон саботажа (не "
+"суммируется с обычным бонусом) и регенерируя 5 ОЗ/с в течение 12 секунд. "
+"Пока этот эффект активен, он неконтролируем и не может быть телепортирован "
+"обратно."
 
 #: src-en/data/blueprints.xml.append:477
 msgid ""
@@ -1055,7 +1050,6 @@ msgstr ""
 "Атакует в ближнем бою со скоростью 3.5x. Перемещается с 0.5х скоростью."
 
 #: src-en/data/blueprints.xml.append:495
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_mantis_queen\"]/powerList/power[4]"
 msgstr ""
@@ -1098,11 +1092,10 @@ msgid ""
 msgstr "Благодаря разъедающей соли, соляной экипаж наносит дверям 5х урона."
 
 #: src-en/data/blueprints.xml.append:510
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_salt\"]/powerList/power[4]"
 msgstr ""
-"Соленые газы заставляют слизней и дроны получать на 30% больше урона, если "
+"Соленые газы заставляют слизней и дронов получать на 30% больше урона, если "
 "они находятся в одном отсеке с ними."
 
 #: src-en/data/blueprints.xml.append:517
@@ -1147,7 +1140,6 @@ msgid ""
 msgstr "Голограмма Увядшего"
 
 #: src-en/data/blueprints.xml.append:532
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_wither_hologram\"]/short"
 msgstr "Голограмма Увядшего"
@@ -1256,7 +1248,6 @@ msgid ""
 msgstr "Разумный снеговик"
 
 #: src-en/data/blueprints.xml.append:583
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_snowman_smart\"]/short"
 msgstr "Разумный снеговик"
@@ -1272,12 +1263,11 @@ msgid ""
 msgstr "Получает 10x урона от огня."
 
 #: src-en/data/blueprints.xml.append:590
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_snowman_smart\"]/powerList/power[3]"
 msgstr ""
-"0.5х урона в дальнем бою и 1.5х урона в ближнем бою. Быстрая атака в ближнем"
-" бою."
+"0.5х урона в дальнем бою и 1.5х урона в ближнем бою. Быстрая атака в ближнем "
+"бою."
 
 #: src-en/data/blueprints.xml.append:591
 msgid ""
@@ -1291,7 +1281,6 @@ msgstr ""
 "Не может задохнуться, 0.7x скорость передвижения, 1.3х скорость ремонта."
 
 #: src-en/data/blueprints.xml.append:597
-#, fuzzy
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_lavaman\"]/desc"
 msgstr ""
 "Малоизвестные двоюродные братья снеговиков, лавамены на самом деле очень "
@@ -1317,12 +1306,11 @@ msgid ""
 msgstr "Получает 10х урон от удушья."
 
 #: src-en/data/blueprints.xml.append:606
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_lavaman\"]/powerList/power[3]"
 msgstr ""
-"0.5х урона в ближнем бою и 1.5х урона в дальнем бою. Быстрая атака в ближнем"
-" бою."
+"0.5х урона в ближнем бою и 1.5х урона в дальнем бою. Быстрая атака в ближнем "
+"бою."
 
 #: src-en/data/blueprints.xml.append:607
 msgid ""
@@ -1335,13 +1323,14 @@ msgid ""
 msgstr "Иммунитет к огню. 1.3x скорость передвижения и 0.7х скорость ремонта."
 
 #: src-en/data/blueprints.xml.append:613
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_leah_legion\"]/desc"
 msgstr ""
-"Печально известная Мастер Лучей и ваш давний заклятый враг. Теперь с оборудованием нового поколения!\n"
+"Печально известная Мастер Лучей и ваш давний заклятый враг. Теперь с "
+"оборудованием нового поколения!\n"
 "\t\t\n"
-"\tУнаследованные показатели Легионера: повышенная устойчивость к удушью и огню, обучена навыками 2 ур."
+"\tНаследует характеристики Легионеров: повышенная устойчивость к удушью и "
+"огню, обучена навыками 2 ур."
 
 #: src-en/data/blueprints.xml.append:617
 msgid ""
@@ -1406,14 +1395,18 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:645
-#, fuzzy
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/desc"
 msgstr ""
-"Блестящий обелиск-Дворянин, которая потеряла рассудок, пытаясь оживить своего умершего друга.\n"
+"Блестящий обелиск-Дворянин, которая потеряла рассудок, пытаясь оживить "
+"своего умершего друга.\n"
 "\t\n"
-"\tНаследует характеристики призрака-бродяги: обладает возможностью проходить сквозь двери, подвержена влиянию улучшений лаборатории для призраков-бродяг.\n"
+"\tНаследует характеристики призрака-бродяги: обладает возможностью проходить "
+"сквозь двери, подвержена влиянию улучшений лаборатории для призраков-бродяг."
+"\n"
 "\t\n"
-"\tНаследует характеристики обелисков-Дворян: 0.75x скорость передвижения, 300 максимального здоровья, 2x урон в бою, 0.05х скорость ремонта и тушения пожаров, подвержена улучшениям в лаборатории для обелисков."
+"\tНаследует характеристики обелисков-Дворян: 0.75x скорость передвижения, "
+"300 максимального здоровья, 2x урон в бою, 0.05х скорость ремонта и тушения "
+"пожаров, подвержена улучшениям в лаборатории для обелисков."
 
 #: src-en/data/blueprints.xml.append:650
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/title"
@@ -1552,12 +1545,13 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/shor
 msgstr "Rev. MFK"
 
 #: src-en/data/blueprints.xml.append:715
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/powerList/power[1]"
 msgstr ""
-"Периодически ремонтирует всех дронов в одном отсеке с ним, исцеляя их на 10 здоровья в течение 10 секунд. \n"
-"\t\tСрабатывает только в том случае, если в отсеке находится дружественный экипаж."
+"Периодически ремонтирует всех дронов в одном отсеке с ним, исцеляя их на 10 "
+"ОЗ/с в течение 10 секунд. \n"
+"\t\tСрабатывает только в том случае, если в отсеке находится дружественный "
+"экипаж."
 
 #: src-en/data/blueprints.xml.append:717
 msgid ""
@@ -1666,14 +1660,17 @@ msgstr ""
 "получают 2х урон от огня."
 
 #: src-en/data/blueprints.xml.append:764
-#, fuzzy
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_zulu\"]/desc"
 msgstr ""
-"Фанатичная правая рука Некролича Ж и техническая причина всего, что связано с Тартаром.\n"
+"Фанатичная правая рука Некролича Ж и техническая причина всего, что связано "
+"с Тартаром.\n"
 "\t\n"
-"\tНаследует характеристики призраков-бродяг: не получает урона от опасностей, обладает возможностью проходить сквозь двери, затрагивается улучшениями лаборатории для призраков-бродяг.\n"
+"\tНаследует характеристики призраков-бродяг: не получает урона от "
+"опасностей, обладает возможностью проходить сквозь двери, затрагивается "
+"улучшениями лаборатории для призраков-бродяг.\n"
 "\t\n"
-"\tНаследует характеристики ланиусов-Сварщиков: затрагивается улучшениями лаборатории для ланиусов."
+"\tНаследует характеристики ланиусов-Сварщиков: затрагивается улучшениями "
+"лаборатории для ланиусов."
 
 #: src-en/data/blueprints.xml.append:769
 #, fuzzy
@@ -1706,15 +1703,19 @@ msgstr ""
 "ремонтироваться и лечиться."
 
 #: src-en/data/blueprints.xml.append:784
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_smoke\"]/desc"
 msgstr ""
-"Некогда прославленный Часовой, этот несчастный кристаллин на собственном опыте убедился, насколько безумным может быть шепот в голове.\n"
+"Некогда прославленный Часовой, этот несчастный кристаллин на собственном "
+"опыте убедился, насколько безумным может быть шепот в голове.\n"
 "\t\n"
-"\tНаследует характеристики призраков-бродяг: не получает урона от опасностей, обладает возможностью проходить сквозь двери, затрагивается улучшениями лаборатории для призраков-бродяг.\n"
+"\tНаследует характеристики призраков-бродяг: не получает урона от "
+"опасностей, обладает возможностью проходить сквозь двери, затрагивается "
+"улучшениями лаборатории для призраков-бродяг.\n"
 "\t\n"
-"\tНаследует характеристики кристаллинов-Часовых: максимальное здоровье увеличено до 135, скорость передвижения снижена до 0.65x, затрагивается улучшениями лаборатории для кристаллинов."
+"\tНаследует характеристики кристаллинов-Часовых: максимальное здоровье "
+"увеличено до 135, скорость передвижения снижена до 0.65x, затрагивается "
+"улучшениями лаборатории для кристаллинов."
 
 #: src-en/data/blueprints.xml.append:789
 #, fuzzy
@@ -1775,7 +1776,6 @@ msgid ""
 msgstr "Rev. Cultivator"
 
 #: src-en/data/blueprints.xml.append:815
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_chills\"]/powerList/power[1]"
 msgstr ""
@@ -1788,7 +1788,6 @@ msgid ""
 msgstr "Максимальное здоровье увеличено до 125."
 
 #: src-en/data/blueprints.xml.append:817
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_chills\"]/powerList/power[3]"
 msgstr ""
@@ -1816,32 +1815,34 @@ msgid ""
 msgstr "Rev. Morph"
 
 #: src-en/data/blueprints.xml.append:833
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_pok\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также иммунитетом к опасности и возможностью проходить "
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
 "сквозь двери."
 
 #: src-en/data/blueprints.xml.append:834
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_pok\"]/powerList/power[2]"
 msgstr ""
-"Наведя курсор на надпись \"МОРФ\", вы можете узнать, какое уникальное "
-"существо будет следующем."
+"Вы можете узнать, какой уникальный член экипажа будет следующим, наведя "
+"курсор на способность \"МОРФ\"."
 
 #: src-en/data/blueprints.xml.append:839
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_charror\"]/desc"
 msgstr ""
-"Энджи, испорченный вирусом неизвестного происхождения и попыткой слияния с настоящей душой. Теперь он скитается по Мультивселенной в поисках цели своего существования.\n"
+"Энджи, испорченный вирусом неизвестного происхождения и попыткой слияния с "
+"настоящей душой. Теперь он скитается по Мультивселенной в поисках цели "
+"своего существования.\n"
 "\t\n"
-"\tНаследует характеристики призраков-бродяг: не получает урона от опасностей, обладает возможностью проходить сквозь двери, затрагивается улучшениями лаборатории для призраков-бродяг.\n"
+"\tНаследует характеристики призраков-бродяг: не получает урона от "
+"опасностей, обладает возможностью проходить сквозь двери, затрагивается "
+"улучшениями лаборатории для призраков-бродяг.\n"
 "\t\n"
-"\tНаследует характеристики энджи-Защитников: 0.35x боевой урон, 2.7x скорость ремонта, затрагивается улучшениями лаборатории для энджи."
+"\tНаследует характеристики энджи-Защитников: 0.35x боевой урон, 2.7x "
+"скорость ремонта, затрагивается улучшениями лаборатории для энджи."
 
 #: src-en/data/blueprints.xml.append:844
 #, fuzzy
@@ -1855,11 +1856,13 @@ msgid ""
 msgstr "Rev. Defender"
 
 #: src-en/data/blueprints.xml.append:850
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_charror\"]/powerList/power[1]"
 msgstr ""
-"Периодически повреждает находящихся поблизости роботов и дронов, отключая их искусственный интеллект, лишая возможности сражаться, ремонтировать и саботировать, делая их неуправляемыми. Также на время действия уменьшает вдвое получаемый Чарро урон.\n"
+"Периодически повреждает находящихся поблизости роботов и дронов, отключая их "
+"ИИ, делая их неуправляемыми и лишая возможности сражаться, ремонтировать или "
+"саботировать. Также на время действия уменьшает вдвое получаемый Чарро урон."
+"\n"
 "\t\tСрабатывает, только если в отсеке находится враждебный экипаж."
 
 #: src-en/data/blueprints.xml.append:852
@@ -1893,16 +1896,15 @@ msgid ""
 msgstr "Rev. Ampere"
 
 #: src-en/data/blueprints.xml.append:869
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_leo\"]/powerList/power[1]"
 msgstr ""
 "Периодически взламывает двери системной комнаты противника, в которой он "
-"находится, на 10 секунд. На это время он получает 5х урон при саботаже, "
+"находится, на 10 секунд. На это время Лео получает 5х урон при саботаже, "
 "наносит врагам в том же отсеке урон со скоростью 1.5 ОЗ/с и становится "
 "невидимым, получая 3х урон от всех источников и не имея возможности "
-"сражаться или передвигаться. Срабатывает только в системных отсеках "
-"противника."
+"сражаться или передвигаться.\n"
+"\t\tСрабатывает только в системных отсеках противника."
 
 #: src-en/data/blueprints.xml.append:871
 msgid ""
@@ -1938,14 +1940,12 @@ msgid ""
 msgstr "Rev. Martyr"
 
 #: src-en/data/blueprints.xml.append:888
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_searak\"]/powerList/power[1]"
 msgstr ""
-"Активная способность: Детонация, которая наносит 25 единиц урона себе и 150 "
-"единиц урона вражескому экипажу, вызывает пожар и наносит 2 системных урона "
-"текущему отсеку. После взрыва Сирак не сможет действовать в течение 15 "
-"секунд."
+"Активная способность: Детонация, которая наносит 25 урона себе и 150 урона "
+"вражескому экипажу, вызывает пожар и наносит 2 системных урона текущему "
+"отсеку. После взрыва Сирак не сможет действовать в течение 15 секунд."
 
 #: src-en/data/blueprints.xml.append:889
 msgid ""
@@ -1998,7 +1998,6 @@ msgstr ""
 "способностям и не наносят боевого урона или урона при саботаже."
 
 #: src-en/data/blueprints.xml.append:906
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/powerList/power[4]"
 msgstr ""
@@ -2013,7 +2012,6 @@ msgstr ""
 "корабль напрямую."
 
 #: src-en/data/blueprints.xml.append:908
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/powerList/power[6]"
 msgstr ""
@@ -2032,41 +2030,35 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/shor
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:926
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:927
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[2]"
 msgstr ""
 "Активная способность: Наносит дальний удар, который разрушает вражеский "
-"корабль"
+"корабль."
 
 #: src-en/data/blueprints.xml.append:928
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[3]"
-msgstr "200 максимального здоровья, 1.5х скорость ремонта и урон"
+msgstr "200 максимального здоровья, 1.5х скорость ремонта и урон."
 
 #: src-en/data/blueprints.xml.append:929
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[4]"
 msgstr ""
-"Все союзники, находящиеся в одном отсеке, будут двигаться в ногу со "
-"скоростью 1.25х"
+"Союзный экипаж в пределах отсека передвигается в унисон со скоростью 1.25x."
 
 #: src-en/data/blueprints.xml.append:930
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[5]"
-msgstr "Обучен навыкам 2 уровня, получает половинный урон от среды"
+msgstr "Обучен навыкам 2 уровня, получает половинный урон от среды."
 
 #: src-en/data/blueprints.xml.append:935
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/desc"
@@ -2083,13 +2075,12 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:941
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:942
 msgid ""
@@ -2097,18 +2088,16 @@ msgid ""
 msgstr "Обучается навыкам в два раза быстрее."
 
 #: src-en/data/blueprints.xml.append:943
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/powerList/power[3]"
-msgstr "2.5х урон в дальнем бою"
+msgstr "2.5х урон в дальнем бою."
 
 #: src-en/data/blueprints.xml.append:944
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/powerList/power[4]"
 msgstr ""
 "Страдает энтомофобией, что не позволяет ему вступать в ближний бой с "
-"насекомоподобными"
+"насекомоподобными."
 
 #: src-en/data/blueprints.xml.append:949
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/desc"
@@ -2123,25 +2112,22 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/shor
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:955
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:956
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/powerList/power[2]"
-msgstr "Наносит половину урона в бою"
+msgstr "Наносит половину урона в бою."
 
 #: src-en/data/blueprints.xml.append:957
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/powerList/power[3]"
-msgstr "Ваш новый лучший друг"
+msgstr "Ваш новый лучший друг."
 
 #: src-en/data/blueprints.xml.append:962
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ellie\"]/desc"
@@ -2156,20 +2142,18 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ellie\"]/shor
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:968
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ellie\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:969
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ellie\"]/powerList/power[2]"
 msgstr ""
-"Передвигается и атакует в ближнем бою со скоростью 1.5х, нанося 1.5х урона"
+"Передвигается и атакует в ближнем бою со скоростью 1.5х, нанося 1.5х урона."
 
 #: src-en/data/blueprints.xml.append:974
 msgid ""
@@ -2187,39 +2171,34 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:980
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:981
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/powerList/power[2]"
 msgstr ""
 "Союзный экипаж на вашем корабле наносит двойной урон в бою и получает "
-"двойное лечение"
+"двойное лечение."
 
 #: src-en/data/blueprints.xml.append:982
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/powerList/power[3]"
-msgstr "Значительно снижен урон от удушья и огня"
+msgstr "Значительно снижен урон от удушья и огня."
 
 #: src-en/data/blueprints.xml.append:983
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/powerList/power[4]"
-msgstr "Невосприимчивость к контролю разума и оглушению"
+msgstr "Невосприимчивость к контролю разума и оглушению."
 
 #: src-en/data/blueprints.xml.append:984
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/powerList/power[5]"
-msgstr "Не может сражаться с экипажем, передвигается со скоростью 3х"
+msgstr "Не может сражаться с экипажем, передвигается со скоростью 3х."
 
 #: src-en/data/blueprints.xml.append:989
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/desc"
@@ -2236,13 +2215,12 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:996
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:997
 msgid ""
@@ -2253,27 +2231,24 @@ msgstr ""
 "всех членов экипажа в отсеке."
 
 #: src-en/data/blueprints.xml.append:998
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/powerList/power[3]"
 msgstr ""
 "115 максимальное здоровье, 0.8х боевой урон, 1.4х скорость передвижения, "
-"невосприимчив к контролю разума"
+"невосприимчив к контролю разума."
 
 #: src-en/data/blueprints.xml.append:999
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/powerList/power[4]"
 msgstr ""
 "0.4х скорость ремонта, дает пассивный 50% бонус скорости ремонта экипажу в "
-"отсеке"
+"отсеке."
 
 #: src-en/data/blueprints.xml.append:1000
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/powerList/power[5]"
 msgstr ""
-"Изучает все навыки на 20% быстрее, получает уменьшенный урон от опасностей"
+"Изучает все навыки на 20% быстрее, получает уменьшенный урон от опасностей."
 
 #: src-en/data/blueprints.xml.append:1005
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/desc"
@@ -2290,42 +2265,37 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1012
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1013
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/powerList/power[2]"
 msgstr ""
 "Активная способность: Запускает обратный отсчет перед взрывом, мгновенно "
-"погибает, но исцеляет всех членов экипажа до максимального уровня здоровья и"
-" дает им временный 50% бонус скорости ремонта, передвижения и здоровья"
+"погибает, но исцеляет всех членов экипажа до максимального уровня здоровья и "
+"дает им временный 50% бонус скорости ремонта, передвижения и здоровья."
 
 #: src-en/data/blueprints.xml.append:1014
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/powerList/power[3]"
 msgstr ""
 "Может молиться у пустых маяков, давая всем золтанам на корабле постоянные "
-"дополнительные 5 здоровья"
+"дополнительные 5 здоровья."
 
 #: src-en/data/blueprints.xml.append:1015
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/powerList/power[4]"
-msgstr "Не может сражаться, саботировать и ломать двери"
+msgstr "Не может сражаться, саботировать и ломать двери."
 
 #: src-en/data/blueprints.xml.append:1016
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/powerList/power[5]"
-msgstr "Не наносит урона при смерти"
+msgstr "Не наносит урона при смерти."
 
 #: src-en/data/blueprints.xml.append:1021
 msgid ""
@@ -2343,13 +2313,12 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1028
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_devorak\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1029
 msgid ""
@@ -2359,16 +2328,14 @@ msgstr ""
 " также взрываются."
 
 #: src-en/data/blueprints.xml.append:1030
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_devorak\"]/powerList/power[3]"
-msgstr "Наносит 2х урона в ближнем бою"
+msgstr "Наносит 2х урона в ближнем бою."
 
 #: src-en/data/blueprints.xml.append:1031
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_devorak\"]/powerList/power[4]"
-msgstr "Может телепортироваться куда угодно, но с некоторой задержкой"
+msgstr "Может телепортироваться куда угодно, но с некоторой задержкой."
 
 #: src-en/data/blueprints.xml.append:1036
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/desc"
@@ -2383,28 +2350,25 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/short"
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1042
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1043
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/powerList/power[2]"
 msgstr ""
 "Активная способность: На очень краткое время боевой урон значительно "
-"увеличивается"
+"увеличивается."
 
 #: src-en/data/blueprints.xml.append:1044
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/powerList/power[3]"
 msgstr ""
-"2.5x боевой урон, который уменьшается на 15% за каждого союзника в отсеке"
+"2.5x боевой урон, который уменьшается на 15% за каждого союзника в отсеке."
 
 #: src-en/data/blueprints.xml.append:1049
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/desc"
@@ -2421,13 +2385,12 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1055
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1056
 msgid ""
@@ -2438,22 +2401,19 @@ msgstr ""
 "феромонов. Эффект не суммируется с их собственной способностью."
 
 #: src-en/data/blueprints.xml.append:1057
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[3]"
-msgstr "2x боевой урон, 1x скорость ремонта"
+msgstr "2x боевой урон, 1x скорость ремонта."
 
 #: src-en/data/blueprints.xml.append:1058
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[4]"
-msgstr "Получает 0.7x урона в бою, 1.65x скорость передвижения"
+msgstr "Получает 0.7x урона в бою, 1.65x скорость передвижения."
 
 #: src-en/data/blueprints.xml.append:1059
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[5]"
-msgstr "Осваивает навыки гораздо быстрее"
+msgstr "Осваивает навыки гораздо быстрее."
 
 #: src-en/data/blueprints.xml.append:1064
 msgid ""
@@ -2471,16 +2431,14 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1071
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_symbiote\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1072
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_symbiote\"]/powerList/power[2]"
 msgstr ""
@@ -2488,10 +2446,9 @@ msgstr ""
 "золтана."
 
 #: src-en/data/blueprints.xml.append:1073
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_symbiote\"]/powerList/power[3]"
-msgstr "0.15х длительность оглушения"
+msgstr "0.15х длительность оглушения."
 
 #: src-en/data/blueprints.xml.append:1078
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/desc"
@@ -2506,35 +2463,31 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/short
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1085
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1086
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/powerList/power[2]"
 msgstr ""
-"Наносит тем больше боевого урона, но передвигается тем медленнее, чем больше"
-" врагов находится в отсеке"
+"Наносит тем больше боевого урона, но передвигается тем медленнее, чем больше "
+"врагов находится в отсеке."
 
 #: src-en/data/blueprints.xml.append:1087
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/powerList/power[3]"
-msgstr "1х скорость передвижения вне боя"
+msgstr "1х скорость передвижения вне боя."
 
 #: src-en/data/blueprints.xml.append:1088
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/powerList/power[4]"
 msgstr ""
 "Все союзные Изгои на корабле получают прибавку к урону в бою и ремонту в "
-"размере 20%"
+"размере 20%."
 
 #: src-en/data/blueprints.xml.append:1093
 msgid ""
@@ -2552,21 +2505,19 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1100
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ariadne\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1101
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ariadne\"]/powerList/power[2]"
 msgstr ""
 "Активная способность: За один прыжок может развернуть до 3 зажигательных "
-"бомб в кратчайшие сроки"
+"бомб в кратчайшие сроки."
 
 #: src-en/data/blueprints.xml.append:1102
 msgid ""
@@ -2592,34 +2543,30 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1114
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1115
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/powerList/power[2]"
 msgstr ""
-"Активная способность: Восстанавливает здоровье со скоростью 65 ОЗ/с и "
-"наносит 3х урона в течение 20 секунд, но двигается очень медленно и получает"
-" в 7 раз больше урона из всех источников"
+"Активная способность: Восстанавливает 65 ОЗ/с и наносит 3х урона в течение "
+"20 секунд, но двигается очень медленно и получает в 7 раз больше урона из "
+"всех источников"
 
 #: src-en/data/blueprints.xml.append:1116
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/powerList/power[3]"
-msgstr "Медленно лечится в огне"
+msgstr "Медленно лечится в огне."
 
 #: src-en/data/blueprints.xml.append:1117
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/powerList/power[4]"
-msgstr "Может обращать валунов в вашем экипаже в последователей Вечного Жара"
+msgstr "Может обращать валунов в вашем экипаже в последователей Вечного Жара."
 
 #: src-en/data/blueprints.xml.append:1122
 msgid ""
@@ -2636,16 +2583,14 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkali\"]/des
 msgstr "Имитация Пока: Алькали."
 
 #: src-en/data/blueprints.xml.append:1129
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkali\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1130
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkali\"]/powerList/power[2]"
 msgstr ""
@@ -2654,10 +2599,9 @@ msgstr ""
 "скоростью 5 ОЗ/с, даже если они не находятся в том же отсеке"
 
 #: src-en/data/blueprints.xml.append:1131
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkali\"]/powerList/power[3]"
-msgstr "Может бесплатно установить лабораторию или ее улучшение"
+msgstr "Может бесплатно установить лабораторию или ее улучшение."
 
 #: src-en/data/blueprints.xml.append:1136
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/desc"
@@ -2672,13 +2616,12 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/shor
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1143
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1144
 msgid ""
@@ -2694,16 +2637,14 @@ msgid ""
 msgstr "Максимальное здоровье увеличено до 150."
 
 #: src-en/data/blueprints.xml.append:1146
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/powerList/power[4]"
-msgstr "Скорость передвижения уменьшена до 0.7x"
+msgstr "Скорость передвижения уменьшена до 0.7x."
 
 #: src-en/data/blueprints.xml.append:1147
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/powerList/power[5]"
-msgstr "Значительно снижен урон от удушья"
+msgstr "Значительно снижен урон от удушья."
 
 #: src-en/data/blueprints.xml.append:1152
 msgid ""
@@ -2721,13 +2662,12 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1159
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1160
 msgid ""
@@ -2737,18 +2677,16 @@ msgstr ""
 " в отсека время перезарядки способностей уменьшается на 80%."
 
 #: src-en/data/blueprints.xml.append:1161
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/powerList/power[3]"
-msgstr "Максимальное здоровье увеличено до 175"
+msgstr "Максимальное здоровье увеличено до 175."
 
 #: src-en/data/blueprints.xml.append:1162
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/powerList/power[4]"
 msgstr ""
-"Союзные кристаллины получают один дополнительный заряд способности за каждый"
-" прыжок"
+"Союзные кристаллины получают один дополнительный заряд способности за каждый "
+"прыжок."
 
 #: src-en/data/blueprints.xml.append:1167
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/desc"
@@ -2765,31 +2703,27 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1174
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1175
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/powerList/power[2]"
-msgstr "Активная способность: Маскируется и использует пробойную бомбу"
+msgstr "Активная способность: Маскируется и использует пробойную бомбу."
 
 #: src-en/data/blueprints.xml.append:1176
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/powerList/power[3]"
-msgstr "Ломает системы в три раза быстрее"
+msgstr "Ломает системы в три раза быстрее."
 
 #: src-en/data/blueprints.xml.append:1177
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/powerList/power[4]"
-msgstr "Игнорирует двери"
+msgstr "Игнорирует двери."
 
 #: src-en/data/blueprints.xml.append:1182
 msgid ""
@@ -2807,39 +2741,34 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1189
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1190
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/powerList/power[2]"
 msgstr ""
 "Активная способность: Оглушает всех врагов в отсеке на длительный срок, но "
-"теряет телепатические способности на период оглушения"
+"теряет телепатические способности на период оглушения."
 
 #: src-en/data/blueprints.xml.append:1191
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/powerList/power[3]"
-msgstr "Лечится с тройной скоростью"
+msgstr "Лечится с тройной скоростью."
 
 #: src-en/data/blueprints.xml.append:1192
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/powerList/power[4]"
-msgstr "Пассивно исцеляет ближайших союзников на 2 ОЗ/с"
+msgstr "Пассивно исцеляет ближайших союзников на 2 ОЗ/с."
 
 #: src-en/data/blueprints.xml.append:1193
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/powerList/power[5]"
-msgstr "Иммунитет к оглушению"
+msgstr "Иммунитет к оглушению."
 
 #: src-en/data/blueprints.xml.append:1198
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_irwin\"]/desc"
@@ -2854,13 +2783,12 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_irwin\"]/shor
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1205
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_irwin\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1206
 msgid ""
@@ -2871,10 +2799,9 @@ msgstr ""
 " способности и посмертные эффекты."
 
 #: src-en/data/blueprints.xml.append:1207
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_irwin\"]/powerList/power[3]"
-msgstr "Наносит 1.5x урона мушкетоном, но не может саботировать системы"
+msgstr "Наносит 1.5x урона мушкетоном, но не может саботировать системы."
 
 #: src-en/data/blueprints.xml.append:1212
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/desc"
@@ -2889,30 +2816,27 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/shor
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1219
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1220
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/powerList/power[2]"
 msgstr ""
 "Активная способность: Не прячется в коробку автоматически, в отличие от "
 "своих подчиненных, но может спрятаться вручную в любой момент при уровне "
-"здоровья ниже 50"
+"здоровья ниже 50."
 
 #: src-en/data/blueprints.xml.append:1221
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/powerList/power[3]"
 msgstr ""
-"Лечится от источников регенерации с половинной скоростью, но восстанавливает"
-" 10 ОЗ/с, пока находится в коробке. Не может покинуть коробку, пока не "
+"Лечится от источников регенерации с половинной скоростью, но восстанавливает "
+"10 ОЗ/с, пока находится в коробке. Не может покинуть коробку, пока не "
 "наберет более 50 ОЗ."
 
 #: src-en/data/blueprints.xml.append:1226
@@ -2931,30 +2855,27 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1233
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy_box\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1234
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy_box\"]/powerList/power[2]"
 msgstr ""
 "Активная способность: Не прячется в коробку автоматически, в отличие от "
 "своих подчиненных, но может спрятаться вручную в любой момент при уровне "
-"здоровья ниже 50"
+"здоровья ниже 50."
 
 #: src-en/data/blueprints.xml.append:1235
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy_box\"]/powerList/power[3]"
 msgstr ""
-"Лечится от источников регенерации с половинной скоростью, но восстанавливает"
-" 10 ОЗ/с, пока находится в коробке. Не может покинуть коробку, пока не "
+"Лечится от источников регенерации с половинной скоростью, но восстанавливает "
+"10 ОЗ/с, пока находится в коробке. Не может покинуть коробку, пока не "
 "наберет более 50 ОЗ."
 
 #: src-en/data/blueprints.xml.append:1240
@@ -2972,27 +2893,24 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1247
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tyrdeo\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1248
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tyrdeo\"]/powerList/power[2]"
 msgstr ""
 "Активная способность: Полностью выводит из строя текущую систему на 15 "
-"секунд, но на это время становится слабее и неподвижнее"
+"секунд, но на это время становится слабее и неподвижнее."
 
 #: src-en/data/blueprints.xml.append:1249
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tyrdeo\"]/powerList/power[3]"
-msgstr "2.5х длительность оглушения"
+msgstr "2.5х длительность оглушения."
 
 #: src-en/data/blueprints.xml.append:1254
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkram\"]/desc"
@@ -3009,13 +2927,12 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1261
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkram\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1262
 msgid ""
@@ -3026,10 +2943,9 @@ msgstr ""
 "сам получая его."
 
 #: src-en/data/blueprints.xml.append:1263
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkram\"]/powerList/power[3]"
-msgstr "Получает x0.7 урона в боя, 0.7x скорость передвижения"
+msgstr "Получает x0.7 урона в боя, 0.7x скорость передвижения."
 
 #: src-en/data/blueprints.xml.append:1268
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tonysr\"]/desc"
@@ -3046,13 +2962,12 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1275
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tonysr\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1276
 msgid ""
@@ -3062,13 +2977,12 @@ msgstr ""
 "25%"
 
 #: src-en/data/blueprints.xml.append:1277
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tonysr\"]/powerList/power[3]"
 msgstr ""
 "Всепоглощающий голод заставляет его питаться дронами, механическими и "
 "энергетическими членами экипажа, быстро истощая их здоровье. Также "
-"высасывает 2 ед. энергии из вражеских систем"
+"высасывает 2 ед. энергии из вражеских систем."
 
 #: src-en/data/blueprints.xml.append:1278
 msgid ""
@@ -3093,33 +3007,29 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1290
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1291
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/powerList/power[2]"
-msgstr "Получает только 0.75x урона в бою"
+msgstr "Получает только 0.75x урона в бою."
 
 #: src-en/data/blueprints.xml.append:1292
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/powerList/power[3]"
-msgstr "Ломает системы в три раза быстрее"
+msgstr "Ломает системы в три раза быстрее."
 
 #: src-en/data/blueprints.xml.append:1293
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/powerList/power[4]"
 msgstr ""
 "Атака похищает здоровье у всех врагов в отсеке, исцеляя всех ближайших "
-"союзников"
+"союзников."
 
 #: src-en/data/blueprints.xml.append:1298
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/desc"
@@ -3134,31 +3044,27 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/shor
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1305
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1306
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/powerList/power[2]"
-msgstr "Максимальное здоровье увеличено до 200"
+msgstr "Максимальное здоровье увеличено до 200."
 
 #: src-en/data/blueprints.xml.append:1307
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/powerList/power[3]"
-msgstr "Ломает системы со скоростью 2.5x"
+msgstr "Ломает системы со скоростью 2.5x."
 
 #: src-en/data/blueprints.xml.append:1308
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/powerList/power[4]"
-msgstr "Мгновенно поглощает кислород из отсеков"
+msgstr "Мгновенно поглощает кислород из отсеков."
 
 #: src-en/data/blueprints.xml.append:1313
 msgid ""
@@ -3176,13 +3082,12 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1320
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anointed\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1321
 msgid ""
@@ -3193,19 +3098,17 @@ msgstr ""
 "останавливая процесс разложения. Полностью исцеляется при использовании."
 
 #: src-en/data/blueprints.xml.append:1322
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anointed\"]/powerList/power[3]"
 msgstr ""
-"Максимальное здоровье увеличено до 200; здоровье медленно снижается, если не"
-" полное"
+"Максимальное здоровье увеличено до 200; здоровье медленно снижается, если не "
+"полное."
 
 #: src-en/data/blueprints.xml.append:1323
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anointed\"]/powerList/power[4]"
 msgstr ""
-"Обеспечивает 2 энергии текущей системы, саботирует системы в 1.5х быстрее"
+"Обеспечивает 2 энергии текущей системы, саботирует системы в 1.5х быстрее."
 
 #: src-en/data/blueprints.xml.append:1328
 msgid ""
@@ -3223,39 +3126,34 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1334
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1335
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/powerList/power[2]"
 msgstr ""
 "Периодическая способность: мгновенно исцеляет всех членов экипажа в том же "
-"отсеке на 25 ОЗ"
+"отсеке на 25 ОЗ."
 
 #: src-en/data/blueprints.xml.append:1336
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/powerList/power[3]"
-msgstr "Пассивно удваивает скорость исцеления дружественного экипажа в отсеке"
+msgstr "Пассивно удваивает скорость исцеления дружественного экипажа в отсеке."
 
 #: src-en/data/blueprints.xml.append:1337
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/powerList/power[4]"
-msgstr "Регенерирует 4 ОЗ/с, если не получает урона в течение 7 секунд"
+msgstr "Регенерирует 4 ОЗ/с, если не получает урона в течение 7 секунд."
 
 #: src-en/data/blueprints.xml.append:1338
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/powerList/power[5]"
-msgstr "Уменьшена вдвое скорость починки"
+msgstr "Уменьшена вдвое скорость починки."
 
 #: src-en/data/blueprints.xml.append:1343
 msgid ""
@@ -3273,13 +3171,12 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1349
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1350
 msgid ""
@@ -3290,23 +3187,20 @@ msgstr ""
 "эффект."
 
 #: src-en/data/blueprints.xml.append:1351
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/powerList/power[3]"
-msgstr "Максимальное здоровье увеличено до 135"
+msgstr "Максимальное здоровье увеличено до 135."
 
 #: src-en/data/blueprints.xml.append:1352
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/powerList/power[4]"
 msgstr ""
-"Пассивно повышает огнестойкость на 50% всем союзникам в пределах отсека"
+"Пассивно повышает огнестойкость на 50% всем союзникам в пределах отсека."
 
 #: src-en/data/blueprints.xml.append:1353
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/powerList/power[5]"
-msgstr "1.5х скорость передвижения"
+msgstr "1.5х скорость передвижения."
 
 #: src-en/data/blueprints.xml.append:1358
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/desc"
@@ -3321,41 +3215,36 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/shor
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1364
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1365
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/powerList/power[2]"
 msgstr ""
 "Активная способность: Исцеляет всех пауков в отсеке и увеличивает их "
-"скорость передвижения"
+"скорость передвижения."
 
 #: src-en/data/blueprints.xml.append:1366
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/powerList/power[3]"
-msgstr "125 здоровья, 1.5x получаемый урон от огня, 1.25x скорость ремонта"
+msgstr "125 здоровья, 1.5x получаемый урон от огня, 1.25x скорость ремонта."
 
 #: src-en/data/blueprints.xml.append:1367
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/powerList/power[4]"
-msgstr "Наносит 3х урона в бою, 0.1х скорость ремонта"
+msgstr "Наносит 3х урона в бою, 0.1х скорость ремонта."
 
 #: src-en/data/blueprints.xml.append:1368
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/powerList/power[5]"
 msgstr ""
 "Может выводить детенышей у пустых маяков и делает всех пауков в пределах "
-"корабля управляемыми"
+"корабля управляемыми."
 
 #: src-en/data/blueprints.xml.append:1373
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/desc"
@@ -3370,41 +3259,36 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/short
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1380
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1381
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/powerList/power[2]"
 msgstr ""
 "Активная способность: Наносит урон всему ближайшему экипажу. Вражеский "
 "экипаж теряет 4 ОЗ/с, союзный - 2 ОЗ/с, а слизни всех видов теряют "
-"дополнительные 4 ОЗ/с. Сам Обин неуязвим."
+"дополнительные 4 ОЗ/с. Сам Обин невосприимчив."
 
 #: src-en/data/blueprints.xml.append:1382
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/powerList/power[3]"
 msgstr ""
-"Снижает скорость исцеления всех остальных членов экипажа в отсеке на 33%"
+"Снижает скорость исцеления всех остальных членов экипажа в отсеке на 33%."
 
 #: src-en/data/blueprints.xml.append:1383
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/powerList/power[4]"
-msgstr "Максимальное здоровье увеличено до 250, 0.6x скорость передвижения"
+msgstr "Максимальное здоровье увеличено до 250. 0.6x скорость передвижения."
 
 #: src-en/data/blueprints.xml.append:1384
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/powerList/power[5]"
-msgstr "Умеренная устойчивость к удушью"
+msgstr "Умеренная устойчивость к удушью."
 
 #: src-en/data/blueprints.xml.append:1389
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ooj\"]/desc"
@@ -3419,19 +3303,17 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ooj\"]/short"
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1395
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ooj\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1396
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ooj\"]/powerList/power[2]"
-msgstr "Получает только 0.75x урона в бою"
+msgstr "Получает только 0.75x урона в бою."
 
 #: src-en/data/blueprints.xml.append:1401
 msgid ""
@@ -3448,26 +3330,22 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_wither\"]/des
 msgstr "Имитация Пока: Витэр."
 
 #: src-en/data/blueprints.xml.append:1408
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_wither\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1409
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_wither\"]/powerList/power[2]"
-msgstr "1.25x боевой урон, уменьшенная вдвое скорость ремонта"
+msgstr "1.25x боевой урон, уменьшенная вдвое скорость ремонта."
 
 #: src-en/data/blueprints.xml.append:1410
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_wither\"]/powerList/power[3]"
-msgstr ""
-"Передвигается с помощью телепортации, не может сгореть или задохнуться"
+msgstr "Передвигается с помощью телепортации, не может сгореть или задохнуться."
 
 #: src-en/data/blueprints.xml.append:1415
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/desc"
@@ -3484,48 +3362,44 @@ msgid ""
 msgstr "Пок"
 
 #: src-en/data/blueprints.xml.append:1422
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/powerList/power[1]"
 msgstr ""
-"Спустя 60 секунд превращается в версию уникального экипажа со всеми его "
-"способностями, а также невосприимчивостью к опасностям и возможностью "
-"проходить сквозь двери."
+"Спустя 60 секунд превращается в версию уникального члена экипажа со всеми "
+"его способностями, а также иммунитетом к опасностям и возможностью проходить "
+"сквозь двери."
 
 #: src-en/data/blueprints.xml.append:1423
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/powerList/power[2]"
 msgstr ""
 "Активная способность: Одновременно размещает пробойную, изоляционную и "
-"ионную бомбу"
+"ионную бомбу."
 
 #: src-en/data/blueprints.xml.append:1424
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/powerList/power[3]"
-msgstr "Максимальное здоровье увеличено до 250"
+msgstr "Максимальное здоровье увеличено до 250."
 
 #: src-en/data/blueprints.xml.append:1425
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/powerList/power[4]"
-msgstr "Получает 0.1x урона от огня и удушья"
+msgstr "Получает 0.1x урона от огня и удушья."
 
 #: src-en/data/blueprints.xml.append:1426
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/powerList/power[5]"
-msgstr "Наносит 1.5х урона в бою"
+msgstr "Наносит 1.5х урона в бою."
 
 #: src-en/data/blueprints.xml.append:1437
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/desc"
 msgstr ""
-"Самый богатый фантом из когда-либо живших. Наделен противоестественной силой, которая делает его сильнее по мере наполнения карманов.\n"
+"Самый богатый фантом из когда-либо живших. Наделен противоестественной "
+"силой, которая делает его сильнее по мере наполнения карманов.\n"
 "\t\n"
-"\tНаследует характеристики фантомов: не получает урона от опасностей, 0.8x скорость передвижения, обладает возможностью проходить сквозь двери"
+"\tНаследует характеристики фантомов: не получает урона от опасностей, 0.8x "
+"скорость передвижения, обладает возможностью проходить сквозь двери"
 
 #: src-en/data/blueprints.xml.append:1440
 #, fuzzy
@@ -3547,49 +3421,46 @@ msgstr ""
 " здоровья."
 
 #: src-en/data/blueprints.xml.append:1447
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/powerList/power[2]"
-msgstr "Максимальное количество здоровья снижено до 50"
+msgstr "Максимальное количество здоровья снижено до 50."
 
 #: src-en/data/blueprints.xml.append:1448
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/powerList/power[3]"
-msgstr "Наносит 0.5х урона в бою с экипажем и 0.5х урона при саботаже"
+msgstr "Наносит 0.5х урона в бою с экипажем и 0.5х урона при саботаже."
 
 #: src-en/data/blueprints.xml.append:1449
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/powerList/power[4]"
 msgstr ""
 "Получает +0.1x урона по экипажу за каждые 10 единиц лома, которые находятся "
-"на корабле"
+"на корабле."
 
 #: src-en/data/blueprints.xml.append:1450
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/powerList/power[5]"
 msgstr ""
-"Получает +0.1x скорости саботажа за каждые 10 единиц лома, которые находятся"
-" на корабле"
+"Получает +0.1x скорости саботажа за каждые 10 единиц лома, которые находятся "
+"на корабле."
 
 #: src-en/data/blueprints.xml.append:1451
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/powerList/power[6]"
 msgstr ""
 "Получает +1 максимального здоровья за каждые 2 единицы лома, которые "
-"находятся на корабле"
+"находятся на корабле."
 
 #: src-en/data/blueprints.xml.append:1456
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/desc"
 msgstr ""
-"Бледная копия самого богатого фантома, который когда-либо жил. Наделен неестественной силой, которая делает его сильнее по мере наполнения карманов.\n"
+"Бледная копия самого богатого фантома, который когда-либо жил. Наделен "
+"неестественной силой, которая делает его сильнее по мере наполнения карманов."
+"\n"
 "\t\n"
-"\tНаследует характеристики фантомов: не получает урона от опасностей, 0.8x скорость передвижения, обладает возможностью проходить сквозь двери"
+"\tНаследует характеристики фантомов: не получает урона от опасностей, 0.8x "
+"скорость передвижения, обладает возможностью проходить сквозь двери"
 
 #: src-en/data/blueprints.xml.append:1459
 #, fuzzy
@@ -3611,40 +3482,35 @@ msgstr ""
 "достигает 10 единиц здоровья."
 
 #: src-en/data/blueprints.xml.append:1466
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/powerList/power[2]"
-msgstr "Максимальное здоровье снижено до 50"
+msgstr "Максимальное здоровье снижено до 50."
 
 #: src-en/data/blueprints.xml.append:1467
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/powerList/power[3]"
-msgstr "Наносит 0.5х урона в бою с экипажем и 0.5х скорость саботажа"
+msgstr "Наносит 0.5х урона в бою с экипажем и 0.5х скорость саботажа."
 
 #: src-en/data/blueprints.xml.append:1468
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/powerList/power[4]"
 msgstr ""
 "Наносит +0,1x урона по экипажу за каждые 10 единиц лома, которые у вас есть "
-"на данный момент"
+"на данный момент."
 
 #: src-en/data/blueprints.xml.append:1469
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/powerList/power[5]"
 msgstr ""
-"Наносит +0,1x скорости саботажа за каждые 10 единиц лома, которые у вас есть"
-" на данный момент"
+"Наносит +0,1x скорости саботажа за каждые 10 единиц лома, которые у вас есть "
+"на данный момент."
 
 #: src-en/data/blueprints.xml.append:1470
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/powerList/power[6]"
 msgstr ""
 "Наносит +1 максимального здоровья за каждые 2 лома, которые у вас есть на "
-"данный момент"
+"данный момент."
 
 #: src-en/data/blueprints.xml.append:1475
 msgid ""
@@ -3675,17 +3541,15 @@ msgstr ""
 "возвращается в свою прежнюю форму (взрослую)."
 
 #: src-en/data/blueprints.xml.append:1487
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_hatchling\"]/powerList/power[2]"
-msgstr "2.5x боевой урон, 0.5x урон при саботаже, 3x скорость передвижения"
+msgstr "2.5x боевой урон, 0.5x урон при саботаже, 3x скорость передвижения."
 
 #: src-en/data/blueprints.xml.append:1488
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_hatchling\"]/powerList/power[3]"
 msgstr ""
-"Не может лечиться обычными способами, клонируется с половинной скоростью"
+"Не может лечиться обычными способами, клонируется с половинной скоростью."
 
 #: src-en/data/blueprints.xml.append:1493
 msgid ""
@@ -3716,26 +3580,23 @@ msgstr ""
 "возвращается в свою прежнюю форму (ткач)."
 
 #: src-en/data/blueprints.xml.append:1505
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_adult\"]/powerList/power[2]"
 msgstr ""
 "2x боевой урон, 1x урон при саботаже, 1x скорость ремонта, 1.5х скорость "
-"передвижения"
+"передвижения."
 
 #: src-en/data/blueprints.xml.append:1506
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_adult\"]/powerList/power[3]"
 msgstr "Не может исцеляться обычными способами, владеет всеми навыками 1 ур."
 
 #: src-en/data/blueprints.xml.append:1507
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_adult\"]/powerList/power[4]"
 msgstr ""
 "Не может быть клонирован, вместо этого после смерти экипаж перерождается в "
-"уменьшенную версию этого экипажа (детеныша)"
+"уменьшенную версию этого экипажа (детеныша)."
 
 #: src-en/data/blueprints.xml.append:1512
 msgid ""
@@ -3767,34 +3628,35 @@ msgstr ""
 " 10 секунд."
 
 #: src-en/data/blueprints.xml.append:1524
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_weaver\"]/powerList/power[2]"
-msgstr "1.5x боевой урон, 1.5x урон при саботаже, 2.5x скорость ремонта"
+msgstr "1.5x боевой урон, 1.5x урон при саботаже, 2.5x скорость ремонта."
 
 #: src-en/data/blueprints.xml.append:1525
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_weaver\"]/powerList/power[3]"
 msgstr "Не может лечиться обычными способами, владеет всеми навыками 2 ур."
 
 #: src-en/data/blueprints.xml.append:1526
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_weaver\"]/powerList/power[4]"
 msgstr ""
 "Не может быть клонирован, вместо этого после смерти экипаж перерождается в "
-"уменьшенную версию этого экипажа (взрослого паука)"
+"уменьшенную версию этого экипажа (взрослого)."
 
 #: src-en/data/blueprints.xml.append:1531
-#, fuzzy
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_prince\"]/desc"
 msgstr ""
-"Загадочный демонический эквиноид, призванный из глубин Тартара. Это существо может выглядеть бездумным, но оно знает о вселенной гораздо больше, чем может показаться.\n"
+"Загадочный демонический эквиноид, призванный из глубин Тартара. Это существо "
+"может выглядеть бездумным, но оно знает о вселенной гораздо больше, чем "
+"может показаться.\n"
 "\t\n"
-"\tНаследует характеристики призраков-бродяг: не получает урона от опасностей, обладает возможностью проходить сквозь двери, затрагивается улучшениями лаборатории для призраков-бродяг.\n"
+"\tНаследует характеристики призраков-бродяг: не получает урона от "
+"опасностей, обладает возможностью проходить сквозь двери, затрагивается "
+"улучшениями лаборатории для призраков-бродяг.\n"
 "\n"
-"\tНаследует характеристики прирученных эквиноидов: может управляться, 0.3х скорость ремонта."
+"\tНаследует характеристики прирученных эквиноидов: может управляться, 0.3х "
+"скорость ремонта."
 
 #: src-en/data/blueprints.xml.append:1536
 #, fuzzy
@@ -3816,29 +3678,31 @@ msgstr ""
 " на 0.25x скорость ремонта и саботажа."
 
 #: src-en/data/blueprints.xml.append:1543
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_prince\"]/powerList/power[2]"
-msgstr "0.4x боевой урон, 0.4x урон при саботаже, 8x скорость передвижения"
+msgstr "0.4x боевой урон, 0.4x урон при саботаже, 8x скорость передвижения."
 
 #: src-en/data/blueprints.xml.append:1544
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_prince\"]/powerList/power[3]"
 msgstr ""
-"Мгновенно тушит пожары, не может быть обнаружен в отсеках, где нет вражеских"
-" дронов"
+"Мгновенно тушит пожары, не может быть обнаружен в отсеках, где нет вражеских "
+"дронов."
 
 #: src-en/data/blueprints.xml.append:1549
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_prince_enemy\"]/desc"
 msgstr ""
-"Загадочный демонический эквиноид, призванный из глубин Тартара. Это существо может выглядеть бездумным, но оно знает о вселенной гораздо больше, чем может показаться.\n"
+"Загадочный демонический эквиноид, призванный из глубин Тартара. Это существо "
+"может выглядеть бездумным, но оно знает о вселенной гораздо больше, чем "
+"может показаться.\n"
 "\t\n"
-"\tНаследует характеристики призраков-бродяг: не получает урона от опасностей, обладает возможностью проходить сквозь двери, затрагивается улучшениями лаборатории для призраков-бродяг.\n"
+"\tНаследует характеристики призраков-бродяг: не получает урона от "
+"опасностей, обладает возможностью проходить сквозь двери, затрагивается "
+"улучшениями лаборатории для призраков-бродяг.\n"
 "\n"
-"\tНаследует характеристики прирученных эквиноидов: может управляться, 0.3х скорость ремонта."
+"\tНаследует характеристики прирученных эквиноидов: может управляться, 0.3х "
+"скорость ремонта."
 
 #: src-en/data/blueprints.xml.append:1554
 msgid ""
@@ -3856,10 +3720,9 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:1561
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_prince_enemy\"]/powerList/power[2]"
-msgstr "0.4x боевой урон, 0.4x урон при саботаже, 8x скорость передвижения"
+msgstr "0.4x боевой урон, 0.4x урон при саботаже, 8x скорость передвижения."
 
 #: src-en/data/blueprints.xml.append:1562
 msgid ""
@@ -3916,21 +3779,19 @@ msgid ""
 msgstr "U. Thing"
 
 #: src-en/data/blueprints.xml.append:1594
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac\"]/powerList/power[1]"
 msgstr ""
 "Активная способность (срабатывает автоматически): контролирует разум "
-"случайного вражеского члена экипажа, находящегося в одном отсеке с Тириаком "
+"случайного вражеского члена экипажа, находящегося в одном отсеке с Тририаком "
 "в течение 10 секунд."
 
 #: src-en/data/blueprints.xml.append:1595
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac\"]/powerList/power[2]"
 msgstr ""
 "0.5x боевой урон и урон при саботаже, 200 максимального здоровья, иммунитет "
-"к контролю разума"
+"к контролю разума."
 
 #: src-en/data/blueprints.xml.append:1596
 msgid ""
@@ -3968,21 +3829,19 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:1613
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac_enemy\"]/powerList/power[1]"
 msgstr ""
 "Активная способность (срабатывает автоматически): контролирует разум "
-"случайного вражеского члена экипажа, находящегося в одном отсеке с Тириаком "
+"случайного вражеского члена экипажа, находящегося в одном отсеке с Тририаком "
 "в течение 10 секунд."
 
 #: src-en/data/blueprints.xml.append:1614
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac_enemy\"]/powerList/power[2]"
 msgstr ""
 "0.5x боевой урон и урон при саботаже, 200 максимального здоровья, иммунитет "
-"к контролю разума"
+"к контролю разума."
 
 #: src-en/data/blueprints.xml.append:1615
 msgid ""
@@ -4013,21 +3872,19 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:1631
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac_noclone\"]/powerList/power[1]"
 msgstr ""
 "Активная способность (срабатывает автоматически): контролирует разум "
-"случайного вражеского члена экипажа, находящегося в одном отсеке с Тириаком "
+"случайного вражеского члена экипажа, находящегося в одном отсеке с Тририаком "
 "в течение 10 секунд."
 
 #: src-en/data/blueprints.xml.append:1632
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac_noclone\"]/powerList/power[2]"
 msgstr ""
 "0.5x боевой урон и урон при саботаже, 200 максимального здоровья, иммунитет "
-"к контролю разума"
+"к контролю разума."
 
 #: src-en/data/blueprints.xml.append:1633
 msgid ""
@@ -4050,10 +3907,9 @@ msgid ""
 msgstr "\"Предвестник\" Содружества мод. I"
 
 #: src-en/data/blueprints.xml.append:1655
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_LASER\"]/short"
-msgstr "Предв. Содр. I"
+msgstr "Предв. ⛼ I"
 
 #: src-en/data/blueprints.xml.append:1657
 msgid ""
@@ -4068,10 +3924,9 @@ msgid ""
 msgstr "\"Предвестник\" Содружества мод. II"
 
 #: src-en/data/blueprints.xml.append:1698
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_LASER_2\"]/short"
-msgstr "Предв. Содр. II"
+msgstr "Предв. ⛼ II"
 
 #: src-en/data/blueprints.xml.append:1700
 msgid ""
@@ -4086,10 +3941,9 @@ msgid ""
 msgstr "Тяжелый \"Предвестник\" Содружества"
 
 #: src-en/data/blueprints.xml.append:1741
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_HEAVY_LASER\"]/short"
-msgstr "Тяж. Предв. Содр."
+msgstr "Тяж. Предв. ⛼"
 
 #: src-en/data/blueprints.xml.append:1743
 msgid ""
@@ -4104,10 +3958,9 @@ msgid ""
 msgstr "Ракетная установка Содружества \"Бойня\""
 
 #: src-en/data/blueprints.xml.append:1786
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_MISSILES\"]/short"
-msgstr "Бойня Содр."
+msgstr "Бойня ⛼"
 
 #: src-en/data/blueprints.xml.append:1787
 msgid ""
@@ -4122,10 +3975,9 @@ msgid ""
 msgstr "\"Ликвидатор\" Содружества мод. II"
 
 #: src-en/data/blueprints.xml.append:1832
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_BEAM\"]/short"
-msgstr "Ликвидатор Содр. II"
+msgstr "Ликвидатор ⛼ II"
 
 #: src-en/data/blueprints.xml.append:1833
 msgid ""
@@ -4135,15 +3987,14 @@ msgstr ""
 "ионизацию системы."
 
 #: src-en/data/blueprints.xml.append:1864
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_BEAM_FRIEND\"]/title"
-msgstr "\"Ликвидатор\" Содружества мод. II"
+msgstr "€ \"Ликвидатор\" Содружества мод. II"
 
 #: src-en/data/blueprints.xml.append:1865
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_BEAM_FRIEND\"]/short"
-msgstr ""
+msgstr "€ Ликвидатор ⛼ II"
 
 #: src-en/data/blueprints.xml.append:1866
 msgid ""
@@ -4153,15 +4004,14 @@ msgstr ""
 "ионизацию системы."
 
 #: src-en/data/blueprints.xml.append:1897
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_BEAM_NEUTRAL\"]/title"
-msgstr "\"Ликвидатор\" Содружества мод. II"
+msgstr "† \"Ликвидатор\" Содружества мод. II"
 
 #: src-en/data/blueprints.xml.append:1898
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_BEAM_NEUTRAL\"]/short"
-msgstr ""
+msgstr "† Ликвидатор ⛼ II"
 
 #: src-en/data/blueprints.xml.append:1899
 msgid ""
@@ -4171,15 +4021,14 @@ msgstr ""
 "ионизацию системы."
 
 #: src-en/data/blueprints.xml.append:1930
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_BEAM_ENEMY\"]/title"
-msgstr "\"Ликвидатор\" Содружества мод. II"
+msgstr "‡ \"Ликвидатор\" Содружества мод. II"
 
 #: src-en/data/blueprints.xml.append:1931
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_BEAM_ENEMY\"]/short"
-msgstr ""
+msgstr "‡ Ликвидатор ⛼ II"
 
 #: src-en/data/blueprints.xml.append:1932
 msgid ""
@@ -4194,10 +4043,9 @@ msgid ""
 msgstr "\"Ликвидатор\" Содружества мод. I"
 
 #: src-en/data/blueprints.xml.append:1964
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_BEAM_BASIC\"]/short"
-msgstr "Ликвидатор Содр. I"
+msgstr "Ликвидатор ⛼ I"
 
 #: src-en/data/blueprints.xml.append:1965
 msgid ""
@@ -4212,10 +4060,9 @@ msgid ""
 msgstr "Точечный луч Содружества \"Чистильщик\""
 
 #: src-en/data/blueprints.xml.append:1997
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_FOCUS\"]/short"
-msgstr "Чистильщик Содр."
+msgstr "Чистильщик ⛼"
 
 #: src-en/data/blueprints.xml.append:1998
 msgid ""
@@ -4229,6 +4076,19 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_FOCUS\"]/tooltipOverride"
 msgstr ""
+"Необходимая мощность: 3\n"
+"\t\tВремя перезарядки: 30 сек.\n"
+"\n"
+"\t\tДлина луча: Точечный луч\n"
+"\t\tСкорость луча: 1\n"
+"\t\t\n"
+"\t\tВосстановление корпуса: 5\n"
+"\t\tУрон экипажу: 75\n"
+"\t\tИонный урон: 5\n"
+"\n"
+"\t\tВероятность возгорания: 50%\n"
+"\t\tВероятность пробоины: 50% (Скорректировано: 25%)\n"
+"\t\tВероятность оглушения: 100% (25 сек.)"
 
 #: src-en/data/blueprints.xml.append:2064
 msgid ""
@@ -4238,7 +4098,7 @@ msgstr "Точечный луч Содружества \"Чистильщик\""
 #: src-en/data/blueprints.xml.append:2065
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_FOCUS_ENEMY\"]/short"
-msgstr ""
+msgstr "Чистильщик ⛼"
 
 #: src-en/data/blueprints.xml.append:2066
 msgid ""
@@ -4254,10 +4114,9 @@ msgid ""
 msgstr "Плазменная пушка Содружества"
 
 #: src-en/data/blueprints.xml.append:2100
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_ION\"]/short"
-msgstr "Плазма Содр."
+msgstr "Плазма ⛼"
 
 #: src-en/data/blueprints.xml.append:2102
 msgid ""
@@ -4272,10 +4131,9 @@ msgid ""
 msgstr "ЭМИ-телепортатор Содружества"
 
 #: src-en/data/blueprints.xml.append:2145
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_BOMB\"]/short"
-msgstr "ЭМИ Содр."
+msgstr "ЭМИ ⛼"
 
 #: src-en/data/blueprints.xml.append:2146
 msgid ""
@@ -4290,10 +4148,9 @@ msgid ""
 msgstr "\"Опустошитель\" Содружества"
 
 #: src-en/data/blueprints.xml.append:2181
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_HAVOC\"]/short"
-msgstr "Опустош. Содр."
+msgstr "Опустош. ⛼"
 
 #: src-en/data/blueprints.xml.append:2182
 msgid ""
@@ -4305,12 +4162,12 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:2215
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_MINELAUNCHER\"]/title"
-msgstr ""
+msgstr "Пусковая установка \"Натиск\" Содружества"
 
 #: src-en/data/blueprints.xml.append:2216
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_MINELAUNCHER\"]/short"
-msgstr ""
+msgstr "Натиск ⛼"
 
 #: src-en/data/blueprints.xml.append:2217
 msgid ""
@@ -4323,10 +4180,9 @@ msgid ""
 msgstr "Артиллерия Содружества"
 
 #: src-en/data/blueprints.xml.append:2263
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_ARTILLERY\"]/short"
-msgstr "€ Артиллерия"
+msgstr "⛼ Артиллерия"
 
 #: src-en/data/blueprints.xml.append:2264
 msgid ""
@@ -4375,10 +4231,9 @@ msgid ""
 msgstr "Прото-Атомизатор [Охрана]"
 
 #: src-en/data/blueprints.xml.append:2460
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_ATOMC_DEFEND\"]/short"
-msgstr "Атом. Содр. [О]"
+msgstr "Атом. ⛼ [О]"
 
 #: src-en/data/blueprints.xml.append:2461
 msgid ""
@@ -4396,10 +4251,9 @@ msgid ""
 msgstr "Прото-Атомизатор [Абордаж]"
 
 #: src-en/data/blueprints.xml.append:2477
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_ATOMC_BOARDER\"]/short"
-msgstr "Атом. Содр. [А]"
+msgstr "Атом. ⛼ [А]"
 
 #: src-en/data/blueprints.xml.append:2478
 msgid ""
@@ -4438,9 +4292,8 @@ msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_DIRECTORC\"]/title
 msgstr "Прото-Руководитель"
 
 #: src-en/data/blueprints.xml.append:2519
-#, fuzzy
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_DIRECTORC\"]/short"
-msgstr "Руководитель"
+msgstr "Руководитель ⛼"
 
 #: src-en/data/blueprints.xml.append:2520
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_DIRECTORC\"]/desc"
@@ -4478,9 +4331,8 @@ msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERC\"]/title"
 msgstr "Прото-Наладчик"
 
 #: src-en/data/blueprints.xml.append:2561
-#, fuzzy
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERC\"]/short"
-msgstr "Наладчик"
+msgstr "Наладчик ⛼"
 
 #: src-en/data/blueprints.xml.append:2562
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERC\"]/desc"
@@ -4495,10 +4347,9 @@ msgid ""
 msgstr "Прото-Наладчик"
 
 #: src-en/data/blueprints.xml.append:2577
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERC_ENEMY\"]/short"
-msgstr "Наладчик"
+msgstr "Наладчик ⛼"
 
 #: src-en/data/blueprints.xml.append:2578
 msgid ""
@@ -4519,10 +4370,9 @@ msgid ""
 msgstr "Дрон Содружества \"Предвестник\" мод. I"
 
 #: src-en/data/blueprints.xml.append:2605
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER\"]/short"
-msgstr "Предв. Содр. I"
+msgstr "Предв. ⛼ I"
 
 #: src-en/data/blueprints.xml.append:2606
 msgid ""
@@ -4539,7 +4389,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:2623
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER_ENEMY\"]/short"
-msgstr ""
+msgstr "Предв. ⛼ I"
 
 #: src-en/data/blueprints.xml.append:2624
 msgid ""
@@ -4569,10 +4419,9 @@ msgid ""
 msgstr "Дрон Содружества \"Предвестник\" мод. II"
 
 #: src-en/data/blueprints.xml.append:2678
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER_2\"]/short"
-msgstr "Предв. Содр. II"
+msgstr "⛼ Предв. II"
 
 #: src-en/data/blueprints.xml.append:2679
 msgid ""
@@ -4603,10 +4452,9 @@ msgid ""
 msgstr "Дрон Содружества \"Ликвидатор\" мод. I"
 
 #: src-en/data/blueprints.xml.append:2733
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_BEAM\"]/short"
-msgstr "Ликвид. I"
+msgstr "⛼ Ликвид. I"
 
 #: src-en/data/blueprints.xml.append:2734
 msgid ""
@@ -4635,10 +4483,9 @@ msgid ""
 msgstr "Дрон Содружества \"Ликвидатор\" мод. II"
 
 #: src-en/data/blueprints.xml.append:2786
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_BEAM_2\"]/short"
-msgstr "Ликвид. II"
+msgstr "⛼ Ликвид. II"
 
 #: src-en/data/blueprints.xml.append:2787
 msgid ""
@@ -4668,10 +4515,9 @@ msgid ""
 msgstr "Дрон \"Чистильщик\" Содружества"
 
 #: src-en/data/blueprints.xml.append:2838
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_PINPOINT\"]/short"
-msgstr "Чистильщик"
+msgstr "⛼ Чистильщик"
 
 #: src-en/data/blueprints.xml.append:2839
 msgid ""
@@ -4756,16 +4602,14 @@ msgid ""
 msgstr "ДРОНОВОЕ ОРУЖИЕ"
 
 #: src-en/data/blueprints.xml.append:2994
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_DEFENSE\"]/title"
 msgstr "\"Наблюдатель\" Содружества"
 
 #: src-en/data/blueprints.xml.append:2995
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_DEFENSE\"]/short"
-msgstr "Набл. Содр."
+msgstr "Набл. ⛼"
 
 #: src-en/data/blueprints.xml.append:2996
 msgid ""
@@ -4807,16 +4651,14 @@ msgid ""
 msgstr "ДРОНОВОЕ ОРУЖИЕ"
 
 #: src-en/data/blueprints.xml.append:3073
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_ION\"]/title"
 msgstr "Фазерный дрон Содружества"
 
 #: src-en/data/blueprints.xml.append:3074
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_ION\"]/short"
-msgstr "Фазер Содр."
+msgstr "Фазер ⛼"
 
 #: src-en/data/blueprints.xml.append:3075
 msgid ""
@@ -4842,16 +4684,14 @@ msgid ""
 msgstr "ДРОНОВОЕ ОРУЖИЕ"
 
 #: src-en/data/blueprints.xml.append:3128
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_MISSILE\"]/title"
 msgstr "Дрон \"Бойня\" Содружества"
 
 #: src-en/data/blueprints.xml.append:3129
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_MISSILE\"]/short"
-msgstr "Бойня Содр."
+msgstr "Бойня ⛼"
 
 #: src-en/data/blueprints.xml.append:3130
 msgid ""
@@ -4884,19 +4724,16 @@ msgid ""
 msgstr "Луч Расщепитель"
 
 #: src-en/data/blueprints.xml.append:3194
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_BEAM\"]/short"
-msgstr "Расщепит."
+msgstr "Луч Расщепит."
 
 #: src-en/data/blueprints.xml.append:3195
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_BEAM\"]/desc"
 msgstr ""
-"Этот прототип луча наносит ужасающее количество урона корпусу и системам, а "
-"также оставляет после себя коррозийный эффект на системах, но щиты полностью"
-" сводят на нет его возможности."
+"Этот прототип луча наносит ужасающее количество урона корпусу и системам, но "
+"щиты полностью сводят на нет его возможности."
 
 #: src-en/data/blueprints.xml.append:3225
 msgid ""
@@ -4909,12 +4746,11 @@ msgid ""
 msgstr "Базовый Трансфикс."
 
 #: src-en/data/blueprints.xml.append:3228
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_BASIC_LASER\"]/desc"
 msgstr ""
-"Мощный лазер, работающий на эфире, который пробивает все щиты, разрушает "
-"системы и применяет эрозию."
+"Мощный лазер, работающий на эфире, который пробивает все щиты и разрушает "
+"системы."
 
 #: src-en/data/blueprints.xml.append:3264
 msgid ""
@@ -4922,18 +4758,16 @@ msgid ""
 msgstr "Трансфиксатор"
 
 #: src-en/data/blueprints.xml.append:3265
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_LASER\"]/short"
 msgstr "Трансфикс."
 
 #: src-en/data/blueprints.xml.append:3267
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_LASER\"]/desc"
 msgstr ""
-"Мощный лазер, работающий на эфире, который пробивает все щиты, разрушает "
-"системы и применяет эрозию."
+"Мощный лазер, работающий на эфире, который пробивает все щиты и разрушает "
+"системы."
 
 #: src-en/data/blueprints.xml.append:3303
 msgid ""
@@ -4941,10 +4775,9 @@ msgid ""
 msgstr "Лазер Синтез"
 
 #: src-en/data/blueprints.xml.append:3304
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_HEAVY_LASER\"]/short"
-msgstr "Синтез"
+msgstr "Л. Синтез"
 
 #: src-en/data/blueprints.xml.append:3306
 msgid ""
@@ -4959,7 +4792,6 @@ msgid ""
 msgstr "Нейтрониевая пушка"
 
 #: src-en/data/blueprints.xml.append:3345
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_PLASMA\"]/short"
 msgstr "Нейтр. пушка"
@@ -4977,10 +4809,9 @@ msgid ""
 msgstr "Телепортер \"Сверхновый\""
 
 #: src-en/data/blueprints.xml.append:3393
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_BOMB\"]/short"
-msgstr "Сверхновый"
+msgstr "Сверхновая бомба"
 
 #: src-en/data/blueprints.xml.append:3394
 msgid ""
@@ -4995,24 +4826,33 @@ msgid ""
 msgstr "Катаклизмизатор"
 
 #: src-en/data/blueprints.xml.append:3428
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_HAVOC\"]/short"
-msgstr "Катаклизм."
+msgstr "Луч Катаклизм."
 
 #: src-en/data/blueprints.xml.append:3429
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_HAVOC\"]/desc"
 msgstr ""
 "Этот луч уничтожает всякое подобие порядка внутри цели, распространяя "
-"ионизацию и коррозионную энергию и уничтожая экипаж, в обмен на уничтожение "
-"систем."
+"ионизацию и коррозионную энергию и уничтожая экипаж, в обмен на это он также "
+"склеивает корпус и не наносит системного урона."
 
 #: src-en/data/blueprints.xml.append:3448
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_HAVOC\"]/tooltipOverride"
 msgstr ""
+"Необходимая мощность: 3\n"
+"\t\tВремя перезарядки: 15 сек.\n"
+"\n"
+"\t\tДлина луча: 200\n"
+"\t\tСкорость луча: 5\n"
+"\t\t\n"
+"\t\tВосстановление корпуса: 4\n"
+"\t\tУрон экипажу: 75\n"
+"\t\tИонный урон: 4\n"
+"\n"
+"\t\tВероятность оглушения: 100% (15 сек.)"
 
 #: src-en/data/blueprints.xml.append:3491
 msgid ""
@@ -5020,10 +4860,9 @@ msgid ""
 msgstr "Континуумная ракетная установка"
 
 #: src-en/data/blueprints.xml.append:3492
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_MISSILE\"]/short"
-msgstr "Континуум"
+msgstr "Континуум р."
 
 #: src-en/data/blueprints.xml.append:3493
 msgid ""
@@ -5039,10 +4878,9 @@ msgid ""
 msgstr "Континуумные ракеты [ВРАГ]"
 
 #: src-en/data/blueprints.xml.append:3542
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_MISSILE_ENEMY\"]/short"
-msgstr "Континуум"
+msgstr "Континуум р."
 
 #: src-en/data/blueprints.xml.append:3543
 msgid ""
@@ -5053,34 +4891,32 @@ msgstr ""
 "скорострельность и не потребляет боеголовок для стрельбы."
 
 #: src-en/data/blueprints.xml.append:3590
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_PACIFIER\"]/title"
-msgstr "Глушитель"
+msgstr "\"Глушитель\""
 
 #: src-en/data/blueprints.xml.append:3591
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_PACIFIER\"]/short"
 msgstr "Глушитель"
 
 #: src-en/data/blueprints.xml.append:3593
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_PACIFIER\"]/desc"
 msgstr ""
-"Это причудливое орудие создает самоуправляемую голографическую проекцию. Хотя она не может управлять системами, ремонтировать, саботировать или лечить обычными способами, она очень прочная и будет упорно атаковать врагов.\n"
+"Это причудливое орудие создает самоуправляемую голографическую проекцию. "
+"Хотя она не может управлять системами, ремонтировать, саботировать или "
+"лечить обычными способами, она очень прочная и будет упорно атаковать врагов."
+"\n"
 "\t\t\n"
-"\tГолограмма не разрушается, если находится на вашем корабле."
+"\tГолограмма исчезнет, если она будет находиться на вашем корабле."
 
 #: src-en/data/blueprints.xml.append:3690
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_PACIFIER_ENEMY\"]/title"
-msgstr "Глушитель"
+msgstr "\"Глушитель\""
 
 #: src-en/data/blueprints.xml.append:3691
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_PACIFIER_ENEMY\"]/short"
 msgstr "Глушитель"
@@ -5094,13 +4930,11 @@ msgstr ""
 "\tГолограмма не разрушается, если находится на вашем корабле."
 
 #: src-en/data/blueprints.xml.append:3796
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_PINPOINT\"]/title"
-msgstr "Очищающий точечный луч"
+msgstr "\"Очищающий\" точечный луч"
 
 #: src-en/data/blueprints.xml.append:3797
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_PINPOINT\"]/short"
 msgstr "Очищающий"
@@ -5113,13 +4947,11 @@ msgstr ""
 "по системе и пробивает все щиты."
 
 #: src-en/data/blueprints.xml.append:3829
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_MINE\"]/title"
 msgstr "Установка \"Подавитель\""
 
 #: src-en/data/blueprints.xml.append:3830
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_MINE\"]/short"
 msgstr "Подавитель"
@@ -5210,13 +5042,12 @@ msgid ""
 msgstr "Базовый Трансфикс."
 
 #: src-en/data/blueprints.xml.append:3998
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_WITHER_PROTOTYPE_COMBAT_BASIC_LASER\"]/desc"
 msgstr ""
 "Этот прототип дрона считается \"базовым\" среди себе подобных. Он оснащен "
-"мощным противокорпусным лазером, который наносит коррозионный эффект и "
-"позволяет избежать всех мер борьбы с дронами."
+"мощным противокорпусным лазером, который позволяет избежать всех мер борьбы "
+"с дронами."
 
 #: src-en/data/blueprints.xml.append:4014
 msgid ""
@@ -5239,18 +5070,16 @@ msgid ""
 msgstr "Дрон Трансфиксатор"
 
 #: src-en/data/blueprints.xml.append:4051
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_WITHER_PROTOTYPE_COMBAT_LASER\"]/short"
 msgstr "Трансфикс."
 
 #: src-en/data/blueprints.xml.append:4052
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_WITHER_PROTOTYPE_COMBAT_LASER\"]/desc"
 msgstr ""
-"Дрон, стреляющий мощными болтами, наносящими огромный урон корпусу и "
-"разъедающими системы. Он не обладает уклонением, как его меньший вариант."
+"Дрон, стреляющий мощными болтами, наносящими огромный урон корпусу. Он не "
+"обладает уклонением, как его меньший вариант."
 
 #: src-en/data/blueprints.xml.append:4068
 msgid ""
@@ -5273,18 +5102,16 @@ msgid ""
 msgstr "Дрон Расщепитель"
 
 #: src-en/data/blueprints.xml.append:4106
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_WITHER_PROTOTYPE_COMBAT_BEAM\"]/short"
 msgstr "Расщепит."
 
 #: src-en/data/blueprints.xml.append:4107
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_WITHER_PROTOTYPE_COMBAT_BEAM\"]/desc"
 msgstr ""
 "Лучевой дрон, прототип которого был создан Аэнвитэ. Он может похвастаться "
-"длинным лучом, высоким уроном и эрозией, но не может пробивать щиты."
+"длинным лучом и высоким уроном, но не может пробивать щиты."
 
 #: src-en/data/blueprints.xml.append:4123
 msgid ""
@@ -5307,10 +5134,9 @@ msgid ""
 msgstr "Нейтрониевый дрон"
 
 #: src-en/data/blueprints.xml.append:4156
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_WITHER_PROTOTYPE_COMBAT_ION\"]/short"
-msgstr "Нейтр. дрон"
+msgstr "Нейтрон."
 
 #: src-en/data/blueprints.xml.append:4157
 msgid ""
@@ -5345,12 +5171,11 @@ msgid ""
 msgstr "Очищающий"
 
 #: src-en/data/blueprints.xml.append:4217
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_WITHER_PROTOTYPE_COMBAT_PINPOINT\"]/desc"
 msgstr ""
-"Боевой дрон обелисков, оснащенный точечным лучом, уничтожающим экипаж и "
-"накладывающим эрозию."
+"Боевой дрон обелисков, оснащенный точечным лучом, создавая всевозможный хаос "
+"на вражеском корабле."
 
 #: src-en/data/blueprints.xml.append:4233
 msgid ""
@@ -5368,9 +5193,8 @@ msgid ""
 msgstr "ДРОНОВОЕ ОРУЖИЕ"
 
 #: src-en/data/blueprints.xml.append:4265
-#, fuzzy
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_atomw\"]/title"
-msgstr "Увядший Атом"
+msgstr "Увядший Атомизатор"
 
 #: src-en/data/blueprints.xml.append:4266
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_atomw\"]/short"
@@ -5390,9 +5214,8 @@ msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_ATOMW\"]/title"
 msgstr "Экспериментальный Атомизатор"
 
 #: src-en/data/blueprints.xml.append:4279
-#, fuzzy
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_ATOMW\"]/short"
-msgstr "Экс. Атом"
+msgstr "Экс. Атом."
 
 #: src-en/data/blueprints.xml.append:4280
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_ATOMW\"]/desc"
@@ -5428,14 +5251,15 @@ msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_DIRECTORW\"]/short
 msgstr "Экс. Руковод."
 
 #: src-en/data/blueprints.xml.append:4308
-#, fuzzy
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_DIRECTORW\"]/desc"
 msgstr ""
-"Чрезвычайно прочный прототип утилитарного дрона, который может одновременно сражаться с экипажем и взаимодействовать с системами.\n"
+"Чрезвычайно прочный прототип утилитарного дрона, который может одновременно "
+"сражаться с экипажем и взаимодействовать с системами.\n"
 "    \n"
 "-300 ОЗ, 0.5x получаемый урон\n"
-"-Вылечивает дружественный экипаж на 20 ОЗ/с и наносит 10 ОЗ/с урона вражескому экипажу, находясь с ним в одном отсеке.\n"
-"-Может управлять системами на 2ур."
+"-Вылечивает дружественный экипаж на 20 ОЗ/с и наносит 10 ОЗ/с урона "
+"вражескому экипажу, находясь с ним в одном отсеке.\n"
+"-Может управлять системами на 2 ур."
 
 #: src-en/data/blueprints.xml.append:4322
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_menderw\"]/title"
@@ -5582,7 +5406,6 @@ msgid ""
 msgstr "Анти-Био луч"
 
 #: src-en/data/blueprints.xml.append:4532
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARCADIA_DRONE_BIO\"]/short"
 msgstr "Анти-Био луч"
@@ -5637,10 +5460,9 @@ msgid ""
 msgstr "Ракета дрона"
 
 #: src-en/data/blueprints.xml.append:4701
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARCADIA_DRONE_MISSILE\"]/short"
-msgstr "Ракета дрона"
+msgstr "Ракета др."
 
 #: src-en/data/blueprints.xml.append:4733
 msgid ""
@@ -5898,14 +5720,12 @@ msgid ""
 msgstr "Прометей"
 
 #: src-en/data/blueprints.xml.append:5525
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_VIN_MISSILE\"]/desc"
 msgstr ""
 "Проект Вин. Это, вероятно, самая горячая пушка в Мультивселенной. Она "
-"заряжается и выпускает шквал ракет, которые не наносят системных "
-"повреждений, но всегда вызывают пожар и временно делают врагов уязвимыми к "
-"огню."
+"заряжается и выпускает шквал ракет, которые не наносят системного урона, но "
+"всегда вызывают пожар и временно делают врагов уязвимыми к огню."
 
 #: src-en/data/blueprints.xml.append:5588
 msgid ""
@@ -5966,7 +5786,6 @@ msgid ""
 msgstr "Некромантическая пушка (Враг)"
 
 #: src-en/data/blueprints.xml.append:5648
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_NECROMANTIC_PLASMA_ENEMY\"]/short"
 msgstr "Некро. пушка"
@@ -5984,10 +5803,9 @@ msgid ""
 msgstr "Некромантическая пушка"
 
 #: src-en/data/blueprints.xml.append:5706
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_NECROMANTIC_PLASMA\"]/short"
-msgstr "Некро. пушка"
+msgstr "☠ Плазма"
 
 #: src-en/data/blueprints.xml.append:5708
 msgid ""
@@ -6002,10 +5820,9 @@ msgid ""
 msgstr "Некромантический \"Предвестник\""
 
 #: src-en/data/blueprints.xml.append:5764
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_NECROMANTIC_LASER\"]/short"
-msgstr "Некро. Предв."
+msgstr "☠ Предв."
 
 #: src-en/data/blueprints.xml.append:5766
 msgid ""
@@ -6021,10 +5838,9 @@ msgid ""
 msgstr "Некромантический ракетный дрон"
 
 #: src-en/data/blueprints.xml.append:5818
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_NECROMANTIC_COMBAT_MISSILE\"]/short"
-msgstr "Некро. рак. др."
+msgstr "☠ Рак. дрон"
 
 #: src-en/data/blueprints.xml.append:5819
 msgid ""
@@ -6076,10 +5892,9 @@ msgid ""
 msgstr "Ремонтная бомба Смоук"
 
 #: src-en/data/blueprints.xml.append:6017
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SMOKE_REPAIR_BOMB\"]/short"
-msgstr "Рем. бомба Смоук"
+msgstr "Рем. Смоук"
 
 #: src-en/data/blueprints.xml.append:6019
 msgid ""
@@ -6096,13 +5911,11 @@ msgid ""
 msgstr "Замороженное осколочное орудие"
 
 #: src-en/data/blueprints.xml.append:6052
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CHILLS_SNOW_FLAK\"]/short"
 msgstr "Заморож. оск."
 
 #: src-en/data/blueprints.xml.append:6054
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CHILLS_SNOW_FLAK\"]/desc"
 msgstr ""
@@ -6116,10 +5929,9 @@ msgid ""
 msgstr "Морозная споровая установка [Враг]"
 
 #: src-en/data/blueprints.xml.append:6124
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CHILLS_SPORE_BOMBLAUNCHER_ENEMY\"]/short"
-msgstr "Заморож. с."
+msgstr "Заморож. споры"
 
 #: src-en/data/blueprints.xml.append:6126
 msgid ""
@@ -6135,10 +5947,9 @@ msgid ""
 msgstr "Морозная споровая установка"
 
 #: src-en/data/blueprints.xml.append:6186
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CHILLS_SPORE_BOMBLAUNCHER\"]/short"
-msgstr "Заморож. с."
+msgstr "Заморож. споры"
 
 #: src-en/data/blueprints.xml.append:6188
 msgid ""
@@ -6193,7 +6004,6 @@ msgid ""
 msgstr "Эфирный блок питания"
 
 #: src-en/data/blueprints.xml.append:6373
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LEO_BATTERY\"]/short"
 msgstr "Эф. бат."
@@ -6213,10 +6023,9 @@ msgid ""
 msgstr "Перегруженная энергетическая пушка"
 
 #: src-en/data/blueprints.xml.append:6422
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SEARAK_ENERGY\"]/short"
-msgstr "Перегр. Сир."
+msgstr "Перегр. ЭП"
 
 #: src-en/data/blueprints.xml.append:6424
 msgid ""
@@ -6227,7 +6036,6 @@ msgstr ""
 "радиусу."
 
 #: src-en/data/blueprints.xml.append:6470
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LEGION_AUTO_ZENITH\"]/title"
 msgstr "Зенит Легионеров"
@@ -6238,7 +6046,6 @@ msgid ""
 msgstr "Зенит Легион."
 
 #: src-en/data/blueprints.xml.append:6473
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LEGION_AUTO_ZENITH\"]/desc"
 msgstr ""
@@ -6268,13 +6075,12 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:6558
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SLIMER_NEBULA_STIMULANTS\"]/title"
-msgstr "Бомба-стимулятор туманности Слимера"
+msgstr "Стимулирующая бомба туманности Слимера"
 
 #: src-en/data/blueprints.xml.append:6559
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SLIMER_NEBULA_STIMULANTS\"]/short"
-msgstr "Стим. бомба"
+msgstr "Стим. бомба тум."
 
 #: src-en/data/blueprints.xml.append:6560
 msgid ""
@@ -6402,7 +6208,6 @@ msgid ""
 msgstr "Теневое копье Зулу"
 
 #: src-en/data/blueprints.xml.append:6919
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ZULU_SHADOW_PINPOINT\"]/short"
 msgstr "Теневое копье"
@@ -6421,7 +6226,6 @@ msgid ""
 msgstr "Искажающий луч Ж"
 
 #: src-en/data/blueprints.xml.append:6963
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_G_EROSION_BEAM\"]/short"
 msgstr "Искаж. луч"
@@ -6458,7 +6262,6 @@ msgid ""
 msgstr "Кристаллическая ремонтная установка Смоук"
 
 #: src-en/data/blueprints.xml.append:7069
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SMOKE_PRO_HULL_CRYSTAL\"]/short"
 msgstr "Рем. кристалл"
@@ -6576,7 +6379,6 @@ msgid ""
 msgstr "Энергетический Гатлинг Сирака"
 
 #: src-en/data/blueprints.xml.append:7370
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SEARAK_ENERGY_GATLING\"]/short"
 msgstr "Энерг. Гатл."
@@ -6600,12 +6402,12 @@ msgid ""
 msgstr "Ксистон"
 
 #: src-en/data/blueprints.xml.append:7425
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ZOLTAN_AUTO_BEAM\"]/desc"
 msgstr ""
 "Это лучевое орудие наносит 1 урон за каждую плитку, через которую проходит, "
-"что позволяет ему легко разрушать корабль и его системы при попадании."
+"что позволяет ему легко разрушать корабль и его системы при попадании в "
+"большие отсеки."
 
 #: src-en/data/blueprints.xml.append:7455
 msgid ""
@@ -6747,9 +6549,26 @@ msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_LASER\"]/desc
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:7809
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_LASER\"]/tooltipOverride"
 msgstr ""
+"Необходимая мощность: 2\n"
+"\t\tВремя перезарядки: 20 сек.\n"
+"\n"
+"\t\tВыстрелов в очереди: 3\n"
+"\n"
+"\t\tУрон корпусу: 2\n"
+"\t\tУрон системам: 2\n"
+"\t\tУрон экипажу: 30\n"
+"\t\t\n"
+"\n"
+"\t\tЗамедляет попадание в отсек на: 10 сек.\n"
+"\n"
+"\t\tВероятность пробоины: 100% (Скорректировано: 100%)\n"
+"\n"
+"\t\tСнятие слоев щита: 5\n"
+"\t\tСнятие слоев суперщита: 5"
 
 #: src-en/data/blueprints.xml.append:7862
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_ION\"]/title"
@@ -6767,6 +6586,20 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_ION\"]/tooltipOverride"
 msgstr ""
+"Необходимая мощность: 2\n"
+"\t\tВремя перезарядки: 20 сек.\n"
+"\n"
+"\t\tВыстрелов в очереди: 1\n"
+"\n"
+"\t\tИонный урон: 2\n"
+"\t\tУрон системам: 2\n"
+"\t\tПробивание щита: 10\n"
+"\n"
+"\t\tЗамедляет попадание в отсек на: 10 сек.\n"
+"\n"
+"\t\tВероятность пробоины: 100% (Скорректировано: 100%)\n"
+"\n"
+"\t\tУрон ближайшим отсекам: 1 ионный и системам"
 
 #: src-en/data/blueprints.xml.append:7945
 msgid ""
@@ -6787,6 +6620,21 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_MISSILE\"]/tooltipOverride"
 msgstr ""
+"Необходимая мощность: 2\n"
+"\t\tВремя перезарядки: 20 сек.\n"
+"\t\tПотребление боеголовок: 2\n"
+"\n"
+"\t\tВыстрелов в очереди: 1\n"
+"\n"
+"\t\tДвойной урон отсекам без систем.\n"
+"\t\tУрон корпусу: 4\n"
+"\t\tУрон системам: 4\n"
+"\t\tУрон экипажу: 60\n"
+"\n"
+"\t\tЗамедляет попадание в отсек на: 10 сек.\n"
+"\n"
+"\t\tВероятность пробоины: 100% (Скорректировано: 100%)\n"
+"\t\tВероятность оглушения: 100% (15 сек.)"
 
 #: src-en/data/blueprints.xml.append:8022
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_BOMB\"]/title"
@@ -6804,6 +6652,19 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_BOMB\"]/tooltipOverride"
 msgstr ""
+"Необходимая мощность: 2\n"
+"\t\tВремя перезарядки: 20 сек.\n"
+"\t\tПотребление боеголовок: 2\n"
+"\n"
+"\t\tВыстрелов в очереди: 1\n"
+"\t\t\n"
+"\t\tУрон системам: 6\n"
+"\t\tУрон экипажу: 90\n"
+"\n"
+"\t\tЗамедляет попадание в отсек на: 10 сек.\n"
+"\n"
+"\t\tВероятность пробоины: 100% (Скорректировано: 100%)\n"
+"\t\tВероятность оглушения: 100% (15 сек.)"
 
 #: src-en/data/blueprints.xml.append:8086
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_BEAM\"]/title"
@@ -6821,6 +6682,20 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_BEAM\"]/tooltipOverride"
 msgstr ""
+"Необходимая мощность: 2\n"
+"\t\tВремя перезарядки: 20 сек.\n"
+"\n"
+"\t\tДлина луча: 180\n"
+"\t\tСкорость луча: 10\n"
+"\n"
+"\t\tДвойной урон отсекам без систем.\n"
+"\t\tУрон корпусу: 1\n"
+"\t\tУрон системам: 4\n"
+"\t\tУрон экипажу: 30\n"
+"\n"
+"\t\tЗамедляет попадание в отсек на: 10 сек.\n"
+"\n"
+"\t\tВероятность пробоины: 100% (Скорректировано: 100%)"
 
 #: src-en/data/blueprints.xml.append:8152
 msgid ""
@@ -6828,7 +6703,6 @@ msgid ""
 msgstr "Луч \"По\""
 
 #: src-en/data/blueprints.xml.append:8153
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_BEAM_VISION\"]/short"
 msgstr "По"
@@ -6916,7 +6790,6 @@ msgid ""
 msgstr "Тяжелый лазер Талли"
 
 #: src-en/data/blueprints.xml.append:8434
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_TULLY_HEAVY_LASER_3\"]/short"
 msgstr "Тяж. лаз. Талли"
@@ -6986,7 +6859,6 @@ msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_MFK_BEAM\"]/title
 msgstr "Пучок частиц"
 
 #: src-en/data/blueprints.xml.append:8669
-#, fuzzy
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_MFK_BEAM\"]/short"
 msgstr "Пучок част."
 
@@ -6999,10 +6871,9 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:8696
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_BILLVAN_LASER\"]/title"
-msgstr "Премиальный импульсный лазер Гектар"
+msgstr "Премиальный импульс Гектар"
 
 #: src-en/data/blueprints.xml.append:8697
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_BILLVAN_LASER\"]/short"
 msgstr "Прем. импульс"
@@ -7270,12 +7141,11 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:9225
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_LASER_COMMONWEALTH\"]/tooltip"
 msgstr ""
-"Производит 2 выстрела, содержащие по 3 снаряда, которые наносят 2 ионного и "
-"1 обычного урона."
+"Производит 3 выстрела, содержащие по 2 снаряда, каждый из которых наносят 2 "
+"ионного и 1 обычного урона."
 
 #: src-en/data/blueprints.xml.append:9264
 msgid ""
@@ -7738,16 +7608,14 @@ msgstr ""
 "экипажу, но накладывают на врагов все ослабления, основанные на безумии."
 
 #: src-en/data/blueprints.xml.append:10526
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ANCIENT_C\"]/title"
-msgstr "Минная артиллерия Содружества"
+msgstr "Артиллерия \"Натиск\" Содружества"
 
 #: src-en/data/blueprints.xml.append:10527
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ANCIENT_C\"]/short"
-msgstr "Минная артиллерия Содр."
+msgstr "Арт. Натиск ⛼"
 
 #: src-en/data/blueprints.xml.append:10528
 msgid ""
@@ -7795,7 +7663,6 @@ msgid ""
 msgstr "Эрозионная артиллерия Аэнвитэ"
 
 #: src-en/data/blueprints.xml.append:10615
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"ARTILLERY_WITHER\"]/short"
 msgstr "Эр. арт. Аэнв."
@@ -7819,22 +7686,17 @@ msgid ""
 msgstr "А. имп. арт. Аэн."
 
 #: src-en/data/blueprints.xml.append:10663
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER\"]/desc"
 msgstr ""
-"[Базовая перезарядка: 40] Выпускает 5 лазерных зарядов, выпущенных в быстрой"
-" последовательности. Каждый наносит 1 урон корпусу, с удвоенным уроном по "
-"отсекам без систем, делает экипаж уязвимым ко всем опасностям и накладывает "
-"эрозию."
+"[Базовая перезарядка: 40] Выпускает 5 лазерных зарядов, выпущенных в быстрой "
+"последовательности. Каждый наносит 1 урон корпусу, с удвоенным уроном по "
+"отсекам без систем."
 
 #: src-en/data/blueprints.xml.append:10664
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER\"]/tooltip"
-msgstr ""
-"Артиллерия: Выстрел из 5 лазеров, наносящих 1 противокорпусный урон и "
-"накладывающих на корпус эрозию и увядание."
+msgstr "Артиллерия: Выстрел из 5 лазеров, наносящих 1 противокорпусный урон."
 
 #: src-en/data/blueprints.xml.append:10699
 msgid ""
@@ -7888,7 +7750,6 @@ msgid ""
 msgstr "Артиллерия кузнец Содружества"
 
 #: src-en/data/blueprints.xml.append:10783
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH\"]/short"
 msgstr "Арт. кузнец Содр."
@@ -7913,10 +7774,9 @@ msgid ""
 msgstr "Дроновая артиллерия Содружества"
 
 #: src-en/data/blueprints.xml.append:10825
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_B\"]/short"
-msgstr "Арт. дронов Содр."
+msgstr "Дроновая арт. Содр."
 
 #: src-en/data/blueprints.xml.append:10826
 msgid ""
@@ -7926,12 +7786,11 @@ msgstr ""
 "призывает рой сверхзаряженных боевых дронов."
 
 #: src-en/data/blueprints.xml.append:10827
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_B\"]/tooltip"
 msgstr ""
-"Вызывает группу сверхзаряженных боевых дронов Содружества, которые действуют"
-" в течение 10 секунд."
+"Вызывает группу сверхзаряженных боевых дронов Содружества, которые действуют "
+"в течение 10 секунд."
 
 #: src-en/data/blueprints.xml.append:10859
 msgid ""
@@ -7939,10 +7798,9 @@ msgid ""
 msgstr "Плазменно-лучевая артиллерия Содружества"
 
 #: src-en/data/blueprints.xml.append:10860
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_C\"]/short"
-msgstr "Плазм. арт. Содр."
+msgstr "Плазм. луч. арт."
 
 #: src-en/data/blueprints.xml.append:10861
 msgid ""
@@ -7965,7 +7823,6 @@ msgid ""
 msgstr "Тестовая плазменная артиллерия"
 
 #: src-en/data/blueprints.xml.append:10894
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TESTER_A\"]/short"
 msgstr "Плазм. арт. Тестера"
@@ -7991,7 +7848,6 @@ msgid ""
 msgstr "Дроновая артиллерия Аркадии"
 
 #: src-en/data/blueprints.xml.append:10939
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TESTER_B\"]/short"
 msgstr "Арт. дронов Аркадии"
@@ -8205,16 +8061,14 @@ msgstr ""
 "который длится вечно, но не складывается."
 
 #: src-en/data/blueprints.xml.append:11453
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/title"
-msgstr "Артиллерия привидений Тартара"
+msgstr "Проклятая артиллерия Тартара"
 
 #: src-en/data/blueprints.xml.append:11454
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/short"
-msgstr "Арт. прив. Тартара"
+msgstr "Прок. арт. Тартара"
 
 #: src-en/data/blueprints.xml.append:11456
 #, fuzzy
@@ -8789,7 +8643,6 @@ msgstr ""
 "секунд, а затем исчезают."
 
 #: src-en/data/blueprints.xml.append:12523
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VORTEX_HOLOGRAM\"]/tooltip"
 msgstr ""
@@ -8809,21 +8662,20 @@ msgid ""
 msgstr "Вихр. луч. арт."
 
 #: src-en/data/blueprints.xml.append:12579
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VORTEX_HEAL\"]/desc"
 msgstr ""
 "[Базовая перезарядка: 40] Странный луч, пробивающий все щиты и наносящий 5 "
 "ионного урона, но при этом ремонтирующий 2 единицы прочности корпуса за "
-"пораженный отсек и исцеляющий пораженный экипаж со скоростью 3 ОЗ/с."
+"пораженный отсек и исцеляющий пораженный экипаж со скоростью 3 ОЗ/с на 15 "
+"секунд."
 
 #: src-en/data/blueprints.xml.append:12580
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VORTEX_HEAL\"]/tooltip"
 msgstr ""
-"Лучевое орудие: ремонтирует 2 корпуса, исцеляет экипаж на 5 ОЗ/с, пробивает "
-"все щиты, наносит 5 ионных повреждений"
+"Лучевое орудие: ремонтирует 2 корпуса, исцеляет экипаж на 3 ОЗ/с в течение "
+"15 секунд, пробивает все щиты, наносит 5 ионных повреждений"
 
 #: src-en/data/blueprints.xml.append:12641
 msgid ""
@@ -9201,7 +9053,6 @@ msgstr ""
 "повреждений экипажу, враги Федерации получают двойное повреждение экипажу."
 
 #: src-en/data/blueprints.xml.append:13670
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_STEALTH\"]/title"
 msgstr "Ракетная установка \"Валентайн\""
@@ -9317,10 +9168,9 @@ msgid ""
 msgstr "Ракета Содружества"
 
 #: src-en/data/blueprints.xml.append:13915
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_MISSILE\"]/short"
-msgstr "Ракета Содр."
+msgstr "Ракета ⛼"
 
 #: src-en/data/blueprints.xml.append:13916
 msgid ""
@@ -9604,10 +9454,9 @@ msgid ""
 msgstr "Перезаряженный дрон Содружества \"Предвестник\" мод. II"
 
 #: src-en/data/blueprints.xml.append:14893
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_SURGE\"]/short"
-msgstr "Пер. д. Предв. II"
+msgstr "Пер. д. ⛼ Предв. II"
 
 #: src-en/data/blueprints.xml.append:14894
 msgid ""
@@ -9769,14 +9618,13 @@ msgid ""
 msgstr "Сеть И.О.С."
 
 #: src-en/data/blueprints.xml.append:15102
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_MAINTENANCE_INFRASTRUCTURE\"]/desc"
 msgstr ""
 "Сеть инфраструктуры обслуживания Содружества - это невероятно развитая сеть "
 "узлов, производящих наномашины по всему кораблю. Она автоматически тушит "
 "пожары, ремонтирует пробоины, наносит 5 ОЗ/с урона абордажникам и исцеляет "
-"на 5 ОЗ/с дроны и металлический экипаж."
+"ваши дроны и металлический экипаж на 5 ОЗ/с."
 
 #: src-en/data/blueprints.xml.append:15110
 msgid ""
@@ -9945,21 +9793,26 @@ msgid ""
 msgstr "Дух Федерации"
 
 #: src-en/data/blueprints.xml.append:15233
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FEDERATIONS_UNITY\"]/desc"
 msgstr ""
-"На этом корабле царит атмосфера абсолютного единства. Все члены экипажа получают не суммирующиеся бонусы, зависящие от того, представители какого вида присутствуют на корабле.\n"
+"На этом корабле царит атмосфера абсолютного единства. Все члены экипажа "
+"получают не суммирующиеся бонусы, зависящие от того, представители какого "
+"вида присутствуют на корабле.\n"
 "\t- Человек: Экипаж имеет 2-й уровень всех навыков.\n"
 "\t- Энджи: Экипаж получает +50% скорости ремонта.\n"
 "\t- Богомол: Экипаж получает +50% боевого урона.\n"
 "\t- Валун: Экипаж получает +50% макс. здоровья.\n"
-"\t- Золтан: Экипаж дает 1 доп. энергию системе, в которой он находится, если он на вашем корабле.\n"
+"\t- Золтан: Экипаж дает 1 доп. энергию системе, в которой он находится, если "
+"он на вашем корабле.\n"
 "\t- Слизень: Экипаж получает иммунитет к контролю разума.\n"
-"\t- Орхидея: Экипаж вырабатывает кислород с той же скоростью, что и орхидея, находясь на вашем корабле.\n"
-"\t- Ланиус: Находясь на вражеском корабле, экипаж поглощает кислород с той же скоростью, что и ланиус, и получает половину урона от удушья.\n"
+"\t- Орхидея: Экипаж вырабатывает кислород с той же скоростью, что и орхидея, "
+"находясь на вашем корабле.\n"
+"\t- Ланиус: Находясь на вражеском корабле, экипаж поглощает кислород с той "
+"же скоростью, что и ланиус, и получает половину урона от удушья.\n"
 "\t- Призрак: Экипаж получает способность проходить сквозь двери.\n"
-"\t- Пиявка: Экипаж истощает 1 доп. энергию из системы, в которой он находится, если он на вражеском корабле.\n"
+"\t- Пиявка: Экипаж истощает 1 доп. энергию из системы, в которой он "
+"находится, если он на вражеском корабле.\n"
 "\t- Ракушка: Экипаж получает 20% сопротивления боевому урону.\n"
 "\t- Кристаллин: экипаж получает +40% урона при саботаже.\n"
 "\t\n"
@@ -9971,15 +9824,20 @@ msgid ""
 msgstr "Конфигурации прототипа"
 
 #: src-en/data/blueprints.xml.append:15256
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_PROTOTYPES_SYSTEMS\"]/desc"
 msgstr ""
-"Корабль имеет ряд небольших мощных бонусов, собранных из компактных версий множества различных модулей.\n"
-"\t- На 5% быстрее заряжаются орудия, 50% шанс выпустить кристаллический снаряд при повреждении и 60% шанс не расходовать боеприпасы.\n"
-"\t- Автоматически тушит пожары и заделывает пробоины, а также может похвастаться энергетическим щитом с 5 единицами целостности, который накапливается вместе с другими модулями энергетического щита.\n"
-"\t- Дружественный экипаж получает пассивное исцеление Медботами на 45% от обычной силы.\n"
-"\t- У вражеского экипажа скорость саботажа снижается на 25%, он получает на 10 % больше урона от всех источников и постоянно получает 16.5 ОЗ/с урона."
+"Корабль имеет ряд небольших мощных бонусов, собранных из компактных версий "
+"множества различных модулей.\n"
+"\t- На 5% быстрее заряжаются орудия, 50% шанс выпустить кристаллический "
+"снаряд при повреждении и 60% шанс не расходовать боеприпасы.\n"
+"\t- Автоматически тушит пожары и заделывает пробоины, а также может "
+"похвастаться энергетическим щитом с 5 единицами целостности, который "
+"накапливается вместе с другими модулями энергетического щита.\n"
+"\t- Дружественный экипаж получает пассивное исцеление Мед-ботами на 45% от "
+"обычной силы.\n"
+"\t- У вражеского экипажа скорость саботажа снижается на 25%, он получает на "
+"10 % больше урона от всех источников и постоянно получает 16.5 ОЗ/с урона."
 
 #: src-en/data/blueprints.xml.append:15269
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_REAL_SHIELD\"]/title"
@@ -10094,19 +9952,17 @@ msgid ""
 msgstr "Приправлен. перезарядчик"
 
 #: src-en/data/blueprints.xml.append:15356
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SALT_RELOADER\"]/desc"
 msgstr ""
 "Прототип модели автоматического перезарядного устройства, используемого "
 "исключительно в Соляной империи. Считалось, что она погибла вместе с ними, "
-"но перед вами - действующая модель. Он снижает время перезарядки всех видов "
-"орудий на 50%, но увеличивает время перезарядки щита на 90%."
+"но перед вами - действующая модель. Он увеличивает скорострельность всех "
+"видов орудий на 50%, но увеличивает время перезарядки щита на 90%."
 
 #: src-en/data/blueprints.xml.append:15364
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_OSMIAN_VORTEX\"]/title"
-msgstr "Радиоактивный вихрь"
+msgstr "Радиоакт. черная дыра"
 
 #: src-en/data/blueprints.xml.append:15365
 #, fuzzy
@@ -15608,7 +15464,6 @@ msgstr ""
 "наступательными возможностями, ему не хватает защиты."
 
 #: src-en/data/blueprints.xml.append:24579
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP\"]/class"
 msgstr "Флагман Легионеров"
@@ -15619,13 +15474,9 @@ msgid ""
 msgstr "Отступник"
 
 #: src-en/data/blueprints.xml.append:24581
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP\"]/unlock"
-msgstr ""
-"Переживите худшее, что может предложить Тартар хаоса ИЛИ разблокируйте все "
-"базовые корабли повстанцев Мультивселенной, чтобы разблокировать этот "
-"корабль."
+msgstr "Переживите худшее, что может предложить Тартар в режиме хаоса."
 
 #: src-en/data/blueprints.xml.append:24582
 msgid ""
@@ -15646,13 +15497,11 @@ msgid ""
 msgstr "Устрашающая Коалиция"
 
 #: src-en/data/blueprints.xml.append:24658
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP_2\"]/unlock"
 msgstr ""
-"Победите все явления хаоса ИЛИ выиграйте испытание с гордостью и радостью "
-"для Легиона ИЛИ разблокируйте все базовые корабли Мультивселенной у рас, "
-"входящих в Коалицию, чтобы разблокировать этот корабль."
+"Победите все явления хаоса ИЛИ победите Того, Кто Рифмует с гордостью и "
+"радостью для Легиона."
 
 #: src-en/data/blueprints.xml.append:24659
 msgid ""
@@ -15673,13 +15522,11 @@ msgid ""
 msgstr "Последний Рубеж"
 
 #: src-en/data/blueprints.xml.append:24739
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP_3\"]/unlock"
 msgstr ""
-"Выживите и разгадайте секрет, спрятанный в центре Мультивселенной, с помощью"
-" флагмана Коалиции, ИЛИ разблокируйте все базовые крейсеры Мультивселенной, "
-"принадлежащие расам, входящим в Федерацию."
+"Выживите и разгадайте секрет, спрятанный в центре Мультивселенной, с помощью "
+"флагмана Коалиции."
 
 #: src-en/data/blueprints.xml.append:24740
 msgid ""
@@ -15700,12 +15547,9 @@ msgid ""
 msgstr "Порядок и Хаос"
 
 #: src-en/data/blueprints.xml.append:24816
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REAL\"]/unlock"
-msgstr ""
-"Победите Ее или разблокируйте все крейсеры ЛБП и рифм, чтобы разблокировать "
-"этот корабль."
+msgstr "Победите Ее."
 
 #: src-en/data/blueprints.xml.append:24817
 msgid ""
@@ -16751,7 +16595,6 @@ msgid ""
 msgstr "Праймикс"
 
 #: src-en/data/blueprints.xml.append:28084
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_AUTO\"]/unlock"
 msgstr ""
@@ -16807,7 +16650,6 @@ msgstr ""
 "разблокировать этот корабль."
 
 #: src-en/data/blueprints.xml.append:28241
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_AUTO_3\"]/desc"
 msgstr ""
