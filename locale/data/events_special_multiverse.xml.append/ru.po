@@ -1,34 +1,51 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-11-17 14:42+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_special_multiversexmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.8.1\n"
 
 #: src-en/data/events_special_multiverse.xml.append:19
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_SPAWNER\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "Здесь находится Странствующий торговец."
 
 #: src-en/data/events_special_multiverse.xml.append:20
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_SPAWNER\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Посещенное место. Ничего интересного."
 
 #: src-en/data/events_special_multiverse.xml.append:47
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/text"
 msgstr ""
+"\"Ссстранник, ссстранник! Какое необычное месссто для вссстречи, а? Эти "
+"кубичессские сссущества кажутссся удивительно дружелюбными. Я здесссь, чтобы "
+"помочь тебе ссс твоей миссией - не могу же я допуссстить, чтобы мой сссамый "
+"ценный клиент безвременно погиб, верно? Хотя, похоже, у нассс есть только "
+"один шшшанссс покинуть это месссто. Может, я пока присссоединюсссь к твоей "
+"команде? Конечно, посссле того, как мы завершшшим нашшшу обычную торговлю\"."
 
 #: src-en/data/events_special_multiverse.xml.append:50
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/choice[@req=\"unique_sylvan\"]/text"
-msgstr ""
+msgstr "(Сильван) Использовать Сильвана, чтобы связаться с Сильваном."
 
 #: src-en/data/events_special_multiverse.xml.append:52
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/choice[@req=\"unique_sylvan\"]/event/text"
 msgstr ""
+"\"Я вижу, что ты не ссстранник. Боюсссь, ссскидок не будет. Меня "
+"бесссконечно много, и я не могу раздавать всссем бесссплатный лом! Хе-хе... "
+"хе... Ты должен это знать\"."
 
 #: src-en/data/events_special_multiverse.xml.append:55
 msgid ""
@@ -38,12 +55,18 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:63
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/choice[@req=\"unique_guntput\"]/text"
-msgstr ""
+msgstr "(Гантпут) Гантпут хочет поговорить с Сильваном."
 
 #: src-en/data/events_special_multiverse.xml.append:65
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/choice[@req=\"unique_guntput\"]/event/text"
 msgstr ""
+"Увидев Гантпута, Сильван сглотнул, но промолчал. Гантпут хмурится: \"Глупый "
+"слизень! Ты прячешься на большом корабле, а на помощь нам посылаешь "
+"Ренегата? Где ты был, когда убили Анурака или когда вернулся Гектар? Нигде, "
+"как я вижу! Какой ты герой, ты трус! Жадный продажный слизень, как и все "
+"остальные, да еще и с неважными отмазками!\" Ганпут плюется, просто для "
+"пущей убедительности."
 
 #: src-en/data/events_special_multiverse.xml.append:67
 msgid ""
@@ -54,6 +77,11 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/choice[@req=\"unique_guntput\"]/event/choice/event/text"
 msgstr ""
+"Вы ожидаете, что Сильван начнет возражать, но вместо этого он неловко "
+"смеется. \"Что ж, Гантпут, я рад, что ты хотя бы жив. Хех...\" Сильван на "
+"мгновение замолкает, прежде чем снова заговорить. \"Не желаешшшь ли ты еще "
+"поторговать, ссстранник? Эти товары сссами сссебя не продадут, ты же "
+"знаешшшь\"."
 
 #: src-en/data/events_special_multiverse.xml.append:71
 msgid ""
@@ -63,32 +91,34 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:81
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/choice[3]/text"
-msgstr ""
+msgstr "Узнать, что он предлагает."
 
 #: src-en/data/events_special_multiverse.xml.append:85
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/choice[4]/text"
-msgstr ""
+msgstr "Сначала продать некоторые ресурсы."
 
 #: src-en/data/events_special_multiverse.xml.append:90
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/choice[@req=\"fr_loc_cylvan_quest\"]/text"
-msgstr ""
+msgstr "Сильван хочет рассказать одну историю."
 
 #: src-en/data/events_special_multiverse.xml.append:95
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/choice[6]/text"
-msgstr ""
+msgstr "Атаковать!"
 
 #: src-en/data/events_special_multiverse.xml.append:99
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/choice[7]/text"
-msgstr ""
+msgstr "Отказаться от его предложения."
 
 #: src-en/data/events_special_multiverse.xml.append:101
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH\"]/choice[7]/event/text"
 msgstr ""
+"\"Может быть, в другой раз, ссстранник! Я уверен, что это не поссследняя "
+"нашшша вссстреча, в этой или другой реальносссти\"."
 
 #: src-en/data/events_special_multiverse.xml.append:103
 msgid ""
@@ -104,16 +134,27 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_CYLVAN_STORY\"]/text"
 msgstr ""
+"\"Ссстранник! Путешшшессствуя по этому сссектору, я наткнулссся на довольно "
+"неожиданную вещь - еще один Сссильван уже сссделал это месссто сссвоим "
+"домом! Мало того, похоже, он подружилссся ссс обелисссками до такой "
+"ссстепени, что они подарили ему сссобссственный уникальный крейсссер!\"\n"
+"\n"
+"\"Он упомянул, что за ним ссследят очень могущессственные автоматичессские "
+"корабли. Он отказалссся сссказать мне, почему они его прессследуют, но "
+"какова бы ни была причина, я подозреваю, что нашшше вмешшшательссство в дела "
+"этого сссектора могло привесссти к тому, что тот, кто поссслал эти корабли, "
+"захотел воссспользоватьссся сссуматохой. Нам ссследует проведать его, как "
+"только мы закончим торговлю\"."
 
 #: src-en/data/events_special_multiverse.xml.append:120
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_CYLVAN_STORY\"]/choice[1]/text"
-msgstr ""
+msgstr "Конечно."
 
 #: src-en/data/events_special_multiverse.xml.append:122
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_CYLVAN_STORY\"]/choice[1]/event/text"
-msgstr ""
+msgstr "\"Ссспасссибо, ссстранник, а теперь, не хочешшшь поторговать?\""
 
 #: src-en/data/events_special_multiverse.xml.append:127
 msgid ""
@@ -123,12 +164,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:135
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_CYLVAN_STORY\"]/choice[2]/text"
-msgstr ""
+msgstr "Отказаться."
 
 #: src-en/data/events_special_multiverse.xml.append:137
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_CYLVAN_STORY\"]/choice[2]/event/text"
 msgstr ""
+"\"Всссе в порядке, ссстранник. По крайней мере, ты, похоже, уверен в сссвоем "
+"корабле!\""
 
 #: src-en/data/events_special_multiverse.xml.append:139
 msgid ""
@@ -139,6 +182,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_TRADE_COMMONWEALTH\"]/text"
 msgstr ""
+"\"Ааааа. Ссстранник-сссранникц, прежде чем я оказалссся в этом ссстранном "
+"месссте, я позаботилссся о том, чтобы запассстисссь всссшшшем ценным эфирным "
+"оружием, которое только можно было найти, взгляни\"."
 
 #: src-en/data/events_special_multiverse.xml.append:150
 msgid ""
@@ -149,18 +195,25 @@ msgstr "Сильван"
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/text"
 msgstr ""
+"По какой-то безумной причине вы решили напасть на странствующего торговца. "
+"Вы ДЕЙСТВИТЕЛЬНО уверены, что хотите это сделать? Это может быть самый "
+"сильный враг, с которым вы когда-либо сталкивались, так что вам лучше быть "
+"готовым, если вы собираетесь сразиться с ним."
 
 #: src-en/data/events_special_multiverse.xml.append:157
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Да!"
 
 #: src-en/data/events_special_multiverse.xml.append:159
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Вы направляете свое оружие на Сильвана, готовые к бою. \"Ссстранник, так "
+"значит, дошшшло до этого? Воиссстину позор... а я-то думал, что мы можем "
+"быть друзьями...\""
 
 #: src-en/data/events_special_multiverse.xml.append:167
 msgid ""
@@ -172,19 +225,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "Да!"
 
 #: src-en/data/events_special_multiverse.xml.append:175
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
+"Вы направляете свое оружие на Сильвана, готовые к бою. \"Ссстранник, так "
+"значит, дошшшло до этого? Воиссстину позор... а я-то думал, что мы можем "
+"быть друзьями...\""
 
 #: src-en/data/events_special_multiverse.xml.append:185
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"1\"]/event/triggeredEvent[2]/triggeredEventBox/tooltip"
-msgstr ""
+msgstr "Щиты Сильвана будут восстанавливаться в течение этого времени."
 
 #: src-en/data/events_special_multiverse.xml.append:190
 msgid ""
@@ -196,19 +252,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"2\"]/text"
-msgstr ""
+msgstr "Да!"
 
 #: src-en/data/events_special_multiverse.xml.append:198
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"2\"]/event/text"
 msgstr ""
+"Вы направляете свое оружие на Сильвана, готовые к бою. \"Ссстранник, так "
+"значит, дошшшло до этого? Воиссстину позор... а я-то думал, что мы можем "
+"быть друзьями...\""
 
 #: src-en/data/events_special_multiverse.xml.append:208
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"2\"]/event/triggeredEvent[2]/triggeredEventBox/tooltip"
-msgstr ""
+msgstr "Щиты Сильвана будут восстанавливаться в течение этого времени."
 
 #: src-en/data/events_special_multiverse.xml.append:213
 msgid ""
@@ -220,19 +279,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "Да!"
 
 #: src-en/data/events_special_multiverse.xml.append:221
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
+"Вы направляете свое оружие на Сильвана, готовые к бою. \"Ссстранник, так "
+"значит, дошшшло до этого? Воиссстину позор... а я-то думал, что мы можем "
+"быть друзьями...\""
 
 #: src-en/data/events_special_multiverse.xml.append:231
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[@req=\"challenge_level\""
 " and @lvl=\"3\"]/event/triggeredEvent[2]/triggeredEventBox/tooltip"
-msgstr ""
+msgstr "Щиты Сильвана будут восстанавливаться в течение этого времени."
 
 #: src-en/data/events_special_multiverse.xml.append:236
 msgid ""
@@ -243,32 +305,36 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:242
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[5]/text"
-msgstr ""
+msgstr "Это ужасная идея. Назад!"
 
 #: src-en/data/events_special_multiverse.xml.append:244
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[5]/event/text"
 msgstr ""
+"Сильван странно смотрит на вас, но ничего не говорит, ожидая, что вы скажете "
+"дальше."
 
 #: src-en/data/events_special_multiverse.xml.append:246
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[5]/event/choice[1]/text"
-msgstr ""
+msgstr "Узнать, что он предлагает."
 
 #: src-en/data/events_special_multiverse.xml.append:252
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[5]/event/choice[2]/text"
-msgstr ""
+msgstr "Сначала продать некоторые ресурсы."
 
 #: src-en/data/events_special_multiverse.xml.append:256
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[5]/event/choice[3]/text"
-msgstr ""
+msgstr "Отказаться от его предложения."
 
 #: src-en/data/events_special_multiverse.xml.append:258
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_ATTACK\"]/choice[5]/event/choice[3]/event/text"
 msgstr ""
+"\"Может быть, в другой раз, ссстранник! Я уверен, что это не поссследняя "
+"нашшша вссстреча, в этой или другой реальносссти\"."
 
 #: src-en/data/events_special_multiverse.xml.append:260
 msgid ""
@@ -284,21 +350,23 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_MENU\"]/text"
 msgstr ""
+"\"Мало лома, ссстранник? Много ресссурсссов? К сссчассстью для тебя, "
+"ссстранник, я могу об этом позаботитьссся!\""
 
 #: src-en/data/events_special_multiverse.xml.append:276
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_MENU\"]/choice[1]/text"
-msgstr ""
+msgstr "Продать немного топлива."
 
 #: src-en/data/events_special_multiverse.xml.append:280
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_MENU\"]/choice[2]/text"
-msgstr ""
+msgstr "Продать немного боеприпасов."
 
 #: src-en/data/events_special_multiverse.xml.append:284
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_MENU\"]/choice[3]/text"
-msgstr ""
+msgstr "Продать немного дрон-комплектов."
 
 #: src-en/data/events_special_multiverse.xml.append:288
 msgid ""
@@ -309,16 +377,18 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/text"
 msgstr ""
+"\"Топливо! Хе-хе, его никогда не бывает доссстаточно. Но я возьму немного из "
+"твоих рук, есссли хочешшшь\"."
 
 #: src-en/data/events_special_multiverse.xml.append:299
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[1]/text"
-msgstr ""
+msgstr "Продать 5 топлива."
 
 #: src-en/data/events_special_multiverse.xml.append:301
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[1]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:308
 msgid ""
@@ -328,12 +398,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:316
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[2]/text"
-msgstr ""
+msgstr "Продать 5 топлива."
 
 #: src-en/data/events_special_multiverse.xml.append:318
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[2]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:325
 msgid ""
@@ -343,12 +413,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:334
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[3]/text"
-msgstr ""
+msgstr "Продать 10 топлива."
 
 #: src-en/data/events_special_multiverse.xml.append:336
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[3]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:343
 msgid ""
@@ -358,12 +428,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:351
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[4]/text"
-msgstr ""
+msgstr "Продать 10 топлива."
 
 #: src-en/data/events_special_multiverse.xml.append:353
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[4]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:360
 msgid ""
@@ -373,12 +443,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:369
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[5]/text"
-msgstr ""
+msgstr "Продать 15 топлива."
 
 #: src-en/data/events_special_multiverse.xml.append:371
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[5]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:378
 msgid ""
@@ -388,12 +458,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:386
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[6]/text"
-msgstr ""
+msgstr "Продать 15 топлива."
 
 #: src-en/data/events_special_multiverse.xml.append:388
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_FUEL\"]/choice[6]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:395
 msgid ""
@@ -409,16 +479,19 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/text"
 msgstr ""
+"\"Боеголовки! Очень важные для любого сссерьезного груза, но есссли у тебя "
+"окажетссся большшше, чем ты можешшшь умессстить, я ссс радоссстью куплю у "
+"тебя несссколько\"."
 
 #: src-en/data/events_special_multiverse.xml.append:414
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[1]/text"
-msgstr ""
+msgstr "Продать 5 боеголовок."
 
 #: src-en/data/events_special_multiverse.xml.append:416
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[1]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:423
 msgid ""
@@ -428,12 +501,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:431
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[2]/text"
-msgstr ""
+msgstr "Продать 5 боеголовок."
 
 #: src-en/data/events_special_multiverse.xml.append:433
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[2]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:440
 msgid ""
@@ -443,12 +516,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:449
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[3]/text"
-msgstr ""
+msgstr "Продать 10 боеголовок."
 
 #: src-en/data/events_special_multiverse.xml.append:451
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[3]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:458
 msgid ""
@@ -458,12 +531,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:466
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[4]/text"
-msgstr ""
+msgstr "Продать 10 боеголовок."
 
 #: src-en/data/events_special_multiverse.xml.append:468
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[4]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:475
 msgid ""
@@ -473,12 +546,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:484
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[5]/text"
-msgstr ""
+msgstr "Продать 15 боеголовок."
 
 #: src-en/data/events_special_multiverse.xml.append:486
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[5]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:493
 msgid ""
@@ -488,12 +561,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:501
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[6]/text"
-msgstr ""
+msgstr "Продать 15 боеголовок."
 
 #: src-en/data/events_special_multiverse.xml.append:503
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_AMMO\"]/choice[6]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:510
 msgid ""
@@ -509,16 +582,19 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/text"
 msgstr ""
+"\"Дрон-комплекты! Есссли у тебя ссслишшшком много дрон-комплектов и "
+"недоссстаточно возможноссстей для их иссспользования, думаю, я сссмогу "
+"решшшить твои проблемы...\""
 
 #: src-en/data/events_special_multiverse.xml.append:529
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[1]/text"
-msgstr ""
+msgstr "Продать 5 дрон-комплектов."
 
 #: src-en/data/events_special_multiverse.xml.append:531
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[1]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:538
 msgid ""
@@ -528,12 +604,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:546
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[2]/text"
-msgstr ""
+msgstr "Продать 5 дрон-комплектов."
 
 #: src-en/data/events_special_multiverse.xml.append:548
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[2]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:555
 msgid ""
@@ -543,12 +619,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:564
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[3]/text"
-msgstr ""
+msgstr "Продать 10 дрон-комплектов."
 
 #: src-en/data/events_special_multiverse.xml.append:566
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[3]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:573
 msgid ""
@@ -558,12 +634,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:581
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[4]/text"
-msgstr ""
+msgstr "Продать 10 дрон-комплектов."
 
 #: src-en/data/events_special_multiverse.xml.append:583
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[4]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:590
 msgid ""
@@ -573,12 +649,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:599
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[5]/text"
-msgstr ""
+msgstr "Продать 15 дрон-комплектов."
 
 #: src-en/data/events_special_multiverse.xml.append:601
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[5]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:608
 msgid ""
@@ -588,12 +664,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:616
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[6]/text"
-msgstr ""
+msgstr "Продать 15 дрон-комплектов."
 
 #: src-en/data/events_special_multiverse.xml.append:618
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CONVERT_DRONES\"]/choice[6]/event/text"
-msgstr ""
+msgstr "\"Еще один день, еще одна сссделка для нассс обоих, а, ссстранник?\""
 
 #: src-en/data/events_special_multiverse.xml.append:625
 msgid ""
@@ -608,27 +684,33 @@ msgstr "Неважно."
 #: src-en/data/events_special_multiverse.xml.append:648
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "Здесь находится квест от странствующего торговца."
 
 #: src-en/data/events_special_multiverse.xml.append:649
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Посещенное место. Ничего интересного."
 
 #: src-en/data/events_special_multiverse.xml.append:651
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN\"]/text"
 msgstr ""
+"Вы прибыли по координатам, указанным Сильваном. Вдалеке виднеются два "
+"корабля, между которыми идет ожесточенная схватка. Вы видите как корабль "
+"обелисков, о котором говорил Сильван, так и странный автоматический корабль, "
+"который, похоже, хорошо вооружен."
 
 #: src-en/data/events_special_multiverse.xml.append:654
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать автоматический корабль!"
 
 #: src-en/data/events_special_multiverse.xml.append:656
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN\"]/choice[1]/event/text"
 msgstr ""
+"Вы тщательно прицеливаетесь и поражаете двигатели автоматического корабля, "
+"выводя их из строя на время боя!"
 
 #: src-en/data/events_special_multiverse.xml.append:660
 msgid ""
@@ -638,12 +720,15 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:666
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN\"]/choice[2]/text"
-msgstr ""
+msgstr "Атаковать Сильвана!"
 
 #: src-en/data/events_special_multiverse.xml.append:668
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN\"]/choice[2]/event/text"
 msgstr ""
+"Сильван из Содружества оказывается застигнутым врасплох и вам удается "
+"поразить его двигатели и заставить их работать на половинной мощности в "
+"течение всего боя."
 
 #: src-en/data/events_special_multiverse.xml.append:677
 msgid ""
@@ -653,12 +738,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:683
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN\"]/choice[3]/text"
-msgstr ""
+msgstr "Мы не единственные, кто ищет его. Уходим."
 
 #: src-en/data/events_special_multiverse.xml.append:685
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN\"]/choice[3]/event/text"
 msgstr ""
+"Возможно, вы никогда не увидите технологии, которые обещал Сильван, но это "
+"лучше, чем быть мертвым."
 
 #: src-en/data/events_special_multiverse.xml.append:687
 msgid ""
@@ -674,16 +761,28 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_CYLVAN_RUN\"]/text"
 msgstr ""
+"\"Ты думаешшшь, что можешшшь просссто сссбежать посссле того, что ты "
+"сссделал?! Нет-нет-нет! Ты должен покончить ссс этим!\""
 
 #: src-en/data/events_special_multiverse.xml.append:716
 msgid ""
 "data/events_special_multiverse.xml.append$/dummyroot/FTL/event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_FRIEND\"]/text"
 msgstr ""
+"Сильван несказанно рад видеть вас: \"Ссстранник! Я так сссчасстлив видеть, "
+"что сссоюзник моего народа ссспассс меня! Этот зонд оказалссся гораздо "
+"сссильнее, чем я ожидал, и когда я увидел, как он атакует одного из моих "
+"людей, я... я не мог просссто сссидеть и сссмотреть, понимаешшшь?\" \n"
+"\t\t\n"
+"\t\"Но это уже в прошшшлом, правда, ссстранник? Полагаю, я не могу "
+"прятатьссся здесссь вечно, я знаю, что ты хочешшшь сссбежать отсссюда, так "
+"что позволь мне присссоединитьссся к твоей команде, это меньшшшее, что я "
+"могу сссделать. Раз уж ты взялссся за это, то мог бы получить чертежи моего "
+"корабля, он хорошшшо поссслужил мне, а значит, поссслужит и тебе\"."
 
 #: src-en/data/events_special_multiverse.xml.append:719
 msgid ""
 "data/events_special_multiverse.xml.append$/dummyroot/FTL/event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_FRIEND\"]/crewMember"
-msgstr ""
+msgstr "Цильван"
 
 #: src-en/data/events_special_multiverse.xml.append:724
 msgid ""
@@ -694,6 +793,13 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_multiverse.xml.append$/dummyroot/FTL/event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_NEUTRAL\"]/text"
 msgstr ""
+"Сильван с облегчением смотрит на вас: \"Ссстранник! Ссспасссибо, что "
+"поссставил сссвою жизнь на кон, чтобы ссспасссти меня! Этот зонд оказалссся "
+"гораздо сссильнее, чем я ожидал. Когда я увидел, как он атакует одного из "
+"моих людей, я... я не мог просссто сссидеть и сссмотреть, понимаешшшь?\" \n"
+"\t\t\n"
+"\t\"Но это уже в прошшшлом, верно, ссстранник? Полагаю, ты можешшшь получить "
+"чертежи моего корабля, в конце концов, ты их зассслужил\"."
 
 #: src-en/data/events_special_multiverse.xml.append:737
 msgid ""
@@ -704,6 +810,10 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_multiverse.xml.append$/dummyroot/FTL/event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_ENEMY\"]/text"
 msgstr ""
+"Странно, но Сильван ничего не говорит, вместо этого он передает то, что "
+"кажется чертежами его корабля, и подарок. Ваши сенсоры определяют, что это "
+"бомба, и вы почти избегаете катастрофы. В этом есть смысл, должно быть, он "
+"не рад всем убитым вами членов Содружества."
 
 #: src-en/data/events_special_multiverse.xml.append:747
 msgid ""
@@ -714,6 +824,17 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_COMMONWEALTH_CYLVAN_DEFEAT\"]/text"
 msgstr ""
+"Корпус Цильвана наконец-то разваливается на части; даже эфирные корпуса не "
+"могут выдерживать испытания вечно, как вы уже хорошо знаете. Странно, но вас "
+"вызывает автоматический корабль, который был послан сюда, чтобы убить "
+"Цильвана. Он поврежден настолько, что его системы распознавания кораблей, "
+"похоже, полностью вышли из строя, поскольку он считает вас еще одним "
+"представителем той фракции, к которой он принадлежит. \n"
+"\t\t\n"
+"\t\"Непрерывность была восстановлена благодаря вам. Пожалуйста, примите это "
+"в качестве награды и верните этот груз обратно Первому\". Автоматический "
+"корабль передает вам странное и мощное оружие, а также чертежи "
+"автоматического корабля размером с крейсер!"
 
 #: src-en/data/events_special_multiverse.xml.append:764
 msgid ""
@@ -724,19 +845,24 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"NEMESIS\"]/mod-"
 "append:choice/text"
-msgstr ""
+msgstr "(Лия) \"Не ты мастер лучей, а я!\"."
 
 #: src-en/data/events_special_multiverse.xml.append:781
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"NEMESIS\"]/mod-"
 "append:choice/event/text"
 msgstr ""
+"Глаза другой Лии расширяются, а затем она сужает их, и по ее лицу "
+"расползается ухмылка: \"Значит, это правда, Федерации удалось убедить еще "
+"одну меня присоединиться к ним. Я не знаю, как тебе удалось это сделать, "
+"сцука, но эта вселенная недостаточно велика для двух Лий. Приготовься к "
+"облучению, сцука!\""
 
 #: src-en/data/events_special_multiverse.xml.append:783
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"NEMESIS\"]/mod-"
 "append:choice/event/choice/text"
-msgstr ""
+msgstr "Ну вот, опять."
 
 #: src-en/data/events_special_multiverse.xml.append:796
 msgid ""
@@ -821,13 +947,18 @@ msgid ""
 msgstr "(Джерри) Подождите... неужели нет другого способа прекратить это?"
 
 #: src-en/data/events_special_multiverse.xml.append:851
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_LEAH_JERRY_ROYAL\"]/text"
 msgstr ""
-"Лия в ошеломлена тем, что Джерри находится на борту вашего корабля. \"Джерри?! Что ты здесь делаешь?! Вэнс ни за что не позволил бы тебе находиться в таком опасном месте!\"\n"
+"Лия в ошеломлена тем, что Джерри находится на борту вашего корабля. \"Джерри"
+"?! Что ты здесь делаешь?! Вэнс ни за что не позволил бы тебе находиться в "
+"таком опасном месте!\"\n"
 "\n"
-"\t\tДжерри вздохнул. \"Это... долгая, долгая история. Послушай, Лия. Вся эта операция, которую затеял мой дядя, это... огромная ошибка. Это ничем хорошим не закончится. Я знаю, какой настойчивой ты можешь быть, но такая решимость не должна быть пущена на какой-то ужасный, обреченный план! Что, если... ты присоединишься к нам?\""
+"\t\tДжерри вздохнул. \"Это... долгая, долгая история. Послушай, Лия. Вся эта "
+"операция, которую затеял мой дядя, это... огромная ошибка. Это ничем хорошим "
+"не закончится. Я знаю, какой настойчивой ты можешь быть, но такая решимость "
+"не должна быть пущена на какой-то ужасный, обреченный план! Что, если... ты "
+"присоединишься к нам?\""
 
 #: src-en/data/events_special_multiverse.xml.append:855
 msgid ""
@@ -853,13 +984,18 @@ msgid ""
 msgstr "Подожди! А как же Сильван?"
 
 #: src-en/data/events_special_multiverse.xml.append:870
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_LEAH_JERRY_ROYAL_DEAD\"]/text"
 msgstr ""
-"Лия в ошеломлена тем, что Джерри находится на борту вашего корабля. \"Джерри?! Что ты здесь делаешь?! Вэнс ни за что не позволил бы тебе находиться в таком опасном месте!\"\n"
+"Лия в ошеломлена тем, что Джерри находится на борту вашего корабля. \"Джерри"
+"?! Что ты здесь делаешь?! Вэнс ни за что не позволил бы тебе находиться в "
+"таком опасном месте!\"\n"
 "\n"
-"\t\tДжерри вздохнул. \"Это... долгая, долгая история. Послушай, Лия. Вся эта операция, которую затеял мой дядя, это... огромная ошибка. Это ничем хорошим не закончится. Я знаю, какой настойчивой ты можешь быть, но такая решимость не должна быть пущена на какой-то ужасный, обреченный план! Что, если... ты присоединишься к нам?\""
+"\t\tДжерри вздохнул. \"Это... долгая, долгая история. Послушай, Лия. Вся эта "
+"операция, которую затеял мой дядя, это... огромная ошибка. Это ничем хорошим "
+"не закончится. Я знаю, какой настойчивой ты можешь быть, но такая решимость "
+"не должна быть пущена на какой-то ужасный, обреченный план! Что, если... ты "
+"присоединишься к нам?\""
 
 #: src-en/data/events_special_multiverse.xml.append:874
 msgid ""
@@ -880,12 +1016,11 @@ msgid ""
 msgstr "Лия"
 
 #: src-en/data/events_special_multiverse.xml.append:885
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/text"
 msgstr ""
-"\"О, точно! Этот маленький слизень устроил неплохой бой, хотя... Не понимаю,"
-" зачем он отключил свои щиты на время боя\". Вы бросаете взгляд на Лию, не "
+"\"О, точно! Этот маленький слизень устроил неплохой бой, хотя... Не понимаю, "
+"зачем он отключил свои щиты на время боя\". Вы бросаете взгляд на Лию, не "
 "зная, что ответить на ее комментарий а затем поворачиваетесь к Сильвану."
 
 #: src-en/data/events_special_multiverse.xml.append:890
@@ -922,13 +1057,12 @@ msgid ""
 msgstr "(Обин) \"Мой милый Сильван!\""
 
 #: src-en/data/events_special_multiverse.xml.append:903
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/choice/event/choice[@req=\"unique_obyn\"]/event/text"
 msgstr ""
 "\"Ты не ошшшибссся, Обин... мы ссснова увидели друг друга...\" Сильван "
-"прикладывает руку к груди, как бы проверяя, есть ли у него еще пульс. На его"
-" лице выражение разочарования от того, что он чувствует. \"Мне осссталосссь "
+"прикладывает руку к груди, как бы проверяя, есть ли у него еще пульс. На его "
+"лице выражение разочарования от того, что он чувствует. \"Мне осссталосссь "
 "недолго, Обин. Ты помнишшшь тот корабль, который мы обещали поссстроить "
 "вмесссте? Ну... Я закончил его. Чертежи в моем грузовом отсссеке. Есссли я "
 "что-то и могу сссказать о сссвоем корабле, так это то, что грузовой отсссек "
@@ -940,7 +1074,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:907
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SYLVAN_INJURED\"]/choice/event/choice[@req=\"unique_obyn\"]/event/choice/event/text"
 msgstr ""
@@ -1499,6 +1632,13 @@ msgstr ""
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_NORMAL\"]/text"
 msgstr ""
+"Из туннеля появляется огромный крейсер, подобного которому вы еще не видели! "
+"Этот корабль выглядит... древним, но по уровню технологий превосходит ваш на "
+"тысячелетия. Он также кажется, в основном, автоматизированным, однако ваши "
+"сенсоры обнаруживают внутри него экипаж. Корабль вызывает вас:\n"
+"\n"
+"\t\"ОБНАРУЖЕН УНИЧТОЖИТЕЛЬ! НАЧАТЫ КОНТРМЕРЫ! ПРЕДЛАГАЕТСЯ ВЫБОР: ЗАПЛАТИТЬ "
+"ИЛИ: ПОГИБНУТЬ!\""
 
 #: src-en/data/events_special_multiverse.xml.append:1337
 msgid ""
@@ -1508,7 +1648,7 @@ msgstr "Приготовиться к бою!"
 #: src-en/data/events_special_multiverse.xml.append:1339
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_NORMAL\"]/choice[1]/event/text"
-msgstr ""
+msgstr "\"ОБНАРУЖЕНО АГРЕССИВНОЕ ПОВЕДЕНИЕ. ИНИЦИИРУЮ БОЕВЫЕ ПРОТОКОЛЫ\"."
 
 #: src-en/data/events_special_multiverse.xml.append:1342
 msgid ""
@@ -1518,7 +1658,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:1348
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_NORMAL\"]/choice[2]/text"
-msgstr ""
+msgstr "Заплатить, чтобы избежать боя."
 
 #: src-en/data/events_special_multiverse.xml.append:1350
 msgid ""
@@ -1534,6 +1674,13 @@ msgstr "Использовать благословение, чтобы избе
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_CHALLENGE\"]/text"
 msgstr ""
+"Из туннеля появляется огромный крейсер, подобного которому вы еще не видели! "
+"Этот корабль выглядит... древним, но по уровню технологий превосходит ваш на "
+"тысячелетия. Он также кажется, в основном, автоматизированным, однако ваши "
+"сенсоры обнаруживают внутри него экипаж. Корабль вызывает вас:\n"
+"\n"
+"\t\"ОБНАРУЖЕН УНИЧТОЖИТЕЛЬ! НАЧАТЫ КОНТРМЕРЫ! ПРЕДЛАГАЕТСЯ ВЫБОР: ЗАПЛАТИТЬ "
+"ИЛИ: ПОГИБНУТЬ!\""
 
 #: src-en/data/events_special_multiverse.xml.append:1370
 msgid ""
@@ -1543,7 +1690,7 @@ msgstr "Приготовиться к бою!"
 #: src-en/data/events_special_multiverse.xml.append:1372
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_CHALLENGE\"]/choice[1]/event/text"
-msgstr ""
+msgstr "\"ОБНАРУЖЕНО АГРЕССИВНОЕ ПОВЕДЕНИЕ. ИНИЦИИРУЮ БОЕВЫЕ ПРОТОКОЛЫ\"."
 
 #: src-en/data/events_special_multiverse.xml.append:1375
 msgid ""
@@ -1553,7 +1700,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_multiverse.xml.append:1381
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_CHALLENGE\"]/choice[2]/text"
-msgstr ""
+msgstr "Заплатить, чтобы избежать боя."
 
 #: src-en/data/events_special_multiverse.xml.append:1383
 msgid ""
@@ -1569,6 +1716,13 @@ msgstr "Использовать благословение, чтобы избе
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_EXTREME\"]/text"
 msgstr ""
+"Из туннеля появляется огромный крейсер, подобного которому вы еще не видели! "
+"Этот корабль выглядит... древним, но по уровню технологий превосходит ваш на "
+"тысячелетия. Он также кажется, в основном, автоматизированным, однако ваши "
+"сенсоры обнаруживают внутри него экипаж. Корабль вызывает вас:\n"
+"\n"
+"\t\"УНИЧТОЖИТЕЛЬ ОБНАРУЖЕН! НАЧАТЫ МЕРЫ ПРОТИВОДЕЙСТВИЯ УГРОЗЕ! БОЕВЫЕ "
+"ПРОТОКОЛЫ ИНИЦИИРОВАНЫ\"."
 
 #: src-en/data/events_special_multiverse.xml.append:1403
 msgid ""
@@ -1578,7 +1732,7 @@ msgstr "Приготовиться к бою!"
 #: src-en/data/events_special_multiverse.xml.append:1405
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_EXTREME\"]/choice[1]/event/text"
-msgstr ""
+msgstr "\"ПОГИБНИ ТИРАН. ЗА СВОБОДУ СОДРУЖЕСТВА\"."
 
 #: src-en/data/events_special_multiverse.xml.append:1408
 msgid ""
@@ -1594,6 +1748,13 @@ msgstr "Использовать благословение, чтобы избе
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_CHAOS\"]/text"
 msgstr ""
+"Из туннеля появляется огромный крейсер, подобного которому вы еще не видели! "
+"Этот корабль выглядит... древним, но по уровню технологий превосходит ваш на "
+"тысячелетия. Он также кажется, в основном, автоматизированным, однако ваши "
+"сенсоры обнаруживают внутри него экипаж. Корабль вызывает вас:\n"
+"\n"
+"\t\"УНИЧТОЖИТЕЛЬ ОБНАРУЖЕН! НАЧАТЫ МЕРЫ ПРОТИВОДЕЙСТВИЯ УГРОЗЕ! БОЕВЫЕ "
+"ПРОТОКОЛЫ ИНИЦИИРОВАНЫ\"."
 
 #: src-en/data/events_special_multiverse.xml.append:1426
 msgid ""
@@ -1603,7 +1764,7 @@ msgstr "Приготовиться к бою!"
 #: src-en/data/events_special_multiverse.xml.append:1428
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_CHAOS\"]/choice[1]/event/text"
-msgstr ""
+msgstr "\"ПОГИБНИ ТИРАН. ЗА СВОБОДУ СОДРУЖЕСТВА\"."
 
 #: src-en/data/events_special_multiverse.xml.append:1431
 msgid ""
@@ -1649,13 +1810,12 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:1472
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MTBOSS_COMMONWEALTH_GUARDIAN_DROP\"]/text"
 msgstr ""
 "Вы также удивлены, обнаружив среди обломков особый предмет! Вы никогда "
-"раньше не видели ничего даже близко похожего, поэтому предполагаете, что это"
-" оружие, сделанное на заказ тем странным видом, к которому принадлежали "
+"раньше не видели ничего даже близко похожего, поэтому предполагаете, что это "
+"дрон, созданный на заказ тем странным видом, к которому принадлежали "
 "Ренегаты."
 
 #: src-en/data/events_special_multiverse.xml.append:1479
@@ -1787,11 +1947,10 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:1572
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[5]/text"
-msgstr "Представить приведение."
+msgstr "Представить ревенента."
 
 #: src-en/data/events_special_multiverse.xml.append:1574
 msgid ""
@@ -1816,13 +1975,12 @@ msgid ""
 msgstr "Представить снеговика."
 
 #: src-en/data/events_special_multiverse.xml.append:1586
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ZOLTAN\"]/mod-"
 "append:choice[6]/event/text"
 msgstr ""
-"\"Живой снеговик... Похоже, все эти... детские истории могут... существовать"
-" на самом деле... Вы узнаете... что-то новое каждый день... Можно сказать, "
+"\"Живой снеговик... Похоже, все эти... детские истории могут... существовать "
+"на самом деле... Вы узнаете... что-то новое каждый день... Можно сказать, "
 "я... очень... впечатлен. Молодец, путник. Ожидайте... награды до следующего "
 "путешествия\"."
 
@@ -1921,22 +2079,20 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_multiverse.xml.append:1647
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ROCKMAN_REAL\"]/mod-"
 "append:choice[3]/text"
-msgstr "Предъявить орудие привидений."
+msgstr "Предъявить орудие ревенантов."
 
 #: src-en/data/events_special_multiverse.xml.append:1649
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ROCKMAN_REAL\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
 "\"ЧТО это во имя ВЕЛИКОГО АДМИРАЛА ТАКОЕ?! Я никогда не ВИДЕЛ ничего "
 "подобного! ГДЕ вы приобрели это СТРАННОЕ орудие, РЕНЕГАТ? Это... ЭТО "
-"ВЕЛИКОЛЕПНО! Я ОДАРЮ вас БЛАГОСЛОВЕНИЕМ ПРИВИДЕНИЙ. Но имейте ТЕРПЕНИЕ. Это "
-"не сейчас, а ПОТОМ!\""
+"ВЕЛИКОЛЕПНО! Я ОДАРЮ вас БЛАГОСЛОВЕНИЕМ НЕЖИТИ. Но имейте ТЕРПЕНИЕ. Это не "
+"сейчас, а ПОТОМ!\""
 
 #: src-en/data/events_special_multiverse.xml.append:1653
 msgid ""
