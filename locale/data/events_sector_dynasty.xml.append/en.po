@@ -92,12 +92,12 @@ msgstr ""
 
 #: src-en/data/events_sector_dynasty.xml.append:67
 msgid ""
-"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"clonebay\"]/text"
-msgstr "(Clone Bay) Register the Lanius before it's too late."
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"LIST_CREW_MEDICAL\"]/text"
+msgstr "(Medical Crew) Use your medical crew to stabilize them."
 
 #: src-en/data/events_sector_dynasty.xml.append:69
 msgid ""
-"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"clonebay\"]/event/text"
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"LIST_CREW_MEDICAL\"]/event/text"
 msgstr ""
 "\"Thank you, thank you!\" The Lanius sings, following you back to your ship. The Dynasty ships hail shortly after.\n"
 "\t\t\t\n"
@@ -105,10 +105,78 @@ msgstr ""
 
 #: src-en/data/events_sector_dynasty.xml.append:78
 msgid ""
-"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[3]/text"
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"DRONE_CONTROL_MEDICAL\"]/text"
+msgstr "(Medical Drone) Use your medical drone to stabilize them."
+
+#: src-en/data/events_sector_dynasty.xml.append:80
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"DRONE_CONTROL_MEDICAL\"]/event/text"
+msgstr ""
+"\"Thank you, thank you!\" The Lanius sings, following you back to your ship. The Dynasty ships hail shortly after.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, will you truly allow that vermin to remain aboard your vessel? Curses! Luckily for you, I'm an Alpha who's truest to my word. You will receive your blueprints, but don't expect to receive my bonus reward. Now leave, before I change my mind!\""
+
+#: src-en/data/events_sector_dynasty.xml.append:89
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_BALLISTIC\"]/text"
+msgstr ""
+"(Medical Ballistic Weapons) Use your Ballistic Medical weapon to stabilize "
+"them. [-1}]"
+
+#: src-en/data/events_sector_dynasty.xml.append:91
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_BALLISTIC\"]/event/text"
+msgstr ""
+"\"Thank you, thank you!\" The Lanius sings, following you back to your ship. The Dynasty ships hail shortly after.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, will you truly allow that vermin to remain aboard your vessel? Curses! Luckily for you, I'm an Alpha who's truest to my word. You will receive your blueprints, but don't expect to receive my bonus reward. Now leave, before I change my mind!\""
+
+#: src-en/data/events_sector_dynasty.xml.append:103
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_NONBALLISTIC\"]/text"
+msgstr ""
+"(Medical Non-Ballistic Weapons) Use your medical weapon to stabilize them."
+
+#: src-en/data/events_sector_dynasty.xml.append:105
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_NONBALLISTIC\"]/event/text"
+msgstr ""
+"\"Thank you, thank you!\" The Lanius sings, following you back to your ship. The Dynasty ships hail shortly after.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, will you truly allow that vermin to remain aboard your vessel? Curses! Luckily for you, I'm an Alpha who's truest to my word. You will receive your blueprints, but don't expect to receive my bonus reward. Now leave, before I change my mind!\""
+
+#: src-en/data/events_sector_dynasty.xml.append:114
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"RECON_AND_TELEPORT\"]/text"
+msgstr "(Reconstructive Teleporter) Warp them in."
+
+#: src-en/data/events_sector_dynasty.xml.append:116
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"RECON_AND_TELEPORT\"]/event/text"
+msgstr ""
+"\"Thank you, thank you!\" The Lanius sings, following you back to your ship. The Dynasty ships hail shortly after.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, will you truly allow that vermin to remain aboard your vessel? Curses! Luckily for you, I'm an Alpha who's truest to my word. You will receive your blueprints, but don't expect to receive my bonus reward. Now leave, before I change my mind!\""
+
+#: src-en/data/events_sector_dynasty.xml.append:125
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"clonebay\"]/text"
+msgstr "(Clone Bay) Register the Lanius before it's too late."
+
+#: src-en/data/events_sector_dynasty.xml.append:127
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"clonebay\"]/event/text"
+msgstr ""
+"\"Thank you, thank you!\" The Lanius sings, following you back to your ship. The Dynasty ships hail shortly after.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, will you truly allow that vermin to remain aboard your vessel? Curses! Luckily for you, I'm an Alpha who's truest to my word. You will receive your blueprints, but don't expect to receive my bonus reward. Now leave, before I change my mind!\""
+
+#: src-en/data/events_sector_dynasty.xml.append:136
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[8]/text"
 msgstr "Leave them to die."
 
-#: src-en/data/events_sector_dynasty.xml.append:84
+#: src-en/data/events_sector_dynasty.xml.append:142
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/text"
 msgstr ""
@@ -116,31 +184,31 @@ msgstr ""
 " fighting it, or leave us! Art thou after scrap? If so we will give you "
 "some, as long as you vanish from my sight!\""
 
-#: src-en/data/events_sector_dynasty.xml.append:86
+#: src-en/data/events_sector_dynasty.xml.append:144
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/choice[1]/text"
 msgstr "Stop firing."
 
-#: src-en/data/events_sector_dynasty.xml.append:88
+#: src-en/data/events_sector_dynasty.xml.append:146
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/choice[1]/event/text"
 msgstr ""
 "You can tell you're only being paid so the Alpha can be assured you'll "
 "leave, but it's better than nothing."
 
-#: src-en/data/events_sector_dynasty.xml.append:94
+#: src-en/data/events_sector_dynasty.xml.append:152
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/choice[2]/text"
 msgstr "No no, we can do this!"
 
-#: src-en/data/events_sector_dynasty.xml.append:96
+#: src-en/data/events_sector_dynasty.xml.append:154
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/choice[2]/event/text"
 msgstr ""
 "The Alpha groans. \"Fine, but if thou destroys the ship, there shall be hell"
 " to pay!\""
 
-#: src-en/data/events_sector_dynasty.xml.append:102
+#: src-en/data/events_sector_dynasty.xml.append:160
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WIN\"]/text"
 msgstr ""
@@ -148,12 +216,12 @@ msgstr ""
 "\t\n"
 "\t\"Great work, Renegade. You truly fight with the fervor of the great Reapers of old! What fuels your might that allows you to perform such feats of strength?\""
 
-#: src-en/data/events_sector_dynasty.xml.append:106
+#: src-en/data/events_sector_dynasty.xml.append:164
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WIN\"]/choice/text"
 msgstr "Scrap and blueprints, mostly."
 
-#: src-en/data/events_sector_dynasty.xml.append:108
+#: src-en/data/events_sector_dynasty.xml.append:166
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WIN\"]/choice/event/text"
 msgstr ""

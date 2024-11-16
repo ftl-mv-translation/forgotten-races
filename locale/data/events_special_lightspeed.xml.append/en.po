@@ -17,7 +17,19 @@ msgid ""
 "append:choice/text"
 msgstr "Jump to the Ghost Bounty Sector."
 
-#: src-en/data/events_special_lightspeed.xml.append:30
+#: src-en/data/events_special_lightspeed.xml.append:20
+msgid ""
+"data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_MENU\"]/mod-"
+"append:choice/text"
+msgstr "Proceed to the Commonwealth Sector."
+
+#: src-en/data/events_special_lightspeed.xml.append:27
+msgid ""
+"data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_MENU_NOEQUIPMENT\"]/mod-"
+"append:choice/text"
+msgstr "Proceed to the Commonwealth Sector."
+
+#: src-en/data/events_special_lightspeed.xml.append:48
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS\"]/text"
 msgstr ""
@@ -30,29 +42,29 @@ msgstr ""
 "\t\n"
 "\tMost of the information on this distant sector is completely blank. All you can make out is a list of bizarre names from the bounty, and a foreboding title offered to the sector: Tartarus. The Spook Chasers told you this stretch of space was home to actual undead, but that can't possibly be true... right?"
 
-#: src-en/data/events_special_lightspeed.xml.append:39
+#: src-en/data/events_special_lightspeed.xml.append:57
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS\"]/choice[1]/text"
 msgstr "Continue with the jump."
 
-#: src-en/data/events_special_lightspeed.xml.append:41
+#: src-en/data/events_special_lightspeed.xml.append:59
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS\"]/choice[1]/event/text"
 msgstr ""
 "You prepare to jump to the new co-ordinates, and change your flight path "
 "accordingly."
 
-#: src-en/data/events_special_lightspeed.xml.append:45
+#: src-en/data/events_special_lightspeed.xml.append:63
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_lightspeed.xml.append:51
+#: src-en/data/events_special_lightspeed.xml.append:69
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS\"]/choice[2]/text"
 msgstr "Nevermind."
 
-#: src-en/data/events_special_lightspeed.xml.append:59
+#: src-en/data/events_special_lightspeed.xml.append:77
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS_BOSS\"]/text"
 msgstr ""
@@ -65,34 +77,65 @@ msgstr ""
 "\t\n"
 "\tMost of the information on this distant sector is completely blank. All you can make out is a list of bizarre names from the bounty, and a foreboding title offered to the sector: Tartarus. The Spook Chasers told you this stretch of space was home to actual undead, but that can't possibly be true... right?"
 
-#: src-en/data/events_special_lightspeed.xml.append:68
+#: src-en/data/events_special_lightspeed.xml.append:86
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS_BOSS\"]/choice[1]/text"
 msgstr "Continue with the jump."
 
-#: src-en/data/events_special_lightspeed.xml.append:70
+#: src-en/data/events_special_lightspeed.xml.append:88
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS_BOSS\"]/choice[1]/event/text"
 msgstr ""
 "You prepare to jump to the new co-ordinates, and change your flight path "
 "accordingly."
 
-#: src-en/data/events_special_lightspeed.xml.append:75
+#: src-en/data/events_special_lightspeed.xml.append:93
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS_BOSS\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_special_lightspeed.xml.append:81
+#: src-en/data/events_special_lightspeed.xml.append:99
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS_BOSS\"]/choice[2]/text"
 msgstr "Nevermind."
 
-#: src-en/data/events_special_lightspeed.xml.append:105
+#: src-en/data/events_special_lightspeed.xml.append:126
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"FR_ENTER_COMMONWEALTH\"]/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_special_lightspeed.xml.append:131
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"FR_COMMONWEALTH_WARP\"]/text"
+msgstr ""
+"Name: ???\n"
+"\tType: ???\n"
+"\tDominant Faction: ???\n"
+"\tRebel Threat Level: ???\n"
+"\n"
+"\tThere is no data about the next sector in your Atlas."
+
+#: src-en/data/events_special_lightspeed.xml.append:139
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"FR_COMMONWEALTH_WARP\"]/choice[1]/text"
+msgstr "Exit hyperspeed."
+
+#: src-en/data/events_special_lightspeed.xml.append:143
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"FR_COMMONWEALTH_WARP\"]/choice[@req=\"loc_task_accepted\"]/text"
+msgstr "Your connection with C.U.R.A. is currently unavailable."
+
+#: src-en/data/events_special_lightspeed.xml.append:147
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"FR_COMMONWEALTH_WARP\"]/choice[@req=\"COORDS\"]/text"
+msgstr "You cannot reroute during this jump."
+
+#: src-en/data/events_special_lightspeed.xml.append:165
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FISH_FR_TARTARUS_GIVE\"]/text"
 msgstr "You reeled in a unique undead fish!"
 
-#: src-en/data/events_special_lightspeed.xml.append:109
+#: src-en/data/events_special_lightspeed.xml.append:169
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FISH_FR_TARTARUS_GIVE\"]/choice/text"
 msgstr "Continue..."

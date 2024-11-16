@@ -1,17 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-19 07:42+0000\n"
-"Last-Translator: Aleev <aleev1414@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
-"dataevents_sector_augmentedxmlappend/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.5\n"
 
 #: src-en/data/events_sector_augmented.xml.append:3
 msgid ""
@@ -81,16 +73,134 @@ msgstr ""
 
 #: src-en/data/events_sector_augmented.xml.append:37
 msgid ""
-"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice/text"
-msgstr ""
-"Ничего особенного, это было просто неправильно - оставлять вас умирать вот "
-"так."
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"1\"]/text"
+msgstr "Продолжить..."
 
 #: src-en/data/events_sector_augmented.xml.append:39
 msgid ""
-"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice/event/text"
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"1\"]/event/text"
 msgstr ""
-"\"Скромный! Я пойду с вами куда угодно! А еще поделитесь чертежами крейсера, "
-"я сам его сделал!\" Ланиус отталкивает вас в сторону и от руки рисует в "
-"компьютере чертежи странного синего крейсера ланиусов, после чего еще раз "
-"благодарит вас."
+
+#: src-en/data/events_sector_augmented.xml.append:49
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_augmented.xml.append:51
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:53
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"0\"]/text"
+msgstr "Мы ничего не можем сделать."
+
+#: src-en/data/events_sector_augmented.xml.append:55
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"0\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:59
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"medbay\" and "
+"@lvl=\"0\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:65
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"2\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:67
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"2\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:70
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"medbay\" and "
+"@lvl=\"2\"]/event/crewMember"
+msgstr "Церковь"
+
+#: src-en/data/events_sector_augmented.xml.append:76
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"clonebay\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:78
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"clonebay\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:81
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"clonebay\"]/event/crewMember"
+msgstr "Церковь"
+
+#: src-en/data/events_sector_augmented.xml.append:87
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"LIST_CREW_MEDICAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:89
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"LIST_CREW_MEDICAL\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:92
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[@req=\"LIST_CREW_MEDICAL\"]/event/crewMember"
+msgstr "Церковь"
+
+#: src-en/data/events_sector_augmented.xml.append:98
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[5]/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:100
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[5]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:103
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[5]/event/crewMember"
+msgstr "Церковь"
+
+#: src-en/data/events_sector_augmented.xml.append:109
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[6]/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:111
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[6]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_augmented.xml.append:114
+msgid ""
+"data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
+" and @lvl=\"0\"]/event/choice[6]/event/crewMember"
+msgstr "Церковь"
