@@ -1,9 +1,17 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-11-16 19:22+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_special_guardsxmlappend/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.8.1\n"
 
 #: src-en/data/events_special_guards.xml.append:5
 msgid ""
@@ -22,7 +30,6 @@ msgstr ""
 "передать ложные данные флоту."
 
 #: src-en/data/events_special_guards.xml.append:14
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[1]/event[2]/text"
@@ -60,7 +67,6 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_special_guards.xml.append:35
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[2]/event[2]/text"
@@ -92,7 +98,6 @@ msgstr ""
 "(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
 
 #: src-en/data/events_special_guards.xml.append:55
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
 "append:choice[2]/event/text"
@@ -116,7 +121,6 @@ msgstr ""
 "моего племянника!\""
 
 #: src-en/data/events_special_guards.xml.append:70
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_JERRY\"]/mod-"
 "append:choice[1]/event/text"
@@ -158,14 +162,13 @@ msgstr ""
 "ваш грузовой отсек."
 
 #: src-en/data/events_special_guards.xml.append:97
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_COALITION\"]/mod-"
 "append:choice/text"
 msgstr ""
 "(Лейконплииинакра) \"Нарушители?! Слушай сюда, слабак, ты позволишь нам "
-"пройти через сектор. В противном случае я публично казню вас всех! Вы "
-"поняли?\""
+"пройти через сектор. В противном случае я публично казню вас всех! Вы поняли?"
+"\""
 
 #: src-en/data/events_special_guards.xml.append:99
 msgid ""
@@ -230,26 +233,37 @@ msgstr ""
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/text"
 msgstr ""
+"Наконец, вы достигаете другой стороны портала и обнаруживаете там сторожевой "
+"корабль, который выглядит идентично конструкциям обелисков, но этот корабль "
+"окрашен в незнакомые вам цвета. Корабль пока не предпринимает никаких "
+"враждебных действий, поскольку, похоже, сначала изучает вас и ваши намерения."
 
 #: src-en/data/events_special_guards.xml.append:160
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/text"
-msgstr ""
+msgstr "Связаться с ним."
 
 #: src-en/data/events_special_guards.xml.append:162
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/text"
 msgstr ""
+"Корабль отвечает, но речь экипажа, похоже, слишком устаревшая для "
+"переводчика, и ему удается перевести лишь несколько слов, которые, вероятно, "
+"все еще существуют в современном языке обелисков: \"Осторожно - Уничтожители "
+"- Нежелательно - Сдавайтесь\"."
 
 #: src-en/data/events_special_guards.xml.append:164
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[1]/text"
-msgstr ""
+msgstr "Мы не хотим причинить вам вреда! Мы пришли с миром!"
 
 #: src-en/data/events_special_guards.xml.append:166
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[1]/event/text"
 msgstr ""
+"Несмотря на ваши мирные заявления, вражеский корабль активирует орудия! "
+"Похоже, они либо не поняли вас, либо не поверили. В любом случае, бой "
+"неизбежен."
 
 #: src-en/data/events_special_guards.xml.append:169
 msgid ""
@@ -260,11 +274,15 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
 msgstr ""
+"(Тело Содружества) Показать им сломанное тело, возможно, они помогут нам "
+"починить его."
 
 #: src-en/data/events_special_guards.xml.append:177
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
+"С той стороны раздается громкий крик, и вскоре другой корабль прерывает "
+"связь и отклоняет все дальнейшие вызовы. Ну что ж..."
 
 #: src-en/data/events_special_guards.xml.append:180
 msgid ""
@@ -274,42 +292,68 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_guards.xml.append:186
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/text"
-msgstr ""
+msgstr "(Экипаж Содружества) Ваш экипаж Содружества хочет поговорить с ними."
 
 #: src-en/data/events_special_guards.xml.append:188
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/text"
 msgstr ""
+"Один только вид члена экипажа Содружества, кажется, успокаивает их, и они "
+"немедленно отключают орудия. После долгой беседы вашему подчиненному удается "
+"убедить их установить переводчик, который может перевести старый язык "
+"Содружества на что-то понятное.\n"
+"\n"
+"\t\t\t\t\t\"Прошу прощения за враждебное поведение, мы всегда находимся в "
+"состоянии повышенной готовности при появлении чужаков. Боюсь, что наша "
+"прошлая травма, нанесенная Уничтожителями, преследует нас и по сей день. Мы -"
+" Содружество, и мы приветствуем вас в нашем скромном убежище\"."
 
 #: src-en/data/events_special_guards.xml.append:193
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/text"
-msgstr ""
+msgstr "Уничтожители?"
 
 #: src-en/data/events_special_guards.xml.append:195
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/text"
 msgstr ""
+"Существо кивает своим главным кубом. \"Те, кто облачен белое и розовое, те, "
+"кто приказал нас уничтожить, и те, с чьей мощью мы просто не могли "
+"сравниться. Они все еще где-то там, и если они найдут нас... Что ж, боюсь, "
+"последний представитель нашего рода исчезнет, на этот раз навсегда\".\n"
+"\n"
+"\t\t\t\t\t\t\tСущество на мгновение замолкло, а затем заговорило снова: \"Мы "
+"не ожидали, что вы приютите одного из наших сородичей. Удивительно, что мы "
+"не обнаружили его раньше, хотя, полагаю, наше оборудование уже не то, что "
+"раньше. Энтропия, конечно, жестокая госпожа\"."
 
 #: src-en/data/events_special_guards.xml.append:200
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/text"
-msgstr ""
+msgstr "Как нам покинуть этот сектор?"
 
 #: src-en/data/events_special_guards.xml.append:202
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/text"
 msgstr ""
+"Индивид из Содружества качает головой. \"Боюсь, это будет не так просто. "
+"Представители моего вида могут не принять чужаков, даже тех, кто приютил наш "
+"вид. Тем не менее, если вы хотите уйти, то просто ищите разлом в глубине "
+"нашего сектора. Это единственный выход, и он охраняется нашим самым грозным "
+"кораблем. Будьте готовы к бою, ведь никому не позволено уходить\".\n"
+"\n"
+"\t\t\t\t\t\t\t\t\t\"Тем не менее я сделаю все возможное, чтобы помочь вам: "
+"отремонтирую ваш корпус и подарю одно из наших орудий. Мир вам, чужаки\"."
 
 #: src-en/data/events_special_guards.xml.append:208
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[1]/text"
-msgstr ""
+msgstr "Спасибо."
 
 #: src-en/data/events_special_guards.xml.append:210
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[1]/event/text"
-msgstr ""
+msgstr "Охранник кивает, прощаясь с вами."
 
 #: src-en/data/events_special_guards.xml.append:214
 msgid ""
@@ -319,22 +363,25 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_guards.xml.append:220
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
-msgstr ""
+msgstr "(Тело Содружества) Что с этим телом? Есть ли способ оживить его?"
 
 #: src-en/data/events_special_guards.xml.append:222
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
+"Охранник несколько минут осматривает тело, прежде чем заговорить: \"Возможно"
+", есть способ. Здесь есть ремонтный центр, в котором могут быть инструменты, "
+"необходимые для оживления. Вот, позвольте мне отметить его на вашей карте\"."
 
 #: src-en/data/events_special_guards.xml.append:225
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/text"
-msgstr ""
+msgstr "Спасибо."
 
 #: src-en/data/events_special_guards.xml.append:227
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/event/text"
-msgstr ""
+msgstr "Охранник кивает, прощаясь с вами."
 
 #: src-en/data/events_special_guards.xml.append:229
 msgid ""
@@ -345,46 +392,78 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/text"
 msgstr ""
+"Вражескому кораблю долго так не продержаться. Возможно, вам удастся "
+"заставить их сдаться?"
 
 #: src-en/data/events_special_guards.xml.append:249
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/text"
-msgstr ""
+msgstr "Выключить свои орудия."
 
 #: src-en/data/events_special_guards.xml.append:251
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/text"
 msgstr ""
+"Прошло немного времени, прежде чем вражеский корабль понял, что вы только "
+"что сделали, но как только они это понимают, они также отключают свои орудия "
+"и дроны. Они вызывают вас, прислав файлы, которые кажутся рудиментарным "
+"переводчиком. Даже в файлах переводчика вы едва можете разобрать просьбу "
+"разрешить их дрону установить на вашем корабле нормальный переводчик, на что "
+"вы быстро соглашаетесь.\n"
+"\n"
+"\t\t\tКак только дрон заканчивает работу, вы можете нормально общаться со "
+"странным кораблем. \"Приветствую вас, чужак. Мы - Содружество, и мы "
+"приветствуем вас в нашем скромном убежище. Мы просим прощения за наши "
+"поспешные действия, мы думали, что вы один из Уничтожителей. Мы приносим вам "
+"немного лома в качестве извинения за любой ущерб, который мы могли "
+"причинить\"."
 
 #: src-en/data/events_special_guards.xml.append:259
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/text"
-msgstr ""
+msgstr "Спасибо, но кто эти \"Уничтожители\"?"
 
 #: src-en/data/events_special_guards.xml.append:261
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/text"
 msgstr ""
+"Существо кивает своим главным кубом. \"Те, кто облачен белое и розовое, те, "
+"кто приказал нас уничтожить, и те, с чьей мощью мы просто не могли "
+"сравниться. Они все еще где-то там, и если они найдут нас... Что ж, боюсь, "
+"последний представитель нашего рода исчезнет, на этот раз навсегда\".\n"
+"\n"
+"\t\t\t\t\tСущество некоторое время молчит, прежде чем снова заговорить \"Мы "
+"не ожидали, что вы приютите одного из наших сородичей. Удивительно, что мы "
+"не обнаружили его раньше, хотя, полагаю, наше оборудование уже не то, что "
+"раньше. Энтропия, конечно, жестокая госпожа\"."
 
 #: src-en/data/events_special_guards.xml.append:266
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/text"
-msgstr ""
+msgstr "Как нам покинуть этот сектор?"
 
 #: src-en/data/events_special_guards.xml.append:268
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/text"
 msgstr ""
+"Существо из Содружества качает головой. \"Боюсь, это будет не так просто. "
+"Представители моего вида могут не принять чужаков, даже тех, кто приютил наш "
+"вид. Тем не менее, если вы хотите уйти, то просто ищите разлом в глубине "
+"нашего сектора. Это единственный выход, и он охраняется нашим самым грозным "
+"кораблем. Будьте готовы к бою, ведь никому не позволено уходить\".\n"
+"\n"
+"\t\t\t\t\t\t\t\"Тем не менее я сделаю все возможное, чтобы помочь вам: "
+"отремонтирую ваш корпус и подарю одно из наших орудий. Мир вам, чужаки\"."
 
 #: src-en/data/events_special_guards.xml.append:274
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[1]/text"
-msgstr ""
+msgstr "Спасибо."
 
 #: src-en/data/events_special_guards.xml.append:276
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[1]/event/text"
-msgstr ""
+msgstr "Охранник кивает, прощаясь с вами."
 
 #: src-en/data/events_special_guards.xml.append:280
 msgid ""
@@ -394,22 +473,25 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_guards.xml.append:286
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
-msgstr ""
+msgstr "(Тело Содружества) Что с этим телом? Есть ли способ оживить его?"
 
 #: src-en/data/events_special_guards.xml.append:288
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
+"Охранник несколько минут осматривает тело, прежде чем заговорить: \"Возможно"
+", есть способ. Здесь есть ремонтный центр, в котором могут быть инструменты, "
+"необходимые для оживления. Вот, позвольте мне отметить его на вашей карте\"."
 
 #: src-en/data/events_special_guards.xml.append:291
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/text"
-msgstr ""
+msgstr "Спасибо."
 
 #: src-en/data/events_special_guards.xml.append:293
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/event/text"
-msgstr ""
+msgstr "Охранник кивает, прощаясь с вами."
 
 #: src-en/data/events_special_guards.xml.append:295
 msgid ""
@@ -419,12 +501,23 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_guards.xml.append:309
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[2]/text"
-msgstr ""
+msgstr "Нет, продолжать сражаться."
 
 #: src-en/data/events_special_guards.xml.append:315
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_DESTROY\"]/text"
 msgstr ""
+"Вы победили странный сторожевой корабль обелисков. Все, что могло быть в их "
+"грузе, конечно же, уничтожено. Уже собираясь уходить, вы замечаете странное "
+"устройство, уцелевшее в бою, - странный переводчик, который, похоже, "
+"настроен на очень древний язык, на котором говорили охранники. Оказывается, "
+"вы находитесь в секторе, контролируемом группой под названием Содружество. "
+"Если бы только это он был у нас до боя...\n"
+"\n"
+"\tВы также решаете просканировать сектор на предмет каких-либо интересных "
+"мест и замечаете еще один огромный всплеск энергии в самом центре сектора, "
+"идентичный порталу, из которого вы пришли. Если есть способ покинуть это "
+"место, то, скорее всего, это он и есть."
 
 #: src-en/data/events_special_guards.xml.append:321
 msgid ""
@@ -435,6 +528,16 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_DEADCREW\"]/text"
 msgstr ""
+"Вы победили странный сторожевой корабль обелисков. Если на борту нет "
+"экипажа, который могл бы помешать вам, вы можете исследовать их груз. Вы "
+"находите странное синее орудие, а также странный переводчик, который, "
+"похоже, настроен на очень древний язык, на котором говорили охранники. "
+"Оказывается, вы находитесь в секторе, контролируемом группой под названием "
+"Содружество. Если бы только он был у нас до боя...\n"
+"\n"
+"\tВ грузе вы находите карту, указывающую на определенное место в секторе - "
+"некий разлом, который был обозначен как \"выход\". Похоже, это и есть ваш "
+"пункт назначения, если вы хотите покинуть это место."
 
 #: src-en/data/events_special_guards.xml.append:333
 msgid ""
@@ -445,6 +548,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_FOLLOWUP\"]/text"
 msgstr ""
+"Уничтожив сторожевой корабль Содружества, вы, несомненно, заставили его "
+"послать подкрепление, чтобы выследить вас. Будьте внимательны, исследуя "
+"сектор."
 
 #: src-en/data/events_special_guards.xml.append:345
 msgid ""
@@ -459,22 +565,26 @@ msgstr "Ничего не делать."
 #: src-en/data/events_special_guards.xml.append:358
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_COMMONWEALTH\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "Непосещеная локация."
 
 #: src-en/data/events_special_guards.xml.append:359
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_COMMONWEALTH\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Исследованная локация. Ничего интересного."
 
 #: src-en/data/events_special_guards.xml.append:360
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_COMMONWEALTH\"]/beaconType/undiscoveredTooltip"
-msgstr ""
+msgstr "Непосещеная локация."
 
 #: src-en/data/events_special_guards.xml.append:362
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_COMMONWEALTH\"]/text"
 msgstr ""
+"Вы заметили мощный корабль Содружества, но, похоже, они не рады вас видеть. "
+"\"Чужак! Как ты смеешь убивать нашу стражу! Приготовься испытать наш гнев!\" "
+"Корабль переходит в атаку, и вы не сразу понимаете, что это один из "
+"кораблей, посланных охранниками, чтобы поквитаться с вами за нападение."
 
 #: src-en/data/events_special_guards.xml.append:366
 msgid ""
