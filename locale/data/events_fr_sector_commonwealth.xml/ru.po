@@ -1,34 +1,59 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-11-18 17:20+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
+"dataevents_fr_sector_commonwealthxml/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.8.1\n"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:84
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_PORTAL\"]/text"
 msgstr ""
+"Вы достигаете маяка, где был обнаружен странный всплеск аномальной энергии, "
+"и, но как ни странно, ничего не находите, по крайней мере, сразу. Вы "
+"подумываете о прыжке, но вдруг в пустом участке пространства неподалеку "
+"появляется гигантская структура, похожая на портал, с темно-синим оттенком. "
+"Кажется, его размеров едва хватит, чтобы ваш корабль смог пройти через него."
+"\n"
+"\n"
+"\tАэнвитэ смотрит на портал с чистым изумлением: \"Эта энергия... Я не "
+"чувствовал ничего подобного с тех пор, как... Капитан, мы должны это "
+"исследовать! Парагон может подождать, это гораздо, гораздо важнее\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:89
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_PORTAL\"]/choice[1]/text"
-msgstr ""
+msgstr "Войти."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:91
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_PORTAL\"]/choice[1]/event/text"
 msgstr ""
+"Прохождение через портал само по себе было бы достаточно сложной задачей, но "
+"все усложняется тем, что портал начинает разрушаться сам по себе, пока вы "
+"находитесь на полпути. Вы направили максимум энергии на свои двигатели и "
+"каким-то образом сумели пройти через него, и тут же все погрузилось во мрак, "
+"когда портал закрылся за вами. Остается только идти вперед..."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:98
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_PORTAL\"]/choice[2]/text"
-msgstr ""
+msgstr "У нас есть дела поважнее, чем заходить в случайные порталы."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:100
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_PORTAL\"]/choice[2]/event/text"
 msgstr ""
+"В конце концов, Парагон все равно остается вашим приоритетом, а то, что "
+"находится за этим порталом, может потребовать больше времени, чем у вас есть."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:102
 msgid ""
@@ -44,6 +69,8 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER\"]/beaconType/unvisitedTooltip"
 msgstr ""
+"Местонахождение ремонтного центра, который может починить вашего сломанного "
+"члена экипажа."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:140
 msgid ""
@@ -59,6 +86,9 @@ msgstr "Непосещённое место."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER\"]/text"
 msgstr ""
+"Наконец-то вы добрались до ремонтного центра. Возможно, вы наконец-то "
+"сможете починить труп обелиска, который вы возили с собой на протяжении "
+"всего путешествия."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:146
 msgid ""
@@ -69,16 +99,30 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER\"]/choice/event/text"
 msgstr ""
+"Вас внезапно вызывает кто-то из ремонтного центра. На экране появляется "
+"обелиск Содружества, который судорожно говорит: \"Чужак! Никогда бы не "
+"подумал, что буду рад вас видеть, но у нас серьезный кризис, и мы отчаянно "
+"нуждаемся в вашей помощи\".\n"
+"\n"
+"\t\t\t\"Видите ли, мы модернизировали наш автоматический крейсер, чтобы он "
+"был лучше оснащен для борьбы с Уничтожителями, если они прорвут нашу "
+"оборону, но мы случайно допустили опечатку в его уровне агрессии, и теперь "
+"он жаждет крови. Если вы сможете повредить его корпус настолько, чтобы мы "
+"смогли его отключить, это будет замечательно, но если это невозможно, тогда "
+"вы можете уничтожить корабль, если это необходимо. Просто помогите нам, и мы "
+"с радостью поможем вам решить любую проблему!\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:154
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER\"]/choice/event/choice[1]/text"
-msgstr ""
+msgstr "Помочь им и атаковать судно."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:156
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER\"]/choice/event/choice[1]/event/text"
 msgstr ""
+"Из динамиков автоматического корабля раздается сообщение: \"ВНИМАНИЕ, УГРОЗА "
+"УРОВНЯ УНИЧТОЖИТЕЛЯ ОБНАРУЖЕНА! НАЧАТЫ КОНТРМЕРЫ!\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:159
 msgid ""
@@ -88,12 +132,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:165
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER\"]/choice/event/choice[2]/text"
-msgstr ""
+msgstr "Мы не можем взять на себя это дело, извините."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:167
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER\"]/choice/event/choice[2]/event/text"
 msgstr ""
+"Вы еще раз извиняетесь перед ними, прежде чем отключить связь и "
+"приготовиться к прыжку."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:169
 msgid ""
@@ -109,6 +155,8 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER\"]/text"
 msgstr ""
+"Выйдя из прыжка, вы понимаете, что находитесь в воздушном пространстве "
+"ремонтного центра - это должно помочь."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:196
 msgid ""
@@ -119,16 +167,30 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER\"]/choice/event/text"
 msgstr ""
+"Вас внезапно вызывает кто-то из ремонтного центра. На экране появляется "
+"обелиск Содружества, который судорожно говорит: \"Чужак! Никогда бы не "
+"подумал, что буду рад вас видеть, но у нас серьезный кризис, и мы отчаянно "
+"нуждаемся в вашей помощи\".\n"
+"\n"
+"\t\t\t\"Видите ли, мы модернизировали наш автоматический крейсер, чтобы он "
+"был лучше оснащен для борьбы с Уничтожителями, если они прорвут нашу "
+"оборону, но мы случайно допустили опечатку в его уровне агрессии, и теперь "
+"он жаждет крови. Если вы сможете повредить его корпус настолько, чтобы мы "
+"смогли его отключить, это будет замечательно, но если это невозможно, тогда "
+"вы можете уничтожить корабль, если это необходимо. Просто помогите нам, и мы "
+"с радостью поможем вам решить любую проблему!\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:204
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER\"]/choice/event/choice[1]/text"
-msgstr ""
+msgstr "Согласиться с их предложением и атаковать судно."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:206
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER\"]/choice/event/choice[1]/event/text"
 msgstr ""
+"Из динамиков автоматического корабля раздается сообщение: \"ВНИМАНИЕ, УГРОЗА "
+"УРОВНЯ УНИЧТОЖИТЕЛЯ ОБНАРУЖЕНА! НАЧАТЫ КОНТРМЕРЫ!\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:209
 msgid ""
@@ -138,12 +200,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:215
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER\"]/choice/event/choice[2]/text"
-msgstr ""
+msgstr "Мы не можем взять на себя это дело, извините."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:217
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER\"]/choice/event/choice[2]/event/text"
 msgstr ""
+"Вы еще раз извиняетесь перед ними, прежде чем отключить связь и "
+"приготовиться к прыжку."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:219
 msgid ""
@@ -159,16 +223,24 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_SURRENDER\"]/text"
 msgstr ""
+"Автоматический корабль с трудом выдерживают ваш натиск. Содружество "
+"приветствует вас. \"Отличная работа! Подождите еще минуту, пока наши "
+"инженеры поработают над обезвреживанием корабля, и мы сможем наконец "
+"прекратить все это недоразумение!\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:237
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_SURRENDER\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr ""
+"Инженерам нужно больше времени, чтобы отключить автоматический корабль, "
+"подождите еще немного!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:244
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_AUTO_CRUISER_SUCCESS\"]/text"
 msgstr ""
+"Вам удалось продержаться достаточно долго, и в конце концов автоматический "
+"корабль отключился, а его многочисленные огни померкли."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:249
 msgid ""
@@ -179,16 +251,31 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_AUTO_CRUISER_SUCCESS\"]/choice/event/text"
 msgstr ""
+"Содружества приветствуют вас: \"Отличная работа, чужак! Ваше боевое "
+"мастерство не вызывает сомнений. Как и было обещано, мы не только готовы "
+"оказать вам помощь, но и предлагаем чертежи крейсера с которым вы "
+"разобрались; это самое малое, что мы можем сделать\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:255
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_AUTO_CRUISER_SUCCESS\"]/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
-msgstr ""
+msgstr "(Тело Содружества) Показать им сломанное тело."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:257
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_AUTO_CRUISER_SUCCESS\"]/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
+"Представители Содружества осматривают тело сверху донизу, затем заносят его "
+"в помещение и просят вас подождать на корабле, пока они не закончат. Это "
+"занимает некоторое время, но в конце концов они возвращаются с полностью "
+"отремонтированным членом Содружества.\n"
+"\n"
+"\t\t\t\t\t\"Спаситель! Не могу передать словами, как я благодарен вам за то, "
+"что вы прошли через все эти испытания ради меня, маленького старичка. Для "
+"меня будет честью сопровождать вас на борту вашего корабля!\"\n"
+"\t\t\t\t\n"
+"\t\t\t\t    Вы благодарите инженеров и готовитесь отправиться дальше, теперь "
+"уже с новым членом экипажа на борту."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:266
 msgid ""
@@ -198,12 +285,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:272
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_AUTO_CRUISER_SUCCESS\"]/choice/event/choice[2]/text"
-msgstr ""
+msgstr "Мы не откажемся от некоторых ресурсов."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:274
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_AUTO_CRUISER_SUCCESS\"]/choice/event/choice[2]/event/text"
 msgstr ""
+"Содружества кивают и отправляют вам ящик с припасами, а также полностью "
+"ремонтируют ваш корпус. Вы прощаетесь с ними и готовитесь к прыжку."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:278
 msgid ""
@@ -213,7 +302,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:280
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_AUTO_CRUISER_SUCCESS\"]/choice/event/choice[2]/event/choice/event/text"
-msgstr ""
+msgstr "Охранник кивает, прощаясь с вами."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:282
 msgid ""
@@ -224,6 +313,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED\"]/text"
 msgstr ""
+"Автоматический корабль, похоже, больше не может сопротивляться повреждениям, "
+"его корпус раскалывается пополам, прежде чем корабль взрывается, и от него "
+"остаются только обломки."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:297
 msgid ""
@@ -234,16 +326,31 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED\"]/choice/event/text"
 msgstr ""
+"Содружества испытывают облегчение, но в то же время и грусть. Они обращаются "
+"к вам, их голоса явно подавлены: \"Я понимаю, что у вас не было другого "
+"выбора, но все же мне жаль, что мы не смогли спасти корабль. Тем не менее вы "
+"помогли нам, и за это мы вас благодарим. Вам нужна помощь в чем-нибудь?\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:301
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED\"]/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
-msgstr ""
+msgstr "(Тело Содружества) Показать им сломанное тело."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:303
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED\"]/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
+"Представители Содружества осматривают тело сверху донизу, затем заносят его "
+"в помещение и просят вас подождать на корабле, пока они не закончат. Это "
+"занимает некоторое время, но в конце концов они возвращаются с полностью "
+"отремонтированным членом Содружества.\n"
+"\n"
+"\t\t\t\t\t\"Спаситель! Не могу передать словами, как я благодарен вам за то, "
+"что вы прошли через все эти испытания ради меня, маленького старичка. Для "
+"меня будет честью сопровождать вас на борту вашего корабля!\"\n"
+"\t\t\t\t\n"
+"\t\t\t\t    Вы благодарите инженеров и готовитесь отправиться дальше, теперь "
+"уже с новым членом экипажа на борту."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:312
 msgid ""
@@ -253,12 +360,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:318
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED\"]/choice/event/choice[2]/text"
-msgstr ""
+msgstr "Мы не откажемся от некоторых ресурсов."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:320
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED\"]/choice/event/choice[2]/event/text"
 msgstr ""
+"Содружества кивают и отправляют вам ящик с припасами, а также полностью "
+"ремонтируют ваш корпус. Вы прощаетесь с ними и готовитесь к прыжку."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:324
 msgid ""
@@ -268,7 +377,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:326
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED\"]/choice/event/choice[2]/event/choice/event/text"
-msgstr ""
+msgstr "Охранник кивает, прощаясь с вами."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:328
 msgid ""
@@ -283,17 +392,21 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_commonwealth.xml:364
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "Расположение выходного портала из этого сектора."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:365
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Посещенное место. Расположение выходного портала."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:367
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT\"]/text"
 msgstr ""
+"Вы прибыли к месту, где, как вы предполагаете, находится разлом. Конечно, "
+"разлом есть, но он, похоже, хорошо защищен самым большим кораблем, который "
+"вы видели до сих пор, - тяжеловооруженным крейсером Содружества класса "
+"\"Дредноут\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:372
 msgid ""
@@ -304,16 +417,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT\"]/choice/event/text"
 msgstr ""
+"Вы пытаетесь вызвать огромный корабль, и, к вашему удивлению, тот, кто им "
+"командует, отвечает: «Чужак, если вы дорожите своей жизнью, мы советуем вам "
+"отступить. Вы не можете покинуть сектор ни при каких обстоятельствах - никто "
+"не может\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:376
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT\"]/choice/event/choice/text"
-msgstr ""
+msgstr "Мы не отступим; сражаться с дредноутом!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:378
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT\"]/choice/event/choice/event/text"
 msgstr ""
+"Вы заряжаете оружие и отправляетесь на уничтожение корабля. Его голубые огни "
+"сияют энергией, а страшная артиллерия набирает мощность."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:381
 msgid ""
@@ -324,16 +443,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT_AI\"]/text"
 msgstr ""
+"Все члены экипажа дредноута мертвы, но корабль продолжает сражаться. Должно "
+"быть, на нем установлен какой-то ИИ режим!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:394
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT_AI\"]/choice/text"
-msgstr ""
+msgstr "Мы должны продолжать сражаться!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:400
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT_WIN\"]/text"
 msgstr ""
+"Вы видите, как огромный корабль раскалывается пополам, а затем взрывается и "
+"разлетается на мелкие кусочки. Вы собираете из обломков все, что можете."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:413
 msgid ""
@@ -344,11 +467,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT_WIN\"]/choice/event/text"
 msgstr ""
+"Вы решили потратить время на то, чтобы убедиться, что все ваши системы и "
+"экипаж в полном порядке, прежде чем совершить прыжок. У вас странное "
+"чувство, что это еще не конец...\n"
+"\n"
+"\t\t\t(Нажмите кнопку прыжка, чтобы продолжить)"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:425
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT_JUMP\"]/text"
 msgstr ""
+"Убедившись, что все готовы, вы начинаете деликатный процесс перехода через "
+"портал. Он немного больше, чем предыдущий, и, кажется, не начинает "
+"разрушаться на середине пути, что делает последние мгновения гораздо менее "
+"напряженными."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:427
 msgid ""
@@ -359,21 +491,34 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_RIFT_JUMP\"]/choice/event/text"
 msgstr ""
+"В конце концов вы полностью выходите через другую сторону разлома. Вы "
+"вспоминаете все свои странное приключение, которое только что пережили, и "
+"вас охватывает странная меланхолия, когда вы понимаете, что никогда не "
+"сможете вернуться туда, а друзья, которых вы завели, больше никогда вас не "
+"увидят. \n"
+"\t\t\t\n"
+"\t\t\tВнезапно настроение полностью меняется, когда ваш корабль "
+"принудительно останавливают на полпути к переходу в другой сектор. Где бы вы "
+"сейчас ни находились, вам придется покинуть это место, если вы не хотите "
+"рисковать быть разорванным на части во время прыжка."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:460
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO\"]/text"
 msgstr ""
+"Похоже, что ближайший торговец из Содружества сейчас подвергается нападению "
+"автоматического корабля. Если вы поможете ему, он, возможно, захочет "
+"торговать с вами."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:463
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO\"]/choice[1]/text"
-msgstr ""
+msgstr "Спасти магазин."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:465
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO\"]/choice[1]/event/text"
-msgstr ""
+msgstr "Вы готовитесь к бою."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:468
 msgid ""
@@ -383,12 +528,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:474
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на торговца."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:476
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO\"]/choice[2]/event/text"
-msgstr ""
+msgstr "К счастью, автоматический корабль не замечает вашего присутствия."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:478
 msgid ""
@@ -404,59 +549,76 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO_WIN\"]/text"
 msgstr ""
+"Вы спасли торговца от автоматического корабля. Пока вы ждете, когда он с "
+"вами свяжется, вы решаете собрать все полезное с обломков судна."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:492
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/text"
-msgstr ""
+msgstr "Связаться с магазином."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:494
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/text"
 msgstr ""
+"Наконец торговец отвечает: \"Чужак! Для меня большая честь видеть, что вы "
+"хотите посетить мой скромный магазин. Позвольте сделать вам хорошую скидку "
+"за то, что вы оказались добрым существом в море злодеев\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:499
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Связаться с магазином."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:501
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Торговец наконец отвечает: \"Чужак, спасибо, что помог нам. Мы пытались "
+"улучшить оборонительные возможности дрона, но в итоге перегрузили его ионной "
+"энергией, и он вышел из строя. А теперь, не хотите ли поторговаться?\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:506
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "Связаться с магазином."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:508
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
+"Наконец торговец отвечает: \"Вы смеете думать, что я стану торговать с "
+"такими, как вы? Советую вам немедленно уйти\". Похоже, торговец активировал "
+"свою ПКБ; он отказывается от дальнейших вызовов."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:519
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_GENERIC\"]/text"
 msgstr ""
+"Неподалеку торговец из Содружества терпеливо ждет покупателей. Странно, но, "
+"несмотря на то, что торговец не выглядит враждебно, его станция вооружена до "
+"зубов."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:522
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/text"
-msgstr ""
+msgstr "Связаться с магазином."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:524
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/text"
 msgstr ""
+"Торговец с энтузиазмом отвечает: \"Чужак! Ваш маленький визит сделал мой "
+"день намного лучше! Пожалуйста, примите небольшой подарок за счет заведения. "
+"А теперь, к делу?\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:528
 msgid ""
@@ -474,13 +636,15 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Связаться с магазином."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:540
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Купец быстро отвечает: \"Чужак, мы всегда рады вам. Пожалуйста, изучайте "
+"наши товары сколько угодно\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:543
 msgid ""
@@ -498,13 +662,15 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "Связаться с магазином."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:555
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
+"Торговец не отвечает. Вы пытаетесь еще несколько раз, но безуспешно. Как раз "
+"когда вы собираетесь уходить, на станции активируется оружие!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:558
 msgid ""
@@ -515,12 +681,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:564
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_GENERIC\"]/choice[4]/text"
-msgstr ""
+msgstr "Не обращать внимания на торговца."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:566
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_GENERIC\"]/choice[4]/event/text"
 msgstr ""
+"Сейчас вы не заинтересованы в торговле. К счастью для вас, обелиски, похоже, "
+"не замечает вас."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:568
 msgid ""
@@ -536,18 +704,27 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION\"]/text"
 msgstr ""
+"Торговец из Содружества, находящийся неподалеку, похоже, ведет торговлю с "
+"другим судном Содружества. Однако как только их клиент замечает вас, их "
+"оружие быстро активируется. \"Чужак! Ваше появление здесь принесет только "
+"боль и страдания, и я должен быть тем, кто расправится с вами, пока наше "
+"убежище не превратилось в очередную бойню!\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:587
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/text"
-msgstr ""
+msgstr "Подождите! Мы не хотим ничего плохого!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:589
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/text"
 msgstr ""
+"Наступило напряженное молчание, пока остальные обелиски оценивают вас и ваши "
+"намерения. После долгого молчания их оружие отключается. \"Я вижу, вы "
+"убедили себя, что не желаете зла. Я верю вам, хотя мне интересно, как долго "
+"вы будете придерживаться этого мнения. Да пребудет с вами мир\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:591
 msgid ""
@@ -560,18 +737,21 @@ msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/choice/event/text"
 msgstr ""
+"Торговец очень рад, что обошлось без насилия, и приглашает вас торговать."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:600
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Подождите! Мы не хотим ничего плохого!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:602
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"\"Слова ничего не стоят, чужак. Если вы действительно не хотите сражаться, "
+"докажите мне это\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:605
 msgid ""
@@ -583,13 +763,15 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "Подождите! Мы не хотим ничего плохого!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:613
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
+"Обелиски не отвечают. В любом случае, вы усугубили ситуацию - раз торговец "
+"теперь знает, кто вы, он решит помочь обвинителю огнем ПКБ!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:617
 msgid ""
@@ -600,12 +782,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:623
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION\"]/choice[4]/text"
-msgstr ""
+msgstr "Активировать орудия."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:625
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION\"]/choice[4]/event/text"
-msgstr ""
+msgstr "Вы готовитесь к бою."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:629
 msgid ""
@@ -616,18 +798,23 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_SURRENDER\"]/text"
 msgstr ""
+"Корабль Содружества долго не продержится, и это может стать вашим шансом "
+"убедить их в своих мирных намерениях."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:639
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_SURRENDER\"]/choice[@req=\"fr_loc_commonwealth_no_mercy\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Отключить свои орудия."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:641
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_SURRENDER\"]/choice[@req=\"fr_loc_commonwealth_no_mercy\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Представители Содружества выжидают мгновение, внимательно изучая вас, чтобы "
+"убедиться, что их не обманывают. Убедившись в этом, они снова обращаются к "
+"вам. \"Похоже, я ошибался на ваш счет, чужак. Мир тебе\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:645
 msgid ""
@@ -639,38 +826,48 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_SURRENDER\"]/choice[@req=\"fr_loc_commonwealth_no_mercy\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "Отключить свои орудия."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:653
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_SURRENDER\"]/choice[@req=\"fr_loc_commonwealth_no_mercy\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "Содружество игнорирует ваш жест, похоже, их не переубедить и впредь."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:659
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_SURRENDER\"]/choice[3]/text"
-msgstr ""
+msgstr "Продолжать сражаться."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:666
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_KILL\"]/text"
 msgstr ""
+"Вражеский корабль Содружества побежден. Вы не только доказали его правоту, "
+"но и еще больше ухудшили отношение к вам Содружества. С сожалением вы "
+"отправляете их корабль на лом."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:669
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_KILL\"]/choice/text"
-msgstr ""
+msgstr "Связаться с магазином, может быть, вы сможете купить там что-нибудь."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:671
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_KILL\"]/choice/event/text"
 msgstr ""
+"Торговец отвечает с явным гневом в голосе: \"Ты смеешь думать, что я стану "
+"торговать с такими, как ты, после того, чему я только что был свидетелем?! "
+"Нет\" Похоже, торговец активировал свою ПКБ, и он отказывается от всех "
+"вызовов."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:678
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_SPARE\"]/text"
 msgstr ""
+"Торговец с облегчением видит, что ситуация не обернулась бедой, - он "
+"позаботится о том, чтобы другие узнали о вашей попытке улучшить свою "
+"репутацию здесь."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:680
 msgid ""
@@ -681,18 +878,25 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_AUTO\"]/text"
 msgstr ""
+"На расположенном неподалеку автоматическом корабле Содружества можно найти "
+"различные виды орудий и дронов, а все желающие могут получить бесплатный "
+"ремонт и топливо."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:693
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_AUTO\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/text"
-msgstr ""
+msgstr "Связаться с автоматическим кораблем."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:695
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_AUTO\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/text"
 msgstr ""
+"Автоматический корабль сканирует ваш в течение нескольких минут, несомненно, "
+"изучая свою обширную базу данных, чтобы определить, каким образом с вами "
+"поступить. \"ОБНАРУЖЕНО СУДНО: ЧУЖАК. УРОВЕНЬ УГРОЗЫ: НЕТ. ИНИЦИИРУЮ "
+"ПРОТОКОЛ: ДРУГ\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:703
 msgid ""
@@ -710,13 +914,17 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_AUTO\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Связаться с автоматическим кораблем."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:715
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_AUTO\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Автоматический корабль сканирует ваш в течение нескольких минут, несомненно, "
+"изучая свою обширную базу данных, чтобы определить, каким образом с вами "
+"поступить. \"ОБНАРУЖЕНО СУДНО: ЧУЖАК. УРОВЕНЬ УГРОЗЫ: НЕОПРЕДЕЛЕННЫЙ. "
+"ИНИЦИИРУЮ ПРОТОКОЛ: ЧУЖАК\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:722
 msgid ""
@@ -734,13 +942,17 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_AUTO\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "Связаться с автоматическим кораблем."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:734
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_AUTO\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
+"Автоматический корабль сканирует ваш в течение нескольких минут, несомненно, "
+"изучая свою обширную базу данных, чтобы определить, каким образом с вами "
+"поступить. \"ОБНАРУЖЕНО СУДНО: УНИЧТОЖИТЕЛЬ. УРОВЕНЬ УГРОЗЫ: "
+"ЭКЗИСТЕНЦИАЛЬНЫЙ. ИНИЦИИРУЮ ПРОТОКОЛ: АННИГИЛЯЦИЯ\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:737
 msgid ""
@@ -751,12 +963,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:743
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_AUTO\"]/choice[4]/text"
-msgstr ""
+msgstr "Не обращать внимания на автоматический корабль."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:745
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_AUTO\"]/choice[4]/event/text"
 msgstr ""
+"Вы не очень-то доверяете автоматическим кораблям, созданным Содружеством. "
+"Насколько вы знаете, их \"ремонт\" может проделать дыру в вашем корабле."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:747
 msgid ""
@@ -772,16 +986,22 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/text"
 msgstr ""
+"Обследуя маяк, вы замечаете, что вас вызывают с планеты представители "
+"Содружества и просят пристыковаться к ближайшему ангару, чтобы получить "
+"\"подарок\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:778
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/text"
-msgstr ""
+msgstr "Пристыковаться."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:780
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/text"
 msgstr ""
+"Щит вокруг ангара автоматически отключается, когда вы приближаетесь, и снова "
+"активируется, когда вы оказываетесь внутри. Помещение автоматически "
+"разгерметизируется, когда ваш корабль остановится, и наполнится кислородом."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:782
 msgid ""
@@ -792,30 +1012,46 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/text"
 msgstr ""
+"В помещение входит более крупный, чем обычно представитель Содружества, "
+"сопровождаемый двумя протокогнитивами. Очевидно, что этот представитель "
+"Содружества имеет большое влияние. \"Здравствуйте, Чужак. Мы изучили ваше "
+"путешествие и хотели бы помочь вам в предстоящей схватке за выход из нашего "
+"убежища. Для этого мы создали специальный прототип оружия, которое может "
+"менять свои свойства в соответствии с основными ценностями пользователя. Не "
+"желаете опробовать его?\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:786
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/text"
-msgstr ""
+msgstr "Конечно."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:788
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/text"
 msgstr ""
+"Один из когниторов выходит из помещения и возвращается с обычным лучом "
+"уничтожителя Содружества. Однако, едва прикоснувшись к нему, вы чувствуете, "
+"как его внутренние свойства резко меняются, становясь более "
+"энергоэффективными и нанося больше урона!\n"
+"\n"
+"\t\t\t\t\t\t\tПредставитель Содружества выглядит очень впечатленным, набирая "
+"на своем датападе: \"Великолепно! Такая мощь! Такая эффективность! Мы "
+"искренне благодарим вас, чужак. Теперь вы свободны\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:794
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/choice/text"
-msgstr ""
+msgstr "Поблагодарить его и уйти."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:796
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/choice/event/text"
 msgstr ""
+"Представитель Содружества машет вам на прощание и помогает покинуть ангар."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:798
 msgid ""
@@ -833,25 +1069,35 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Конечно."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:812
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Один из когниторов выходит из помещения и возвращается с обычным лучом "
+"уничтожителя Содружества. Однако, едва прикоснувшись к нему, вы чувствуете, "
+"как его внутренние свойства резко меняются, приобретая огромную пробивную "
+"способность!\n"
+"\n"
+"\t\t\t\t\t\t\tПредставитель Содружества выглядит впечатленным, набирая на "
+"своем датападе: \"Это потрясающе, он обрел способность проходить сквозь "
+"большинство защитных барьеров! Примите нашу искреннюю благодарность, чужак. "
+"Теперь вы свободны\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:818
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice/text"
-msgstr ""
+msgstr "Поблагодарить его и уйти."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:820
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice/event/text"
 msgstr ""
+"Представитель Содружества машет вам на прощание и помогает покинуть ангар."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:822
 msgid ""
@@ -869,25 +1115,37 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "Конечно."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:836
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
+"Один из когниторов выходит из помещения и возвращается с обычным лучом "
+"уничтожителя Содружества. Однако, едва прикоснувшись к нему, вы чувствуете, "
+"как его внутренние свойства резко меняются: улучшается пробивная способность "
+"и значительно ускоряется перезарядка!\n"
+"\n"
+"\t\t\t\t\t\t\tПредставитель Содружества выглядит обеспокоенным и "
+"встревоженным, тщательно набирая текст на своем датападе, не сводя с вас "
+"глаз: \"Этого... не должно было случиться. Мы не устанавливали никаких "
+"функций, которые могли бы уменьшить его время перезарядки... Пожалуйста, "
+"уходите. Немедленно\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:842
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/choice/text"
-msgstr ""
+msgstr "Сделать, как он сказал, и уйти."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:844
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/choice/event/text"
 msgstr ""
+"Представители Содружества быстро блокирует ангар, а затем и планету, как "
+"только вы покидаете ее."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:846
 msgid ""
@@ -904,12 +1162,14 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_commonwealth.xml:858
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[4]/text"
-msgstr ""
+msgstr "Нет, спасибо."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:860
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[1]/event/choice/event/choice[4]/event/text"
 msgstr ""
+"Представитель Содружества выглядит разочарованным, но позволяет вам и вашему "
+"кораблю уйти без каких-либо проблем."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:862
 msgid ""
@@ -924,12 +1184,14 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_commonwealth.xml:876
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на вызов."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:878
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GUN\"]/choice[2]/event/text"
 msgstr ""
+"Кто знает, что это может быть за \"подарок\". Вы решаете не рисковать и не "
+"выяснять это."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:880
 msgid ""
@@ -945,28 +1207,36 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/text"
 msgstr ""
+"Вы замечаете, что в космосе дрейфует корабль когнитивов. Он выглядит "
+"довольно поврежденным и, возможно, даже не функционирует."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:894
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/text"
-msgstr ""
+msgstr "Подняться на его борт."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:896
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/text"
 msgstr ""
+"Как и ожидалось, когнитив почти не функционирует. Возможно, его удастся "
+"починить, но на это уйдет немало времени."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:898
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"medbay\""
 " and @lvl=\"2\"]/text"
-msgstr ""
+msgstr "(Улучш. Медотсек) Использовать свой Медотсек, чтобы починить их."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:900
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"medbay\""
 " and @lvl=\"2\"]/event/text"
 msgstr ""
+"Это занимает некоторое время, но в конце концов протокогнитив "
+"восстанавливается. Удивительно, но он кажется более умелым, чем все "
+"остальные протокогнитивы, которых вы видели до сих пор! Он благодарит вас и "
+"предлагает присоединиться к вашей команде."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:904
 msgid ""
@@ -984,11 +1254,16 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"drones\"]/text"
 msgstr ""
+"(Блок контроля дронов) Использовать блок контроля дронов, чтобы починить его."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:916
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"drones\"]/event/text"
 msgstr ""
+"Это занимает некоторое время, но в конце концов протокогнитив "
+"восстанавливается. Удивительно, но он кажется более умелым, чем все "
+"остальные протокогнитивы, которых вы видели до сих пор! Он благодарит вас и "
+"предлагает присоединиться к вашей команде."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:920
 msgid ""
@@ -1003,12 +1278,16 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_commonwealth.xml:930
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_CREW\"]/text"
-msgstr ""
+msgstr "(Ремонтный дрон) Использовать свой Ремонтный дрон, чтобы починить его."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:932
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_REPAIR_CREW\"]/event/text"
 msgstr ""
+"Это занимает некоторое время, но в конце концов протокогнитив "
+"восстанавливается. Удивительно, но он кажется более умелым, чем все "
+"остальные протокогнитивы, которых вы видели до сих пор! Он благодарит вас и "
+"предлагает присоединиться к вашей команде."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:936
 msgid ""
@@ -1024,11 +1303,16 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"FR_LIST_CREW_REPAIRMAN\"]/text"
 msgstr ""
+"(Ремонтный экипаж) Использовать свой ремонтный экипаж, чтобы починить его."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:948
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"FR_LIST_CREW_REPAIRMAN\"]/event/text"
 msgstr ""
+"Это занимает некоторое время, но в конце концов протокогнитив "
+"восстанавливается. Удивительно, но он кажется более умелым, чем все "
+"остальные протокогнитивы, которых вы видели до сих пор! Он благодарит вас и "
+"предлагает присоединиться к вашей команде."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:952
 msgid ""
@@ -1043,12 +1327,16 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_commonwealth.xml:962
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"FR_REQUIREMENT_MANDER_AND_DRONE_CONTROL\"]/text"
-msgstr ""
+msgstr "(Дрон-наладчик) Использовать свой Дрон-наладчик, чтобы починить его."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:964
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"FR_REQUIREMENT_MANDER_AND_DRONE_CONTROL\"]/event/text"
 msgstr ""
+"С помощью Дрона-наладчика вам удается починить протокогнитива гораздо "
+"быстрее, чем ожидалось. Удивительно, но он кажется более умелым, чем все "
+"остальные протокогнитивы, которых вы видели до сих пор! Он благодарит вас и "
+"предлагает присоединиться к вашей команде."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:967
 msgid ""
@@ -1065,12 +1353,17 @@ msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"medbay\""
 " and @lvl=\"3\"]/text"
 msgstr ""
+"(Улучш. Медотсек) Использовать свой улучшенный Медотсек для его ремонта."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:979
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"medbay\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
+"С помощью улучшенного Медотсека вы можете починить протокогнитива гораздо "
+"быстрее, чем ожидалось. Удивительно, но он кажется более умелым, чем все "
+"остальные протокогнитивы, которых вы видели до сих пор! Он благодарит вас и "
+"предлагает присоединиться к вашей команде."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:982
 msgid ""
@@ -1087,12 +1380,16 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_commonwealth.xml:992
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"LIST_CREW_MEDICAL\"]/text"
-msgstr ""
+msgstr "(Медицинский экипаж) Пусть ваш медицинский экипаж отремонтирует его."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:994
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"LIST_CREW_MEDICAL\"]/event/text"
 msgstr ""
+"Проходит немало времени, но в конце концов протокогнитив был отремонтирован. "
+"Удивительно, но он кажется более умелым, чем все остальные протокогнитивы, "
+"которых вы видели до сих пор! Он благодарит вас и предлагает присоединиться "
+"к вашей команде."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:998
 msgid ""
@@ -1108,11 +1405,16 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_MEDICAL\"]/text"
 msgstr ""
+"(Медицинский дрон) Использовать свой медицинский дрон, чтобы починить его."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1010
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"DRONE_CONTROL_MEDICAL\"]/event/text"
 msgstr ""
+"Проходит немало времени, но в конце концов протокогнитив был отремонтирован. "
+"Удивительно, но он кажется более умелым, чем все остальные протокогнитивы, "
+"которых вы видели до сих пор! Он благодарит вас и предлагает присоединиться "
+"к вашей команде."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1014
 msgid ""
@@ -1128,11 +1430,17 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"FR_LIST_MEDICAL_BALLISTIC\"]/text"
 msgstr ""
+"(Медицинское баллистическое оружие) Использовать свое баллистическое "
+"медицинское оружие для его ремонта. [-1}]"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1026
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"FR_LIST_MEDICAL_BALLISTIC\"]/event/text"
 msgstr ""
+"С помощью баллистического медицинского оружия вам удается починить "
+"протокогнитива гораздо быстрее, чем ожидалось. Удивительно, но, похоже, он "
+"более умелый, чем все остальные протокогнитивы, которых вы видели до сих "
+"пор! Он благодарит вас и предлагает присоединиться к вашей команде."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1032
 msgid ""
@@ -1148,11 +1456,17 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"FR_LIST_MEDICAL_NONBALLISTIC\"]/text"
 msgstr ""
+"(Медицинское небаллистическое оружие) Использовать свое медицинское оружие, "
+"чтобы починить его."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1044
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"FR_LIST_MEDICAL_NONBALLISTIC\"]/event/text"
 msgstr ""
+"С помощью своего небаллистического медицинского оружия вы сможете починить "
+"протокогнитива гораздо быстрее, чем ожидалось. Удивительно, но он кажется "
+"более умелыми, чем все остальные протокогнитивы, которых вы видели до сих "
+"пор! Он благодарит вас и предлагает присоединиться к вашей команде."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1047
 msgid ""
@@ -1167,12 +1481,17 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_commonwealth.xml:1057
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"clonebay\"]/text"
-msgstr ""
+msgstr "(Клон-отсек) Зарегистрировать когнитива и клонировать его."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1059
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[@req=\"clonebay\"]/event/text"
 msgstr ""
+"Похоже, вы умпели как раз вовремя, поскольку неисправная электроника "
+"когнитива уже готова была отказать. Клонировав его, вы заметили, что, к "
+"удивлению, он выглядят более умелыми, чем все протокогнитивы, которых вы "
+"видели до сих пор! Он благодарит вас и предлагает присоединиться к вашей "
+"команде."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1062
 msgid ""
@@ -1187,12 +1506,14 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_commonwealth.xml:1072
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[12]/text"
-msgstr ""
+msgstr "Мы ничего не можем сделать."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1074
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[1]/event/choice[12]/event/text"
 msgstr ""
+"Не имея другого выбора, вы можете лишь наблюдать за тем, как когнитив "
+"постепенно затихает навсегда. Вы позволяете ему вернуться в пустоту."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1076
 msgid ""
@@ -1207,12 +1528,14 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_commonwealth.xml:1088
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[2]/text"
-msgstr ""
+msgstr "Оставить корабль дрейфовать."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1090
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_COGNITIVE\"]/choice[2]/event/text"
 msgstr ""
+"Когнитив не подает признаков жизни. Вы сомневаетесь, что смогли бы ему "
+"помочь."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1092
 msgid ""
@@ -1228,6 +1551,10 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_ROYAL\"]/text"
 msgstr ""
+"Взволнованный представитель Содружества связывается с вами. \"Вы, чужак. Мы "
+"знаем, каков ваш план. Вы хотите покинуть сектор, верно? В таком случае я "
+"хочу помочь вам, предоставив в ваше распоряжение один из моих личных дронов\""
+"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1107
 msgid ""
@@ -1240,6 +1567,8 @@ msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_ROYAL\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/text"
 msgstr ""
+"Представитель Содружества передает вам схемы, и, к вашему удивлению, этим "
+"дроном оказывается дворянский!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1114
 msgid ""
@@ -1252,6 +1581,8 @@ msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_ROYAL\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Представитель Содружества передает вам схемы. К вашему удивлению, это не "
+"дрон Содружества, а обычный древний дрон."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1121
 msgid ""
@@ -1264,16 +1595,21 @@ msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_ROYAL\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
+"На некоторое время представитель Содружества затихает. Вы терпеливо ждете "
+"свой дрон, как вдруг срабатывает сигнализация срабатывающая при абордаже! "
+"Похоже, ваш \"дрон\" прибыл."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1128
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_ROYAL\"]/choice[4]/text"
-msgstr ""
+msgstr "Отказаться от их предложения."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1130
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_ROYAL\"]/choice[4]/event/text"
 msgstr ""
+"В Содружестве недоумевают, почему вы отказываетесь от их помощи. Тем не "
+"менее, они понимают и оставляют вас в покое."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1132
 msgid ""
@@ -1289,6 +1625,9 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_AUGMENT\"]/text"
 msgstr ""
+"С вами связывается группа Содружества. \"Чужак, мы тестируем "
+"экспериментальную систему модулей, которая, как мы надеемся, может помочь "
+"нам в будущей борьбе с Уничтожителями. Не желаете ли вы испытать ее?\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1146
 msgid ""
@@ -1301,6 +1640,10 @@ msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_AUGMENT\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/text"
 msgstr ""
+"Представители Содружества работают над вашим кораблем несколько часов, но в "
+"конце концов они заканчивают свою работу. Когда вы спрашиваете, что они "
+"сделали, они просто улыбаются и указывают на ваш внутренний список модулей, "
+"где показано, что был установлен совершенно новый модуль - Предзажигатель!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1153
 msgid ""
@@ -1313,6 +1656,11 @@ msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_AUGMENT\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-1\"]/event/text"
 msgstr ""
+"Представители Содружества работают над вашим кораблем несколько часов, но в "
+"конце концов они заканчивают свою работу. Когда вы спрашиваете, что они "
+"сделали, они просто улыбаются и указывают на ваш внутренний список модулей, "
+"где показано, что был установлен совершенно новый модуль - Древний "
+"репликатор!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1160
 msgid ""
@@ -1325,16 +1673,20 @@ msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_AUGMENT\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
+"Представители Содружества работают над вашим кораблем несколько часов, но в "
+"конце концов они заканчивают свою работу. Когда вы спрашиваете, что они "
+"сделали, они просто улыбаются и указывают на ваш внутренний список модулей, "
+"где показано, что был установлен совершенно новый модуль - Кнопка паники?!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1167
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_AUGMENT\"]/choice[4]/text"
-msgstr ""
+msgstr "Отказаться от их предложения."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1169
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_AUGMENT\"]/choice[4]/event/text"
-msgstr ""
+msgstr "Представители Содружества разочарованы, но они понимают."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1171
 msgid ""
@@ -1350,58 +1702,73 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GENERIC\"]/text"
 msgstr ""
+"Автоматический корабль Содружества связывается с вами: \"ХО-ХО-ХО ЧУЖАК. "
+"ЖЕЛАЕТЕ ЛИ ВЫ: ПОДАРОК К ПРАЗДНИКУ?\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1185
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/text"
-msgstr ""
+msgstr "Мы хотим!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1187
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/text"
 msgstr ""
+"Автоматический корабль играет по средству связи какую-то праздничную песню и "
+"присылает большой ящик с припасами."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1192
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "Мы хотим!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1194
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Автоматический корабль играет по средству связи какую-то праздничную песню и "
+"присылает средний ящик с припасами."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1199
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "Мы хотим!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1201
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
+"Автоматический корабль играет по средству связи какую-то праздничную песню, "
+"но она кажется искаженной и замедленной. Внезапно на борт передают странный "
+"подарок. Вы отправляете экипаж открыть его, но в момент открытия корабль "
+"сотрясает мощный взрыв - это была бомба! К этому времени автоматический "
+"корабль уже улетел, и вы ничего не можете с этим поделать."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1205
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/removeCrew/text"
 msgstr ""
+"Взорванный член экипажа, спотыкаясь, выходит из Клон-отсека: \"Я теперь "
+"никогда не буду воспринимать день Ренегата по-старому...\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1210
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GENERIC\"]/choice[4]/text"
-msgstr ""
+msgstr "Нет, спасибо."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1212
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_ITEM_COMMONWEALTH_GENERIC\"]/choice[4]/event/text"
 msgstr ""
+"Тон автоматического корабля кажется заметно менее радостным. Тем не менее он "
+"благодарит вас за потраченное время и уходит в прыжок."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1214
 msgid ""
@@ -1417,26 +1784,43 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/text"
 msgstr ""
+"Как только вы прыгаете к маяку, ваша связь заполняется предупреждающими "
+"сообщениями, приходящими с соседней планеты-тюрьмы: \"ВНИМАНИЕ! ВНИМАНИЕ! "
+"ПЛАНЕТА ЗАБЛОКИРОВАНА! ЗАКЛЮЧЕННЫЙ ПЫТАЕТСЯ СБЕЖАТЬ!\". Сообщение "
+"повторяется бесконечно."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1245
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[1]/text"
-msgstr ""
+msgstr "Приземлиться."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1247
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[1]/event/text"
 msgstr ""
+"Как раз в тот момент, когда вы собираетесь войти в атмосферу планеты, вас "
+"останавливает странный корабль Содружества с розовыми огнями. Обелиск, "
+"облаченный в портьеру, обращается к вам, розовые огни которого выдают его "
+"\"идеальную\" маскировку: \"Смертный... то есть чужак, пожалуйста, помогите "
+"мне, поскольку меня преследуют эти бесполезные существа... то есть "
+"заблуждающиеся души, которые считают меня дворянином особой! Вполне понятная "
+"ошибка, ведь я более совершенен, чем они, но, увы, я всего лишь ничтожный и "
+"никчемный маленький простолюдин... то есть представитель Содружества. "
+"Пожалуйста, убейте этих стражников, преследующих меня!\""
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1249
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[1]/event/choice[1]/text"
-msgstr ""
+msgstr "Этот мистер, очевидно, Уничтожитель, не дайте ему сбежать!"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1251
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
+"\"Представитель Содружества\" рычит и сбрасывает маскировку: \"Ах ты, "
+"маленькая смертная крыса! Я заставлю тебя встать на колени, а затем покончу "
+"с этой проклятой инфекцией раз и навсегда! Во имя вашего величества королевы "
+"У!\" Его оружие приходит в действие, когда корабль устремляется к вам."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1254
 msgid ""
@@ -1446,12 +1830,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:1260
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[1]/event/choice[2]/text"
-msgstr ""
+msgstr "Атаковать сторожевой корабль и помочь беглецу."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1262
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
+"Охранники были застигнуты врасплох, когда вы напали на их корабль. Тем не "
+"менее они не собираются сдаваться."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1265
 msgid ""
@@ -1461,12 +1847,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:1273
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[2]/text"
-msgstr ""
+msgstr "Держаться подальше."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1275
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[2]/event/text"
 msgstr ""
+"Вам лучше не связываться с беглецами из Содружества. На планете должны "
+"справиться с ситуацией без вашей помощи."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1277
 msgid ""
@@ -1482,26 +1870,43 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL_GUARD_KILL\"]/text"
 msgstr ""
+"К вам обращается беглец: \"Вы только посмотрите на это. Похоже, смертные не "
+"так уж бесполезны, как я думал. Поскольку сейчас меня несправедливо "
+"преследуют и подвергают гонениям, я укроюсь на вашем корабле на время. "
+"Пожалуйста, не ставьте меня в неловкое положение, пока я нахожусь на борту\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1296
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL_ESCAPEE_KILL\"]/text"
 msgstr ""
+"К вам обращается охранник: \"Слава звездам, что вы остановил его, чужак! С "
+"этого дня мы навсегда в долгу перед вами! Если этот Уничтожитель сумел бы "
+"покинуть сектор... Что ж, давайте порадуемся, что это ему не удалось. Все "
+"благодаря вам, а значит, вы заслуживаете награды, достойной той опасности, "
+"которую вы предотвратили. Мы не вручаем его кому попало, поскольку знаем, "
+"какой урон может нанести это ужасное оружие, но я считаю, что вы заслужили "
+"право использовать его. Мир тебе, чужак\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1303
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/text"
 msgstr ""
+"Вы обнаружили корабль Содружества, изучающий близлежащее звездное созвездие. "
+"Вы вызываете их: \"Чужак, пожалуйста, не отвлекай нас, мы сейчас заняты "
+"очень важным делом. Мир вам\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1306
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать геодезистов."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1308
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[1]/event/text"
 msgstr ""
+"Геодезисты застигнуты врасплох: один из ваших выстрелов почти поразил их, "
+"прежде чем они успели среагировать. Они активируют свое оружие и "
+"устремляются к вам."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1311
 msgid ""
@@ -1511,12 +1916,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:1317
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[2]/text"
-msgstr ""
+msgstr "Оставить их в покое."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1319
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[2]/event/text"
 msgstr ""
+"Команда ценит ваше внимание и в качестве благодарности решает подарить вам "
+"небольшой ящик с ломом."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1322
 msgid ""
@@ -1532,26 +1939,36 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[@req=\"ADV_SCANNERS\"]/text"
 msgstr ""
+"(Сканеры дальнего действия) Предложить им свои подробные картографические "
+"данные."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1334
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[@req=\"ADV_SCANNERS\"]/event/text"
 msgstr ""
+"Это чрезвычайно интересно Содружеству: \"Чужак, эти данные просто "
+"невероятны! Мы так давно не видели внешних сфер... Пожалуйста, примите нашу "
+"благодарность и вознаграждение\"."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1342
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/text"
 msgstr ""
+"Вы находите неподалеку ремонтирующийся автоматический корабль. Похоже, "
+"астероидное поле было не слишком любезно с маленьким автоматическим кораблем."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1348
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать автоматический корабль."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1350
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[1]/event/text"
 msgstr ""
+"Автоматический корабль не пытается сражаться, вместо этого он сразу же "
+"пытается сбежать. Если ему удастся сбежать, он обязательно расскажет о ваших "
+"действиях другим."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1353
 msgid ""
@@ -1561,12 +1978,15 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_commonwealth.xml:1359
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на автоматический корабль."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1361
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[2]/event/text"
 msgstr ""
+"Вы решаете проигнорировать автоматический корабль. Вместо этого вы собираете "
+"несколько обломков, которые плавают вокруг автоматического корабля. Это не "
+"так много, но каждый кусочек лома вносит свою лепту."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1364
 msgid ""
@@ -1581,7 +2001,7 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_commonwealth.xml:1374
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/text"
-msgstr ""
+msgstr "(Ремонтный дрон) Починить автоматический корабль. [1|]"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1376
 msgid ""
@@ -2531,7 +2951,7 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "Связаться с магазином."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:2180
 msgid ""
