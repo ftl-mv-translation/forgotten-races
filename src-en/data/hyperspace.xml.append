@@ -13472,12 +13472,12 @@ This enemy is protected by horrific eldritch technology, which projects a 12-poi
 			<statBoost name="allDamageTakenMultiplier">
 				<boostType>MULT</boostType>
 				<amount>1.5</amount>
-				<shipTarget>ORIGINAL_OTHER_SHIP</shipTarget>
+				<shipTarget>CURRENT_ROOM</shipTarget>
 				<crewTarget>ENEMIES</crewTarget>
 				<droneTarget>CREW</droneTarget>
 				<priority>0</priority>
 			</statBoost>
-			<shipTarget>ALL</shipTarget>
+			<shipTarget>ORIGINAL_OTHER_SHIP</shipTarget>
 			<crewTarget>ALLIES</crewTarget>
 			<whiteList load="FR_LIST_CREW_SNOWMAN"/>
 		</statBoost>
@@ -13485,12 +13485,12 @@ This enemy is protected by horrific eldritch technology, which projects a 12-poi
 			<statBoost name="moveSpeedMultiplier">
 				<boostType>MULT</boostType>
 				<amount>0.75</amount>
-				<shipTarget>ORIGINAL_OTHER_SHIP</shipTarget>
+				<shipTarget>CURRENT_ROOM</shipTarget>
 				<crewTarget>ENEMIES</crewTarget>
 				<droneTarget>CREW</droneTarget>
 				<priority>0</priority>
 			</statBoost>
-			<shipTarget>ALL</shipTarget>
+			<shipTarget>ORIGINAL_OTHER_SHIP</shipTarget>
 			<crewTarget>ALLIES</crewTarget>
 			<whiteList load="FR_LIST_CREW_SNOWMAN"/>
 		</statBoost>
