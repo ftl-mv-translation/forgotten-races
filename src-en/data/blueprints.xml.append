@@ -9221,11 +9221,11 @@
 	<flavorType>Commonwealth Artillery</flavorType>
 	<title>Commonwealth Harbinger Artillery</title>
 	<short>⛼ Harbinger Art.</short>
-	<desc>[Base cooldown: 45] Powers a devastating laser that fires 3 sets of 2 lasers. Each laser deals 2 ion and 1 damage with 20% fire chance and 40% breach chance.</desc>
-	<tooltip>Fires 3 shots containing 2 projectiles that each deal 2 ion and 1 damage.</tooltip>
+	<desc>[Base cooldown: 45] Powers a devastating laser that fires 6 lasers in a burst. Each laser deals 2 ion and 1 damage with 20% fire chance and 40% breach chance.</desc>
+	<tooltip>Fires a burst of 6 projectiles that each deal 2 ion and 1 damage.</tooltip>
 	<damage>1</damage>
 	<ion>2</ion>
-	<shots>3</shots>
+	<shots>1</shots>
 	<sp>0</sp>
 	<fireChance>2</fireChance>
 	<breachChance>4</breachChance>
@@ -9237,7 +9237,7 @@
 	<rarity>0</rarity>
 	<spin>0</spin>
 	<projectiles>
-		<projectile count="2" fake="false">fr_laser_commonwealth</projectile>
+		<projectile count="6" fake="false">fr_laser_commonwealth</projectile>
 	</projectiles>
 	<launchSounds>
 		<sound>ancient_laser</sound>
