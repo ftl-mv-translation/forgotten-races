@@ -92,13 +92,15 @@
         "//metadata/description",
         "//mod:findLike/mod-append:drone/tooltipName",
         "//mod-append:shipIcon/tooltip",
-        "//customStore/category/customTitle",
+        "//customTitle",
+		
         "//spawnCrew/name",
         "//mod-append:customShip/crew/*/@name",
         "//customShip/crew/*/@name",
         "//win/@text",
         "//lose/@text",
         "//crewMember",
+		"//mod-overwrite:crew/name",
         "//mod:findLike[@type='victories']//name",
         "//mod:findLike[@type='victories']//description",
         "//mod:findLike[@type='victories']//secretName",
@@ -136,9 +138,9 @@
             //assets2
             "https://github.com/ftl-mv-translation/forgotten-races/raw/forgotten-races-english/Forgotten_Races_16.2_-_Assets.part2.zip",
             //data
-            "https://github.com/ftl-mv-translation/forgotten-races/raw/forgotten-races-english/Forgotten_Races_16.2.10_-_Data.zip",
+            "https://github.com/ftl-mv-translation/forgotten-races/raw/forgotten-races-english/Forgotten_Races_16.2.11_-_Data.zip",
         ],
         "prefix": "Forgotten-Races",
-        "version": "16.2.10"
+        "version": "16.2.11"
     }
 }
