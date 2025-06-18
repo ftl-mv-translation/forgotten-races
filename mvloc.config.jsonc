@@ -100,7 +100,7 @@
         "//win/@text",
         "//lose/@text",
         "//crewMember",
-		"//mod:findName/mod-overwrite:crew/@name",
+		"//mod:findName/mod-overwrite:crew/*/@name",
         "//mod:findLike[@type='victories']//name",
         "//mod:findLike[@type='victories']//description",
         "//mod:findLike[@type='victories']//secretName",
