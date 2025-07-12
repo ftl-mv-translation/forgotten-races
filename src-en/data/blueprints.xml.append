@@ -20663,7 +20663,7 @@ Luckily, a few Royals survived the fight and "willingly" offered to join the cau
 	<crewCount amount="1" class="fr_experimental_cognitive_automated" />
 	<crewCount amount="2" class="phantom_alpha" />
 	<aug name="FR_WITHER_SHIELD" />
-	<aug name="EX_LAB_GHOST_RESIST" />
+	<aug name="EX_LAB_PHANTOM_SABOTAGE" />
 	<shieldImage>mup_wide3</shieldImage>
 	<mv-mapImage>map_icon_mup_guard_a</mv-mapImage>
 </shipBlueprint>
@@ -24883,8 +24883,8 @@ Luckily, a few Royals survived the fight and "willingly" offered to join the cau
 	<unlock>Get to Sector 5 with the Type A to unlock this ship.</unlock>
 	<desc>This enigmatic cruiser was once under the employ of the C.E.L. before the Observers stole it in order to flee from a tight spot. They now blaze their own path for once, finally having a hand in the Multiverse they were previously just forced to watch.</desc>
 	<systemList>
-		<artillery max="2" power="1" room="19" start="true" weapon="FR_ARTILLERY_JUDGES" img="none" />
-		<artillery max="2" power="1" room="21" start="true" weapon="FR_ARTILLERY_JUDGES" img="none" />
+		<artillery max="2" power="1" room="19" start="true" weapon="FR_ARTILLERY_JUDGES" img="room_artillery" />
+		<artillery max="2" power="1" room="21" start="true" weapon="FR_ARTILLERY_JUDGES" img="room_artillery_6" />
 		<battery power="1" room="1" start="false" img="room_battery_fr_17" />
 		<cloaking power="1" room="14" start="false" img="room_cloaking" />
 		<clonebay power="1" room="8" start="false">
