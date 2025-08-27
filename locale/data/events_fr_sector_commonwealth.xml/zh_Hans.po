@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-27 03:56+0000\n"
+"PO-Revision-Date: 2025-08-27 09:50+0000\n"
 "Last-Translator: sixpoint <1557179480@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_fr_sector_commonwealthxml/zh_Hans/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "色调的传送门状结构。它似乎勉强够你的船通过。\n"
 "\n"
 "安威斯惊讶地看着传送门，“这种能量......从那以后我再也没有过这样的感觉......船"
-"长，我们必须调查一下！典范炸弹的事可以等待，这要重要得多。"
+"长，我们必须调查一下！典范炸弹的事可以等待，这要重要得多。”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:89
 msgid ""
@@ -572,7 +572,6 @@ msgid ""
 msgstr "跳过。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:553
-#, fuzzy
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_STORE_FRIENDLY_COMMONWEALTH_GENERIC\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/text"
@@ -1598,16 +1597,24 @@ msgstr "停靠."
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[1]/event/text"
 msgstr ""
+"就在你即将进入这颗星球的大气层时，你被一艘带有粉红色灯光的奇怪联邦方碑飞船拦"
+"住了。一个披着帷幔的方碑族向你呼叫，但粉红色的灯光暴露了他们“完美”的伪装，“凡"
+"人——我的意思是，'外来者'，请帮助我，因为我被这群无用的生物追赶——我的意思是，"
+"那些误入歧途的灵魂，他们认为我是皇家方碑族！这是一个理所当然的误解，因为我比"
+"他们更完美，但可惜的是，我只是一个卑微无价值的联邦垃圾——我是说联邦方碑族。请"
+"杀掉这些追我的守卫！”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1249
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[1]/event/choice[1]/text"
-msgstr ""
+msgstr "这家伙一看就是灭绝者的一员，别让他们跑了！"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1251
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
+"“联邦方碑族”咆哮着卸下了伪装，“你这凡人老鼠！我会让你跪下，然后一劳永逸地结束"
+"这该死的污染！为了Y女王陛下！”当飞船向你冲锋时，他们的武器也启动了。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1254
 msgid ""
@@ -1617,12 +1624,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1260
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[1]/event/choice[2]/text"
-msgstr ""
+msgstr "攻击守卫，帮助脱逃者"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1262
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[1]/event/choice[2]/event/text"
-msgstr ""
+msgstr "守卫对你攻击他们的行为感到惊讶，但他们不会退缩。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1265
 msgid ""
@@ -1632,12 +1639,13 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1273
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[2]/text"
-msgstr ""
+msgstr "远离。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1275
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你宁愿不与联邦方碑逃犯有所牵连。这颗星球应该能够在没有你帮助的情况下处理这种"
+"情况。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1277
 msgid ""
@@ -1653,26 +1661,35 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL_GUARD_KILL\"]/text"
 msgstr ""
+"脱逃者向你呼叫，“哎哟你看看。我想凡人并没有我想象的那么没用。既然我现在受到了"
+"不公平的迫害，我暂时就到你的船上避难吧。当我在船上时，请不要让我难堪。”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1296
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL_ESCAPEE_KILL\"]/text"
 msgstr ""
+"守卫向你招呼，“感谢众星，你阻止了他们，外来者！从今天起，我们永远欠你一份情！"
+"如果那个灭绝者设法离开了这个区域......好吧，我们该为他们失败而感到高兴。这一"
+"切都归功于你，这意味着你应该得到与你阻止的危险相称的奖励。我们本来会避免这些"
+"武器外流，因为我们知道这些可怕的武器可能造成的伤害，但我相信你已经赢得了使用"
+"它们的权利。愿你平安，外来者。”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1303
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/text"
-msgstr ""
+msgstr "你发现一艘联邦方碑飞船正在研究附近的星座。你向他们呼叫，“外来者，请不要分散我"
+"们的注意力，我们目前正在执行一项非常重要的任务。愿你平安。”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1306
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击研究者。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1308
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[1]/event/text"
-msgstr ""
+msgstr "研究员们大吃一惊，你差点在他们反应过来之前击中他们一发。他们打开武器，向你袭"
+"来。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1311
 msgid ""
@@ -1682,12 +1699,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1317
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[2]/text"
-msgstr ""
+msgstr "还是别打扰他们了。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1319
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[2]/event/text"
-msgstr ""
+msgstr "这支团队感谢你为他们考虑，并决定给你一小箱废料作为谢礼。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1322
 msgid ""
@@ -1702,27 +1719,30 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1332
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[@req=\"ADV_SCANNERS\"]/text"
-msgstr ""
+msgstr "（长距扫描仪）向他们提供详细的地图数据。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1334
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[@req=\"ADV_SCANNERS\"]/event/text"
-msgstr ""
+msgstr "联邦方碑们的兴趣达到了顶峰，“外来者，这份数据太不可思议了！我们已经很久没有看"
+"到外面的世界了......请接受我们的感激和补偿。”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1342
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/text"
-msgstr ""
+msgstr "你发现附近有一辆联邦方碑自动舰正在自行维修。看来小行星带对小型自动舰并不算友"
+"好。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1348
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击自动舰。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1350
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[1]/event/text"
-msgstr ""
+msgstr "自动舰没有试图还击;相反，它打算立即跃迁。如果它设法逃脱，它肯定会告诉别人你的"
+"行为。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1353
 msgid ""
@@ -1732,12 +1752,13 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1359
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[2]/text"
-msgstr ""
+msgstr "无视自动舰。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1361
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你决定忽略自动舰，转而去收集一些已经从自动舰身上脱落的破损部分。虽然不多，但"
+"每一点都有帮助。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1364
 msgid ""
@@ -1752,97 +1773,111 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1374
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/text"
-msgstr ""
+msgstr "（维修无人机）修理自动舰。 [1|]"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1376
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/text"
-msgstr ""
+msgstr "你的维修无人机快速修补了自动舰。修好后，它分发了补给品并修补了你的船体。“外来"
+"者。感激：永恒。请带走：修复+奖励+名誉”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1386
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
-msgstr ""
+msgstr "（工程师船员）修复自动舰。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1388
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr ""
+"你的工程师试图解释他们只习惯于在叛军的自动飞船上工作，但你还是说服他们尝试一"
+"下。他们设法让无人机工作足够长的时间来修复一些船体，但突如其来的意外导致自动"
+"舰爆炸了！幸运的是，你没有被困在爆炸区，但你仍然怀着沉重的心情，搜刮了自动舰"
+"的遗骸。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1395
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"LIST_CREW_ENGI\"]/text"
-msgstr ""
+msgstr "（半械船员）修复自动舰。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1397
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
 msgstr ""
+"你的半械船员对自动飞船和无人机的修复工作并不陌生，虽然他们从来没修过眼前这种"
+"船。尽管如此，令人惊讶的是，他们还是设法修复了自动舰，修好后，它立刻分发了补"
+"给品并修补了你的船体。“外来者。感激：永恒。请带走：修复+奖励+名誉”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1404
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"fr_commonwealth\"]/text"
-msgstr ""
+msgstr "（联邦方碑船员）修复自动舰。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1406
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"fr_commonwealth\"]/event/text"
 msgstr ""
+"你的联邦方碑船员对自动飞船和无人机的修复工作并不陌生，事实上，修理损坏的守卫"
+"舰对他们来说更像是一种例行公事。不出所料，他们设法修复了自动飞船。修好后，它"
+"立刻分发了补给品并修补了你的船体。“外来者。感激：永恒。请带走：修复+奖励+名誉"
+"”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1415
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_AUTO_ESCAPE\"]/text"
-msgstr ""
+msgstr "自动舰在你能把它停下来之前逃掉了。它一定会向这片星区每一个生物“宣扬”你谋杀未"
+"遂的行为。哎哟......"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1420
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/text"
-msgstr ""
+msgstr "当你探索小行星带时，你注意到一艘联邦方碑飞船离信标有点远。它的护盾已经失效，"
+"而船体不断受到小行星的撞击。按照这个速度，它们撑不了太久。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1425
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"DRONE_CONTROL_DEFENSE\"]/text"
-msgstr ""
+msgstr "（防御无人机）用你的防御无人机保护他们的船。[-1|]"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1429
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"DRONE_CONTROL_OVERCHARGER\"]/text"
-msgstr ""
+msgstr "（过充无人机）用你的护盾过充无人机去保护他们的船。[-1|]"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1433
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"DRONE_CONTROL_REPAIR_CREW\"]/text"
-msgstr ""
+msgstr "（修理无人机）送一架修理无人机去修好他们的护盾。[-1|]"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1437
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"BLUELIST_BOMB_REPAIR\"]/text"
-msgstr ""
+msgstr "（修理炸弹）发射一枚修理炸弹到他们的护盾系统。[-1|]"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1441
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"teleporter\"]/text"
-msgstr ""
+msgstr "（传送器）把他们传送到你的船上。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1445
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"BLUELIST_ARMOR\"]/text"
-msgstr ""
+msgstr "(舰体装甲)用你的船护住他们的船，护送他们出去。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1449
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"COMBAT_REPAIR\"]/text"
-msgstr ""
+msgstr "(纳米修复机) 用纳米机器人维修他们的护盾。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1453
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[8]/text"
-msgstr ""
+msgstr "攻击他们。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1455
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[8]/event/text"
-msgstr ""
+msgstr "虽然被小行星带重创，但敌人还是没有因此退缩。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1458
 msgid ""
@@ -1852,57 +1887,73 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1464
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[9]/text"
-msgstr ""
+msgstr "远离他们，不要被牵连了。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1466
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[9]/event/text"
-msgstr ""
+msgstr "这场小行星风暴太严重了，你无法冒险去拯救一艘陌生人的船。你现在可以跃迁，或者"
+"你可以尝试从遇险的船上收集一些废料。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1468
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[9]/event/choice[1]/text"
-msgstr ""
+msgstr "不要冒险。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1472
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[9]/event/choice[2]/text"
-msgstr ""
+msgstr "试着收集一些废料。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1480
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_SUCCESS\"]/text"
 msgstr ""
+"你的点子非常有效，几分钟之内，联邦方碑船的护盾就完全恢复了正常工作。他们向你"
+"呼叫“非常感谢你的帮助，外来者。我一直相信陌生人的善意，今天你证实了这一点，让"
+"我这机械的心也感到了一丝温暖。拜托，拿走这把武器，这是我最起码能做的。”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1487
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_TELEPORT\"]/event[1]/text"
 msgstr ""
+"你设法及时将联邦方碑们传送到了你的船上，与此同时他们的船已经变成了一堆废料。"
+"看起来联邦方碑们对失去他们的船并不高兴，但他们仍然感谢你救了他们的命，并决定"
+"从现在开始在你的船上服役。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1491
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_TELEPORT\"]/event[2]/text"
 msgstr ""
+"你设法及时将其中一位认知体传送到了你的船上，与此同时他们的船已经变成了一堆废"
+"料。认知体立马开始评估当前形势，并认为为你服务是目前对其自身生存的最优解。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1498
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_GREEDY\"]/event[1]/text"
-msgstr ""
+msgstr "你设法搜刮了一些废料。然而，同时也有一小部分小行星绕过了你的防御，在你的船上"
+"留下了几个大洞。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1507
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_GREEDY\"]/event[2]/text"
-msgstr ""
+msgstr "你设法搜刮了一些废料。然而你花的时间太长，长到你得以目睹联邦方碑飞船因损坏而"
+"爆炸。行吧，这下能搜刮的更多了。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1511
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_GREEDY\"]/event[3]/text"
-msgstr ""
+msgstr "在你刚想试着去搜刮废料的时候，一颗小行星穿透了你的防御并直击了你的护盾。你迅"
+"速撤离并启动了超光速引擎，以防事情变得更糟。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1521
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/text"
 msgstr ""
+"你发现一艘联邦方碑飞船在脉冲星附近等着你。你一发现他们，他们就向你呼叫，“外来"
+"者！我们一直在等待你的到来。我们预见到，你很快就会与守卫着这个地方的唯一出口"
+"的可怕无畏舰战斗。无畏舰不是普通的敌人，因为它的巨炮是高度离子化的。如果你没"
+"有做好充分的准备，那么它会使你的护盾和武器失效，让你毫无防御和攻击能力。”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1525
 msgid ""
@@ -1913,16 +1964,20 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/text"
 msgstr ""
+"“为了确保你为这项任务做好了充分的准备，我们想在你的系统被离子能量超载时测试你"
+"的战斗能力。为此，我们将暂时为您提供一项特殊技术，以消除您在战斗中的抗离子防"
+"御。赢了，你就可以保留这项技术供自己使用。你觉得如何，外来者？”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1529
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/choice[1]/text"
-msgstr ""
+msgstr "没问题，来吧！"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1531
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/choice[1]/event/text"
-msgstr ""
+msgstr "联邦方碑自豪地笑着。他们将增强配件发射到你的货舱中，然后等待你安装它们。你一"
+"准备就绪，他们就会将武器启动并向你进攻。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1536
 msgid ""
@@ -1932,12 +1987,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1542
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/choice[2]/text"
-msgstr ""
+msgstr "拒绝测试。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1544
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/choice[2]/event/text"
-msgstr ""
+msgstr "联邦方碑非常失望，但无论如何他们还是让你走了。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1546
 msgid ""
@@ -1952,17 +2007,21 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1560
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER\"]/text"
-msgstr ""
+msgstr "测试人员向你呼叫，“这是对技巧和经验的极好展示，外来者！测试结束了。关闭你的武"
+"器，这样我们就可以移除增强装置并给你你的奖品！”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1562
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER\"]/choice[1]/text"
-msgstr ""
+msgstr "关掉你的武器。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1564
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER\"]/choice[1]/event/text"
 msgstr ""
+"联邦方碑也同时关掉了武器，然后等待你卸载测试用的增强配件，然后再将其传送回他"
+"们的飞船。不久之后，你的奖励就到了 - "
+"一种基于以太技术的增强配件，可以完全消除敌人的离子抗性！"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1571
 msgid ""
@@ -1972,32 +2031,33 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1577
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER\"]/choice[2]/text"
-msgstr ""
+msgstr "无视他们，继续战斗。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1583
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_KILL\"]/text"
-msgstr ""
+msgstr "带着沉重的心情，你卸下了测试用的增强配件。如果事情不是这样发展的话..."
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1590
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_BAIL\"]/text"
-msgstr ""
+msgstr "“外来者，你想中止测试吗？你可以把增强配件卸下来，不过我们的战斗也到此为止了。"
+"”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1592
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_BAIL\"]/choice[1]/text"
-msgstr ""
+msgstr "不，我们会战斗到底！"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1597
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_BAIL\"]/choice[2]/text"
-msgstr ""
+msgstr "是的，中止测试吧！"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1599
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_BAIL\"]/choice[2]/event/text"
-msgstr ""
+msgstr "联邦方碑非常失望，但无论如何他们还是让你走了。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1604
 msgid ""
@@ -2012,27 +2072,28 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1616
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/text"
-msgstr ""
+msgstr "你发现一架行动不太稳定的联邦方碑自动舰正在脉冲星附近。自动舰向你呼叫，并发送"
+"了一堆根本没有意义的乱码消息。然而，它似乎并没有攻击性。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1620
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[@req=\"ION_ARMOR\"]/text"
-msgstr ""
+msgstr "（部分离子免疫）帮他们的船抵挡下次脉冲星的脉冲。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1624
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[@req=\"fr_full_ion_immunity\"]/text"
-msgstr ""
+msgstr "（完全离子免疫）帮他们的船抵挡下次脉冲星的脉冲。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1628
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[3]/text"
-msgstr ""
+msgstr "攻击自动舰。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1630
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[3]/event/text"
-msgstr ""
+msgstr "自动舰在你的通讯中发出了可怕的尖叫声，然后开始攻击你。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1633
 msgid ""
@@ -2042,12 +2103,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1639
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[4]/text"
-msgstr ""
+msgstr "让他自生自灭吧。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1641
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[4]/event/text"
-msgstr ""
+msgstr "你慢慢远离自动舰，然后准备好跃迁了。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1643
 msgid ""
@@ -2063,36 +2124,52 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO_PARTIAL\"]/text"
 msgstr ""
+"你的计划...至少部分奏效了？那艘船没有被离子冲击完全击中，但其吸收的少量离子也"
+"足以让它的反应堆过载并引发爆炸了。真是遗憾，但至少你还能搜刮他的残骸。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1661
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO_FULL\"]/text"
 msgstr ""
+"你的离子防护轻松的完全吸收了下一次的离子爆发，使得自动舰能趁此机会完全清除系"
+"统中的所有离子干扰。在它重新恢复工作后，它向你呼叫，“外来者。感激：永恒。请带"
+"走：奖励+名誉”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1667
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/text"
 msgstr ""
+"发现一个离恒星这么近的空间站是件很奇怪的事情，但也许采用以太技术的空间站更能"
+"抵抗太阳耀斑？不管怎样，他们向你呼叫了，“外来者，我们不建议你离这颗恒星或任何"
+"恒星这么近。你的船体无法承受这些危险的太阳耀斑。我建议你在你的船体损坏得太严"
+"重之前离开。”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1670
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/text"
-msgstr ""
+msgstr "有什么我们能帮助的吗？"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1672
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/text"
 msgstr ""
+"联邦方碑对你的问题感到惊讶，他们想了想。“我们确实在恒星附近丢失了一个研究探测"
+"器。我们当时正在研究这颗恒星的内部活动，这时一次异常强烈的耀斑将其吹偏了航线"
+"并损坏了它的导航系统。通常情况下，它能够自动修复，但太强的光照也损坏了它的维"
+"护系统，让它无法自动修复它的驾驶系统了。但是，从我们收集到的少量信息来看，它"
+"的紧急维修系统应该仍然在线。如果你可以通过攻击它来触发这些系统，探测器应该能"
+"够修复它的驾驶系统并跃迁到足够安全的地方，以便我们完全修复它。你说呢？”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1674
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[1]/text"
-msgstr ""
+msgstr "接受任务。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1676
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[1]/event/text"
-msgstr ""
+msgstr "空间站向你发送了探测器的坐标，并祝你好运。找到探测器后，你只是启动武器便触发"
+"了它的应急系统。你现在要做的就是等它跳走。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1681
 msgid ""
@@ -2102,12 +2179,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1687
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[2]/text"
-msgstr ""
+msgstr "我们更想攻击你。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1689
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[2]/event/text"
-msgstr ""
+msgstr "这可惊到空间站上的人了，但他们没有退缩，而是启动了他们的武器。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1692
 msgid ""
@@ -2117,12 +2194,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1698
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[3]/text"
-msgstr ""
+msgstr "听起来太冒险了，还是算了。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1700
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[3]/event/text"
-msgstr ""
+msgstr "联邦方碑理解你的担忧并让你走了。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1702
 msgid ""
@@ -2137,12 +2214,12 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1714
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[2]/text"
-msgstr ""
+msgstr "攻击空间站。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1716
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[2]/event/text"
-msgstr ""
+msgstr "这可惊到空间站上的人了，但他们没有退缩，而是启动了他们的武器。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1719
 msgid ""
@@ -2152,12 +2229,13 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1725
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[3]/text"
-msgstr ""
+msgstr "照他们说的做，走吧。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1727
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[3]/event/text"
-msgstr ""
+msgstr "联邦方碑似乎对你的体贴感到高兴，并修理了你的船体，试图弥补太阳耀斑可能对你造"
+"成的任何伤害。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1730
 msgid ""
@@ -2173,36 +2251,41 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION_ESCAPE\"]/text"
 msgstr ""
+"自动舰跃迁成功后，空间站就向你呼叫，“太棒了，外来者！我们追踪了探测器，很快就"
+"可以彻底修好它。这是你的奖励：我们的自动舰使用的基础设施维护网络的轻量级版本"
+"。愿你平安，外来者。”"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1752
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "此处有一座废墟。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1753
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "已探索的信标，没什么值得注意。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1755
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/text"
-msgstr ""
+msgstr "这个信标似乎是一个舰队墓地，许多被摧毁的联邦方碑飞船围绕着附近的恒星运行。探"
+"索废墟应该是可能的，尽管这需要专门的工作人员才能做到这一点。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1759
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"BLUELIST_CREW_NO2\"]/text"
-msgstr ""
+msgstr "（无氧船员）派你的无氧船员抵达第一个检查点。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1763
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"LIST_CREW_ROCK\"]/text"
-msgstr ""
+msgstr "（岩石族船员）派你的岩石族船员去；他们应该差不多能撑到第一个检查点。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1767
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"BLUELIST_PHEROMONES\"]/text"
-msgstr ""
+msgstr "（螳螂信息素）派你的船员去，但让他们先吸入信息素——以他们的速度应该可以冲到第"
+"一个检查点。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1771
 msgid ""
@@ -2212,27 +2295,29 @@ msgstr ""
 #: src-en/data/events_fr_sector_commonwealth.xml:1775
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"O2_MASKS\"]/text"
-msgstr ""
+msgstr "（应急呼吸器）用呼吸器来抵达第一个检查点。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1779
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"LIST_CREW_ORCHID\"]/text"
-msgstr ""
+msgstr "（兰花船员）既然没检查到破舱处，那么兰花应该可以提供足量的氧气来抵达第一个检"
+"查点。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1783
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"CREW_OXYGEN\"]/text"
-msgstr ""
+msgstr "（先进维生系统）既然没检查到破舱处，那么你的氧气系统应该可以提供足量的氧气来"
+"抵达第一个检查点。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1787
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[8]/text"
-msgstr ""
+msgstr "无视废墟，继续上路吧。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1789
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[8]/event/text"
-msgstr ""
+msgstr "再大的回报也不值得冒这个险，我们最好还是走吧。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1791
 msgid ""
@@ -2247,57 +2332,58 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1803
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/text"
-msgstr ""
+msgstr "你抵达了似乎是飞船监控室的地方。如果你能激活它，也许你就能找到飞船里所有有价"
+"值的目标。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1805
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"LIST_CREW_POWER\"]/text"
-msgstr ""
+msgstr "（供能船员）让你的供能船员来快速启动系统。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1809
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"FR_REQUIREMENT_POWER_DRONES_AND_DRONE_CONTROL\"]/text"
-msgstr ""
+msgstr "（供能无人机）用你的供能无人机来快速启动系统。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1813
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"FR_REQUIREMENT_POWER_WEAPONS_AND_WEAPON_SYSTEM\"]/text"
-msgstr ""
+msgstr "（供能武器）用你的供能武器来快速启动系统。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1817
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"zoltan_osmian\"]/text"
-msgstr ""
+msgstr "（原能族船员）生成一个全系影响来快速启动系统。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1821
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"LIST_CREW_SLUG\"]/text"
-msgstr ""
+msgstr "（蛞蝓船员）让你的蛞蝓船员来扫描这艘船。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1825
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
-msgstr ""
+msgstr "（心灵感应甲壳族）让你有心灵感应能力的甲壳族船员来扫描这艘船。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1829
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"battery\"]/text"
-msgstr ""
+msgstr "（备用电池）用你的备用电池系统来快速启动系统。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1833
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
-msgstr ""
+msgstr "（应急发电器）用你的应急发电器来快速启动系统。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1837
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[9]/text"
-msgstr ""
+msgstr "我们没法启动它，折返吧。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1839
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[9]/event/text"
-msgstr ""
+msgstr "尽管两手空空，但你的船员还是安全回到了船上。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1841
 msgid ""
@@ -2313,56 +2399,59 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/text"
 msgstr ""
+"简短的扫描不足以知道飞船的保险库内有什么，但足以找到正确的路。虽然你的船员不"
+"会再迷路了，但他们对其他情况知道的也不多。当他们沿着设定的路线前进时，他们遇"
+"到了另一个障碍——一扇密封的门。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1856
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"BLUELIST_CREW_STRONG\"]/text"
-msgstr ""
+msgstr "（强壮船员）让你强壮的船员开一个洞出来。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1860
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"CREW_FIREARMS\"]/text"
-msgstr ""
+msgstr "（强化军械）用你的高级枪支在上面打一个洞。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1864
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/text"
-msgstr ""
+msgstr "（穿透船员）让你有穿透能力的船员穿到另一边然后从里面开门。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1868
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"teleporter\"]/text"
-msgstr ""
+msgstr "（传送器）把你的船员传到另一边。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1872
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"LOCKED_GLOBAL_TELEPORT\"]/text"
-msgstr ""
+msgstr "（中央传送器）把你的船员传到另一边。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1876
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"DRONE_CONTROL_BOARDING_DAMAGE\"]/text"
-msgstr ""
+msgstr "（登舰无人机）让你的登舰无人机射一个洞。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1880
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"FR_REQUIREMENT_DOOR_CUTTER_DRONES_AND_DRONE_CONTROL\"]/text"
-msgstr ""
+msgstr "（破门无人机）让你的无人机切一个洞。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1884
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"FR_DOOR_BREAKER_CREW\"]/text"
-msgstr ""
+msgstr "（破门船员）让你的船员砸一个洞。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1888
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[9]/text"
-msgstr ""
+msgstr "我们没法继续前进了，折返吧。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1890
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[9]/event/text"
-msgstr ""
+msgstr "尽管两手空空，但你的船员还是安全回到了船上。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1892
 msgid ""
@@ -2377,37 +2466,40 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_commonwealth.xml:1903
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/text"
-msgstr ""
+msgstr "你的船员突破到了保险库前的最后一个房间。不幸的是，这里受到原子无人机的严密保"
+"护。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1905
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[@req=\"FR_LIST_CREW_COMBAT\"]/text"
-msgstr ""
+msgstr "（战斗船员）让你的战斗船员带头冲锋。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1909
+#, fuzzy
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[@req=\"DRONE_CONTROL_BOARDING_DAMAGE\"]/text"
-msgstr ""
+msgstr "（登舰无人机）让你的登舰无人机和原子无人机作战。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1913
+#, fuzzy
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[@req=\"CREW_FIREARMS\"]/text"
-msgstr ""
+msgstr "（强化军械）给你的船员装上高级武器来对付那些原子无人机。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1917
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[@req=\"BLUELIST_BOMBS_CREWDAMAGE\"]/text"
-msgstr ""
+msgstr "（船员伤害炸弹）炸死那群无人机。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1921
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[5]/text"
-msgstr ""
+msgstr "我们没法继续前进了，折返吧。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1923
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[5]/event/text"
-msgstr ""
+msgstr "尽管两手空空，但你的船员还是安全回到了船上。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1925
 msgid ""
@@ -2423,6 +2515,9 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_VAULT\"]/text"
 msgstr ""
+"你到达了保险库，却发现了这里存放的似乎是袭击皇家方碑运输舰队得来的战利品，包"
+"括大量财富和资源、一位已经停用的高级认知体和一把皇家枪。你命令你的船员带走他"
+"们能带走的一切。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1948
 msgid ""
@@ -2433,6 +2528,10 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_VAULT\"]/choice/event/text"
 msgstr ""
+"在搬走战利品时，你的一名船员报告了金库里有另一个不起眼的房间。进一步搜索，你"
+"的船员发现了一架皇家无人机，在房间的中央，还放着超级点火器！从其周围的地图和"
+"笔记来看，联邦方碑似乎希望用它来对付皇家方碑，但最终被阻止了。你的船员带着丰"
+"厚的收获凯旋归来。"
 
 #: src-en/data/events_fr_sector_commonwealth.xml:1958
 msgid ""
