@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-30 03:56+0000\n"
+"PO-Revision-Date: 2025-08-31 12:56+0000\n"
 "Last-Translator: sixpoint <1557179480@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -1320,160 +1320,204 @@ msgstr ""
 
 #: src-en/data/blueprints.xml.append:650
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/title"
-msgstr ""
+msgstr "死灵巫皇"
 
 #: src-en/data/blueprints.xml.append:651
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/short"
-msgstr ""
+msgstr "死灵巫皇"
 
 #: src-en/data/blueprints.xml.append:656
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/powerList/power[1]"
 msgstr ""
+"周期性的获得所有伤害抗性，但失去80%的船员伤害。\n"
+"\t\t只会在当前所处舱室内有敌方船员时触发。"
 
 #: src-en/data/blueprints.xml.append:658
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/powerList/power[2]"
-msgstr ""
+msgstr "会因环境伤害回复而不是扣除生命值。"
 
 #: src-en/data/blueprints.xml.append:659
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/powerList/power[3]"
-msgstr ""
+msgstr "所有敌方亡灵在与其身处同一房间时将无法战斗。友方亡灵与其身处同一房间时将以2倍"
+"速度维修。"
 
 #: src-en/data/blueprints.xml.append:660
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/powerList/power[4]"
-msgstr ""
+msgstr "无法破坏。"
 
 #: src-en/data/blueprints.xml.append:665
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/desc"
 msgstr ""
+"作为有史以来最忠诚的主教之一，这位可怖的战士在保护她所看管的卵免受火灾伤害时"
+"牺牲了。考虑到这位螳螂族的名誉，这出奇的合理。\n"
+"\n"
+"继承漂浪群魂灵属性：不会受到窒息伤害，受漂浪群魂灵的实验室升级的影响。\n"
+"\n"
+"继承螳螂主教属性：2.2倍战斗伤害，0.07倍修复速度，受螳螂族的实验室升级影响。"
 
 #: src-en/data/blueprints.xml.append:670
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/title"
-msgstr ""
+msgstr "亡灵主教"
 
 #: src-en/data/blueprints.xml.append:671
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/short"
-msgstr ""
+msgstr "亡灵主教"
 
 #: src-en/data/blueprints.xml.append:676
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/powerList/power[1]"
 msgstr ""
+"周期性进入狂暴模式，对当前舱室内的所有敌方船员以及系统造成伤害。\n"
+"\t\t只会在敌舰内触发。"
 
 #: src-en/data/blueprints.xml.append:678
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/powerList/power[2]"
-msgstr ""
+msgstr "125生命中，受到10倍火焰伤害。无法在没有她的信息素帮助的情况下穿透舱门。"
 
 #: src-en/data/blueprints.xml.append:679
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/powerList/power[3]"
-msgstr ""
+msgstr "与其身处同一舱室的敌方船员将失去他们的窒息抗性，受到双倍窒息伤害，并承受大量"
+"关键属性减益。"
 
 #: src-en/data/blueprints.xml.append:684
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/desc"
 msgstr ""
+"一位从灾难性的基因实验中诞生的甲壳族，该实验为她注入了大量的离子能量。她的存"
+"在，不过是苦难。\n"
+"\n"
+"继承漂浪群魂灵属性：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的"
+"影响。\n"
+"\n"
+"继承甲壳守护者属性：受到0.7倍战斗伤害，受甲壳族的实验室升级的影响。"
 
 #: src-en/data/blueprints.xml.append:689
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/title"
-msgstr ""
+msgstr "亡灵守护者"
 
 #: src-en/data/blueprints.xml.append:690
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/short"
-msgstr ""
+msgstr "亡灵守护者"
 
 #: src-en/data/blueprints.xml.append:695
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/powerList/power[1]"
 msgstr ""
+"周期性地对当前舱室内的系统造成5点离子伤害并完全修复系统。同时也会击晕所有其他"
+"身处此舱室内的人。\n"
+"\t\t只会在有系统的舱室内触发。"
 
 #: src-en/data/blueprints.xml.append:697
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/powerList/power[2]"
-msgstr ""
+msgstr "150生命中，2倍移动速度。无法被眩晕。"
 
 #: src-en/data/blueprints.xml.append:698
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/powerList/power[3]"
-msgstr ""
+msgstr "无法以正常方式修理系统。"
 
 #: src-en/data/blueprints.xml.append:699
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/powerList/power[4]"
-msgstr ""
+msgstr "为当前舱室提供3格能量。"
 
 #: src-en/data/blueprints.xml.append:704
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/desc"
 msgstr ""
+"一位前 MFK "
+"王牌精英，被自己的盟友折磨致死。这让他对所有生物都会感到难以言表的痛苦;他现在"
+"只会完全依赖和信任无人机。\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承MFK王牌精英属性"
+"：造成2倍战斗伤害，起始拥有2级技能，受人类的实验室升级的影响。"
 
 #: src-en/data/blueprints.xml.append:709
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/title"
-msgstr ""
+msgstr "亡灵MFK王牌精英"
 
 #: src-en/data/blueprints.xml.append:710
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/short"
-msgstr ""
+msgstr "亡灵MFK王牌精英"
 
 #: src-en/data/blueprints.xml.append:715
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/powerList/power[1]"
 msgstr ""
+"周期性地修复所有和他身处同一舱室的无人机，每秒恢复10点生命中，持续10秒。\n"
+"\t\t只在房间内有友方无人机的时候触发。"
 
 #: src-en/data/blueprints.xml.append:717
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/powerList/power[2]"
-msgstr ""
+msgstr "150生命值，2倍破坏速度，受到0.5倍战斗伤害。1.5倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:718
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/powerList/power[3]"
-msgstr ""
+msgstr "克隆时不会失去技能。免疫心灵控制。"
 
 #: src-en/data/blueprints.xml.append:719
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/powerList/power[4]"
-msgstr ""
+msgstr "对无人机造成0.25倍战斗伤害并受到2.2倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:724
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/desc"
 msgstr ""
+"一位古老的蛞蝓王，其不会被满足的胃袋最终导致了一起致命的，由令人讨厌的致幻瓜"
+"引起的食物中毒。\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承蛞蝓破坏者属性"
+"：拥有心灵感应能力，免疫心灵控制，受蛞蝓族的实验室升级的影响。"
 
 #: src-en/data/blueprints.xml.append:729
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/title"
-msgstr ""
+msgstr "亡灵破坏者"
 
 #: src-en/data/blueprints.xml.append:730
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/short"
-msgstr ""
+msgstr "亡灵破坏者"
 
 #: src-en/data/blueprints.xml.append:735
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[1]"
 msgstr ""
+"周期性地吃掉同一舱室所有敌方船员身体的一部分，同时治疗自身。\n"
+"\t\t只会在舱室内有敌方船员的情况下触发。"
 
 #: src-en/data/blueprints.xml.append:737
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动能力：吃掉飞船的一部分来完全治疗自己，造成1点伤害，造成破舱并完全破坏系统"
+"。无法在敌舰内使用。"
 
 #: src-en/data/blueprints.xml.append:738
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[3]"
-msgstr ""
+msgstr "150生命值，无法通过普通手段治疗。"
 
 #: src-en/data/blueprints.xml.append:739
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[4]"
-msgstr ""
+msgstr "在敌舰内以0.25倍速度移动。造成0.5倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:744
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/desc"
