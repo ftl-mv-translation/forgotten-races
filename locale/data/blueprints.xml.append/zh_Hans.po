@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-31 12:56+0000\n"
+"PO-Revision-Date: 2025-09-01 15:56+0000\n"
 "Last-Translator: sixpoint <1557179480@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -1312,10 +1312,10 @@ msgstr "每有一个乏件物，他们全体都会减少10%维修速度与战斗
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/desc"
 msgstr ""
 "一位才华横溢的方碑皇族，在试图让已故的朋友复活时失去了理智。\n"
-"\n"
-"继承的漂浪群魂灵的属性：可穿透舱门，受漂浪群魂灵相关的实验室升级影响。\n"
-"\n"
-"继承方碑皇族属性：0.75 倍移动速度，最大生命值增加到 300，2 倍战斗伤害，以 "
+"\t\n"
+"\t继承漂浪群魂灵的属性：可穿透舱门，受漂浪群魂灵相关的实验室升级影响。\n"
+"\t\n"
+"\t继承方碑皇族属性：0.75 倍移动速度，最大生命值增加到 300，2 倍战斗伤害，以 "
 "0.05 倍的速度修理和灭火，受方碑族相关的实验室升级影响。"
 
 #: src-en/data/blueprints.xml.append:650
@@ -1355,10 +1355,10 @@ msgid ""
 msgstr ""
 "作为有史以来最忠诚的主教之一，这位可怖的战士在保护她所看管的卵免受火灾伤害时"
 "牺牲了。考虑到这位螳螂族的名誉，这出奇的合理。\n"
-"\n"
-"继承漂浪群魂灵属性：不会受到窒息伤害，受漂浪群魂灵的实验室升级的影响。\n"
-"\n"
-"继承螳螂主教属性：2.2倍战斗伤害，0.07倍修复速度，受螳螂族的实验室升级影响。"
+"\t\n"
+"\t继承漂浪群魂灵属性：不会受到窒息伤害，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承螳螂主教属性：2.2倍战斗伤害，0.07倍修复速度，受螳螂族的实验室升级影响。"
 
 #: src-en/data/blueprints.xml.append:670
 msgid ""
@@ -1393,11 +1393,11 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/desc
 msgstr ""
 "一位从灾难性的基因实验中诞生的甲壳族，该实验为她注入了大量的离子能量。她的存"
 "在，不过是苦难。\n"
-"\n"
-"继承漂浪群魂灵属性：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的"
-"影响。\n"
-"\n"
-"继承甲壳守护者属性：受到0.7倍战斗伤害，受甲壳族的实验室升级的影响。"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承甲壳守护者属性：受到0.7倍战斗伤害，受甲壳族的实验室升级的影响。"
 
 #: src-en/data/blueprints.xml.append:689
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/title"
@@ -1477,8 +1477,8 @@ msgstr "对无人机造成0.25倍战斗伤害并受到2.2倍战斗伤害。"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/desc"
 msgstr ""
-"一位古老的蛞蝓王，其不会被满足的胃袋最终导致了一起致命的，由令人讨厌的致幻瓜"
-"引起的食物中毒。\n"
+"一位古老的蛞蝓王，其永不满足的胃袋最终导致了一起致命的，由令人讨厌的致幻瓜引"
+"起的食物中毒。\n"
 "\t\n"
 "\t继承漂浪群魂灵属性"
 "：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
@@ -1522,252 +1522,331 @@ msgstr "在敌舰内以0.25倍速度移动。造成0.5倍战斗伤害。"
 #: src-en/data/blueprints.xml.append:744
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/desc"
 msgstr ""
+"一位来自遥远过去的野蛮的岩石圣骑士，讽刺的是，当他的飞船坠入一颗恒星时，他活"
+"生生地融化了。他现在担任 G 的首席执行者。\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承岩石圣骑士属性"
+"：双倍治疗速度，巨幅减少移动速度，免疫眩晕，受岩石族的实验室升级的影响。"
 
 #: src-en/data/blueprints.xml.append:749
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/title"
-msgstr ""
+msgstr "亡灵圣骑士"
 
 #: src-en/data/blueprints.xml.append:750
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/short"
-msgstr ""
+msgstr "亡灵圣骑士"
 
 #: src-en/data/blueprints.xml.append:755
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/powerList/power[1]"
 msgstr ""
+"周期性在当前舱室点火。\n"
+"\t\t只会在敌舰上触发。"
 
 #: src-en/data/blueprints.xml.append:757
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/powerList/power[2]"
-msgstr ""
+msgstr "350生命值，无法破坏。"
 
 #: src-en/data/blueprints.xml.append:758
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/powerList/power[3]"
-msgstr ""
+msgstr "无法灭火，但拥有1.5倍维修速度。"
 
 #: src-en/data/blueprints.xml.append:759
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/powerList/power[4]"
-msgstr ""
+msgstr "和该船员处于同一舱室的敌方船员将失去火焰抗性并承受2倍火焰伤害。"
 
 #: src-en/data/blueprints.xml.append:764
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_zulu\"]/desc"
 msgstr ""
+"死灵巫皇G 的狂信徒与得力助手，从技术上讲，也是与塔尔塔罗斯有关的一切的起因。"
+"\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承熔铁者属性：受食铁族的实验室升级的影响。"
 
 #: src-en/data/blueprints.xml.append:769
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_zulu\"]/title"
-msgstr ""
+msgstr "亡灵熔铁者"
 
 #: src-en/data/blueprints.xml.append:770
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_zulu\"]/short"
-msgstr ""
+msgstr "亡灵熔铁者"
 
 #: src-en/data/blueprints.xml.append:775
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_zulu\"]/powerList/power[1]"
-msgstr ""
+msgstr "周期性的极大降低自身移速并降低自身战斗伤害与破坏伤害，但立刻抽空所有氧气并恢"
+"复周围友方船员的生命值。"
 
 #: src-en/data/blueprints.xml.append:776
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_zulu\"]/powerList/power[2]"
-msgstr ""
+msgstr "150生命值，4倍破坏速度"
 
 #: src-en/data/blueprints.xml.append:777
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_zulu\"]/powerList/power[3]"
-msgstr ""
+msgstr "同一舱室除食铁族以外的敌方金属船员与无人机会减少50%移动速度并无法修理或被治疗"
+"。"
 
 #: src-en/data/blueprints.xml.append:784
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_smoke\"]/desc"
 msgstr ""
+"作为曾经赫赫有名的戍卫者，这位可怜的水晶族亲身体验了他脑海中低语是多么令人抓"
+"狂。\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承水晶戍卫者属性"
+"：最大生命值提升至135，移动速度降为0.65倍，受水晶族的实验室升级的影响。"
 
 #: src-en/data/blueprints.xml.append:789
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_smoke\"]/title"
-msgstr ""
+msgstr "亡灵戍卫者"
 
 #: src-en/data/blueprints.xml.append:790
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_smoke\"]/short"
-msgstr ""
+msgstr "亡灵戍卫者"
 
 #: src-en/data/blueprints.xml.append:795
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_smoke\"]/powerList/power[1]"
 msgstr ""
+"周期性地封锁敌方系统房间，受到 35 点伤害，并将远程伤害提高至 3 倍，持续 8 "
+"秒，但破坏伤害降低 50%，持续 10 秒。\n"
+"\t\t只会在敌方系统舱室内触发。"
 
 #: src-en/data/blueprints.xml.append:797
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_smoke\"]/powerList/power[2]"
-msgstr ""
+msgstr "未受到伤害3秒后，每秒回复自己8点生命值。"
 
 #: src-en/data/blueprints.xml.append:798
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_smoke\"]/powerList/power[3]"
-msgstr ""
+msgstr "1.5倍远程伤害。"
 
 #: src-en/data/blueprints.xml.append:799
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_smoke\"]/powerList/power[4]"
-msgstr ""
+msgstr "与该船员处于同一舱室的敌方船员将失去穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:804
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_chills\"]/desc"
 msgstr ""
+"闻名宇宙的宝藏猎人，她的最后一次发现导致了她的陨落。\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承血兰种植者属性"
+"：同一舱室的敌人恢复速度降低25%，非常缓慢的生成氧气，受兰花族的实验室升级的影"
+"响。"
 
 #: src-en/data/blueprints.xml.append:809
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_chills\"]/title"
-msgstr ""
+msgstr "亡灵种植者"
 
 #: src-en/data/blueprints.xml.append:810
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_chills\"]/short"
-msgstr ""
+msgstr "亡灵种植者"
 
 #: src-en/data/blueprints.xml.append:815
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_chills\"]/powerList/power[1]"
-msgstr ""
+msgstr "周期性地在当前舱室生成暴雪，减慢敌人40%并同时召唤一名雪人攻击敌人。"
 
 #: src-en/data/blueprints.xml.append:816
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_chills\"]/powerList/power[2]"
-msgstr ""
+msgstr "最大生命值提升至125。"
 
 #: src-en/data/blueprints.xml.append:817
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_chills\"]/powerList/power[3]"
-msgstr ""
+msgstr "与雪人在同一舱室里会使敌方船员的生命值降低 50%，并以更快的速度产生氧气。"
 
 #: src-en/data/blueprints.xml.append:822
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_pok\"]/desc"
 msgstr ""
+"混沌能量和纯粹决意的融合，这个小模物族只需看一眼照片就可以完美地复制任何人的"
+"外表。\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承模物族属性：受模物族的实验室升级的影响。"
 
 #: src-en/data/blueprints.xml.append:827
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_pok\"]/title"
-msgstr ""
+msgstr "亡灵模物族"
 
 #: src-en/data/blueprints.xml.append:828
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_pok\"]/short"
-msgstr ""
+msgstr "亡灵模物族"
 
 #: src-en/data/blueprints.xml.append:833
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_pok\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:834
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_pok\"]/powerList/power[2]"
-msgstr ""
+msgstr "你可以将光标悬停在“模仿”能力上来查看下一个被模仿的特员是谁。"
 
 #: src-en/data/blueprints.xml.append:839
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_charror\"]/desc"
 msgstr ""
+"一位半械族，被一种来源不明的病毒腐蚀，并试图与真正的灵魂融合。他们现在在多元"
+"宇宙中徘徊，寻找着自己存在的目的。\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承半械保卫者属性"
+"：0.35倍战斗伤害，2.7倍维修速度，受半械族的实验室升级的影响。"
 
 #: src-en/data/blueprints.xml.append:844
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_charror\"]/title"
-msgstr ""
+msgstr "亡灵保卫者"
 
 #: src-en/data/blueprints.xml.append:845
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_charror\"]/short"
-msgstr ""
+msgstr "亡灵保卫者"
 
 #: src-en/data/blueprints.xml.append:850
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_charror\"]/powerList/power[1]"
 msgstr ""
+"周期性地污染附近的机械船员和无人机，禁用它们的 "
+"AI，使它们无法被控制，并阻止它们战斗、修理或破坏。同时，此船员在持续时间内受"
+"到的伤害减半。\n"
+"\t\t只会在当前舱室内有敌方船员时触发。"
 
 #: src-en/data/blueprints.xml.append:852
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_charror\"]/powerList/power[2]"
-msgstr ""
+msgstr "破坏可操作的系统时的破坏速度变为5倍。破坏其他系统时的破坏速度变为0.2倍。"
 
 #: src-en/data/blueprints.xml.append:853
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_charror\"]/powerList/power[3]"
-msgstr ""
+msgstr "眩晕时长变为3倍。"
 
 #: src-en/data/blueprints.xml.append:858
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_leo\"]/desc"
 msgstr ""
+"吸虫共和国曾培养的最为纪律严明的电流吸虫之一。在被更为强大的力量肆意摆弄后，"
+"他只希望自己能平静的迎接来生。\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承电流吸虫属性：1.75倍眩晕时长，受吸虫族的实验室升级的影响。"
 
 #: src-en/data/blueprints.xml.append:863
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_leo\"]/title"
-msgstr ""
+msgstr "亡灵电流吸虫"
 
 #: src-en/data/blueprints.xml.append:864
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_leo\"]/short"
-msgstr ""
+msgstr "亡灵电流吸虫"
 
 #: src-en/data/blueprints.xml.append:869
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_leo\"]/powerList/power[1]"
 msgstr ""
+"周期性地黑入其所处的敌方系统舱室的舱门，持续 10 秒。在此期间，此船员获得 5 "
+"倍破坏伤害，对同一舱室内的敌人每秒造成1.5点伤害，进入隐形状态，但无法战斗或移"
+"动，并且受到3倍所有伤害。\n"
+"\t\t只会在敌方系统舱室内触发。"
 
 #: src-en/data/blueprints.xml.append:871
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_leo\"]/powerList/power[2]"
-msgstr ""
+msgstr "在非主要系统舱室内吸取此系统的所有能量。在主要系统舱室内吸取2格能量。"
 
 #: src-en/data/blueprints.xml.append:872
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_leo\"]/powerList/power[3]"
-msgstr ""
+msgstr "每秒回复5点生命值。造成0.4倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:877
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_searak\"]/desc"
 msgstr ""
+"最古老的暮临者之一，因破损的克隆仓而陷入了疯狂。如今，他只想找到自己的平静与"
+"救赎。\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承暮临殉义者属性"
+"：死亡时造成15点船员伤害，配备短距传送器，受超能族的实验室升级的影响。"
 
 #: src-en/data/blueprints.xml.append:882
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_searak\"]/title"
-msgstr ""
+msgstr "亡灵殉义者"
 
 #: src-en/data/blueprints.xml.append:883
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_searak\"]/short"
-msgstr ""
+msgstr "亡灵殉义者"
 
 #: src-en/data/blueprints.xml.append:888
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_searak\"]/powerList/power[1]"
-msgstr ""
+msgstr "主动能力：自爆，对自己造成25点伤害，对敌方船员造成150点伤害，引发火灾，对当前"
+"舱室造成2点系统伤害。引发爆炸后，此船员15秒内无法行动。"
 
 #: src-en/data/blueprints.xml.append:889
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_searak\"]/powerList/power[2]"
-msgstr ""
+msgstr "为非主要系统完全充能。为主要系统提供2格能量。"
 
 #: src-en/data/blueprints.xml.append:890
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_searak\"]/powerList/power[3]"
-msgstr ""
+msgstr "承受0.65倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:891
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_searak\"]/powerList/power[4]"
-msgstr ""
+msgstr "无法被克隆。100倍治疗速度。"
 
 #: src-en/data/blueprints.xml.append:896
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/desc"
-msgstr ""
+msgstr "无人知晓其真身或是目的。只在疯癫的变元者们的呓语中出现，仅是一瞥他们的战舰便"
+"足以成为你投降的理由。"
 
 #: src-en/data/blueprints.xml.append:897
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/title"
-msgstr ""
+msgstr "被遗忘的异鸣族"
 
 #: src-en/data/blueprints.xml.append:898
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/short"
@@ -1776,365 +1855,364 @@ msgstr "？？？"
 #: src-en/data/blueprints.xml.append:903
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/powerList/power[1]"
-msgstr ""
+msgstr "300生命值，免疫环境伤害。"
 
 #: src-en/data/blueprints.xml.append:904
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/powerList/power[2]"
-msgstr ""
+msgstr "对当前舱室的敌人每秒造成10点伤害，但无法直接攻击或破坏。"
 
 #: src-en/data/blueprints.xml.append:905
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/powerList/power[3]"
-msgstr ""
+msgstr "直接攻击此船员的船员将失去他们的能力并无法造成战斗或破坏伤害。"
 
 #: src-en/data/blueprints.xml.append:906
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/powerList/power[4]"
-msgstr ""
+msgstr "与船员战斗时每秒损失3.5生命值。与此船员身处同一舱室的其他船员死亡时无法被克隆"
+"。"
 
 #: src-en/data/blueprints.xml.append:907
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/powerList/power[5]"
-msgstr ""
+msgstr "以传送方式移动，但无法直接传送至敌舰。"
 
 #: src-en/data/blueprints.xml.append:908
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/powerList/power[6]"
-msgstr ""
+msgstr "此船员与其友军免疫眩晕与心灵控制。"
 
 #: src-en/data/blueprints.xml.append:920
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿塔利。"
 
 #: src-en/data/blueprints.xml.append:922
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/title"
-msgstr ""
+msgstr "上将珀克"
 
 #: src-en/data/blueprints.xml.append:923
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:926
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:927
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动技能：呼叫远程炸弹打击，轰炸敌舰。"
 
 #: src-en/data/blueprints.xml.append:928
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[3]"
-msgstr ""
+msgstr "200点最大生命值，1.5倍维修速度与战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:929
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[4]"
-msgstr ""
+msgstr "同舱室内的友方船员将统一以1.25倍速度移动。"
 
 #: src-en/data/blueprints.xml.append:930
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[5]"
-msgstr "所有技能接受过2级培训，受到0.5倍环境伤害"
+msgstr "所有技能接受过2级培训，受到0.5倍环境伤害。"
 
 #: src-en/data/blueprints.xml.append:935
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿海因斯。"
 
 #: src-en/data/blueprints.xml.append:937
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/title"
-msgstr ""
+msgstr "侦探珀克"
 
 #: src-en/data/blueprints.xml.append:938
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:941
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:942
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/powerList/power[2]"
-msgstr "技能提升速度提高100%"
+msgstr "技能提升速度提高100%。"
 
 #: src-en/data/blueprints.xml.append:943
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/powerList/power[3]"
-msgstr "2.5倍远程伤害"
+msgstr "2.5倍远程伤害。"
 
 #: src-en/data/blueprints.xml.append:944
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/powerList/power[4]"
-msgstr "患有昆虫恐惧症，使他无法与昆虫类物种进行近战战斗"
+msgstr "患有昆虫恐惧症，使他无法与昆虫类物种进行近战战斗。"
 
 #: src-en/data/blueprints.xml.append:949
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿杰瑞。"
 
 #: src-en/data/blueprints.xml.append:951
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/title"
-msgstr ""
+msgstr "人类珀克"
 
 #: src-en/data/blueprints.xml.append:952
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:955
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:956
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/powerList/power[2]"
-msgstr ""
+msgstr "0.5倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:957
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/powerList/power[3]"
-msgstr "你新交的最好的朋友"
+msgstr "你新交的最好的朋友。"
 
 #: src-en/data/blueprints.xml.append:962
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ellie\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿1级的埃莉。"
 
 #: src-en/data/blueprints.xml.append:964
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ellie\"]/title"
-msgstr ""
+msgstr "吉祥物珀克"
 
 #: src-en/data/blueprints.xml.append:965
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ellie\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:968
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ellie\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:969
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ellie\"]/powerList/power[2]"
-msgstr "1.5倍移动与近战攻击速度，1.5倍战斗伤害"
+msgstr "1.5倍移动与近战攻击速度，1.5倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:974
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿斯蒂芬。"
 
 #: src-en/data/blueprints.xml.append:976
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/title"
-msgstr ""
+msgstr "前明星珀克"
 
 #: src-en/data/blueprints.xml.append:977
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:980
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:981
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/powerList/power[2]"
-msgstr "己方星舰内的友方船员获得100%战斗伤害与生命恢复速度增益"
+msgstr "己方星舰内的友方船员获得100%战斗伤害与生命恢复速度增益。"
 
 #: src-en/data/blueprints.xml.append:982
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/powerList/power[3]"
-msgstr ""
+msgstr "受到的环境伤害大幅减少。"
 
 #: src-en/data/blueprints.xml.append:983
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/powerList/power[4]"
-msgstr "免疫心灵控制与眩晕"
+msgstr "免疫心灵控制与眩晕。"
 
 #: src-en/data/blueprints.xml.append:984
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/powerList/power[5]"
-msgstr "无法战斗，3倍移动速度"
+msgstr "无法战斗，3倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:989
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿图尔齐尔。"
 
 #: src-en/data/blueprints.xml.append:992
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/title"
-msgstr ""
+msgstr "保卫者珀克"
 
 #: src-en/data/blueprints.xml.append:993
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:996
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:997
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动技能：暂时保护舱室内包括自己的所有友方船员，其受到的所有来源的伤害降低至0"
+".1倍，同时他们的维修速度提高至4倍。"
 
 #: src-en/data/blueprints.xml.append:998
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/powerList/power[3]"
-msgstr ""
+msgstr "115点最大生命值，0.8倍战斗伤害，1.4倍移动速度，免疫心灵控制。"
 
 #: src-en/data/blueprints.xml.append:999
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/powerList/power[4]"
-msgstr ""
+msgstr "0.4倍维修速度，为舱室内的其他船员提供50%维修速度加成。"
 
 #: src-en/data/blueprints.xml.append:1000
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/powerList/power[5]"
-msgstr ""
+msgstr "技能提升的速度提高20%，受到环境伤害减少。"
 
 #: src-en/data/blueprints.xml.append:1005
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿阿努拉克。"
 
 #: src-en/data/blueprints.xml.append:1006
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/title"
-msgstr ""
+msgstr "潜行僧珀克"
 
 #: src-en/data/blueprints.xml.append:1007
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1012
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1013
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动技能：自爆前启动倒计时，结束后立即死亡但完全治疗所有友方船员，并使他们临"
+"时获得50%的维修速度，移动速度与生命值增益。"
 
 #: src-en/data/blueprints.xml.append:1014
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/powerList/power[3]"
-msgstr ""
+msgstr "可以在空信标祷告，使舰上的所有超能族船员永久获得5点最大生命值。"
 
 #: src-en/data/blueprints.xml.append:1015
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/powerList/power[4]"
-msgstr "无法战斗，破坏系统或舱门"
+msgstr "无法战斗，破坏系统或舱门。"
 
 #: src-en/data/blueprints.xml.append:1016
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/powerList/power[5]"
-msgstr "死亡时不造成伤害"
+msgstr "死亡时不造成伤害。"
 
 #: src-en/data/blueprints.xml.append:1021
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_devorak\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿德沃拉克。"
 
 #: src-en/data/blueprints.xml.append:1022
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_devorak\"]/title"
-msgstr ""
+msgstr "战争英雄珀克"
 
 #: src-en/data/blueprints.xml.append:1023
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_devorak\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1028
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_devorak\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1029
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_devorak\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动技能：释放强大的爆炸。舱室内的所有其他超能族也会爆炸。"
 
 #: src-en/data/blueprints.xml.append:1030
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_devorak\"]/powerList/power[3]"
-msgstr "2倍近战伤害"
+msgstr "2倍近战伤害。"
 
 #: src-en/data/blueprints.xml.append:1031
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_devorak\"]/powerList/power[4]"
-msgstr "以传送方式移动，可跨舰传送，但传送有延迟"
+msgstr "以传送方式移动，可跨舰传送，但传送有延迟。"
 
 #: src-en/data/blueprints.xml.append:1036
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿卡兹。"
 
 #: src-en/data/blueprints.xml.append:1037
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/title"
-msgstr ""
+msgstr "传奇大盗珀克"
 
 #: src-en/data/blueprints.xml.append:1038
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1042
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1043
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/powerList/power[2]"
-msgstr "主动技能：短期内战斗伤害巨幅增加"
+msgstr "主动技能：短期内战斗伤害巨幅增加。"
 
 #: src-en/data/blueprints.xml.append:1044
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/powerList/power[3]"
-msgstr ""
+msgstr "2.5倍战斗伤害，所在舱室内每有一个友方船员即减少15%战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:1049
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿弗雷迪。"
 
 #: src-en/data/blueprints.xml.append:1050
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/title"
-msgstr ""
+msgstr "自由螳螂长者珀克"
 
 #: src-en/data/blueprints.xml.append:1051
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1055
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1056
 msgid ""
@@ -2142,198 +2220,201 @@ msgid ""
 msgstr "主动技能：给予同舱室所有螳螂族船员信息素技能效果。普通母巢螳螂将获得自由螳螂合成信息素效果。不与其本身的主动技能信息素效果叠加。"
 
 #: src-en/data/blueprints.xml.append:1057
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[3]"
-msgstr "2倍战斗伤害，1倍维修速度"
+msgstr "2倍战斗伤害，1倍维修速度。"
 
 #: src-en/data/blueprints.xml.append:1058
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[4]"
-msgstr ""
+msgstr "受到0.7倍战斗伤害，1.65倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:1059
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[5]"
-msgstr "技能提升速度很快"
+msgstr "技能提升速度很快。"
 
 #: src-en/data/blueprints.xml.append:1064
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_symbiote\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿共生体。"
 
 #: src-en/data/blueprints.xml.append:1065
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_symbiote\"]/title"
-msgstr ""
+msgstr "共生体珀克"
 
 #: src-en/data/blueprints.xml.append:1066
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_symbiote\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1071
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_symbiote\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1072
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_symbiote\"]/powerList/power[2]"
-msgstr ""
+msgstr "拥有岩石族的生命值和移动能力，与超能族的能量和爆炸力。"
 
 #: src-en/data/blueprints.xml.append:1073
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_symbiote\"]/powerList/power[3]"
-msgstr "0.15倍眩晕时长"
+msgstr "0.15倍眩晕时长。"
 
 #: src-en/data/blueprints.xml.append:1078
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿图科。"
 
 #: src-en/data/blueprints.xml.append:1079
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/title"
-msgstr ""
+msgstr "恐怖海盗珀克"
 
 #: src-en/data/blueprints.xml.append:1080
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1085
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1086
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/powerList/power[2]"
-msgstr ""
+msgstr "造成更多的战斗伤害，所在舱室内每有一个敌方船员即减少部分移动速度。"
 
 #: src-en/data/blueprints.xml.append:1087
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/powerList/power[3]"
-msgstr ""
+msgstr "战斗外以正常速度移动。"
 
 #: src-en/data/blueprints.xml.append:1088
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/powerList/power[4]"
-msgstr ""
+msgstr "船上所有友方流放者获得20%的战斗伤害和维修速度增益。"
 
 #: src-en/data/blueprints.xml.append:1093
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ariadne\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿阿里阿德涅。"
 
 #: src-en/data/blueprints.xml.append:1094
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ariadne\"]/title"
-msgstr ""
+msgstr "烈阳上将珀克"
 
 #: src-en/data/blueprints.xml.append:1095
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ariadne\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1100
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ariadne\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1101
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ariadne\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动技能：可快速连续部署燃烧炸弹，每次跃迁后最多使用3次."
 
 #: src-en/data/blueprints.xml.append:1102
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ariadne\"]/powerList/power[3]"
-msgstr ""
+msgstr "同一舱室内敌方船员受到的灼烧伤害增加至1.3倍。所在舰船上的敌方船员不再免疫灼烧"
+"伤害。"
 
 #: src-en/data/blueprints.xml.append:1107
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿沃蒂根。"
 
 #: src-en/data/blueprints.xml.append:1108
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/title"
-msgstr ""
+msgstr "大祭司珀克"
 
 #: src-en/data/blueprints.xml.append:1109
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1114
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1115
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动能力：每秒恢复65点生命值并造成三倍伤害，持续20秒，但移动速度大幅降低并受"
+"到7倍所有伤害。"
 
 #: src-en/data/blueprints.xml.append:1116
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/powerList/power[3]"
-msgstr "在火焰中缓慢恢复生命值"
+msgstr "在火焰中缓慢恢复生命值。"
 
 #: src-en/data/blueprints.xml.append:1117
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/powerList/power[4]"
-msgstr "可将岩石族船员转化为不熄余烬教徒"
+msgstr "可将岩石族船员转化为不熄余烬教徒。"
 
 #: src-en/data/blueprints.xml.append:1122
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkali\"]/title"
-msgstr ""
+msgstr "教授珀克"
 
 #: src-en/data/blueprints.xml.append:1123
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkali\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1124
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkali\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿阿尔科莱。"
 
 #: src-en/data/blueprints.xml.append:1129
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkali\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1130
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkali\"]/powerList/power[2]"
-msgstr ""
+msgstr "剧烈爆燃并在舰内散播纳米医疗机器人，能使友方船员免疫窒息伤害并每秒回复5点生命"
+"值，即使不在同一舱室也能生效"
 
 #: src-en/data/blueprints.xml.append:1131
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkali\"]/powerList/power[3]"
-msgstr "可免费安装或升级物种实验室"
+msgstr "可免费安装或升级物种实验室。"
 
 #: src-en/data/blueprints.xml.append:1136
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿茹文。"
 
 #: src-en/data/blueprints.xml.append:1137
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/title"
-msgstr ""
+msgstr "帝国大使珀克"
 
 #: src-en/data/blueprints.xml.append:1138
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1143
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1144
 msgid ""
@@ -2341,155 +2422,150 @@ msgid ""
 msgstr "主动技能：封锁舱室，获得战斗伤害抗性与生命恢复。舱室内的友方/敌方船员获得/失去穿透封锁与舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1145
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/powerList/power[3]"
-msgstr "150点最大生命值"
+msgstr "150点最大生命值。"
 
 #: src-en/data/blueprints.xml.append:1146
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/powerList/power[4]"
-msgstr ""
+msgstr "0.7倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:1147
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/powerList/power[5]"
-msgstr "受到0.3倍窒息伤害"
+msgstr "大量降低窒息伤害。"
 
 #: src-en/data/blueprints.xml.append:1152
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿黛安娜什。"
 
 #: src-en/data/blueprints.xml.append:1153
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/title"
-msgstr ""
+msgstr "水晶女皇珀克"
 
 #: src-en/data/blueprints.xml.append:1154
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1159
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1160
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动技能：封锁舱室。在封锁期间，舱室内的所有友方船员的技能冷却时间都会减少80%"
+"。"
 
 #: src-en/data/blueprints.xml.append:1161
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/powerList/power[3]"
-msgstr "175点最大生命值"
+msgstr "175点最大生命值。"
 
 #: src-en/data/blueprints.xml.append:1162
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/powerList/power[4]"
-msgstr "友方水晶族船员每次跃迁可额外获得一次技能充能"
+msgstr "友方水晶族船员每次跃迁可额外获得一次技能充能。"
 
 #: src-en/data/blueprints.xml.append:1167
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿七夜。"
 
 #: src-en/data/blueprints.xml.append:1168
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/title"
-msgstr ""
+msgstr "蛞蝓王珀克"
 
 #: src-en/data/blueprints.xml.append:1169
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1174
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1175
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动技能：隐形并部署破舱炸弹。"
 
 #: src-en/data/blueprints.xml.append:1176
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/powerList/power[3]"
-msgstr "3倍破坏伤害"
+msgstr "3倍破坏伤害。"
 
 #: src-en/data/blueprints.xml.append:1177
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/powerList/power[4]"
-msgstr "无视舱门"
+msgstr "无视舱门。"
 
 #: src-en/data/blueprints.xml.append:1182
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿斯洛克诺格。"
 
 #: src-en/data/blueprints.xml.append:1183
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/title"
-msgstr ""
+msgstr "蛞蝓王珀克"
 
 #: src-en/data/blueprints.xml.append:1184
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1189
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1190
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/powerList/power[2]"
-msgstr "主动技能：长时间击晕舱室内的敌方船员，但在此期间失去心灵感应能力"
+msgstr "主动技能：长时间击晕舱室内的敌方船员，但在此期间失去心灵感应能力。"
 
 #: src-en/data/blueprints.xml.append:1191
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/powerList/power[3]"
-msgstr "3倍生命恢复速度"
+msgstr "3倍生命恢复速度。"
 
 #: src-en/data/blueprints.xml.append:1192
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/powerList/power[4]"
-msgstr "以2点生命/秒的速度被动治疗舱室内的友方船员"
+msgstr "以2点生命/秒的速度被动治疗舱室内的友方船员。"
 
 #: src-en/data/blueprints.xml.append:1193
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/powerList/power[5]"
-msgstr "免疫眩晕"
+msgstr "免疫眩晕。"
 
 #: src-en/data/blueprints.xml.append:1198
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_irwin\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿厄文。"
 
 #: src-en/data/blueprints.xml.append:1199
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_irwin\"]/title"
-msgstr ""
+msgstr "变元者珀克"
 
 #: src-en/data/blueprints.xml.append:1200
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_irwin\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1205
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_irwin\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1206
 msgid ""
@@ -2497,149 +2573,153 @@ msgid ""
 msgstr "主动技能：暂时镇定舱室内除自己之外的所有船员，将他们属性变回默认值。不影响主动技能，死亡效果与特殊能力。"
 
 #: src-en/data/blueprints.xml.append:1207
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_irwin\"]/powerList/power[3]"
-msgstr "猎枪可造成1.5倍战斗伤害，但无法破坏系统"
+msgstr "猎枪可造成1.5倍战斗伤害，但无法破坏系统。"
 
 #: src-en/data/blueprints.xml.append:1212
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿比利。"
 
 #: src-en/data/blueprints.xml.append:1213
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/title"
-msgstr ""
+msgstr "CEO珀克"
 
 #: src-en/data/blueprints.xml.append:1214
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1219
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1220
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/powerList/power[2]"
-msgstr "主动技能：不会像他的员工那样自动进入盒子，但可在低于50点生命值的任何时候手动进入他的盒子"
+msgstr "主动技能：不会像他的员工那样自动进入盒子，但可在低于50点生命值的任何时候手动"
+"进入他的盒子。"
 
 #: src-en/data/blueprints.xml.append:1221
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/powerList/power[3]"
-msgstr "因被动效果被治疗时，只有0.5倍生命恢复速度，但处于盒装状态时以10点生命/秒的速度恢复生命。恢复至50点生命值之前无法离开盒子。"
+msgstr "因被动效果被治疗时，只有0.5倍生命恢复速度，但处于盒装状态时以10点生命/秒的速"
+"度恢复生命。恢复至50点生命值之前无法离开盒子。"
 
 #: src-en/data/blueprints.xml.append:1226
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy_box\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿盒子里的比利。"
 
 #: src-en/data/blueprints.xml.append:1227
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy_box\"]/title"
-msgstr ""
+msgstr "CEO珀克"
 
 #: src-en/data/blueprints.xml.append:1228
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy_box\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1233
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy_box\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1234
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy_box\"]/powerList/power[2]"
-msgstr "主动技能：不会像他的员工那样自动进入盒子，但可在低于50点生命值的任何时候手动进入他的盒子"
+msgstr "主动技能：不会像他的员工那样自动进入盒子，但可在低于50点生命值的任何时候手动"
+"进入他的盒子。"
 
 #: src-en/data/blueprints.xml.append:1235
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy_box\"]/powerList/power[3]"
-msgstr "因被动效果被治疗时，只有0.5倍生命恢复速度，但处于盒装状态时以10点生命/秒的速度恢复生命。恢复至50点生命值之前无法离开盒子。"
+msgstr "因被动效果被治疗时，只有0.5倍生命恢复速度，但处于盒装状态时以10点生命/秒的速"
+"度恢复生命。恢复至50点生命值之前无法离开盒子。"
 
 #: src-en/data/blueprints.xml.append:1240
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tyrdeo\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿泰迪奥。"
 
 #: src-en/data/blueprints.xml.append:1241
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tyrdeo\"]/title"
-msgstr ""
+msgstr "总统珀克"
 
 #: src-en/data/blueprints.xml.append:1242
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tyrdeo\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1247
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tyrdeo\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1248
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tyrdeo\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动技能：完全禁用当前系统15秒，但技能持续时间内自身弱化且无法移动。"
 
 #: src-en/data/blueprints.xml.append:1249
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tyrdeo\"]/powerList/power[3]"
-msgstr "2.5倍眩晕时长"
+msgstr "2.5倍眩晕时长。"
 
 #: src-en/data/blueprints.xml.append:1254
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkram\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿阿尔克拉姆。"
 
 #: src-en/data/blueprints.xml.append:1255
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkram\"]/title"
-msgstr ""
+msgstr "革命者珀克"
 
 #: src-en/data/blueprints.xml.append:1256
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkram\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1261
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkram\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1262
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkram\"]/powerList/power[2]"
-msgstr ""
+msgstr "同舱室的其他吸虫族船员能量锁定量提高至2倍。保护舱室内其他友方船员，替他们承受"
+"眩晕效果。"
 
 #: src-en/data/blueprints.xml.append:1263
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkram\"]/powerList/power[3]"
-msgstr ""
+msgstr "受到0.7倍战斗伤害，0.7倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:1268
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tonysr\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿托尼·西尼尔"
 
 #: src-en/data/blueprints.xml.append:1269
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tonysr\"]/title"
-msgstr ""
+msgstr "CEO珀克"
 
 #: src-en/data/blueprints.xml.append:1270
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tonysr\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1275
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tonysr\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1276
 msgid ""
@@ -2647,10 +2727,10 @@ msgid ""
 msgstr "可怕的恶臭使毫无准备的敌方船员的防御能力降低25%"
 
 #: src-en/data/blueprints.xml.append:1277
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tonysr\"]/powerList/power[3]"
-msgstr "饥饿迫使他以无人机，机械和能量类船员为食，迅速消耗他们的生命值，还会锁定敌方系统2格能量"
+msgstr "饥饿迫使他以无人机，机械和能量类船员为食，迅速消耗他们的生命值，还会锁定敌方"
+"系统2格能量。"
 
 #: src-en/data/blueprints.xml.append:1278
 msgid ""
@@ -2660,172 +2740,170 @@ msgstr "是一条懒虫，只有0.25倍移动速度。巨大的体型使其拥�
 #: src-en/data/blueprints.xml.append:1283
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿德修斯。"
 
 #: src-en/data/blueprints.xml.append:1286
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/title"
-msgstr ""
+msgstr "大夺命灵珀克"
 
 #: src-en/data/blueprints.xml.append:1287
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1290
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1291
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/powerList/power[2]"
-msgstr ""
+msgstr "受到0.75倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:1292
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/powerList/power[3]"
-msgstr "3倍破坏伤害"
+msgstr "3倍破坏速度。"
 
 #: src-en/data/blueprints.xml.append:1293
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/powerList/power[4]"
-msgstr ""
+msgstr "攻击会从舱室内的所有敌方那里汲取生命值，治疗舱室内的所有友方。"
 
 #: src-en/data/blueprints.xml.append:1298
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿信标吞噬者。"
 
 #: src-en/data/blueprints.xml.append:1299
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/title"
-msgstr ""
+msgstr "食铁族群王珀克"
 
 #: src-en/data/blueprints.xml.append:1300
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1305
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1306
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/powerList/power[2]"
-msgstr "200点最大生命值"
+msgstr "200点最大生命值。"
 
 #: src-en/data/blueprints.xml.append:1307
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/powerList/power[3]"
-msgstr "2.5倍破坏伤害"
+msgstr "2.5倍破坏速度。"
 
 #: src-en/data/blueprints.xml.append:1308
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/powerList/power[4]"
-msgstr "瞬间消耗所在舱室的氧气"
+msgstr "瞬间消耗所在舱室的氧气。"
 
 #: src-en/data/blueprints.xml.append:1313
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anointed\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿强选者。"
 
 #: src-en/data/blueprints.xml.append:1314
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anointed\"]/title"
-msgstr ""
+msgstr "神选女王珀克"
 
 #: src-en/data/blueprints.xml.append:1315
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anointed\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1320
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anointed\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1321
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anointed\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动技能：消化部分舰体，造成舰体伤害，自身暂时获得力量强化并停止流失生命。使"
+"用后恢复全部生命。"
 
 #: src-en/data/blueprints.xml.append:1322
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anointed\"]/powerList/power[3]"
-msgstr "200点最大生命值，生命值不满时迅速流失生命"
+msgstr "200点最大生命值，生命值不满时迅速流失生命。"
 
 #: src-en/data/blueprints.xml.append:1323
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anointed\"]/powerList/power[4]"
-msgstr ""
+msgstr "为所在系统提供2格能量，1.5倍破坏速度。"
 
 #: src-en/data/blueprints.xml.append:1328
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿冈特普特。"
 
 #: src-en/data/blueprints.xml.append:1329
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/title"
-msgstr ""
+msgstr "萨满珀克"
 
 #: src-en/data/blueprints.xml.append:1330
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1334
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1335
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/powerList/power[2]"
-msgstr ""
+msgstr "周期技能：立即治疗同一舱室的友方船员25点生命。"
 
 #: src-en/data/blueprints.xml.append:1336
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/powerList/power[3]"
-msgstr "同舱室友方船员获得100%生命恢复速度增益"
+msgstr "同舱室友方船员获得100%生命恢复速度增益。"
 
 #: src-en/data/blueprints.xml.append:1337
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/powerList/power[4]"
-msgstr "不受伤害7秒后以4点生命/秒的速度恢复生命"
+msgstr "不受伤害7秒后以4点生命/秒的速度恢复生命。"
 
 #: src-en/data/blueprints.xml.append:1338
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/powerList/power[5]"
-msgstr "0.5倍维修速度"
+msgstr "0.5倍维修速度。"
 
 #: src-en/data/blueprints.xml.append:1343
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿梅特恩特。"
 
 #: src-en/data/blueprints.xml.append:1344
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/title"
-msgstr ""
+msgstr "经理珀克"
 
 #: src-en/data/blueprints.xml.append:1345
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1349
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1350
 msgid ""
@@ -2833,347 +2911,369 @@ msgid ""
 msgstr "主动技能：暂时获得2倍维修速度与破坏伤害，但降低最大生命值。同舱室友方亦获得此效果。"
 
 #: src-en/data/blueprints.xml.append:1351
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/powerList/power[3]"
-msgstr "135点最大生命值"
+msgstr "135点最大生命值。"
 
 #: src-en/data/blueprints.xml.append:1352
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/powerList/power[4]"
-msgstr "为同舱室的友方船员提供50%灼烧伤害抗性"
+msgstr "为同舱室的友方船员提供50%灼烧伤害抗性。"
 
 #: src-en/data/blueprints.xml.append:1353
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/powerList/power[5]"
-msgstr ""
+msgstr "1.5倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:1358
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿蜘蛛虫后。"
 
 #: src-en/data/blueprints.xml.append:1359
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/title"
-msgstr ""
+msgstr "蜘蛛虫后珀克"
 
 #: src-en/data/blueprints.xml.append:1360
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1364
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1365
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/powerList/power[2]"
-msgstr ""
+msgstr "主动技能：持续治疗同舱室友方蜘蛛族船员，提高其50%移动速度。"
 
 #: src-en/data/blueprints.xml.append:1366
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/powerList/power[3]"
-msgstr "125点最大生命值，受到1.5倍灼烧伤害，1.25倍生命恢复速度"
+msgstr "125点最大生命值，受到1.5倍灼烧伤害，1.25倍生命恢复速度。"
 
 #: src-en/data/blueprints.xml.append:1367
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/powerList/power[4]"
-msgstr ""
+msgstr "3倍战斗伤害，0.1倍维修速度。"
 
 #: src-en/data/blueprints.xml.append:1368
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/powerList/power[5]"
-msgstr "可在空信标处孵化幼蛛，并使同一艘船上的所有蜘蛛可控"
+msgstr "可在空信标处孵化幼蛛，并使同一艘船上的所有蜘蛛可控。"
 
 #: src-en/data/blueprints.xml.append:1373
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿奥宾。"
 
 #: src-en/data/blueprints.xml.append:1374
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/title"
-msgstr ""
+msgstr "盐人珀克"
 
 #: src-en/data/blueprints.xml.append:1375
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1380
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1381
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/powerList/power[2]"
 msgstr ""
+"主动能力：伤害并减慢附近所有船员。敌方船员每秒损失4点生命值，友方船员每秒损失"
+"2点生命值，所有种类的蛞蝓族每秒额外损失4点生命值。奥宾自身免疫此伤害。"
 
 #: src-en/data/blueprints.xml.append:1382
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/powerList/power[3]"
-msgstr "同舱室的所有其他船员的生命恢复速度降低33%"
+msgstr "同舱室的所有其他船员的生命恢复速度降低33%。"
 
 #: src-en/data/blueprints.xml.append:1383
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/powerList/power[4]"
-msgstr ""
+msgstr "最大生命值提升至250。0.6倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:1384
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/powerList/power[5]"
-msgstr "受到0.7倍窒息伤害"
+msgstr "受到0.7倍窒息伤害。"
 
 #: src-en/data/blueprints.xml.append:1389
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ooj\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿Ooj。"
 
 #: src-en/data/blueprints.xml.append:1391
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ooj\"]/title"
-msgstr ""
+msgstr "模物珀克"
 
 #: src-en/data/blueprints.xml.append:1392
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ooj\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1395
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ooj\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1396
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ooj\"]/powerList/power[2]"
-msgstr ""
+msgstr "受到0.75倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:1401
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_wither\"]/title"
-msgstr ""
+msgstr "认知体工程师珀克"
 
 #: src-en/data/blueprints.xml.append:1402
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_wither\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1403
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_wither\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿维瑟。"
 
 #: src-en/data/blueprints.xml.append:1408
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_wither\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1409
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_wither\"]/powerList/power[2]"
-msgstr "1.25倍战斗伤害，0.5倍维修速度"
+msgstr "1.25倍战斗伤害，0.5倍维修速度。"
 
 #: src-en/data/blueprints.xml.append:1410
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_wither\"]/powerList/power[3]"
-msgstr ""
+msgstr "以传送方式移动，免疫环境伤害。"
 
 #: src-en/data/blueprints.xml.append:1415
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/desc"
-msgstr ""
+msgstr "珀克正在模仿希尔凡。"
 
 #: src-en/data/blueprints.xml.append:1416
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/title"
-msgstr ""
+msgstr "游商珀克"
 
 #: src-en/data/blueprints.xml.append:1417
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/short"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/blueprints.xml.append:1422
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/powerList/power[1]"
-msgstr ""
+msgstr "60 "
+"秒后，将变身为一位特员，拥有他们所有的能力以及环境伤害免疫与穿透舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:1423
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/powerList/power[2]"
-msgstr "主动技能：同时部署破舱、封锁与离子炸弹"
+msgstr "主动技能：同时部署破舱、封锁与离子炸弹。"
 
 #: src-en/data/blueprints.xml.append:1424
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/powerList/power[3]"
-msgstr "250点最大生命值"
+msgstr "250点最大生命值。"
 
 #: src-en/data/blueprints.xml.append:1425
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/powerList/power[4]"
-msgstr ""
+msgstr "受到0.1倍环境伤害。"
 
 #: src-en/data/blueprints.xml.append:1426
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/powerList/power[5]"
-msgstr ""
+msgstr "1.5倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:1437
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/desc"
 msgstr ""
+"现存最有钱的幻灵。被某种超自然的力量祝福使得它们的实力会随着口袋膨胀而膨胀。"
+"\n"
+"\t\n"
+"\t继承幻灵属性：免疫环境伤害，0.8倍移动速度，可穿透舱门"
 
 #: src-en/data/blueprints.xml.append:1440
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/title"
-msgstr ""
+msgstr "暗影巨型幻灵"
 
 #: src-en/data/blueprints.xml.append:1441
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/short"
-msgstr ""
+msgstr "暗影巨型幻灵"
 
 #: src-en/data/blueprints.xml.append:1446
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/powerList/power[1]"
-msgstr ""
+msgstr "主动能力：花费10废料来完全治疗自身。此技能会在此船员生命值到达10点时自动触发"
+"。"
 
 #: src-en/data/blueprints.xml.append:1447
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/powerList/power[2]"
-msgstr ""
+msgstr "最大生命值降低至50。"
 
 #: src-en/data/blueprints.xml.append:1448
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/powerList/power[3]"
-msgstr ""
+msgstr "造成0.5倍战斗伤害，0.5倍破坏速度。"
 
 #: src-en/data/blueprints.xml.append:1449
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/powerList/power[4]"
-msgstr ""
+msgstr "货舱内每有10废料，增加0.1倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:1450
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/powerList/power[5]"
-msgstr ""
+msgstr "货舱内每有10废料，增加0.1倍破坏速度。"
 
 #: src-en/data/blueprints.xml.append:1451
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/powerList/power[6]"
-msgstr ""
+msgstr "货舱内每有2废料，增加1点最大生命值。"
 
 #: src-en/data/blueprints.xml.append:1456
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/desc"
 msgstr ""
+"对现存最有钱的幻灵的拙劣模仿。被某种超自然的力量祝福使得它们的实力会随着口袋"
+"膨胀而膨胀。\n"
+"\t\n"
+"\t继承幻灵属性：免疫环境伤害，0.8倍移动速度，可穿透舱门"
 
 #: src-en/data/blueprints.xml.append:1459
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/title"
-msgstr ""
+msgstr "暗影巨型幻灵"
 
 #: src-en/data/blueprints.xml.append:1460
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/short"
-msgstr ""
+msgstr "暗影巨型幻灵"
 
 #: src-en/data/blueprints.xml.append:1465
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/powerList/power[1]"
-msgstr ""
+msgstr "主动能力：杀死所有同一舱室的友方来完全治疗自身。此能力会在此船员生命值到达10"
+"点时自动触发。"
 
 #: src-en/data/blueprints.xml.append:1466
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/powerList/power[2]"
-msgstr ""
+msgstr "最大生命值降低至50。"
 
 #: src-en/data/blueprints.xml.append:1467
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/powerList/power[3]"
-msgstr ""
+msgstr "造成0.5倍战斗伤害，0.5倍破坏速度。"
 
 #: src-en/data/blueprints.xml.append:1468
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/powerList/power[4]"
-msgstr ""
+msgstr "此时每有10废料，增加0.1倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:1469
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/powerList/power[5]"
-msgstr ""
+msgstr "此时每有10废料，增加0.1倍破坏速度。"
 
 #: src-en/data/blueprints.xml.append:1470
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/powerList/power[6]"
-msgstr ""
+msgstr "此时每有2废料，增加1点最大生命值。"
 
 #: src-en/data/blueprints.xml.append:1475
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_hatchling\"]/desc"
 msgstr ""
+"一次绝望实验的结果，令人意想不到的是这种未知生命体和蜘蛛的融合体居然具有自我"
+"意识。\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承幼体蜘蛛属性：50生命值，0.1倍维修速度，受蜘蛛的实验室升级影响。"
 
 #: src-en/data/blueprints.xml.append:1480
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_hatchling\"]/title"
-msgstr ""
+msgstr "暗影幼体蜘蛛"
 
 #: src-en/data/blueprints.xml.append:1481
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_hatchling\"]/short"
-msgstr ""
+msgstr "暗影幼体蜘蛛"
 
 #: src-en/data/blueprints.xml.append:1486
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_hatchling\"]/powerList/power[1]"
-msgstr ""
+msgstr "主动能力（自动触发）：完全治疗此船员并变形至其下一个形态（蜘蛛成体）。"
 
 #: src-en/data/blueprints.xml.append:1487
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_hatchling\"]/powerList/power[2]"
-msgstr ""
+msgstr "2.5倍战斗伤害，0.5倍破坏伤害，3倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:1488
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_hatchling\"]/powerList/power[3]"
-msgstr ""
+msgstr "无法通过普通手段治疗，克隆速度减半。"
 
 #: src-en/data/blueprints.xml.append:1493
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_adult\"]/desc"
 msgstr ""
+"一次绝望实验的结果，令人意想不到的是这种未知生命体和蜘蛛的融合体居然具有自我"
+"意识。\n"
+"\t\n"
+"\t继承漂浪群魂灵属性"
+"：不会受到环境伤害，可穿透舱门，受漂浪群魂灵的实验室升级的影响。\n"
+"\t\n"
+"\t继承蜘蛛成体属性：85生命值，受蜘蛛的实验室升级影响。"
 
 #: src-en/data/blueprints.xml.append:1498
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_adult\"]/title"
-msgstr ""
+msgstr "暗影蜘蛛成体"
 
 #: src-en/data/blueprints.xml.append:1499
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_adult\"]/short"
-msgstr ""
+msgstr "暗影蜘蛛成体"
 
 #: src-en/data/blueprints.xml.append:1504
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_adult\"]/powerList/power[1]"
-msgstr ""
+msgstr "主动能力（自动触发）：完全治疗此船员并变形至其下一个形态（织网异蛛）。"
 
 #: src-en/data/blueprints.xml.append:1505
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_adult\"]/powerList/power[2]"
-msgstr ""
+msgstr "2倍战斗伤害，1倍破坏伤害，1倍维修速度，1.5倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:1506
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_adult\"]/powerList/power[3]"
-msgstr ""
+msgstr "不能通过普通方法治疗，所有技能为1级。"
 
 #: src-en/data/blueprints.xml.append:1507
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_adult\"]/powerList/power[4]"
-msgstr ""
+msgstr "无法被克隆，但此船员死后将生成此船员的缩小版本（幼体蜘蛛）。"
 
 #: src-en/data/blueprints.xml.append:1512
 msgid ""
