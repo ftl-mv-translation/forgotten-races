@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-09-02 07:03+0000\n"
+"PO-Revision-Date: 2025-09-03 07:56+0000\n"
 "Last-Translator: sixpoint <1557179480@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -3487,7 +3487,6 @@ msgid ""
 msgstr "暗影怪异造物"
 
 #: src-en/data/blueprints.xml.append:1613
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac_enemy\"]/powerList/power[1]"
 msgstr "主动能力（自动触发）：随机心灵控制一个与特里亚克处于同一舱室的敌方船员，持续1"
@@ -3851,34 +3850,46 @@ msgstr "解离⛼[反]"
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_ATOMC_DEFEND\"]/desc"
 msgstr ""
+"[当前模式：反人员]"
+"高度先进的反人员无人机，可以离子攻击舱室，可在防御与登舰模式中切换。\n"
+"\t\n"
+"-周期能力：每20秒离子攻击所处舱室，造成1点离子伤害，眩晕所有其他船员5秒。\n"
+"-100生命值，无法被眩晕，免疫火焰。\n"
+"-1.5倍战斗与破坏伤害。"
 
 #: src-en/data/blueprints.xml.append:2476
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_ATOMC_BOARDER\"]/title"
-msgstr ""
+msgstr "原型解离无人机[登舰]"
 
 #: src-en/data/blueprints.xml.append:2477
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_ATOMC_BOARDER\"]/short"
-msgstr ""
+msgstr "解离⛼ [登]"
 
 #: src-en/data/blueprints.xml.append:2478
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_ATOMC_BOARDER\"]/desc"
 msgstr ""
+"[当前模式：登舰]"
+"高度先进的反人员无人机，可以离子攻击舱室，可在防御与登舰模式中切换。\n"
+"\t\n"
+"-周期能力：每20秒离子攻击所处舱室，造成1点离子伤害，眩晕所有其他船员5秒。\n"
+"-100生命值，无法被眩晕，免疫火焰。\n"
+"-1.5倍战斗与破坏伤害。"
 
 #: src-en/data/blueprints.xml.append:2497
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_technocwatom\"]/powerList/power[1]"
-msgstr ""
+msgstr "当前模仿：原型解离无人机"
 
 #: src-en/data/blueprints.xml.append:2505
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_directorc\"]/title"
-msgstr ""
+msgstr "导引无人机"
 
 #: src-en/data/blueprints.xml.append:2506
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_directorc\"]/short"
-msgstr ""
+msgstr "导引"
 
 #: src-en/data/blueprints.xml.append:2507
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_directorc\"]/desc"
@@ -3891,28 +3902,33 @@ msgstr "无人机"
 
 #: src-en/data/blueprints.xml.append:2518
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_DIRECTORC\"]/title"
-msgstr ""
+msgstr "原型导引无人机"
 
 #: src-en/data/blueprints.xml.append:2519
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_DIRECTORC\"]/short"
-msgstr ""
+msgstr "导引⛼"
 
 #: src-en/data/blueprints.xml.append:2520
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_DIRECTORC\"]/desc"
 msgstr ""
+"一款耐用的多功能无人机，能够操控系统并大量为其供能。\n"
+"\n"
+"-120生命值，承受0.8倍伤害\n"
+"-为所处舱室提供6格能量\n"
+"-可以以2级技能操控系统"
 
 #: src-en/data/blueprints.xml.append:2539
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_technocwdirector\"]/powerList/power[1]"
-msgstr ""
+msgstr "正在模仿：原型导引无人机"
 
 #: src-en/data/blueprints.xml.append:2547
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_menderc\"]/title"
-msgstr ""
+msgstr "修复无人机"
 
 #: src-en/data/blueprints.xml.append:2548
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_menderc\"]/short"
-msgstr ""
+msgstr "修复"
 
 #: src-en/data/blueprints.xml.append:2549
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_menderc\"]/desc"
@@ -3925,65 +3941,73 @@ msgstr "无人机"
 
 #: src-en/data/blueprints.xml.append:2560
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERC\"]/title"
-msgstr ""
+msgstr "原型修复无人机"
 
 #: src-en/data/blueprints.xml.append:2561
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERC\"]/short"
-msgstr ""
+msgstr "修复⛼"
 
 #: src-en/data/blueprints.xml.append:2562
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERC\"]/desc"
 msgstr ""
+"一架古老，但科技水平极高的无人机，可以快速进行修理。\n"
+"\t\n"
+"-80生命值，6倍维修速度，0.7倍移动速度"
 
 #: src-en/data/blueprints.xml.append:2576
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERC_ENEMY\"]/title"
-msgstr ""
+msgstr "原型修复无人机"
 
 #: src-en/data/blueprints.xml.append:2577
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERC_ENEMY\"]/short"
-msgstr ""
+msgstr "修复⛼"
 
 #: src-en/data/blueprints.xml.append:2578
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERC_ENEMY\"]/desc"
 msgstr ""
+"一架古老，但科技水平极高的无人机，可以快速进行修理。\n"
+"\t\n"
+"-80生命值，6倍维修速度，0.7倍移动速度"
 
 #: src-en/data/blueprints.xml.append:2595
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_technocwmender\"]/powerList/power[1]"
-msgstr ""
+msgstr "当前模仿：原型修复无人机"
 
 #: src-en/data/blueprints.xml.append:2604
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER\"]/title"
-msgstr ""
+msgstr "联合预兆者无人机 I"
 
 #: src-en/data/blueprints.xml.append:2605
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER\"]/short"
-msgstr ""
+msgstr "预兆者 I⛼"
 
 #: src-en/data/blueprints.xml.append:2606
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER\"]/desc"
-msgstr ""
+msgstr "一种设计领先于所有其他已知无人机的无人机。可发射充能激光，在战斗中造成离子伤"
+"害。"
 
 #: src-en/data/blueprints.xml.append:2622
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER_ENEMY\"]/title"
-msgstr ""
+msgstr "联合预兆者无人机 I （敌方）"
 
 #: src-en/data/blueprints.xml.append:2623
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER_ENEMY\"]/short"
-msgstr ""
+msgstr "预兆者 I⛼"
 
 #: src-en/data/blueprints.xml.append:2624
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER_ENEMY\"]/desc"
-msgstr ""
+msgstr "一种设计领先于所有其他已知无人机的无人机。可发射充能激光，在战斗中造成离子伤"
+"害。"
 
 #: src-en/data/blueprints.xml.append:2640
 msgid ""
@@ -4003,17 +4027,18 @@ msgstr "无人机武器"
 #: src-en/data/blueprints.xml.append:2677
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER_2\"]/title"
-msgstr ""
+msgstr "联合预兆者无人机 II"
 
 #: src-en/data/blueprints.xml.append:2678
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER_2\"]/short"
-msgstr ""
+msgstr "预兆者 II⛼"
 
 #: src-en/data/blueprints.xml.append:2679
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_LASER_2\"]/desc"
-msgstr ""
+msgstr "一种设计领先于所有其他已知无人机的无人机。可发射毁灭性的激光，在战斗中造成离"
+"子伤害。"
 
 #: src-en/data/blueprints.xml.append:2695
 msgid ""
