@@ -1,29 +1,43 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-09-15 08:49+0000\n"
+"Last-Translator: sixpoint <1557179480@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/forgotten-races/dataevents_sector_augmentedxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_augmented.xml.append:3
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE\"]/text"
 msgstr ""
+"到达这个信标时，你注意到一艘强铁族飞船正在追逐一艘穿梭机，在他们的公共频道里"
+"不停的喷出脏话。 \"小偷！偷走了珍稀的食物！\""
+"终于，他们注意到你的飞船，向你呼叫。 "
+"\"让我干掉那个穿梭机，有个叛徒吃了珍稀的食物，必须吃掉他们来偿还！不要碰！\""
 
 #: src-en/data/events_sector_augmented.xml.append:6
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE\"]/choice[1]/text"
-msgstr ""
+msgstr "营救穿梭机里的‘叛徒’。"
 
 #: src-en/data/events_sector_augmented.xml.append:8
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE\"]/choice[1]/event/text"
 msgstr ""
+"你迅速追上小型穿梭机，并让里面的乘员安全的上了你的船。奇怪的是，一个颜色奇特"
+"的强铁族从穿梭机上走到你的船里，快速的感谢了你，然后愤怒的强铁族就启动他们的"
+"武器了!"
 
 #: src-en/data/events_sector_augmented.xml.append:10
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE\"]/choice[1]/event/crewMember"
-msgstr ""
+msgstr "圣堂"
 
 #: src-en/data/events_sector_augmented.xml.append:12
 msgid ""
@@ -33,12 +47,15 @@ msgstr "继续。"
 #: src-en/data/events_sector_augmented.xml.append:18
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE\"]/choice[2]/text"
-msgstr ""
+msgstr "远离穿梭机。"
 
 #: src-en/data/events_sector_augmented.xml.append:20
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE\"]/choice[2]/event/text"
 msgstr ""
+"你向强铁族飞船回应称你并不像协助穿梭机里的人。最后，你看见它们追上了穿梭机并"
+"抓住了它，把它拽回了飞船上。强铁族船长看起来很高兴你没有干预它们，给你留下了"
+"点小礼物便跃迁走了。"
 
 #: src-en/data/events_sector_augmented.xml.append:23
 msgid ""
@@ -53,7 +70,7 @@ msgstr "跳过。"
 #: src-en/data/events_sector_augmented.xml.append:35
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/text"
-msgstr ""
+msgstr "战斗过后，你在船里四处张望，想找到那个奇怪的食铁族。"
 
 #: src-en/data/events_sector_augmented.xml.append:37
 msgid ""
@@ -66,6 +83,15 @@ msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
+"那个奇怪的食铁族对你的帮助感到非常高兴。“伟大的人从那些小气的强铁族手里救下了"
+"圣堂！”那个食铁族兴奋的说着，同时微微地上下跳动。\n"
+"\n"
+"\t\t\t你回复道这些都是小事，只是觉得留下它自生自灭有点不太人道。\n"
+"\t\t\t\t\n"
+"\t\t\t"
+"“你真谦逊！咱要跟着你去到天涯海角！还给你一张星舰蓝图，咱自己做的！”那个食铁"
+"族将你推到一边，开始在电脑上手绘一个奇怪的蓝色食铁族飞船的蓝图，然后再次感谢"
+"你。"
 
 #: src-en/data/events_sector_augmented.xml.append:49
 msgid ""
@@ -78,9 +104,10 @@ msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"你发现战斗过后那个食铁族的情况很糟糕。看起来他们马上就要死了...\n"
+"“伟大的...人...保护了...圣堂...”那个食铁族艰难的说着，感觉随时都有可能断气..."
 
 #: src-en/data/events_sector_augmented.xml.append:53
-#, fuzzy
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"0\"]/text"
@@ -91,101 +118,139 @@ msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"0\"]/event/text"
 msgstr ""
+"“请收下...星舰蓝图...咱自己做的...为了真正的...朋友”食铁族递给了你一张奇怪的"
+"蓝色食铁族星舰蓝图，看起来是手绘的，随后便化为了一堆金属..."
 
 #: src-en/data/events_sector_augmented.xml.append:59
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"medbay\" and "
 "@lvl=\"0\"]/event/choice/text"
-msgstr ""
+msgstr "安息吧..."
 
 #: src-en/data/events_sector_augmented.xml.append:65
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"2\"]/text"
-msgstr ""
+msgstr "（高级医疗舱）救他！"
 
 #: src-en/data/events_sector_augmented.xml.append:67
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"medbay\" and @lvl=\"2\"]/event/text"
 msgstr ""
+"你和你的船员迅速把那个食铁族带进了医疗舱。其升级过后的功能设法逆转了食铁族身"
+"体衰败的过程，并最终稳定了下来。完全恢复之后，他再看见你时兴奋的上蹿下跳。\n"
+"\n"
+"\t\t\t\t\t"
+"“救星！两次的救星！你把圣堂从死神手中夺了回来！咱会随你战斗至宇宙尽头！还给你"
+"一张星舰蓝图，咱自己做的！”那个食铁族将你推到一边，开始在电脑上手绘一个奇怪的"
+"蓝色食铁族飞船的蓝图，然后再次感谢你。"
 
 #: src-en/data/events_sector_augmented.xml.append:70
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"medbay\" and "
 "@lvl=\"2\"]/event/crewMember"
-msgstr ""
+msgstr "圣堂"
 
 #: src-en/data/events_sector_augmented.xml.append:76
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"clonebay\"]/text"
-msgstr ""
+msgstr "（高级克隆舱）救他！"
 
 #: src-en/data/events_sector_augmented.xml.append:78
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"clonebay\"]/event/text"
 msgstr ""
+"你和你的船员迅速把那个食铁族带进了克隆舱。时间刚好够在他化为一堆废铁之前把他"
+"登记进克隆舱里。克隆完成后他便走出了克隆仓，再看见你时那个食铁族兴奋的上蹿下"
+"跳。\n"
+"\n"
+"\t\t\t\t\t"
+"“救星！两次的救星！你把圣堂从死神手中夺了回来！咱会随你战斗至宇宙尽头！还给你"
+"一张星舰蓝图，咱自己做的！”那个食铁族将你推到一边，开始在电脑上手绘一个奇怪的"
+"蓝色食铁族飞船的蓝图，然后再次感谢你。"
 
 #: src-en/data/events_sector_augmented.xml.append:81
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"clonebay\"]/event/crewMember"
-msgstr ""
+msgstr "圣堂"
 
 #: src-en/data/events_sector_augmented.xml.append:87
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"LIST_CREW_MEDICAL\"]/text"
-msgstr ""
+msgstr "（医疗船员）救他！"
 
 #: src-en/data/events_sector_augmented.xml.append:89
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"LIST_CREW_MEDICAL\"]/event/text"
 msgstr ""
+"你的医疗船员迅速开始尝试稳定他的伤情。虽然艰难，但你的船员还是设法逆转了食铁"
+"族身体衰败的过程，并最终稳定了下来。\n"
+"\n"
+"\t\t\t\t\t"
+"“救星！两次的救星！你把圣堂从死神手中夺了回来！咱会随你战斗至宇宙尽头！还给你"
+"一张星舰蓝图，咱自己做的！”那个食铁族将你推到一边，开始在电脑上手绘一个奇怪的"
+"蓝色食铁族飞船的蓝图，然后再次感谢你。"
 
 #: src-en/data/events_sector_augmented.xml.append:92
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[@req=\"LIST_CREW_MEDICAL\"]/event/crewMember"
-msgstr ""
+msgstr "圣堂"
 
 #: src-en/data/events_sector_augmented.xml.append:98
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[5]/text"
-msgstr ""
+msgstr "（医疗无人机）救他！"
 
 #: src-en/data/events_sector_augmented.xml.append:100
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[5]/event/text"
 msgstr ""
+"你的医疗无人机迅速开始尝试稳定他的伤情。虽然艰难，但你的无人机还是设法逆转了"
+"食铁族身体衰败的过程，并最终稳定了下来。\n"
+"\n"
+"\t\t\t\t\t"
+"“救星！两次的救星！你把圣堂从死神手中夺了回来！咱会随你战斗至宇宙尽头！还给你"
+"一张星舰蓝图，咱自己做的！”那个食铁族将你推到一边，开始在电脑上手绘一个奇怪的"
+"蓝色食铁族飞船的蓝图，然后再次感谢你。"
 
 #: src-en/data/events_sector_augmented.xml.append:103
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[5]/event/crewMember"
-msgstr ""
+msgstr "圣堂"
 
 #: src-en/data/events_sector_augmented.xml.append:109
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[6]/text"
-msgstr ""
+msgstr "（医疗炸弹）救他！[-1}]"
 
 #: src-en/data/events_sector_augmented.xml.append:111
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[6]/event/text"
 msgstr ""
+"你迅速冲向了武器控制系统并向那个食铁族所在的舱室发射了医疗炸弹。虽然艰难，但"
+"这次爆发还是逆转了食铁族身体衰败的过程，并最终稳定了下来。\n"
+"\n"
+"\t\t\t\t\t"
+"“救星！两次的救星！你把圣堂从死神手中夺了回来！咱会随你战斗至宇宙尽头！还给你"
+"一张星舰蓝图，咱自己做的！”那个食铁族将你推到一边，开始在电脑上手绘一个奇怪的"
+"蓝色食铁族飞船的蓝图，然后再次感谢你。"
 
 #: src-en/data/events_sector_augmented.xml.append:114
 msgid ""
 "data/events_sector_augmented.xml.append$//event[@name=\"FR_ENHANCED_CHOICE_WIN\"]/choice[@req=\"fr_enhanced\""
 " and @lvl=\"0\"]/event/choice[6]/event/crewMember"
-msgstr ""
+msgstr "圣堂"
