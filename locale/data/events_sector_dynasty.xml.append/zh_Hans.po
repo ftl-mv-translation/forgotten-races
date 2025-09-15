@@ -1,24 +1,41 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-09-15 08:49+0000\n"
+"Last-Translator: sixpoint <1557179480@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/forgotten-races/dataevents_sector_dynastyxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src-en/data/events_sector_dynasty.xml.append:9
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS\"]/text"
 msgstr ""
+"你跃迁到了一片看起来是古代遗迹的地方，准备尽可能地掠夺它们的资源。然而，你看"
+"到了一些你完全没有预料到的东西：一艘奇怪的自动舰，远比你过去遇到的谐合链自动"
+"舰要大得多，涂装也完全不同。它的自动功能似乎也已经关闭或被移除。而灵朝的船只"
+"正在攻击它！\n"
+"\t\n"
+"\t几分钟后"
+"，攻击者向你发出信号，一个巨型魂灵向你打招呼。“你好，变元者，很遗憾我必须说我"
+"们需要你的帮助。那些令人作呕的食铁族怪物自称‘凋铁族’，已经占据了我们珍贵的船"
+"只！如果你能清除他们，我们将很高兴地把船的蓝图作为奖励。”"
 
 #: src-en/data/events_sector_dynasty.xml.append:14
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS\"]/choice[1]/text"
-msgstr ""
+msgstr "当然，我们能搞定这个。"
 
 #: src-en/data/events_sector_dynasty.xml.append:16
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS\"]/choice[1]/event/text"
-msgstr ""
+msgstr "“就是这股气势！不过要小心别把船伤的太狠了。不然，你就要付出大代价了，懂么？如"
+"果你能想办法把他们全部干掉，我们还能给你点特别奖励。”"
 
 #: src-en/data/events_sector_dynasty.xml.append:19
 msgid ""
@@ -28,117 +45,171 @@ msgstr "继续。"
 #: src-en/data/events_sector_dynasty.xml.append:25
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS\"]/choice[2]/text"
-msgstr ""
+msgstr "虽然很诱人，但我们可不敢跟...那玩意打。"
 
 #: src-en/data/events_sector_dynasty.xml.append:27
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS\"]/choice[2]/event/text"
-msgstr ""
+msgstr "那位船长立刻切断了和你的通讯，现在频道里又只剩你一个了。"
 
 #: src-en/data/events_sector_dynasty.xml.append:33
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_WITHERED_OFFER\"]/text"
-msgstr ""
+msgstr "突然，你收到星舰的呼叫。“全能之人，不要伤害凋铁族！我投降！我下船，和你们一起"
+"！”"
 
 #: src-en/data/events_sector_dynasty.xml.append:36
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_WITHERED_OFFER\"]/choice[1]/text"
-msgstr ""
+msgstr "好吧，如果你离开这艘船就可以跟我们一起走。"
 
 #: src-en/data/events_sector_dynasty.xml.append:38
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_WITHERED_OFFER\"]/choice[1]/event/text"
 msgstr ""
+"“谢谢你，谢谢你！”那个食铁族关闭了他们的飞船并传送进了你的星舰。灵朝飞船过了"
+"一会就向你呼叫了。\n"
+"\t\t\t\n"
+"\t\t\t"
+"“哎哟，你真的会让那些害虫留在你的船上吗？真该死！幸好我是个实诚的魂灵。你将会"
+"收到你的蓝图，但别指望能得到我的额外奖励。现在快走，在我改变主意之前！”"
 
 #: src-en/data/events_sector_dynasty.xml.append:48
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_WITHERED_OFFER\"]/choice[2]/text"
-msgstr ""
+msgstr "把他们全干掉！"
 
 #: src-en/data/events_sector_dynasty.xml.append:54
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/text"
 msgstr ""
+"当你探索飞船空荡荡的大厅时，你发现了一只落单的凋铁族蜷缩着，因为刚刚的战斗而"
+"严重受伤了。\n"
+"“全能之人...请-请不要伤害凋铁族...只想要帮助...治-疗...然后我就一起...”"
 
 #: src-en/data/events_sector_dynasty.xml.append:56
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"medbay\"]/text"
-msgstr ""
+msgstr "（高级医疗舱）用你的医疗舱稳定他的伤情。"
 
 #: src-en/data/events_sector_dynasty.xml.append:58
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"medbay\"]/event/text"
 msgstr ""
+"“谢谢你，谢谢你！”那个食铁族手舞足蹈着，跟着你回到了你的船上。灵朝飞船过了一"
+"会就向你呼叫了。\n"
+"\t\t\t\n"
+"\t\t\t"
+"“哎哟，你真的会让那些害虫留在你的船上吗？真该死！幸好我是个实诚的魂灵。你将会"
+"收到你的蓝图，但别指望能得到我的额外奖励。现在快走，在我改变主意之前！”"
 
 #: src-en/data/events_sector_dynasty.xml.append:67
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"LIST_CREW_MEDICAL\"]/text"
-msgstr ""
+msgstr "（医疗船员）让你的医疗船员来稳定伤情。"
 
 #: src-en/data/events_sector_dynasty.xml.append:69
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"LIST_CREW_MEDICAL\"]/event/text"
 msgstr ""
+"“谢谢你，谢谢你！”那个食铁族手舞足蹈着，跟着你回到了你的船上。灵朝飞船过了一"
+"会就向你呼叫了。\n"
+"\t\t\t\n"
+"\t\t\t"
+"“哎哟，你真的会让那些害虫留在你的船上吗？真该死！幸好我是个实诚的魂灵。你将会"
+"收到你的蓝图，但别指望能得到我的额外奖励。现在快走，在我改变主意之前！”"
 
 #: src-en/data/events_sector_dynasty.xml.append:78
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"DRONE_CONTROL_MEDICAL\"]/text"
-msgstr ""
+msgstr "（医疗无人机）让你的医疗无人机来稳定伤情。"
 
 #: src-en/data/events_sector_dynasty.xml.append:80
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"DRONE_CONTROL_MEDICAL\"]/event/text"
 msgstr ""
+"“谢谢你，谢谢你！”那个食铁族手舞足蹈着，跟着你回到了你的船上。灵朝飞船过了一"
+"会就向你呼叫了。\n"
+"\t\t\t\n"
+"\t\t\t"
+"“哎哟，你真的会让那些害虫留在你的船上吗？真该死！幸好我是个实诚的魂灵。你将会"
+"收到你的蓝图，但别指望能得到我的额外奖励。现在快走，在我改变主意之前！”"
 
 #: src-en/data/events_sector_dynasty.xml.append:89
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_BALLISTIC\"]/text"
-msgstr ""
+msgstr "（医疗导弹武器）用你的医疗导弹武器来稳定伤情。[-1}]"
 
 #: src-en/data/events_sector_dynasty.xml.append:91
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_BALLISTIC\"]/event/text"
 msgstr ""
+"“谢谢你，谢谢你！”那个食铁族手舞足蹈着，跟着你回到了你的船上。灵朝飞船过了一"
+"会就向你呼叫了。\n"
+"\t\t\t\n"
+"\t\t\t"
+"“哎哟，你真的会让那些害虫留在你的船上吗？真该死！幸好我是个实诚的魂灵。你将会"
+"收到你的蓝图，但别指望能得到我的额外奖励。现在快走，在我改变主意之前！”"
 
 #: src-en/data/events_sector_dynasty.xml.append:103
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_NONBALLISTIC\"]/text"
-msgstr ""
+msgstr "（医疗非导弹武器）用你的医疗武器来稳定伤情。"
 
 #: src-en/data/events_sector_dynasty.xml.append:105
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_NONBALLISTIC\"]/event/text"
 msgstr ""
+"“谢谢你，谢谢你！”那个食铁族手舞足蹈着，跟着你回到了你的船上。灵朝飞船过了一"
+"会就向你呼叫了。\n"
+"\t\t\t\n"
+"\t\t\t"
+"“哎哟，你真的会让那些害虫留在你的船上吗？真该死！幸好我是个实诚的魂灵。你将会"
+"收到你的蓝图，但别指望能得到我的额外奖励。现在快走，在我改变主意之前！”"
 
 #: src-en/data/events_sector_dynasty.xml.append:114
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"RECON_AND_TELEPORT\"]/text"
-msgstr ""
+msgstr "（传送重构器）把他传送回你的船上。"
 
 #: src-en/data/events_sector_dynasty.xml.append:116
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"RECON_AND_TELEPORT\"]/event/text"
 msgstr ""
+"“谢谢你，谢谢你！”那个食铁族手舞足蹈着，已经完全恢复了。灵朝飞船过了一会就向"
+"你呼叫了。\n"
+"\t\t\t\n"
+"\t\t\t"
+"“哎哟，你真的会让那些害虫留在你的船上吗？真该死！幸好我是个实诚的魂灵。你将会"
+"收到你的蓝图，但别指望能得到我的额外奖励。现在快走，在我改变主意之前！”"
 
 #: src-en/data/events_sector_dynasty.xml.append:125
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"clonebay\"]/text"
-msgstr ""
+msgstr "（克隆舱）趁还来得及，把那个食铁族登记进去。"
 
 #: src-en/data/events_sector_dynasty.xml.append:127
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"clonebay\"]/event/text"
 msgstr ""
+"“谢谢你，谢谢你！”那个食铁族手舞足蹈着，跟着你回到了你的船上。灵朝飞船过了一"
+"会就向你呼叫了。\n"
+"\t\t\t\n"
+"\t\t\t"
+"“哎哟，你真的会让那些害虫留在你的船上吗？真该死！幸好我是个实诚的魂灵。你将会"
+"收到你的蓝图，但别指望能得到我的额外奖励。现在快走，在我改变主意之前！”"
 
 #: src-en/data/events_sector_dynasty.xml.append:136
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[8]/text"
-msgstr ""
+msgstr "让他等死吧。"
 
 #: src-en/data/events_sector_dynasty.xml.append:142
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/text"
 msgstr ""
+"“哎哟！停下，你们这群蠢货！你们已经把我们伟大的星舰伤的太深了！要么别打了，要"
+"么就让我们来处理！你想要废料吗？想的话我们就给你，只要你赶紧滚蛋！”"
 
 #: src-en/data/events_sector_dynasty.xml.append:144
 msgid ""
@@ -148,7 +219,7 @@ msgstr "停止开火。"
 #: src-en/data/events_sector_dynasty.xml.append:146
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/choice[1]/event/text"
-msgstr ""
+msgstr "你感觉他们付钱只是想让你赶紧消失，但至少比啥都没有强。"
 
 #: src-en/data/events_sector_dynasty.xml.append:152
 msgid ""
@@ -158,19 +229,25 @@ msgstr "不，不，我们能做到的！"
 #: src-en/data/events_sector_dynasty.xml.append:154
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/choice[2]/event/text"
-msgstr ""
+msgstr "巨型魂灵叹了一口气。“行吧，但如果你们把那艘船拆了，你们就要付出大代价了！”"
 
 #: src-en/data/events_sector_dynasty.xml.append:160
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WIN\"]/text"
 msgstr ""
+"在最后一只凋铁族死掉后，你收到了灵朝飞船的呼叫。\n"
+"\t\n"
+"\t"
+"“干得好，变元者。你的战斗如有古老的大夺命灵之激情！是什么驱使着你，让你能展现"
+"如此强大的力量？”"
 
 #: src-en/data/events_sector_dynasty.xml.append:164
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WIN\"]/choice/text"
-msgstr ""
+msgstr "废料和蓝图，基本上就这些。"
 
 #: src-en/data/events_sector_dynasty.xml.append:166
 msgid ""
 "data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WIN\"]/choice/event/text"
-msgstr ""
+msgstr "巨型魂灵笑了，然后把报酬转给了你。“我很高兴，就算是现在这种幽默感也还未消失。"
+"请吧，收下这份蓝图和我的特别奖励，就像说好的一样。”"
