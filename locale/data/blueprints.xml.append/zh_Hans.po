@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-10-20 03:20+0000\n"
+"PO-Revision-Date: 2025-11-02 05:20+0000\n"
 "Last-Translator: circle217 <3545024352@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -2327,8 +2327,8 @@ msgstr "主动技能：可快速连续部署燃烧炸弹，每次跃迁后最多
 #: src-en/data/blueprints.xml.append:1102
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ariadne\"]/powerList/power[3]"
-msgstr "同一舱室内敌方船员受到的灼烧伤害增加至1.3倍。所在舰船上的敌方船员不再免疫灼烧"
-"伤害。"
+msgstr "同一舱室内的敌方船员将受到额外30%的火焰伤害，并移除同舰所有敌方船员的火焰免疫"
+"效果。"
 
 #: src-en/data/blueprints.xml.append:1107
 msgid ""
@@ -3704,12 +3704,41 @@ msgid ""
 msgstr ""
 "这种高级光点技术的神奇变体能在电离系统的同时修补舰体。另外此过程对有机生物的"
 "危害极大。\n"
-"a"
+"\n"
+"\t\t属性：\n"
+"\t\t能耗：3\n"
+"\t\t充能时间：30秒\n"
+"\n"
+"\t\t光束长度：光点\n"
+"\t\t光束速度：1\n"
+"\t\t\n"
+"\t\t舰体修复：5\n"
+"\t\t船员伤害：75\n"
+"\t\t离子伤害：5\n"
+"\n"
+"\t\t起火率：50%\n"
+"\t\t破舱率：50%(调整：25%)\n"
+"\t\t击晕率：100%(25秒)\n"
+"\n"
+"\t\t价格: 125~   -   售价: 62~"
 
 #: src-en/data/blueprints.xml.append:2019
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_FOCUS\"]/tooltipOverride"
 msgstr ""
+"能耗：3\n"
+"\t\t充能时间：30秒\n"
+"\n"
+"\t\t光束长度：光点\n"
+"\t\t光束速度：1\n"
+"\t\t\n"
+"\t\t舰体修复：5\n"
+"\t\t船员伤害：75\n"
+"\t\t离子伤害：5\n"
+"\n"
+"\t\t起火率：50%\n"
+"\t\t破舱率：50%(调整：25%)\n"
+"\t\t击晕率：100%(25秒)"
 
 #: src-en/data/blueprints.xml.append:2064
 msgid ""
@@ -4438,11 +4467,39 @@ msgstr "此光束可在敌舰舱室内造成巨量混乱，在屠杀其船员的
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_HAVOC\"]/descriptionOverride"
 msgstr ""
+"此光束可在敌舰舱室内造成巨量混乱，在屠杀其船员的同时造成离子伤害。作为权衡，"
+"它会修复敌舰船体并且无法造成系统伤害。\n"
+"\n"
+"\t\t属性：\n"
+"\t\t能耗：3格\n"
+"\t\t充能时间：15秒\n"
+"\n"
+"\t\t光束长度：200\n"
+"\t\t光束速度：5\n"
+"\t\t\n"
+"\t\t舰体修复：4\n"
+"\t\t船员伤害：75\n"
+"\t\t离子伤害：4\n"
+"\n"
+"\t\t击晕率：100%(15秒)\n"
+"\n"
+"\t\t价格：100~   -   售价：50~"
 
 #: src-en/data/blueprints.xml.append:3448
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_HAVOC\"]/tooltipOverride"
 msgstr ""
+"能耗：3格\n"
+"\t\t充能时间：15秒\n"
+"\n"
+"\t\t光束长度：200\n"
+"\t\t光束速度：5\n"
+"\t\t\n"
+"\t\t舰体修复：4\n"
+"\t\t船员伤害：75\n"
+"\t\t离子伤害：4\n"
+"\n"
+"\t\t击晕率：100%(15秒)"
 
 #: src-en/data/blueprints.xml.append:3491
 msgid ""
@@ -6037,11 +6094,47 @@ msgstr "这把高度先进的激光能破坏5层护盾，每发弹体都可对�
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_LASER\"]/descriptionOverride"
 msgstr ""
+"这把高度先进的激光能破坏5层护盾，每发弹体都可对能量护盾造成5点伤害。同时被它"
+"命中的舱室的时间流速会减慢，持续10秒。\n"
+"\n"
+"\t\t属性：\n"
+"\t\t能耗：2格\n"
+"\t\t充能时间：20秒\n"
+"\n"
+"\t\t弹体数：3发\n"
+"\t\t\n"
+"\t\t舰体伤害：2\n"
+"\t\t系统伤害：2\n"
+"\t\t船员伤害：30\n"
+"\n"
+"\t\t减速舱室：10秒\n"
+"\n"
+"\t\t破舱率：100%(调整：100%)\n"
+"\n"
+"\t\t护盾击破：5层\n"
+"\t\t超能护盾击破：5层\n"
+"\n"
+"\t\t价格：100~   -   售价：50~"
 
 #: src-en/data/blueprints.xml.append:7809
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_LASER\"]/tooltipOverride"
 msgstr ""
+"能耗：2格\n"
+"\t\t充能时间：20秒\n"
+"\n"
+"\t\t弹体数：3发\n"
+"\t\t\n"
+"\t\t舰体伤害：2\n"
+"\t\t系统伤害：2\n"
+"\t\t船员伤害：30\n"
+"\n"
+"\t\t减速舱室：10秒\n"
+"\n"
+"\t\t破舱率：100%(调整：100%)\n"
+"\n"
+"\t\t护盾击破：5层\n"
+"\t\t超能护盾击破：5层"
 
 #: src-en/data/blueprints.xml.append:7862
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_ION\"]/title"
@@ -6060,11 +6153,45 @@ msgstr "这把高度先进的离子武器能穿透所有护盾并对周遭系统
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_ION\"]/descriptionOverride"
 msgstr ""
+"这把高度先进的离子武器能穿透所有护盾并对周遭系统造成离子与系统伤害。同时被它"
+"直接命中的舱室的时间流速会减慢，持续10秒。\n"
+"\n"
+"\t\t属性：\n"
+"\t\t能耗：2格\n"
+"\t\t充能时间：20秒\n"
+"\n"
+"\t\t弹体数：1发\n"
+"\t\t\n"
+"\t\t离子伤害：2\n"
+"\t\t系统伤害：2\n"
+"\t\t船员伤害：30\n"
+"\n"
+"\t\t减速舱室：10秒\n"
+"\n"
+"\t\t破舱率：100%(调整：100%)\n"
+"\n"
+"\t\t相邻舱室伤害：1离子和系统伤害\n"
+"\n"
+"\t\t价格：100~   -   售价：50~"
 
 #: src-en/data/blueprints.xml.append:7887
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_ION\"]/tooltipOverride"
 msgstr ""
+"能耗：2格\n"
+"\t\t充能时间：20秒\n"
+"\n"
+"\t\t弹体数：1发\n"
+"\t\t\n"
+"\t\t离子伤害：2\n"
+"\t\t系统伤害：2\n"
+"\t\t船员伤害：30\n"
+"\n"
+"\t\t减速舱室：10秒\n"
+"\n"
+"\t\t破舱率：100%(调整：100%)\n"
+"\n"
+"\t\t相邻舱室伤害：1离子和系统伤害"
 
 #: src-en/data/blueprints.xml.append:7945
 msgid ""
@@ -6085,11 +6212,46 @@ msgstr "高度先进的导弹武器，被它命中的舱室的时间流速会减
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_MISSILE\"]/descriptionOverride"
 msgstr ""
+"高度先进的导弹武器，被它命中的舱室的时间流速会减慢，持续10秒。\n"
+"\n"
+"\t\t属性：\n"
+"\t\t能耗：2格\n"
+"\t\t充能时间：20秒\n"
+"\t\t弹药消耗：2发\n"
+"\n"
+"\t\t弹体数：1发\n"
+"\t\t\n"
+"\t\t对空舱室造成两倍舰体伤害。\n"
+"\t\t舰体伤害：4\n"
+"\t\t系统伤害：4\n"
+"\t\t船员伤害：60\n"
+"\n"
+"\t\t减速舱室：10秒\n"
+"\n"
+"\t\t破舱率：100%(调整：100%)\n"
+"\t\t击晕率：100%(15秒)\n"
+"\n"
+"\t\t价格：100~   -   售价：50~"
 
 #: src-en/data/blueprints.xml.append:7970
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_MISSILE\"]/tooltipOverride"
 msgstr ""
+"能耗：2格\n"
+"\t\t充能时间：20秒\n"
+"\t\t弹药消耗：2发\n"
+"\n"
+"\t\t弹体数：1发\n"
+"\t\t\n"
+"\t\t对空舱室造成两倍舰体伤害。\n"
+"\t\t舰体伤害：4\n"
+"\t\t系统伤害：4\n"
+"\t\t船员伤害：60\n"
+"\n"
+"\t\t减速舱室：10秒\n"
+"\n"
+"\t\t破舱率：100%(调整：100%)\n"
+"\t\t击晕率：100%(15秒)"
 
 #: src-en/data/blueprints.xml.append:8022
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_BOMB\"]/title"
@@ -6107,11 +6269,42 @@ msgstr "一种炸弹发射器，能在减慢目标舱室时间流速的同时造
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_BOMB\"]/descriptionOverride"
 msgstr ""
+"一种炸弹发射器，能在减慢目标舱室时间流速的同时造成高额的系统与船员伤害。\n"
+"\n"
+"\t\t属性：\n"
+"\t\t能耗：2格\n"
+"\t\t充能时间：20秒\n"
+"\t\t弹药消耗：2发\n"
+"\n"
+"\t\t弹体数：1发\n"
+"\t\t\n"
+"\t\t系统伤害：6\n"
+"\t\t船员伤害：90\n"
+"\n"
+"\t\t减速舱室：10秒\n"
+"\n"
+"\t\t破舱率：100%(调整：100%)\n"
+"\t\t击晕率：100%(15秒)\n"
+"\n"
+"\t\t价格：100~   -   售价：50~"
 
 #: src-en/data/blueprints.xml.append:8045
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_BOMB\"]/tooltipOverride"
 msgstr ""
+"能耗：2格\n"
+"\t\t充能时间：20秒\n"
+"\t\t弹药消耗：2发\n"
+"\n"
+"\t\t弹体数：1发\n"
+"\t\t\n"
+"\t\t系统伤害：6\n"
+"\t\t船员伤害：90\n"
+"\n"
+"\t\t减速舱室：10秒\n"
+"\n"
+"\t\t破舱率：100%(调整：100%)\n"
+"\t\t击晕率：100%(15秒)"
 
 #: src-en/data/blueprints.xml.append:8086
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_BEAM\"]/title"
@@ -6130,11 +6323,45 @@ msgstr "只要目标的护盾被拿下了，此光束就可以造成毁灭性的
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_BEAM\"]/descriptionOverride"
 msgstr ""
+"只要目标的护盾被拿下，此光束就可以造成毁灭性的伤害，但只要护盾还在就无法造成"
+"伤害。会使被命中的舱室的时间流速减慢持续10秒。\n"
+"\n"
+"\t\t属性：\n"
+"\t\t能耗：2格\n"
+"\t\t充能时间：20秒\n"
+"\n"
+"\t\t光束长度：180\n"
+"\t\t光束速度：10\n"
+"\t\t\n"
+"\t\t对空舱室造成两倍舰体伤害。\n"
+"\t\t舰体伤害：1\n"
+"\t\t系统伤害：4\n"
+"\t\t船员伤害：30\n"
+"\n"
+"\t\t减速舱室：10秒\n"
+"\n"
+"\t\t破舱率：100%(调整：100%)\n"
+"\n"
+"\t\t价格：100~   -   售价：50~"
 
 #: src-en/data/blueprints.xml.append:8111
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_CEL_BEAM\"]/tooltipOverride"
 msgstr ""
+"能耗：2格\n"
+"\t\t充能时间：20秒\n"
+"\n"
+"\t\t光束长度：180\n"
+"\t\t光束速度：10\n"
+"\t\t\n"
+"\t\t对空舱室造成两倍舰体伤害。\n"
+"\t\t舰体伤害：1\n"
+"\t\t系统伤害：4\n"
+"\t\t船员伤害：30\n"
+"\n"
+"\t\t减速舱室：10秒\n"
+"\n"
+"\t\t破舱率：100%(调整：100%)"
 
 #: src-en/data/blueprints.xml.append:8152
 msgid ""
@@ -6848,357 +7075,396 @@ msgstr "[基础充能时间：42秒] "
 #: src-en/data/blueprints.xml.append:9764
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BOMB_G\"]/tooltip"
-msgstr "发射5发爆弹，每发爆弹造成1点舰体伤害与105点船员伤害，施加中度腐蚀效果。"
+msgstr "发射5发爆弹，每发爆弹造成1点舰体伤害与120点船员伤害。施加中度腐蚀效果。"
 
 #: src-en/data/blueprints.xml.append:9809
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BEAM_Y\"]/title"
-msgstr ""
+msgstr "绝对湮灭巨炮"
 
 #: src-en/data/blueprints.xml.append:9810
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BEAM_Y\"]/short"
-msgstr ""
+msgstr "♕ 湮灭巨炮"
 
 #: src-en/data/blueprints.xml.append:9811
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BEAM_Y\"]/desc"
 msgstr ""
+"[基础充能时间：55秒]激活后发射毁灭性光束，可穿透所有护盾。光束造成1点舰体伤害"
+"并附带破舰效果，击中船员会使其中毒，且有25%几率使目标系统降级1级。"
 
 #: src-en/data/blueprints.xml.append:9812
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BEAM_Y\"]/tooltip"
-msgstr ""
+msgstr "光束武器，对击中的舱室造成1舰体伤害，穿透所有护盾，25%概率降级系统。毒害船员"
+"。有破舰效果。"
 
 #: src-en/data/blueprints.xml.append:9854
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_MISSILE_Y\"]/title"
-msgstr ""
+msgstr "绝对杀戮巨炮"
 
 #: src-en/data/blueprints.xml.append:9855
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_MISSILE_Y\"]/short"
-msgstr ""
+msgstr "♕ 杀戮巨炮"
 
 #: src-en/data/blueprints.xml.append:9856
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_MISSILE_Y\"]/desc"
 msgstr ""
+"[基础充能时间：55秒]激活一个毁灭性的导弹发射器发射4枚导弹。每枚导弹造成2点舰"
+"体伤害并附带破舰效果，击中船员会使其中毒，且有50%几率使目标系统降级3级。"
 
 #: src-en/data/blueprints.xml.append:9857
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_MISSILE_Y\"]/tooltip"
-msgstr ""
+msgstr "发射4枚导弹；2点舰体伤害；穿透所有护盾。50%概率降低击中的系统3级。毒害船员。"
+"有破舰效果。"
 
 #: src-en/data/blueprints.xml.append:9912
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_LASER_Y\"]/title"
-msgstr ""
+msgstr "绝对预兆者巨炮"
 
 #: src-en/data/blueprints.xml.append:9913
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_LASER_Y\"]/short"
-msgstr ""
+msgstr "♕预兆者巨炮"
 
 #: src-en/data/blueprints.xml.append:9914
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_LASER_Y\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：45秒]激活后发射7发毁灭性激光。每发造成1点舰体伤害并附带破舰效"
+"果，击中船员会使其中毒，且有50%几率使目标系统降级1级。"
 
 #: src-en/data/blueprints.xml.append:9915
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_LASER_Y\"]/tooltip"
-msgstr ""
+msgstr "发射7发激光。每发造成1点舰体伤害。50%几率使目标系统降级1级。毒害船员。有破舰"
+"效果。"
 
 #: src-en/data/blueprints.xml.append:9963
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_Y\"]/title"
-msgstr ""
+msgstr "绝对离子巨炮"
 
 #: src-en/data/blueprints.xml.append:9964
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_Y\"]/short"
-msgstr ""
+msgstr "♕ 离子巨炮"
 
 #: src-en/data/blueprints.xml.append:9965
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_Y\"]/desc"
 msgstr ""
+"[基础充能时间：40秒]激活毁灭性离子加农炮，发射一发能量弹。能量弹造成3点离子伤"
+"害和1点舰体伤害并附带破舰效果，击中船员会使其中毒，且使目标系统降级1级。"
 
 #: src-en/data/blueprints.xml.append:9966
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_Y\"]/tooltip"
-msgstr ""
+msgstr "发射一发造成3点离子伤害1点舰体伤害的能量弹。使目标系统降级1级。毒害船员。有破"
+"舰效果。"
 
 #: src-en/data/blueprints.xml.append:10016
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BOMB_Y\"]/title"
-msgstr ""
+msgstr "绝对炸弹巨炮"
 
 #: src-en/data/blueprints.xml.append:10017
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BOMB_Y\"]/short"
-msgstr ""
+msgstr "♕ 炸弹巨炮"
 
 #: src-en/data/blueprints.xml.append:10018
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BOMB_Y\"]/desc"
 msgstr ""
+"[基础充能时间：60秒]激活一个毁灭性的炸弹传送器发射4颗炸弹。每颗炸弹造成1点舰"
+"体伤害45点船员伤害并附带破舰效果，击中船员会使其中毒，且使目标系统降级2级。"
 
 #: src-en/data/blueprints.xml.append:10019
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BOMB_Y\"]/tooltip"
-msgstr ""
+msgstr "发射4颗炸弹，造成1点舰体伤害，45点船员伤害。使目标系统降级2级。毒害船员。有破"
+"舰效果。"
 
 #: src-en/data/blueprints.xml.append:10064
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_DREAD\"]/title"
-msgstr ""
+msgstr "联合方碑无畏舰巨炮"
 
 #: src-en/data/blueprints.xml.append:10065
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_DREAD\"]/short"
-msgstr ""
+msgstr "联合无畏巨炮"
 
 #: src-en/data/blueprints.xml.append:10066
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_DREAD\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：30秒]这是一门特殊的传送炸弹巨炮，采用电磁弹头。可发射5枚炸弹，"
+"每枚造成1点舰体伤害与5点离子伤害。"
 
 #: src-en/data/blueprints.xml.append:10067
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_DREAD\"]/tooltip"
-msgstr ""
+msgstr "巨炮：一种强大的古代集束炸弹齐射系统，可发射5枚威力巨大的炸弹，每枚造成1点舰"
+"体伤害与5点离子伤害。"
 
 #: src-en/data/blueprints.xml.append:10099
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_A_ENEMY\"]/title"
-msgstr ""
+msgstr "'克索尔'巨炮"
 
 #: src-en/data/blueprints.xml.append:10100
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_A_ENEMY\"]/short"
-msgstr ""
+msgstr "'克索尔'"
 
 #: src-en/data/blueprints.xml.append:10101
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_A_ENEMY\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：25秒]释放3发空雷，散播渎神效果，暂时禁用死亡特效。并对击中的船"
+"员施加5秒不受控的精神控制。"
 
 #: src-en/data/blueprints.xml.append:10102
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_A_ENEMY\"]/tooltip"
-msgstr ""
+msgstr "巨炮：发射三发空雷，散播渎神效果；心控敌人5秒且无法控制。"
 
 #: src-en/data/blueprints.xml.append:10165
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_A\"]/title"
-msgstr ""
+msgstr "'克索尔'巨炮"
 
 #: src-en/data/blueprints.xml.append:10166
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_A\"]/short"
-msgstr ""
+msgstr "'克索尔'"
 
 #: src-en/data/blueprints.xml.append:10167
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_A\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：25秒]释放3发空雷，散播渎神效果，暂时禁用死亡特效。并对击中的船"
+"员施加5秒不受控的精神控制。"
 
 #: src-en/data/blueprints.xml.append:10168
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_A\"]/tooltip"
-msgstr ""
+msgstr "巨炮：发射三发空雷，散播渎神效果；心控敌人5秒且无法控制。"
 
 #: src-en/data/blueprints.xml.append:10231
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_B\"]/title"
-msgstr ""
+msgstr "'乌兹卡帕'巨炮"
 
 #: src-en/data/blueprints.xml.append:10232
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_B\"]/short"
-msgstr ""
+msgstr "'乌兹卡帕'"
 
 #: src-en/data/blueprints.xml.append:10233
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_B\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：30秒]释放4发空雷，造成微弱伤害，但降低击中舱室的时间流速。并且"
+"造成渎神效果。"
 
 #: src-en/data/blueprints.xml.append:10234
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_B\"]/tooltip"
-msgstr ""
+msgstr "巨炮：释放4发空雷，降低击中舱室的时间流速5秒；只造成1点舰体伤害。传播渎神效果"
+"。"
 
 #: src-en/data/blueprints.xml.append:10310
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_C\"]/title"
-msgstr ""
+msgstr "'阿布霍斯'巨炮"
 
 #: src-en/data/blueprints.xml.append:10311
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_C\"]/short"
-msgstr ""
+msgstr "'阿布霍斯'"
 
 #: src-en/data/blueprints.xml.append:10312
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_C\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：30秒]释放5发空雷，不造成舰体或船员伤害，但同时传播疯狂和渎神效"
+"果。"
 
 #: src-en/data/blueprints.xml.append:10313
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TRIRIAC_C\"]/tooltip"
-msgstr ""
+msgstr "巨炮：释放5发空雷，不造成舰体或船员伤害，但同时传播疯狂和渎神。"
 
 #: src-en/data/blueprints.xml.append:10526
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ANCIENT_C\"]/title"
-msgstr ""
+msgstr "联合方碑猛攻空雷巨炮"
 
 #: src-en/data/blueprints.xml.append:10527
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ANCIENT_C\"]/short"
-msgstr ""
+msgstr "⛼ 猛攻巨炮"
 
 #: src-en/data/blueprints.xml.append:10528
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ANCIENT_C\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：40秒]一次可发射4枚空雷的强力齐射，每枚造成1点离子伤害与2点船体"
+"伤害。空雷必定触发眩晕，并有概率引发火灾或造成破舱。"
 
 #: src-en/data/blueprints.xml.append:10529
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ANCIENT_C\"]/tooltip"
-msgstr ""
+msgstr "一个强大的远古空雷，一次发射4颗空雷，每颗造成1点离子伤害和2点舰体伤害。中等几"
+"率触发起火破舱，不对船员或系统造成伤害，必定造成眩晕。"
 
 #: src-en/data/blueprints.xml.append:10575
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PERFECTED\"]/title"
-msgstr ""
+msgstr "完美导弹巨炮"
 
 #: src-en/data/blueprints.xml.append:10576
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PERFECTED\"]/short"
-msgstr ""
+msgstr "完美导弹"
 
 #: src-en/data/blueprints.xml.append:10577
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PERFECTED\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：45秒]一次发射4发不同的导弹，每一发都有完全不同的效果。"
 
 #: src-en/data/blueprints.xml.append:10578
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PERFECTED\"]/tooltip"
-msgstr ""
+msgstr "一套强大的古代导弹齐射系统，包含4枚效果各异的导弹。可触发所有负面状态。"
 
 #: src-en/data/blueprints.xml.append:10614
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"ARTILLERY_WITHER\"]/title"
-msgstr ""
+msgstr "安威斯腐蚀巨炮"
 
 #: src-en/data/blueprints.xml.append:10615
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"ARTILLERY_WITHER\"]/short"
-msgstr ""
+msgstr "腐蚀巨炮"
 
 #: src-en/data/blueprints.xml.append:10616
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"ARTILLERY_WITHER\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：40秒]发射一束强大的以太光束，穿透所有护盾，制造火焰，破舱和腐"
+"蚀效果。"
 
 #: src-en/data/blueprints.xml.append:10617
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"ARTILLERY_WITHER\"]/tooltip"
-msgstr ""
+msgstr "巨炮：一束强大的光束，可造成腐蚀，起火和破舱效果且穿透所有护盾。"
 
 #: src-en/data/blueprints.xml.append:10661
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER\"]/title"
-msgstr ""
+msgstr "最高安威斯爆裂激光巨炮"
 
 #: src-en/data/blueprints.xml.append:10662
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER\"]/short"
-msgstr ""
+msgstr "爆裂巨炮"
 
 #: src-en/data/blueprints.xml.append:10663
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：40秒]一连快速发射5道激光，每道激光造成1点舰体伤害并附带破舰效"
+"果。"
 
 #: src-en/data/blueprints.xml.append:10664
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER\"]/tooltip"
-msgstr ""
+msgstr "巨炮：一次发射5发1点舰体伤害且有破舰效果的激光。"
 
 #: src-en/data/blueprints.xml.append:10699
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER_B\"]/title"
-msgstr ""
+msgstr "最高安威斯黄金破片巨炮"
 
 #: src-en/data/blueprints.xml.append:10700
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER_B\"]/short"
-msgstr ""
+msgstr "黄金破片巨炮"
 
 #: src-en/data/blueprints.xml.append:10701
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER_B\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：30秒]一次发射8发缓慢移动的黄金破片，必定破舱。"
 
 #: src-en/data/blueprints.xml.append:10702
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER_B\"]/tooltip"
-msgstr ""
+msgstr "巨炮：一次发射8发缓慢移动的黄金破片，必定破舱。"
 
 #: src-en/data/blueprints.xml.append:10746
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER_C\"]/title"
-msgstr ""
+msgstr "最高安威斯火力支援巨炮"
 
 #: src-en/data/blueprints.xml.append:10747
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER_C\"]/short"
-msgstr ""
+msgstr "火力支援巨炮"
 
 #: src-en/data/blueprints.xml.append:10748
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER_C\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：50秒]召唤希尔凡的激光弹幕，向敌人发射10道必定引发火灾的激光。"
 
 #: src-en/data/blueprints.xml.append:10749
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER_C\"]/tooltip"
-msgstr ""
+msgstr "召唤火力支援，向敌人发射10道激光射线。"
 
 #: src-en/data/blueprints.xml.append:10782
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH\"]/title"
-msgstr ""
+msgstr "联合方碑锻造火炮"
 
 #: src-en/data/blueprints.xml.append:10783
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH\"]/short"
-msgstr ""
+msgstr "锻造火炮"
 
 #: src-en/data/blueprints.xml.append:10784
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH\"]/desc"
-msgstr ""
+msgstr "[基础充能时间：35秒] 一次可发射4道激光，每道激光造成1点舰体伤害与1点离子伤害"
+"。"
 
 #: src-en/data/blueprints.xml.append:10785
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH\"]/tooltip"
-msgstr ""
+msgstr "在区域内发射4枚射弹，造成1点伤害和离子效果，具有中等状态触发几率。"
 
 #: src-en/data/blueprints.xml.append:10824
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_B\"]/title"
-msgstr ""
+msgstr "联合方碑无人机架巨炮"
 
 #: src-en/data/blueprints.xml.append:10825
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_B\"]/short"
-msgstr ""
+msgstr "无人机巨炮"
 
 #: src-en/data/blueprints.xml.append:10826
 msgid ""
