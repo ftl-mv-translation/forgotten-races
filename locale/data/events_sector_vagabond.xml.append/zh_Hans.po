@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-10-31 18:37+0000\n"
+"PO-Revision-Date: 2025-11-02 05:20+0000\n"
 "Last-Translator: circle217 <3545024352@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_sector_vagabondxmlappend/zh_Hans/>\n"
@@ -84,19 +84,24 @@ msgstr "我们已经去过那里了！"
 msgid ""
 "data/events_sector_vagabond.xml.append$//event[@name=\"FR_TARTARUS_COORDINATES\"]/choice/event/choice/event/choice/event/choice[@req=\"fr_bounty_completed_mid_run\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "你出示了旅途的证明。\"而你居然还活着！？我...天啊！等等...我们之前给过你赏金"
+"吗？老天，我真是老糊涂了……\""
 
 #: src-en/data/events_sector_vagabond.xml.append:56
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"UNLOCK_GHOST_QUEST_2\"]/mod-"
 "append:choice/text"
-msgstr ""
+msgstr "(哥泽什)游灵想要说话。"
 
 #: src-en/data/events_sector_vagabond.xml.append:58
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"UNLOCK_GHOST_QUEST_2\"]/mod-"
 "append:choice/event/text"
 msgstr ""
+"\"喂，你们这些没脑子的！忘了我是谁了吗？！你们在那破船里搞什么鬼？赶紧自己滚"
+"出来，不然我亲手把你们轰出来！\"哥泽什一拳砸在桌上。\"天啊，是哥泽什！老、老"
+"大对不起！\"游灵们手忙脚乱地关闭武器系统，把全部废料和财物都传输给你。几秒钟"
+"后，随着所有游灵帮成员乘逃生舱弹射离开，整艘船顿时空无一人。"
 
 #: src-en/data/events_sector_vagabond.xml.append:63
 msgid ""
@@ -107,7 +112,8 @@ msgstr "继续。"
 #: src-en/data/events_sector_vagabond.xml.append:71
 msgid ""
 "data/events_sector_vagabond.xml.append$//event[@name=\"UNLOCK_GHOST_QUEST_WIN_GOZER\"]/text"
-msgstr ""
+msgstr "你不太确定幽灵猎人们会作何感想。你确实完成了他们的要求，但实现方式却与他们的"
+"预期不尽相同。"
 
 #: src-en/data/events_sector_vagabond.xml.append:74
 msgid ""
@@ -117,7 +123,8 @@ msgstr "继续。"
 #: src-en/data/events_sector_vagabond.xml.append:76
 msgid ""
 "data/events_sector_vagabond.xml.append$//event[@name=\"UNLOCK_GHOST_QUEST_WIN_GOZER\"]/choice/event/text"
-msgstr ""
+msgstr "幽灵猎人发来通讯：\"刚才那可真是...一言难尽？不过...既然最后这笔赏金已经结清"
+"，我们也没理由留着这艘船了。\""
 
 #: src-en/data/events_sector_vagabond.xml.append:86
 msgid ""
@@ -128,32 +135,40 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_vagabond.xml.append$//event[@name=\"UNLOCK_GHOST_QUEST_WIN_GOZER\"]/choice/event/choice/event/text"
 msgstr ""
+"\"哦，还有最后一件事。我觉得这些装备以后再也用不上了。虽然把心爱的质子怯魂器"
+"交给幽灵让我心情复杂...但眼下我更想花时间静静思考，我的人生究竟是怎么走到这一"
+"步的。\""
 
 #: src-en/data/events_sector_vagabond.xml.append:99
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"NEBULA_VAGABOND_ACID\"]/mod-"
 "append:choice/text"
-msgstr ""
+msgstr "(斯蒂凡)\"我知道他们的信息…很不幸。\""
 
 #: src-en/data/events_sector_vagabond.xml.append:101
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"NEBULA_VAGABOND_ACID\"]/mod-"
 "append:choice/event/text"
 msgstr ""
+"斯蒂凡解释他们现在只活跃于最危险的星域，不过提到自从加入我们船员后还未曾亲眼"
+"见过这些区域。这番话似乎让多莫迪乌斯深感满意。\"听啊，这可太令人好奇了。我原"
+"以为已探遍这宇宙每寸疆域，现在看来...怕是妄下定论了。恳请允许我随行，与你们这"
+"些无畏的探索者同往，这样我就能亲身见证奇迹显现！\""
 
 #: src-en/data/events_sector_vagabond.xml.append:102
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"NEBULA_VAGABOND_ACID\"]/mod-"
 "append:choice/event/crewMember"
-msgstr ""
+msgstr "多莫迪乌斯"
 
 #: src-en/data/events_sector_vagabond.xml.append:109
 msgid ""
 "data/events_sector_vagabond.xml.append$//mod:findName[@name=\"NEBULA_GHOST_INSANE_ROCKMEN\"]/mod-"
 "append:choice/text"
-msgstr ""
+msgstr "(还魂者船员)向他们展示真实的鬼魂。"
 
 #: src-en/data/events_sector_vagabond.xml.append:115
 msgid ""
 "data/events_sector_vagabond.xml.append$//event[@name=\"FR_NEBULA_GHOST_INSANE_ROCKMEN_REVENANT\"]/text"
-msgstr ""
+msgstr "那名岩石族见状发出尖叫，开始绕圈狂奔。不到一分钟，全体船员争先恐后地弹射逃离"
+"。这自然让你可以随心所欲地处置这艘完好无损的舰船。"
