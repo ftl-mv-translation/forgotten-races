@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-10-31 18:37+0000\n"
+"PO-Revision-Date: 2025-11-02 05:20+0000\n"
 "Last-Translator: circle217 <3545024352@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datahyperspace-xml-append/zh_Hans/>\n"
@@ -2356,36 +2356,44 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_sally_weaver\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：20秒  持续：10秒]\n"
+"\t\t\t完全治愈自身，提升其他友方蜘蛛的伤害2倍，持续10秒。"
 
 #: src-en/data/hyperspace.xml.append:8503
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_sally_weaver\"]/deathEffect/spawnCrew/name"
-msgstr ""
+msgstr "萨利"
 
 #: src-en/data/hyperspace.xml.append:8566
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_prince\"]/powerEffect/buttonText"
-msgstr ""
+msgstr "黑暗"
 
 #: src-en/data/hyperspace.xml.append:8567
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_prince\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：30秒  持续：10秒]\n"
+"\t\t\t用暗影笼罩房间，完全抵消敌方船员的远程伤害，并将其维修与系统破坏速度降"
+"至0.25倍。"
 
 #: src-en/data/hyperspace.xml.append:8636
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_prince_enemy\"]/powerEffect/buttonText"
-msgstr ""
+msgstr "黑暗"
 
 #: src-en/data/hyperspace.xml.append:8637
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_prince_enemy\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：30秒  持续：10秒]\n"
+"\t\t\t用暗影笼罩房间，完全抵消敌方船员的远程伤害，并将其维修与系统破坏速度降"
+"至0.25倍。"
 
 #: src-en/data/hyperspace.xml.append:8743
 msgid ""
@@ -2489,61 +2497,61 @@ msgstr "解离无人机"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_DIRECTORC\"]/tooltipName"
-msgstr ""
+msgstr "导引无人机"
 
 #: src-en/data/hyperspace.xml.append:9946
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_MENDERC\"]/tooltipName"
-msgstr ""
+msgstr "修复无人机"
 
 #: src-en/data/hyperspace.xml.append:9950
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_MENDERC_ENEMY\"]/tooltipName"
-msgstr ""
+msgstr "修复无人机"
 
 #: src-en/data/hyperspace.xml.append:9954
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_ATOMW\"]/tooltipName"
-msgstr ""
+msgstr "实验性解离无人机"
 
 #: src-en/data/hyperspace.xml.append:9958
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_DIRECTORW\"]/tooltipName"
-msgstr ""
+msgstr "实验性导引无人机"
 
 #: src-en/data/hyperspace.xml.append:9962
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_MENDERW\"]/tooltipName"
-msgstr ""
+msgstr "实验性修复无人机"
 
 #: src-en/data/hyperspace.xml.append:9966
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_MENDERW_ENEMY\"]/tooltipName"
-msgstr ""
+msgstr "实验性修复无人机"
 
 #: src-en/data/hyperspace.xml.append:9970
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_GHOSTLY_DRONE\"]/tooltipName"
-msgstr ""
+msgstr "魂灵战斗无人机"
 
 #: src-en/data/hyperspace.xml.append:9974
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_CLEO_SPAWN_ANTI_PERSONNEL\"]/tooltipName"
-msgstr ""
+msgstr "克里奥的生孳无人机(舰内)"
 
 #: src-en/data/hyperspace.xml.append:9978
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_CLEO_SPAWN_BOARDING\"]/tooltipName"
-msgstr ""
+msgstr "克里奥的生孳无人机(登舰)"
 
 #: src-en/data/hyperspace.xml.append:10871
 msgid ""
@@ -2556,6 +2564,10 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_RUES_GENETICS\"]/statBoosts/statBoost[32]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：17秒  持续时间：7秒]\n"
+"\t\t\t\t\t移动速度提升至3.5倍，船员伤害提升至3倍。同时受到环境危害的伤害增加4"
+"倍。\n"
+"\t\t\t\t\t(萤火虫实验室升级可将火焰伤害降至1倍。)"
 
 #: src-en/data/hyperspace.xml.append:10907
 msgid ""
@@ -2568,6 +2580,10 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_RUES_GENETICS\"]/statBoosts/statBoost[33]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：20秒  持续时间：10秒]\n"
+"\t\t\t\t\t移动速度提升至6倍，船员伤害提升至4.3倍。同时受到环境危害的伤害增加7"
+"倍，且持续期间无法进行维修。\n"
+"\t\t\t\t\t(萤火虫实验室升级可将火焰伤害降至1倍。)"
 
 #: src-en/data/hyperspace.xml.append:12305
 msgid ""
@@ -2580,6 +2596,9 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LOCAL_MAINTENANCE\"]/statBoosts/statBoost[1]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：25秒]\n"
+"\t\t\t\t\t召唤一个临时无人机助手，能够参与战斗和破坏系统，但无法进行维修或操"
+"作系统。该无人机进入敌舰后将在30秒内自毁。"
 
 #: src-en/data/hyperspace.xml.append:12341
 msgid ""
@@ -2591,43 +2610,51 @@ msgstr "有效期"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LOCAL_MAINTENANCE\"]/statBoosts/statBoost[2]/powerEffect/tooltip"
-msgstr ""
+msgstr "该无人机在敌舰内部仅能存活30秒"
 
 #: src-en/data/hyperspace.xml.append:14201
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_NEXUS_MEDBAY_POWER\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/buttonText"
-msgstr ""
+msgstr "镇痛剂"
 
 #: src-en/data/hyperspace.xml.append:14202
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_NEXUS_MEDBAY_POWER\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：1秒]\n"
+"\t\t\t\t\t\t治疗自身20点生命值。"
 
 #: src-en/data/hyperspace.xml.append:14521
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_INFESTATION\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/buttonText"
-msgstr ""
+msgstr "感染"
 
 #: src-en/data/hyperspace.xml.append:14522
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_INFESTATION\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：15秒]\n"
+"\t\t\t\t\t\t一只蜘蛛将从该船员体内破体而出，对其造成5点伤害，并孵化一只存活7"
+"秒且不可控制的幼蛛。"
 
 #: src-en/data/hyperspace.xml.append:14571
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_INFESTATION_ENEMY\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/buttonText"
-msgstr ""
+msgstr "感染！"
 
 #: src-en/data/hyperspace.xml.append:14572
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_INFESTATION_ENEMY\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：25秒]\n"
+"\t\t\t\t\t\t一只蜘蛛将从该船员体内破体而出，对其造成5点伤害，并孵化一只存活7"
+"秒且不可控制的幼蛛。幼蛛造成0.5倍战斗伤害。"
 
 #: src-en/data/hyperspace.xml.append:15600
 msgid ""
@@ -2640,6 +2667,9 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_SALT_PRO_SLUG_SALT\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：20秒  持续时间：15秒]\n"
+"\t\t\t\t持续对周围船员造成伤害并使其速度降低25%。敌方每秒损失8点生命值，友方"
+"每秒损失4点生命值，蛞蝓族每秒恢复4点生命值。"
 
 #: src-en/data/hyperspace.xml.append:15740
 msgid ""
@@ -2652,18 +2682,23 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_SALT_HEALING_CRYTALS\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：20秒  持续时间：15秒]\n"
+"\t\t\t\t持续以6生命值/秒的速度恢复友方船员生命值。"
 
 #: src-en/data/hyperspace.xml.append:15870
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_OSMIAN_ONE_BODY\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/buttonText"
-msgstr ""
+msgstr "融合"
 
 #: src-en/data/hyperspace.xml.append:15871
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_OSMIAN_ONE_BODY\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：35秒 持续时间：30秒]\n"
+"\t\t\t\t\t与舰体部分融合。为当前系统提供1点能量，并获得25%伤害抗性、免疫心灵"
+"控制与环境伤害，同时具备穿透舱门能力。"
 
 #: src-en/data/hyperspace.xml.append:15917
 msgid ""
@@ -2676,6 +2711,8 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_OSMIAN_SOULFUL_LIGHT\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：7秒]\n"
+"\t\t\t\t\t\t生成一个全息助手，能够以2级技能操作系统。性能弱于临时版本。"
 
 #: src-en/data/hyperspace.xml.append:15963
 msgid ""
@@ -2688,6 +2725,8 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_ELEMAN_UNSTABILITY\"]/statBoosts/statBoost[1]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：10秒]\n"
+"\t\t\t\t\t在当前舱室起火。"
 
 #: src-en/data/hyperspace.xml.append:15988
 msgid ""
@@ -2700,6 +2739,8 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_ELEMAN_UNSTABILITY\"]/statBoosts/statBoost[2]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：10秒]\n"
+"\t\t\t\t\t在当前舱室制造一处破舱。"
 
 #: src-en/data/hyperspace.xml.append:16473
 msgid ""
@@ -2712,1260 +2753,1262 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_HEKTAR_SUPERSHIELD_STUN\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
+"[冷却时间：5秒]\n"
+"\t\t\t\t\t\t这个船员眩晕2秒。"
 
 #: src-en/data/hyperspace.xml.append:18462
 msgid ""
 "data/hyperspace.xml.append$//mod:findName[@name=\"PLAYER_SHIP_CEL\"]/mod-"
 "overwrite:crew/fr_sylvan_cel[1]/@name"
-msgstr ""
+msgstr "希尔凡"
 
 #: src-en/data/hyperspace.xml.append:18463
 msgid ""
 "data/hyperspace.xml.append$//mod:findName[@name=\"PLAYER_SHIP_CEL\"]/mod-"
 "overwrite:crew/fr_sylvan_cel[2]/@name"
-msgstr ""
+msgstr "希尔凡"
 
 #: src-en/data/hyperspace.xml.append:18464
 msgid "data/hyperspace.xml.append$//fr_obyn_cel[@name=\"Obyn\"]/@name"
-msgstr ""
+msgstr "奥宾"
 
 #: src-en/data/hyperspace.xml.append:18552
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_OBELISK_FLAGSHIP_3\"]/crew/unique_wither[@name=\"Aenwithe\"]/@name"
-msgstr ""
+msgstr "安威斯"
 
 #: src-en/data/hyperspace.xml.append:18636
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ELITE_OBELISK_FLAGSHIP_2\"]/crew/fr_reborn_g[@name=\"G\"]/@name"
-msgstr ""
+msgstr "G"
 
 #: src-en/data/hyperspace.xml.append:18674
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ELITE_OBELISK_FLAGSHIP_3\"]/crew/fr_unique_y[1]/@name"
-msgstr ""
+msgstr "Y"
 
 #: src-en/data/hyperspace.xml.append:18675
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ELITE_OBELISK_FLAGSHIP_3\"]/crew/fr_unique_y[2]/@name"
-msgstr ""
+msgstr "Y"
 
 #: src-en/data/hyperspace.xml.append:18676
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ELITE_OBELISK_FLAGSHIP_3\"]/crew/fr_unique_y[3]/@name"
-msgstr ""
+msgstr "Y"
 
 #: src-en/data/hyperspace.xml.append:18706
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_1\"]/name"
-msgstr ""
+msgstr "无穷力量"
 
 #: src-en/data/hyperspace.xml.append:18707
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_1\"]/description"
-msgstr ""
+msgstr "在使用任何联合方碑舰船时，将所有武器槽位装备能造成离子伤害的武器。"
 
 #: src-en/data/hyperspace.xml.append:18712
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_2\"]/name"
-msgstr ""
+msgstr "手持巨棒"
 
 #: src-en/data/hyperspace.xml.append:18713
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_2\"]/description"
-msgstr ""
+msgstr "在使用任何联合方碑星舰时，将巨炮系统升级至5级，同时保持武器控制系统不升级。"
 
 #: src-en/data/hyperspace.xml.append:18718
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_3\"]/name"
-msgstr ""
+msgstr "超凡伟力"
 
 #: src-en/data/hyperspace.xml.append:18719
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_SHIP_FR_COMMONWEALTH_3\"]/description"
-msgstr ""
+msgstr "在使用任何联合方碑星舰时，装备至少能造成5点离子伤害的武器。"
 
 #: src-en/data/hyperspace.xml.append:18781
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_DESERTER_SYLVAN\"]/crew/fr_unique_cylvan[@name=\"Cylvan\"]/@name"
-msgstr ""
+msgstr "赛尔凡"
 
 #: src-en/data/hyperspace.xml.append:18802
 msgid ""
 "data/hyperspace.xml.append$//fr_unique_collector[@name=\"Collector\"]/@name"
-msgstr ""
+msgstr "收藏家"
 
 #: src-en/data/hyperspace.xml.append:18823
 msgid "data/hyperspace.xml.append$//mantis_free[@name=\"Sylvan\"]/@name"
-msgstr ""
+msgstr "希尔凡"
 
 #: src-en/data/hyperspace.xml.append:18938
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_PERFECTED\"]/crew/unique_wither[@name=\"Aenwithe\"]/@name"
-msgstr ""
+msgstr "安威斯"
 
 #: src-en/data/hyperspace.xml.append:18966
 msgid "data/hyperspace.xml.append$//unique_anointed[@name=\"Anointed\"]/@name"
-msgstr ""
+msgstr "强选者"
 
 #: src-en/data/hyperspace.xml.append:19005
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER\"]/crew/unique_wither[1]/@name"
-msgstr ""
+msgstr "安威斯"
 
 #: src-en/data/hyperspace.xml.append:19006
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER\"]/crew/unique_wither[2]/@name"
-msgstr ""
+msgstr "安威斯"
 
 #: src-en/data/hyperspace.xml.append:19007
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER\"]/crew/unique_wither[3]/@name"
-msgstr ""
+msgstr "安威斯"
 
 #: src-en/data/hyperspace.xml.append:19016
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER_2\"]/crew/unique_wither[1]/@name"
-msgstr ""
+msgstr "安威斯"
 
 #: src-en/data/hyperspace.xml.append:19017
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER_2\"]/crew/unique_wither[2]/@name"
-msgstr ""
+msgstr "安威斯"
 
 #: src-en/data/hyperspace.xml.append:19027
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER_3\"]/crew/LIST_CREW_SYLVAN_START[@name=\"Sylvan\"]/@name"
-msgstr ""
+msgstr "希尔凡"
 
 #: src-en/data/hyperspace.xml.append:19028
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_ALT_WITHER_3\"]/crew/unique_wither[@name=\"Aenwithe\"]/@name"
-msgstr ""
+msgstr "安威斯"
 
 #: src-en/data/hyperspace.xml.append:19207
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER\"]/crew/fr_unique_mantis_queen[@name=\"Leikonpliiinakra\"]/@name"
-msgstr ""
+msgstr "莱孔普利纳克拉"
 
 #: src-en/data/hyperspace.xml.append:19218
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER_2\"]/crew/fr_unique_mantis_queen[@name=\"Leikonpliiinakra\"]/@name"
-msgstr ""
+msgstr "莱孔普利纳克拉"
 
 #: src-en/data/hyperspace.xml.append:19219
 msgid "data/hyperspace.xml.append$//unique_kaz[@name=\"Kazaaakplethkilik\"]/@name"
-msgstr ""
+msgstr "卡扎卡普勒斯里克"
 
 #: src-en/data/hyperspace.xml.append:19227
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER_3\"]/crew/fr_unique_mantis_queen[@name=\"Leikonpliiinakra\"]/@name"
-msgstr ""
+msgstr "莱孔普利纳克拉"
 
 #: src-en/data/hyperspace.xml.append:19228
 msgid "data/hyperspace.xml.append$//unique_freddy[@name=\"Freddy\"]/@name"
-msgstr ""
+msgstr "弗雷迪"
 
 #: src-en/data/hyperspace.xml.append:19256
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CYRA_CREWSER\"]/crew/unique_cyra[@name=\"Cyra\"]/@name"
-msgstr ""
+msgstr "塞拉"
 
 #: src-en/data/hyperspace.xml.append:19264
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CYRA_CREWSER_2\"]/crew/unique_leah[@name=\"Leah\"]/@name"
-msgstr ""
+msgstr "莉娅"
 
 #: src-en/data/hyperspace.xml.append:19265
 msgid "data/hyperspace.xml.append$//unique_jerry[@name=\"Jerry\"]/@name"
-msgstr ""
+msgstr "杰瑞"
 
 #: src-en/data/hyperspace.xml.append:19273
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CYRA_CREWSER_3\"]/crew/unique_cyra[@name=\"Cyra\"]/@name"
-msgstr ""
+msgstr "塞拉"
 
 #: src-en/data/hyperspace.xml.append:19303
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_GOZER_CREWSER\"]/crew/fr_gozer[@name=\"Goziodeon\"]/@name"
-msgstr ""
+msgstr "哥泽什"
 
 #: src-en/data/hyperspace.xml.append:19312
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_GOZER_CREWSER_2\"]/crew/fr_gozer[1]/@name"
-msgstr ""
+msgstr "哥泽什"
 
 #: src-en/data/hyperspace.xml.append:19313
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_GOZER_CREWSER_2\"]/crew/fr_gozer[2]/@name"
-msgstr ""
+msgstr "哥泽什"
 
 #: src-en/data/hyperspace.xml.append:19346
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_STEFAN_CREWSER\"]/crew/human_humanoid[@name=\"Stefan\"]/@name"
-msgstr ""
+msgstr "斯蒂凡"
 
 #: src-en/data/hyperspace.xml.append:19354
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_STEFAN_CREWSER_2\"]/crew/human_humanoid[@name=\"Stefan\"]/@name"
-msgstr ""
+msgstr "斯蒂凡"
 
 #: src-en/data/hyperspace.xml.append:19366
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_STEFAN_CREWSER_3\"]/crew/human_humanoid[@name=\"Stefan\"]/@name"
-msgstr ""
+msgstr "斯蒂凡"
 
 #: src-en/data/hyperspace.xml.append:19396
 msgid "data/hyperspace.xml.append$//spider_venom[@name=\"Joy\"]/@name"
-msgstr ""
+msgstr "乔伊"
 
 #: src-en/data/hyperspace.xml.append:19397
 msgid "data/hyperspace.xml.append$//spider_venom[@name=\"Araneo\"]/@name"
-msgstr ""
+msgstr "蛛网"
 
 #: src-en/data/hyperspace.xml.append:19398
 msgid "data/hyperspace.xml.append$//spider_venom[@name=\"Nelly\"]/@name"
-msgstr ""
+msgstr "奈莉"
 
 #: src-en/data/hyperspace.xml.append:19406
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_VENOMOUS_SPIDER_QUEEN_CREWSER_2\"]/crew/spider_venom[@name=\"Charlotte\"]/@name"
-msgstr ""
+msgstr "夏洛特"
 
 #: src-en/data/hyperspace.xml.append:19407
 msgid "data/hyperspace.xml.append$//unique_queen[@name=\"Queen\"]/@name"
-msgstr ""
+msgstr "蜘蛛虫后"
 
 #: src-en/data/hyperspace.xml.append:19415
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_VENOMOUS_SPIDER_QUEEN_CREWSER_3\"]/crew/spider_venom[@name=\"Charlotte\"]/@name"
-msgstr ""
+msgstr "夏洛特"
 
 #: src-en/data/hyperspace.xml.append:19446
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CYBERPONY_CREWSER\"]/crew/pony_engi[1]/@name"
-msgstr ""
+msgstr "3QU3STR14"
 
 #: src-en/data/hyperspace.xml.append:19447
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CYBERPONY_CREWSER\"]/crew/pony_engi[2]/@name"
-msgstr ""
+msgstr "3QU3STR14"
 
 #: src-en/data/hyperspace.xml.append:19448
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CYBERPONY_CREWSER\"]/crew/pony_engi[3]/@name"
-msgstr ""
+msgstr "3QU3STR14"
 
 #: src-en/data/hyperspace.xml.append:19456
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CYBERPONY_CREWSER_2\"]/crew/pony_engi[@name=\"3QU3STR14\"]/@name"
-msgstr ""
+msgstr "3QU3STR14"
 
 #: src-en/data/hyperspace.xml.append:19465
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CYBERPONY_CREWSER_3\"]/crew/pony_engi[@name=\"3QU3STR14\"]/@name"
-msgstr ""
+msgstr "3QU3STR14"
 
 #: src-en/data/hyperspace.xml.append:19497
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_SAMMY_CREWSER\"]/crew/fr_unique_sammy[@name=\"Sammy\"]/@name"
-msgstr ""
+msgstr "萨米"
 
 #: src-en/data/hyperspace.xml.append:19507
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_SAMMY_CREWSER_2\"]/crew/fr_unique_sammy[@name=\"Sammy\"]/@name"
-msgstr ""
+msgstr "萨米"
 
 #: src-en/data/hyperspace.xml.append:19508
 msgid "data/hyperspace.xml.append$//unique_queen[@name=\"Muffet\"]/@name"
-msgstr ""
+msgstr "玛菲特"
 
 #: src-en/data/hyperspace.xml.append:19517
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_SAMMY_CREWSER_3\"]/crew/fr_unique_sammy[@name=\"Sammy\"]/@name"
-msgstr ""
+msgstr "萨米"
 
 #: src-en/data/hyperspace.xml.append:19518
 msgid "data/hyperspace.xml.append$//unique_ellie[@name=\"Ellie\"]/@name"
-msgstr ""
+msgstr "埃莉"
 
 #: src-en/data/hyperspace.xml.append:19584
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_LEAH_CREWSER\"]/crew/unique_leah[@name=\"Leah\"]/@name"
-msgstr ""
+msgstr "莉娅"
 
 #: src-en/data/hyperspace.xml.append:19595
 msgid "data/hyperspace.xml.append$//unique_leah_mfk[@name=\"Leah\"]/@name"
-msgstr ""
+msgstr "莉娅"
 
 #: src-en/data/hyperspace.xml.append:19605
 msgid "data/hyperspace.xml.append$//fr_unique_leah_legion[@name=\"Leah\"]/@name"
-msgstr ""
+msgstr "莉娅"
 
 #: src-en/data/hyperspace.xml.append:19630
 msgid "data/hyperspace.xml.append$//sylvanleah[@name=\"Syleah\"]/@name"
-msgstr ""
+msgstr "希莉娅"
 
 #: src-en/data/hyperspace.xml.append:19631
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_SYLEAH_CREWSER\"]/crew/LIST_CREW_SYLVAN_START[1]/@name"
-msgstr ""
+msgstr "希尔凡"
 
 #: src-en/data/hyperspace.xml.append:19632
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_SYLEAH_CREWSER\"]/crew/LIST_CREW_SYLVAN_START[2]/@name"
-msgstr ""
+msgstr "希尔凡"
 
 #: src-en/data/hyperspace.xml.append:19640
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_SYLEAH_CREWSER_2\"]/crew/fr_unique_billvan[@name=\"Billvan\"]/@name"
-msgstr ""
+msgstr "比尔凡"
 
 #: src-en/data/hyperspace.xml.append:19660
 msgid "data/hyperspace.xml.append$//bucket[@name=\"Bucket\"]/@name"
-msgstr ""
+msgstr "桶"
 
 #: src-en/data/hyperspace.xml.append:19787
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_VANCE_PRIME_CREWSER\"]/crew/unique_vance[@name=\"Vance\"]/@name"
-msgstr ""
+msgstr "万斯"
 
 #: src-en/data/hyperspace.xml.append:19821
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_VANCE_PRIME_CREWSER_2\"]/crew/unique_vance[@name=\"Vance\"]/@name"
-msgstr ""
+msgstr "万斯"
 
 #: src-en/data/hyperspace.xml.append:19822
 msgid "data/hyperspace.xml.append$//unique_jerry_gun[@name=\"Jerry\"]/@name"
-msgstr ""
+msgstr "杰瑞"
 
 #: src-en/data/hyperspace.xml.append:19853
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_VANCE_PRIME_CREWSER_3\"]/crew/unique_vance[@name=\"Vance\"]/@name"
-msgstr ""
+msgstr "万斯"
 
 #: src-en/data/hyperspace.xml.append:19854
 msgid "data/hyperspace.xml.append$//unique_tully[@name=\"Tully\"]/@name"
-msgstr ""
+msgstr "塔利"
 
 #: src-en/data/hyperspace.xml.append:19897
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP\"]/crew/unique_vance[@name=\"Vance\"]/@name"
-msgstr ""
+msgstr "万斯"
 
 #: src-en/data/hyperspace.xml.append:19898
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP\"]/crew/unique_cyra[@name=\"Cyra\"]/@name"
-msgstr ""
+msgstr "塞拉"
 
 #: src-en/data/hyperspace.xml.append:19971
 msgid "data/hyperspace.xml.append$//unique_tully[@name=\"Admiral Tully\"]/@name"
-msgstr ""
+msgstr "塔利上将"
 
 #: src-en/data/hyperspace.xml.append:20020
 msgid "data/hyperspace.xml.append$//prime[@name=\"Sylvan Prime\"]/@name"
-msgstr ""
+msgstr "希尔凡领主"
 
 #: src-en/data/hyperspace.xml.append:20021
 msgid ""
 "data/hyperspace.xml.append$//eldritch_cat[@name=\"The One Who "
 "Rhymes\"]/@name"
-msgstr ""
+msgstr "押韵者"
 
 #: src-en/data/hyperspace.xml.append:20043
 msgid "data/hyperspace.xml.append$//unique_judge_thest[@name=\"Thest\"]/@name"
-msgstr ""
+msgstr "赛斯特"
 
 #: src-en/data/hyperspace.xml.append:20044
 msgid "data/hyperspace.xml.append$//unique_judge_corby[@name=\"Corby\"]/@name"
-msgstr ""
+msgstr "阔碧"
 
 #: src-en/data/hyperspace.xml.append:20045
 msgid "data/hyperspace.xml.append$//unique_judge_wakeson[@name=\"Wakeson\"]/@name"
-msgstr ""
+msgstr "威克森"
 
 #: src-en/data/hyperspace.xml.append:20331
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_SLIMER\"]/crew/fr_reborn_slimer[@name=\"Slimer\"]/@name"
-msgstr ""
+msgstr "黏稠者"
 
 #: src-en/data/hyperspace.xml.append:20342
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_SLIMER_2\"]/crew/fr_reborn_slimer[@name=\"Slimer\"]/@name"
-msgstr ""
+msgstr "黏稠者"
 
 #: src-en/data/hyperspace.xml.append:20352
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_SLIMER_3\"]/crew[1]/fr_reborn_slimer[@name=\"Slimer\"]/@name"
-msgstr ""
+msgstr "黏稠者"
 
 #: src-en/data/hyperspace.xml.append:20355
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_SLIMER_3\"]/crew[2]/fr_reborn_slimer[@name=\"Slimer\"]/@name"
-msgstr ""
+msgstr "黏稠者"
 
 #: src-en/data/hyperspace.xml.append:20358
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_SLIMER_3\"]/crew[3]/fr_reborn_slimer[@name=\"Slimer\"]/@name"
-msgstr ""
+msgstr "黏稠者"
 
 #: src-en/data/hyperspace.xml.append:20386
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_PHYS\"]/crew/fr_reborn_phys[@name=\"Phys\"]/@name"
-msgstr ""
+msgstr "菲斯"
 
 #: src-en/data/hyperspace.xml.append:20523
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_PHYS_2\"]/crew/fr_reborn_phys[@name=\"Phys\"]/@name"
-msgstr ""
+msgstr "菲斯"
 
 #: src-en/data/hyperspace.xml.append:20668
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_PHYS_3\"]/crew/fr_reborn_phys[1]/@name"
-msgstr ""
+msgstr "菲斯"
 
 #: src-en/data/hyperspace.xml.append:20669
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_PHYS_3\"]/crew/fr_reborn_phys[2]/@name"
-msgstr ""
+msgstr "菲斯"
 
 #: src-en/data/hyperspace.xml.append:20670
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_PHYS_3\"]/crew/fr_reborn_phys[3]/@name"
-msgstr ""
+msgstr "菲斯"
 
 #: src-en/data/hyperspace.xml.append:20810
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_ALEENOR\"]/crew/fr_reborn_aleenor[@name=\"Aleenor\"]/@name"
-msgstr ""
+msgstr "埃莉诺"
 
 #: src-en/data/hyperspace.xml.append:20842
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_ALEENOR_2\"]/crew/fr_reborn_aleenor[@name=\"Aleenor\"]/@name"
-msgstr ""
+msgstr "埃莉诺"
 
 #: src-en/data/hyperspace.xml.append:20865
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_ALEENOR_3\"]/crew/fr_reborn_aleenor[1]/@name"
-msgstr ""
+msgstr "埃莉诺"
 
 #: src-en/data/hyperspace.xml.append:20866
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_ALEENOR_3\"]/crew/fr_reborn_aleenor[2]/@name"
-msgstr ""
+msgstr "埃莉诺"
 
 #: src-en/data/hyperspace.xml.append:20867
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_ALEENOR_3\"]/crew/fr_reborn_aleenor[3]/@name"
-msgstr ""
+msgstr "埃莉诺"
 
 #: src-en/data/hyperspace.xml.append:20906
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_VIN\"]/crew/fr_reborn_vin[@name=\"Vin\"]/@name"
-msgstr ""
+msgstr "文"
 
 #: src-en/data/hyperspace.xml.append:20916
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_VIN_2\"]/crew/fr_reborn_vin[@name=\"Vin\"]/@name"
-msgstr ""
+msgstr "文"
 
 #: src-en/data/hyperspace.xml.append:20927
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_VIN_3\"]/crew/fr_reborn_vin[1]/@name"
-msgstr ""
+msgstr "文"
 
 #: src-en/data/hyperspace.xml.append:20928
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_VIN_3\"]/crew/fr_reborn_vin[2]/@name"
-msgstr ""
+msgstr "文"
 
 #: src-en/data/hyperspace.xml.append:20929
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_VIN_3\"]/crew/fr_reborn_vin[3]/@name"
-msgstr ""
+msgstr "文"
 
 #: src-en/data/hyperspace.xml.append:20958
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_CLEO\"]/crew/fr_reborn_cleo[@name=\"Cleo\"]/@name"
-msgstr ""
+msgstr "克里奥"
 
 #: src-en/data/hyperspace.xml.append:20973
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_CLEO_2\"]/crew/fr_reborn_cleo[@name=\"Cleo\"]/@name"
-msgstr ""
+msgstr "克里奥"
 
 #: src-en/data/hyperspace.xml.append:20983
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_CLEO_3\"]/crew/fr_reborn_cleo[1]/@name"
-msgstr ""
+msgstr "克里奥"
 
 #: src-en/data/hyperspace.xml.append:20984
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_CLEO_3\"]/crew/fr_reborn_cleo[2]/@name"
-msgstr ""
+msgstr "克里奥"
 
 #: src-en/data/hyperspace.xml.append:20985
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_CLEO_3\"]/crew/fr_reborn_cleo[3]/@name"
-msgstr ""
+msgstr "克里奥"
 
 #: src-en/data/hyperspace.xml.append:21013
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_ZULU\"]/crew/fr_reborn_zulu[@name=\"Zulu\"]/@name"
-msgstr ""
+msgstr "祖鲁"
 
 #: src-en/data/hyperspace.xml.append:21024
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_ZULU_2\"]/crew/fr_reborn_zulu[@name=\"Zulu\"]/@name"
-msgstr ""
+msgstr "祖鲁"
 
 #: src-en/data/hyperspace.xml.append:21034
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_ZULU_3\"]/crew/fr_reborn_zulu[1]/@name"
-msgstr ""
+msgstr "祖鲁"
 
 #: src-en/data/hyperspace.xml.append:21035
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_ZULU_3\"]/crew/fr_reborn_zulu[2]/@name"
-msgstr ""
+msgstr "祖鲁"
 
 #: src-en/data/hyperspace.xml.append:21036
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_ZULU_3\"]/crew/fr_reborn_zulu[3]/@name"
-msgstr ""
+msgstr "祖鲁"
 
 #: src-en/data/hyperspace.xml.append:21064
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_G\"]/crew/fr_reborn_g[@name=\"G\"]/@name"
-msgstr ""
+msgstr "G"
 
 #: src-en/data/hyperspace.xml.append:21086
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_G_2\"]/crew/fr_reborn_g[@name=\"G\"]/@name"
-msgstr ""
+msgstr "G"
 
 #: src-en/data/hyperspace.xml.append:21107
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_G_3\"]/crew/fr_reborn_g[1]/@name"
-msgstr ""
+msgstr "G"
 
 #: src-en/data/hyperspace.xml.append:21108
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_G_3\"]/crew/fr_reborn_g[2]/@name"
-msgstr ""
+msgstr "G"
 
 #: src-en/data/hyperspace.xml.append:21109
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_G_3\"]/crew/fr_reborn_g[3]/@name"
-msgstr ""
+msgstr "G"
 
 #: src-en/data/hyperspace.xml.append:21197
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_FLAGSHIP\"]/crew/fr_reborn_g[@name=\"G\"]/@name"
-msgstr ""
+msgstr "G"
 
 #: src-en/data/hyperspace.xml.append:21209
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_FLAGSHIP_2\"]/crew/fr_watcher[@name=\"Watcher\"]/@name"
-msgstr ""
+msgstr "监视者"
 
 #: src-en/data/hyperspace.xml.append:21286
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_FLAGSHIP_3\"]/crew/fr_gozer[@name=\"Goziodeon\"]/@name"
-msgstr ""
+msgstr "哥泽什"
 
 #: src-en/data/hyperspace.xml.append:21287
 msgid "data/hyperspace.xml.append$//gbeleanor[@name=\"Ellebeneare\"]/@name"
-msgstr ""
+msgstr "艾乐贝妮尔"
 
 #: src-en/data/hyperspace.xml.append:21288
 msgid "data/hyperspace.xml.append$//gbpsych[@name=\"Psycadellius\"]/@name"
-msgstr ""
+msgstr "赛可多列斯"
 
 #: src-en/data/hyperspace.xml.append:21289
 msgid "data/hyperspace.xml.append$//gbscoleri[@name=\"Socolarei\"]/@name"
-msgstr ""
+msgstr "斯科拉雷"
 
 #: src-en/data/hyperspace.xml.append:21290
 msgid "data/hyperspace.xml.append$//gbslimer[@name=\"Slimer\"]/@name"
-msgstr ""
+msgstr "黏稠者"
 
 #: src-en/data/hyperspace.xml.append:21291
 msgid "data/hyperspace.xml.append$//gbvinz[@name=\"Vinezaleon\"]/@name"
-msgstr ""
+msgstr "威拉泽连"
 
 #: src-en/data/hyperspace.xml.append:21292
 msgid "data/hyperspace.xml.append$//gbzuul[@name=\"Zulbazare\"]/@name"
-msgstr ""
+msgstr "祖巴泽尔"
 
 #: src-en/data/hyperspace.xml.append:21320
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SMOKE\"]/crew/fr_reformed_smoke[@name=\"Smoke\"]/@name"
-msgstr ""
+msgstr "斯莫克"
 
 #: src-en/data/hyperspace.xml.append:21331
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SMOKE_2\"]/crew/fr_reformed_smoke[@name=\"Smoke\"]/@name"
-msgstr ""
+msgstr "斯莫克"
 
 #: src-en/data/hyperspace.xml.append:21346
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SMOKE_3\"]/crew/fr_reformed_smoke[1]/@name"
-msgstr ""
+msgstr "斯莫克"
 
 #: src-en/data/hyperspace.xml.append:21347
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SMOKE_3\"]/crew/fr_reformed_smoke[2]/@name"
-msgstr ""
+msgstr "斯莫克"
 
 #: src-en/data/hyperspace.xml.append:21348
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SMOKE_3\"]/crew/fr_reformed_smoke[3]/@name"
-msgstr ""
+msgstr "斯莫克"
 
 #: src-en/data/hyperspace.xml.append:21376
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHILLS\"]/crew/fr_reformed_chills[@name=\"Chills\"]/@name"
-msgstr ""
+msgstr "切尔丝"
 
 #: src-en/data/hyperspace.xml.append:21387
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHILLS_2\"]/crew/fr_reformed_chills[@name=\"Chills\"]/@name"
-msgstr ""
+msgstr "切尔丝"
 
 #: src-en/data/hyperspace.xml.append:21397
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHILLS_3\"]/crew/fr_reformed_chills[1]/@name"
-msgstr ""
+msgstr "切尔丝"
 
 #: src-en/data/hyperspace.xml.append:21398
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHILLS_3\"]/crew/fr_reformed_chills[2]/@name"
-msgstr ""
+msgstr "切尔丝"
 
 #: src-en/data/hyperspace.xml.append:21399
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHILLS_3\"]/crew/fr_reformed_chills[3]/@name"
-msgstr ""
+msgstr "切尔丝"
 
 #: src-en/data/hyperspace.xml.append:21427
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_POK\"]/crew/fr_reformed_pok[@name=\"Pok\"]/@name"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/hyperspace.xml.append:21442
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_POK_2\"]/crew/fr_reformed_pok[@name=\"Pok\"]/@name"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/hyperspace.xml.append:21458
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_POK_3\"]/crew/FR_LIST_CREW_MORPHS_POK[1]/@name"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/hyperspace.xml.append:21459
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_POK_3\"]/crew/FR_LIST_CREW_MORPHS_POK[2]/@name"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/hyperspace.xml.append:21460
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_POK_3\"]/crew/FR_LIST_CREW_MORPHS_POK[3]/@name"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/hyperspace.xml.append:21491
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHARROR\"]/crew/fr_reformed_charror[@name=\"Charror\"]/@name"
-msgstr ""
+msgstr "查罗"
 
 #: src-en/data/hyperspace.xml.append:21503
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHARROR_2\"]/crew/fr_reformed_charror[@name=\"Charror\"]/@name"
-msgstr ""
+msgstr "查罗"
 
 #: src-en/data/hyperspace.xml.append:21504
 msgid "data/hyperspace.xml.append$//fr_errorman[@name=\"DATA\"]/@name"
-msgstr ""
+msgstr "数据"
 
 #: src-en/data/hyperspace.xml.append:21505
 msgid "data/hyperspace.xml.append$//fr_errorman[@name=\"RECOVERY\"]/@name"
-msgstr ""
+msgstr "恢复"
 
 #: src-en/data/hyperspace.xml.append:21506
 msgid "data/hyperspace.xml.append$//fr_errorman[@name=\"IS\"]/@name"
-msgstr ""
+msgstr "功能"
 
 #: src-en/data/hyperspace.xml.append:21507
 msgid "data/hyperspace.xml.append$//fr_errorman[@name=\"MISSING\"]/@name"
-msgstr ""
+msgstr "缺失"
 
 #: src-en/data/hyperspace.xml.append:21529
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHARROR_3\"]/crew/fr_reformed_charror[@name=\"Charror\"]/@name"
-msgstr ""
+msgstr "查罗"
 
 #: src-en/data/hyperspace.xml.append:21530
 msgid "data/hyperspace.xml.append$//fr_reformed_charror[@name=\"chaRror\"]/@name"
-msgstr ""
+msgstr "查洛"
 
 #: src-en/data/hyperspace.xml.append:21531
 msgid "data/hyperspace.xml.append$//fr_reformed_charror[@name=\"charroR\"]/@name"
-msgstr ""
+msgstr "查落"
 
 #: src-en/data/hyperspace.xml.append:21559
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_LEO\"]/crew/fr_reformed_leo[@name=\"Leo\"]/@name"
-msgstr ""
+msgstr "里奥"
 
 #: src-en/data/hyperspace.xml.append:21576
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_LEO_2\"]/crew/fr_reformed_leo[@name=\"Leo\"]/@name"
-msgstr ""
+msgstr "里奥"
 
 #: src-en/data/hyperspace.xml.append:21592
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_LEO_3\"]/crew/fr_reformed_leo[1]/@name"
-msgstr ""
+msgstr "里奥"
 
 #: src-en/data/hyperspace.xml.append:21593
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_LEO_3\"]/crew/fr_reformed_leo[2]/@name"
-msgstr ""
+msgstr "里奥"
 
 #: src-en/data/hyperspace.xml.append:21594
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_LEO_3\"]/crew/fr_reformed_leo[3]/@name"
-msgstr ""
+msgstr "里奥"
 
 #: src-en/data/hyperspace.xml.append:21628
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SEARAK\"]/crew/fr_reformed_searak[@name=\"Searak\"]/@name"
-msgstr ""
+msgstr "希拉克"
 
 #: src-en/data/hyperspace.xml.append:21645
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SEARAK_2\"]/crew/fr_reformed_searak[@name=\"Searak\"]/@name"
-msgstr ""
+msgstr "希拉克"
 
 #: src-en/data/hyperspace.xml.append:21661
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SEARAK_3\"]/crew/fr_reformed_searak[1]/@name"
-msgstr ""
+msgstr "希拉克"
 
 #: src-en/data/hyperspace.xml.append:21662
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SEARAK_3\"]/crew/fr_reformed_searak[2]/@name"
-msgstr ""
+msgstr "希拉克"
 
 #: src-en/data/hyperspace.xml.append:21663
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SEARAK_3\"]/crew/fr_reformed_searak[3]/@name"
-msgstr ""
+msgstr "希拉克"
 
 #: src-en/data/hyperspace.xml.append:21800
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_WATCHER\"]/crew/fr_watcher[@name=\"Watcher\"]/@name"
-msgstr ""
+msgstr "监视者"
 
 #: src-en/data/hyperspace.xml.append:21971
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_WATCHER_2\"]/crew/fr_watcher[@name=\"Watcher\"]/@name"
-msgstr ""
+msgstr "监视者"
 
 #: src-en/data/hyperspace.xml.append:21985
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_WATCHER_3\"]/crew/fr_watcher[1]/@name"
-msgstr ""
+msgstr "监视者"
 
 #: src-en/data/hyperspace.xml.append:21986
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_WATCHER_3\"]/crew/fr_watcher[2]/@name"
-msgstr ""
+msgstr "监视者"
 
 #: src-en/data/hyperspace.xml.append:21987
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_WATCHER_3\"]/crew/fr_watcher[3]/@name"
-msgstr ""
+msgstr "监视者"
 
 #: src-en/data/hyperspace.xml.append:22016
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_AUGUSTUS\"]/crew/fr_bonus_augustus[@name=\"Augustus\"]/@name"
-msgstr ""
+msgstr "奥古斯都"
 
 #: src-en/data/hyperspace.xml.append:22027
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_AUGUSTUS_2\"]/crew/fr_bonus_augustus[@name=\"Augustus\"]/@name"
-msgstr ""
+msgstr "奥古斯都"
 
 #: src-en/data/hyperspace.xml.append:22039
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_AUGUSTUS_3\"]/crew/fr_bonus_augustus[1]/@name"
-msgstr ""
+msgstr "奥古斯都"
 
 #: src-en/data/hyperspace.xml.append:22040
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_AUGUSTUS_3\"]/crew/fr_bonus_augustus[2]/@name"
-msgstr ""
+msgstr "奥古斯都"
 
 #: src-en/data/hyperspace.xml.append:22041
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_AUGUSTUS_3\"]/crew/fr_bonus_augustus[3]/@name"
-msgstr ""
+msgstr "奥古斯都"
 
 #: src-en/data/hyperspace.xml.append:22069
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_SALLY\"]/crew/fr_bonus_sally_adult[@name=\"Sally\"]/@name"
-msgstr ""
+msgstr "萨利"
 
 #: src-en/data/hyperspace.xml.append:22080
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_SALLY_2\"]/crew/fr_bonus_sally_adult[@name=\"Sally\"]/@name"
-msgstr ""
+msgstr "萨利"
 
 #: src-en/data/hyperspace.xml.append:22090
 msgid ""
 "data/hyperspace.xml.append$//fr_bonus_sally_hatchling[@name=\"Sally\"]/@name"
-msgstr ""
+msgstr "萨利"
 
 #: src-en/data/hyperspace.xml.append:22091
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_SALLY_3\"]/crew/fr_bonus_sally_adult[@name=\"Sally\"]/@name"
-msgstr ""
+msgstr "萨利"
 
 #: src-en/data/hyperspace.xml.append:22092
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_SALLY_3\"]/crew/fr_bonus_sally_weaver[@name=\"Sally\"]/@name"
-msgstr ""
+msgstr "萨利"
 
 #: src-en/data/hyperspace.xml.append:22120
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_PRINCE\"]/crew/fr_bonus_prince[@name=\"Prince"
 " of Darkness\"]/@name"
-msgstr ""
+msgstr "黑暗王子"
 
 #: src-en/data/hyperspace.xml.append:22131
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_PRINCE_2\"]/crew/fr_bonus_prince[@name=\"Prince"
 " of Darkness\"]/@name"
-msgstr ""
+msgstr "黑暗王子"
 
 #: src-en/data/hyperspace.xml.append:22141
 msgid ""
 "data/hyperspace.xml.append$//fr_bonus_prince[@name=\"King of "
 "Darkness\"]/@name"
-msgstr ""
+msgstr "黑暗之王"
 
 #: src-en/data/hyperspace.xml.append:22142
 msgid ""
 "data/hyperspace.xml.append$//fr_bonus_prince[@name=\"Queen of "
 "Darkness\"]/@name"
-msgstr ""
+msgstr "黑暗王后"
 
 #: src-en/data/hyperspace.xml.append:22143
 msgid ""
 "data/hyperspace.xml.append$//fr_bonus_prince[@name=\"Regent of "
 "Darkness\"]/@name"
-msgstr ""
+msgstr "黑暗摄政王"
 
 #: src-en/data/hyperspace.xml.append:22172
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_TRIRIAC\"]/crew/fr_bonus_tririac[@name=\"Tririac\"]/@name"
-msgstr ""
+msgstr "特里亚克"
 
 #: src-en/data/hyperspace.xml.append:22173
 msgid "data/hyperspace.xml.append$//eldritch_thing_weak[@name=\"Thing 1\"]/@name"
-msgstr ""
+msgstr "乏件物1"
 
 #: src-en/data/hyperspace.xml.append:22174
 msgid "data/hyperspace.xml.append$//eldritch_thing_weak[@name=\"Thing 2\"]/@name"
-msgstr ""
+msgstr "乏件物2"
 
 #: src-en/data/hyperspace.xml.append:22175
 msgid "data/hyperspace.xml.append$//eldritch_thing_weak[@name=\"Thing 3\"]/@name"
-msgstr ""
+msgstr "乏件物3"
 
 #: src-en/data/hyperspace.xml.append:22303
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_TRIRIAC_2\"]/crew/fr_bonus_tririac[@name=\"Tririac\"]/@name"
-msgstr ""
+msgstr "特里亚克"
 
 #: src-en/data/hyperspace.xml.append:22304
 msgid "data/hyperspace.xml.append$//eldritch_thing[@name=\"True Thing 1\"]/@name"
-msgstr ""
+msgstr "件物1"
 
 #: src-en/data/hyperspace.xml.append:22305
 msgid "data/hyperspace.xml.append$//eldritch_thing[@name=\"True Thing 2\"]/@name"
-msgstr ""
+msgstr "件物2"
 
 #: src-en/data/hyperspace.xml.append:22445
 msgid "data/hyperspace.xml.append$//fr_bonus_tririac[@name=\"Tririac 1\"]/@name"
-msgstr ""
+msgstr "特里亚克1"
 
 #: src-en/data/hyperspace.xml.append:22446
 msgid "data/hyperspace.xml.append$//fr_bonus_tririac[@name=\"Tririac 2\"]/@name"
-msgstr ""
+msgstr "特里亚克2"
 
 #: src-en/data/hyperspace.xml.append:22447
 msgid "data/hyperspace.xml.append$//fr_bonus_tririac[@name=\"Tririac 3\"]/@name"
-msgstr ""
+msgstr "特里亚克3"
 
 #: src-en/data/hyperspace.xml.append:22586
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_QUEST_CYLVAN\"]/crew/fr_unique_cylvan[@name=\"Cylvan\"]/@name"
-msgstr ""
+msgstr "赛尔凡"
 
 #: src-en/data/hyperspace.xml.append:22618
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_QUEST_ROYAL_FLAGSHIP\"]/crew/fr_unique_y[@name=\"Y\"]/@name"
-msgstr ""
+msgstr "Y"
 
 #: src-en/data/hyperspace.xml.append:22801
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_QUEST_BILLVAN\"]/crew/fr_unique_billvan[@name=\"Billvan\"]/@name"
-msgstr ""
+msgstr "比尔凡"
 
 #: src-en/data/hyperspace.xml.append:23000
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_GB_GOZER\"]/crew/fr_gozer[@name=\"Goziodeon\"]/@name"
-msgstr ""
+msgstr "哥泽什"
 
 #: src-en/data/hyperspace.xml.append:23012
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_REVENANT_SLIMER\"]/crew/fr_reborn_slimer[@name=\"Slimer\"]/@name"
-msgstr ""
+msgstr "黏稠者"
 
 #: src-en/data/hyperspace.xml.append:23026
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_REVENANT_PHYS\"]/crew/fr_reborn_phys[@name=\"Phys\"]/@name"
-msgstr ""
+msgstr "菲斯"
 
 #: src-en/data/hyperspace.xml.append:23136
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_REVENANT_ALEENOR\"]/crew/fr_reborn_aleenor[@name=\"Aleenor\"]/@name"
-msgstr ""
+msgstr "埃莉诺"
 
 #: src-en/data/hyperspace.xml.append:23149
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_REVENANT_VIN\"]/crew/fr_reborn_vin[@name=\"Vin\"]/@name"
-msgstr ""
+msgstr "文"
 
 #: src-en/data/hyperspace.xml.append:23163
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_REVENANT_CLEO\"]/crew/fr_reborn_cleo[@name=\"Cleo\"]/@name"
-msgstr ""
+msgstr "克里奥"
 
 #: src-en/data/hyperspace.xml.append:23182
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_REVENANT_ZULU\"]/crew/fr_reborn_zulu[@name=\"Zulu\"]/@name"
-msgstr ""
+msgstr "祖鲁"
 
 #: src-en/data/hyperspace.xml.append:23195
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_REVENANT_G\"]/crew/fr_reborn_g[@name=\"G\"]/@name"
-msgstr ""
+msgstr "G"
 
 #: src-en/data/hyperspace.xml.append:23208
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_CHAOS_REVENANT_SMOKE\"]/crew/fr_reformed_smoke[@name=\"Smoke\"]/@name"
-msgstr ""
+msgstr "斯莫克"
 
 #: src-en/data/hyperspace.xml.append:23220
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_CHAOS_REVENANT_CHILLS\"]/crew/fr_reformed_chills[@name=\"Chills\"]/@name"
-msgstr ""
+msgstr "切尔丝"
 
 #: src-en/data/hyperspace.xml.append:23233
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_CHAOS_REVENANT_POK\"]/crew/fr_reformed_pok[@name=\"Pok\"]/@name"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/hyperspace.xml.append:23247
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_CHAOS_REVENANT_CHARROR\"]/crew/fr_reformed_charror[@name=\"Charror\"]/@name"
-msgstr ""
+msgstr "查罗"
 
 #: src-en/data/hyperspace.xml.append:23260
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_CHAOS_REVENANT_LEO\"]/crew/fr_reformed_leo[@name=\"Leo\"]/@name"
-msgstr ""
+msgstr "里奥"
 
 #: src-en/data/hyperspace.xml.append:23273
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_CHAOS_REVENANT_SEARAK\"]/crew/fr_reformed_searak[@name=\"Searak\"]/@name"
-msgstr ""
+msgstr "希拉克"
 
 #: src-en/data/hyperspace.xml.append:23406
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_CHAOS_REVENANT_WATCHER\"]/crew/fr_watcher[@name=\"Watcher\"]/@name"
-msgstr ""
+msgstr "监视者"
 
 #: src-en/data/hyperspace.xml.append:23420
 msgid "data/hyperspace.xml.append$//unique_vance[@name=\"Vance 1\"]/@name"
-msgstr ""
+msgstr "万斯1号"
 
 #: src-en/data/hyperspace.xml.append:23451
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_SLIMER\"]/crew/fr_reborn_slimer[@name=\"Slimer\"]/@name"
-msgstr ""
+msgstr "黏稠者"
 
 #: src-en/data/hyperspace.xml.append:23462
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_PHYS\"]/crew/fr_reborn_phys[@name=\"Phys\"]/@name"
-msgstr ""
+msgstr "菲斯"
 
 #: src-en/data/hyperspace.xml.append:23608
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_ALEENOR\"]/crew/fr_reborn_aleenor[@name=\"Aleenor\"]/@name"
-msgstr ""
+msgstr "埃莉诺"
 
 #: src-en/data/hyperspace.xml.append:23632
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_VIN\"]/crew/fr_reborn_vin[@name=\"Vin\"]/@name"
-msgstr ""
+msgstr "文"
 
 #: src-en/data/hyperspace.xml.append:23644
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_CLEO\"]/crew/fr_reborn_cleo[@name=\"Cleo\"]/@name"
-msgstr ""
+msgstr "克里奥"
 
 #: src-en/data/hyperspace.xml.append:23656
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_ZULU\"]/crew/fr_reborn_zulu[@name=\"Zulu\"]/@name"
-msgstr ""
+msgstr "祖鲁"
 
 #: src-en/data/hyperspace.xml.append:23668
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_G\"]/crew/fr_reborn_g[@name=\"G\"]/@name"
-msgstr ""
+msgstr "G"
 
 #: src-en/data/hyperspace.xml.append:23680
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_DEADSHIP\"]/crew/fr_reborn_g[@name=\"G\"]/@name"
-msgstr ""
+msgstr "G"
 
 #: src-en/data/hyperspace.xml.append:23696
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_SMOKE\"]/crew/fr_reformed_smoke[@name=\"Smoke\"]/@name"
-msgstr ""
+msgstr "斯莫克"
 
 #: src-en/data/hyperspace.xml.append:23707
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_CHILLS\"]/crew/fr_reformed_chills[@name=\"Chills\"]/@name"
-msgstr ""
+msgstr "切尔丝"
 
 #: src-en/data/hyperspace.xml.append:23720
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_POK\"]/crew/FR_LIST_CREW_MORPHS_POK[@name=\"Pok\"]/@name"
-msgstr ""
+msgstr "珀克"
 
 #: src-en/data/hyperspace.xml.append:23740
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_CHARROR\"]/crew/fr_reformed_charror[@name=\"Charror\"]/@name"
-msgstr ""
+msgstr "查罗"
 
 #: src-en/data/hyperspace.xml.append:23752
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_LEO\"]/crew/fr_reformed_leo[@name=\"Leo\"]/@name"
-msgstr ""
+msgstr "里奥"
 
 #: src-en/data/hyperspace.xml.append:23764
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_SEARAK\"]/crew/fr_reformed_searak[@name=\"Searak\"]/@name"
-msgstr ""
+msgstr "希拉克"
 
 #: src-en/data/hyperspace.xml.append:23786
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_WATCHER\"]/crew/fr_watcher[@name=\"Watcher\"]/@name"
-msgstr ""
+msgstr "监视者"
 
 #: src-en/data/hyperspace.xml.append:23809
 msgid ""
 "data/hyperspace.xml.append$//fr_bonus_augustus_enemy[@name=\"Augustus\"]/@name"
-msgstr ""
+msgstr "奥古斯都"
 
 #: src-en/data/hyperspace.xml.append:23820
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_APPARITION_SALLY\"]/crew/fr_bonus_sally_weaver[@name=\"Sally\"]/@name"
-msgstr ""
+msgstr "萨利"
 
 #: src-en/data/hyperspace.xml.append:23831
 msgid ""
 "data/hyperspace.xml.append$//fr_bonus_prince_enemy[@name=\"Prince of "
 "Darkness\"]/@name"
-msgstr ""
+msgstr "黑暗王子"
 
 #: src-en/data/hyperspace.xml.append:23844
 msgid ""
 "data/hyperspace.xml.append$//fr_bonus_tririac_enemy[@name=\"Tririac\"]/@name"
-msgstr ""
+msgstr "特里亚克"
 
 #: src-en/data/hyperspace.xml.append:24049
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[14]/mod-"
 "append:page/section[1]/@text"
-msgstr ""
+msgstr "被遗忘的恩惠"
 
 #: src-en/data/hyperspace.xml.append:24051
 msgid ""
@@ -3980,12 +4023,14 @@ msgstr "接受来自赛斯特的？？？恩惠。"
 #: src-en/data/hyperspace.xml.append:24053
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_COMMONWEALTH\"]/name"
-msgstr ""
+msgstr "灭绝的恩惠"
 
 #: src-en/data/hyperspace.xml.append:24054
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_COMMONWEALTH\"]/description"
 msgstr ""
+"向赛斯特展示联合方碑族。 \n"
+"\t\t\t\t生效时，你的联合方碑族船员可传送至任何位置。"
 
 #: src-en/data/hyperspace.xml.append:24056
 msgid ""
@@ -4004,12 +4049,14 @@ msgstr "接受来自赛斯特的？？？恩惠。"
 
 #: src-en/data/hyperspace.xml.append:24064
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SALT\"]/name"
-msgstr ""
+msgstr "被遗忘的恩惠"
 
 #: src-en/data/hyperspace.xml.append:24065
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SALT\"]/description"
 msgstr ""
+"向赛斯特展示盐人船员 \n"
+"\t\t\t\t生效时，你的盐人船员免疫窒息和眩晕。"
 
 #: src-en/data/hyperspace.xml.append:24067
 msgid ""
@@ -4029,12 +4076,14 @@ msgstr "接受来自赛斯特的？？？恩惠。"
 #: src-en/data/hyperspace.xml.append:24075
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_REVENANT_CREW\"]/name"
-msgstr ""
+msgstr "迷失者的恩惠"
 
 #: src-en/data/hyperspace.xml.append:24076
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_REVENANT_CREW\"]/description"
 msgstr ""
+"向赛斯特展示重生亡魂船员 \n"
+"\t\t\t\t生效时，所有船员都可以穿透舱门并免疫窒息伤害。"
 
 #: src-en/data/hyperspace.xml.append:24078
 msgid ""
@@ -4054,12 +4103,14 @@ msgstr "接受来自赛斯特的？？？恩惠。"
 #: src-en/data/hyperspace.xml.append:24086
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SNOWMAN\"]/name"
-msgstr ""
+msgstr "冬日的恩惠"
 
 #: src-en/data/hyperspace.xml.append:24087
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SNOWMAN\"]/description"
 msgstr ""
+"向赛斯特展示雪人 \n"
+"\t\t\t生效时，所有雪人船员会降低同舱室敌方船员50%的移动速度。"
 
 #: src-en/data/hyperspace.xml.append:24089
 msgid ""
@@ -4079,12 +4130,15 @@ msgstr "接受来自赛斯特的？？？恩惠。"
 #: src-en/data/hyperspace.xml.append:24097
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_LAVAMAN\"]/name"
-msgstr ""
+msgstr "夏日的恩惠"
 
 #: src-en/data/hyperspace.xml.append:24098
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_LAVAMAN\"]/description"
 msgstr ""
+"向赛斯特展示熔岩人船员 \n"
+"\t\t\t\t生效时，所有熔岩人船员会持续对同舱室所有敌方船员造成每秒2生命值的伤害"
+"。"
 
 #: src-en/data/hyperspace.xml.append:24100
 msgid ""
@@ -4104,12 +4158,14 @@ msgstr "接受来自赛斯特的？？？恩惠。"
 #: src-en/data/hyperspace.xml.append:24108
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_AIAVATAR\"]/name"
-msgstr ""
+msgstr "人工的恩惠"
 
 #: src-en/data/hyperspace.xml.append:24109
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_AIAVATAR\"]/description"
 msgstr ""
+"向赛斯特展示AI化身船员 \n"
+"\t\t\t生效时，所有AI化身船员只占普通船员槽位的0.1倍。"
 
 #: src-en/data/hyperspace.xml.append:24111
 msgid ""
@@ -4129,12 +4185,14 @@ msgstr "接受来自赛斯特的？？？恩惠。"
 #: src-en/data/hyperspace.xml.append:24119
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SPHERAX\"]/name"
-msgstr ""
+msgstr "先驱者的恩惠"
 
 #: src-en/data/hyperspace.xml.append:24120
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SPHERAX\"]/description"
 msgstr ""
+"向赛斯特展示斯菲雷克斯船员 \n"
+"\t\t\t\t生效时，你的斯菲雷克斯船员免疫眩晕。"
 
 #: src-en/data/hyperspace.xml.append:24122
 msgid ""
@@ -4145,7 +4203,7 @@ msgstr "已接受过该恩惠"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[14]/mod-"
 "append:page/section[2]/@text"
-msgstr ""
+msgstr "被遗忘的祝福"
 
 #: src-en/data/hyperspace.xml.append:24130
 msgid ""
@@ -4159,12 +4217,14 @@ msgstr "接受来自威克森的？？？祝福。"
 
 #: src-en/data/hyperspace.xml.append:24132
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_ION\"]/name"
-msgstr ""
+msgstr "离子化的祝福"
 
 #: src-en/data/hyperspace.xml.append:24133
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_ION\"]/description"
 msgstr ""
+"向威克森展示联合方碑武器 \n"
+"\t\t\t\t生效时，你获得50%离子伤害抗性。"
 
 #: src-en/data/hyperspace.xml.append:24135
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_ION\"]/header"
@@ -4173,7 +4233,7 @@ msgstr "已受到过该祝福"
 #: src-en/data/hyperspace.xml.append:24141
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SALT_GUN\"]/name"
-msgstr ""
+msgstr "盐人的祝福"
 
 #: src-en/data/hyperspace.xml.append:24142
 msgid ""
@@ -4189,6 +4249,8 @@ msgstr "接受来自威克森的？？？祝福。"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_SALT_GUN\"]/description"
 msgstr ""
+"向威克森展示盐人武器 \n"
+"\t\t\t\t生效时，在本轮游戏开始获得一个随机特殊武器。"
 
 #: src-en/data/hyperspace.xml.append:24146
 msgid ""
@@ -4198,7 +4260,7 @@ msgstr "已受到过该祝福"
 #: src-en/data/hyperspace.xml.append:24152
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_REVENANT_GUN\"]/name"
-msgstr ""
+msgstr "不死的祝福"
 
 #: src-en/data/hyperspace.xml.append:24153
 msgid ""
@@ -4214,6 +4276,8 @@ msgstr "接受来自威克森的？？？祝福。"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_REVENANT_GUN\"]/description"
 msgstr ""
+"向威克森展示亡灵武器。 \n"
+"\t\t\t\t生效时，在本轮游戏开始获得一个随机多元宇宙基础增强部件。"
 
 #: src-en/data/hyperspace.xml.append:24157
 msgid ""
@@ -4223,7 +4287,7 @@ msgstr "已受到过该祝福"
 #: src-en/data/hyperspace.xml.append:24163
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_WITHER_GUN\"]/name"
-msgstr ""
+msgstr "原型的祝福"
 
 #: src-en/data/hyperspace.xml.append:24164
 msgid ""
@@ -4239,6 +4303,8 @@ msgstr "接受来自威克森的？？？祝福。"
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_WITHER_GUN\"]/description"
 msgstr ""
+"向威克森展示原型武器。 \n"
+"\t\t\t\t生效时，所有光束武器额外穿透一层护盾。"
 
 #: src-en/data/hyperspace.xml.append:24168
 msgid ""
@@ -4249,12 +4315,12 @@ msgstr "已受到过该祝福"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[14]/mod-"
 "append:page/section[3]/@text"
-msgstr ""
+msgstr "被遗忘的事件"
 
 #: src-en/data/hyperspace.xml.append:24176
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_ENHANCED\"]/name"
-msgstr ""
+msgstr "禁止小吃"
 
 #: src-en/data/hyperspace.xml.append:24177
 msgid ""
@@ -4264,17 +4330,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24178
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_ENHANCED\"]/description"
-msgstr ""
+msgstr "在强铁星区拯救最后一个增强者船员。"
 
 #: src-en/data/hyperspace.xml.append:24179
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_ENHANCED\"]/secretDescription"
-msgstr ""
+msgstr "在强铁族家园拯救一个珍稀的强铁族。"
 
 #: src-en/data/hyperspace.xml.append:24184
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TESTER\"]/name"
-msgstr ""
+msgstr "测试，测试，一，二，三"
 
 #: src-en/data/hyperspace.xml.append:24185
 msgid ""
@@ -4284,17 +4350,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24186
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TESTER\"]/description"
-msgstr ""
+msgstr "换掉你的旧飞船，试试这艘全新升级的\"测试者号\"。"
 
 #: src-en/data/hyperspace.xml.append:24187
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TESTER\"]/secretDescription"
-msgstr ""
+msgstr "换掉你的旧飞船。"
 
 #: src-en/data/hyperspace.xml.append:24192
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TARTARUS\"]/name"
-msgstr ""
+msgstr "鬼魅至尊"
 
 #: src-en/data/hyperspace.xml.append:24193
 msgid ""
@@ -4304,17 +4370,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24194
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TARTARUS\"]/description"
-msgstr ""
+msgstr "终结G的疯狂行径并解放塔尔塔罗斯的灵魂。"
 
 #: src-en/data/hyperspace.xml.append:24195
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TARTARUS\"]/secretDescription"
-msgstr ""
+msgstr "帮寻鬼敢死队完成一笔巨额赏金任务。"
 
 #: src-en/data/hyperspace.xml.append:24200
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TARTARUS_CHAOS\"]/name"
-msgstr ""
+msgstr "漫长的绕行"
 
 #: src-en/data/hyperspace.xml.append:24201
 msgid ""
@@ -4324,17 +4390,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24202
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TARTARUS_CHAOS\"]/description"
-msgstr ""
+msgstr "组织万斯1号的邪恶计划并从其手中救出万斯本尊。"
 
 #: src-en/data/hyperspace.xml.append:24203
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_TARTARUS_CHAOS\"]/secretDescription"
-msgstr ""
+msgstr "在混沌模式帮寻鬼敢死队完成一笔巨额赏金任务。"
 
 #: src-en/data/hyperspace.xml.append:24208
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_OSMIAN\"]/name"
-msgstr ""
+msgstr "国家公敌"
 
 #: src-en/data/hyperspace.xml.append:24209
 msgid ""
@@ -4344,16 +4410,16 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24210
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_OSMIAN\"]/description"
-msgstr ""
+msgstr "站在\"恐怖主义者\"这边并结束他们开始的事端。"
 
 #: src-en/data/hyperspace.xml.append:24211
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_OSMIAN\"]/secretDescription"
-msgstr ""
+msgstr "攻击牧师团的首都。"
 
 #: src-en/data/hyperspace.xml.append:24216
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SALT\"]/name"
-msgstr ""
+msgstr "希望之光"
 
 #: src-en/data/hyperspace.xml.append:24217
 msgid ""
@@ -4363,17 +4429,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24218
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SALT\"]/description"
-msgstr ""
+msgstr "发现奥宾同胞的最后仅有的成员。"
 
 #: src-en/data/hyperspace.xml.append:24219
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SALT\"]/secretDescription"
-msgstr ""
+msgstr "帮一位赏金猎人完成他至关重要的个人任务。"
 
 #: src-en/data/hyperspace.xml.append:24224
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHERED\"]/name"
-msgstr ""
+msgstr "神秘资助者"
 
 #: src-en/data/hyperspace.xml.append:24225
 msgid ""
@@ -4383,17 +4449,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24226
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHERED\"]/description"
-msgstr ""
+msgstr "向赛斯特展示凋零食铁族。"
 
 #: src-en/data/hyperspace.xml.append:24227
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHERED\"]/secretDescription"
-msgstr ""
+msgstr "向赛斯特展示一个稀有的强铁族。"
 
 #: src-en/data/hyperspace.xml.append:24232
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_DEAL\"]/name"
-msgstr ""
+msgstr "拥抱仁慈"
 
 #: src-en/data/hyperspace.xml.append:24233
 msgid ""
@@ -4403,17 +4469,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24234
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_DEAL\"]/description"
-msgstr ""
+msgstr "接受那艘最终凋零者飞船提出的交易。"
 
 #: src-en/data/hyperspace.xml.append:24235
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_DEAL\"]/secretDescription"
-msgstr ""
+msgstr "在灵朝首都深处接受一项可疑的交易。"
 
 #: src-en/data/hyperspace.xml.append:24240
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_CREWKILL\"]/name"
-msgstr ""
+msgstr "活儿干得漂亮"
 
 #: src-en/data/hyperspace.xml.append:24241
 msgid ""
@@ -4423,17 +4489,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24242
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_CREWKILL\"]/description"
-msgstr ""
+msgstr "接受那艘最终凋零者飞船提出的交易。"
 
 #: src-en/data/hyperspace.xml.append:24243
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_WITHER_CREWKILL\"]/secretDescription"
-msgstr ""
+msgstr "在灵朝首都深处拒绝一项可疑的交易。"
 
 #: src-en/data/hyperspace.xml.append:24248
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_GOZER_RECRUIT\"]/name"
-msgstr ""
+msgstr "家族"
 
 #: src-en/data/hyperspace.xml.append:24249
 msgid ""
@@ -4443,17 +4509,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24250
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_GOZER_RECRUIT\"]/description"
-msgstr ""
+msgstr "把哥泽什带到真结局。"
 
 #: src-en/data/hyperspace.xml.append:24251
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_GOZER_RECRUIT\"]/secretDescription"
-msgstr ""
+msgstr "成为当地黑手党的正式成员。"
 
 #: src-en/data/hyperspace.xml.append:24256
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_TRUEEND\"]/name"
-msgstr ""
+msgstr "扭曲的反射"
 
 #: src-en/data/hyperspace.xml.append:24257
 msgid ""
@@ -4463,17 +4529,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24258
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_TRUEEND\"]/description"
-msgstr ""
+msgstr "让万斯在真结局中与另一个自己当面对质。"
 
 #: src-en/data/hyperspace.xml.append:24259
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_TRUEEND\"]/secretDescription"
-msgstr ""
+msgstr "将多元宇宙中最邪恶之人的两个分身带到一起。"
 
 #: src-en/data/hyperspace.xml.append:24264
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_PEACE\"]/name"
-msgstr ""
+msgstr "转过身来"
 
 #: src-en/data/hyperspace.xml.append:24265
 msgid ""
@@ -4483,17 +4549,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24266
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_PEACE\"]/description"
-msgstr ""
+msgstr "让万斯说服多元宇宙旗舰撤退。"
 
 #: src-en/data/hyperspace.xml.append:24267
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_PEACE\"]/secretDescription"
-msgstr ""
+msgstr "让整个多元宇宙最邪恶的人说服多元宇宙旗舰撤退。"
 
 #: src-en/data/hyperspace.xml.append:24272
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_TRUEEND_SPARE\"]/name"
-msgstr ""
+msgstr "触摸虚空"
 
 #: src-en/data/hyperspace.xml.append:24273
 msgid ""
@@ -4503,17 +4569,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24274
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_TRUEEND_SPARE\"]/description"
-msgstr ""
+msgstr "让万斯本尊重新审视他的动机，并心甘情愿地将“典范炸弹”交给你。"
 
 #: src-en/data/hyperspace.xml.append:24275
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_VANCE_TRUEEND_SPARE\"]/secretDescription"
-msgstr ""
+msgstr "说服多元宇宙最邪恶的人投降。"
 
 #: src-en/data/hyperspace.xml.append:24280
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SAMMY\"]/name"
-msgstr ""
+msgstr "非常特别的一集"
 
 #: src-en/data/hyperspace.xml.append:24281
 msgid ""
@@ -4523,17 +4589,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24282
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SAMMY\"]/description"
-msgstr ""
+msgstr "招募蜘蛛萨米。"
 
 #: src-en/data/hyperspace.xml.append:24283
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SAMMY\"]/secretDescription"
-msgstr ""
+msgstr "劝告一名已改过自新的精神病患者主动投案自首。"
 
 #: src-en/data/hyperspace.xml.append:24288
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_LEAH_RECRUIT\"]/name"
-msgstr ""
+msgstr "光束大师"
 
 #: src-en/data/hyperspace.xml.append:24289
 msgid ""
@@ -4543,16 +4609,16 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24290
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_LEAH_RECRUIT\"]/description"
-msgstr ""
+msgstr "招募莉娅。"
 
 #: src-en/data/hyperspace.xml.append:24291
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_LEAH_RECRUIT\"]/secretDescription"
-msgstr ""
+msgstr "记住你毕生宿敌之名，并寻求挚友相助来说服对方。"
 
 #: src-en/data/hyperspace.xml.append:24296
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN\"]/name"
-msgstr ""
+msgstr "一份应得的报酬"
 
 #: src-en/data/hyperspace.xml.append:24297
 msgid ""
@@ -4562,17 +4628,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24298
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN\"]/description"
-msgstr ""
+msgstr "使用从G处获得的还魂瓮。"
 
 #: src-en/data/hyperspace.xml.append:24299
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN\"]/secretDescription"
-msgstr ""
+msgstr "打开一个奇怪的瓮。"
 
 #: src-en/data/hyperspace.xml.append:24304
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_UPGRADE\"]/name"
-msgstr ""
+msgstr "晋升之瓮。"
 
 #: src-en/data/hyperspace.xml.append:24305
 msgid ""
@@ -4582,17 +4648,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24306
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_UPGRADE\"]/description"
-msgstr ""
+msgstr "在通关混沌塔尔塔罗斯后，升级你的瓮。"
 
 #: src-en/data/hyperspace.xml.append:24307
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_UPGRADE\"]/secretDescription"
-msgstr ""
+msgstr "用混沌能量强化奇怪的瓮。"
 
 #: src-en/data/hyperspace.xml.append:24312
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_BONUS\"]/name"
-msgstr ""
+msgstr "瓮中的意外收获。"
 
 #: src-en/data/hyperspace.xml.append:24313
 msgid ""
@@ -4602,17 +4668,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24314
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_BONUS\"]/description"
-msgstr ""
+msgstr "击败每一个魂灵来升级你的瓮。"
 
 #: src-en/data/hyperspace.xml.append:24315
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_URN_BONUS\"]/secretDescription"
-msgstr ""
+msgstr "用扭曲的灵魂进一步强化奇怪的瓮。"
 
 #: src-en/data/hyperspace.xml.append:24320
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_JERRY_SHADOW_PONY\"]/name"
-msgstr ""
+msgstr "超越生死的悲恸"
 
 #: src-en/data/hyperspace.xml.append:24321
 msgid ""
@@ -4622,7 +4688,7 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24322
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_JERRY_SHADOW_PONY\"]/description"
-msgstr ""
+msgstr "让杰瑞骑上暗影六脚马。"
 
 #: src-en/data/hyperspace.xml.append:24323
 msgid ""
@@ -4632,7 +4698,7 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24328
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SPHERAX\"]/name"
-msgstr ""
+msgstr "绝境归来"
 
 #: src-en/data/hyperspace.xml.append:24329
 msgid ""
@@ -4642,7 +4708,7 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24330
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_SPHERAX\"]/description"
-msgstr ""
+msgstr "在多元宇宙的中心，找到某个已消亡外星种族遗留的最后一座幸存庇护所。"
 
 #: src-en/data/hyperspace.xml.append:24331
 msgid ""
@@ -4653,12 +4719,12 @@ msgstr "？？？"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[14]/mod-"
 "append:page/section[4]/@text"
-msgstr ""
+msgstr "被遗忘的联合方碑"
 
 #: src-en/data/hyperspace.xml.append:24338
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_DREADNAUGHT\"]/name"
-msgstr ""
+msgstr "出口券"
 
 #: src-en/data/hyperspace.xml.append:24339
 msgid ""
@@ -4668,17 +4734,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24340
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_DREADNAUGHT\"]/description"
-msgstr ""
+msgstr "摧毁联合方碑无畏舰。"
 
 #: src-en/data/hyperspace.xml.append:24341
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_DREADNAUGHT\"]/secretDescription"
-msgstr ""
+msgstr "摧毁某个已灭绝种族所在星域出口的守护者。"
 
 #: src-en/data/hyperspace.xml.append:24346
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_COMMONWEALTH\"]/name"
-msgstr ""
+msgstr "新的开始"
 
 #: src-en/data/hyperspace.xml.append:24347
 msgid ""
@@ -4688,16 +4754,16 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24348
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_COMMONWEALTH\"]/description"
-msgstr ""
+msgstr "在联合方碑维修中心修复一具破损的方碑残骸。"
 
 #: src-en/data/hyperspace.xml.append:24349
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_COMMONWEALTH\"]/secretDescription"
-msgstr ""
+msgstr "让早已灭绝的蓝色立方体外星种族中的一员复活。"
 
 #: src-en/data/hyperspace.xml.append:24354
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_AUTO\"]/name"
-msgstr ""
+msgstr "老旧战争机器"
 
 #: src-en/data/hyperspace.xml.append:24355
 msgid ""
@@ -4707,17 +4773,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24356
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_AUTO\"]/description"
-msgstr ""
+msgstr "启动奇怪的装置并前往联合方碑星区。"
 
 #: src-en/data/hyperspace.xml.append:24357
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_AUTO\"]/secretDescription"
-msgstr ""
+msgstr "启动废弃武器工厂内的奇异装置。"
 
 #: src-en/data/hyperspace.xml.append:24362
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_GUARDIAN\"]/name"
-msgstr ""
+msgstr "外来者和本地人"
 
 #: src-en/data/hyperspace.xml.append:24363
 msgid ""
@@ -4727,17 +4793,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24364
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_GUARDIAN\"]/description"
-msgstr ""
+msgstr "在不摧毁舰船的前提下，制止联合方碑守卫的狂暴行动。"
 
 #: src-en/data/hyperspace.xml.append:24365
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_GUARDIAN\"]/secretDescription"
-msgstr ""
+msgstr "在一个隐秘且被遗忘已久的领域里，阻止自动舰的狂暴肆虐。"
 
 #: src-en/data/hyperspace.xml.append:24370
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_CYLVAN\"]/name"
-msgstr ""
+msgstr "立方体之友"
 
 #: src-en/data/hyperspace.xml.append:24371
 msgid ""
@@ -4747,17 +4813,17 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24372
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_CYLVAN\"]/description"
-msgstr ""
+msgstr "在联合方碑星区，从C.E.L.探测器手下拯救赛尔凡。"
 
 #: src-en/data/hyperspace.xml.append:24373
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_CYLVAN\"]/secretDescription"
-msgstr ""
+msgstr "在隐秘的遗忘之境，拯救那位被遗弃的游商。"
 
 #: src-en/data/hyperspace.xml.append:24378
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_FLAGSHIP\"]/name"
-msgstr ""
+msgstr "立方体的首领"
 
 #: src-en/data/hyperspace.xml.append:24379
 msgid ""
@@ -4767,28 +4833,28 @@ msgstr "？？？"
 #: src-en/data/hyperspace.xml.append:24380
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_FLAGSHIP\"]/description"
-msgstr ""
+msgstr "阻止方碑旗舰，拯救联合方碑族。"
 
 #: src-en/data/hyperspace.xml.append:24381
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_FLAGSHIP\"]/secretDescription"
-msgstr ""
+msgstr "阻止针对早已灭绝的蓝色立方体外星种族的威胁。"
 
 #: src-en/data/hyperspace.xml.append:24386
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[14]/mod-"
 "append:page/section[5]/@text"
-msgstr ""
+msgstr "被遗忘的变元者"
 
 #: src-en/data/hyperspace.xml.append:24388
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_RENEGADE_COMMONWEALTH_CRUISER\"]/name"
-msgstr ""
+msgstr "至关重要的任务"
 
 #: src-en/data/hyperspace.xml.append:24389
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_RENEGADE_COMMONWEALTH_CRUISER\"]/description"
-msgstr ""
+msgstr "击败联合方碑星舰变元者并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24390
 msgid ""
@@ -4803,12 +4869,12 @@ msgstr "已击败过该变元星舰"
 #: src-en/data/hyperspace.xml.append:24396
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_RENEGADE_COMMONWEALTH_GUARDIAN\"]/name"
-msgstr ""
+msgstr "\"修理工\""
 
 #: src-en/data/hyperspace.xml.append:24397
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_RENEGADE_COMMONWEALTH_GUARDIAN\"]/description"
-msgstr ""
+msgstr "击败联合方碑守卫星舰并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24398
 msgid ""
@@ -4824,474 +4890,474 @@ msgstr "已击败过该变元星舰"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[14]/mod-"
 "append:page/section[6]/@text"
-msgstr ""
+msgstr "被遗忘的运输战利品"
 
 #: src-en/data/hyperspace.xml.append:24406
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_TRANS_COMMONWEALTH\"]/name"
-msgstr ""
+msgstr "联合方碑运输舰"
 
 #: src-en/data/hyperspace.xml.append:24407
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_TRANS_COMMONWEALTH\"]/secretName"
-msgstr ""
+msgstr "秘密运输舰"
 
 #: src-en/data/hyperspace.xml.append:24408
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_TRANS_COMMONWEALTH\"]/description"
-msgstr ""
+msgstr "从联合方碑战利品运输舰获取特殊联合方碑护盾。"
 
 #: src-en/data/hyperspace.xml.append:24409
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_TRANS_COMMONWEALTH\"]/secretDescription"
-msgstr ""
+msgstr "从？？？战利品运输舰获取战利品。"
 
 #: src-en/data/hyperspace.xml.append:24412
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_TRANS_COMMONWEALTH\"]/header"
-msgstr ""
+msgstr "已获取战利品"
 
 #: src-en/data/hyperspace.xml.append:24415
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[14]/mod-"
 "append:page/section[7]/@text"
-msgstr ""
+msgstr "被遗忘的魂灵"
 
 #: src-en/data/hyperspace.xml.append:24417
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SLIMER\"]/name"
-msgstr ""
+msgstr "意犹未尽？"
 
 #: src-en/data/hyperspace.xml.append:24418
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SLIMER\"]/description"
-msgstr ""
+msgstr "击败黏稠者魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24419
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SLIMER\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24421
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SLIMER\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24425
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PHYS\"]/name"
-msgstr ""
+msgstr "离子不稳定性"
 
 #: src-en/data/hyperspace.xml.append:24426
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PHYS\"]/description"
-msgstr ""
+msgstr "击败菲斯魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24427
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PHYS\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24429
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PHYS\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24433
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_ALEENOR\"]/name"
-msgstr ""
+msgstr "生物学的宿敌"
 
 #: src-en/data/hyperspace.xml.append:24434
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_ALEENOR\"]/description"
-msgstr ""
+msgstr "击败埃莉诺魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24435
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_ALEENOR\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24437
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_ALEENOR\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24441
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_VIN\"]/name"
-msgstr ""
+msgstr "永恒霜冻"
 
 #: src-en/data/hyperspace.xml.append:24442
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_VIN\"]/description"
-msgstr ""
+msgstr "击败文魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24443
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_VIN\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24445
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_VIN\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24449
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CLEO\"]/name"
-msgstr ""
+msgstr "不情愿的参与者"
 
 #: src-en/data/hyperspace.xml.append:24450
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CLEO\"]/description"
-msgstr ""
+msgstr "击败克里奥魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24451
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CLEO\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24453
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CLEO\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24457
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_ZULU\"]/name"
-msgstr ""
+msgstr "暗影圣战"
 
 #: src-en/data/hyperspace.xml.append:24458
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_ZULU\"]/description"
-msgstr ""
+msgstr "击败祖鲁魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24459
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_ZULU\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24461
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_ZULU\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24465
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_G\"]/name"
-msgstr ""
+msgstr "无尽噩梦"
 
 #: src-en/data/hyperspace.xml.append:24466
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_G\"]/description"
-msgstr ""
+msgstr "击败G魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24467
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_G\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24469
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_G\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24473
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_DEADSHIP\"]/name"
-msgstr ""
+msgstr "生死羁绊"
 
 #: src-en/data/hyperspace.xml.append:24474
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_DEADSHIP\"]/description"
-msgstr ""
+msgstr "击败死船魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24475
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_DEADSHIP\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24477
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_DEADSHIP\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24481
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SMOKE\"]/name"
-msgstr ""
+msgstr "结晶狂乱"
 
 #: src-en/data/hyperspace.xml.append:24482
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SMOKE\"]/description"
-msgstr ""
+msgstr "击败斯莫克魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24483
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SMOKE\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24485
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SMOKE\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24489
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CHILLS\"]/name"
-msgstr ""
+msgstr "熔化的雄心"
 
 #: src-en/data/hyperspace.xml.append:24490
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CHILLS\"]/description"
-msgstr ""
+msgstr "击败切尔丝魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24491
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CHILLS\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24493
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CHILLS\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24497
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_POK\"]/name"
-msgstr ""
+msgstr "无穷形态"
 
 #: src-en/data/hyperspace.xml.append:24498
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_POK\"]/description"
-msgstr ""
+msgstr "击败珀克魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24499
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_POK\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24501
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_POK\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24505
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CHARROR\"]/name"
-msgstr ""
+msgstr "[错误]"
 
 #: src-en/data/hyperspace.xml.append:24506
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CHARROR\"]/description"
-msgstr ""
+msgstr "击败查罗魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24507
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CHARROR\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24509
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_CHARROR\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24513
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_LEO\"]/name"
-msgstr ""
+msgstr "迸发之力"
 
 #: src-en/data/hyperspace.xml.append:24514
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_LEO\"]/description"
-msgstr ""
+msgstr "击败里奥魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24515
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_LEO\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24517
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_LEO\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24521
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SEARAK\"]/name"
-msgstr ""
+msgstr "无穷爆破"
 
 #: src-en/data/hyperspace.xml.append:24522
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SEARAK\"]/description"
-msgstr ""
+msgstr "击败希拉克魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24523
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SEARAK\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24525
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SEARAK\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24529
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_AUTO\"]/name"
-msgstr ""
+msgstr "屏障护甲"
 
 #: src-en/data/hyperspace.xml.append:24530
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_AUTO\"]/description"
-msgstr ""
+msgstr "击败自动军团舰魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24531
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_AUTO\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24533
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_AUTO\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24537
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_WATCHER\"]/name"
-msgstr ""
+msgstr "C.I.E."
 
 #: src-en/data/hyperspace.xml.append:24538
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_WATCHER\"]/description"
-msgstr ""
+msgstr "击败监视者魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24539
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_WATCHER\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24541
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_WATCHER\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24545
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_FLAGSHIP\"]/name"
-msgstr ""
+msgstr "星联分裂"
 
 #: src-en/data/hyperspace.xml.append:24546
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_FLAGSHIP\"]/description"
-msgstr ""
+msgstr "击败星联旗舰魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24547
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_FLAGSHIP\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其特殊战利品。"
 
 #: src-en/data/hyperspace.xml.append:24549
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_FLAGSHIP\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24553
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_AUGUSTUS\"]/name"
-msgstr ""
+msgstr "至尊魅影(富贵版)"
 
 #: src-en/data/hyperspace.xml.append:24554
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_AUGUSTUS\"]/description"
-msgstr ""
+msgstr "击败奥古斯都魂灵，获取特殊战利品并解锁其星舰。"
 
 #: src-en/data/hyperspace.xml.append:24555
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_AUGUSTUS\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其战利品和星舰。"
 
 #: src-en/data/hyperspace.xml.append:24557
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_AUGUSTUS\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24561
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SALLY\"]/name"
-msgstr ""
+msgstr "最后的求助"
 
 #: src-en/data/hyperspace.xml.append:24562
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SALLY\"]/description"
-msgstr ""
+msgstr "击败萨利魂灵，获取特殊战利品并解锁其星舰。"
 
 #: src-en/data/hyperspace.xml.append:24563
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SALLY\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其战利品和星舰。"
 
 #: src-en/data/hyperspace.xml.append:24565
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_SALLY\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24569
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PRINCE\"]/name"
-msgstr ""
+msgstr "来自深渊"
 
 #: src-en/data/hyperspace.xml.append:24570
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PRINCE\"]/description"
-msgstr ""
+msgstr "击败黑暗王子魂灵，获取特殊战利品并解锁其星舰。"
 
 #: src-en/data/hyperspace.xml.append:24571
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PRINCE\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其战利品和星舰。"
 
 #: src-en/data/hyperspace.xml.append:24573
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_PRINCE\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24577
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_TRIRIAC\"]/name"
-msgstr ""
+msgstr "永世奴役"
 
 #: src-en/data/hyperspace.xml.append:24578
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_TRIRIAC\"]/description"
-msgstr ""
+msgstr "击败特里亚克魂灵，获取特殊战利品并解锁其星舰。"
 
 #: src-en/data/hyperspace.xml.append:24579
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_TRIRIAC\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？魂灵并获取其战利品和星舰。"
 
 #: src-en/data/hyperspace.xml.append:24581
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_APPARITION_TRIRIAC\"]/header"
-msgstr ""
+msgstr "魂灵已清除"
 
 #: src-en/data/hyperspace.xml.append:24585
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[14]/mod-"
 "append:page/section[8]/@text"
-msgstr ""
+msgstr "被遗忘的音乐"
 
 #: src-en/data/hyperspace.xml.append:24587
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_TARTARUS\"]/name"
-msgstr ""
+msgstr "遗忘的塔尔塔罗斯 ‐ Altzeus创作"
 
 #: src-en/data/hyperspace.xml.append:24588
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_TARTARUS\"]/description"
-msgstr ""
+msgstr "音乐已解锁。"
 
 #: src-en/data/hyperspace.xml.append:24589
 msgid ""
@@ -5301,16 +5367,16 @@ msgstr "音乐已解锁！"
 #: src-en/data/hyperspace.xml.append:24590
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_TARTARUS\"]/secretDescription"
-msgstr ""
+msgstr "拜访？？？来解锁此成就和音乐。"
 
 #: src-en/data/hyperspace.xml.append:24597
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_G\"]/name"
-msgstr ""
+msgstr "死灵法师之噩梦（G的主题曲）- Altzeus创作"
 
 #: src-en/data/hyperspace.xml.append:24598
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_G\"]/description"
-msgstr ""
+msgstr "音乐已解锁。"
 
 #: src-en/data/hyperspace.xml.append:24599
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_G\"]/header"
@@ -5319,17 +5385,17 @@ msgstr "音乐已解锁！"
 #: src-en/data/hyperspace.xml.append:24600
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_G\"]/secretDescription"
-msgstr ""
+msgstr "击败？？？来解锁此成就和音乐。"
 
 #: src-en/data/hyperspace.xml.append:24607
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_COMMONWEALTH\"]/name"
-msgstr ""
+msgstr "联合方碑族 - Altzeus创作"
 
 #: src-en/data/hyperspace.xml.append:24608
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_COMMONWEALTH\"]/description"
-msgstr ""
+msgstr "音乐已解锁。"
 
 #: src-en/data/hyperspace.xml.append:24609
 msgid ""
@@ -5339,17 +5405,17 @@ msgstr "音乐已解锁！"
 #: src-en/data/hyperspace.xml.append:24610
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_COMMONWEALTH\"]/secretDescription"
-msgstr ""
+msgstr "拜访？？？来解锁此成就和音乐。"
 
 #: src-en/data/hyperspace.xml.append:24617
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_EXTERMINATOR_GOOD\"]/name"
-msgstr ""
+msgstr "救世主的试炼（灭绝者主题曲 - 好结局） - Lizzard创作"
 
 #: src-en/data/hyperspace.xml.append:24618
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_EXTERMINATOR_GOOD\"]/description"
-msgstr ""
+msgstr "音乐已解锁。"
 
 #: src-en/data/hyperspace.xml.append:24619
 msgid ""
@@ -5359,17 +5425,17 @@ msgstr "音乐已解锁！"
 #: src-en/data/hyperspace.xml.append:24620
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_EXTERMINATOR_GOOD\"]/secretDescription"
-msgstr ""
+msgstr "拜访？？？来解锁此成就和音乐。"
 
 #: src-en/data/hyperspace.xml.append:24627
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_EXTERMINATOR_NEUTRAL\"]/name"
-msgstr ""
+msgstr "历经钢铁与以太（灭绝者主题曲 - 一般结局） - Lizzard 创作"
 
 #: src-en/data/hyperspace.xml.append:24628
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_EXTERMINATOR_NEUTRAL\"]/description"
-msgstr ""
+msgstr "音乐已解锁。"
 
 #: src-en/data/hyperspace.xml.append:24629
 msgid ""
@@ -5379,17 +5445,17 @@ msgstr "音乐已解锁！"
 #: src-en/data/hyperspace.xml.append:24630
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_EXTERMINATOR_NEUTRAL\"]/secretDescription"
-msgstr ""
+msgstr "拜访？？？来解锁此成就和音乐。"
 
 #: src-en/data/hyperspace.xml.append:24637
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_EXTERMINATOR_BAD\"]/name"
-msgstr ""
+msgstr "因果浩劫（灭绝者主题曲 - 坏结局） - Lizzard创作"
 
 #: src-en/data/hyperspace.xml.append:24638
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_EXTERMINATOR_BAD\"]/description"
-msgstr ""
+msgstr "音乐已解锁。"
 
 #: src-en/data/hyperspace.xml.append:24639
 msgid ""
@@ -5399,54 +5465,54 @@ msgstr "音乐已解锁！"
 #: src-en/data/hyperspace.xml.append:24640
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_EXTERMINATOR_BAD\"]/secretDescription"
-msgstr ""
+msgstr "拜访？？？来解锁此成就和音乐。"
 
 #: src-en/data/hyperspace.xml.append:24647
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[14]/mod-"
 "append:page/section[9]/@text"
-msgstr ""
+msgstr "被遗忘的鱼"
 
 #: src-en/data/hyperspace.xml.append:24649
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"FISH_CAUGHT_FR_TARTARUS\"]/name"
-msgstr ""
+msgstr "不死鱼"
 
 #: src-en/data/hyperspace.xml.append:24650
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"FISH_CAUGHT_FR_TARTARUS\"]/secretDescription"
-msgstr ""
+msgstr "抓住一只非常特别的鱼。需要ARC的钓鱼MOD"
 
 #: src-en/data/hyperspace.xml.append:24651
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"FISH_CAUGHT_FR_TARTARUS\"]/description"
-msgstr ""
+msgstr "抓住一只不死鱼。"
 
 #: src-en/data/hyperspace.xml.append:24652
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"FISH_CAUGHT_FR_TARTARUS\"]/header"
-msgstr ""
+msgstr "抓过鱼了！"
 
 #: src-en/data/hyperspace.xml.append:27162
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[17]/mod-"
 "append:commonwealth/name"
-msgstr ""
+msgstr "\\1联合方碑结局"
 
 #: src-en/data/hyperspace.xml.append:27163
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[17]/mod-"
 "append:commonwealth/description"
-msgstr ""
+msgstr "闯入联合方碑避难所，并驾驶任意型号的\\1活着离开"
 
 #: src-en/data/hyperspace.xml.append:27165
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[17]/mod-"
 "append:commonwealth/secretName"
-msgstr ""
+msgstr "\\1?????结局"
 
 #: src-en/data/hyperspace.xml.append:27166
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[17]/mod-"
 "append:commonwealth/secretDescription"
-msgstr ""
+msgstr "在任意型号的\\1上，援助一个据称已灭绝的古老种族"
