@@ -1,46 +1,58 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-11-02 05:20+0000\n"
+"Last-Translator: circle217 <3545024352@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/forgotten-races/dataevents_sector_obeliskxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src-en/data/events_sector_obelisk.xml.append:8
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/undiscoveredTooltip"
-msgstr ""
+msgstr "这个信标似乎正在传送一段奇特的广播信号。"
 
 #: src-en/data/events_sector_obelisk.xml.append:9
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "这个信标有一个古代无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:11
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/text"
 msgstr ""
+"抵达信标时，你迎面遇上一艘设计诡异的方碑自动舰。它涂装的色彩与搭载的武器型号"
+"皆属罕见——即便在这片恐怖星域也前所未见。此刻它正试图建立通讯连接。"
 
 #: src-en/data/events_sector_obelisk.xml.append:14
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/text"
-msgstr ""
+msgstr "靠近自动舰船，尝试接收其通讯请求。"
 
 #: src-en/data/events_sector_obelisk.xml.append:16
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/text"
 msgstr ""
+"舰船持续循环播放着持续约十秒的杂音与勉强可辨的语音。信号失真不仅让信息解码难"
+"如登天，其语言本身更是一种过于古老的方碑方言，连安威斯的翻译算法都难以解析。"
+"你意识到，若能安装更先进的翻译模块，或许就能破译这段信息。"
 
 #: src-en/data/events_sector_obelisk.xml.append:18
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "安装符文翻译器。 [花费: 10~, 1|]"
 
 #: src-en/data/events_sector_obelisk.xml.append:20
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"0\"]/event/text"
-msgstr ""
+msgstr "你安装好翻译器，静待其破译结果。"
 
 #: src-en/data/events_sector_obelisk.xml.append:28
 msgid ""
@@ -52,13 +64,13 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "我们已经安装了翻译器，立刻破解无人机的语言！"
 
 #: src-en/data/events_sector_obelisk.xml.append:36
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "你启动符文翻译器，等待破译结果。"
 
 #: src-en/data/events_sector_obelisk.xml.append:38
 msgid ""
@@ -69,12 +81,13 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:44
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/text"
-msgstr ""
+msgstr "尝试手动翻译这些杂音。"
 
 #: src-en/data/events_sector_obelisk.xml.append:46
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/event/text"
-msgstr ""
+msgstr "你决定迎难而上。破译这段信息异常艰难，你花了至少好几天时间守在那艘自动舰船前"
+"，不断优化你的翻译器。"
 
 #: src-en/data/events_sector_obelisk.xml.append:49
 msgid ""
@@ -84,12 +97,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:55
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/text"
-msgstr ""
+msgstr "看看能否让我们的导引无人机为我们翻译这段文本。"
 
 #: src-en/data/events_sector_obelisk.xml.append:57
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/event/text"
-msgstr ""
+msgstr "你将数据输入导引无人机，等待其破译结果。"
 
 #: src-en/data/events_sector_obelisk.xml.append:59
 msgid ""
@@ -99,12 +112,13 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:65
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/text"
-msgstr ""
+msgstr "让我们的一位非联合方碑的方碑族来翻译这种奇怪的语言。"
 
 #: src-en/data/events_sector_obelisk.xml.append:67
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/text"
-msgstr ""
+msgstr "那位方碑族听到无人机的信息时僵住了。尽管花了几分钟，他们最终还是同意为你翻译"
+"这段信息。"
 
 #: src-en/data/events_sector_obelisk.xml.append:69
 msgid ""
@@ -114,12 +128,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:75
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/text"
-msgstr ""
+msgstr "让我们的一位联合方碑族来翻译这种奇怪的语言。"
 
 #: src-en/data/events_sector_obelisk.xml.append:77
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/event/text"
-msgstr ""
+msgstr "联合方碑族迅速为你和你的船员撰写了一份完整的信息译文。"
 
 #: src-en/data/events_sector_obelisk.xml.append:79
 msgid ""
@@ -129,12 +143,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:85
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/text"
-msgstr ""
+msgstr "让我们的一位非金属认知体来翻译这种奇怪的语言。"
 
 #: src-en/data/events_sector_obelisk.xml.append:87
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/text"
-msgstr ""
+msgstr "这位认知体立即开始破译信息，整个过程显得毫不费力。"
 
 #: src-en/data/events_sector_obelisk.xml.append:89
 msgid ""
@@ -144,12 +158,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:95
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/text"
-msgstr ""
+msgstr "老天，快关掉无线电系统然后把它炸掉！"
 
 #: src-en/data/events_sector_obelisk.xml.append:97
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/event/text"
-msgstr ""
+msgstr "你启动武器系统，无人机也做出同样反应。即便已受损，它很可能仍会负隅顽抗。"
 
 #: src-en/data/events_sector_obelisk.xml.append:100
 msgid ""
@@ -159,12 +173,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:106
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/text"
-msgstr ""
+msgstr "关闭无线电，立刻撤离！"
 
 #: src-en/data/events_sector_obelisk.xml.append:108
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/text"
-msgstr ""
+msgstr "你判定破译这段信息不值得耗费时间，转而准备进行跃迁。"
 
 #: src-en/data/events_sector_obelisk.xml.append:110
 msgid ""
@@ -179,12 +193,12 @@ msgstr "跳过。"
 #: src-en/data/events_sector_obelisk.xml.append:122
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/text"
-msgstr ""
+msgstr "攻击那艘船，不管它是什么，里面总该有些有用的东西。"
 
 #: src-en/data/events_sector_obelisk.xml.append:124
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你启动武器系统，无人机也做出同样反应。即便已受损，它很可能仍会负隅顽抗。"
 
 #: src-en/data/events_sector_obelisk.xml.append:127
 msgid ""
@@ -194,12 +208,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:133
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/text"
-msgstr ""
+msgstr "不管那艘自动舰。"
 
 #: src-en/data/events_sector_obelisk.xml.append:135
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/text"
-msgstr ""
+msgstr "你有远比处理一艘受损的自动舰船更重要的问题需要解决。"
 
 #: src-en/data/events_sector_obelisk.xml.append:137
 msgid ""
@@ -215,16 +229,20 @@ msgstr "跳过。"
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/text"
 msgstr ""
+"当舰船的杂乱讯号被完整破译后，你发现这艘船很可能曾是远古方碑内战中使用的移动"
+"武器工厂。即便已受损，这艘自动舰船合成新装备的能力仍可能派上用场。但若不将其"
+"关闭，要进入锻造舱恐怕并非易事。"
 
 #: src-en/data/events_sector_obelisk.xml.append:151
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/text"
-msgstr ""
+msgstr "尝试骇入舰船。"
 
 #: src-en/data/events_sector_obelisk.xml.append:153
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/event/text"
-msgstr ""
+msgstr "你编写了一个攻击自动舰船人工智能模块的程序。若想此计划成功，必须在抵御该舰攻"
+"击的同时确保不将其摧毁！"
 
 #: src-en/data/events_sector_obelisk.xml.append:156
 msgid ""
@@ -234,12 +252,13 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:162
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/text"
-msgstr ""
+msgstr "看看我们的联合方碑船员中是否有人能加速黑客入侵进程。"
 
 #: src-en/data/events_sector_obelisk.xml.append:164
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/text"
-msgstr ""
+msgstr "你的联合方碑船员曾亲历这些无人机盛行的年代，他们没费多大劲就成功绕过了自动舰"
+"船的防火墙。"
 
 #: src-en/data/events_sector_obelisk.xml.append:166
 msgid ""
@@ -249,12 +268,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:172
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/text"
-msgstr ""
+msgstr "（先进黑客）用你的黑客系统加速骇入过程。"
 
 #: src-en/data/events_sector_obelisk.xml.append:174
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/event/text"
-msgstr ""
+msgstr "你高度先进的黑客系统完全能胜任此任务，无人机没怎么抵抗就屈服了。"
 
 #: src-en/data/events_sector_obelisk.xml.append:176
 msgid ""
@@ -264,12 +283,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:182
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/text"
-msgstr ""
+msgstr "这太冒险了，立刻远离那艘自动舰船。"
 
 #: src-en/data/events_sector_obelisk.xml.append:184
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/event/text"
-msgstr ""
+msgstr "这艘船隐藏的秘密与当前任务无关。你调转船头，准备进行跃迁。"
 
 #: src-en/data/events_sector_obelisk.xml.append:186
 msgid ""
@@ -285,21 +304,26 @@ msgstr "跳过。"
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/text"
 msgstr ""
+"一旦舰船防火墙被攻破，整艘船落入你掌控只是时间问题。内部那座奇迹般的锻造炉仍"
+"完好无损，但舰体受损严重，很可能在锻造出一件装备后就会因过载而解体。\n"
+"\t\n"
+"\t搜查工厂时，你还发现了一个奇怪的立方体装置。若是损坏的，或许能用强力维修无"
+"人机修复它。"
 
 #: src-en/data/events_sector_obelisk.xml.append:203
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[1]/text"
-msgstr ""
+msgstr "制造一个联合方碑族武器或无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:209
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/text"
-msgstr ""
+msgstr "搜刮舰船。"
 
 #: src-en/data/events_sector_obelisk.xml.append:211
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你决定拆解这艘老旧自动舰船，从它身上搜集能用的基础废料金属将就着用。"
 
 #: src-en/data/events_sector_obelisk.xml.append:214
 msgid ""
@@ -309,217 +333,247 @@ msgstr "星舰管理。"
 #: src-en/data/events_sector_obelisk.xml.append:220
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
-msgstr ""
+msgstr "（联合方碑族尸体）尝试修复这具尸体。"
 
 #: src-en/data/events_sector_obelisk.xml.append:222
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
+"工厂艰难地扫描着船员——很可能是因其严重受损所致——但最终仍成功让他们短暂复活了"
+"片刻，随后内部系统便彻底崩溃。要修复这具尸体所需的技术已远超工厂的能力范围。"
+"\n"
+"\t\n"
+"\t\t\t\t然而蹊跷的是，就在联合方碑船员短暂复苏后不久，你的传感器上突然出现一"
+"道异常信号，其能量特征与尸体失去活性前散发的波动完全吻合。或许释放出这些信号"
+"的存在，能令这具躯体真正重获新生？"
 
 #: src-en/data/events_sector_obelisk.xml.append:231
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
-msgstr ""
+msgstr "（维修无人机）这个装置似乎损坏了；我们的维修无人机应该能修好它。"
 
 #: src-en/data/events_sector_obelisk.xml.append:233
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
+"由于该装置损毁严重，修复过程耗费了很长时间。最终，经过维修无人机的精密操作，"
+"损坏的装置被完全重构。随着装置启动，你接收到来自本星域某处的奇特信号——就在刚"
+"才，你的传感器在那里侦测到巨大的能量爆发。无论那里有什么，都必定非同小可。"
 
 #: src-en/data/events_sector_obelisk.xml.append:242
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"prof_went_commonwealth_rift\"]/text"
-msgstr ""
+msgstr "该装置似乎并未损坏，启动它。"
 
 #: src-en/data/events_sector_obelisk.xml.append:244
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/text"
 msgstr ""
+"你触碰装置后它骤然启动。随着设备激活，你接收到来自星域中某处的奇特信号——就在"
+"刚才，你的传感器在那里侦测到巨大的能量爆发。无论那里藏着什么，都必定至关重要"
+"。"
 
 #: src-en/data/events_sector_obelisk.xml.append:254
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/text"
-msgstr ""
+msgstr "你成功突破了锻造厂的防火墙，正在解析可制造的装备清单。"
 
 #: src-en/data/events_sector_obelisk.xml.append:256
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/text"
-msgstr ""
+msgstr "制造一个原型认知体。"
 
 #: src-en/data/events_sector_obelisk.xml.append:262
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/event/text"
-msgstr ""
+msgstr "当你新结盟的伙伴带着些许困惑从锻造厂飘出时，那艘古老的自动舰船开始瓦解，最终"
+"化为一堆无用的残骸。这位认知体飘然而出，加入了你的船员行列！"
 
 #: src-en/data/events_sector_obelisk.xml.append:266
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/text"
-msgstr ""
+msgstr "制造一个联合方碑预兆者。"
 
 #: src-en/data/events_sector_obelisk.xml.append:273
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/event/text"
-msgstr ""
+msgstr "当新武器从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残骸。"
+"你将武器收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:277
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[3]/text"
-msgstr ""
+msgstr "制造一个联合方碑离子加农炮。"
 
 #: src-en/data/events_sector_obelisk.xml.append:284
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[3]/event/text"
-msgstr ""
+msgstr "当新武器从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残骸。"
+"你将武器收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:288
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[4]/text"
-msgstr ""
+msgstr "制造一个联合方碑爆弹。"
 
 #: src-en/data/events_sector_obelisk.xml.append:295
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[4]/event/text"
-msgstr ""
+msgstr "当新武器从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残骸。"
+"你将武器收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:299
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[5]/text"
-msgstr ""
+msgstr "制造一个联合方碑重型预兆者。"
 
 #: src-en/data/events_sector_obelisk.xml.append:306
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[5]/event/text"
-msgstr ""
+msgstr "当新武器从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残骸。"
+"你将武器收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:310
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/text"
-msgstr ""
+msgstr "制造一个联合方碑根除者。"
 
 #: src-en/data/events_sector_obelisk.xml.append:316
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/event/text"
-msgstr ""
+msgstr "当新武器从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残骸。"
+"你将武器收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:320
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/text"
-msgstr ""
+msgstr "制造一个联合方碑净化者。"
 
 #: src-en/data/events_sector_obelisk.xml.append:327
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/event/text"
-msgstr ""
+msgstr "当新武器从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残骸。"
+"你将武器收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:331
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[8]/text"
-msgstr ""
+msgstr "制造一个联合方碑杀戮导弹。"
 
 #: src-en/data/events_sector_obelisk.xml.append:338
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[8]/event/text"
-msgstr ""
+msgstr "当新武器从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残骸。"
+"你将武器收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:342
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[9]/text"
-msgstr ""
+msgstr "制造一个联合方碑猛攻空雷。"
 
 #: src-en/data/events_sector_obelisk.xml.append:349
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[9]/event/text"
-msgstr ""
+msgstr "当新武器从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残骸。"
+"你将武器收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:353
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/text"
-msgstr ""
+msgstr "制造一个联合方碑杀戮无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:361
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/event/text"
-msgstr ""
+msgstr "当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
+"的残骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:365
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/text"
-msgstr ""
+msgstr "制造一个联合方碑等离子无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:372
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/event/text"
-msgstr ""
+msgstr "当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
+"的残骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:376
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[12]/text"
-msgstr ""
+msgstr "制造一个联合方碑净化者光点无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:383
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[12]/event/text"
-msgstr ""
+msgstr "当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
+"的残骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:387
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[13]/text"
-msgstr ""
+msgstr "制造一个联合方碑守望者无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:394
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[13]/event/text"
-msgstr ""
+msgstr "当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
+"的残骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:398
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[14]/text"
-msgstr ""
+msgstr "制造一个联合方碑预兆者无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:405
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[14]/event/text"
-msgstr ""
+msgstr "当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
+"的残骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:409
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[15]/text"
-msgstr ""
+msgstr "制造一个原型导引无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:416
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[15]/event/text"
-msgstr ""
+msgstr "当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
+"的残骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:420
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[16]/text"
-msgstr ""
+msgstr "制造一个原型解离无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:427
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[16]/event/text"
-msgstr ""
+msgstr "当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
+"的残骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:431
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[17]/text"
-msgstr ""
+msgstr "制造一个原型维修无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:438
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[17]/event/text"
-msgstr ""
+msgstr "当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
+"的残骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:442
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/text"
-msgstr ""
+msgstr "这些都没什么用。把这艘船拆解掉。"
 
 #: src-en/data/events_sector_obelisk.xml.append:444
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/event/text"
-msgstr ""
+msgstr "你决定拆解这艘老旧自动舰船，从它身上搜集能用的基础废料金属将就着用。"
 
 #: src-en/data/events_sector_obelisk.xml.append:447
 msgid ""
@@ -529,29 +583,42 @@ msgstr "星舰管理。"
 #: src-en/data/events_sector_obelisk.xml.append:453
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
-msgstr ""
+msgstr "（联合方碑族尸体）尝试修复这具尸体。"
 
 #: src-en/data/events_sector_obelisk.xml.append:455
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
+"工厂艰难地扫描着船员——很可能是因其严重受损所致——但最终仍成功让他们短暂复活了"
+"片刻，随后内部系统便彻底崩溃。要修复这具尸体所需的技术已远超工厂的能力范围。"
+"\n"
+"\t\n"
+"\t\t\t然而蹊跷的是，就在联合方碑短暂复苏后不久，你的传感器上突然出现一道异常"
+"信号，其能量特征与尸体失去活性前散发的波动完全吻合。或许释放出这些信号的存在"
+"，能令这具躯体真正重获新生？"
 
 #: src-en/data/events_sector_obelisk.xml.append:465
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
-msgstr ""
+msgstr "（维修无人机）这个装置似乎损坏了，我们的维修无人机应该能修好它。"
 
 #: src-en/data/events_sector_obelisk.xml.append:467
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
+"由于该装置损毁严重，修复过程耗费了很长时间。最终，经过维修无人机的精密操作，"
+"损坏的装置被完全重构。随着装置启动，你接收到来自本星域某处的奇特信号——就在刚"
+"才，你的传感器在那里侦测到巨大的能量爆发。无论那里有什么，都必定非同小可。"
 
 #: src-en/data/events_sector_obelisk.xml.append:476
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"prof_went_commonwealth_rift\"]/text"
-msgstr ""
+msgstr "该装置似乎并未损坏，启动它。"
 
 #: src-en/data/events_sector_obelisk.xml.append:478
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/text"
 msgstr ""
+"你触碰装置后它骤然启动。随着设备激活，你接收到来自星域中某处的奇特信号——就在"
+"刚才，你的传感器在那里侦测到巨大的能量爆发。无论那里藏着什么，都必定至关重要"
+"。"
