@@ -8,41 +8,41 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:8
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/undiscoveredTooltip"
-msgstr "奇妙な放送がこのビーコンから来ているようです。"
+msgstr "このビーコンから奇妙な放送が発信されているようだ。"
 
 #: src-en/data/events_sector_obelisk.xml.append:9
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/unvisitedTooltip"
-msgstr "このビーコンには古代のドローンがありました。"
+msgstr "このビーコンには古代のドローンがいた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:11
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/text"
 msgstr ""
-"ビーコンに到着すると、オベリスクデザインの奇妙な自動容器と顔を合わせます。これは、この恐ろしい場所でさえ、あなたが今まで見たことのないメーカーとモデルの色と武器を持ち、コミュニケーションを開こうとします。"
+"ビーコンに到着すると、オベリスク設計の奇妙な自動船と対面する。この恐ろしい場所でさえ見たことのない色や製造元、モデルの武器を搭載しており、通信を開こうと試みている。"
 
 #: src-en/data/events_sector_obelisk.xml.append:14
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/text"
-msgstr "自動船に近づき、あられを受け取るようにしてください。"
+msgstr "オートシップに接近し、通信を受信する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:16
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/text"
 msgstr ""
-"船は静的なものと、約10秒ほど続くループの単語とはほとんど見なすことができないものをblarります。信号の歪みがメッセージをデコードする悪夢にしただけでなく、実際のスピーチは、Aenwitheの翻訳アルゴリズムがデコードするにはObeliskスピーチの方言の方言であるように見えました。より良い翻訳パッケージをインストールすると、メッセージを理解できるかもしれないと思います。"
+"その船は、約10秒ほどのループで、雑音とかろうじて言葉と認識できるものが混ざった音を鳴り響かせている。信号の歪みのせいでメッセージの解読は困難を極めるだけでなく、実際の言葉遣いはオベリスクの言葉の中でもあまりに古く、エインワイスの翻訳アルゴリズムでは解読できない方言のようだ。より良い翻訳パッケージをインストールすれば、メッセージを理解できるかもしれない。"
 
 #: src-en/data/events_sector_obelisk.xml.append:18
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"0\"]/text"
-msgstr "Runic Translatorをインストールします。[コスト：10〜、1 |]"
+msgstr "ルーン翻訳機をインストールする。[コスト: 10~, 1|]"
 
 #: src-en/data/events_sector_obelisk.xml.append:20
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"0\"]/event/text"
-msgstr "翻訳者をインストールし、デコードできるものを確認するのを待ちます。"
+msgstr "翻訳機をインストールし、何が解読できるか待つ。"
 
 #: src-en/data/events_sector_obelisk.xml.append:28
 msgid ""
@@ -54,13 +54,13 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"1\"]/text"
-msgstr "私たちはすでに翻訳者を持っています、ドローンが言っていることをデコードしています！"
+msgstr "翻訳機はすでにある。ドローンが何を言っているか解読しろ！"
 
 #: src-en/data/events_sector_obelisk.xml.append:36
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"1\"]/event/text"
-msgstr "あなたはあなたのルーン系翻訳者をオンにし、それがデコードできるものを見るのを待ちます。"
+msgstr "ルーン翻訳機の電源を入れ、何が解読できるか待つ。"
 
 #: src-en/data/events_sector_obelisk.xml.append:38
 msgid ""
@@ -71,13 +71,12 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:44
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/text"
-msgstr "ノイズを手動で翻訳してみてください。"
+msgstr "手動でノイズを翻訳してみる。"
 
 #: src-en/data/events_sector_obelisk.xml.append:46
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/event/text"
-msgstr ""
-"あなたはそれを難し​​い方法で行うことにしました。メッセージのデコードは非常に困難であり、自動船の前に座って数日以上を費やし、翻訳者を豊かにします。"
+msgstr "困難な道を選ぶことにした。メッセージの解読は非常に難しく、オートシップの前で数日間を費やし、翻訳機を強化することになる。"
 
 #: src-en/data/events_sector_obelisk.xml.append:49
 msgid ""
@@ -87,12 +86,12 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:55
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/text"
-msgstr "監督にテキストを翻訳させることができるかどうかを確認してください。"
+msgstr "ディレクターにテキストを翻訳させられるか試す。"
 
 #: src-en/data/events_sector_obelisk.xml.append:57
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/event/text"
-msgstr "データをディレクターにフィードし、デコードできるものを確認します。"
+msgstr "データをディレクターに入力し、何が解読できるか待つ。"
 
 #: src-en/data/events_sector_obelisk.xml.append:59
 msgid ""
@@ -102,12 +101,12 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:65
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/text"
-msgstr "私たちの非共通のオベリスクの1つに、奇妙な言語を翻訳するように依頼してください。"
+msgstr "コモンウェルス以外のオベリスクに奇妙な言語を翻訳してもらう。"
 
 #: src-en/data/events_sector_obelisk.xml.append:67
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/text"
-msgstr "ドローンのメッセージが聞こえると、オベリスクが凍結します。数分かかりますが、彼らはあなたのためにメッセージを翻訳することに同意します。"
+msgstr "オベリスクはドローンのメッセージを聞くと固まった。数分かかったが、彼らはあなたのためにメッセージを翻訳することに同意した。"
 
 #: src-en/data/events_sector_obelisk.xml.append:69
 msgid ""
@@ -117,12 +116,12 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:75
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/text"
-msgstr "私たちの連邦の1つを尋ねて、奇妙な言語を翻訳してください。"
+msgstr "コモンウェルスのオベリスクに奇妙な言語を翻訳してもらう。"
 
 #: src-en/data/events_sector_obelisk.xml.append:77
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/event/text"
-msgstr "Commonwealth Obeliskは、あなたとあなたの乗組員が読むためのメッセージの完全な翻訳をすばやく書き留めます。"
+msgstr "コモンウェルスのオベリスクは、あなたとクルーが読めるようにメッセージの完全な翻訳を素早く書き上げた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:79
 msgid ""
@@ -132,12 +131,12 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:85
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/text"
-msgstr "私たちの非金属認知主義者の1つに、奇妙な言語を翻訳するように依頼してください。"
+msgstr "非金属のコグニティブに奇妙な言語を翻訳してもらう。"
 
 #: src-en/data/events_sector_obelisk.xml.append:87
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/text"
-msgstr "認知はすぐにメッセージを解読するように設定しますが、困難の兆候はありません。"
+msgstr "コグニティブはすぐにメッセージの解読に取りかかった。困難な様子はまったくない。"
 
 #: src-en/data/events_sector_obelisk.xml.append:89
 msgid ""
@@ -147,12 +146,12 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:95
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/text"
-msgstr "親愛なる主よ、ラジオシステムをシャットダウンして爆破してください！"
+msgstr "なんてこった、無線システムを停止して爆破しろ！"
 
 #: src-en/data/events_sector_obelisk.xml.append:97
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/event/text"
-msgstr "あなたはあなたの武器を強化し、ドローンも同じことをします。その破損した状態でさえ、それはかなりの戦いを立てる可能性があります。"
+msgstr "武器を起動すると、ドローンも同様に起動した。損傷しているとはいえ、かなりの戦いになりそうだ。"
 
 #: src-en/data/events_sector_obelisk.xml.append:100
 msgid ""
@@ -162,12 +161,12 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:106
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/text"
-msgstr "ラジオをシャットダウンしてそこから出てください！"
+msgstr "無線を停止してここから離脱する！"
 
 #: src-en/data/events_sector_obelisk.xml.append:108
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/text"
-msgstr "メッセージをデコードすることは時間の価値がないと判断し、代わりにジャンプする準備をします。"
+msgstr "メッセージの解読は時間の無駄だと判断し、代わりにジャンプの準備をする。"
 
 #: src-en/data/events_sector_obelisk.xml.append:110
 msgid ""
@@ -182,12 +181,12 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:122
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/text"
-msgstr "その船を攻撃しても、それが何であれ、その中で何かを使用する必要があります。"
+msgstr "あの船を攻撃しろ。何であれ、中には何か使えるものがあるはずだ。"
 
 #: src-en/data/events_sector_obelisk.xml.append:124
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/event/text"
-msgstr "あなたはあなたの武器を強化し、ドローンも同じことをします。その破損した状態でさえ、それはかなりの戦いを立てる可能性があります。"
+msgstr "武器を起動すると、ドローンも同様に起動した。損傷しているとはいえ、かなりの戦いになりそうだ。"
 
 #: src-en/data/events_sector_obelisk.xml.append:127
 msgid ""
@@ -197,12 +196,12 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:133
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/text"
-msgstr "自動船を放っておいてください。"
+msgstr "オートシップを放っておく。"
 
 #: src-en/data/events_sector_obelisk.xml.append:135
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/text"
-msgstr "破損した自動船を処理するよりも、解決すべきはるかに重要な問題があります。"
+msgstr "損傷したオートシップを相手にするよりも、はるかに重要な問題がある。"
 
 #: src-en/data/events_sector_obelisk.xml.append:137
 msgid ""
@@ -218,17 +217,17 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/text"
 msgstr ""
-"船の不協和音が完全に翻訳されると、それはずっと前にオベリスク内戦でモバイル武器工場として使用されている可能性があります。その損傷状態でさえ、新しい機器を合成する自動船の能力は有用であることが証明される可能性があります。ただし、Forgeにアクセスすることは、自動船をシャットダウンすることなく困難な場合があります。"
+"船の不協和音が完全に翻訳されると、それが遠い昔のオベリスク内戦で移動兵器工場として使われていた可能性が高いことが判明した。損傷した状態であっても、オートシップの新しい装備を合成する能力は有用かもしれない。しかし、オートシップを停止させなければ、製造施設にアクセスするのは難しいだろう。"
 
 #: src-en/data/events_sector_obelisk.xml.append:151
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/text"
-msgstr "船をハッキングしようとします。"
+msgstr "船をハッキングする。"
 
 #: src-en/data/events_sector_obelisk.xml.append:153
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/event/text"
-msgstr "Auto-ShipのAIモジュールを攻撃するプログラムを設定します。この計画を機能させたい場合は、船を破壊せずに控えなければなりません！"
+msgstr "オートシップのAIモジュールを攻撃するプログラムをセットアップした。この計画を成功させたいなら、船を破壊せずに持ちこたえなければならない！"
 
 #: src-en/data/events_sector_obelisk.xml.append:156
 msgid ""
@@ -238,12 +237,13 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:162
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/text"
-msgstr "連邦の乗組員がハッキングプロセスをスピードアップできるかどうかを確認してください。"
+msgstr "コモンウェルスのクルーがハッキングプロセスを高速化できるか試す。"
 
 #: src-en/data/events_sector_obelisk.xml.append:164
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/text"
-msgstr "これらのドローンの使用の最盛期にあったあなたの連邦の乗組員は、多くの問題なく自動船のファイアウォールを無効にすることができます。"
+msgstr ""
+"あなたのコモンウェルスのクルーは、これらのドローンが最も使用されていた時代にいたため、問題なくオートシップのファイアウォールを無効化することに成功した。"
 
 #: src-en/data/events_sector_obelisk.xml.append:166
 msgid ""
@@ -253,12 +253,12 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:172
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/text"
-msgstr "（Advanced Hacking）メインハッキングシステムを使用して、ハッキングプロセスを高速化します。"
+msgstr "(高度ハッキング) メインのハッキングシステムを使ってハッキングプロセスを高速化する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:174
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/event/text"
-msgstr "高度な高度なハッキングシステムはタスクに適しており、ドローンはあまり抵抗せずに提出します。"
+msgstr "あなたの高度なハッキングシステムはこのタスクに適しており、ドローンはたいした抵抗もなく屈服した。"
 
 #: src-en/data/events_sector_obelisk.xml.append:176
 msgid ""
@@ -268,12 +268,12 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:182
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/text"
-msgstr "これはあまりにも危険で、自動船から離れています。"
+msgstr "これはリスクが高すぎる。オートシップから離れる。"
 
 #: src-en/data/events_sector_obelisk.xml.append:184
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/event/text"
-msgstr "この船が保持している秘密は、現在のミッションには関係ありません。ジャンプする準備をして、あなたは背を向けます。"
+msgstr "この船がどんな秘密を抱えていようと、現在の任務とは無関係だ。あなたは背を向け、ジャンプの準備をする。"
 
 #: src-en/data/events_sector_obelisk.xml.append:186
 msgid ""
@@ -289,24 +289,24 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/text"
 msgstr ""
-"船のファイアウォールが壊れたら、船全体を指揮下に置くことができるのは時間の問題です。内部の奇跡的な鍛造はまだ無傷ですが、船の破損した状態は、船が緊張から離れて降る前に、それから単一の装備を出すだけである可能性が高いことを意味します。\n"
-"\n"
-"また、工場を検索しているときに、ある種の奇妙な立方装置を見つけます。壊れている場合は、強力な修理ドローンで修理できる場合があります。"
+"船のファイアウォールが破られれば、船全体をあなたの指揮下に置くのも時間の問題だ。内部の奇跡的な製造施設はまだ無傷だが、船が損傷しているため、負荷で船が崩壊する前に装備を一つしか取り出せないだろう。\n"
+"\t\n"
+"\tまた、工場を捜索中に奇妙な立方体の装置を見つけた。壊れているなら、強力なリペアドローンで修理できるかもしれない。"
 
 #: src-en/data/events_sector_obelisk.xml.append:203
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[1]/text"
-msgstr "連邦兵器またはドローンを作ります。"
+msgstr "コモンウェルスの武器かドローンを作成する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:209
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/text"
-msgstr "船を廃棄します。"
+msgstr "船を解体する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:211
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/event/text"
-msgstr "あなたは古いオートシップを救うことに決め、そこから収集できる基本的なスクラップ金属を作ります。"
+msgstr "古いオートシップをサルベージすることにし、そこから回収できる基本的なスクラップで間に合わせる。"
 
 #: src-en/data/events_sector_obelisk.xml.append:214
 msgid ""
@@ -316,222 +316,223 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:220
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
-msgstr "（Commonwealth's Body）死体を修復しようとします。"
+msgstr "(コモンウェルスの身体) 死体を修理しようと試みる。"
 
 #: src-en/data/events_sector_obelisk.xml.append:222
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
-"工場は乗組員をスキャンするのに苦労していますが、おそらくそれは非常にひどく損傷を受けているからですが、最終的には彼らを生き返らせることができます...しかし、その内部ソフトウェアがクラッシュする前にしばらくの間です。死体を修理するために必要なものはすべて、工場の修理能力を超えています。\n"
-"\n"
-"奇妙なことに、連邦が瞬間的に戻ってきてすぐに、センサーに奇妙な異常が現れます。これは、シャットダウンする前に体が放つエネルギー署名と一致するようです。たぶん、誰がそれらの署名を放出しているのは、体を永久に生き返らせることができるでしょうか？"
+"工場はクルーのスキャンに苦労しているようだ。ひどく損傷しているためだろうが、最終的には彼らを蘇生させることに成功した…しかし、内部ソフトウェアがクラッシュするまでの一瞬だけだった。死体を修理するのに必要なものは、工場の修理能力を超えている。\n"
+"\t\n"
+"\t\t\t\t奇妙なことに、コモンウェルスが一時的に蘇生した直後、センサーに奇妙な異常が現れた。それは、身体がシャットダウンする前に発したエネルギーシグネチャと一致するようだ。もしかしたら、そのシグネチャを発している誰かが、身体を永久に蘇生させることができるかもしれない？"
 
 #: src-en/data/events_sector_obelisk.xml.append:231
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
-msgstr "（メンダードローン）デバイスは壊れているようです。私たちのメンダードローンはそれを修正できるはずです。"
+msgstr "(メンダードローン) 装置は壊れているようだ。我々のメンダードローンなら修理できるはずだ。"
 
 #: src-en/data/events_sector_obelisk.xml.append:233
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
-"デバイスが大幅に損傷しているため、修復するのに長い時間がかかります。最終的に、はるかに慎重に操縦することで、メンダーは壊れたデバイスを完全に再構築することができます。アクティブになると、センサーが大規模なエネルギースパイクを識別したセクターの場所から奇妙な信号を受け取ります。何があるにしても重要です。"
+"装置はひどく損傷しており、修理には長い時間がかかった。最終的に、慎重な操作の末、あなたのメンダーは壊れた装置を完全に再構築することができた。それが起動すると、セクター内のある場所から奇妙な信号を受信した。そこではセンサーが巨大なエネルギースパイクを特定したばかりだ。そこにあるものは重要なものに違いない。"
 
 #: src-en/data/events_sector_obelisk.xml.append:242
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"prof_went_commonwealth_rift\"]/text"
-msgstr "デバイスが壊れていないようで、アクティブ化します。"
+msgstr "装置は壊れていないようだ。起動する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:244
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/text"
 msgstr ""
-"あなたはデバイスに触れて、それが突然生き返ります。それが活性化すると、センサーが大規模なエネルギースパイクを識別しただけで、セクターのポイントから奇妙な信号を受け取ります。何があるにしても重要です。"
+"装置に触れると、突然動き出した。それが起動すると、セクター内のある地点から奇妙な信号を受信した。そこではセンサーが巨大なエネルギースパイクを特定したばかりだ。そこにあるものは重要なものに違いない。"
 
 #: src-en/data/events_sector_obelisk.xml.append:254
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/text"
-msgstr "Forgeのファイアウォールに違反し、構築できるものを見つけます。"
+msgstr "製造施設のファイアウォールを突破し、何を建造できるか確認する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:256
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/text"
-msgstr "プロト認知を構築します。"
+msgstr "プロトコグニティブを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:262
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/event/text"
-msgstr "あなたの新しい味方が鍛造、軽度に混乱しているように、古い自動船は崩れ始め、役に立たない難破に過ぎません。認知が鳴り、乗組員に加わります！"
+msgstr ""
+"新しい仲間が少し混乱した様子で製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。コグニティブは外に出て、あなたのクルーに加わった！"
 
 #: src-en/data/events_sector_obelisk.xml.append:266
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/text"
-msgstr "連邦の前兆を構築します。"
+msgstr "コモンウェルス・ハービンジャーを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:273
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/event/text"
-msgstr "新しい武器が鍛造から出ると、古い自動船は崩れ始め、役に立たない難破に過ぎません。あなたは武器を乗せます。"
+msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:277
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[3]/text"
-msgstr "連邦血漿大砲を建設します。"
+msgstr "コモンウェルス・プラズマキャノンを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:284
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[3]/event/text"
-msgstr "新しい武器が鍛造から出ると、古い自動船は崩れ始め、役に立たない難破に過ぎません。あなたは武器を乗せます。"
+msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:288
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[4]/text"
-msgstr "連邦ペイロードを作成します。"
+msgstr "コモンウェルス・ペイロードを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:295
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[4]/event/text"
-msgstr "新しい武器が鍛造から出ると、古い自動船は崩れ始め、役に立たない難破に過ぎません。あなたは武器を乗せます。"
+msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:299
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[5]/text"
-msgstr "連邦の重い前兆を建設します。"
+msgstr "コモンウェルス・ヘビーハービンジャーを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:306
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[5]/event/text"
-msgstr "新しい武器が鍛造から出ると、古い自動船は崩れ始め、役に立たない難破に過ぎません。あなたは武器を乗せます。"
+msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:310
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/text"
-msgstr "連邦eradicatorを構築します。"
+msgstr "コモンウェルス・イラディケーターを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:316
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/event/text"
-msgstr "新しい武器が鍛造から出ると、古い自動船は崩れ始め、役に立たない難破に過ぎません。あなたは武器を乗せます。"
+msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:320
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/text"
-msgstr "Commonwealth Purifierを作成します。"
+msgstr "コモンウェルス・ピュリファイアを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:327
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/event/text"
-msgstr "新しい武器が鍛造から出ると、古い自動船は崩れ始め、役に立たない難破に過ぎません。あなたは武器を乗せます。"
+msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:331
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[8]/text"
-msgstr "連邦大虐殺を建設します。"
+msgstr "コモンウェルス・カーネイジを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:338
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[8]/event/text"
-msgstr "新しい武器が鍛造から出ると、古い自動船は崩れ始め、役に立たない難破に過ぎません。あなたは武器を乗せます。"
+msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:342
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[9]/text"
-msgstr "連邦の猛攻撃を構築します。"
+msgstr "コモンウェルス・オンスロートを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:349
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[9]/event/text"
-msgstr "新しい武器が鍛造から出ると、古い自動船は崩れ始め、役に立たない難破に過ぎません。あなたは武器を乗せます。"
+msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:353
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/text"
-msgstr "Commonwealth Carnageドローンを作成します。"
+msgstr "コモンウェルス・カーネイジドローンを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:361
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/event/text"
-msgstr "新しいドローンの概略図が鍛造から出ると、古い自動船が崩れ始め、役に立たない大破に過ぎません。あなたはドローンを乗せます。"
+msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:365
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/text"
-msgstr "Commonwealth Phaserドローンを作成します。"
+msgstr "コモンウェルス・フェイザードローンを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:372
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/event/text"
-msgstr "新しいドローンの概略図が鍛造から出ると、古い自動船が崩れ始め、役に立たない大破に過ぎません。あなたはドローンを乗せます。"
+msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:376
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[12]/text"
-msgstr "Commonwealth Purifierドローンを作成します。"
+msgstr "コモンウェルス・ピュリファイアドローンを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:383
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[12]/event/text"
-msgstr "新しいドローンの概略図が鍛造から出ると、古い自動船が崩れ始め、役に立たない大破に過ぎません。あなたはドローンを乗せます。"
+msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:387
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[13]/text"
-msgstr "連邦オーバーウォッチャーを作成します。"
+msgstr "コモンウェルス・オーバーウォッチャーを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:394
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[13]/event/text"
-msgstr "新しいドローンの概略図が鍛造から出ると、古い自動船が崩れ始め、役に立たない大破に過ぎません。あなたはドローンを乗せます。"
+msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:398
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[14]/text"
-msgstr "Commonwealth Harbingerドローンを作成します。"
+msgstr "コモンウェルス・ハービンジャードローンを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:405
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[14]/event/text"
-msgstr "新しいドローンの概略図が鍛造から出ると、古い自動船が崩れ始め、役に立たない大破に過ぎません。あなたはドローンを乗せます。"
+msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:409
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[15]/text"
-msgstr "プロトディレクターを作成します。"
+msgstr "プロトディレクターを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:416
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[15]/event/text"
-msgstr "新しいドローンの概略図が鍛造から出ると、古い自動船が崩れ始め、役に立たない大破に過ぎません。あなたはドローンを乗せます。"
+msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:420
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[16]/text"
-msgstr "プロトアトマイザーを構築します。"
+msgstr "プロトアトマイザーを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:427
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[16]/event/text"
-msgstr "新しいドローンの概略図が鍛造から出ると、古い自動船が崩れ始め、役に立たない大破に過ぎません。あなたはドローンを乗せます。"
+msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:431
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[17]/text"
-msgstr "プロトメンダーを構築します。"
+msgstr "プロトメンダーを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:438
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[17]/event/text"
-msgstr "新しいドローンの概略図が鍛造から出ると、古い自動船が崩れ始め、役に立たない大破に過ぎません。あなたはドローンを乗せます。"
+msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
 
 #: src-en/data/events_sector_obelisk.xml.append:442
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/text"
-msgstr "これらのどれも役に立ちません。船を廃棄します。"
+msgstr "どれも役に立たない。船を解体する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:444
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/event/text"
-msgstr "あなたは古いオートシップを救うことに決め、そこから収集できる基本的なスクラップ金属を作ります。"
+msgstr "古いオートシップをサルベージすることにし、そこから回収できる基本的なスクラップで間に合わせる。"
 
 #: src-en/data/events_sector_obelisk.xml.append:447
 msgid ""
@@ -541,34 +542,34 @@ msgstr ""
 #: src-en/data/events_sector_obelisk.xml.append:453
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
-msgstr "（Commonwealth's Body）死体を修復しようとします。"
+msgstr "(コモンウェルスの身体) 死体を修理しようと試みる。"
 
 #: src-en/data/events_sector_obelisk.xml.append:455
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
-"工場は乗組員をスキャンするのに苦労していますが、おそらくそれは非常にひどく損傷を受けているからですが、最終的には彼らを生き返らせることができます...しかし、その内部ソフトウェアがクラッシュする前にしばらくの間です。死体を修理するために必要なものはすべて、工場の修理能力を超えています。\n"
-"\n"
-"奇妙なことに、連邦が瞬間的に戻ってきてすぐに、センサーに奇妙な異常が現れます。これは、シャットダウンする前に体が放つエネルギー署名と一致するようです。たぶん、誰がそれらの署名を放出しているのは、体を永久に生き返らせることができるでしょうか？"
+"工場はクルーのスキャンに苦労しているようだ。ひどく損傷しているためだろうが、最終的には彼らを蘇生させることに成功した…しかし、内部ソフトウェアがクラッシュするまでの一瞬だけだった。死体を修理するのに必要なものは、工場の修理能力を超えている。\n"
+"\t\n"
+"\t\t\t奇妙なことに、コモンウェルスが一時的に蘇生した直後、センサーに奇妙な異常が現れた。それは、身体がシャットダウンする前に発したエネルギーシグネチャと一致するようだ。もしかしたら、そのシグネチャを発している誰かが、身体を永久に蘇生させることができるかもしれない？"
 
 #: src-en/data/events_sector_obelisk.xml.append:465
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
-msgstr "（メンダードローン）デバイスは壊れているようで、メンダードローンはそれを修正できるはずです。"
+msgstr "(メンダードローン) 装置は壊れているようだ。我々のメンダードローンなら修理できるはずだ。"
 
 #: src-en/data/events_sector_obelisk.xml.append:467
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
-"デバイスが大幅に損傷しているため、修復するのに長い時間がかかります。最終的に、はるかに慎重に操縦することで、メンダーは壊れたデバイスを完全に再構築することができます。アクティブになると、センサーが大規模なエネルギースパイクを識別したセクターの場所から奇妙な信号を受け取ります。何があるにしても重要です。"
+"装置はひどく損傷しており、修理には長い時間がかかった。最終的に、慎重な操作の末、あなたのメンダーは壊れた装置を完全に再構築することができた。それが起動すると、セクター内のある場所から奇妙な信号を受信した。そこではセンサーが巨大なエネルギースパイクを特定したばかりだ。そこにあるものは重要なものに違いない。"
 
 #: src-en/data/events_sector_obelisk.xml.append:476
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"prof_went_commonwealth_rift\"]/text"
-msgstr "デバイスが壊れていないようで、アクティブ化します。"
+msgstr "装置は壊れていないようだ。起動する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:478
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/text"
 msgstr ""
-"あなたはデバイスに触れて、それが突然生き返ります。それが活性化すると、センサーが大規模なエネルギースパイクを識別しただけで、セクターのポイントから奇妙な信号を受け取ります。何があるにしても重要です。"
+"装置に触れると、突然動き出した。それが起動すると、セクター内のある地点から奇妙な信号を受信した。そこではセンサーが巨大なエネルギースパイクを特定したばかりだ。そこにあるものは重要なものに違いない。"
