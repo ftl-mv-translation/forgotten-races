@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-06 10:25+0000\n"
+"PO-Revision-Date: 2025-11-07 04:55+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -9356,7 +9356,7 @@ msgstr "评判者的协作"
 #: src-en/data/blueprints.xml.append:15288
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_OBSERVER_TECH\"]/desc"
 msgstr ""
-"观察者专为本舰打造的独特科技，融合了分离、烈阳与原能族的标志性技术，具有以下"
+"评判者专为本舰打造的独特科技，融合了分离、烈阳与原能族的标志性技术，具有以下"
 "效果.\n"
 "\t–20%舰体伤害免疫，100%离子伤害免疫.\n"
 "\t–自动灭火并修复舱体破舱.\n"
@@ -9763,23 +9763,31 @@ msgstr "埃莉诺的诅咒斗篷"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GHOSTLY_CLOAK_CURSED\"]/desc"
 msgstr ""
+"一层幽灵般的薄纱跟随着这艘舰船。其隐形系统的充能时间比正常情况快10秒，且开火"
+"不会减少隐形时间。这层薄纱还能提升武器性能，使充能速度加快10%。"
 
 #: src-en/data/blueprints.xml.append:15634
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MOLTEN_ARMOR\"]/title"
-msgstr ""
+msgstr "文的熔火装甲"
 
 #: src-en/data/blueprints.xml.append:15635
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MOLTEN_ARMOR\"]/desc"
 msgstr ""
+"舰船内部充盈着实实在在、灼热异常的岩浆。此极端环境会无差别地对友方与敌方船员"
+"造成15点/秒的持续性伤害。该伤害视作火焰伤害，并受相关属性修正。\n"
+"\t\n"
+"\t装甲本体拥有50%概率免疫船体伤害，并可提供一次冲撞敌舰的机会。"
 
 #: src-en/data/blueprints.xml.append:15646
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENERGY_SIPHON\"]/title"
-msgstr ""
+msgstr "克里奥的能量吸收器"
 
 #: src-en/data/blueprints.xml.append:15647
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENERGY_SIPHON\"]/desc"
 msgstr ""
+"你的船员可从无人机处吸收能量。当与友方无人机同处一室时，船员获得25%战斗伤害加"
+"成，并每秒恢复3.5点生命值；而与你的船员同处一室的无人机，其战斗伤害将减半。"
 
 #: src-en/data/blueprints.xml.append:15655
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HOLY_FURY\"]/title"
@@ -9787,82 +9795,97 @@ msgstr "祖鲁的神圣信念"
 
 #: src-en/data/blueprints.xml.append:15656
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HOLY_FURY\"]/desc"
-msgstr ""
+msgstr "整艘舰船及其武器系统均受神力加持而超载。舰上友方船员治疗与克隆速度提升50%，光"
+"束武器额外穿透2层护盾。"
 
 #: src-en/data/blueprints.xml.append:15664
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANCER_SHIELD\"]/title"
-msgstr ""
+msgstr "G的神奇护盾"
 
 #: src-en/data/blueprints.xml.append:15665
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANCER_SHIELD\"]/desc"
-msgstr ""
+msgstr "性能超规格的能量护盾单元。提供不低于80层的能量盾，且能在战前若侦测到敌方配备"
+"光质穿透器时实施干扰。"
 
 #: src-en/data/blueprints.xml.append:15673
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANCER_SHIELD_CURSED\"]/title"
-msgstr ""
+msgstr "G的诅咒护盾"
 
 #: src-en/data/blueprints.xml.append:15674
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANCER_SHIELD_CURSED\"]/desc"
-msgstr ""
+msgstr "性能超规格的能量护盾单元。提供不低于80层的能量盾，具备在战前干扰敌方光质穿透"
+"器的能力（若侦测到该装置），并为舰船提供50%的离子伤害抗性。"
 
 #: src-en/data/blueprints.xml.append:15682
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANTIC_PROJECTION\"]/title"
-msgstr ""
+msgstr "G的死灵光环"
 
 #: src-en/data/blueprints.xml.append:15683
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANTIC_PROJECTION\"]/desc"
-msgstr ""
+msgstr "强大死灵法术笼罩整艘舰船，所有友方魂灵族船员获得100点额外生命上限与精神控制免"
+"疫。"
 
 #: src-en/data/blueprints.xml.append:15691
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANTIC_PROJECTION_CURSED\"]/title"
-msgstr ""
+msgstr "G的诅咒光环"
 
 #: src-en/data/blueprints.xml.append:15692
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANTIC_PROJECTION_CURSED\"]/desc"
-msgstr ""
+msgstr "强大法术笼罩整艘舰船，所有友方魂灵族船员获得200点额外生命上限与精神控制免疫。"
 
 #: src-en/data/blueprints.xml.append:15700
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AETHER_NECRONOMICON\"]/title"
-msgstr ""
+msgstr "以太死灵秘典"
 
 #: src-en/data/blueprints.xml.append:15701
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AETHER_NECRONOMICON\"]/desc"
 msgstr ""
+"一本以顶级以太材料编撰的典籍，其中记载着施行不可言说之黑巫术的秘法。所有在此"
+"舰上阵亡的友方船员，均会以“魂灵”形态复活（若条件允许仍会正常克隆）。魂灵无法"
+"被此改装件再次复活。此外，船员克隆速度提升100%。"
 
 #: src-en/data/blueprints.xml.append:15709
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AETHER_NECRONOMICON_ENEMY\"]/title"
-msgstr ""
+msgstr "以太死灵之书（敌对）"
 
 #: src-en/data/blueprints.xml.append:15710
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AETHER_NECRONOMICON_ENEMY\"]/desc"
 msgstr ""
+"一本以顶级以太材料编撰的典籍，其中记载着施行不可言说之黑巫术的秘法。所有在此"
+"舰上阵亡的友方“复生者”船员，均会以“魂灵”形态复活（若条件允许仍会正常克隆）。"
+"魂灵无法被此改装件再次复活。此外，船员克隆速度提升100%。"
 
 #: src-en/data/blueprints.xml.append:15718
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CHAOTIC_NECRONOMICON\"]/title"
-msgstr ""
+msgstr "混沌死灵之书"
 
 #: src-en/data/blueprints.xml.append:15719
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CHAOTIC_NECRONOMICON\"]/desc"
 msgstr ""
+"一本充满迷幻静电与认知危害符号的典籍，任何试图解读它的人都将被逼至疯狂。所有"
+"在此舰上阵亡的友方船员，均会以“塞壬”形态复活（若条件允许仍会正常克隆）。塞壬"
+"无法被此改装件再次复活。"
 
 #: src-en/data/blueprints.xml.append:15727
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CARBON_CRYSTAL_ARMOR_ENEMY\"]/title"
-msgstr ""
+msgstr "斯莫克的碳素装甲（敌对）"
 
 #: src-en/data/blueprints.xml.append:15728
 msgid ""
@@ -9872,7 +9895,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:15738
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CARBON_CRYSTAL_ARMOR\"]/title"
-msgstr ""
+msgstr "斯莫克的碳素装甲"
 
 #: src-en/data/blueprints.xml.append:15739
 msgid ""
@@ -9882,203 +9905,232 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:15749
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FROZEN_SPORES\"]/title"
-msgstr ""
+msgstr "切尔丝的冰凝孢子"
 
 #: src-en/data/blueprints.xml.append:15750
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FROZEN_SPORES\"]/desc"
 msgstr ""
+"一种高度变异的吸血孢菌，能使敌人承受来自所有来源的伤害增加50%，并减缓其25%移"
+"动速度。但该孢子需在严寒条件下激活，仅在本方舰船或存在雪人的舱室内生效。"
 
 #: src-en/data/blueprints.xml.append:15758
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LIVING_SHIP\"]/title"
-msgstr ""
+msgstr "活体舰船"
 
 #: src-en/data/blueprints.xml.append:15759
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LIVING_SHIP\"]/desc"
-msgstr ""
+msgstr "此星舰实为一个巨大的、类变形生物活体组织，能在空白信标处吞噬船员以强化自身属"
+"性。为舰船献祭的船员无法被克隆。"
 
 #: src-en/data/blueprints.xml.append:15767
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GHOSTLY_REPAIR_BOTS\"]/title"
-msgstr ""
+msgstr "查罗的纳米机器"
 
 #: src-en/data/blueprints.xml.append:15768
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GHOSTLY_REPAIR_BOTS\"]/desc"
 msgstr ""
+"查罗的纳米机器实验成功为医疗机器人注入了灵魂。这些纳米机器能以人类水平的效率"
+"被动修复系统并扑灭火灾，其效率随无人机系统供能等级的提升而倍增，同时还能以固"
+"定速率修复舱室破破舱。"
 
 #: src-en/data/blueprints.xml.append:15777
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_DISCHARGE_SURGE\"]/title"
-msgstr ""
+msgstr "里奥汲能脉冲"
 
 #: src-en/data/blueprints.xml.append:15778
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_DISCHARGE_SURGE\"]/desc"
-msgstr ""
+msgstr "此舰船的引擎能汲取敌舰能量，使你能在战前根据自身引擎等级弱化敌方系统。使用此"
+"效果亦将导致自身引擎瘫痪，务必谨慎！"
 
 #: src-en/data/blueprints.xml.append:15787
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENERGY_SHIELD_BATTERY\"]/title"
-msgstr ""
+msgstr "希拉克的护盾适配器"
 
 #: src-en/data/blueprints.xml.append:15788
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENERGY_SHIELD_BATTERY\"]/desc"
 msgstr ""
+"这项革命性技术使你能够被动生成多层能量护盾，其最大层数由你的护盾系统等级决定"
+"。\n"
+"\t\t\n"
+"\t护盾层的再生速度受护盾充能速度与操作船员的技能等级共同影响。\n"
+"\t\t\n"
+"\t该适配器能耗极高，会使常规护盾的充能速率减半。"
 
 #: src-en/data/blueprints.xml.append:15801
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENERGY_SHIELD_BATTERY_ENEMY\"]/title"
-msgstr ""
+msgstr "希拉克的护盾适配器（敌对）"
 
 #: src-en/data/blueprints.xml.append:15802
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENERGY_SHIELD_BATTERY_ENEMY\"]/desc"
-msgstr ""
+msgstr "这项革命性技术能让你被动生成能量护盾层，其最大数量由护盾系统等级决定。该适配"
+"器能耗极高，会使常规护盾的充能速度减半。"
 
 #: src-en/data/blueprints.xml.append:15811
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SELF_AWARE_COGNITIVE_INTELLIGENCE\"]/title"
-msgstr ""
+msgstr "S.A.C.I"
 
 #: src-en/data/blueprints.xml.append:15812
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SELF_AWARE_COGNITIVE_INTELLIGENCE\"]/desc"
-msgstr ""
+msgstr "自我意识认知体智能（S.A.C.I）是有史以来最先进且尚未经过充分测试的AI模块之一。"
+"安装此模块的舰船将自动以2级技能水平操控所有系统。"
 
 #: src-en/data/blueprints.xml.append:15821
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ANNIHILATION_GRID\"]/title"
-msgstr ""
+msgstr "湮灭力场"
 
 #: src-en/data/blueprints.xml.append:15822
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ANNIHILATION_GRID\"]/desc"
-msgstr ""
+msgstr "军团士兵打造的尖端解放力场，通过以太强化了常规性能。敌方登船单位会每秒损失10"
+"点生命值，丧失无视舱门或传送移动的能力，并对舱门造成的伤害减半。"
 
 #: src-en/data/blueprints.xml.append:15830
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ANNIHILATION_GRID_UNLOCKED\"]/title"
-msgstr ""
+msgstr "湮灭力场"
 
 #: src-en/data/blueprints.xml.append:15831
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ANNIHILATION_GRID_UNLOCKED\"]/desc"
-msgstr ""
+msgstr "军团士兵打造的尖端解放力场，通过以太强化了常规性能。敌方登船单位会每秒损失10"
+"点生命值，丧失无视舱门或传送移动的能力，并对舱门造成的伤害减半。"
 
 #: src-en/data/blueprints.xml.append:15839
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ZOLTAN_ENERGY_GRID\"]/title"
-msgstr ""
+msgstr "部委原型立场"
 
 #: src-en/data/blueprints.xml.append:15840
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ZOLTAN_ENERGY_GRID\"]/desc"
 msgstr ""
+"政务院采用光质技术打造的实验性解放力场。敌方登船单位每秒受到4点基础伤害，且舱"
+"门系统每提升一级（从第二级起）额外追加2点伤害。在舰上死亡的登船者将完全修复其"
+"所在系统，覆盖其原有的死亡效果。"
 
 #: src-en/data/blueprints.xml.append:15848
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENERGY_HULL\"]/title"
-msgstr ""
+msgstr "光质船体"
 
 #: src-en/data/blueprints.xml.append:15849
+#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENERGY_HULL\"]/desc"
-msgstr ""
+msgstr "政务院的一项秘密研究计划成功研制出直接灌注光质技术的船体镀层。此舰的船体生命"
+"值始终等同于其能量护盾的完整性。"
 
 #: src-en/data/blueprints.xml.append:15857
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FEDERATION_OVERCLOCKED_GRID\"]/title"
-msgstr ""
+msgstr "净化力场"
 
 #: src-en/data/blueprints.xml.append:15858
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FEDERATION_OVERCLOCKED_GRID\"]/desc"
-msgstr ""
+msgstr "联邦特制解放力场，其建造者已将其性能推至极限。登上你舰船的敌人每秒会受到15点"
+"伤害，且无人机与机械船员在尝试登舰时会被立即消灭。"
 
 #: src-en/data/blueprints.xml.append:15866
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_OVERCLOKED_SYSTEMS\"]/title"
-msgstr ""
+msgstr "超频系统"
 
 #: src-en/data/blueprints.xml.append:15867
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_OVERCLOKED_SYSTEMS\"]/desc"
-msgstr ""
+msgstr "该舰船系统已突破常规极限，显然违背联邦管制条例。隐形、黑客、精神控制及时间操"
+"纵系统的冷却时间减少5秒。"
 
 #: src-en/data/blueprints.xml.append:15875
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_STATIC\"]/title"
-msgstr ""
+msgstr "静电力场"
 
 #: src-en/data/blueprints.xml.append:15876
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_STATIC\"]/desc"
-msgstr ""
+msgstr "此舰船内部完全充斥着令人迷幻的静电与使人癫狂的低语。敌方登船单位将陷入静眩晕"
+"状态，在被迫离舰前会一直沉溺于这恐怖的内部环境中。"
 
 #: src-en/data/blueprints.xml.append:15884
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_WATCHER_SHIELD\"]/title"
-msgstr ""
+msgstr "监视者的庇护"
 
 #: src-en/data/blueprints.xml.append:15885
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_WATCHER_SHIELD\"]/desc"
-msgstr ""
+msgstr "一道灌注了深奥而强大的混沌能量的护盾。提供15层能量盾，赋予你的舰船50%概率完全"
+"免疫非离子伤害，同时本身可作为光质穿透器使用。"
 
 #: src-en/data/blueprints.xml.append:15893
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SIREN_LEECH\"]/title"
-msgstr ""
+msgstr "灵魂吸取"
 
 #: src-en/data/blueprints.xml.append:15894
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SIREN_LEECH\"]/desc"
-msgstr ""
+msgstr "舰船内的某种强大力量，允许友方塞壬船员根据其造成的被动伤害值恢复等量生命。作"
+"为交换，她们的被动伤害减半。"
 
 #: src-en/data/blueprints.xml.append:15902
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TECH_SCHEMATICS\"]/title"
-msgstr ""
+msgstr "核心科技蓝图"
 
 #: src-en/data/blueprints.xml.append:15903
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TECH_SCHEMATICS\"]/desc"
-msgstr ""
+msgstr "舰船数据库内封存着一套为其量身定制的内部升级蓝图，所载技术极为强大，造价亦极"
+"为高昂。"
 
 #: src-en/data/blueprints.xml.append:15911
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_ELECTROMAGNETIC\"]/title"
-msgstr ""
+msgstr "电磁机械臂"
 
 #: src-en/data/blueprints.xml.append:15912
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_ELECTROMAGNETIC\"]/desc"
-msgstr ""
+msgstr "战斗前，你可启动此臂使敌方命中率降低10%，代价是失去感应器与黑客系统功能。"
 
 #: src-en/data/blueprints.xml.append:15919
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_WEAPON\"]/title"
-msgstr ""
+msgstr "武器拆卸臂"
 
 #: src-en/data/blueprints.xml.append:15920
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_WEAPON\"]/desc"
-msgstr ""
+msgstr "战斗前，你可启动此臂移除敌方一件武器，代价是消耗8点反应堆能量。使用此臂有10%"
+"概率根据被拆解武器的能耗（每格能量需求）获得10点废料。"
 
 #: src-en/data/blueprints.xml.append:15927
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_MISSILE\"]/title"
-msgstr ""
+msgstr "导弹回收臂"
 
 #: src-en/data/blueprints.xml.append:15928
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_MISSILE\"]/desc"
-msgstr ""
+msgstr "消耗弹药的武器若未命中，将退还1枚导弹。"
 
 #: src-en/data/blueprints.xml.append:15935
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_SHIP\"]/title"
-msgstr ""
+msgstr "星舰部件回收臂"
 
 #: src-en/data/blueprints.xml.append:15936
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_SHIP\"]/desc"
-msgstr ""
+msgstr "每当船体受损时，可获得0到2点废料的补偿。"
 
 #: src-en/data/blueprints.xml.append:15943
 msgid ""
