@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-09 04:29+0000\n"
+"PO-Revision-Date: 2025-11-10 13:21+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -9891,6 +9891,10 @@ msgstr "斯莫克的碳素装甲（敌对）"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CARBON_CRYSTAL_ARMOR_ENEMY\"]/desc"
 msgstr ""
+"船体由晶态基底、灵质与少量纯粹熵体碳化压层而成，流光溢彩。受击时，船体将发射"
+"一枚无法闪避、必造成舱体破舱的2点伤害晶片，且多数防御无人机无法侦测此攻击。\n"
+"\n"
+"\t此外，该镀层本身提供20%的系统损伤抵抗几率。"
 
 #: src-en/data/blueprints.xml.append:15738
 msgid ""
@@ -9901,6 +9905,11 @@ msgstr "斯莫克的碳素装甲"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CARBON_CRYSTAL_ARMOR\"]/desc"
 msgstr ""
+"船体由晶态基底、灵质与少量纯粹熵体碳化压层而成，流光溢彩。受击时，船体将发射"
+"一枚无法闪避、穿透所有护盾、必引发火灾的2点伤害晶片，且多数防御无人机无法侦测"
+"此攻击。\n"
+"\n"
+"\t此外，该镀层本身提供20%的系统损伤抵抗几率。"
 
 #: src-en/data/blueprints.xml.append:15749
 msgid ""
@@ -10299,247 +10308,250 @@ msgstr "重力大气升级"
 #: src-en/data/blueprints.xml.append:16076
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_OXYGEN_BREACH\"]/desc"
-msgstr "当氧气系统供能时，系统舱室的破损不会导致氧气泄漏。"
+msgstr "当氧气系统供能时，系统舱室的破舱不会导致氧气泄漏。"
 
 #: src-en/data/blueprints.xml.append:16084
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_OXYGEN_DEBUFF\"]/title"
-msgstr ""
+msgstr "放射性战剂升级"
 
 #: src-en/data/blueprints.xml.append:16085
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_OXYGEN_DEBUFF\"]/desc"
-msgstr ""
+msgstr "对于你的氧气系统的供能等级，敌舰中的敌方船员维修和移动速度降低15%。"
 
 #: src-en/data/blueprints.xml.append:16093
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_DRONES_BOOST\"]/title"
-msgstr ""
+msgstr "外置无人机增强器升级"
 
 #: src-en/data/blueprints.xml.append:16094
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_DRONES_BOOST\"]/desc"
-msgstr ""
+msgstr "战斗无人机的移动速度提升至2倍，防御无人机的开火速度提升至2倍。"
 
 #: src-en/data/blueprints.xml.append:16102
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_DRONES_HACK\"]/title"
-msgstr ""
+msgstr "便携式恶意程序升级"
 
 #: src-en/data/blueprints.xml.append:16103
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_DRONES_HACK\"]/desc"
-msgstr ""
+msgstr "你的登舰无人机能电子破解其所在房间的舱门系统。"
 
 #: src-en/data/blueprints.xml.append:16111
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_DRONES_TELEPORT\"]/title"
-msgstr ""
+msgstr "局部重构升级"
 
 #: src-en/data/blueprints.xml.append:16112
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_DRONES_TELEPORT\"]/desc"
-msgstr ""
+msgstr "你的所有工作无人机均可从无人机控制室直接传送至任意房间。"
 
 #: src-en/data/blueprints.xml.append:16120
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLOAK_COOLDOWN\"]/title"
-msgstr ""
+msgstr "隐形充能加速器升级"
 
 #: src-en/data/blueprints.xml.append:16121
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLOAK_COOLDOWN\"]/desc"
-msgstr ""
+msgstr "你的隐形系统冷却时间减少了5秒。"
 
 #: src-en/data/blueprints.xml.append:16129
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLOAK_CHARGE\"]/title"
-msgstr ""
+msgstr "充能干扰器升级"
 
 #: src-en/data/blueprints.xml.append:16130
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLOAK_CHARGE\"]/desc"
-msgstr ""
+msgstr "隐形期间，敌方武器充能将缓慢流失，流失速度为：每秒损失0.5秒的充能进度。"
 
 #: src-en/data/blueprints.xml.append:16138
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLOAK_EMP\"]/title"
-msgstr ""
+msgstr "EMP冲击升级"
 
 #: src-en/data/blueprints.xml.append:16139
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLOAK_EMP\"]/desc"
-msgstr ""
+msgstr "启动隐形时，非战斗型敌方战斗无人机将陷入瘫痪，附着于船体的黑客程序将被摧毁。"
 
 #: src-en/data/blueprints.xml.append:16147
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TELEPORTER_COOLDOWN\"]/title"
-msgstr ""
+msgstr "传送系统充能加速器升级"
 
 #: src-en/data/blueprints.xml.append:16148
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TELEPORTER_COOLDOWN\"]/desc"
-msgstr ""
+msgstr "传送系统冷却时间减少5秒。"
 
 #: src-en/data/blueprints.xml.append:16156
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TELEPORTER_POWER\"]/title"
-msgstr ""
+msgstr "传送充能升级"
 
 #: src-en/data/blueprints.xml.append:16157
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TELEPORTER_POWER\"]/desc"
-msgstr ""
+msgstr "船员通过传送系统登敌舰后，其技能将完全重置冷却。"
 
 #: src-en/data/blueprints.xml.append:16165
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TELEPORTER_SHORT\"]/title"
-msgstr ""
+msgstr "短距单兵传送装置升级"
 
 #: src-en/data/blueprints.xml.append:16166
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TELEPORTER_SHORT\"]/desc"
-msgstr ""
+msgstr "当传送系统供能达到至少3级时，船员将启用短距传送模式。"
 
 #: src-en/data/blueprints.xml.append:16174
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLONE_BOOST\"]/title"
-msgstr ""
+msgstr "快速克隆流程升级"
 
 #: src-en/data/blueprints.xml.append:16175
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLONE_BOOST\"]/desc"
-msgstr ""
+msgstr "你的船员克隆速度提升25%。"
 
 #: src-en/data/blueprints.xml.append:16183
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLONE_SABOTAGE\"]/title"
-msgstr ""
+msgstr "阻滞克隆破坏协议升级"
 
 #: src-en/data/blueprints.xml.append:16184
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLONE_SABOTAGE\"]/desc"
-msgstr ""
+msgstr "登舰敌军与登舰无人机对克隆舱的破坏速度减半。"
 
 #: src-en/data/blueprints.xml.append:16192
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLONE_SKILL\"]/title"
-msgstr ""
+msgstr "高品质样本存储升级"
 
 #: src-en/data/blueprints.xml.append:16193
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLONE_SKILL\"]/desc"
-msgstr ""
+msgstr "船员克隆后技能等级不会衰减。"
 
 #: src-en/data/blueprints.xml.append:16201
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MEDBAY_NANO\"]/title"
-msgstr ""
+msgstr "先进纳米防护机升级"
 
 #: src-en/data/blueprints.xml.append:16202
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MEDBAY_NANO\"]/desc"
-msgstr ""
+msgstr "当医疗舱供能达到至少3级时，船员承受伤害降低10%。"
 
 #: src-en/data/blueprints.xml.append:16210
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MEDBAY_BOOST\"]/title"
-msgstr ""
+msgstr "高剂量疗法升级"
 
 #: src-en/data/blueprints.xml.append:16211
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MEDBAY_BOOST\"]/desc"
-msgstr ""
+msgstr "当医疗舱供能达到至少3级时，船员治疗速率提升20%。"
 
 #: src-en/data/blueprints.xml.append:16219
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MEDBAY_POWER\"]/title"
-msgstr ""
+msgstr "快速止痛剂升级"
 
 #: src-en/data/blueprints.xml.append:16220
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MEDBAY_POWER\"]/desc"
-msgstr ""
+msgstr "你的船员获得能力：每次跳跃后可快速自我治疗20点生命值一次。"
 
 #: src-en/data/blueprints.xml.append:16228
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MIND_COOLDOWN\"]/title"
-msgstr ""
+msgstr "闪速冷却升级"
 
 #: src-en/data/blueprints.xml.append:16229
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MIND_COOLDOWN\"]/desc"
-msgstr ""
+msgstr "你的心灵控制系统充能时间缩短5秒。"
 
 #: src-en/data/blueprints.xml.append:16237
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MIND_DURATION\"]/title"
-msgstr ""
+msgstr "锂电池升级"
 
 #: src-en/data/blueprints.xml.append:16238
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MIND_DURATION\"]/desc"
-msgstr ""
+msgstr "你的心灵控制效果持续时间延长30%。"
 
 #: src-en/data/blueprints.xml.append:16246
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MIND_DEBUFF\"]/title"
-msgstr ""
+msgstr "心灵控制升级"
 
 #: src-en/data/blueprints.xml.append:16247
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MIND_DEBUFF\"]/desc"
-msgstr ""
+msgstr "被心灵控制的友方单位造成0.5倍船员伤害与破坏伤害，而被精神控制的敌方单位则造成"
+"2倍船员伤害与破坏伤害。"
 
 #: src-en/data/blueprints.xml.append:16255
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_HACKING_COOLDOWN\"]/title"
-msgstr ""
+msgstr "自适应恶意软件升级"
 
 #: src-en/data/blueprints.xml.append:16256
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_HACKING_COOLDOWN\"]/desc"
-msgstr ""
+msgstr "黑客系统冷却时间减少5秒"
 
 #: src-en/data/blueprints.xml.append:16264
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_HACKING_DURATION\"]/title"
-msgstr ""
+msgstr "持久型黑客软件升级"
 
 #: src-en/data/blueprints.xml.append:16265
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_HACKING_DURATION\"]/desc"
-msgstr ""
+msgstr "黑客操控持续时间延长30%。"
 
 #: src-en/data/blueprints.xml.append:16273
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_HACKING_DAMAGE\"]/title"
-msgstr ""
+msgstr "双损博弈设计升级"
 
 #: src-en/data/blueprints.xml.append:16274
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_HACKING_DAMAGE\"]/desc"
-msgstr ""
+msgstr "黑客程序在生效期间将持续损伤目标系统。"
 
 #: src-en/data/blueprints.xml.append:16282
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TEMPORAL_COOLDOWN\"]/title"
-msgstr ""
+msgstr "时流冷却升级"
 
 #: src-en/data/blueprints.xml.append:16283
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TEMPORAL_COOLDOWN\"]/desc"
-msgstr ""
+msgstr "你的时流系统充能时间缩短5秒"
 
 #: src-en/data/blueprints.xml.append:16291
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TEMPORAL_BOOST\"]/title"
-msgstr ""
+msgstr "个人微时间操控升级"
 
 #: src-en/data/blueprints.xml.append:16292
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TEMPORAL_BOOST\"]/desc"
-msgstr ""
+msgstr "时流每提升一级能量，友方船员维修与破坏速度提高10%，同时降低敌方船员相应速度10"
+"%。"
 
 #: src-en/data/blueprints.xml.append:16300
 msgid ""
