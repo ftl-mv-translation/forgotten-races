@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-11 19:04+0000\n"
+"PO-Revision-Date: 2025-11-13 01:21+0000\n"
 "Last-Translator: circle217 <3545024352@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -10617,57 +10617,71 @@ msgstr "你的船员只占用原本人员槽位的60%。"
 #: src-en/data/blueprints.xml.append:16354
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_SENSORS_CHARGE\"]/title"
-msgstr ""
+msgstr "热能追踪传感器升级"
 
 #: src-en/data/blueprints.xml.append:16355
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_SENSORS_CHARGE\"]/desc"
-msgstr ""
+msgstr "敌舰处于隐形状态时，你的武器可以半速充能。"
 
 #: src-en/data/blueprints.xml.append:16363
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_SENSORS_ACCURACY\"]/title"
-msgstr ""
+msgstr "高精度设备升级"
 
 #: src-en/data/blueprints.xml.append:16364
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_SENSORS_ACCURACY\"]/desc"
-msgstr ""
+msgstr "你的武器命中率提升10%。"
 
 #: src-en/data/blueprints.xml.append:16372
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GOLDEN_SYSTEMS\"]/title"
-msgstr ""
+msgstr "镀金回路"
 
 #: src-en/data/blueprints.xml.append:16373
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GOLDEN_SYSTEMS\"]/desc"
 msgstr ""
+"你的舰船动力直接与携带的废料量挂钩。货舱内废料越多，舰船组件运行效率越高。\n"
+"\t- 货舱每有10废料，武器充能速度提升1%。\n"
+"\t- 货舱每有5废料，护盾恢复速度提升1%。\n"
+"\t- 货舱每有2废料，超光速驱动引擎充能速度提升1%。"
 
 #: src-en/data/blueprints.xml.append:16385
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GOLDEN_SYSTEMS_ENEMY\"]/title"
-msgstr ""
+msgstr "镀金回路（敌方）"
 
 #: src-en/data/blueprints.xml.append:16386
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GOLDEN_SYSTEMS_ENEMY\"]/desc"
 msgstr ""
+"你的舰船动力直接与携带的废料量挂钩。货舱内废料越多，舰船组件运行效率越高。\n"
+"\t- 货舱每有10废料，武器充能速度提升1%。\n"
+"\t- 货舱每有5废料，护盾恢复速度提升1%。\n"
+"\t- 货舱每有2废料，超光速驱动引擎充能速度提升1%。"
 
 #: src-en/data/blueprints.xml.append:16398
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_BEAM_OVERCLOCKER\"]/title"
-msgstr ""
+msgstr "光束超频器"
 
 #: src-en/data/blueprints.xml.append:16399
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_BEAM_OVERCLOCKER\"]/desc"
 msgstr ""
+"一项能增强光束与光点类武器及巨炮威力的尖端科技。\n"
+"\t\t\n"
+"\t此类武器在原伤害基础上额外造成1点所有类型的伤害，若原含船员伤害则提升15点。"
+" \n"
+"\t\n"
+"\t额外伤害不会在武器属性面板显示。"
 
 #: src-en/data/blueprints.xml.append:16411
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_BEAM_SUPERCLOCKER\"]/title"
-msgstr "光束超频器"
+msgstr "光束超级超频器"
 
 #: src-en/data/blueprints.xml.append:16412
 msgid ""
@@ -10689,6 +10703,12 @@ msgstr "光束终极超频器"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_BEAM_ULTRACLOCKER\"]/desc"
 msgstr ""
+"一项能增强光束与光点类武器及巨炮威力的尖端科技。\n"
+"\t\t\n"
+"\t此类武器将在原伤害基础上额外造成2点所有类型的伤害，若原含船员伤害则提升30点"
+"。但系统需为强化武器分配更多能量，导致所有武器充能时间延长30%。\n"
+"\t\n"
+"\t此项额外伤害不会在武器属性面板显示。"
 
 #: src-en/data/blueprints.xml.append:16437
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_BEAM_STORE\"]/title"
@@ -10700,131 +10720,152 @@ msgstr ""
 
 #: src-en/data/blueprints.xml.append:16448
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_INFESTATION\"]/title"
-msgstr ""
+msgstr "蜘蛛感染"
 
 #: src-en/data/blueprints.xml.append:16449
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_INFESTATION\"]/desc"
-msgstr ""
+msgstr "每15秒，会有一只友好但不受控制的蜘蛛从敌方船员体内破体而出，对其造成5点伤害。"
+"这些蜘蛛会在7秒后死亡。此效果对双方舰船同时生效。"
 
 #: src-en/data/blueprints.xml.append:16457
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_INFESTATION_ENEMY\"]/title"
-msgstr ""
+msgstr "蜘蛛感染（敌方）"
 
 #: src-en/data/blueprints.xml.append:16458
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_INFESTATION_ENEMY\"]/desc"
-msgstr ""
+msgstr "每25秒，会有一只友好但不受控制的蜘蛛从敌方船员体内破体而出。此类蜘蛛造成的战"
+"斗伤害减半，并在5秒后死亡。此效果对双方舰船同时生效。"
 
 #: src-en/data/blueprints.xml.append:16466
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHADOW_MIST\"]/title"
-msgstr ""
+msgstr "黑暗笼罩"
 
 #: src-en/data/blueprints.xml.append:16467
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHADOW_MIST\"]/desc"
-msgstr ""
+msgstr "舰体笼罩在缥缈的暗影中。来袭弹体有25%几率被完全无效化，或偏离弹道，或直接不造"
+"成任何伤害。"
 
 #: src-en/data/blueprints.xml.append:16475
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_PANIC_ATTACK\"]/title"
-msgstr ""
+msgstr "恐慌突袭"
 
 #: src-en/data/blueprints.xml.append:16476
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_PANIC_ATTACK\"]/desc"
-msgstr ""
+msgstr "这艘舰船的氛围令所有乘员焦躁不安。所有六脚马船员现在会受到正常的火焰伤害，但"
+"在着火舱室内战斗时造成的伤害翻倍。"
 
 #: src-en/data/blueprints.xml.append:16484
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MADDENING_PRESENCE\"]/title"
-msgstr ""
+msgstr "狂乱侵蚀"
 
 #: src-en/data/blueprints.xml.append:16485
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MADDENING_PRESENCE\"]/desc"
-msgstr ""
+msgstr "舰船内壁随着你的每一步移动扭曲变形。友方件物船员造成50%额外战斗伤害且移动速度"
+"翻倍，但友方非件物族船员会永久陷入疯狂状态。"
 
 #: src-en/data/blueprints.xml.append:16493
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FORBIDDEN_DESIGN\"]/title"
-msgstr ""
+msgstr "禁忌构型"
 
 #: src-en/data/blueprints.xml.append:16494
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FORBIDDEN_DESIGN\"]/desc"
 msgstr ""
+"这艘舰船的走廊内壁镶嵌着可怖的怪异科技。它持续释放定向混沌能量波，对敌方所有"
+"船员及无人机施加渎神效果，使其丧失死亡特效。\n"
+"\t\t\t\t\n"
+"\t该技术同时形成具有12点耐久度的能量护盾，并在舰体受损时生成随机增益效果。"
 
 #: src-en/data/blueprints.xml.append:16504
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FORBIDDEN_DESIGN_SHIELD\"]/title"
-msgstr ""
+msgstr "禁忌构型"
 
 #: src-en/data/blueprints.xml.append:16505
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FORBIDDEN_DESIGN_SHIELD\"]/desc"
 msgstr ""
+"这艘舰船的走廊内壁镶嵌着可怖的怪异科技。它持续释放定向混沌能量波，对敌方所有"
+"船员及无人机施加渎神效果，使其丧失死亡特效。\n"
+"\t\t\n"
+"\t该技术同时形成具有12点耐久度的能量护盾，并在舰体受损时生成随机增益效果。"
 
 #: src-en/data/blueprints.xml.append:16515
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FREE_FORM_TELEPORTERS\"]/title"
-msgstr ""
+msgstr "自由传送器"
 
 #: src-en/data/blueprints.xml.append:16516
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FREE_FORM_TELEPORTERS\"]/desc"
-msgstr ""
+msgstr "你的船员和无人机可在舰内空舱室之间传送。"
 
 #: src-en/data/blueprints.xml.append:16524
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SPHERAX_MAKER\"]/title"
-msgstr ""
+msgstr "斯菲雷克斯制造器"
 
 #: src-en/data/blueprints.xml.append:16525
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SPHERAX_MAKER\"]/desc"
-msgstr ""
+msgstr "这个十分先进的设备可以在空信标制造新的斯菲雷克斯船员。但过程较为昂贵。"
 
 #: src-en/data/blueprints.xml.append:16533
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_ION_ARMOR_NEUTRALIZER\"]/title"
-msgstr ""
+msgstr "离子装甲中和器"
 
 #: src-en/data/blueprints.xml.append:16534
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_ION_ARMOR_NEUTRALIZER\"]/desc"
-msgstr ""
+msgstr "这项联合方碑独有的尖端科技会侵蚀敌舰，彻底消除对方的离子抗性。即便是盐人舰船"
+"也无法免疫此效果。"
 
 #: src-en/data/blueprints.xml.append:16542
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AUTO_HUNTER_GEAR\"]/title"
-msgstr ""
+msgstr "自动舰猎人装备"
 
 #: src-en/data/blueprints.xml.append:16543
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AUTO_HUNTER_GEAR\"]/desc"
-msgstr ""
+msgstr "这款独特改装件能令使用者追踪连续性探测器，通过战斗夺取其装备与废料，同时使你"
+"的武器对开启自动模式的舰船造成双倍伤害。"
 
 #: src-en/data/blueprints.xml.append:16551
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COLLECTORS_SHIELD\"]/title"
-msgstr ""
+msgstr "收藏家的护盾"
 
 #: src-en/data/blueprints.xml.append:16552
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COLLECTORS_SHIELD\"]/desc"
-msgstr ""
+msgstr "由数块巨型以太电池驱动的奇异护盾，具有12点耐久度。这款独特变体护盾每30秒会完"
+"全恢复其耐久度。"
 
 #: src-en/data/blueprints.xml.append:16560
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AETHER_PHEROMONES\"]/title"
-msgstr ""
+msgstr "以太信息素"
 
 #: src-en/data/blueprints.xml.append:16561
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AETHER_PHEROMONES\"]/desc"
 msgstr ""
+"由以太尘与高度合成的自由螳螂信息素调配而成的制剂。\n"
+"\t\t\n"
+"\t当氧气系统被供能时，所有友方船员提供+1能量（与现有效果叠加），并在死亡时造"
+"成伤害（伤害量随氧气等级提升，从1级的30点至4级的120点）。该死亡效果同样与现有"
+"效果叠加。"
 
 #: src-en/data/blueprints.xml.append:16571
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NARRATIVE_SHIELD\"]/title"
-msgstr ""
+msgstr "叙述者之临"
 
 #: src-en/data/blueprints.xml.append:16572
 msgid ""
