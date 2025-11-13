@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2025-11-13 22:18+0000\n"
-"Last-Translator: circle217 <3545024352@qq.com>\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -11335,411 +11335,524 @@ msgstr "雪人与熔岩人的生命值上限减半。作为补偿，雪人与熔
 #: src-en/data/blueprints.xml.append:16987
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_ELEMAN_MAINTENANCE\"]/title"
-msgstr ""
+msgstr "高维躯体"
 
 #: src-en/data/blueprints.xml.append:16988
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_ELEMAN_MAINTENANCE\"]/desc"
-msgstr ""
+msgstr "雪人与熔岩人现在将各自占用2个船员舱位，但同时获得50%额外生命值、20%额外伤害，"
+"以及25%额外移动与维修速度。"
 
 #: src-en/data/blueprints.xml.append:16995
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPHERAX_INSTALLED\"]/title"
-msgstr ""
+msgstr "斯菲雷克斯"
 
 #: src-en/data/blueprints.xml.append:16996
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPHERAX_INSTALLED\"]/desc"
-msgstr ""
+msgstr "斯菲雷克斯升级已安装。"
 
 #: src-en/data/blueprints.xml.append:17002
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPHERAX_REFOCUSED\"]/title"
-msgstr ""
+msgstr "能量聚集"
 
 #: src-en/data/blueprints.xml.append:17003
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPHERAX_REFOCUSED\"]/desc"
-msgstr ""
+msgstr "斯菲雷克斯族失去传送能力，但获得100点额外生命值、15%伤害加成与25%破坏速度提升"
+"。"
 
 #: src-en/data/blueprints.xml.append:17009
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPHERAX_BEHAVIOUR\"]/title"
-msgstr ""
+msgstr "非侵略性行为协议"
 
 #: src-en/data/blueprints.xml.append:17010
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPHERAX_BEHAVIOUR\"]/desc"
-msgstr ""
+msgstr "若敌舰上不存在任何斯菲雷克斯单位，则你方的斯菲雷克斯将获得2倍修复速度。而位于"
+"敌舰上的斯菲雷克斯单位则仅造成0.5倍伤害。"
 
 #: src-en/data/blueprints.xml.append:17016
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPHERAX_ELETRONIC\"]/title"
-msgstr ""
+msgstr "电子支配"
 
 #: src-en/data/blueprints.xml.append:17017
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPHERAX_ELETRONIC\"]/desc"
-msgstr ""
+msgstr "斯菲雷克斯失去破坏系统的能力，但能自动破解敌舰上的门禁，并解除己方舰门禁的入"
+"侵状态。"
 
 #: src-en/data/blueprints.xml.append:17029
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_HUMAN_TEAMWORK\"]/title"
-msgstr ""
+msgstr "[L] 协作神经元"
 
 #: src-en/data/blueprints.xml.append:17030
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_HUMAN_TEAMWORK\"]/desc"
 msgstr ""
+"每有一名同舱室人类（不含自身），人类船员即可获得15%维修速度与战斗伤害加成。\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17039
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_HUMAN_DIVERSE\"]/title"
-msgstr ""
+msgstr "[L] 多元化"
 
 #: src-en/data/blueprints.xml.append:17040
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_HUMAN_DIVERSE\"]/desc"
 msgstr ""
+"人类船员获得12%移动速度、战斗伤害、维修速度与生命值加成。\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17049
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_SLUG_BUFF\"]/title"
-msgstr ""
+msgstr "[L] 神经重定向"
 
 #: src-en/data/blueprints.xml.append:17050
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_SLUG_BUFF\"]/desc"
 msgstr ""
+"蛞蝓族失去感知敌方舰船船员的能力，但获得25%战斗、破坏与维修速度提升。\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17059
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_SHELL_TELEPATHY\"]/title"
-msgstr ""
+msgstr "[L] 分支重演化"
 
 #: src-en/data/blueprints.xml.append:17060
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_SHELL_TELEPATHY\"]/desc"
 msgstr ""
+"甲壳族继承蛞蝓族的心灵感应能力。\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17069
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_MANTIS_MELEE\"]/title"
-msgstr ""
+msgstr "[L] 选择性杀戮"
 
 #: src-en/data/blueprints.xml.append:17070
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_MANTIS_MELEE\"]/desc"
 msgstr ""
+"螳螂族额外造成60%近战伤害，但失去50%远程伤害。\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17079
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_ROCK_SPEED\"]/title"
-msgstr ""
+msgstr "[L] 松质外层"
 
 #: src-en/data/blueprints.xml.append:17080
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_ROCK_SPEED\"]/desc"
 msgstr ""
+"岩石族获得75%移动速度加成，但治疗速率减半\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17089
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_LANIUS_METAL\"]/title"
-msgstr ""
+msgstr "[L] 定向金属处理"
 
 #: src-en/data/blueprints.xml.append:17090
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_LANIUS_METAL\"]/desc"
 msgstr ""
+"食铁族维修与破坏速度提升50%，但对船员伤害降低30%。\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17099
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_CRYSTAL_SABOTAGE\"]/title"
-msgstr ""
+msgstr "[L] 硬化晶体"
 
 #: src-en/data/blueprints.xml.append:17100
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_CRYSTAL_SABOTAGE\"]/desc"
 msgstr ""
+"水晶族破坏伤害提升75%，但移动速度降低50%。\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17109
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_ORCHID_THORNS\"]/title"
-msgstr ""
+msgstr "[L] 荆棘"
 
 #: src-en/data/blueprints.xml.append:17110
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_ORCHID_THORNS\"]/desc"
 msgstr ""
+"兰花族远程伤害提升1.3倍伤害\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17119
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_ENGI_EFFICIENCY\"]/title"
-msgstr ""
+msgstr "[L] 纳米效率"
 
 #: src-en/data/blueprints.xml.append:17120
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_ENGI_EFFICIENCY\"]/desc"
 msgstr ""
+"半械族船员获得15%的维修速度增益。\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17129
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_LEECH_POWER\"]/title"
-msgstr ""
+msgstr "[L] 高压"
 
 #: src-en/data/blueprints.xml.append:17130
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_LEECH_POWER\"]/desc"
 msgstr ""
+"吸虫族的眩晕时长增加50%，并额外受到33%环境伤害，但为舱室内系统提供1格能量。\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17139
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_ZOLTAN_SHIELD\"]/title"
-msgstr ""
+msgstr "[L] 光质防护"
 
 #: src-en/data/blueprints.xml.append:17140
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_ZOLTAN_SHIELD\"]/desc"
 msgstr ""
+"超能族可为同舱室船员提供护盾，使其承受伤害降低33%，但自身无法直接攻击其他船员"
+"。\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17149
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_GHOST_HEALTH\"]/title"
-msgstr ""
+msgstr "[L] 分子聚集"
 
 #: src-en/data/blueprints.xml.append:17150
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_GHOST_HEALTH\"]/desc"
 msgstr ""
+"魂灵族获得20点最大生命值\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17159
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_SPIDER_PREDATOR\"]/title"
-msgstr ""
+msgstr "[L] 掠食本能"
 
 #: src-en/data/blueprints.xml.append:17160
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_SPIDER_PREDATOR\"]/desc"
 msgstr ""
+"蛛族完全无法维修，也无法操控系统，但额外获得50%的战斗伤害与移动速度\n"
+"\t\n"
+"[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
+"化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
 
 #: src-en/data/blueprints.xml.append:17175
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_BASE\"]/title"
-msgstr ""
+msgstr "赫克塔模块化护盾"
 
 #: src-en/data/blueprints.xml.append:17176
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_BASE\"]/desc"
 msgstr ""
+"由独一无二的比尔凡打造的高性能能量护盾。提供10层能量盾，并可装配任意赫克塔模"
+"块以激活强力次级效果。\n"
+"模块效果：\n"
+"\t冷却模块：护盾充能速率提升200%。\n"
+"\t反生物模块：装配时使你的舰船变为自动化舰船。\n"
+"\t眩晕模块：船员免疫眩晕；敌方眩晕持续时间延长至三倍，且在舰期间每5秒自动触发"
+"眩晕。\n"
+"\t穿透模块：敌方武器与无人机护盾穿透层数减少7层。\n"
+"\t破舰模块：提供50%概率抵消即将受到的舰体伤害。\n"
+"\t封舱模块：非光束武器附加封舱效果；所有武器额外穿透1层护盾。\n"
+"\t火焰模块：系统与船员不受火焰伤害。\n"
+"\t精准模块：武器命中率提升30%。\n"
+"\t强能模块：能量护盾结构值提升至20层，但常规护盾充能速率降低50%。"
 
 #: src-en/data/blueprints.xml.append:17194
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_BIO\"]/title"
-msgstr ""
+msgstr "赫克塔模块化护盾"
 
 #: src-en/data/blueprints.xml.append:17195
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_BIO\"]/desc"
 msgstr ""
+"由独一无二的比尔凡打造的高性能能量护盾。具备10点结构值，并可装配任意赫克塔模"
+"块以激活强力次级效果。\n"
+"\t----当前装配模块----\n"
+"\t反生物模块：装配时使你的舰船变为自动化舰船。"
 
 #: src-en/data/blueprints.xml.append:17206
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_COOLDOWN\"]/title"
-msgstr ""
+msgstr "赫克塔模块化护盾"
 
 #: src-en/data/blueprints.xml.append:17207
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_COOLDOWN\"]/desc"
 msgstr ""
+"由独一无二的比尔凡打造的高性能能量护盾。提供10层能量盾，并可装配任意赫克塔模"
+"块以激活强力次级效果。\n"
+"\t----当前装配模块----\n"
+"\t冷却模块：护盾充能速率提升200%。"
 
 #: src-en/data/blueprints.xml.append:17219
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_LOCKDOWN\"]/title"
-msgstr ""
+msgstr "赫克塔模块化护盾"
 
 #: src-en/data/blueprints.xml.append:17220
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_LOCKDOWN\"]/desc"
 msgstr ""
+"由独一无二的比尔凡打造的高性能能量护盾。提供10层能量盾，并可装配任意赫克塔模"
+"块以激活强力次级效果。\n"
+"----当前装配模块----\n"
+"封舱模块：非光束武器附加封舱效果；所有武器额外穿透1层护盾。"
 
 #: src-en/data/blueprints.xml.append:17232
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_PIERCE\"]/title"
-msgstr ""
+msgstr "赫克塔模块化护盾"
 
 #: src-en/data/blueprints.xml.append:17233
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_PIERCE\"]/desc"
 msgstr ""
+"由独一无二的比尔凡打造的高性能能量护盾。提供10层能量盾，并可装配任意赫克塔模"
+"块以激活强力次级效果。\n"
+"\t----当前装配模块----\n"
+"\t穿透模块：敌方武器与无人机护盾穿透层数减少7层。"
 
 #: src-en/data/blueprints.xml.append:17244
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_STUN\"]/title"
-msgstr ""
+msgstr "赫克塔模块化护盾"
 
 #: src-en/data/blueprints.xml.append:17245
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_STUN\"]/desc"
 msgstr ""
+"由独一无二的比尔凡打造的高性能能量护盾。提供10层能量盾，并可装配任意赫克塔模"
+"块以激活强力次级效果。\n"
+"\t----当前装配模块----\n"
+"\t眩晕模块：友方船员免疫眩晕；敌方眩晕持续时间延长至三倍，且在舰期间每5秒自动"
+"触发眩晕。"
 
 #: src-en/data/blueprints.xml.append:17256
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_ACCURACY\"]/title"
-msgstr ""
+msgstr "赫克塔模块化护盾"
 
 #: src-en/data/blueprints.xml.append:17257
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_ACCURACY\"]/desc"
 msgstr ""
+"由独一无二的比尔凡打造的高性能能量护盾。提供10层能量盾，并可装配任意赫克塔模"
+"块以激活强力次级效果。\n"
+"\t----当前装配模块----\n"
+"\t精准模块：武器命中率提升30%。"
 
 #: src-en/data/blueprints.xml.append:17269
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_FIRE\"]/title"
-msgstr ""
+msgstr "赫克塔模块化护盾"
 
 #: src-en/data/blueprints.xml.append:17270
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_FIRE\"]/desc"
 msgstr ""
+"由独一无二的比尔凡打造的高性能能量护盾。提供10层能量盾，并可装配任意赫克塔模"
+"块以激活强力次级效果。\n"
+"\t----当前装配模块----\n"
+"\t火焰模块：你的系统与船员不受火焰伤害。"
 
 #: src-en/data/blueprints.xml.append:17282
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_HULL\"]/title"
-msgstr ""
+msgstr "赫克塔模块化护盾"
 
 #: src-en/data/blueprints.xml.append:17283
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_HULL\"]/desc"
 msgstr ""
+"由独一无二的比尔凡打造的高性能能量护盾。提供10层能量盾，并可装配任意赫克塔模"
+"块以激活强力次级效果。\n"
+"\t----当前装配模块----\n"
+"\t破舰模块：提供50%概率抵消即将受到的舰体伤害。"
 
 #: src-en/data/blueprints.xml.append:17294
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_POWER\"]/title"
-msgstr ""
+msgstr "赫克塔模块化护盾"
 
 #: src-en/data/blueprints.xml.append:17295
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HEKTAR_SUPERSHIELD_POWER\"]/desc"
 msgstr ""
+"由独一无二的比尔凡打造的高性能能量护盾。提供10层能量盾，并可装配任意赫克塔模"
+"块以激活强力次级效果。\n"
+"\t-----当前装配模块-----\n"
+"\t强能模块：能量护盾结构值提升至20层，但常规护盾充能速率降低50%。"
 
 #: src-en/data/blueprints.xml.append:17313
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HUMAN_SACRIFICE_1\"]/title"
-msgstr ""
+msgstr "人类献祭"
 
 #: src-en/data/blueprints.xml.append:17314
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HUMAN_SACRIFICE_1\"]/desc"
-msgstr ""
+msgstr "船员获得+25%环境抗性。"
 
 #: src-en/data/blueprints.xml.append:17320
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HUMAN_SACRIFICE_2\"]/title"
-msgstr ""
+msgstr "人类献祭2"
 
 #: src-en/data/blueprints.xml.append:17321
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HUMAN_SACRIFICE_2\"]/desc"
-msgstr ""
+msgstr "船员获得+50%环境抗性。"
 
 #: src-en/data/blueprints.xml.append:17328
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENGI_SACRIFICE_1\"]/title"
-msgstr ""
+msgstr "半械献祭"
 
 #: src-en/data/blueprints.xml.append:17329
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENGI_SACRIFICE_1\"]/desc"
-msgstr ""
+msgstr "你的所有无人机获得25%的维修、破坏与移动速度提升，以及10%的伤害与治疗量提升。"
 
 #: src-en/data/blueprints.xml.append:17335
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENGI_SACRIFICE_2\"]/title"
-msgstr ""
+msgstr "半械献祭2"
 
 #: src-en/data/blueprints.xml.append:17336
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENGI_SACRIFICE_2\"]/desc"
-msgstr ""
+msgstr "你的所有无人机获得50%的维修、破坏与移动速度提升，以及20%的伤害与治疗量提升。"
 
 #: src-en/data/blueprints.xml.append:17343
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ROCK_SACRIFICE_1\"]/title"
-msgstr ""
+msgstr "岩石献祭"
 
 #: src-en/data/blueprints.xml.append:17344
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ROCK_SACRIFICE_1\"]/desc"
-msgstr ""
+msgstr "你的星舰获得额外10%的船体伤害抗性。"
 
 #: src-en/data/blueprints.xml.append:17350
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ROCK_SACRIFICE_2\"]/title"
-msgstr ""
+msgstr "岩石献祭2"
 
 #: src-en/data/blueprints.xml.append:17351
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ROCK_SACRIFICE_2\"]/desc"
-msgstr ""
+msgstr "你的星舰获得额外20%的船体伤害抗性。"
 
 #: src-en/data/blueprints.xml.append:17358
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ZOLTAN_SACRIFICE_1\"]/title"
-msgstr ""
+msgstr "超能献祭"
 
 #: src-en/data/blueprints.xml.append:17359
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ZOLTAN_SACRIFICE_1\"]/desc"
-msgstr ""
+msgstr "你的星舰获得额外10%的船体伤害抗性。"
 
 #: src-en/data/blueprints.xml.append:17365
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ZOLTAN_SACRIFICE_2\"]/title"
-msgstr ""
+msgstr "超能献祭2"
 
 #: src-en/data/blueprints.xml.append:17366
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ZOLTAN_SACRIFICE_2\"]/desc"
-msgstr ""
+msgstr "你的星舰获得额外20%的船体伤害抗性。"
 
 #: src-en/data/blueprints.xml.append:17373
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MANTIS_SACRIFICE_1\"]/title"
-msgstr ""
+msgstr "螳螂献祭"
 
 #: src-en/data/blueprints.xml.append:17374
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MANTIS_SACRIFICE_1\"]/desc"
-msgstr ""
+msgstr "你船员的移动速度将随氧气供能提升，最高可获得10%加成；同时获得固定的5%船员伤害"
+"提升。"
 
 #: src-en/data/blueprints.xml.append:17380
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MANTIS_SACRIFICE_2\"]/title"
-msgstr ""
+msgstr "螳螂献祭2"
 
 #: src-en/data/blueprints.xml.append:17381
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MANTIS_SACRIFICE_2\"]/desc"
-msgstr ""
+msgstr "你船员的移动速度将随氧气供能提升，最高可获得20%加成；同时获得固定的10%船员伤"
+"害提升。"
 
 #: src-en/data/blueprints.xml.append:17388
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CRYSTAL_SACRIFICE_1\"]/title"
-msgstr ""
+msgstr "水晶献祭"
 
 #: src-en/data/blueprints.xml.append:17389
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CRYSTAL_SACRIFICE_1\"]/desc"
-msgstr ""
+msgstr "你的星舰在受到攻击时，有20%几率发射一枚水晶碎片。"
 
 #: src-en/data/blueprints.xml.append:17395
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CRYSTAL_SACRIFICE_2\"]/title"
-msgstr ""
+msgstr "水晶献祭2"
 
 #: src-en/data/blueprints.xml.append:17396
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CRYSTAL_SACRIFICE_2\"]/desc"
-msgstr ""
+msgstr "舰船被击中时有40%几率发射水晶碎片。"
 
 #: src-en/data/blueprints.xml.append:17403
 msgid ""
