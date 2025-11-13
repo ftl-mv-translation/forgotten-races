@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-13 01:21+0000\n"
+"PO-Revision-Date: 2025-11-13 03:18+0000\n"
 "Last-Translator: circle217 <3545024352@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_special_storagexmlappend/zh_Hans/>\n"
@@ -6071,6 +6071,8 @@ msgstr "打开增强部件储备箱。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_STORAGE_CHECK_CRATE_AUGMENTS\"]/text"
 msgstr ""
+"你确定要执行此操作吗？\n"
+"\t[将获得随机增强部件并移除储备箱。]"
 
 #: src-en/data/events_special_storage.xml.append:4933
 msgid ""
@@ -6091,6 +6093,8 @@ msgstr "算了，做点别的。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_STORAGE_CHECK_CRATE_MULTIVERSE_AUGMENTS\"]/text"
 msgstr ""
+"你确定要执行此操作吗？\n"
+"\t[将获得随机多元宇宙增强部件并移除储备箱。]"
 
 #: src-en/data/events_special_storage.xml.append:4950
 msgid ""
@@ -6110,557 +6114,666 @@ msgstr "算了，做点别的。"
 #: src-en/data/events_special_storage.xml.append:4972
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/text"
-msgstr ""
+msgstr "你正在权衡哪位船员能为舰船带来最大效益。[高阶升级将覆盖先前等级。]："
 
 #: src-en/data/events_special_storage.xml.append:4974
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/text"
 msgstr ""
+"投喂一名人类。[0/2] \n"
+"\t\t\t[下一阶段增益：船员将获得+25%环境伤害抗性。]"
 
 #: src-en/data/events_special_storage.xml.append:4977
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:4981
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:4984
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "完成。"
 
 #: src-en/data/events_special_storage.xml.append:4990
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/text"
 msgstr ""
+"投喂一名人类。[1/2] \n"
+"\t\t\t[当前增益：船员拥有+25%环境伤害抗性]\n"
+"\t\t\t[下一阶段增益：船员将获得+50%环境伤害抗性]"
 
 #: src-en/data/events_special_storage.xml.append:4994
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:4999
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5002
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:5008
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_HALF\"]/text"
 msgstr ""
+"无可投喂的人类。[1/2]\n"
+"\t\t\t[当前增益：船员拥有+25%环境伤害抗性。]"
 
 #: src-en/data/events_special_storage.xml.append:5013
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_HUMAN_SACRIFICE_2\"]/text"
 msgstr ""
+"舰船已不再需要人类。[2/2]\n"
+"\t\t\t[当前增益：船员拥有+50%环境伤害抗性。]"
 
 #: src-en/data/events_special_storage.xml.append:5018
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_0\"]/text"
 msgstr ""
+"投喂一个半械族。[0/2]\n"
+"\t\t\t[下一阶段增益：你的无人机将获得+25%维修、破坏与移动速度，以及+10%伤害与"
+"治疗量。]"
 
 #: src-en/data/events_special_storage.xml.append:5021
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_0\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5025
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_0\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5028
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:5034
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_1\"]/text"
 msgstr ""
+"投喂一个半械族。[1/2]\n"
+"\t\t\t[当前增益：你的无人机拥有+25%维修、破坏与移动速度，以及+10%伤害与治疗量"
+"。]\n"
+"\t\t\t[下一阶段增益：无人机将获得+50%维修、破坏与移动速度，以及+20%伤害与治疗"
+"量。]"
 
 #: src-en/data/events_special_storage.xml.append:5038
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_1\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5043
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_1\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5046
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5052
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_HALF\"]/text"
 msgstr ""
+"无可投喂的半械族。[1/2]\n"
+"\t\t\t[当前增益：你的无人机拥有+25%维修、破坏与移动速度，以及+10%伤害与治疗量"
+"。]"
 
 #: src-en/data/events_special_storage.xml.append:5057
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_ENGI_SACRIFICE_2\"]/text"
 msgstr ""
+"舰船已不再需要半械族。[2/2]\n"
+"\t\t\t[当前增益：你的无人机拥有+50%维修、破坏与移动速度，以及+20%伤害与治疗量"
+"。]"
 
 #: src-en/data/events_special_storage.xml.append:5062
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_0\"]/text"
 msgstr ""
+"投喂一名岩石族。[0/2]\n"
+"\t\t\t[下一阶段增益：你的舰船将获得+10%舰体伤害抗性。]"
 
 #: src-en/data/events_special_storage.xml.append:5065
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_0\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5069
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_0\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5072
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5078
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_1\"]/text"
 msgstr ""
+"投喂一名岩石族。[1/2]\n"
+"\t\t\t[当前增益：你的舰船拥有+10%舰体伤害抗性]\n"
+"\t\t\t[下一阶段增益：舰船将获得+20%舰体伤害抗性]"
 
 #: src-en/data/events_special_storage.xml.append:5082
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_1\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5087
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_1\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5090
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5096
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_HALF\"]/text"
 msgstr ""
+"无可投喂的岩石族。[1/2]\n"
+"\t\t\t[当前增益：你的舰船拥有+10%舰体伤害抗性]"
 
 #: src-en/data/events_special_storage.xml.append:5101
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_ROCK_SACRIFICE_2\"]/text"
 msgstr ""
+"舰船已不再需要岩石族。[2/2]\n"
+"\t\t\t[当前增益：你的舰船有+20%伤害抗性。]"
 
 #: src-en/data/events_special_storage.xml.append:5106
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_0\"]/text"
 msgstr ""
+"投喂一名超能族。[0/2]\n"
+"\t\t\t[下一阶段增益：你的舰船将获得+20%离子伤害抗性。]"
 
 #: src-en/data/events_special_storage.xml.append:5109
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_0\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5113
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_0\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5116
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5122
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_1\"]/text"
 msgstr ""
+"投喂一名超能族。[1/2]\n"
+"\t\t\t[当前增益：你的舰船拥有+20%离子伤害抗性]\n"
+"\t\t\t[下一阶段增益：舰船将获得+40%离子伤害抗性]"
 
 #: src-en/data/events_special_storage.xml.append:5126
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_1\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5131
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_1\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5134
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5140
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_HALF\"]/text"
 msgstr ""
+"无可投喂的超能族。[1/2]\n"
+"\t\t\t[当前增益：你的舰船拥有+20%离子伤害抗性]"
 
 #: src-en/data/events_special_storage.xml.append:5145
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_ZOLTAN_SACRIFICE_2\"]/text"
 msgstr ""
+"舰船已不再需要超能族。[2/2]\n"
+"\t\t\t[当前增益：你的舰船拥有+40%离子伤害抗性]"
 
 #: src-en/data/events_special_storage.xml.append:5150
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_0\"]/text"
 msgstr ""
+"投喂一名螳螂族。[0/2]\n"
+"\t\t\t[下一阶段增益：生命支持系统每有一格供能，你的船员将获得+10%移动速度与+5"
+"%战斗伤害。]"
 
 #: src-en/data/events_special_storage.xml.append:5153
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_0\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5157
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_0\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5160
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5166
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_1\"]/text"
 msgstr ""
+"投喂一名螳螂族。[1/2]\n"
+"\t\t\t[当前增益：生命支持系统每有一格供能，你的船员将获得+10%移动速度与+5%战"
+"斗伤害。]\n"
+"\t\t\t[下一阶段增益：生命支持系统每有一格供能，你的船员将获得+20%移动速度与+1"
+"0%战斗伤害。]"
 
 #: src-en/data/events_special_storage.xml.append:5170
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_1\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5175
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_1\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5178
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5184
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_HALF\"]/text"
 msgstr ""
+"无可投喂的螳螂族。[1/2]\n"
+"\t\t\t[当前增益：生命支持系统每有一格供能，你的船员将获得+10%移动速度与+5%战"
+"斗伤害。]"
 
 #: src-en/data/events_special_storage.xml.append:5189
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_MANTIS_SACRIFICE_2\"]/text"
 msgstr ""
+"舰船已不再需要螳螂族。[2/2]\n"
+"\t\t\t[当前增益：生命支持系统每有一格供能，你的船员将获得+20%移动速度与+10%战"
+"斗伤害。]"
 
 #: src-en/data/events_special_storage.xml.append:5194
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_0\"]/text"
 msgstr ""
+"投喂一名水晶族。[0/2]\n"
+"\t\t\t[下一阶段增益：你的舰船被击中时有+20%几率发射水晶碎片反击。]"
 
 #: src-en/data/events_special_storage.xml.append:5197
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_0\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5201
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_0\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5204
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5210
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_1\"]/text"
 msgstr ""
+"投喂一名水晶族。[1/2]\n"
+"\t\t\t[当前增益：你的舰船被击中时有+20%几率发射水晶碎片反击]\n"
+"\t\t\t[下一阶段增益：舰船被击中时发射水晶碎片的几率将提升至+40%]"
 
 #: src-en/data/events_special_storage.xml.append:5214
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_1\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5219
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_1\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5222
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5228
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_HALF\"]/text"
 msgstr ""
+"无可投喂的水晶族。[1/2]\n"
+"\t\t\t[当前增益：你的舰船被击中时有+20%几率发射水晶碎片反击]"
 
 #: src-en/data/events_special_storage.xml.append:5233
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_CRYSTAL_SACRIFICE_2\"]/text"
 msgstr ""
+"舰船已不再需要水晶族。[2/2]\n"
+"\t\t\t[当前增益：你的舰船被击中时有+40%几率发射水晶碎片反击]"
 
 #: src-en/data/events_special_storage.xml.append:5238
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_0\"]/text"
 msgstr ""
+"投喂一名蛞蝓族。[0/2]\n"
+"\t\t\t[下一阶段增益：所有来源的废料获取量提升5%。]"
 
 #: src-en/data/events_special_storage.xml.append:5241
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_0\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5245
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_0\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5248
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5254
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_1\"]/text"
 msgstr ""
+"投喂一名蛞蝓族。[1/2]\n"
+"\t\t\t[当前增益：所有来源的废料获取量提升5%]\n"
+"\t\t\t[下一阶段增益：所有来源的废料获取量将提升10%]"
 
 #: src-en/data/events_special_storage.xml.append:5258
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_1\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5263
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_1\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5266
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5272
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_HALF\"]/text"
 msgstr ""
+"无可投喂的蛞蝓族。[1/2]\n"
+"\t\t\t[当前增益：所有来源的废料获取量提升5%]"
 
 #: src-en/data/events_special_storage.xml.append:5277
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_SLUG_SACRIFICE_2\"]/text"
 msgstr ""
+"舰船已不再需要蛞蝓族。[2/2]\n"
+"\t\t\t[当前增益：所有来源的废料获取量提升10%]"
 
 #: src-en/data/events_special_storage.xml.append:5282
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_0\"]/text"
 msgstr ""
+"投喂一名甲壳族。[0/2]\n"
+"\t\t\t[下一阶段增益：敌方登舰者将每秒受到1.5点被动伤害。]"
 
 #: src-en/data/events_special_storage.xml.append:5285
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_0\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5289
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_0\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5292
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5298
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_1\"]/text"
 msgstr ""
+"投喂一名甲壳族。[1/2]\n"
+"\t\t\t[当前增益：敌方登舰者每秒受到1.5点被动伤害]\n"
+"\t\t\t[下一阶段增益：敌方登舰者受到的被动伤害将提升至每秒3点]"
 
 #: src-en/data/events_special_storage.xml.append:5302
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_1\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5307
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_1\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5310
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5316
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_HALF\"]/text"
 msgstr ""
+"无可投喂的甲壳族。[1/2]\n"
+"\t\t\t[当前增益：敌方登舰者每秒受到1.5点被动伤害]"
 
 #: src-en/data/events_special_storage.xml.append:5321
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_SHELL_SACRIFICE_2\"]/text"
 msgstr ""
+"舰船已不再需要甲壳族。[2/2]\n"
+"\t\t\t[当前增益：敌方登舰者每秒受到3点被动伤害]"
 
 #: src-en/data/events_special_storage.xml.append:5326
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_0\"]/text"
 msgstr ""
+"投喂一名兰花族。[0/2]\n"
+"\t\t\t[下一阶段增益：你的船员远程战斗伤害提升10%。]"
 
 #: src-en/data/events_special_storage.xml.append:5329
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_0\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5333
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_0\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5336
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5342
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_1\"]/text"
 msgstr ""
+"投喂一名兰花族。[1/2]\n"
+"\t\t\t[当前增益：你的船员远程战斗伤害提升+10%]\n"
+"\t\t\t[下一阶段增益：船员远程战斗伤害将提升至+20%]"
 
 #: src-en/data/events_special_storage.xml.append:5346
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_1\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5351
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_1\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5354
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5360
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_HALF\"]/text"
 msgstr ""
+"无可投喂的兰花族。[1/2]\n"
+"\t\t\t[当前增益：你的船员远程战斗伤害提升+10%]"
 
 #: src-en/data/events_special_storage.xml.append:5365
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_ORCHID_SACRIFICE_2\"]/text"
 msgstr ""
+"舰船已不再需要兰花族。[2/2]\n"
+"\t\t\t[当前增益：你的船员远程战斗伤害提升+20%]"
 
 #: src-en/data/events_special_storage.xml.append:5370
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_0\"]/text"
 msgstr ""
+"投喂一名食铁族。[0/2]\n"
+"\t\t\t[下一阶段增益：你的舰船获得+10%系统伤害抗性。]"
 
 #: src-en/data/events_special_storage.xml.append:5373
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_0\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5377
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_0\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5380
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5386
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_1\"]/text"
 msgstr ""
+"投喂一名食铁族。[1/2]\n"
+"\t\t\t[当前增益：你的舰船拥有+10%系统伤害抗性]\n"
+"\t\t\t[下一阶段增益：舰船将获得+20%系统伤害抗性]"
 
 #: src-en/data/events_special_storage.xml.append:5390
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_1\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5395
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_1\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5398
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5404
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_HALF\"]/text"
 msgstr ""
+"无可投喂的食铁族。[1/2]\n"
+"\t\t\t[当前增益：你的舰船拥有+10%系统伤害抗性]"
 
 #: src-en/data/events_special_storage.xml.append:5409
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LANIUS_SACRIFICE_2\"]/text"
 msgstr ""
+"舰船已不再需要食铁族。[2/2]\n"
+"\t\t\t[当前增益：你的舰船拥有+20%系统伤害抗性]"
 
 #: src-en/data/events_special_storage.xml.append:5414
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_0\"]/text"
 msgstr ""
+"投喂一名吸虫族。[0/2]\n"
+"\t\t\t[下一阶段增益：你的船员将获得每秒3点生命值的持续恢复效果。]"
 
 #: src-en/data/events_special_storage.xml.append:5417
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_0\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5421
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_0\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5424
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_0\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5430
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_1\"]/text"
 msgstr ""
+"投喂一名吸虫族。[1/2]\n"
+"\t\t\t[当前增益：你的船员获得每秒3点生命值的持续恢复]\n"
+"\t\t\t[下一阶段增益：船员恢复效果将提升至每秒6点生命值]"
 
 #: src-en/data/events_special_storage.xml.append:5434
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_1\"]/event/text"
-msgstr ""
+msgstr "整个过程在数秒内结束。你只能希望这个过程没有痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:5439
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_1\"]/event/removeCrew/text"
-msgstr ""
+msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸收了。"
 
 #: src-en/data/events_special_storage.xml.append:5442
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_1\"]/event/choice/text"
-msgstr ""
+msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:5448
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_HALF\"]/text"
 msgstr ""
+"无可投喂的吸虫族。[1/2]\n"
+"\t\t\t[当前增益：你的船员获得每秒3点生命值的持续恢复]"
 
 #: src-en/data/events_special_storage.xml.append:5453
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LEECH_SACRIFICE_2\"]/text"
 msgstr ""
+"舰船已不再需要吸虫族。[2/2]\n"
+"\t\t\t[当前增益：你的船员获得每秒6点生命值的持续恢复]"
 
 #: src-en/data/events_special_storage.xml.append:5458
 msgid ""
