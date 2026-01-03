@@ -1,0 +1,236 @@
+#
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src-en/data/events_sector_dynasty.xml.append:9
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS\"]/text"
+msgstr ""
+"Vous sautez dans ce que vous supposez être un ensemble de ruines antiques, prêtes à être pillées pour tout ce qu'elles valent. Cependant, vous voyez quelque chose auquel vous ne vous attendiez certainement pas : un étrange vaisseau automatique, beaucoup plus grand que les vaisseaux automatiques de liaison que vous avez rencontrés dans le passé et avec une peinture complètement différente. Il semble également que ses fonctions automatiques aient été désactivées ou supprimées. Des vaisseaux de la Dynastie l'attaquent !\n"
+"\t\n"
+"\tAprès quelques instants, vous êtes hélé par les pillards, et un Phantom Alpha vous salue. \"Salut, Renégat, c'est une grande honte que je doive dire que nous avons besoin de votre aide. Ces abominations de Lanius dégoûtantes qui s'appellent les \"Dépéris\" ont infesté notre précieux vaisseau ! Si vous pouvez les nettoyer, nous vous donnerons volontiers les plans du vaisseau en récompense.\""
+
+#: src-en/data/events_sector_dynasty.xml.append:14
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS\"]/choice[1]/text"
+msgstr "Bien sûr, nous pouvons le faire."
+
+#: src-en/data/events_sector_dynasty.xml.append:16
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS\"]/choice[1]/event/text"
+msgstr ""
+"\"C'est l'esprit ! Faites juste attention à ne pas trop endommager le "
+"vaisseau. Sinon, il y aura de graves conséquences, compris ? Si vous "
+"parvenez à les tuer tous, nous pourrions même offrir une récompense "
+"spéciale.\""
+
+#: src-en/data/events_sector_dynasty.xml.append:19
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_dynasty.xml.append:25
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS\"]/choice[2]/text"
+msgstr ""
+"Aussi tentant que cela soit, nous ne pouvons pas nous permettre d'engager le"
+" combat avec... cette chose."
+
+#: src-en/data/events_sector_dynasty.xml.append:27
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS\"]/choice[2]/event/text"
+msgstr ""
+"Le capitaine coupe immédiatement la communication avec votre vaisseau, et "
+"vous êtes de nouveau livré à vous-même."
+
+#: src-en/data/events_sector_dynasty.xml.append:33
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_WITHERED_OFFER\"]/text"
+msgstr ""
+"Soudain, vous recevez un appel du croiseur. \"Tout-Puissant, ne blesse pas "
+"Dépéris ! Je me rends ! Je quitte le vaisseau et viens avec !\""
+
+#: src-en/data/events_sector_dynasty.xml.append:36
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_WITHERED_OFFER\"]/choice[1]/text"
+msgstr "D'accord, si vous quittez le vaisseau, vous pouvez venir avec nous."
+
+#: src-en/data/events_sector_dynasty.xml.append:38
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_WITHERED_OFFER\"]/choice[1]/event/text"
+msgstr ""
+"\"Merci, merci !\" Le Lanius désactive son vaisseau et se téléporte dans votre croiseur. Les vaisseaux de la Dynastie vous hèlent peu après.\n"
+"\t\t\t\n"
+"\t\t\t\"Ach, allez-vous vraiment permettre à cette vermine de rester à bord de votre vaisseau ? Malédiction ! Heureusement pour vous, je suis un Alpha qui tient parole. Vous recevrez vos plans, mais n'attendez pas ma récompense bonus. Maintenant partez, avant que je ne change d'avis !\""
+
+#: src-en/data/events_sector_dynasty.xml.append:48
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_WITHERED_OFFER\"]/choice[2]/text"
+msgstr "Tuez-les tous !"
+
+#: src-en/data/events_sector_dynasty.xml.append:54
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/text"
+msgstr ""
+"En explorant les couloirs vides du vaisseau, vous trouvez un seul membre "
+"d'équipage Dépéris, recroquevillé et gravement blessé par le combat. \"Tout-"
+"Puissant... s-s'il vous plaît ne blessez pas Dépéris... je-je veux juste... "
+"a-aider... s-soigner... e-et je v-viens a-avec...\""
+
+#: src-en/data/events_sector_dynasty.xml.append:56
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"medbay\"]/text"
+msgstr "(Infirmerie améliorée) Utilisez votre infirmerie pour les stabiliser."
+
+#: src-en/data/events_sector_dynasty.xml.append:58
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"medbay\"]/event/text"
+msgstr ""
+"\"Merci, merci !\" Chante le Lanius en vous suivant jusqu'à votre vaisseau. Les vaisseaux de la Dynastie vous hèlent peu après.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, allez-vous vraiment permettre à cette vermine de rester à bord de votre vaisseau ? Malédiction ! Heureusement pour vous, je suis un Alpha qui tient parole. Vous recevrez vos plans, mais n'attendez pas ma récompense bonus. Maintenant partez, avant que je ne change d'avis !\""
+
+#: src-en/data/events_sector_dynasty.xml.append:67
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"LIST_CREW_MEDICAL\"]/text"
+msgstr ""
+"(Équipage médical) Utilisez votre équipe médicale pour les stabiliser."
+
+#: src-en/data/events_sector_dynasty.xml.append:69
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"LIST_CREW_MEDICAL\"]/event/text"
+msgstr ""
+"\"Merci, merci !\" Chante le Lanius en vous suivant jusqu'à votre vaisseau. Les vaisseaux de la Dynastie vous hèlent peu après.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, allez-vous vraiment permettre à cette vermine de rester à bord de votre vaisseau ? Malédiction ! Heureusement pour vous, je suis un Alpha qui tient parole. Vous recevrez vos plans, mais n'attendez pas ma récompense bonus. Maintenant partez, avant que je ne change d'avis !\""
+
+#: src-en/data/events_sector_dynasty.xml.append:78
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"DRONE_CONTROL_MEDICAL\"]/text"
+msgstr "(Drone médical) Utilisez votre drone médical pour les stabiliser."
+
+#: src-en/data/events_sector_dynasty.xml.append:80
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"DRONE_CONTROL_MEDICAL\"]/event/text"
+msgstr ""
+"\"Merci, merci !\" Chante le Lanius en vous suivant jusqu'à votre vaisseau. Les vaisseaux de la Dynastie vous hèlent peu après.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, allez-vous vraiment permettre à cette vermine de rester à bord de votre vaisseau ? Malédiction ! Heureusement pour vous, je suis un Alpha qui tient parole. Vous recevrez vos plans, mais n'attendez pas ma récompense bonus. Maintenant partez, avant que je ne change d'avis !\""
+
+#: src-en/data/events_sector_dynasty.xml.append:89
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_BALLISTIC\"]/text"
+msgstr ""
+"(Armes balistiques médicales) Utilisez votre arme balistique médicale pour "
+"les stabiliser. [-1}]"
+
+#: src-en/data/events_sector_dynasty.xml.append:91
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_BALLISTIC\"]/event/text"
+msgstr ""
+"\"Merci, merci !\" Chante le Lanius en vous suivant jusqu'à votre vaisseau. Les vaisseaux de la Dynastie vous hèlent peu après.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, allez-vous vraiment permettre à cette vermine de rester à bord de votre vaisseau ? Malédiction ! Heureusement pour vous, je suis un Alpha qui tient parole. Vous recevrez vos plans, mais n'attendez pas ma récompense bonus. Maintenant partez, avant que je ne change d'avis !\""
+
+#: src-en/data/events_sector_dynasty.xml.append:103
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_NONBALLISTIC\"]/text"
+msgstr ""
+"(Armes médicales non-balistiques) Utilisez votre arme médicale pour les "
+"stabiliser."
+
+#: src-en/data/events_sector_dynasty.xml.append:105
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"FR_LIST_MEDICAL_NONBALLISTIC\"]/event/text"
+msgstr ""
+"\"Merci, merci !\" Chante le Lanius en vous suivant jusqu'à votre vaisseau. Les vaisseaux de la Dynastie vous hèlent peu après.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, allez-vous vraiment permettre à cette vermine de rester à bord de votre vaisseau ? Malédiction ! Heureusement pour vous, je suis un Alpha qui tient parole. Vous recevrez vos plans, mais n'attendez pas ma récompense bonus. Maintenant partez, avant que je ne change d'avis !\""
+
+#: src-en/data/events_sector_dynasty.xml.append:114
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"RECON_AND_TELEPORT\"]/text"
+msgstr "(Téléporteur reconstructeur) Téléportez-les."
+
+#: src-en/data/events_sector_dynasty.xml.append:116
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"RECON_AND_TELEPORT\"]/event/text"
+msgstr ""
+"\"Merci, merci !\" Chante le Lanius, entièrement guéri. Les vaisseaux de la Dynastie vous hèlent peu après.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, allez-vous vraiment permettre à cette vermine de rester à bord de votre vaisseau ? Malédiction ! Heureusement pour vous, je suis un Alpha qui tient parole. Vous recevrez vos plans, mais n'attendez pas ma récompense bonus. Maintenant partez, avant que je ne change d'avis !\""
+
+#: src-en/data/events_sector_dynasty.xml.append:125
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"clonebay\"]/text"
+msgstr ""
+"(Baie de clonage) Enregistrez le Lanius avant qu'il ne soit trop tard."
+
+#: src-en/data/events_sector_dynasty.xml.append:127
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[@req=\"clonebay\"]/event/text"
+msgstr ""
+"\"Merci, merci !\" Chante le Lanius en vous suivant jusqu'à votre vaisseau. Les vaisseaux de la Dynastie vous hèlent peu après.\n"
+"\t\t\t\n"
+"\t\t\t\t\"Ach, allez-vous vraiment permettre à cette vermine de rester à bord de votre vaisseau ? Malédiction ! Heureusement pour vous, je suis un Alpha qui tient parole. Vous recevrez vos plans, mais n'attendez pas ma récompense bonus. Maintenant partez, avant que je ne change d'avis !\""
+
+#: src-en/data/events_sector_dynasty.xml.append:136
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_CREWKILL\"]/choice[8]/text"
+msgstr "Laissez-les mourir."
+
+#: src-en/data/events_sector_dynasty.xml.append:142
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/text"
+msgstr ""
+"\"Ach ! Arrête, fou ! Tu endommages trop notre grand vaisseau ! Arrête de le"
+" combattre, ou laisse-nous ! Es-tu après la ferraille ? Si oui, nous t'en "
+"donnerons, tant que tu disparais de ma vue !\""
+
+#: src-en/data/events_sector_dynasty.xml.append:144
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_dynasty.xml.append:146
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/choice[1]/event/text"
+msgstr ""
+"Vous pouvez dire que vous n'êtes payé que pour que l'Alpha soit assuré que "
+"vous partirez, mais c'est mieux que rien."
+
+#: src-en/data/events_sector_dynasty.xml.append:152
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_dynasty.xml.append:154
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WARNING\"]/choice[2]/event/text"
+msgstr ""
+"L'Alpha gémit. \"Très bien, mais si tu détruis le vaisseau, tu le paieras "
+"très cher !\""
+
+#: src-en/data/events_sector_dynasty.xml.append:160
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WIN\"]/text"
+msgstr ""
+"Alors que le dernier Dépéris tombe, vous recevez un appel de la Dynastie.\n"
+"\t\n"
+"\t\"Excellent travail, Renégat. Vous combattez vraiment avec la ferveur des grands Faucheurs d'antan ! Qu'est-ce qui alimente votre puissance qui vous permet d'accomplir de tels exploits de force ?\""
+
+#: src-en/data/events_sector_dynasty.xml.append:164
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WIN\"]/choice/text"
+msgstr "De la ferraille et des plans, principalement."
+
+#: src-en/data/events_sector_dynasty.xml.append:166
+msgid ""
+"data/events_sector_dynasty.xml.append$//event[@name=\"FR_WITHER_RUINS_DYNASTY_WIN\"]/choice/event/text"
+msgstr ""
+"L'Alpha rit avant de transférer votre paiement. \"C'est merveilleux de voir "
+"que le bon humour n'est pas mort ces jours-ci. S'il vous plaît, acceptez les"
+" plans et mon bonus spécial, comme promis.\""
