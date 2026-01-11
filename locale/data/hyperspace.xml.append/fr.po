@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-07 04:55+0000\n"
+"PO-Revision-Date: 2026-01-11 16:25+0000\n"
 "Last-Translator: kronen68 <obrice@hotmail.fr>\n"
 "Language-Team: French <https://weblate.hyperq.be/projects/forgotten-races/"
 "datahyperspace-xml-append/fr/>\n"
@@ -23,18 +23,33 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
+"RÉSEAU DE DÉFLEXION MENTALE :\n"
+"Tant que le Contrôle Mental ennemi est alimenté au niveau 3, tout l'équipage "
+"adverse bénéficie d'une immunité totale au Contrôle Mental."
 
 #: src-en/data/hyperspace.xml.append:117
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[3]/tooltip"
 msgstr ""
+"INFRASTRUCTURE DE MAINTENANCE DU COMMONWEALTH : \n"
+"Ce vaisseau ennemi est truffé d'un réseau incroyablement complexe de nœuds "
+"diffusant des nanomachines. Celles-ci infligent passivement 5 PV/s de dégâts "
+"à votre équipage, tout en soignant les drones et l'équipage métallique "
+"ennemis à hauteur de 5 PV/s. Le système éteint activement les incendies et "
+"répare les brèches du vaisseau ennemi."
 
 #: src-en/data/hyperspace.xml.append:122
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[4]/tooltip"
 msgstr ""
+"INFRASTRUCTURE DE MAINTENANCE LÉGÈRE DU COMMONWEALTH : \n"
+"Ce vaisseau ennemi est truffé d'un réseau incroyablement complexe de nœuds "
+"diffusant des nanomachines. Celles-ci infligent passivement 2,5 PV/s de "
+"dégâts à votre équipage, tout en soignant les drones et l'équipage "
+"métallique ennemis à hauteur de 2,5 PV/s. Le système éteint activement les "
+"incendies et répare les brèches du vaisseau ennemi."
 
 #: src-en/data/hyperspace.xml.append:127
 msgid ""
@@ -67,13 +82,14 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:158
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[10]/tooltip"
 msgstr ""
-"SCELLEUR DE BRÈCHE :\n"
-"Les brèches de cet ennemi seront automatiquement réparées, même en l'absence d'équipage."
+"MENACE DU REVENANT CHAOTIQUE : \n"
+"Il n'y a plus d'échappatoire, Renégat.\n"
+"\t/\n"
+":)"
 
 #: src-en/data/hyperspace.xml.append:165
 msgid ""
@@ -86,21 +102,32 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[12]/tooltip"
 msgstr ""
+"SALLES MAUDITES : \n"
+"Cet ennemi possède une ou plusieurs salles maudites, indiquées par une "
+"bordure rose. Les salles maudites sont immunisées contre les dégâts de "
+"système et d'ions, et sont sabotées deux fois moins vite. Ces salles "
+"subissent les dégâts d'incendie et de coque normalement."
 
 #: src-en/data/hyperspace.xml.append:174
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[13]/tooltip"
 msgstr ""
+"PIECES CORROMPUES : \n"
+"Cet ennemi possède une ou plusieurs salles corrompues, indiquées par des "
+"couleurs clignotant rapidement. Les salles corrompues sont immunisées contre "
+"les dégâts de système et d'ions, sont sabotées à un dixième de la vitesse "
+"normale et infligent 100 PV/s de dégâts à votre équipage. L'équipage ennemi, "
+"quant à lui, récupère 100 PV/s dans ces salles."
 
 #: src-en/data/hyperspace.xml.append:179
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[14]/tooltip"
 msgstr ""
-"SCELLEUR DE BRÈCHE :\n"
-"Les brèches de cet ennemi seront automatiquement réparées, même en l'absence d'équipage."
+"GEL RÉPARATEUR :\n"
+"Les brèches de cet ennemi seront automatiquement réparées, même en l'absence "
+"d'équipage."
 
 #: src-en/data/hyperspace.xml.append:184
 msgid ""
@@ -119,6 +146,12 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[17]/tooltip"
 msgstr ""
+"XÉNOPHOBIE : \n"
+"L'équipage humain de cet ennemi bénéficie d'un bonus de 33 % à toutes ses "
+"statistiques principales, mais son équipage non-humain subit un malus de 40 "
+"% sur ces mêmes statistiques. \n"
+"(Les statistiques principales incluent la santé, les dégâts, la réparation, "
+"le sabotage et la vitesse de déplacement)."
 
 #: src-en/data/hyperspace.xml.append:200
 msgid ""
@@ -131,6 +164,9 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[19]/tooltip"
 msgstr ""
+"MOLÉCULES DENSES : \n"
+"L'équipage Fantôme de ce vaisseau dispose de 20 points de vie "
+"supplémentaires, mais il ne peut plus passer à travers les portes."
 
 #: src-en/data/hyperspace.xml.append:211
 msgid ""
@@ -185,12 +221,28 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[28]/tooltip"
 msgstr ""
+"COMPOSANTS INTERNES PERFECTIONNÉS : \n"
+"Les systèmes de cet ennemi sont hautement optimisés et bénéficient de "
+"plusieurs bonus spéciaux :\n"
+"-Charge des armes 5 % plus rapide.\n"
+"-Charge du bouclier 10 % plus rapide.\n"
+"-Charge du générateur SPL 15 % plus rapide.\n"
+"-5 % de chances de résister aux dégâts de coque, 5 % aux dégâts de système "
+"et 25 % aux dégâts d'ions.\n"
+"-L'équipage et les drones alliés à bord de votre vaisseau regagnent "
+"constamment 1 PV/s.\n"
+"-L'équipage et les drones ennemis à bord de votre vaisseau subissent "
+"constamment 1 PV/s de dégâts."
 
 #: src-en/data/hyperspace.xml.append:262
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[29]/tooltip"
 msgstr ""
+"BOUCLIER SINGULIER : \n"
+"Cet ennemi est protégé par un bouclier énergétique avancé qui empêche "
+"également votre équipage d'utiliser les téléporteurs à courte portée "
+"lorsqu'il se trouve à bord du vaisseau ennemi."
 
 #: src-en/data/hyperspace.xml.append:267
 msgid ""
@@ -221,6 +273,11 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[34]/tooltip"
 msgstr ""
+"ARMURE EN FUSION : \n"
+"Votre équipage à bord de ce vaisseau subit passivement 15 PV/s de dégâts. "
+"Ces dégâts sont considérés comme des dégâts d'incendie et sont modifiés en "
+"conséquence. Le vaisseau a également 50 % de chances d'annuler les dégâts de "
+"coque."
 
 #: src-en/data/hyperspace.xml.append:300
 msgid ""
@@ -281,12 +338,19 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[44]/tooltip"
 msgstr ""
+"AIR GLACIAL : \n"
+"L'équipage Bonhomme de neige de l'ennemi récupère 20 PV/s tant qu'il se "
+"trouve à bord du vaisseau ennemi."
 
 #: src-en/data/hyperspace.xml.append:350
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[45]/tooltip"
 msgstr ""
+"VAISSEAU VIVANT : \n"
+"Ce vaisseau ennemi est un organisme vivant qui a dévoré un ou plusieurs de "
+"ses anciens membres d'équipage. Les icônes des augmentations qu'il a "
+"acquises grâce à ce processus sont affichées."
 
 #: src-en/data/hyperspace.xml.append:355
 msgid ""
@@ -305,6 +369,10 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[48]/tooltip"
 msgstr ""
+"GRILLE D'ANNIHILATION : \n"
+"Votre équipage à bord de ce vaisseau perd 10 PV/s, perd la capacité de "
+"passer à travers les portes ou de se déplacer par téléportation, et inflige "
+"des dégâts divisés par deux aux portes."
 
 #: src-en/data/hyperspace.xml.append:370
 msgid ""
@@ -371,6 +439,8 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[59]/tooltip"
 msgstr ""
+"FERRAILLEUR : \n"
+"Ce vaisseau transporte 100 ferraille dans sa soute."
 
 #: src-en/data/hyperspace.xml.append:430
 msgid ""
@@ -424,7 +494,7 @@ msgstr ""
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod-"
 "append:customStore[2]/category[7]/customTitle"
-msgstr ""
+msgstr "ÉQUIPAGE"
 
 #: src-en/data/hyperspace.xml.append:709
 msgid ""
@@ -460,7 +530,7 @@ msgstr ""
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod-"
 "append:customStore[3]/category[7]/customTitle"
-msgstr ""
+msgstr "ÉQUIPAGE"
 
 #: src-en/data/hyperspace.xml.append:856
 msgid ""
@@ -1071,21 +1141,19 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:5666
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_ghost_tully\"]/powerEffect[2]/buttonText"
-msgstr "COMMANDE"
+msgstr "FRAPPE"
 
 #: src-en/data/hyperspace.xml.append:5667
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_ghost_tully\"]/powerEffect[2]/tooltip"
 msgstr ""
-"Prêt : Accorde à tous les autres membres d'équipage sur le même vaisseau x2 "
-"réparation, dommages de combat et 2.5x vitesse de mouvement pendant 5 "
-"secondes."
+"[TEMPS DE RECHARGE : 15s]\n"
+"\t\t\t\tDemande une frappe de bombes à la flotte de la Fédération, visant "
+"les systèmes et l'équipage du vaisseau ennemi."
 
 #: src-en/data/hyperspace.xml.append:5769
 msgid ""
@@ -1178,14 +1246,17 @@ msgid ""
 msgstr "DECOMPTE"
 
 #: src-en/data/hyperspace.xml.append:6053
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_ghost_devorak\"]/powerEffect[2]/tooltip"
 msgstr ""
-"Prêt : Amorcer l'autodestruction, exploser pour 60 dégâts (45 sur les "
-"alliés) et 10 secondes d'étourdissement pour tous les membres d'équipage "
-"dans la salle. Toute l'équipe de Zoltan dans la pièce explosera aussi."
+"[TEMPS DE RECHARGE : 3s] \n"
+"\t\t\t\tLance un compte à rebours suicidaire. À la fin du décompte, explose "
+"en infligeant 60 dégâts à l'équipage (45 aux alliés) et étourdit tout le "
+"personnel dans la pièce pendant 10 secondes. Tous les autres membres "
+"d'équipage Zoltan présents dans la pièce exploseront également.\n"
+"\t\t\t\tSi le compte à rebours est interrompu par la mort, la capacité est "
+"annulée."
 
 #: src-en/data/hyperspace.xml.append:6113
 msgid ""
@@ -1892,11 +1963,10 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:8942
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_tririac\"]/powerEffect/buttonText"
-msgstr "CONTROLE"
+msgstr "COMMANDE"
 
 #: src-en/data/hyperspace.xml.append:8943
 msgid ""
@@ -1905,11 +1975,10 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:9034
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_tririac_enemy\"]/powerEffect/buttonText"
-msgstr "CONTROLE"
+msgstr "COMMANDE"
 
 #: src-en/data/hyperspace.xml.append:9035
 msgid ""
@@ -1918,11 +1987,10 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:9135
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_bonus_tririac_noclone\"]/powerEffect/buttonText"
-msgstr "CONTROLE"
+msgstr "COMMANDE"
 
 #: src-en/data/hyperspace.xml.append:9136
 msgid ""
@@ -2051,7 +2119,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:12305
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LOCAL_MAINTENANCE\"]/statBoosts/statBoost[1]/powerEffect/buttonText"
