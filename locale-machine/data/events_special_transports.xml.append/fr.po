@@ -13,7 +13,7 @@ msgstr "Un emplacement non visité."
 #: src-en/data/events_special_transports.xml.append:16
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/beaconType/visitedTooltip"
-msgstr "Emplacement exploré. Plus rien d'intéressant."
+msgstr "Emplacement déjà exploré. Il n'y reste rien d'intéressant."
 
 #: src-en/data/events_special_transports.xml.append:17
 msgid ""
@@ -24,14 +24,14 @@ msgstr "Un emplacement non visité."
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/text"
 msgstr ""
-"Cette balise abrite un transporteur du Commonwealth. Il est fort probable "
-"que le vaisseau transporte de la technologie Éthérée. Si vous pouvez tuer "
-"son équipage, leur cargaison sera à vous."
+"Cette balise héberge un transport du Commonwealth. Il est sûr de parier que "
+"le vaisseau transporte très probablement de la technologie Éther. Si vous "
+"tuez son équipage, leur cargaison sera à vous."
 
 #: src-en/data/events_special_transports.xml.append:22
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[1]/text"
-msgstr "Exiger la remise de leurs biens."
+msgstr "Exiger la reddition de leurs biens."
 
 #: src-en/data/events_special_transports.xml.append:24
 msgid ""
@@ -46,17 +46,17 @@ msgstr ""
 #: src-en/data/events_special_transports.xml.append:33
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[@req=\"FR_COMMONWEALTH_CREW_MORAL\"]/text"
-msgstr "(Équipage du Commonwealth + Bonne Réputation) Parler au transporteur."
+msgstr "(Équipage du Commonwealth + Bonne réputation) Parler au transport."
 
 #: src-en/data/events_special_transports.xml.append:35
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[@req=\"FR_COMMONWEALTH_CREW_MORAL\"]/event/text"
 msgstr ""
-"Votre équipage parle au capitaine du transporteur, expliquant l'importance "
-"de votre mission. Le capitaine du transporteur semble comprendre, mais "
-"mentionne également que la cargaison qu'ils transportent est vitale pour "
-"cette même mission. Si vous êtes prêt à payer une compensation, ils sont "
-"disposés à faire une exception."
+"Votre équipage parle au capitaine du transport, expliquant l'importance de "
+"votre mission. Le capitaine du transport semble comprendre, mais mentionne "
+"également que la cargaison qu'il transporte est vitale pour cette même "
+"mission. Si vous êtes prêt à payer une compensation, ils sont prêts à faire "
+"une exception."
 
 #: src-en/data/events_special_transports.xml.append:37
 msgid ""
@@ -78,7 +78,7 @@ msgstr ""
 #: src-en/data/events_special_transports.xml.append:54
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[@req=\"FR_COMMONWEALTH_CREW_MORAL\"]/event/choice[2]/text"
-msgstr "Refuser et attaquer le transporteur."
+msgstr "Refuser et attaquer le transport."
 
 #: src-en/data/events_special_transports.xml.append:56
 msgid ""
@@ -93,13 +93,12 @@ msgstr ""
 #: src-en/data/events_special_transports.xml.append:65
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[@req=\"FR_COMMONWEALTH_CREW_MORAL\"]/event/choice[3]/text"
-msgstr "Peu importe."
+msgstr "Tant pis."
 
 #: src-en/data/events_special_transports.xml.append:67
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[@req=\"FR_COMMONWEALTH_CREW_MORAL\"]/event/choice[3]/event/text"
-msgstr ""
-"Le capitaine du transporteur hausse les épaules et poursuit son chemin."
+msgstr "Le capitaine du transport hausse les épaules et continue sa route."
 
 #: src-en/data/events_special_transports.xml.append:69
 msgid ""
