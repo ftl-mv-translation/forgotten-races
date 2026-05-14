@@ -8,7 +8,7 @@ msgstr ""
 #: src-en/data/events_sector_droppoint.xml.append:5
 msgid ""
 "data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CASUAL\"]/mod-"
-"append:choice/text"
+"append:choice[1]/text"
 msgstr ""
 "(Вэнс Первый) \"Стой, солдат! Повстанческое движение находится под влиянием "
 "чар коварной крысы! Это официальный приказ о вашем расформировании!\""
@@ -16,7 +16,7 @@ msgstr ""
 #: src-en/data/events_sector_droppoint.xml.append:7
 msgid ""
 "data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CASUAL\"]/mod-"
-"append:choice/event[1]/text"
+"append:choice[1]/event[1]/text"
 msgstr ""
 "\"Для меня большая честь познакомиться с вами, сэр! Да, мы выполним ваш "
 "приказ!\""
@@ -24,95 +24,199 @@ msgstr ""
 #: src-en/data/events_sector_droppoint.xml.append:12
 msgid ""
 "data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CASUAL\"]/mod-"
-"append:choice/event[2]/text"
+"append:choice[1]/event[2]/text"
 msgstr "\"Мы знаем, что ты сделал, Первый! Предателям нет пощады!\""
 
 #: src-en/data/events_sector_droppoint.xml.append:14
 msgid ""
 "data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CASUAL\"]/mod-"
-"append:choice/event[2]/choice/text"
+"append:choice[1]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_droppoint.xml.append:23
+#: src-en/data/events_sector_droppoint.xml.append:20
 msgid ""
-"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
-"append:choice/text"
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CASUAL\"]/mod-"
+"append:choice[2]/text"
 msgstr ""
-"(Вэнс Первый) \"Стой, солдат! Повстанческое движение находится под влиянием "
-"чар коварной крысы! Это официальный приказ о вашем расформировании!\""
 
-#: src-en/data/events_sector_droppoint.xml.append:25
+#: src-en/data/events_sector_droppoint.xml.append:22
 msgid ""
-"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
-"append:choice/event[1]/text"
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CASUAL\"]/mod-"
+"append:choice[2]/event[1]/text"
 msgstr ""
 "\"Для меня большая честь познакомиться с вами, сэр! Да, мы выполним ваш "
 "приказ!\""
 
-#: src-en/data/events_sector_droppoint.xml.append:30
+#: src-en/data/events_sector_droppoint.xml.append:27
 msgid ""
-"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
-"append:choice/event[2]/text"
-msgstr "\"Мы знаем, что ты сделал, Первый! Предателям нет пощады!\""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CASUAL\"]/mod-"
+"append:choice[2]/event[2]/text"
+msgstr ""
 
-#: src-en/data/events_sector_droppoint.xml.append:32
+#: src-en/data/events_sector_droppoint.xml.append:29
 msgid ""
-"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
-"append:choice/event[2]/choice/text"
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CASUAL\"]/mod-"
+"append:choice[2]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_droppoint.xml.append:41
+#: src-en/data/events_sector_droppoint.xml.append:38
 msgid ""
-"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
-"append:choice/text"
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
+"append:choice[1]/text"
 msgstr ""
 "(Вэнс Первый) \"Стой, солдат! Повстанческое движение находится под влиянием "
 "чар коварной крысы! Это официальный приказ о вашем расформировании!\""
 
-#: src-en/data/events_sector_droppoint.xml.append:43
+#: src-en/data/events_sector_droppoint.xml.append:40
 msgid ""
-"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
-"append:choice/event[1]/text"
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
+"append:choice[1]/event[1]/text"
 msgstr ""
 "\"Для меня большая честь познакомиться с вами, сэр! Да, мы выполним ваш "
 "приказ!\""
 
-#: src-en/data/events_sector_droppoint.xml.append:48
+#: src-en/data/events_sector_droppoint.xml.append:45
 msgid ""
-"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
-"append:choice/event[2]/text"
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
+"append:choice[1]/event[2]/text"
 msgstr "\"Мы знаем, что ты сделал, Первый! Предателям нет пощады!\""
 
-#: src-en/data/events_sector_droppoint.xml.append:50
+#: src-en/data/events_sector_droppoint.xml.append:47
 msgid ""
-"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
-"append:choice/event[2]/choice/text"
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
+"append:choice[1]/event[2]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_droppoint.xml.append:59
+#: src-en/data/events_sector_droppoint.xml.append:53
 msgid ""
-"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_EXTREME\"]/mod-"
-"append:choice/text"
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
+"append:choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_droppoint.xml.append:55
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
+"append:choice[2]/event[1]/text"
+msgstr ""
+"\"Для меня большая честь познакомиться с вами, сэр! Да, мы выполним ваш "
+"приказ!\""
+
+#: src-en/data/events_sector_droppoint.xml.append:60
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
+"append:choice[2]/event[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_droppoint.xml.append:62
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL\"]/mod-"
+"append:choice[2]/event[2]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_droppoint.xml.append:72
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
+"append:choice[1]/text"
 msgstr ""
 "(Вэнс Первый) \"Стой, солдат! Повстанческое движение находится под влиянием "
 "чар коварной крысы! Это официальный приказ о вашем расформировании!\""
 
-#: src-en/data/events_sector_droppoint.xml.append:61
+#: src-en/data/events_sector_droppoint.xml.append:74
 msgid ""
-"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_EXTREME\"]/mod-"
-"append:choice/event[1]/text"
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
+"append:choice[1]/event[1]/text"
 msgstr ""
 "\"Для меня большая честь познакомиться с вами, сэр! Да, мы выполним ваш "
 "приказ!\""
 
-#: src-en/data/events_sector_droppoint.xml.append:66
+#: src-en/data/events_sector_droppoint.xml.append:79
 msgid ""
-"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_EXTREME\"]/mod-"
-"append:choice/event[2]/text"
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
+"append:choice[1]/event[2]/text"
 msgstr "\"Мы знаем, что ты сделал, Первый! Предателям нет пощады!\""
 
-#: src-en/data/events_sector_droppoint.xml.append:68
+#: src-en/data/events_sector_droppoint.xml.append:81
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
+"append:choice[1]/event[2]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_droppoint.xml.append:87
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
+"append:choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_droppoint.xml.append:89
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
+"append:choice[2]/event[1]/text"
+msgstr ""
+"\"Для меня большая честь познакомиться с вами, сэр! Да, мы выполним ваш "
+"приказ!\""
+
+#: src-en/data/events_sector_droppoint.xml.append:94
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
+"append:choice[2]/event[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_droppoint.xml.append:96
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE\"]/mod-"
+"append:choice[2]/event[2]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_droppoint.xml.append:105
 msgid ""
 "data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_EXTREME\"]/mod-"
-"append:choice/event[2]/choice/text"
+"append:choice[1]/text"
+msgstr ""
+"(Вэнс Первый) \"Стой, солдат! Повстанческое движение находится под влиянием "
+"чар коварной крысы! Это официальный приказ о вашем расформировании!\""
+
+#: src-en/data/events_sector_droppoint.xml.append:107
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_EXTREME\"]/mod-"
+"append:choice[1]/event[1]/text"
+msgstr ""
+"\"Для меня большая честь познакомиться с вами, сэр! Да, мы выполним ваш "
+"приказ!\""
+
+#: src-en/data/events_sector_droppoint.xml.append:112
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_EXTREME\"]/mod-"
+"append:choice[1]/event[2]/text"
+msgstr "\"Мы знаем, что ты сделал, Первый! Предателям нет пощады!\""
+
+#: src-en/data/events_sector_droppoint.xml.append:114
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_EXTREME\"]/mod-"
+"append:choice[1]/event[2]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_droppoint.xml.append:120
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_EXTREME\"]/mod-"
+"append:choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_droppoint.xml.append:122
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_EXTREME\"]/mod-"
+"append:choice[2]/event[1]/text"
+msgstr ""
+"\"Для меня большая честь познакомиться с вами, сэр! Да, мы выполним ваш "
+"приказ!\""
+
+#: src-en/data/events_sector_droppoint.xml.append:127
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_EXTREME\"]/mod-"
+"append:choice[2]/event[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_droppoint.xml.append:129
+msgid ""
+"data/events_sector_droppoint.xml.append$//mod:findName[@name=\"FINISH_BEACON_DROPPOINT_ENCOUNTER_EXTREME\"]/mod-"
+"append:choice[2]/event[2]/choice/text"
 msgstr "Продолжить..."

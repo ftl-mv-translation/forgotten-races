@@ -1,478 +1,406 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-19 22:56+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
-"dataevents_sector_obeliskxmlappend/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.11.4\n"
-
-#: src-en/data/events_sector_obelisk.xml.append:8
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/undiscoveredTooltip"
-msgstr "Кажется, из этого маяка доносится странный сигнал."
 
 #: src-en/data/events_sector_obelisk.xml.append:9
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/unvisitedTooltip"
-msgstr "У этого маяка находится древний беспилотник."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/beaconType/undiscoveredTooltip[1]"
+msgstr "Кажется, из этого маяка доносится странный сигнал."
 
-#: src-en/data/events_sector_obelisk.xml.append:11
+#: src-en/data/events_sector_obelisk.xml.append:10
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/beaconType/undiscoveredTooltip[2]"
 msgstr ""
-"Прибыв к маяку, вы сталкиваетесь лицом к лицу с причудливым "
-"автоматизированным судном дизайна обелиска. На нем красуются цвета и орудия "
-"таких марок и моделей, которых вы не видели раньше даже в этом ужасном "
-"месте, и он пытается выйти на связь."
 
-#: src-en/data/events_sector_obelisk.xml.append:14
+#: src-en/data/events_sector_obelisk.xml.append:12
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/text"
-msgstr "Приблизиться к автоматическому кораблю и попытаться с ним связаться."
-
-#: src-en/data/events_sector_obelisk.xml.append:16
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/text"
 msgstr ""
-"Корабль выдает смесь помех и слов, которые едва ли можно назвать словами, в "
-"цикле, длящемся около 10 секунд. Мало того, что искажение сигнала превращало"
-" сообщение в кошмар для расшифровки, так еще и сама речь оказалась диалектом"
-" речи обелисков, слишком древним, чтобы алгоритм перевода Аэнвитэ мог его "
-"расшифровать. Вы думаете, что если установить более качественный пакет "
-"перевода, то можно будет понять сообщение."
 
-#: src-en/data/events_sector_obelisk.xml.append:18
+#: src-en/data/events_sector_obelisk.xml.append:15
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:17
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:21
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:23
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:26
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_sector_obelisk.xml.append:32
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"0\"]/text"
 msgstr "Установить Рунический переводчик. [Цена: 10~, 1|]"
 
-#: src-en/data/events_sector_obelisk.xml.append:20
+#: src-en/data/events_sector_obelisk.xml.append:34
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"0\"]/event/text"
 msgstr "Вы устанавливаете переводчик и ждете, пока он расшифрует сообщение."
 
-#: src-en/data/events_sector_obelisk.xml.append:28
+#: src-en/data/events_sector_obelisk.xml.append:42
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_obelisk.xml.append:34
+#: src-en/data/events_sector_obelisk.xml.append:48
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"1\"]/text"
-msgstr "У нас уже есть переводчик, расшифровать, что говорит беспилотник!"
+msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:36
+#: src-en/data/events_sector_obelisk.xml.append:50
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
 "Вы включаете свой Рунический переводчик и ждете, пока он расшифрует "
 "сообщение."
 
-#: src-en/data/events_sector_obelisk.xml.append:38
+#: src-en/data/events_sector_obelisk.xml.append:52
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_obelisk.xml.append:44
+#: src-en/data/events_sector_obelisk.xml.append:58
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/text"
-msgstr "Попытаться вручную перевести звуки."
-
-#: src-en/data/events_sector_obelisk.xml.append:46
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_REQUIREMENT_DIRECTOR_DRONES_AND_DRONE_CONTROL\"]/text"
 msgstr ""
-"Вы решаете сделать это сложным путем. Расшифровать послание чрезвычайно "
-"сложно, и вы проводите не менее нескольких дней, находясь перед "
-"автоматическим кораблем и совершенствуя свой переводчик."
 
-#: src-en/data/events_sector_obelisk.xml.append:49
+#: src-en/data/events_sector_obelisk.xml.append:60
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_sector_obelisk.xml.append:55
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/text"
-msgstr "Попросить вашего Руководителя перевести вам текст."
-
-#: src-en/data/events_sector_obelisk.xml.append:57
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_REQUIREMENT_DIRECTOR_DRONES_AND_DRONE_CONTROL\"]/event/text"
 msgstr ""
 "Вы передаете данные своему Руководителю и ждете, пока он расшифровует текст."
 
-#: src-en/data/events_sector_obelisk.xml.append:59
+#: src-en/data/events_sector_obelisk.xml.append:62
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_REQUIREMENT_DIRECTOR_DRONES_AND_DRONE_CONTROL\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_obelisk.xml.append:65
+#: src-en/data/events_sector_obelisk.xml.append:68
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COMMONWEALTH_OBELISK\"]/text"
 msgstr ""
-"Попросить одного из ваших обелисков, не относящихся к Содружеству, перевести"
-" этот странный язык."
 
-#: src-en/data/events_sector_obelisk.xml.append:67
+#: src-en/data/events_sector_obelisk.xml.append:70
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/text"
-msgstr ""
-"Обелиск замирает, услышав сообщение беспилотника. Проходит несколько минут, "
-"но он все же соглашается перевести сообщение для вас."
-
-#: src-en/data/events_sector_obelisk.xml.append:69
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_sector_obelisk.xml.append:75
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/text"
-msgstr ""
-"Попросить одного из обелисков Содружества перевести этот странный язык."
-
-#: src-en/data/events_sector_obelisk.xml.append:77
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COMMONWEALTH_OBELISK\"]/event/text"
 msgstr ""
 "Обелиск Содружества быстро составляет полный перевод сообщения, чтобы вы и "
 "ваша команда могли его прочитать."
 
-#: src-en/data/events_sector_obelisk.xml.append:79
+#: src-en/data/events_sector_obelisk.xml.append:72
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COMMONWEALTH_OBELISK\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_obelisk.xml.append:85
+#: src-en/data/events_sector_obelisk.xml.append:78
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/text"
 msgstr ""
-"Попросить кого-нибудь из наших неметаллических когнитивов перевести этот "
-"странный язык."
 
-#: src-en/data/events_sector_obelisk.xml.append:87
+#: src-en/data/events_sector_obelisk.xml.append:82
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:84
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/text"
 msgstr ""
 "Когнитив немедленно приступает к работе по расшифровке послания, не "
 "испытывая никаких трудностей."
 
-#: src-en/data/events_sector_obelisk.xml.append:89
+#: src-en/data/events_sector_obelisk.xml.append:86
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_obelisk.xml.append:95
+#: src-en/data/events_sector_obelisk.xml.append:92
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[8]/text"
 msgstr "Боже правый, отключите систему связи и взорвите его!"
 
-#: src-en/data/events_sector_obelisk.xml.append:97
+#: src-en/data/events_sector_obelisk.xml.append:94
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[8]/event/text"
 msgstr ""
 "Вы заряжаете свои орудия, и беспилотник делает то же самое. Даже в "
 "поврежденном состоянии он, вероятно, сможет оказать достойное сопротивление."
 
-#: src-en/data/events_sector_obelisk.xml.append:100
+#: src-en/data/events_sector_obelisk.xml.append:97
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[8]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_obelisk.xml.append:106
+#: src-en/data/events_sector_obelisk.xml.append:103
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/text"
-msgstr "Выключите систему связи и убирайтесь оттуда!"
-
-#: src-en/data/events_sector_obelisk.xml.append:108
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[9]/text"
 msgstr ""
-"Вы решаете, что расшифровка сообщения не стоит вашего времени, и готовитесь "
-"к прыжку."
 
-#: src-en/data/events_sector_obelisk.xml.append:110
+#: src-en/data/events_sector_obelisk.xml.append:105
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/choice[1]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[9]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:107
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[9]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_obelisk.xml.append:114
+#: src-en/data/events_sector_obelisk.xml.append:111
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/choice[2]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[9]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_obelisk.xml.append:122
+#: src-en/data/events_sector_obelisk.xml.append:119
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[2]/text"
 msgstr ""
 "Атакуем корабль, что бы это ни было, внутри него должно быть что-то "
 "полезное."
 
-#: src-en/data/events_sector_obelisk.xml.append:124
+#: src-en/data/events_sector_obelisk.xml.append:121
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[2]/event/text"
 msgstr ""
 "Вы заряжаете свои орудия, и беспилотник делает то же самое. Даже в "
 "поврежденном состоянии он, вероятно, сможет оказать достойное сопротивление."
 
-#: src-en/data/events_sector_obelisk.xml.append:127
+#: src-en/data/events_sector_obelisk.xml.append:124
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_obelisk.xml.append:133
+#: src-en/data/events_sector_obelisk.xml.append:130
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/text"
-msgstr "Оставить в покое автомобильный корабль."
-
-#: src-en/data/events_sector_obelisk.xml.append:135
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[3]/text"
 msgstr ""
-"У вас есть куда более важные проблемы, чем разбираться с поврежденным "
-"автоматический кораблем."
 
-#: src-en/data/events_sector_obelisk.xml.append:137
+#: src-en/data/events_sector_obelisk.xml.append:132
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/choice[1]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:134
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[3]/event/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_obelisk.xml.append:141
+#: src-en/data/events_sector_obelisk.xml.append:138
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/choice[2]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[3]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_obelisk.xml.append:149
+#: src-en/data/events_sector_obelisk.xml.append:146
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/text"
 msgstr ""
-"Когда какофония кораблей окончательно переведена, вы узнаете, что они, "
-"скорее всего, использовались в качестве передвижной оружейной фабрики во "
-"время гражданских войн в обелисков давным-давно. Даже в поврежденном "
-"состоянии способность автоматического корабля синтезировать новое "
-"оборудование может оказаться полезной. Однако получить доступ к кузнице "
-"может оказаться непросто, если не выключить автоматический корабль."
 
-#: src-en/data/events_sector_obelisk.xml.append:151
+#: src-en/data/events_sector_obelisk.xml.append:148
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/text"
 msgstr "Попытаться взломать корабль."
 
-#: src-en/data/events_sector_obelisk.xml.append:153
+#: src-en/data/events_sector_obelisk.xml.append:150
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/event/text"
 msgstr ""
 "Вы создаете программу для атаки на модуль искусственного интеллекта "
 "автоматического корабля. Если вы хотите, чтобы план сработал, вам придется "
 "продержаться достаточное количество времени, не уничтожив корабль!"
 
-#: src-en/data/events_sector_obelisk.xml.append:156
+#: src-en/data/events_sector_obelisk.xml.append:154
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/event/triggeredEvent/triggeredEventBox/tooltip"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:160
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_obelisk.xml.append:162
+#: src-en/data/events_sector_obelisk.xml.append:166
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/text"
 msgstr ""
 "Узнать, может ли кто-нибудь из ваших членов экипажа Содружества ускорить "
 "процесс взлома."
 
-#: src-en/data/events_sector_obelisk.xml.append:164
+#: src-en/data/events_sector_obelisk.xml.append:168
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/text"
 msgstr ""
-"Экипаж Содружества, который работал в самом разгаре использования этих "
-"беспилотников, сумел без особых проблем отключить брандмауэры "
-"автоматического корабля."
 
-#: src-en/data/events_sector_obelisk.xml.append:166
+#: src-en/data/events_sector_obelisk.xml.append:170
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_obelisk.xml.append:172
+#: src-en/data/events_sector_obelisk.xml.append:176
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"hacking\"]/text"
 msgstr ""
 "(Продвинутый Взломщик) Использовать свой Взломщик, чтобы ускорить процесс "
 "взлома."
 
-#: src-en/data/events_sector_obelisk.xml.append:174
+#: src-en/data/events_sector_obelisk.xml.append:178
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"hacking\"]/event/text"
 msgstr ""
 "Ваш высокотехнологичный Взломщик отлично справляется с задачей, и "
 "беспилотник покоряется без особого сопротивления."
 
-#: src-en/data/events_sector_obelisk.xml.append:176
+#: src-en/data/events_sector_obelisk.xml.append:180
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"hacking\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_sector_obelisk.xml.append:182
+#: src-en/data/events_sector_obelisk.xml.append:186
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/text"
-msgstr "Это слишком рискованно, оставить автоматический корабль в покое."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[4]/text"
+msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:184
+#: src-en/data/events_sector_obelisk.xml.append:188
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[4]/event/text"
 msgstr ""
 "Какие бы секреты ни хранил этот корабль, они не имеют отношения к вашей "
 "миссии. Вы отлетаете от него, готовясь к прыжку."
 
-#: src-en/data/events_sector_obelisk.xml.append:186
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
-
 #: src-en/data/events_sector_obelisk.xml.append:190
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/event/choice[2]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[4]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_sector_obelisk.xml.append:194
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[4]/event/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_sector_obelisk.xml.append:198
+#: src-en/data/events_sector_obelisk.xml.append:202
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/text"
 msgstr ""
-"Как только брандмауэр корабля будет взломан, вы сможете взять под свой контроль все судно. Удивительная кузница внутри все еще цела, но поврежденное состояние корабля означает, что вы, скорее всего, получите только одну единицу оборудования, прежде чем судно развалится от нагрузки.\n"
-"\t\n"
-"\tВо время исследования фабрики вы также находите какое-то странное кубическое устройство. Если оно сломано, вы сможете починить его с помощью мощного ремонтного дрона."
 
-#: src-en/data/events_sector_obelisk.xml.append:203
+#: src-en/data/events_sector_obelisk.xml.append:208
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[1]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[1]/text"
 msgstr "Создать орудие или дрон Содружества."
 
-#: src-en/data/events_sector_obelisk.xml.append:209
+#: src-en/data/events_sector_obelisk.xml.append:214
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[2]/text"
 msgstr "Разобрать корабль на лом."
 
-#: src-en/data/events_sector_obelisk.xml.append:211
+#: src-en/data/events_sector_obelisk.xml.append:216
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[2]/event/text"
 msgstr ""
 "Вы решаете разобрать старый автоматический корабль, довольствуясь тем ломом,"
 " который сможете собрать."
 
-#: src-en/data/events_sector_obelisk.xml.append:214
+#: src-en/data/events_sector_obelisk.xml.append:219
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[2]/event/choice/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_obelisk.xml.append:220
+#: src-en/data/events_sector_obelisk.xml.append:225
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
 msgstr "(Тело Содружества) Попытаться починить труп."
 
-#: src-en/data/events_sector_obelisk.xml.append:222
+#: src-en/data/events_sector_obelisk.xml.append:227
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
-"Фабрика с трудом сканирует экипаж, вероятно, потому, что она была очень сильно повреждена, но в конце концов ей удается вернуть его к жизни... но лишь на мгновение, прежде чем ее внутреннее программное обеспечение дает сбой. Что бы ни потребовалось для восстановления трупа, это оказалось за пределами возможностей фабрики.\n"
-"\t\n"
-"\t\t\t\tСтранно, но вскоре после того, как один из Содружества на мгновение вернулся к жизни, на ваших сенсорах появилась странная аномалия, которая, похоже, совпадает с энергетическими сигналами, испускаемыми телом перед отключением. Может быть, тот, кто излучает эти сигнатуры, может вернуть тело к жизни навсегда?"
 
-#: src-en/data/events_sector_obelisk.xml.append:231
+#: src-en/data/events_sector_obelisk.xml.append:236
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
 msgstr ""
 "(Дрон-наладчик) Устройство, похоже, сломалось, но наш Дрон-наладчик сможет "
 "починить его."
 
-#: src-en/data/events_sector_obelisk.xml.append:233
+#: src-en/data/events_sector_obelisk.xml.append:238
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
-"Ремонт занимает много времени, поскольку устройство сильно повреждено. В "
-"конце концов, благодаря мастерству, вашему Дрону-наладчику удается полностью"
-" восстановить сломанное устройство. Когда оно активируется, вы получаете "
-"странный сигнал из того места в секторе, где ваши сенсоры только что "
-"зафиксировали мощный всплеск энергии. Что бы там ни было, это должно быть "
-"важно."
 
-#: src-en/data/events_sector_obelisk.xml.append:242
+#: src-en/data/events_sector_obelisk.xml.append:247
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"prof_went_commonwealth_rift\"]/text"
-msgstr "Устройство не кажется сломанным, активируйте его."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY\"]/text"
+msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:244
+#: src-en/data/events_sector_obelisk.xml.append:249
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY\"]/event/text"
 msgstr ""
 "Вы прикасаетесь к устройству, и оно внезапно оживает. Когда оно "
 "активируется, вы получаете странный сигнал из той части сектора, где ваши "
 "сенсоры только что зафиксировали мощный всплеск энергии. Что бы там ни было,"
 " это должно быть важно."
 
-#: src-en/data/events_sector_obelisk.xml.append:254
+#: src-en/data/events_sector_obelisk.xml.append:257
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/text"
-msgstr "Вы взламываете брандмауэры кузницы, выясняя, что можно создать."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/text"
+msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:256
+#: src-en/data/events_sector_obelisk.xml.append:259
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:268
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/event/crewMember"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:276
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:278
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[1]/text"
 msgstr "Создать Протокогнитива."
-
-#: src-en/data/events_sector_obelisk.xml.append:262
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/event/text"
-msgstr ""
-"Пока ваш новый союзник выходит из кузницы в легком замешательстве, старый "
-"автоматический корабль начинает разрушаться, превращаясь в бесполезную "
-"развалину. Когнитив поднимается на борт и присоединяется к вашему экипажу!"
-
-#: src-en/data/events_sector_obelisk.xml.append:266
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/text"
-msgstr "Выковать Предвестник Содружества."
-
-#: src-en/data/events_sector_obelisk.xml.append:273
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/event/text"
-msgstr ""
-"Когда новое орудие появляется из кузницы, старый автоматический корабль "
-"начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
-"орудие на борт."
-
-#: src-en/data/events_sector_obelisk.xml.append:277
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[3]/text"
-msgstr "Выковать Плазменную пушку Содружества."
 
 #: src-en/data/events_sector_obelisk.xml.append:284
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[3]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[1]/event/text"
 msgstr ""
-"Когда новое орудие появляется из кузницы, старый автоматический корабль "
-"начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
-"орудие на борт."
 
 #: src-en/data/events_sector_obelisk.xml.append:288
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[4]/text"
-msgstr "Выковать \"Боезаряд\" Содружества."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[2]/text"
+msgstr "Выковать Предвестник Содружества."
 
 #: src-en/data/events_sector_obelisk.xml.append:295
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[4]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[2]/event/text"
 msgstr ""
 "Когда новое орудие появляется из кузницы, старый автоматический корабль "
 "начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
@@ -480,12 +408,12 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:299
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[5]/text"
-msgstr "Выковать тяжелый \"Предвестник\" Содружества."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[3]/text"
+msgstr "Выковать Плазменную пушку Содружества."
 
 #: src-en/data/events_sector_obelisk.xml.append:306
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[5]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[3]/event/text"
 msgstr ""
 "Когда новое орудие появляется из кузницы, старый автоматический корабль "
 "начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
@@ -493,38 +421,38 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:310
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[4]/text"
+msgstr "Выковать \"Боезаряд\" Содружества."
+
+#: src-en/data/events_sector_obelisk.xml.append:317
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[4]/event/text"
+msgstr ""
+"Когда новое орудие появляется из кузницы, старый автоматический корабль "
+"начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
+"орудие на борт."
+
+#: src-en/data/events_sector_obelisk.xml.append:321
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[5]/text"
+msgstr "Выковать тяжелый \"Предвестник\" Содружества."
+
+#: src-en/data/events_sector_obelisk.xml.append:328
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[5]/event/text"
+msgstr ""
+"Когда новое орудие появляется из кузницы, старый автоматический корабль "
+"начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
+"орудие на борт."
+
+#: src-en/data/events_sector_obelisk.xml.append:332
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[6]/text"
 msgstr "Выковать Ликвидатор Содружества."
-
-#: src-en/data/events_sector_obelisk.xml.append:316
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/event/text"
-msgstr ""
-"Когда новое орудие появляется из кузницы, старый автоматический корабль "
-"начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
-"орудие на борт."
-
-#: src-en/data/events_sector_obelisk.xml.append:320
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/text"
-msgstr "Выковать Чистильщика Содружества."
-
-#: src-en/data/events_sector_obelisk.xml.append:327
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/event/text"
-msgstr ""
-"Когда новое орудие появляется из кузницы, старый автоматический корабль "
-"начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
-"орудие на борт."
-
-#: src-en/data/events_sector_obelisk.xml.append:331
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[8]/text"
-msgstr "Выковать \"Бойню\" Содружества."
 
 #: src-en/data/events_sector_obelisk.xml.append:338
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[8]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[6]/event/text"
 msgstr ""
 "Когда новое орудие появляется из кузницы, старый автоматический корабль "
 "начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
@@ -532,12 +460,12 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:342
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[9]/text"
-msgstr "Выковать миномет \"Натиск\" Содружества."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[7]/text"
+msgstr "Выковать Чистильщика Содружества."
 
 #: src-en/data/events_sector_obelisk.xml.append:349
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[9]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[7]/event/text"
 msgstr ""
 "Когда новое орудие появляется из кузницы, старый автоматический корабль "
 "начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
@@ -545,38 +473,38 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:353
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[8]/text"
+msgstr "Выковать \"Бойню\" Содружества."
+
+#: src-en/data/events_sector_obelisk.xml.append:360
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[8]/event/text"
+msgstr ""
+"Когда новое орудие появляется из кузницы, старый автоматический корабль "
+"начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
+"орудие на борт."
+
+#: src-en/data/events_sector_obelisk.xml.append:364
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[9]/text"
+msgstr "Выковать миномет \"Натиск\" Содружества."
+
+#: src-en/data/events_sector_obelisk.xml.append:371
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[9]/event/text"
+msgstr ""
+"Когда новое орудие появляется из кузницы, старый автоматический корабль "
+"начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
+"орудие на борт."
+
+#: src-en/data/events_sector_obelisk.xml.append:375
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[10]/text"
 msgstr "Выковать дрон \"Бойня\" Содружества."
-
-#: src-en/data/events_sector_obelisk.xml.append:361
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/event/text"
-msgstr ""
-"Когда из кузницы появляется новая схема дрона, старый автоматический корабль"
-" начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
-"дрона на борт."
-
-#: src-en/data/events_sector_obelisk.xml.append:365
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/text"
-msgstr "Выковать Фазерный дрон Содружества."
-
-#: src-en/data/events_sector_obelisk.xml.append:372
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/event/text"
-msgstr ""
-"Когда из кузницы появляется новая схема дрона, старый автоматический корабль"
-" начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
-"дрона на борт."
-
-#: src-en/data/events_sector_obelisk.xml.append:376
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[12]/text"
-msgstr "Выковать дрона Чистильщика Содружества."
 
 #: src-en/data/events_sector_obelisk.xml.append:383
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[12]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[10]/event/text"
 msgstr ""
 "Когда из кузницы появляется новая схема дрона, старый автоматический корабль"
 " начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
@@ -584,12 +512,12 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:387
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[13]/text"
-msgstr "Выковать Наблюдатель Содружества."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[11]/text"
+msgstr "Выковать Фазерный дрон Содружества."
 
 #: src-en/data/events_sector_obelisk.xml.append:394
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[13]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[11]/event/text"
 msgstr ""
 "Когда из кузницы появляется новая схема дрона, старый автоматический корабль"
 " начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
@@ -597,12 +525,12 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:398
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[14]/text"
-msgstr "Выковать дрон Содружества \"Предвестник\"."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[12]/text"
+msgstr "Выковать дрона Чистильщика Содружества."
 
 #: src-en/data/events_sector_obelisk.xml.append:405
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[14]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[12]/event/text"
 msgstr ""
 "Когда из кузницы появляется новая схема дрона, старый автоматический корабль"
 " начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
@@ -610,12 +538,12 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:409
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[15]/text"
-msgstr "Выковать Прото-Руководитель."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[13]/text"
+msgstr "Выковать Наблюдатель Содружества."
 
 #: src-en/data/events_sector_obelisk.xml.append:416
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[15]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[13]/event/text"
 msgstr ""
 "Когда из кузницы появляется новая схема дрона, старый автоматический корабль"
 " начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
@@ -623,12 +551,12 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:420
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[16]/text"
-msgstr "Выковать Прото-Атомизатор."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[14]/text"
+msgstr "Выковать дрон Содружества \"Предвестник\"."
 
 #: src-en/data/events_sector_obelisk.xml.append:427
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[16]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[14]/event/text"
 msgstr ""
 "Когда из кузницы появляется новая схема дрона, старый автоматический корабль"
 " начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
@@ -636,12 +564,12 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:431
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[17]/text"
-msgstr "Выковать Прото-Наладчика."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[15]/text"
+msgstr "Выковать Прото-Руководитель."
 
 #: src-en/data/events_sector_obelisk.xml.append:438
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[17]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[15]/event/text"
 msgstr ""
 "Когда из кузницы появляется новая схема дрона, старый автоматический корабль"
 " начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
@@ -649,62 +577,94 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:442
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[16]/text"
+msgstr "Выковать Прото-Атомизатор."
+
+#: src-en/data/events_sector_obelisk.xml.append:449
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[16]/event/text"
+msgstr ""
+"Когда из кузницы появляется новая схема дрона, старый автоматический корабль"
+" начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
+"дрона на борт."
+
+#: src-en/data/events_sector_obelisk.xml.append:453
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[17]/text"
+msgstr "Выковать Прото-Наладчика."
+
+#: src-en/data/events_sector_obelisk.xml.append:460
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[17]/event/text"
+msgstr ""
+"Когда из кузницы появляется новая схема дрона, старый автоматический корабль"
+" начинает разрушаться, превращаясь в бесполезную развалину. Вы поднимаете "
+"дрона на борт."
+
+#: src-en/data/events_sector_obelisk.xml.append:464
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[18]/text"
 msgstr "Ничего из этого не пригодится. Разобрать корабль на металлолом."
 
-#: src-en/data/events_sector_obelisk.xml.append:444
+#: src-en/data/events_sector_obelisk.xml.append:466
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[18]/event/text"
 msgstr ""
 "Вы решаете разобрать старый автоматический корабль, довольствуясь тем ломом,"
 " который сможете собрать."
 
-#: src-en/data/events_sector_obelisk.xml.append:447
+#: src-en/data/events_sector_obelisk.xml.append:469
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[18]/event/choice/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_sector_obelisk.xml.append:453
+#: src-en/data/events_sector_obelisk.xml.append:475
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
 msgstr "(Тело Содружества) Попытаться починить труп."
 
-#: src-en/data/events_sector_obelisk.xml.append:455
+#: src-en/data/events_sector_obelisk.xml.append:477
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
-"Фабрика с трудом сканирует экипаж, вероятно, потому, что она была очень сильно повреждена, но в конце концов ей удается вернуть его к жизни... но лишь на мгновение, прежде чем ее внутреннее программное обеспечение дает сбой. Что бы ни потребовалось для восстановления трупа, это оказалось за пределами возможностей фабрики.\n"
-"\t\n"
-"\t\t\tСтранно, но вскоре после того, как один из Содружество на мгновение вернулся к жизни, на ваших сенсорах появилась странная аномалия, которая, похоже, совпадает с энергетическими сигналами, испускаемыми телом перед отключением. Может быть, тот, кто излучает эти сигнатуры, может вернуть тело к жизни навсегда?"
 
-#: src-en/data/events_sector_obelisk.xml.append:465
+#: src-en/data/events_sector_obelisk.xml.append:486
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
 msgstr ""
-"(Дрон-наладчик) Устройство кажется сломанным, наш Дрон-наладчик сможет "
+"(Дрон-наладчик) Устройство, похоже, сломалось, но наш Дрон-наладчик сможет "
 "починить его."
 
-#: src-en/data/events_sector_obelisk.xml.append:467
+#: src-en/data/events_sector_obelisk.xml.append:488
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
-"Ремонт занимает много времени, поскольку устройство сильно повреждено. В "
-"конце концов, благодаря мастерству, вашему Дрону-наладчику удается полностью"
-" восстановить сломанное устройство. Когда оно активируется, вы получаете "
-"странный сигнал из того места в секторе, где ваши сенсоры только что "
-"зафиксировали мощный всплеск энергии. Что бы там ни было, это должно быть "
-"важно."
 
-#: src-en/data/events_sector_obelisk.xml.append:476
+#: src-en/data/events_sector_obelisk.xml.append:497
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"prof_went_commonwealth_rift\"]/text"
-msgstr "Устройство не кажется сломанным, активируйте его."
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY\"]/text"
+msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:478
+#: src-en/data/events_sector_obelisk.xml.append:499
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY\"]/event/text"
 msgstr ""
 "Вы прикасаетесь к устройству, и оно внезапно оживает. Когда оно "
 "активируется, вы получаете странный сигнал из той части сектора, где ваши "
 "сенсоры только что зафиксировали мощный всплеск энергии. Что бы там ни было,"
 " это должно быть важно."
+
+#: src-en/data/events_sector_obelisk.xml.append:507
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:509
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:518
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/event/crewMember"
+msgstr ""

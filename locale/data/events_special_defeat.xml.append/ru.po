@@ -8,10 +8,16 @@ msgstr ""
 #: src-en/data/events_special_defeat.xml.append:5
 msgid ""
 "data/events_special_defeat.xml.append$//mod:findName[@name=\"DESTROYED_REBEL_POD\"]/mod-"
-"append:choice/text"
+"append:choice[1]/text"
 msgstr "(Вэнс Первый) Добро пожаловать на борт."
 
-#: src-en/data/events_special_defeat.xml.append:11
+#: src-en/data/events_special_defeat.xml.append:9
+msgid ""
+"data/events_special_defeat.xml.append$//mod:findName[@name=\"DESTROYED_REBEL_POD\"]/mod-"
+"append:choice[2]/text"
+msgstr "(Вэнс Первый) Добро пожаловать на борт."
+
+#: src-en/data/events_special_defeat.xml.append:15
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_DESTROYED_REBEL_POD_VANCE\"]/text"
 msgstr ""
@@ -19,13 +25,13 @@ msgstr ""
 "корабле с вами, сэр. Если вы планируете помочь Федерации, я с удовольствием "
 "присоединюсь к вам... и неважно, что это означает уход от повстанцев\"."
 
-#: src-en/data/events_special_defeat.xml.append:21
+#: src-en/data/events_special_defeat.xml.append:25
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[1]"
 msgstr ""
 "Синие огни корабля гаснут, и на этот раз они уже никогда не загорятся..."
 
-#: src-en/data/events_special_defeat.xml.append:22
+#: src-en/data/events_special_defeat.xml.append:26
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[2]"
 msgstr ""
@@ -33,21 +39,21 @@ msgstr ""
 "что они вас боятся. В конце концов, им уже приходилось иметь дело с такими, "
 "как вы."
 
-#: src-en/data/events_special_defeat.xml.append:23
+#: src-en/data/events_special_defeat.xml.append:27
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[3]"
 msgstr ""
 "Корабль разваливается под собственным весом после того, как его несущие "
 "конструкции были разрушены. По крайней мере, они не страдали..."
 
-#: src-en/data/events_special_defeat.xml.append:24
+#: src-en/data/events_special_defeat.xml.append:28
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[4]"
 msgstr ""
 "Похоже, их напичканное ионами снаряжение не сравнится с вашей мощью и боевым"
 " опытом."
 
-#: src-en/data/events_special_defeat.xml.append:33
+#: src-en/data/events_special_defeat.xml.append:37
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[1]"
 msgstr ""
@@ -55,14 +61,14 @@ msgstr ""
 "жидкостью, которая, как вы предполагаете, служит топливом для Содружества. "
 "Мрачное зрелище."
 
-#: src-en/data/events_special_defeat.xml.append:34
+#: src-en/data/events_special_defeat.xml.append:38
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[2]"
 msgstr ""
 "Чем больше таких, как они, вы убиваете, тем больше вы чувствуете, что "
 "становитесь похожими на Уничтожителей. Эта мысль приводит вас в ужас."
 
-#: src-en/data/events_special_defeat.xml.append:35
+#: src-en/data/events_special_defeat.xml.append:39
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[3]"
 msgstr ""
@@ -70,7 +76,7 @@ msgstr ""
 "тем, как вы убиваете капитана. Вы подумываете о том, чтобы погнаться за "
 "ними, но лучше оставить кого-то из них в живых."
 
-#: src-en/data/events_special_defeat.xml.append:36
+#: src-en/data/events_special_defeat.xml.append:40
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[4]"
 msgstr ""
@@ -78,31 +84,31 @@ msgstr ""
 " и хлюпкие, состоят из более хрупких наномашин, которые не могут нанести "
 "реальный урон в бою. Ваша бесчестность не останется незамеченной."
 
-#: src-en/data/events_special_defeat.xml.append:42
+#: src-en/data/events_special_defeat.xml.append:46
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_COMMONWEALTH_SURRENDER\"]/choice[1]/text"
 msgstr "Отпустить их."
 
-#: src-en/data/events_special_defeat.xml.append:44
+#: src-en/data/events_special_defeat.xml.append:48
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_COMMONWEALTH_SURRENDER\"]/choice[1]/event/text"
 msgstr ""
 "Капитан экипажа Содружества облегченно вздохнул, быстро передав вам все, что"
 " можно, и поспешил увести корабль в прыжок."
 
-#: src-en/data/events_special_defeat.xml.append:52
+#: src-en/data/events_special_defeat.xml.append:56
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_COMMONWEALTH_SURRENDER\"]/choice[2]/text"
 msgstr "Нет."
 
-#: src-en/data/events_special_defeat.xml.append:57
+#: src-en/data/events_special_defeat.xml.append:61
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_SURRENDER_COMMONWEALTH\"]/text[1]"
 msgstr ""
 "\"Чужак! Пожалуйста, остановите свое нападение, если вам нужен лом, мы "
 "готовы дать вам многое, только, пожалуйста, оставьте нас в живых!\""
 
-#: src-en/data/events_special_defeat.xml.append:58
+#: src-en/data/events_special_defeat.xml.append:62
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_SURRENDER_COMMONWEALTH\"]/text[2]"
 msgstr ""

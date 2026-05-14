@@ -1,97 +1,89 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-02 05:20+0000\n"
-"Last-Translator: circle217 <3545024352@qq.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
-"projects/forgotten-races/dataevents_special_defeatxmlappend/zh_Hans/>\n"
-"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13.3\n"
 
 #: src-en/data/events_special_defeat.xml.append:5
 msgid ""
 "data/events_special_defeat.xml.append$//mod:findName[@name=\"DESTROYED_REBEL_POD\"]/mod-"
-"append:choice/text"
+"append:choice[1]/text"
 msgstr "（万斯本尊）欢迎他们上船。"
 
-#: src-en/data/events_special_defeat.xml.append:11
+#: src-en/data/events_special_defeat.xml.append:9
+msgid ""
+"data/events_special_defeat.xml.append$//mod:findName[@name=\"DESTROYED_REBEL_POD\"]/mod-"
+"append:choice[2]/text"
+msgstr "（万斯本尊）欢迎他们上船。"
+
+#: src-en/data/events_special_defeat.xml.append:15
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_DESTROYED_REBEL_POD_VANCE\"]/text"
-msgstr "“我嘞个豆！是-是万斯！和您在同一艘船上共事是我的荣幸，长官。如果您打算协助联"
-"邦，那我也乐意效劳...不管算不算抛弃了叛军。”"
+msgstr "“我嘞个豆！是-是万斯！和您在同一艘船上共事是我的荣幸，长官。如果您打算协助联邦，那我也乐意效劳...不管算不算抛弃了叛军。”"
 
-#: src-en/data/events_special_defeat.xml.append:21
+#: src-en/data/events_special_defeat.xml.append:25
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[1]"
 msgstr "舰船的蓝色灯光熄灭了，这一次，它们再也不会亮起……"
 
-#: src-en/data/events_special_defeat.xml.append:22
+#: src-en/data/events_special_defeat.xml.append:26
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[2]"
-msgstr "既然你能如此轻易地解决掉联合方碑的舰船，也难怪他们会对你心生畏惧。毕竟，他们"
-"之前就曾领教过像你这样的人的手段。"
+msgstr "既然你能如此轻易地解决掉联合方碑的舰船，也难怪他们会对你心生畏惧。毕竟，他们之前就曾领教过像你这样的人的手段。"
 
-#: src-en/data/events_special_defeat.xml.append:23
+#: src-en/data/events_special_defeat.xml.append:27
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[3]"
 msgstr "船体在支撑结构被毁后因自身重量而坍塌。至少他们没有承受太多痛苦……"
 
-#: src-en/data/events_special_defeat.xml.append:24
+#: src-en/data/events_special_defeat.xml.append:28
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[4]"
 msgstr "看来他们那些离子灌注的装备，在你纯粹的力量与战斗经验面前根本不值一提。"
 
-#: src-en/data/events_special_defeat.xml.append:33
+#: src-en/data/events_special_defeat.xml.append:37
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[1]"
-msgstr "飞船内部布满破损的部件和一种发光的诡异液体，你推测这大概是联合方碑的机械润滑"
-"剂。眼前景象令人不寒而栗。"
+msgstr "飞船内部布满破损的部件和一种发光的诡异液体，你推测这大概是联合方碑的机械润滑剂。眼前景象令人不寒而栗。"
 
-#: src-en/data/events_special_defeat.xml.append:34
+#: src-en/data/events_special_defeat.xml.append:38
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[2]"
-msgstr "你杀戮的联合方碑族越多，就越能感到自己正在变得像灭绝者一样。这个念头让你不寒"
-"而栗。"
+msgstr "你杀戮的联合方碑族越多，就越能感到自己正在变得像灭绝者一样。这个念头让你不寒而栗。"
 
-#: src-en/data/events_special_defeat.xml.append:35
+#: src-en/data/events_special_defeat.xml.append:39
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[3]"
-msgstr "你看到几艘逃生舱在船长毙命前弹射而出。虽然可以考虑追击，但你最终还是决定放他"
-"们一条生路。"
+msgstr "你看到几艘逃生舱在船长毙命前弹射而出。虽然可以考虑追击，但你最终还是决定放他们一条生路。"
 
-#: src-en/data/events_special_defeat.xml.append:36
+#: src-en/data/events_special_defeat.xml.append:40
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[4]"
 msgstr ""
-"击杀联合方碑族的感觉与其他方碑族截然不同——他们的躯体柔软脆弱，由更精密的纳米"
-"机械构成，根本无法在战斗中造成实质性伤害。这场不对等的厮杀让你清晰地意识到其"
-"中的不公。"
+"击杀联合方碑族的感觉与其他方碑族截然不同——他们的躯体柔软脆弱，由更精密的纳米机械构成，根本无法在战斗中造成实质性伤害。这场不对等的厮杀让你清晰地意识到其中的不公。"
 
-#: src-en/data/events_special_defeat.xml.append:42
+#: src-en/data/events_special_defeat.xml.append:46
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_COMMONWEALTH_SURRENDER\"]/choice[1]/text"
 msgstr "放他们走。"
 
-#: src-en/data/events_special_defeat.xml.append:44
+#: src-en/data/events_special_defeat.xml.append:48
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_COMMONWEALTH_SURRENDER\"]/choice[1]/event/text"
 msgstr "联合方碑松了口气，匆忙转移了所能交付的物资后，便急匆匆地跃迁逃离了。"
 
-#: src-en/data/events_special_defeat.xml.append:52
+#: src-en/data/events_special_defeat.xml.append:56
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_COMMONWEALTH_SURRENDER\"]/choice[2]/text"
 msgstr "不。"
 
-#: src-en/data/events_special_defeat.xml.append:57
+#: src-en/data/events_special_defeat.xml.append:61
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_SURRENDER_COMMONWEALTH\"]/text[1]"
 msgstr "“外来者！请停止前进，如果你想要废料，我们愿意悉数奉上，只求你饶我们一命！”"
 
-#: src-en/data/events_special_defeat.xml.append:58
+#: src-en/data/events_special_defeat.xml.append:62
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_SURRENDER_COMMONWEALTH\"]/text[2]"
 msgstr "联合方碑绝望地向你发出通讯——他们愿意献出所有贵重物资，只求你饶过他们的性命。"

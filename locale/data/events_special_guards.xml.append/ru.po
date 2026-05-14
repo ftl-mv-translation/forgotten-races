@@ -40,39 +40,70 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
+msgstr "(Вэнс Первый) \"Стой, солдат! Отступи и дай нам пройти!\""
 
 #: src-en/data/events_special_guards.xml.append:26
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[2]/event[1]/text"
 msgstr ""
-"\"Черта с два! Это хорошая шутка, мы перестали использовать документы с "
-"фотографиями много лет назад!\" Корабль повстанцев подает сигнал бедствия, "
-"вызывая подкрепление!"
+"\"О-ох, черт! Конечно, сэр!\" Сторожевой корабль отступает и пропускает ваш "
+"корабль. Один из членов его экипажа команды хочет перейти на ваш корабль, "
+"после чего Вэнс приказывает сторожевому кораблю отправить припасы, а также "
+"передать ложные данные флоту."
 
-#: src-en/data/events_special_guards.xml.append:30
-msgid ""
-"data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
-"append:choice[2]/event[1]/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_special_guards.xml.append:35
+#: src-en/data/events_special_guards.xml.append:33
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
 "append:choice[2]/event[2]/text"
 msgstr ""
+"\"Черта с два! Ты не заслуживаешь больше называться Вэнсом, предатель!\" "
+"Капитан мятежников кричит и вызывает подкрепление, а также сообщает флоту о "
+"вашем визите."
+
+#: src-en/data/events_special_guards.xml.append:37
+msgid ""
+"data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
+"append:choice[2]/event[2]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:43
+msgid ""
+"data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
+"append:choice[3]/text"
+msgstr ""
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
+
+#: src-en/data/events_special_guards.xml.append:45
+msgid ""
+"data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
+"append:choice[3]/event[1]/text"
+msgstr ""
+"\"Черта с два! Это хорошая шутка, мы перестали использовать документы с "
+"фотографиями много лет назад!\" Корабль повстанцев подает сигнал бедствия, "
+"вызывая подкрепление!"
+
+#: src-en/data/events_special_guards.xml.append:49
+msgid ""
+"data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
+"append:choice[3]/event[1]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:54
+msgid ""
+"data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBEL\"]/mod-"
+"append:choice[3]/event[2]/text"
+msgstr ""
 "Капитан повстанцев изучает документы, а затем пожимает плечами: \"Э-э-э... "
 "конечно. Добро пожаловать в сектор, сынок\"."
 
-#: src-en/data/events_special_guards.xml.append:44
+#: src-en/data/events_special_guards.xml.append:63
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
 "append:choice[1]/text"
 msgstr "(Вэнс Первый) \"Стой, солдат! Отступи и дай нам пройти!\""
 
-#: src-en/data/events_special_guards.xml.append:46
+#: src-en/data/events_special_guards.xml.append:65
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
 "append:choice[1]/event/text"
@@ -82,14 +113,13 @@ msgstr ""
 "Когда охранник подает разрешающий сигнал, на помощь вам отправляется пара "
 "асов МФК, а также несколько ящиков с припасами."
 
-#: src-en/data/events_special_guards.xml.append:53
+#: src-en/data/events_special_guards.xml.append:72
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
-"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+msgstr "(Вэнс Первый) \"Стой, солдат! Отступи и дай нам пройти!\""
 
-#: src-en/data/events_special_guards.xml.append:55
+#: src-en/data/events_special_guards.xml.append:74
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
 "append:choice[2]/event/text"
@@ -98,13 +128,35 @@ msgstr ""
 "еще глупее!\" Корабль повстанцев подает сигнал бедствия, вызывая "
 "подкрепление!"
 
-#: src-en/data/events_special_guards.xml.append:59
+#: src-en/data/events_special_guards.xml.append:78
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
 "append:choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_guards.xml.append:68
+#: src-en/data/events_special_guards.xml.append:84
+msgid ""
+"data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
+"append:choice[3]/text"
+msgstr ""
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
+
+#: src-en/data/events_special_guards.xml.append:86
+msgid ""
+"data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
+"append:choice[3]/event/text"
+msgstr ""
+"\"Вау. Просто... вау. А я-то думал, что вы, псы Федерации, не можете стать "
+"еще глупее!\" Корабль повстанцев подает сигнал бедствия, вызывая "
+"подкрепление!"
+
+#: src-en/data/events_special_guards.xml.append:90
+msgid ""
+"data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_REBELHOLD\"]/mod-"
+"append:choice[3]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:99
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_JERRY\"]/mod-"
 "append:choice[1]/text"
@@ -112,7 +164,7 @@ msgstr ""
 "(Вэнс Первый) \"Стой, солдат! Отступи и дай нам пройти! Мне нужно увидеть "
 "моего племянника!\""
 
-#: src-en/data/events_special_guards.xml.append:70
+#: src-en/data/events_special_guards.xml.append:101
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_JERRY\"]/mod-"
 "append:choice[1]/event/text"
@@ -122,20 +174,20 @@ msgstr ""
 "соглашаются пропустить вас, хотя у них хватает духу лишь на то, чтобы "
 "отогнать флот на небольшое расстояние."
 
-#: src-en/data/events_special_guards.xml.append:75
+#: src-en/data/events_special_guards.xml.append:106
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_JERRY\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
 "(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев."
 
-#: src-en/data/events_special_guards.xml.append:77
+#: src-en/data/events_special_guards.xml.append:108
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_JERRY\"]/mod-"
 "append:choice[2]/event/text"
 msgstr "\"Герцог Бангледотом...? Джерри ждал вас! Сюда!\""
 
-#: src-en/data/events_special_guards.xml.append:86
+#: src-en/data/events_special_guards.xml.append:117
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_COALITIONHOLD\"]/mod-"
 "append:choice/text"
@@ -143,7 +195,7 @@ msgstr ""
 "(Лейконплииинакра) \"Давайте зададим другой вопрос. Какие отростки вы цените"
 " больше всего?\""
 
-#: src-en/data/events_special_guards.xml.append:88
+#: src-en/data/events_special_guards.xml.append:119
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_COALITIONHOLD\"]/mod-"
 "append:choice/event/text"
@@ -153,7 +205,19 @@ msgstr ""
 "ценным металлоломом и один с оружием из лучшего арсенала Коалиции прямо в "
 "ваш грузовой отсек."
 
-#: src-en/data/events_special_guards.xml.append:97
+#: src-en/data/events_special_guards.xml.append:128
+msgid ""
+"data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_UNION_COREWORLDS\"]/mod-"
+"append:choice/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:130
+msgid ""
+"data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_UNION_COREWORLDS\"]/mod-"
+"append:choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:139
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_COALITION\"]/mod-"
 "append:choice/text"
@@ -162,7 +226,7 @@ msgstr ""
 "пройти через сектор. В противном случае я публично казню вас всех! Вы "
 "поняли?\""
 
-#: src-en/data/events_special_guards.xml.append:99
+#: src-en/data/events_special_guards.xml.append:141
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_COALITION\"]/mod-"
 "append:choice/event/text"
@@ -170,7 +234,7 @@ msgstr ""
 "При виде Королевы охранники вскочили на ноги. \"Конечно, ваше Высочество! "
 "Сюда!\" Охранник пропускает вас, а также передает вам немного припасов."
 
-#: src-en/data/events_special_guards.xml.append:107
+#: src-en/data/events_special_guards.xml.append:149
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_LEECH_COALITION\"]/mod-"
 "append:choice/text"
@@ -178,7 +242,7 @@ msgstr ""
 "(Лейконплииинакра) \" Охранники! Я требую, чтобы вы немедленно пропустили "
 "меня в этот сектор!\""
 
-#: src-en/data/events_special_guards.xml.append:109
+#: src-en/data/events_special_guards.xml.append:151
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_LEECH_COALITION\"]/mod-"
 "append:choice/event/text"
@@ -187,7 +251,7 @@ msgstr ""
 "наконец связывается с вами: \"К-конечно, ваше Высочество\" Они также "
 "присылают вам немного припасов в качестве дара."
 
-#: src-en/data/events_special_guards.xml.append:117
+#: src-en/data/events_special_guards.xml.append:159
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_MANTIS\"]/mod-"
 "append:choice/text"
@@ -195,7 +259,7 @@ msgstr ""
 "(Лейконплииинакра) \"Охранники! Я требую, чтобы вы немедленно пропустили "
 "меня в этот сектор!\""
 
-#: src-en/data/events_special_guards.xml.append:119
+#: src-en/data/events_special_guards.xml.append:161
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_MANTIS\"]/mod-"
 "append:choice/event/text"
@@ -203,7 +267,7 @@ msgstr ""
 "Охранники все дружно кланяются своей королеве. \"О, конечно, ваше "
 "Высочество! Примите дары!\"."
 
-#: src-en/data/events_special_guards.xml.append:127
+#: src-en/data/events_special_guards.xml.append:169
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_HIVE\"]/mod-"
 "append:choice/text"
@@ -211,7 +275,7 @@ msgstr ""
 "(Лейконплииинакра) \"Преданные воины, ваша королева требует немедленно ее "
 "пропустить!\""
 
-#: src-en/data/events_special_guards.xml.append:129
+#: src-en/data/events_special_guards.xml.append:171
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_HIVE\"]/mod-"
 "append:choice/event/text"
@@ -221,7 +285,7 @@ msgstr ""
 "миссии Королевы!\" Королева благословляет Епископа, разрешая ему "
 "присоединиться к вашей команде, и он поднимается на борт, неся с собой дары!"
 
-#: src-en/data/events_special_guards.xml.append:152
+#: src-en/data/events_special_guards.xml.append:194
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/text"
 msgstr ""
@@ -231,12 +295,12 @@ msgstr ""
 "враждебных действий, поскольку, похоже, сначала изучает вас и ваши "
 "намерения."
 
-#: src-en/data/events_special_guards.xml.append:160
+#: src-en/data/events_special_guards.xml.append:202
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/text"
 msgstr "Связаться с ним."
 
-#: src-en/data/events_special_guards.xml.append:162
+#: src-en/data/events_special_guards.xml.append:204
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/text"
 msgstr ""
@@ -245,12 +309,12 @@ msgstr ""
 " все еще существуют в современном языке обелисков: \"Осторожно - "
 "Уничтожители - Нежелательно - Сдавайтесь\"."
 
-#: src-en/data/events_special_guards.xml.append:164
+#: src-en/data/events_special_guards.xml.append:206
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[1]/text"
 msgstr "Мы не хотим причинить вам вреда! Мы пришли с миром!"
 
-#: src-en/data/events_special_guards.xml.append:166
+#: src-en/data/events_special_guards.xml.append:208
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -258,36 +322,51 @@ msgstr ""
 "Похоже, они либо не поняли вас, либо не поверили. В любом случае, бой "
 "неизбежен."
 
-#: src-en/data/events_special_guards.xml.append:169
+#: src-en/data/events_special_guards.xml.append:211
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_guards.xml.append:175
+#: src-en/data/events_special_guards.xml.append:217
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
 msgstr ""
 "(Тело Содружества) Показать им сломанное тело, возможно, они помогут нам "
 "починить его."
 
-#: src-en/data/events_special_guards.xml.append:177
+#: src-en/data/events_special_guards.xml.append:219
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
 "С той стороны раздается громкий крик, и вскоре другой корабль прерывает "
 "связь и отклоняет все дальнейшие вызовы. Ну что ж..."
 
-#: src-en/data/events_special_guards.xml.append:180
+#: src-en/data/events_special_guards.xml.append:222
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_guards.xml.append:186
+#: src-en/data/events_special_guards.xml.append:228
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:230
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:233
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:239
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/text"
 msgstr "(Экипаж Содружества) Ваш экипаж Содружества хочет поговорить с ними."
 
-#: src-en/data/events_special_guards.xml.append:188
+#: src-en/data/events_special_guards.xml.append:241
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/text"
 msgstr ""
@@ -295,12 +374,12 @@ msgstr ""
 "\n"
 "\t\t\t\t\t\"Прошу прощения за враждебное поведение, мы всегда находимся в состоянии повышенной готовности при появлении чужаков. Боюсь, что наша прошлая травма, нанесенная Уничтожителями, преследует нас и по сей день. Мы - Содружество, и мы приветствуем вас в нашем скромном убежище\"."
 
-#: src-en/data/events_special_guards.xml.append:193
+#: src-en/data/events_special_guards.xml.append:246
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/text"
 msgstr "Уничтожители?"
 
-#: src-en/data/events_special_guards.xml.append:195
+#: src-en/data/events_special_guards.xml.append:248
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/text"
 msgstr ""
@@ -308,12 +387,12 @@ msgstr ""
 "\n"
 "\t\t\t\t\t\t\tСущество на мгновение замолкло, а затем заговорило снова: \"Мы не ожидали, что вы приютите одного из наших сородичей. Удивительно, что мы не обнаружили его раньше, хотя, полагаю, наше оборудование уже не то, что раньше. Энтропия, конечно, жестокая госпожа\"."
 
-#: src-en/data/events_special_guards.xml.append:200
+#: src-en/data/events_special_guards.xml.append:253
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/text"
 msgstr "Как нам покинуть этот сектор?"
 
-#: src-en/data/events_special_guards.xml.append:202
+#: src-en/data/events_special_guards.xml.append:255
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/text"
 msgstr ""
@@ -321,27 +400,27 @@ msgstr ""
 "\n"
 "\t\t\t\t\t\t\t\t\t\"Тем не менее я сделаю все возможное, чтобы помочь вам: отремонтирую ваш корпус и подарю одно из наших орудий. Мир вам, чужаки\"."
 
-#: src-en/data/events_special_guards.xml.append:208
+#: src-en/data/events_special_guards.xml.append:261
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[1]/text"
 msgstr "Спасибо."
 
-#: src-en/data/events_special_guards.xml.append:210
+#: src-en/data/events_special_guards.xml.append:263
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[1]/event/text"
 msgstr "Охранник кивает, прощаясь с вами."
 
-#: src-en/data/events_special_guards.xml.append:214
+#: src-en/data/events_special_guards.xml.append:267
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_guards.xml.append:220
+#: src-en/data/events_special_guards.xml.append:273
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
 msgstr "(Тело Содружества) Что с этим телом? Есть ли способ оживить его?"
 
-#: src-en/data/events_special_guards.xml.append:222
+#: src-en/data/events_special_guards.xml.append:275
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
@@ -350,34 +429,79 @@ msgstr ""
 "инструменты, необходимые для оживления. Вот, позвольте мне отметить его на "
 "вашей карте\"."
 
-#: src-en/data/events_special_guards.xml.append:225
+#: src-en/data/events_special_guards.xml.append:278
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/text"
 msgstr "Спасибо."
 
-#: src-en/data/events_special_guards.xml.append:227
+#: src-en/data/events_special_guards.xml.append:280
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/event/text"
 msgstr "Охранник кивает, прощаясь с вами."
 
-#: src-en/data/events_special_guards.xml.append:229
+#: src-en/data/events_special_guards.xml.append:282
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_guards.xml.append:247
+#: src-en/data/events_special_guards.xml.append:296
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_unique_daisy\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:298
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_unique_daisy\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:304
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_unique_daisy\"]/event/choice/text"
+msgstr "Уничтожители?"
+
+#: src-en/data/events_special_guards.xml.append:306
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_unique_daisy\"]/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:312
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_unique_daisy\"]/event/choice/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:314
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_unique_daisy\"]/event/choice/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:323
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_unique_daisy\"]/event/choice/event/choice/event/choice/text"
+msgstr "Спасибо."
+
+#: src-en/data/events_special_guards.xml.append:325
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_unique_daisy\"]/event/choice/event/choice/event/choice/event/text"
+msgstr "Охранник кивает, прощаясь с вами."
+
+#: src-en/data/events_special_guards.xml.append:329
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_unique_daisy\"]/event/choice/event/choice/event/choice/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:345
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/text"
 msgstr ""
 "Вражескому кораблю долго так не продержаться. Возможно, вам удастся "
 "заставить их сдаться?"
 
-#: src-en/data/events_special_guards.xml.append:249
+#: src-en/data/events_special_guards.xml.append:347
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/text"
 msgstr "Выключить свои орудия."
 
-#: src-en/data/events_special_guards.xml.append:251
+#: src-en/data/events_special_guards.xml.append:349
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/text"
 msgstr ""
@@ -385,12 +509,12 @@ msgstr ""
 "\n"
 "\t\t\tКак только дрон заканчивает работу, вы можете нормально общаться со странным кораблем. \"Приветствую вас, чужак. Мы - Содружество, и мы приветствуем вас в нашем скромном убежище. Мы просим прощения за наши поспешные действия, мы думали, что вы один из Уничтожителей. Мы приносим вам немного лома в качестве извинения за любой ущерб, который мы могли причинить\"."
 
-#: src-en/data/events_special_guards.xml.append:259
+#: src-en/data/events_special_guards.xml.append:357
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/text"
 msgstr "Спасибо, но кто эти \"Уничтожители\"?"
 
-#: src-en/data/events_special_guards.xml.append:261
+#: src-en/data/events_special_guards.xml.append:359
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -398,12 +522,12 @@ msgstr ""
 "\n"
 "\t\t\t\t\tСущество некоторое время молчит, прежде чем снова заговорить \"Мы не ожидали, что вы приютите одного из наших сородичей. Удивительно, что мы не обнаружили его раньше, хотя, полагаю, наше оборудование уже не то, что раньше. Энтропия, конечно, жестокая госпожа\"."
 
-#: src-en/data/events_special_guards.xml.append:266
+#: src-en/data/events_special_guards.xml.append:364
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Как нам покинуть этот сектор?"
 
-#: src-en/data/events_special_guards.xml.append:268
+#: src-en/data/events_special_guards.xml.append:366
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/text"
 msgstr ""
@@ -411,27 +535,27 @@ msgstr ""
 "\n"
 "\t\t\t\t\t\t\t\"Тем не менее я сделаю все возможное, чтобы помочь вам: отремонтирую ваш корпус и подарю одно из наших орудий. Мир вам, чужаки\"."
 
-#: src-en/data/events_special_guards.xml.append:274
+#: src-en/data/events_special_guards.xml.append:372
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[1]/text"
 msgstr "Спасибо."
 
-#: src-en/data/events_special_guards.xml.append:276
+#: src-en/data/events_special_guards.xml.append:374
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[1]/event/text"
 msgstr "Охранник кивает, прощаясь с вами."
 
-#: src-en/data/events_special_guards.xml.append:280
+#: src-en/data/events_special_guards.xml.append:378
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_guards.xml.append:286
+#: src-en/data/events_special_guards.xml.append:384
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
 msgstr "(Тело Содружества) Что с этим телом? Есть ли способ оживить его?"
 
-#: src-en/data/events_special_guards.xml.append:288
+#: src-en/data/events_special_guards.xml.append:386
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
@@ -440,27 +564,27 @@ msgstr ""
 "инструменты, необходимые для оживления. Вот, позвольте мне отметить его на "
 "вашей карте\"."
 
-#: src-en/data/events_special_guards.xml.append:291
+#: src-en/data/events_special_guards.xml.append:389
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/text"
 msgstr "Спасибо."
 
-#: src-en/data/events_special_guards.xml.append:293
+#: src-en/data/events_special_guards.xml.append:391
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/event/text"
 msgstr "Охранник кивает, прощаясь с вами."
 
-#: src-en/data/events_special_guards.xml.append:295
+#: src-en/data/events_special_guards.xml.append:393
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[1]/event/choice/event/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_guards.xml.append:309
+#: src-en/data/events_special_guards.xml.append:407
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_SURRENDER\"]/choice[2]/text"
 msgstr "Нет, продолжать сражаться."
 
-#: src-en/data/events_special_guards.xml.append:315
+#: src-en/data/events_special_guards.xml.append:413
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_DESTROY\"]/text"
 msgstr ""
@@ -468,12 +592,12 @@ msgstr ""
 "\n"
 "\tВы также решаете просканировать сектор на предмет каких-либо интересных мест и замечаете еще один огромный всплеск энергии в самом центре сектора, идентичный порталу, из которого вы пришли. Если есть способ покинуть это место, то, скорее всего, это он и есть."
 
-#: src-en/data/events_special_guards.xml.append:321
+#: src-en/data/events_special_guards.xml.append:419
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_DESTROY\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_guards.xml.append:326
+#: src-en/data/events_special_guards.xml.append:424
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_DEADCREW\"]/text"
 msgstr ""
@@ -481,12 +605,12 @@ msgstr ""
 "\n"
 "\tВ грузе вы находите карту, указывающую на определенное место в секторе - некий разлом, который был обозначен как \"выход\". Похоже, это и есть ваш пункт назначения, если вы хотите покинуть это место."
 
-#: src-en/data/events_special_guards.xml.append:333
+#: src-en/data/events_special_guards.xml.append:431
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_DEADCREW\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_guards.xml.append:342
+#: src-en/data/events_special_guards.xml.append:440
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_FOLLOWUP\"]/text"
 msgstr ""
@@ -494,32 +618,32 @@ msgstr ""
 "послать подкрепление, чтобы выследить вас. Будьте внимательны, исследуя "
 "сектор."
 
-#: src-en/data/events_special_guards.xml.append:345
+#: src-en/data/events_special_guards.xml.append:443
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_FOLLOWUP\"]/choice[1]/text"
 msgstr "Заняться чем-либо на корабле."
 
-#: src-en/data/events_special_guards.xml.append:349
+#: src-en/data/events_special_guards.xml.append:447
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_FOLLOWUP\"]/choice[2]/text"
 msgstr "Ничего не делать."
 
-#: src-en/data/events_special_guards.xml.append:358
+#: src-en/data/events_special_guards.xml.append:456
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_COMMONWEALTH\"]/beaconType/unvisitedTooltip"
 msgstr "Непосещеное место."
 
-#: src-en/data/events_special_guards.xml.append:359
+#: src-en/data/events_special_guards.xml.append:457
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_COMMONWEALTH\"]/beaconType/visitedTooltip"
 msgstr "Посещенное место. Ничего интересного."
 
-#: src-en/data/events_special_guards.xml.append:360
+#: src-en/data/events_special_guards.xml.append:458
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_COMMONWEALTH\"]/beaconType/undiscoveredTooltip"
 msgstr "Непосещеное место."
 
-#: src-en/data/events_special_guards.xml.append:362
+#: src-en/data/events_special_guards.xml.append:460
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_COMMONWEALTH\"]/text"
 msgstr ""
@@ -528,7 +652,950 @@ msgstr ""
 " Корабль переходит в атаку, и вы не сразу понимаете, что это один из "
 "кораблей, посланных охранниками, чтобы поквитаться с вами за нападение."
 
-#: src-en/data/events_special_guards.xml.append:366
+#: src-en/data/events_special_guards.xml.append:464
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_COMMONWEALTH\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:496
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:504
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:506
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:508
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:510
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:513
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:519
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"fr_unique_mantis_queen\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:521
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"fr_unique_mantis_queen\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:528
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"unique_nights\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:530
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"unique_nights\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:537
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"unique_tyrdeo\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:539
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"unique_tyrdeo\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:546
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"FR_LIST_CREW_RUES\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:548
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"FR_LIST_CREW_RUES\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:553
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"unique_vance\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:562
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION_VANCE\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:569
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION_VANCE\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:581
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_SIGNAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:583
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:585
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:589
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_SIGNAL\"]/choice[2]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:591
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_SIGNAL\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:599
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_DESTROY\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:602
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_DESTROY\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:607
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_DEADCREW\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:611
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_DEADCREW\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:619
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_FOLLOWUP\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:628
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_FOLLOWUP\"]/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_special_guards.xml.append:632
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_COALITION_FOLLOWUP\"]/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_special_guards.xml.append:640
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_COALITION\"]/beaconType/unvisitedTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:641
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_COALITION\"]/beaconType/visitedTooltip"
+msgstr "Посещенное место. Ничего интересного."
+
+#: src-en/data/events_special_guards.xml.append:642
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_COALITION\"]/beaconType/undiscoveredTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:644
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_COALITION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:653
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_COALITION\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:662
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_COALITION\"]/beaconType/unvisitedTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:663
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_COALITION\"]/beaconType/visitedTooltip"
+msgstr "Посещенное место. Ничего интересного."
+
+#: src-en/data/events_special_guards.xml.append:664
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_COALITION\"]/beaconType/undiscoveredTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:666
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_COALITION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:677
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_COALITION\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:690
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:698
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:700
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:702
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:704
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:707
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:713
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"unique_vance\"]/text"
+msgstr "(Вэнс Первый) \"Стой, солдат! Отступи и дай нам пройти!\""
+
+#: src-en/data/events_special_guards.xml.append:715
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"unique_vance\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:720
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"fr_unique_vance_one\"]/text"
+msgstr "(Вэнс Первый) \"Стой, солдат! Отступи и дай нам пройти!\""
+
+#: src-en/data/events_special_guards.xml.append:722
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"fr_unique_vance_one\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:725
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"fr_unique_vance_one\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:731
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"unique_cyra\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:733
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"unique_cyra\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:738
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"human_mfk\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:740
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"human_mfk\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:745
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"LIST_CREW_JERRY\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:751
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"REBEL_ID\"]/text"
+msgstr ""
+"(Поддельные документы) Попытаться выдать ваш корабль за корабль повстанцев"
+
+#: src-en/data/events_special_guards.xml.append:753
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"REBEL_ID\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:756
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"REBEL_ID\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:762
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"unique_nights\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:764
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"unique_nights\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:770
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_REBEL\"]/choice/event/choice[@req=\"unique_nights\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:791
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_SIGNAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:793
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:795
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:799
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_SIGNAL\"]/choice[2]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:801
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_SIGNAL\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:809
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_DESTROY\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:812
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_DESTROY\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:817
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_DEADCREW\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:821
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_DEADCREW\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:829
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_FOLLOWUP\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:838
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_FOLLOWUP\"]/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_special_guards.xml.append:842
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_REBEL_FOLLOWUP\"]/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_special_guards.xml.append:850
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_REBEL\"]/beaconType/unvisitedTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:851
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_REBEL\"]/beaconType/visitedTooltip"
+msgstr "Посещенное место. Ничего интересного."
+
+#: src-en/data/events_special_guards.xml.append:852
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_REBEL\"]/beaconType/undiscoveredTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:854
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_REBEL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:863
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_REBEL\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:872
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_REBEL\"]/beaconType/unvisitedTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:873
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_REBEL\"]/beaconType/visitedTooltip"
+msgstr "Посещенное место. Ничего интересного."
+
+#: src-en/data/events_special_guards.xml.append:874
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_REBEL\"]/beaconType/undiscoveredTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:876
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_REBEL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:887
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_REBEL\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:899
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:907
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"-999\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:911
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION\"]/choice[@req=\"rep_comb_federation\""
+" and @lvl=\"3\"]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:917
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:919
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:923
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:925
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:928
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[2]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:934
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:936
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[3]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:938
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[3]/event/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_special_guards.xml.append:942
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[3]/event/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_special_guards.xml.append:950
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:952
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_tully\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:954
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_tully\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:964
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_turzil\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:966
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_turzil\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:976
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_mafan\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:978
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_mafan\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:988
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_tyerel\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:990
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_tyerel\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1000
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_ruwen\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1002
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_ruwen\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1012
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[6]/text"
+msgstr "Оружие."
+
+#: src-en/data/events_special_guards.xml.append:1014
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[6]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1019
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[7]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1021
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[7]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1026
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[8]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1028
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[8]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1033
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[9]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1035
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[9]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1042
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[10]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1044
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[10]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1051
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[11]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1053
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[11]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1062
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_CRIMINAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1064
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_CRIMINAL\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1066
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_CRIMINAL\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1069
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_CRIMINAL\"]/choice/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1083
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_SIGNAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1085
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1087
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1091
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_SIGNAL\"]/choice[2]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1093
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_SIGNAL\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1101
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_DESTROY\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1104
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_DESTROY\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1109
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_DEADCREW\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1113
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_DEADCREW\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1121
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_FOLLOWUP\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1130
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_FOLLOWUP\"]/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_special_guards.xml.append:1134
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_FOLLOWUP\"]/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_special_guards.xml.append:1143
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_FEDERATION\"]/beaconType/unvisitedTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:1144
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_FEDERATION\"]/beaconType/visitedTooltip"
+msgstr "Посещенное место. Ничего интересного."
+
+#: src-en/data/events_special_guards.xml.append:1145
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_FEDERATION\"]/beaconType/undiscoveredTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:1147
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_FEDERATION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1156
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_FEDERATION\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1165
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_FEDERATION\"]/beaconType/unvisitedTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:1166
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_FEDERATION\"]/beaconType/visitedTooltip"
+msgstr "Посещенное место. Ничего интересного."
+
+#: src-en/data/events_special_guards.xml.append:1167
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_FEDERATION\"]/beaconType/undiscoveredTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:1169
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_FEDERATION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1180
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_FEDERATION\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1192
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1200
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1202
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1204
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1206
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1208
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1210
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1213
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[1]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1219
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1221
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1228
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"fr_unique_purple_beard\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1230
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"fr_unique_purple_beard\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1236
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"unique_nights\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1238
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"unique_nights\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1246
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"unique_kaz\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1248
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"unique_kaz\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1259
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"unique_tuco\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1261
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"unique_tuco\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1274
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"LIST_A55\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1276
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"LIST_A55\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1289
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"human_angel\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1291
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_PIRATE\"]/choice/event/choice/event/choice[@req=\"human_angel\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1309
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_SIGNAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1311
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1313
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1317
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_SIGNAL\"]/choice[2]/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1319
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_SIGNAL\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1327
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_DESTROY\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1330
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_DESTROY\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1335
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_DEADCREW\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1343
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_DEADCREW\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1351
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_FOLLOWUP\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1360
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_FOLLOWUP\"]/choice[1]/text"
+msgstr "Заняться чем-либо на корабле."
+
+#: src-en/data/events_special_guards.xml.append:1364
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_PIRATE_FOLLOWUP\"]/choice[2]/text"
+msgstr "Ничего не делать."
+
+#: src-en/data/events_special_guards.xml.append:1378
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_PIRATE\"]/beaconType/unvisitedTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:1379
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_PIRATE\"]/beaconType/visitedTooltip"
+msgstr "Посещенное место. Ничего интересного."
+
+#: src-en/data/events_special_guards.xml.append:1380
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_PIRATE\"]/beaconType/undiscoveredTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:1382
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_PIRATE\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1391
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_PIRATE\"]/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_special_guards.xml.append:1400
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_PIRATE\"]/beaconType/unvisitedTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:1401
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_PIRATE\"]/beaconType/visitedTooltip"
+msgstr "Посещенное место. Ничего интересного."
+
+#: src-en/data/events_special_guards.xml.append:1402
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_PIRATE\"]/beaconType/undiscoveredTooltip"
+msgstr "Непосещеное место."
+
+#: src-en/data/events_special_guards.xml.append:1404
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_PIRATE\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_guards.xml.append:1415
+msgid ""
+"data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_PIRATE\"]/choice/text"
 msgstr "Продолжить..."

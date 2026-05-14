@@ -1,24 +1,16 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-01 15:31+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
-"dataevents_fr_sector_tartarusxml/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.13.3\n"
 
-#: src-en/data/events_fr_sector_tartarus.xml:15
+#: src-en/data/events_fr_sector_tartarus.xml:14
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_START_TARTARUS\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:21
+#: src-en/data/events_fr_sector_tartarus.xml:20
 msgid ""
 "data/events_fr_sector_tartarus.xml$//textList[@name=\"FR_TEXT_START_TARTARUS\"]/text"
 msgstr ""
@@ -31,19 +23,27 @@ msgstr ""
 "ужасающие крики и мольбы о помощи. Вы решаете отключить связь на корабле, но"
 " это получается не сразу."
 
-#: src-en/data/events_fr_sector_tartarus.xml:51
+#: src-en/data/events_fr_sector_tartarus.xml:41
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_LOAD\"]/beaconType/unvisitedTooltip"
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_SLIMER\"]/destroyed/text"
 msgstr ""
-"Местонахождение последней цели, похоже, будет доступно только после "
-"выполнения всех остальных заданий."
 
-#: src-en/data/events_fr_sector_tartarus.xml:52
+#: src-en/data/events_fr_sector_tartarus.xml:43
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_LOAD\"]/beaconType/visitedTooltip"
-msgstr "Местонахождение финальной цели."
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_SLIMER\"]/destroyed/choice/text"
+msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:72
+#: src-en/data/events_fr_sector_tartarus.xml:48
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_SLIMER\"]/deadCrew/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:50
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_SLIMER\"]/deadCrew/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:57
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_1\"]/text"
 msgstr ""
@@ -51,12 +51,12 @@ msgstr ""
 "\n"
 "\tСлимер был известен во всей Мультивселенной как самый большой обжора из когда-либо существовавших, и этим фактом он гордился. Его погубила партия галлюциногенных дынь, ввергнувшая его в глубокую кому, из которой он так и не вышел. Никто не захотел ему помочь, потому что при жизни Слимер был груб, эгоистичен и мстителен. Закончив читать запись, вы поднимаете глаза и видите, как из обзорного иллюминатора появляется гигантский корабль, полностью состоящий из ремонтного геля слизней!"
 
-#: src-en/data/events_fr_sector_tartarus.xml:77
+#: src-en/data/events_fr_sector_tartarus.xml:64
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_1\"]/choice/text"
 msgstr "Связаться с кораблем."
 
-#: src-en/data/events_fr_sector_tartarus.xml:79
+#: src-en/data/events_fr_sector_tartarus.xml:66
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_1\"]/choice/event/text"
 msgstr ""
@@ -68,12 +68,12 @@ msgstr ""
 " являются душами умерших, но вы никак не могли ожидать, что они окажутся "
 "правы!"
 
-#: src-en/data/events_fr_sector_tartarus.xml:81
+#: src-en/data/events_fr_sector_tartarus.xml:68
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_1\"]/choice/event/choice[1]/text"
 msgstr "Слимер...?"
 
-#: src-en/data/events_fr_sector_tartarus.xml:83
+#: src-en/data/events_fr_sector_tartarus.xml:70
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_1\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -84,19 +84,19 @@ msgstr ""
 "сигнал обрывается, и вы слышите звук телепортера на вашем корабле. К боевым "
 "позициям!"
 
-#: src-en/data/events_fr_sector_tartarus.xml:86
+#: src-en/data/events_fr_sector_tartarus.xml:73
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_1\"]/choice/event/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:92
+#: src-en/data/events_fr_sector_tartarus.xml:79
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_1\"]/choice/event/choice[@req=\"fr_gozer\"]/text"
 msgstr ""
 "(Гозиодеон) \"Кто вы, притворщики?! Мы - единственные соперники Ловцов "
 "приведений в этом городе! Убирайтесь!\""
 
-#: src-en/data/events_fr_sector_tartarus.xml:94
+#: src-en/data/events_fr_sector_tartarus.xml:81
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_1\"]/choice/event/choice[@req=\"fr_gozer\"]/event/text"
 msgstr ""
@@ -107,12 +107,12 @@ msgstr ""
 "газообразное тело!\" Но сигнал обрывается прежде, чем вы успеваете ответить,"
 " и вы слышите звук телепортера на вашем корабль. К боевым позициям!"
 
-#: src-en/data/events_fr_sector_tartarus.xml:97
+#: src-en/data/events_fr_sector_tartarus.xml:84
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_1\"]/choice/event/choice[@req=\"fr_gozer\"]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:107
+#: src-en/data/events_fr_sector_tartarus.xml:94
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_SLIMER_DEFEAT\"]/text"
 msgstr ""
@@ -120,12 +120,12 @@ msgstr ""
 "судьбу. Вам остается надеяться, что дух его капитана упокоился в процессе, "
 "пока вы осматриваете обломки в поисках ценного металлолома."
 
-#: src-en/data/events_fr_sector_tartarus.xml:111
+#: src-en/data/events_fr_sector_tartarus.xml:98
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_SLIMER_DEFEAT\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:113
+#: src-en/data/events_fr_sector_tartarus.xml:100
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_SLIMER_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -135,7 +135,27 @@ msgstr ""
 "\t\t\t\n"
 "\t\t\tОписание следующей цели, похоже, сообщает вам, что цель будет невосприимчива к ионному урону."
 
-#: src-en/data/events_fr_sector_tartarus.xml:137
+#: src-en/data/events_fr_sector_tartarus.xml:113
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_PHYS\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:115
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_PHYS\"]/destroyed/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:120
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_PHYS\"]/deadCrew/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:122
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_PHYS\"]/deadCrew/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:129
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_2\"]/text"
 msgstr ""
@@ -143,12 +163,12 @@ msgstr ""
 "\n"
 "\tХотя ее физическая форма была спасена, боль от этого процесса свела Физ с ума, и ракушка начала буйствовать по всему комплексу. Жизнь Физ оборвалась, когда местная служба охраны была вынуждена застрелить ее. Ее душа не в силах жить дальше, поскольку мучительные страдания все еще пронизывают ее существо."
 
-#: src-en/data/events_fr_sector_tartarus.xml:141
+#: src-en/data/events_fr_sector_tartarus.xml:133
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_2\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:143
+#: src-en/data/events_fr_sector_tartarus.xml:135
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_2\"]/choice/event/text"
 msgstr ""
@@ -158,12 +178,12 @@ msgstr ""
 " атакующую позицию, отклоняя все ваши попытки выйти на связь. Приготовиться "
 "к бою!"
 
-#: src-en/data/events_fr_sector_tartarus.xml:146
+#: src-en/data/events_fr_sector_tartarus.xml:138
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_2\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:154
+#: src-en/data/events_fr_sector_tartarus.xml:146
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_PHYS_DEFEAT\"]/text"
 msgstr ""
@@ -171,12 +191,12 @@ msgstr ""
 "корпусу корабля, исчезает. Вы задаетесь вопросом, были ли среди них такие "
 "же, как Физ, - жертвы слишком усердных стараний ракушек."
 
-#: src-en/data/events_fr_sector_tartarus.xml:158
+#: src-en/data/events_fr_sector_tartarus.xml:150
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_PHYS_DEFEAT\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:160
+#: src-en/data/events_fr_sector_tartarus.xml:152
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_PHYS_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -184,7 +204,27 @@ msgstr ""
 "\n"
 "\t\t\t\"Ты... с-спас друга! Помоги... ссссспасти оссссстальных!\" Голос Физ наполнен помехами, а ее речь очень косноязычная, но вы понимаете, к чему она призывает вас, прежде чем она исчезает... Если вы смогли спасти Слимера и Физ из этой беды, то, возможно, и другие души будут спасены!"
 
-#: src-en/data/events_fr_sector_tartarus.xml:180
+#: src-en/data/events_fr_sector_tartarus.xml:163
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_ALEENOR\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:165
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_ALEENOR\"]/destroyed/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:170
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_ALEENOR\"]/deadCrew/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:172
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_ALEENOR\"]/deadCrew/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:179
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_3\"]/text"
 msgstr ""
@@ -192,12 +232,12 @@ msgstr ""
 "\n"
 "\tКое-что бросается в глаза - в ее описании нет упоминаний о травмах или незавершенных делах, которые могли бы привести к тому, что она задержится после смерти. Когда вы заканчиваете чтение, вы обнаруживаете, что ССД и привод Мультивселенной не работают, и вы оказываетесь в ловушке у маяка! Похоже, вы забрались слишком далеко, чтобы повернуть назад..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:184
+#: src-en/data/events_fr_sector_tartarus.xml:183
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_3\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:186
+#: src-en/data/events_fr_sector_tartarus.xml:185
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_3\"]/choice/event/text"
 msgstr ""
@@ -209,12 +249,12 @@ msgstr ""
 "прощения. У меня нет свободного времени!\" Ее орудия включаются, и все "
 "дальнейшие попытки связаться с ней встречаются радиомолчанием."
 
-#: src-en/data/events_fr_sector_tartarus.xml:189
+#: src-en/data/events_fr_sector_tartarus.xml:188
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_3\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:197
+#: src-en/data/events_fr_sector_tartarus.xml:196
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ALEENOR_DEFEAT\"]/text"
 msgstr ""
@@ -222,12 +262,12 @@ msgstr ""
 "победу. Фиолетовые феромоны и сверкающие кусочки помещений разлетаются в "
 "пространстве."
 
-#: src-en/data/events_fr_sector_tartarus.xml:201
+#: src-en/data/events_fr_sector_tartarus.xml:200
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ALEENOR_DEFEAT\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:203
+#: src-en/data/events_fr_sector_tartarus.xml:202
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ALEENOR_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -235,12 +275,12 @@ msgstr ""
 "\n"
 "\t\t\t\"Добрая душа...! Я слышала истории о том, каким грозным могут быть Ренегаты, и... мне приятно знать, что меня не ввели в заблуждение\". Она, как ни странно, свободно говорит на вашем языке, что облегчает общение. \"Если... у вас есть вопросы, я могу рассказать о себе! Хотя... я обязана хранить молчание о Тартаре... страшное некромантическое заклинание от того, кто спас меня\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:207
+#: src-en/data/events_fr_sector_tartarus.xml:206
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ALEENOR_DEFEAT\"]/choice/event/choice/text"
 msgstr "Кто вы, собственно говоря?"
 
-#: src-en/data/events_fr_sector_tartarus.xml:209
+#: src-en/data/events_fr_sector_tartarus.xml:208
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ALEENOR_DEFEAT\"]/choice/event/choice/event/text"
 msgstr ""
@@ -249,12 +289,12 @@ msgstr ""
 " Улье я создала свой дом... Должно быть, я вырастила и обучила тысячи "
 "богомолов, большинство из которых со временем стали Сюзеренами!\""
 
-#: src-en/data/events_fr_sector_tartarus.xml:211
+#: src-en/data/events_fr_sector_tartarus.xml:210
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ALEENOR_DEFEAT\"]/choice/event/choice/event/choice/text"
 msgstr "Как вы оказались в таком положении?"
 
-#: src-en/data/events_fr_sector_tartarus.xml:213
+#: src-en/data/events_fr_sector_tartarus.xml:212
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ALEENOR_DEFEAT\"]/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -264,12 +304,12 @@ msgstr ""
 "держать огнетушитель. Времени не хватило, чтобы спасти и меня, и их... так "
 "что я выбрала их\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:215
+#: src-en/data/events_fr_sector_tartarus.xml:214
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ALEENOR_DEFEAT\"]/choice/event/choice/event/choice/event/choice/text"
 msgstr "Примите мои соболезнования."
 
-#: src-en/data/events_fr_sector_tartarus.xml:217
+#: src-en/data/events_fr_sector_tartarus.xml:216
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ALEENOR_DEFEAT\"]/choice/event/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -279,7 +319,27 @@ msgstr ""
 " она вам понадобится! Не могу сказать, когда закончится ваше путешествие, "
 "но... я хочу быть с вами, когда это случится\"."
 
+#: src-en/data/events_fr_sector_tartarus.xml:231
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_VIN\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:233
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_VIN\"]/destroyed/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:238
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_VIN\"]/deadCrew/text"
+msgstr ""
+
 #: src-en/data/events_fr_sector_tartarus.xml:240
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_VIN\"]/deadCrew/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:247
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_4\"]/text"
 msgstr ""
@@ -287,12 +347,12 @@ msgstr ""
 "\n"
 "\tСледующим в списке оказался Вин, Паладин, служивший незыблемой Теократии. Судя по всему, его смерть наступила, когда он забыл выключить автопилот своего корабля перед сном, в результате чего судно врезалось в местное солнце. Понятно, что от такой смерти он, скорее всего, был бы очень зол."
 
-#: src-en/data/events_fr_sector_tartarus.xml:244
+#: src-en/data/events_fr_sector_tartarus.xml:251
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_4\"]/choice/text"
 msgstr "Ну, это уже совсем не сюрприз."
 
-#: src-en/data/events_fr_sector_tartarus.xml:246
+#: src-en/data/events_fr_sector_tartarus.xml:253
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_4\"]/choice/event/text"
 msgstr ""
@@ -301,24 +361,24 @@ msgstr ""
 " Его орудия раскалено, а связь молчит. Не стоит тратить время на "
 "формальности!"
 
-#: src-en/data/events_fr_sector_tartarus.xml:249
+#: src-en/data/events_fr_sector_tartarus.xml:256
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_4\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:257
+#: src-en/data/events_fr_sector_tartarus.xml:264
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_VIN_DEFEAT\"]/text"
 msgstr ""
 "Следующий отрывок - тот же, что и первый. Еще один могучий корабль "
 "уничтожен, еще одна душа освобождена от того, кто удерживает ее здесь."
 
-#: src-en/data/events_fr_sector_tartarus.xml:261
+#: src-en/data/events_fr_sector_tartarus.xml:268
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_VIN_DEFEAT\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:263
+#: src-en/data/events_fr_sector_tartarus.xml:270
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_VIN_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -330,18 +390,40 @@ msgstr ""
 
 #: src-en/data/events_fr_sector_tartarus.xml:283
 msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_CLEO\"]/destroyed/text"
+msgstr ""
+"Корабль разлетается на куски, а из грузового отсека высыпается почти сотня "
+"дронов."
+
+#: src-en/data/events_fr_sector_tartarus.xml:285
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_CLEO\"]/destroyed/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:290
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_CLEO\"]/deadCrew/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:292
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_CLEO\"]/deadCrew/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:302
+msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_5\"]/text"
 msgstr ""
 "Пока за иллюминатором во время сверхсветового прыжка проносятся звезды, в голове у вас крутятся мысли о том, кем может быть эта некромантка. Почему... и как она вызвала духов мертвых? Неужели она такая же жертва чего-то, как и они? Придется на время отложить размышления, ведь пятая цель уже рядом.\n"
 "\n"
 "\tСогласно вашему удобному путеводителю по ревенантам, это Клео, ас МФК при жизни. За время службы в Восстании он полюбил все беспилотное и автоматическое, и это стало еще более ироничным, когда его до смерти замучил модифицированный ремонтный дрон. Говорят, что теперь у него развился стокгольмский синдром, и он презирает все живое из плоти и крови."
 
-#: src-en/data/events_fr_sector_tartarus.xml:287
+#: src-en/data/events_fr_sector_tartarus.xml:306
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_5\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:289
+#: src-en/data/events_fr_sector_tartarus.xml:308
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_5\"]/choice/event/text"
 msgstr ""
@@ -349,24 +431,24 @@ msgstr ""
 "повстанцев, окрашенный в темно-синие цвета с переливающимся на его "
 "поверхности узором, ждет вас, готовый нанести удар."
 
-#: src-en/data/events_fr_sector_tartarus.xml:292
+#: src-en/data/events_fr_sector_tartarus.xml:311
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_5\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:300
+#: src-en/data/events_fr_sector_tartarus.xml:319
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_CLEO_DEFEAT\"]/text"
 msgstr ""
 "Корабль разлетается на куски, а из грузового отсека высыпается почти сотня "
 "дронов."
 
-#: src-en/data/events_fr_sector_tartarus.xml:305
+#: src-en/data/events_fr_sector_tartarus.xml:324
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_CLEO_DEFEAT\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:307
+#: src-en/data/events_fr_sector_tartarus.xml:326
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_CLEO_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -375,7 +457,27 @@ msgstr ""
 "наспех нацарапанной надписью. \"Не подходи к кладовке, и у нас не будет "
 "проблем\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:324
+#: src-en/data/events_fr_sector_tartarus.xml:335
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_ZULU\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:337
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_ZULU\"]/destroyed/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:342
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_ZULU\"]/deadCrew/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:344
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_ZULU\"]/deadCrew/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:351
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_6\"]/text"
 msgstr ""
@@ -387,12 +489,12 @@ msgstr ""
 "принудительного вызова - сияющий, золотой ланиус-Сварщик, стоящий гордо, как"
 " какой-то рыцарь."
 
-#: src-en/data/events_fr_sector_tartarus.xml:327
+#: src-en/data/events_fr_sector_tartarus.xml:354
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_6\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:329
+#: src-en/data/events_fr_sector_tartarus.xml:356
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_6\"]/choice/event/text"
 msgstr ""
@@ -400,12 +502,12 @@ msgstr ""
 "\n"
 "\t\t\tГневно оглядывая вас с ног до головы, он продолжает. \"Твое судно - не повод для насмешек, но... во имя и по приказу Ж, нашей госпожи и спасителя, я сокрушу тебя! Смирись, негодяй!\" Корабль довольно грубо обрывает связь и бросается в бой."
 
-#: src-en/data/events_fr_sector_tartarus.xml:334
+#: src-en/data/events_fr_sector_tartarus.xml:361
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_6\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:342
+#: src-en/data/events_fr_sector_tartarus.xml:369
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ZULU_DEFEAT\"]/text"
 msgstr ""
@@ -413,12 +515,12 @@ msgstr ""
 "что прошло несколько веков. Там, где их не было, появились туманности и "
 "звезды, а другие превратились в карликов или вовсе исчезли."
 
-#: src-en/data/events_fr_sector_tartarus.xml:346
+#: src-en/data/events_fr_sector_tartarus.xml:373
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ZULU_DEFEAT\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:348
+#: src-en/data/events_fr_sector_tartarus.xml:375
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ZULU_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -426,12 +528,12 @@ msgstr ""
 "\n"
 "\t\t\t\"Капитан!\" Его тон вдруг стал мягким, почти отеческим - совсем не таким, как при первой встрече. \"Я понимаю, что вы можете быть встревожены тем, что только что произошло, и ваша доблестная команда тоже! Но... Я просто прошу вас задержаться на минутку, чтобы я мог объяснить, почему я здесь и... и что произошло\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:352
+#: src-en/data/events_fr_sector_tartarus.xml:379
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ZULU_DEFEAT\"]/choice/event/choice/text"
 msgstr "Ладно, что здесь происходит?"
 
-#: src-en/data/events_fr_sector_tartarus.xml:354
+#: src-en/data/events_fr_sector_tartarus.xml:381
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ZULU_DEFEAT\"]/choice/event/choice/event/text"
 msgstr ""
@@ -444,12 +546,12 @@ msgstr ""
 " могу рассказать об этом подробнее, поскольку... я связан обязательствами не"
 " говорить об этом\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:356
+#: src-en/data/events_fr_sector_tartarus.xml:383
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ZULU_DEFEAT\"]/choice/event/choice/event/choice/text"
 msgstr "Значит, вы не можете дать мне настоящие ответы?"
 
-#: src-en/data/events_fr_sector_tartarus.xml:358
+#: src-en/data/events_fr_sector_tartarus.xml:385
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ZULU_DEFEAT\"]/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -459,12 +561,12 @@ msgstr ""
 "произойдет, поэтому... пожалуйста, позвольте мне пойти с вами! Позвольте мне"
 " присоединиться к душам, следующим за вами сквозь пространство и время\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:360
+#: src-en/data/events_fr_sector_tartarus.xml:387
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ZULU_DEFEAT\"]/choice/event/choice/event/choice/event/choice/text"
 msgstr "Это будет честью для меня, Зулу."
 
-#: src-en/data/events_fr_sector_tartarus.xml:362
+#: src-en/data/events_fr_sector_tartarus.xml:389
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_ZULU_DEFEAT\"]/choice/event/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -473,40 +575,72 @@ msgstr ""
 "прочитана только у выхода... она не сможет скрываться, если вы окажетесь "
 "рядом с ней\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:388
+#: src-en/data/events_fr_sector_tartarus.xml:404
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_G\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:406
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_G\"]/destroyed/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:411
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_G\"]/deadCrew/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:413
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"SHIP_FR_REVENANT_G\"]/deadCrew/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:422
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_DEATH_G\"]/lose/@text"
 msgstr ""
 "С вашим приводом Мультивселенной Ж сможет наконец осуществить свой план. "
 "Скоро Мультивселенная познает настоящий ужас."
 
-#: src-en/data/events_fr_sector_tartarus.xml:392
+#: src-en/data/events_fr_sector_tartarus.xml:430
 msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_FINAL_BOSS\"]/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS\"]/beaconType/unvisitedTooltip"
+msgstr ""
+"Местонахождение последней цели, похоже, будет доступно только после "
+"выполнения всех остальных заданий."
+
+#: src-en/data/events_fr_sector_tartarus.xml:431
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS\"]/beaconType/visitedTooltip"
+msgstr "Местонахождение финальной цели."
+
+#: src-en/data/events_fr_sector_tartarus.xml:433
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS\"]/text"
 msgstr ""
 "Здесь очень тихо. Ни света, ни движения. Здесь нет даже прыжкового маяка, "
 "хотя вы все равно смогли каким-то образом прыгнуть сюда."
 
-#: src-en/data/events_fr_sector_tartarus.xml:394
+#: src-en/data/events_fr_sector_tartarus.xml:436
 msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_FINAL_BOSS\"]/choice[1]/text"
-msgstr "У нас еще есть над чем поработать."
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS\"]/choice[1]/text"
+msgstr ""
 
-#: src-en/data/events_fr_sector_tartarus.xml:398
+#: src-en/data/events_fr_sector_tartarus.xml:440
 msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_FINAL_BOSS\"]/choice[@req=\"loc_fr_bounty_progression\""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS\"]/choice[@req=\"loc_fr_bounty_progression\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 "Седьмая запись о цели пуста. Сначала нужно разобраться с оставшейся частью "
 "списка!"
 
-#: src-en/data/events_fr_sector_tartarus.xml:402
+#: src-en/data/events_fr_sector_tartarus.xml:444
 msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_FINAL_BOSS\"]/choice[@req=\"loc_fr_bounty_progression\""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS\"]/choice[@req=\"loc_fr_bounty_progression\""
 " and @lvl=\"6\"]/text"
 msgstr "Прочитать последнюю запись."
 
-#: src-en/data/events_fr_sector_tartarus.xml:408
+#: src-en/data/events_fr_sector_tartarus.xml:450
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_TRUE\"]/text"
 msgstr ""
@@ -517,12 +651,12 @@ msgstr ""
 "начинает болеть, глядя на все это, сокрушительная мигрень давит на ваше "
 "восприятие."
 
-#: src-en/data/events_fr_sector_tartarus.xml:410
+#: src-en/data/events_fr_sector_tartarus.xml:452
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_TRUE\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:412
+#: src-en/data/events_fr_sector_tartarus.xml:454
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_TRUE\"]/choice/event/text"
 msgstr ""
@@ -530,12 +664,12 @@ msgstr ""
 "\n"
 "\t\t\t\"МОЛИ\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:418
+#: src-en/data/events_fr_sector_tartarus.xml:460
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_TRUE\"]/choice/event/choice/text"
 msgstr "Молиться."
 
-#: src-en/data/events_fr_sector_tartarus.xml:420
+#: src-en/data/events_fr_sector_tartarus.xml:462
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_TRUE\"]/choice/event/choice/event/text"
 msgstr ""
@@ -543,14 +677,14 @@ msgstr ""
 "\n"
 "\t\t\t\t\t\t\"Похоже, ты наконец-то нашел того, кого искал. Как... мило! Честно говоря, я ожидала увидеть врага куда более впечатляющего, чем... такого. Я веками думала о том, как будет выглядеть мой финальный поединок, и всегда хотела, чтобы это было что-то... кульминационное. Другой Дворянин? Королева кристаллинов? Возможно, сам древний король ланиусов. Однако, похоже... что я... попала на тебя\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:424
+#: src-en/data/events_fr_sector_tartarus.xml:466
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_TRUE\"]/choice/event/choice/event/choice/text"
 msgstr ""
 "\"Ж... Пожалуйста, ты должна прекратить все это, позволь этому смертному "
 "освободить тебя от твоего проклятия, пожалуйста!\""
 
-#: src-en/data/events_fr_sector_tartarus.xml:426
+#: src-en/data/events_fr_sector_tartarus.xml:468
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_TRUE\"]/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -558,12 +692,12 @@ msgstr ""
 "\n"
 "\t\t\t\t\t\t\t\t\tЗулу пытается продолжить разговор, но Ж прерывает его. \"О, Зулу... Я знаю, что ты пытаешься помочь, но... эта битва неизбежна. Эта богом забытая книга заставляет меня сражаться! Я обещаю... когда эта битва закончится, я обещаю, что верну тебя обратно, снова и снова\". Ж отключает связь, ее огромный корабль оживает, и от одного только включения его двигателей по ткани реальности пробегает рябь."
 
-#: src-en/data/events_fr_sector_tartarus.xml:432
+#: src-en/data/events_fr_sector_tartarus.xml:474
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_TRUE\"]/choice/event/choice/event/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:444
+#: src-en/data/events_fr_sector_tartarus.xml:486
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_G_DEFEAT\"]/text"
 msgstr ""
@@ -575,12 +709,12 @@ msgstr ""
 "фрагменты ее корабля снова становятся различимы - миллион крошечных осколков"
 " неизвестной вам технологии. Наконец-то... вы победили."
 
-#: src-en/data/events_fr_sector_tartarus.xml:451
+#: src-en/data/events_fr_sector_tartarus.xml:493
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_G_DEFEAT\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:453
+#: src-en/data/events_fr_sector_tartarus.xml:495
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_G_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -590,12 +724,12 @@ msgstr ""
 "\t\t\t\t  \n"
 "\t\t\t\"Зулу... нет, все. Мне очень жаль. Мне очень, очень жаль. Я... я понимаю, если вы не можете простить меня за то, что я сделала с вами всеми...\""
 
-#: src-en/data/events_fr_sector_tartarus.xml:460
+#: src-en/data/events_fr_sector_tartarus.xml:502
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_G_DEFEAT\"]/choice/event/choice/text"
 msgstr "Эх, вы подарили нам много лома. С этим ничего не поделаешь."
 
-#: src-en/data/events_fr_sector_tartarus.xml:462
+#: src-en/data/events_fr_sector_tartarus.xml:504
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_G_DEFEAT\"]/choice/event/choice/event/text"
 msgstr ""
@@ -615,12 +749,12 @@ msgstr ""
 "\t\t\t\t\t\t\n"
 "\t\t\t\t\t\t\tКогда вся толпа высказала все, что хотела сказать Ж, все повернулись к вам."
 
-#: src-en/data/events_fr_sector_tartarus.xml:478
+#: src-en/data/events_fr_sector_tartarus.xml:520
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_G_DEFEAT\"]/choice/event/choice/event/choice/text"
 msgstr "У нас все еще есть миссия. Присоединяйтесь, если хотите!"
 
-#: src-en/data/events_fr_sector_tartarus.xml:480
+#: src-en/data/events_fr_sector_tartarus.xml:522
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_G_DEFEAT\"]/choice/event/choice/event/choice/event/text"
 msgstr ""
@@ -629,7 +763,7 @@ msgstr ""
 "со мной? Я... впечатлена. Даже потрясена. Что ж... Сейчас я разработаю план "
 "выхода. Спасибо... капитан\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:494
+#: src-en/data/events_fr_sector_tartarus.xml:536
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_G_SECTOR_SELECT\"]/text"
 msgstr ""
@@ -639,71 +773,22 @@ msgstr ""
 "\n"
 "\t\"Вот как мы покинем это проклятое место. Просто задайте пункт назначения в вашей навигационной системе и оставьте Путеводный камень рядом с двигателями... он сделает всю работу за вас!\""
 
-#: src-en/data/events_fr_sector_tartarus.xml:500
+#: src-en/data/events_fr_sector_tartarus.xml:542
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_G_SECTOR_SELECT\"]/choice/text"
 msgstr "Спасибо, Ж."
 
-#: src-en/data/events_fr_sector_tartarus.xml:502
+#: src-en/data/events_fr_sector_tartarus.xml:544
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_G_SECTOR_SELECT\"]/choice/event/text"
 msgstr "\"Не беспокойся об этом... спаситель, это меньшее, что я могу сделать\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:504
+#: src-en/data/events_fr_sector_tartarus.xml:546
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_G_SECTOR_SELECT\"]/choice/event/choice[@req=\"fr_revenant_urn_unlocked\""
-" and @lvl=\"0\"]/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_G_SECTOR_SELECT\"]/choice/event/choice/text"
 msgstr "Давайте убираться отсюда."
 
-#: src-en/data/events_fr_sector_tartarus.xml:508
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_G_SECTOR_SELECT\"]/choice/event/choice[@req=\"fr_revenant_urn_unlocked\""
-" and @lvl=\"1\"]/text"
-msgstr "Давайте убираться отсюда."
-
-#: src-en/data/events_fr_sector_tartarus.xml:516
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_URN_GIFT\"]/text"
-msgstr ""
-"Когда вы начинаете вводить данные о месте назначения, Ж останавливает вас, предлагая еще один подарок: Урну, выкрашенную в ярко-красный цвет с белой остроконечной крышкой.\n"
-"\t\n"
-"\t\"Спаситель... подождите. Я хотела бы предложить вам еще один знак моей признательности. Эту Урну я соорудила в свободное время, воспользовавшись своими знаниями... она может призывать умерших, не тревожа их покоящиеся души\"."
-
-#: src-en/data/events_fr_sector_tartarus.xml:520
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_URN_GIFT\"]/choice/text"
-msgstr "Зачем мне это нужно?"
-
-#: src-en/data/events_fr_sector_tartarus.xml:522
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_URN_GIFT\"]/choice/event/text"
-msgstr ""
-"Ж смеется и трясет своими призрачными руками-выступами.. \"Нууууу же. Вы же "
-"знаете, что не можете упустить возможность получить больше лома! Думаю, "
-"никто из вас, Ренегатов, не упустит эту возможность... хотя для тех, кто "
-"предпочитает оптимизировать свои корабли, я уверена, что новые орудия и "
-"дроны, которыми могут похвастаться эти... \"явления\"... придутся больше по "
-"вкусу\"."
-
-#: src-en/data/events_fr_sector_tartarus.xml:524
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_URN_GIFT\"]/choice/event/choice/text"
-msgstr "Больше орудий? Я в деле!"
-
-#: src-en/data/events_fr_sector_tartarus.xml:526
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_URN_GIFT\"]/choice/event/choice/event/text"
-msgstr ""
-"Выражение лица Ж меняется, и она похлопывает вас по спине. Это немного неудобно, учитывая, что ее конечности имеют кубическую форму.\n"
-"\t\t\t\t\t\t\n"
-"\t\t\t\t\t\t\"Вот это дух, спаситель! Возможно, силы Урны еще не иссякли... хотя, время покажет\"."
-
-#: src-en/data/events_fr_sector_tartarus.xml:532
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_URN_GIFT\"]/choice/event/choice/event/choice/text"
-msgstr "Понятно."
-
-#: src-en/data/events_fr_sector_tartarus.xml:542
+#: src-en/data/events_fr_sector_tartarus.xml:554
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/text"
 msgstr ""
@@ -713,63 +798,63 @@ msgstr ""
 "понравится! И еще... я постараюсь сделать все возможное, чтобы освободить их"
 " всех."
 
-#: src-en/data/events_fr_sector_tartarus.xml:544
+#: src-en/data/events_fr_sector_tartarus.xml:556
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[1]/text"
 msgstr "Выбрать пусковую установку бомб Слимера."
 
-#: src-en/data/events_fr_sector_tartarus.xml:546
+#: src-en/data/events_fr_sector_tartarus.xml:558
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[1]/event/text"
 msgstr ""
 "Слимер ухмыляется. \"Тебе нужна моя пусссковая уссстановка бомб...? Ну... "
 "надеюсссь, она поссслужит тебе так же хорошшшо, как и мне\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:549
+#: src-en/data/events_fr_sector_tartarus.xml:561
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:555
+#: src-en/data/events_fr_sector_tartarus.xml:567
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[2]/text"
 msgstr "Выбрать луч Физ."
 
-#: src-en/data/events_fr_sector_tartarus.xml:557
+#: src-en/data/events_fr_sector_tartarus.xml:569
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[2]/event/text"
 msgstr ""
 "Физ раскачивается из стороны в сторону в экстазе. \"Мой луч! Очень мощный, "
 "очень блестящий! Очень... пронзительный!\""
 
-#: src-en/data/events_fr_sector_tartarus.xml:560
+#: src-en/data/events_fr_sector_tartarus.xml:572
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:566
+#: src-en/data/events_fr_sector_tartarus.xml:578
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[3]/text"
 msgstr "Выбрать лазер Алеенор."
 
-#: src-en/data/events_fr_sector_tartarus.xml:568
+#: src-en/data/events_fr_sector_tartarus.xml:580
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[3]/event/text"
 msgstr ""
 "Алеенор делает взмах рукой. \"Самое совершенное оружие войны. Все умрут за "
 "один выстрел!\""
 
-#: src-en/data/events_fr_sector_tartarus.xml:571
+#: src-en/data/events_fr_sector_tartarus.xml:583
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:577
+#: src-en/data/events_fr_sector_tartarus.xml:589
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[4]/text"
 msgstr "Выбрать ракетную установку Вина"
 
-#: src-en/data/events_fr_sector_tartarus.xml:579
+#: src-en/data/events_fr_sector_tartarus.xml:591
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[4]/event/text"
 msgstr ""
@@ -777,17 +862,17 @@ msgstr ""
 "мере, есть вкус. Это орудие было создано, чтобы плавить камень и сталь, не "
 "стоит расточать его славу на неподходящего противника!\""
 
-#: src-en/data/events_fr_sector_tartarus.xml:582
+#: src-en/data/events_fr_sector_tartarus.xml:594
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:588
+#: src-en/data/events_fr_sector_tartarus.xml:600
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[5]/text"
 msgstr "Выбрать солдат Клео."
 
-#: src-en/data/events_fr_sector_tartarus.xml:590
+#: src-en/data/events_fr_sector_tartarus.xml:602
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[5]/event/text"
 msgstr ""
@@ -795,17 +880,17 @@ msgstr ""
 "\t\t\t\t\n"
 "\t\t\t\"Если я увижу на нем хоть одну царапину... я ИСПЕПЕЛЮ ТЕБЯ ЗАЖИВО. Понятно?\""
 
-#: src-en/data/events_fr_sector_tartarus.xml:595
+#: src-en/data/events_fr_sector_tartarus.xml:607
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[5]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:601
+#: src-en/data/events_fr_sector_tartarus.xml:613
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[6]/text"
 msgstr "Выбрать луч Зулу."
 
-#: src-en/data/events_fr_sector_tartarus.xml:603
+#: src-en/data/events_fr_sector_tartarus.xml:615
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[6]/event/text"
 msgstr ""
@@ -813,29 +898,29 @@ msgstr ""
 "Орудие, передававшееся из поколения в поколение, а теперь переданное самому "
 "достойному хозяину\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:606
+#: src-en/data/events_fr_sector_tartarus.xml:618
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[6]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:612
+#: src-en/data/events_fr_sector_tartarus.xml:624
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[7]/text"
 msgstr "Выбрать пушку Ж."
 
-#: src-en/data/events_fr_sector_tartarus.xml:614
+#: src-en/data/events_fr_sector_tartarus.xml:626
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[7]/event/text"
 msgstr ""
 "Ж оживляется, левитируя над массивным орудием. \"У вас есть вкус, Ренегат. "
 "Хотя я и не ожидала меньшего от такого человека, как вы\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:617
+#: src-en/data/events_fr_sector_tartarus.xml:629
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_SELECT_TARTARUS\"]/choice[7]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:625
+#: src-en/data/events_fr_sector_tartarus.xml:637
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/text"
 msgstr ""
@@ -844,12 +929,12 @@ msgstr ""
 " полностью освободить только одного. Мы все, конечно, пойдем за вами, но... "
 "вы должны выбрать, кто сможет проявить себя\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:627
+#: src-en/data/events_fr_sector_tartarus.xml:639
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[1]/text"
 msgstr "Выбрать Слимера."
 
-#: src-en/data/events_fr_sector_tartarus.xml:629
+#: src-en/data/events_fr_sector_tartarus.xml:641
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[1]/event/text"
 msgstr ""
@@ -857,17 +942,17 @@ msgstr ""
 "\n"
 "\t\t\t(Нажмите кнопку прыжка, чтобы выбрать пункт назначения)"
 
-#: src-en/data/events_fr_sector_tartarus.xml:632
+#: src-en/data/events_fr_sector_tartarus.xml:644
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[1]/event/crewMember"
 msgstr "Слимер"
 
-#: src-en/data/events_fr_sector_tartarus.xml:637
+#: src-en/data/events_fr_sector_tartarus.xml:649
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[2]/text"
 msgstr "Выбрать Физ."
 
-#: src-en/data/events_fr_sector_tartarus.xml:639
+#: src-en/data/events_fr_sector_tartarus.xml:651
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[2]/event/text"
 msgstr ""
@@ -875,17 +960,17 @@ msgstr ""
 "\n"
 "\t\t\t(Нажмите кнопку прыжка, чтобы выбрать пункт назначения)"
 
-#: src-en/data/events_fr_sector_tartarus.xml:642
+#: src-en/data/events_fr_sector_tartarus.xml:654
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[2]/event/crewMember"
 msgstr "Физ"
 
-#: src-en/data/events_fr_sector_tartarus.xml:647
+#: src-en/data/events_fr_sector_tartarus.xml:659
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[3]/text"
 msgstr "Выбрать Алеенор."
 
-#: src-en/data/events_fr_sector_tartarus.xml:649
+#: src-en/data/events_fr_sector_tartarus.xml:661
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[3]/event/text"
 msgstr ""
@@ -893,17 +978,17 @@ msgstr ""
 "\n"
 "\t\t\t(Нажмите кнопку прыжка, чтобы выбрать пункт назначения)"
 
-#: src-en/data/events_fr_sector_tartarus.xml:652
+#: src-en/data/events_fr_sector_tartarus.xml:664
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[3]/event/crewMember"
 msgstr "Алеенор"
 
-#: src-en/data/events_fr_sector_tartarus.xml:657
+#: src-en/data/events_fr_sector_tartarus.xml:669
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[4]/text"
 msgstr "Выбрать Вин."
 
-#: src-en/data/events_fr_sector_tartarus.xml:659
+#: src-en/data/events_fr_sector_tartarus.xml:671
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[4]/event/text"
 msgstr ""
@@ -911,17 +996,17 @@ msgstr ""
 "\n"
 "\t\t\t(Нажмите кнопку прыжка, чтобы выбрать пункт назначения)"
 
-#: src-en/data/events_fr_sector_tartarus.xml:662
+#: src-en/data/events_fr_sector_tartarus.xml:674
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[4]/event/crewMember"
 msgstr "Вин"
 
-#: src-en/data/events_fr_sector_tartarus.xml:667
+#: src-en/data/events_fr_sector_tartarus.xml:679
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[5]/text"
 msgstr "Выбрать Клео."
 
-#: src-en/data/events_fr_sector_tartarus.xml:669
+#: src-en/data/events_fr_sector_tartarus.xml:681
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[5]/event/text"
 msgstr ""
@@ -929,17 +1014,17 @@ msgstr ""
 "\n"
 "\t\t\t(Нажмите кнопку прыжка, чтобы выбрать пункт назначения)"
 
-#: src-en/data/events_fr_sector_tartarus.xml:672
+#: src-en/data/events_fr_sector_tartarus.xml:684
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[5]/event/crewMember"
 msgstr "Клео"
 
-#: src-en/data/events_fr_sector_tartarus.xml:677
+#: src-en/data/events_fr_sector_tartarus.xml:689
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[6]/text"
 msgstr "Выбрать Зулу."
 
-#: src-en/data/events_fr_sector_tartarus.xml:679
+#: src-en/data/events_fr_sector_tartarus.xml:691
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[6]/event/text"
 msgstr ""
@@ -947,17 +1032,17 @@ msgstr ""
 "\n"
 "\t\t\t(Нажмите кнопку прыжка, чтобы выбрать пункт назначения)"
 
-#: src-en/data/events_fr_sector_tartarus.xml:682
+#: src-en/data/events_fr_sector_tartarus.xml:694
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[6]/event/crewMember"
 msgstr "Зулу"
 
-#: src-en/data/events_fr_sector_tartarus.xml:687
+#: src-en/data/events_fr_sector_tartarus.xml:699
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[7]/text"
 msgstr "Выбрать Ж."
 
-#: src-en/data/events_fr_sector_tartarus.xml:689
+#: src-en/data/events_fr_sector_tartarus.xml:701
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[7]/event/text"
 msgstr ""
@@ -965,680 +1050,714 @@ msgstr ""
 "\n"
 "\t\t\t(Нажмите кнопку прыжка, чтобы выбрать пункт назначения)"
 
-#: src-en/data/events_fr_sector_tartarus.xml:692
+#: src-en/data/events_fr_sector_tartarus.xml:704
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_SELECT_TARTARUS\"]/choice[7]/event/crewMember"
 msgstr "Ж"
 
-#: src-en/data/events_fr_sector_tartarus.xml:699
+#: src-en/data/events_fr_sector_tartarus.xml:711
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/text"
 msgstr ""
 "Вы кладете Путеводный камень в топливный отсек своего двигателя и "
 "возвращаетесь на мостик, чтобы выбрать место назначения."
 
-#: src-en/data/events_fr_sector_tartarus.xml:702
+#: src-en/data/events_fr_sector_tartarus.xml:714
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[1]/text"
 msgstr "Отправиться в центральные миры Союза."
 
-#: src-en/data/events_fr_sector_tartarus.xml:704
+#: src-en/data/events_fr_sector_tartarus.xml:716
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[1]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:708
+#: src-en/data/events_fr_sector_tartarus.xml:720
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:714
+#: src-en/data/events_fr_sector_tartarus.xml:726
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[2]/text"
 msgstr "Отправиться в лагерь Ополчения."
 
-#: src-en/data/events_fr_sector_tartarus.xml:716
+#: src-en/data/events_fr_sector_tartarus.xml:728
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[2]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:720
+#: src-en/data/events_fr_sector_tartarus.xml:732
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[2]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:726
+#: src-en/data/events_fr_sector_tartarus.xml:738
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[3]/text"
 msgstr "Отправиться в сектор Федерации."
 
-#: src-en/data/events_fr_sector_tartarus.xml:728
+#: src-en/data/events_fr_sector_tartarus.xml:740
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[3]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:732
+#: src-en/data/events_fr_sector_tartarus.xml:744
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[3]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:738
+#: src-en/data/events_fr_sector_tartarus.xml:750
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[4]/text"
 msgstr "Отправиться в центральные миры Гармонии."
 
-#: src-en/data/events_fr_sector_tartarus.xml:740
+#: src-en/data/events_fr_sector_tartarus.xml:752
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[4]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:744
+#: src-en/data/events_fr_sector_tartarus.xml:756
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[4]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:750
+#: src-en/data/events_fr_sector_tartarus.xml:762
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[5]/text"
 msgstr "Отправиться в Освобожденное Убежище."
 
-#: src-en/data/events_fr_sector_tartarus.xml:752
+#: src-en/data/events_fr_sector_tartarus.xml:764
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[5]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:756
+#: src-en/data/events_fr_sector_tartarus.xml:768
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[5]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:762
+#: src-en/data/events_fr_sector_tartarus.xml:774
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[6]/text"
 msgstr "Отправиться в столицу Министерства."
 
-#: src-en/data/events_fr_sector_tartarus.xml:764
+#: src-en/data/events_fr_sector_tartarus.xml:776
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[6]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:768
+#: src-en/data/events_fr_sector_tartarus.xml:780
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[6]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:774
+#: src-en/data/events_fr_sector_tartarus.xml:786
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[7]/text"
 msgstr "Отправиться в Сады Соцветия."
 
-#: src-en/data/events_fr_sector_tartarus.xml:776
+#: src-en/data/events_fr_sector_tartarus.xml:788
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[7]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:780
+#: src-en/data/events_fr_sector_tartarus.xml:792
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[7]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:786
+#: src-en/data/events_fr_sector_tartarus.xml:798
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[8]/text"
 msgstr "Отправиться в Охотничьи Угодья Свободных Богомолов."
 
-#: src-en/data/events_fr_sector_tartarus.xml:788
+#: src-en/data/events_fr_sector_tartarus.xml:800
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[8]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:792
+#: src-en/data/events_fr_sector_tartarus.xml:804
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[8]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:798
+#: src-en/data/events_fr_sector_tartarus.xml:810
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[9]/text"
 msgstr "Отправиться в новые родные миры Империи."
 
-#: src-en/data/events_fr_sector_tartarus.xml:800
+#: src-en/data/events_fr_sector_tartarus.xml:812
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[9]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:804
+#: src-en/data/events_fr_sector_tartarus.xml:816
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[9]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:810
+#: src-en/data/events_fr_sector_tartarus.xml:822
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[10]/text"
 msgstr "Отправиться в пустоши Теократии."
 
-#: src-en/data/events_fr_sector_tartarus.xml:812
+#: src-en/data/events_fr_sector_tartarus.xml:824
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[10]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:816
+#: src-en/data/events_fr_sector_tartarus.xml:828
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[10]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:822
+#: src-en/data/events_fr_sector_tartarus.xml:834
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[11]/text"
 msgstr "Отправиться в оплот Затерянных Солнц."
 
-#: src-en/data/events_fr_sector_tartarus.xml:824
+#: src-en/data/events_fr_sector_tartarus.xml:836
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[11]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:828
+#: src-en/data/events_fr_sector_tartarus.xml:840
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[11]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:834
+#: src-en/data/events_fr_sector_tartarus.xml:846
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[12]/text"
 msgstr "Отправиться в скопление Роя ланиусов."
 
-#: src-en/data/events_fr_sector_tartarus.xml:836
+#: src-en/data/events_fr_sector_tartarus.xml:848
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[12]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:840
+#: src-en/data/events_fr_sector_tartarus.xml:852
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[12]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:846
+#: src-en/data/events_fr_sector_tartarus.xml:858
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[13]/text"
 msgstr "Отправиться на Черный Рынок."
 
-#: src-en/data/events_fr_sector_tartarus.xml:848
+#: src-en/data/events_fr_sector_tartarus.xml:860
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[13]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:852
+#: src-en/data/events_fr_sector_tartarus.xml:864
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[13]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:858
+#: src-en/data/events_fr_sector_tartarus.xml:870
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[14]/text"
 msgstr "Отправиться во взломанный гражданский сектор."
 
-#: src-en/data/events_fr_sector_tartarus.xml:860
+#: src-en/data/events_fr_sector_tartarus.xml:872
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[14]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:864
+#: src-en/data/events_fr_sector_tartarus.xml:876
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[14]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:870
+#: src-en/data/events_fr_sector_tartarus.xml:882
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[15]/text"
 msgstr "Отправиться в оплот повстанцев."
 
-#: src-en/data/events_fr_sector_tartarus.xml:872
+#: src-en/data/events_fr_sector_tartarus.xml:884
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[15]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:876
+#: src-en/data/events_fr_sector_tartarus.xml:888
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[15]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:882
+#: src-en/data/events_fr_sector_tartarus.xml:894
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[16]/text"
 msgstr "Отправиться в центральные верфи."
 
-#: src-en/data/events_fr_sector_tartarus.xml:884
+#: src-en/data/events_fr_sector_tartarus.xml:896
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[16]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:888
+#: src-en/data/events_fr_sector_tartarus.xml:900
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[16]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:894
+#: src-en/data/events_fr_sector_tartarus.xml:906
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[17]/text"
 msgstr "Отправиться в рассадник Улья."
 
-#: src-en/data/events_fr_sector_tartarus.xml:896
+#: src-en/data/events_fr_sector_tartarus.xml:908
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[17]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:900
+#: src-en/data/events_fr_sector_tartarus.xml:912
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[17]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:906
+#: src-en/data/events_fr_sector_tartarus.xml:918
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[18]/text"
 msgstr "Отправиться в родные миры Теократии."
 
-#: src-en/data/events_fr_sector_tartarus.xml:908
+#: src-en/data/events_fr_sector_tartarus.xml:920
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[18]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путеводному камню делать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:912
+#: src-en/data/events_fr_sector_tartarus.xml:924
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[18]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:918
+#: src-en/data/events_fr_sector_tartarus.xml:930
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[19]/text"
 msgstr "Отправиться в оплот Вестников Заката."
 
-#: src-en/data/events_fr_sector_tartarus.xml:920
+#: src-en/data/events_fr_sector_tartarus.xml:932
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[19]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:924
+#: src-en/data/events_fr_sector_tartarus.xml:936
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[19]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:930
+#: src-en/data/events_fr_sector_tartarus.xml:942
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[20]/text"
 msgstr "Отправиться в столицу Клептократии."
 
-#: src-en/data/events_fr_sector_tartarus.xml:932
+#: src-en/data/events_fr_sector_tartarus.xml:944
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[20]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:936
+#: src-en/data/events_fr_sector_tartarus.xml:948
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[20]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:942
+#: src-en/data/events_fr_sector_tartarus.xml:954
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[21]/text"
 msgstr "Отправиться на территории Гильдии."
 
-#: src-en/data/events_fr_sector_tartarus.xml:944
+#: src-en/data/events_fr_sector_tartarus.xml:956
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[21]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:948
+#: src-en/data/events_fr_sector_tartarus.xml:960
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[21]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:954
+#: src-en/data/events_fr_sector_tartarus.xml:966
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[22]/text"
 msgstr "Отправиться в центральные туманности ракушек."
 
-#: src-en/data/events_fr_sector_tartarus.xml:956
+#: src-en/data/events_fr_sector_tartarus.xml:968
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[22]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:960
+#: src-en/data/events_fr_sector_tartarus.xml:972
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[22]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:966
+#: src-en/data/events_fr_sector_tartarus.xml:978
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[23]/text"
 msgstr "Отправиться в научный район ракушек."
 
-#: src-en/data/events_fr_sector_tartarus.xml:968
+#: src-en/data/events_fr_sector_tartarus.xml:980
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[23]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:972
+#: src-en/data/events_fr_sector_tartarus.xml:984
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[23]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:978
+#: src-en/data/events_fr_sector_tartarus.xml:990
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[24]/text"
 msgstr "Отправиться в Иргенскую столицу."
 
-#: src-en/data/events_fr_sector_tartarus.xml:980
+#: src-en/data/events_fr_sector_tartarus.xml:992
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[24]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:984
+#: src-en/data/events_fr_sector_tartarus.xml:996
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[24]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:990
+#: src-en/data/events_fr_sector_tartarus.xml:1002
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[25]/text"
 msgstr "Отправиться в Убежище монахов."
 
-#: src-en/data/events_fr_sector_tartarus.xml:992
+#: src-en/data/events_fr_sector_tartarus.xml:1004
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[25]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:996
+#: src-en/data/events_fr_sector_tartarus.xml:1008
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[25]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1002
+#: src-en/data/events_fr_sector_tartarus.xml:1014
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[26]/text"
 msgstr "Отправиться в призрачные пустоши."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1004
+#: src-en/data/events_fr_sector_tartarus.xml:1016
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[26]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1008
+#: src-en/data/events_fr_sector_tartarus.xml:1020
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[26]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1014
+#: src-en/data/events_fr_sector_tartarus.xml:1026
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[27]/text"
 msgstr "Отправиться в столицу призраков."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1016
+#: src-en/data/events_fr_sector_tartarus.xml:1028
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[27]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1020
+#: src-en/data/events_fr_sector_tartarus.xml:1032
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[27]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1026
+#: src-en/data/events_fr_sector_tartarus.xml:1038
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[28]/text"
 msgstr "Отправиться в оплот Коалиции."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1028
+#: src-en/data/events_fr_sector_tartarus.xml:1040
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[28]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1032
+#: src-en/data/events_fr_sector_tartarus.xml:1044
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[28]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1038
+#: src-en/data/events_fr_sector_tartarus.xml:1050
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[29]/text"
 msgstr "Отправиться в центральные миры Конфедерации."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1040
+#: src-en/data/events_fr_sector_tartarus.xml:1052
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[29]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1044
+#: src-en/data/events_fr_sector_tartarus.xml:1056
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[29]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1050
+#: src-en/data/events_fr_sector_tartarus.xml:1062
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[30]/text"
 msgstr "Отправиться в ГектарМегаМаркет."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1052
+#: src-en/data/events_fr_sector_tartarus.xml:1064
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[30]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1056
+#: src-en/data/events_fr_sector_tartarus.xml:1068
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[30]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1062
+#: src-en/data/events_fr_sector_tartarus.xml:1074
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[31]/text"
 msgstr "Отправиться в протекторат Джерома."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1064
+#: src-en/data/events_fr_sector_tartarus.xml:1076
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[31]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1068
+#: src-en/data/events_fr_sector_tartarus.xml:1080
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[31]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1074
+#: src-en/data/events_fr_sector_tartarus.xml:1086
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[32]/text"
-msgstr "Отправиться к истокам кристаллинов."
+msgstr "Отправиться в ГектарМегаМаркет."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1076
+#: src-en/data/events_fr_sector_tartarus.xml:1088
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[32]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1080
+#: src-en/data/events_fr_sector_tartarus.xml:1092
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[32]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1086
+#: src-en/data/events_fr_sector_tartarus.xml:1098
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[33]/text"
-msgstr "Отправиться в оплот Выводка."
+msgstr "Отправиться в протекторат Джерома."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1088
+#: src-en/data/events_fr_sector_tartarus.xml:1100
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[33]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1092
+#: src-en/data/events_fr_sector_tartarus.xml:1104
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[33]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1098
+#: src-en/data/events_fr_sector_tartarus.xml:1110
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[34]/text"
-msgstr "Отправиться в штаб-квартиру \"Инноваций Вентворта\"."
+msgstr "Отправиться к истокам кристаллинов."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1100
+#: src-en/data/events_fr_sector_tartarus.xml:1112
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[34]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1104
+#: src-en/data/events_fr_sector_tartarus.xml:1116
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[34]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1110
+#: src-en/data/events_fr_sector_tartarus.xml:1122
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[35]/text"
 msgstr "Отправиться в Королевские туманности."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1112
+#: src-en/data/events_fr_sector_tartarus.xml:1124
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[35]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1116
+#: src-en/data/events_fr_sector_tartarus.xml:1128
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[35]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1122
+#: src-en/data/events_fr_sector_tartarus.xml:1134
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[36]/text"
-msgstr "Отправиться в руины древних."
+msgstr "Отправиться в штаб-квартиру \"Инноваций Вентворта\"."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1124
+#: src-en/data/events_fr_sector_tartarus.xml:1136
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[36]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1128
+#: src-en/data/events_fr_sector_tartarus.xml:1140
 msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[36]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1134
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_opened_nexus\"]/text"
-msgstr "Отправиться в центр Нексуса."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1136
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_opened_nexus\"]/event/text"
-msgstr ""
-"Вы указываете координаты и позволяете Путевому камню сделать свое дело."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1140
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_opened_nexus\"]/event/choice/text"
-msgstr "Продолжить..."
-
 #: src-en/data/events_fr_sector_tartarus.xml:1146
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[38]/text"
-msgstr "Отправиться в Пустоши древних."
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[37]/text"
+msgstr ""
 
 #: src-en/data/events_fr_sector_tartarus.xml:1148
+#, fuzzy
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[38]/event/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[37]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
 #: src-en/data/events_fr_sector_tartarus.xml:1152
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[38]/event/choice/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[37]/event/choice/text"
 msgstr "Продолжить..."
 
 #: src-en/data/events_fr_sector_tartarus.xml:1158
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_went_commonwealth_rift\"]/text"
-msgstr "Отправиться в Убежище Содружества."
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[38]/text"
+msgstr "Отправиться в руины древних."
 
 #: src-en/data/events_fr_sector_tartarus.xml:1160
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[38]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
 #: src-en/data/events_fr_sector_tartarus.xml:1164
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/choice/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[38]/event/choice/text"
 msgstr "Продолжить..."
 
 #: src-en/data/events_fr_sector_tartarus.xml:1170
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[40]/text"
-msgstr "Отправиться в родные миры обелисков."
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_opened_nexus\"]/text"
+msgstr "Отправиться в центр Нексуса."
 
 #: src-en/data/events_fr_sector_tartarus.xml:1172
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[40]/event/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_opened_nexus\"]/event/text"
 msgstr ""
 "Вы указываете координаты и позволяете Путевому камню сделать свое дело."
 
 #: src-en/data/events_fr_sector_tartarus.xml:1176
 msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_opened_nexus\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:1182
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[40]/text"
+msgstr "Отправиться в родные миры обелисков."
+
+#: src-en/data/events_fr_sector_tartarus.xml:1184
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[40]/event/text"
+msgstr ""
+"Вы указываете координаты и позволяете Путевому камню сделать свое дело."
+
+#: src-en/data/events_fr_sector_tartarus.xml:1188
+msgid ""
 "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[40]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1184
+#: src-en/data/events_fr_sector_tartarus.xml:1194
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_went_commonwealth_rift\"]/text"
+msgstr "Отправиться в Убежище Содружества."
+
+#: src-en/data/events_fr_sector_tartarus.xml:1196
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/text"
+msgstr ""
+"Вы указываете координаты и позволяете Путевому камню сделать свое дело."
+
+#: src-en/data/events_fr_sector_tartarus.xml:1200
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:1206
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[42]/text"
+msgstr "Отправиться в родные миры обелисков."
+
+#: src-en/data/events_fr_sector_tartarus.xml:1208
+#, fuzzy
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[42]/event/text"
+msgstr ""
+"Вы указываете координаты и позволяете Путевому камню сделать свое дело."
+
+#: src-en/data/events_fr_sector_tartarus.xml:1212
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WAYSTONE_SELECT\"]/choice[42]/event/choice/text"
+msgstr "Продолжить..."
+
+#: src-en/data/events_fr_sector_tartarus.xml:1220
 msgid ""
 "data/events_fr_sector_tartarus.xml$//textList[@name=\"FR_TARTARUS_EMPTY_TEXT\"]/text[1]"
 msgstr ""
 "Здесь нет ничего, даже звезд не видно. Вы вздыхаете, глядя в пустоту, и "
 "просто ждете, чем обернется вся эта история с Ж."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1185
+#: src-en/data/events_fr_sector_tartarus.xml:1221
 msgid ""
 "data/events_fr_sector_tartarus.xml$//textList[@name=\"FR_TARTARUS_EMPTY_TEXT\"]/text[2]"
 msgstr ""
 "Бесконечная чернота космоса простирается во все стороны, насколько хватает "
 "глаз. Снаружи нет ни звука, даже фоновых помех на ваших коммуникаторах."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1186
+#: src-en/data/events_fr_sector_tartarus.xml:1222
 msgid ""
 "data/events_fr_sector_tartarus.xml$//textList[@name=\"FR_TARTARUS_EMPTY_TEXT\"]/text[3]"
 msgstr ""
 "На секунду вам кажется, что за вами наблюдают. Вы, конечно, ничего не "
 "видите, когда оборачиваетесь, но на всякий случай присматриваетесь."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1187
+#: src-en/data/events_fr_sector_tartarus.xml:1223
 msgid ""
 "data/events_fr_sector_tartarus.xml$//textList[@name=\"FR_TARTARUS_EMPTY_TEXT\"]/text[4]"
 msgstr ""
@@ -1647,906 +1766,123 @@ msgstr ""
 "туманности, возможно, даже переговоры повстанцев... но здесь нет даже флота,"
 " о котором можно было бы беспокоиться."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1192
+#: src-en/data/events_fr_sector_tartarus.xml:1228
 msgid ""
 "data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_EMPTY\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1234
+#: src-en/data/events_fr_sector_tartarus.xml:1245
 msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_1\"]/text"
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_AUGUSTUS\"]/destroyed/text"
 msgstr ""
-"Когда вы прыгаете к следующему маяку, вас настигает пронзительный визг. Гном начал свои обычные проделки, но... на таком уровне, какого вы еще никогда не видели! Весь корабль начинает трястись и вращаться, сбивая всех с ног, а гном попадает к вам в руки, заставляя вас сжимать его изо всех сил, пока ваш мир исчезает в черноте. Когда вы очнулись, звезды за иллюминатором оказываются красными и до невозможности искаженными. И что еще хуже, все цели в вашем списке были заменены на совершенно новые!\n"
-"\t\n"
-"\tЧерез некоторое время вы нерешительно начинаете читать запись. В ней рассказывается о Смоук, кристаллине-Часовом. Он был известен только под своим прозвищем, благодаря сероватому оттенку, проступающему сквозь его облик, и однажды он исчез после того, как сделал заявление против императрицы. По слухам, он начал слышать в своей голове шепот, который сводил его с ума, и был казнен за неповиновение - доказательство этих слухов сейчас перед вами."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1239
+#: src-en/data/events_fr_sector_tartarus.xml:1247
 msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_1\"]/choice/text"
-msgstr "Звучит.. до ужаса знакомо."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1241
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_1\"]/choice/event/text"
-msgstr ""
-"Вы смотрите на гнома, но он просто снова вернулся в неактивное состояние. "
-"Положив его на землю, вы поднимаете голову и видите, что прямо на вас "
-"смотрит огромный кристаллический корабль, ваши средства коммуникации "
-"наполнены демоническим шепотом и помехами, а невозможная тьма окутывает все "
-"за пределами вашего обзорного экрана. Вызов, который он посылает, только "
-"звуковой, но вы можете услышать характерный, дрожащий голос кристаллины, "
-"кричащего от боли, когда корабль активирует орудия. \"Голоса... Г-голоса... "
-"Голоса! УБИРАЙТЕСЬ ИЗ МОЕЙ ГОЛОВЫ!\""
-
-#: src-en/data/events_fr_sector_tartarus.xml:1244
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_1\"]/choice/event/choice/text"
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_AUGUSTUS\"]/destroyed/choice/text"
 msgstr "Продолжить..."
 
 #: src-en/data/events_fr_sector_tartarus.xml:1252
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_SMOKE_DEFEAT\"]/text"
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_AUGUSTUS\"]/deadCrew/text"
 msgstr ""
-"Кристаллический корабль разлетается на множество острых осколков, уносясь по"
-" спирали в бездну. Когда вы смотрите вниз на гнома, он таинственным образом "
-"поворачивается в направлении, в котором находится ваша следующая цель."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1256
+#: src-en/data/events_fr_sector_tartarus.xml:1254
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_SMOKE_DEFEAT\"]/choice/text"
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_AUGUSTUS\"]/deadCrew/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1258
+#: src-en/data/events_fr_sector_tartarus.xml:1266
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_SMOKE_DEFEAT\"]/choice/event/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_AUGUSTUS\"]/text"
 msgstr ""
-"Подняв глаза, вы видите Смоука, стоящего прямо перед вами. Его внешность, хотя и искаженная спиритическим свечением, в точности соответствует описанию в вашей записи. Прежде чем вы успеваете выхватить бластер, он поднимает руку, желая просто поговорить.\n"
-"\n"
-"\t\t\t\"Спасибо, добрый Ренегат. Хотя я, возможно, и... восстановил свой рассудок... но сейчас есть куда более опасные темы для разговора. Если этот... этот гном... действительно тот, о ком я думаю, то... вы, возможно, вызвали необратимую цепь событий, которая может положить конец всему сущему, если позволить ей развиваться, просто доставив его сюда\". Смоук заговорил мягким, нежным тоном, помогая убедить вас в том, что он на стороне добра, когда его форма начинает распадаться в воздухе. \"Я сделаю все возможное, чтобы провести вас через этот сектор, хотя... К сожалению, я не могу служить непосредственно на борту вашего корабля. Надеюсь, вы поймете мое затруднительное положение\"."
+"Вы достигаете места, указанного Урной. Как и следовало ожидать, на орбите маяка находится корабль уникального дизайна, который вызывает вас, как только почувствовал ваше присутствие. Корпус корабля, похоже, целиком сделан из золота; по слухам, такой корабль принадлежал только самому богатому призраку, которое когда-либо существовало. Август, убитый во время мятежа, ревенант самого богатого призрака.\n"
+"\t\t\n"
+"\t\"Слышащий, молись господам о своей быстрой эвакуации! Иначе ржавчина и гниль твоего корабля может уничтожить самый бесценный блеск моего собственного! Если ты откажешься выполнить мои требования, жди скорой смерти от особых средств... Ибо я разнесу твой корпус снарядами из чистого золота, разберу останки и стану еще богаче!\""
+
+#: src-en/data/events_fr_sector_tartarus.xml:1273
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_AUGUSTUS\"]/choice/text"
+msgstr "Приготовиться к бою!"
+
+#: src-en/data/events_fr_sector_tartarus.xml:1275
+msgid ""
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_AUGUSTUS\"]/choice/event/text"
+msgstr ""
+"Понимая, что без боя отсюда не выбраться, вы включаете орудия и вступаете в "
+"бой с кораблем."
 
 #: src-en/data/events_fr_sector_tartarus.xml:1277
 msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_2\"]/text"
-msgstr ""
-"Если то, что сказал Смоук, правда, то нельзя терять времени. Неважно, что здесь обитают души умерших - вам нужно разобраться в этой загадке! Уйти все равно не получится: все ваши попытки покинуть сектор любыми способами провалились, причем иногда катастрофически, и единственным возможным выходом остается завершение списка. Следующая в вашем списке целей - Чиллс, охотница за сокровищами Вампсорянков, которую прозвали так за ее стальные нервы.\n"
-"\n"
-"\tСогласно вашему списку, она наткнулась на древний фолиант после долгой и трудной экспедиции, в которой погибли многие ее союзники. Когда она прочитала фолиант, вечность безумного шепота заполнила ее разум, в результате чего она впала в кататонию и не смогла увести свой корабль от столкновения с кометой. Странно, но тело так никто и не нашел. Смоук вздыхает где-то рядом, читая дальше... похоже, он не единственный, кто проклят этим шепотом."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1281
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_2\"]/choice/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_AUGUSTUS\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1283
+#: src-en/data/events_fr_sector_tartarus.xml:1285
 msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_2\"]/choice/event/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_AUGUSTUS_DEFEAT\"]/text"
 msgstr ""
-"Ваши сенсоры ближнего радиуса действия внезапно фиксируют присутствие "
-"корабля - судна Вампсорняков, полностью покрытого льдом, все растительные "
-"компоненты которого замерзли насмерть. На другом конце обзорного экрана "
-"появляется сама Чиллс, которая дрожит. \"Холодно... так... холодно... м-м..."
-" мне нужно тепло! Ты... ты прекрасно подойдешь!\""
+"Вы также удивлены, обнаружив среди обломков особое орудие! Вы никогда раньше не видели ничего даже близко похожего на это, поэтому предполагаете, что это, должно быть, специальная модель, сделанная странными существами. \n"
+"\t\t\n"
+"\tКроме того, на борту вашего корабля появляется некто, похожий на того самого человека, которого вы только что убили, и исчезает из виду. Прежде чем вы успеете выстрелить в него, он клянется в верности, восхваляя вас за то, что вы освободили его от \"похитителя\", который, судя по всему, был самозванцем."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1287
+#: src-en/data/events_fr_sector_tartarus.xml:1289
 msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_2\"]/choice/event/choice/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_AUGUSTUS_DEFEAT\"]/crewMember"
+msgstr "Август"
+
+#: src-en/data/events_fr_sector_tartarus.xml:1304
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_SALLY\"]/destroyed/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_tartarus.xml:1306
+msgid ""
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_SALLY\"]/destroyed/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1295
+#: src-en/data/events_fr_sector_tartarus.xml:1311
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_CHILLS_DEFEAT\"]/text"
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_SALLY\"]/deadCrew/text"
 msgstr ""
-"Корабль содрогается, раскалывается и разлетается на миллион осколков, чего "
-"корабль Вампсорянков точно не должен делать. Надеюсь, что без активной "
-"борьбы за ваше тепло вы сможете узнать больше об этом месте."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1299
+#: src-en/data/events_fr_sector_tartarus.xml:1313
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_CHILLS_DEFEAT\"]/choice/text"
+"data/events_fr_sector_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_SALLY\"]/deadCrew/choice/text"
 msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1301
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_CHILLS_DEFEAT\"]/choice/event/text"
-msgstr ""
-"Прежде чем вы успеваете начать думать, вы слышите голос Смоука по всему кораблю. \"Хм... Я чувствую какую-то... силу. Странную... Р-ренегат, осторожно, осторожно!\"\n"
-"\n"
-"\t\t\tПеред вами появляется Чиллс, выглядящая так же потрясенно, как и вы. Прежде чем вы успели выстрелить в нее, она закричала. \"Не стреляйте! Я... голоса, они... исчезли? М... мне все еще холодно, но... я могу... вроде как ясно мыслить! Мне... жаль, Ренегат...\" Смоук вздыхает от досады, но Чиллс на мгновение оживляется, когда ее форма начинает рассеиваться, сливаясь с воздухом вместе с формой Смоука. \"Может, я тоже смогу... помочь вам? Я пойду с вами!\""
-
-#: src-en/data/events_fr_sector_tartarus.xml:1321
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_3\"]/text"
-msgstr ""
-"Прежде чем что-то успевает прервать вас на этот раз, вы начинаете читать третью запись. Морф, названный просто Пок, был создан особым подразделением ученых ракушек. Согласно записи, все они с удивлением смотрели на то, как Пок превратился в садового гнома, даже не зная, что он собой представляет.\n"
-"\n"
-"\tЭто привело к открытию, что Пок был, в некотором смысле, идеальным морфом, способным идеально имитировать любого существа вплоть до его личных деталей, основываясь лишь на одной фотографии. К сожалению, это означало, что у морфа ужасно нестабильная генетика, что вынуждает его постоянно менять форму, чтобы продлить свою трагически короткую жизнь."
 
 #: src-en/data/events_fr_sector_tartarus.xml:1325
 msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_3\"]/choice/text"
-msgstr "Но... как такое возможно?"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1327
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_3\"]/choice/event/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_SALLY\"]/text"
 msgstr ""
-"Вы обращаетесь к воздуху, готовые спросить Смоука о том, как такое возможно,"
-" но вас прерывает прыжок желеобразного корабля, капитаном которого, "
-"вероятно, является Пок. Вы не получаете никакого вызова, вместо этого вас "
-"поражает импульс хаотической энергии, который выводит из строя несколько "
-"систем вашего корабля. Какого черта...?"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1332
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_3\"]/choice/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1340
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_POK_DEFEAT\"]/text"
-msgstr ""
-"Корабль Пока разлетается на множество фиолетовых сгустков. Вы молитесь, "
-"чтобы это был последний раз, когда вам придется столкнуться с кораблем с "
-"Клонопушкой - это оружие было объявлено вне закона, как только появилось на "
-"рынке."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1344
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_POK_DEFEAT\"]/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1346
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_POK_DEFEAT\"]/choice/event/text"
-msgstr ""
-"Пок появляется на вашем мостике почти сразу, гораздо быстрее, чем два других ревенанта. Он превращается в сердце, затем в копию вашего судна, затем в рукопожатие и, наконец, в какую-то странную чужеродную штуку в виде треноги, перечеркнутую крест-накрест. Вы не знаете, как морф может так быстро менять свою форму!\n"
-"\n"
-"\t\t\tНа вашем корабле вновь появляется Чиллс, и сгусток практически прыгает в ее объятия, тихонько воркуя. В стороне решительно говорит Смоук. \"Я... думаю, мы можем оставить этого морфа здесь\".\n"
-"\t\t\t\n"
-"\t\t\tСледующая запись, похоже, предупреждает вас о том, что у цели будут очень мощные защитные дроны."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1368
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_4\"]/text"
-msgstr ""
-"Вы не теряете времени, читая о следующей цель. Чарро, энджи-Защитник, один из самых преданных Гармонии. Говорят, что он постоянно находился возле Канала связи, исключая любую возможность потерять связь с центральным управлениям... пока, по всей видимости, не исчез на несколько дней, а затем вернулся, жалуясь на шепот и желание обрести \"душу\".\n"
-"\n"
-"\tВ последующие дни Чарро стал межгалактическим преступником, похитив нескольких людей и выкачав из них все жизненные силы, чтобы создать себе искусственную душу, наиболее напоминающую на нее, которую могли создать эльдрические ритуалы. Вживив ее в себя, он полностью разрушил свой разум, и Гармония была вынуждена избавиться от него, прежде чем он смог бы снова подключиться к сети и вызвать катастрофический сбой."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1372
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_4\"]/choice/text"
-msgstr "Перепрограммировать Защитника? Кто мог совершить такой подвиг?"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1374
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_4\"]/choice/event/text"
-msgstr ""
-"Смоук пожимает плечами, так же как и вы. Прежде чем вы успеваете подумать о "
-"чем-то еще, к маяку прыгает разноцветный корабль энджи, завораживающий своим"
-" разноцветными цветами, переливающимся на его корпусе, и неистово мерцающими"
-" огнями. Корабль вызывает вас, показывая капитана, чьи наномашины активно "
-"превращаются в призматическую миазму вокруг его тела. Чарро пытается "
-"заговорить, но его речь сильно омрачена несколькими сообщениями об ошибках и"
-" гневными криками. Впрочем, это неважно - пушки корабля раскалены!"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1377
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_4\"]/choice/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1385
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_CHARROR_DEFEAT\"]/text"
-msgstr ""
-"Корабль распадается на части, наномашины теряют свой цвет и возвращаются к "
-"обычным серым тонам."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1389
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_CHARROR_DEFEAT\"]/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1391
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_CHARROR_DEFEAT\"]/choice/event/text"
-msgstr ""
-"Энджи не теряет времени и появляется перед вами, едва сохраняя устойчивость."
-"\n"
-"\n"
-"\t\t\t\"Протокол 120: Гратиту-ЗзЗзЗ. Требуется помощь в борьбе с "
-"[КОД ОШИБКИ 0x0004], НАВЫКИ этого юнита могут бзЗзЗзЗзЗз полезны. Юнит "
-"больше не находится под контролем [КОД ОШИБКИ 0x0004], необходимо чтить "
-"СПАСИТЕЛЯ изЗзЗз... первостепенно\". Остальные ревенанты лишь пожимают "
-"плечами, не сводя глаз с Чарро, пока его форма сливается с кораблем."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1410
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_5\"]/text"
-msgstr ""
-"Следующая цель в вашем списке имеет самую короткую запись. Лео, пиявка-Ампер, служил на окраине столицы Ирген и вел в основном ничем не примечательное существование, изредка вступая в схватки с пиратами или повстанцами. Однако однажды его жизнь перевернуло появление корабля неизвестной марки и класса, устремившегося к центру системы.\n"
-"\n"
-"\tБой, по данным Иргенской разведки, длился менее десяти секунд, а весь экипаж был убит особенно жестоко. Анализ биологически опасных веществ на стенах показал, что большинство членов экипажа погибли из-за того, что у них лопнули головы, а все нервные клетки обуглились до хрустящей корочки. Лео был объявлен пропавшим без вести, а корабль сразу же исчез после боя; вероятно, он был похищен."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1414
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_5\"]/choice/text"
-msgstr "Думаю, корабль не придется долго ждать."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1416
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_5\"]/choice/event/text"
-msgstr ""
-"Смоук кивает в знак согласия. Вскоре перед вами появляется корабль пиявок, "
-"от его обшивки исходит яркий зеленый свет. Ни ответа, ни привета, он просто "
-"активирует орудия и открывает огонь."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1419
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_5\"]/choice/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1427
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEO_DEFEAT\"]/text"
-msgstr ""
-"Огни исчезают в небытие, когда корабль разрывается на части, его тщательно "
-"продуманная, извилистая конструкция разрушается под вашей мощью."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1431
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEO_DEFEAT\"]/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1433
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEO_DEFEAT\"]/choice/event/text"
-msgstr ""
-"Проходит много времени, прежде чем пиявка наконец появляется перед вами и "
-"другими призраками. Хотя Лео не говорит, вы чувствуете, как от него исходит "
-"чувство благодарности. Он просто растворяется в атмосфере корабля, изредка "
-"появляясь в самых укромных местах."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1450
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_6\"]/text"
-msgstr ""
-"Надеюсь, вам удастся разобраться во всей этой истории с Тартаром, а ваш список будет становиться все короче и короче. Ваша следующая цель - Сирак, один из первых Вестников Заката, присоединившихся к движению и принявших участие в бою.\n"
-"\n"
-"\tСогласно сохранившимся отчетам о сражении, таинственный белый корабль подбил корабль Сирака и вмешался в работу его клон-отсека. Этот инцидент довел Сирака до безумия, и после своего воскрешения он начал загружать свой разум в Резервный банк ДНК, пытаясь посеять хаос. Капитан корабля был вынужден совершить самоубийство, направив корабль в пульсар, уничтожив все его следы."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1454
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_6\"]/choice/text"
-msgstr "Жаль, что мы так и не узнаем имя капитана..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1456
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_6\"]/choice/event/text"
-msgstr ""
-"Ваш экипаж и духи опускают головы в задумчивости, а затем раздается "
-"пронзительный вызов, и корабль включает орудия. Это Сирак. \"Вижу! Те, о ком"
-" предупреждают меня голоса, наконец-то прибыли... как раз вовремя! Братья, "
-"сестры, к оружию, к оружию!\""
-
-#: src-en/data/events_fr_sector_tartarus.xml:1459
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_6\"]/choice/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1467
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_SEARAK_DEFEAT\"]/text"
-msgstr ""
-"Корабль и его необычайно мощный Клон-отсек наконец-то удалось разрушить. Вы "
-"поворачиваетесь от командной консоли, ожидая, что Сирак даст о себе знать."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1471
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_SEARAK_DEFEAT\"]/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1473
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_SEARAK_DEFEAT\"]/choice/event/text"
-msgstr ""
-"Перед вами предстает некогда гордый Мученик, у которого отняли гордость и "
-"энергию. \"...как...? Как я мог так... легко... стать марионеткой? Всю свою "
-"жизнь я... боролся за то, что считал правильным, но... теперь меня будут "
-"помнить только как... сумасшедшего. И предателя\". Остальные духи подходят "
-"ближе, и Смоук протягивает руку для пожатия, которую Сирак пожимает, прежде "
-"чем исчезнуть. \"Может, я и не смогу искупить вину, но... самое меньшее, что"
-" я могу сделать, - это помочь вам пройти через этот ад\"."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1486
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_AUTO\"]/text"
-msgstr ""
-"Вы с нетерпением ждете, когда же появится информация о последней цели. "
-"Однако не успеваете вы открыть список, как файл сам собой превращается в... "
-"автоматический корабль повстанцев? Он появляется перед вами, орудия уже "
-"приведены в боевую готовность, сенсорный блок светится зловещим красным "
-"цветом, а его странные золотистые полосы мерцают в свете близкой звезды."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1489
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_AUTO\"]/choice/text"
-msgstr "Что за...?"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1491
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_AUTO\"]/choice/event/text"
-msgstr ""
-"Никто из вашей команды не знает, зачем он здесь. Несколько освобожденных вами приведений вообще не узнали корабль, ведь Восстания и Вэнса еще не существовало, когда они были живы. Корабль вызывает вас, воспроизводя простое записанное сообщение, прежде чем начать атаку.\n"
-"\t\t\t\n"
-"\t\t\t\"Судно Федерации. Вы зашли слишком далеко и видели слишком много для своего же блага. Теперь вы должны быть уничтожены для поддержания операционной безопасности. Выполняю протокол Л-3312 - за Легион!\""
-
-#: src-en/data/events_fr_sector_tartarus.xml:1496
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_AUTO\"]/choice/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1504
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_AUTO_DEFEAT\"]/text"
-msgstr ""
-"Даже с отсутствующей кормовой частью автоматическому кораблю удается "
-"продержаться несколько минут. Когда он наконец начинает разваливаться, то "
-"отчаянно заряжает ССД в попытке сбежать, но его останавливает воспламенение "
-"топливного бака, уничтожающее все судно! Осталось совсем немного обломков, "
-"но те, что есть, - это куски чрезвычайно ценного эфира."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1508
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_AUTO_DEFEAT\"]/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1510
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_AUTO_DEFEAT\"]/choice/event/text"
-msgstr ""
-"Немного поискав, вам удается подобрать один предмет, который не был разрушен взрывом: черный ящик автоматического корабля. Чарро приступает к расшифровке его содержимого - задача оказывается невероятно сложной, но в конце концов ему удается извлечь короткий видеоклип.\n"
-"\n"
-"\t\t\tВсе собираются вокруг, наблюдая, как не кто иной, как Вэнс Вентворт заключает сделку с... чем-то. Изображение на видео настолько размыто и сжато, что идентифицировать второго существа невозможно, но вы и так знаете, что это не к добру, если Вэнс принимает в этом непосредственное участие. Чарро также удается раскопать чертежи похожего автоматического корабля и данные о продвинутом варианте Дезинтигрирующих полей, аналогичных тем, которые использует ваш враг!"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1531
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_SIREN\"]/text"
-msgstr ""
-"Теперь, когда вы закончили работу, пришло время узнать о своей последней цели. Открыв файл, вы обнаруживаете...\n"
-"\n"
-"\t...ничего. Ни рассказов, ни слухов, ни информации, только одна сплошная строка текста с надписью \"Наблюдатель\". Как только вы переводите взгляд на это имя, вы чувствуете непреодолимую боль в затылке и уже готовы потерять сознание, когда вас подхватывает Смоук... ощущение такое же, как при входе, и гном пронзительно кричит."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1535
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_SIREN\"]/choice[@req=\"gnome\""
-" and @lvl=\"1\"]/text"
-msgstr "А где... собственно, гном?"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1537
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_SIREN\"]/choice[@req=\"gnome\""
-" and @lvl=\"1\"]/event/text"
-msgstr ""
-"Перед вами появляется гном... всего на секунду, прежде чем он телепортируется прочь. Вы поднимаете взгляд к обзорному экрану и тут же отворачиваетесь. Шум и головокружение заполняют ваш разум, от одного вида находящегося перед вами корабля вас начинает тошнить... и все же, когда вы начинаете судорожно дышать, ничего не происходит. Глаз Наблюдателя заполняет все экраны, шепот вторгается в каждый уголок вашего разума и разума всех, кто находится на борту, - наконец-то все узнают, что так долго мучило приведений.\n"
-"\n"
-"\t\t\t\tВаша последняя цель действительно не похожа ни на одну другую, ее форма словно сливается с окружающим пространством. Неземной рев двигателей эхом разносится по кораблю, несмотря на то, что вы находитесь в космосе, но... корабль Наблюдателя, кажется, замедляет ход, а вместо этого нацеливает на вас свои орудия! Возможно, он не хочет оставлять свидетелей, размышляете вы, прежде чем вновь встретиться взглядом с демоническим присутствием и отдать команду открыть огонь!"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1543
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_SIREN\"]/choice[@req=\"gnome\""
-" and @lvl=\"1\"]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1549
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_SIREN\"]/choice[@req=\"gnome\""
-" and @lvl=\"0\"]/text"
-msgstr "Разве... гном не должен был уже вернуться?"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1551
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_SIREN\"]/choice[@req=\"gnome\""
-" and @lvl=\"0\"]/event/text"
-msgstr ""
-"Перед вами появляется гном... всего на секунду, прежде чем он телепортируется прочь. Вы поднимаете взгляд к обзорному экрану и тут же отворачиваетесь. Шум и головокружение заполняют ваш разум, от одного вида находящегося перед вами корабля вас начинает тошнить... и все же, когда вы начинаете судорожно дышать, ничего не происходит. Глаз Наблюдателя заполняет все экраны, шепот вторгается в каждый уголок вашего разума и разума всех, кто находится на борту, - наконец-то все узнают, что так долго мучило приведений.\n"
-"\n"
-"\t\t\t\tВаша последняя цель действительно не похожа ни на одну другую, ее форма словно сливается с окружающим пространством. Неземной рев двигателей эхом разносится по кораблю, несмотря на то, что вы находитесь в космосе, но... корабль Наблюдателя, кажется, замедляет ход, а вместо этого нацеливает на вас свои орудия! Возможно, он не хочет оставлять свидетелей, размышляете вы, прежде чем вновь встретиться взглядом с демоническим присутствием и отдать команду открыть огонь!"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1557
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_SIREN\"]/choice[@req=\"gnome\""
-" and @lvl=\"0\"]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1565
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_WATCHER_DEFEAT\"]/text"
-msgstr ""
-"В корпусе корабля появляется огромная пробоина, из которой вырываются полосы"
-" статического электричества, после чего отвратительный корабль взрывается, "
-"превращаясь в пыль прямо у вас на глазах."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1569
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_WATCHER_DEFEAT\"]/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1571
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_WATCHER_DEFEAT\"]/choice/event/text"
-msgstr ""
-"Никто на вашем корабле не празднует. Никто даже не обсуждает бой. Все молчат, их некогда шумные личности превратились в пустоту... включая приведений, которые, кажется, полностью исчезли. Даже вы чувствуете пустоту внутри, как будто вашу душу вырвали из физического тела.\n"
-"\n"
-"\t\t\tВам удается отследить координаты прыжка Наблюдателя... возможно, это приведет вас к лекарству от этой пустоты и, возможно, к концу этого дикого путешествия."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1590
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS\"]/text"
-msgstr ""
-"Пространство здесь заполнено только безумным смехом, шепотом, настраиваемым на самые глубинные воспоминания, вторгающиеся в ваш разум.\n"
-"\n"
-"\tЗдесь есть входной маяк, но... он кажется прогнившим, рассыпающимся. Похоже, отсюда действительно нет выхода... Возможно, список целей может дать вам подсказку."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1595
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS\"]/choice[1]/text"
-msgstr "Нам еще есть над чем работать."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1599
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS\"]/choice[@req=\"loc_fr_bounty_progression_chaos\""
-" and @lvl=\"0\"]/text"
-msgstr "Выходной маяк пуст. Вам нужно сначала завершить все задания списка!"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1603
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS\"]/choice[@req=\"loc_fr_bounty_progression_chaos\""
-" and @lvl=\"8\"]/text"
-msgstr "Оставайтесь у маяка. Именно сюда хотел попасть Наблюдатель!"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1609
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS_TRUE\"]/text"
-msgstr ""
-"Хотя это не такое уж и сильное потрясение для ваших органов чувств, каким был Наблюдатель, судно, появившееся в зоне боевой досягаемости, не менее грозно. Это старая модель Флагмана повстанцев, оснащенная технологиями, которые вы едва можете понять, и окрашенная в те же причудливые цвета, что и автоматический корабль, с которым вы столкнулись ранее! С мостика вас вызывает не кто иной, как Вэнс Вентворт, адмирал флота повстанцев.\n"
-"\n"
-"\t\"Так-так... если это не тот маленький корабль Федерации, который смог\". Вэнс шипит и ненадолго оборачивается и улыбается связанному и с кляпом во рту пленнику в углу, в окружении двух солдат повстанцев в неопознаваемой броне. \"После того как я узнал, что ты сделал с моим маленьким беспилотником, у меня возникло ощущение, что мне придется сделать это самому... похоже, мой деловой партнер не доставил тебе хлопот\"."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1616
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS_TRUE\"]/choice/text"
-msgstr "Подождите, если вы Вэнс... тогда кто... это?"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1618
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS_TRUE\"]/choice/event/text"
-msgstr ""
-"Вэнс ухмыляется от уха до уха, как будто только что наблюдал, как планета, полная детей орхидей, сгорает дотла. Он не отвечает на ваш вопрос.\n"
-"\n"
-"\t\t\t\"О! Я вижу, ты хочешь объяснений. Что-то, что удовлетворит твой прожорливый ум, нет...? Нет! Нет, нет, НЕТ! Я не дам тебе ничего, чем бы ты мог поживиться. Я ждал ДЕСЯТИЛЕТИЯ, чтобы начать действовать. И теперь, когда и ты, и мой маленький друг здесь, там, где я хочу... пришло время исполнить задуманное. Я не позволю такой жалкой личинке, как ты, помешать мне сделать все, что я когда-либо хотел сделать! О, ты, жалкий маленький целователь привидений, надеюсь, ты будешь сопротивляться. Тем приятнее будет наблюдать, как... ты... корчишься!\""
-
-#: src-en/data/events_fr_sector_tartarus.xml:1623
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS_TRUE\"]/choice/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1631
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_CREWKILL\"]/text"
-msgstr ""
-"Вы очистили Флагман от всего экипажа, за исключением пленника на мостике. Не"
-" успеваете вы вздохнуть с облегчением, как корабль оживает, активируя "
-"автоматические параметры!"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1634
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_CREWKILL\"]/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1640
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/text"
-msgstr ""
-"Поначалу кажется, что Флагман никогда не разрушится. Однако мощный взрыв из "
-"центра судна мгновенно доказывает, что вы ошибаетесь. Его мгновенно "
-"поглощает взрыв, посылая ударную волну, которая едва не разрывает ваше судно"
-" пополам!"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1646
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1648
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/choice/event/text"
-msgstr ""
-"Вы и ваш экипаж чувствуете облегчение. Похоже, уничтожение корабля сняло проклятие Наблюдателя... по крайней мере, частично, ведь приведения не возвращаются. Должно быть, это был Вэнс-1, ключевой Вэнс в командной цепочке Восстания. Иначе зачем бы ему командовать каким-то суперпрототипом экспериментального Флагмана?\n"
-"\t\t\t\t\t\n"
-"\t\t\t\tИ тут вас осеняет... а как же заложник на мостике? К счастью, мостик, в основном, уцелел, поскольку был сильно укреплен. Прихватив обломки корабля, вы поднимаете раненого на борт и снимаете с него кляп, и обнаруживаете что это... еще один Вэнс!?"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1652
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/choice/event/choice/text"
-msgstr "...что за..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1654
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/choice/event/choice/event/text"
-msgstr ""
-"Вэнс вздыхает и кивает. \"Да. Я Вэнс. Тот... Вэнс. Вэнс... Первый. Боюсь, я знаю примерно столько же, сколько и вы, к сожалению. Вэнс-1 предал меня, украл мой проект... который вы только что взорвали. Если... если я не ошибаюсь, Вэнс-1 хотел выведать секреты жизни и смерти в рамках какого-то... конечного плана по контролю над Мультивселенной?\"\n"
-"\n"
-"\t\t\t\t\t\tМужчина закрывает глаза и качает головой. \"Я был так же ошеломлен этим, как и вы!\""
-
-#: src-en/data/events_fr_sector_tartarus.xml:1658
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/choice/event/choice/event/choice/text"
-msgstr ""
-"Назовите мне хоть одну причину, по которой я не должен выпотрошить вас на "
-"месте."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1660
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/choice/event/choice/event/choice/event/text"
-msgstr ""
-"Вэнс застонал от безысходности. \"Я знаю единственный способ выбраться из этого места. И... у меня есть чертежи моего маленького Флагмана. Просто... просто возьмите...\"\n"
-"\n"
-"\t\t\t\t\t\t\t\t\tОн бросает вам маленькую флешку, а затем, шатаясь, поднимается на ноги. \"Когда будете готовы... просто скажите мне, когда мы должны уйти. Я могу остаться здесь, поскольку... мне нет места в Восстании после того, как этот ублюдок украл мое место\"."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1664
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/choice/event/choice/event/choice/event/crewMember"
-msgstr "Вэнс Первый"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1677
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_VANCE_SECTOR_SELECT\"]/text"
-msgstr ""
-"Вы сообщаете Вэнсу, что готовы уйти. Он вздыхает и протягивает вам небольшой парящий куб, пульсирующий светом фускии.\n"
+"Вы достигаете места, указанного Урной. Как и следовало ожидать, на орбите маяка находится корабль уникального дизайна, который вызывает вас, как только почувствовал ваше присутствие. Корпус корабля, похоже, состоит в основном из плоти, что соответствует старым рассказам об ученом, который сросся со своим домашним пауком, чтобы спасти собственную жизнь.\n"
 "\t\n"
-"\t\"Положите это в топливный бак вашего двигателя. Вероятно, Вэнс-1 планировал использовать его для удара по Вселенной 0, когда покинет Тартар. Насколько я знаю, это единственный существующий инструмент такого рода... Так что выбирайте место назначения с умом, Ренегат\"."
+"\t\"О, мои звезды! Если это не новый друг! Не расстраивайся, дорогой, но сила, не зависящая от меня, велит мне сразиться с тобой! Это весьма прискорбно для тебя, но, по крайней мере, я обещаю тебе... Я составлю тебе компанию в загробной жизни, ты ведь мой новый друг!\""
 
-#: src-en/data/events_fr_sector_tartarus.xml:1681
+#: src-en/data/events_fr_sector_tartarus.xml:1331
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_VANCE_SECTOR_SELECT\"]/choice/text"
-msgstr "Хм... странно милосердно с вашей стороны, Вэнс."
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_SALLY\"]/choice/text"
+msgstr "Приготовиться к бою!"
 
-#: src-en/data/events_fr_sector_tartarus.xml:1683
+#: src-en/data/events_fr_sector_tartarus.xml:1333
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_VANCE_SECTOR_SELECT\"]/choice/event/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_SALLY\"]/choice/event/text"
 msgstr ""
-"\"Это не благодетель, я просто хочу поскорее убраться из этого места, даже "
-"если это означает помощь тебе\". Он фыркает."
+"Понимая, что без боя отсюда не выбраться, вы включаете орудия и вступаете в "
+"бой с кораблем."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1685
+#: src-en/data/events_fr_sector_tartarus.xml:1335
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_VANCE_SECTOR_SELECT\"]/choice/event/choice[@req=\"prof_fr_chaos_apparitions_unlocked\""
-" and @lvl=\"0\"]/text"
-msgstr "Что ж, пора выбрать место назначения."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1689
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_VANCE_SECTOR_SELECT\"]/choice/event/choice[@req=\"prof_fr_chaos_apparitions_unlocked\""
-" and @lvl=\"1\"]/text"
-msgstr "Что ж, пора выбрать место назначения."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1697
-msgid "data/events_fr_sector_tartarus.xml$//event[@name=\"FR_URN_UPGRADE\"]/text"
-msgstr ""
-"Не успев ввести координаты, вы начинаете терять сознание. Теряя сознание, "
-"вас подхватывает и не дает упасть ваш вновь пробудившийся экипаж, вы "
-"переживаете причудливое видение Урны, красной с заостренной белой крышкой. "
-"Души многих друзей, которых вы встретили в этом путешествии, кружатся "
-"вокруг, наполняя Урну своими душами, а затем контейнер закрывается с часовым"
-" механизмом, который возвращает вас в сознание."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1699
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_URN_UPGRADE\"]/choice/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_SALLY\"]/choice/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1701
+#: src-en/data/events_fr_sector_tartarus.xml:1343
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_URN_UPGRADE\"]/choice/event/text"
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_SALLY_DEFEAT\"]/text"
 msgstr ""
-"Проходит несколько минут, прежде чем вы приходите в себя. Пока вы это "
-"делаете, вам удается привести мысли в порядок и подготовиться к выбору "
-"пункта назначения."
+"Вы также удивлены, обнаружив среди обломков особое орудие! Вы никогда раньше не видели ничего даже близко похожего на это, поэтому предполагаете, что это, должно быть, специальная модель, сделанная странными существами. \n"
+"\t\t\n"
+"\tКроме того, на борту вашего корабля появляется некто, похожий на того самого человека, которого вы только что убили, и исчезает из виду. Прежде чем вы успеете выстрелить в него, он клянется в верности, восхваляя вас за то, что вы освободили его от \"похитителя\", который, судя по всему, был самозванцем."
 
-#: src-en/data/events_fr_sector_tartarus.xml:1705
+#: src-en/data/events_fr_sector_tartarus.xml:1347
 msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_URN_UPGRADE\"]/choice/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1713
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/text"
-msgstr ""
-"Внезапно один из членов вашего экипажа указывает на обзорный экран. Кажется,"
-" что в космосе проносится несколько причудливых орудий, похожих по внешнему "
-"виду на многие загадочные корабли, с которыми вы только что сражались. Они "
-"идут на столкновение с расположенным неподалеку солнцем; из-за их скорости у"
-" вас будет время выбрать только одно из них!"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1715
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[1]/text"
-msgstr "Выбрать Пусковую кристаллическую установку Смоук."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1717
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[1]/event/text"
-msgstr ""
-"Вам удается поймать единственное орудие из всей группы, а остальные "
-"проносятся мимо вашего корабля к звезде. Все надежды на то, чтобы их поймать"
-" потеряны."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1720
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1726
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[2]/text"
-msgstr "Выбрать осколочное орудие Чиллс."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1728
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[2]/event/text"
-msgstr ""
-"Вам удается поймать единственное орудие из всей группы, а остальные "
-"проносятся мимо вашего корабля к звезде. Все надежды на то, чтобы их поймать"
-" потеряны."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1731
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[2]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1737
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[3]/text"
-msgstr "Выбрать Клонопульту Пока."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1739
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[3]/event/text"
-msgstr ""
-"Вам удается поймать единственное орудие из всей группы, а остальные "
-"проносятся мимо вашего корабля к звезде. Все надежды на то, чтобы их поймать"
-" потеряны."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1742
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[3]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1748
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[4]/text"
-msgstr "Выбрать лучевой дрон Чарро."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1750
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[4]/event/text"
-msgstr ""
-"Вам удается поймать единственное орудие из всей группы, а остальные "
-"проносятся мимо вашего корабля к звезде. Все надежды на то, чтобы их поймать"
-" потеряны."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1753
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[4]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1759
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[5]/text"
-msgstr "Выбрать блок питания Лео."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1761
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[5]/event/text"
-msgstr ""
-"Вам удается поймать единственное орудие из всей группы, а остальные "
-"проносятся мимо вашего корабля к звезде. Все надежды на то, чтобы их поймать"
-" потеряны."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1764
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[5]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1770
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[6]/text"
-msgstr "Выбрать энергетическую пушку Сирака."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1772
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[6]/event/text"
-msgstr ""
-"Вам удается поймать единственное орудие из всей группы, а остальные "
-"проносятся мимо вашего корабля к звезде. Все надежды на то, чтобы их поймать"
-" потеряны."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1775
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[6]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1781
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[7]/text"
-msgstr "Выбрать лазер автоматического корабля."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1783
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[7]/event/text"
-msgstr ""
-"Вам удается поймать единственное орудие из всей группы, а остальные "
-"проносятся мимо вашего корабля к звезде. Все надежды на то, чтобы их поймать"
-" потеряны."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1786
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[7]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1794
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/text"
-msgstr ""
-"К записи прилагается... какой-то накопитель данных. Расшифровав его, вы "
-"обнаруживаете информацию о... некоем ритуале очищения. Он сработает только "
-"один раз - вам придется выбрать, кого из приведений вы хотите вернуть к "
-"жизни, а остальных обречь на вечное безумие."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1796
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[1]/text"
-msgstr "Выбрать Смоук."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1798
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[1]/event/text"
-msgstr ""
-"Вы и ваш экипаж проводите короткий ритуал, и Смоук появляется перед вашими "
-"глазами, потирая голову. \"Вы... вы спасли меня! С этого дня... я буду "
-"сражаться рядом с вами, капитан, до конца Мультивселенной!\""
-
-#: src-en/data/events_fr_sector_tartarus.xml:1799
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[1]/event/crewMember"
-msgstr "Смоук"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1801
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1807
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[2]/text"
-msgstr "Выбрать Чиллс."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1809
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[2]/event/text"
-msgstr ""
-"Вы и ваш экипаж проводите короткий ритуал, и перед вашими глазами появляется"
-" Чиллс, распускающая свои лепестки. \"Ха-хааа, вот это я понимаю! Вперед, "
-"Ренегат... всегда будет много мест, которые нужно открыть, много сокровищ, "
-"которые нужно найти\"."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1810
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[2]/event/crewMember"
-msgstr "Чиллс"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1812
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[2]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1818
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[3]/text"
-msgstr "Выбрать Пока."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1820
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[3]/event/text"
-msgstr ""
-"Вы и ваш экипаж проводите короткий ритуал, и Пок появляется перед вашими "
-"глазами, покачиваясь от радости. \"Пок!\" Маленький морф обретает форму, "
-"похожую на вашу, и крепко обнимает вас."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1821
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[3]/event/crewMember"
-msgstr "Пок"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1823
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[3]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1829
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[4]/text"
-msgstr "Выбрать Чарро."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1831
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[4]/event/text"
-msgstr ""
-"Вы и ваш экипаж проводите короткий ритуал, и перед вашими глазами появляется"
-" Чарро, тело которого на одно мгновение обретает законченную форму. "
-"\"Милосердие...? Это юнит изЗзЗзЗз... благодарю\"."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1832
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[4]/event/crewMember"
-msgstr "Чарро"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1834
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[4]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1840
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[5]/text"
-msgstr "Выбрать Лео."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1842
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[5]/event/text"
-msgstr ""
-"Вы и ваш экипаж проводите короткий ритуал, и перед вашими глазами появляется"
-" Лео, который наконец набирается смелости заговорить. \"Милосердие? После "
-"всего... ты все еще хочешь, чтобы я... жил? Ренегат. Тогда считай меня "
-"настоящим другом!\""
-
-#: src-en/data/events_fr_sector_tartarus.xml:1843
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[5]/event/crewMember"
-msgstr "Лео"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1845
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[5]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1851
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[6]/text"
-msgstr "Выбрать Сирака."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1853
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[6]/event/text"
-msgstr ""
-"Вы и ваш экипаж проводите короткий ритуал, и перед вашими глазами появляется"
-" Сирак, одежда которого гордо развевается на несуществующем ветру. \"За все "
-"годы моей службы любому делу я никогда не видел такой отваги, какую вы "
-"проявили сегодня. Если я вернусь домой, каждый Вестник Заката, который "
-"когда-либо будет жить, будет петь о ваших сегодняшних деяниях!"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1854
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[6]/event/crewMember"
-msgstr "Сирак"
-
-#: src-en/data/events_fr_sector_tartarus.xml:1856
-msgid ""
-"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[6]/event/choice/text"
-msgstr "Продолжить..."
-
-#: src-en/data/events_fr_sector_tartarus.xml:1866
-msgid ""
-"data/events_fr_sector_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_EMPTY_CHAOS\"]/choice/text"
-msgstr "Продолжить..."
+"data/events_fr_sector_tartarus.xml$//event[@name=\"FR_REVENANT_SALLY_DEFEAT\"]/crewMember"
+msgstr "Салли"
