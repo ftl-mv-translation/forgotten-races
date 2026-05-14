@@ -44,7 +44,7 @@
 </event> 
 
 <event name="FR_SYLVAN_COMMONWEALTH">
-	<text>"Ssstranger, Ssstranger! Now thisss isss a ssstrange place to find each other in, eh? Thossse cube people ssseem sssurprisssingly friendly asss well. I actually came here to help you out in your missssion, can't let my mossst valuable cussstomer die on me, can I? Though, I'm afraid we might only have a sssingle ssshot at leaving thisss place, ssso how about I join your crew for the time being? After we do our ussssual trading of courssse."</text>
+	<text>"Ssstranger, Ssstranger! Now thisss isss a ssstrange place to find each other in, eh? Thossse cube people ssseem sssurprisssingly friendly asss well. I actually came here to help you out in your missssion; can't let my mossst valuable cussstomer die on me, can I? Although, I'm afraid we might only have a sssingle ssshot at leaving thisss place, ssso how about I join your crew for the time being? After we do our ussssual trading of courssse."</text>
 	<ship load="SHIP_TRAVELING_MERCHANT_CHALLENGE" hostile="false"/>
 	<choice hidden="true" req="unique_sylvan" max_group="0">
 		<text>(Sylvan) Use Sylvan to hail Sylvan.</text>
@@ -112,7 +112,7 @@
 </event>
 
 <event name="FR_SYLVAN_CYLVAN_STORY">
-	<text>"Ssstranger! While I made myssself acquainted with thisss sssector I came acrossss sssomething very unexpected, another Sssylvan already made thisss place their home! Not only that, it ssseemsss that they befriended the Obelisssksss living here, to the point they gave him hisss own unique cruissser!"
+	<text>"Ssstranger! While I made myssself acquainted with thisss sssector I came acrossss sssomething very unexpected: another Sssylvan already made thisss place their home! Not only that, it ssseemsss that they befriended the Obelisssksss living here, to the point they gave him hisss own unique cruissser!"
 
 	"Now, He told me that he wasss being tracked by sssome very powerful Autosss. He refusssed to tell me why they were after him, but whatever the reassson, I sssussspect our interference with thisss sssector might have caussse whoever sssent thossse Autosss to want to take advantage of the commotion. We ssshould go check up on him once we are done trading."
 	</text>
@@ -146,7 +146,7 @@
 </event>
 
 <event name="FR_SYLVAN_TRADE_COMMONWEALTH">
-	<text>"Aaaaah. Ssstranger ssstranger, before I found myself stuck in this strange place I made sure to stock up on all the valuable aether weapons I could fine, take a look."</text>
+	<text>"Aaaaah. Ssstranger ssstranger, before I found myself stuck in this ssstrange place I made sssure to ssstock up on all the valuable aether weaponsss I could find. Take a look!"</text>
 	<crewMember amount="1" class="unique_sylvan">Sylvan</crewMember>
 	<store>FR_STORE_SYLVAN_COMMONWEALTH</store>
 </event>
@@ -643,6 +643,7 @@
 	<preventFleet/>
 	<nebulaBeacon>true</nebulaBeacon>
 	<createNebula>false</createNebula>
+	<aggressive>2</aggressive>
     <beaconType id="map_icon_quest" global="true">
         <color r="155" g="90" b="205" a="1.0"/>
         <unvisitedTooltip>This is the location of a quest from the Traveling Merchant.</unvisitedTooltip>
@@ -713,7 +714,7 @@
 </event>
 
 <event name="FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_FRIEND">
-	<text>The Sylvan is overjoyed to see you "Ssstranger! It makes me so happy to see that the ally of my people was the one to save me! That probe was much tougher than I expected, when I saw it attacking one of my people I...I couldn't just sit there and watch, you know?" 
+	<text>The Sylvan is overjoyed to see you, "Ssstranger! It makes me so happy to see that the ally of my people was the one to save me! That probe was much tougher than I expected, when I saw it attacking one of my people I...I couldn't just sit there and watch, you know?" 
 		
 	"But that's in the past, right ssstranger? I suppose I can't hide here forever, I know you want to escape this place, so let me join your crew, it's the least I can do. While you are at it, you might as well have the blueprints for my ship, it served me well and so it will serve you well as well."</text>
 	<crewMember amount="1" all_skills="2" class="fr_unique_cylvan">Cylvan</crewMember>
@@ -727,7 +728,7 @@
 </event>
 
 <event name="FR_SYLVAN_COMMONWEALTH_CYLVAN_PROBE_NEUTRAL">
-	<text>The Sylvan is relieved to see you "Ssstranger! Thank you for putting your life on the line to save me! That probe was much tougher than I expected, when I saw it attacking one of my people I...I couldn't just sit there and watch, you know?" 
+	<text>The Sylvan is relieved to see you, "Ssstranger! Thank you for putting your life on the line to save me! That probe was much tougher than I expected, when I saw it attacking one of my people I...I couldn't just sit there and watch, you know?" 
 		
 	"But that's in the past, right ssstranger? I suppose you might as well have the blueprints for my ship, you earned it after all."</text>
 	<autoReward level="HIGH">standard</autoReward>
@@ -778,7 +779,7 @@
 	<mod-append:choice hidden="true" req="FR_LIST_CREW_LEAH" blue="true">
 		<text>(Leah) "You aren't the beam master, I am!".</text>
 		<event>
-			<text>The other Leah's eyes widen before she narrows them, a grin spreading across her face "So it is true, the federation managed to convince some other me to join them, I have no clue how you managed to do that, beyatch, but this universe isn't big enough for two Leahs. Get ready to be beamed, beyatch!"</text>
+			<text>The other Leah's eyes widen before she narrows them, a grin spreading across her face. "So it's true! The Federation managed to convince some other me to join them. I have no clue how you managed to do that, beyatch, but this universe isn't big enough for two Leahs. Get ready to be beamed, beyatch!"</text>
 			<choice hidden="true">
 				<text>Here we go again.</text>
 				<event load="COMBAT_CHECK"/>
@@ -795,7 +796,7 @@
 					<mod-append:choice>
 						<text>Ah, I remember. You must be Leah!</text>
 						<event>
-							<text>"Wait... you remembered?! Of... of course you did! I didn't expect anything less from my nemesis! It's time to settle the score once and for all, beyatch!"</text>
+							<text>"Wait... you remembered?! Of... of course you did! I wouldn't expect anything less from my nemesis! It's time to settle the score once and for all, beyatch!"</text>
 							<choice hidden="true">
 								<text>Let's finish this.</text>
 								<event>
@@ -825,7 +826,7 @@
 			<mod-append:choice>
 				<text>Ah, I remember. You must be Leah!</text>
 				<event>
-					<text>"Wait... you remembered?! Of... of course you did! I didn't expect anything less from my nemesis! It's time to settle the score once and for all, beyatch!"</text>
+					<text>"Wait... you remembered?! Of... of course you did! I wouldn't expect anything less from my nemesis! It's time to settle the score once and for all, beyatch!"</text>
 					<choice hidden="true">
 						<text>Let's finish this.</text>
 						<event>
@@ -882,7 +883,7 @@
 </event>
 
 <event name="FR_SYLVAN_INJURED">
-	<text>"Oh, right! That little Slug boy put up quite the fight, though... I'm not sure why he'd shut off his shields for the fight." You glare at Leah, unsure what to say about her comment, before turning to Sylvan's chest.</text>
+	<text>"Oh, right! That little Slug boy put up quite the fight, although I'm not sure why he'd shut off his shields for the fight." You glare at Leah, unsure what to say about her comment, before turning to Sylvan's chest.</text>
 	<achievement silent="false">ACH_FR_EVENT_LEAH_RECRUIT</achievement>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<unlockCustomShip silent="false">PLAYER_SHIP_SYLVAN</unlockCustomShip>
@@ -1103,7 +1104,7 @@
 		    	<choice hidden="true">
 			        <text>Prepare to fight!</text>
 		                <event>
-			                <text>"I was hoping our mission wouldn't have to end in bloodshed, but it seems we'll have to take our fuel. Just know, I take no pleasure doing this..."</text>
+			                <text>"I was hoping our mission wouldn't have to end in bloodshed, but it seems we'll have to take your fuel. Just know, I take no pleasure doing this..."</text>
 			                    <ship hostile="true"/> 
 			                        <choice hidden="true">
 				                        <text>Continue...</text>
@@ -1130,6 +1131,11 @@
 </event>
 
 <event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_CRUISER_CHALLENGE">
+	<beaconType id="map_icon_quest" global="true">
+		<color r="25" g="205" b="150" a="1.0"/>
+		<unvisitedTooltip>This is the location of abnormal energy signatures. [Commonwealth A]</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+	</beaconType>
 	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millennia beyond yours in terms of advancement. The captain hails you.</text>
 	<playSound>mysteriousBeacon</playSound>
 	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_CRUISER_CHALLENGE" hostile="false"/> 
@@ -1140,7 +1146,7 @@
 		    	<choice hidden="true">
 			        <text>Prepare to fight!</text>
 		                <event>
-			                <text>"I was hoping our mission wouldn't have to end in bloodshed, but it seems we'll have to take our fuel. Just know, I take no pleasure doing this..."</text>
+			                <text>"I was hoping our mission wouldn't have to end in bloodshed, but it seems we'll have to take your fuel. Just know, I take no pleasure doing this..."</text>
 			                    <ship hostile="true"/> 
 			                        <choice hidden="true">
 				                        <text>Continue...</text>
@@ -1170,14 +1176,14 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millennia beyond yours in terms of advancement. The captain hails you.</text>
 	<playSound>mysteriousBeacon</playSound>
 	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_CRUISER_EXTREME" hostile="false"/> 
-	<choice hidden="true">
+	<choice hidden="true" max_group="0">
 	    <text>Continue...</text>
 		<event>
-		    <text>"Hail there! We are on a critical mission, and we happened to run our fuel reserves dry on this very jump. Sadly, we can't waste time on negotiations, for our mission is urgent. Just know, I take no pleasure doing this..."</text>
+		    <text>"Hail there! We are on a critical mission, and we happened to run our fuel reserves dry on this very jump. I consider myself a reasonable cuboid, and ask that you provide us fuel for the journey ahead... we can't wait for very long."</text>
 		    	<choice hidden="true">
 			        <text>Prepare to fight!</text>
 		                <event>
-			                <text>The ship deploys its drones and moves into attacking position.</text>
+			                <text>"I was hoping our mission wouldn't have to end in bloodshed, but it seems we'll have to take your fuel. Just know, I take no pleasure doing this..."</text>
 			                    <ship hostile="true"/> 
 			                        <choice hidden="true">
 				                        <text>Continue...</text>
@@ -1185,10 +1191,23 @@
 			                        </choice>
 		                </event>
 	            </choice>
+				<choice blue="false" req="loc_sector_count" lvl="0" max_lvl="4">
+		            <text>Pay tribute in fuel to avoid the fight.</text>
+					<event>
+						<text>"A wise choice, Renegade. See you around."</text>
+						<item_modify>
+							<item type="fuel" min="-10" max="-20"/>
+						</item_modify>
+					</event>
+				</choice>
+				<choice hidden="true" blue="false" req="loc_sector_count" lvl="5">
+		            <text>The renegade isn't willing to accept fuel anymore.</text>
+					<event load="OPTION_INVALID"/>
+				</choice>
 				<choice hidden="true" req="JUDGE_BOON_RENEGADE">
-		            <text>Use your blessing to avoid combat.</text>
-		                <event load="MV_TRAVELER_BOON"/>
-	            </choice>
+					<text>Use your blessing to avoid combat.</text>
+					<event load="MV_TRAVELER_BOON"/>
+				</choice>
 		</event>
 	</choice>
 </event>
@@ -1212,10 +1231,25 @@
 			                        </choice>
 		                </event>
 	            </choice>
+				<choice blue="false" req="BRIBE_CHAOS" lvl="1">
+		            <text>Pay tribute in fuel to avoid the fight.</text>
+					<event>
+						<text>You offer a tribute in desperation, but the Renegade doesn't display any sort of reaction whatsoever. Instead it is the gnome that scoops up your fuel, and the ship cuts contact with you. Better to not ask questions.</text>
+						<playSound>gm_bribe</playSound>
+						<variable name="gnome_bribe" op="set" val="1"/>
+						<item_modify>
+							<item type="fuel" min="-10" max="-20"/>
+						</item_modify>
+					</event>
+				</choice>
+				<choice hidden="true" blue="false" req="BRIBE_CHAOS" lvl="0" max_lvl="0">
+					<text>*%$##@*%!</text>
+					<event load="OPTION_INVALID"/>
+				</choice>
 				<choice hidden="true" req="JUDGE_BOON_RENEGADE">
-		            <text>Use your blessing to avoid combat.</text>
-		                <event load="MV_TRAVELER_BOON"/>
-	            </choice>
+					<text>Use your blessing to avoid combat.</text>
+					<event load="MV_TRAVELER_BOON"/>
+				</choice>
 		</event>
 	</choice>
 </event>
@@ -1347,7 +1381,7 @@
 	<choice>
 		<text>Pay the tribute to avoid the fight.</text>
 			<event>
-				<text>"A wise choice, Renegade. See you around."</text>
+				<text>"TRIBUTE DETECTED. HOSTILE SYSTEMS: POWERED DOWN. WARNING GIVEN." The auto ship says before jumping away.</text>
 					<item_modify>
 						<item type="scrap" min="-20" max="-50"/>
 					</item_modify>
@@ -1361,6 +1395,11 @@
 </event>
 
 <event name="FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_CHALLENGE">
+	<beaconType id="map_icon_quest" global="true">
+		<color r="25" g="205" b="150" a="1.0"/>
+		<unvisitedTooltip>This is the location of abnormal energy signatures. [Commonwealth Guardian B]</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+	</beaconType>
 	<text>From out of the tunnel comes a massive cruiser vessel, of a design you have never seen before! This ship looks... ancient, yet millennia beyond yours in terms of advancement. It also seems to be mostly automated, however your sensors still detect crew inside it. The ship hails you:
 
 	"EXTERMINATOR DETECTED! THREAT COUNTERMEASURES INITIATED! CHOICE PROPOSED: GIVE TRIBUTE OR: PERISH!"</text>
@@ -1380,7 +1419,7 @@
 	<choice>
 		<text>Pay the tribute to avoid the fight.</text>
 			<event>
-				<text>"A wise choice, Renegade. See you around."</text>
+				<text>"TRIBUTE DETECTED. HOSTILE SYSTEMS: POWERED DOWN. WARNING GIVEN." The auto ship says before jumping away.</text>
 					<item_modify>
 						<item type="scrap" min="-20" max="-50"/>
 					</item_modify>
@@ -1399,7 +1438,7 @@
 	"EXTERMINATOR DETECTED! THREAT COUNTERMEASURES INITIATED! COMBAT PROTOCOLS INITIATED."</text>
 	<playSound>mysteriousBeacon</playSound>
 	<ship load="SHIP_FR_MULTIVERSE_COMMONWEALTH_GUARDIAN_EXTREME" hostile="false"/> 
-	<choice hidden="true">
+	<choice hidden="true" max_group="0">
 		<text>Prepare to fight!</text>
 			<event>
 				<text>"PERISH TYRANT. FOR THE COMMONWEALTH'S FREEDOM."</text>
@@ -1410,9 +1449,23 @@
 						</choice>
 			</event>
 	</choice>
+	<choice blue="false" req="loc_sector_count" lvl="0" max_lvl="4">
+		<text>Pay the tribute to avoid the fight.</text>
+			<event>
+				<text>"TRIBUTE DETECTED. HOSTILE SYSTEMS: POWERED DOWN. WARNING GIVEN." The auto ship says before jumping away.</text>
+					<item_modify>
+						<item type="scrap" min="-20" max="-50"/>
+					</item_modify>
+					<instantEscape/>
+			</event>
+	</choice>
+	<choice hidden="true" blue="false" req="loc_sector_count" lvl="5">
+		<text id="renegade_tribute_scrap_impossible"/>
+		<event load="OPTION_INVALID"/>
+	</choice>
 	<choice hidden="true" req="JUDGE_BOON_RENEGADE">
 		<text>Use your blessing to avoid combat.</text>
-			<event load="MV_TRAVELER_BOON"/>
+		<event load="MV_TRAVELER_BOON"/>
 	</choice>
 </event>
 
@@ -1433,9 +1486,20 @@
 						</choice>
 			</event>
 	</choice>
-	<choice hidden="true" req="JUDGE_BOON_RENEGADE">
-		<text>Use your blessing to avoid combat.</text>
-			<event load="MV_TRAVELER_BOON"/>
+	<choice blue="false" req="BRIBE_CHAOS" lvl="1">
+		<text>Pay the tribute to avoid the fight.</text>
+		<event>
+			<text id="renegade_tributed_chaos"/>
+			<playSound>gm_bribe</playSound>
+			<variable name="gnome_bribe" op="set" val="1"/>
+			<item_modify>
+				<item type="scrap" min="-45" max="-45"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true" blue="false" req="BRIBE_CHAOS" lvl="0" max_lvl="0">
+		<text>*%$##@*%!</text>
+		<event load="OPTION_INVALID"/>
 	</choice>
 </event>
 
@@ -1526,6 +1590,18 @@
 			<text>"That... that's... a Salt person... one which isn't... that bounty hunter... how...? I... I thought this was impossible... You can say I am... flabbergasted. Well done, traveler. Expect... rewards before your next journey."</text>
 			<metaVariable name="prof_r_boon_fr_salt_crew" op="set" val="1"/>
 			<achievement silent="false">ACH_FR_BOON_SALT</achievement>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="fr_human_totality" blue="false">
+		<text>Present a Totality Commander.</text>
+		<event>
+			<text>"The counterparts to the Rebellion's finest... What they lack in firepower... they more than make up with sustainability and speed. Having one in your crew is... most impressive. Well done, traveler. Expect... rewards before your next journey."</text>
+			<metaVariable name="prof_z_boon_human_2" op="set" val="1"/>
+			<achievement silent="false">ACH_BOON_HUMAN_2</achievement>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event load="THE_JUDGES_ZOLTAN_ADVICE"/>
@@ -1669,6 +1745,21 @@
 	</mod-append:choice>
 </mod:findName>
 
+<mod:findName type="event" name="THE_JUDGES_ENGI_REAL">
+	<mod-append:choice req="fr_clicker" lvl="4" blue="false">
+		<text>Present Her Will.</text>
+		<event>
+			<text>"[ERROR]... How d-d-d-did ... T-T-That shouldn't even be p-p-possible! N-N-No... I-I need to w-warn the others! B-But... Corby would never b-b-b-break the creed! So I must -reward- you still... I will give you the Grant of Touch! Grant of Touch! Save it - for the future, and n-n-never t-talk to us again!"</text>
+			<metaVariable name="prof_r_boon_fr_clicker" op="set" val="1"/>
+			<achievement silent="false">ACH_FR_BOON_CLICKER</achievement>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="THE_JUDGES_ENGI_ADVICE"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
 <mod:findName type="event" name="THE_JUDGES_NORMAL">
 	<mod-append:choice req="FR_REQUIREMENT_WITHERED_CHECK" lvl="1" blue="true">
 		<text>Your Withered seems to be eager to present themselves to Thest.</text>
@@ -1787,6 +1878,98 @@
 	<mod-append:metaVariable name="prof_r_boon_fr_salt_crew" op="set" val="0"/>
 	<mod-append:metaVariable name="prof_r_boon_fr_commonwealth_crew" op="set" val="0"/>
 	<mod-append:metaVariable name="prof_r_boon_fr_commonwealth_equipment" op="set" val="0"/>
+	<mod-append:metaVariable name="prof_r_boon_fr_clicker" op="set" val="0"/>
 </mod:findName>
+
+
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    SALT QUEST
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+
+<event name="FR_SALT_BATTLESHIP_QUEST_START">
+	<preventQuest/>
+	<preventFleet/>
+	<quest>
+		<nebulaBeacon>true</nebulaBeacon>
+		<aggressive>2</aggressive>
+		<lastStand>true</lastStand>
+		<sectorEight>true</sectorEight>
+	</quest>
+	<beaconType id="map_icon_fr_salt_quest" global="true">
+		<color r="250" g="250" b="250" a="1.0"/>
+	</beaconType>
+	<text>Upon arriving at the prison, you notice it's completely empty, save for a single Auto-ship blocking the entrance. The prison is completely encased by lead plates, preventing any scans of the inside from here.
+	
+	    "An Auto-ship? Why would the Rebellion put an auto-cruiser of all things here?" Obyn ponders out loud. The cruiser ignores all of your hails, and the warning message spewing forth from its comms is somewhat distorted.</text>
+		<ship load="SHIP_FR_QUEST_AUTO_CRUISER" hostile="false"/>
+		<choice hidden="true">
+			<text>Let's teach this hunk of metal who's boss!</text>
+			<event>
+				<text>The ship's drones whirl to life, defending their mothership. This is gonna be tough.</text>
+				<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Leave the Auto-ship alone.</text>
+			<event>
+				<text>You decide you have other more important things to do than chase a mystery. Obyn is clearly unhappy, taking this moment to resign from your crew.</text>
+					<removeCrew class="unique_obyn">
+						<clone>false</clone>
+							<text>Your crew cannot be cloned, as they are still alive.</text>
+					</removeCrew>
+			</event>
+		</choice>
+</event>
+
+<event name="FR_SALT_BATTLESHIP_QUEST_WIN">
+	<text>The giant Auto-ship breaks apart, finally silenced. After making sure its systems are down, you park your ship next to the prison and go explore it alongside Obyn.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The doors are unlocked - whoever built this facility likely thought the Auto-cruiser was enough defense. Within the facility, you find thousands upon thousands of pods, each holding... a number of whitish crystals. Salt people, once thought extinct, frozen in stasis!
+			
+				  Obyn practically screams with elation. "Captain! Holy shit... I... l-let me open 'em up!" He sprints to a terminal on the side of the room, mashing away at the keyboard.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>The grueling process of bringing the Salt people out of stasis slowly to avoid the risk of system shock takes multiple hours. Only one out of every ten pods ends up being viable for reanimation...but eventually, another Saltman dazedly steps out of their pod.
+
+								  "W-who...?" the Salt person asks, looking around. "It... it worked, Captain! It worked!" Obyn jumps for joy, sitting down next to the newly refreshed Saltman. However, his joy briefly dampens as he pulls you aside. "Captain... this may take days, or even weeks to sort out. You can't wait, but I can. I'm asking you... go on without me."</text>
+									<removeCrew class="unique_obyn">
+										<clone>false</clone>
+										<text></text>
+									</removeCrew>
+									<choice hidden="true">
+										<text>Are you sure, Obyn?</text>
+										<event>
+											<text>Obyn looks over the many reunited families as they all step out of their pods. "Yes, Captain. But there's no way I'm leaving you empty-handed." The formerly-sole surviving Saltman hands you a thumb drive. "Here's the blueprints to a cruiser for my kin. I wanted to build it, but... I don't think that life is for me anymore. You'll get better use out of it."
+
+											He steps forward, careful to not suck all the moisture out of you. "Feel free to take the weapons from my ship. I won't be using them anymore, either..." You nod, assuring him of his decision. One of the other Saltmen, inspired by your act of kindness, offers to join your crew. Although the Rebel fleet will certainly have caught up by now, you're not too mad about it.</text>
+												<autoReward level="HIGH">scrap_only</autoReward>
+												<variable name="loc_fr_obyn_quest_done" op="set" val="1"/>
+												<weapon name="SALT_LAUNCHER"/>
+												<crewMember amount="1" class="fr_salt"/>
+												<achievement silent="false">ACH_FR_EVENT_SALT</achievement>
+												<unlockCustomShip silent="false">PLAYER_SHIP_FR_SALT_BATTLESHIP</unlockCustomShip>
+												<modifyPursuit amount="2"/>
+										</event>
+									</choice>
+						</event>
+					</choice>
+		</event>
+	</choice>
+</event>
+
+
 
 </FTL>

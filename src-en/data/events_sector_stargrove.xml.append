@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FTL>
+
+<mod:findName type="event" name="STARGROVE_HIGHWAYMAN_INITIAL">
+    <mod-append:choice req="fr_unique_purple_beard" blue="true" hidden="true">
+        <text>Purple Beard recognizes the Highwayman.</text>
+        <event load="FR_STARGROVE_EXIT_PURPLE_BEARD"/>
+    </mod-append:choice>
+</mod:findName>
+
+<event name="FR_STARGROVE_EXIT_PURPLE_BEARD">
+	<text>Purple Beard groans as he sees the Highwayman. He pauses and then speaks, as slowly as ever. "Oh, it's you... I see you decided to make this hellish place your home..." He glares at the other pirate.
+        
+    The Highwayman's smile turns into huge grin. "Ah, if it isn't the legendary pirate, Mister Purple Beard the Dreadful? To what do I owe the pleasure?" You can't tell if the Highwayman's tone is mocking or sincere.
+
+    Purple Beard just sighs. "If you know of the legends then you should be well aware that I don't quite enjoy small talk... We fight now, or else I will let everyone know what made you have to change your ship's paint color..." His eyes narrow as the dread pirate stares at the other dead in their eyes.
+
+    The Highwayman's grin dissolves slowly, replaced by an intense look of hatred. "...Heh. Now i know why your kid left." The enemy's weapons power on. A fight is inevitable.</text>
+    <choice hidden="true" blue="false" req="cloaking">
+        <text>Continue...</text>
+        <event load="STARGROVE_EXIT_TRACKING"/>
+    </choice>
+    <choice hidden="true" blue="false" req="cloaking" max_lvl="0" lvl="0">
+        <text>Continue...</text>
+        <event load="COMBAT_CHECK"/>
+    </choice>
+</event>
+
+</FTL>
+

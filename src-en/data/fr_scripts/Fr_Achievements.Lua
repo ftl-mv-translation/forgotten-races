@@ -1,4 +1,4 @@
-local vter = mods.fusion.vter
+--[[local vter = mods.fusion.vter
 
 local function string_starts(str, start)
     return string.sub(str, 1, string.len(start)) == start
@@ -61,4 +61,4 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(ShipManager)
       Hyperspace.CustomAchievementTracker.instance:SetAchievement("ACH_SHIP_FR_COMMONWEALTH_3", false)
     end
   end
-end)
+end)]]

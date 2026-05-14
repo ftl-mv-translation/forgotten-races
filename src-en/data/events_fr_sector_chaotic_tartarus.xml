@@ -1,0 +1,883 @@
+<FTL>
+
+<event name="FR_START_CHAOTIC_TARTARUS">
+    <metaVariable name="fr_juke_chaotictartarus" op="set" val="1"/>
+    <variable name="loc_unique_sectors" op="add" val="1"/>
+    <modifyPursuit amount="-15"/>
+    <preventQuest/>
+    <beaconType id="map_icon_fr_tartarus_start" global="false">
+        <color r="255" g="0" b="0" a="1"/>
+    </beaconType>
+    <text load="FR_TEXT_START_CHAOTIC_TARTARUS"/>
+    <img back="FR_SECTOR_CHAOS_TARTARUS" planet="NONE"/>
+    <choice hidden="true">
+        <text>Continue...</text>
+        <event load="STORAGE_CHECK"/>
+    </choice>
+</event>
+
+<textList name="FR_TEXT_START_CHAOTIC_TARTARUS">
+    <text>As you jump into the sector's entrance, a high-pitched screech assails your senses. The gnome has begun its usual shenaniganry, but... to a level you have never seen before! Your entire ship begins to shake and spin, throwing everyone off the feet as the gnome is knocked into your hands, forcing you to clutch it for dear life as your world fades to black. When you wake up, the stars outside are red and twisted in ways that should be impossible. Even worse, all of the bounty entries in your list have been totally swapped out for entirely new individuals!
+
+There also seems to be 2 unique bounties labled as "Bonus Bounties". Seems like they aren't necessary to progress whatever system is being enforced here, but you doubt you won't be rewarded by doing them.</text>
+</textList>
+
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS">
+	<preventQuest/>
+	<preventFleet/>
+	<variable name="loc_fr_bounty_in_progress_chaos" op="set" val="1"/>
+	<loadEventList seeded="false" first="true" default="FR_TARTARUS_EMPTY_CHAOS">
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_1" req="loc_fr_bounty_progression_chaos" lvl="0" max_lvl="0"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_2" req="loc_fr_bounty_progression_chaos" lvl="1" max_lvl="1"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_3" req="loc_fr_bounty_progression_chaos" lvl="2" max_lvl="2"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_4" req="loc_fr_bounty_progression_chaos" lvl="3" max_lvl="3"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_5" req="loc_fr_bounty_progression_chaos" lvl="4" max_lvl="4"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_6" req="loc_fr_bounty_progression_chaos" lvl="5" max_lvl="5"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_AUTO" req="loc_fr_bounty_progression_chaos" lvl="6" max_lvl="6"/>
+		<event name="FR_TARTARUS_BOUNTIES_CHAOS_SIREN" req="loc_fr_bounty_progression_chaos" lvl="7" max_lvl="7"/>
+		<event name="FR_TARTARUS_EMPTY_CHAOS" req="loc_fr_bounty_progression_chaos" lvl="18"/>
+	</loadEventList> 
+</event>
+
+<!--first encounter-->
+<ship name="SHIP_FR_CHAOS_REVENANT_FROSTWALL" auto_blueprint="FR_BOSS_CHAOS_REVENANT_FROSTWALL">
+	<destroyed>
+		<text>The Crystal vessel shatters into a number of sharp pieces, spiraling into the abyss.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_FROSTWALL_DEFEAT"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>Frostwall finally colapses, his crystals cracking and shattering as his spirit vanishes.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_FROSTWALL_DEFEAT"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_1">
+	<text>After jumping to the next beacon, you hesitantly begin to read the bounty. It tells the story of Frostwall, a Crystal Sentinel. Only known by his nickname, thanks to the grayish hue shooting through his exterior, he disappeared one day after making a statement against the Empress. Rumor has it he began to hear whispers in his head that drove him mad, and was executed for his disobedience - proof of such rumors stands before you now.</text>
+	 <img back="FR_SECTOR_CHAOS_TARTARUS" planet="NONE"/>
+	 <metaVariable name="fr_juke_chaotictartarus" op="set" val="1"/>
+     <choice hidden="true">
+        <text>Well... that sounds awfully familiar.</text>
+		<event>
+			<text>You eye the gnome, but it has simply returned to an inert state. Setting it down, you look up to find a huge Crystal ship staring right back at you, your comms filling with demonic whispers and static as its impossible darkness shrouds everything beyond your viewport. The hail it sends is audio-only, but you can hear the distinctive, shimmering voice of a Crystal screaming in pain as the ship raises its weapons. "The... th-the-the... the voices... the VOICES! GET OUT OF MY HEAD!"</text>
+				<ship load="SHIP_FR_CHAOS_REVENANT_FROSTWALL" hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_REVENANT_FROSTWALL_DEFEAT">
+	<text>Once you finish scrapping what you can, you look back down to the Gnome, it has mysteriously turned in the approximate direction of your next target.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>As you look up, you see Frostwall, standing right in front of you. His appearance, though distorted by a spiritual luminescence, is exactly as your entry described. Before you can draw your blaster, he raises his hand, simply wishing to speak.
+
+			"Thank you, kind Renegade. Although I may have... regained my sanity... there are far more dangerous matters to talk about at this moment. If that... that gnome... is really what I think it is, then... you may have caused an irreversible chain of events to start, one which could end all things if allowed to play out, just by bringing it here." Frostwall speaks in a soft, gentle tone, helping to reassure you of his turn to the light as his form begins to disintegrate into the air. "I will do my best to guide you through this sector, though I am unfortunately bound from serving directly aboard your craft. I hope you can understand my predicament."</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_FROSTWALL</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--second encounter-->
+<ship name="SHIP_FR_CHAOS_REVENANT_DEATHBLOOM" auto_blueprint="FR_BOSS_CHAOS_REVENANT_DEATHBLOOM">
+	<destroyed>
+		<text>The ship shudders, cracks, and shatters into a million pieces, something a Vampweed ship definitely should not do.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_DEATHBLOOM_DEFEAT"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>The vampweed's body pulsates and writhes before quickly bloating and exploding into countless spores. Luckily your crew was able to contain them before things got any worse.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_DEATHBLOOM_DEFEAT"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_2">
+	<text>If what Frostwall said is true, then there is no time to waste. Never mind the actual souls of the dead residing here - you need to get to the bottom of this mystery! It's not like you can leave anyway; all of your attempts to warp out of the sector by any means have failed, sometimes catastrophically, leaving completing the list as the only possible recourse. Next up on your list of targets is Deathbloom, a Vampweed treasure hunter.
+
+	According to your list, she stumbled upon an ancient tome of sorts following a long, arduous expedition that killed many of her allies. When she read the tome, an eternity of maddening whispers filled her mind, rendering her catatonic and unable to divert her ship away from collision with a comet. Strangely, nobody ever found the body. Frostwall sighs from all around you as he reads along... it seems he isn't the only one cursed by these whispers.</text>
+    <choice hidden="true">
+        <text>Continue...</text>
+		<event>
+			<text>Your short-range sensors suddenly detect the presence of a ship - a Vampweed vessel, completely decomposed with poison filled vines, its plant components all died to a strange rot. Deathbloom herself appears on the other end of the viewscreen, her voice zombie-like. "P-Pain... so.. much... pain inside my veins... I... I-I, I need to get...rid of this pain! Y-... you will do just fine!"</text>
+				<ship load="SHIP_FR_CHAOS_REVENANT_DEATHBLOOM" hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_REVENANT_DEATHBLOOM_DEFEAT">
+	<text>Hopefully, without someone actively spreading poison and death, you can figure out more about this place.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Before you can begin to think, you hear Frostwall's voice around the ship. "Hm... I feel a sort of... power. A strange sort of... R-Renegade, watch out, watch out!"
+
+			Deathbloom manifests before you, looking just as shocked as you. Before you can gun her down, she shouted out. "D-don't shoot! I... t-the voices, they're... gone? I... I still feel poison flowing through my body, but... I can... kinda think clearly! I-I'm... sorry, Renegade..." Deathbloom sighs with exasperation, but she perks up for a moment as her form begins to dissipate, melding into the air alongside Frostwall's. "Perhaps I could... help you, too? I'll tag along!"</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--third encounter-->
+<ship name="SHIP_FR_CHAOS_REVENANT_POK" auto_blueprint="FR_BOSS_CHAOS_REVENANT_POK">
+	<destroyed>
+		<text>Pok's vessel splatters into a number of purple globs, each of them heading into a different direction.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_POK_DEFEAT"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>The purple morph quickly shifts between all their forms as they die, finally landing back to its orginal blobby form.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_POK_DEFEAT"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_3">
+	<text>Before anything can interrupt you this time, you begin to read the third bounty. A Morph, simply named Pok, forged by a particular division of Shell scientists. According to the bounty, they all gazed in wide wonder when Pok morphed themselves into a garden gnome, without even knowing what one was.
+
+	This led to the discovery that Pok was, in a sense, the perfect Morph, able to mimic anyone down to their personal details perfectly, from nothing but a single picture. Sadly, this meant the Morph had horrifically unstable genetics, forcing them to continually switch between forms in order to prolong their tragically short lifespan.</text>
+     <choice hidden="true">
+        <text>But... how is that possible?</text>
+		<event>
+			<text>You turn to the air, ready to ask Frostwall about how it could be possible, but you are interrupted by a gelatinous ship jumping in, likely captained by Pok. You receive no hail, and are instead struck by the sight of the the ship being equipped by 2 clone weapons!</text>
+				<ship load="SHIP_FR_CHAOS_REVENANT_POK" hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_REVENANT_POK_DEFEAT">
+	<text>You pray that this is the last time you'll have to face a ship with a clone cannon - that weapon was outlawed the moment it hit the market.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Pok manifests on your bridge almost immediately, much quicker than the other two specters. They shape their form into a heart, then a copy of your vessel, then a handshake, then finally some sort of weird tripod alien thing, crossed out. You have no idea how a Morph can shape itself so quickly!
+
+			Deathbloom re-manifests on your ship, and the blob practically jumps into her arms, cooing softly. Frostwall speaks from the background, resolute. "I... guess we can keep this Morph around, then."
+			
+			The next bounty seems to warn you that the target will have highly powerful defense drones.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_POK</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--fourth encounter-->
+<ship name="SHIP_FR_CHAOS_REVENANT_CHARROR" auto_blueprint="FR_BOSS_CHAOS_REVENANT_CHARROR">
+	<destroyed>
+		<text>The ship breaks into pieces, its nanomachines losing their color and reverting to their normal, gray tones.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_CHARROR_DEFEAT"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>The strange engi attempts to reboot their systems one last time before it finally freezes and crashes, their body going limp one last after that.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_CHARROR_DEFEAT"/>
+		</choice>
+	</deadCrew>
+	<crew>
+		<crewMember type="engi_defender" prop="0.75"/>
+		<crewMember type="engi" prop="0.25"/>
+	</crew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_4">
+	<text>You waste no time checking your next target. Charror, an Engi Defender, and one of the Harmony's most loyal. It is said they were permanently stationed near a key Link, eliminating any chance they could be separated from their central command... until, apparently, they disappeared for several days, then came back complaining of whispers and a desire to acquire a "soul".
+
+	In the following days, Charror became an intergalactic criminal, kidnapping several humans and bleeding them dry of every last drop of their life force to forge themselves the closest thing eldritch rituals could create to an artificial soul. Implanting it within themselves utterly shattered their mind, and the Harmony was forced to put them down before they could re-integrate with the network and cause a catastrophic meltdown.</text>
+     <choice hidden="true">
+        <text>Reprogram a Defender? Who could have managed such a feat?</text>
+		<event>
+			<text>Frostwall shrugs, just as confused as you are. Before you have time to ponder more, a multicolored Engi ship jumps into the beacon, its mesmerizing display of colors shining across the hull as its lights flicker violently. The ship hails you, revealing a captain whose nanomachines were actively falling apart into a prismatic miasma around their body. Charror tries to speak, but their speech is heavily marred by several error messages and angry screeches. That doesn't matter, though - the ship's guns are hot!</text>
+				<ship load="SHIP_FR_CHAOS_REVENANT_CHARROR" hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_REVENANT_CHARROR_DEFEAT">
+	<text>Engis with souls...now that is something you rather never think about again...</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The Engi wastes no time appearing before you, barely able to stay stable.
+
+			"Protocol 120: Gratitu-ZzZzZz. Support against [ERROR CODE 0x0004] is required, the SKILLS of this unit can bzZzZzZzZz of use. Unit no longer under [ERROR CODE 0x0004] control, need to honor SAVIOR izZzZz... paramount." The other apparitions just shrug, keeping an eye on Charror as their form melds with the ship.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_CHARROR</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--fifth encounter-->
+<ship name="SHIP_FR_CHAOS_REVENANT_LEO" auto_blueprint="FR_BOSS_CHAOS_REVENANT_LEO">
+	<destroyed>
+		<text>The lights fade into nonexistence as the ship is torn apart, its careful, curved design destroyed under your might.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_LEO_DEFEAT"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>The powerful leech expells one last currency discharge before his body goes dark and limp.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_LEO_DEFEAT"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_5">
+	<text>The next bounty on your list has the shortest entry so far. Leo, a Leech Ampere, was stationed at the boarders of the Eargen Capitol, leading a mostly unremarkable existence marked by the occasional battle with pirates or Rebels. One day, however, his life was flipped upside down by a vessel of unknown make and class, rushing towards the center of the system.
+
+	The fight, according to Eargen intel, lasted less than ten seconds, with the entire crew having been killed in a particularly gruesome fashion. Analysis of biohazardous matter on the walls suggested that most of the crew died because their heads burst, with all of their nerve cells having been charred to a crisp. Leo was reported missing, and the ship immediately vanished following the fight; it is likely he was abducted.</text>
+     <choice hidden="true">
+        <text>I guess he won't be missing for long.</text>
+		<event>
+			<text>Frostwall nods in agreement. Shortly afterwards, a Leech vessel appears in front of you, a brilliant green light radiating from its extremities. No hail, no quarter, it simply raises its weapons and opens fire.</text>
+				<ship load="SHIP_FR_CHAOS_REVENANT_LEO" hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_REVENANT_LEO_DEFEAT">
+	<text>If the Republic has more ships like this one, then maybe they wouldn't be forced to join the Coalition to survive...</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The Leech takes a long time to finally manifest before you and the other Spectres. Although Leo doesn't speak, you feel a sense of gratitude radiating from him. He simply dissipates into the ship's ambiance, occasionally popping up from place to place in the most well-hidden spots.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_LEO</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--sixth encounter-->
+<ship name="SHIP_FR_CHAOS_REVENANT_SEARAK" auto_blueprint="FR_BOSS_CHAOS_REVENANT_SEARAK">
+	<destroyed>
+		<text>The ship, and its unusually powerful clonebay, have finally been rent apart.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_SEARAK_DEFEAT"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>Even as Searak dies, the cracked clonebay still attempts to revive him one last time, before finally failing and going dark forever.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_SEARAK_DEFEAT"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_6">
+	<text>Hopefully, you will be able to get to the bottom of this whole Tartarus thing, with your list growing shorter and shorter. Your next target is Searak, one of the very first Duskbringers to join the movement, and to see combat.
+
+	According to salvaged reports from the battle, a mysterious white vessel struck Searak's ship down, and tampered with its clonebay. The incident drove Searak to madness upon his rebirth, and he began to upload his mind to the DNA bank in an effort to spread the chaos. The captain of the ship was forced to commit suicide by steering the ship into a pulsar, annihilating all traces of it.</text>
+     <choice hidden="true">
+        <text>A shame we won't ever know the captain's name...</text>
+		<event>
+			<text>Your crew and the spirits lower their heads in thought, before ship makes itself known by powering up its weapons. It's Searak, with a scathing hail. "I see! The ones the voices warn me of have finally arrived... and not a moment too soon! Brothers, sisters, to arms, to arms!"</text>
+				<ship load="SHIP_FR_CHAOS_REVENANT_SEARAK" hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_REVENANT_SEARAK_DEFEAT">
+	<text>You turn away from the command console, expecting Searak to make his presence known.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The once-proud Martyr manifests himself in front of you, his pride and vigor taken from him. "...how...? How could I have been so... easy to... manipulate? For all of my life, I... fought for what I thought was right, but... now, all I will ever be remembered as is... a lunatic. And, a traitor." The other apparitions step closer, and Frostwall offers a hand to shake, which Searak takes before fading away. "I may not be able to atone, but... the least I can do is help you get through this hellscape."</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_SEARAK</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--auto encounter-->
+<ship name="SHIP_FR_CHAOS_REVENANT_AUTO" auto_blueprint="FR_BOSS_CHAOS_REVENANT_AUTO">
+	<destroyed load="FR_CHAOS_REVENANT_AUTO_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_REVENANT_AUTO_DEFEAT"/>
+</ship>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_AUTO">
+	<text>You wait with anticipation, eager to reveal the final bounty. Before you can pull up the page, however, the file scrambles itself as a... Rebel Auto-ship? It appears in front of you, weapons already primed, its sensor cluster glowing an ominous green as its odd, golden hull glimmer in the light of a nearby star.</text>
+	<ship load="SHIP_FR_CHAOS_REVENANT_AUTO" hostile="false"/>
+     <choice hidden="true">
+        <text>What the...?</text>
+		<event>
+			<text>None of your crew know why it's here, either. A couple of the specters you've freed don't even recognize the ship at all, for the Rebellion wasn't even a twinkle in Vance's eye back when they were alive. It hails you, playing a simple, recorded message before moving in to strike.
+			
+			"Federation vessel. You have come too far, and seen too much, for your own good. You must now be eliminated to maintain operational security. Executing protocol L-3312 - for the Legion!"</text>
+				<ship hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_REVENANT_AUTO_DEFEAT">
+	<text>The Auto-ship manages to fight for a couple of minutes, even with a missing aft. As it finally begins to crumble, it desperately charges its FTL Drive in an attempt to escape, but it is stopped in its tracks by a fuel tank ignition that obliterates the entire vessel! Not much scrap is left, but the pieces that are there are chunks of extremely valuable Aether.</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<autoReward level="HIGH">standard_no_item</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text> 
+		<event>
+			<text>A little bit of searching allows you to salvage one item that wasn't broken by the blast: the Auto-ship's black box. Charror sets to work decrypting its contents, a task that proves shockingly difficult, but they eventually manage to extract a short video clip.
+
+			Everyone crowds around to watch nobody less than Vance Wentworth striking a deal with... something. The pixels around it are so blurry and over-compressed that identification is impossible, but you already know it can't possibly be good if Vance is directly involved. Charror also manages to dig up both the blueprints for a similar Auto-ship and data on an advanced form of emancipation grid similar to the one fielded by your foe!</text>
+			<augment name="FR_ANNIHILATION_GRID_UNLOCKED"/>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_CHAOS_REVENANT_AUTO</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--Siren encounter-->
+<ship name="SHIP_FR_CHAOS_REVENANT_WATCHER" auto_blueprint="FR_BOSS_CHAOS_REVENANT_WATCHER">
+	<destroyed>
+		<text>A massive gash splits across the ship's hull, tendrils of blue static pouring out of it before the abominable excuse for a space-worthy ship explodes, disintegrating into nothing but dust right in front of your eyes.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_WATCHER_DEFEAT"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>You aren't even sure if the so called 'Watcher' actually died or not. All you can do is hope they are truly gone.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_WATCHER_DEFEAT"/>
+		</choice>
+	</deadCrew>
+	<crew>
+		<crewMember type="siren" prop="0.40"/>
+		<crewMember type="siren_harpy" prop="0.60"/>
+	</crew>
+	<deathEvent thisFight="true">FR_DEATH_WATCHER</deathEvent>
+</ship>
+
+<event name="FR_DEATH_WATCHER">
+	<lose text="Y O U  M A Y  N O W  S L E E P
+	T H E  E N D L E S S  S L U M B E R"/>
+</event>
+
+<event name="FR_TARTARUS_BOUNTIES_CHAOS_SIREN">
+	<text>With your interruption out of the way, the time has come to discover your last bounty. When you open the file, you find...
+
+	...nothing. No tales or rumors, no information, just a single, massive line of text reading "The Watcher". As you lock eyes with the name, you feel an overwhelming pain in the back of your head, and are about to faint when Frostwall catches you... the feeling is just like when you entered, and the gnome screeched out.</text>
+    <choice req="gnome" lvl="1" blue="false" hidden="true">
+        <text>Actually... where is the gnome?</text>
+		<event>
+			<text>In front of you stands the gnome... for all of one second, before it teleports away. You look up to the viewport, and immediately look away. Static and dizziness fills your mind, the mere sight of the vessel in front of you making you feel like you want to vomit... and yet, nothing comes up when you begin to dry-heave. The Watcher's eye fills every screen, whispers intruding on every corner of your mind and the minds of everyone aboard, everyone finally knowing what has tormented the ghosts for so long.
+
+				Your final target is truly unlike any other, its form seeming to merge with the space around you. The unearthly roar of their engines echoes through your ship, despite the two of you being in space, but... the Watcher's vessel seems to slow down, instead pointing its weapons at you! Perhaps they want to leave no witnesses, you ponder for a moment, before locking eyes once more with the demonic presence and giving the command to open fire!</text>
+				<ship load="SHIP_FR_CHAOS_REVENANT_WATCHER" hostile="true"/>
+				<playMusic>chaos_fight</playMusic>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+    <choice req="gnome" lvl="0" max_lvl="0" blue="false" hidden="true">
+        <text>Actually... shouldn't the gnome be back by now?</text>
+		<event>
+			<text>In front of you stands the gnome... for all of one second, before it teleports away. You look up to the viewport, and immediately look away. Static and dizziness fills your mind, the mere sight of the vessel in front of you making you feel like you want to vomit... and yet, nothing comes up when you begin to dry-heave. The Watcher's eye fills every screen, whispers intruding on every corner of your mind and the minds of everyone aboard, everyone finally knowing what has tormented the ghosts for so long.
+
+				Your final target is truly unlike any other, its form seeming to merge with the space around you. The unearthly roar of their engines echoes through your ship, despite the two of you being in space, but... the Watcher's vessel seems to slow down, instead pointing its weapons at you! Perhaps they want to leave no witnesses, you ponder for a moment, before locking eyes once more with the demonic presence and giving the command to open fire!</text>
+				<ship load="SHIP_FR_CHAOS_REVENANT_WATCHER" hostile="true"/>
+				<playMusic>chaos_fight</playMusic>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_REVENANT_WATCHER_DEFEAT">
+	<text>Whoever this Watcher was, you pray you never see anyone like them ever again. You feel like you won't ever sleep well after today again...</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="1"/>
+	<playMusic/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Nobody on your ship celebrates. Nobody even comes to discuss the fight. Everyone is utterly silent, their once boisterous personalities replaced with a blank void... even the ghosts, who seem to have completely vanished. Even you feel empty inside, as if your very soul had been ripped from your physical body.
+
+			You are able to trace the Watcher's intended jump coordinates... perhaps that may lead you to the cure for this emptiness, and perhaps the end of this wild journey.</text>
+			<unlockCustomShip silent="false">PLAYER_SHIP_FR_WATCHER</unlockCustomShip>
+		</event>
+	</choice>
+</event>
+
+<!--LEGION FLAGSHIP ENCOUNTER-->
+<ship name="SHIP_FR_CHAOS_REVENANT_LEGION_FLAGSHIP" auto_blueprint="FR_BOSS_CHAOS_REVENANT_LEGION_FLAGSHIP">
+	<destroyed load="FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT"/>
+	<deadCrew load="FR_CHAOS_REVENANT_LEGION_FLAGSHIP_AUTO"/>
+	<miniBoss sound="victory" musicDelay="-1"/>
+	<deadCrewAuto/>
+	<crew>
+		<crewMember type="LIST_CREW_MALFORM_RANDOM" prop="0.4"/>
+		<crewMember type="LIST_CREW_LEGION" prop="0.6"/>
+	</crew>
+	<deathEvent thisFight="true">FR_DEATH_LEGION_FLAGSHIP</deathEvent>
+</ship>
+
+<event name="FR_DEATH_LEGION_FLAGSHIP">
+	<lose text="The multiverse quakes as an unending wave of undying legionnaires conquers all."/>
+</event>
+
+<event name="FR_CHAOS_REVENANT_LEGION_FLAGSHIP_AUTO">
+	<text>It appears this ship is also equipped with an advanced AI system. Now that the crew is dead, it has taken control! You sense oxygen levels dropping on the Flagship as well...</text>
+	<status type="limit" target="enemy" system="oxygen" amount="0"/>
+</event>
+
+<event name="FR_TARTARUS_FINAL_BOSS_CHAOS">
+    <preventQuest/>
+	<preventFleet/>
+	<beaconType id="map_icon_fr_tartarus_final" global="true">
+		<color r="255" g="0" b="0" a="1.0"/>
+		<unvisitedTooltip>Location of the final bounty, it seems to only be available after all the other bounties are done first.</unvisitedTooltip>
+		<visitedTooltip>Location of the final bounty.</visitedTooltip>
+	</beaconType>
+	<text>The space here is filled only with maddening laughter, whispers tailored to your very core memories intruding on your mind.
+
+	There is an exit beacon here, but... it appears rotten, crumbled. There truly seems to be no way out of here, though... perhaps clearing your bounty list could give you a pointer.</text>
+	<revisitEvent>FR_TARTARUS_FINAL_BOSS_CHAOS</revisitEvent>
+	<choice hidden="true">
+		<text>We have work to do still.</text>
+		<event/>
+	</choice>
+	<choice hidden="true" req="loc_fr_bounty_progression_chaos" lvl="0" max_lvl="7" blue="false">
+		<text>The exit beacon is empty. The list must be cleared first!</text>
+		<event load="OPTION_INVALID"/>
+	</choice>
+	<choice hidden="true" req="loc_fr_bounty_progression_chaos" lvl="8" blue="false">
+		<text>Remain at the beacon. This is where the Watcher wanted to go!</text>
+		<event load="FR_TARTARUS_FINAL_BOSS_CHAOS_TRUE"/>
+	</choice>
+</event>
+
+<event name="FR_TARTARUS_FINAL_BOSS_CHAOS_TRUE">
+	<preventQuest/>
+	<preventFleet/>
+	<text>Although it isn't the absolute assault upon your senses the Watcher was, the vessel which jumps into combat range is no less fearsome. A brand new model of Rebel Flagship, fitted with technology you can barely understand, and painted in the same bizarre colors as the Auto-ship you ran into earlier! Not only that, it seems that you two aren't alone either, as a whole host of fleet ships with similar design to the flagship are also present. Hailing you from the bridge is none other than Vance Wentworth, Admiral of the Rebel Fleet.
+
+	"Well, well... if it isn't the little Federation ship that could." Vance hisses, briefly turning and smiling to a bound and gagged individual in the corner flanked by two Rebel soldiers in unidentifiable armor. "After finding out what you did to my little drone, I had a feeling I'd have to do this myself... it seems my business partner was no trouble for you."</text>
+	<ship load="SHIP_FR_CHAOS_REVENANT_LEGION_FLAGSHIP" hostile="false"/>
+	<customFleet right="true" firing="false" autoDarkening="true">FR_CUSTOM_FLEET_LEGION</customFleet>
+	<img back="FR_SECTOR_G_TARTARUS" planet="NONE"/>
+	<playMusic>fr_undeniable_supremacy</playMusic>
+	<choice hidden="true">
+        <text>Wait, if you're Vance... then who's... that?</text>
+		<event>
+			<text>Vance grins ear to ear, as if he had just watched a planet full of Orchid children burn to the ground. He doesn't answer your question.
+
+			"Oh! I see you want an explanation. Something to satisfy your gluttonous little mind, no...? No! No, no, NO! I will give you nothing to feast upon. I have waited DECADES to get the ball rolling here. And, now that I have both you and my little friend here right where I want them... it's time to execute. I won't let a pitiful little maggot like you stop me from doing everything I've ever wanted to do! Oh, you pansy little ghost-kisser, I hope you put up a fight. It'll be all the more worth it to watch... you... squirm!"</text>
+				<ship hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+				</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT">
+	<text>At first, it looks like the flagship could never fall. However, a great blast from the center of the vessel instantly proves you wrong. It is instantly consumed in the explosion, sending out a shockwave that nearly tears your own vessel in half!</text>
+	<variable name="loc_fr_bounty_progression_chaos" op="add" val="10"/>
+	<metaVariable name="fr_juke_undeniable_supremacy" op="set" val="1"/>
+	<recallBoarders ship="both"/>
+	<enemyDamage amount="999"/>
+	<playMusic/>
+	<choice hidden="true">
+		<text>Continue...</text>
+			<event>
+				<text>You and your crew begin to feel lighter on your feet. It seems that destroying the vessel must have lifted the Watcher's curse... at least, partially, for the specters do not return. This must have been Vance-1, a key Vance in the Rebellion's chain of command. Why else would he command some sort of super-prototype experimental flagship?
+					
+				Then, something strikes you... what about the hostage in the cockpit? Thankfully, the bridge is mostly intact amongst the wreckage, having been heavily reinforced. Bringing in the piece of the ship, you carry the wounded man aboard and remove his gag to reveal... another Vance!?</text>
+				<choice hidden="true">
+					<text>...what in the...</text>
+					<event>
+						<text>Vance sighs, nodding. "Yes. I'm Vance. The... Vance. Vance... Prime. I-I'm afraid I know just about as much as you do, sadly. Vance-1 betrayed me, stole my pet project... which you just blew up. If... If I had to guess, Vance-1 wanted to figure out the secrets of life and death in some sort of... ultimate plan to control the Multiverse?"
+
+						The grizzled man closes his eyes, shaking his head. "I-I was just as blindsided by this as you were!"</text>
+							<choice hidden="true">
+							<text>Give me one reason why I shouldn't gut you where you stand.</text>
+								<event>
+									<text>Vance groans with frustration. "I know the only way out of this place. that, and... I have the blueprints for my little flagship on file. Just... just take it..."
+
+									He tosses you a small thumb drive, before staggering to his feet. "Whenever you're ready... just tell me when we should leave. I might as well stick around, since... I have no place in the Rebellion after that prick stole my spot."</text>
+									<variable name="fr_bounty_completed_mid_run" op="set" val="1"/>
+									<crewMember amount="1" class="unique_vance" all_skills="2">Vance Prime</crewMember>
+									<achievement silent="false">ACH_FR_EVENT_TARTARUS_CHAOS</achievement>
+									<unlockCustomShip silent="false">PLAYER_SHIP_FR_LEGION_FLAGSHIP</unlockCustomShip>
+									<jumpEvent>FR_VANCE_SECTOR_SELECT</jumpEvent>
+								</event>
+							</choice>
+					</event>
+				</choice>
+			</event>
+	</choice>
+</event>
+
+<event name="FR_VANCE_SECTOR_SELECT">
+	<text>You inform Vance that you are ready to leave. He sighs, handing you a small, floating cube that pulses with fuchsia light.
+	
+	"Put this in your engine's fuel tank. Vance-1 probably planned on using this to strike at Universe 0 when he left Tartarus. As far as I know, this is the only tool of its kind that exists... so choose your destination wisely, Renegade."</text>
+	<choice hidden="true">
+		<text>Huh... weirdly charitable of you, Vance.</text>
+		<event>
+			<text>"Oh this isn't charity, I just rather get the hell out of this place, even if that means helping you." He snarks.</text>
+			<choice hidden="true">	
+				<text>Well, time to pick our destination.</text>
+					<event load="FR_WEAPON_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_WEAPON_CHAOS_SELECT_TARTARUS">
+	<text>Suddenly, a member of your crew points towards the viewport. It seems that a number of bizarre weapons are hurtling through space, similar in appearance to many of the mysterious vessels you've just fought. They are on a collision course with a nearby sun; their speed means you will have time to select only one of them!</text>
+	<choice blue="false" hidden="false">	
+		<text>Pick Frostwall's Crystal Phaser.</text>
+		<event>
+			<text>You are able to snag the odd weapon out of the bunch, the others streaking past your ship and into the star. All hope of retrieving them is lost.</text>
+			<weapon name="FR_FROSTWALL_CRYSTAL_ION"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Deathbloom's Charge Spore Launcher.</text>
+		<event>
+			<text>You are able to snag the odd weapon out of the bunch, the others streaking past your ship and into the star. All hope of retrieving them is lost.</text>
+			<weapon name="FR_DEATHBLOOM_SPORE_BOMBLAUNCHER"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Pok's Morph Launcher Drone.</text>
+		<event>
+			<text>You are able to snag the odd drone out of the bunch, the others streaking past your ship and into the star. All hope of retrieving them is lost.</text>
+			<drone name="FR_POK_MORPH_DRONE"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Charror's beam drone.</text>
+		<event>
+			<text>You are able to snag the odd drone out of the bunch, the others streaking past your ship and into the star. All hope of retrieving them is lost.</text>
+			<drone name="FR_CHARROR_DRONE"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Leo's battery.</text>
+		<event>
+			<text>You are able to snag the odd weapon out of the bunch, the others streaking past your ship and into the star. All hope of retrieving them is lost.</text>
+			<weapon name="FR_LEO_FLAK"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Searak's energy cannon.</text>
+		<event>
+			<text>You are able to snag the odd weapon out of the bunch, the others streaking past your ship and into the star. All hope of retrieving them is lost.</text>
+			<weapon name="FR_SEARAK_ENERGY"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick the Auto-ship's Legionnaire Pyrotechnic Battledrone.</text>
+		<event>
+			<text>You are able to snag the odd drone out of the bunch, the others streaking past your ship and into the star. All hope of retrieving them is lost.</text>
+			<drone name="FR_LEGION_DRONE_BATTLE_BOARDER"/>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_CREW_CHAOS_SELECT_TARTARUS"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_CREW_CHAOS_SELECT_TARTARUS">
+	<text>Attached to the note is... some form of data storage drive. Deciphering it shows information on... some form of cleansing ritual. It will only work once - you will have to pick which ghost you want to bring back to cognizance, the rest will, however, be able to be put to rest.</text>
+	<choice blue="false" hidden="false">	
+		<text>Pick Frostwall.</text>
+		<event>
+			<text>You and your crew hold a brief ritual, and Frostwall manifests before your eyes, rubbing his head. "You... you saved me! From this day onwards... I will fight by your side, Captain, to the end of the Multiverse!"</text>
+			<crewMember amount="1" class="fr_reformed_frostwall" all_skills="2">Frostwall</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Deathbloom.</text>
+		<event>
+			<text>You and your crew hold a brief ritual, and Deathbloom manifests before your eyes, flourishing her petals. "Hahaaa, now that's what I'm talking about! C'mon, Renegade... there's always gonna be more places to discover, more treasure to find."</text>
+			<crewMember amount="1" class="fr_reformed_deathbloom" all_skills="2">Deathbloom</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Pok.</text>
+		<event>
+			<text>You and your crew hold a brief ritual, and Pok manifests before your eyes, wobbling with joy. "Pok!" The little Morph shapeshifts into a form just like yours and gives you a great, big hug.</text>
+			<crewMember amount="1" class="fr_reformed_pok" all_skills="2">Pok</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Charror.</text>
+		<event>
+			<text>You and your crew hold a brief ritual, and Charror manifests before your eyes, their body fully composed for a single moment. "Mercy...? This unit izZzZzZz... thankful".</text>
+			<crewMember amount="1" class="fr_reformed_charror" all_skills="2">Charror</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Leo.</text>
+		<event>
+			<text>You and your crew hold a brief ritual, and Leo manifests before your eyes, finally mustering the courage to speak. "Mercy? After everything... you still want me to... live? Renegade. Consider me a true friend, then!"</text>
+			<crewMember amount="1" class="fr_reformed_leo" all_skills="2">Leo</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice blue="false" hidden="false">	
+		<text>Pick Searak.</text>
+		<event>
+			<text>You and your crew hold a brief ritual, and Searak manifests before your eyes, robes flapping proudly in a nonexistent wind. "In all of my years of service, to any cause, I have never seen the kind of courage you've displayed today. If I make it back home, every Duskbringer who will ever live will sing of your deeds today!</text>
+			<crewMember amount="1" class="fr_reformed_searak" all_skills="2">Searak</crewMember>
+			<choice blue="false" hidden="true">	
+				<text>Continue...</text>
+					<event load="FR_WAYSTONE_SELECT"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_TARTARUS_EMPTY_CHAOS">
+	<text load="FR_TARTARUS_EMPTY_TEXT"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
+
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					PRINCE
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
+<ship name="FR_SHIP_CHAOS_REVENANT_PRINCE" auto_blueprint="FR_BOSS_CHAOS_REVENANT_PRINCE">
+	<destroyed>
+		<text>As the ship breaks apart, strange symbols flash before your eyes, making you dizzy and confused.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_PRINCE_DEFEATED"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>You expected literal demons to be harder to kill, though it seems whatever they are made out of is still just as vulnerable as living crew are.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_PRINCE_DEFEATED"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<event name="FR_CHAOS_REVENANT_PRINCE">
+	<preventQuest/>
+	<preventFleet/>
+	<beaconType id="map_icon_fr_bonus_revenants" global="true">
+		<color r="229" g="255" b="0" a="1"/>
+	</beaconType>
+	<text>You reach the spot labled as the "bonus bounty". As expected, a vessel of unique design orbits the beacon, hailing you the moment it senses your presence. A shroud of absolute darkness masks parts of the ship's true appearance. According to legend, a vessel like this was commanded by a being known as the Prince of Darkness, a demonic spirit in the form of an Equinoid. The Prince does not speak to you, simply branding their message directly in your mind.
+	
+	"And so, another mortal challenges me. I am from the depths of a place inconceivable, and I have seen eons pass in the blink of an eye. Your life, to me, is but a single atom in the grand design of the Multiverse. Fight well, Renegade, and impress me - you may find yourself with quite a reward."</text>
+	<ship load="FR_SHIP_CHAOS_REVENANT_PRINCE" hostile="true"/> 
+	<choice hidden="true">
+		<text>Prepare to fight!</text>
+			<event>
+				<text>Realizing there's no way out of here without a fight, you turn on your weapons and engage the ship.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+							<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</choice>
+</event>
+
+
+<event name="FR_CHAOS_REVENANT_PRINCE_DEFEATED">
+	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.
+		
+		The Prince manifests in front of you as you return to the ship. Before you can draw your blaster, you hear the words ring out in your head. "Be not afraid, mortal. I come to offer your spoils of war, and to join you for the remainder of your errand. I do hope your presence will not tarnish my reputation."</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BONUS_REVENANT_PRINCE</unlockCustomShip>
+	<crewMember amount="1" class="fr_bonus_prince" all_skills="2">Prince of Darkness</crewMember>
+	<autoReward level="HIGH">standard_no_item</autoReward>
+	<weapon name="FR_PRINCE_CANNON"/>
+</event>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					TRIRIAC
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
+<ship name="FR_SHIP_CHAOS_REVENANT_TRIRIAC" auto_blueprint="FR_BOSS_CHAOS_REVENANT_TRIRIAC">
+	<destroyed>
+		<text>This absolutely massive vessel seems to have reached its limits. It seems even eldritch technology can't fight forever.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_TRIRIAC_DEFEATED"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>After a lot of work making sure every eldritch being was dead, you can finally rest for a moment when you see Tririac go down and not instantly get back up.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_CHAOS_REVENANT_TRIRIAC_DEFEATED"/>
+		</choice>
+	</deadCrew>
+	<crew>
+		<crewMember type="fr_specter" prop="0.4"/>
+		<crewMember type="eldritch_thing" prop="0.6"/>
+	</crew>
+</ship>
+
+<event name="FR_CHAOS_REVENANT_TRIRIAC">
+	<preventQuest/>
+	<preventFleet/>
+	<beaconType id="map_icon_fr_bonus_revenants" global="true">
+		<color r="229" g="255" b="0" a="1"/>
+	</beaconType>
+	<text>You reach the spot labled as the "bonus bounty". As expected, a vessel of unique design orbits the beacon, hailing you the moment it senses your presence. Its lights begin to draw your mind in, and you can barely resist its allure. There is no legend attached to this vessel, nor is there any hull design you could imagine it'd be even remotely close to.
+
+	The being in charge of the vessel begins to speak, the very words sending your brain into searing pain, migraines pushing their way through your head. "CHILD OF MAN. DO NOT RESIST THE CALL."
+
+	"SUBMIT."
+
+	Warning: This ship might proove extreamily difficult if not impossible to fully clear out this enemy's crew if you don't not a reliable way to mind control, burn and/or stun enemies. Don't be afraid to skip this enemy if you aren't ready for it.</text>
+	<ship load="FR_SHIP_CHAOS_REVENANT_TRIRIAC" hostile="false"/> 
+		<choice hidden="true">
+			<text>Prepare to fight!</text>
+				<event>
+					<text>Realizing there's no way out of here without a fight, you turn on your weapons and engage the ship.</text>
+					<ship hostile="true"/>
+						<choice hidden="true">
+							<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+						</choice>
+				</event>
+		</choice>
+		<choice hidden="true">
+			<text>Back away.</text>
+				<event>
+					<text>This ship is way too powerful for you. Better to leave them be.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+							<event/>
+					</choice>
+				</event>
+		</choice>
+</event>
+
+<event name="FR_CHAOS_REVENANT_TRIRIAC_DEFEATED">
+	<text>You're also surprised to find a special weapon among the wreckage! You've never seen anything even remotely close to something like this before, so you assume it must be a custom model made by the strange beings.
+		
+	The strange entity in command begins to manifest in front of you, and you brace yourself for a mental assault unlike anything you've ever seen. But... it doesn't come, and the burly being simply retreats into the bowels of the ship. Perhaps... they will work with you, for now.</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BONUS_REVENANT_TRIRIAC</unlockCustomShip>
+	<crewMember amount="1" class="fr_bonus_tririac" all_skills="2">Tririac</crewMember>
+	<autoReward level="HIGH">standard_no_item</autoReward>
+	<weapon name="FR_TRIRIAC_ABDUCTOR"/>
+</event>
+
+</FTL>

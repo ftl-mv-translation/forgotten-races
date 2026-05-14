@@ -9,7 +9,7 @@
 -->	
 
 <event name="FR_TRAPPER_COMMONWEALTH" unique="true">
-	<text>It appears even the Commonwealth had Trapper class vessels, because an Commonwealth ship is laying a small defensive minefield at this beacon. They don't notice you luckily.</text>
+	<text>It appears even the Commonwealth has Trapper class vessels, because an Commonwealth ship is laying a small defensive minefield at this beacon. They don't notice you luckily.</text>
 	<ship load="FR_SHIP_COMMONWEALTH_TRAPPER" hostile="false"/> 
 	<choice hidden="true">
 		<text>Attack the Trapper!</text>
@@ -46,6 +46,232 @@
 	<text>The Trapper has been emptied of crew. While scrapping it, you find a Mine Launcher in its storage.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="FR_COMMONWEALTH_MINELAUNCHER"/>
+</event>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					WARZONE
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
+<eventList name="FR_TRAPPER_WARZONE_LIST">
+	<event load="FR_TRAPPER_WARZONE_COALITION" req="stability" lvl="750" max_lvl="999"/>
+	<event load="FR_TRAPPER_WARZONE_REBEL" req="stability" lvl="500" max_lvl="749"/>
+	<event load="FR_TRAPPER_WARZONE_FEDERATION" req="stability" lvl="250" max_lvl="499"/>
+	<event load="FR_TRAPPER_WARZONE_PIRATE" req="stability" lvl="-999" max_lvl="249"/>
+</eventList>
+
+<ship name="FR_SHIP_TRAPPER_WARZONE_REBEL" auto_blueprint="MU_ESTATE_PORTER">
+	<surrender min="999" max="999" load="FR_WARZONE_HOSTILE_SIGNAL"/>
+	<destroyed load="FR_DESTROYED_TRAPPER_WARZONE_REBEL"/>
+	<weaponOverride count="1">
+		<name>FR_LOOT_ELITE_AUTO_1_ENEMY</name>
+	</weaponOverride>
+</ship>
+
+<event name="FR_TRAPPER_WARZONE_REBEL" unique="true">
+	<text>Wentworth Innovations are number 1 in quality Trappers. It's no surprise that the Rebellion allocated resources to have a "Porter" class Trapper in such a contested zone.</text>
+	<customFleet right="true" firing="false" autoDarkening="true">CUSTOM_FLEET_MFK</customFleet>
+	<ship load="FR_SHIP_TRAPPER_WARZONE_REBEL" hostile="false"/> 
+	<choice hidden="true">
+		<text>Attack, we can steal their Mine Launcher tech!</text>
+		<event>
+			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Avoid the Trapper.</text>
+		<event>
+			<text>Messing with a Trapper is a bad idea.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_DESTROYED_TRAPPER_WARZONE_REBEL">
+	<text>While scrapping the wreckage of the Trapper ship, you find a functional Mine Launcher weapon drifting in the midst of the wreckage. This model also appears to have been custom made for the Estate Autos.</text>
+	<autoReward level="MED">standard</autoReward>
+	<weapon name="FR_LOOT_ELITE_AUTO_1"/>
+</event>
+
+<ship name="FR_SHIP_TRAPPER_WARZONE_COALITION" auto_blueprint="FR_ROCK_TRAPPER_ELITE">
+	<surrender min="999" max="999" load="FR_WARZONE_HOSTILE_SIGNAL"/>
+	<destroyed load="FR_DESTROYED_TRAPPER_WARZONE_COALITION"/>
+	<deadCrew load="FR_DEAD_CREW_TRAPPER_WARZONE_COALITION"/>
+	<weaponOverride count="1">
+		<name>FR_LOOT_ELITE_ROCK_1_ENEMY</name>
+	</weaponOverride>
+	<crew>
+		<crewMember prop="0.50" type="rock"/>
+		<crewMember prop="0.40" type="rock_crusader"/>
+		<crewMember prop="0.10" type="crystal"/>	
+	</crew>
+</ship>
+
+<event name="FR_TRAPPER_WARZONE_COALITION" unique="true">
+	<text>The Rockmen are devoted missile aficionados, with their elites having a special interest in mine launchers specifically. A ship wielding Mine Launcher tech is roaming the contested space, no doubt laying mines to slow down both the Federation and the Rebels.</text>
+	<customFleet right="true" firing="false" autoDarkening="true">FR_CUSTOM_FLEET_RUES</customFleet>
+	<ship load="FR_SHIP_TRAPPER_WARZONE_COALITION" hostile="false"/> 
+	<choice hidden="true">
+		<text>Attack, we can steal their Mine Launcher tech!</text>
+		<event>
+			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Avoid the Trapper.</text>
+		<event>
+			<text>Messing with a Trapper is a bad idea.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_DESTROYED_TRAPPER_WARZONE_COALITION">
+	<text>While scrapping the wreckage of the Trapper ship, you find a functional Mine Launcher weapon drifting in the midst of the wreckage. This model also appears to have been custom made for the Inquisiton.</text>
+	<autoReward level="MED">standard</autoReward>
+	<weapon name="FR_LOOT_ELITE_ROCK_1"/>
+</event>
+
+<event name="FR_DEAD_CREW_TRAPPER_WARZONE_COALITION">
+	<text>The Trapper has been emptied of crew. While scrapping it, you find a Mine Launcher in its storage. This model also appears to have been custom made for the Inquisiton</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<weapon name="FR_LOOT_ELITE_ROCK_1"/>
+</event>
+
+
+<ship name="FR_SHIP_TRAPPER_WARZONE_FEDERATION" auto_blueprint="FR_ZOLTAN_TRAPPER_ELITE">
+	<surrender min="999" max="999" load="FR_WARZONE_HOSTILE_SIGNAL"/>
+	<destroyed load="FR_DESTROYED_TRAPPER_WARZONE_FEDERATION"/>
+	<deadCrew load="FR_DEAD_CREW_TRAPPER_WARZONE_FEDERATION"/>
+	<weaponOverride count="1">
+		<name>FR_LOOT_ELITE_ZOLTAN_1_ENEMY</name>
+	</weaponOverride>
+	<crew>
+		<crewMember type="zoltan" prop="0.80"/>
+		<crewMember type="zoltan_peacekeeper" prop="0.20"/>	
+	</crew>
+</ship>
+
+<event name="FR_TRAPPER_WARZONE_FEDERATION" unique="true">
+	<text>Few factions are as stringent about border protection as the Zoltan, and their Peacekeeper ships are even stricter, especially in such a wartorn sector. They hail you. "Federation ship, we demand you leave immediately. It is of great importance that we reinforce the minefields in this sector, and your presence disturbs our work. We will not warn you a second time."</text>
+	<customFleet right="true" firing="false" autoDarkening="true">FR_CUSTOM_FLEET_UNITY</customFleet>
+	<ship load="FR_SHIP_TRAPPER_WARZONE_FEDERATION" hostile="false"/> 
+	<choice hidden="true">
+		<text>Attack, we can steal their Mine Launcher tech!</text>
+		<event>
+			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="MORALITY_UPDATE_ZOLTAN_FIGHT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Avoid the Trapper.</text>
+		<event>
+			<text>Messing with a Trapper is a bad idea.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_DESTROYED_TRAPPER_WARZONE_FEDERATION">
+	<text>While scrapping the wreckage of the Trapper ship, you find a functional Mine Launcher weapon drifting in the midst of the wreckage. This model also appears to have been custom made for the Inquisiton.</text>
+	<autoReward level="MED">standard</autoReward>
+	<weapon name="FR_LOOT_ELITE_ZOLTAN_1"/>
+</event>
+
+<event name="FR_DEAD_CREW_TRAPPER_WARZONE_FEDERATION">
+	<text>The Trapper has been emptied of crew. While scrapping it, you find a Mine Launcher in its storage. This model also appears to have been custom made for the Peacekeeper ships.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<weapon name="FR_LOOT_ELITE_ZOLTAN_1"/>
+</event>
+
+<ship name="FR_SHIP_TRAPPER_WARZONE_PIRATE" auto_blueprint="FR_LIST_SHIPS_PIRATE_TRAPPER_ELITE">
+	<surrender min="999" max="999" load="FR_WARZONE_HOSTILE_SIGNAL"/>
+	<destroyed load="FR_DESTROYED_TRAPPER_WARZONE_PIRATE"/>
+	<deadCrew load="FR_DEAD_CREW_TRAPPER_WARZONE_PIRATE"/>
+	<weaponOverride count="1">
+		<name>LIST_WEAPONS_TRAPPER</name>
+	</weaponOverride>
+</ship>
+
+<event name="FR_TRAPPER_WARZONE_PIRATE" unique="true">
+	<text>Elite pirates all seem to share one defining feature, a love for highly dangerous and forbidden weapons. Their favorite type is the ever frightful minelauncher line. How they got their hands on these weapons is one of life's great mysteries.</text>
+	<customFleet right="true" firing="false" autoDarkening="true">FR_CUSTOM_FLEET_PIRATE</customFleet>
+	<ship load="FR_SHIP_TRAPPER_WARZONE_PIRATE" hostile="false"/> 
+	<choice hidden="true">
+		<text>Attack, we can steal their Mine Launcher tech!</text>
+		<event>
+			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Avoid the Trapper.</text>
+		<event>
+			<text>Messing with a Trapper is a bad idea.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_DESTROYED_TRAPPER_WARZONE_PIRATE">
+	<text>While scrapping the wreckage of the Elite Trapper ship, you find a functional Mine Launcher weapon drifting in the midst of the wreckage.</text>
+	<autoReward level="MED">standard</autoReward>
+	<weapon name="GIFTLIST_MINELAUNCHERS_TRAPPER"/>
+</event>
+
+<event name="FR_DEAD_CREW_TRAPPER_WARZONE_PIRATE">
+	<text>The Elite Trapper has been emptied of crew. While scrapping it, you find a Mine Launcher in its storage.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<weapon name="GIFTLIST_MINELAUNCHERS_TRAPPER"/>
 </event>
 
 </FTL>

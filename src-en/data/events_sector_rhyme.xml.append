@@ -4,11 +4,69 @@
     <mod-append:unlockCustomShip silent="false">PLAYER_SHIP_FR_REAL</mod-append:unlockCustomShip>
 </mod:findName>
 
-<mod:findName type="event" name="THE_ONE_WHO_RHYMES_WIN_CHAOS">
-    <mod-append:unlockCustomShip shipReq="PLAYER_SHIP_FR_LEGION_FLAGSHIP" silent="false">PLAYER_SHIP_FR_LEGION_FLAGSHIP_2</mod-append:unlockCustomShip>
+<mod:findName type="event" name="THE_ONE_WHO_RHYMES">
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+            <mod:findLike type="choice">
+                <mod:findLike type="event">
+                    <mod:findLike type="choice">
+                        <mod:findLike type="event">
+                            <mod:findLike type="choice">
+                                <mod:findLike type="event">
+                                    <mod-append:choice req="fr_bonus_tririac" blue="true" hidden="true">
+                                        <text>(Tririac) Tririac wants to speak.</text>
+                                        <event load="FR_THE_ONE_WHO_RHYMES_TRIRIAC"/>
+                                    </mod-append:choice>
+                                </mod:findLike>
+                            </mod:findLike>
+                        </mod:findLike>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
 </mod:findName>
 
-<mod:findName type="event" name="THE_ONE_WHO_RHYMES_WIN">
-    <mod-append:unlockCustomShip shipReq="PLAYER_SHIP_FR_LEGION_FLAGSHIP" silent="false">PLAYER_SHIP_FR_LEGION_FLAGSHIP_2</mod-append:unlockCustomShip>
+<mod:findName type="event" name="THE_ONE_WHO_RHYMES_CHAOS">
+    <mod:findLike type="choice">
+        <mod:findLike type="event">
+            <mod:findLike type="choice">
+                <mod:findLike type="event">
+                    <mod-append:choice req="fr_bonus_tririac" blue="true" hidden="true">
+                        <text>(Tririac) Tririac wants to speak.</text>
+                        <event load="FR_THE_ONE_WHO_RHYMES_CHAOS_TRIRIAC"/>
+                    </mod-append:choice>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
 </mod:findName>
+
+<event name="FR_THE_ONE_WHO_RHYMES_TRIRIAC">
+	<text>Trirac deliberately steps forward, taking up the whole camera feed. Suddenly, a massive headache hits you, causing you to black out in a matter of seconds. You have no idea for how long you're knocked out, but when you wake up you see chaos unfolding through the vidscreen. 
+                                    
+It seems that Trirac managed to convince some of the Things to turn against The One Who Rhymes. "Why you little traitor! Think you can turn against your own creator?! Then have your little victory—but don't let it get to your heads, for once this is done your little ship will be nothing but shreds!"</text>
+    <metaVariable name="towr_fail" op="set" val="1"/>
+    <deathEvent thisFight="true">THE_ONE_WHO_RHYMES_FAIL</deathEvent>
+    <playMusic>chaos_fight</playMusic>
+    <ship hostile="true"/>
+    <choice hidden="true">
+        <text>Continue...</text>
+        <event load="COMBAT_CHECK"/>
+    </choice>
+</event>
+
+<event name="FR_THE_ONE_WHO_RHYMES_CHAOS_TRIRIAC">
+	<text>Trirac deliberately steps forward, taking up the whole camera feed. Suddenly a massive headache hits you, causing you to black out in a matter of seconds. You have no idea for how long you're knocked out, but when you wake up you see chaos unfolding through the vidscreen. 
+                                    
+It seems that Trirac managed to convince some of the Things to turn against The One Who Rhymes. "Why you little traitor! Think you can turn against your own creator?! Then have your interim success (but don't let it get to your heads), for once we're through with all this mess, your little ship will be but shreds!"</text>
+        <deathEvent thisFight="true">THE_ONE_WHO_RHYMES_FAIL</deathEvent>
+        <playMusic>chaos_fight</playMusic>
+        <ship hostile="true"/>
+        <choice hidden="true">
+            <text>Continue...</text>
+            <event load="COMBAT_CHECK"/>
+        </choice>
+</event>
+
 </FTL>

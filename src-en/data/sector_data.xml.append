@@ -1,5 +1,11 @@
 <FTL>
 
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+APPENDABLES
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
 <mod:findName type="sectorDescription" name="SECRET_SYLVAN">
     <mod:findLike type="rarityList">
         <mod-append:blueprint name="fr_commonwealth" rarity="5"/>
@@ -7,40 +13,15 @@
         <mod-append:blueprint name="fr_proto_cognitive" rarity="5"/>
         <mod-append:blueprint name="fr_enhanced" rarity="5"/>
         <mod-append:blueprint name="fr_withered" rarity="5"/>
-        <mod-append:blueprint name="fr_unique_mantis_queen" rarity="5"/>
         <mod-append:blueprint name="fr_experimental_cognitive" rarity="5"/>
-        <mod-append:blueprint name="fr_reborn_g" rarity="5"/>
-		<mod-append:blueprint name="fr_reborn_phys" rarity="5"/>
-        <mod-append:blueprint name="fr_reborn_aleenor" rarity="5"/>
-        <mod-append:blueprint name="fr_reborn_cleo" rarity="5"/>
-        <mod-append:blueprint name="fr_reborn_slimer" rarity="5"/>
-        <mod-append:blueprint name="fr_reborn_vin" rarity="5"/>
-        <mod-append:blueprint name="fr_reborn_zulu" rarity="5"/>
-        <mod-append:blueprint name="fr_reformed_smoke" rarity="5"/>
-        <mod-append:blueprint name="fr_reformed_chills" rarity="5"/>
-        <mod-append:blueprint name="fr_reformed_pok" rarity="5"/>
         <mod-append:blueprint name="fr_snowman_smart" rarity="5"/>
         <mod-append:blueprint name="fr_lavaman" rarity="5"/>
-        <mod-append:blueprint name="fr_reformed_charror" rarity="5"/>
-        <mod-append:blueprint name="fr_reformed_leo" rarity="5"/>
-        <mod-append:blueprint name="fr_reformed_searak" rarity="5"/>
-        <mod-append:blueprint name="fr_watcher" rarity="5"/>
-        <mod-append:blueprint name="fr_gozer" rarity="5"/>
         <mod-append:blueprint name="fr_CE_avatar" rarity="5"/>
         <mod-append:blueprint name="fr_errorman" rarity="5"/>
-        <mod-append:blueprint name="fr_bonus_augustus" rarity="5"/>
-        <mod-append:blueprint name="fr_bonus_sally_adult" rarity="5"/>
-        <mod-append:blueprint name="fr_unique_leah_legion" rarity="5"/>
-        <mod-append:blueprint name="fr_bonus_prince" rarity="5"/>
 		<mod-append:blueprint name="fr_deviser" rarity="5"/>
-        <mod-append:blueprint name="fr_spherax" rarity="5"/>
-		<mod-append:blueprint name="fr_unique_y" rarity="5"/>
-		<mod-append:blueprint name="fr_necromantic_cognitive" rarity="5"/>
-		<mod-append:blueprint name="fr_unique_cylvan" rarity="5"/>
-        <mod-append:blueprint name="fr_unique_collector" rarity="5"/>
-		<mod-append:blueprint name="fr_unique_billvan" rarity="5"/>
-		<mod-append:blueprint name="fr_unique_sammy" rarity="5"/>
 		<mod-append:blueprint name="fr_absolute_cognitive" rarity="5"/>
+		<mod-append:blueprint name="fr_human_totality" rarity="5"/>
+		<mod-append:blueprint name="fr_messenger" rarity="5"/>
    </mod:findLike>
    <mod-append:priorityEvent name="FR_BILLVAN_QUEST" min="1" max="1" priority="2"/>
 </mod:findName>  
@@ -49,13 +30,22 @@
     <mod-append:priorityEvent name="FR_ENHANCED_CHOICE" min="1" max="1" priority="2"/>
 </mod:findName>
 
+<mod:findName type="sectorDescription" name="SECRET_ANCIENT">
+    <mod-append:priorityEvent name="FR_COMMONWEALTH_FORGE_CRUISER" min="1" max="1" priority="2"/>
+</mod:findName>
+
 <mod:findName type="sectorDescription" name="SECTOR_DYNASTY_UNIQUE">
     <mod-append:priorityEvent name="FR_WITHER_RUINS" min="1" max="1" priority="2"/>
 </mod:findName>
 
-<mod:findName type="sectorDescription" name="SECRET_ANCIENT">
-    <mod-append:priorityEvent name="FR_COMMONWEALTH_FORGE_DRONE" min="1" max="1" priority="2"/>
+<mod:findName type="sectorType" name="SECTOR_LIST_UNIQUE_DEADLY">
+    <mod-append:sector>SECTOR_FR_WARZONE</mod-append:sector>
 </mod:findName>
+
+<mod:findName type="sectorType" name="HOSTILE">
+    <mod-append:sector>SECTOR_FR_WARZONE</mod-append:sector>
+</mod:findName>
+
 
 <!--
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -68,20 +58,52 @@ TARTARUS
 		<name>Tartarus</name>
 	</nameList>
 	<trackList>
-		<track>tartarus</track>
+		<track>fr_tartarus</track>
 	</trackList>
 	<rarityList>
-		<blueprint name="phantom" rarity="0"/>
-		<blueprint name="mantis" rarity="5"/>
-		<blueprint name="zoltan" rarity="5"/>
-		<blueprint name="slug" rarity="5"/>
-		<blueprint name="rock" rarity="5"/>
-		<blueprint name="human" rarity="5"/>
+		<blueprint name="fr_specter" rarity="1"/>
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="zoltan" rarity="0"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="0"/>
+		<blueprint name="human" rarity="0"/>
 	</rarityList>
 	<noExit/>
     <startEvent>FR_START_TARTARUS</startEvent>
-	<event name="FR_TARTARUS_BOUNTIES_LOAD" min="999" max="999"/>
-	<exitBeacon event="FR_TARTARUS_FINAL_BOSS_LOAD" rebelEvent="FR_TARTARUS_BOUNTIES_LOAD"/>
+	<priorityEvent name="FR_REVENANT_SALLY" min="1" max="1" priority="1"/>
+	<priorityEvent name="FR_REVENANT_AUGUSTUS" min="1" max="1" priority="1"/>
+	<event name="FR_TARTARUS_BOUNTIES" min="999" max="999"/>
+	<exitBeacon event="FR_TARTARUS_FINAL_BOSS" rebelEvent="FR_TARTARUS_FINAL_BOSS"/>
+</sectorDescription>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+TARTARUS
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<sectorDescription name="SECTOR_FR_CHAOTIC_TARTARUS" unique="true"> 
+	<nameList>
+		<name>Chaotic Tartarus</name>
+	</nameList>
+	<trackList>
+		<track>fr_chaotictartarus</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="fr_specter" rarity="1"/>
+		<blueprint name="siren" rarity="5"/>
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="zoltan" rarity="0"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="0"/>
+		<blueprint name="human" rarity="0"/>
+	</rarityList>
+	<noExit/>
+    <startEvent>FR_START_CHAOTIC_TARTARUS</startEvent>
+	<priorityEvent name="FR_CHAOS_REVENANT_PRINCE" min="1" max="1" priority="1"/>
+	<priorityEvent name="FR_CHAOS_REVENANT_TRIRIAC" min="1" max="1" priority="1"/>
+	<event name="FR_TARTARUS_BOUNTIES_CHAOS" min="999" max="999"/>
+	<exitBeacon event="FR_TARTARUS_FINAL_BOSS_CHAOS" rebelEvent="FR_TARTARUS_FINAL_BOSS_CHAOS"/>
 </sectorDescription>
 
 <!--
@@ -95,7 +117,7 @@ COMMONWEALTH
 		<name>Commonwealth Refuge</name>
 	</nameList>
 	<trackList>
-		<track>commonwealth</track>
+		<track>fr_commonwealth</track>
 	</trackList>
 	<rarityList>
 		<!--findable-->
@@ -385,7 +407,7 @@ COMMONWEALTH
 	<noExit/>
     <startEvent>FR_ENTER_COMMONWEALTH</startEvent>
 	<exitBeacon event="FR_COMMONWEALTH_RIFT" rebelEvent="FR_COMMONWEALTH_RIFT"/>
-	<rebelBeacon event="FLEET_THREAT_CRITICAL" nebulaEvent="FLEET_THREAT_CRITICAL_NEBULA"/>
+	<rebelBeacon event="FLEET_THREAT_CRITICAL" nebulaEvent="NEBULA_LIGHT_FLEET_THREAT_CRITICAL"/>
 	<removeFirstBeaconNebula/>
 	<event name="FR_STORE_COMMONWEALTH" min="2" max="2"/>
 	<event name="FR_SYLVAN_COMMONWEALTH_SPAWNER" min="1" max="1"/>
@@ -425,6 +447,103 @@ FINALFIGHT
 	<startEvent>FR_BEGIN_THE_FIGHT</startEvent>
 	<event name="FR_BEGIN_THE_FIGHT" min="999" max="999"/>
 	<noExit/>
+</sectorDescription>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+WARZONE
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<sectorDescription name="SECTOR_FR_WARZONE" unique="true">
+	<nameList>
+		<name>Contested Warzone [!]</name>
+	</nameList>
+	<trackList>
+		<track>fr_warzone</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="human" rarity="1"/>
+		<blueprint name="human_medic" rarity="4"/>
+		<blueprint name="human_engineer" rarity="3"/>
+		<blueprint name="human_soldier" rarity="5"/>
+		<blueprint name="orchid" rarity="1"/>
+		<blueprint name="orchid_vampweed" rarity="2"/>
+		<blueprint name="engi" rarity="2"/>
+		<blueprint name="engi_separatist" rarity="3"/>
+		<blueprint name="zoltan" rarity="2"/>
+		<blueprint name="zoltan_monk" rarity="0"/>
+		<blueprint name="zoltan_devotee" rarity="0"/>
+		<blueprint name="rock" rarity="2"/>
+		<blueprint name="rock_outcast" rarity="1"/>
+		<blueprint name="rock_commando" rarity="5"/>
+		<blueprint name="mantis" rarity="1"/>
+		<blueprint name="mantis_free" rarity="1"/>
+		<blueprint name="slug" rarity="2"/>
+		<blueprint name="slug_clansman" rarity="4"/>
+		<blueprint name="shell" rarity="5"/>
+		<blueprint name="shell_scientist" rarity="0"/>
+		<blueprint name="shell_mechanic" rarity="0"/>
+		<blueprint name="shell_guardian" rarity="0"/>
+		<blueprint name="crystal" rarity="3"/>
+		<blueprint name="crystal_liberator" rarity="0"/>
+		<blueprint name="leech" rarity="2"/>
+		<blueprint name="lanius" rarity="1"/>
+		<blueprint name="phantom" rarity="3"/>
+		<blueprint name="phantom_goul" rarity="4"/>
+		<blueprint name="phantom_mare" rarity="4"/>
+		<blueprint name="phantom_wraith" rarity="4"/>
+		
+		<blueprint name="BOMB_LOCK" rarity="3"/>
+		<blueprint name="CRYSTAL_BURST_1" rarity="1"/>
+		<blueprint name="CRYSTAL_BURST_2" rarity="4"/>
+		<blueprint name="CRYSTAL_HEAVY_1" rarity="2"/>
+		<blueprint name="CRYSTAL_HEAVY_2" rarity="5"/>
+		<blueprint name="KERNEL_1" rarity="1"/>
+		<blueprint name="KERNEL_2" rarity="1"/>
+		<blueprint name="KERNEL_HEAVY" rarity="3"/>
+		<blueprint name="KERNEL_CHAIN" rarity="4"/>
+		<blueprint name="KERNEL_CHARGE" rarity="4"/>
+		<blueprint name="SPORE_1" rarity="1"/>
+		<blueprint name="SPORE_2" rarity="3"/>
+		<blueprint name="SPORE_HEAVY" rarity="2"/>
+		<blueprint name="SPORE_CHAIN" rarity="4"/>
+		<blueprint name="SPORE_STUN" rarity="3"/>
+		<blueprint name="GRAZIER_BATTLE" rarity="3"/>
+		<blueprint name="PRODUCER" rarity="2"/>
+		<blueprint name="CONSTRUCTOR" rarity="2"/>
+		<blueprint name="SENTRY_NORMAL" rarity="2"/>
+		<blueprint name="SENTRY_MIND" rarity="3"/>
+		<blueprint name="SENTRY_HEAL" rarity="4"/>
+		<blueprint name="SENTRY_FROST" rarity="3"/>
+		<blueprint name="SENTRY_VAMP" rarity="4"/>
+
+		<blueprint name="PDS_DISABLE" rarity="1"/>
+	</rarityList>
+	<startEvent>FR_ENTER_WARZONE</startEvent>
+	<removeFirstBeaconNebula/>
+	<exitBeacon event="FR_FINISH_BEACON_WARZONE_CHECK" nebulaEvent="FR_FINISH_BEACON_WARZONE_CHECK_NEBULA" rebelEvent="FINISH_BEACON_FLEET_ACE"/>
+	<rebelBeacon event="FLEET_THREAT_CRITICAL" nebulaEvent="NEBULA_LIGHT_FLEET_THREAT_CRITICAL"/>
+	<priorityEvent name="ANOMALY_SPAWNER" min="1" max="1" priority="1" req="ANOMALY_SPAWN_CHECK" lvl="1"/>
+	<event name="MV_TRAVELER" min="1" max="2"/>
+	<event name="NEMESIS_ENCOUNTER" min="1" max="1" req="prof_finalsector" lvl="1"/>
+	
+	<priorityEvent name="FR_WARZONE_FEDERATION_HQ" min="1" max="1"/>
+	<priorityEvent name="FR_WARZONE_PURPLE_BEARD" min="1" max="1"/>
+	
+	<event name="FR_TRANSPORT_WARZONE_LIST" min="1" max="1"/>
+	<event name="FR_TRAPPER_WARZONE_LIST" min="1" max="1"/>
+	<event name="FR_STORES_WARZONE" min="1" max="2"/>
+	
+	<event name="FR_ITEMS_WARZONE" min="3" max="4"/>
+	<event name="FR_NEUTRALS_WARZONE" min="4" max="5"/>
+	<event name="FR_DISTRESSES_WARZONE" min="2" max="3"/>
+	<event name="FR_QUESTS_WARZONE" min="1" max="1"/>
+	<event name="FR_ELITES_WARZONE" min="1" max="2"/>
+	<event name="FR_HOSTILES_WARZONE" min="3" max="7"/>
+	
+	<event name="PIRACY_LIST" min="0" max="2"/>
+	<event name="FILLER_LIST" min="999" max="999"/>
 </sectorDescription>
 
 </FTL>

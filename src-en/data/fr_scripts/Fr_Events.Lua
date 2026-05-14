@@ -1,4 +1,4 @@
-
+local vter = mods.fusion.vter
 -- Remove bypass
 
 script.on_game_event("COMBAT_CHECK_REMOVEBYPASS",false,
@@ -79,7 +79,6 @@ end
 
 
 -- Discharge Surge
-local vter = mods.fusion.vter
 script.on_game_event("FR_DISCHARGE", false, 
 function()
     local shipManager = Hyperspace.ships.enemy
@@ -106,3 +105,149 @@ script.on_game_event("FR_REVENANT_APPARITION_VIN", false, function()
     end
 end)
 
+-- MFK Spawner for warzone (by MV)
+
+script.on_game_event("FR_START_WARZONE_COALITION_VANCE", false, function()
+    local bp = Hyperspace.Blueprints:GetCrewBlueprint("human_mfk")
+    local rm = Hyperspace.ships.enemy:GetSystemRoom(0)
+    Hyperspace.ships.enemy:AddCrewMemberFromBlueprint(bp, 0, true, rm, true)
+    Hyperspace.ships.enemy:AddCrewMemberFromBlueprint(bp, 0, true, rm, true)
+    Hyperspace.ships.enemy:AddCrewMemberFromBlueprint(bp, 0, true, rm, true)
+end)
+
+
+-- event atmosphere (by mv)
+
+local atmoBackgrounds = mods.multiverse.atmoBackgrounds
+
+mods.multiverse.atmoBackgrounds.FR_BACK_EVENT_FEDERATION_HQ = true
+mods.multiverse.atmoBackgrounds.FR_BACK_EVENT_REBEL_HANGER = true
+
+-- Oracle Check
+
+script.on_game_event("FR_COMBAT_CHECK_THE_ORACLE",false,
+function()
+  local enemy = Hyperspace.ships.enemy
+  local weapon = enemy.weaponSystem
+  if weapon then
+    Hyperspace.playerVariables.fr_enemyHasWeapons = 1
+  else
+    Hyperspace.playerVariables.fr_enemyHasWeapons = 0
+  end
+end
+)
+
+script.on_game_event("FR_COMBAT_CHECK_THE_ORACLE",false,
+function()
+  local enemy = Hyperspace.ships.enemy
+  local drone = enemy.droneSystem
+  if drone then
+    Hyperspace.playerVariables.fr_enemyHasDrones = 1
+  else
+    Hyperspace.playerVariables.fr_enemyHasDrones = 0
+  end
+end
+)
+
+--[[script.on_game_event("FR_COMBAT_CHECK_THE_ORACLE",false,
+function()
+  local enemy = Hyperspace.ships.enemy
+  if enemy:GetAugmentationCount() ~= 0 or enemy:GetAugmentationCount() ~= 1 then
+    Hyperspace.playerVariables.fr_enemyHasAugment = 1
+  else
+    Hyperspace.playerVariables.fr_enemyHasAugment = 0
+  end
+end
+)]]
+
+script.on_game_event("FR_COMBAT_CHECK_THE_ORACLE",false,
+function()
+  local enemy = Hyperspace.ships.enemy
+  if enemy:CountCrew(false) ~= 0 then
+    Hyperspace.playerVariables.fr_enemyHasCrew = 1
+  else
+    Hyperspace.playerVariables.fr_enemyHasCrew = 0
+  end
+end
+)
+
+-- Oracle Steal (me and Duodecimus)
+
+script.on_game_event("FR_COMBAT_CHECK_THE_ORACLE_WEAPON",false,
+function()
+    local ship = Hyperspace.ships.enemy
+    local weaponList = ship:GetWeaponList()
+    local index = math.random(0, weaponList:size()-1)
+
+    if weaponList[index] and weaponList[index].blueprint then
+      Hyperspace.App.gui.equipScreen:AddToCargo(weaponList[index].blueprint.name)
+      ship:RemoveItem(weaponList[index].blueprint.name)
+    end
+end
+)
+
+script.on_game_event("FR_COMBAT_CHECK_THE_ORACLE_DRONE",false,
+function()
+    local ship = Hyperspace.ships.enemy
+    local droneList = ship:GetDroneList()
+    local index = math.random(0, droneList:size()-1)
+
+    if droneList[index] and droneList[index].blueprint then
+      Hyperspace.App.gui.equipScreen:AddToCargo(droneList[index].blueprint.name)
+      ship:RemoveItem(droneList[index].blueprint.name)
+    end
+end
+)
+
+--[[script.on_game_event("FR_COMBAT_CHECK_THE_ORACLE_AUGMENT",false,
+function()
+    local augList = {}
+    local augManager = Hyperspace.CustomAugmentManager.GetInstance()
+    for aug in vter(augManager:GetShipAugments(1):keys()) do
+      print(aug)
+      if aug ~= "MIND_ORDER" then
+        table.insert(augList, aug)
+      end
+    end
+    local randIndex = math.random(1, augList:size())
+    local othership = Hyperspace.ships.player
+    local ship = Hyperspace.ships.enemy
+    for index, augName in ipairs(augList) do
+      if randIndex == index then
+        othership:AddAugmentation(augName)
+        ship:RemoveAugmentation(augName)
+        break
+      end
+    end
+  end
+)]]
+
+script.on_game_event("FR_COMBAT_CHECK_THE_ORACLE_CREW",false,
+function()
+  local ship = Hyperspace.ships.enemy
+  for crew in vter(ship.vCrewList) do
+    local othership = Hyperspace.ships.player
+      if not crew:IsDrone() then
+        local crewmemRace = nil
+        crewmemRace = crew:GetSpecies()
+        othership:AddCrewMemberFromString(crew:GetLongName(), crewmemRace, false, 0, false, crew.crewAnim.bMale)
+        crew:Kill(true)
+        break
+      end
+    end
+  end
+)
+
+-- Tririac TOWR (by MV)
+
+script.on_game_event("FR_THE_ONE_WHO_RHYMES_CHAOS_TRIRIAC", false, function()
+    local bp = Hyperspace.Blueprints:GetCrewBlueprint("eldritch_thing")
+    local rm = Hyperspace.ships.enemy:GetSystemRoom(6)
+    Hyperspace.ships.enemy:AddCrewMemberFromBlueprint(bp, 0, true, rm, true)
+end)
+
+script.on_game_event("FR_THE_ONE_WHO_RHYMES_TRIRIAC", false, function()
+    local bp = Hyperspace.Blueprints:GetCrewBlueprint("eldritch_thing")
+    local rm = Hyperspace.ships.enemy:GetSystemRoom(6)
+    Hyperspace.ships.enemy:AddCrewMemberFromBlueprint(bp, 0, true, rm, true)
+end)

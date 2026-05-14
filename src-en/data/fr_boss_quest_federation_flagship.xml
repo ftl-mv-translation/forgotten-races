@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
+<img x="-50" y="-95" w="381" h="729" />
+<offsets>
+	<floor x="190" y="364" />
+	<cloak x="-24" y="-25" />
+</offsets>
+<weaponMounts>
+	<mount x="73" y="90" rotate="false" mirror="true" gib="-1" slide="left" />
+	<mount x="308" y="90" rotate="false" mirror="false" gib="-1" slide="right" />
+	<mount x="1" y="410" rotate="false" mirror="true" gib="-1" slide="left" />
+	<mount x="379" y="410" rotate="false" mirror="false" gib="-1" slide="right" />
+	<mount x="120" y="57" rotate="false" mirror="true" gib="-1" slide="no" />
+	<mount x="192" y="330" rotate="false" mirror="true" gib="-1" slide="no" />
+	<mount x="292" y="59" rotate="false" mirror="true" gib="-1" slide="no" />
+</weaponMounts>
+<thrusters sync="false">
+    <thruster x="31" y="628">fr_federation_flagship_enemy_thruster_big</thruster>
+    <thruster x="105" y="720">fr_federation_flagship_enemy_thruster_small</thruster>
+    <thruster x="245" y="720">fr_federation_flagship_enemy_thruster_small</thruster>
+    <thruster x="309" y="628">fr_federation_flagship_enemy_thruster_big</thruster>
+</thrusters>
+<explosion />
+

@@ -14,9 +14,9 @@
 				<mod-append:choice hidden="true" blue="false">
 					<text>Wait, what's that?</text>
 					<event>
-						<text>You point to a strange piece of paper hanging out of Nights' pocket. Nights, in his drunken stupor, barely understands... until Obyn catches sight of the paper himself, realizing it's a set of written coordinates labeled "salt prison".
+						<text>You point to a strange piece of paper hanging out of Nights' pocket. Nights, in his drunken stupor, barely understands. Obyn catches sight of the paper, noticing a set of written coordinates labeled "salt prison".
 						
-						Obyn's eyes grow twice their normal size as he grabs ahold of you and lifts you by the shoulder. "Captain! We must head there! If there's any chance my people are still alive, we must take it!" You nod, writing the coordinates in your navigation system.</text>
+						Obyn's eyes grow twice their normal size as he grabs ahold of you and lifts you by the shoulders. "Captain! We must head there! If there's any chance my people are still alive, we must take it!" You nod, writing the coordinates down in your navigation system.</text>
 						<quest event="FR_SALT_BATTLESHIP_QUEST_START"/>
 					</event>
 				</mod-append:choice>
@@ -70,7 +70,7 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <event name="FR_SOCIALIZE_VANCE_TULLY_1" unique="true">
-	<text>You walk into the cafeteria to find Tully and Vance sitting on one of the tables opposite to each other, staring intently at one another. You manage to catch part of their conversation as you walk by. "I hope you understand the severity of your crimes, Vance. Even if I do believe in your change of heart, I don't think anyone else will, and even if they somehow do, the crimes you have committed can't be simply forgotten nor can they be excused or forgiven." Vance somberly nods, not replying. You decide to leave before they notice your presence.</text>
+	<text>You walk into the cafeteria to find Tully and Vance sitting opposite one another, staring intently at one another. You manage to catch part of their conversation as you walk by. "I hope you understand the severity of your crimes, Vance. Even if I do believe in your change of heart, I don't think anyone else will. Even if they somehow do believe, the crimes you have committed can't be simply forgotten, nor can they be excused or forgiven." Vance somberly nods, not replying. You decide to leave before they notice your presence.</text>
 </event>
 
 <!-- 
@@ -79,7 +79,7 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <event name="FR_SOCIALIZE_VANCE_CYRA_1" unique="true">
-	<text>As you walk thorough the bridge's corridor you notice that Vance and Cyra seem to finally be talking to each other. "So, that was all it took to change your mind, huh Vance?" Vance rolls his eyes and looks away. "As if, no. My "change of heart" has been something that's been brewing for longer than I care to express; recent events just... made up my mind." He spoke, followed by a small sigh. "Well, better late than never, I suppose..." she replies with a soft smile, causing Vance to blush slightly. You decide to move on before they notice you.</text>
+	<text>As you walk thorough the bridge, you notice that Vance and Cyra seem to finally be talking to each other. "So, that was all it took to change your mind, huh Vance?" Vance rolls his eyes and looks away. "As if! My "change of heart" has been something that's been brewing for longer than I care to express; recent events just helped me make up my mind." He gives a small sigh. "Well, better late than never, I suppose..." She replies with a soft smile, causing Vance to blush slightly. You decide to move on before they notice you.</text>
 </event>
 
 <!-- 
@@ -88,7 +88,7 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <event name="FR_SOCIALIZE_VANCE_JERRY_1" unique="true">
-	<text>You pass by the cafeteria and see Vance teaching Jerry a few lessons in close combat. By the look on his face, however, Jerry already knows everything about it. "Uncle, I know all this stuff! I was top of my class, remember?" Vance chuckles before he takes another drink of his coffee. "Even the best can still learn, Jerry! Especially now that we are allies of the Federation, we have access to their training books. We can't let Tully see us slacking! Now... from the top!"</text>
+	<text>You pass by the cafeteria and see Vance teaching Jerry a few lessons in close combat. By the look on his face, however, Jerry already knows everything. "Uncle, I know all this stuff! I was top of my class, remember?" Vance chuckles before he takes another sip of his coffee. "Even the best can still learn, Jerry! Especially now that we are allies of the Federation, we have access to their training books. We can't let Tully see us slacking! Now... from the top!"</text>
 </event>
 
 <!-- 
@@ -126,7 +126,7 @@
 	<text>You notice there seems to be a huge line to the ship's only coffee machine. You quickly realize why: Leikonpliiinakra seems to be taking ages making her coffee! When you inquire why, she turns her head. "Any food that's served to me must be perfect! I would advise you to stay out of royal matters before I force you to make the coffee yourself, Renegade."</text>
 </event>
 <event name="FR_SOCIALIZE_LEIKONPLIIINAKRA_GENERIC_3" unique="true">
-	<text>You ask the Queen if she believes the newly formed alliance will last. "Maybe, the Federation has a lot to prove to the Hive before we truly embrace this new prospect. Though, let me make this clear, Renegade, my interests are for the Hive and the Hive only. As long as this alliance benefits us, we will keep our end of the bargain!"</text>
+	<text>You ask the Queen if she believes the newly formed alliance will last. "Maybe, the Federation has a lot to prove to the Hive before we truly embrace this new prospect. Though, let me make this clear, Renegade. My interests are for the Hive and the Hive only. As long as this alliance benefits us, we will keep our end of the bargain!"</text>
 </event>
 
 
@@ -136,7 +136,7 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <event name="FR_SOCIALIZE_LEIKONPLIIINAKRA_FREDDY_1" unique="true">
-	<text>You are moving towards the ship's command center, when you notice that the ship's rooms close to it have been painted in such a way as to split them in the middle vertically. One side is gold, and the other is blue. You quickly realize that the Queen's quarters is to one side and Freddy's is to the other, only hoping the paint is easy to remove.</text>
+	<text>You are moving towards the ship's command center, when you notice that the rooms close to it have been painted in such a way as to split them in the middle vertically. One side is gold, and the other is blue. You quickly realize that the Queen's quarters are to one side and Freddy's are to the other. You hope the paint is easy to remove.</text>
 </event>
 
 <!-- 
@@ -145,7 +145,7 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <event name="FR_SOCIALIZE_LEIKONPLIIINAKRA_KAZ_1" unique="true">
-	<text>You open Kaz's quarters to inform him about some very important matters. You are shocked to see that, not only is he naked, but he's laying seductively on his bed. You stare at each other for a few minutes before you slowly close the door and walk away, trying your best to unsee what you've interrupted. Before you fully leave the hallway, you swear you see the Mantis Queen skittering into Kaz's room.</text>
+	<text>You open Kaz's quarters to inform him about some very important matters. You are shocked to see him laying naked on his bed in a seductive pose. You stare at each other for a few minutes before you slowly close the door and walk away, trying your best to unsee what you've interrupted. Before you fully leave the hallway, you swear you see the Mantis Queen skittering into Kaz's room.</text>
 </event>
 
 <!-- 
@@ -167,7 +167,7 @@
 	</loadEventList>
 </event>
 <event name="FR_SOCIALIZE_CYRA_NOTHING">
-	<text>You pass by Cyra's quarters on your way to the ship's bridge, and you can't help but notice the blaring workout music playing inside of her quarters. You decide to not bother her.</text>
+	<text>You pass by Cyra's quarters on your way to the ship's bridge, and you can't help but notice the blaring workout music playing inside her quarters. You decide to not bother her.</text>
 </event>
 
 
@@ -183,7 +183,7 @@
 	<text>You ask Cyra how it feels to work on a Federation ship. "Not exactly something I'm willingly doing. Just know that, if I must choose between Jerry and the Federation as a whole, I will burn the Federation down with my bare hands. Understood?"</text>
 </event>
 <event name="FR_SOCIALIZE_CYRA_GENERIC_3" unique="true">
-	<text>You ask Cyra how she can move so much faster than anyone else. She just laughs. "That's just what years of extreme physical and mental training does to a person. My feats are something I'm extremely proud of, and something I doubt anyone in the Federation can compete with."</text>
+	<text>You ask Cyra how she can move so much faster than anyone else. She just laughs. "That's just what years of extreme physical and mental training does to a person. My athletic performance is something I'm extremely proud of, and something I doubt anyone in the Federation can compete with."</text>
 </event>
 
 
@@ -193,7 +193,7 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <event name="FR_SOCIALIZE_CYRA_VANCE_1" unique="true">
-	<text>You catch Cyra and Vance doing oil paintings on canvas next to the cafeteria, seeming to enjoy it. Cyra waves at you from the hall. "Oh, Renegade! Thank you for letting us turn this little area into a artistic expression zone, it's really improving the crew's morale!" You glance at Vance and he gives you a pleading look, which you just smile and nod at.</text>
+	<text>You catch Cyra and Vance next to the cafeteria, creating oil paintings on canvas. They seem to be enjoying it. Cyra waves at you from the hall. "Oh, Renegade! Thank you for letting us turn this little area into a artistic expression zone; it's really improving the crew's morale!" You glance at Vance and he gives you a pleading look, to which you just smile and nod.</text>
 </event>
 
 <!-- 
@@ -224,7 +224,7 @@
 	</loadEventList>
 </event>
 <event name="FR_SOCIALIZE_SAMMY_NOTHING">
-	<text>You pass by Michael's room. Although you knock on the door, there is no way he could possibly hear you considering the volume of the classical music bleeding through the walls.</text>
+	<text>You pass by Michael's room. Although you knock on the door, there is no way he could possibly hear you, considering the volume of the classical music bleeding through the walls.</text>
 </event>
 
 
@@ -234,13 +234,13 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <event name="FR_SOCIALIZE_SAMMY_GENERIC_1" unique="true">
-	<text>You ask Michael how long he has played the part of Sammy. He laughs awkwardly, rubbing the back of his neck. "About a month or so. To be frank, this whole part kinda just... landed on my lap, when I submitted my resume to Flowers and Sunshine studios I thought I would just end up getting a small background role in a single Ellie episode! Though... I guess that doesn't matter anymore." He frowns, and you apologize again to him.</text>
+	<text>You ask Michael how long he has played the part of Sammy. He laughs awkwardly, rubbing the back of his neck. "About a month or so. To be frank, this whole part kinda just landed on my lap. When I submitted my resume to Flowers and Sunshine studios I thought I would just end up getting a small background role in a single Ellie episode! Though, I guess that doesn't matter anymore." He frowns, and you apologize again to him.</text>
 </event>
 <event name="FR_SOCIALIZE_SAMMY_GENERIC_2" unique="true">
 	<text>You pass by Michael's room and you catch a glimpse of him playing the violin. After a few moments of watching him, he notices you standing by the door. "O-Oh, Captain! I'm not making too much noise am I? Sorry, I really can't fall behind on my practice..." You assure him that he isn't bothering anyone. He thanks you, and closes the door.</text>
 </event>
 <event name="FR_SOCIALIZE_SAMMY_GENERIC_3" unique="true">
-	<text>You ask Michael how his music can affect the other crew in such a powerful way, but not him. He laughs, pointing to the headphones on his mascot head. "Sorry captain, I can't answer the first question. I may no longer work for them, but I'd still prefer to stay away from the bad side of Flowers and Sunshine... though, for the second question, it's simple! They're noise-canceling headphones, I can't hear a thing when I turn them on!"</text>
+	<text>You ask Michael how his music can affect the other crew in such a powerful way, but not him. He laughs, pointing to the headphones on his mascot head. "Sorry captain, I can't answer the first question. I may no longer work for them, but I'd still prefer to stay away from the bad side of Flowers and Sunshine... although, for the second question, it's simple! They're noise-canceling headphones. I can't hear a thing when I turn them on!"</text>
 </event>
 
 
@@ -250,7 +250,7 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <event name="FR_SOCIALIZE_SAMMY_STEPHAN_1" unique="true">
-	<text>You catch Michael and Stephan talking in a corridor connecting the bridge to the rest of the ship. "Michael... I'm really... really sorry for how I acted back on stage. If there's anything I can do just... let me know alright?" Michael smiles softly and lightly shakes his head. "Don't worry about it, Stephan, I know you weren't... yourself then. Besides, quite frankly I'd... rather forget that day ever happened." You catch Michael giving Stephan a light pat on the back before you move on to the ship's bridge.</text>
+	<text>You catch Michael and Stephan talking in a corridor connecting the bridge to the rest of the ship. "Michael... I'm really... really sorry for how I acted back on stage. If there's anything I can do just... let me know, alright?" Michael smiles softly and lightly shakes his head. "Don't worry about it, Stephan, I know you weren't really yourself then. Besides, quite frankly, I'd rather forget that day ever happened." You catch Michael giving Stephan a light pat on the back before you move on to the ship's bridge.</text>
 </event>
 
 <!-- 
@@ -292,10 +292,10 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <event name="FR_SOCIALIZE_LEAH_GENERIC_1" unique="true">
-	<text>You are planning your course through the current sector as Leah steps into the room. "Sup, beyatch? Wanted to come and check out what our next steps will be! You know, I... still can't believe you convinced me to stay with you bozos, it feels like some sort of bad dream! Anyways... your plans suck, sure, but if they got us this far... I guess you can finish the job. Talk to you later!" She steps away, and you swear you catch a glimpse of a genuine smile.</text>
+	<text>You are planning your course through the current sector as Leah steps into the room. "Sup, beyatch? Wanted to come and check out what our next steps will be! You know, I... still can't believe you convinced me to stay with you bozos. It feels like some sort of bad dream! Anyways, your plans suck, sure, but if they got us this far... I guess you can finish the job. Talk to you later!" She steps away, and you swear you catch a glimpse of a genuine smile.</text>
 </event>
 <event name="FR_SOCIALIZE_LEAH_GENERIC_2" unique="true">
-	<text>In the cafeteria, you spot Leah trying to open a bag of potato chips to no avail. "Dammit... open already, you piece of trash!" It takes a while before she spots you, which is immediately followed by her hiding the bag behind her back, beet-red in the face as she turns to leave. "You... y-you saw nothing, beyatch!"</text>
+	<text>In the cafeteria, you spot Leah trying to open a bag of potato chips to no avail. "Dammit... open already, you piece of trash!" It takes a while before she spots you, but she immediately hides the bag behind her back, beet-red in the face as she turns to leave. "You... y-you saw nothing, beyatch!"</text>
 </event>
 
 <event name="FR_SOCIALIZE_LEAH_GENERIC_3" unique="true">
@@ -309,7 +309,7 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <event name="FR_SOCIALIZE_LEAH_VANCE_1" unique="true">
-	<text>You catch Leah and Vance talking in the cafeteria. "Finally joined the Feds too, huh? Does this mean you'll stop getting blown up on every mission?" The former Admiral chuckled weakly, causing Leah to growl with frustration. "L-look, it wasn't my fault! First, some shady Slug sold me a launcher with no missiles, then a bunch of metal people sucked all the oxygen out of my ship, then-" Vance holds his hand up to stop her. "Look... I don't care how all these fumbles happened, I'm just glad your dad had the wealth and the drive to support us!" Leah just nods, looking deflated.</text>
+	<text>You catch Leah and Vance talking in the cafeteria. "Finally joined the Feds too, huh? Does this mean you'll stop getting blown up on every mission?" The former Admiral chuckles, causing Leah to growl with frustration. "L-look, it wasn't my fault! First, some shady Slug sold me a launcher with no missiles, then a bunch of metal people sucked all the oxygen out of my ship, then-" Vance holds his hand up to stop her. "Look... I don't care how all these fumbles happened, I'm just glad your dad had the wealth and the drive to support us!" Leah just nods, looking deflated.</text>
 </event>
 
 <!-- 
@@ -318,7 +318,7 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <event name="FR_SOCIALIZE_LEAH_JERRY_1" unique="true">
-	<text>In the corridors of the ship, you notice Leah talking to Jerry. The bright-eyed rebel gazed with curiosity. "How are you able to teleport around without a teleporter...?" Leah just laughs awkwardly, looking down to a small device on her hip. "W-well, my brother Kyle gave me some teleportation gizmo from the Duskies!" Jerry tilted his head. ""Kyle...? Oh! I think I know who you're talking about." Leah puffs her chest proudly in response." Oh, of course you do! Isn't he awesome? He's helped me more than, like, the entire rest of the Rebellion combined! Well, uh... besides your uncle, I guess. Anywho... talk to you later, Jerrynimo!" Pointing fingerguns, she steps away in the direction of her quarters as Jerry notices you, just shrugging.</text>
+	<text>In the corridors of the ship, you notice Leah talking to Jerry. The bright-eyed rebel regards her with curiosity. "How are you able to teleport around without a teleporter...?" Leah just laughs awkwardly, looking down to a small device on her hip. "W-well, my brother Kyle gave me some teleportation gizmo from the Duskies!" Jerry tilts his head. "Kyle...? Oh! I think I know who you're talking about." Leah puffs her chest proudly in response." Of course you do! Isn't he awesome? He's helped me more than, like, the entire rest of the Rebellion combined! Well, uh... besides your uncle, I guess. Anywho... talk to you later, Jerrynimo!" Pointing fingerguns, she steps away in the direction of her quarters as Jerry notices you. He just shrugs.</text>
 </event>
 
 <!-- 
@@ -334,7 +334,84 @@
 </mod:findName>
 
 <event name="FR_SOCIALIZE_OBYN_SALT_1" unique="true">
-	<text>You see Obyn and your Salt Soldier talking in the cafeteria. You've never seen Obyn this happy and enthusiastic before. After a few seconds of you arriving, Obyn notices you. "Captain, Captain! Why didn't you tell me you had another Salt person on board your ship? This is a miracle! How did you do it?!" You tell Obyn it's a long story, but one you will be more than happy to tell him once this journey is all over. He smiles and nods. "Got it, Captain. Thank you so, sooo much for allowing me a chance to meet them!" You smile back and nod, and the two Salt people wave as you turn away.</text>
+	<text>You see Obyn and your Salt Soldier talking in the cafeteria. You've never seen Obyn this happy and enthusiastic before. After a few seconds, Obyn notices you. "Captain, Captain! Why didn't you tell me you had another Salt person on board your ship? This is a miracle! How did you do it?!" You tell Obyn it's a long story, but one you will be more than happy to tell him once this journey is all over. He smiles and nods. "Got it, Captain. Thank you so very much for allowing me a chance to meet them!" You smile back and nod, and the two Salt people wave as you turn away.</text>
+</event>
+
+<!-- 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+									PURPLE BEARD
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+-->
+<event name="FR_SOCIALIZE_PURPLE_BEARD_LIST">
+	<metaVariable name="prof_socialization" op="add" val="1"/>
+	<queueEvent>STORAGE_CHECK_CREW</queueEvent>
+	<loadEventList seeded="true" default="FR_SOCIALIZE_PURPLE_BEARD_NOTHING">
+		<event name="FR_SOCIALIZE_PURPLE_BEARD_GENERIC_1"/>
+		<event name="FR_SOCIALIZE_PURPLE_BEARD_GENERIC_2"/>
+		<event name="FR_SOCIALIZE_PURPLE_BEARD_GENERIC_3"/>
+		<event name="FR_SOCIALIZE_PURPLE_BEARD_GENERIC_4"/>
+		<event name="FR_SOCIALIZE_PURPLE_BEARD_VANCE_1" req="unique_vance"/>
+		<event name="FR_SOCIALIZE_PURPLE_BEARD_VANCE_ONE_1" req="fr_unique_vance_one"/>
+	</loadEventList>
+</event>
+<event name="FR_SOCIALIZE_PURPLE_BEARD_NOTHING">
+	<text>You pass by Purple Beard's quarters on your way to the ship's bridge. You don't hear a single sound from inside so you assume he finally managed to sleep. Better to not disturb him.</text>
+</event>
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   GENERIC                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+<event name="FR_SOCIALIZE_PURPLE_BEARD_GENERIC_1" unique="true">
+	<text>You ask Purple Beard if that's his real name. He turns to you and mutters only a simple "No." You then ask him what his name is. "Clint", he replies, before leaving the room and heading back to his quarters.</text>
+</event>
+<event name="FR_SOCIALIZE_PURPLE_BEARD_GENERIC_2" unique="true">
+	<text>You ask Purple Beard if he has any control over the unafiliated pirates you found in your travels. He shakes his head. "While they see me as a legend... I have no real sway on their actions... They are a free group... as such, they have no 'true' leader... and while they say they have leaders... it's mostly just a cosmetic title."</text>
+</event>
+<event name="FR_SOCIALIZE_PURPLE_BEARD_GENERIC_3" unique="true">
+	<text>You ask Purple Beard what he plans to do once the flagship is destroyed. He grins slightly. "That... Captain... is for me to know... and only me..." He pats you on the shoulder. "But... if one day you also get fed up of saving realities... I'm sure our paths will cross again..."</text>
+</event>
+<event name="FR_SOCIALIZE_PURPLE_BEARD_GENERIC_4" unique="true">
+	<text>You ask Purple Beard how can there be more than one of him if he's from Universe 1. He sighs heavily. "In my foolish youth... I sold my DNA to make enough money to pay for repairs on my ship... little did I know that my genetic matter would be sold and resold until every universe had their own 'purple beard'... Sometimes I wonder if I'm the original or simply a clone..."</text>
+</event>
+
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   W/VANCE                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+<event name="FR_SOCIALIZE_PURPLE_BEARD_VANCE_1" unique="true">
+	<text>You hear a small snippet of conversation as you walk by. "I hope you are aware that I wasn't the one that gave the order to-" Vance is cut off by the pirate. "I know... My ire isn't against you... Let's forget the past, shall we?" He offers the Admiral a toast which Vance gladly accepts.</text>
+</event>
+
+<!-- 
+********************************************************************************************************************************************************************************************************************************************
+																							   W/VANCE ONE                                                                                         
+********************************************************************************************************************************************************************************************************************************************
+-->
+<event name="FR_SOCIALIZE_PURPLE_BEARD_VANCE_ONE_1" unique="true">
+	<text>You hurry to the cafeteria after hearing the sounds of tables breaking only to find Purple Beard beating Vance One senseless, the old man being easily able to completely overpower the Admiral. "THIS IS FOR EVERYTHING YOU MADE ME GO THROUGH! YOU VILE, WEAK PIECE OF SHIT!" Purple Beard shouts right at Vance's face before punching him so badly that it draws blood.</text>
+	<choice req="clonebay" lvl="1" max_group="0" blue="false" hidden="true">
+		<text>Purple Beard, stop right this second!</text>
+		<event>
+			<text>The pirate turns to you before slamming Vance's head through the broken table in one heavy movement, too quickly for you to interfere, killing him instantly. He cleans the blood on his uniform and walks away panting. "I will only warn you once, Captain... If I ever see him again, I will made sure your clonebay isn't functional when I'm done with him."</text>
+			<removeCrew class="fr_unique_vance_one">
+				<clone>true</clone>
+				<text>Vance soon leaves the clonebay room, shaken but in good health.</text>
+			</removeCrew>
+		</event>
+	</choice>
+	<choice req="clonebay" lvl="0" max_lvl="0" max_group="0" blue="false" hidden="true">
+		<text>Purple Beard, stop right this second!</text>
+		<event>
+			<text>He glares at you before lifting Vance by his neck. "You are so damn lucky the Renegade didn't buy us a clonebay... Watch your back, parasite." He slams Vance on the ground and walks away, refusing to say any word to you.</text>
+		</event>
+	</choice>
 </event>
 
 </FTL>

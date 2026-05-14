@@ -6,7 +6,7 @@
 
 <ship name="FR_SHIP_GB_GOZER" auto_blueprint="FR_GB_GOZER">
 	<destroyed>
-		<text>The leader of the Haunts is destroyed. Like all other figureheads in the Multiverse, however, there's always another in another universe. Still, a victory is a victory.</text>
+		<text>The leader of the Haunts is destroyed. Like all other figureheads in the Multiverse, however, there's always one more in another universe. Still, a victory is a victory.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -14,7 +14,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>The leader of the Haunts is destroyed. Like all other figureheads in the Multiverse, however, there's always another in another universe. Still, a victory is a victory.</text>
+		<text>The leader of the Haunts is destroyed. Like all other figureheads in the Multiverse, however, there's always one more in another universe. Still, a victory is a victory.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -40,13 +40,13 @@
 	<choice hidden="true">
 	    <text>Continue...</text>
 		<event>
-		    <text>"Well well well, what do we have here boys? A Federation meathead that thinks they can take on the head honcho of the Haunts?! Is that it?!" The ghost bursts into laughter, lasting more than a minute before he finally recomposes himself.
+		    <text>"Well well well, what do we have here boys? A Federation meathead that thinks they can take on the head honcho of the Haunts? Is that it?" The ghost bursts into laughter, lasting more than a minute before he finally recomposes himself.
 			
 			"Oh, that's the funniest thing I heard in centuries! So, as a treat for lighting up my mood, I won't break your spine immediately. Tell me, little Federation puppet, what brings you here today?</text>
 		    	<choice hidden="true">
 			        <text>We are here to take you down, Goziodeon!</text>
 		                <event>
-			                <text>You can see a enormous grin form across the entirety of his gaseous body. "Tsk, tsk tsk, wrong choice buddy." His ship's weapons finally spring to life and he refuses any more hails.</text>
+			                <text>You can see a enormous grin form across the entirety of his gaseous body. "Tsk tsk tsk, wrong choice buddy." His ship's weapons finally spring to life and he refuses any more hails.</text>
 			                    <ship hostile="true"/> 
 			                        <choice hidden="true">
 				                        <text>Continue...</text>
@@ -71,7 +71,7 @@
 								<choice hidden="true">
 								<text>Slimer.</text>
 									<event>
-										<text>The Ghost bursts into laughter again, ensuring all his guns turn on as soon as he stops. "I wouldn't trust Slimer to even take out the trash, what makes you think I would let HIM welcome newcomers? While I appreciate the laughter you give me, I have no respect for liars. Get 'em, boys!"</text>
+										<text>The Ghost bursts into laughter again. All of his guns turn on as soon as he stops. "I wouldn't trust Slimer to even take out the trash. What makes you think I would let HIM welcome newcomers? While I appreciate the laughter you give me, I have no respect for liars. Get 'em, boys!"</text>
 										<ship hostile="true"/> 
 										<choice hidden="true">
 											<text>Continue...</text>
@@ -93,7 +93,7 @@
 								<choice hidden="true">
 									<text>Psycadellius.</text>
 										<event>
-											<text>The Ghost bursts into laughter again, ensuring all his guns turn on as soon as he stops. "Psycadellius? Screening for newcomers? It would be less funny if you said Slimer welcomed you in! While I appreciate the laughter you give me, I have no respect for liars. Get 'em, boys!"</text>
+											<text>The Ghost bursts into laughter again. All of his guns turn on as soon as he stops. "Psycadellius? Screening for newcomers? It would be less funny if you said Slimer welcomed you in! While I appreciate the laughter you give me, I have no respect for liars. Get 'em, boys!"</text>
 												<ship hostile="true"/> 
 												<choice hidden="true">
 													<text>Continue...</text>

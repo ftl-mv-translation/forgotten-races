@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
-<img x="-83" y="-62" w="697" h="406" />
+<img x="-75" y="-44" w="641" h="440" />
 <offsets>
-	<floor x="77" y="56" />
-	<cloak x="0" y="0" />
+	<floor x="68" y="37" />
+	<cloak x="-22" y="-23" />
 </offsets>
 <weaponMounts>
-	<mount x="648" y="195" rotate="true" mirror="true" gib="-1" slide="up" />
-	<mount x="648" y="213" rotate="true" mirror="false" gib="-1" slide="down" />
-	<mount x="358" y="376" rotate="true" mirror="false" gib="-1" slide="down" />
-	<mount x="358" y="32" rotate="true" mirror="true" gib="-1" slide="up" />
-	<mount x="493" y="94" rotate="true" mirror="true" gib="-1" slide="no" />
-	<mount x="493" y="312" rotate="true" mirror="false" gib="-1" slide="no" />
+	<mount x="510" y="74" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="510" y="369" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="380" y="29" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="380" y="412" rotate="true" mirror="false" gib="-1" slide="down" />
 </weaponMounts>
 <thrusters sync="true">
-    <thruster x="93" y="35" irotate="true">her_boss_thruster_main</thruster>
-    <thruster x="93" y="264" irotate="true" mirror="true">her_boss_thruster_main</thruster>
+    <thruster x="-44" y="22" irotate="true">fr_watcher_c_side_thruster</thruster>
+	<thruster x="-38" y="145" irotate="true">fr_watcher_c_main_thruster</thruster>
+    <thruster x="-44" y="355" irotate="true">fr_watcher_c_side_thruster</thruster>
 </thrusters>
 <explosion />
 

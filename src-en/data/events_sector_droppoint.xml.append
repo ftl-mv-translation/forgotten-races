@@ -16,6 +16,21 @@
 			</choice>
 		</event>
 	</mod-append:choice>
+	<mod-append:choice req="fr_unique_vance_one" blue="true" hidden="true">
+		<text>(Vance One) "Halt, soldier! Stand down! This is an order!"</text>
+		<event>
+			<text>"It's an honor to meet you, sir! Yes, we will stand down at your order!"</text>
+			<autoReward level="HIGH">standard</autoReward>
+			<ship hostile="false"/>
+		</event>
+		<event>
+			<text>"We know what you did, Legionnaire! No mercy for traitors!"</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+			<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</mod-append:choice>
 </mod:findName>
 
 <mod:findName type="event" name="FINISH_BEACON_DROPPOINT_ENCOUNTER_NORMAL">
@@ -34,7 +49,23 @@
 			</choice>
 		</event>
 	</mod-append:choice>
+	<mod-append:choice req="fr_unique_vance_one" blue="true" hidden="true">
+		<text>(Vance One) "Halt, soldier! Stand down! This is an order!"</text>
+		<event>
+			<text>"It's an honor to meet you, sir! Yes, we will stand down at your order!"</text>
+			<autoReward level="HIGH">standard</autoReward>
+			<ship hostile="false"/>
+		</event>
+		<event>
+			<text>"We know what you did, Legionnaire! No mercy for traitors!"</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+			<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</mod-append:choice>
 </mod:findName>
+
 
 <mod:findName type="event" name="FINISH_BEACON_DROPPOINT_ENCOUNTER_CHALLENGE">
 	<mod-append:choice req="unique_vance" blue="true" hidden="true">
@@ -46,6 +77,21 @@
 		</event>
 		<event>
 			<text>"We know what you did, Prime! No mercy for traitors!"</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+			<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="fr_unique_vance_one" blue="true" hidden="true">
+		<text>(Vance One) "Halt, soldier! Stand down! This is an order!"</text>
+		<event>
+			<text>"It's an honor to meet you, sir! Yes, we will stand down at your order!"</text>
+			<autoReward level="HIGH">standard</autoReward>
+			<ship hostile="false"/>
+		</event>
+		<event>
+			<text>"We know what you did, Legionnaire! No mercy for traitors!"</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 			<event load="COMBAT_CHECK"/>
@@ -64,6 +110,21 @@
 		</event>
 		<event>
 			<text>"We know what you did, Prime! No mercy for traitors!"</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+			<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="fr_unique_vance_one" blue="true" hidden="true">
+		<text>(Vance One) "Halt, soldier! Stand down! This is an order!"</text>
+		<event>
+			<text>"It's an honor to meet you, sir! Yes, we will stand down at your order!"</text>
+			<autoReward level="HIGH">standard</autoReward>
+			<ship hostile="false"/>
+		</event>
+		<event>
+			<text>"We know what you did, Legionnaire! No mercy for traitors!"</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 			<event load="COMBAT_CHECK"/>

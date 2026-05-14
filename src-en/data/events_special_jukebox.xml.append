@@ -2,42 +2,70 @@
     <mod-append:choice hidden="true" req="fr_juke_tartarus">
 		<text>FR: Forgotten Tartarus - Composed by Altzeus</text>
 		<event>
-			<playMusic>tartarus</playMusic>
+			<playMusic>fr_tartarus</playMusic>
+			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
+		</event>
+	</mod-append:choice>
+    <mod-append:choice hidden="true" req="fr_juke_tartarus">
+		<text>FR: Tartarus Crasher - Tartarus Remix - Composed by Lizzard</text>
+		<event>
+			<playMusic>fr_tartarus_crasher</playMusic>
+			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_juke_chaotictartarus">
+		<text>FR: Chaotic Tartarus - Composed by Altzeus</text>
+		<event>
+			<playMusic>fr_chaotictartarus</playMusic>
 			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice hidden="true" req="fr_juke_commonwealth">
 		<text>FR: Commonwealth - Composed by Altzeus</text>
 		<event>
-			<playMusic>commonwealth</playMusic>
+			<playMusic>fr_commonwealth</playMusic>
+			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_juke_warzone">
+		<text>FR: Warzone - Composed by Altzeus (feat. Lizzard)</text>
+		<event>
+			<playMusic>fr_warzone</playMusic>
 			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
 		</event>
 	</mod-append:choice>
     <mod-append:choice hidden="true" req="fr_juke_necronightmare">
 		<text>FR: Necro Nightmare (G's Track) - Composed by Altzeus</text>
 		<event>
-			<playMusic>necronightmare</playMusic>
+			<playMusic>fr_necronightmare</playMusic>
 			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice hidden="true" req="fr_juke_exterminator_good">
 		<text>FR: Saviour's Trial (Exterminator's Theme - Good Ending) - Composed by Lizzard</text>
 		<event>
-			<playMusic>exterminator_good</playMusic>
+			<playMusic>fr_exterminator_good</playMusic>
 			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice hidden="true" req="fr_juke_exterminator_neutral">
 		<text>FR: Through Metal And Aether (Exterminator's Theme - Neutral Ending) - Composed by Lizzard</text>
 		<event>
-			<playMusic>exterminator_neutral</playMusic>
+			<playMusic>fr_exterminator_neutral</playMusic>
 			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice hidden="true" req="fr_juke_exterminator_bad">
 		<text>FR: Karmaggeddon (Exterminator's Theme - Bad Ending) - Composed by Lizzard</text>
 		<event>
-			<playMusic>exterminator_bad</playMusic>
+			<playMusic>fr_exterminator_bad</playMusic>
+			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_juke_undeniable_supremacy">
+		<text>FR: Undeniable Supremacy (Legion Flagship's Theme) - Composed by Lizzard</text>
+		<event>
+			<playMusic>fr_undeniable_supremacy</playMusic>
 			<loadEvent>STORAGE_CHECK_JUKEBOX</loadEvent>
 		</event>
 	</mod-append:choice>

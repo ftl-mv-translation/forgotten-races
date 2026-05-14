@@ -48,14 +48,58 @@
 		<text>Ask Leah about this.</text>
 		<event load="FR_TRUE_VICTORY_CREW_LEAH"/>
 	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_daisy">
+		<text>Ask Daisy about this.</text>
+		<event load="FR_TRUE_VICTORY_CREW_DAISY"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_jon">
+		<text>Ask Jon about this.</text>
+		<event load="FR_TRUE_VICTORY_CREW_JON"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_purple_beard">
+		<text>Ask Purple Beard about this.</text>
+		<event load="FR_TRUE_VICTORY_CREW_PURPLE_BEARD"/>
+	</mod-append:choice>
 </mod:findName>
 
 <mod:findName type="event" name="TRUE_VICTORY_CREW_WITHER">
     <mod-append:unlockCustomShip silent="false">PLAYER_SHIP_FR_ALT_WITHER</mod-append:unlockCustomShip>
 </mod:findName>
 
+<event name="FR_TRUE_VICTORY_CREW_PURPLE_BEARD">
+	<text>You find Purple Beard staring into space at the ship's biggest window. He turns to look at you as you enter the room. You are about to speak but his expression catches you for a moment. It is as if the weight of the multiverse is on his shoulders. "Blow it up." He speaks with gravitas that makes you flinch. Without saying another word he leaves the room, leaving you alone with your thoughts.</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_PURPLE_BEARD_CREWSER</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_JON">
+	<text>"I... I can't believe my eyes! Have you *seen* how advanced the Obelisk drones were?! Just the sight of them in combat got my wheels churning for a potential drone booster design 2.0!" Jon grins ear to ear, barely being able to contain his enthusiasm.	
+	
+	His mood suddenly drops as he realizes the choice you have been presented with. "Friend, if there is one thing I learned while working in Wentworth Innovations, it's that there is ALWAYS another way to solve a problem, no matter how difficult it may seem. I know this war is taking countless lives every second, but I truly believe this doesn't need to be the only way. If you detonate that bomb, then any potential third option will be forever lost... I won't stop you of course, but please, be absolutely sure this is what you want, alright?"</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_JON_CREWSER</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
+<event name="FR_TRUE_VICTORY_CREW_DAISY">
+	<text>"Yes! We did it! We beat the exterminators! I... I can't believe my own sensors. This truly feels like a dream! And for me to have been in the forefront... to have brought my people's name into the history books... It almost... makes me feel worthy of being who I am again. After being destroyed in such an abject manner only to be resurrected by an alien of such... unique anatomy and goals... I thought I was a failure, but..."
+
+	Daisy spends a few moments collecting her thoughts before giving you the Obelisk equivalent of a smile. "Thank you... what do they call your type again? Renegade? No, that's too formal. Thank you... Friend."	
+	</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BROKEN_COMMONWEALTH_2</unlockCustomShip>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TRUE_VICTORY_LOAD"/>
+	</choice>
+</event>
+
 <event name="FR_TRUE_VICTORY_CREW_VANCE">
-	<text>"To be frank I'm... not sure I deserve to be alive after all of this. Sure that wasn't... me, I suppose, but... I share the same blood as that man, I'm a exact copy of him! What makes me special enough to be allowed to live? If you want to know what I think, I say let's activate that bomb, and let the Multiverse forget about all of us and this petty war, once and for all!"</text>
+	<text>"To be frank, I'm not sure I deserve to be alive after all of this. Sure, that wasn't me, I suppose, but... I shared the same blood as that man! I'm a exact copy of him! What makes me special enough to be allowed to live? If you want to know what I think, I say let's activate that bomb, and let the Multiverse forget about all of us and this petty war, once and for all!"</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_VANCE_PRIME_CREWSER</unlockCustomShip>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -64,7 +108,7 @@
 </event>
 
 <event name="FR_TRUE_VICTORY_CREW_LEAH">
-	<text>"Ahahahaaaa! You saw the size of that thing, right!? It put every last flagship I've seen to shame." Leah's voice lowers, the staunch Rebel seemingly apprehensive all of a sudden. "...you didn't disappoint me either, beyatch... good on you. You're the best rival I've ever had, and... it'd be a shame if our arcs ended here."</text>
+	<text>"Ahahahaaaa! You saw the size of that thing, right!? It put every last flagship I've seen to shame." Leah's voice lowers, the staunch Rebel seemingly apprehensive all of a sudden. "You didn't disappoint me either, beyatch... good on you. You're the best rival I've ever had, and it'd be a shame if our arcs ended here..."</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_LEAH_CREWSER</unlockCustomShip>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -82,7 +126,7 @@
 </event>
 
 <event name="FR_TRUE_VICTORY_CREW_STEFAN">
-	<text>"This... this is all madness! Cube people! Multiversal bombs! This doesn't make any sense! I just want to go back to selling my minelaunchers! But... do whatever you want with that... thing, I'm the last person who should have a say on this."</text>
+	<text>"This is all madness! Cube people. Multiversal bombs. None of it makes any sense! I just want to go back to selling my minelaunchers. Do whatever you want with that... thing! I'm the last person who should have a say on this."</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_STEFAN_CREWSER</unlockCustomShip>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -91,7 +135,7 @@
 </event>
 
 <event name="FR_TRUE_VICTORY_CREW_GOZER">
-	<text>"Well done, kid. Looks like you've passed with flying colors. Consider yourself... officially recruited into the Haunts. Now, I won't tell you what to do with that little bomb, but you can't deny your new opportunity could be the best you've ever had."</text>
+	<text>"Well done, kid. Looks like you've passed with flying colors. Consider yourself officially recruited into the Haunts. Now, I won't tell you what to do with that little bomb, but I'm sure you'll agree that the opportunity to work with us is quite lucrative and it'd be such a shame to pass it up..."</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_GOZER_CREWSER</unlockCustomShip>
 	<achievement silent="false">ACH_FR_EVENT_GOZER_RECRUIT</achievement>
 	<choice hidden="true">
@@ -101,7 +145,7 @@
 </event>
 
 <event name="FR_TRUE_VICTORY_CREW_CYRA">
-	<text>"I'm not sure what to think, Renegade, seeing a man I respected so much be willing to do something like that. It's... not something I think I'll ever truly accept. As for my advice? Don't let this be how your journey ends. Destroy that infernal device, please!"</text>
+	<text>"I'm not sure what to think, Renegade. Seeing a man I respected so much be willing to do something so horrible... It's not something I think I'll ever be able to fully accept. As for my advice? Don't let this be how your journey ends. Destroy that infernal device, please!"</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_CYRA_CREWSER</unlockCustomShip>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -110,7 +154,7 @@
 </event>
 
 <event name="FR_TRUE_VICTORY_CREW_LEIKONPLIIINAKRA">
-	<text>"Now this... this victory is exactly what the Mantis people needed to regain our pride! We've stopped the Rebellion, hopefully for good this time, and one-upped the Obelisks themselves, ancient enemies of the Crystalline people! Oh, I can't wait to see Elder Stonewall's face after this. Thank you, Renegade... if we get out of this alive, I promise the negotiations will start the instant we get home."</text>
+	<text>"The mantis have been in dire need of a victory to raise our spirits. May this one herald a new era for our people. We have stopped the Rebellion, hopefully for good this time, and one-upped the Obelisks themselves, ancient enemies of the Crystalline people! Oh, I can't wait to see Elder Stonewall's face after this. Thank you, Renegade... if we get out of this alive, I promise the negotiations will start the instant we get home."</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER</unlockCustomShip>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -119,7 +163,7 @@
 </event>
 
 <event name="FR_TRUE_VICTORY_CREW_SNOWMAN">
-	<text>You look at the Snowman. For a moment, nothing happens, but soon after a soft smile appears in their "face". A wave a comfort passes over you and you can't help but smile as well.</text>
+	<text>You look at the Snowman. For a moment, nothing happens, but then you see their face morph a little to show a soft smile. You can't help but smile as well.</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_SNOWMAN</unlockCustomShip>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -128,7 +172,7 @@
 </event>
 
 <event name="FR_TRUE_VICTORY_CREW_LAVAMAN">
-	<text>You look at the Lavaman. For a moment, nothing happens, but soon after a soft smile appears in their "face". A wave a comfort passes over you and you can't help but smile as well.</text>
+	<text>You look at the Lavaman. For a moment, nothing happens, but then you see their face morph a little to show a soft smile. You can't help but smile as well.</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_SNOWMAN_2</unlockCustomShip>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -137,7 +181,7 @@
 </event>
 
 <event name="FR_TRUE_VICTORY_CREW_VENOM">
-	<text>The Queen gently nods and bows down softly. Something about this gesture tells you she knows more than you thought.</text>
+	<text>The Queen gently nods and gives you a deep bow. Something about this gesture tells you she knows more than you thought.</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_VENOMOUS_SPIDER_QUEEN_CREWSER</unlockCustomShip>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -155,7 +199,7 @@
 </event>
 
 <event name="FR_TRUE_VICTORY_CREW_GANA">
-	<text>You stare at the robot for what feels like ages, but nothing happens. You feel a strong urge to use the bomb, though you can't tell if it's your own gut feeling or some form of influence from Gana.</text>
+	<text>You stare at the robot for a long time, but nothing happens. You feel a strong urge to use the bomb, though you can't tell if it's your own gut feeling or some form of influence from Gana.</text>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_GANA_CREWSER</unlockCustomShip>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -167,6 +211,10 @@
 	<mod-append:choice hidden="true" req="unique_vance">
 		<text>(Vance Prime) Hail Vance.</text>
 		<event load="FR_SHOWDOWN_VANCE"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_vance_one">
+		<text>(Vance One) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_VANCE_ONE"/>
 	</mod-append:choice>
 	<mod-append:choice hidden="true" req="FR_REQUIREMENT_HAS_TULLY_AND_JERRY">
 		<text>(Tully and Jerry) Hail Vance.</text>
@@ -183,6 +231,10 @@
 		<text>(Vance Prime) Hail Vance.</text>
 		<event load="FR_SHOWDOWN_VANCE"/>
 	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_vance_one">
+		<text>(Vance One) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_VANCE_ONE"/>
+	</mod-append:choice>
 	<mod-append:choice hidden="true" req="FR_REQUIREMENT_HAS_TULLY_AND_JERRY">
 		<text>(Tully and Jerry) Hail Vance.</text>
 		<event load="FR_SHOWDOWN_TULLY_AND_JERRY"/>
@@ -198,6 +250,10 @@
 		<text>(Vance Prime) Hail Vance.</text>
 		<event load="FR_SHOWDOWN_VANCE"/>
 	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_vance_one">
+		<text>(Vance One) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_VANCE_ONE"/>
+	</mod-append:choice>
 	<mod-append:choice hidden="true" req="FR_REQUIREMENT_HAS_TULLY_AND_JERRY">
 		<text>(Tully and Jerry) Hail Vance.</text>
 		<event load="FR_SHOWDOWN_TULLY_AND_JERRY"/>
@@ -212,6 +268,10 @@
 	<mod-append:choice hidden="true" req="unique_vance">
 		<text>(Vance Prime) Hail Vance.</text>
 		<event load="FR_SHOWDOWN_VANCE"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_vance_one">
+		<text>(Vance One) Hail Vance.</text>
+		<event load="FR_SHOWDOWN_VANCE_ONE"/>
 	</mod-append:choice>
 	<mod-append:choice hidden="true" req="FR_REQUIREMENT_HAS_TULLY_AND_JERRY">
 		<text>(Tully and Jerry) Hail Vance.</text>
@@ -312,25 +372,25 @@
 </mod:findName>
 
 <event name="FR_SHOWDOWN_TULLY_AND_JERRY">
-	<text>Vance pauses, and appears on the vidscreen. Both Tully and Jerry step forwards. Vance stares in utter disbelief, the two most important people in his life standing in front of him. Jerry is the first to speak up.
+	<text>Vance pauses, and appears on the vidscreen. Both Tully and Jerry step forwards. Vance stares in utter disbelief, seeing the two most important people in his life standing in front of him. Jerry is the first to speak up.
 	
-	"Uncle...please! I know it's not too late. It's never too late! Put down that bomb, and...and we'll be willing to talk."</text>
+	"Uncle...please! I know it's not too late. It's never too late! Put down that bomb, and...and we'll talk."</text>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>Vance looks away and closes his eyes. He sighs deeply, speaking in a hushed tone, refusing to look the duo in the eyes. '...no, no! No...it's far too late for that. Jerry...Brodric...I'm sorry.'</text>
+			<text>Vance looks away and closes his eyes. He sighs deeply, speaking with regret in his voice. 'No! It's far too late for that. Jerry...Brodric...I'm sorry.'</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>Tully steps in shortly after, nearly filling the screen with his presence. He begins to tear up, a mixture of rage, sadness, and righteous fire filling his eyes.
+					<text>Tully steps in, nearly filling the screen with his presence. He begins to tear up, a mixture of rage, sadness, and righteous fire filling his eyes.
 					
-					"Vance! For the love of God, stop this madness! You see the death and the misery you've sowed! Trillions, maybe even quadrillions of innocents have died because of the Rebellion - how many more will have to fall before you're finally satisfied!? You may never be able to fully atone for your actions, but...you can still fix your mistakes, leave a positive impact on the Multiverse! I'm here for you. Jerry's here for you. We can help. Please...stand down."</text>
+					"Vance! For the love of God, stop this madness! You see the death and the misery you've sowed! Trillions, maybe even quadrillions of innocents have died because of the Rebellion - how many more will have to fall before you're finally satisfied!? You may never be able to fully atone for your actions, but you can still fix your mistakes, leave a positive impact on the Multiverse! I'm here for you. Jerry's here for you. We can help. Please... stand down."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
-							<text>Vance is frozen in place. His legendarily stoic demeanor finally seems to break, and the Admiral of the Rebellion begins to tear up. The video feed cuts out as you hear the sound of a teleporter sending someone in...against all odds, you've managed to convince him to hand over the bomb, and he does so without looking anybody in the eyes.
+							<text>Vance is frozen in place. His legendarily stoic demeanor finally seems to break, and the Admiral of the Rebellion begins to tear up. The video feed cuts out as you hear the sound of a teleporter sending someone in... against all odds, you've managed to convince him to hand over the bomb, and he does so without looking anybody in the eyes.
 
-							Jerry opens his arms for a hug, which catches the Admiral off guard. He takes it, simply remaining silent for a few moments, before speaking up. "I-I'm trusting you, Jerry...please, don't let me make another mistake..." Behind him, as he breaks from the embrace, he finds Tully offering him a handshake. After a moment of deliberation, he clasps Tully's hand in his own, ready to make things right.</text>
+							Jerry opens his arms for a hug, which catches the Admiral off guard. He takes it, simply remaining silent for a few moments, before speaking up. "I-I'm trusting you, Jerry... please, don't let me make another mistake..." Behind him, as he breaks from the embrace, he finds Tully offering him a handshake. After a moment of deliberation, he clasps Tully's hand in his own, ready to make things right.</text>
 							<achievement silent="false">ACH_FR_EVENT_VANCE_TRUEEND_SPARE</achievement>
 							<crewMember amount="1" class="unique_vance" all_skills="2">Vance Prime</crewMember>
 							<choice hidden="true">
@@ -350,7 +410,7 @@
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>Tully, Jerry, and Vance Prime collectively drop their jaws in shock at the new sight, the latter speaking up as he desperately tried to teleport back, to no avail. "You...w-what have you done!?" As MFK Aces begin to surround the cloned Vance, saluting, their new leader speaks up. "Kissing the Federation's ass after so long? We don't allow rats like you within our glorious ranks. I may not have your little bomb, but once Universe 1 gets ahold of all of this Obelisk technology, I'm certain we can make something much, muuuuuch worse."</text>
+			<text>Tully, Jerry, and Vance Prime collectively drop their jaws in shock at the new sight. Vance Prime desperately tries to teleport back, to no avail. "What have you done?" MFK Aces begin to surround the cloned Vance, saluting their new leader. "Kissing the Federation's ass after so long? We don't allow rats like you within our glorious ranks. I may not have your little bomb, but once Universe 1 gets ahold of all of this Obelisk technology, I'm certain we can make something much, muuuuuch worse."</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
@@ -358,13 +418,13 @@
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
-							<text>Jerry tries to speak up, but he's cut off by the clone before he can even say a word. "Oh, don't come crying to me, you spoiled little shit...no family member of mine throws their lot in with the Feds and expects me to think of them as my blood." Tully jumps in, attempting to defend Jerry, but the feed is cut before he can say anything.</text>
+							<text>Jerry tries to speak up, but he's cut off by the clone. "Oh, don't come crying to me, you spoiled little shit... no family member of mine throws their lot in with the Feds and expects me to think of them as my blood." Tully jumps in, attempting to defend Jerry, but the feed is cut before he can say anything.</text>
 								<choice hidden="true">
 									<text>Continue...</text>
 									<event>
 										<text>Jerry collapses to his knees, shocked and speechless as how easily he was betrayed. "I should have known..." Jerry chokes up a sob, and holds his head in his hands while tears form puddles on the ground. Vance Prime is fuming in the background, exhibiting much the same anger as his clone at being chewed out for going back on his mistakes. He steps over to his nephew...
 										
-										"That scumbag over there is a liar...you're a Wentworth, Jerry, and nothing will ever take that away from you. Certainly not the decree of some Multiversal tyrant." He contains his anger for one moment, offering Jerry a hand.</text>
+										"That scumbag over there is a liar. You're a Wentworth, Jerry, and nothing will ever take that away from you. Certainly not the decree of some Multiversal tyrant." He contains his anger for a moment, offering Jerry a hand.</text>
 										<removeCrew class="unique_jerry">
 											<clone>false</clone>
 											<text>Jerry is still recovering from what happened, but he seems to have gotten an idea.</text>
@@ -511,8 +571,35 @@
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
-							<text>The other Vance simply laughs at the threat, triggering the artilleries and the Multiverse drive once more. "Oh, we will see about that...you dirty little rat."</text>
+							<text>The other Vance simply laughs at the threat, triggering the artilleries and the Multiverse drive once more. "Oh, we will see about that... you dirty little rat."</text>
 							<achievement silent="false">ACH_FR_EVENT_VANCE_TRUEEND</achievement>
+							<ship hostile="true"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_SHOWDOWN_VANCE_ONE">
+	<text>Vance One steps into view, causing Vance Prime to eye him with pure hatred. "Well well well, if it isn't my older form, still chasing the dragon that is the Paragon? Come on Prime, we both know you are only doing this out of a sense of obligation to your man. Admit it, you lost that spark years ago!"</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The Prime's glare narrows to something sharp, hateful, utterly violent. Every word out of his mouth is akin to the venom of a snake, all of his old fire reigniting in a concentrated blaze. "You...you DARE to insult me with THIS!? After I SAVED you and your weak rebellion from collapsing all those years ago?! I'm the reason you are alive! I gave you the best position you could ever ask for, a god among man, and THIS is how you thank me?!"</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>Vance One gazes into the camera, a malicious grin across his face. "Oh, Prime...How i will enjoy breaking your neck under my boots." He laughs and turns around, ignoring Prime, who seems to be almost boiling over with rage.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>Prime opens his mouth to speak, but stops at the last second. Shaking with rage, he triggers the artilleries and the Multiverse drive once more.</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
 								<text>Continue...</text>

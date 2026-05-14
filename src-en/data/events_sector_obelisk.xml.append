@@ -1,19 +1,33 @@
 <FTL>
 
-<event name="FR_COMMONWEALTH_FORGE_DRONE" unique="true">
+<event name="FR_COMMONWEALTH_FORGE_CRUISER" unique="true">
 	<preventQuest/>
 	<preventFleet/>
+	<distressBeacon/>
 	<beaconType id="map_icon_fr_commonwealthdrone" global="true">
 		<color r="0" g="39" b="253" a="1.0"/>
 		<undiscoveredTooltip>A strange broadcast seems to be coming from this beacon.</undiscoveredTooltip>
-		<unvisitedTooltip>This beacon had an ancient drone.</unvisitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
 	</beaconType>
-	<text>Upon arriving at the beacon, you come face to face with a bizarre automated vessel of Obelisk design. It bears colors and weapons of makes and models you haven't seen before, even in this dreadful place, and it attempts to open communication.</text>
-	<ship load="SHIP_FR_BOSS_QUEST_BROKEN_COMMONWEALTH_AUTO" hostile="false"/> 
+	<text>Upon arriving at the beacon, you come face to face with a bizarre broken cruiser of Obelisk design. It bears colors and weapons that you haven't seen before, not even in this dreadful place. The ship attempts to open communication.</text>
+	<ship load="SHIP_FR_BOSS_QUEST_BROKEN_COMMONWEALTH_CRUISER" hostile="false"/> 
 	<choice hidden="true">
-		<text>Approach the Auto-ship and try to receive the hail.</text>
+		<text>Approach the broken cruiser and try to receive the hail.</text>
 		<event>
-			<text>The ship blares a mix of static and what could barely be considered words in a loop lasting around 10 seconds or so. Not only did the signal distortion make the message a nightmare to decode, but the actual speech appeared to be a dialect of Obelisk speech far too old for Aenwithe's translation algorithm to decode. You do think that, if you install a better translation package, you may be able to understand the message.</text>
+			<text>From the ship's feed there blares a mix of static and what can barely be considered words in a short, 10-second loop. Not only does the signal distortion make the message a nightmare to decode, but the words appear to be a dialect of Obelisk speech too ancient for Aenwithe's translation algorithm to decode. You surmise that if you install a better translation package, you may be able to understand the message.
+				
+			Your scanners also detect the presence of crew inside the ship, though they seem to be fully automated and require no external input. They don't react at all to your direct hailing attempts.</text>
+				<choice hidden="true" blue="false">
+					<text>Try to translate manually.</text>
+						<event>
+							<text>You decide to do it the hard way by performing extensive linguistic analysis to learn an ancient Obelisk dialect. You spend a few days sitting in front of the strange broken cruiser, enriching your translator.</text>
+							<modifyPursuit amount="2"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED"/>
+							</choice>
+						</event>
+				</choice>
 				<choice req="UPG_AETHER_TRANSLATOR" lvl="0" max_group="1" blue="false" hidden="true">
 					<text>Install the Runic Translator. [Cost: 10~, 1|]</text>
 						<event>
@@ -26,75 +40,58 @@
 							</item_modify>
 							<choice hidden="true">
 								<text>Continue...</text>
-								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+								<event load="FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED"/>
 							</choice>
 						</event>
 				</choice>
 				<choice hidden="true" req="UPG_AETHER_TRANSLATOR" lvl="1" max_group="1" blue="true">
-					<text>We already have the translator, decode what the drone is saying!</text>
+					<text>(Runic Translator) We already have the translator; decode what the ship is saying!</text>
 						<event>
 							<text>You turn on your runic translator and wait to see what it can decode.</text>
 							<choice hidden="true">
 								<text>Continue...</text>
-								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+								<event load="FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED"/>
 							</choice>
 						</event>
 				</choice>
-				<choice hidden="true" blue="false">
-					<text>Try to manually translate the noises.</text>
-						<event>
-							<text>You decide to do it the hard way. Decoding the message is extremely difficult, and you spend no fewer than a few days sitting in front of the Auto-ship, enriching your translator.</text>
-							<modifyPursuit amount="2"/>
-							<choice hidden="true">
-								<text>Continue...</text>
-								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
-							</choice>
-						</event>
-				</choice>
-				<choice hidden="true" req="FR_BLUELIST_DIRECTOR_DRONES" blue="true">
-					<text>See if we can get our Director to translate the text for us.</text>
+				<choice hidden="true" req="FR_REQUIREMENT_DIRECTOR_DRONES_AND_DRONE_CONTROL" blue="true">
+					<text>(Director Drone) See if we can get our Director to translate the text for us.</text>
 						<event>
 							<text>You feed the data into your Director and wait to see what it can decode.</text>
 							<choice hidden="true">
 								<text>Continue...</text>
-								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+								<event load="FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED"/>
 							</choice>
 						</event>
 				</choice>
-				<choice hidden="true" req="FR_BLUELIST_ANCIENT_NO_COMMONWEALTH" blue="true">
-					<text>Ask one of our non-Commonwealth Obelisks to translate the weird language.</text>
-						<event>
-							<text>The Obelisk freezes as they hear the drone's message. It takes a few minutes, but they do agree to translate the message for you.</text>
-							<choice hidden="true">
-								<text>Continue...</text>
-								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
-							</choice>
-						</event>
-				</choice>
-				<choice hidden="true" req="fr_commonwealth" blue="true">
-					<text>Ask one of our Commonwealth Obelisks to translate the weird language.</text>
+				<choice hidden="true" req="FR_BLUELIST_COMMONWEALTH_OBELISK" blue="true">
+					<text>(Commonwealth Crew) Ask one of our Commonwealth Obelisks to translate the weird language.</text>
 						<event>
 							<text>The Commonwealth Obelisk quickly writes up a full translation of the message for you and your crew to read.</text>
 							<choice hidden="true">
 								<text>Continue...</text>
-								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+								<event load="FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED"/>
 							</choice>
 						</event>
 				</choice>
+				<choice hidden="true" req="FR_BLUELIST_ANCIENT_NO_COMMONWEALTH" blue="true">
+					<text>(Obelisk Crew) Your obelisks have no clue what language is being spoken.</text>
+					<event load="OPTION_INVALID"/>
+				</choice>
 				<choice hidden="true" req="FR_BLUELIST_COGNITIVE_NOT_METAL" blue="true">
-					<text>Ask one of our non-Metal Cognitives to translate the weird language.</text>
+					<text>(Cognitive Crew) Ask one of our non-Metal Cognitives to translate the weird language.</text>
 						<event>
-							<text>The Cognitive immediately sets to work decoding the message, with no sign of difficulty.</text>
+							<text>The Cognitive immediately sets to work decoding the message, showing no signs of difficulty.</text>
 							<choice hidden="true">
 								<text>Continue...</text>
-								<event load="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED"/>
+								<event load="FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED"/>
 							</choice>
 						</event>
 				</choice>
 				<choice hidden="true">
 					<text>Dear lord, shut down the radio system and blow it up!</text>
 					<event>
-						<text>You power up your weapons, and the drone does the same. Even in its damaged state, it's likely to put up quite a fight.</text>
+						<text>You power up your weapons; the drone, likewise. Even in its damaged state, it's likely to put up quite a fight.</text>
 						<ship hostile="true"/> 
 						<choice hidden="true">
 							<text>Continue...</text>
@@ -103,9 +100,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Shut down the radio and get out of there!</text>
+					<text>Leave this strange ship alone.</text>
 					<event>
-						<text>You decide decoding the message isn't worth your time, instead preparing to jump.</text>
+						<text>You decide that decoding the message isn't worth your time. You prepare to jump instead.</text>
 						<choice>
 							<text>Do something onboard the ship.</text>
 							<event load="STORAGE_CHECK"/>
@@ -119,9 +116,9 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Attack that ship, whatever it is it should have something of use inside it.</text>
+		<text>Attack that ship. Whatever it is, it should have something of use inside it.</text>
 		<event>
-			<text>You power up your weapons, and the drone does the same. Even in its damaged state, it's likely to put up quite a fight.</text>
+			<text>You power up your weapons and the drone responds likewise. Even in its damaged state, it's likely to put up quite a fight.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -130,9 +127,9 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave the Auto-ship alone.</text>
+		<text>Leave the cruiser alone.</text>
 		<event>
-			<text>You have far more important problems to solve than handling a damaged Auto-ship.</text>
+			<text>You have far more important problems to solve than handling a damaged obelisk cruiser.</text>
 			<choice>
 				<text>Do something onboard the ship.</text>
 				<event load="STORAGE_CHECK"/>
@@ -145,12 +142,19 @@
 	</choice>
 </event>
 
-<event name="FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED">
-	<text>Once the ships' cacophony is fully translated, you discover it was likely used as a mobile weapons factory in the Obelisk civil wars so long ago. Even in its damaged state, the Auto-ship's ability to synthesize new equipment could prove useful. Accessing the forge may prove difficult, however, without shutting the Auto-ship down.</text>
+<event name="FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED">
+	<text>Once the cacophonous message is fully translated, you discover the ship was likely used as a mobile weapons factory in the Obelisk civil wars long ago. Even in its damaged state, its ability to synthesize new equipment could prove useful. Accessing the forge may prove difficult without shutting it down first, however.</text>
 	<choice hidden="true">
 		<text>Attempt to hack the ship.</text>
 		<event>
-			<text>You set up a program to attack the Auto-ship's AI module. If you want this plan to work, you will have to hold out against the ship without destroying it!</text>
+			<text>You set up a program to attack the cruiser's AI module. If you want this plan to work, you will have to hold out against the ship without destroying it!</text>
+				<triggeredEvent event="FR_COMMONWEALTH_CRUISER_WIN" time="60" thisFight="true">
+					<triggeredEventBox load="DEFAULT_TIMER" pos="combat">
+						<warning time="10.0" flash="false"/>
+						<tooltip>Survive without destroying the broken cruiser, so the hack routine can run.</tooltip>
+					</triggeredEventBox>
+					<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+				</triggeredEvent>
 			<ship hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -161,25 +165,25 @@
 	<choice hidden="true" req="FR_LIST_CREW_COMMONWEALTH" blue="true">
 		<text>See if any of our Commonwealth crew can speed up the hacking process.</text>
 		<event>
-			<text>Your Commonwealth crew, having been around at the height of these drones' usage, manages to disable the Auto-ship's firewalls without much issue.</text>
+			<text>Your Commonwealth crew was around at the height of these drones' usage so it's still familiar with their systems. It manages to disable the Cruiser's firewalls without much issue.</text>
 			<choice hidden="true">
 				<text>Continue...</text>
-				<event load="FR_COMMONWEALTH_AUTO_WIN"/>
+				<event load="FR_COMMONWEALTH_CRUISER_WIN"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="hacking" lvl="3" blue="true">
 		<text>(Advanced Hacking) Use your main hacking system to speed up the hacking process.</text>
 		<event>
-			<text>Your highly advanced hacking system is well-suited to the task, and the drone submits without much resistance.</text>
+			<text>Your highly advanced hacking system is well-suited to the task. The drone submits without much resistance.</text>
 			<choice hidden="true">
 				<text>Continue...</text>
-				<event load="FR_COMMONWEALTH_AUTO_WIN"/>
+				<event load="FR_COMMONWEALTH_CRUISER_WIN"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>This is too risky, back away from the Auto-ship.</text>
+		<text>This is too risky; back away from the Cruiser.</text>
 		<event>
 			<text>Whatever secrets this ship holds are not relevant to the current mission. You turn away, preparing to jump.</text>
 			<choice>
@@ -194,21 +198,22 @@
 	</choice>
 </event>
 
-<event name="FR_COMMONWEALTH_AUTO_WIN">
-	<text>Once the ship's firewall is broken, it's only a matter of time until you're able to bring the entire vessel under your command. The miraculous forge within is still intact, but the damaged state of the ship means you will likely only get a single piece of equipment out of it before the ship falls apart from the strain.
+<event name="FR_COMMONWEALTH_CRUISER_WIN">
+	<text>Once the ship's firewall is broken, it's only a matter of time until you're able to bring the entire vessel under your command. The forge within is still intact, but you will likely only get a single piece of equipment out of it before the ship falls apart from the damage it sustained during your attack.
 	
-	You also find some kind of strange cubical device while searching the factory. If it's broken, you might be able to repair it with a powerful repair drone.</text>
+	You also find some kind of strange cubical device while searching the factory. If it's broken, you might be able to repair it with a powerful repair drone. You also miraculously find blueprints for the ship, albeit missing many key features, including its forge. Nevertheless, even a damaged cruiser of this caliber of technology can be useful to the Federation.</text>
 	<ship hostile="false"/>
+	<unlockCustomShip silent="false">PLAYER_SHIP_FR_BROKEN_COMMONWEALTH</unlockCustomShip>
 		<choice hidden="true">
 			<text>Make a Commonwealth weapon or drone.</text>
 			<event>
-			<loadEvent>FR_COMMONWEALTH_AUTO_WIN_FORGE</loadEvent>
+			<loadEvent>FR_COMMONWEALTH_CRUISER_WIN_FORGE</loadEvent>
 			</event>
 		</choice>
 		<choice hidden="true">
 			<text>Scrap the ship.</text>
 			<event>
-				<text>You decide to salvage the old Auto-ship, making do with the basic scrap metal you can collect from it.</text>
+				<text>You decide to salvage the old cruiser, making do with the basic scrap metal you collect from it.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
 				<choice>
 					<text>Do something onboard the ship.</text>
@@ -219,9 +224,9 @@
 		<choice hidden="true" req="FR_COMMONWEALTHS_BODY" blue="true">
 			<text>(Commonwealth's Body) Attempt to repair the corpse.</text>
 			<event>
-				<text>The factory struggles to scan the crew, likely because it has been so badly damaged, but eventually it manages to bring them back to life... but only for a moment before its internal software crashed. Whatever is needed to repair the corpse is beyond the factory's repair capabilities.
+				<text>The damaged factory struggles to scan the crew. Eventually, it appears to bring it back to life... but only for a moment before the forge's internal software crashes. Whatever is needed to repair the corpse is beyond the factory's repair capabilities.
 	
-				Strangely though, soon after the Commonwealth momentarily came back to life, a strange anomaly appears on your sensors, one which seems to match the energy signatures that the body gave off before shutting down. Maybe whoever's emitting those signatures can bring the body back to life permanently?</text>
+				Strangely, the Commonwealth's brief resurrection seemed to have triggered a reaction. A strange anomaly appears on your sensors with the same energy signatures as the brief pulse you noticed the Commonwealth give off just before it shut down. Perhaps the source of the anomaly could contain the answer to bringing the body back to life permanently?</text>
 				<autoReward level="LOW">scrap_only</autoReward>
 				<metaVariable name="prof_went_commonwealth_rift" op="set" val="1"/>
 				<quest event="FR_COMMONWEALTH_PORTAL"/>
@@ -230,7 +235,7 @@
 		<choice hidden="true" req="FR_REQUIREMENT_MANDER_BROKEN_DEVICE" blue="true">
 			<text>(Mender Drone) The device seems broken; our Mender drone should be able to fix it.</text>
 			<event>
-				<text>It takes a long time to repair as the device is heavily damaged. Eventually, with much careful maneuvering, your Mender is able to fully reconstruct the broken device. As it activates, you receive a strange signal from a location in the sector where your sensors just identified a massive energy spike. Whatever is there must be important.</text>
+				<text>It takes a long time to repair the heavily damaged device, but eventually your Mender is able to fully reconstruct it. Upon activation, you receive a strange signal from a point in the sector where your sensors just identified a massive energy spike. Whatever is there must be important.</text>
 				<achievement silent="false">ACH_FR_EVENT_AUTO</achievement>
 				<metaVariable name="prof_went_commonwealth_rift" op="set" val="1"/>
 				<modifyPursuit amount="1"/>
@@ -238,20 +243,37 @@
 				<quest event="FR_COMMONWEALTH_PORTAL"/>
 			</event>
 		</choice>
-		<choice hidden="true" req="prof_went_commonwealth_rift" blue="true">
-			<text>The device doesn't seem broken, activate it.</text>
+		<choice hidden="true" req="FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY" blue="true">
+			<text>The device doesn't seem broken; try activating it.</text>
 			<event>
-				<text>You touch the device and it suddenly springs to life. As it activates, you receive a strange signal from a point in the sector where your sensors just identified a massive energy spike. Whatever is there must be important.</text>
+				<text>You touch the device and suddenly it springs to life. Upon activation, you receive a strange signal from a point in the sector where your sensors just identified a massive energy spike. Whatever is there must be important.</text>
 				<achievement silent="false">ACH_FR_EVENT_AUTO</achievement>
 				<metaVariable name="prof_went_commonwealth_rift" op="set" val="1"/>
 				<autoReward level="LOW">scrap_only</autoReward>
 				<quest event="FR_COMMONWEALTH_PORTAL"/>
 			</event>
 		</choice>
+		<choice hidden="true" req="FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY" blue="true">
+			<text>The device doesn't seem broken; try activating it.</text>
+			<event>
+				<text>You touch the device and suddenly it springs to life. Upon activation, you receive a strange signal from a point in the sector where your sensors just identified a massive energy spike. Whatever is there must be important.
+
+				The device also triggers the nearby deactivated Obelisk to restore its systems! It comes back to life fully this time, although it seems to take a little while before it recovers from its stupor. It scans the room, immediately launching into a monologue upon noticing you.
+			
+				"Oh gosh! Who are you? WHAT are you? You look so...strange and fleshy; are you a native to the lesser empires, perhaps? No matter, my proto-waystone has already debriefed me on the events of the past few days. You wish to visit the refuge, right? Well, far be it from me to stop another missguided soul into breaching that hellish place, but I suppouse the least I can do is tag along for the ride. Who knows, maybe I can convince someone there to actually leave their isolated little gardens."
+			
+				She turns to you before heading inside your ship. "Oh, I forgot to introduce myself. My name is Bellrennis, but you can call my Daisy. Now, let's get going!"</text>
+				<achievement silent="false">ACH_FR_EVENT_AUTO</achievement>
+				<metaVariable name="prof_went_commonwealth_rift" op="set" val="1"/>
+				<crewMember amount="1" all_skills="2" class="fr_unique_daisy">Daisy</crewMember>
+				<autoReward level="LOW">scrap_only</autoReward>
+				<quest event="FR_COMMONWEALTH_PORTAL"/>
+			</event>
+		</choice>
 </event>
 
-<event name="FR_COMMONWEALTH_AUTO_WIN_FORGE">
- <text>You breach the forge's firewalls, figuring out what you can construct.</text>
+<event name="FR_COMMONWEALTH_CRUISER_WIN_FORGE">
+ <text>You breach the forge's firewalls to get it to construct something for you.</text>
  	<choice hidden="false">
 		<text>Construct a Proto-Cognitive.</text>
 			<event>
@@ -259,7 +281,7 @@
 			<item_modify>
 				<item type="scrap" min="-150" max="-150"/>
 			</item_modify>
-			<text>As your new ally hovers out of the forge, mildly confused, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. The Cognitive hovers out, and joins your crew!</text>
+			<text>As your new ally dazedly hovers out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. The Cognitive joins your crew!</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -270,7 +292,7 @@
 				<item type="scrap" min="-140" max="-140"/>
 			    <item type="fuel" min="-10" max="-10"/>
 			</item_modify>
-			<text>As the new weapon rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
+			<text>As the new weapon rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -281,7 +303,7 @@
 				<item type="scrap" min="-130" max="-130"/>
 			    <item type="fuel" min="-8" max="-8"/>
 			</item_modify>
-			<text>As the new weapon rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
+			<text>As the new weapon rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -292,7 +314,7 @@
 				<item type="scrap" min="-100" max="-100"/>
 			    <item type="missiles" min="-5" max="-5"/>
 			</item_modify>
-			<text>As the new weapon rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
+			<text>As the new weapon rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
 		</event>
 	</choice>	
 	<choice hidden="false">
@@ -303,7 +325,7 @@
 				<item type="scrap" min="-190" max="-190"/>
 			    <item type="fuel" min="-10" max="-10"/>
 			</item_modify>
-			<text>As the new weapon rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
+			<text>As the new weapon rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
 		</event>
 	</choice>
     <choice hidden="false">
@@ -313,7 +335,7 @@
 			<item_modify>
 				<item type="scrap" min="-200" max="-200"/>
 			</item_modify>
-			<text>As the new weapon rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
+			<text>As the new weapon rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -324,7 +346,7 @@
 				<item type="scrap" min="-110" max="-110"/>
 			    <item type="fuel" min="-8" max="-8"/>
 			</item_modify>
-			<text>As the new weapon rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
+			<text>As the new weapon rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
 		</event>
 	</choice>
     <choice hidden="false">
@@ -335,7 +357,7 @@
 				<item type="scrap" min="-160" max="-160"/>
 			    <item type="missiles" min="-15" max="-15"/>
 			</item_modify>
-			<text>As the new weapon rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
+			<text>As the new weapon rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -346,7 +368,7 @@
 				<item type="scrap" min="-80" max="-80"/>
 			    <item type="missiles" min="-20" max="-20"/>
 			</item_modify>
-			<text>As the new weapon rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
+			<text>As the new weapon rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the weapon aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -358,7 +380,7 @@
 			    <item type="drones" min="-25" max="-25"/>
 			    <item type="missiles" min="-3" max="-3"/>
 			</item_modify>
-			<text>As the new drone schematic rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
+			<text>As the new drone rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -369,7 +391,7 @@
 				<item type="scrap" min="-140" max="-140"/>
 			    <item type="drones" min="-13" max="-13"/>
 			</item_modify>
-			<text>As the new drone schematic rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
+			<text>As the new drone rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -380,7 +402,7 @@
 				<item type="scrap" min="-150" max="-180"/>
 			    <item type="drones" min="-15" max="-8"/>
 			</item_modify>
-			<text>As the new drone schematic rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
+			<text>As the new drone rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -391,7 +413,7 @@
 				<item type="scrap" min="-200" max="-200"/>
 			    <item type="drones" min="-25" max="-25"/>
 			</item_modify>
-			<text>As the new drone schematic rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
+			<text>As the new drone rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -402,7 +424,7 @@
 				<item type="scrap" min="-150" max="-150"/>
 			    <item type="drones" min="-15" max="-15"/>
 			</item_modify>
-			<text>As the new drone schematic rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
+			<text>As the new drone rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -413,7 +435,7 @@
 				<item type="scrap" min="-200" max="-200"/>
 			    <item type="drones" min="-15" max="-15"/>
 			</item_modify>
-			<text>As the new drone schematic rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
+			<text>As the new drone rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -424,7 +446,7 @@
 				<item type="scrap" min="-180" max="-180"/>
 			    <item type="drones" min="-17" max="-17"/>
 			</item_modify>
-			<text>As the new drone schematic rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
+			<text>As the new drone rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="false">
@@ -435,13 +457,13 @@
 				<item type="scrap" min="-100" max="-100"/>
 			    <item type="drones" min="-8" max="-8"/>
 			</item_modify>
-			<text>As the new drone schematic rolls out of the forge, the old Auto-ship begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
+			<text>As the new drone rolls out of the forge, the old cruiser begins to crumble, becoming nothing more than a useless wreck. You take the drone aboard.</text>
 		</event>
 	</choice>
 	<choice hidden="true">
 		<text>None of these will be useful. Scrap the ship.</text>
 		<event>
-			<text>You decide to salvage the old Auto-ship, making do with the basic scrap metal you can collect from it.</text>
+			<text>You decide to salvage the old cruiser, making do with the basic scrap metal you collect from it.</text>
 			<autoReward level="HIGH">scrap_only</autoReward>
 			<choice>
 				<text>Do something onboard the ship.</text>
@@ -452,19 +474,18 @@
 	<choice hidden="true" req="FR_COMMONWEALTHS_BODY" blue="true">
 		<text>(Commonwealth's Body) Attempt to repair the corpse.</text>
 		<event>
-			<text>The factory struggles to scan the crew, likely because it has been so badly damaged, but eventually it manages to bring them back to life... but only for a moment before its internal software crashed. Whatever is needed to repair the corpse is beyond the factory's repair capabilities.
-	
-			Strangely though, soon after the Commonwealth momentarily came back to life, a strange anomaly appears on your sensors, one which seems to match the energy signatures that the body gave off before shutting down. Maybe whoever's emitting those signatures can bring the body back to life permanently?
-			</text>
+			<text>The damaged factory struggles to scan the crew. Eventually, it appears to bring it back to life... but only for a moment before the forge's internal software crashes. Whatever is needed to repair the corpse is beyond the factory's repair capabilities.
+
+			Strangely, the Commonwealth's brief resurrection seemed to have triggered a reaction. A strange anomaly appears on your sensors with the same energy signatures as the brief pulse you noticed the Commonwealth give off just before it shut down. Perhaps the source of the anomaly could contain the answer to bringing the body back to life permanently?</text>
 			<metaVariable name="prof_went_commonwealth_rift" op="set" val="1"/>
 			<autoReward level="LOW">scrap_only</autoReward>
 			<quest event="FR_COMMONWEALTH_PORTAL"/>
 		</event>
 	</choice>
 	<choice hidden="true" req="FR_REQUIREMENT_MANDER_BROKEN_DEVICE" blue="true">
-		<text>(Mender Drone) The device seems broken, our mender drone should be able to fix it.</text>
+		<text>(Mender Drone) The device seems broken; our mender drone should be able to fix it.</text>
 		<event>
-			<text>It takes a long time to repair as the device is heavily damaged. Eventually, with much careful maneuvering, your Mender is able to fully reconstruct the broken device. As it activates, you receive a strange signal from a location in the sector where your sensors just identified a massive energy spike. Whatever is there must be important.</text>
+			<text>It takes a long time to repair the heavily damaged device, but eventually your Mender is able to fully reconstruct it. Upon activation, you receive a strange signal from a point in the sector where your sensors just identified a massive energy spike. Whatever is there must be important.</text>
 			<achievement silent="false">ACH_FR_EVENT_AUTO</achievement>
 			<metaVariable name="prof_went_commonwealth_rift" op="set" val="1"/>
 			<modifyPursuit amount="1"/>
@@ -472,14 +493,33 @@
 			<quest event="FR_COMMONWEALTH_PORTAL"/>
 		</event>
 	</choice>
-	<choice hidden="true" req="prof_went_commonwealth_rift" blue="true">
-		<text>The device doesn't seem broken, activate it.</text>
-		<event>
-			<text>You touch the device and it suddenly springs to life. As it activates, you receive a strange signal from a point in the sector where your sensors just identified a massive energy spike. Whatever is there must be important.</text>
-			<autoReward level="LOW">scrap_only</autoReward>
-			<quest event="FR_COMMONWEALTH_PORTAL"/>
-		</event>
-	</choice>
+		<choice hidden="true" req="FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY" blue="true">
+			<text>The device doesn't seem broken; try activating it.</text>
+			<event>
+				<text>You touch the device and suddenly it springs to life. Upon activation, you receive a strange signal from a point in the sector where your sensors just identified a massive energy spike. Whatever is there must be important.</text>
+				<achievement silent="false">ACH_FR_EVENT_AUTO</achievement>
+				<metaVariable name="prof_went_commonwealth_rift" op="set" val="1"/>
+				<autoReward level="LOW">scrap_only</autoReward>
+				<quest event="FR_COMMONWEALTH_PORTAL"/>
+			</event>
+		</choice>
+		<choice hidden="true" req="FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY" blue="true">
+			<text>The device doesn't seem broken; try activating it.</text>
+			<event>
+				<text>You touch the device and suddenly it springs to life. Upon activation, you receive a strange signal from a point in the sector where your sensors just identified a massive energy spike. Whatever is there must be important.
+
+				The device also triggers the nearby deactivated Obelisk to restore its systems! It comes back to life fully this time, although it seems to take a little while before it recovers from its stupor. It scans the room, immediately launching into a monologue upon noticing you.
+			
+				"Oh gosh! Who are you? WHAT are you? You look so...strange and fleshy; are you a native to the lesser empires, perhaps? No matter, my proto-waystone has already debriefed me on the events of the past few days. You wish to visit the refuge, right? Well, far be it from me to stop another missguided soul into breaching that hellish place, but I suppouse the least I can do is tag along for the ride. Who knows, maybe I can convince someone there to actually leave their isolated little gardens."
+			
+				She turns to you before heading inside your ship. "Oh, I forgot to introduce myself. My name is Bellrennis, but you can call my Daisy. Now, let's get going!"</text>
+				<achievement silent="false">ACH_FR_EVENT_AUTO</achievement>
+				<metaVariable name="prof_went_commonwealth_rift" op="set" val="1"/>
+				<crewMember amount="1" all_skills="2" class="fr_unique_daisy">Daisy</crewMember>
+				<autoReward level="LOW">scrap_only</autoReward>
+				<quest event="FR_COMMONWEALTH_PORTAL"/>
+			</event>
+		</choice>
 </event>
 
 </FTL>

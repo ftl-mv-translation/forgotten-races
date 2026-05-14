@@ -2,16 +2,16 @@
 <FTL>
 
 <mod:findName type="event" name="DISTRESS_ORCHID_COLONY_FIRE">
-    <mod-append:choice req="fr_reformed_chills" blue="true" hidden="true">
-        <text>(Chills) Ask Chills to use her ice powers to stop the fire.</text>
-        <event load="FR_DISTRESS_ORCHID_COLONY_FIRE_CHILLS"/>
+    <mod-append:choice req="fr_reformed_frostwall" blue="true" hidden="true">
+        <text>(Frostwall) Ask Frostwall to use his ice powers to stop the fire.</text>
+        <event load="FR_DISTRESS_ORCHID_COLONY_FIRE_DEATHBLOOM"/>
     </mod-append:choice>
 </mod:findName>
 
-<event name="FR_DISTRESS_ORCHID_COLONY_FIRE_CHILLS">
-	<text>Despite her being a Vampweed, she's grateful to help and quickly springs into action. Chills conjures a blizzard over the entire colony, which quickly subdues the fire, sparing every last Orchid left inside in a matter of seconds. 
+<event name="FR_DISTRESS_ORCHID_COLONY_FIRE_DEATHBLOOM">
+	<text>Despite being a crystal, Frostwall is eager to help and quickly springs into action. He conjures a blizzard over the entire colony, which quickly subdues the fire in a matter of seconds, sparing every last Orchid left inside. 
         
-        The Orchids are beyond grateful. They shower you with gifts and vow to spread your good deeds to the Multiverse.</text>
+        The Orchids are beyond grateful. They shower you with gifts and vow to spread word of your good deeds to the Multiverse.</text>
 	<autoReward level="MED">stuff</autoReward>
     <choice hidden="true">
         <text>Continue...</text>

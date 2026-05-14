@@ -19,17 +19,17 @@
 	<choice hidden="true">
 		<text>Huh?</text>
 		<event>
-			<text>Since we can now retire much earlier than we expected, we uh, don't really have a use for this big-time contract we were sitting on for a few years. The bounty targets this time around... aren't exactly the usual fare. They call themselves the "Revenants", but... they're not the same as the ones you just fought.</text>
+			<text>Since we can now retire much earlier than we expected, we uh, don't really have a use for this big-time contract we were sitting on for a few years. The bounty targets this time around aren't exactly the usual fare. They call themselves the "Revenants", but they're not the same as the ones you just fought.</text>
 			<choice hidden="true">
-				<text>...what do you mean?</text>
+				<text>What do you mean?</text>
 				<event>
-					<text>All we read is that... the ghosts this time around are, uh... real. No clouds of angry gas here, they're actually the souls of the damned. We forgot to read the rest..." The leader looks away, chuckling awkwardly.</text>
+					<text>All we read is that the ghosts this time around are, uh... real. No clouds of angry gas here, they're actually the souls of the damned. We forgot to read the rest..." The leader looks away, chuckling awkwardly.</text>
 					<choice hidden="true">
-						<text>That... that can't be possible.</text>
+						<text>That can't be possible.</text>
 						<event>
-							<text>I know. But... I guess it is, if someone is offering us that kind of money. Messing with the dead just... feels iffy to begin with, not to mention that we couldn't possibly survive with this dinky little ship. Besides, we're too old now to go chasing such big problems, not to mention nobody who's ever taken the bounty has come back.
+							<text>I thought so too, but I guess it has to be, if someone is offering us that kind of money. But we can't take the job! Messing with the dead just feels iffy to begin with, not to mention that we're too old to go chasing such big problems with this dinky little ship. Nobody's ever taken the bounty and come back alive.
 
-							...but you, Renegade... you're young, spry, fresh! You might be able to give them a run for their money. So... what do you say, kid?"</text>
+							But you, Renegade... you're young, spry, fresh! You might be able to give them a run for their money. So, what do you say, kid?"</text>
 							<choice hidden="true" req="fr_bounty_completed_mid_run" lvl="0" max_lvl="0" max_group="1" blue="false">
 								<text>You can count us in!</text>
 								<event>
@@ -40,7 +40,7 @@
 							<choice hidden="true" req="fr_bounty_completed_mid_run" lvl="1" max_lvl="0" max_group="1" blue="false">
 								<text>We've already been there!</text>
 								<event>
-									<text>You offer proof of your journey. "And you're still alive!? I'm... w-wow! Wait... d-did we give you the bounty before? Gods, I'm too old for this..."</text>
+									<text>You offer proof of your journey. "And you're still alive!? I'm... wow! Wait, did we give you the bounty before? Gods, I'm too old for this..."</text>
 								</event>
 							</choice>
 						</event>
@@ -55,7 +55,7 @@
 	<mod-append:choice req="fr_gozer" blue="true" hidden="true">
 		<text>(Goziodeon) The ghost wants to speak up.</text>
 			<event>
-				<text>"Hey, you airheads! Did you forget who I am?! What are you even doing in that piece of crap anyways? Get out of that ship before I force you out myself!" Goziodeon slams their fist on the table. "Holy shit, Goziodeon! I-I'm sorry, boss!" The Haunts scramble to shut down their guns before sending all their scrap and valuables to you. A few seconds after that the ship is totally emptied out as all the Haunts use the emergency pods to eject.</text>
+				<text>"Hey, you airheads! Did you forget who I am?! What are you even doing in that piece of crap anyways? Get out of that ship before I force you out myself!" Goziodeon slams their fist on the table. "Holy shit, Goziodeon! We're sorry, boss!" The Haunts scramble to shut down their guns before handing over all of their scrap and valuables to you. The ship is totally emptied out as all the Haunts use the emergency pods to eject.</text>
 				<autoReward level="HIGH">elite</autoReward>
 				<weapon name="GIFTLIST_ANCIENT_BASIC"/>
 				<ship hostile="false"/>
@@ -73,7 +73,7 @@
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>The Ghost Hunter hails you. "That was, uh... something? Well... with that last bounty out of the way, we have no reason to keep our ship."</text>
+			<text>The Ghost Hunter hails you. "That was, uh... something? Well, with that last bounty out of the way, we have no reason to keep our ship."</text>
 			<unlockCustomShip silent="false">PLAYER_SHIP_GHOST</unlockCustomShip>
 			<damage amount="-5"/>
 			<item_modify>
@@ -85,7 +85,7 @@
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>"Oh, and one last thing. I doubt we will have any use for these anymore. I don't know how I feel about passing my beloved Proton Pack to a ghost, but... I'd rather take some time to just reflect on how my life got to this point."</text>
+					<text>"Oh, and one last thing. I doubt we will have any use for these anymore. I don't know how I feel about passing my beloved Proton Pack to a ghost. I think I need to take some time to just reflect on how my life got to this point."</text>
 					<augment name="PROTON_PACK"/>
 					<jumpEvent>FR_TARTARUS_COORDINATES</jumpEvent>
 				</event>
@@ -96,9 +96,9 @@
 
 <mod:findName type="event" name="NEBULA_VAGABOND_ACID">
 	<mod-append:choice req="human_humanoid" blue="true" hidden="true">
-		<text>(Stefan) "I know all about them... unfortunately."</text>
+		<text>(Stefan) "I know all about them, unfortunately."</text>
 		<event>
-			<text>Stefan explains that they are now contained to the most hazardous sectors, though he says that he has yet to see any of them since he joined our crew. This seems to satisfy Domodius. "Hark, now that is most curious. I reckoned I hath explored yet every inch there is to see of this universe. I suppose... I must have thought wrong. Please, allow me the honor to accompany thou most intrepid explorer, so that I may be present when such wonders are to be discovered!"</text>
+			<text>Stefan explains that they are now contained to the most hazardous sectors, though he says that he has yet to see any of them since he joined the crew. This seems to satisfy Domodius. "Hark, now that is most curious. I reckoned I had explored every inch there is to see of this universe. I suppose I must have erred. Please, allow me the honor to accompany thee, most intrepid explorer, so that I may be present when such wonders are to be discovered!"</text>
 			<crewMember amount="1" class="phantom_wraith">Domodius</crewMember>
 		</event>
 	</mod-append:choice>

@@ -92,7 +92,7 @@ mods.hackslow.customRaceNames.addonNames.forgottenraces = {
     fr_reborn_slimer = {"Slimer"},
     fr_reborn_phys = {"Phys"},
     fr_reformed_charror = {"Charror"},
-    fr_reformed_chills = {"Chills"},
+    fr_reformed_deathbloom = {"Deathbloom"},
     fr_reformed_searak = {"Searak"},
     fr_reformed_leo = {"Leo"},
     fr_watcher = {"Watcher"},
@@ -132,7 +132,7 @@ mods.hackslow.customRaceNames.addonNames.forgottenraces = {
     fr_ghost_jerry = {"Pok"},
     fr_ghost_haynes = {"Pok"},
     fr_ghost_tully = {"Pok"},
-    fr_reformed_smoke = {"Smoke"},
+    fr_reformed_frostwall = {"Frostwall"},
     fr_unique_sammy = {"Sammy"},
     human_humanoid = {"Stephan"},
     fr_bonus_augustus = {"Augustus"}, 
@@ -145,6 +145,7 @@ mods.hackslow.customRaceNames.addonNames.forgottenraces = {
     fr_unique_y = {"Y"}, 
     fr_unique_collector = {"Collector"}, 
     fr_unique_cylvan = {"Cylvan"}, 
+    fr_unique_daisy = {"Daisy"}, 
     human = {
         male = {
             "Gabriel Cooper",
@@ -164,7 +165,7 @@ local resists_mind_control = mods.multiverse.resists_mind_control
 local can_be_mind_controlled = mods.multiverse.can_be_mind_controlled
 
 script.on_internal_event(Defines.InternalEvents.ACTIVATE_POWER, function(power, ship)
-    if power.crew.blueprint.name ~= "fr_bonus_tririac" then
+    if power.crew.blueprint.name ~= "fr_bonus_tririac" or power.crew.blueprint.name ~= "fr_bonus_tririac_noclone" or power.crew.blueprint.name ~= "fr_bonus_tririac_enemy" then
         return
     end
     local roomId = power.crew.iRoomId

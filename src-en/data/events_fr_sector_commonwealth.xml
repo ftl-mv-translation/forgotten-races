@@ -76,19 +76,20 @@
 	<preventFleet/>
 	<quest>
 		<nebulaBeacon>true</nebulaBeacon>
+		<nextSector>false</nextSector>
 		<aggressive>2</aggressive>
 	</quest>
 	<beaconType id="map_icon_fr_commonwealth_portal" global="true">
 		<color r="0" g="0" b="255" a="1"/>
 	</beaconType>
-	<text>You reach the beacon where the strange anomalous energy spike was detected, and strangely here you don't find anything, at least not right away. You consider jumping away but suddenly a giant portal-like structure with a deep blue tint appears in an empty patch of space nearby. It seems to be barely large enough for your ship to pass through.
+	<text>You reach the beacon where the strange anomalous energy spike was detected, but strangely, you don't find anything. You consider jumping away but suddenly what looks like a portal with a deep blue tint appears in an empty patch of space nearby. It seems to be barely large enough for your ship to pass through.
 
-	Aenwithe looks at the portal in pure amazement, "This energy... I haven't felt anything like it since... Captain, we must investigate this! The Paragon can wait, this is much, much more important."</text>
+	Aenwithe looks at the portal in pure amazement. "This energy... I haven't felt anything like it since... Captain, we must investigate this! The Paragon can wait. This is much, much more important."</text>
 	<img planet="NONE"/>
 	<choice hidden="true">
 		<text>Enter.</text>
 		<event>
-			<text>Going through the portal would have been a big enough challenge by itself, but things became more complicated as the portal began collapsing on itself while you're halfway through. You divert as much power as possible to your engines and somehow manage to get through it, and all becomes dark as the portal collapses behind you. The only thing left to do is to press forward...</text>
+			<text>Going through the portal is a big enough challenge by itself, but things become more complicated as the portal begins collapsing on itself while you're halfway through. You divert as much power as possible to your engines and somehow manage to get through it as everything goes dark. The only thing left to do is to press forward...</text>
 			<metaVariable name="prof_went_commonwealth_rift" op="set" val="1"/>
 			<secretSectorWarp>SECRET_FR_COMMONWEALTH</secretSectorWarp>
 			<secretSector/>
@@ -129,6 +130,7 @@
 <event name="FR_COMMONWEALTH_REPAIR_CENTER">
 	<preventQuest/>
 	<preventFleet/>
+	<distressBeacon/>
 	<quest>
 		<nebulaBeacon>true</nebulaBeacon>
 		<nextSector>false</nextSector>
@@ -147,7 +149,7 @@
         <event>
             <text>You are suddenly hailed by the repair center. A Commonwealth Obelisk appears on your screen, speaking frantically, "Outsider! I would never have guessed that I would be happy to see you, but we have a major crisis on our hands and we desperately need your help."
 
-			"You see, we were upgrading our auto cruiser to be better equipped to fight against the Exterminators should they ever breach our defenses, but we accidentally made a typo in its aggression level and now it's out for blood. If you can wear down its hull enough for us to shut it down, that would be great, but if that's not an option then you may destroy the ship if necessary. Just help us and we will happily help you with whatever problem you have!"
+			"You see, we were upgrading our auto cruiser to be better equipped to fight against the Exterminators should they ever breach our defenses, but we accidentally made a typo in its aggression level and now it's out for blood. If you can wear down its hull enough for us to shut it down, that would be great, but if that's not an option then you may destroy the ship if necessary. Just help us and we will happily return the favor!"
 			</text>
 			<ship load="SHIP_FR_QUEST_COMMONWEALTH_AUTO_CRUISER" hostile="false"/> 
 			<choice hidden="true">
@@ -182,6 +184,7 @@
 <event name="FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER">
 	<preventQuest/>
 	<preventFleet/>
+	<distressBeacon/>
 	<quest>
 		<nebulaBeacon>true</nebulaBeacon>
 		<nextSector>false</nextSector>
@@ -197,13 +200,13 @@
         <event>
             <text>You are suddenly hailed by the repair center. A Commonwealth Obelisk appears on your screen, speaking frantically, "Outsider! I would never have guessed that I would be happy to see you, but we have a major crisis on our hands and we desperately need your help."
 
-			"You see, we were upgrading our auto cruiser to be better equipped to fight against the Exterminators should they ever breach our defenses, but we accidentally made a typo in its aggression level and now it's out for blood. If you can wear down its hull enough for us to shut it down, that would be great, but if that's not an option then you may destroy the ship if necessary. Just help us and we will happily help you with whatever problem you have!"
+			"You see, we were upgrading our auto cruiser to be better equipped to fight against the Exterminators should they ever breach our defenses, but we accidentally made a typo in its aggression level and now it's out for blood. If you can wear down its hull enough for us to shut it down, that would be great, but if that's not an option then you may destroy the ship if necessary. Just help us and we will happily return the favor!"
 			</text>
 			<ship load="SHIP_FR_QUEST_COMMONWEALTH_AUTO_CRUISER" hostile="false"/> 
 			<choice hidden="true">
-				<text>Agree with their terms and attack the vessel.</text>
+				<text>Agree to their terms and attack the vessel.</text>
 				<event>
-					<text>The auto blares over your speakers "WARNING, EXTERMINATOR LEVEL THREAT DETECTED! COUNTERMEASURES INITIATED!"</text>
+					<text>The auto blares over your speakers, "WARNING, EXTERMINATOR LEVEL THREAT DETECTED! COUNTERMEASURES INITIATED!"</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
 						<text>Continue...</text>
@@ -234,34 +237,34 @@
 	<triggeredEvent event="FR_COMMONWEALTH_AUTO_CRUISER_SUCCESS" time="60" thisFight="true" clearOnJump="true">
 		<triggeredEventBox load="DEFAULT_TIMER" pos="combat">
 			<warning time="10.0" flash="true"/>
-			<tooltip>The engineers need more time to shut down the Auto, hold on for just a little bit longer!</tooltip>
+			<tooltip>The engineers need more time to shut down the Auto. Hold on for just a little bit longer!</tooltip>
 		</triggeredEventBox>
 		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
 	</triggeredEvent> 
 </event> 
 
 <event name="FR_COMMONWEALTH_AUTO_CRUISER_SUCCESS">
-	<text>You've managed to hold out just long enough, and eventually the Auto-ship shuts down, its many lights going dark for now.</text>
+	<text>You've managed to hold out just long enough. Eventually, the Auto-ship shuts down, its many lights going dark for now.</text>
 	<ship hostile="false"/>
 	<surrender/>
 	<autoReward level="HIGH">scrap_only</autoReward>
 	<choice>
 		<text>Continue...</text>
 		<event>
-			<text>The Commonwealths hail you "Excellent job, outsider! Your combat prowess is nothing to scoff at. As promised, we will not only be at your service, but we will also offer you the blueprints of the cruiser you stopped; it's the least we could do."</text>
+			<text>The Commonwealths hail you. "Excellent job, Outsider! Your combat prowess is nothing to scoff at. As promised, we will not only be at your service, but we'll also offer you the blueprints of the cruiser you stopped; it's the least we can do."</text>
 			<achievement silent="false">ACH_FR_EVENT_GUARDIAN</achievement>
 			<unlockCustomShip silent="false">PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN</unlockCustomShip>
 			<choice req="FR_COMMONWEALTHS_BODY" blue="true" hidden="true">
 				<text>(Commonwealth's Body) Show them the broken body.</text>
 				<event>
-					<text>The Commonwealths examine the body from top to bottom, then they bring it inside the facility and ask you to wait in your ship until they are done. It takes a while but they eventually return with the Commonwealth fully repaired.
+					<text>The Commonwealths examine the body from top to bottom, their 'eyes' widening when they realize who the corpse is from. They talk among each other for a while and then they bring it inside the facility and ask you to wait in your ship until they are done. It takes a while but they eventually return with the Commonwealth fully repaired.
 
-					"Savior! I can't tell you how grateful I am for going through all of those adversities just for little old me. It will be an honor to server you aboard your ship!"
-				
-				    You thank the engineers and prepare to move on, now with your new crew member onboard.</text>
+					"Savior! I can't tell you how grateful I am for you to have gone through all of that trouble just for little old me. It will be an honor to serve you aboard your ship! My name is Bellrennis, but you can call my Daisy. I'm the Commonwealth's Lead Explorer! I have been deactived for oh so long... But now I get to see the outside world again, and hopefully this time not get blown to pieces by the Exterminators."
+		
+					Daisy turns to you and 'smiles', already on her way to the cockpit. "What are we waiting for? Let's get going!"</text>
 					<achievement silent="false">ACH_FR_EVENT_COMMONWEALTH</achievement>
 					<remove name="FR_COMMONWEALTHS_BODY"/>
-					<crewMember amount="1" all_skills="2" class="fr_commonwealth"/>
+					<crewMember amount="1" all_skills="2" class="fr_unique_daisy">Daisy</crewMember>
 					<choice>
 						<text>Continue...</text>
 						<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
@@ -291,21 +294,21 @@
 </event>
 
 <event name="FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED">
-	<text>The Auto-ship doesn't seem to be able to resist its damage anymore, its hull cracks in half before the ship explodes, only debris being left.</text>
+	<text>The Auto-ship doesn't seem to be able to resist its damage anymore. Its hull cracks in half before the ship explodes, only debris being left.</text>
 	<autoReward level="MED">scrap_only</autoReward>
 	<choice>
 		<text>Continue...</text>
 		<event>
-			<text>The Commonwealths are relieved but sad at the same time. They hail you, their voices clearly deflated "I understand that you had no other choice; still, I'm sad we couldn't save the ship. Still, you did help us, and for that you have our thanks. Now, do you need help with anything?"</text>
+			<text>The Commonwealths are relieved but sad at the same time. They hail you, their voices clearly deflated. "I understand that you had no other choice; still, I'm sad we couldn't save the ship. However, you did help us, and for that you have our thanks. Now, do you need help with anything?"</text>
 			<choice req="FR_COMMONWEALTHS_BODY" blue="true" hidden="true">
 				<text>(Commonwealth's Body) Show them the broken body.</text>
 				<event>
 					<text>The Commonwealths examine the body from top to bottom, then they bring it inside the facility and ask you to wait in your ship until they are done. It takes a while but they eventually return with the Commonwealth fully repaired.
 
-					"Savior! I can't tell you how grateful I am for going through all of those adversities just for little old me. It will be an honor to server you aboard your ship!"
-				
-				    You thank the engineers and prepare to move on, now with your new crew member onboard.</text>
-					<achievement silent="false">ACH_FR_EVENT_GUARDIAN</achievement>
+					"Savior! I can't tell you how grateful I am for you to have gone through all of that trouble just for little old me. It will be an honor to serve you aboard your ship! My name is Bellrennis, but you can call my Daisy. I'm the Commonwealth's Lead Explorer! I have been deactived for oh so long... But now I get to see the outside world again, and hopefully this time not get blown to pieces by the Exterminators."
+		
+					Daisy turns to you and 'smiles', already on her way to the cockpit. "What are we waiting for? Let's get going!"</text>
+					<achievement silent="false">ACH_FR_EVENT_COMMONWEALTH</achievement>
 					<remove name="FR_COMMONWEALTHS_BODY"/>
 					<crewMember amount="1" all_skills="2" class="fr_commonwealth"/>
 					<choice hidden="true">
@@ -371,7 +374,7 @@
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>You attempt to hail the massive ship, and to your surprise, whoever is in charge responds to your hails, "Outsider, if you value your life then we suggest you back off. You cannot leave the sector under any circumstances - no one can."</text>
+			<text>You attempt to hail the massive ship, and to your surprise, whoever is in charge responds to your hails. "Outsider, if you value your life then we suggest you back off. You cannot leave the sector under any circumstances - no one can."</text>
 			<choice>
 				<text>We aren't backing off; fight the Dreadnought!</text>
 				<event>
@@ -397,7 +400,7 @@
 </event>
 
 <event name="FR_COMMONWEALTH_RIFT_WIN">
-	<text>You watch the massive ship crack in half before exploding into pieces too small to even recognise what it used to be. You collect what you can from the debris.</text>
+	<text>You watch the massive ship crack in half before exploding into unrecognizably small pieces. You collect what you can from the debris.</text>
 	<achievement silent="false">ACH_FR_EVENT_DREADNAUGHT</achievement>
 	<variable name="loc_protomv_drive_block" op="set" val="0"/>
 	<unlockCustomShip silent="false">PLAYER_SHIP_FR_COMMONWEALTH</unlockCustomShip>
@@ -426,9 +429,9 @@
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>Eventually you fully exit through the other side of the rift. You gaze at the strange adventure you just had, a strange melancholy hitting you as you realize that you won't ever be able to go back there, and any friends you made won't ever see you again. 
+			<text>Eventually you fully exit through the other side of the rift. You gaze back and think over the strange adventure you just had, a melancholy hitting you as you realize that you won't ever be able to go back there, and any friends you made won't ever see you again. 
 			
-			Suddenly, the mood completely shift as your ship is forcefully stopped midway through the sector jump. Wherever you are right now will have to be your new landing site unless you want to risk being torn apart mid-jump.</text>
+			Suddenly, the mood completely shifts as your ship is forcefully stopped midway through the sector jump. Wherever you are right now will have to be your new landing site unless you want to risk being torn apart mid-jump.</text>
 			<secretSectorWarp>FR_FINALFIGHT_BEGINS</secretSectorWarp>
 			<secretSector/>
 		</event>
@@ -581,12 +584,12 @@
 	<beaconType id="map_icon_fr_commonwealth_store" global="false">
 		<color r="75" g="69" b="255" a="1"/>
 	</beaconType>
-	<text>A nearby Commonwealth merchant appears to be trading with another Commonwealth vessel. As soon as their client sees you, however, their weapons quickly turn on. "Outsider! You arriving here will only cause pain and suffering, I must be the one to strike you down before our haven turns into another slaughterhouse!"</text>
+	<text>A nearby Commonwealth merchant appears to be trading with another Commonwealth vessel. As soon as their client sees you, however, their weapons quickly turn on. "Outsider! Your arrival will only cause pain and suffering. I must be the one to strike you down before our haven turns into another slaughterhouse!"</text>
 	<ship load="FR_SHIP_COMMONWEALTH_GENERIC_STORE" hostile="false"/>
 	<choice hidden="true" req="fr_rep_commonwealth" lvl="-999" max_lvl="-1" max_group="0" blue="false">
         <text>Hold on! We mean no harm!</text>
         <event>
-            <text>A tense silence follows as the other Obelisk seems to study you and your intent. After a long silence their weapons power down. "I see you have convinced yourself that you mean no harm. I believe you, though I wonder for how long you will hold on to this notion. Peace be with you."</text>
+            <text>A tense silence follows as the other Obelisk seems to study you and your intent. After a long silence, their weapons power down. "I see you have convinced yourself that you mean no harm. I believe you, though I wonder for how long you will hold on to this notion. Peace be with you."</text>
 			<choice>
 				<text>Continue...</text>
 				<event>
@@ -599,7 +602,7 @@
 	<choice hidden="true" req="fr_rep_commonwealth" lvl="0" max_lvl="2" max_group="0" blue="false">
         <text>Hold on! We mean no harm!</text>
         <event>
-            <text>"Words are cheap, outsider. If you truly do not wish to fight, then prove it to me."</text>
+            <text>"Words are cheap, Outsider. If you truly do not wish to fight, then prove it to me."</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -634,7 +637,7 @@
 </event>
 
 <event name="FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_SURRENDER">
-	<text>The Commonwealth ship won't hold out much longer, this might be your chance to convince them of your peaceful intentions.</text>
+	<text>The Commonwealth ship won't hold out much longer. This might be your chance to convince them of your peaceful intentions.</text>
 	<choice hidden="true" req="fr_loc_commonwealth_no_mercy" lvl="0" max_lvl="0" max_group="0">
 		<text>Power down your weapons</text>
 		<event>
@@ -650,7 +653,7 @@
 	<choice hidden="true" req="fr_loc_commonwealth_no_mercy" lvl="1" max_group="0">
 		<text>Power down your weapons</text>
 		<event>
-			<text>The Commonwealth ignores your gesture, it seems they won't be convinced now.</text>
+			<text>The Commonwealth ignores your gesture. It seems they won't be convinced now.</text>
 			<variable name="fr_loc_commonwealth_no_mercy" op="set" val="0"/>
 			<event/>
 		</event>
@@ -666,16 +669,16 @@
 	<text>The enemy Commonwealth ship has been vanquished. Not only did you prove his point, but you also made your situation with the Commonwealth even worse. Remorsefully, you scrap their ship.</text>
 	<autoReward level="MED">stuff</autoReward>
 	<choice hidden="true">
-        <text>Hail the store, maybe you can buy something from there.</text>
+        <text>Hail the store. Maybe you can buy something from there.</text>
         <event>
-            <text>The merchant responds with clear anger in their voice, "You dare to think I would ever trade with the likes of you after what I just witnessed?! No." It seems the merchant activated their ASB platform, they refuse all hails.</text>
+            <text>The merchant responds with clear anger in their voice, "You dare to think I would ever trade with the likes of you after what I just witnessed?" The merchant activates their ASB platform and refuses all hails.</text>
 			<environment type="PDS" target="player"/>
         </event>
     </choice>
 </event>
 
 <event name="FR_STORE_HOSTILE_COMMONWEALTH_ACCUSATION_SPARE">
-	<text>The merchant is relieved to see that the situation didn't end in tragedy - he will make sure others know of your attempt to better yourself here.</text>
+	<text>The merchant is relieved to see that the situation didn't end in tragedy. He tells you that he will make sure others know of your attempt to better yourself here.</text>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH_STORE"/>
@@ -773,7 +776,7 @@
 
 <event name="FR_ITEM_COMMONWEALTH_GUN" unique="true">
     <img back="BACKGROUND" planet="FR_PLANET_COMMONWEALTH"/>
-    <text>As you are surveying the beacon you notice that a Commonwealth planet is hailing you, asking you to dock in the nearby hangar for a "gift".</text>
+    <text>While surveying the beacon, you notice that a Commonwealth planet is hailing you, asking you to dock in the nearby hangar for a "gift".</text>
 	<choice hidden="true">
 		<text>Dock.</text>
 		<event>
@@ -785,9 +788,9 @@
 					<choice hidden="true" req="fr_rep_commonwealth" lvl="-999" max_lvl="-1" max_group="0" blue="false">
 						<text>Sure thing.</text>
 						<event>
-							<text>One of the Cognitives leaves the room before returning with what seems to be a regular Commonwealth eradicator beam. However, as soon as you touch it you can sense its inner properties drastically shift, becoming more power efficient and gaining more damage!
+							<text>One of the Cognitives leaves the room before returning with what seems to be a regular Commonwealth eradicator beam. However, as soon as you touch it you can sense its inner properties drastically shift, becoming more power-efficient and gaining more damage!
 
-							The Commonwealth seems very impressed, typing a flurry of things on their datapad, "Marvelous! Such power! Such efficiency! You have our sincerest thanks, Outsider. You are free to go now."
+							The Commonwealth seems very impressed, typing a flurry of things on their datapad. "Marvelous! Such power! Such efficiency! You have our sincerest thanks, Outsider. You are free to go now."
 							</text>
 							<weapon name="FR_COMMONWEALTH_BEAM_FRIEND"/>
 							<choice hidden="true">
@@ -811,7 +814,7 @@
 						<event>
 							<text>One of the Cognitives leaves the room before returning with what seems to be a regular Commonwealth eradicator beam. However, as soon as you touch it you can sense its inner properties drastically shift, gaining a huge amount of piercing capability!
 
-							The Commonwealth seems impressed, typing a flurry of things on their datapad "Now that's fascinating, it gained the ability to phase through most shielding barriers! You have our sincerest thanks, Outsider. You are free to go now."
+							The Commonwealth seems impressed, typing a flurry of things on their datapad. "Now that's fascinating; it gained the ability to phase through most shielding barriers! You have our sincerest thanks, Outsider. You are free to go now."
 							</text>
 							<weapon name="FR_COMMONWEALTH_BEAM_NEUTRAL"/>
 							<choice hidden="true">
@@ -835,7 +838,7 @@
 						<event>
 							<text>One of the Cognitives leaves the room before returning with what seems to be a regular Commonwealth eradicator beam. However, as soon as you touch it you can sense its inner properties drastically shift, gaining improved breaching capabilities and significant cooldown improvements!
 
-							The Commonwealth seems concerned and uneasy, typing carefully on their datapad without taking an eye off you "That's... not supposed to happen. We didn't install any features that would reduce its cooldown... Please leave. Immediately."
+							The Commonwealth seems concerned and uneasy, typing carefully on their datapad without taking an eye off you. "That's... not supposed to happen. We didn't install any features that would reduce its cooldown... Please leave. Immediately."
 							</text>
 							<weapon name="FR_COMMONWEALTH_BEAM_ENEMY"/>
 							<choice hidden="true">
@@ -1106,7 +1109,7 @@
 	<choice hidden="true" req="fr_rep_commonwealth" lvl="-999" max_lvl="-1" max_group="0" blue="false">
         <text>Accept.</text>
         <event>
-            <text>The Commonwealth gives you the schematics and, to your surprise, it's a Royal drone!</text>
+            <text>The Commonwealth gives you the schematics. To your surprise, it's a Royal drone!</text>
 			<drone name="FR_GIFTLIST_ROYAL_DRONES"/>
         </event>
     </choice>
@@ -1120,7 +1123,7 @@
     <choice hidden="true" req="fr_rep_commonwealth" lvl="3" max_lvl="999" max_group="0" blue="false">
         <text>Accept.</text>
         <event>
-            <text>The Commonwealth goes silent for a little while. You patiently wait for your drone when, suddenly, you are startled by your boarder detection alarms! It seems your "drone" has arrived.</text>
+            <text>The Commonwealth goes silent for a little while. You patiently wait for your drone when you are suddenly startled by your boarder detection alarms! It seems your "drone" has arrived.</text>
 			<boarders min="3" max="3" class="fr_atomc"/>
         </event>
     </choice>
@@ -1145,21 +1148,21 @@
 	<choice hidden="true" req="fr_rep_commonwealth" lvl="-999" max_lvl="-2" max_group="0" blue="false">
         <text>Accept.</text>
         <event>
-            <text>The Commonwealths work on your ship for hours, but eventually they finish their work. When you ask what they did, they simply smile and point to your internal augment list, where it shows a brand new augment has been installed - a Pre-Igniter!</text>
+            <text>The Commonwealths work on your ship for hours, but eventually they finish. When you ask what they did, they simply smile and point to your internal augment list, where it shows a brand new augment has been installed - a Pre-Igniter!</text>
 			<hiddenAug>WEAPON_PREIGNITE</hiddenAug>
         </event>
     </choice>
 	<choice hidden="true" req="fr_rep_commonwealth" lvl="-1" max_lvl="2" max_group="0" blue="false">
         <text>Accept.</text>
         <event>
-            <text>The Commonwealths work on your ship for hours, but eventually they finish their work. When you ask what they did, they simply smile and point to your internal augment list, where it shows a brand new augment has been installed - an Ancient Recycler!</text>
+            <text>The Commonwealths work on your ship for hours, but eventually they finish. When you ask what they did, they simply smile and point to your internal augment list, where it shows a brand new augment has been installed - an Ancient Recycler!</text>
 			<hiddenAug>ANCIENT_REPLICATOR</hiddenAug>
         </event>
     </choice>
     <choice hidden="true" req="fr_rep_commonwealth" lvl="3" max_lvl="999" max_group="0" blue="false">
         <text>Accept.</text>
         <event>
-            <text>The Commonwealths work on your ship for hours, but eventually they finish their work. When you ask what they did, they simply smile and point to your internal augment list, where it shows a brand new augment has been installed - a... panic button?!</text>
+            <text>The Commonwealths work on your ship for hours, but eventually they finish. When you ask what they did, they simply smile and point to your internal augment list, where it shows a brand new augment has been installed - a... panic button?!</text>
 			<hiddenAug>COMBAT_PANIC_BUTTON</hiddenAug>
         </event>
     </choice>
@@ -1180,7 +1183,7 @@
 </event>
 
 <event name="FR_ITEM_COMMONWEALTH_GENERIC">
-	<text>A Commonwealth Auto hails you, "HO HO HO OUTSIDER. DO YOU WISH FOR: A HOLIDAY GIFT?"</text>
+	<text>A Commonwealth Auto hails you. "HO HO HO OUTSIDER. DO YOU WISH FOR: A HOLIDAY GIFT?"</text>
 	<choice hidden="true" req="fr_rep_commonwealth" lvl="-999" max_lvl="-1" max_group="0" blue="false">
         <text>We do!</text>
         <event>
@@ -1202,7 +1205,7 @@
 			<damage amount="2" system="random" effect="breach"/>
 			<removeCrew>
 				<clone>true</clone>
-				<text>The blown up crew member stumbles out of the clone bay, "I will never see renegade day the same way again..."</text>
+				<text>The blown-up crew member stumbles out of the clone bay. "I will never see Renegade Day the same way again..."</text>
 			</removeCrew>
         </event>
     </choice>
@@ -1240,15 +1243,15 @@
 
 <event name="FR_NEUTRAL_COMMONWEALTH_ROYAL" unique="true">
     <img back="BACKGROUND" planet="PLANET_ANCIENT_MACHINE"/>
-    <text>As you jump into the beacon, your feed is filled with warning messages coming from the nearby prison planet, "WARNING! WARNING! PLANET ON LOCKDOWN! A PRISONER IS ATTEMPTING TO ESCAPE!" The message loops endlessly.</text>
+    <text>As you jump into the beacon, your feed is filled with warning messages coming from the nearby prison planet. "WARNING! WARNING! PLANET ON LOCKDOWN! A PRISONER IS ATTEMPTING TO ESCAPE!" The message loops endlessly.</text>
 	<choice hidden="true">
 		<text>Dock.</text>
 		<event>
-			<text>Just as you are about to enter the atmosphere of the planet, you are stopped by a strange Commonwealth ship with pink lights. An Obelisk cloaked in a drape hails you, with their pink lights betraying their "perfect" disguise, "Mortal- I mean, 'Outsider', please help me as I'm being chased by this useless being- I mean, misguided souls who think I'm a Royal! An understandable mistake since I'm more perfect than them, but alas, I'm simply a lowly and worthless little commontrasher- I mean Commonwealther. Please kill these guards chasing me!"</text>
+			<text>Just as you are about to enter the atmosphere of the planet, you are stopped by a strange Commonwealth ship with pink lights. An Obelisk cloaked in a drape hails you, but their pink lights betray their "perfect" disguise. "Mortal- I mean, 'Outsider', please help me! I'm being chased by these useless beings- I mean, misguided souls who think I'm a Royal! An understandable mistake since I'm more perfect than them, but alas, I'm simply a lowly and worthless little commontrasher- I mean Commonwealther. Please kill these guards chasing me!"</text>
 			<choice hidden="true">
 				<text>This guy is obviously an Exterminator, don't let them escape!</text>
 				<event>
-					<text>The "Commonwealth" snarls and drops their disguise, "You little mortal rat! I will make you kneel and then end this cursed infection once and for all! For Your Majesty Queen Y!" Their weapons come online as the ship charges towards you.</text>
+					<text>The "Commonwealth" snarls and drops their disguise. "You little mortal rat! I will make you kneel and then end this cursed infection once and for all! For Her Majesty, Queen Y!" Their weapons come online as the ship charges towards you.</text>
 					<ship load="SHIP_FR_COMMONWEALTH_ESCAPEE_ROYAL" hostile="true"/>
 					<choice hidden="true">
 						<text>Continue...</text>
@@ -1287,25 +1290,25 @@
 
 
 <event name="FR_NEUTRAL_COMMONWEALTH_ROYAL_GUARD_KILL">
-	<text>You are hailed by the escapee, "Well would you look at that. I guess mortals aren't as useless as I thought. Since I'm being unfairly chased and persecuted at the moment, I will take refuge in your ship for the time being. Please don't embarrass me while I'm aboard."</text>
+	<text>You are hailed by the escapee. "Well, would you look at that. I guess mortals aren't as useless as I thought. Since I'm being unfairly chased and persecuted at the moment, I will take refuge in your ship for the time being. Please don't embarrass me while I'm aboard."</text>
 	<crewMember amount="1" all_skills="2" class="obelisk_royal"/>
 	<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH"/>
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_ROYAL_ESCAPEE_KILL">
-	<text>You are hailed by the guard, "Thank the stars you stopped them, Outsider! We are forever in your debt from this day onwards! If that Exterminator managed to leave the sector... Well, let's just be happy they failed. All thanks to you, meaning you deserve a reward worthy of the danger you stopped. We avoid giving these out since we know the damage that these horrific weapons can inflict, but I believe you have earned the right to use them. Peace be with you, Outsider."</text>
+	<text>You are hailed by the guard. "Thank the stars you stopped them, Outsider! We are forever in your debt from this day onwards! If that Exterminator managed to leave the sector... Well, let's just be happy they failed. All thanks to you, meaning you deserve a reward worthy of the danger you stopped. We avoid giving these out since we know the damage that these horrific weapons can inflict, but I believe you have earned the right to use them. Peace be with you, Outsider."</text>
 	<weapon name="FR_GIFTLIST_ROYAL_WEAPONS"/>
 	<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
 </event>
 
 
 <event name="FR_NEUTRAL_COMMONWEALTH_GENERIC">
-	<text>You find an Commonwealth ship studying the nearby star constellation. You hail them "Outsider, please don't distract us, we are in the middle of a very important task at the moment. Peace be with you."</text>
+	<text>You hail a Commonwealth ship studying the nearby star constellation. "Outsider, please don't distract us! We are in the middle of a very important task at the moment. Peace be with you."</text>
 	<ship load="FR_SHIP_COMMONWEALTH_GENERIC" hostile="false"/>
 	<choice hidden="true">
 		<text>Attack the surveyors.</text>
 		<event>
-			<text>The surveyors are taken by surprise, with one of your shots nearly hitting them before they could even react. They turn their weapons on and advance towards you.</text>
+			<text>The surveyors are taken by surprise, one of your shots nearly hitting them before they can even react. They turn their weapons on and advance towards you.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -1331,7 +1334,7 @@
 	<choice req="ADV_SCANNERS" hidden="true" blue="true">
 		<text>(Long-Ranged Scanners) Offer them your detailed map data.</text>
 		<event>
-			<text>The commonwealth's interest is very much peaked "Outsider, that data is incredible! We haven't seen the outside realms in so long...Please, accept our gratitude and compensation."</text>
+			<text>The Commonwealth's interest is very much piqued. "Outsider, that data is incredible! We haven't seen the outside realms in so long... Please, accept our gratitude and compensation."</text>
 			<autoReward level="MED">standard</autoReward>
 			<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
 		</event>
@@ -1356,7 +1359,7 @@
 		</event>
 	</choice>
 	<choice hidden="false">
-		<text>Ignore the Auto.</text>
+		<text>ignore the auto and scrap the nearby field.</text>
 		<event>
 			<text>You decide to ignore the Auto. Instead, you scrap some of the broken off bits that are floating around from the Auto. It isn't much, but every little bit helps.</text>
 			<autoReward level="LOW">scrap_only</autoReward>
@@ -1394,7 +1397,7 @@
 	<choice hidden="true" req="LIST_CREW_ENGI">
 		<text>(Engi Crew) Fix the auto ship.</text>
 		<event>
-			<text>Your Engi is no stranger to working on Auto-ships and drones, though they never had to repair anything like this ship. Still, surprisingly they manage to repair the Auto-ship, once fixed it distributes supplies and patches up your hull. "OUTSIDER. APPRECIATION: ETERNAL. PLEASE HAVE: REPAIR + REWARD + FAME"</text>
+			<text>Your Engi is no stranger to working on Auto-ships and drones, though they've never had to repair anything quite like this ship. Surprisingly, they manage to repair the Auto-ship. Once fixed, it distributes supplies and patches up your hull. "OUTSIDER. APPRECIATION: ETERNAL. PLEASE HAVE: REPAIR + REWARD + FAME"</text>
 			<autoReward level="RANDOM">stuff</autoReward>
 			<damage amount="-5"/>
 			<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
@@ -1403,7 +1406,7 @@
 	<choice hidden="true" req="fr_commonwealth">
 		<text>(Commonwealth Crew) Fix the auto ship.</text>
 		<event>
-			<text>Your commonwealth is no stranger to working on Auto-ships and drones, in fact repairing broken guardian ships is more of a routine for them. Unsurprisingly they manage to repair the Auto-ship, once fixed it distributes supplies and patches up your hull. "OUTSIDER. APPRECIATION: ETERNAL. PLEASE HAVE: REPAIR + REWARD + FAME"</text>
+			<text>Your Commonwealth is no stranger to working on Auto-ships and drones; in fact, repairing broken guardian ships is just part of the routine for them. Unsurprisingly, they manage to repair the Auto-ship. Once fixed it distributes supplies and patches up your hull. "OUTSIDER. APPRECIATION: ETERNAL. PLEASE HAVE: REPAIR + REWARD + FAME"</text>
 			<autoReward level="HIGH">stuff</autoReward>
 			<damage amount="-5"/>
 			<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
@@ -1477,7 +1480,7 @@
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_SUCCESS">
-	<text>Your idea works perfectly, and within minutes the Commonwealth's shields are back in fully working order. They hail you "Thank you so much for your help, Outsider. I always believed in the kindness of strangers, and it warms my mechanical heart to know I was right. Please, take this weapon, it's the least I could do."</text>
+	<text>Your idea works perfectly, and within minutes the Commonwealth's shields are back in fully working order. They hail you. "Thank you so much for your help, Outsider. I always believed in the kindness of strangers, and it warms my mechanical heart to know I was right. Please, take this weapon: it's the least I could do."</text>
 	<weapon name="FR_GIFTLIST_COMMONWEALTH_WEAPONS"/>
 	<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
 </event>
@@ -1518,7 +1521,7 @@
 </eventList>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST" unique="true">
-	<text>You find a Commonwealth ship waiting for you near a pulsar. As soon as you spot them, they hail you, "Outsider! We have been waiting for your arrival. We forsee that you will soon fight the dreadful dreadnought guarding the one and only exit to this place. The dreadnought is no ordinary foe, for its artillery is highly ionized. If you aren't well prepared, then it will disable your shields and weapons, leaving you defenseless and unarmed."</text>
+	<text>You find a Commonwealth ship waiting for you near a pulsar. As soon as you spot them, they hail you. "Outsider! We have been waiting for your arrival. We forsee that you will soon fight the dreadful dreadnought guarding the one and only exit to this place. The dreadnought is no ordinary foe, for its artillery is highly ionized. If you aren't well prepared, then it will disable your shields and weapons, leaving you defenseless and unarmed."</text>
 	<ship load="FR_SHIP_COMMONWEALTH_PULSAR_TEST" hostile="false"/> 
 	<environment type="pulsar"/>
 	<choice hidden="true">
@@ -1557,7 +1560,7 @@
 </event>
 
 <event name="FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER">
-	<text>The tester hails you, "That was a excellent display of skill and experience, Outsider! Consider the test over now. Power down your weapons so we can remove the augment and give you your prize!"</text>
+	<text>The tester hails you. "That was a excellent display of skill and experience, Outsider! Consider the test over now. Power down your weapons so we can remove the augment and give you your prize!"</text>
 	<choice hidden="true">
 		<text>Power down your weapons.</text>
 		<event>
@@ -1580,7 +1583,7 @@
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_KILL">
-	<text>With a heavy heart you remove the test augment. If only things had gone differently...</text>
+	<text>With a heavy heart, you remove the test augment. If only things had gone differently...</text>
 	<clearJumpEvent/>
 	<remove name="HIDDEN ION_ARMOR_NEUTRALIZER"/>
 	<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH"/>
@@ -1652,19 +1655,19 @@
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO_PARTIAL">
-	<text>Your plan...kind of works? The ship isn't hit by the full ionic blast, but the little amount it absorbed was still enough to overload its reactor and cause it to explode. A shame, but at least you can salvage its remains.</text>
-	<enemyDamage amount="-99"/>
+	<text>Your plan... kind of works? The ship isn't hit by the full ionic blast, but the little amount it absorbed was still enough to overload its reactor and cause it to explode. A shame, but at least you can salvage its remains.</text>
+	<enemyDamage amount="99"/>
 	<autoReward level="MED">stuff</autoReward>
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO_FULL">
-	<text>Your ion defenses are more than enough to fully absorb the next ion blast, allowing the Auto to get the chance to fully purge all the ionic energy from its system. Once it's back in working order, it hails you "OUTSIDER. APPRECIATION: ETERNAL. PLEASE HAVE: REWARD + FAME"</text>
+	<text>Your ion defenses are more than enough to fully absorb the next ion blast, allowing the Auto to get the chance to fully purge all the ionic energy from its system. Once it's back in working order, it hails you. "OUTSIDER. APPRECIATION: ETERNAL. PLEASE HAVE: REWARD + FAME"</text>
 	<autoReward level="HIGH">stuff</autoReward>
 	<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION" unique="true">
-	<text>It's strange to find an station so close to a star, but perhaps aether-based stations are more resistant to solar flares? Either way, they hail you, "Outsider, we don't advise you to stay this close to this star, or any stars for that matter. Your hull can't take the punishment necessary to survive these dangerous solar flares. I suggest you leave before your hull becomes too damaged."</text>
+	<text>It's strange to find an station so close to a star, but perhaps aether-based stations are more resistant to solar flares? Either way, they hail you. "Outsider, we don't advise you to stay this close to this star, or any stars for that matter. Your hull can't take the punishment necessary to survive these dangerous solar flares. I suggest you leave before your hull becomes too damaged."</text>
 	<environment type="sun"/>
 	<choice>
 		<text>Is there anything we can do to help?</text>
@@ -1739,7 +1742,7 @@
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION_ESCAPE">
-	<text>Once the Auto jumps away, you are hailed by the station, "Fantastic work, Outsider! We tracked the probe and are on our way to fix it for good. Here's your reward: A lightweight version of the Maintenance Infrastructure network that our Auto-ships use. Peace be with you, Outsider."</text>
+	<text>Once the Auto jumps away, you are hailed by the station. "Fantastic work, Outsider! We tracked the probe and are on our way to fix it for good. Here's your reward: A lightweight version of the Maintenance Infrastructure network that our Auto-ships use. Peace be with you, Outsider."</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<augment name="FR_LIGHTWEIGHT_COMMONWEALTH_MAINTENANCE_INFRASTRUCTURE"/>
 	<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
@@ -2150,7 +2153,7 @@
 	<choice hidden="true" req="fr_rep_commonwealth" lvl="0" max_lvl="2" max_group="0" blue="false">
         <text>Hail the refinery.</text>
         <event>
-            <text>The workers on the station are surprised to see you. "We didn't expect that an outsider would be interested in our gasses. We are willing to sell them with a heavy discount if you spread the word of our refinery."</text>
+            <text>The workers on the station are surprised to see you. "We didn't expect that an Outsider would be interested in our gasses. We are willing to sell them with a heavy discount if you spread the word of our refinery."</text>
 			<choice hidden="false"> 
 				<text>Deal!</text>
 				<item_modify>
@@ -2215,7 +2218,7 @@
 <event name="FR_NEUTRAL_COMMONWEALTH_NEBULA_PIRATE" unique="true">
 	<text>While exploring the nebula, you are hailed by a strange looking Obelisk ship, similar in appearance to the broken Auto-ship that led you here in the first place. As you analyse their ship, you eventually recognise them as one of the most wanted ships from a list you saw when the guard of the sector contacted you. The guards want them dead or alive.
 
-	Suddenly, they hail you and lock your FTL charge, "Outsider, let's make this quick. We'll buy your silence, or else there will be trouble."</text>
+	Suddenly, they hail you and lock your FTL charge. "Outsider, let's make this quick. We'll buy your silence, or else there will be trouble."</text>
 	<ship load="FR_SHIP_COMMONWEALTH_PIRATE" hostile="false"/>
 	<environment type="nebula"/>
 	<choice>
@@ -2228,7 +2231,7 @@
 	<choice hidden="true">
 		<text>Attack the pirates!</text>
 		<event>
-			<text>The pirate shakes their head, "Wrong choice, Outsider."</text>
+			<text>The pirate shakes their head. "Wrong choice, Outsider."</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -2297,7 +2300,7 @@
 
 <textList name="FR_TEXT_HOSTILE_COMMONWEALTH_AUTO">
 	<text>You are suddenly attacked by a Commonwealth Auto, its attack barely missing your shields. You attempt to hail them to ask what's going on, but you only hear static back.</text>
-	<text>An Auto-ship blocks your way. When you attempt to hail them, they only respond with, "OUTSIDER DETECTED. THREAT IMMINENT!" before attacking.</text>
+	<text>An Auto-ship blocks your way. When you attempt to hail them, they only respond, "OUTSIDER DETECTED. THREAT IMMINENT!" before attacking.</text>
 	<text>"OUTSIDER. YOUR EXISTENCE IS: ILLEGAL. PLEASE: DIE"</text>
 	<text>Strangely, the Autos made by the Commonwealth are somehow more prone to errors and faults than the noble ones. Maybe it's due to all of the ion equipment they carry around.</text>
 	<text>Even though the Commonwealth seems to value the Cognitives like their own friends, they don't share the same love for Auto-ships. Maybe that's why they act out so often.</text>
@@ -2318,7 +2321,7 @@
 <textList name="FR_TEXT_HOSTILE_COMMONWEALTH_GENERIC">
 	<text>"Outsider! Your persistence to survive is admirable, yet futile. I will make sure your name isn't forgotten."</text>
 	<text>The Commonwealth ship at this beacon refuses all hails and attacks. Seems like words can't help you in every situation.</text>
-	<text>Commonwealths might be more agreeable than other Obelisks, but they aren't a monolith, and not all of them share the same faith in outsiders. Case in point.</text>
+	<text>Commonwealths might be more agreeable than other Obelisks, but they aren't a monolith, and not all of them share the same faith in Outsiders. Case in point.</text>
 	<text>You attempt to hail the other ship, but as soon as you do, you are verbally assaulted by the most vile insults imaginable before they open fire.</text>
 	<text>At this point you are seriously sick of having your systems constantly ionized. It seems, however, that you won't have your break just yet.</text>
 	<text>You wonder what life must be like for the Commonwealth. Maybe attacking them isn't the right way to go... unless they attack first, that is. like now!</text>

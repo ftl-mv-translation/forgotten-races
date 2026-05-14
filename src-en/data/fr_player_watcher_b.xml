@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
-<img x="-84" y="-62" w="697" h="406" />
+<img x="-68" y="-27" w="641" h="440" />
 <offsets>
-	<floor x="78" y="57" />
-	<cloak x="0" y="0" />
+	<floor x="61" y="20" />
+	<cloak x="-21" y="-22" />
 </offsets>
 <weaponMounts>
-	<mount x="613" y="166" rotate="true" mirror="true" gib="-1" slide="up" />
-	<mount x="613" y="240" rotate="true" mirror="false" gib="-1" slide="down" />
-	<mount x="358" y="374" rotate="true" mirror="false" gib="-1" slide="down" />
-	<mount x="358" y="32" rotate="true" mirror="true" gib="-1" slide="up" />
-	<mount x="484" y="97" rotate="true" mirror="true" gib="-1" slide="no" />
-	<mount x="484" y="309" rotate="true" mirror="false" gib="-1" slide="no" />
+	<mount x="509" y="77" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="509" y="364" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="441" y="35" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="441" y="405" rotate="true" mirror="false" gib="-1" slide="down" />
 </weaponMounts>
 <thrusters sync="true">
-    <thruster x="93" y="35" irotate="true">fr_watcher_cruiser_b_thruster</thruster>
-    <thruster x="93" y="264" irotate="true" mirror="true">fr_watcher_cruiser_b_thruster</thruster>
+    <thruster x="-44" y="22" irotate="true">fr_watcher_b_side_thruster</thruster>
+	<thruster x="-38" y="145" irotate="true">fr_watcher_b_main_thruster</thruster>
+    <thruster x="-44" y="355" irotate="true">fr_watcher_b_side_thruster</thruster>
 </thrusters>
+<mv-hullAnims sync="true">
+	<hullAnim x="64" y="-128" rotate="1">fr_watcher_b_band_2_animation</hullAnim>
+	<hullAnim x="69" y="-275" rotate="1">fr_watcher_b_lines_1_animation</hullAnim>
+	<hullAnim x="149" y="-533" rotate="1">fr_watcher_b_lines_2_animation</hullAnim>
+	<hullAnim x="194" y="-508" rotate="1">fr_watcher_b_band_1_animation</hullAnim>
+	<hullAnim x="208" y="-470" rotate="1">fr_watcher_b_scribbles_animation</hullAnim>
+	<hullAnim x="208" y="197">fr_watcher_b_eye_animation</hullAnim>
+	<hullAnim x="271" y="-508" rotate="1" xflip="true">fr_watcher_b_band_1_animation</hullAnim>
+	<hullAnim x="277" y="-533" rotate="1" xflip="true">fr_watcher_b_lines_2_animation</hullAnim>
+	<hullAnim x="346" y="-275" rotate="1" xflip="true">fr_watcher_b_lines_1_animation</hullAnim>
+	<hullAnim x="377" y="-128" rotate="1" xflip="true">fr_watcher_b_band_2_animation</hullAnim>
+</mv-hullAnims>
 <explosion />
 

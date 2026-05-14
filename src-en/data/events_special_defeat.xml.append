@@ -5,6 +5,10 @@
 		<text>(Vance Prime) Welcome them aboard.</text>
 		<event load="FR_DESTROYED_REBEL_POD_VANCE"/>
 	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_unique_vance_one">
+		<text>(Vance One) Welcome them aboard.</text>
+		<event load="FR_DESTROYED_REBEL_POD_VANCE"/>
+	</mod-append:choice>
 </mod:findName>
 
 <event name="FR_DESTROYED_REBEL_POD_VANCE">
@@ -54,7 +58,7 @@
 	</choice>
 </event>
 <textList name="FR_TEXT_SURRENDER_COMMONWEALTH">
-	<text>"Outsider! Please stop your advance, if it's scrap you want, then we have plenty to give, just please let us live!"</text>
+	<text>"Outsider! Please, stop your advance... If it's scrap you want, then we have plenty to give. Just please let us live!"</text>
 	<text>The Commonwealth desperately hails you - they are willing to empty their valuables as long as you let them live.</text>
 </textList>
 

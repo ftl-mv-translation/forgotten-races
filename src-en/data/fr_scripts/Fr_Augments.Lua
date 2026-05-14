@@ -19,13 +19,21 @@ end)
 
 script.on_internal_event(Defines.InternalEvents.GET_AUGMENTATION_VALUE,
 function(ShipManager, AugName, AugValue)
-  
-  if (AugName == "SLUG_GEL" or AugName == "FIRE_EXTINGUISHERS" )and ShipManager:HasAugmentation("FR_GHOSTLY_REPAIR_BOTS") > 0 then
+  if AugName == "FIRE_EXTINGUISHERS" and ShipManager:HasAugmentation("FR_GHOSTLY_REPAIR_BOTS") > 0 then
     local powerBars = ShipManager:GetSystemPower(4)
     local RepairSpeed = (powerBars * ShipManager:GetAugmentationValue("FR_GHOSTLY_REPAIR_BOTS"))
     AugValue = AugValue + RepairSpeed
   end
+  return Defines.Chain.CONTINUE, AugValue
+end)
 
+script.on_internal_event(Defines.InternalEvents.GET_AUGMENTATION_VALUE,
+function(ShipManager, AugName, AugValue)
+  if AugName == "SLUG_GEL" and ShipManager:HasAugmentation("FR_GHOSTLY_REPAIR_BOTS") > 0 then
+    local powerBars = ShipManager:GetSystemPower(4)
+    local RepairSpeed = (powerBars * ShipManager:GetAugmentationValue("FR_GHOSTLY_REPAIR_BOTS"))
+    AugValue = AugValue + RepairSpeed
+  end
   return Defines.Chain.CONTINUE, AugValue
 end)
 
@@ -41,7 +49,7 @@ end
 script.on_fire_event(Defines.FireEvents.WEAPON_FIRE, fr_weapon_ionize)
 script.on_fire_event(Defines.FireEvents.ARTILLERY_FIRE, fr_weapon_ionize)
 
--- Double ion
+-- Double ion (unlocked)
 
 local function fr_weapon_ionize(ship, _, projectile)
   local ion_damage_modifier = 1 + ship:GetAugmentationValue("FR_COMMONWEALTH_IONIZER_UNLOCKED")
@@ -63,9 +71,18 @@ local function RandomInt(min, max)
   return (Hyperspace.random32() % (max - min + 1)) + min
 end
 
+local function game_is_paused()  -- thanks brightlord
+  local commandGui = Hyperspace.Global.GetInstance():GetCApp().gui
+  if commandGui.bPaused or commandGui.bAutoPaused or commandGui.event_pause or commandGui.menu_pause then
+      return true
+  else
+      return false
+  end
+end
+
 local function OnTick()
   local playerShip = Hyperspace.ships.player
-  if playerShip and playerShip.shieldSystem and not Hyperspace.Global.GetInstance():GetCApp().world.space.gamePaused then --Note: Use better pause check once other pause booleans are exposed. Console being opened will not register as a pause.
+  if playerShip and playerShip.shieldSystem and not game_is_paused() then
     if playerShip:HasAugmentation("FR_ENERGY_SHIELD_BATTERY") > 0 then
 --	playerShip.shieldSystem.shields.power.first=0
 --	playerShip.shieldSystem.shields.charger = 0
@@ -98,13 +115,14 @@ local function OnTick()
           playerShip.shieldSystem:AddSuperShield(Hyperspace.Point(x, y))
         end
       end
-
     end
   end
 end 
 
-local outlineColor = Graphics.GL_Color(0.8, 0.7, 0.5, 1.0) --Color for the outline of the charge bar (White).
-local fillColor = Graphics.GL_Color(221 / 255, 195 / 255, 141 / 255, 255 / 255) --Color that fills the charge bar (Green).
+
+--local outlineColor = Graphics.GL_Color(0.22, 0.92, 0.8, 1.0) Color for the outline of the charge bar (cyan).
+local outlineColor = Graphics.GL_Color(1.0, 1.0, 1.0, 1.0) --Color for the outline of the charge bar (White).
+local fillColor = Graphics.GL_Color(58 / 255, 235 / 255, 205 / 255, 255 / 255) --Color that fills the charge bar (Green).
 
 local flashTimer = 0
 local flashRate = 1 / 2 --Modifier for the speed at which the bar flashes at full
@@ -139,9 +157,18 @@ local function RandomInt(min, max)
   return (Hyperspace.random32() % (max - min + 1)) + min
 end
 
+local function game_is_paused()
+  local commandGui = Hyperspace.Global.GetInstance():GetCApp().gui
+  if commandGui.bPaused or commandGui.bAutoPaused or commandGui.event_pause or commandGui.menu_pause then
+      return true
+  else
+      return false
+  end
+end
+
 local function OnTickEnemy()
   local enemyShip = Hyperspace.ships.enemy
-  if enemyShip and enemyShip.shieldSystem and not Hyperspace.Global.GetInstance():GetCApp().world.space.gamePaused then --Note: Use better pause check once other pause booleans are exposed. Console being opened will not register as a pause.
+  if enemyShip and enemyShip.shieldSystem and not game_is_paused()  then
     if enemyShip:HasAugmentation("FR_ENERGY_SHIELD_BATTERY_ENEMY") > 0 then
 --	enemyShip.shieldSystem.shields.power.first=0
 --	enemyShip.shieldSystem.shields.charger=0
@@ -217,7 +244,7 @@ end)
 
 script.on_internal_event(Defines.InternalEvents.SHIELD_COLLISION_PRE, function(ShipManager, Projectile, Damage, CollisionResponse)
   local shieldPower = ShipManager:GetShieldPower()
-  if ShipManager:HasAugmentation("FR_WATCHER_SHIELD") > 0 and shieldPower.super.first > 0 and Damage.iDamage > 0 and math.random(2)==2 then
+  if (ShipManager:HasAugmentation("FR_WATCHER_SHIELD") > 0 or ShipManager:HasAugmentation("FR_WATCHER_SHIELD_B") > 0 or ShipManager:HasAugmentation("FR_WATCHER_SHIELD_C") > 0) and shieldPower.super.first > 0 and Damage.iDamage > 0 and math.random(2)==2 then
     Damage.iDamage = 0 
     CollisionResponse.superDamage = 0 
     CollisionResponse.damage = 2147483647
@@ -246,7 +273,7 @@ function(ShipManager, Projectile, Location, Damage, shipFriendlyFire)
   if ShipManager:HasAugmentation("FR_ENERGY_HULL") > 0 then
     hullHit(ShipManager, Damage)
   end
-  return Defines.CHAIN_CONTINUE
+  return Defines.Chain.CONTINUE
 end)
 
 script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM,
@@ -254,7 +281,7 @@ function(ShipManager, Projectile, Location, Damage, realNewTile, beamHitType)
   if ShipManager:HasAugmentation("FR_ENERGY_HULL") > 0 then
     hullHit(ShipManager, Damage)
   end
-  return Defines.CHAIN_CONTINUE, beamHitType
+  return Defines.Chain.CONTINUE, beamHitType
 end)
 
 script.on_internal_event(Defines.InternalEvents.SHIELD_COLLISION, function(ShipManager, Projectile, Damage, CollisionResponse)
@@ -274,7 +301,7 @@ script.on_internal_event(Defines.InternalEvents.CREW_LOOP, function(crew)
   if (augmentValue > 0 and canBurn) then
       local fireDamageMultiplier, _ = crew.extend:CalculateStat(Hyperspace.CrewStat.FIRE_DAMAGE_MULTIPLIER)
       local temporalEffect = 2^currentShip.ship.vRoomList[crew.iRoomId].extend.timeDilation
-      crew:DirectModifyHealth(-5 * augmentValue * fireDamageMultiplier * (Hyperspace.FPS.SpeedFactor / 16) * temporalEffect)
+      crew:DirectModifyHealth(-5 * 3 * fireDamageMultiplier * (Hyperspace.FPS.SpeedFactor / 16) * temporalEffect)
       crew.iOnFire = math.max(4, crew.iOnFire) --new
   end
 end)
@@ -304,7 +331,7 @@ script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(ship,
   if ship:HasAugmentation("FR_NEXUS_ARM_ELECTROMAGNETIC_DEBUFF") > 0 then
     value = value + 10
   end
-  return Defines.Chain.Continue, value
+  return Defines.Chain.CONTINUE, value
 end)
 
 --[[ Electromagnetic Arm Removal (by Choosechee)
@@ -342,7 +369,7 @@ script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(ship,
 			dodgeChance = dodgeChance + ship:GetAugmentationValue("FR_NEXUS_ENGINES_DODGE")
 		end
 	end
-    return Defines.Chain.Continue, dodgeChance
+    return Defines.Chain.CONTINUE, dodgeChance
 end)
 
 -- Nexus Engine fuel Upgrade (by me and julk)
@@ -715,14 +742,11 @@ end)
 
 -- Nexus sensors accuracy Upgrade
 
-script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(ShipManager, value)
-  local OtherShipManager = Hyperspace.ships(1 - ShipManager.iShipId)
-  if ShipManager and OtherShipManager then
-    if OtherShipManager:HasAugmentation("FR_NEXUS_SENSORS_ACCURACY") > 0 then
-      value = value - 10
+script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, weapon)
+    local ship = Hyperspace.ships(projectile.ownerId)
+    if ship and ship:HasAugmentation("FR_NEXUS_SENSORS_ACCURACY") > 0 then
+        projectile.extend.customDamage.accuracyMod = projectile.extend.customDamage.accuracyMod + 10
     end
-  end
-  return Defines.Chain.Continue, value
 end)
 
 -- Augustus Golden System (arc)
@@ -738,6 +762,21 @@ script.on_internal_event(Defines.InternalEvents.GET_AUGMENTATION_VALUE, function
     end
     if augName == "FTL_BOOSTER" then
       augValue = augValue + (currentscrap / 200)
+    end
+  end
+  return Defines.Chain.CONTINUE, augValue
+end, -100)
+
+-- Augustus Silver System (arc)
+
+script.on_internal_event(Defines.InternalEvents.GET_AUGMENTATION_VALUE, function(shipManager, augName, augValue)
+  if shipManager and shipManager:HasAugmentation("FR_SILVER_SYSTEMS") > 0 then 
+  local currentscrap = shipManager.currentScrap
+    if augName == "ROCK_ARMOR" then
+      augValue = augValue + (currentscrap / 2000)
+    end
+    if augName == "SYSTEM_CASING" then
+      augValue = augValue + (currentscrap / 3000)
     end
   end
   return Defines.Chain.CONTINUE, augValue
@@ -777,8 +816,8 @@ script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projec
   local shipManager = Hyperspace.ships(projectile.ownerId)
   local otherShipManager = Hyperspace.ships(1 - shipManager.iShipId)
   if shipManager and otherShipManager then
-      if otherShipManager:HasAugmentation("FR_SHADOW_MIST") > 0 then 
-          local booster_accuracy_modifier = otherShipManager:GetAugmentationValue("FR_SHADOW_MIST")
+      if otherShipManager:HasAugmentation("FR_CLOAK_OF_DARKNESS") > 0 then 
+          local booster_accuracy_modifier = otherShipManager:GetAugmentationValue("FR_CLOAK_OF_DARKNESS")
           if projectile:GetType() ~= 2 and projectile:GetType() ~= 5 then
               projectile.extend.customDamage.accuracyMod = projectile.extend.customDamage.accuracyMod - booster_accuracy_modifier
           end
@@ -793,8 +832,8 @@ script.on_internal_event(Defines.InternalEvents.PROJECTILE_PRE, function(project
     local shipManager = Hyperspace.ships(projectile.ownerId)
     local otherShipManager = Hyperspace.ships(1 - shipManager.iShipId)
     if shipManager and otherShipManager then
-        if otherShipManager:HasAugmentation("FR_SHADOW_MIST") > 0 and projectile:GetSpaceId() ~= projectile:GetOwnerId() and not projectile.table.rolledShadowMiss then 
-            local booster_accuracy_modifier = otherShipManager:GetAugmentationValue("FR_SHADOW_MIST")
+        if otherShipManager:HasAugmentation("FR_CLOAK_OF_DARKNESS") > 0 and projectile:GetSpaceId() ~= projectile:GetOwnerId() and not projectile.table.rolledShadowMiss then 
+            local booster_accuracy_modifier = otherShipManager:GetAugmentationValue("FR_CLOAK_OF_DARKNESS")
             if projectile:GetType() ~= 2 and projectile:GetType() ~= 5 and projectile:GetType() ~= 6 then
                 local random_number = math.random()
                 projectile.table.rolledShadowMiss = true
@@ -808,20 +847,17 @@ script.on_internal_event(Defines.InternalEvents.PROJECTILE_PRE, function(project
   return Defines.Chain.CONTINUE
 end)
 
--- Hektar Shield Accuracy
+-- Hektar Shield Accuracy (by mv)
 
-script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(ShipManager, value)
-  local OtherShipManager = Hyperspace.ships(1 - ShipManager.iShipId)
-  if ShipManager and OtherShipManager then
-    if OtherShipManager:HasAugmentation("FR_HEKTAR_SUPERSHIELD_ACCURACY") > 0 then
-      value = value - 30
+script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, weapon)
+    local ship = Hyperspace.ships(projectile.ownerId)
+    if ship and ship:HasAugmentation("FR_HEKTAR_SUPERSHIELD_ACCURACY") > 0 then
+        projectile.extend.customDamage.accuracyMod = projectile.extend.customDamage.accuracyMod + 30
     end
-  end
-  return Defines.Chain.Continue, value
 end)
 
 
---osmian black hole augment (by me and lizzard)
+--[[osmian black hole augment (by me and lizzard)
 
 local radhealthDef = Hyperspace.StatBoostDefinition()
 radhealthDef.stat = Hyperspace.CrewStat.MAX_HEALTH
@@ -1098,28 +1134,32 @@ script.on_internal_event(Defines.InternalEvents.CREW_LOOP, function(crew)
   return Defines.Chain.Continue, value
 end)
 
+]]
+
 --Probe hunter augment (by me and julk)
 
 local function fr_probe_booster(ShipManager, _, projectile)
   local OtherShipManager = Hyperspace.ships(1 - ShipManager.iShipId)
-  local EnemyIsAuto = OtherShipManager.bAutomated
-  if ShipManager:HasAugmentation("FR_AUTO_HUNTER_GEAR") > 0 and EnemyIsAuto then 
-    local probe_damage_modifier = ShipManager:GetAugmentationValue("FR_AUTO_HUNTER_GEAR")
-    if projectile:GetType() == 1 or projectile:GetType() == 0 or projectile:GetType() == 3 or projectile:GetType() == 4 or projectile:GetType() == 5 then
-      if (projectile.damage.iIonDamage > 0 ) then
-      projectile.damage.iIonDamage = projectile.damage.iIonDamage * probe_damage_modifier
-      end
-      if (projectile.damage.iDamage > 0) then
-        projectile.damage.iDamage = projectile.damage.iDamage * probe_damage_modifier
-      end
-      if (projectile.damage.iSystemDamage > 0 and projectile.damage.iDamage <= 0) then
-        projectile.damage.iSystemDamage = projectile.damage.iSystemDamage * probe_damage_modifier
-      end
-      if (projectile.damage.iSystemDamage > 0 and projectile.damage.iIonDamage > 0 and projectile.damage.iDamage > 0) then
-        projectile.damage.iSystemDamage = projectile.damage.iSystemDamage * probe_damage_modifier
-      end
-      if (projectile.damage.iPersDamage > 0 and projectile.damage.iDamage <= 0) then
-        projectile.damage.iPersDamage = projectile.damage.iPersDamage * probe_damage_modifier
+  if OtherShipManager and ShipManager:HasAugmentation("FR_AUTO_HUNTER_GEAR") > 0 then
+    local EnemyIsAuto = OtherShipManager.bAutomated
+    if EnemyIsAuto then 
+      local probe_damage_modifier = ShipManager:GetAugmentationValue("FR_AUTO_HUNTER_GEAR")
+      if projectile:GetType() == 1 or projectile:GetType() == 0 or projectile:GetType() == 3 or projectile:GetType() == 4 or projectile:GetType() == 5 then
+        if (projectile.damage.iIonDamage > 0 ) then
+        projectile.damage.iIonDamage = projectile.damage.iIonDamage * probe_damage_modifier
+        end
+        if (projectile.damage.iDamage > 0) then
+          projectile.damage.iDamage = projectile.damage.iDamage * probe_damage_modifier
+        end
+        if (projectile.damage.iSystemDamage > 0 and projectile.damage.iDamage <= 0) then
+          projectile.damage.iSystemDamage = projectile.damage.iSystemDamage * probe_damage_modifier
+        end
+        if (projectile.damage.iSystemDamage > 0 and projectile.damage.iIonDamage > 0 and projectile.damage.iDamage > 0) then
+          projectile.damage.iSystemDamage = projectile.damage.iSystemDamage * probe_damage_modifier
+        end
+        if (projectile.damage.iPersDamage > 0 and projectile.damage.iDamage <= 0) then
+          projectile.damage.iPersDamage = projectile.damage.iPersDamage * probe_damage_modifier
+        end
       end
     end
   end
@@ -1133,7 +1173,7 @@ script.on_fire_event(Defines.FireEvents.ARTILLERY_FIRE, fr_probe_booster)
 script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(event)
   local ShipManager = Hyperspace.ships.player
   if ShipManager and ShipManager:HasAugmentation("FR_NARRATIVE_SHIELD") > 0 then
-    if event.eventName == "LIGHTSPEED_DROPPOINT" then
+    if event.eventName == "LIGHTSPEED_DROPPOINT" or event.eventName == "STORAGE_CHECK_REAL" or event.eventName == "STORAGE_CHECK" or event.eventName == "STORAGE_CHECK_JOB" or event.eventName == "STORAGE_CHECK_INTERACT" or event.eventName == "STORAGE_CHECK_AUG" or event.eventName == "STORAGE_CHECK_WEAPON" or event.eventName == "STORAGE_CHECK_BUTTON" or event.eventName == "START_BEACON_PREP" or event.eventName == "START_BEACON_PREP_OPTIONS" or event.eventName == "START_BOON_MENU" or event.eventName == "START_BEACON_PREP_SKIP" or event.eventName == "START_BEACON_REAL" or event.eventName == "START_BEACON_PRESELECT" then
       return
     end
     Choices = event:GetChoices()
@@ -1244,7 +1284,247 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(ShipManager)
   if ShipManager:HasEquipment("FR_QUEENS_AEGIS") > 0 and shieldPower.super.first > 0 then
     ShipManager:ClearStatusAll()
   end
-  return Defines.Chain.CONTINUE
 end)
 
+--[[ pok's cooldown thingy (silly and me)
 
+
+script.on_internal_event(Defines.InternalEvents.CREW_LOOP, function(crew)
+  local ShipManager = Hyperspace.ships.player
+  if ShipManager:HasEquipment("FR_LAB_SPECTER_OXYGENATED_ECTOPLASMA") > 0 and crew.def.name == "fr_pok_morph_power" then
+    crew.powerChange.cooldown = 5
+    end
+end)]]
+
+-- true undeath augment (silly and me)
+
+local vter = mods.multiverse.vter
+local function blueprint_set(name)
+    local set = {}
+    local bpList = Hyperspace.Blueprints:GetBlueprintList(name)
+    for name in vter(bpList) do
+       set[name] = true
+    end
+    return set
+end
+local specter_crew = blueprint_set("FR_LIST_CREW_REVENANT_ALL")
+local function revive(shipManager)
+    if shipManager.iShipId == 0 and shipManager:HasAugmentation("FR_LAB_REVENANT_TRUE_UNDEATH") > 0 then
+        for crew in vter(Hyperspace.CrewFactory.crewMembers) do
+            if crew.iShipId == shipManager.iShipId and not crew:IsDrone() and specter_crew[crew.type] then
+                if (crew.bOutOfGame or crew.crewAnim.status == 3) and not crew.clone_ready then
+                    if crew.bOutOfGame then
+                        crew:SetCurrentShip(shipManager.iShipId)
+                        crew.ship = shipManager.ship
+                        crew:SetRoom(0)
+                        shipManager.vCrewList:push_back(crew)
+                    end
+                    crew.bOutOfGame = false
+                    crew.bDead = false
+                    crew.health.first = crew.health.second
+                    crew.crewAnim.status = 0
+                end
+            end
+        end
+    end
+end
+script.on_internal_event(Defines.InternalEvents.JUMP_LEAVE, revive)
+script.on_internal_event(Defines.InternalEvents.ON_WAIT, revive)
+
+-- slimer's gel (silly, arc and me)
+
+script.on_internal_event(Defines.InternalEvents.SHIP_LOOP,function(shipManager)
+  if shipManager:HasAugmentation("FR_SLIMER_GEL") > 0 then
+    for breach in vter(shipManager.ship:GetHullBreaches(true)) do
+        breach.fDamage = 0
+    end
+  end
+end)
+
+-- rues plating resist (mv)
+
+mods.multiverse.reductionArmor.FR_RUES_ROYAL_PLATING = {amount = 1}
+mods.multiverse.reductionArmor.FR_MOLTEN_ARMOR = {amount = 1}
+mods.multiverse.reductionArmor.FR_HOLY_ROCK_PLATING = {amount = 2}
+
+-- legion aegis shield (me)
+
+script.on_internal_event(Defines.InternalEvents.GET_AUGMENTATION_VALUE, function(ShipManager, augName, augValue)
+  if ShipManager then
+    local shieldPower = ShipManager:GetShieldPower()
+    if ShipManager:HasAugmentation("FR_LEGION_AEGIS") > 0 and shieldPower.super.first > 0 then 
+      if augName == "AUTO_COOLDOWN" then
+        augValue = augValue + 0.20
+      end
+      if augName == "FTL_BOOSTER" then
+        augValue = augValue + 0.60
+      end
+    end
+  end
+  return Defines.Chain.CONTINUE, augValue
+end, -100)
+
+script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(ShipManager, dodgeChance)
+  if ShipManager then
+    local shieldPower = ShipManager:GetShieldPower()
+    if ShipManager:HasAugmentation("FR_LEGION_AEGIS") > 0 and shieldPower.super.first > 0 then
+      if dodgeChance > 0 then
+        dodgeChance = dodgeChance + 10
+      end
+    end
+  end
+  return Defines.Chain.CONTINUE, dodgeChance
+end)
+
+-- angelic shield (mv and Arc)
+
+script.on_internal_event(Defines.InternalEvents.PROJECTILE_FIRE, function(projectile, weapon)
+    local OtherShipManager = Hyperspace.ships(1 - projectile.ownerId)
+    if OtherShipManager and OtherShipManager:HasAugmentation("FR_ANGELIC_SHIELD") > 0 then
+        projectile.extend.customDamage.accuracyMod = projectile.extend.customDamage.accuracyMod -20
+    end
+end)
+
+-- Tririac B slowful mastery
+
+script.on_internal_event(Defines.InternalEvents.GET_AUGMENTATION_VALUE,function(ShipManager, AugName, AugValue)
+  if ShipManager then
+    local OtherShipManager = Hyperspace.ships(1 - ShipManager.iShipId)
+    if OtherShipManager then
+      local temporal = OtherShipManager:GetSystem(20)
+      if temporal and temporal:GetEffectivePower() >= 3 then
+        if AugName == "AUTO_COOLDOWN" and OtherShipManager:HasAugmentation("FR_SLOWFUL_MASTERY") > 0 then
+          AugValue = AugValue - 0.15
+        end
+        if AugName == "SHIELD_RECHARGE" and OtherShipManager:HasAugmentation("FR_SLOWFUL_MASTERY") > 0 then
+          AugValue = AugValue - 0.3
+        end
+      end
+    end
+  end
+  return Defines.Chain.CONTINUE, AugValue
+end)
+
+-- pirate's aegis (me)
+
+local function fr_purple_beard_booster(ShipManager, _, projectile)
+  if ShipManager then
+    local OtherShipManager = Hyperspace.ships(1 - projectile.ownerId)
+    local shieldPower = ShipManager:GetShieldPower()
+    if OtherShipManager and ShipManager:HasAugmentation("FR_PIRATES_AEGIS") > 0 and shieldPower.super.first > 0 then
+      projectile.extend.customDamage.accuracyMod = projectile.extend.customDamage.accuracyMod + 30
+    end
+  end
+end
+
+script.on_fire_event(Defines.FireEvents.WEAPON_FIRE, fr_purple_beard_booster)
+script.on_fire_event(Defines.FireEvents.ARTILLERY_FIRE, fr_purple_beard_booster)
+
+-- pilot manning (mv)
+
+local noAutoManSystems = {0, 1, 3, 7, 8}
+script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(ship)
+    if ship:HasAugmentation("FR_PILOT_ONLY_MANNING") > 0 then
+        -- Find all systems being manned by crew
+        local mannedSystems = {}
+        for crew in vter(ship.vCrewList) do
+            if crew.bActiveManning and crew:Functional() then
+                mannedSystems[crew.iManningId] = true
+            end
+        end
+
+        -- For each system besides piloting not being manned by crew,
+        -- disable automatic manning
+        for _, sysId in ipairs(noAutoManSystems) do
+            local system = ship:GetSystem(sysId)
+            if system and not mannedSystems[sysId] then
+                system.bManned = false
+                system.iActiveManned = 0
+            end
+        end
+    end
+end)
+
+-- zodiac ambush (me)
+
+script.on_internal_event(Defines.InternalEvents.GET_AUGMENTATION_VALUE, function(ShipManager, augName, augValue)
+  if ShipManager and ShipManager:HasAugmentation("FR_ZODIAC_AMBUSH") > 0 then
+    local cloak = ShipManager.cloakSystem
+    if cloak and cloak.bTurnedOn then
+      if augName == "AUTO_COOLDOWN" then
+      augValue = augValue + 0.25
+      end
+    end
+  end
+  return Defines.Chain.CONTINUE, augValue
+end, -100)
+
+-- totality room (me and arc)
+
+local cabal_room_systems = {"weapons", "medbay"}
+
+script.on_internal_event(Defines.InternalEvents.SHIP_LOOP,function(shipManager)
+  if shipManager:HasAugmentation("FR_CABAL_ROOMS") > 0 then
+    for _, systemName in ipairs(cabal_room_systems) do
+      local systemId = Hyperspace.ShipSystem.NameToSystemId(systemName)
+      local system = shipManager:GetSystem(systemId)
+      if system then
+        local systemRoomId = system.roomId
+        for breach in vter(shipManager.ship:GetHullBreaches(true)) do
+          if breach.roomId == systemRoomId then
+            breach.fDamage = 0
+          end
+        end
+        if shipManager:GetFireCount(systemRoomId) > 0 then
+          local shipGraph = Hyperspace.ShipGraph.GetShipInfo(shipManager.iShipId)
+          local roomShape = shipGraph:GetRoomShape(systemRoomId)
+          local w_t = roomShape.w/35
+          local h_t = roomShape.h/35
+          for c = 0, w_t - 1 do
+            for r = 0, h_t - 1 do
+              -- so now we can run some code for the position at column c, row r
+              local x_t = roomShape.x + c * 35
+              local y_t = roomShape.y + r * 35
+              local fire = shipManager:GetFireAtPoint(x_t, y_t)
+              fire.fDamage = 0
+            end
+          end
+        end
+        for room in vter(shipManager.ship.vRoomList) do
+            if room.iRoomId == systemRoomId then
+                room.extend.hullDamageResistChance = 100
+            end
+        end
+      end
+    end
+  end
+end)
+
+-- Malware OS (me)
+
+script.on_internal_event(Defines.InternalEvents.GET_AUGMENTATION_VALUE, function(ShipManager, augName, augValue)
+  if ShipManager and ShipManager:HasAugmentation("FR_MALWARE_OS") > 0 then
+    local hacking = ShipManager.hackingSystem
+    if hacking and hacking.bHacking then
+      if augName == "AUTO_COOLDOWN" then
+      augValue = augValue + 0.5
+      end
+      if augName == "SHIELD_RECHARGE" then
+      augValue = augValue + 1
+      end
+    end
+  end
+  return Defines.Chain.CONTINUE, augValue
+end, -100)
+
+script.on_internal_event(Defines.InternalEvents.GET_DODGE_FACTOR, function(ShipManager, dodgeChance)
+  if ShipManager and ShipManager:HasAugmentation("FR_MALWARE_OS") > 0 then
+    local hacking = ShipManager.hackingSystem
+    if hacking and hacking.bHacking then
+      if dodgeChance > 0 then
+        dodgeChance = dodgeChance + 5
+      end
+    end
+  end
+  return Defines.Chain.CONTINUE, dodgeChance
+end)

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FTL>
+
+<!--Addon Icon picture path is the following img/addons/[lowercase event name without the ADDON_ prefix] with either the _on.png or _select2.png suffix.
+example: 
+img/addons/trc_on.png
+img/addons/trc_select2.png
+-->
+<event name="ADDON_FR"> <!--Put the _DISABLED suffix to ensure that the icon gets clobbered by the non disabled version if it exist-->
+	<!--Text shown when hovering the icon-->
+	<hover-text>FORGOTTEN RACES
+    Currently Enabled.
+    Click to see more info.</hover-text>
+	
+	<!--Event text shown when selecting the icon-->
+	<text>FORGOTTEN RACES
+    Developed by Gabriel Cooper 
+	Ex-Developer: HereticChurch
+    Currently Enabled.
+
+	This addon mod brings back the canonically extinct subclass of the Ancients/Obelisks called the "Commonwealth" and also adds content for the almost-extinct Salt race, as well as a new cruiser line for the Osmians.
+
+	Forgotten Races also adds 164 new ships, 121 weapons and drones, 61 new crew members, a revived questline with dozens of unlocks that did not make into the base Multiverse mod, and 3 new Renegade bosses, all with exclusive weapons and gimmicks.
+
+	There are brand new sectors with unique music and questlines:
+
+	A sector featuring the Commonwealth with its own final boss and ending!
+
+	A unique sector, the Warzone. Enter a three way war between the Federation, Rebels and Coalition in hopes of unlocking the Coalition and Federation flagships.
+	</text>
+</event>
+
+</FTL>

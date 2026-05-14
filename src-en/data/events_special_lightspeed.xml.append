@@ -1,5 +1,9 @@
 <FTL>
 
+<mod:findName type="event" name="LOAD_ATLAS_MARKER">
+	<mod-append:variable name="loc_fr_neo_pandora_box_opened_times" op="set" val="0"/>
+</mod:findName>
+
 <mod:findName type="event" name="REROUTE_MENU">
 	<mod-append:choice req="FR_REQUIREMENT_TARTARUS_COORDINATES_OR_SPOOK_CHASERS" lvl="1" blue="false" hidden="true">
 		<text>Jump to the Ghost Bounty Sector.</text>
@@ -20,6 +24,10 @@
 		<text>Proceed to the Commonwealth Sector.</text>
 		<event load="FR_COMMONWEALTH_WARP"/>
 	</mod-append:choice>
+	<mod-append:choice req="SEC SECTOR_FR_WARZONE" blue="false" hidden="true">
+		<text>Proceed to the Contested Warzone.</text>
+		<event load="FR_WARZONE_WARP"/>
+	</mod-append:choice>
 </mod:findName>
 
 <mod:findName type="event" name="ATLAS_MENU_NOEQUIPMENT">
@@ -27,10 +35,50 @@
 		<text>Proceed to the Commonwealth Sector.</text>
 		<event load="FR_COMMONWEALTH_WARP"/>
 	</mod-append:choice>
+	<mod-append:choice req="SEC SECTOR_FR_WARZONE" blue="false" hidden="true">
+		<text>Proceed to the Contested Warzone.</text>
+		<event load="FR_WARZONE_WARP"/>
+	</mod-append:choice>
 </mod:findName>
 
+<mod:findName type="event" name="REROUTE_MENU_HAT">
+	<mod-append:choice  hidden="true" req="fr_sec_unique_warzone" lvl="0" max_lvl="0" blue="false">
+		<text>Go to the Contested Warzone.</text> 
+		<event load="FR_LIGHTSPEED_SECTOR_WARP_WARZONE"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_sec_unique_warzone" lvl="1" blue="false">
+		<text>The Contested Warzone is behind you.</text>
+		<event load="OPTION_INVALID"/>
+	</mod-append:choice>
+</mod:findName>
 
-
+<mod:findName type="event" name="ATLAS_EQUIPMENT">
+	<mod-append:choice req="fr_loc_tiiikaka_card_used" lvl="1" blue="true" hidden="true">
+		<text>(Tiiikaka Membership) Locate a slaver ship.</text>
+		<event>
+			<text>Your ship quickly locks on to a slaver ship in the next sector.</text>
+			<eventAlias name="ATLAS_MENU" jumpClear="true">ATLAS_MENU_NOEQUIPMENT</eventAlias>
+			<quest event="FR_ENCOUNTER_MEMBERSHIP_SLAVER"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="LOAD_ATLAS"/>
+			</choice>
+		</event>
+	</mod-append:choice>
+	<mod-append:choice req="FR_SYNDICATE_REPUTATION" lvl="1" blue="true" hidden="true">
+		<text>(Syndicate Reputation Bonus) Delay the fleet and map the sector.</text>
+			<event>
+				<text>The bonus takes effect.</text>
+				<eventAlias name="ATLAS_MENU" jumpClear="true">ATLAS_MENU_NOEQUIPMENT</eventAlias>
+				<modifyPursuit amount="-10"/>
+				<reveal_map/>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event load="LOAD_ATLAS"/>
+				</choice>
+			</event>
+	</mod-append:choice>
+</mod:findName>
 
 <!--
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -59,7 +107,11 @@
 			<text>You prepare to jump to the new coordinates, and change your flight path accordingly.</text>
 			<variable name="coords_fr_ghosts" op="set" val="0"/>
 			<variable name="fish_sector" op="set" val="16"/>
-			<choice hidden="true">
+			<choice req="chaos_mode" lvl="1" max_lvl="1" max_group="0" blue="false" hidden="true">
+				<text>Continue...</text>
+				<event load="FR_JUMP_TO_TARTARUS_CHAOS"/>
+			</choice>
+			<choice req="chaos_mode" lvl="0" max_lvl="0" max_group="0" blue="false" hidden="true">
 				<text>Continue...</text>
 				<event load="FR_JUMP_TO_TARTARUS"/>
 			</choice>
@@ -89,7 +141,11 @@
 			<variable name="coords_fr_ghosts" op="set" val="0"/>
 			<variable name="loc_laststand" op="add" val="1"/>
 			<variable name="fish_sector" op="set" val="16"/>
-			<choice hidden="true">
+			<choice req="chaos_mode" lvl="1" max_lvl="1" max_group="0" blue="false" hidden="true">
+				<text>Continue...</text>
+				<event load="FR_JUMP_TO_TARTARUS_CHAOS"/>
+			</choice>
+			<choice req="chaos_mode" lvl="0" max_lvl="0" max_group="0" blue="false" hidden="true">
 				<text>Continue...</text>
 				<event load="FR_JUMP_TO_TARTARUS"/>
 			</choice>
@@ -105,6 +161,10 @@
 
 <event name="FR_JUMP_TO_TARTARUS">
 	<secretSector>SECTOR_FR_TARTARUS</secretSector>
+</event>
+
+<event name="FR_JUMP_TO_TARTARUS_CHAOS">
+	<secretSector>SECTOR_FR_CHAOTIC_TARTARUS</secretSector>
 </event>
 
 <!--
@@ -146,6 +206,109 @@
 	<choice hidden="true" req="COORDS" blue="false">
 		<text>You cannot reroute during this jump.</text>
 		<event load="OPTION_INVALID"/>
+	</choice>
+</event>
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					WARZONE
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
+<event name="FR_ENTER_WARZONE">
+	<text load="TEXT_LIGHTSPEED"/>
+	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
+	<variable name="fish_sector" op="set" val="8"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="LOAD_ATLAS_MARKER"/>
+	</choice>
+</event>
+
+<event name="FR_WARZONE_WARP">
+	<text>Name: Contested Warzone Sector
+	Type: Hostile
+	Unique: True
+	Dominant Faction: The Rebellion, The Coalition and The Federation
+	Rebel Threat Level: !CRITICALLY HIGH!
+	Locations of Interest: Federation R&amp;D Headquarters
+
+	This sector used to be the R&amp;D sector for the Federation until the Rebels launched a surprise attack on it, greatly weakening the Federation's presence in the sector and taking over their secret project, a Federation Flagship. After that the Coalition invaded the sector with a flagship of their own, hoping to pick off the two weakened factions and seize any remaining technology from either faction.
+
+	While still present, the Federation's forces won't be able to offer you much help; you are on your own here.
+
+	WARNING: SECTOR IS FILLED WITH POWERFUL AND DANGEROUS ENEMIES ALONGSIDE CONSTANT ASB BARRAGES. YOU MAY REDIRECT YOUR SHIP TO THE FEDERATION EMBASSY BEFORE YOU LAND IF THE RISK IS TOO HIGH.</text>
+	<choice hidden="true">
+		<text>Exit hyperspeed.</text>
+		<event load="FR_START_WARZONE_LIST"/>
+	</choice>
+	<choice hidden="true" req="COORDS" blue="false">
+		<text>Reroute.</text>
+		<event load="REROUTE_MENU"/>
+	</choice>
+	<choice hidden="true">
+		<text>Redirect the jump to the Federation Embassy!</text>
+		<event load="FR_LIGHTSPEED_SECTOR_WARP_FED_EMERGENCY"/>
+	</choice>
+</event>
+
+<event name="FR_LIGHTSPEED_SECTOR_WARP_FED_EMERGENCY">
+	<text id="atlas_fed"/>
+	<choice hidden="true">
+		<text>Continue with the jump.</text>
+		<event>
+			<text>You prepare to jump to the new co-ordinates, and change your flight path accordingly.</text>
+			<variable name="loc_sector_count" op="add" val="-1"/>
+			<replaceSector name="SECTOR_FEDERATION_UNIQUE">SECTOR_UNION</replaceSector>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><secretSector>SECTOR_FEDERATION_UNIQUE</secretSector></event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event>
+			<loadEvent>FR_WARZONE_WARP</loadEvent>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_LIGHTSPEED_SECTOR_WARP_WARZONE">
+	<text>Name: Contested Warzone Sector
+	Type: Hostile
+	Unique: True
+	Dominant Faction: The Rebellion, The Coalition and The Federation
+	Rebel Threat Level: !CRITICALLY HIGH!
+	Locations of Interest: Federation R&amp;D Headquarters
+
+	This sector used to be the R&amp;D sector for the Federation until the Rebels launched a surprise attack on it, greatly weakening the Federation's presence in the sector and taking over their secret project, a Federation Flagship. After that the Coalition invaded the sector with a flagship of their own, hoping to pick off the two weakened factions and seize any remaining technology from either faction.
+
+	While still present, the Federation's forces won't be able to offer you much help; you are on your own here.</text>
+	<choice hidden="true">
+		<text>Continue with the jump.</text>
+		<event>
+			<text>You prepare to jump to the new co-ordinates, and change your flight path accordingly.</text>
+			<variable name="magical_hat_active" op="set" val="0"/>
+			<variable name="loc_sector_count" op="add" val="-1"/>
+			<replaceSector name="SECTOR_FR_WARZONE">SECTOR_FEDERATION</replaceSector>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event><secretSector>SECTOR_FR_WARZONE</secretSector></event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Nevermind.</text>
+		<event>
+			<loadEvent>ATLAS_MENU_NOEQUIPMENT</loadEvent>
+		</event>
 	</choice>
 </event>
 

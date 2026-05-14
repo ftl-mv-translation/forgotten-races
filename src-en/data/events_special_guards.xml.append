@@ -4,14 +4,33 @@
 	<mod-append:choice req="unique_vance" blue="true" hidden="true">
 		<text>(Vance Prime) "Halt, soldier! Stand down, and allow us to pass!"</text>
 			<event>
-				<text>"O-Oh shit! Of course, sir!" The Rebel guard stands down and allows your ship to pass. One of their crew offers to jump ship, and Vance orders the guard ship to send over supplies as well as send false data to the fleet.</text>
+				<text>"Oh shit! Of course, sir!" The Rebel guard stands down and allows your ship to pass. One of their crew offers to join you, and Vance orders the guard ship to send over supplies as well as false data to the fleet.</text>
 					<modifyPursuit amount="-2"/>
 					<crewMember amount="1" class="human_soldier"/>
 					<autoReward level="HIGH">standard</autoReward>
 					<ship hostile="false"/>
 			</event>
 			<event>
-				<text>"Like hell we will! You don't deserve to be called Vance anymore, you traitor!" the Rebel captain bellows and calls for reinforcement, as well as informing the fleet of your intrusion.</text>
+				<text>"Like hell we will! You don't deserve to be called Vance anymore, you traitor!" the Rebel captain bellows. They call for reinforcements and inform the fleet of your intrusion.</text>
+					<modifyPursuit amount="2"/>
+					<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+			</event>
+	</mod-append:choice>
+	<mod-append:choice req="fr_unique_vance_one" blue="true" hidden="true">
+		<text>(Vance One) "Halt, soldier! Stand down, and allow us to pass!"</text>
+			<event>
+				<text>"Oh shit! Of course, sir!" The Rebel guard stands down and allows your ship to pass. One of their crew offers to jump ship, and Vance orders the guard ship to send over supplies as well as send false data to the fleet.</text>
+					<modifyPursuit amount="-2"/>
+					<crewMember amount="1" class="human_soldier"/>
+					<autoReward level="HIGH">standard</autoReward>
+					<ship hostile="false"/>
+			</event>
+			<event>
+				<text>"Like hell we will! You don't deserve to be called Vance anymore, you traitor!" the Rebel captain bellows. They call for reinforcements and inform the fleet of your intrusion.</text>
 					<modifyPursuit amount="2"/>
 					<ship hostile="true"/>
 					<choice hidden="true">
@@ -23,7 +42,7 @@
 	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="10">
 		<text>(Forged Identification) Try to pass your ship for a Rebel one.</text>
 			<event>
-				<text>"Hah! That's a good joke, we stopped using IDs with photos years ago!" The Rebel ship sends a distress signal, calling for backup!</text>
+				<text>"Hah! That's a good joke. We stopped using IDs with photos years ago!" The Rebel ship sends a distress signal, calling for backup!</text>
 					<ship hostile="true"/>
 					<modifyPursuit amount="1"/>
 					<choice hidden="true">
@@ -43,14 +62,26 @@
 	<mod-append:choice req="unique_vance" blue="true" hidden="true">
 		<text>(Vance Prime) "Halt, soldier! Stand down, and allow us to pass!"</text>
 			<event>
-				<text>"Oh, shit! Vance Prime! I-I'm sorry for the misunderstanding, we ID'd you as a Fed! We'll make sure the fleet isn't a problem for you here." As the guard sends an all-clear signal, a couple of MFK Aces are dispatched to aid your cause, alongside a few boxes of supplies.</text>
+				<text>"Oh, shit! Vance Prime! I'm terribly sorry for the misunderstanding, we ID'd you as a Fed! We'll make sure the fleet isn't a problem for you here." As the guard sends an all-clear signal, a couple of MFK Aces are dispatched to aid your cause, alongside a few boxes of supplies.</text>
 					<modifyPursuit amount="-10"/>
 					<crewMember amount="2" class="human_mfk"/>
 					<autoReward level="HIGH">standard</autoReward>
 			</event>
 	</mod-append:choice>
-	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="10">
-		<text>(Forged Identification) Try to pass your ship for a rebel one</text>
+	<mod-append:choice req="fr_unique_vance_one" blue="true" hidden="true">
+		<text>(Vance One) "Halt, soldier! Stand down, and allow us to pass!"</text>
+			<event>
+				<text>"ONE?! How DARE you show your face here?! Like hell we'll let you pass! Men! Power up the artillery, full strength!"</text>
+				<modifyPursuit amount="2"/>
+				<ship hostile="true"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event load="COMBAT_CHECK"/>
+				</choice>
+			</event>
+	</mod-append:choice>
+	<mod-append:choice req="REBEL_ID" blue="true" hidden="true">
+		<text>(Forged Identification) Try to pass your ship for a Rebel one.</text>
 			<event>
 				<text>"Wow. Just...wow. And here I thought you Federation dogs couldn't get any more stupid!" The Rebel ship sends a distress signal, calling for backup!</text>
 					<ship hostile="true"/>
@@ -67,11 +98,11 @@
 	<mod-append:choice req="unique_vance" blue="true" hidden="true">
 		<text>(Vance Prime) "Halt, soldier! Stand down, and allow us to pass! I need to see my nephew!"</text>
 			<event>
-				<text>"Wait a second...Vance Prime? How...w-why, when did you join the Federation!? This makes...no sense..." The guard staggers. They eventually agree to let you pass, though they only have the heart to push the fleet back a small amount.</text>
+				<text>"Wait a second...Vance Prime? How, why, WHEN did you join the Federation!? This makes no sense..." The guard staggers. They eventually agree to let you pass, though they only have the heart to push the fleet back a small amount.</text>
 				<modifyPursuit amount="-1"/>
 			</event>
 	</mod-append:choice>
-	<mod-append:choice req="REBEL_ID" blue="true" hidden="true" max_group="10">
+	<mod-append:choice req="REBEL_ID" blue="true" hidden="true">
 		<text>(Forged Identification) Try to pass your ship for a Rebel one.</text>
 			<event>
 				<text>"Duke Bangledotom...? Jerry's been expecting you! Right this way!"</text>
@@ -85,18 +116,29 @@
 	<mod-append:choice req="fr_unique_mantis_queen" blue="true" hidden="true">
 		<text>(Leikonpliiinakra) "Let's ask another question. What appendages do YOU value the most?"</text>
 			<event>
-				<text>"Oh my god! Queen Leikonpliiinakra?! I-I'm so sorry! P-please, don't cut off my arms, I'll let you right through!" The guard dumps a few crates of valuable scrap metal, and one containing a weapon from the Coalition's finest arsenal, right into your cargo hold.</text>
+				<text>"Ahhhhhh!! Queen Leikonpliiinakra!? I'm so sorry! Please, please, please, don't cut off my arms... I'll let you right through!" The guard dumps a few crates of valuable scrap metal, and one containing a weapon from the Coalition's finest arsenal, right into your cargo hold.</text>
 					<autoReward level="MED">scrap_only</autoReward>
 					<weapon name="FR_LIST_WEAPONS_RUES"/>
 			</event>
 	</mod-append:choice>
 </mod:findName>
 
+<mod:findName type="event" name="GUARD_UNION_COREWORLDS">
+	<mod-append:choice req="unique_symbiote" lvl="0" max_group="0" blue="false">
+		<text>Undergo the inspection.</text>
+			<event>
+				<text>At long last you make your way to the checkpoint entrance. Your crew are taken one by one into a full-room scanning machine that examines everything from their chemical makeup to the contents of their stomach. The guard leader stops dead in their track as they realize who's right in front of them "Vance... Prime...?" They mutter quietly, taking a step back.
+
+					Vance bares a fanged smile and slowly shakes his head. "I'm afraid you aren't correct, our most loyal citizen. I'm simply a veteran of this terrible war, and I would kindly ask you to allow this old man to pass." The guard blinks a few times before shyly nodding and allowing him and the rest of your crew to pass without any other issues.</text>
+			</event>
+	</mod-append:choice>
+</mod:findName>
+
 <mod:findName type="event" name="GUARD_COALITION">
 	<mod-append:choice req="fr_unique_mantis_queen" blue="true" hidden="true">
-		<text>(Leikonpliiinakra) "Intruders?! Listen here, you weakling, you will allow us passage through the sector. Otherwise, I will publicly execute all of you! Do you understand?"</text>
+		<text>(Leikonpliiinakra) "Intruders? Listen here, you weakling, you will allow us passage through the sector. Otherwise, I will publicly execute all of you! Do you understand?"</text>
 			<event>
-				<text>The guards scramble to attention at the sight of the Queen. "O-Of course, your highness! Right this way!" The guard allows you to pass while also sending some supplies your way.</text>
+				<text>The guards scramble to attention at the sight of the Queen. "Of course, Your Highness! Right this way!" The guard allows you to pass while also sending some supplies your way.</text>
 					<autoReward level="MED">standard</autoReward>
 			</event>
 	</mod-append:choice>
@@ -106,7 +148,7 @@
 	<mod-append:choice req="fr_unique_mantis_queen" blue="true" hidden="true">
 		<text>(Leikonpliiinakra) "Guards! I demand entry into this sector at once!"</text>
 			<event>
-				<text>You hear heavy chatter on the other side of the radio before the captain finally contacts you. "O-of course, your highness!" They also send you some supplies as tribute.</text>
+				<text>You hear heavy chatter on the other side of the radio before the captain finally contacts you. "Of course, Your Highness!" They also send you some supplies as tribute.</text>
 					<autoReward level="MED">standard</autoReward>
 			</event>
 	</mod-append:choice>
@@ -116,7 +158,7 @@
 	<mod-append:choice req="fr_unique_mantis_queen" blue="true" hidden="true">
 		<text>(Leikonpliiinakra) "Guards! I demand entry into this sector at once!"</text>
 			<event>
-				<text>The guards all collectively bow to their queen. "O-of course Highness! Have gifts!"</text>
+				<text>The guards all collectively bow to their queen. "Of course Highness! Have gifts!"</text>
 					<autoReward level="MED">stuff</autoReward>
 			</event>
 	</mod-append:choice>
@@ -149,7 +191,7 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 <event name="FR_START_BEACON_COMMONWEALTH">
-	<text>You reach the other side of the portal at last, and there you find a guard that looks identical to the Obelisk designs you've seen, though this one flies colors that you don't recognise. The ship doesn't make any hostile moves yet, as it appears to be analyzing you and your intentions first.</text>
+	<text>You reach the other side of the portal at last. You find a guard that looks identical to the Obelisk designs you've seen, although this one flies colors that you don't recognize. The ship doesn't make any hostile moves yet, as it appears to be analyzing you and your intentions first.</text>
 	<variable name="loc_unique_sectors" op="add" val="1"/>
 	<metaVariable name="fr_juke_commonwealth" op="set" val="1"/>
 	<modifyPursuit amount="-10"/>
@@ -159,7 +201,7 @@
 	<choice hidden="true">
 		<text>Hail them.</text>
 		<event>
-			<text>The ship responds, though the crew's speech seems to be too old for the translator to keep up, only managing to translate a few words that likely still exist in the modern Obelisk language "Beware - Exterminators - Unwelcome - Surrender"</text>
+			<text>The ship responds, although your translator keeps skipping over most of the words in the crew's speech. Maybe their language is too archaic to share words with the modern Obelisk language. You manage to pick out: "Beware - Exterminators - Unwelcome - Surrender"</text>
 			<choice hidden="true">
 				<text>We don't want to hurt you! We came in peace!</text>
 				<event>
@@ -182,19 +224,30 @@
 					</choice>
 				</event>
 			</choice>
+			<choice req="FR_BLUELIST_ANCIENT_NO_COMMONWEALTH" blue="true" hidden="true">
+				<text>(Non-Commonwealth Obelisk Crew) Let your obelisk crew de-escalate the situation.</text>
+				<event>
+					<text>Your crew hails the ship but to no avail. It seems that your Obelisk crew member speaks a language that is not intelligible to the Obelisks on the other ship. In an effort to de-escalate the situation, your crew member only ends up making the other Obelisks angrier.</text>
+					<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
 			<choice req="fr_commonwealth" blue="true" hidden="true">
 				<text>(Commonwealth Crew) Your Commonwealth crew wants to talk to them.</text>
 				<event>
-					<text>The mere sight of your Commonwealth crew seems to put them at ease, enough for them to turn their weapons offline immediately. After a long chat, your Commonwealth manages to convince them to install a translator that can translate the old Commonwealth language into something understandable.
+					<text>The mere sight of your Commonwealth crew seems to put them at ease, enough for them to turn their weapons offline immediately. After a long discussion, your Commonwealth manages to convince them to install a module that can translate the old Commonwealth language into something understandable.
 
-					"Apologies for the hostile introduction, we're always on high alert whenever outsiders appear. I'm afraid our past trauma with the Exterminators still haunts us to this day. We are the Commonwealth and we bid you welcome to our humble refuge."
+					"Apologies for the hostile introduction. We're always on high alert whenever outsiders appear. I'm afraid our past trauma with the Exterminators still haunts us to this day. We are the Commonwealth and we bid you a warm welcome to our humble refuge."
 					</text>
 					<choice hidden="true">
 						<text>Exterminators?</text>
 						<event>
-							<text>The being nods its main cube. "The ones adorned in white and pink, those that ordered our demise, and those whose might we simply couldn't match. They are out there still, and if they found us... Well, I'm afraid the last of our kind would vanish, for good this time."
+							<text>The Obelisk nods its main cube. "The ones adorned in white and pink, those that ordered our demise, those whose might we simply couldn't match. They are out there still, and if they were to find us... Well, I'm afraid the last of our kind would vanish, and for good this time."
 
-							The being sits in silence for a moment before speaking again "We weren't expecting you to harbor one of our kind. I'm surprised we didn't detect them sooner, though I suppose our equipment aren't what they used to be. Entropy certainly is a cruel mistress."
+							They sit in silence for a moment before speaking again. "We weren't expecting you to harbor one of our kind. I'm surprised we didn't detect them sooner, although I suppose our equipment aren't what they used to be. Entropy certainly is a cruel mistress."
 							</text>
 							<choice hidden="true">
 								<text>How do we leave this sector?</text>
@@ -219,7 +272,7 @@
 									<choice req="FR_COMMONWEALTHS_BODY" blue="true" hidden="true">
 										<text>(Commonwealth's Body) What about this body? Is there a way to revive them?</text>
 										<event>
-											<text>The guard examines the body for a few minutes before speaking "There might be a way indeed. There is a repair center that might have the tools needed to revive them. Here, let me mark it for you in your map."</text>
+											<text>The guard examines the body for a few minutes before speaking. "There might be a way indeed. There is a repair center that might have the tools needed to revive them. Here, let me mark it for you in your map."</text>
 											<quest event="FR_COMMONWEALTH_REPAIR_CENTER"/>
 											<choice hidden="true">
 												<text>Thank you.</text>
@@ -230,6 +283,51 @@
 														<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH_STORAGE"/>
 													</choice>
 												</event>
+											</choice>
+										</event>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice req="fr_unique_daisy" blue="true" hidden="true">
+				<text>(Daisy) Daisy wants to talk to them.</text>
+				<event>
+					<text>The guard's eyes widen as they quickly shut down their weapons, immediately realizing who they are talking to. After a quick chat, Daisy convinces them to install a module that can translate the old Commonwealth language into something understandable.
+
+					"Apologies for the hostile introduction Ms. Daisy! We didn't expect you to ever return, much less with the backup you promised. The refuge missed you dearly." The guard bows to Daisy and she huffs, crossing her nubs.
+
+					"You really haven't changed, have you, Dianthus? I'm guessing the refuge got even jumpier after I left. Did you even think about how absurd the idea of the Exterminators returning in a mortal cruiser would sound like?" Her voice is stern, yet there's a fondness to it, a side of an Obelisk you haven't seen yet.</text>
+					<choice hidden="true">
+						<text>Exterminators?</text>
+						<event>
+							<text>Dianthus nods his main cube. "The ones adorned in white and pink, those that ordered our demise, and those whose might we simply couldn't match. They are out there still, and if they found us... Well, I'm afraid the last of our kind would vanish, for good this time."
+
+							Daisy sighs "I hate to admit your fears are valid. The Exterminators were what got me; I managed to flee far enough to leave their capital sector but those cursed noblemen got to me before I could fully leave Obelisk space. The little fleshling alien here was the one who saved me; they repaired me... somehow."
+
+							Dianthus reels from the revelantion "You... you perished?! Then the warnings, they were all true! Daisy, you must stay in the Refuge for you own safety; we cannot allow you to risk yourself again!"</text>
+							<choice hidden="true">
+								<text>Wait, we need to leave the sector, we need to find the Paragon!</text>
+								<event>
+									<text>The Commonwealths turn to you in horror. Daisy is the first to speak "The Paragon? You mean that blasted bomb? IT STILL EXISTS!?" She turns to Dianthus in a flash. "Dianthus, I hate to be a contrarian, but we must leave, as soon as physically possible! If Y wants to use the Paragon again then we can't just sit and watch!"
+
+									Dianthus stays silent for a moment, thinking about the repercussions of of his possible actions. "I hate to say it, but you are right. The exit is at the edge of the sector, guarded by our strongest vessel. I wish you two good luck; you will need it." 	
+
+									"I will also do what I can to aid you by repairing your hull and gifting you one of our weapons. Peace be with you, outsiders." Dianthus bows, his stare staying on Daisy for a moment longer before he cuts the call.</text>
+									<weapon name="FR_GIFTLIST_COMMONWEALTH_WEAPONS"/>
+									<autoReward level="HIGH">standard_no_item</autoReward>
+									<damage amount="-50"/>
+									<choice hidden="true">
+										<text>Thank you.</text>
+										<event>
+											<text>The guard nods before bidding you farewell.</text>
+											<quest event="FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER"/>
+											<noQuestText/> 
+											<choice hidden="true">
+												<text>Continue...</text>
+												<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH_STORAGE"/>
 											</choice>
 										</event>
 									</choice>
@@ -250,7 +348,7 @@
 		<event>
 			<text>It takes a bit before the enemy ship realizes what you just did, but once they do they also power off their weapons and drones. They hail you, sending you files that seem to be a rudimentary translator. Even with the translator files, you can barely make out a request asking that you allow their drone to install a proper translator in your ship, which you quickly agree to.
 
-			Once the drone is done, you are able to properly communicate with the strange vessel. "Greetings, Outsider. We are the Commonwealth and we bid you welcome to our humble refuge. We apologise for our hasty actions, we thought you were one of the Exterminators. We offer some scrap as an apology for any damaged we might have caused."</text>
+			Once the drone is done, you are able to properly communicate with the strange vessel. "Greetings, Outsider. We are the Commonwealth and we bid you welcome to our humble refuge. We apologise for our hasty actions; we thought you were one of the Exterminators. We offer some scrap as an apology for any damaged we might have caused."</text>
 			<surrender/>
 			<enemyDamage amount="-25"/>
 			<ship hostile="false"/>
@@ -258,9 +356,9 @@
 			<choice hidden="true">
 				<text>Thank you, but who are these "Exterminators"?</text>
 				<event>
-					<text>The being nods its main cube "The ones adorned in white and pink, those that ordered our demise, and those whose might we simply couldn't match. They are out there still, and if they found us... Well, I'm afraid the last of our kind would vanish, for good this time."
+					<text>The being nods its main cube. "The ones adorned in white and pink, those that ordered our demise, those whose might we simply couldn't match. They are out there still, and if they were to find us... Well, I'm afraid the last of our kind would vanish, and for good this time."
 
-					The being sits in silence for a moment before speaking again "We weren't expecting you to harbor one of our kind. I'm surprised we didn't detect them sooner, though I suppose our equipment aren't what they used to be. Entropy certainly is a cruel mistress."
+					The being sits in silence for a moment before speaking again. "We weren't expecting you to harbor one of our kind. I'm surprised we didn't detect them sooner, though I suppose our equipment aren't what they used to be. Entropy certainly is a cruel mistress."
 					</text>
 					<choice hidden="true">
 						<text>How do we leave this sector?</text>
@@ -285,7 +383,7 @@
 							<choice req="FR_COMMONWEALTHS_BODY" blue="true" hidden="true">
 								<text>(Commonwealth's Body) What about this body? Is there a way to revive them?</text>
 								<event>
-									<text>The guard examines the body for a few minutes before speaking "There might be a way indeed. There is a repair center that might have the tools needed to revive them. Here, let me mark it for you in your map."</text>
+									<text>The guard examines the body for a few minutes before speaking. "There might be a way indeed. There is a repair center that might have the tools needed to revive them. Here, let me mark it for you in your map."</text>
 									<quest event="FR_COMMONWEALTH_REPAIR_CENTER"/>
 									<choice hidden="true">
 										<text>Thank you.</text>
@@ -312,7 +410,7 @@
 </event> 
 
 <event name="FR_GUARD_COMMONWEALTH_DESTROY">
-	<text>You have defeated the strange Obelisk guard. Whatever might have been in their cargo has certainly been destroyed. Just as you are about to leave, you notice a strange device that survived the fight - a strange translator that seems to be tuned to the extremely old language that the guard spoke. It appears you are in the sector controlled by a group named the Commonwealth. If only we had that before the fight...
+	<text>You have defeated the strange Obelisk guard. Whatever might have been in their cargo has certainly been destroyed. Just as you are about to leave, you notice a strange device that survived the fight: a strange translator that seems to be tuned to the extremely old language that the guard spoke. It appears you are in the sector controlled by a group named the Commonwealth. If only we had that before the fight...
 
 	You also decide to scan the sector for any points of interest and you notice another huge power spike at the heart of the sector, identical to the portal you came from. If there's a way to leave this place, this will likely be your way out.</text>
 	<autoReward level="HIGH">standard</autoReward>
@@ -325,7 +423,7 @@
 <event name="FR_GUARD_COMMONWEALTH_DEADCREW">
 	<text>You have defeated the strange Obelisk guard. Without crew on board to stop you, you can investigate their cargo. You find a strange blue weapon as well as a strange translator that seems to be tuned to the extremely old language that the guard spoke. It appears you are in the sector controlled by a group named the Commonwealth. If only we had that before the fight...
 
-	In the cargo you find a map pointing to a specific location in the sector, some kind of rift that was marked as the "exit". Seems like that's your destination if you want to leave this place.</text>
+	In the cargo you find a map pointing to a specific location in the sector: some kind of rift that marked as the "exit". Seems like that's your destination if you want to leave this place.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<quest event="FR_COMMONWEALTH_REPAIR_CENTER_NOMARKER"/>
 	<weapon name="FR_GIFTLIST_COMMONWEALTH_WEAPONS"/>
@@ -362,6 +460,957 @@
 	<text>You catch sight of a heavily powered Commonwealth ship, but they don't seem pleased to see you. "Outsider! How dare you destroy our guard! Prepare to feel our wrath!" The ship moves in to attack, and it doesn't take long for you to realize this is one of the ships sent by the guards to hunt you down for attacking.</text>
 	<ship load="FR_SHIP_COMMONWEALTH_REINFORCEMENTS" hostile="true"/>
 	<environment type="PDS" target="player"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+
+<!--
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+					WARZONE
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->	
+
+<eventList name="FR_START_WARZONE_LIST">
+	<event load="FR_START_WARZONE_COALITION" req="stability" lvl="750" max_lvl="999"/>
+	<event load="FR_START_WARZONE_REBEL" req="stability" lvl="500" max_lvl="749"/>
+	<event load="FR_START_WARZONE_FEDERATION" req="stability" lvl="250" max_lvl="499"/>
+	<event load="FR_START_WARZONE_PIRATE" req="stability" lvl="-999" max_lvl="249"/>
+</eventList>
+
+<event name="FR_START_WARZONE_COALITION">
+	<metaVariable name="fr_juke_warzone" op="set" val="1"/>
+	<variable name="fr_sec_unique_warzone" op="set" val="1"/>
+	<preventQuest/>
+	<beaconType id="map_icon_start" global="false">
+		<color r="46" g="252" b="51" a="1"/>
+	</beaconType>
+	<text>This sector would have once been a safe haven for you and your crew, but ever since the Rebel attack and the sequential Coalition invasion, this sector has become a no man's land. If that wasn't bad enough, pirates have also been drawn into this place hoping to score easy scrap. Watch your step and always be on guard.</text>
+	<variable name="loc_unique_sectors" op="add" val="1"/>
+	<changeBackground>FR_BACK_SECTOR_WARZONE</changeBackground>
+	<playSound>lightspeed</playSound>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">CUSTOM_FLEET_MFK</customFleet>
+	<ship load="FR_SHIP_GUARD_WARZONE_COALITION" hostile="false"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>It appears the Coalition has managed to spare a elite guard ship to keep the sector from getting reinforcements, be they Rebel or Federation. "So you are the reinforcements they sent to try and fight us? That's adorable. Tell me, oh Federation ship that could, how do you expect to stop an endless tide with only a single barricade?" With this, the guard ship's weapons power on.</text>
+			<choice hidden="true">
+				<text>Prepare for combat!</text>
+				<event>
+					<text>You lock your weapons onto the guard and move in to attack.</text>
+					<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="fr_unique_mantis_queen" blue="true" hidden="true">
+				<text>(Leikonpliiinakra) Leikonpliiinakra demands free passage!</text>
+				<event>
+					<text>"How dare you address your Queen in such a way? You will let us pass this instant or be publically excuted at my hands. Am I clear?"
+						
+					The guard scrambles to attention at the sight of the Queen. "O-Of course, your highness! Right this way!" The guard allows you to pass while also sending some supplies your way and alerting the Coalition fleet to allow you to pass.</text>
+					<autoReward level="HIGH">standard</autoReward>
+				</event>
+			</choice>
+			<choice req="unique_nights" blue="true" hidden="true">
+				<text>(Nights) Nights demands free passage!</text>
+				<event>
+					<text>"Lissssten here you poor excusssse for a ssssoldier, you will let ussss passsss or I will make you the Coalition'ssss number 1 enemy!"
+
+					The guard freezes for a moment before powering down their weapons. "Very well, Captain. I will let the fleet know at once." The guard also sends some supplies your way.</text>
+					<autoReward level="HIGH">standard</autoReward>
+				</event>
+			</choice>
+			<choice req="unique_tyrdeo" blue="true" hidden="true">
+				<text>(Tyrdeo) Ask for free passage.</text>
+				<event>
+					<text>"Excuse me, but I'm Tyrdeo, the President of the Republic. As such, I'm one of the leaders of the Coalition and so I'm politely asking for safe passage."
+
+					The guards tilts their head for a moment before shrugging. "Very well, President. I will let the fleet know at once." The guard also sends some supplies your way.</text>
+					<autoReward level="HIGH">standard</autoReward>
+				</event>
+			</choice>
+			<choice hidden="true" blue="true" req="FR_LIST_CREW_RUES">
+				<text>(R.U.E.S. Elite Crew) Try to persuade them to let you go.</text>
+				<event>
+					<text>"I see I have been terribly confused. You can't be a Federation ship, not with one of our elite soldiers with you. You may pass." The guard turns their focus back to the rebel forces, but not before sending some supplies to aid you.</text>
+					<autoReward level="MED">standard</autoReward>
+				</event>
+			</choice>
+			<choice req="unique_vance" blue="true" hidden="true">
+				<text>(Vance Prime) Ask for help from the fleet.</text>
+				<event load="FR_START_WARZONE_COALITION_VANCE"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_START_WARZONE_COALITION_VANCE">
+	<ship hostile="true"/>
+	<text>Vance enters the specific frequency that the local MFK fleet uses to communicate before clearing his throat 
+		
+	"Soldiers! This is Vance Prime speaking! Any troops avaliable for battle must report immediately and attack the Coalition guard that stands in our way!"
+
+	The Coalition guard bursts out laughting "Oh please! Your troops are being pushed back further by the second, you think they have the manpower to aid you? It's no wonder the Rebellion is dyin-" The Coalition captain stops mid sentence as intruder alarms start blaring down on the enemy ship, it seems the fleet had a few MFK soldiers to spare! That didn't stop the guard from attacking you however.</text>
+	<!-- Defector spawned in fr_scripts/Fr_Events.lua -->
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<ship name="FR_SHIP_GUARD_WARZONE_COALITION" auto_blueprint="MU_COALITION_GUARD_ELITE">
+	<surrender min="999" max="999" load="FR_GUARD_WARZONE_COALITION_SIGNAL"/>
+	<destroyed load="FR_GUARD_WARZONE_COALITION_DESTROY"/>
+	<deadCrew load="FR_GUARD_WARZONE_COALITION_DEADCREW"/>
+</ship>
+
+<event name="FR_GUARD_WARZONE_COALITION_SIGNAL">
+	<text>It appears the guard ship is sending out a distress signal to a nearby ASB platform! Brace for impact!</text>
+	<choice hidden="true" req="PDS_DISABLE">
+		<text>(Signal Diluter) Jam their signal.</text>
+		<event>
+			<text>When no ASB activates, you assume that is a good sign that your augment has functioned properly, and you continue to fight.</text>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Suddenly you detect a shift in the rebel fleet in the distance, its guns now pointing at the Coalition guard!</text>
+			<environment type="PDS" target="all"/>
+			<noASBPlanet/>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_GUARD_WARZONE_COALITION_DESTROY">
+	<text>You have defeated the Coalition guard. Whatever might have been in their cargo has for certain been destroyed, but you can at least salvage some supplies from the ship.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_GUARD_WARZONE_COALITION_FOLLOWUP"/>
+	</choice>
+</event>
+<event name="FR_GUARD_WARZONE_COALITION_DEADCREW">
+	<text>You have defeated the Coalition guard. Without crew on board to stop you, you can investigate their cargo. You find a weapon to bring back to the ship, and move on to scrap their hull.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<weapon name="GIFTLIST_COALITION"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_GUARD_WARZONE_COALITION_FOLLOWUP"/>
+	</choice>
+</event>
+
+<event name="FR_GUARD_WARZONE_COALITION_FOLLOWUP">
+	<noQuestText/>
+	<removeHazards/>
+	<text>By killing the Coalition guard, you have no doubt caused them to dispatch reinforcements to track you down. Watch your step as you explore the sector. Though with how chaotic this sector is, there's a chance the forces here will be too busy to deal with you.</text>
+	<quest event="FR_REINFORCEMENTS_WARZONE_COALITION">
+		<nebulaBeacon>true</nebulaBeacon>
+		<nextSector>false</nextSector>
+		<nebulaEvent>FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_COALITION</nebulaEvent>
+		<createNebula>false</createNebula>
+		<aggressive>2</aggressive>
+	</quest>
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+<event name="FR_REINFORCEMENTS_WARZONE_COALITION">
+	<preventQuest/>
+	<beaconType id="map_icon_reinforcements" global="true" req="LOOT_COMPASS">
+		<color r="200" g="55" b="82" a="1"/>
+		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType>
+	<text>"We will destroy you Federation scum! You will regret ever coming here!" A hostile Elite Coalition ship approaches, and you suspect they're angry for a lot more than just the dead guard.
+
+	However, before the fight can truly start, you detect that the Federation fleet in the distance has also turned its guns on the Coalition ship. It's an all-out brawl now!</text>
+	<ship load="SHIP_COALITIONHOLD_REINFORCEMENTS" hostile="true"/>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_UNITY</customFleet>
+	<environment type="PDS" target="all"/>
+	<noASBPlanet/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_COALITION">
+	<preventQuest/>
+	<beaconType id="map_icon_reinforcements" global="true" req="LOOT_COMPASS">
+		<color r="200" g="55" b="82" a="1"/>
+		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType>
+	<text>"We will destroy you Federation scum! You will regret ever coming here!" A hostile Elite Coalition ship approaches, and you suspect they're angry for a lot more than just the dead guard.
+
+	However, before the fight can truly start, you detect that the Federation fleet in the distance has also turned its guns on the Coalition ship. It's an all-out brawl now!</text>
+	<ship load="SHIP_COALITIONHOLD_REINFORCEMENTS" hostile="true"/>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_UNITY</customFleet>
+	<img back="BACK_EVENT_STARS_SPARSE"/>
+	<status type="loss" target="player" system="sensors" amount="1"/>
+	<environment type="PDS" target="all"/>
+	<noASBPlanet/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+
+<event name="FR_START_WARZONE_REBEL">
+	<metaVariable name="fr_juke_warzone" op="set" val="1"/>
+	<variable name="fr_sec_unique_warzone" op="set" val="1"/>
+	<preventQuest/>
+	<beaconType id="map_icon_start" global="false">
+		<color r="46" g="252" b="51" a="1"/>
+	</beaconType>
+	<text>This sector would have once been a safe haven for you and your crew, but ever since the Rebel attack and the sequential Coalition invasion, this sector has become a no man's land. If that wasn't bad enough, pirates have also been drawn into this place hoping to score easy scrap. Watch your step and always be on guard.</text>
+	<variable name="loc_unique_sectors" op="add" val="1"/>
+	<changeBackground>FR_BACK_SECTOR_WARZONE</changeBackground>
+	<playSound>lightspeed</playSound>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">CUSTOM_FLEET_MFK</customFleet>
+	<ship load="FR_SHIP_GUARD_WARZONE_REBEL" hostile="false"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>It seems the Rebels have managed to hold on to the sector's entrance enough to have an MFK Ace Guard still standing. They notice you right away and power on their weapons and artillery. "Oh, of course a goddamn renegade would stick their nose where it doesn't belong, we are already dealing with enough shit at the moment, the last thing we need is a Federation dog causing us trouble!"</text>
+			<choice hidden="true">
+				<text>Prepare for combat!</text>
+				<event>
+					<text>You lock your weapons onto the guard and move in to attack.</text>
+					<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="unique_vance" blue="true" hidden="true">
+				<text>(Vance Prime) "Halt, soldier! Stand down, and allow us to pass!"</text>
+				<event>
+					<text>"Oh, shit! Vance Prime! I-I'm sorry for the misunderstanding, we ID'd you as a Fed! We will tell the fleet to help you whenever they can but I'm afraid we have our hands full at the moment, so we can't spare much. If you have the time, please send a few Coalition ships to hell for us!" The MFK Ace guard powers down their weapons before sending an all-clear signal and barely dodging an ASB shot. They then beam aboard an MFK soldier to aid in your journey.</text>
+						<crewMember amount="1" class="human_mfk"/>
+				</event>
+			</choice>
+			<choice req="fr_unique_vance_one" blue="true" hidden="true">
+				<text>(Vance One) "Halt, soldier! Stand down, and allow us to pass!"</text>
+				<event>
+					<text>The MFK Ace guard blnks before shouting "ONE?! What the hell are you doing here?! I don't care if this will get me court-martialialed; we won't let you pass after everything you have done!"</text>
+					<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true" blue="true" req="unique_cyra">
+				<text>(Cyra) "Halt, brave soldier! This ship is under the command of an MFK Ace! Unpower your weapons immediately!"</text>
+				<event>
+					<text>The MFK Ace guard is shocked to see Cyra and hastely powers down their weapons and artillery "My mistake ma'am! We are sending all the supplies we can spare as an apology for our brash behaviour!" The guard dispatches a few crates of supplies before turning their attention back to the Coalition fleet.</text>
+					<autoReward level="HIGH">standard</autoReward>
+				</event>
+			</choice>
+			<choice hidden="true" blue="true" req="human_mfk">
+				<text>(MFK Ace Crew) Have the MFK convince them to let you through.</text>
+				<event>
+					<text>"Ah, working undercover are you? Smart, I'm sure whatever mission you were given will be a glorious victory for the Rebellion!" The MFK Ace guard laughs and sends some supplies to aid you before turning their atention back to the invading Coalition.</text>
+					<autoReward level="MED">standard</autoReward>
+				</event>
+			</choice>
+			<choice hidden="true" blue="true" req="LIST_CREW_JERRY">
+				<text>(Jerry) "Hello!"</text>
+				<event>
+					<text load="TEXT_ENCOUNTER_REBEL_JERRY_HELLO"/>
+				</event>
+			</choice>
+			<choice hidden="true" blue="true" req="REBEL_ID">
+				<text>(Forged Identification) Try to pass your ship for a rebel one.</text>
+				<event>
+					<text>"You... you really think I would fall for that? Wow..." The MFK Ace guard ends the call and moves in to attack.</text>
+					<ship hostile="true"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="unique_nights" blue="true" hidden="true">
+				<text>(Nights) Nights has something to say.</text>
+				<event>
+					<text>Nights chuckles, taking another swig of his beer. "Tell me...How do you expect to beat ussss without your fancy artillery?" He presses a big red button on a strange remote he carries behind his back.
+
+					"What? What are you talking about, you drunken slug?" The guard asks confused before a giant explosion cuts the call, with Nights cackling drunkely as the enemy's artilery is disabled temporarily.</text>
+					<ship hostile="true"/>
+					<enemyDamage amount="3" system="artillery" effect="fire"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="COMBAT_CHECK"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+
+<ship name="FR_SHIP_GUARD_WARZONE_REBEL" auto_blueprint="MU_REBEL_GUARD_SELITE">
+	<surrender min="999" max="999" load="FR_GUARD_WARZONE_REBEL_SIGNAL"/>
+	<destroyed load="FR_GUARD_WARZONE_REBEL_DESTROY"/>
+	<deadCrew load="FR_GUARD_WARZONE_REBEL_DEADCREW"/>
+	<crew>
+		<crewMember type="human_soldier" prop="0.5"/>
+		<crewMember type="human_mfk" prop="0.5"/>
+	</crew>
+</ship>
+
+<event name="FR_GUARD_WARZONE_REBEL_SIGNAL">
+	<text>It appears the guard ship is sending out a distress signal to a nearby ASB platform! Brace for impact!</text>
+	<choice hidden="true" req="PDS_DISABLE">
+		<text>(Signal Diluter) Jam their signal.</text>
+		<event>
+			<text>When no ASB activates, you assume that is a good sign that your augment has functioned properly, and you continue to fight.</text>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Suddenly you detect a shift in the Coalition fleet in the distance, its guns now pointing at the MFK Ace guard!</text>
+			<environment type="PDS" target="all"/>
+			<noASBPlanet/>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_GUARD_WARZONE_REBEL_DESTROY">
+	<text>You have defeated the MFK Ace guard. Whatever might have been in their cargo has for certain been destroyed, but you can at least salvage some supplies from the ship.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_GUARD_WARZONE_REBEL_FOLLOWUP"/>
+	</choice>
+</event>
+<event name="FR_GUARD_WARZONE_REBEL_DEADCREW">
+	<text>You have defeated the MFK Ace guard. Without crew on board to stop you, you can investigate their cargo. You find a Federation operative detained in their cargo-bay who you rescue, and move on to scrap their hull.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<crewMember amount="1" class="human_soldier" all_skills="2"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_GUARD_WARZONE_REBEL_FOLLOWUP"/>
+	</choice>
+</event>
+
+<event name="FR_GUARD_WARZONE_REBEL_FOLLOWUP">
+	<noQuestText/>
+	<removeHazards/>
+	<text>By killing the Rebel guard, you have no doubt caused them to dispatch reinforcements to track you down. Watch your step as you explore the sector. Though with how chaotic this sector is, there's a chance the forces here will be too busy to deal with you.</text>
+	<quest event="FR_REINFORCEMENTS_WARZONE_REBEL">
+		<nebulaBeacon>true</nebulaBeacon>
+		<nextSector>false</nextSector>
+		<nebulaEvent>FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_REBEL</nebulaEvent>
+		<createNebula>false</createNebula>
+		<aggressive>2</aggressive>
+	</quest>
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+<event name="FR_REINFORCEMENTS_WARZONE_REBEL">
+	<preventQuest/>
+	<beaconType id="map_icon_reinforcements" global="true" req="LOOT_COMPASS">
+		<color r="200" g="55" b="82" a="1"/>
+		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType>
+	<text>An Elite Rebel ship comes barreling towards you, its entire array of weapons ready to go. You assume this must be the ship sent by the guard to hunt you down and prepare to defend your ship.
+
+	However, before the fight can truly start, you detect that the Federation fleet in the distance has also turned its guns on the rebel ship. It's an all-out brawl now!</text>
+	<ship load="SHIP_REBELHOLD_REINFORCEMENTS" hostile="true"/>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_UNITY</customFleet>
+	<environment type="PDS" target="all"/>
+	<noASBPlanet/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_REBEL">
+	<preventQuest/>
+	<beaconType id="map_icon_reinforcements" global="true" req="LOOT_COMPASS">
+		<color r="200" g="55" b="82" a="1"/>
+		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType>
+	<text>An MFK Ace ship comes barreling towards you, its entire array of weapons ready to go. You assume this must be the ship sent by the guard to hunt you down and prepare to defend your ship.
+
+	However, before the fight can truly start, you detect that the Federation fleet in the distance has also turned its guns on the rebel ship. It's an all-out brawl now!</text>
+	<ship load="SHIP_REBELHOLD_REINFORCEMENTS" hostile="true"/>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_UNITY</customFleet>
+	<img back="BACK_EVENT_STARS_SPARSE"/>
+	<status type="loss" target="player" system="sensors" amount="1"/>
+	<environment type="PDS" target="all"/>
+	<noASBPlanet/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="FR_START_WARZONE_FEDERATION">
+	<metaVariable name="fr_juke_warzone" op="set" val="1"/>
+	<variable name="fr_sec_unique_warzone" op="set" val="1"/>
+	<preventQuest/>
+	<beaconType id="map_icon_start" global="false">
+		<color r="46" g="252" b="51" a="1"/>
+	</beaconType>
+	<text>This sector would have once been a safe haven for you and your crew, but ever since the Rebel attack and the sequential Coalition invasion, this sector has become a no man's land. If that wasn't bad enough, pirates have also been drawn into this place hoping to score easy scrap. Watch your step and always be on guard.</text>
+	<variable name="loc_unique_sectors" op="add" val="1"/>
+	<changeBackground>FR_BACK_SECTOR_WARZONE</changeBackground>
+	<playSound>lightspeed</playSound>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES_MFK_MIXED</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_UNITY</customFleet>
+	<ship load="FR_SHIP_GUARD_WARZONE_FEDERATION" hostile="false"/>
+	<choice hidden="true" req="rep_comb_federation" lvl="-999" max_lvl="2" max_group="0" blue="false">
+		<text>Continue...</text>
+		<event load="FR_START_WARZONE_FEDERATION_FRIENDLY"/>
+	</choice>
+	<choice hidden="true" req="rep_comb_federation" lvl="3" max_lvl="999" max_group="0" blue="false">
+		<text>Continue...</text>
+		<event load="FR_START_WARZONE_FEDERATION_CRIMINAL"/>
+	</choice>
+</event>
+
+<event name="FR_START_WARZONE_FEDERATION_FRIENDLY">
+	<text>By some miracle the Federation forces in this sector managed to weather the attacks from the Rebels and the Coalition enough to still have a elite guard present. Their weapons power on for a moment before they realize you aren't a threat "I'm sorry, renegade, we have all been on edge since the invasion started. We are short on manpower and ships but we do have a surpluss of weapons, if you are interested of course. Otherwise we can repair or refuel your ship."</text>
+	<choice>
+		<text>Request support.</text>
+		<event load="FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT"/>
+	</choice>
+	<choice>
+		<text>Attack the guard.</text>
+		<event>
+			<text>The guard's captain is shocked that you've turned on them. "I knew something was fishy about you! We won't let you step any further, you maniac renegade!"</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Ignore the guard.</text>
+		<event>
+			<text>You now have some time to do something on the ship.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT">
+	<text>The guard puts you on a secure line with one of the few surviving nearby support ships, who awaits your command.</text>
+	<choice req="unique_tully" hidden="true">
+		<text>(Tully) Request support.</text>
+		<event>
+			<text>The guard looks surprised. "Admiral Tully? What are you doing here?! This is an active warzone! Never mind, we'll give you everything we can possibly spare!"</text>
+			<damage amount="-10"/>
+			<item_modify>
+				<item type="fuel" min="5" max="5"/>
+				<item type="missiles" min="5" max="5"/>
+				<item type="drones" min="5" max="5"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice req="unique_turzil" hidden="true">
+		<text>(Turzil) Request support.</text>
+		<event>
+			<text>The guard smiles at seeing the Engi Brigade Leader. "Turzil, it's good to see a friendly face in our time of need. We hope your strategic mind can help us turn the tide of this battle just like it did back in first civil war! We'll give what we can."</text>
+			<damage amount="-10"/>
+			<item_modify>
+				<item type="fuel" min="5" max="5"/>
+				<item type="missiles" min="5" max="5"/>
+				<item type="drones" min="5" max="5"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice req="unique_mafan" hidden="true">
+		<text>(Mafan) Request support.</text>
+		<event>
+			<text>It takes the guard a moment to register who is in front of him. "Doctor, you have business in this sector? Please watch your step though, danger lurks around every corner here."</text>
+			<damage amount="-10"/>
+			<item_modify>
+				<item type="fuel" min="5" max="5"/>
+				<item type="missiles" min="5" max="5"/>
+				<item type="drones" min="5" max="5"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice req="unique_tyerel" hidden="true">
+		<text>(Ty E'rel) Request support.</text>
+		<event>
+			<text>The guard nods. "Of course, Ambassador. We'll send over whatever you need. I do hope your ship is well equiped however, a silver tongue won't do much good in this place..."</text>
+			<damage amount="-10"/>
+			<item_modify>
+				<item type="fuel" min="5" max="5"/>
+				<item type="missiles" min="5" max="5"/>
+				<item type="drones" min="5" max="5"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice req="unique_ruwen" hidden="true">
+		<text>(Ruwen) Request support.</text>
+		<event>
+			<text>The guard nods. "Of course, Ambassador. We'll send over whatever you need. I do hope your ship is well equiped however, a silver tongue won't do much good in this place..."</text>
+			<damage amount="-10"/>
+			<item_modify>
+				<item type="fuel" min="5" max="5"/>
+				<item type="missiles" min="5" max="5"/>
+				<item type="drones" min="5" max="5"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Weapon.</text>
+		<event>
+			<text>A resupply drone is dispatched to resupply your ship with a brand new weapon.</text>
+			<weapon name="GIFTLIST_FEDERATION"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Drone.</text>
+		<event>
+			<text>A resupply drone is dispatched to resupply your ship with a brand new drone.</text>
+			<drone name="GIFTLIST_ENGI"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Repairs.</text>
+		<event>
+			<text>Several repair drones are dispatched to repair you.</text>
+			<damage amount="-5"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Fuel.</text>
+		<event>
+			<text>A refueling drone is dispatched to refuel your ship.</text>
+			<item_modify>
+				<item type="fuel" min="3" max="3"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Ammo.</text>
+		<event>
+			<text>A resupply drone is dispatched to resupply your ship.</text>
+			<item_modify>
+				<item type="missiles" min="2" max="2"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Drone parts.</text>
+		<event>
+			<text>A resupply drone is dispatched to resupply your ship.</text>
+			<item_modify>
+				<item type="drones" min="2" max="2"/>
+			</item_modify>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_START_WARZONE_FEDERATION_CRIMINAL">
+	<text>Something seems off here. Usually, the Federation would certainly not bat an eye at a ship like yours, but now, you catch suspicious chatter on the guard ship.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>It seems your track record has caught up to you. The guard's crew have heard enough of the crimes you've been committing, and while they have their hands full at the moment, they can't risk letting you into the sector without a fight!</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<ship name="FR_SHIP_GUARD_WARZONE_FEDERATION" auto_blueprint="MU_FED_GUARD_ELITE">
+	<surrender min="999" max="999" load="FR_GUARD_WARZONE_FEDERATION_SIGNAL"/>
+	<destroyed load="FR_GUARD_WARZONE_FEDERATION_DESTROY"/>
+	<deadCrew load="FR_GUARD_WARZONE_FEDERATION_DEADCREW"/>
+</ship>
+
+<event name="FR_GUARD_WARZONE_FEDERATION_SIGNAL">
+	<text>It appears the guard ship is sending out a distress signal to a nearby ASB platform! Brace for impact!</text>
+	<choice hidden="true" req="PDS_DISABLE">
+		<text>(Signal Diluter) Jam their signal.</text>
+		<event>
+			<text>When no ASB activates, you assume that is a good sign that your augment has functioned properly, and you continue to fight.</text>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Suddenly you detect a shift in the Coalition and MFK fleets in the distance, its guns now pointing at the Federation guard!</text>
+			<environment type="PDS" target="all"/>
+			<noASBPlanet/>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_GUARD_WARZONE_FEDERATION_DESTROY">
+	<text>You have defeated the Federation guard. Whatever might have been in their cargo has for certain been destroyed, but you can at least salvage some supplies from the ship.</text>
+	<autoReward level="MED">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_GUARD_WARZONE_FEDERATION_FOLLOWUP"/>
+	</choice>
+</event>
+<event name="FR_GUARD_WARZONE_FEDERATION_DEADCREW">
+	<text>You have defeated the Federation guard. Without crew on board to stop you, you can investigate their cargo. You find a weapon to bring back to the ship, and move on to scrap their hull.</text>
+	<autoReward level="MED">standard</autoReward>
+	<weapon name="GIFTLIST_FEDERATION"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_GUARD_WARZONE_FEDERATION_FOLLOWUP"/>
+	</choice>
+</event>
+
+<event name="FR_GUARD_WARZONE_FEDERATION_FOLLOWUP">
+	<noQuestText/>
+	<removeHazards/>
+	<text>By killing the Federation guard, you have no doubt caused them to dispatch reinforcements to track you down. Watch your step as you explore the sector. Though with how chaotic this sector is, there's a chance the forces here will be too busy to deal with you.</text>
+	<quest event="FR_REINFORCEMENTS_WARZONE_FEDERATION">
+		<nebulaBeacon>true</nebulaBeacon>
+		<nextSector>false</nextSector>
+		<nebulaEvent>FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_FEDERATION</nebulaEvent>
+		<createNebula>false</createNebula>
+		<aggressive>2</aggressive>
+	</quest>
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+
+<event name="FR_REINFORCEMENTS_WARZONE_FEDERATION">
+	<preventQuest/>
+	<beaconType id="map_icon_reinforcements" global="true" req="LOOT_COMPASS">
+		<color r="200" g="55" b="82" a="1"/>
+		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType>
+	<text>You catch sight of a Federation ship, but they don't seem pleased to see you. "Turncoats! You should be ashamed!" The ship moves in to attack, and it doesn't take long for you to realize this is one of the ships sent by the guards to hunt you down for attacking.
+			
+	However, before the fight can truly start, you detect that the MFK and Coalition fleets in the distance has also turned its guns on the Federation ship. It's an all-out brawl now!</text>
+	<ship load="SHIP_FED_UNIQUE_REINFORCEMENTS" hostile="true"/>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES_MFK_MIXED</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_UNITY</customFleet>
+	<environment type="PDS" target="all"/>
+	<noASBPlanet/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_FEDERATION">
+	<preventQuest/>
+	<beaconType id="map_icon_reinforcements" global="true" req="LOOT_COMPASS">
+		<color r="200" g="55" b="82" a="1"/>
+		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType>
+	<text>You catch sight of a Federation ship, but they don't seem pleased to see you. "Turncoats! You should be ashamed!" The ship moves in to attack, and it doesn't take long for you to realize this is one of the ships sent by the guards to hunt you down for attacking.
+			
+	However, before the fight can truly start, you detect that the MFK and Coalition fleets in the distance has also turned its guns on the Federation ship. It's an all-out brawl now!</text>
+	<ship load="SHIP_FED_UNIQUE_REINFORCEMENTS" hostile="true"/>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES_MFK_MIXED</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_UNITY</customFleet>
+	<img back="BACK_EVENT_STARS_SPARSE"/>
+	<status type="loss" target="player" system="sensors" amount="1"/>
+	<environment type="PDS" target="all"/>
+	<noASBPlanet/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="FR_START_WARZONE_PIRATE">
+	<metaVariable name="fr_juke_warzone" op="set" val="1"/>
+	<variable name="fr_sec_unique_warzone" op="set" val="1"/>
+	<preventQuest/>
+	<beaconType id="map_icon_start" global="false">
+		<color r="46" g="252" b="51" a="1"/>
+	</beaconType>
+	<text>This sector would have once been a safe haven for you and your crew, but ever since the Rebel attack and the sequential Coalition invasion, this sector has become a no man's land. If that wasn't bad enough, pirates have also been drawn into this place hoping to score easy scrap. Watch your step and always be on guard.</text>
+	<variable name="loc_unique_sectors" op="add" val="1"/>
+	<changeBackground>FR_BACK_SECTOR_WARZONE</changeBackground>
+	<playSound>lightspeed</playSound>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES_MFK_MIXED</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_PIRATE</customFleet>
+	<ship load="FR_SHIP_GUARD_WARZONE_PIRATE" hostile="false"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>In a shocking turn of events, a group of pirates has somehow taken over the entry beacon. Whatever Federation resistance there was here has almost certainly been destroyed, leaving the outlaws to be able to let anyone they want to enter. Of course, the Rebels and the Coalition aren't exactly happy with this outcome, and so have been trying their hardest to break through the pirate's fleet.</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>The pirate guard soon hails you. On the video screen, a tall, strong woman with scars all over her arms greets you. "Ah, what do we have here, fellas? A Renegade? My, my, that's quite rare around these parts. Still flying that Federation banner, I see? Well, don't keep me from your important little journey. We aren't letting everyone through though. As I'm sure you are well aware, this sector is a bit of a hellzone. Although, if you give us some scrap, that might pull our attention away from this post for a bit." She chuckles menacingly and winks.</text>
+					<choice hidden="true">
+						<text>Prepare for combat!</text>
+						<event>
+							<text>You lock your weapons onto the guard and move in to attack.</text>
+							<ship hostile="true"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
+						</event>
+					</choice>
+					<choice>
+						<text>Pay the fee.</text>
+						<event>
+							<text>"Good choice, kid." The pirate nods before shutting off the call, the ship quickly moving to assist on the defense now that you are no longer in their way.</text>
+							<item_modify>
+								<item type="scrap" min="-50" max="-35"/>
+							</item_modify>
+						</event>
+					</choice>
+					<choice req="fr_unique_purple_beard" blue="true" hidden="true">
+						<text>(Purple Beard) "Let us pass....Sarah..."</text>
+						<event>
+							<text>She stares at Purple Beard for a few seconds before chuckling and shaking her head. "Whatever you say, boss. Here, for the road ahead." She winks and transfers over a weapon and some supplies.</text>
+							<autoReward level="HIGH">weapon</autoReward>
+							<autoReward level="MED">standard_no_item</autoReward>
+						</event>
+					</choice>
+					<choice req="unique_nights" blue="true" hidden="true">
+						<text>(Nights) Nights demands free passage!</text>
+						<event>
+							<text>"That'ssss where you're misssstaken, bucko. I am Captain Nightssss, and I will be passssing through your checkpoint without paying a ssssingle fragment of ssssscrap. The only quesssstion issss, will I be adding the hull of your sssship to my own richessss? Well? Do we underssstand each other?"
+
+							The guard growls, the ship's weapons powering on "You think I care about a slime like *you*?! You know what, forget the bribe, I want your *head*!"</text>
+							<autoReward level="HIGH">weapon</autoReward>
+							<autoReward level="MED">standard_no_item</autoReward>
+						</event>
+					</choice>
+					<choice hidden="true" req="unique_kaz">
+						<text>(Kazaaakplethkilik) Tell them they are in the presence of a legend.</text>
+						<event>
+							<text>"You are being in the presence of the great Kazaaakplethkilik Tiiikazpakaziiika! If you are not standing down, then your head will hit the floor before you are realizing I am cutting it off!"
+							
+							The guard gasps. "It... it's an honor. Of course, you may go as you please."
+							
+							"I am needing some extra scrap for your time. You are giving?"
+							
+							The guard sighs and meekly nods before giving the legendary pirate what he wants.</text>
+							<autoReward level="HIGH">scrap_only</autoReward>
+						</event>
+					</choice>
+					<choice hidden="true" req="unique_tuco">
+						<text>(Tuco) Intimidate the guard.</text>
+						<event>
+							<text>"Hah! You think a greenhorn like you can shake down the likes of me, the Dread Pirate Tuco?"
+							
+							"The Dread Pirate Tuco??"
+							
+							"You listen here. Not only may I go freely where I wish, I demand compensation for such an insult!"
+							
+							"Y-yes, of course, Tuco." The pirate guard dispenses some scrap your way.
+							
+							"Be seein' you."</text>
+							<autoReward level="MED">scrap_only</autoReward>
+						</event>
+					</choice>
+					<choice hidden="true" req="LIST_A55">
+						<text>(A55) Transmit access code.</text>
+						<event>
+							<text>"Arr, see this code? Do ye know who I am?"
+							
+							"Captain A55? What business do you have here?"
+							
+							"Ain't none o' yers! Bein' that I bring many a successful booty to these lands, best step aside, aye?"
+							
+							"Of course, A55. You can go as you please."
+							
+							"An' top us off while yer at it!"</text>
+							<autoReward level="MED">stuff</autoReward>
+						</event>
+					</choice>
+					<choice hidden="true" req="human_angel">
+						<text>(Angel Crew) "This ship is empowered by the Syndicate to go where it pleases."</text>
+						<event>
+							<text>The guard is profusely apologetic. "Of course, please allow us to present you with a tribute. That's a very nice ship that you've taken there."</text>
+							<autoReward level="MED">standard</autoReward>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+
+<ship name="FR_SHIP_GUARD_WARZONE_PIRATE" auto_blueprint="FR_LIST_SHIPS_PIRATE_GUARD_ELITE">
+	<surrender min="999" max="999" load="FR_GUARD_WARZONE_PIRATE_SIGNAL"/>
+	<destroyed load="FR_GUARD_WARZONE_PIRATE_DESTROY"/>
+	<deadCrew load="FR_GUARD_WARZONE_PIRATE_DEADCREW"/>
+</ship>
+
+<event name="FR_GUARD_WARZONE_PIRATE_SIGNAL">
+	<text>It appears the guard ship is sending out a distress signal to a nearby ASB platform! Brace for impact!</text>
+	<choice hidden="true" req="PDS_DISABLE">
+		<text>(Signal Diluter) Jam their signal.</text>
+		<event>
+			<text>When no ASB activates, you assume that is a good sign that your augment has functioned properly, and you continue to fight.</text>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Suddenly you detect a shift in the Coalition and MFK fleets in the distance, its guns now pointing at the Pirate guard!</text>
+			<environment type="PDS" target="all"/>
+			<noASBPlanet/>
+		</event>
+	</choice>
+</event>
+
+<event name="FR_GUARD_WARZONE_PIRATE_DESTROY">
+	<text>You have defeated the Elite Pirate guard. Whatever might have been in their cargo has for certain been destroyed, but you can at least salvage some supplies from the ship.</text>
+	<autoReward level="HIGH">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_GUARD_WARZONE_PIRATE_FOLLOWUP"/>
+	</choice>
+</event>
+<event name="FR_GUARD_WARZONE_PIRATE_DEADCREW">
+	<text>You have defeated the Elite Pirate guard. Without crew on board to stop you, you can investigate their cargo. You find a lot of supplies to bring back to the ship, and move on to scrap their hull.</text>
+	<autoReward level="HIGH">scrap_only</autoReward>
+	<item_modify>
+		<item type="fuel" min="10" max="10"/>
+		<item type="missiles" min="8" max="8"/>
+		<item type="drones" min="6" max="6"/>
+	</item_modify>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_GUARD_WARZONE_PIRATE_FOLLOWUP"/>
+	</choice>
+</event>
+
+<event name="FR_GUARD_WARZONE_PIRATE_FOLLOWUP">
+	<noQuestText/>
+	<removeHazards/>
+	<text>By killing the Elite Pirate guard, you have no doubt caused them to dispatch reinforcements to track you down. Watch your step as you explore the sector. Though with how chaotic this sector is, there's a chance the forces here will be too busy to deal with you.</text>
+	<quest event="FR_REINFORCEMENTS_WARZONE_PIRATE">
+		<nebulaBeacon>true</nebulaBeacon>
+		<nextSector>false</nextSector>
+		<nebulaEvent>FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_PIRATE</nebulaEvent>
+		<createNebula>false</createNebula>
+		<aggressive>2</aggressive>
+	</quest>
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+
+<ship name="FR_SHIP_PIRATE_REINFORCEMENTS_ELITE" auto_blueprint="LIST_SHIPS_PIRATE_ELITE_ALL">
+	<destroyed load="DESTROYED_REINFORCEMENTS"/>
+	<deadCrew load="DEADCREW_REINFORCEMENTS"/>
+</ship>
+
+<event name="FR_REINFORCEMENTS_WARZONE_PIRATE">
+	<preventQuest/>
+	<beaconType id="map_icon_reinforcements" global="true" req="LOOT_COMPASS">
+		<color r="200" g="55" b="82" a="1"/>
+		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType>
+	<text>You receive a hail from a elite pirate ship. "Hope you understand this is nothin' personal, but you killed our guard and that's something we just can't allow!"
+
+	However, before the fight can truly start, you detect that the Coalition and MFK fleets in the distance have also turned their guns on the pirate ship. It's an all-out brawl now!</text>
+	<ship load="FR_SHIP_PIRATE_REINFORCEMENTS_ELITE" hostile="true"/>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES_MFK_MIXED</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_PIRATE</customFleet>
+	<environment type="PDS" target="all"/>
+	<noASBPlanet/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_PIRATE">
+	<preventQuest/>
+	<beaconType id="map_icon_reinforcements" global="true" req="LOOT_COMPASS">
+		<color r="200" g="55" b="82" a="1"/>
+		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType>
+	<text>You receive a hail from a elite pirate ship. "Hope you understand this is nothin' personal, but you killed our guard and that's something we just can't allow!"
+
+	However, before the fight can truly start, you detect that the Coalition and MFK fleets in the distance have also turned their guns on the pirate ship. It's an all-out brawl now!</text>
+	<ship load="FR_SHIP_PIRATE_REINFORCEMENTS_ELITE" hostile="true"/>
+	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES_MFK_MIXED</customFleet>
+	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_PIRATE</customFleet>
+	<img back="BACK_EVENT_STARS_SPARSE"/>
+	<status type="loss" target="player" system="sensors" amount="1"/>
+	<environment type="PDS" target="all"/>
+	<noASBPlanet/>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event load="COMBAT_CHECK"/>

@@ -4,6 +4,7 @@ local vter = mods.fusion.vter
 
 local artillerySurges = {}
 artillerySurges["FR_ARTILLERY_COMMONWEALTH_B"] = "FR_ARTY_DRONE_SURGE"
+artillerySurges["FR_ARTILLERY_COMMONWEALTH_DAISY"] = "FR_ARTY_DAISY_DRONE_SURGE"
 artillerySurges["FR_ARTILLERY_ALT_WITHER_C"] = "FR_ARTY_BARRAGE_SURGE"
 artillerySurges["FR_ARTILLERY_TESTER_B"] = "FR_ARTY_TESTER_DRONE_SURGE"
 
@@ -48,6 +49,37 @@ enemyCrewToPlayerCrew["human_rebel_medic"] = "human_medic"
 enemyCrewToPlayerCrew["zoltan_osmian_enemy"] = "zoltan_osmian"
 enemyCrewToPlayerCrew["fr_bonus_augustus_enemy"] = "fr_bonus_augustus"
 enemyCrewToPlayerCrew["fr_bonus_prince_enemy"] = "fr_bonus_prince"
+
+-- Addon fellas
+enemyCrewToPlayerCrew["deeponecultist_enemy"] = "deeponecultist"
+enemyCrewToPlayerCrew["unique_thehunger_enemy"] = "unique_thehunger"
+enemyCrewToPlayerCrew["ddseraph_engi_enemy"] = "ddseraph_engi"
+enemyCrewToPlayerCrew["disparity_engihazard_enemy"] = "disparity_engihazard"
+enemyCrewToPlayerCrew["enlightened_horror_enemy"] = "enlightened_horror"
+enemyCrewToPlayerCrew["ddnightmare_rift_enemy"] = "ddnightmare_rift"
+enemyCrewToPlayerCrew["ddPOWEROFULTIMA_enemy"] = "ddPOWEROFULTIMA"
+enemyCrewToPlayerCrew["ddtempest_stormborn_spawn_enemy"] = "ddtempest_stormborn_spawn"
+enemyCrewToPlayerCrew["ddsoulplague_husk_human_enemy"] = "ddsoulplague_husk_human"
+enemyCrewToPlayerCrew["ddsoulplague_husk_crystal_enemy"] = "ddsoulplague_husk_crystal"
+enemyCrewToPlayerCrew["ddsoulplague_husk_engi_enemy"] = "ddsoulplague_husk_engi"
+enemyCrewToPlayerCrew["ddsoulplague_husk_zoltan_enemy"] = "ddsoulplague_husk_zoltan"
+enemyCrewToPlayerCrew["ddsoulplague_husk_orchid_enemy"] = "ddsoulplague_husk_orchid"
+enemyCrewToPlayerCrew["ddsoulplague_husk_mantis_enemy"] = "ddsoulplague_husk_mantis"
+enemyCrewToPlayerCrew["ddsoulplague_husk_rockman_enemy"] = "ddsoulplague_husk_rockman"
+enemyCrewToPlayerCrew["ddsoulplague_husk_slug_enemy"] = "ddsoulplague_husk_slug"
+enemyCrewToPlayerCrew["ddsoulplague_husk_shell_enemy"] = "ddsoulplague_husk_shell"
+enemyCrewToPlayerCrew["ddsoulplague_husk_lanius_enemy"] = "ddsoulplague_husk_lanius"
+enemyCrewToPlayerCrew["ddsoulplague_husk_deepone_enemy"] = "ddsoulplague_husk_deepone"
+enemyCrewToPlayerCrew["ddsoulplague_husk_ghost_enemy"] = "ddsoulplague_husk_ghost"
+enemyCrewToPlayerCrew["ddsoulplague_husk_leech_enemy"] = "ddsoulplague_husk_leech"
+enemyCrewToPlayerCrew["ddsoulplague_husk_obelisk_enemy"] = "ddsoulplague_husk_obelisk"
+enemyCrewToPlayerCrew["ddsoulplague_shellcultist_enemy"] = "ddsoulplague_shellcultist"
+enemyCrewToPlayerCrew["ddsoulplague_huskweaver_enemy"] = "ddsoulplague_huskweaver"
+enemyCrewToPlayerCrew["ddunique_theaberration_enemy"] = "ddunique_theaberration"
+enemyCrewToPlayerCrew["ddunique_theheroine_enemy"] = "ddunique_theheroine"
+enemyCrewToPlayerCrew["ddmanifestationofintegrity_enemy"] = "ddmanifestationofintegrity"
+enemyCrewToPlayerCrew["ddseraph_shell_enemy"] = "ddseraph_shell"
+
 
 -- Handle teleportation beams
 script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM, function(shipManager, projectile, location, damage, realNewTile, beamHitType)
@@ -152,3 +184,72 @@ function(ship, projectile, roomId, damage)
     end
     return Defines.Chain.CONTINUE
 end)
+
+-- Vin's Dot (made by sillysandvich and arc)
+mods.fr.flamedotweapons = {}
+local flamedotweapons = mods.fr.flamedotweapons 
+flamedotweapons["FR_VIN_MISSILE"] = true
+
+script.on_internal_event(Defines.InternalEvents.DAMAGE_AREA_HIT, function(shipManager, projectile, location, damage, shipFriendlyFire)
+    if flamedotweapons[projectile and projectile.extend.name] then
+        local roomId = get_room_at_location(shipManager, location, true)
+        for crew in vter(shipManager.vCrewList) do
+            local _, canBurn = crew.extend:CalculateStat(Hyperspace.CrewStat.CAN_BURN)
+            if roomId == crew.iRoomId then 
+                if canBurn then
+                    local fireDamageMultiplier, _ = crew.extend:CalculateStat(Hyperspace.CrewStat.FIRE_DAMAGE_MULTIPLIER)
+                    local vinfiredot = Hyperspace.StatBoostDefinition()
+                    vinfiredot.stat = Hyperspace.CrewStat.TRUE_HEAL_AMOUNT
+                    vinfiredot.amount = -10 * fireDamageMultiplier
+                    vinfiredot.duration = 10
+                    vinfiredot.maxStacks = 1
+                    vinfiredot.cloneClear = true
+                    vinfiredot.boostType = Hyperspace.StatBoostDefinition.BoostType.FLAT
+                    vinfiredot.boostSource = Hyperspace.StatBoostDefinition.BoostSource.CREW
+                    vinfiredot.shipTarget = Hyperspace.StatBoostDefinition.ShipTarget.ALL
+                    vinfiredot.crewTarget = Hyperspace.StatBoostDefinition.CrewTarget.ALL
+                    vinfiredot.realBoostId = Hyperspace.StatBoostDefinition.statBoostDefs:size()
+                    Hyperspace.StatBoostManager.GetInstance():CreateTimedAugmentBoost(Hyperspace.StatBoost(vinfiredot), crew)
+                end
+            end
+        end
+    end
+    return Defines.Chain.CONTINUE
+end)
+
+-- Phys Drone stun (By silly, lizzard and me)
+
+mods.fr.dronestungun = {}
+local dronestungun = mods.fr.dronestungun 
+dronestungun["FR_PHYS_BEAM"] = true
+
+script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM, function(shipManager, projectile, location, damage, realNewTile, beamHitType)
+    if dronestungun[projectile and projectile.extend.name] then
+        local roomId = get_room_at_location(shipManager, location, true)
+        local dronecontrol = shipManager:GetSystemRoom(4)
+        if roomId == dronecontrol and roomId ~= -1 then 
+            for crew in vter(shipManager.vCrewList) do
+                if crew:IsDrone() and crew.iShipId ~= projectile.ownerId then
+                    crew.fStunTime = math.max(crew.fStunTime, 5)
+                end
+            end
+            local OtherShipManager = Hyperspace.ships(1 - shipManager.iShipId)
+            for crew in vter(OtherShipManager.vCrewList) do
+                if crew:IsDrone() and crew.iShipId ~= projectile.ownerId then
+                    crew.fStunTime = math.max(crew.fStunTime, 5)
+                end
+            end
+            for drone in vter(shipManager.spaceDrones) do
+                drone.ionStun = math.max(drone.ionStun, 5)
+            end
+        end
+    end
+    return Defines.Chain.CONTINUE, beamHitType
+end)
+
+-- Augustus Gun fixes (By MV)
+
+mods.trc.burstMultiBarrel.FR_ARTILLERY_MATH_ADDER = {barrelOffset = 10, barrelCount = 2}
+mods.trc.burstMultiBarrel.FR_ARTILLERY_COALITION_FLAGSHIP_B_HULL_LASER = {barrelOffset = 8, barrelCount = 3}
+mods.trc.burstMultiBarrel.FR_AUGUSTUS_MISSILE = {barrelOffset = 5, barrelCount = 3}
+mods.trc.burstSpriteFixes.FR_AUGUSTUS_MISSILE = true

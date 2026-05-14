@@ -25,6 +25,12 @@
   </item_modify>
 </event>
 
+<event name="FR_AUGUSTUS_HEAL_LAB">
+  <item_modify>
+    <item type="scrap" min="-1" max="-1"/>
+  </item_modify>
+</event>
+
 <eventList name="FR_TRIRIAC_POSITIVE_EFFECT_LIST">
 	<event load="FR_TRIRIAC_EFFECT_FIRE"/>
 	<event load="FR_TRIRIAC_EFFECT_BREACH"/>
@@ -79,6 +85,19 @@
 </event>
 <event name="FR_TRIRIAC_EFFECT_HULL_HEAL">
 	<damage amount="-1"/>
+</event>
+
+<event name="FR_LIFEBLOOD_RECHARGE">
+	<superShields player="true" amount="2"/>
+</event>
+
+<event name="FR_TULLY_CALL_AIRSTRIKE_ENEMY">
+	<triggeredEvent event="FR_TULLY_CALL_AIRSTRIKE_SUPPORT_ENEMY" time="5" thisFight="true">
+		<warningMessage id="warning_power_surge" x="692" y="84" time="5.0" centerText="true" flash="true" sound="surgeWarning" useWarningLine="true"/>
+	</triggeredEvent>
+</event>
+<event name="FR_TULLY_CALL_AIRSTRIKE_SUPPORT_ENEMY">
+	<superBarrage player="false" name="TULLY_AIRSTRIKE"/>
 </event>
 
 </FTL>

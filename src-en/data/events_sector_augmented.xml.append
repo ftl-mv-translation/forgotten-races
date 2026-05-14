@@ -1,5 +1,6 @@
 <FTL>
 <event name="FR_ENHANCED_CHOICE" unique="true">
+	<distressBeacon/>
 	<text>Upon arriving at the beacon, you notice an Augmented ship chasing down a shuttle, blurting profanities through their open comms. "Thief! Steal rare meal!" Finally noticing your ship, they hail you. "Leaving shuttle to me, have traitor who eat rare meal, must eat them to make pay! Do not touch!"</text>
 	<ship load="SHIP_FR_QUEST_ENHANCED" hostile="false"/> 
 	<choice hidden="true">
@@ -17,7 +18,7 @@
 	<choice hidden="true">
 		<text>Leave the shuttle alone.</text>
 		<event>
-			<text>You respond to the Augmented ship that you have no intentions of aiding those in the shuttle. Eventually, you see the ship catch up to the shuttle and capture it, forcing its occupant back into the ship. The Augmented captain seems happy you didn't interfere, leaving a small offering before jumping away.</text>
+			<text>You tell the Augmented ship that you have no intention of aiding the shuttle. Eventually, you see them catch up to the shuttle and capture it, forcing its occupant back into the ship. The Augmented captain seems happy you didn't interfere, leaving a small offering before jumping away.</text>
 			<autoReward level="LOW">stuff</autoReward>
 			<choice>
 				<text>Do something onboard the ship.</text>
@@ -36,11 +37,11 @@
 	<choice hidden="true" req="fr_enhanced" lvl="1" max_group="0" blue="false">
 		<text>Continue...</text>
 		<event>
-			<text>The strange Lanius is beyond happy for your help. "Great one save Church from mean Augmented!" the Lanius exclaims, slightly bouncing up and down.
+			<text>The strange Lanius is overjoyed and thanks you for your help. "Great one save Church from mean Augmented!" the Lanius exclaims as it bobs up and down excitedly.
 
-			You reply that it was nothing, it didn't feel right to leave it to die like that.
+			You reply that it was nothing: it didn't feel right to leave them to die like that.
 				
-			"Modest too! Me come with to wherever! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
+			"Humble too! Me come with to wherever! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
 			<achievement silent="false">ACH_FR_EVENT_ENHANCED</achievement>
 			<unlockCustomShip silent="false">PLAYER_SHIP_FR_ENHANCED</unlockCustomShip>
 		</event>
@@ -64,9 +65,9 @@
 			<choice hidden="true" req="medbay" lvl="2" blue="true">
 				<text>(Upg. Medbay) Save them!</text>
 				<event>
-					<text>As quick as lightning, you and your crew transport the lanius into the medbay. Its upgraded abilities manage to reverse the decay and eventually stabilize the lanius. After fully recovering they jump with joy when they see you again.
+					<text>As quick as lightning, you and your crew transport the lanius into the medbay. Its upgraded abilities manage to reverse the decay and eventually stabilize the lanius. After fully recovering they jump for joy when they see you again.
 
-					"Saviour! Twice Saviour! You saved Church from death itself! Me fight you until the ends of universe! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
+					"Savior! Twice Savior! You saved Church from death itself! Me fight with you until the ends of universe! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
 					<crewMember amount="1" class="fr_enhanced">Church</crewMember>
 					<achievement silent="false">ACH_FR_EVENT_ENHANCED</achievement>
 					<unlockCustomShip silent="false">PLAYER_SHIP_FR_ENHANCED</unlockCustomShip>
@@ -75,9 +76,9 @@
 			<choice hidden="true" req="clonebay" lvl="2" blue="true">
 				<text>(Upg. Clone Bay) Save them!</text>
 				<event>
-					<text>As quick as lightning, you and your crew transport the lanius into the clonebay, having just enough time to register the lanius into it before they disolve into a puddle of metal. After the cloning process finishes and they step out of the clonebay, the lanius jumps with joy when they see you again.
+					<text>As quick as lightning, you and your crew transport the lanius into the clonebay, having just enough time to register the lanius into it before they disolve into a puddle of metal. After the cloning process finishes and they step out of the clonebay, the lanius jumps for joy when they see you again.
 
-					"Saviour! Twice Saviour! You saved Church from death itself! Me fight you until the ends of universe! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
+					"Savior! Twice Savior! You saved Church from death itself! Me fight with you until the ends of universe! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
 					<crewMember amount="1" class="fr_enhanced">Church</crewMember>
 					<achievement silent="false">ACH_FR_EVENT_ENHANCED</achievement>
 					<unlockCustomShip silent="false">PLAYER_SHIP_FR_ENHANCED</unlockCustomShip>
@@ -88,7 +89,7 @@
 				<event>
 					<text>As quick as lightning, your medical crew attempts to stabilize their condition. It's a close shave, but your crew is able to reverse the decay and eventually stabilize the lanius.
 
-					"Saviour! Twice Saviour! You saved Church from death itself! Me fight you until the ends of universe! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
+					"Savior! Twice Savior! You saved Church from death itself! Me fight with you until the ends of universe! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
 					<crewMember amount="1" class="fr_enhanced">Church</crewMember>
 					<achievement silent="false">ACH_FR_EVENT_ENHANCED</achievement>
 					<unlockCustomShip silent="false">PLAYER_SHIP_FR_ENHANCED</unlockCustomShip>
@@ -99,7 +100,7 @@
 				<event>
 					<text>As quick as lightning, your medical drone attempts to stabilize their condition. It's a close shave, but the drone is able to reverse the decay and eventually stabilize the lanius.
 
-					"Saviour! Twice Saviour! You saved Church from death itself! Me fight you until the ends of universe! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
+					"Savior! Twice Savior! You saved Church from death itself! Me fight with you until the ends of universe! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
 					<crewMember amount="1" class="fr_enhanced">Church</crewMember>
 					<achievement silent="false">ACH_FR_EVENT_ENHANCED</achievement>
 					<unlockCustomShip silent="false">PLAYER_SHIP_FR_ENHANCED</unlockCustomShip>
@@ -110,7 +111,7 @@
 				<event>
 					<text>As quick as lightning, you reach your weapon control system and fire the bomb at the room where the lanius resides. It's a close shave, but it explodes just in time to reverse the decay and stabilize the lanius.
 
-					"Saviour! Twice Saviour! You saved Church from death itself! Me fight you until the ends of universe! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
+					"Savior! Twice Savior! You saved Church from death itself! Me fight with you until the ends of universe! Also share cruiser blueprints, made it myself!" The Lanius pushes you aside and draws the blueprints for a strange blue Lanius cruiser by hand in the computer before thanking you once more.</text>
 					<crewMember amount="1" class="fr_enhanced">Church</crewMember>
 					<item_modify>
 						<item type="missiles" min="-1" max="-1"/>
