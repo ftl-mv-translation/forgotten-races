@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-05-14 10:58+0000\n"
-"Last-Translator: Aleev <aleev1414@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datahyperspace-xml-append/ru/>\n"
 "Language: ru\n"
@@ -1412,11 +1412,13 @@ msgid ""
 msgstr "ПОЖИРАТЕЛЬ"
 
 #: src-en/data/hyperspace.xml.append:5858
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_slimer_heal_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА :10с]\n"
-"\t\t\tНаносит 1 урон корпусу, полностью уничтожает систему и вызывает пробоину. Не может быть использовано на вражеском корабле."
+"\t\t\tНаносит 1 урон корпусу, полностью уничтожает систему и вызывает "
+"пробоину. Не может быть использовано на вражеском корабле."
 
 #: src-en/data/hyperspace.xml.append:5870
 msgid ""
@@ -1746,10 +1748,13 @@ msgid "data/hyperspace.xml.append$//powerEffect[@name=\"powerFreddy\"]/buttonTex
 msgstr "ФЕРОМОНЫ"
 
 #: src-en/data/hyperspace.xml.append:7707
+#, fuzzy
 msgid "data/hyperspace.xml.append$//powerEffect[@name=\"powerFreddy\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:25с ДЛИТЕЛЬНОСТЬ:10с]\n"
-"\t\t\t\tБлижайшие союзные богомолы получают эффект от своей способности \"феромоны\". Стандартные богомолы Улья будут использовать синтезированные феромоны Свободных Богомолов."
+"\t\t\t\tБлижайшие союзные богомолы получают эффект от своей способности "
+"\"феромоны\". Стандартные богомолы Улья будут использовать синтезированные "
+"феромоны Свободных Богомолов."
 
 #: src-en/data/hyperspace.xml.append:7920
 msgid ""
@@ -2375,11 +2380,13 @@ msgid ""
 msgstr "УСИЛЕНИЕ"
 
 #: src-en/data/hyperspace.xml.append:9914
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_weaver_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:20с ДЛИТЕЛЬНОСТЬ:10с]\n"
-"\t\t\tПолностью исцеляет себя и дает силу всем остальным дружественным паукам, увеличивая до 2х их урон на 10 секунд."
+"\t\t\tПолностью исцеляет себя и дает силу всем остальным дружественным "
+"паукам, увеличивая до 2х их урон на 10 секунд."
 
 #: src-en/data/hyperspace.xml.append:9936
 msgid ""
@@ -2776,6 +2783,7 @@ msgstr ""
 "\t\t\t\t\tВзламывает занятый отсек."
 
 #: src-en/data/hyperspace.xml.append:19418
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_slimer_heal_augment_power\"]/buttonText"
 msgstr "ПОЖИРАТЕЛЬ"
@@ -2808,6 +2816,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:19525
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_aleenor_augment_power\"]/buttonText"
 msgstr "БЕРСЕРК"
@@ -2823,6 +2832,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:19556
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_vin_speed_augment_power\"]/tooltip"
 msgstr ""
@@ -2830,6 +2840,7 @@ msgstr ""
 "\t\t\tВременно двигается с нормальной скоростью."
 
 #: src-en/data/hyperspace.xml.append:19583
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_vin_fire_augment_power\"]/buttonText"
 msgstr "СПЛАВ"
@@ -2840,6 +2851,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:19615
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_cleo_augment_power\"]/buttonText"
 msgstr "РЕМОНТ"
@@ -2870,6 +2882,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:19848
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_frostwall_augment_power\"]/buttonText"
 msgstr "БЛОКИРОВКА"
@@ -2910,48 +2923,63 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:20087
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_searak_augment_power\"]/buttonText"
 msgstr "СВЕРХНОВА"
 
 #: src-en/data/hyperspace.xml.append:20088
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_searak_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:25с]\n"
-"\t\t\tНачинает обратный отсчет времени до самоубийства. По окончании отсчета произойдет взрыв, который нанесет 150 ед. урона всем врагам в отсеке, а также вызовет пожар и нанесет 2 системного урона текущему отсеку. Если обратный отсчет прерван смертью, способность будет отменена. Не может быть активирована при оглушении или телепортации. \n"
-"\t\t\tВзрыв нанесет Сираку лишь 25 урона, и он не сможет действовать в течение 15 секунд."
+"\t\t\tНачинает обратный отсчет времени до самоубийства. По окончании отсчета "
+"произойдет взрыв, который нанесет 150 ед. урона всем врагам в отсеке, а "
+"также вызовет пожар и нанесет 2 системного урона текущему отсеку. Если "
+"обратный отсчет прерван смертью, способность будет отменена. Не может быть "
+"активирована при оглушении или телепортации. \n"
+"\t\t\tВзрыв нанесет Сираку лишь 25 урона, и он не сможет действовать в "
+"течение 15 секунд."
 
 #: src-en/data/hyperspace.xml.append:20132
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_augustus_augment_power\"]/buttonText"
 msgstr "ПРОДАНО"
 
 #: src-en/data/hyperspace.xml.append:20133
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_augustus_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:1с]\n"
-"\t\t\tЗаплатите 10 лома, чтобы полностью его исцелить. Всегда срабатывает, если он достигает 10 здоровья."
+"\t\t\tЗаплатите 10 лома, чтобы полностью его исцелить. Всегда срабатывает, "
+"если он достигает 10 здоровья."
 
 #: src-en/data/hyperspace.xml.append:20157
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_hatchling_augment_power\"]/buttonText"
 msgstr "МЕТАМОРФ"
 
 #: src-en/data/hyperspace.xml.append:20158
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_hatchling_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:20с]\n"
-"\t\t\tМетаморф превращается во взрослую форму, одновременно полностью исцеляясь."
+"\t\t\tМетаморф превращается во взрослую форму, одновременно полностью "
+"исцеляясь."
 
 #: src-en/data/hyperspace.xml.append:20184
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_adult_augment_power\"]/buttonText"
 msgstr "МЕТАМОРФ"
 
 #: src-en/data/hyperspace.xml.append:20185
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_adult_augment_power\"]/tooltip"
 msgstr ""
@@ -2959,18 +2987,22 @@ msgstr ""
 "\t\t\tМетаморф превращается в ткача, одновременно полностью исцеляясь."
 
 #: src-en/data/hyperspace.xml.append:20211
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_weaver_augment_power\"]/buttonText"
 msgstr "УСИЛЕНИЕ"
 
 #: src-en/data/hyperspace.xml.append:20212
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_weaver_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:20с ДЛИТЕЛЬНОСТЬ:10с]\n"
-"\t\t\tПолностью исцеляет себя и дает силу всем остальным дружественным паукам, увеличивая до 2х их урон на 10 секунд."
+"\t\t\tПолностью исцеляет себя и дает силу всем остальным дружественным "
+"паукам, увеличивая до 2х их урон на 10 секунд."
 
 #: src-en/data/hyperspace.xml.append:20251
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_prince_augment_power\"]/buttonText"
 msgstr "ТЬМА"
@@ -2996,11 +3028,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20341
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\tПревращается в копию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТАЛЛИ]"
+"\t\t\tПревращается в копию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТАЛЛИ]"
 
 #: src-en/data/hyperspace.xml.append:20362
 msgid ""
@@ -3008,11 +3043,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20363
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_tully_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ХЭЙНС]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ХЭЙНС]"
 
 #: src-en/data/hyperspace.xml.append:20385
 msgid ""
@@ -3020,11 +3058,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20386
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_haynes_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДЖЕРРИ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДЖЕРРИ]"
 
 #: src-en/data/hyperspace.xml.append:20408
 msgid ""
@@ -3032,11 +3073,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20409
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_jerry_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ЭЛЛИ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ЭЛЛИ]"
 
 #: src-en/data/hyperspace.xml.append:20431
 msgid ""
@@ -3044,11 +3088,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20432
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ellie_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СТЕФАН]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СТЕФАН]"
 
 #: src-en/data/hyperspace.xml.append:20454
 msgid ""
@@ -3056,11 +3103,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20455
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_stephan_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУРЗИЛ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУРЗИЛ]"
 
 #: src-en/data/hyperspace.xml.append:20477
 msgid ""
@@ -3068,11 +3118,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20478
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_turzil_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДЕВОРАК]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДЕВОРАК]"
 
 #: src-en/data/hyperspace.xml.append:20500
 msgid ""
@@ -3080,11 +3133,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20501
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_devorak_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АНУРАК]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АНУРАК]"
 
 #: src-en/data/hyperspace.xml.append:20523
 msgid ""
@@ -3092,11 +3148,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20524
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_anurak_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: КАЗ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: КАЗ]"
 
 #: src-en/data/hyperspace.xml.append:20546
 msgid ""
@@ -3104,11 +3163,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20547
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_kaz_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ФРЕДДИ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ФРЕДДИ]"
 
 #: src-en/data/hyperspace.xml.append:20569
 msgid ""
@@ -3116,11 +3178,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20570
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_freddy_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СИМБИОНТ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СИМБИОНТ]"
 
 #: src-en/data/hyperspace.xml.append:20592
 msgid ""
@@ -3128,11 +3193,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20593
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_symbiote_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ВОРТИГОНТ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ВОРТИГОНТ]"
 
 #: src-en/data/hyperspace.xml.append:20615
 msgid ""
@@ -3140,11 +3208,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20616
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_vortigon_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУКО]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУКО]"
 
 #: src-en/data/hyperspace.xml.append:20638
 msgid ""
@@ -3152,11 +3223,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20639
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_tuco_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АРИАДНА]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АРИАДНА]"
 
 #: src-en/data/hyperspace.xml.append:20661
 msgid ""
@@ -3164,11 +3238,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20662
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ariadne_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: РУВЕН]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: РУВЕН]"
 
 #: src-en/data/hyperspace.xml.append:20684
 msgid ""
@@ -3176,11 +3253,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20685
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ruwen_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДИАНЕШ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДИАНЕШ]"
 
 #: src-en/data/hyperspace.xml.append:20707
 msgid ""
@@ -3188,11 +3268,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20708
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_dianesh_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ОБИН]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ОБИН]"
 
 #: src-en/data/hyperspace.xml.append:20730
 msgid ""
@@ -3200,11 +3283,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20731
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_obyn_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: БИЛЛИ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: БИЛЛИ]"
 
 #: src-en/data/hyperspace.xml.append:20753
 msgid ""
@@ -3212,11 +3298,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20754
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_billy_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУМАН]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУМАН]"
 
 #: src-en/data/hyperspace.xml.append:20776
 msgid ""
@@ -3224,11 +3313,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20777
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_billy_box_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУМАН]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУМАН]"
 
 #: src-en/data/hyperspace.xml.append:20799
 msgid ""
@@ -3236,11 +3328,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20800
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_nights_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СЛОКНОГ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СЛОКНОГ]"
 
 #: src-en/data/hyperspace.xml.append:20822
 msgid ""
@@ -3248,11 +3343,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20823
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_slocknog_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ИРВИН]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ИРВИН]"
 
 #: src-en/data/hyperspace.xml.append:20845
 msgid ""
@@ -3260,11 +3358,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20846
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_irwin_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СИЛЬВАН]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СИЛЬВАН]"
 
 #: src-en/data/hyperspace.xml.append:20868
 msgid ""
@@ -3272,11 +3373,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20869
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_sylvan_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТОНИ СТАРШИЙ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТОНИ СТАРШИЙ]"
 
 #: src-en/data/hyperspace.xml.append:20891
 msgid ""
@@ -3284,11 +3388,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20892
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_tonysr_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТИРДЕО]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТИРДЕО]"
 
 #: src-en/data/hyperspace.xml.append:20914
 msgid ""
@@ -3296,11 +3403,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20915
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_tyrdeo_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АЛЬКРАМ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АЛЬКРАМ]"
 
 #: src-en/data/hyperspace.xml.append:20937
 msgid ""
@@ -3308,11 +3418,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20938
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_alkram_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АЛЬКАЛИ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АЛЬКАЛИ]"
 
 #: src-en/data/hyperspace.xml.append:20960
 msgid ""
@@ -3320,11 +3433,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20961
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_alkali_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: УДЖ]"
+"\t\t\t\tПревращается версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: УДЖ]"
 
 #: src-en/data/hyperspace.xml.append:20983
 msgid ""
@@ -3332,11 +3448,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20984
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ooj_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ПОМАЗАННИЦА]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, иммунитет к опасностям и возможность проходить сквозь "
+"двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ПОМАЗАННИЦА]"
 
 #: src-en/data/hyperspace.xml.append:21006
 msgid ""
@@ -3344,11 +3463,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21007
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_anointed_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ПОЖИРАТЕЛЬ МАЯКОВ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ПОЖИРАТЕЛЬ МАЯКОВ]"
 
 #: src-en/data/hyperspace.xml.append:21029
 msgid ""
@@ -3356,11 +3478,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21030
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_eater_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДЕССИУС]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДЕССИУС]"
 
 #: src-en/data/hyperspace.xml.append:21052
 msgid ""
@@ -3368,11 +3493,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21053
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_dessius_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: КОРОЛЕВА ПАУКОВ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: КОРОЛЕВА ПАУКОВ]"
 
 #: src-en/data/hyperspace.xml.append:21075
 msgid ""
@@ -3380,11 +3508,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21076
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_queen_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ГАНТПУТ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ГАНТПУТ]"
 
 #: src-en/data/hyperspace.xml.append:21098
 msgid ""
@@ -3392,11 +3523,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21099
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_guntput_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: МЕТЬЮНТ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: МЕТЬЮНТ]"
 
 #: src-en/data/hyperspace.xml.append:21121
 msgid ""
@@ -3404,11 +3538,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21122
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_metyunt_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ВИТЭР]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ВИТЭР]"
 
 #: src-en/data/hyperspace.xml.append:21144
 msgid ""
@@ -3416,11 +3553,14 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21145
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_wither_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:60с]\n"
-"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все его способности, а также иммунитет к опасностям и возможность проходить сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТАЛЛИ]"
+"\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
+"его способности, а также иммунитет к опасностям и возможность проходить "
+"сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТАЛЛИ]"
 
 #: src-en/data/hyperspace.xml.append:21934
 msgid ""
@@ -3455,12 +3595,14 @@ msgid ""
 msgstr "УДАР"
 
 #: src-en/data/hyperspace.xml.append:22815
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_TULLY\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:15с]\n"
-"\t\t\t\tВызывает бомбовый удар флота Федерации, поражающий системы и экипаж вражеского корабля."
+"\t\t\t\tВызывает бомбовый удар флота Федерации, поражающий системы и экипаж "
+"вражеского корабля."
 
 #: src-en/data/hyperspace.xml.append:23027
 msgid ""
@@ -3469,6 +3611,7 @@ msgid ""
 msgstr "БЛОКИРОВКА"
 
 #: src-en/data/hyperspace.xml.append:23028
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_RUWEN\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
@@ -3487,12 +3630,15 @@ msgid ""
 msgstr "БОМБА"
 
 #: src-en/data/hyperspace.xml.append:23151
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_SYLVAN\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:45с]\n"
-"\t\t\t\tРазмещает пробойную, ионную и изоляционную бомбу (30 урона по экипажу, 2 урона по системе, 5с оглушения, 3 ионного урона). Дружественного огня по экипажу нет, но может поразить ваши собственные системы."
+"\t\t\t\tРазмещает пробойную, ионную и изоляционную бомбу (30 урона по "
+"экипажу, 2 урона по системе, 5с оглушения, 3 ионного урона). Дружественного "
+"огня по экипажу нет, но может поразить ваши собственные системы."
 
 #: src-en/data/hyperspace.xml.append:23234
 msgid ""
@@ -3501,12 +3647,15 @@ msgid ""
 msgstr "АССИМИЛЯЦИЯ"
 
 #: src-en/data/hyperspace.xml.append:23235
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_ANOINTED\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:25с  ДЛИТЕЛЬНОСТЬ:15с]\n"
-"\t\t\t\tВосстанавливает полное здоровье и останавливает разложение, наносит 2 урона по корпусу и системе и получает следующие повышенные характеристики:\n"
+"\t\t\t\tВосстанавливает полное здоровье и останавливает разложение, наносит "
+"2 урона по корпусу и системе и получает следующие повышенные "
+"характеристики:\n"
 "\t\t\t\t-4x скорость передвижения, ремонта и саботажа\n"
 "\t\t\t\t-4x боевой урон\n"
 "\t\t\t\t-4 истощение кислорода/с\n"
