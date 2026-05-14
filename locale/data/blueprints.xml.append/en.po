@@ -152,8 +152,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:90
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_messenger\"]/powerList/power[1]"
-msgstr ""
-"100 Health, regenerates for 1.5 health per second even while in combat."
+msgstr "175 Health, regenerates for 5 health per second even while in combat."
 
 #: src-en/data/blueprints.xml.append:91
 msgid ""
@@ -402,12 +401,13 @@ msgstr "150 Health, can teleport anywhere on the current ship."
 #: src-en/data/blueprints.xml.append:204
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_deviser\"]/powerList/power[2]"
-msgstr "0.75x repair speed, 2x sabotage speed."
+msgstr ""
+"0.75x repair speed, 2x sabotage speed. Takes 0.8x damage in melee combat."
 
 #: src-en/data/blueprints.xml.append:205
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_deviser\"]/powerList/power[3]"
-msgstr "Deals 1.1x combat damage. Can't be stunned."
+msgstr "Deals 0.8x melee damage and 1.5x ranged damage. Can't be stunned."
 
 #: src-en/data/blueprints.xml.append:210
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_y\"]/title"
@@ -420,7 +420,7 @@ msgstr "Queen"
 #: src-en/data/blueprints.xml.append:212
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_y\"]/desc"
 msgstr ""
-"The absolute queen of the obelisk society who rules her subjects with aether-infused iron fists.\n"
+"The absolute queen of the Obelisk society who rules her subjects with aether-infused iron fists.\n"
 "\t\n"
 "\tInherited Obelisk Royal stats: is immune to fires and suffocation."
 
@@ -454,7 +454,7 @@ msgstr "Abs. Cognitive [D]"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_absolute_cognitive\"]/desc"
 msgstr ""
-"This extremely sophisticated AI made for queen Y herself can swap between multiple modes depending on the situation.\n"
+"This extremely sophisticated AI made for Queen Y herself can swap between multiple modes depending on the situation.\n"
 "\t\n"
 "\tInherited Advanced Cognitive stats: is immune to fires and suffocation, immune to mind control and sees adjacent rooms, starts at level 2 skills."
 
@@ -477,8 +477,8 @@ msgstr "CURRENT STANCE STATS:"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_absolute_cognitive\"]/powerList/power[4]"
 msgstr ""
-"3x repair speed, provides 2 power to the current allied room, slowly repairs"
-" itself, can teleport anywhere on the current ship."
+"3x repair speed, provides 2 power from the current allied room, slowly "
+"repairs itself, can teleport anywhere on the current ship."
 
 #: src-en/data/blueprints.xml.append:239
 msgid ""
@@ -499,7 +499,7 @@ msgstr "Abs. Cognitive [B]"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_absolute_cognitive_boarding\"]/desc"
 msgstr ""
-"This extremely sophisticated AI made for queen Y herself can swap between multiple modes depending on the situation.\n"
+"This extremely sophisticated AI made for Queen Y herself can swap between multiple modes depending on the situation.\n"
 "\n"
 "\tInherited Advanced Cognitive stats: is immune to fires and suffocation, immune to mind control and sees adjacent rooms, starts at level 2 skills."
 
@@ -522,7 +522,7 @@ msgstr "CURRENT STANCE STATS:"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_absolute_cognitive_boarding\"]/powerList/power[4]"
 msgstr ""
-"3x combat and sabotage damage/speed, drains 2 power to the current enemy "
+"3x combat and sabotage damage/speed, drains 2 power from the current enemy "
 "room, can teleport directly into the enemy ship."
 
 #: src-en/data/blueprints.xml.append:257
@@ -544,7 +544,7 @@ msgstr "Abs. Cognitive [A]"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_absolute_cognitive_auto\"]/desc"
 msgstr ""
-"This extremely sophisticated AI made for queen Y herself can swap between multiple modes depending on the situation.\n"
+"This extremely sophisticated AI made for Queen Y herself can swap between multiple modes depending on the situation.\n"
 "\t\t\t\n"
 "\tInherited Advanced Cognitive stats: is immune to fires and suffocation, immune to mind control and sees adjacent rooms, starts at level 2 skills."
 
@@ -573,13 +573,13 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_absolute_cognitive_auto\"]/powerList/power[5]"
 msgstr ""
-"Slowly repairs itsself out of combat. Drains 2 power of the current enemy "
+"Slowly repairs itself out of combat. Drains 2 power of the current enemy "
 "system and gives 2 power to the current allied system."
 
 #: src-en/data/blueprints.xml.append:276
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_absolute_cognitive_auto\"]/powerList/power[6]"
-msgstr "Can't be controled."
+msgstr "Can't be controlled."
 
 #: src-en/data/blueprints.xml.append:281
 msgid ""
@@ -995,7 +995,7 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_gozer\"]/desc"
 msgstr ""
 "The boss of the Haunts, a group of some of the most wanted criminals in the galaxy.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties"
+"\tInherited Vagabond stats: takes no damage from hazards, has door phasing properties"
 
 #: src-en/data/blueprints.xml.append:453
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_gozer\"]/title"
@@ -1026,8 +1026,7 @@ msgstr "Can't sabotage but deals 3x combat damage."
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_gozer\"]/powerList/power[4]"
 msgstr ""
-"Doubles the repair speed of other ally Haunts that are in the same room as "
-"him."
+"Doubles the repair speed of allied Haunts that are in the same room as him."
 
 #: src-en/data/blueprints.xml.append:467
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_CE_avatar\"]/desc"
@@ -1374,7 +1373,7 @@ msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_mantis_queen\"]/powerList/power[1]"
 msgstr ""
 "Her presence makes friendly crew in the same room deal 1.5x damage and take "
-"0.8x damage (Mantis have these buffs doubled)."
+"0.8x damage (Mantis have these buffs raised to 2x and 0.6x respectively)."
 
 #: src-en/data/blueprints.xml.append:655
 msgid ""
@@ -1461,7 +1460,7 @@ msgstr "25 Max Health, immune to hazards. Cannot be cloned."
 #: src-en/data/blueprints.xml.append:687
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_zoltan_osmian_hologram_weak\"]/powerList/power[2]"
-msgstr "Can man systems at lvl2 skill level."
+msgstr "Can man systems at lvl 2 skill level."
 
 #: src-en/data/blueprints.xml.append:692
 msgid ""
@@ -1555,7 +1554,7 @@ msgstr "G. Battle."
 #: src-en/data/blueprints.xml.append:728
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghostly_battledrone\"]/powerList/power"
-msgstr "50 Max Health, 3x movement speed, immune to hazards. Cannot sabotage."
+msgstr "50 Max Health, 3x movement speed, immune to hazards."
 
 #: src-en/data/blueprints.xml.append:733
 msgid ""
@@ -1610,8 +1609,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:754
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_specter\"]/powerList/power[2]"
-msgstr ""
-"Can phase through doors and moved at 1.5x speed. Doesn't use a crew slot."
+msgstr "Can phase through doors and moves at 1.5x speed."
 
 #: src-en/data/blueprints.xml.append:759
 msgid ""
@@ -1699,7 +1697,7 @@ msgid ""
 msgstr ""
 "The infamous Beam Master, and your long time nemesis. Now, with new-gen equipment!\n"
 "\t\t\n"
-"\tInherited Legionnaire stats: greatly resistant to suffocation and fire hazards, trained in lvl2 skills"
+"\tInherited Legionnaire stats: greatly resistant to suffocation and fire hazards, trained in lvl 2 skills"
 
 #: src-en/data/blueprints.xml.append:795
 msgid ""
@@ -1773,7 +1771,7 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/desc"
 msgstr ""
 "A brilliant Obelisk Royal who lost her sanity trying to reanimate her deceased friend.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Obelisk Royal stats: 0.75x speed, Max Health is increased to 300, 2x combat damage, repairs and puts out fires at 0.05x speed, is affected by Obelisk lab upgrades."
 
@@ -1789,8 +1787,8 @@ msgstr "Necrolich"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/powerList/power[1]"
 msgstr ""
-"Periodically becomes completely damage resistant but loses 80% of crew damage. \n"
-"\t\tOnly triggers if there's a hostile crew in the room."
+"Active Ability: Becomes completely damage resistant but loses 80% of crew "
+"damage."
 
 #: src-en/data/blueprints.xml.append:835
 msgid ""
@@ -1816,7 +1814,7 @@ msgid ""
 msgstr ""
 "One of the most loyal Bishops ever appointed, this fearsome warrior died while protecting the eggs under her care from a fire. Surprisingly reasonable, considering the reputation Mantis have.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from suffocation, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from suffocation, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Mantis Bishop stats: 2.2x combat damage, 0.07x repair speed, is affected by Mantis lab upgrades."
 
@@ -1834,8 +1832,8 @@ msgstr "Rev. Bishop"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/powerList/power[1]"
 msgstr ""
-"Periodically enters a berserk mode that damages all enemy crew and the current system.\n"
-"\t\tOnly triggers on enemy ship."
+"Active Ability: Enters a berserk mode that damages all enemy crew and the "
+"current system."
 
 #: src-en/data/blueprints.xml.append:854
 msgid ""
@@ -1856,7 +1854,7 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/desc
 msgstr ""
 "A Shell born from a disastrous genetic experiment that infused her with massive amounts of ion energy. Her existence is nothing but suffering.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Shell Guardian stat: 0.7x damage taken in crew combat, is affected by Shell lab upgrades."
 
@@ -1872,8 +1870,8 @@ msgstr "Rev. Guardian"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/powerList/power[1]"
 msgstr ""
-"Periodically deals 5 ion damage to systems in the room she stands in and fully repairs them. This will also stun everyone else in the room.\n"
-"\t\tOnly triggers in system rooms."
+"Active Ability: deals 5 ion damage to systems in the room she stands in and "
+"fully repairs them. This will also stun everyone else in the room."
 
 #: src-en/data/blueprints.xml.append:872
 msgid ""
@@ -1895,7 +1893,7 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/desc
 msgstr ""
 "An ex-MFK Ace who was tortured to death by his own ally. This event left him incredibly bitter towards all living things; he now solely relies on and trusts drones.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Human MFK stats: deals 2x damage in combat, starts at level 2 skills, is affected by Human lab upgrades."
 
@@ -1911,8 +1909,8 @@ msgstr "Rev. MFK"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/powerList/power[1]"
 msgstr ""
-"Periodically repairs all drones in the same room as him, healing them for 10 hp/s for 10 seconds. \n"
-"\t\tOnly triggers if there's a friendly crew in the room."
+"Active Ability: Repairs all drones in the same room as him, healing them for"
+" 10 hp/s for 10 seconds."
 
 #: src-en/data/blueprints.xml.append:891
 msgid ""
@@ -1937,7 +1935,7 @@ msgid ""
 msgstr ""
 "An ancient Slug king whose insatiable appetite eventually led to a fatal case of food poisoning caused by a nasty batch of hallucinogenic melons.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Slug Saboteur stats: telepathic powers, mind control immunity, is affected by Slug lab upgrades."
 
@@ -1955,8 +1953,8 @@ msgstr "Rev. Saboteur"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[1]"
 msgstr ""
-"Periodically eats a piece of other nearby enemy crew if they're in the room, healing himself in the process. \n"
-"\t\tOnly triggers if there's a hostile crew in the room."
+"Active Ability: Eats a piece of enemy crew in the room, healing himself in "
+"the process."
 
 #: src-en/data/blueprints.xml.append:910
 msgid ""
@@ -1969,7 +1967,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:911
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[3]"
-msgstr "150 Health, can't heal through normal means."
+msgstr "200 Health, can't heal through normal means."
 
 #: src-en/data/blueprints.xml.append:912
 msgid ""
@@ -1982,7 +1980,7 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/desc"
 msgstr ""
 "A brutish Rockman Paladin from the distant past who met an ironic demise, melting alive as his ship plummeted into a star. He now serves as G's chief enforcer.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Rock Paladin stats: heals at double speed, movement speed is massively reduced, immune to stun, is affected by Rock lab upgrades."
 
@@ -1997,9 +1995,7 @@ msgstr "Rev. Paladin"
 #: src-en/data/blueprints.xml.append:928
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/powerList/power[1]"
-msgstr ""
-"Periodically lights a fire in the current room. \n"
-"\t\tOnly triggers on enemy ship."
+msgstr "Active Ability: Lights a fire in the current room."
 
 #: src-en/data/blueprints.xml.append:929
 msgid ""
@@ -2023,7 +2019,7 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_zulu\"]/desc
 msgstr ""
 "The fanatical right-hand man of the Necrolich G, and technically the cause of everything Tartarus-related.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Lanius Welder stats: is affected by Lanius lab upgrades."
 
@@ -2039,7 +2035,7 @@ msgstr "Rev. Welder"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_zulu\"]/powerList/power[1]"
 msgstr ""
-"Periodically temporarily moves extremely slowly and has lower crew and "
+"Active Ability: Temporarily moves extremely slowly and has lower crew and "
 "sabotage damage, but instantly drains oxygen and regenerates the health of "
 "nearby friendly crew."
 
@@ -2068,7 +2064,7 @@ msgid ""
 msgstr ""
 "A once-famed Sentinel, this poor Crystal experienced first-hand how maddening whispers in the back of his head can be.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Crystal Sentinel stats: Max Health is increased to 135, movement speed reduced to 0.65x, is affected by Crystal lab upgrades."
 
@@ -2094,7 +2090,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:969
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_frostwall\"]/powerList/power[2]"
-msgstr "Deals 1.5x ranged damage."
+msgstr "Deals 2x ranged damage."
 
 #: src-en/data/blueprints.xml.append:970
 msgid ""
@@ -2109,7 +2105,7 @@ msgid ""
 msgstr ""
 "A treasure hunter renowned through the universe, whose last discovery caused her downfall.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Vampweed Cultivator stats: enemies heal 25% slower in the same room, produces oxygen very slowly, is affected by Orchid lab upgrades."
 
@@ -2147,7 +2143,7 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_pok\"]/des
 msgstr ""
 "An amalgamation of chaos energy and pure determination, this little Morph can perfectly copy the appearance of anyone just by looking at a photo of them.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Morph stats: is affected by Morph lab upgrades."
 
@@ -2165,8 +2161,8 @@ msgstr "Rev. Morph"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_pok\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1005
 msgid ""
@@ -2180,7 +2176,7 @@ msgid ""
 msgstr ""
 "An Engi, corrupted by a virus of unknown origin and an attempt to fuse with an actual soul. They now wander the Multiverse, seeking purpose for their existence.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Engi Defender stats: 0.35x combat damage, 2.7x repair speed, is affected by Engi lab upgrades."
 
@@ -2198,8 +2194,9 @@ msgstr "Rev. Defender"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_charror\"]/powerList/power[1]"
 msgstr ""
-"Periodically corrupts nearby robotic crew and drones, disabling their AI, making them uncontrollable, and preventing them from fighting, repairing or sabotaging. Also halves Charror's damage taken for the duration.\n"
-"\t\tOnly triggers if there's a hostile crew in the room."
+"Active Ability: Corrupts nearby robotic crew and drones, disabling their AI,"
+" making them uncontrollable, and preventing them from fighting, repairing or"
+" sabotaging. Also halves Charror's damage taken for the duration."
 
 #: src-en/data/blueprints.xml.append:1022
 msgid ""
@@ -2218,7 +2215,7 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_leo\"]/des
 msgstr ""
 "One of the most well-disciplined Amperes that the Eargen Republic had to offer. After being puppeteered by a much greater force, he now only wishes to have a peaceful afterlife.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Leech Ampere stats: Stunned for 1.75x the usual duration, is affected by Leech lab upgrades."
 
@@ -2236,8 +2233,10 @@ msgstr "Rev. Ampere"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_leo\"]/powerList/power[1]"
 msgstr ""
-"Periodically hacks the doors of the enemy system room they are in for 10 seconds. During that time, Leo gains 5x sabotage damage, damages enemies in the same room for 1.5 hp/s and becomes invisible at the cost of taking triple damage from all sources and being unable to fight or move.\n"
-"\t\tOnly triggers in enemy system rooms."
+"Active Ability: Hacks the doors of the enemy system room they are in for 10 "
+"seconds. During that time, Leo gains 5x sabotage damage, damages enemies in "
+"the same room for 1.5 hp/s and becomes invisible at the cost of taking "
+"triple damage from all sources and being unable to fight or move."
 
 #: src-en/data/blueprints.xml.append:1040
 msgid ""
@@ -2257,7 +2256,7 @@ msgid ""
 msgstr ""
 "One of the oldest Duskbringers, driven mad by a sabotaged clone bay. Now, he searches only for redemption and peace.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\t\n"
 "\tInherited Duskbringer Martyr stats: 15 crew damage on death, short-range teleportation, is affected by Zoltan lab upgrades."
 
@@ -2293,7 +2292,7 @@ msgstr "Takes 0.65x combat damage."
 #: src-en/data/blueprints.xml.append:1060
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_searak\"]/powerList/power[4]"
-msgstr "Can't be cloned. Heals 100x faster."
+msgstr "Clones at 5% speed. Heals 100x faster."
 
 #: src-en/data/blueprints.xml.append:1065
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_watcher\"]/desc"
@@ -2363,8 +2362,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1096
 msgid ""
@@ -2384,7 +2383,7 @@ msgstr "All allied crew in the same room will move in unison at x1.25 speed."
 #: src-en/data/blueprints.xml.append:1099
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tully\"]/powerList/power[5]"
-msgstr "Trained in lvl2 skills, takes half damage from hazards."
+msgstr "Trained in lvl 2 skills, takes half damage from hazards."
 
 #: src-en/data/blueprints.xml.append:1104
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/desc"
@@ -2404,8 +2403,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_haynes\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1111
 msgid ""
@@ -2440,8 +2439,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_jerry\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1125
 msgid ""
@@ -2469,8 +2468,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ellie\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1138
 msgid ""
@@ -2496,8 +2495,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_stephan\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1150
 msgid ""
@@ -2538,8 +2537,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_turzil\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1166
 msgid ""
@@ -2586,8 +2585,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anurak\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1182
 msgid ""
@@ -2633,8 +2632,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_devorak\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1198
 msgid ""
@@ -2671,8 +2670,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_kaz\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1212
 msgid ""
@@ -2705,8 +2704,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1225
 msgid ""
@@ -2719,22 +2718,22 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:1226
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[3]"
-msgstr "2x combat damage, 1x repair speed."
+msgstr "2x combat damage, 1x repair speed"
 
 #: src-en/data/blueprints.xml.append:1227
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[4]"
-msgstr "Takes 0.7x damage in combat, 1.65x speed."
+msgstr "Takes 0.7x damage from crew combat"
 
 #: src-en/data/blueprints.xml.append:1228
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[5]"
-msgstr "Learns skills much faster."
+msgstr "Movement speed is increased to 1.65x"
 
 #: src-en/data/blueprints.xml.append:1229
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[6]"
-msgstr "Learns skills much faster."
+msgstr "Learns skills much faster"
 
 #: src-en/data/blueprints.xml.append:1234
 msgid ""
@@ -2755,8 +2754,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_symbiote\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1242
 msgid ""
@@ -2786,8 +2785,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tuco\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1256
 msgid ""
@@ -2825,8 +2824,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ariadne\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1271
 msgid ""
@@ -2860,8 +2859,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_vortigon\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1285
 msgid ""
@@ -2898,8 +2897,8 @@ msgstr "Pok is currently mimicking Alkali."
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkali\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1300
 msgid ""
@@ -2931,8 +2930,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ruwen\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1314
 msgid ""
@@ -2976,8 +2975,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dianesh\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1330
 msgid ""
@@ -3014,8 +3013,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_nights\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1345
 msgid ""
@@ -3051,8 +3050,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_slocknog\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1360
 msgid ""
@@ -3092,8 +3091,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_irwin\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1376
 msgid ""
@@ -3124,8 +3123,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1390
 msgid ""
@@ -3160,8 +3159,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_billy_box\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1404
 msgid ""
@@ -3195,8 +3194,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tyrdeo\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1418
 msgid ""
@@ -3228,8 +3227,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_alkram\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1432
 msgid ""
@@ -3262,8 +3261,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_tonysr\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1446
 msgid ""
@@ -3303,8 +3302,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_dessius\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1461
 msgid ""
@@ -3339,8 +3338,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_eater\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1476
 msgid ""
@@ -3376,8 +3375,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_anointed\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1491
 msgid ""
@@ -3417,8 +3416,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_guntput\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1505
 msgid ""
@@ -3461,8 +3460,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_metyunt\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1520
 msgid ""
@@ -3504,8 +3503,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_queen\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1535
 msgid ""
@@ -3547,8 +3546,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_obyn\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1551
 msgid ""
@@ -3589,8 +3588,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_ooj\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1566
 msgid ""
@@ -3615,8 +3614,8 @@ msgstr "Pok is currently mimicking Wither."
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_wither\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1579
 msgid ""
@@ -3646,8 +3645,8 @@ msgstr "Pok"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_sylvan\"]/powerList/power[1]"
 msgstr ""
-"After 60 seconds, will transform into a version of a unique crew with all of"
-" their abilities plus hazard immunity and door phasing properties."
+"Active Ability: Transforms into a version of a unique crew with all of their"
+" abilities plus hazard immunity and door phasing properties."
 
 #: src-en/data/blueprints.xml.append:1593
 msgid ""
@@ -3676,7 +3675,9 @@ msgid ""
 msgstr ""
 "The richest Phantom to ever live. Blessed by an unnatural power that makes them stronger as their pockets fill.\n"
 "\t\n"
-"\tInherited Phantom stats: takes no damage from hazards, 0.8x speed, has door phasing properties"
+"\tInherited Specter stats: is affected by Specter lab upgrades.\n"
+"\t\n"
+"\tInherited Phantom stats: takes no damage from hazards, 0.8x speed, has door phasing properties, is affected by Vagabond lab upgrades"
 
 #: src-en/data/blueprints.xml.append:1612
 msgid ""
@@ -3726,7 +3727,9 @@ msgid ""
 msgstr ""
 "A pale imitation of the richest Phantom to ever live. Blessed by an unnatural power that makes them stronger as their pockets fill.\n"
 "\t\n"
-"\tInherited Phantom stats: takes no damage from hazards, 0.8x speed, has door phasing properties"
+"\tInherited Specter stats: is affected by Specter lab upgrades.\n"
+"\t\n"
+"\tInherited Phantom stats: takes no damage from hazards, 0.8x speed, has door phasing properties, is affected by Vagabond lab upgrades"
 
 #: src-en/data/blueprints.xml.append:1633
 msgid ""
@@ -3776,7 +3779,7 @@ msgid ""
 msgstr ""
 "The outcome of a desperate experiment, this fusion of an unknown lifeform and a spider is surprisingly self-aware.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\n"
 "\tInherited Hatchling Spider stats: 50 health, 0.10x repairs, is affected by Spider lab upgrades."
 
@@ -3794,8 +3797,8 @@ msgstr "U. Hatchling"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_hatchling\"]/powerList/power[1]"
 msgstr ""
-"Active Ability (Triggers Automatically): Fully heals this crew and reform to"
-" its previous form (Adult)."
+"Active Ability: Fully heals this crew and reform to its previous form "
+"(Adult)."
 
 #: src-en/data/blueprints.xml.append:1661
 msgid ""
@@ -3813,7 +3816,7 @@ msgid ""
 msgstr ""
 "Apparently the outcome of a desperate experiment, this fusion of an unknown lifeform and a spider is surprisingly self-aware.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\n"
 "\tInherited Adult Spider stats: 85 health, is affected by Spider lab upgrades."
 
@@ -3831,8 +3834,8 @@ msgstr "U. Adult"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_adult\"]/powerList/power[1]"
 msgstr ""
-"Active Ability (Triggers Automatically): Fully heals this crew and reform to"
-" its previous form (Weaver)."
+"Active Ability: Fully heals this crew and reform to its previous form "
+"(Weaver)."
 
 #: src-en/data/blueprints.xml.append:1679
 msgid ""
@@ -3858,7 +3861,7 @@ msgid ""
 msgstr ""
 "The outcome of a desperate experiment, this fusion of an unknown lifeform and a spider is surprisingly self-aware.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\n"
 "\tInherited Weaver Spider stats: 95 health, 0.8x movement speed, is affected by Spider lab upgrades."
 
@@ -3876,8 +3879,8 @@ msgstr "U. Weaver"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_sally_weaver\"]/powerList/power[1]"
 msgstr ""
-"Active Ability (Triggers Automatically): Fully heals this crew and empowers "
-"all other friendly spiders by giving them a 2x damage boost for 10 seconds."
+"Active Ability: Fully heals this crew and empowers all other friendly "
+"spiders by giving them a 2x damage boost for 10 seconds."
 
 #: src-en/data/blueprints.xml.append:1698
 msgid ""
@@ -3901,7 +3904,7 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_prince\"]/des
 msgstr ""
 "A enigmatic demonic Equinoid, summoned from the depths of Tartarus. This creature might appear to be mindless, but they know much more about the universe than they let on.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\n"
 "\tInherited Tamed Equinoid stats: Can be controlled, 0.3x repair speed."
 
@@ -3919,9 +3922,8 @@ msgstr "U. Equinoid"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_prince\"]/powerList/power[1]"
 msgstr ""
-"Active Ability (Triggers Automatically): Cloaks the room in darkness, "
-"nullifying all enemy crew ranged damage and setting their repair and "
-"sabotage speed to 0.25x."
+"Active Ability: Cloaks the room in darkness, nullifying all enemy crew "
+"ranged damage and setting their repair and sabotage speed to 0.25x."
 
 #: src-en/data/blueprints.xml.append:1717
 msgid ""
@@ -3940,7 +3942,7 @@ msgid ""
 msgstr ""
 "A enigmatic demonic Equinoid, summoned from the depths of Tartarus. This creature might appear to be mindless, but they know much more about the universe than they let on.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\n"
 "\tInherited Tamed Equinoid stats: Can be controlled, 0.3x repair speed."
 
@@ -3958,9 +3960,9 @@ msgstr "Unn. Equinoid"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_prince_enemy\"]/powerList/power[1]"
 msgstr ""
-"Active Ability (Triggers Automatically): Cloaks the room in darkness, "
-"nullifying all enemy crew ranged damage and setting their repair and "
-"sabotage speed to 0.25x. Becomes untargetable while in the room."
+"Active Ability: Cloaks the room in darkness, nullifying all enemy crew "
+"ranged damage and setting their repair and sabotage speed to 0.25x. Becomes "
+"untargetable while in the room."
 
 #: src-en/data/blueprints.xml.append:1735
 msgid ""
@@ -4036,7 +4038,7 @@ msgid ""
 msgstr ""
 "An unknown creature that haunts the higher planes in search of new thralls to bolster their enigmatic cause.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\n"
 "\tInherited Thing stats: 0.5x movement speed, duplicates if they die while not stunned."
 
@@ -4054,8 +4056,8 @@ msgstr "U. Thing"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac\"]/powerList/power[1]"
 msgstr ""
-"Active Ability (Triggers Automatically): Mind controls a random enemy crew "
-"in the same room as Tririac for 10 seconds."
+"Active Ability: Mind controls a random enemy crew in the same room as "
+"Tririac for 10 seconds."
 
 #: src-en/data/blueprints.xml.append:1783
 msgid ""
@@ -4081,7 +4083,7 @@ msgid ""
 msgstr ""
 "An unknown creature that haunts the higher planes in search of new thralls to bolster their enigmatic cause.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\n"
 "\tInherited Thing stats: 0.5x movement speed, duplicates if they die while not stunned."
 
@@ -4099,8 +4101,8 @@ msgstr "U. Thing"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac_enemy\"]/powerList/power[1]"
 msgstr ""
-"Active Ability (Triggers Automatically): Mind controls a random enemy crew "
-"in the same room as Tririac for 10 seconds."
+"Active Ability: Mind controls a random enemy crew in the same room as "
+"Tririac for 10 seconds."
 
 #: src-en/data/blueprints.xml.append:1802
 msgid ""
@@ -4121,7 +4123,7 @@ msgid ""
 msgstr ""
 "An unknown creature that haunts the higher planes in search of new thralls to bolster their enigmatic cause.\n"
 "\t\n"
-"\tInherited Vagabond Phantom stats: takes no damage from hazards, has door phasing properties, is affected by Vagabond Ghost lab upgrades.\n"
+"\tInherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.\n"
 "\n"
 "\tInherited Thing stats: 0.5x movement speed, duplicates if they die while not stunned."
 
@@ -4139,8 +4141,8 @@ msgstr "U. Thing"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac_noclone\"]/powerList/power[1]"
 msgstr ""
-"Active Ability (Triggers Automatically): Mind controls a random enemy crew "
-"in the same room as Tririac for 10 seconds."
+"Active Ability: Mind controls a random enemy crew in the same room as "
+"Tririac for 10 seconds."
 
 #: src-en/data/blueprints.xml.append:1820
 msgid ""
@@ -4339,7 +4341,7 @@ msgstr ""
 "\n"
 "\t\tStats:\n"
 "\t\tRequired Power: 3\n"
-"\t\tCharge Time: 30 seconds\n"
+"\t\tCharge Time: 20 seconds\n"
 "\n"
 "\t\tBeam Length: Pinpoint\n"
 "\t\tBeam Speed: 1\n"
@@ -4359,7 +4361,7 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_FOCUS\"]/tooltipOverride"
 msgstr ""
 "Required Power: 3\n"
-"\t\tCharge Time: 30 seconds\n"
+"\t\tCharge Time: 20 seconds\n"
 "\n"
 "\t\tBeam Length: Pinpoint\n"
 "\t\tBeam Speed: 1\n"
@@ -4404,8 +4406,9 @@ msgstr "⛼ Plasma"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_ION\"]/desc"
 msgstr ""
-"A highly advanced phaser charged with enough energy to overload systems, "
-"inflicting real damage as opposed to mere ionization."
+"A highly advanced phaser charged with enough energy to pierce all shields "
+"and ionize systems, also inflicting system damage as opposed to mere "
+"ionization."
 
 #: src-en/data/blueprints.xml.append:2334
 msgid ""
@@ -4953,7 +4956,7 @@ msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_ION\"]/desc"
 msgstr ""
 "This drone design precedes all other known schematics, and boasts a powerful"
-" phaser that can fully overload systems to inflict real damage."
+" phaser that can fully overload systems and bypass shields."
 
 #: src-en/data/blueprints.xml.append:3285
 msgid ""
@@ -5594,7 +5597,7 @@ msgstr ""
 "    \n"
 "-50 HP, 1.5x repair speed, 2x movement speed\n"
 "-Friendly crew in the same room as the mender will be immune to suffocation damage.\n"
-"-Enemy crew in the same room as the mender will be strip of their suffocation immunity and have their resistance set to 2x damage taken.\n"
+"-Enemy crew in the same room as the mender will be stripped of their suffocation immunity and have their resistance set to 2x damage taken.\n"
 "-Inflicts a 10s stun when destroyed"
 
 #: src-en/data/blueprints.xml.append:4555
@@ -5977,7 +5980,7 @@ msgstr ""
 
 #: src-en/data/blueprints.xml.append:5626
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PHYS_BEAM\"]/title"
-msgstr "'Physure'"
+msgstr "'Physure' Beam"
 
 #: src-en/data/blueprints.xml.append:5627
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PHYS_BEAM\"]/short"
@@ -5987,7 +5990,8 @@ msgstr "'Physure'"
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PHYS_BEAM\"]/desc"
 msgstr ""
 "A simple, yet powerful ion beam weapon, forged with a modicum of Phys' "
-"eternal suffering."
+"eternal suffering. Stuns all enemy drones if the beam hits drone control "
+"directly."
 
 #: src-en/data/blueprints.xml.append:5630
 msgid ""
@@ -6046,7 +6050,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:5752
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_VIN_MISSILE\"]/title"
-msgstr "'Prometheus' Burst Missiles"
+msgstr "'Prometheus' Missiles"
 
 #: src-en/data/blueprints.xml.append:5753
 msgid ""
@@ -6057,9 +6061,9 @@ msgstr "'Prometheus'"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_VIN_MISSILE\"]/desc"
 msgstr ""
-"Vin's pet project. Likely the hottest gun in the Multiverse, it charges and "
-"fires a barrage of missiles that inflict no system damage, but always start "
-"fires and temporarily make enemies vulnerable to fire."
+"Vin's pet project. Likely the hottest gun in the Multiverse, it fires a powerful missile that inflict low system damage, but always start fires and temporarily burns enemies over time, dealing 10 damage per second for 10 seconds which scales with the crew hit's fire damage taken. Negative fire resistance will cause crew hit to heal instead.\n"
+"\n"
+"\tNegative fire resistance will cause crew hit to heal instead."
 
 #: src-en/data/blueprints.xml.append:5758
 msgid ""
@@ -6140,10 +6144,10 @@ msgstr "Spectral [ATK]"
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_GHOSTLY_DRONE_BOARDER\"]/desc"
 msgstr ""
-"Cleo's pride and joy. A powerful boarding drone that can teleport around the enemy ship.\n"
+"[CURRENT MODE: Boarding] Cleo's pride and joy. A powerful boarding drone that can teleport around the enemy ship.\n"
 "    \n"
 "-150 HP, 2x movement speed\n"
-"-1.5x crew damage, can teleport within the ship its in."
+"-1.5x crew damage, can teleport within the ship it's in."
 
 #: src-en/data/blueprints.xml.append:5870
 msgid ""
@@ -6159,7 +6163,7 @@ msgstr "Spectral [DEF]"
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_GHOSTLY_DRONE_DEFEND\"]/desc"
 msgstr ""
-"Cleo's pride and joy. A powerful boarding drone that can teleport around the enemy ship.\n"
+"[CURRENT MODE: Anti-Personnel] Cleo's pride and joy. A powerful boarding drone that can teleport around the enemy ship.\n"
 "    \n"
 "-150 HP, 2x movement speed\n"
 "-1.5x crew damage, can teleport within the ship its in."
@@ -6513,19 +6517,21 @@ msgstr "YOU SHOULD NEVER SEE THIS."
 #: src-en/data/blueprints.xml.append:6819
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_CHARROR_DRONE\"]/title"
-msgstr "Debugger Drone"
+msgstr "'Debugger' Pinpoint Drone"
 
 #: src-en/data/blueprints.xml.append:6820
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_CHARROR_DRONE\"]/short"
-msgstr "Debug"
+msgstr "'Debugger'"
 
 #: src-en/data/blueprints.xml.append:6821
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_CHARROR_DRONE\"]/desc"
 msgstr ""
 "A beam drone, heavily modified by Charror. The energies of Tartarus flow "
-"through it, allowing it to apply all manner of chaos with every sweep."
+"through it, allowing it to hack any system room hit by it, though it cannot "
+"deal normal system damage. It cannot disrupt systems impeded by a Hacking "
+"drone."
 
 #: src-en/data/blueprints.xml.append:6836
 msgid ""
@@ -6550,20 +6556,20 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:6901
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SEARAK_ENERGY\"]/title"
-msgstr "Overdriven Energy Cannon"
+msgstr "Searak's Irradiation Energy Cannon"
 
 #: src-en/data/blueprints.xml.append:6902
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SEARAK_ENERGY\"]/short"
-msgstr "Over. E. C."
+msgstr "Rad Energy"
 
 #: src-en/data/blueprints.xml.append:6904
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SEARAK_ENERGY\"]/desc"
 msgstr ""
-"Searak's custom energy cannon deals system damage in addition to both hull "
-"and ion damage. The weapon can charge multiple shots, and fires all of them "
-"in a radius."
+"Searak's custom energy cannon which has been tuned to be able to deal heavy "
+"damage to crew in the room without sacrificing the usual benefits of energy "
+"weapons. Heavily weakens crew hit."
 
 #: src-en/data/blueprints.xml.append:6950
 msgid ""
@@ -6792,19 +6798,21 @@ msgstr "Arachno-Bomb"
 #: src-en/data/blueprints.xml.append:7460
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PRINCE_CANNON\"]/title"
-msgstr "Prince's Hell-Cannon"
+msgstr "Hell-Breacher Sentry Deployer"
 
 #: src-en/data/blueprints.xml.append:7461
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PRINCE_CANNON\"]/short"
-msgstr "Hell-Cannon"
+msgstr "Hell-Breach"
 
 #: src-en/data/blueprints.xml.append:7462
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PRINCE_CANNON\"]/desc"
 msgstr ""
-"A weapon of untold horror. For five seconds, crew struck by the missiles "
-"fired from it will be mutated into untamed Equinoids."
+"Opens a portal to Hell in the room hit. Any crew that passes through it will"
+" have their soul energy syphoned to power up the portal, summoning a demonic"
+" spawn in 5 seconds after entering the room. The portal will close in 20 "
+"seconds, but the demon can be recovered after the fight."
 
 #: src-en/data/blueprints.xml.append:7490
 msgid ""
@@ -7306,12 +7314,12 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:8468
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_GOZIODEON_GUILLOTINE\"]/title"
-msgstr "'Menaulion' Beam"
+msgstr "'Reaper' Beam"
 
 #: src-en/data/blueprints.xml.append:8469
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_GOZIODEON_GUILLOTINE\"]/short"
-msgstr "'Menaulion'"
+msgstr "'Reaper'"
 
 #: src-en/data/blueprints.xml.append:8470
 msgid ""
@@ -9656,7 +9664,7 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_ROYAL\"]/tooltip"
 msgstr ""
-"Fires a single blast that deals 4 ion and system damage an pierces 2 "
+"Fires a single blast that deals 4 ion and system damage and pierces 2 "
 "shields. 50% chance to start fires."
 
 #: src-en/data/blueprints.xml.append:12681
@@ -9721,15 +9729,15 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_MISSILE_COMMONWEALTH\"]/desc"
 msgstr ""
 "[Base cooldown: 52] Powers a devastating missile launcher that fires 3 "
-"missiles. Each missile deals 2 ion and 1 damage with a guaranteed fire or "
-"breach and a guaranteed stun.."
+"missiles. Each missile deals 2 ion and 1 damage with guaranteed fire or "
+"breach chance. Stun crew hit for 10 seconds on hit."
 
 #: src-en/data/blueprints.xml.append:12754
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_MISSILE_COMMONWEALTH\"]/tooltip"
 msgstr ""
-"Fires 3 missiles; 1 damage and 2 ion damage each; pierces all shields. High "
-"status chance."
+"Fires 3 missiles; 1 damage and 2 ion damage each; pierces all shields. "
+"Guaranteed fire/breach chance. Stun crew hit for 10 seconds on hit."
 
 #: src-en/data/blueprints.xml.append:12798
 msgid ""
@@ -9769,14 +9777,14 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_COMMONWEALTH\"]/desc"
 msgstr ""
 "[Base cooldown: 42] Powers a devastating plasma cannon that fires 3 plasma "
-"shots. Each plasma projectile deals 1 ion and system damage with full shield"
-" pierce, 20% fire chance, and 40% breach chance."
+"shots. Each plasma projectile deal 1 ion and system damage with full shield "
+"pierce, 20% fire chance, and 40% breach chance."
 
 #: src-en/data/blueprints.xml.append:12843
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_COMMONWEALTH\"]/tooltip"
 msgstr ""
-"Fires 3 plasma shots that deals 1 ion and system damage an pierces all "
+"Fires 3 plasma shots that deal 1 ion and system damage and pierces all "
 "shields."
 
 #: src-en/data/blueprints.xml.append:12884
@@ -9849,8 +9857,7 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_MISSILE_WITHER\"]/tooltip"
 msgstr ""
-"Fires 1 missiles; 1 damage; pierces all shields. Chains heavily after 1 "
-"shot."
+"Fires 1 missile; 1 damage; pierces all shields. Chains heavily after 1 shot."
 
 #: src-en/data/blueprints.xml.append:13001
 msgid ""
@@ -9896,7 +9903,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_WITHER\"]/tooltip"
 msgstr ""
-"Quickly Fires 5 plasma shots that deals 15 crew, 1 ion and system damage."
+"Quickly fires 5 plasma shots that deal 15 crew, 1 ion and system damage "
+"each."
 
 #: src-en/data/blueprints.xml.append:13083
 msgid ""
@@ -10008,15 +10016,15 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_G\"]/desc"
 msgstr ""
 "[Base cooldown: 40] Powers a strange plasma cannon that fires a burst of 6 "
-"ion shots. Each ion deals 1 ion damage in a wide radius with low erosion "
+"ion shots. Each ion deal 1 ion damage in a wide radius with low erosion "
 "damage."
 
 #: src-en/data/blueprints.xml.append:13284
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_G\"]/tooltip"
 msgstr ""
-"Fires a burst of 6 ion shots that deals 1 ion damage in a wide radius. Heavy"
-" erosion."
+"Fires a burst of 6 ion shots that deal 1 ion damage in a wide radius. Heavy "
+"erosion."
 
 #: src-en/data/blueprints.xml.append:13341
 msgid ""
@@ -10057,16 +10065,17 @@ msgstr "♕ Eradicator Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BEAM_Y\"]/desc"
 msgstr ""
-"[Base cooldown: 55] Powers a devastating beam that pierces all shields. The "
-"beam deals 1 hull damage with hullbust, poisons crew hit, and has a 25% "
-"chance to downgrade a targeted system by 1 level."
+"[Base cooldown: 55] A devastating beam that pierces all shields. Deals 1 "
+"hull damage with hullbust, [style[color:c200ff]]poisons[[/style]] crew with "
+"a 25% chance to downgrade the hit system by 1 level."
 
 #: src-en/data/blueprints.xml.append:13393
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BEAM_Y\"]/tooltip"
 msgstr ""
 "Beam weapon, 1 hull damage per room, pierces all shields, 25% chance to "
-"downgrade system by 1. Poisons Crew. Hullbuster."
+"downgrade systems by 1. [style[color:c200ff]]Poisons[[/style]] crew. "
+"Hullbuster."
 
 #: src-en/data/blueprints.xml.append:13435
 msgid ""
@@ -10082,16 +10091,18 @@ msgstr "♕ Carnage Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_MISSILE_Y\"]/desc"
 msgstr ""
-"[Base cooldown: 50] Powers a devastating missile launcher that fires 4 "
-"missiles. Each missile deals 2 hull damage with hullbust, poisons crew hit, "
-"and has a 50% chance to downgrade a targeted system by 3 levels."
+"[Base cooldown: 50] A devastating missile launcher that fires 4 missiles. "
+"Each deals 2 hull damage with hullbust and "
+"[style[color:c200ff]]poisons[[/style]] crew. 50% chance to downgrade the hit"
+" system by 3 levels."
 
 #: src-en/data/blueprints.xml.append:13438
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_MISSILE_Y\"]/tooltip"
 msgstr ""
 "Fires 4 missiles; 2 hull damage each; pierces all shields. 50% chance to "
-"downgrade system by 3. Poisons Crew. Hullbuster."
+"downgrade systems by 3. [style[color:c200ff]]Poisons[[/style]] crew. "
+"Hullbuster."
 
 #: src-en/data/blueprints.xml.append:13493
 msgid ""
@@ -10107,16 +10118,16 @@ msgstr "♕ Harbinger Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_LASER_Y\"]/desc"
 msgstr ""
-"[Base cooldown: 45] Powers a devastating laser that fires 7 lasers. Each "
-"laser deals 1 hull damage with hullbust, poisons crew hit, and has a 50% "
-"chance to downgrade a targeted system by 1 level."
+"[Base cooldown: 45] A devastating laser that fires 7 lasers. Each deals 1 "
+"hull damage with hullbust and [style[color:c200ff]]poisons[[/style]] crew. "
+"50% chance to downgrade the hit system by 1 level."
 
 #: src-en/data/blueprints.xml.append:13496
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_LASER_Y\"]/tooltip"
 msgstr ""
-"Fires 7 lasers, each dealing 1 hull damage. 50% chance to downgrade system "
-"by 1. Poisons Crew. Hullbuster."
+"Fires 7 lasers, each dealing 1 hull damage. 50% chance to downgrade systems "
+"by 1. [style[color:c200ff]]Poisons[[/style]] crew. Hullbuster."
 
 #: src-en/data/blueprints.xml.append:13544
 msgid ""
@@ -10132,16 +10143,17 @@ msgstr "♕ Plasma Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_Y\"]/desc"
 msgstr ""
-"[Base cooldown: 40] Powers a devastating plasma cannon that fires a single "
-"energy shot. The energy projectile deals 3 ion and 1 hull damage with "
-"hullbust, poisons crew hit, and downgrades the targeted system by 1 level."
+"[Base cooldown: 40] A devastating energy cannon that fires one energy shot. "
+"It deals 3 ion and 1 hull damage with hullbust and "
+"[style[color:c200ff]]poisons[[/style]] crew. Downgrades the hit system by 1 "
+"level."
 
 #: src-en/data/blueprints.xml.append:13547
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_ION_Y\"]/tooltip"
 msgstr ""
-"Fires a single blast that deals 3 ion and 1 hull damage. Downgrades system "
-"by 1. Poisons Crew. Hullbuster."
+"Fires a single blast that deals 3 ion and 1 hull damage. Downgrades systems "
+"by 1. [style[color:c200ff]]Poisons[[/style]] crew. Hullbuster."
 
 #: src-en/data/blueprints.xml.append:13597
 msgid ""
@@ -10157,16 +10169,17 @@ msgstr "♕ Payload Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BOMB_Y\"]/desc"
 msgstr ""
-"[Base cooldown: 60] Powers a devastating bomb launcher that fires 4 bombs. "
-"Each bomb deals 1 hull and 45 crew damage with hullbust, poisons crew hit, "
-"and downgrades the targeted system by 2 levels."
+"[Base cooldown: 60] A devastating bomb launcher that fires 4 bombs. Each "
+"deals 1 hull and 45 crew damage with hullbust and "
+"[style[color:c200ff]]poisons[[/style]] crew. Downgrades the hit system by 2 "
+"levels."
 
 #: src-en/data/blueprints.xml.append:13600
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_BOMB_Y\"]/tooltip"
 msgstr ""
-"Fires a 4 bomb salvo that deals 1 hull and 45 crew damage. Downgrades system"
-" by 2. Poisons Crew. Hullbuster."
+"Fires a 4 bomb salvo that deals 1 hull and 45 crew damage. Downgrades "
+"systems by 2. [style[color:c200ff]]Poisons[[/style]] crew. Hullbuster."
 
 #: src-en/data/blueprints.xml.append:13645
 msgid ""
@@ -10183,7 +10196,7 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_DREAD\"]/desc"
 msgstr ""
 "[Base cooldown: 30] A peculiar bomb launcher artillery which uses an "
-"electromagnetic payload. Shoots 5 bombs that deals 1 hull and 5 ion damage."
+"electromagnetic payload. Shoots 5 bombs that deal 1 hull and 5 ion damage."
 
 #: src-en/data/blueprints.xml.append:13648
 msgid ""
@@ -10215,7 +10228,7 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_BROKEN_A\"]/tooltip"
 msgstr ""
 "A powerful ancient salvo of 4 mines that deal 1 ion and 2 hull damage. "
-"Moderate status chance, no crew or system damage. Always stuns."
+"Moderate fire/breach chance, no crew or system damage. Always stuns."
 
 #: src-en/data/blueprints.xml.append:13730
 msgid ""
@@ -10262,8 +10275,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"ARTILLERY_WITHER\"]/tooltip"
 msgstr ""
-"Artillery: A powerful beam that applies erosion, fire and breach and pierces"
-" all shields."
+"Artillery: A powerful beam that applies erosion, fire and breach. Pierces "
+"all shields."
 
 #: src-en/data/blueprints.xml.append:13817
 msgid ""
@@ -10280,12 +10293,12 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER\"]/desc"
 msgstr ""
 "[Base cooldown: 40] A burst of 5 lasers shot in quick succession. Each deals"
-" 1 hull damage with hullbust."
+" 2 hull damage with hullbust."
 
 #: src-en/data/blueprints.xml.append:13820
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER\"]/tooltip"
-msgstr "Artillery: A burst of 5 1-damage lasers with hullbust."
+msgstr "Artillery: A burst of 5 2-damage lasers with hullbust."
 
 #: src-en/data/blueprints.xml.append:13855
 msgid ""
@@ -10354,8 +10367,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH\"]/tooltip"
 msgstr ""
-"Shoots 4 projectiles in an area, Deals 1 damage and ion, medium status "
-"chance."
+"Shoots 4 projectiles in an area that deal 1 damage and 1 ion damage, medium "
+"fire/breach chance."
 
 #: src-en/data/blueprints.xml.append:13980
 msgid ""
@@ -10395,15 +10408,15 @@ msgstr "Plasma Beam Art."
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_C\"]/desc"
 msgstr ""
-"[Base cooldown: 45] A short plasma beam that pierces all shields, dealing 3 "
-"ion and system damage and creating large amounts of hazards."
+"[Base cooldown: 45] A short plasma beam that pierces all shields, dealing 2 "
+"ion and 3 system damage and creating large amounts of hazards."
 
 #: src-en/data/blueprints.xml.append:14018
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_C\"]/tooltip"
 msgstr ""
 "Beam weapon, 2 ion damage and 3 system damage. Full shield pierce, "
-"guaranteed status chance."
+"guaranteed fire/breach chance."
 
 #: src-en/data/blueprints.xml.append:14050
 msgid ""
@@ -10502,49 +10515,54 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:14241
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_REVENANT_CLEO_B\"]/title"
-msgstr "Cleo's Overcharged Drone Pod Artillery"
+msgstr "Cleo's Combat Drone Artillery"
 
 #: src-en/data/blueprints.xml.append:14242
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_REVENANT_CLEO_B\"]/short"
-msgstr "Cleo O. Art."
+msgstr "Cleo D. Art."
 
 #: src-en/data/blueprints.xml.append:14243
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_REVENANT_CLEO_B\"]/desc"
 msgstr ""
-"[Base cooldown: 50] Fires a single drone pod that deploys a powerful battle "
-"drone on impact. It cannot miss."
+"[Base cooldown: 40] This one of a kind artillery can deploy 2 temporary Auto"
+" Loot laser combat drones that will attack the enemy ship when fired. The "
+"drones shoot 10 times before vanishing."
 
 #: src-en/data/blueprints.xml.append:14244
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_REVENANT_CLEO_B\"]/tooltip"
 msgstr ""
-"Fires 1 payload that becomes a heavily buffed crew at impact. Can't miss."
+"Deploy 2 temporary Auto Loot laser combat drones that will attack the enemy "
+"ship when fired. The drones shoot 10 times before vanishing."
 
 #: src-en/data/blueprints.xml.append:14280
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_REVENANT_CLEO_C\"]/title"
-msgstr "Cleo's Randomized Drone Pod Artillery"
+msgstr "Cleo's Atom Drone Artillery"
 
 #: src-en/data/blueprints.xml.append:14281
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_REVENANT_CLEO_C\"]/short"
-msgstr "Cleo O. Art."
+msgstr "Cleo A. Art."
 
 #: src-en/data/blueprints.xml.append:14282
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_REVENANT_CLEO_C\"]/desc"
 msgstr ""
-"[Base cooldown: 50] Fires 3 drone pods that each spawn a random, temporary "
-"boarding drone on impact. Has boosted accuracy."
+"[Base cooldown: 2.5] This unique artillery deploys a single Royal Atom drone"
+" before turning off for the encounter. Breaches on hit but deals no damage. "
+"Can't miss. The drone won't benefit from drone related bonuses and will self"
+" destruct on jump."
 
 #: src-en/data/blueprints.xml.append:14283
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_REVENANT_CLEO_C\"]/tooltip"
 msgstr ""
-"Fires 3 payloads that become a random boarding drone that lasts for a "
-"limited time on impact. 10% accuracy."
+"This unique artillery deploys a single Royal Atom drone before turning off "
+"for the encounter. Breaches on hit but deals no damage. The drone won't "
+"benefit from drone related bonuses and will self destruct on jump."
 
 #: src-en/data/blueprints.xml.append:14300
 msgid ""
@@ -10578,63 +10596,64 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL\"]/desc"
 msgstr ""
 "[Base cooldown: 40] Opens 2 rifts between Tartarus and the target. Each rift"
-" spawns a temporary ghost crew."
+" spawns a temporary specter crew."
 
 #: src-en/data/blueprints.xml.append:14380
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL\"]/tooltip"
 msgstr ""
 "Bomb artillery, sends 2 bombs that deal only erosion damage and summons 1 "
-"normal ghosts per bomb. They live for 20 seconds."
+"specter per bomb. They live for 20 seconds."
 
 #: src-en/data/blueprints.xml.append:14452
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B\"]/title"
-msgstr "Tartarean Ectoplasmic Artillery"
+msgstr "Tartarean Alliance Artillery"
 
 #: src-en/data/blueprints.xml.append:14453
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B\"]/short"
-msgstr "T. Ecto. Art."
+msgstr "T. All. Art."
 
 #: src-en/data/blueprints.xml.append:14454
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B\"]/desc"
 msgstr ""
-"[Base cooldown: 40] Opens 3 rifts that inflict a permanent, non-stacking "
-"erosion effect on the target system."
+"[Base cooldown: 50] Opens a rift that combines all the powers of the "
+"alliance. Inflicts standard erosion, mind controls crew hit for 10 seconds, "
+"breaches and locks down the room and spawns a specter."
 
 #: src-en/data/blueprints.xml.append:14455
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B\"]/tooltip"
 msgstr ""
-"Bomb artillery, sends 3 bombs that deal only erosion damage that lasts "
-"forever but doesn't stack."
+"Bomb artillery, sends 1 bomb; Inflicts standard erosion, mind controls crew "
+"hit for 10 seconds, breaches and locks down the room and spawns a specter."
 
 #: src-en/data/blueprints.xml.append:14538
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/title"
-msgstr "Tartarean Cursed Artillery"
+msgstr "Royal Cursed Artillery"
 
 #: src-en/data/blueprints.xml.append:14539
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/short"
-msgstr "T. Cursed Art."
+msgstr "R. Cursed Art."
 
 #: src-en/data/blueprints.xml.append:14540
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/desc"
 msgstr ""
-"[Base cooldown: 40] Opens a single, powerful rift from Tartarus, spawning "
-"any of the seven Reborn Revenants as a temporary ally. The summoned "
-"Revenants have a shortened power cooldown."
+"[Base cooldown: 50] Opens a single, powerful rift from Liythkyk Yuk, the "
+"Obelisk capital. it spawns an Obelisk noble that will fight for you for 20 "
+"seconds. Can't miss."
 
 #: src-en/data/blueprints.xml.append:14541
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/tooltip"
 msgstr ""
-"Bomb artillery, deals 2 system damage, summons 1 random normal Revenant. "
-"They live for 10 seconds and have shortened power cooldown speed."
+"Bomb artillery, spawns an Obelisk noble that will fight for you for 20 "
+"seconds. Can't miss."
 
 #: src-en/data/blueprints.xml.append:14593
 msgid ""
@@ -10660,7 +10679,7 @@ msgid ""
 msgstr ""
 "4 shot laser weapon, 4 system damage, 45 crew damage with full shield "
 "pierce, moderate breach but no hull damage. Crew hit by the laser can't be "
-"cloned or teleport."
+"cloned, healed or teleport."
 
 #: src-en/data/blueprints.xml.append:14660
 msgid ""
@@ -10683,8 +10702,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VORTEX_HOLOGRAM\"]/tooltip"
 msgstr ""
-"Bomb artillery, sends 3 bombs that deal 2 ion damage and summons a Osmian "
-"hologram that can't be controlled to fight for you in each bomb."
+"Bomb artillery, sends 3 bombs that deal 2 ion damage and summons an Osmian "
+"hologram that can't be controlled to fight for you."
 
 #: src-en/data/blueprints.xml.append:14724
 msgid ""
@@ -10755,8 +10774,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VISION\"]/tooltip"
 msgstr ""
-"A 5 mines burst that inflicts Extreme Madness on enemies, freezing them in "
-"place and making them be unable to act for 10 seconds. Can't miss."
+"A 5 mine burst that inflicts Extreme Madness on enemies, freezing them in "
+"place and making them unable to act for 10 seconds. Can't miss."
 
 #: src-en/data/blueprints.xml.append:14918
 msgid ""
@@ -10823,15 +10842,15 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_LASER\"]/desc"
 msgstr ""
 "[Base cooldown: 25] Fires a burst of 4 laser shots. Each laser deals 4 "
-"system damage, buffs Wentworth crew, and temporarily disables the ability to"
-" fight for non-Wentworth crew."
+"system damage, heals Wentworth crew for 2hp/s as well as temporarily "
+"disables the ability to fight for non-Wentworth crew for 5 seconds."
 
 #: src-en/data/blueprints.xml.append:14992
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_LASER\"]/tooltip"
 msgstr ""
-"4 lasers shots, 4 system damage, Non-Wentworth crew can't fight and "
-"Wentworth crew are healed for 5 seconds on hit."
+"4 laser shots, 4 system damage, non-Wentworth crew can't fight and Wentworth"
+" crew are healed for 2hp/s for 5 seconds on hit."
 
 #: src-en/data/blueprints.xml.append:15068
 msgid ""
@@ -10848,15 +10867,16 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_MISSILE\"]/desc"
 msgstr ""
 "[Base cooldown: 35] Fires a burst of 3 missiles. Each missile deals 3 system"
-" damage, buffs Wentworth crew, and temporarily disables the ability to fight"
-" for non-Wentworth crew."
+" damage, buffs Wentworth crew (1.3x damage and health, heal for 2hp/s), and "
+"temporarily disables the ability to fight for non-Wentworth crew."
 
 #: src-en/data/blueprints.xml.append:15071
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_MISSILE\"]/tooltip"
 msgstr ""
-"3 missile shots, 3 system damage, Non-Wentworth crew can't fight and "
-"Wentworth crew are buffed and healed for 10 seconds on hit."
+"3 missile shots, 3 system damage, non-Wentworth crew can't fight and "
+"Wentworth crew are buffed (1.3x damage and health) and healed (2hp/s) for 10"
+" seconds on hit."
 
 #: src-en/data/blueprints.xml.append:15186
 msgid ""
@@ -10873,15 +10893,15 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_BEAM\"]/desc"
 msgstr ""
 "[Base cooldown: 30] A beam artillery that deals 2 hull damage, has hullbust,"
-" and temporarily debuffs and disables the ability to fight for non-Wentworth"
-" crew."
+" and temporarily debuffs (0.7x damage and health) and disables the ability "
+"to fight for non-Wentworth crew for 10 seconds."
 
 #: src-en/data/blueprints.xml.append:15189
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_BEAM\"]/tooltip"
 msgstr ""
-"2 hull damage beam, hullbuster, Non-Wentworth crew can't fight and are "
-"heavily debuffed for 10 seconds."
+"2 hull damage beam, hullbuster, non-Wentworth crew can't fight and are "
+"heavily debuffed (0.7x damage and health) for 10 seconds."
 
 #: src-en/data/blueprints.xml.append:15278
 msgid ""
@@ -10898,15 +10918,16 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_ANTIMATTER\"]/desc"
 msgstr ""
 "[Base cooldown: 20] Fires a burst of 3 ion shots. Each blast deals 1 ion, "
-"hull and system damage, heals Wentworth crew, and disables the ability to "
-"fight for non-Wentworth crew."
+"hull and system damage, heals Wentworth crew for 2hp/s as well as "
+"temporarily disables the ability to fight for non-Wentworth crew for 5 "
+"seconds."
 
 #: src-en/data/blueprints.xml.append:15281
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_ANTIMATTER\"]/tooltip"
 msgstr ""
-"3 ion shots, 1 ion, hull and system damage, 20% accuracy, Non-Wentworth crew"
-" can't fight and Wentworth crew are healed for 5 seconds on hit."
+"3 ion shots, 1 ion, hull and system damage, 20% accuracy, non-Wentworth crew"
+" can't fight and Wentworth crew are healed by 2hp/s for 5 seconds on hit."
 
 #: src-en/data/blueprints.xml.append:15358
 msgid ""
@@ -10930,8 +10951,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_LASER\"]/tooltip"
 msgstr ""
-"4 lasers shots, 2 damage and 60 crew damage, enemies of the federation takes"
-" double crew damage."
+"4 laser shots, 2 damage and 60 crew damage, enemies of the Federation take "
+"double crew damage."
 
 #: src-en/data/blueprints.xml.append:15438
 msgid ""
@@ -10956,7 +10977,7 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_MISSILE\"]/tooltip"
 msgstr ""
 "3 missile shots, 2 hull, 5 system and 75 crew damage, enemies of the "
-"federation takes double crew damage."
+"Federation take double crew damage."
 
 #: src-en/data/blueprints.xml.append:15521
 msgid ""
@@ -10981,7 +11002,7 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_BEAM\"]/tooltip"
 msgstr ""
 "1 damage beam, 30 crew damage, hullbuster, pierces all shields, enemies of "
-"the federation takes double crew damage."
+"the Federation take double crew damage."
 
 #: src-en/data/blueprints.xml.append:15595
 msgid ""
@@ -11006,7 +11027,7 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_TULLY_FLAGSHIP_ENERGY\"]/tooltip"
 msgstr ""
 "3 energy shots, 1 hull and 2 ion damage, 30 crew damage, enemies of the "
-"federation takes double crew damage."
+"Federation take double crew damage."
 
 #: src-en/data/blueprints.xml.append:15681
 msgid ""
@@ -11064,7 +11085,7 @@ msgstr "Rebel Missile Artillery"
 #: src-en/data/blueprints.xml.append:15765
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"ARTILLERY_REBEL_MISSILE_ENEMY\"]/short"
-msgstr "Artillery."
+msgstr "Artillery"
 
 #: src-en/data/blueprints.xml.append:15766
 msgid ""
@@ -11110,7 +11131,7 @@ msgstr "Frozen Crystal"
 #: src-en/data/blueprints.xml.append:15842
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_FROZEN_CRYSTAL_SHARDS\"]/desc"
-msgstr "CARBON CRYSTAL VENG PROJECTILE"
+msgstr "FROZEN CRYSTAL VENG PROJECTILE"
 
 #: src-en/data/blueprints.xml.append:15886
 msgid ""
@@ -11125,7 +11146,7 @@ msgstr "Frozen Crystal"
 #: src-en/data/blueprints.xml.append:15888
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_FROZEN_CRYSTAL_SHARDS_ENEMY\"]/desc"
-msgstr "CARBON CRYSTAL VENG PROJECTILE"
+msgstr "FROZEN CRYSTAL VENG PROJECTILE"
 
 #: src-en/data/blueprints.xml.append:15930
 msgid ""
@@ -11390,7 +11411,7 @@ msgid ""
 msgstr ""
 "A Beam drone capable of disabling the enemy ship by itself, but only if the "
 "shields are down. Inflicts Absolute Madness on enemies which freezes them in"
-" place and makes them be unable to act for 5 seconds."
+" place and makes them unable to act for 5 seconds."
 
 #: src-en/data/blueprints.xml.append:16697
 msgid ""
@@ -11460,7 +11481,7 @@ msgstr "YOU SHOULD NEVER SEE THIS."
 #: src-en/data/blueprints.xml.append:17055
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_SURGE\"]/title"
-msgstr "Overcharge Commonwealth Harbinger Drone Mk. II"
+msgstr "Overcharged Commonwealth Harbinger Drone Mk. II"
 
 #: src-en/data/blueprints.xml.append:17056
 msgid ""
@@ -11607,7 +11628,7 @@ msgstr "Aether Forge"
 #: src-en/data/blueprints.xml.append:17240
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AETHER_FORGE\"]/desc"
 msgstr ""
-"This augment allows you to consume large quantities of resources, creating Commonwealth technology as a task. \n"
+"This augment allows you to consume large quantities of resources to create Commonwealth technology. \n"
 "\t\n"
 "\tThe forge also unleashes nanomachines that eat through boarders, dealing 3 hp/s to all enemy crew onboard."
 
@@ -11620,7 +11641,7 @@ msgstr "Aether Forge"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AETHER_FORGE_UNLOCKED\"]/desc"
 msgstr ""
-"This augment allows you to consume large quantities of resources, creating Commonwealth technology as a task. \n"
+"This augment allows you to consume large quantities of resources to create Commonwealth technology. \n"
 "\t\n"
 "\tThe forge also unleashes nanomachines that eat through boarders, dealing 3 hp/s to all enemy crew onboard."
 
@@ -11676,8 +11697,8 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_IONIZER\"]/desc"
 msgstr ""
 "An extremely advanced overcharger system that doubles all ion damage dealt "
-"by your weapons and artillery. This augment can't increase the ion damage "
-"dealt by any given shot beyond 9."
+"by your non-beam weapons and artillery. This augment can't increase the ion "
+"damage dealt by any given shot beyond 9."
 
 #: src-en/data/blueprints.xml.append:17300
 msgid ""
@@ -11689,8 +11710,8 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_IONIZER_UNLOCKED\"]/desc"
 msgstr ""
 "An extremely advanced overcharger system that doubles all ion damage dealt "
-"by your weapons and artillery. This augment can't increase the ion damage "
-"dealt by any given shot beyond 9."
+"by your non-beam weapons and artillery. This augment can't increase the ion "
+"damage dealt by any given shot beyond 9."
 
 #: src-en/data/blueprints.xml.append:17310
 msgid ""
@@ -11732,9 +11753,9 @@ msgstr ""
 "\t- 5% faster weapon charge.\n"
 "\t- 10% faster shield charge.\n"
 "\t- 15% faster FTL Drive charge.\n"
-"\t- 5% hull resist chance, 5% system resist chance, and 25% ion resist chance.\n"
-"\t- Friendly crew and drones in your ship constantly heal 1 hp/s.\n"
-"\t- Enemy crew and drones in your ship constantly take 1 hp/s in damage."
+"\t- 15% hull resist chance, 15% system resist chance, and 50% ion resist chance.\n"
+"\t- Friendly crew and drones in your ship constantly heal 3 hp/s.\n"
+"\t- Enemy crew and drones in your ship constantly take 5 hp/s in damage."
 
 #: src-en/data/blueprints.xml.append:17343
 msgid ""
@@ -11807,18 +11828,17 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:17397
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_RUES_ROYAL_PLATING\"]/title"
-msgstr "R.U.E.S. Exp. Plating"
+msgstr "R.U.E.S. Roy. Plating"
 
 #: src-en/data/blueprints.xml.append:17398
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_RUES_ROYAL_PLATING\"]/desc"
 msgstr ""
 "An attempt to fuse every signature augment of the factions that make up the Coalition. As a result, this unique hull armor provides several bonuses.\n"
-"\t- 20% hull resist chance, 20% system resist chance, 50% ion resistance chance.\n"
+"\t- 20% hull resist chance. Incoming projectiles that deal 1 damage have a 40% chance to be negated, and all other damage is reduced by 1.\n"
 "\t- Automatically repairs breaches on your ship.\n"
-"\t- Friendly crew in empty rooms take 20% less damage from all sources and 25% reduced stun duration.\n"
-"\t- For each powered level of Life Support, friendly crew gain an additional 15% combat damage, 20% movement speed, 5% maximum health, and 10% faster power charge rate.\n"
-"\t- 30% reduction to enemy sabotage speed.\n"
+"\t- Friendly crew in empty rooms have 35% combat resistance and 50% hazard and stun resistance.\n"
+"\t- For each powered level of Life Support, friendly crew gain an additional 25% movement speed, 6.25% maximum health, and reduces active ability cooldowns by 15%.\n"
 "\t- Provides an opportunity to ram enemies before combat."
 
 #: src-en/data/blueprints.xml.append:17412
@@ -12067,9 +12087,8 @@ msgstr "Radioactive Black Hole"
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_OSMIAN_VORTEX\"]/desc"
 msgstr ""
 "This ship sources its power from a black hole which emits extreme amounts of"
-" radiation. The black hole lowers enemy maximum health, repair and healing "
-"speed depending on your reactor level, the debuffs starts off weak but ramps"
-" up quickly on the later levels."
+" radiation. The black hole lowers enemy maximum health, repair, and healing "
+"speed depending on your reactor level."
 
 #: src-en/data/blueprints.xml.append:17626
 msgid ""
@@ -12081,9 +12100,8 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_OSMIAN_VORTEX_HOLOGRAM\"]/desc"
 msgstr ""
 "This ship sources its power from a white hole which emits extreme amounts of"
-" hard light. All allied holograms give double power, their life, damage, "
-"repair, movement and sabotage speed scale with reactor levels, the higher "
-"the level the bigger the boost."
+" hard light. All allied holograms give double power and their life, damage, "
+"repair, movement and sabotage speed scale with reactor levels."
 
 #: src-en/data/blueprints.xml.append:17635
 msgid ""
@@ -12097,7 +12115,6 @@ msgstr ""
 "This ship sources its power from a space anomaly which emits extreme amounts"
 " of life energy. The vortex boosts the maximum health of all allied crew as "
 "well as healing them anywhere constantly, both effects scaling depending on "
-"your reactor level, with the effects getting stronger per level the higher "
 "your reactor level."
 
 #: src-en/data/blueprints.xml.append:17644
@@ -12163,8 +12180,7 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FRIEND_MAKER_SHIELD\"]/desc"
 msgstr ""
 "An energy shield unit crafted as Jerry's latest summer project. It has an "
-"integrity of 12 hitpoints, and increases enemy weapon charge requirement by "
-"10%."
+"integrity of 12 hitpoints, and increases enemy weapon charge time by 10%."
 
 #: src-en/data/blueprints.xml.append:17690
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_TULLY_SHIELD\"]/title"
@@ -12187,7 +12203,7 @@ msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MFK_TRAINING\"]/desc
 msgstr ""
 "A shelf of logbooks and training manuals imported from key Rebel "
 "strongholds. Allows you to train regular Humans, Medics, and Engineers into "
-"soldiers, and Soldiers and Technicians into MFK Aces, at empty beacons."
+"Soldiers, and Soldiers and Technicians into MFK Aces, at empty beacons."
 
 #: src-en/data/blueprints.xml.append:17708
 msgid ""
@@ -12233,8 +12249,8 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIPWIDE_HEATER\"]/desc"
 msgstr ""
 "The interior of your vessel is unbearably hot. This allows slain Lavamen to "
-"generate another one upon death. Boarders without fire immunity also "
-"passively take 5 hp/s in damage."
+"generate another one upon death. Boarders with a weakness to fire damage "
+"also passively take 5 hp/s in damage."
 
 #: src-en/data/blueprints.xml.append:17744
 msgid ""
@@ -12245,7 +12261,7 @@ msgstr "Precision Thermostat"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SMART_THERMOSTAT\"]/desc"
 msgstr ""
-"A massively over-engineered temperature regulation system that automatically adjust the climate around each crew to the perfect level.\n"
+"A massively over-engineered temperature regulation system that automatically adjusts the climate around each crew to the perfect level.\n"
 "\n"
 "\tBoth Snowmen and Lavamen passively heal for 20 hp/s while in your ship, and enemy boarders passively take 3 hp/s in damage. Snowmen can now be cloned, move at double speed, and can be built at empty beacons, and Lavamen revive themselves upon death."
 
@@ -12349,7 +12365,7 @@ msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SLIMER_GEL\"]/desc"
 msgstr ""
 "A preternaturally thick blend of Slug breach sealant, only possible to forge using the black magic of Tartarus.\n"
 "\n"
-"\tCoats the inside of empty rooms. Friendly crew inside of them become immune to hazards, while enemy boarders become unable to fight and move at half speed. Like standard Slug gel, it also repairs breaches.\n"
+"\tCoats the inside of empty rooms. Friendly crew inside of them become immune to hazards, while enemy boarders become unable to fight and move at half speed. The thickness of the gel also instantly closes any breaches in your ship.\n"
 "\n"
 "\tProvides a cheaper option for repairs at empty beacons."
 
@@ -12426,7 +12442,7 @@ msgstr ""
 "\t- 1 power: Friendly crew gain immunity to suffocation.\n"
 "\t- 2 power: Friendly crew gain the ability to phase through doors.\n"
 "\t- 3 power: Friendly crew gain the ability to teleport to any room on your ship.\n"
-"\t- 4 power: Friendly crew gain the ability to teleport to any room and to either ship directly."
+"\t- 4 power: Friendly crew gain the ability to teleport to and from any room on either ship."
 
 #: src-en/data/blueprints.xml.append:17902
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MOLTEN_ARMOR\"]/title"
@@ -12437,7 +12453,7 @@ msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MOLTEN_ARMOR\"]/desc
 msgstr ""
 "The ship is flooded with real, obscenely hot lava. This hostile environment passively deals 15 hp/s to both allied and enemy crew. This damage counts as fire damage, and is modified accordingly.\n"
 "\t\n"
-"\tThe plating itself has a 50% chance to resist hull damage, and provides an opportunity to ram the enemy ship before combat."
+"\tThe plating itself has a 25% chance to resist any hull damage, provides an opportunity to ram the enemy ship before combat and incoming projectiles that deal 1 damage have a 20% chance to be negated, and all other damage is reduced by 1."
 
 #: src-en/data/blueprints.xml.append:17914
 msgid ""
@@ -12463,9 +12479,9 @@ msgstr "Cleo's Energy Siphon"
 #: src-en/data/blueprints.xml.append:17930
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENERGY_SIPHON\"]/desc"
 msgstr ""
-"Your crew can siphon energy from drones. While in the same room as a crew "
-"drone, they receive a 25% boost to combat damage and passively heal for 3.5 "
-"hp/s. Drones in the same room as your crew have their combat damage halved."
+"Your crew can siphon energy from drones. For each crew drone you control, "
+"your crew gains +0.25x damage and repair as well as +25 max health. Crew "
+"drones fired by your weapons and artilleries also count towards this number."
 
 #: src-en/data/blueprints.xml.append:17938
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HOLY_FURY\"]/title"
@@ -12474,9 +12490,8 @@ msgstr "Zulu's Holy Conviction"
 #: src-en/data/blueprints.xml.append:17939
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HOLY_FURY\"]/desc"
 msgstr ""
-"The ship and its weaponry are supercharged by a divine force. Friendly crew "
-"in the ship heal and clone 50% faster, and beam weapons pierce 2 additional "
-"shield layers."
+"The ship and its weaponry are imbued by a divine force. Friendly crew heal "
+"and clone 50% faster, and beam weapons pierce 2 additional shield layers."
 
 #: src-en/data/blueprints.xml.append:17947
 msgid ""
@@ -12583,7 +12598,7 @@ msgstr "G's Necromantic Aura"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANTIC_PROJECTION\"]/desc"
 msgstr ""
-"A powerful spell blankets this ship, granting all allied Ghost crew 100 "
+"A powerful spell blankets this ship, granting all allied Specter crew 100 "
 "extra maximum health and immunity to mind control."
 
 #: src-en/data/blueprints.xml.append:18027
@@ -12595,7 +12610,7 @@ msgstr "G's Cursed Aura"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANTIC_PROJECTION_CURSED\"]/desc"
 msgstr ""
-"A powerful spell blankets this ship, granting all allied Ghost crew 200 "
+"A powerful spell blankets this ship, granting all allied Specter crew 200 "
 "extra maximum health and immunity to mind control."
 
 #: src-en/data/blueprints.xml.append:18036
@@ -12651,9 +12666,9 @@ msgstr "Frostwall's Frozen Armor"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FROZEN_CRYSTAL_ARMOR\"]/desc"
 msgstr ""
-"Sleek, carbonized hull plating composed of a Crystalline base, ectoplasm, and a small amount of pure entropy. When this ship takes damage, it launches a crystal shard that deals 2 damage, always starts fires, pierces all shields, cannot miss, and is invisible to most defense drones.\n"
+"Sleek, frigid hull plating composed of a Crystalline base, ectoplasm, and a small amount of pure entropy. When this ship takes damage, it launches a crystal shard that deals 1 damage, locks down rooms, pierces 2 shields and is invisible to most defense drones.\n"
 "\n"
-"\tThe plating itself also grants a 20% system resist chance."
+"\tThe plating itself also grants a 50% system resist chance."
 
 #: src-en/data/blueprints.xml.append:18074
 msgid ""
@@ -12664,9 +12679,9 @@ msgstr "Frostwall's Frozen Armor (Enemy)"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FROZEN_CRYSTAL_ARMOR_ENEMY\"]/desc"
 msgstr ""
-"Sleek, carbonized hull plating composed of a Crystalline base, ectoplasm, and a small amount of pure entropy. When this ship takes damage, it launches a crystal shard that deals 2 damage, always starts fires, pierces all shields, cannot miss, and is invisible to most defense drones.\n"
+"Sleek, frigid hull plating composed of a Crystalline base, ectoplasm, and a small amount of pure entropy. When this ship takes damage, it launches a crystal shard that deals 1 damage, locks down rooms, pierces 2 shields and is invisible to most defense drones.\n"
 "\n"
-"\tThe plating itself also grants a 20% system resist chance."
+"\tThe plating itself also grants a 50% system resist chance."
 
 #: src-en/data/blueprints.xml.append:18085
 msgid ""
@@ -12840,7 +12855,7 @@ msgid ""
 msgstr ""
 "This revolutionary piece of technology allows you to generate layers of energy shielding passively, up to a maximum amount determined by your shield level. \n"
 "\t\t\n"
-"\tThe speed of which the layers regenerate scales with shield rechrage levels and the skill that your crew mans shields.\n"
+"\tThe speed of which the layers regenerate scales with shield recharge levels and the skill that your crew mans shields with.\n"
 "\t\t\n"
 "\tThe adapter is very power-intensive, halving the recharge rate of your regular shields."
 
@@ -12869,7 +12884,8 @@ msgid ""
 msgstr ""
 "The Self Aware Cognitive Intelligence (S.A.C.I) is one of the most advanced "
 "AI modules ever created, and largely untested. Ships with the module "
-"installed automatically man all of their systems at skill level 2."
+"installed automatically man all of their systems at skill level 2. Also "
+"grants manual control of artilleries with no downsides."
 
 #: src-en/data/blueprints.xml.append:18243
 msgid ""
@@ -12881,9 +12897,10 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ANNIHILATION_GRID\"]/desc"
 msgstr ""
 "An extremely advanced emancipation grid created by the Legionnaires, using "
-"Aether to enhance its normal capabilities. Enemy boarders passively lose 10 "
-"hp/s, lose the ability to phase through doors or move by teleporting, and "
-"deal halved damage to doors."
+"Aether to enhance its normal capabilities, though its effects haven't been "
+"able to be tested extensively. Enemy boarders passively lose 10 hp/s, lose "
+"the ability to phase through doors or move by teleporting, and deal halved "
+"damage to doors."
 
 #: src-en/data/blueprints.xml.append:18252
 msgid ""
@@ -13056,10 +13073,11 @@ msgstr "Legionnaire's Aegis"
 #: src-en/data/blueprints.xml.append:18376
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LEGION_AEGIS\"]/desc"
 msgstr ""
-"This incredibly powerful energy shield was forged by the Rebels' best "
-"technicians and installed on a secret Flagship project led by Vance-1. It "
-"has an integrity of 10 hit points, increases weapon charge speed by 10%, and"
-" boasts built-in lifeform scanners."
+"This incredibly powerful energy shield was forged by the Rebels' best technicians and installed on a secret Flagship project led by Vance-1. It has an integrity of 10 hit points. While the energy shield is up:\n"
+"\n"
+"- The fire rate of your Weapons and Artillery is improved by 20%;\n"
+"- Your ship's evasion is increased by 10;\n"
+"- The ship's FTL Drive powers up 60% faster."
 
 #: src-en/data/blueprints.xml.append:18388
 msgid ""
@@ -13072,7 +13090,7 @@ msgstr ""
 "The ship's atmosphere fosters absolute dedication to the Rebel cause, "
 "including the oppression of dissidents. Your Human crew are considered to "
 "have all of their basic crew labs; this effect stacks with the actual crew "
-"labs. Your non-Human crew are unable to heal or be cloned."
+"labs. Your non-Human crew are unable to healed or be cloned."
 
 #: src-en/data/blueprints.xml.append:18397
 msgid ""
@@ -13190,14 +13208,16 @@ msgstr ""
 
 #: src-en/data/blueprints.xml.append:18491
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHADOW_MIST\"]/title"
-msgstr "Cloak of Darkness"
+msgstr "Shadow Mist"
 
 #: src-en/data/blueprints.xml.append:18492
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHADOW_MIST\"]/desc"
 msgstr ""
-"The ship's hull is shrouded in an ethereal shadow. Incoming projectiles have"
-" a 25% chance to be completely nullified, either missing outright or simply "
-"dealing no damage."
+"Your crew have sold their souls to be on this ship, granting them extreme power, at a cost. All your crew become invisible to enemy crew for as long as there isn't a drone in the same room as them. \n"
+"\t\t\n"
+"However, the cost is equally as horrific. Your crew's health is set to 10 and cannot be increased in any way.\n"
+"\n"
+"Eldritch and robot crew aren't affected by this augment."
 
 #: src-en/data/blueprints.xml.append:18504
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_PANIC_ATTACK\"]/title"
@@ -13234,7 +13254,7 @@ msgid ""
 msgstr ""
 "This ship is constructed with horrific eldritch technology lining the halls. It emits waves of shaped chaotic energy that inflict Blasphemy, causing all enemy crew and drones to lose their death effects.\n"
 "\t\t\t\t\n"
-"\tThe technology also functions as an energy shield with an integrity of 12 hit points, and creates random bonuses that occur when the ship takes hull damage."
+"The technology also functions as an energy shield with an integrity of 12 hit points, and creates random bonuses that occur when the ship takes hull damage."
 
 #: src-en/data/blueprints.xml.append:18533
 msgid ""
@@ -13247,7 +13267,7 @@ msgid ""
 msgstr ""
 "This ship is constructed with horrific eldritch technology lining the halls. It emits waves of shaped chaotic energy that inflict Blasphemy, causing all enemy crew and drones to lose their death effects.\n"
 "\t\t\n"
-"\tThe technology also functions as an energy shield with an integrity of 12 hit points, and creates random bonuses that occur when the ship takes hull damage."
+"The technology also functions as an energy shield with an integrity of 12 hit points, and creates random bonuses that occur when the ship takes hull damage."
 
 #: src-en/data/blueprints.xml.append:18544
 msgid ""
@@ -13298,7 +13318,7 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_ELECTROMAGNETIC\"]/desc"
 msgstr ""
 "Before combat, you can activate this arm to lower the enemy's accuracy by "
-"10% at the cost of losing your sensors and hacking."
+"10% at the cost of losing your sensors."
 
 #: src-en/data/blueprints.xml.append:18581
 msgid ""
@@ -13310,8 +13330,8 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_WEAPON\"]/desc"
 msgstr ""
 "Before combat, you can activate this arm to remove one of the enemy's "
-"weapons at the cost of 8 reactor power. Usage of the arm has a 10% chance to"
-" yield 10 scrap per bar of weapon power the dismembered weapon needs."
+"weapons at the cost of 8 reactor power. Also has a 10% chance to grant 10 "
+"scrap for each power bar the disabled weapon requires."
 
 #: src-en/data/blueprints.xml.append:18589
 msgid ""
@@ -13332,7 +13352,7 @@ msgstr "Ship-Part Recovery Arm"
 #: src-en/data/blueprints.xml.append:18598
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_SHIP\"]/desc"
-msgstr "Taking hull damage yields between 0 and 2 scrap."
+msgstr "Taking hull damage gives you 0-2 scrap."
 
 #: src-en/data/blueprints.xml.append:18605
 msgid ""
@@ -13343,10 +13363,10 @@ msgstr "Incisive Ramming Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_PILOT_RAM\"]/desc"
 msgstr ""
-"Before combat, you cam choose a system to ram, dealing 2 damage to their "
-"hull and that system while also breaching it. Such impact will also deal 1 "
-"damage to your version of that same system and to your hull. This effect "
-"ignores resistances."
+"Before combat, you can choose a system to ram. You will deal 2 damage to the"
+" enemy hull and the chosen system, breaching it. The impact will also deal 1"
+" damage to your own hull and to your corresponding system. Bypasses "
+"resistances."
 
 #: src-en/data/blueprints.xml.append:18613
 msgid ""
@@ -13356,7 +13376,8 @@ msgstr "Enhanced Auto-Piloting LvL 1 Upgrade"
 #: src-en/data/blueprints.xml.append:18614
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_PILOT_AUTOMAN_1\"]/desc"
-msgstr "Your systems will now always be manned by at least level 1."
+msgstr ""
+"All of your systems will be automatically manned at least at level 1 skill."
 
 #: src-en/data/blueprints.xml.append:18622
 msgid ""
@@ -13366,7 +13387,8 @@ msgstr "Enhanced Auto-Piloting LvL 2 Upgrade"
 #: src-en/data/blueprints.xml.append:18623
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_PILOT_AUTOMAN_2\"]/desc"
-msgstr "Your systems will now always be manned by at least level 2."
+msgstr ""
+"All of your systems will be automatically manned at least at level 2 skill."
 
 #: src-en/data/blueprints.xml.append:18631
 msgid ""
@@ -13377,8 +13399,8 @@ msgstr "Isolated Piloting Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_PILOT_IMMUNITY\"]/desc"
 msgstr ""
-"Your crew in piloting don't count for crew limit, can't be mind controlled "
-"or stunned and are immune to hazards."
+"Your crew in piloting don't count towards the crew limit, can't be mind "
+"controlled or stunned, and are immune to hazards."
 
 #: src-en/data/blueprints.xml.append:18639
 msgid ""
@@ -13388,7 +13410,7 @@ msgstr "Engine Efficacy"
 #: src-en/data/blueprints.xml.append:18640
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ENGINES_DODGE\"]/desc"
-msgstr "Your ship has +5 dodge while your engines are powered."
+msgstr "Gives +5 evasion while your engines are powered."
 
 #: src-en/data/blueprints.xml.append:18648
 msgid ""
@@ -13399,8 +13421,8 @@ msgstr "Unrestricted Range Jump Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ENGINES_JUMP\"]/desc"
 msgstr ""
-"Allows you to jump to any beacon, regardless of if it has been visited "
-"before for 2 fuel."
+"Allows you to jump to any beacon for 2 fuel, regardless of whether it has "
+"been visited before."
 
 #: src-en/data/blueprints.xml.append:18656
 msgid ""
@@ -13420,7 +13442,7 @@ msgstr "Anti-Pierce Protocol Upgrade"
 #: src-en/data/blueprints.xml.append:18666
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_SHIELD_PIERCE\"]/desc"
-msgstr "Enemy Weapons and drones pierce 1 less shield layer."
+msgstr "Enemy weapons and drones pierce 1 less shield layer."
 
 #: src-en/data/blueprints.xml.append:18674
 msgid ""
@@ -13454,8 +13476,8 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_WEAPONS_STATUS\"]/desc"
 msgstr ""
 "Weapons and drones gain +10% chance to start fires or breach if they have "
-"any, breach chance over 100% can cause extra breaches. Adjusted value will "
-"not be shown in the description."
+"any chance to do so already; a breach chance over 100% can cause multiple "
+"breaches. Adjusted values will not be shown in the description."
 
 #: src-en/data/blueprints.xml.append:18701
 msgid ""
@@ -13476,10 +13498,10 @@ msgstr "Overclocked Mechanisms Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_WEAPONS_BOOST\"]/desc"
 msgstr ""
-"Non-Beam weapons and artilleries deal +1 hull, system and ion damage as well"
-" +15 crew damage if the weapon already had one of those stats. Beams "
-"penetrate 1 more shield layer. The extra damage won't appear in the weapon's"
-" stats."
+"Non-Beam weapons and artilleries deal +1 hull, system, and ion damage as "
+"well as +15 crew damage if the weapon deals damage of those types already. "
+"Beams penetrate 1 more shield layer. The extra damage won't appear in the "
+"weapons' stats."
 
 #: src-en/data/blueprints.xml.append:18719
 msgid ""
@@ -13490,7 +13512,7 @@ msgstr "Internal Generator Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_WEAPONS_POWER\"]/desc"
 msgstr ""
-"Weapons have their power cost reduced by 1. Can't reduce the power lower "
+"Weapons have their power cost reduced by 1. Can't reduce their power lower "
 "than 1."
 
 #: src-en/data/blueprints.xml.append:18728
@@ -13512,7 +13534,8 @@ msgstr "Gravitational Atmosphere Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_OXYGEN_BREACH\"]/desc"
 msgstr ""
-"Breaches in systems don't drain o2 while the life support system is powered."
+"Breaches in systems don't drain oxygen while the Life Support system is "
+"powered."
 
 #: src-en/data/blueprints.xml.append:18746
 msgid ""
@@ -13523,8 +13546,8 @@ msgstr "Radioactive Warfare Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_OXYGEN_DEBUFF\"]/desc"
 msgstr ""
-"For each powered level of your Life Support system, enemy crew in the enemy "
-"ship have their repair and movement speed lowered by 15%."
+"For each powered level of your Life Support system, enemy crew in their ship"
+" have their repair and movement speed lowered by 15%."
 
 #: src-en/data/blueprints.xml.append:18755
 msgid ""
@@ -13555,7 +13578,7 @@ msgstr "Localized Reconstruction Upgrade"
 #: src-en/data/blueprints.xml.append:18774
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_DRONES_TELEPORT\"]/desc"
-msgstr "Your crew drones can teleport to anywhere from your drone control."
+msgstr "Your crew drones can teleport to any room from your Drone Control."
 
 #: src-en/data/blueprints.xml.append:18782
 msgid ""
@@ -13565,7 +13588,7 @@ msgstr "Cloaking-Field Recharge Booster Upgrade"
 #: src-en/data/blueprints.xml.append:18783
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLOAK_COOLDOWN\"]/desc"
-msgstr "The cooldown of your cloaking system is reduced by 5 seconds."
+msgstr "The cooldown of your Cloaking system is reduced by 5 seconds."
 
 #: src-en/data/blueprints.xml.append:18791
 msgid ""
@@ -13576,8 +13599,8 @@ msgstr "Charge Scrambler Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLOAK_CHARGE\"]/desc"
 msgstr ""
-"Whilst cloaked, the enemy's weapon charge will slowly deplete, at a rate of "
-"0.5 seconds of charge lost per second cloaked."
+"While you are cloaked, the enemy's weapon charge will slowly deplete, at a "
+"rate of 0.5 seconds of charge lost per second cloaked."
 
 #: src-en/data/blueprints.xml.append:18800
 msgid ""
@@ -13599,9 +13622,7 @@ msgstr "Tele-Charger Upgrade"
 #: src-en/data/blueprints.xml.append:18810
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TELEPORTER_POWER\"]/desc"
-msgstr ""
-"Your crew fully recharges their powers after using the teleporter to board "
-"the enemy ship."
+msgstr "Your crew fully recharges their powers after using the teleporter."
 
 #: src-en/data/blueprints.xml.append:18818
 msgid ""
@@ -13612,8 +13633,8 @@ msgstr "Short-Range Personal Teleporters Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TELEPORTER_SHORT\"]/desc"
 msgstr ""
-"Your crew use short-range teleportation while the teleporter system has at "
-"least 3 power into it."
+"Your crew can use short-range teleportation while the Teleporter system has "
+"at least 3 power in it."
 
 #: src-en/data/blueprints.xml.append:18827
 msgid ""
@@ -13644,7 +13665,7 @@ msgstr "High Quality Sample Storage Upgrade"
 #: src-en/data/blueprints.xml.append:18846
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLONE_SKILL\"]/desc"
-msgstr "Cloning a crew won't lower their skills."
+msgstr "All of your crew don't lose skills when cloned."
 
 #: src-en/data/blueprints.xml.append:18854
 msgid ""
@@ -13655,8 +13676,8 @@ msgstr "Advanced Nanomachines Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MEDBAY_NANO\"]/desc"
 msgstr ""
-"Your crew takes 10% less damage while your Medbay has at least 3 power in "
-"it."
+"Your crew take 10% less damage from all sources while your Medbay has at "
+"least 3 power in it."
 
 #: src-en/data/blueprints.xml.append:18863
 msgid ""
@@ -13678,8 +13699,8 @@ msgstr "On-Demand Painkillers Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MEDBAY_POWER\"]/desc"
 msgstr ""
-"Your crew gain the ability to quickly heal themselves for 20 health once per"
-" jump."
+"All of your crew gain the ability to quickly heal themselves for 20 health "
+"once per jump."
 
 #: src-en/data/blueprints.xml.append:18881
 msgid ""
@@ -13689,7 +13710,7 @@ msgstr "Flash Cooling Upgrade"
 #: src-en/data/blueprints.xml.append:18882
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MIND_COOLDOWN\"]/desc"
-msgstr "The cooldown of your mind control system is reduced by 5 seconds."
+msgstr "The cooldown of your Mind Control system is reduced by 5 seconds."
 
 #: src-en/data/blueprints.xml.append:18890
 msgid ""
@@ -13710,8 +13731,8 @@ msgstr "Nerve Puppetry Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MIND_DEBUFF\"]/desc"
 msgstr ""
-"Mind controlled allies deal 0.5x crew and sabotage damage and mind "
-"controlled enemies deal 2x crew and sabotage damage."
+"Mind controlled allies deal 0.5x damage and sabotage 0.5x slower, and mind "
+"controlled enemies deal 2x damage and sabotage 2x faster.."
 
 #: src-en/data/blueprints.xml.append:18908
 msgid ""
@@ -13721,7 +13742,7 @@ msgstr "Adaptable Malware Upgrade"
 #: src-en/data/blueprints.xml.append:18909
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_HACKING_COOLDOWN\"]/desc"
-msgstr "The cooldown of your hacking system is reduced by 5 seconds"
+msgstr "The cooldown of your Hacking system is reduced by 5 seconds."
 
 #: src-en/data/blueprints.xml.append:18917
 msgid ""
@@ -13752,7 +13773,7 @@ msgstr "Sub-Zero Cooling Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TEMPORAL_COOLDOWN\"]/desc"
 msgstr ""
-"The cooldown of your Temporal Manipulator system is reduced by 5 seconds"
+"The cooldown of your Temporal Manipulator system is reduced by 5 seconds."
 
 #: src-en/data/blueprints.xml.append:18944
 msgid ""
@@ -13776,8 +13797,8 @@ msgstr "Ship-Wide Temporal Distortion Upgrade"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TEMPORAL_GLOBAL\"]/desc"
 msgstr ""
-"Lowers the following ship functions of the enemy by 5%: Weapon cooldown "
-"speed and Shield recharge rate. Also raises their ftl recharge time by 50%."
+"The enemy's ship charges its weapons and shields 5% slower, and its FTL "
+"Drive 50% slower."
 
 #: src-en/data/blueprints.xml.append:18962
 msgid ""
@@ -13787,7 +13808,9 @@ msgstr "Crew Energizer Upgrade"
 #: src-en/data/blueprints.xml.append:18963
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_BATTERY_POWER\"]/desc"
-msgstr "Your crew that give power will now give double power."
+msgstr ""
+"If one of your crew provides power to a system they are standing in, that "
+"power is doubled."
 
 #: src-en/data/blueprints.xml.append:18971
 msgid ""
@@ -13797,7 +13820,7 @@ msgstr "Shield Energizer Upgrade"
 #: src-en/data/blueprints.xml.append:18972
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_BATTERY_SHIELD\"]/desc"
-msgstr "You gain a single hitpoints stackable Super Shield."
+msgstr "You gain an additional stacking layer of energy shielding."
 
 #: src-en/data/blueprints.xml.append:18980
 msgid ""
@@ -13807,7 +13830,9 @@ msgstr "Improvised E-Grid Upgrade"
 #: src-en/data/blueprints.xml.append:18981
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_DOORS_GRID\"]/desc"
-msgstr "Enemy boarders lose 2hp/s with an extra 1 for every door level."
+msgstr ""
+"Enemy boarders lose 2 hp/s, plus an extra 1 hp/s for every level of Door "
+"Control above 1."
 
 #: src-en/data/blueprints.xml.append:18989
 msgid ""
@@ -13829,7 +13854,7 @@ msgstr "Shared Sleeping Quarters Upgrade"
 #: src-en/data/blueprints.xml.append:18999
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_DOORS_CREW\"]/desc"
-msgstr "Your crew only uses 60% of their crew space."
+msgstr "Your crew only uses 60% of their normal crew space."
 
 #: src-en/data/blueprints.xml.append:19007
 msgid ""
@@ -13877,9 +13902,7 @@ msgid ""
 msgstr ""
 "A powerful piece of technology that bolsters the power of your beam and pinpoint weapons and artilleries. \n"
 "\t\t\n"
-"\tThey gain the ability to pierce all shields, and deal 1 extra damage of all of the types they normally deal, with crew damage being raised by 15 instead. \n"
-"\t\n"
-"\tThe extra damage won't appear in the weapon's stats."
+"\tThey gain the ability to pierce 3 additional shield layers. The extra pierce won't appear in the weapon's stats."
 
 #: src-en/data/blueprints.xml.append:19049
 msgid ""
@@ -13892,7 +13915,7 @@ msgid ""
 msgstr ""
 "A powerful piece of technology that bolsters the power of your beam and pinpoint weapons and artilleries. \n"
 "\t\t\n"
-"\tThey deal 1 extra damage of all of the types they normally deal, with crew damage being raised by 15 instead. \n"
+"\tThey deal 2 extra damage of all of the types they normally deal, with crew damage being raised by 30 instead.\n"
 "\t\n"
 "\tThe extra damage won't appear in the weapon's stats."
 
@@ -13903,7 +13926,7 @@ msgstr "Beam Merchant Hotline"
 #: src-en/data/blueprints.xml.append:19063
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_BEAM_STORE\"]/desc"
 msgstr ""
-"Allows you to access a store that, every time it is summoned, offers 3 random beams or pinpoint weapons, each at half price. \n"
+"Allows you to access a store that, every time it is summoned, offers 3 random beams or pinpoint weapons and 3 random beam or pinpoint drones, each at a 45% discount. \n"
 "\t\t\n"
 "\tAny non-artillery beam can appear in this store."
 
@@ -13939,8 +13962,8 @@ msgstr "Ion Armor Neutralizer"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_ION_ARMOR_NEUTRALIZER\"]/desc"
 msgstr ""
-"This unique pierce of Commonwealth technology infects the enemy ship and "
-"strips it clean of ion resistances. Not even salt ships are immune to this "
+"This unique piece of Commonwealth technology infects the enemy ship and "
+"strips it clean of ion resistances. Not even Salt ships are immune to this "
 "effect."
 
 #: src-en/data/blueprints.xml.append:19100
@@ -13952,9 +13975,9 @@ msgstr "Auto Hunter Gear"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AUTO_HUNTER_GEAR\"]/desc"
 msgstr ""
-"This unique augment allows its user to track down continuity probes and "
+"This unique augment allows its user to track down Continuity probes and "
 "fight them for their gear and scrap. It also doubles the damage your weapons"
-" do against ships with auto mode on."
+" do against automated ships."
 
 #: src-en/data/blueprints.xml.append:19109
 msgid ""
@@ -13978,9 +14001,9 @@ msgstr "Aether Pheromones"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_AETHER_PHEROMONES\"]/desc"
 msgstr ""
-"A concoction of aether dust and heavily synthesized free mantis pheromones. \n"
+"A concoction of aether dust and heavily synthesized Free Mantis pheromones. \n"
 "\t\t\n"
-"\tWhile 02 is powered makes all friendly crew give +1 power (stacks with existing effects) and makes them deal damage on death, the latter scales with o2 level, starting with 30 up to 120 at o2 level 4. The death effect stacks with existing effects as well."
+"\tWhile your Life Support system is powered, makes all friendly crew give +1 power (stacks with existing effects) and makes them deal damage on death, the latter scales with system level, starting with 30 up to 120 at level 4. The death effect stacks with existing effects as well."
 
 #: src-en/data/blueprints.xml.append:19129
 msgid ""
@@ -14097,8 +14120,8 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMBAT_HACKED_OMNI_JAMMER\"]/desc"
 msgstr ""
 "An absurdly powerful system disruption unit which uses Nexus technology. Can"
-" be activated at the start of the combat to limit all of the enemy's systems"
-" by 2 bars for the entire fight."
+" mimic the effect every non-omni system jammer, alongside their blue "
+"options."
 
 #: src-en/data/blueprints.xml.append:19241
 msgid ""
@@ -14749,7 +14772,7 @@ msgstr "[L] Crumbling Exterior"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_ROCK_SPEED\"]/desc"
 msgstr ""
-"Rockmen move 75% faster, but heal at half speed.\n"
+"Rockmen move 75% faster, but lose 12% Max Health.\n"
 "\t\n"
 "[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself."
 
@@ -14827,7 +14850,7 @@ msgstr "[L] Hard-Light Shielding"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_ZOLTAN_SHIELD\"]/desc"
 msgstr ""
-"Zoltan shield other crew in the room, making them take 33% damage, but cannot directly fight other crew themselves.\n"
+"Zoltans shield other crew in the room, making them take 33% damage, but cannot directly fight other crew themselves.\n"
 "\t\n"
 "[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself."
 
@@ -15003,7 +15026,7 @@ msgstr "Human Sacrifice"
 #: src-en/data/blueprints.xml.append:20010
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HUMAN_SACRIFICE_1\"]/desc"
-msgstr "Your crew has +25% hazard resistance."
+msgstr "Your crew have +25% hazard resistance."
 
 #: src-en/data/blueprints.xml.append:20016
 msgid ""
@@ -15013,7 +15036,7 @@ msgstr "Human Sacrifice 2"
 #: src-en/data/blueprints.xml.append:20017
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HUMAN_SACRIFICE_2\"]/desc"
-msgstr "Your crew has +50% hazard resistance."
+msgstr "Your crew have +50% hazard resistance."
 
 #: src-en/data/blueprints.xml.append:20024
 msgid ""
@@ -15751,7 +15774,7 @@ msgstr "Dianesh's Soul"
 
 #: src-en/data/blueprints.xml.append:20600
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_DIANESH\"]/desc"
-msgstr "Allied Crystal crew gain one extra ability charge back per jump."
+msgstr "Allied Crystal crew gain two extra ability charges back per jump"
 
 #: src-en/data/blueprints.xml.append:20607
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_KAZ\"]/title"
@@ -16628,7 +16651,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:21459
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_FR_EX_COMMONWEALTH_CREW\"]/title"
-msgstr "Blessing of The Extinct"
+msgstr "[B] Blessing of The Extinct"
 
 #: src-en/data/blueprints.xml.append:21460
 msgid ""
@@ -16656,7 +16679,7 @@ msgstr "Blessing of The Ion"
 #: src-en/data/blueprints.xml.append:21478
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_FR_COMMONWEALTH_EQUIPMENT\"]/desc"
-msgstr "You gain 50% ion resistance."
+msgstr "Your ship gains 50% ion resistance."
 
 #: src-en/data/blueprints.xml.append:21485
 msgid ""
@@ -16666,7 +16689,7 @@ msgstr "Boon of the Forgotten."
 #: src-en/data/blueprints.xml.append:21486
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_FR_SALT_CREW\"]/desc"
-msgstr "Your salts become immune to suffocation and stuns."
+msgstr "Your Salts become immune to suffocation and stuns."
 
 #: src-en/data/blueprints.xml.append:21499
 msgid ""
@@ -16682,7 +16705,7 @@ msgstr "The Destroyer"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_OBELISK_FLAGSHIP\"]/unlock"
 msgstr ""
-"Save the long extinct race of aliens by destroying their opressor's "
+"Save the long extinct race of aliens by destroying their oppressor's "
 "strongest vessel."
 
 #: src-en/data/blueprints.xml.append:21502
@@ -16754,13 +16777,14 @@ msgstr "The Exterminator"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ELITE_OBELISK_FLAGSHIP\"]/unlock"
 msgstr ""
-"Destroy the Exterminator using the layout A of the Obelisk Flagship line."
+"Destroy the Exterminator and get the Commonwealth ending using any layout of"
+" the Obelisk Flagship line."
 
 #: src-en/data/blueprints.xml.append:21745
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ELITE_OBELISK_FLAGSHIP\"]/desc"
 msgstr ""
-"After queen Y's defeat, the Federation managed to gather enough information about the Exterminator's original design to replicate it.\n"
+"After Queen Y's defeat, the Federation managed to gather enough information about the Exterminator's original design to replicate it.\n"
 "Luckily, a few Royals survived the fight and \"willingly\" offered to join the cause."
 
 #: src-en/data/blueprints.xml.append:21822
@@ -16782,7 +16806,7 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ELITE_OBELISK_FLAGSHIP_2\"]/desc"
 msgstr ""
-"Rejected by the remaining Royals and unwelcomed in the refuge for obvious "
+"Rejected by the remaining Royals and unwelcomed in the Refuge for obvious "
 "reasons, the only thing G can do is spread her misery across the multiverse "
 "using a modified Exterminator model."
 
@@ -16809,7 +16833,7 @@ msgid ""
 msgstr ""
 "This ship is the outcome of a near-impossible scenario: The alliance of "
 "different Ys across multiple realities. The outcome? A vessel capable of "
-"destroying all that comes across it."
+"destroying all that come across it."
 
 #: src-en/data/blueprints.xml.append:21977
 msgid ""
@@ -16855,7 +16879,7 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_DESERTER_SYLVAN_2\"]/desc"
 msgstr ""
-"While on the run from Prime for his blunder, the collector came across "
+"While on the run from Prime for his blunder, the Collector came across "
 "Cylvan who allowed him to stay in the Commonwealth refuge if he agreed to "
 "hunt down any C.E.L. probes that got in their way."
 
@@ -16880,8 +16904,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_DESERTER_SYLVAN_3\"]/desc"
 msgstr ""
-"After being kicked out from the Nexus, the friendly free mantis Sylvan found"
-" a new home among the Commonwealths who accept him for who he is."
+"After being kicked out from the Nexus, the friendly free Mantis Sylvan found"
+" a new home among the Commonwealths, who accept him for who he is."
 
 #: src-en/data/blueprints.xml.append:22210
 msgid ""
@@ -16897,7 +16921,8 @@ msgstr "The Psi"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX\"]/unlock"
 msgstr ""
-"Explore the ruins of a forgotten race in the center of the Multiverse."
+"Explore the ruins of a forgotten race in the center of the Multiverse to "
+"unlock this cruiser."
 
 #: src-en/data/blueprints.xml.append:22213
 msgid ""
@@ -16967,8 +16992,8 @@ msgstr "Absolute Convergence"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED\"]/unlock"
 msgstr ""
-"Unlock all Obelisk ships from base Multiverse and Forgotten Races, including"
-" Crewsers."
+"Unlock all ships from the Obelisk line, Commonwealth line, Alt Aenwithe line"
+" and Aenwithe's crewser to unlock this ship."
 
 #: src-en/data/blueprints.xml.append:22447
 msgid ""
@@ -17015,7 +17040,7 @@ msgstr "The Moment"
 #: src-en/data/blueprints.xml.append:22595
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED_3\"]/unlock"
-msgstr "Unlock both guardian ships from Forgotten Races."
+msgstr "Unlock both Guardian ships from Forgotten Races."
 
 #: src-en/data/blueprints.xml.append:22596
 msgid ""
@@ -17038,7 +17063,9 @@ msgstr "The Former Glory"
 #: src-en/data/blueprints.xml.append:22677
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BROKEN_COMMONWEALTH\"]/unlock"
-msgstr "Unlock the Type C of the Obelisk cruiser line to unlock this ship."
+msgstr ""
+"Manage to hack into the broken cruiser deep in Obelisk territory to unlock "
+"this ship."
 
 #: src-en/data/blueprints.xml.append:22678
 msgid ""
@@ -17046,7 +17073,9 @@ msgid ""
 msgstr ""
 "This vessel was once staffed by a third subset of the Obelisks that died off"
 " long ago during the interspecies war. All that remains is a few strange "
-"guns, a Cognitive, and the broken corpse of one of its creators."
+"guns, a Cognitive, and the broken corpse of one of its creators. "
+"Unfortunately, its once great forge was too badly damaged by the passage of "
+"time."
 
 #: src-en/data/blueprints.xml.append:22757
 msgid ""
@@ -17094,9 +17123,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH\"]/desc"
 msgstr ""
-"The power of the Paragon was siphoned into these Obelisks, resurrecting them"
-" from the grave. With Commonwealth technology on their side, alongside the "
-"power to make more, they are ready to make waves like never before."
+"This cruiser was offered to the Federation as a gift after the integration "
+"into their ranks. With Commonwealth technology on their side, alongside the "
+"power to make more, the Federation is ready to make waves like never before."
 
 #: src-en/data/blueprints.xml.append:22917
 msgid ""
@@ -17222,7 +17251,7 @@ msgstr "Commonwealth Guardian Cruiser"
 #: src-en/data/blueprints.xml.append:23303
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH_GUARDIAN\"]/name"
-msgstr "The Warfare Protocol"
+msgstr "Warfare Protocol"
 
 #: src-en/data/blueprints.xml.append:23304
 msgid ""
@@ -17372,8 +17401,7 @@ msgstr "The Factorio"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WITHER_GUARDIAN\"]/unlock"
 msgstr ""
-"Clear out the broken aether ship in the Dynasty home sector to unlock this "
-"ship."
+"Clear out the broken aether ship in the Dynasty capital to unlock this ship."
 
 #: src-en/data/blueprints.xml.append:23752
 msgid ""
@@ -17804,8 +17832,8 @@ msgstr "Skylab"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_JON_CREWSER\"]/unlock"
 msgstr ""
-"Consult the advice of a certain admiral about a certain artifact to unlock "
-"this ship."
+"Consult the advice of a certain lead technician about a certain artifact to "
+"unlock this ship."
 
 #: src-en/data/blueprints.xml.append:25181
 msgid ""
@@ -18009,8 +18037,8 @@ msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_MANTIS_QUEEN_CREWSER_3\"]/desc"
 msgstr ""
 "A ship which symbolizes newfound unity between the Hive and the Free Mantis,"
-" commandeered by both of their leaders and flooded with both of their "
-"pheromone mixes."
+" commanded by both of their leaders and flooded with a mix of both of their "
+"pheromones."
 
 #: src-en/data/blueprints.xml.append:25885
 msgid ""
@@ -18036,7 +18064,7 @@ msgstr ""
 "After learning how dangerous a Rebel victory would be to their collections, "
 "Archive Inc. decided to join the fight with a spacefaring vessel. "
 "Unfortunately, the old Gana model of crew drone was all they could muster to"
-" command the vessel."
+" command the ship."
 
 #: src-en/data/blueprints.xml.append:25964
 msgid ""
@@ -18107,8 +18135,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SNOWMAN\"]/desc"
 msgstr ""
-"A ship inhabited by living snow people,ready to throw hands with anyone who "
-"makes fun of their literal carrot noses."
+"A ship inhabited by living snow people, ready to throw hands with anyone who"
+" makes fun of their literal carrot noses."
 
 #: src-en/data/blueprints.xml.append:26198
 msgid ""
@@ -18179,8 +18207,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_TESTER\"]/desc"
 msgstr ""
-"This ship used to be a tested for prototype technologies. Recent "
-"refurbishment have allowed this classic ship to spring into combat once "
+"This ship used to be a testbed for prototype technologies. Recent "
+"refurbishments have allowed this classic ship to spring into combat once "
 "more."
 
 #: src-en/data/blueprints.xml.append:26429
@@ -18228,7 +18256,7 @@ msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_TESTER_3\"]/desc"
 msgstr ""
 "On the way to defeating the Flagship, a team of Renegades towed this "
-"derelict ship back to port. It roams the Multiverse with its own, widely "
+"derelict ship back to port. It roams the Multiverse with its own widely "
 "varied compliment now, as a memorial to those lost in the Multiversal War."
 
 #: src-en/data/blueprints.xml.append:26573
@@ -18300,7 +18328,7 @@ msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SALT_BATTLESHIP_3\"]/desc"
 msgstr ""
 "Salt vessels are not even slowed by ion weaponry. This vessel takes "
-"advantage of it by fielding overcharged ion weaponry, using it to support "
+"advantage of that by fielding overcharged ion weaponry, using it to support "
 "Salt boarders."
 
 #: src-en/data/blueprints.xml.append:26807
@@ -18317,7 +18345,7 @@ msgstr "The Maw"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_OSMIAN_PROTOTYPE\"]/unlock"
 msgstr ""
-"Help a people group fight their oppressors OR unlock all Osmian Cruisers to "
+"Help a lost colony fight their oppressors OR unlock all Osmian Cruisers to "
 "unlock this ship."
 
 #: src-en/data/blueprints.xml.append:26810
@@ -18325,7 +18353,7 @@ msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_OSMIAN_PROTOTYPE\"]/desc"
 msgstr ""
 "A secret project, stolen by the Osmians during the war against the Ministry."
-" It boasts a dangerous artillery weapon, powered by a powerful black hole."
+" It boasts a dangerous artillery weapon, powered by a stabilized black hole."
 
 #: src-en/data/blueprints.xml.append:26885
 msgid ""
@@ -18396,9 +18424,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CYRA_CREWSER\"]/desc"
 msgstr ""
-"Cyra's personal cruiser has everything aboard anybody could need to train "
-"even the weakest of humans into full-fledged MFK Aces just like herself. It "
-"helps that she's the best one to teach new recruits, too."
+"Cyra's personal cruiser has everything anybody could need to train even the "
+"weakest of humans into full-fledged MFK Aces just like herself. It helps "
+"that she's the best one to teach new recruits, too."
 
 #: src-en/data/blueprints.xml.append:27108
 msgid ""
@@ -18684,8 +18712,8 @@ msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_VENOMOUS_SPIDER_QUEEN_CREWSER\"]/desc"
 msgstr ""
 "After ridding herself of all control by the Brood, Charlotte has stolen an "
-"abandoned vessel of theirs and turned it into her own personal mutated "
-"spider breeding ground."
+"abandoned vessel and, with the help of the one pirate that helped her escape"
+" captivity, now only seeks the destruction of the Brood."
 
 #: src-en/data/blueprints.xml.append:28029
 msgid ""
@@ -18949,9 +18977,9 @@ msgstr "Acquire the Bucket in center of all things to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SYLEAH_CREWSER_3\"]/desc"
 msgstr ""
-"While life in the Nexus was comfortable, it always lacked the true "
-"experience of exploring the multiverse yourself. Onward, Renegade! To "
-"destiny!"
+"While life in the Nexus was comfortable, it always lacked the true experience of exploring the multiverse yourself. Onward, Renegade! To destiny!\n"
+"\n"
+"\tBy playing this ship you forgo the rights to have a balanced experience."
 
 #: src-en/data/blueprints.xml.append:28881
 msgid ""
@@ -18999,7 +19027,7 @@ msgid ""
 msgstr ""
 "This cruiser was stolen by the mysterious Sirens as part of a grand plan. It is equipped with abduction tools in order to aid its study of all life in the Multiverse.\n"
 "\t\n"
-"\tThis ship also comes with a internal version of the nexus schematics."
+"\tThis ship also comes with a internal version of the Nexus schematics."
 
 #: src-en/data/blueprints.xml.append:29039
 msgid ""
@@ -19022,9 +19050,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CEL_AUTO_3\"]/desc"
 msgstr ""
-"An operation from the Hacker Clan managed to capture and reprogram this Auto-ship from the C.E.L. They have repurposed some of the ship's technology to make the ultimate system jammer.\n"
+"An operation from the Hacker Clan managed to capture and reprogram this Auto-ship from the C.E.L.. They have repurposed some of the ship's technology to make the ultimate system jammer.\n"
 "\t\n"
-"\tThis ship also comes with a internal version of the nexus schematics."
+"\tThis ship also comes with a internal version of the Nexus schematics."
 
 #: src-en/data/blueprints.xml.append:29119
 msgid ""
@@ -19165,8 +19193,8 @@ msgstr "Put to rest the soul of a gluttonous Slug to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_SLIMER\"]/desc"
 msgstr ""
-"This vessel was originally a simple pleasure liner before Slimer took it up "
-"and retrofitted it to satisfy his endless hunger."
+"This vessel was originally a simple pleasure liner before Slimer took it and"
+" retrofitted it to satisfy his endless hunger."
 
 #: src-en/data/blueprints.xml.append:29551
 msgid ""
@@ -19176,7 +19204,7 @@ msgstr "Slimer's Cruiser"
 #: src-en/data/blueprints.xml.append:29552
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_SLIMER_2\"]/name"
-msgstr "The Cataract"
+msgstr "The Endless Feast"
 
 #: src-en/data/blueprints.xml.append:29553
 msgid ""
@@ -19187,9 +19215,10 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_SLIMER_2\"]/desc"
 msgstr ""
-"This ship's gelatinous exterior has absorbed so much nebula gas that Slimer "
-"was able to sell some of it. With this, he pays for the services of the best"
-" the Kleptocracy has to offer - Knights."
+"After tasting the flesh of some of the rarest crew in the multiverse, Slimer"
+" has made it his life goal to hunt and consume as many of them as he can. "
+"And to make sure his crew follows him to the end, they are also inflicted by"
+" the same unending hunger."
 
 #: src-en/data/blueprints.xml.append:29628
 msgid ""
@@ -19199,7 +19228,7 @@ msgstr "Slimer's Cruiser"
 #: src-en/data/blueprints.xml.append:29629
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_SLIMER_3\"]/name"
-msgstr "All You Can Eat"
+msgstr "Oligarch's Dream"
 
 #: src-en/data/blueprints.xml.append:29630
 msgid ""
@@ -19212,8 +19241,10 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_SLIMER_3\"]/desc"
 msgstr ""
-"This ship is the only known Multiversal iteration of Slimer's vessel to have"
-" successfully recruited multiple Slimers into its cause."
+"After Slimer's return to power by beating both Slocknog and Nights at the "
+"Crown Theft Festival, he recognized their power and capabilities, something "
+"the slugs in his time lacked. And so, he offered them a chance to all rule "
+"as one, a chance they begrudgingly took."
 
 #: src-en/data/blueprints.xml.append:29706
 msgid ""
@@ -19257,9 +19288,10 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_PHYS_2\"]/desc"
 msgstr ""
-"An iteration of Phys' ship which trades its teleporter for a powerful anti-"
-"personnel beam. The Geniocracy noticed, supporting it with its very best "
-"Shell allies."
+"Phys' unique genetic structure makes her extremely potent in the support "
+"role for boarding strategies. To support her powers, her crew were outfitted"
+" with powerful suits that make stunning enemies easy and which provide stun "
+"resistance."
 
 #: src-en/data/blueprints.xml.append:29859
 msgid ""
@@ -19269,7 +19301,7 @@ msgstr "Phys' Cruiser"
 #: src-en/data/blueprints.xml.append:29860
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_PHYS_3\"]/name"
-msgstr "The Innocence Lost"
+msgstr "The Tetrachromacy"
 
 #: src-en/data/blueprints.xml.append:29861
 msgid ""
@@ -19282,9 +19314,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_PHYS_3\"]/desc"
 msgstr ""
-"Seeing the horrors of what happened to them in other universes have left the"
-" crew of this ship, which is composed entirely of instances of Phys, jaded "
-"and frustrated by the Multiverse."
+"After successfully raiding Phys' ship, the Geniocracy decided to use it as "
+"the launching point of their new experiment, a perfected mixture of all the "
+"Shell gases."
 
 #: src-en/data/blueprints.xml.append:29935
 msgid ""
@@ -19316,7 +19348,7 @@ msgstr "Aleenor's Cruiser"
 #: src-en/data/blueprints.xml.append:30012
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_ALEENOR_2\"]/name"
-msgstr "The Already Dead"
+msgstr "The Invisible Strike"
 
 #: src-en/data/blueprints.xml.append:30013
 msgid ""
@@ -19338,7 +19370,7 @@ msgstr "Aleenor's Cruiser"
 #: src-en/data/blueprints.xml.append:30091
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_ALEENOR_3\"]/name"
-msgstr "The Shadow Lady"
+msgstr "The Plated Claws"
 
 #: src-en/data/blueprints.xml.append:30092
 msgid ""
@@ -19351,9 +19383,10 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_ALEENOR_3\"]/desc"
 msgstr ""
-"Multiple instances of Aleenor collaborated together to craft this vessel, "
-"pooling their knowledge to massively improve its cloaking device at the "
-"expense of the ability to wield shields, energy shields, and drones."
+"Aleenor's contributions to the Mantis Hive didn't go unnoticed by the Rock "
+"Theocracy. After a long negotiation session, they commissioned a unique "
+"layout for the fallen Mantis, staffed by their best soldiers and plated with"
+" their thickest armor."
 
 #: src-en/data/blueprints.xml.append:30168
 msgid ""
@@ -19397,9 +19430,9 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_VIN_2\"]/desc"
 msgstr ""
-"It is known that white fire burns hotter than red. Although this doesn't "
-"change the functionality of its armor very much, it certainly is quite the "
-"sight."
+"The fire and lava in this ship burn with a strange green hue, possibly "
+"because of the influence of all the vagabonds in the ship. It has the same "
+"effect as its normal counterpart, though it looks more haunting."
 
 #: src-en/data/blueprints.xml.append:30322
 msgid ""
@@ -19409,7 +19442,7 @@ msgstr "Vin's Cruiser"
 #: src-en/data/blueprints.xml.append:30323
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_VIN_3\"]/name"
-msgstr "The Glowstone"
+msgstr "Prophet's Flame"
 
 #: src-en/data/blueprints.xml.append:30324
 msgid ""
@@ -19422,9 +19455,10 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_VIN_3\"]/desc"
 msgstr ""
-"A voyage between universes allowed this trio of Vins to grow more used to "
-"their ghostly bodies. Although the outside of the ship may have partially "
-"cooled, the fire inside of it is as hot as ever."
+"While out in search of a traitor to the inquisition, Vin came across the "
+"True Prophet's vessel right before the final ceremony. Taking matters into "
+"his own hands, Vin intended to kill the mad man, however he ended up being "
+"made the leader of the cult instead."
 
 #: src-en/data/blueprints.xml.append:30403
 msgid ""
@@ -19447,7 +19481,7 @@ msgid ""
 msgstr ""
 "There is not a single set of quarters aboard this ship other than Cleo's. "
 "Instead, the ship's drone compliment fulfills all of the same roles living "
-"crew would."
+"crew would, all while the ship's systems are auto manned."
 
 #: src-en/data/blueprints.xml.append:30481
 msgid ""
@@ -19457,7 +19491,7 @@ msgstr "Cleo's Cruiser"
 #: src-en/data/blueprints.xml.append:30482
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_CLEO_2\"]/name"
-msgstr "Conflict of Interest"
+msgstr "The Auto Salvation"
 
 #: src-en/data/blueprints.xml.append:30483
 msgid ""
@@ -19468,9 +19502,10 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_CLEO_2\"]/desc"
 msgstr ""
-"Cleo was found and captured by an MFK Ace vessel, and forced to rejoin the "
-"ranks of his old employers. They did give him a drone to compensate, but "
-"he's still mad."
+"After an encounter with a group of rockmen that almost banished Cleo back to"
+" Tartarus, the ex-MFK ghost decided that enough was enough, and thus fully "
+"automated his ship, swapping his artillery's boarding drones for combat "
+"drones."
 
 #: src-en/data/blueprints.xml.append:30562
 msgid ""
@@ -19480,7 +19515,7 @@ msgstr "Cleo's Cruiser"
 #: src-en/data/blueprints.xml.append:30563
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_CLEO_3\"]/name"
-msgstr "The Musketeer"
+msgstr "The Ecto-Circuits"
 
 #: src-en/data/blueprints.xml.append:30564
 msgid ""
@@ -19493,8 +19528,10 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_CLEO_3\"]/desc"
 msgstr ""
-"The group of Cleos aboard this vessel used their shared trauma as a bonding "
-"opportunity, and diversified their skills with their boosted morale."
+"After being stranded in the ruins of a strange, ancient race for weeks, Cleo"
+" was amazed to find what seemed to be a pair of pristine AI devices with "
+"capabilities far exceeding his own. He also found the blueprints for a "
+"scrapped artillery that never went anywhere."
 
 #: src-en/data/blueprints.xml.append:30640
 msgid ""
@@ -19548,7 +19585,7 @@ msgstr "Zulu's Cruiser"
 #: src-en/data/blueprints.xml.append:30794
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_ZULU_3\"]/name"
-msgstr "Savior of Light"
+msgstr "The Gamma Ray"
 
 #: src-en/data/blueprints.xml.append:30795
 msgid ""
@@ -19561,8 +19598,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_ZULU_3\"]/desc"
 msgstr ""
-"After being set free from his curse, Zulu decided to wander the Multiverse, "
-"collecting and redeeming more instances of himself in need."
+"What radiation is other than very high energy light? Zulu's powers exceeded "
+"all expectations, perfecting his healing and his piercing skills. He even "
+"recruited some others of himself to his cause."
 
 #: src-en/data/blueprints.xml.append:30869
 msgid ""
@@ -19607,9 +19645,8 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_G_2\"]/desc"
 msgstr ""
-"After completing her goal of discovering necromancy and finishing the "
-"Waystone, G returned to home and spread the word. This vessel was a gift "
-"from Queen Q as a reward."
+"This ship is the impossible alliance of all the old empires from the "
+"Obelisk's time. Their powers combined are sure to spell the doom of all."
 
 #: src-en/data/blueprints.xml.append:31021
 msgid ""
@@ -19619,7 +19656,7 @@ msgstr "G's Cruiser"
 #: src-en/data/blueprints.xml.append:31022
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_G_3\"]/name"
-msgstr "The True Torment"
+msgstr "Y's Judgement"
 
 #: src-en/data/blueprints.xml.append:31023
 msgid ""
@@ -19632,8 +19669,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_REVENANT_G_3\"]/desc"
 msgstr ""
-"Spending eons as a Multiversal wanderer led G to relapse back into her old "
-"habits. A couple of extra instances of herself got caught up in the ride."
+"This cruiser is the result of what could have happened if the Commonwealth's"
+" extermination was absolute. A ship unfitting for any crew not deemed "
+"'perfect' by Queen Y."
 
 #: src-en/data/blueprints.xml.append:31095
 msgid ""
@@ -19680,9 +19718,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_FROSTWALL\"]/desc"
 msgstr ""
-"This cruiser was designed by Smoke, boasting the most dangerous crystalline "
-"hull known. It is designed specifically to take hits as its primary form of "
-"offense."
+"This cruiser was designed by Frostwall, boasting the most dangerous "
+"crystalline hull known. It is designed specifically to take hits as its "
+"primary form of offense."
 
 #: src-en/data/blueprints.xml.append:31247
 msgid ""
@@ -19826,8 +19864,8 @@ msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_POK\"]/desc"
 msgstr ""
 "Pok's vessel was likely forged in a similar manner to themselves. The entire"
-" ship is alive, which renders its walls oddly squishy and grants it the "
-"ability to consume organic matter as sustenance."
+" ship is alive, which allows it the ability to consume organic matter as "
+"sustenance."
 
 #: src-en/data/blueprints.xml.append:31718
 msgid ""
@@ -19837,7 +19875,7 @@ msgstr "Pok's Cruiser"
 #: src-en/data/blueprints.xml.append:31719
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_POK_2\"]/name"
-msgstr "Bok Flok-Sok"
+msgstr "Pork Dork-Tork"
 
 #: src-en/data/blueprints.xml.append:31720
 msgid ""
@@ -19872,9 +19910,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_POK_3\"]/desc"
 msgstr ""
-"Three instances of Pok's vessel ended up trying to eat each other. The "
-"remaining vessel is very dense, and the instances of Pok who operate it are "
-"unusually large and tough to match."
+"After eating so many common aliens over the course of centuries, Pok's ship "
+"developed a more... acquired taste. Now all it accepts are extraordinary "
+"crew. At least its power absorbing abilities were also heightened."
 
 #: src-en/data/blueprints.xml.append:31872
 msgid ""
@@ -19898,7 +19936,7 @@ msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHARROR\"]/desc"
 msgstr ""
 "The personal cruiser of Charror, or Character-Error. Their experimentations "
-"with Med-Bots have twisted the nanomachines from their original purpose."
+"with Med-Bots has twisted the nanomachines from their original purpose."
 
 #: src-en/data/blueprints.xml.append:31951
 msgid ""
@@ -19923,12 +19961,12 @@ msgstr "could_not_find: PLAYER_SHIP_FR_CHAOS_REVENANT_CHARROR_2: desc"
 #: src-en/data/blueprints.xml.append:32031
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHARROR_3\"]/class"
-msgstr "Charror's Cruiser"
+msgstr "Oracle Cruiser"
 
 #: src-en/data/blueprints.xml.append:32032
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHARROR_3\"]/name"
-msgstr "The Zero-Day"
+msgstr "The Oracle"
 
 #: src-en/data/blueprints.xml.append:32033
 msgid ""
@@ -19941,9 +19979,10 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_CHARROR_3\"]/desc"
 msgstr ""
-"Charror's journey throughout the Multiverse left them with allies in "
-"themselves. The group now plans to pool their strength to corrupt an entire "
-"Harmony Link."
+"No one can remember what universe 50732171 was like. Records of it even "
+"within C.E.L. are sparse and frequently go missing. All that's known is that"
+" shortly after the Rebel flagship was destroyed, the renegade cruiser "
+"collided with an unknown ship. This is the result."
 
 #: src-en/data/blueprints.xml.append:32105
 msgid ""
@@ -19977,7 +20016,7 @@ msgstr "Leo's Cruiser"
 #: src-en/data/blueprints.xml.append:32182
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_LEO_2\"]/name"
-msgstr "The Short Circuit"
+msgstr "The Quantum Leech"
 
 #: src-en/data/blueprints.xml.append:32183
 msgid ""
@@ -19988,8 +20027,10 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_LEO_2\"]/desc"
 msgstr ""
-"This ship completely forgoes defense in exchange for a pre-ignited beam, "
-"crippling enemy defenses using its engine discharge system."
+"After finding a clan of Augmented Lanius in a secluded sector, Leo decided "
+"to offer them a chance to work for him in exchange for their services in "
+"upgrading his ship. Their reward? An all you can eat buffet of ships for "
+"them to consume."
 
 #: src-en/data/blueprints.xml.append:32260
 msgid ""
@@ -19999,7 +20040,7 @@ msgstr "Leo's Cruiser"
 #: src-en/data/blueprints.xml.append:32261
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_LEO_3\"]/name"
-msgstr "The Blackout"
+msgstr "Mydoom"
 
 #: src-en/data/blueprints.xml.append:32262
 msgid ""
@@ -20012,9 +20053,8 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_LEO_3\"]/desc"
 msgstr ""
-"This ship starts with a reactor barely strong enough to power the lights "
-"onboard, leaving nothing for any of its major systems. Three Leos should be "
-"enough to (mostly) correct that issue."
+"Instead of focusing on the ship's engines, Leo decided to put all his scrap "
+"into making his ship as intertwined with his hacking system as he could."
 
 #: src-en/data/blueprints.xml.append:32340
 msgid ""
@@ -20050,7 +20090,7 @@ msgstr "Searak's Cruiser"
 #: src-en/data/blueprints.xml.append:32411
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SEARAK_2\"]/name"
-msgstr "The Spiral"
+msgstr "The Bright Future"
 
 #: src-en/data/blueprints.xml.append:32412
 msgid ""
@@ -20061,8 +20101,9 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SEARAK_2\"]/desc"
 msgstr ""
-"This ship completely forgoes weapons, instead using powerful energy shield "
-"technology and techniques of Zoltan supremacy to fight its foes."
+"After stopping a rebel plot to blame an attack on the Duskbringer capital on"
+" the Federation, Searak, Anurak and Devorak decided to join forces and form "
+"their own faction, one unshackled by the sins of their old leaders."
 
 #: src-en/data/blueprints.xml.append:32486
 msgid ""
@@ -20072,7 +20113,7 @@ msgstr "Searak's Cruiser"
 #: src-en/data/blueprints.xml.append:32487
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SEARAK_3\"]/name"
-msgstr "The Shared Memory"
+msgstr "The Ever-Shielded"
 
 #: src-en/data/blueprints.xml.append:32488
 msgid ""
@@ -20085,9 +20126,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_SEARAK_3\"]/desc"
 msgstr ""
-"Aboard this vessel, the fates of several Searaks have intertwined. Their "
-"shared trauma led to them entirely forgoing traditional medical systems, "
-"instead relying on more specialized methods."
+"Searak's reintroduction to the Duskbringer cause was the most controversial "
+"news since Devorak's speach. With nothing to lose, the once-ex-Duskbringer "
+"decided to go all in on explosive tactics."
 
 #: src-en/data/blueprints.xml.append:32564
 msgid ""
@@ -20121,7 +20162,7 @@ msgstr "Legionnaire Auto-Cruiser"
 #: src-en/data/blueprints.xml.append:32642
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_AUTO_2\"]/name"
-msgstr "Lux Aeterna"
+msgstr "TemperNet"
 
 #: src-en/data/blueprints.xml.append:32643
 msgid ""
@@ -20132,19 +20173,18 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_AUTO_2\"]/desc"
 msgstr ""
-"A Ministry experiment, attempting to create a ship made mostly of hard-"
-"light. It worked to an extent - the ship and its energy shield are one of "
-"the same."
+"This modified Legionnaire Auto-Cruiser focuses on both eradicating crew and "
+"melting systems without damaging the ship's hull."
 
 #: src-en/data/blueprints.xml.append:32721
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_AUTO_3\"]/class"
-msgstr "Federation Auto-Cruiser"
+msgstr "Callie Auto-Cruiser"
 
 #: src-en/data/blueprints.xml.append:32722
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_AUTO_3\"]/name"
-msgstr "The Overload"
+msgstr "Callie"
 
 #: src-en/data/blueprints.xml.append:32723
 msgid ""
@@ -20157,8 +20197,10 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_AUTO_3\"]/desc"
 msgstr ""
-"The Federation's first and only cruiser-sized Auto-ship. With no room at all"
-" for crew, the ship's engineers pushed its systems to their absolute limits."
+"The Callie The Calculator project was never meant to receive a cruiser, "
+"especially not one based off the Legionnaire Auto-Cruiser. The details of "
+"why this was made are murky, but one thing that is known for sure is that "
+"whoever led this project did so unofficially."
 
 #: src-en/data/blueprints.xml.append:32801
 msgid ""
@@ -20192,7 +20234,7 @@ msgstr "Watcher's Cruiser"
 #: src-en/data/blueprints.xml.append:32877
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER_2\"]/name"
-msgstr "Pretty Pictures"
+msgstr "MKUltra"
 
 #: src-en/data/blueprints.xml.append:32878
 msgid ""
@@ -20203,8 +20245,10 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER_2\"]/desc"
 msgstr ""
-"This ship has the ability to generate powerful boarding crew by firing its "
-"artillery. This bolsters the already ever-powerful Watcher in their work."
+"As part of their plan to reform Her, The Watcher required plenty more covert"
+" operations to secure assets in important locations. This ship makes use of "
+"unique technology to bolster the powers of anyone wearing it while an enemy "
+"is mind controlled."
 
 #: src-en/data/blueprints.xml.append:32950
 msgid ""
@@ -20227,9 +20271,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_WATCHER_3\"]/desc"
 msgstr ""
-"A possible outcome of the Watcher's plans coming to fruition. Made of pure "
-"evil, pure power, and pure chaos, Her newest, most powerful manifestation "
-"has decided to take a test drive through the Multiverse."
+"This ship is the result of the Watcher being gifted with all but a drop of "
+"Her power, giving them her powerful and unique system alongside a set of "
+"weapons worthy of her status."
 
 #: src-en/data/blueprints.xml.append:33028
 msgid ""
@@ -20250,9 +20294,10 @@ msgstr "Survive the worst Tartarus has to offer in chaos mode."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP\"]/desc"
 msgstr ""
-"After escaping an assassination attempt by Vance-1, Vance Prime managed to "
-"steal his prototype flagship. Now, he uses it as a hammer of justice against"
-" the men he once commanded."
+"After uncovering the horrible plans that Vance 1 has in store for them, a "
+"small collection of legionnaires decided to turn to the Federation in hopes "
+"of atoning for their sins. To try and prove their loyalty they also stole "
+"Vance 1's prize possession: The Legionnaire Flagship."
 
 #: src-en/data/blueprints.xml.append:33106
 msgid ""
@@ -20262,7 +20307,7 @@ msgstr "Legionnaire Flagship"
 #: src-en/data/blueprints.xml.append:33107
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP_2\"]/name"
-msgstr "Frightful Coalition"
+msgstr "Level Of ViolencE"
 
 #: src-en/data/blueprints.xml.append:33108
 msgid ""
@@ -20273,19 +20318,19 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP_2\"]/desc"
 msgstr ""
-"This collaboration between the Federation and the Coalition may seem absurd."
-" Having a common enemy far worse than the both of you does wonders to one's "
-"allegiance."
+"This ship was never sanctioned by the Rebellion. In fact, it was copied by "
+"an extremist group within the Legion shortly after they went rogue. There "
+"will be no mercy for the crew of this ship, no forgiveness, no survivors."
 
 #: src-en/data/blueprints.xml.append:33183
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP_3\"]/class"
-msgstr "Federation Flagship"
+msgstr "'MFK' Flagship"
 
 #: src-en/data/blueprints.xml.append:33184
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP_3\"]/name"
-msgstr "The Last Stand"
+msgstr "The Mockery"
 
 #: src-en/data/blueprints.xml.append:33185
 msgid ""
@@ -20298,8 +20343,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP_3\"]/desc"
 msgstr ""
-"A prototype flagship designed by the Federation, to be revealed when all "
-"hope seems lost. Echoes of everlasting unity flow through its halls."
+"After the prototype for his flagship was stolen by Prime's soldiers, Vance 1"
+" decided to repaint his own personal flagship to mock their attempt at "
+"getting one over him."
 
 #: src-en/data/blueprints.xml.append:33262
 msgid ""
@@ -20314,9 +20360,7 @@ msgstr "Aureum Imperium"
 #: src-en/data/blueprints.xml.append:33264
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_AUGUSTUS\"]/unlock"
-msgstr ""
-"Acquire the loot of the first of the special apparitions to unlock this "
-"ship."
+msgstr "Put to rest the soul of a greedy Phantom to unlock this ship."
 
 #: src-en/data/blueprints.xml.append:33265
 msgid ""
@@ -20334,7 +20378,7 @@ msgstr "Augustus' Cruiser"
 #: src-en/data/blueprints.xml.append:33338
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_AUGUSTUS_2\"]/name"
-msgstr "Conversus Aurum"
+msgstr "Conversor Argenti"
 
 #: src-en/data/blueprints.xml.append:33339
 msgid ""
@@ -20345,8 +20389,10 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_AUGUSTUS_2\"]/desc"
 msgstr ""
-"This cruiser begins with many resources and no way to use them. Instead, it "
-"must convert such resources to scrap first."
+"This cruiser has a unique variant of the golden circuits which are made out "
+"of pure silver, giving your ship defenses instead of general buffs. It also "
+"begins with many resources and no way to use them. Instead, it must convert "
+"such resources to scrap first."
 
 #: src-en/data/blueprints.xml.append:33411
 msgid ""
@@ -20356,7 +20402,7 @@ msgstr "Augustus' Cruiser"
 #: src-en/data/blueprints.xml.append:33412
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_AUGUSTUS_3\"]/name"
-msgstr "Aurum Tumultus"
+msgstr "Aurum Rosaceum"
 
 #: src-en/data/blueprints.xml.append:33413
 msgid ""
@@ -20369,9 +20415,10 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_AUGUSTUS_3\"]/desc"
 msgstr ""
-"Multiple instances of Augustus have bound together to gather more wealth. "
-"Although it starts off very weak, its ability to accumulate massive "
-"quantities of scrap allows it to quickly become an absolute powerhouse."
+"After years of wandering alone after G's demise, Augustus finally decided to"
+" make something of their post-life. Turns out they still have the touch of "
+"the trade, with them managing to get in possession of some very rare nebula "
+"gasses."
 
 #: src-en/data/blueprints.xml.append:33488
 msgid ""
@@ -20386,9 +20433,7 @@ msgstr "Nature's Wrath"
 #: src-en/data/blueprints.xml.append:33490
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_SALLY\"]/unlock"
-msgstr ""
-"Acquire the loot of the second of the special apparitions to unlock this "
-"ship."
+msgstr "Put to rest the soul of a mad spider to unlock this ship."
 
 #: src-en/data/blueprints.xml.append:33491
 msgid ""
@@ -20406,7 +20451,7 @@ msgstr "Sally's Cruiser"
 #: src-en/data/blueprints.xml.append:33570
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_SALLY_2\"]/name"
-msgstr "Webs Entangled"
+msgstr "ARC Arachnid"
 
 #: src-en/data/blueprints.xml.append:33571
 msgid ""
@@ -20417,9 +20462,9 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_SALLY_2\"]/desc"
 msgstr ""
-"Sally attempted to seek friendship with a number of \"spiders\" like them. "
-"They were, in fact, Morphs in the form of spider queens, the only form Sally"
-" couldn't replicate."
+"After reconnecting with her old friends, Sally was hired back into the "
+"Arcadia's Research Division, with them retrofitting her ship to be up to "
+"code with the cooperation's branding."
 
 #: src-en/data/blueprints.xml.append:33648
 msgid ""
@@ -20429,7 +20474,7 @@ msgstr "Sally's Cruiser"
 #: src-en/data/blueprints.xml.append:33649
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_SALLY_3\"]/name"
-msgstr "Mary Shelley"
+msgstr "Hogna Carolinensis"
 
 #: src-en/data/blueprints.xml.append:33650
 msgid ""
@@ -20442,8 +20487,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_SALLY_3\"]/desc"
 msgstr ""
-"Sally has befriended several clones of herself. The ship they selected has "
-"no medical systems, for they only need to split in order to heal."
+"After being unable to find support from any faction, Sally turned to the "
+"only group that was still willing to treat her like a person. That group "
+"was, ironically, the G.A.S.."
 
 #: src-en/data/blueprints.xml.append:33730
 msgid ""
@@ -20459,8 +20505,8 @@ msgstr "The Nightmare"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_PRINCE\"]/unlock"
 msgstr ""
-"Acquire the loot of the third of the special apparitions to unlock this "
-"ship."
+"Set free the soul of a demonic Equinoid in a chaotic environment to unlock "
+"this ship."
 
 #: src-en/data/blueprints.xml.append:33733
 msgid ""
@@ -20477,7 +20523,7 @@ msgstr "The Prince's Cruiser"
 #: src-en/data/blueprints.xml.append:33811
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_PRINCE_2\"]/name"
-msgstr "The Balefire"
+msgstr "Lelth Yl' F'sol"
 
 #: src-en/data/blueprints.xml.append:33812
 msgid ""
@@ -20488,9 +20534,8 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_PRINCE_2\"]/desc"
 msgstr ""
-"After acquiring a number of loyal Equinoid allies, the Prince of Darkness "
-"decided to set his sights on the wider Multiverse. Spreading fear is their "
-"only goal."
+"After attempting to disrupt the plans of the Messengers, the Prince of Darkness was unexpectedly captured and enslaved by the very same group he was attempting to take down. \n"
+"As payback, the Messengers took over his cruiser and retrofitted it with their colors."
 
 #: src-en/data/blueprints.xml.append:33887
 msgid ""
@@ -20500,7 +20545,7 @@ msgstr "The Prince's Cruiser"
 #: src-en/data/blueprints.xml.append:33888
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_PRINCE_3\"]/name"
-msgstr "The Angmar"
+msgstr "The Pact"
 
 #: src-en/data/blueprints.xml.append:33889
 msgid ""
@@ -20513,8 +20558,9 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_PRINCE_3\"]/desc"
 msgstr ""
-"The Princes of Darkness have formed a sort of royal council. Whispers are "
-"now told of a number of demonic horses who can kill with a single look."
+"The Prince of Darkness once ruled over the upper layers of Hell with their "
+"specialty being forming pacts with desperate souls, something they stopped "
+"doing once summoned into reality. This ship is their return to form."
 
 #: src-en/data/blueprints.xml.append:33963
 msgid ""
@@ -20530,8 +20576,8 @@ msgstr "The Truth"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_TRIRIAC\"]/unlock"
 msgstr ""
-"Acquire the loot of the fourth of the special apparitions to unlock this "
-"ship."
+"Set free the soul of a blasphemic Thing in a chaotic environment to unlock "
+"this ship."
 
 #: src-en/data/blueprints.xml.append:33966
 msgid ""
@@ -20560,8 +20606,10 @@ msgstr "Get to Sector 5 with the Type A to unlock this ship."
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_TRIRIAC_2\"]/desc"
 msgstr ""
-"In Tririac's journey to expose the truth, they have experimented with the "
-"usage of time manipulation technology in order to defend themselves."
+"They say to be able to beat one's enemy, you must learn all you can about "
+"their abilities. Tririac seem to have taken this to their non-existent "
+"heart, as they achieved something akin to mastery over the temporal system's"
+" time slowing abilities."
 
 #: src-en/data/blueprints.xml.append:34116
 msgid ""
@@ -20571,7 +20619,7 @@ msgstr "Tririac's Cruiser"
 #: src-en/data/blueprints.xml.append:34117
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_TRIRIAC_3\"]/name"
-msgstr "The Lobotomy"
+msgstr "The Trance"
 
 #: src-en/data/blueprints.xml.append:34118
 msgid ""
@@ -20584,5 +20632,6 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BONUS_REVENANT_TRIRIAC_3\"]/desc"
 msgstr ""
-"With the work of multiple Tririacs on this ship, it has the capability to "
-"utterly break minds like no other vessel."
+"They say the enemy of your enemy is your friend. Tririac, having run out of "
+"options for support, had to ally himself with the Utopians in hopes of "
+"eventually being able to take Her down for good."

@@ -10,16 +10,18 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[1]/tooltip"
 msgstr ""
-"EXTERMINATOR'S AETHER SHIELD:\n"
-"This enemy is protected by a massive sophisticated and resilient Energy Shield. In addition to the usual Super Shield benefits, shields also recharge 25% faster."
+"CABAL ROOMS:\n"
+"This enemy has one or more Cabal rooms, marked by the unique pink symbols and C icon in the top left. Cabal rooms will take no hull damage from weapons. Fires and breaches in the rooms will also be instantly fixed. Cabal rooms will take system damage as normal."
 
 #: src-en/data/hyperspace.xml.append:113
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
-"TINFOIL ARRAY:\n"
-"While enemy Mind Control is powered to lvl 3, all enemy crew gain complete MC immunity."
+"CABAL'S PROTECTION ARRAY:\n"
+"This enemy's crew will passively heal anywhere on their ship so long as their Medbay is powered, at 100% speed of the current Medbay power level.\n"
+"\n"
+"Their crew will also have 25% more movement speed per medbay level powered. Their Totality Commanders will also gain an extra charge of their full health healing for as long as their medbay has 3 or more power in it."
 
 #: src-en/data/hyperspace.xml.append:120
 msgid ""
@@ -242,8 +244,8 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[29]/tooltip"
 msgstr ""
-"PECULIAR SHIELDING:\n"
-"This enemy is protected by an advanced energy shield which also prevents your crew from using short-range teleporters while inside the enemy ship."
+"CEREBRAL OVERCHARGE:\n"
+"Enemy crew gain a 15% buff to repair and combat damage, and heal 50% faster while their Mind Control system is powered."
 
 #: src-en/data/hyperspace.xml.append:264
 msgid ""
@@ -255,9 +257,9 @@ msgstr ""
 "- 5% faster weapon charge.\n"
 "- 10% faster shield charge.\n"
 "- 15% faster FTL Drive charge.\n"
-"- 5% hull resist chance, 5% system resist chance, and 25% ion resist chance.\n"
-"- Friendly crew and drones in your ship constantly heal 1 hp/s.\n"
-"- Enemy crew and drones in your ship constantly take 1 hp/s in damage."
+"- 15% hull resist chance, 15% system resist chance, and 50% ion resist chance.\n"
+"- Friendly crew and drones in your ship constantly heal 3 hp/s.\n"
+"- Enemy crew and drones in your ship constantly take 5 hp/s in damage."
 
 #: src-en/data/hyperspace.xml.append:275
 msgid ""
@@ -273,7 +275,7 @@ msgid ""
 "append:shipIcon[32]/tooltip"
 msgstr ""
 "ECTOPLASMIC GEL:\n"
-"Breaches on the enemy ship will automatically be repaired even in the absence of crew. In this ship's empty rooms, enemy crew are immune to hazards, and your crew move at half speed and lose the ability to fight."
+"Breaches on the enemy ship will automatically be repaired instantly even in the absence of crew. In this ship's empty rooms, enemy crew are immune to hazards, and your crew move at half speed and lose the ability to fight."
 
 #: src-en/data/hyperspace.xml.append:285
 msgid ""
@@ -312,16 +314,16 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[36]/tooltip"
 msgstr ""
-"EMERGENCY AUTOPILOT:\n"
-"This ship has a sophisticated form of autopilot which will keep it fully functional and working for as long as there is at least a single enemy alive or in the process of being cloned."
+"MOLTEN ARMOR:\n"
+"Your crew on this ship passively take 15 hp/s in damage. This damage counts as fire damage, and is modified accordingly. The ship also has a 25% chance to negate any hull damage, impacts that deal 1 damage have a 20% chance to be negated, and all other damage is reduced by 1."
 
 #: src-en/data/hyperspace.xml.append:313
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[37]/tooltip"
 msgstr ""
-"HOLY CONVICTION:\n"
-"Enemy crew heal and are cloned 50% faster, and the enemy ship's beam weapons pierce 2 additional shield layers."
+"ENERGY SIPHON:\n"
+"\tFor each crew drone the enemy control, their crew gains +0.25x damage and repair as well as +25 max health. Drones fired by their weapons and artilleries also count towards this number."
 
 #: src-en/data/hyperspace.xml.append:318
 msgid ""
@@ -361,7 +363,7 @@ msgid ""
 "append:shipIcon[42]/tooltip"
 msgstr ""
 "NECROMANTIC AURA:\n"
-"The enemy's Ghost crew have 100 more health and resist mind control."
+"The enemy's Specter crew have 100 more health and resist mind control."
 
 #: src-en/data/hyperspace.xml.append:343
 msgid ""
@@ -376,16 +378,18 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[44]/tooltip"
 msgstr ""
-"FRIGID AIR:\n"
-"The enemy's Snowman crew heal for 20 hp/s while inside the enemy ship."
+"Frozen ARMOR:\n"
+"Every time you deal hull damage to this enemy with your weapons, a shard will break off and fly towards your ship. It will pierce 2 shields and can't be shot down by defense drones, deals 1 damage and locks down rooms on hit. The ship also has a 50% chance to negate system damage."
 
 #: src-en/data/hyperspace.xml.append:353
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[45]/tooltip"
 msgstr ""
-"LIVING SHIP:\n"
-"This enemy ship is alive, and has consumed one or more of its old crewmates. The augments it has acquired from this process have their icons displayed."
+"DEATHLY SPORES:\n"
+"Your crew will be infected with deathly spores, causing any allied crew who dies to make other allied crew take 10% more damage and increases their active ability cooldowns by 10%. This effect stacks and applies across all ships\n"
+"\n"
+"Effect is removed on jump."
 
 #: src-en/data/hyperspace.xml.append:360
 msgid ""
@@ -472,13 +476,11 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[56]/tooltip"
 msgstr ""
-"EXPERIMENTAL PLATING:\n"
-"This ship's unique hull armor provides several bonuses.\n"
-"- 20% hull resist chance, 20% system resist chance, 50% ion resistance chance.\n"
-"- The enemy ship automatically repairs breaches even in the absence of crew.\n"
-"- Enemy crew in empty rooms on the enemy ship take 20% less damage from all sources and 25% reduced stun duration.\n"
-"- For each powered level of enemy Life Support, enemy crew gain an additional 15% combat damage, 20% movement speed, 5% maximum health, and 10% faster power charge rate.\n"
-"- 30% reduction to your boarders' sabotage speed."
+"LEGIONNAIRE'S AEGIS:\n"
+"This enemy is protected by a highly resilient energy shield. It has an integrity of 10 hit points. While the energy shield is up:\n"
+"\n"
+"- The fire rate of the enemy's Weapons and Artillery is improved by 20%;\n"
+"- The enemy's ship's evasion is increased by 10;"
 
 #: src-en/data/hyperspace.xml.append:418
 msgid ""
@@ -493,8 +495,12 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[58]/tooltip"
 msgstr ""
-"GILDED SYSTEMS:\n"
-"This ship's systems become more efficient the more scrap it carries. Every 10 scrap, its weapons charge 1% faster. Every 5 scrap, its shields regenerate 1% faster."
+"R.U.E.S. ROYAL PLATING:\n"
+"This ship's unique hull armor provides several bonuses.\n"
+"- 20% hull resist chance. Impacts that deal 1 damage have a 40% chance to be negated, and all other damage is reduced by 1.\n"
+"- Breaches on this enemy will automatically be repaired even in the absence of crew.\n"
+"- Provides a 35% crew combat resistance and a 50% hazard resistance to enemy crew in empty rooms.\n"
+"- For each active power bar in Life Support, their crew get a bonus 25% movement speed, 6.25% maximum health, and reduces active ability cooldowns by 15%."
 
 #: src-en/data/hyperspace.xml.append:432
 msgid ""
@@ -627,7 +633,7 @@ msgstr "AUGMENTS OF THE DAY [33% OFF]"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod-"
 "append:customStore[2]/category[7]/customTitle"
-msgstr "DECKHANDS"
+msgstr "MFK DECKHANDS"
 
 #: src-en/data/hyperspace.xml.append:844
 msgid ""
@@ -663,7 +669,7 @@ msgstr "AUGMENTS OF THE DAY [33% OFF]"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod-"
 "append:customStore[3]/category[7]/customTitle"
-msgstr "DECKHANDS"
+msgstr "UNITY DECKHANDS"
 
 #: src-en/data/hyperspace.xml.append:986
 msgid ""
@@ -1281,7 +1287,7 @@ msgid ""
 "append:race[@name=\"fr_enhanced\"]/powerEffect[1]/tooltip"
 msgstr ""
 "[COOLDOWN:1s  1 Charge per jump]\n"
-"\t\t\tHeals the hull by 1."
+"\t\tHeals the hull by 1."
 
 #: src-en/data/hyperspace.xml.append:4950
 msgid ""
@@ -1295,7 +1301,7 @@ msgid ""
 "append:race[@name=\"fr_enhanced\"]/powerEffect[2]/tooltip"
 msgstr ""
 "[CD:20s  -40HP]\n"
-"\t\t\tFully heals the current system."
+"\t\tFully heals the current system."
 
 #: src-en/data/hyperspace.xml.append:4997
 msgid ""
@@ -1309,7 +1315,7 @@ msgid ""
 "append:race[@name=\"fr_proto_cognitive\"]/powerEffect/tooltip"
 msgstr ""
 "[CD:30s]\n"
-"\t\t\tToggle Automated mode. The Cognitive will not be controllable but will gain massive boosts to all of its stats."
+"\t\tToggle Automated mode. The Cognitive will not be controllable but will gain massive boosts to all of its stats."
 
 #: src-en/data/hyperspace.xml.append:5045
 msgid ""
@@ -1323,7 +1329,7 @@ msgid ""
 "append:race[@name=\"fr_proto_cognitive_automated\"]/powerEffect/tooltip"
 msgstr ""
 "[CD:30s]\n"
-"\t\t\tToggle Controllable mode. You will assume full control over the Cognitive, but it will lose its boosted stats."
+"\t\tToggle Controllable mode. You will assume full control over the Cognitive, but it will lose its boosted stats."
 
 #: src-en/data/hyperspace.xml.append:5112
 msgid ""
@@ -1398,7 +1404,7 @@ msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_slimer_heal_power\"]/tooltip"
 msgstr ""
 "[COOLDOWN:10s]\n"
-"\t\t\tDeals 1 hull damage, fully destroys the system and breaches the room. Can't be used inside the enemy ship."
+"\t\t\tDeals 1 hull damage, fully destroys the system and breaches the room to fully heal Slimer. Can't be used inside the enemy ship."
 
 #: src-en/data/hyperspace.xml.append:5870
 msgid ""
@@ -1745,7 +1751,7 @@ msgstr "PHEROMONE"
 msgid "data/hyperspace.xml.append$//powerEffect[@name=\"powerFreddy\"]/tooltip"
 msgstr ""
 "[COOLDOWN:25s  DURATION:10s]\n"
-"\t\t\t\tNearby allied Mantis gain the effects of their Pheromone ability. Standard Hive Mantis will use the Free Mantis Synthethized Pheromones."
+"\t\t\t\tNearby allied Mantis gain the effects of their Pheromone ability. Standard Hive Mantis will use the Free Mantis Synthesized Pheromones."
 
 #: src-en/data/hyperspace.xml.append:7920
 msgid ""
@@ -2375,7 +2381,7 @@ msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_weaver_power\"]/tooltip"
 msgstr ""
 "[COOLDOWN:20s  DURATION:10s]\n"
-"\t\t\tFully heal this crew and buff all other allied Spiders' damage by 2x for 10 seconds."
+"\t\t\tFully heal this crew and buffs all other allied Spiders' damage by 2x for 10 seconds."
 
 #: src-en/data/hyperspace.xml.append:9936
 msgid ""
@@ -2776,7 +2782,7 @@ msgstr ""
 #: src-en/data/hyperspace.xml.append:19418
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_slimer_heal_augment_power\"]/buttonText"
-msgstr "DEVOUR"
+msgstr "DEVOUR+"
 
 #: src-en/data/hyperspace.xml.append:19419
 msgid ""
@@ -2814,7 +2820,7 @@ msgstr ""
 #: src-en/data/hyperspace.xml.append:19525
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_aleenor_augment_power\"]/buttonText"
-msgstr "BERSERK"
+msgstr "BERSERK+"
 
 #: src-en/data/hyperspace.xml.append:19526
 msgid ""
@@ -2832,13 +2838,13 @@ msgstr "BOOST+"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_vin_speed_augment_power\"]/tooltip"
 msgstr ""
-"[CD:10s  DURATION:10s  -40HP]\n"
-"\t\t\tTemporarily move at normal speed."
+"[CD:10s  DURATION:10s]\n"
+"\t\t\t\t\tTemporarily move at normal speed."
 
 #: src-en/data/hyperspace.xml.append:19583
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_vin_fire_augment_power\"]/buttonText"
-msgstr "FUSION"
+msgstr "FUSION+"
 
 #: src-en/data/hyperspace.xml.append:19584
 msgid ""
@@ -2850,7 +2856,7 @@ msgstr ""
 #: src-en/data/hyperspace.xml.append:19615
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_cleo_augment_power\"]/buttonText"
-msgstr "REPAIR"
+msgstr "REPAIR+"
 
 #: src-en/data/hyperspace.xml.append:19616
 msgid ""
@@ -2886,7 +2892,7 @@ msgstr ""
 #: src-en/data/hyperspace.xml.append:19848
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_frostwall_augment_power\"]/buttonText"
-msgstr "LOCKDOWN"
+msgstr "LOCKDOWN+"
 
 #: src-en/data/hyperspace.xml.append:19849
 msgid ""
@@ -2934,68 +2940,68 @@ msgstr ""
 #: src-en/data/hyperspace.xml.append:20087
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_searak_augment_power\"]/buttonText"
-msgstr "SUPERNOVA"
+msgstr "SUPERNOVA+"
 
 #: src-en/data/hyperspace.xml.append:20088
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_searak_augment_power\"]/tooltip"
 msgstr ""
 "[COOLDOWN:25s]\n"
-"\t\t\tStart blast countdown. When countdown is finished, explode for 150 crew damage to all enemies crew in the room while also starting a fire and dealing 2 system damage to the current room. If the countdown is interrupted by death, the ability will be canceled. Cannot activate while stunned or teleporting. \n"
-"\t\t\tThe explosion will only do 25 self-damage to Searak, and he will be unable to act for 15 seconds."
+"\t\t\t\t\tStart blast countdown. When countdown is finished, explode for 150 crew damage to all enemies crew in the room while also starting a fire and dealing 2 system damage to the current room. If the countdown is interrupted by death, the ability will be canceled. Cannot activate while stunned or teleporting. \n"
+"\t\t\t\t\tThe explosion will only do 25 self-damage to Searak."
 
 #: src-en/data/hyperspace.xml.append:20132
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_augustus_augment_power\"]/buttonText"
-msgstr "SELLOUT"
+msgstr "SELLOUT+"
 
 #: src-en/data/hyperspace.xml.append:20133
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_augustus_augment_power\"]/tooltip"
 msgstr ""
 "[COOLDOWN:1s]\n"
-"\t\t\tPay 10 scrap to fully heal this crew. Always triggers if the crew reaches 10 health."
+"\t\t\t\t\tPay 1 scrap to fully heal this crew. Always triggers if the crew reaches 10 health."
 
 #: src-en/data/hyperspace.xml.append:20157
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_hatchling_augment_power\"]/buttonText"
-msgstr "METAMORPH"
+msgstr "METAMORPH+"
 
 #: src-en/data/hyperspace.xml.append:20158
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_hatchling_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:20s]\n"
-"\t\t\tMetamorphs into their adult form while also fully healing the crew."
+"[COOLDOWN:1s]\n"
+"\t\t\t\t\tMetamorphs into their adult form while also fully healing the crew."
 
 #: src-en/data/hyperspace.xml.append:20184
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_adult_augment_power\"]/buttonText"
-msgstr "METAMORPH"
+msgstr "METAMORPH+"
 
 #: src-en/data/hyperspace.xml.append:20185
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_adult_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:20s]\n"
-"\t\t\tMetamorphs into their weaver form while also fully healing the crew."
+"[COOLDOWN:1s]\n"
+"\t\t\t\t\tMetamorphs into their weaver form while also fully healing the crew."
 
 #: src-en/data/hyperspace.xml.append:20211
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_weaver_augment_power\"]/buttonText"
-msgstr "EMPOWER"
+msgstr "EMPOWER+"
 
 #: src-en/data/hyperspace.xml.append:20212
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_weaver_augment_power\"]/tooltip"
 msgstr ""
 "[COOLDOWN:20s  DURATION:10s]\n"
-"\t\t\tFully heal this crew and buff all other allied Spiders' damage by 2x for 10 seconds."
+"\t\t\t\t\tFully heal this crew and buffs all other allied Spiders' damage by 2x for 10 seconds across all ships."
 
 #: src-en/data/hyperspace.xml.append:20251
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_prince_augment_power\"]/buttonText"
-msgstr "DARKNESS"
+msgstr "DARKNESS+"
 
 #: src-en/data/hyperspace.xml.append:20252
 msgid ""
@@ -3025,8 +3031,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\tTransforms into a copy of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TULLY]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransforms into a copy of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TULLY]"
 
 #: src-en/data/hyperspace.xml.append:20362
 msgid ""
@@ -3037,8 +3043,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_tully_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: HAYNES]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: HAYNES]"
 
 #: src-en/data/hyperspace.xml.append:20385
 msgid ""
@@ -3049,8 +3055,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_haynes_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: JERRY]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: JERRY]"
 
 #: src-en/data/hyperspace.xml.append:20408
 msgid ""
@@ -3061,8 +3067,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_jerry_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ELLIE]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ELLIE]"
 
 #: src-en/data/hyperspace.xml.append:20431
 msgid ""
@@ -3073,8 +3079,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ellie_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: STEPHAN]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: STEPHAN]"
 
 #: src-en/data/hyperspace.xml.append:20454
 msgid ""
@@ -3085,8 +3091,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_stephan_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TURZIL]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TURZIL]"
 
 #: src-en/data/hyperspace.xml.append:20477
 msgid ""
@@ -3097,8 +3103,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_turzil_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: DEVORAK]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: DEVORAK]"
 
 #: src-en/data/hyperspace.xml.append:20500
 msgid ""
@@ -3109,8 +3115,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_devorak_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ANURAK]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ANURAK]"
 
 #: src-en/data/hyperspace.xml.append:20523
 msgid ""
@@ -3121,8 +3127,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_anurak_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: KAZ]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: KAZ]"
 
 #: src-en/data/hyperspace.xml.append:20546
 msgid ""
@@ -3133,8 +3139,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_kaz_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: FREDDY]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: FREDDY]"
 
 #: src-en/data/hyperspace.xml.append:20569
 msgid ""
@@ -3145,8 +3151,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_freddy_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: SYMBIOTE]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: SYMBIOTE]"
 
 #: src-en/data/hyperspace.xml.append:20592
 msgid ""
@@ -3157,8 +3163,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_symbiote_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: VORTIGON]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: VORTIGON]"
 
 #: src-en/data/hyperspace.xml.append:20615
 msgid ""
@@ -3169,8 +3175,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_vortigon_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TUCO]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TUCO]"
 
 #: src-en/data/hyperspace.xml.append:20638
 msgid ""
@@ -3181,8 +3187,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_tuco_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ARIADNE]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ARIADNE]"
 
 #: src-en/data/hyperspace.xml.append:20661
 msgid ""
@@ -3193,8 +3199,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ariadne_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: RUWEN]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: RUWEN]"
 
 #: src-en/data/hyperspace.xml.append:20684
 msgid ""
@@ -3205,8 +3211,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ruwen_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: DIANESH]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: DIANESH]"
 
 #: src-en/data/hyperspace.xml.append:20707
 msgid ""
@@ -3217,8 +3223,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_dianesh_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: OBYN]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: OBYN]"
 
 #: src-en/data/hyperspace.xml.append:20730
 msgid ""
@@ -3229,8 +3235,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_obyn_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: BILLY]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: BILLY]"
 
 #: src-en/data/hyperspace.xml.append:20753
 msgid ""
@@ -3241,8 +3247,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_billy_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: NIGHTS]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: NIGHTS]"
 
 #: src-en/data/hyperspace.xml.append:20776
 msgid ""
@@ -3253,8 +3259,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_billy_box_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: NIGHTS]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: NIGHTS]"
 
 #: src-en/data/hyperspace.xml.append:20799
 msgid ""
@@ -3265,8 +3271,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_nights_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: SLOCKNOG]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: SLOCKNOG]"
 
 #: src-en/data/hyperspace.xml.append:20822
 msgid ""
@@ -3277,8 +3283,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_slocknog_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: IRWIN]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: IRWIN]"
 
 #: src-en/data/hyperspace.xml.append:20845
 msgid ""
@@ -3289,8 +3295,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_irwin_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: SYLVAN]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: SYLVAN]"
 
 #: src-en/data/hyperspace.xml.append:20868
 msgid ""
@@ -3301,8 +3307,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_sylvan_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TONY SR.]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TONY SR.]"
 
 #: src-en/data/hyperspace.xml.append:20891
 msgid ""
@@ -3313,8 +3319,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_tonysr_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TYRDEO]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TYRDEO]"
 
 #: src-en/data/hyperspace.xml.append:20914
 msgid ""
@@ -3325,8 +3331,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_tyrdeo_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ALKRAM]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ALKRAM]"
 
 #: src-en/data/hyperspace.xml.append:20937
 msgid ""
@@ -3337,8 +3343,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_alkram_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ALKALI]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ALKALI]"
 
 #: src-en/data/hyperspace.xml.append:20960
 msgid ""
@@ -3349,8 +3355,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_alkali_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: OOJ]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: OOJ]"
 
 #: src-en/data/hyperspace.xml.append:20983
 msgid ""
@@ -3361,8 +3367,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ooj_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ANOINTED]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: ANOINTED]"
 
 #: src-en/data/hyperspace.xml.append:21006
 msgid ""
@@ -3373,8 +3379,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_anointed_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: BEACON EATER]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: BEACON EATER]"
 
 #: src-en/data/hyperspace.xml.append:21029
 msgid ""
@@ -3385,8 +3391,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_eater_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: DESSIUS]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: DESSIUS]"
 
 #: src-en/data/hyperspace.xml.append:21052
 msgid ""
@@ -3397,8 +3403,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_dessius_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: SPIDER QUEEN]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: SPIDER QUEEN]"
 
 #: src-en/data/hyperspace.xml.append:21075
 msgid ""
@@ -3409,8 +3415,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_queen_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: GUNTPUT]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: GUNTPUT]"
 
 #: src-en/data/hyperspace.xml.append:21098
 msgid ""
@@ -3421,8 +3427,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_guntput_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: METYUNT]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: METYUNT]"
 
 #: src-en/data/hyperspace.xml.append:21121
 msgid ""
@@ -3433,8 +3439,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_metyunt_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: WITHER]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: WITHER]"
 
 #: src-en/data/hyperspace.xml.append:21144
 msgid ""
@@ -3445,8 +3451,8 @@ msgstr "MORPH"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_wither_augment_power\"]/tooltip"
 msgstr ""
-"[COOLDOWN:60s]\n"
-"\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TULLY]"
+"[COOLDOWN:10s]\n"
+"\t\t\t\t\tTransform into a version of a specific unique crew, gaining all their abilities + being immune to hazards and being able to phase through doors. [NEXT UNIQUE: TULLY]"
 
 #: src-en/data/hyperspace.xml.append:21934
 msgid ""
@@ -3488,7 +3494,7 @@ msgid ""
 "append:aug[@name=\"FR_SOUL_TULLY\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:15s]\n"
-"\t\t\t\tCalls in a bomb strike from the Federation fleet, hitting the enemy ship's systems and crew."
+"\t\t\t\t\t\tCalls in a bomb strike from the Federation fleet, hitting the enemy ship's systems and crew."
 
 #: src-en/data/hyperspace.xml.append:23027
 msgid ""
@@ -3502,11 +3508,11 @@ msgid ""
 "append:aug[@name=\"FR_SOUL_RUWEN\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:28s  DURATION:12s]\n"
-"\t\t\t\tLocks down the room, and gain the following effects:\n"
-"\t\t\t\t-Health regeneration of 3 hp/s\n"
-"\t\t\t\t-0.5x damage taken in crew combat\n"
-"\t\t\t\t-Door phasing properties, which are shared to nearby crew\n"
-"\t\t\t\t-Strips door phasing properties of nearby enemies"
+"\t\t\t\t\t\tLocks down the room, and gain the following effects:\n"
+"\t\t\t\t\t\t-Health regeneration of 3hp/s\n"
+"\t\t\t\t\t\t-0.5x damage taken in crew combat\n"
+"\t\t\t\t\t\t-Door phasing properties, which are shared to nearby crew\n"
+"\t\t\t\t\t\t-Strips door phasing properties of nearby enemies"
 
 #: src-en/data/hyperspace.xml.append:23150
 msgid ""
@@ -3520,7 +3526,7 @@ msgid ""
 "append:aug[@name=\"FR_SOUL_SYLVAN\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:45s]\n"
-"\t\t\t\tDeploy a Breach, Ion, and Lockdown bomb (30 crew damage, 2 system damage, 5s stun, 3 ion damage). No crew friendly fire, but can affect your own systems."
+"\t\t\t\t\t\tDeploys a Breach, Ion, and Lockdown bomb (30 crew damage, 2 system damage, 5s stun, 3 ion damage). No crew friendly fire, but can affect your own systems."
 
 #: src-en/data/hyperspace.xml.append:23234
 msgid ""
@@ -3534,11 +3540,10 @@ msgid ""
 "append:aug[@name=\"FR_SOUL_ANOINTED\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[COOLDOWN:25s  DURATION:15s]\n"
-"\t\t\t\tHeal to full health and halts decay, deal 2 hull and system damage, and gains the following boosted stats:\n"
-"\t\t\t\t-4x movement, repair and sabotage speed\n"
-"\t\t\t\t-4x combat damage\n"
-"\t\t\t\t-4 oxygen/s draining\n"
-"\t\t\t\t-Doubled bonus power output"
+"\t\t\t\t\t\tHeals to full health and halts decay, deals 2 hull and system damage, and gains the following boosted stats:\n"
+"\t\t\t\t\t\t-4x movement, repair and sabotage speed\n"
+"\t\t\t\t\t\t-4x combat damage\n"
+"\t\t\t\t\t\t-Doubled bonus power output"
 
 #: src-en/data/hyperspace.xml.append:23290
 msgid ""
@@ -4933,7 +4938,7 @@ msgstr "Blessing Received"
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[14]/mod-"
 "append:page/section[3]/@text"
-msgstr "Forgotten Events"
+msgstr "Forgotten Grants"
 
 #: src-en/data/hyperspace.xml.append:30832
 msgid ""

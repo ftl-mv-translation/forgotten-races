@@ -9,13 +9,6 @@ msgstr ""
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_START\"]/text"
 msgstr ""
-"En faisant atterrir votre vaisseau de force, vous réalisez que vous êtes "
-"toujours capable de voir l'énorme portail. Vos inquiétudes ne font "
-"qu'empirer lorsque vous distinguez que quelque chose d'énorme a atterri à "
-"distance. Qui que ce soit a dû utiliser un brouilleur SPL très avancé pour "
-"vous arrêter en plein saut, et ils semblent se diriger rapidement vers votre"
-" position. Si vous avez des préparatifs de dernière minute à faire, c'est le"
-" moment de les faire."
 
 #: src-en/data/events_fr_special_finalfight.xml:22
 msgid ""
@@ -45,121 +38,209 @@ msgstr ""
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT\"]/choice/event/text"
 msgstr ""
-"Vous n'en croyez pas vos yeux en voyant qui vous a arrêté. C'est un gigantesque vaisseau Obélisque de type vaisseau amiral ! Pas n'importe quel Obélisque, d'ailleurs, ils arborent les couleurs des Exterminateurs ! Aenwithe est absolument sans voix, son cuboïde peut à peine comprendre ce qu'il voit.\n"
-"\n"
-"\t\t\t\"Mais... Cette conception n'était plus censée être utilisée ! La reine Y n'accepterait jamais... Attendez...\" Les capteurs de Wither s'arrêtent net alors que vous recevez un appel de l'autre vaisseau, où vous découvrez que le pilote n'est autre que la Reine Y elle-même, la cheffe des Obélisques et l'entité la plus puissante parmi tous les Exterminateurs.\n"
-"\t\n"
-"\t\t\t\"Quoi ? Surpris, Aenwithe ? Franchement, vous ne devriez pas l'être. Pensiez-vous vraiment que je resterais là sans rien faire pendant que vous et votre petit ami iriez au pays des merveilles ensemble ? Hah ! Jamais ! Une reine de ma stature ne laisserait jamais un ennemi prendre le dessus. En parlant d'ennemi...\" La reine se tourne vers vous avec un regard noir, une malice palpable émanant de sa présence même."
 
-#: src-en/data/events_fr_special_finalfight.xml:46
+#: src-en/data/events_fr_special_finalfight.xml:45
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT\"]/choice/event/choice/text"
 msgstr "Attendez, le portail est toujours ouvert !"
 
-#: src-en/data/events_fr_special_finalfight.xml:48
+#: src-en/data/events_fr_special_finalfight.xml:62
 msgid ""
-"data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT\"]/choice/event/choice/event/text"
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CASUAL\"]/text"
 msgstr ""
-"\"Précisément, petite créature de chair, vous m'avez mené droit à leur petite cachette, le dernier bastion d'\"espoir\" pour cette engeance détestable qui aurait dû être complètement éliminée il y a des éons !\"\n"
-"\t\t\n"
-"\t\t\t\t\tAenwithe cligne des yeux, \"Attendez... c'est pour ça que vous avez amené l'Exterminateur... Vous... vous voulez les purger à nouveau ?!\" Y rit aussi fort que ses modules vocaux le lui permettent, \"Oh mais bien sûr ! Nous les Royals sommes parfaits en tous points, et pour que ces petites créatures continuent d'exister... eh bien, cela jetterait le doute sur cette notion, n'est-ce pas ?"
 
-#: src-en/data/events_fr_special_finalfight.xml:52
+#: src-en/data/events_fr_special_finalfight.xml:67
 msgid ""
-"data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT\"]/choice/event/choice/event/choice/text"
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CASUAL\"]/choice/text"
 msgstr ""
 "Si vous voulez leur faire du mal, vous devrez d'abord nous affronter !"
 
-#: src-en/data/events_fr_special_finalfight.xml:54
+#: src-en/data/events_fr_special_finalfight.xml:69
 msgid ""
-"data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT\"]/choice/event/choice/event/choice/event/text"
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CASUAL\"]/choice/event/text"
 msgstr ""
-"La reine rit à nouveau, \"Comme c'est mignon. Le misérable mortel du côté de"
-" l'échec pense pouvoir tout faire. Eh bien, c'est votre enterrement, petit. "
-"Même cet amiral bourru avec son vaisseau amiral blanc et brillant n'a pas pu"
-" nous arrêter. Quel espoir pensez-vous avoir ?\" À ce moment, vous voyez une"
-" énorme flotte de vaisseaux Royaux arriver en saut. C'est peut-être la "
-"fin..."
 
-#: src-en/data/events_fr_special_finalfight.xml:58
+#: src-en/data/events_fr_special_finalfight.xml:73
 msgid ""
-"data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT\"]/choice/event/choice/event/choice/event/choice[1]/text"
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CASUAL\"]/choice/event/choice[1]/text"
 msgstr "Il est temps d'en finir !"
 
-#: src-en/data/events_fr_special_finalfight.xml:62
+#: src-en/data/events_fr_special_finalfight.xml:77
 msgid ""
-"data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT\"]/choice/event/choice/event/choice/event/choice[@req=\"unique_jerry\"]/text"
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CASUAL\"]/choice/event/choice[@req=\"unique_jerry\"]/text"
 msgstr "(Jerry) Saluez Y."
 
-#: src-en/data/events_fr_special_finalfight.xml:66
+#: src-en/data/events_fr_special_finalfight.xml:81
 msgid ""
-"data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT\"]/choice/event/choice/event/choice/event/choice[@req=\"fr_reborn_g\"]/text"
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CASUAL\"]/choice/event/choice[@req=\"fr_reborn_g\"]/text"
 msgstr "(G) Saluez Y."
 
-#: src-en/data/events_fr_special_finalfight.xml:70
+#: src-en/data/events_fr_special_finalfight.xml:85
 msgid ""
-"data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT\"]/choice/event/choice/event/choice/event/choice[@req=\"unique_vance\"]/text"
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CASUAL\"]/choice/event/choice[@req=\"unique_vance\"]/text"
 msgstr "(Vance Prime) Saluez Y."
 
-#: src-en/data/events_fr_special_finalfight.xml:82
+#: src-en/data/events_fr_special_finalfight.xml:93
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_NORMAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_fr_special_finalfight.xml:98
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_NORMAL\"]/choice/text"
+msgstr ""
+"Si vous voulez leur faire du mal, vous devrez d'abord nous affronter !"
+
+#: src-en/data/events_fr_special_finalfight.xml:100
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_NORMAL\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_fr_special_finalfight.xml:104
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_NORMAL\"]/choice/event/choice[1]/text"
+msgstr "Il est temps d'en finir !"
+
+#: src-en/data/events_fr_special_finalfight.xml:108
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_NORMAL\"]/choice/event/choice[@req=\"unique_jerry\"]/text"
+msgstr "(Jerry) Saluez Y."
+
+#: src-en/data/events_fr_special_finalfight.xml:112
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_NORMAL\"]/choice/event/choice[@req=\"fr_reborn_g\"]/text"
+msgstr "(G) Saluez Y."
+
+#: src-en/data/events_fr_special_finalfight.xml:116
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_NORMAL\"]/choice/event/choice[@req=\"unique_vance\"]/text"
+msgstr "(Vance Prime) Saluez Y."
+
+#: src-en/data/events_fr_special_finalfight.xml:124
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CHALLENGE\"]/text"
+msgstr ""
+
+#: src-en/data/events_fr_special_finalfight.xml:129
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CHALLENGE\"]/choice/text"
+msgstr ""
+"Si vous voulez leur faire du mal, vous devrez d'abord nous affronter !"
+
+#: src-en/data/events_fr_special_finalfight.xml:131
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CHALLENGE\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_fr_special_finalfight.xml:135
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CHALLENGE\"]/choice/event/choice[1]/text"
+msgstr "Il est temps d'en finir !"
+
+#: src-en/data/events_fr_special_finalfight.xml:139
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CHALLENGE\"]/choice/event/choice[@req=\"unique_jerry\"]/text"
+msgstr "(Jerry) Saluez Y."
+
+#: src-en/data/events_fr_special_finalfight.xml:143
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CHALLENGE\"]/choice/event/choice[@req=\"fr_reborn_g\"]/text"
+msgstr "(G) Saluez Y."
+
+#: src-en/data/events_fr_special_finalfight.xml:147
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_CHALLENGE\"]/choice/event/choice[@req=\"unique_vance\"]/text"
+msgstr "(Vance Prime) Saluez Y."
+
+#: src-en/data/events_fr_special_finalfight.xml:155
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_EXTREME\"]/text"
+msgstr ""
+
+#: src-en/data/events_fr_special_finalfight.xml:160
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_EXTREME\"]/choice/text"
+msgstr ""
+"Si vous voulez leur faire du mal, vous devrez d'abord nous affronter !"
+
+#: src-en/data/events_fr_special_finalfight.xml:162
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_EXTREME\"]/choice/event/text"
+msgstr ""
+
+#: src-en/data/events_fr_special_finalfight.xml:166
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_EXTREME\"]/choice/event/choice[1]/text"
+msgstr "Il est temps d'en finir !"
+
+#: src-en/data/events_fr_special_finalfight.xml:170
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_EXTREME\"]/choice/event/choice[@req=\"unique_jerry\"]/text"
+msgstr "(Jerry) Saluez Y."
+
+#: src-en/data/events_fr_special_finalfight.xml:174
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_EXTREME\"]/choice/event/choice[@req=\"fr_reborn_g\"]/text"
+msgstr "(G) Saluez Y."
+
+#: src-en/data/events_fr_special_finalfight.xml:178
+msgid ""
+"data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_BEGIN_THE_FIGHT_EXTREME\"]/choice/event/choice[@req=\"unique_vance\"]/text"
+msgstr "(Vance Prime) Saluez Y."
+
+#: src-en/data/events_fr_special_finalfight.xml:186
+msgid ""
+"data/events_fr_special_finalfight.xml$//event[@name=\"FR_DEATH_EXTERMINATOR\"]/lose/@text"
+msgstr ""
+
+#: src-en/data/events_fr_special_finalfight.xml:222
+msgid ""
+"data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_AUTO\"]/text"
+msgstr ""
+"Il semble que ce vaisseau soit également équipé d'un système d'IA avancé. "
+"Maintenant que l'équipage est mort, il a pris le contrôle !"
+
+#: src-en/data/events_fr_special_finalfight.xml:228
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_VANCE\"]/text"
 msgstr ""
-"Y semble confuse que Vance soit sain et sauf, mais cette confusion se transforme vite en amusement : \" Ha ! Tu as donc décidé de te refuser une mort digne ? Quel ver pathétique tu es. Quel est ton plan, petit mortel ? Fuir comme un lâche encore une fois ? \"\n"
-"\n"
-"\tL'expression stoïque de Vance ne change pas ; il fixe simplement Y, muet comme une pierre."
 
-#: src-en/data/events_fr_special_finalfight.xml:86
+#: src-en/data/events_fr_special_finalfight.xml:232
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_VANCE\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:88
+#: src-en/data/events_fr_special_finalfight.xml:234
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_VANCE\"]/choice/event/text"
 msgstr ""
-"Y semble étrangement gênée par cela, sa colère montant clairement : \" Qu'est-il arrivé, petit mortel ? Trop effrayé pour même parler ?! \"\n"
-"\n"
-"\t\t\tFinalement, l'expression de Vance change légèrement, un sourire coquin se formant au coin de ses lèvres. \" Non, ce n'était qu'une distraction. \"\n"
-"\t\t\n"
-"\t\t\tSoudain, une énorme explosion se déclenche à l'intérieur du système d'artillerie de l'Exterminateur. \" Voyez-vous, après tant d'années à piloter des vaisseaux amiraux, on apprend une chose ou deux sur leurs points faibles. Ce n'est pas parce que le vôtre est fait d'éther que la physique sous-jacente en sera changée. \"\n"
-"\t\t\n"
-"\t\t\tAvant que Y n'ait la chance de répondre, Vance coupe l'appel, se retournant avec un large sourire. Il semble que Vance ait réussi à désactiver l'une des artilleries de l'Exterminateur !"
 
-#: src-en/data/events_fr_special_finalfight.xml:98
+#: src-en/data/events_fr_special_finalfight.xml:244
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_VANCE\"]/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:106
+#: src-en/data/events_fr_special_finalfight.xml:252
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_G\"]/text"
 msgstr ""
-"Y semble devenir beaucoup plus confuse lorsqu'elle voit G : \" G...? Qu'est-ce qui t'est arrivé ? Et pourquoi es-tu à bord du vaisseau du mortel ? \"\n"
-"\n"
-"\tG rit simplement, sa lueur rouge surnaturelle devenant plus forte : \" Oh ma chère Y, tu ne sais vraiment rien de ce qui se passe en dehors de ton petit palais, n'est-ce pas ? Aucun de tes serviteurs ne t'a jamais parlé de ma disparition ? Ou n'as-tu jamais été assez soucieuse pour remarquer que j'étais partie, pour commencer ? \""
 
-#: src-en/data/events_fr_special_finalfight.xml:110
+#: src-en/data/events_fr_special_finalfight.xml:256
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_G\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:112
+#: src-en/data/events_fr_special_finalfight.xml:258
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_G\"]/choice/event/text"
 msgstr ""
-"Y est surprise par l'hostilité soudaine : \" Comment oses-tu parler ainsi à ta reine ?! Je t'ordonne de faire preuve d'humilité et de T'AGENOUILLEZ DEVANT TON DIEU ! \" Sa colère éclate et l'exterminateur tire un coup de semonce vers votre vaisseau.\n"
-"\n"
-"\t\t\tG n'est pas troublée par cette démonstration de force, cependant. \" Toujours aussi colérique que le jour de ton ascension. Qu'importe, ton heure est venue, et je ne permettrai pas que tes crises de colère me fassent mourir une seconde fois ! \"\n"
-"\t\t\n"
-"\t\t\tSoudain, le système de téléportation de l'Exterminateur commence à briller d'une teinte rouge foncé avant de prendre feu. Quoi qu'ait fait G, cela a dû l'endommager de façon permanente !"
 
-#: src-en/data/events_fr_special_finalfight.xml:120
+#: src-en/data/events_fr_special_finalfight.xml:266
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_G\"]/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:128
+#: src-en/data/events_fr_special_finalfight.xml:274
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/text"
 msgstr ""
@@ -168,12 +249,12 @@ msgstr ""
 "mort en raté ? Quel avorton pathétique tu es. Le multivers sera un meilleur "
 "endroit sans des gens comme toi. \""
 
-#: src-en/data/events_fr_special_finalfight.xml:130
+#: src-en/data/events_fr_special_finalfight.xml:276
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:132
+#: src-en/data/events_fr_special_finalfight.xml:278
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/text"
 msgstr ""
@@ -181,7 +262,7 @@ msgstr ""
 "étouffe un sanglot et tient sa tête entre ses mains tandis que des larmes "
 "forment des flaques sur le sol."
 
-#: src-en/data/events_fr_special_finalfight.xml:135
+#: src-en/data/events_fr_special_finalfight.xml:281
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/removeCrew/text"
 msgstr ""
@@ -189,12 +270,12 @@ msgstr ""
 "terrifiantes artilleries se chargeant. Vous voulez le consoler, mais vous "
 "devez partir."
 
-#: src-en/data/events_fr_special_finalfight.xml:138
+#: src-en/data/events_fr_special_finalfight.xml:284
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:140
+#: src-en/data/events_fr_special_finalfight.xml:286
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/text"
 msgstr ""
@@ -203,88 +284,88 @@ msgstr ""
 "Gatling. Vous n'êtes pas sûr d'où il l'a sortie, mais vous n'avez pas le "
 "temps de vous poser la question."
 
-#: src-en/data/events_fr_special_finalfight.xml:142
+#: src-en/data/events_fr_special_finalfight.xml:288
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/crewMember"
 msgstr "Jerry"
 
-#: src-en/data/events_fr_special_finalfight.xml:144
+#: src-en/data/events_fr_special_finalfight.xml:290
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:146
+#: src-en/data/events_fr_special_finalfight.xml:292
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:149
+#: src-en/data/events_fr_special_finalfight.xml:295
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:155
+#: src-en/data/events_fr_special_finalfight.xml:301
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"ponyc\"]/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:157
+#: src-en/data/events_fr_special_finalfight.xml:303
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"ponyc\"]/event/text"
 msgstr ""
 "Avant de commencer votre combat contre l'Exterminateur, Jerry s'arrête et "
 "sort de la pièce."
 
-#: src-en/data/events_fr_special_finalfight.xml:160
+#: src-en/data/events_fr_special_finalfight.xml:306
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"ponyc\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:163
+#: src-en/data/events_fr_special_finalfight.xml:309
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"ponyc\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:165
+#: src-en/data/events_fr_special_finalfight.xml:311
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"ponyc\"]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:168
+#: src-en/data/events_fr_special_finalfight.xml:314
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"ponyc\"]/event/choice/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:171
+#: src-en/data/events_fr_special_finalfight.xml:317
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"ponyc\"]/event/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:173
+#: src-en/data/events_fr_special_finalfight.xml:319
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"ponyc\"]/event/choice/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:174
+#: src-en/data/events_fr_special_finalfight.xml:320
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"ponyc\"]/event/choice/event/choice/event/crewMember"
 msgstr "Jerry"
 
-#: src-en/data/events_fr_special_finalfight.xml:178
+#: src-en/data/events_fr_special_finalfight.xml:324
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"ponyc\"]/event/choice/event/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:188
+#: src-en/data/events_fr_special_finalfight.xml:334
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"1\"]/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:190
+#: src-en/data/events_fr_special_finalfight.xml:336
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"1\"]/event/text"
@@ -292,172 +373,159 @@ msgstr ""
 "Avant de commencer votre combat contre l'Exterminateur, Jerry s'arrête et "
 "sort de la pièce."
 
-#: src-en/data/events_fr_special_finalfight.xml:193
+#: src-en/data/events_fr_special_finalfight.xml:339
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"1\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:196
+#: src-en/data/events_fr_special_finalfight.xml:342
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:198
+#: src-en/data/events_fr_special_finalfight.xml:344
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"1\"]/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:201
+#: src-en/data/events_fr_special_finalfight.xml:347
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"1\"]/event/choice/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:204
+#: src-en/data/events_fr_special_finalfight.xml:350
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"1\"]/event/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:206
+#: src-en/data/events_fr_special_finalfight.xml:352
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"1\"]/event/choice/event/choice/event/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:207
+#: src-en/data/events_fr_special_finalfight.xml:353
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"1\"]/event/choice/event/choice/event/crewMember"
 msgstr "Jerry"
 
-#: src-en/data/events_fr_special_finalfight.xml:210
+#: src-en/data/events_fr_special_finalfight.xml:356
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"pony_tamed\""
 " and @lvl=\"1\"]/event/choice/event/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:220
+#: src-en/data/events_fr_special_finalfight.xml:366
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:222
+#: src-en/data/events_fr_special_finalfight.xml:368
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/event/text"
 msgstr ""
 "Avant de commencer votre combat contre l'Exterminateur, Jerry s'arrête et "
 "sort de la pièce."
 
-#: src-en/data/events_fr_special_finalfight.xml:225
+#: src-en/data/events_fr_special_finalfight.xml:371
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:228
+#: src-en/data/events_fr_special_finalfight.xml:374
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:230
+#: src-en/data/events_fr_special_finalfight.xml:376
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/event/choice/event/text"
 msgstr "Jerry entre dans la pièce où Prince dort..."
 
-#: src-en/data/events_fr_special_finalfight.xml:233
+#: src-en/data/events_fr_special_finalfight.xml:379
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/event/choice/event/removeCrew/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:236
+#: src-en/data/events_fr_special_finalfight.xml:382
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/event/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:238
+#: src-en/data/events_fr_special_finalfight.xml:384
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/event/choice/event/choice/event/text"
 msgstr ""
 "Puis, Jerry monte Prince ! L'Équinoïde démoniaque pousse un hennissement "
 "glaçant, prêt à partir au combat. \" Très bien. Maintenant je suis prêt. \""
 
-#: src-en/data/events_fr_special_finalfight.xml:239
+#: src-en/data/events_fr_special_finalfight.xml:385
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/event/choice/event/choice/event/crewMember"
 msgstr "Jerry"
 
-#: src-en/data/events_fr_special_finalfight.xml:243
+#: src-en/data/events_fr_special_finalfight.xml:389
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_BEGIN_THE_FIGHT_JERRY\"]/choice/event/choice/event/choice[@req=\"fr_bonus_prince\"]/event/choice/event/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:266
-msgid ""
-"data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_AUTO\"]/text"
-msgstr ""
-"Il semble que ce vaisseau soit également équipé d'un système d'IA avancé. "
-"Maintenant que l'équipage est mort, il a pris le contrôle !"
-
-#: src-en/data/events_fr_special_finalfight.xml:278
+#: src-en/data/events_fr_special_finalfight.xml:413
 msgid ""
 "data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_COMMONWEALTH_MORALITY_CHECK_POSITIVE\"]/text"
 msgstr ""
-"Soudain, vous recevez un message provenant du portail : \" Étranger ! Vous nous avez montré une gentillesse qu'aucun autre être n'a jamais manifestée, et pour cela, vous avez notre soutien ! \" Vous détectez quelques flottes qui arrivent, toutes visant l'Exterminateur !\t\n"
-"\n"
-"\t\" Nous avons apporté des tirs de Batterie Anti-Vaisseau (ASB) et des charges utiles pour vous aider au combat ! Nous allons maintenir les autres vaisseaux Royals occupés, vous devez juste vous concentrer sur l'élimination de l'Exterminateur ! \""
 
-#: src-en/data/events_fr_special_finalfight.xml:290
+#: src-en/data/events_fr_special_finalfight.xml:425
 msgid ""
 "data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_COMMONWEALTH_MORALITY_CHECK_POSITIVE\"]/triggeredEvent/triggeredEventBox/tooltip"
 msgstr ""
 "La surtension de la charge utile IEM se produira après ce compte à rebours."
 
-#: src-en/data/events_fr_special_finalfight.xml:294
+#: src-en/data/events_fr_special_finalfight.xml:429
 msgid ""
 "data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_COMMONWEALTH_MORALITY_CHECK_POSITIVE\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:300
+#: src-en/data/events_fr_special_finalfight.xml:435
 msgid ""
 "data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_COMMONWEALTH_MORALITY_CHECK_NEUTRAL\"]/text"
 msgstr ""
-"Soudain, vous recevez un message provenant du portail et détectez quelques flottes qui arrivent, toutes visant la Flotte Royale !\n"
-"\t\t\n"
-"\t\" Étranger ! Nous maintiendrons les autres vaisseaux Royals occupés pendant que vous combattrez l'Exterminateur. Nous comptons tous sur vous, mais que nous survivions ou non, ce fut un honneur de combattre à vos côtés. \""
 
-#: src-en/data/events_fr_special_finalfight.xml:307
+#: src-en/data/events_fr_special_finalfight.xml:442
 msgid ""
 "data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_COMMONWEALTH_MORALITY_CHECK_NEUTRAL\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:313
+#: src-en/data/events_fr_special_finalfight.xml:448
 msgid ""
 "data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_COMMONWEALTH_MORALITY_CHECK_NEGATIVE\"]/text"
 msgstr ""
 "Vous fermez les yeux et espérez un miracle, mais rien ne se passe. Vous "
 "devrez faire face au vaisseau amiral et à la flotte tout seul."
 
-#: src-en/data/events_fr_special_finalfight.xml:318
+#: src-en/data/events_fr_special_finalfight.xml:453
 msgid ""
 "data/events_fr_special_finalfight.xml$/dummyroot/FTL/event[@name=\"FR_COMMONWEALTH_MORALITY_CHECK_NEGATIVE\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:324
+#: src-en/data/events_fr_special_finalfight.xml:459
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_WIN\"]/text"
 msgstr ""
 "Vous regardez avec une jubilation triomphante le vaisseau amiral exploser. "
 "Vous avez gagné cette bataille et sauvé le Commonwealth !"
 
-#: src-en/data/events_fr_special_finalfight.xml:329
+#: src-en/data/events_fr_special_finalfight.xml:464
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_WIN\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:336
+#: src-en/data/events_fr_special_finalfight.xml:471
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/text"
 msgstr ""
@@ -467,188 +535,143 @@ msgstr ""
 "assuré que le vaisseau amiral est détruit, vous effectuez un scan de la zone"
 " pour voir qui est encore en vie."
 
-#: src-en/data/events_fr_special_finalfight.xml:340
+#: src-en/data/events_fr_special_finalfight.xml:474
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:342
+#: src-en/data/events_fr_special_finalfight.xml:476
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/text"
 msgstr ""
-"Vous êtes bientôt contacté par ce qui semble être le vaisseau commandant du vaisseau du Commonwealth. Leur vaisseau a subi de nombreux dégâts, mais il tient toujours bon ! Les autres vaisseaux du Commonwealth ont également complètement submergé la flotte royale !\n"
-"\t\t\t\n"
-"\t\t\t\" Étranger ! Vous avez fait preuve d'une grande excellence et d'une bravoure exceptionnelle dans ce combat, et vos prouesses au combat étaient telles qu'elles pourraient être chantées ! Non seulement vous avez tué l'être qui nous tenait dans la peur à chaque instant, mais vous avez également détruit leur plus grande arme et symbole d'oppression. Pour cela, nous vous sommes éternellement reconnaissants. \""
 
-#: src-en/data/events_fr_special_finalfight.xml:346
+#: src-en/data/events_fr_special_finalfight.xml:480
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/choice/text"
 msgstr ""
-"Nous n'avons fait que ce que nous pouvions, vous méritez de vivre une vie "
-"heureuse et en sécurité."
 
-#: src-en/data/events_fr_special_finalfight.xml:348
+#: src-en/data/events_fr_special_finalfight.xml:482
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/choice/event/text"
 msgstr ""
-"Leur chef improvisé sourit : \" Toujours humble, je vois ! Je suis sûr de parler au nom de tout le peuple du Commonwealth en disant qu'à partir de ce jour, vous n'êtes plus un étranger, mais un membre honoraire de notre refuge ! Gloire à nos sauveurs ! \" \n"
-"\t\t\t\t\t\t\n"
-"\t\t\t\t\tSoudain, vos communications sont inondées de messages de dizaines de vaisseaux Obélisques vous acclamant ! Une fois que tous se sont tus, leur chef reprend la parole.\n"
-"\t\t\t\t\n"
-"\t\t\t\t\t\" Maintenant, quelle est votre prochaine étape, sauveur ? \""
 
-#: src-en/data/events_fr_special_finalfight.xml:354
+#: src-en/data/events_fr_special_finalfight.xml:488
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/choice/event/choice/text"
 msgstr ""
-"Nous devons toujours vaincre le vaisseau amiral rebelle dans la réalité d'où"
-" nous venons, pensez-vous pouvoir nous aider ?"
 
-#: src-en/data/events_fr_special_finalfight.xml:356
+#: src-en/data/events_fr_special_finalfight.xml:490
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/choice/event/choice/event/text"
 msgstr ""
-"\" Volontiers ! Citoyens du Commonwealth ! Nous marchons pour une dernière "
-"bataille aujourd'hui ! Suivez nos sauveurs et tuez tous ceux qui s'opposent "
-"à eux ! \""
 
-#: src-en/data/events_fr_special_finalfight.xml:358
+#: src-en/data/events_fr_special_finalfight.xml:492
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/choice/event/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:368
+#: src-en/data/events_fr_special_finalfight.xml:502
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:370
+#: src-en/data/events_fr_special_finalfight.xml:504
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
-"Le champ de bataille est plutôt calme après le combat, il faut un certain "
-"temps pour attirer l'attention des rares survivants du Commonwealth. Après "
-"un moment, vous constatez que seule une poignée de flottes a survécu, toutes"
-" gravement endommagées et certaines même incapables de sauter."
 
-#: src-en/data/events_fr_special_finalfight.xml:372
+#: src-en/data/events_fr_special_finalfight.xml:506
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:374
+#: src-en/data/events_fr_special_finalfight.xml:508
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice/event/text"
 msgstr ""
-"Vous demandez si vous pouvez faire quelque chose pour aider, mais le "
-"Commonwealth ne semble pas intéressé par votre offre, craignant que votre "
-"présence n'attire davantage d'Obélisques vers leur refuge. Ils vous "
-"demandent poliment de partir."
 
-#: src-en/data/events_fr_special_finalfight.xml:376
+#: src-en/data/events_fr_special_finalfight.xml:510
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:378
+#: src-en/data/events_fr_special_finalfight.xml:512
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/text"
 msgstr ""
-"Ne voulant pas déclencher un autre combat, vous obtempérez. Vous mettez le "
-"cap sur la Capitale de la Fédération dans l'espoir qu'il y ait encore "
-"quelqu'un pour vous aider."
 
-#: src-en/data/events_fr_special_finalfight.xml:380
+#: src-en/data/events_fr_special_finalfight.xml:514
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice/event/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:390
+#: src-en/data/events_fr_special_finalfight.xml:524
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:392
+#: src-en/data/events_fr_special_finalfight.xml:526
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
-"La flotte royale est toujours là, mais elle est trop occupée à paniquer "
-"après avoir vu l'Exterminateur tomber. C'est le moment idéal pour sauter !"
 
-#: src-en/data/events_fr_special_finalfight.xml:394
+#: src-en/data/events_fr_special_finalfight.xml:528
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:396
+#: src-en/data/events_fr_special_finalfight.xml:530
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/choice/event/text"
 msgstr ""
-"L'Exterminateur détruit, toutes les forces qui retenaient votre moteur sont "
-"levées, et vous pouvez rapidement vous échapper vers la Capitale de la "
-"Fédération, juste avant qu'un tir de Batterie Anti-Vaisseau (ASB) ne touche "
-"votre vaisseau."
 
-#: src-en/data/events_fr_special_finalfight.xml:398
+#: src-en/data/events_fr_special_finalfight.xml:532
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/choice/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_special_finalfight.xml:408
+#: src-en/data/events_fr_special_finalfight.xml:542
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE_GOOD\"]/text"
 msgstr ""
-"Vous atteignez la capitale de la Fédération avec une immense flotte du Commonwealth à vos côtés. En ce qui semble n'être qu'une minute, le vaisseau amiral multiversel est anéanti grâce à une flotte gigantesque sous votre commandement et une technologie des années-lumière en avance sur la leur.\n"
-"\n"
-"\tUne fois la poussière retombée, Tully vous contacte, et après quelques moments stressants où vous essayez d'expliquer l'enfer qui vient de se produire, il souhaite la bienvenue au Commonwealth et leur offre de rester aussi longtemps qu'ils le désirent et, en signe de remerciement, propose de les intégrer correctement à la Fédération !"
 
-#: src-en/data/events_fr_special_finalfight.xml:415
+#: src-en/data/events_fr_special_finalfight.xml:549
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE_GOOD\"]/win/@text"
 msgstr ""
 "L'avenir semble plus radieux que jamais. Votre récit résonnera à travers le "
 "multivers pour l'éternité."
 
-#: src-en/data/events_fr_special_finalfight.xml:419
+#: src-en/data/events_fr_special_finalfight.xml:553
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE_NEUTRAL\"]/text"
 msgstr ""
-"Il semble que vous soyez arrivé au dernier moment, car de nombreuses flottes"
-" de la Fédération subissent l'assaut des vaisseaux rebelles. Heureusement, "
-"vos armes de pointe viennent rapidement à bout du vaisseau amiral, "
-"renversant la situation en faveur de la Fédération. Au lendemain des "
-"attaques, vous contactez Tully et lui racontez tout ce qui s'est passé. Ce "
-"qui se passera désormais est hors de votre contrôle, mais votre travail ici "
-"est terminé."
 
-#: src-en/data/events_fr_special_finalfight.xml:423
+#: src-en/data/events_fr_special_finalfight.xml:557
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE_NEUTRAL\"]/win/@text"
 msgstr ""
-"Cette victoire n'est peut-être pas celle que vous espériez, mais le travail "
-"d'un renégat n'est jamais terminé. Vous mettez le cap sur l'univers suivant "
-"et sautez."
 
-#: src-en/data/events_fr_special_finalfight.xml:427
+#: src-en/data/events_fr_special_finalfight.xml:561
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE_BAD\"]/text"
 msgstr ""
@@ -662,7 +685,7 @@ msgstr ""
 "votre vaisseau tombe, le dernier espoir de cette réalité pour la Fédération "
 "s'évanouit..."
 
-#: src-en/data/events_fr_special_finalfight.xml:434
+#: src-en/data/events_fr_special_finalfight.xml:568
 msgid ""
 "data/events_fr_special_finalfight.xml$//event[@name=\"FR_FINALFIGHT_EPILOGUE_BAD\"]/win/@text"
 msgstr ""

@@ -24,9 +24,6 @@ msgstr "Un emplacement non visité."
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/text"
 msgstr ""
-"Cette balise héberge un transport du Commonwealth. Il est fort probable que "
-"le vaisseau transporte de la technologie Éther. Si vous parvenez à tuer son "
-"équipage, sa cargaison sera vôtre."
 
 #: src-en/data/events_special_transports.xml.append:22
 msgid ""
@@ -134,7 +131,263 @@ msgstr ""
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH_CAPTURE\"]/text"
 msgstr ""
-"L'équipage est mort, vous laissant avec le vaisseau. Sa cargaison est vôtre."
-" Cependant, en fouillant pour des armes ou des drones, vous tombez sur une "
-"étrange technologie de bouclier d'énergie capable de se cumuler avec "
-"d'autres formes de boucliers d'énergie."
+
+#: src-en/data/events_special_transports.xml.append:119
+msgid ""
+"data/events_special_transports.xml.append$//ship[@name=\"FR_SHIP_WARZONE_TRANSPORT_REBEL\"]/escape/text"
+msgstr ""
+"Ils ont l'air de ne pas vouloir se battre. Ils essaient de s'échapper."
+
+#: src-en/data/events_special_transports.xml.append:134
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/beaconType/unvisitedTooltip"
+msgstr "Un emplacement non visité."
+
+#: src-en/data/events_special_transports.xml.append:135
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/beaconType/visitedTooltip"
+msgstr "Emplacement déjà exploré. Il n'y reste rien d'intéressant."
+
+#: src-en/data/events_special_transports.xml.append:136
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/beaconType/undiscoveredTooltip"
+msgstr "Un emplacement non visité."
+
+#: src-en/data/events_special_transports.xml.append:138
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:142
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[1]/text"
+msgstr "Exiger la reddition de leurs biens."
+
+#: src-en/data/events_special_transports.xml.append:144
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[1]/event/text"
+msgstr "Vous vous préparez à sécuriser leur cargaison par la force."
+
+#: src-en/data/events_special_transports.xml.append:147
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:153
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[2]/text"
+msgstr "Éviter le vaisseau."
+
+#: src-en/data/events_special_transports.xml.append:155
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[2]/event/text"
+msgstr "Ils restent hors de portée de vos armes et finissent par sauter."
+
+#: src-en/data/events_special_transports.xml.append:157
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[2]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:161
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[2]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:169
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_CAPTURE_REBEL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:178
+msgid ""
+"data/events_special_transports.xml.append$//ship[@name=\"FR_SHIP_WARZONE_TRANSPORT_COALITION\"]/escape/text"
+msgstr ""
+"Ils ont l'air de ne pas vouloir se battre. Ils essaient de s'échapper."
+
+#: src-en/data/events_special_transports.xml.append:189
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/beaconType/unvisitedTooltip"
+msgstr "Un emplacement non visité."
+
+#: src-en/data/events_special_transports.xml.append:190
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/beaconType/visitedTooltip"
+msgstr "Emplacement déjà exploré. Il n'y reste rien d'intéressant."
+
+#: src-en/data/events_special_transports.xml.append:191
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/beaconType/undiscoveredTooltip"
+msgstr "Un emplacement non visité."
+
+#: src-en/data/events_special_transports.xml.append:193
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:197
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[1]/text"
+msgstr "Exiger la reddition de leurs biens."
+
+#: src-en/data/events_special_transports.xml.append:199
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[1]/event/text"
+msgstr "Vous vous préparez à sécuriser leur cargaison par la force."
+
+#: src-en/data/events_special_transports.xml.append:203
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:209
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[2]/text"
+msgstr "Éviter le vaisseau."
+
+#: src-en/data/events_special_transports.xml.append:211
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:213
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[2]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:217
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[2]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:225
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_CAPTURE_COALITION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:234
+msgid ""
+"data/events_special_transports.xml.append$//ship[@name=\"FR_SHIP_WARZONE_TRANSPORT_FEDERATION\"]/escape/text"
+msgstr ""
+"Ils ont l'air de ne pas vouloir se battre. Ils essaient de s'échapper."
+
+#: src-en/data/events_special_transports.xml.append:245
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/beaconType/unvisitedTooltip"
+msgstr "Un emplacement non visité."
+
+#: src-en/data/events_special_transports.xml.append:246
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/beaconType/visitedTooltip"
+msgstr "Emplacement déjà exploré. Il n'y reste rien d'intéressant."
+
+#: src-en/data/events_special_transports.xml.append:247
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/beaconType/undiscoveredTooltip"
+msgstr "Un emplacement non visité."
+
+#: src-en/data/events_special_transports.xml.append:249
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:253
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[1]/text"
+msgstr "Exiger la reddition de leurs biens."
+
+#: src-en/data/events_special_transports.xml.append:255
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[1]/event/text"
+msgstr "Vous vous préparez à sécuriser leur cargaison par la force."
+
+#: src-en/data/events_special_transports.xml.append:258
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:264
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:266
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:268
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[1]/text"
+msgstr "Acheter la cargaison."
+
+#: src-en/data/events_special_transports.xml.append:270
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[1]/event/text"
+msgstr ""
+"La transaction est effectuée. Apparemment, cette pièce d'équipement pourrait"
+" s'avérer utile."
+
+#: src-en/data/events_special_transports.xml.append:277
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:285
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[2]/text"
+msgstr "Refuser et attaquer le transport."
+
+#: src-en/data/events_special_transports.xml.append:287
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[2]/event/text"
+msgstr "Vous vous préparez à sécuriser leur cargaison par la force."
+
+#: src-en/data/events_special_transports.xml.append:290
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[2]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:296
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[3]/text"
+msgstr "Tant pis."
+
+#: src-en/data/events_special_transports.xml.append:298
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[3]/event/text"
+msgstr "Le capitaine du transport hausse les épaules et poursuit son chemin."
+
+#: src-en/data/events_special_transports.xml.append:300
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[3]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:304
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[3]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:312
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[3]/text"
+msgstr "Éviter le vaisseau."
+
+#: src-en/data/events_special_transports.xml.append:314
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[3]/event/text"
+msgstr "Ils restent hors de portée de vos armes et finissent par sauter."
+
+#: src-en/data/events_special_transports.xml.append:316
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[3]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:320
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[3]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:328
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_CAPTURE_FEDERATION\"]/text"
+msgstr ""

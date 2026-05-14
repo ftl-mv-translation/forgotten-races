@@ -5,571 +5,578 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/events_sector_obelisk.xml.append:8
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/undiscoveredTooltip"
-msgstr "このビーコンから奇妙な放送が発信されているようだ。"
-
 #: src-en/data/events_sector_obelisk.xml.append:9
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/unvisitedTooltip"
-msgstr "このビーコンには古代のドローンがいた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/beaconType/undiscoveredTooltip[1]"
+msgstr "このビーコンから奇妙な放送が発信されているようだ。"
 
-#: src-en/data/events_sector_obelisk.xml.append:11
+#: src-en/data/events_sector_obelisk.xml.append:10
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/beaconType/undiscoveredTooltip[2]"
+msgstr "未訪問の場所。"
+
+#: src-en/data/events_sector_obelisk.xml.append:12
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/text"
 msgstr ""
-"ビーコンに到着すると、オベリスク設計の奇妙な自動船と対面する。この恐ろしい場所でさえ見たことのない色や製造元、モデルの武器を搭載しており、通信を開こうと試みている。"
 
-#: src-en/data/events_sector_obelisk.xml.append:14
+#: src-en/data/events_sector_obelisk.xml.append:15
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/text"
-msgstr "オートシップに接近し、通信を受信する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:16
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/text"
 msgstr ""
-"その船は、約10秒ほどのループで、雑音とかろうじて言葉と認識できるものが混ざった音を鳴り響かせている。信号の歪みのせいでメッセージの解読は困難を極めるだけでなく、実際の言葉遣いはオベリスクの言葉の中でもあまりに古く、エインワイスの翻訳アルゴリズムでは解読できない方言のようだ。より良い翻訳パッケージをインストールすれば、メッセージを理解できるかもしれない。"
 
-#: src-en/data/events_sector_obelisk.xml.append:18
+#: src-en/data/events_sector_obelisk.xml.append:17
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:21
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:23
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[1]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:26
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:32
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"0\"]/text"
 msgstr "ルーン翻訳機をインストールする。[コスト: 10~, 1|]"
 
-#: src-en/data/events_sector_obelisk.xml.append:20
+#: src-en/data/events_sector_obelisk.xml.append:34
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"0\"]/event/text"
 msgstr "翻訳機をインストールし、何が解読できるか待つ。"
 
-#: src-en/data/events_sector_obelisk.xml.append:28
+#: src-en/data/events_sector_obelisk.xml.append:42
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:34
+#: src-en/data/events_sector_obelisk.xml.append:48
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"1\"]/text"
-msgstr "翻訳機はすでにある。ドローンが何を言っているか解読しろ！"
+msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:36
+#: src-en/data/events_sector_obelisk.xml.append:50
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"1\"]/event/text"
 msgstr "ルーン翻訳機の電源を入れ、何が解読できるか待つ。"
 
-#: src-en/data/events_sector_obelisk.xml.append:38
+#: src-en/data/events_sector_obelisk.xml.append:52
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:44
+#: src-en/data/events_sector_obelisk.xml.append:58
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/text"
-msgstr "手動でノイズを翻訳してみる。"
-
-#: src-en/data/events_sector_obelisk.xml.append:46
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/event/text"
-msgstr "困難な道を選ぶことにした。メッセージの解読は非常に難しく、オートシップの前で数日間を費やし、翻訳機を強化することになる。"
-
-#: src-en/data/events_sector_obelisk.xml.append:49
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_REQUIREMENT_DIRECTOR_DRONES_AND_DRONE_CONTROL\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:55
+#: src-en/data/events_sector_obelisk.xml.append:60
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/text"
-msgstr "ディレクターにテキストを翻訳させられるか試す。"
-
-#: src-en/data/events_sector_obelisk.xml.append:57
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_REQUIREMENT_DIRECTOR_DRONES_AND_DRONE_CONTROL\"]/event/text"
 msgstr "データをディレクターに入力し、何が解読できるか待つ。"
 
-#: src-en/data/events_sector_obelisk.xml.append:59
+#: src-en/data/events_sector_obelisk.xml.append:62
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_REQUIREMENT_DIRECTOR_DRONES_AND_DRONE_CONTROL\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:65
+#: src-en/data/events_sector_obelisk.xml.append:68
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/text"
-msgstr "コモンウェルス以外のオベリスクに奇妙な言語を翻訳してもらう。"
-
-#: src-en/data/events_sector_obelisk.xml.append:67
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/text"
-msgstr "オベリスクはドローンのメッセージを聞くと固まった。数分かかったが、彼らはあなたのためにメッセージを翻訳することに同意した。"
-
-#: src-en/data/events_sector_obelisk.xml.append:69
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COMMONWEALTH_OBELISK\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:75
+#: src-en/data/events_sector_obelisk.xml.append:70
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/text"
-msgstr "コモンウェルスのオベリスクに奇妙な言語を翻訳してもらう。"
-
-#: src-en/data/events_sector_obelisk.xml.append:77
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COMMONWEALTH_OBELISK\"]/event/text"
 msgstr "コモンウェルスのオベリスクは、あなたとクルーが読めるようにメッセージの完全な翻訳を素早く書き上げた。"
 
-#: src-en/data/events_sector_obelisk.xml.append:79
+#: src-en/data/events_sector_obelisk.xml.append:72
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COMMONWEALTH_OBELISK\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:85
+#: src-en/data/events_sector_obelisk.xml.append:78
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/text"
-msgstr "非金属のコグニティブに奇妙な言語を翻訳してもらう。"
-
-#: src-en/data/events_sector_obelisk.xml.append:87
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/text"
-msgstr "コグニティブはすぐにメッセージの解読に取りかかった。困難な様子はまったくない。"
-
-#: src-en/data/events_sector_obelisk.xml.append:89
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:95
+#: src-en/data/events_sector_obelisk.xml.append:82
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:84
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:86
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:92
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[8]/text"
 msgstr "なんてこった、無線システムを停止して爆破しろ！"
+
+#: src-en/data/events_sector_obelisk.xml.append:94
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[8]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:97
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/event/text"
-msgstr "武器を起動すると、ドローンも同様に起動した。損傷しているとはいえ、かなりの戦いになりそうだ。"
-
-#: src-en/data/events_sector_obelisk.xml.append:100
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[8]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:106
+#: src-en/data/events_sector_obelisk.xml.append:103
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/text"
-msgstr "無線を停止してここから離脱する！"
-
-#: src-en/data/events_sector_obelisk.xml.append:108
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/text"
-msgstr "メッセージの解読は時間の無駄だと判断し、代わりにジャンプの準備をする。"
-
-#: src-en/data/events_sector_obelisk.xml.append:110
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/choice[1]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[9]/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:114
+#: src-en/data/events_sector_obelisk.xml.append:105
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/choice[2]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[9]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:122
+#: src-en/data/events_sector_obelisk.xml.append:107
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/text"
-msgstr "あの船を攻撃しろ。何であれ、中には何か使えるものがあるはずだ。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[9]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:111
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[9]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:119
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:121
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[2]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:124
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/event/text"
-msgstr "武器を起動すると、ドローンも同様に起動した。損傷しているとはいえ、かなりの戦いになりそうだ。"
-
-#: src-en/data/events_sector_obelisk.xml.append:127
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[2]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:133
+#: src-en/data/events_sector_obelisk.xml.append:130
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/text"
-msgstr "オートシップを放っておく。"
-
-#: src-en/data/events_sector_obelisk.xml.append:135
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/text"
-msgstr "損傷したオートシップを相手にするよりも、はるかに重要な問題がある。"
-
-#: src-en/data/events_sector_obelisk.xml.append:137
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/choice[1]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[3]/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:141
+#: src-en/data/events_sector_obelisk.xml.append:132
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/choice[2]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[3]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:149
+#: src-en/data/events_sector_obelisk.xml.append:134
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[3]/event/choice[1]/text"
 msgstr ""
-"船の不協和音が完全に翻訳されると、それが遠い昔のオベリスク内戦で移動兵器工場として使われていた可能性が高いことが判明した。損傷した状態であっても、オートシップの新しい装備を合成する能力は有用かもしれない。しかし、オートシップを停止させなければ、製造施設にアクセスするのは難しいだろう。"
 
-#: src-en/data/events_sector_obelisk.xml.append:151
+#: src-en/data/events_sector_obelisk.xml.append:138
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[3]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:146
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:148
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/text"
 msgstr "船をハッキングする。"
 
-#: src-en/data/events_sector_obelisk.xml.append:153
+#: src-en/data/events_sector_obelisk.xml.append:150
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/event/text"
-msgstr "オートシップのAIモジュールを攻撃するプログラムをセットアップした。この計画を成功させたいなら、船を破壊せずに持ちこたえなければならない！"
-
-#: src-en/data/events_sector_obelisk.xml.append:156
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:162
+#: src-en/data/events_sector_obelisk.xml.append:154
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/text"
-msgstr "コモンウェルスのクルーがハッキングプロセスを高速化できるか試す。"
-
-#: src-en/data/events_sector_obelisk.xml.append:164
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/event/triggeredEvent/triggeredEventBox/tooltip"
 msgstr ""
-"あなたのコモンウェルスのクルーは、これらのドローンが最も使用されていた時代にいたため、問題なくオートシップのファイアウォールを無効化することに成功した。"
+
+#: src-en/data/events_sector_obelisk.xml.append:160
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/event/choice/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:166
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/text"
+msgstr "コモンウェルスのクルーがハッキングプロセスを高速化できるか試す。"
+
+#: src-en/data/events_sector_obelisk.xml.append:168
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:172
+#: src-en/data/events_sector_obelisk.xml.append:170
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/text"
-msgstr "(高度ハッキング) メインのハッキングシステムを使ってハッキングプロセスを高速化する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:174
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/event/text"
-msgstr "あなたの高度なハッキングシステムはこのタスクに適しており、ドローンはたいした抵抗もなく屈服した。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/choice/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:176
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"hacking\"]/text"
+msgstr "(高度ハッキング) メインのハッキングシステムを使ってハッキングプロセスを高速化する。"
+
+#: src-en/data/events_sector_obelisk.xml.append:178
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"hacking\"]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:182
+#: src-en/data/events_sector_obelisk.xml.append:180
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/text"
-msgstr "これはリスクが高すぎる。オートシップから離れる。"
-
-#: src-en/data/events_sector_obelisk.xml.append:184
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/event/text"
-msgstr "この船がどんな秘密を抱えていようと、現在の任務とは無関係だ。あなたは背を向け、ジャンプの準備をする。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"hacking\"]/event/choice/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:186
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/event/choice[1]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[4]/text"
 msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:188
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[4]/event/text"
+msgstr "この船がどんな秘密を抱えていようと、現在の任務とは無関係だ。あなたは背を向け、ジャンプの準備をする。"
 
 #: src-en/data/events_sector_obelisk.xml.append:190
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/event/choice[2]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[4]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:198
+#: src-en/data/events_sector_obelisk.xml.append:194
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[4]/event/choice[2]/text"
 msgstr ""
-"船のファイアウォールが破られれば、船全体をあなたの指揮下に置くのも時間の問題だ。内部の奇跡的な製造施設はまだ無傷だが、船が損傷しているため、負荷で船が崩壊する前に装備を一つしか取り出せないだろう。\n"
-"\t\n"
-"\tまた、工場を捜索中に奇妙な立方体の装置を見つけた。壊れているなら、強力なリペアドローンで修理できるかもしれない。"
 
-#: src-en/data/events_sector_obelisk.xml.append:203
+#: src-en/data/events_sector_obelisk.xml.append:202
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[1]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:208
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[1]/text"
 msgstr "コモンウェルスの武器かドローンを作成する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:209
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/text"
-msgstr "船を解体する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:211
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/event/text"
-msgstr "古いオートシップをサルベージすることにし、そこから回収できる基本的なスクラップで間に合わせる。"
 
 #: src-en/data/events_sector_obelisk.xml.append:214
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[2]/text"
+msgstr "船を解体する。"
+
+#: src-en/data/events_sector_obelisk.xml.append:216
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[2]/event/text"
 msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:220
+#: src-en/data/events_sector_obelisk.xml.append:219
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[2]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:225
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
 msgstr "(コモンウェルスの身体) 死体を修理しようと試みる。"
 
-#: src-en/data/events_sector_obelisk.xml.append:222
+#: src-en/data/events_sector_obelisk.xml.append:227
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
-"工場はクルーのスキャンに苦労しているようだ。ひどく損傷しているためだろうが、最終的には彼らを蘇生させることに成功した…しかし、内部ソフトウェアがクラッシュするまでの一瞬だけだった。死体を修理するのに必要なものは、工場の修理能力を超えている。\n"
-"\t\n"
-"\t\t\t\t奇妙なことに、コモンウェルスが一時的に蘇生した直後、センサーに奇妙な異常が現れた。それは、身体がシャットダウンする前に発したエネルギーシグネチャと一致するようだ。もしかしたら、そのシグネチャを発している誰かが、身体を永久に蘇生させることができるかもしれない？"
 
-#: src-en/data/events_sector_obelisk.xml.append:231
+#: src-en/data/events_sector_obelisk.xml.append:236
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
 msgstr "(メンダードローン) 装置は壊れているようだ。我々のメンダードローンなら修理できるはずだ。"
 
-#: src-en/data/events_sector_obelisk.xml.append:233
+#: src-en/data/events_sector_obelisk.xml.append:238
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
-"装置はひどく損傷しており、修理には長い時間がかかった。最終的に、慎重な操作の末、あなたのメンダーは壊れた装置を完全に再構築することができた。それが起動すると、セクター内のある場所から奇妙な信号を受信した。そこではセンサーが巨大なエネルギースパイクを特定したばかりだ。そこにあるものは重要なものに違いない。"
 
-#: src-en/data/events_sector_obelisk.xml.append:242
+#: src-en/data/events_sector_obelisk.xml.append:247
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"prof_went_commonwealth_rift\"]/text"
-msgstr "装置は壊れていないようだ。起動する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:244
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY\"]/text"
 msgstr ""
-"装置に触れると、突然動き出した。それが起動すると、セクター内のある地点から奇妙な信号を受信した。そこではセンサーが巨大なエネルギースパイクを特定したばかりだ。そこにあるものは重要なものに違いない。"
 
-#: src-en/data/events_sector_obelisk.xml.append:254
+#: src-en/data/events_sector_obelisk.xml.append:249
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/text"
-msgstr "製造施設のファイアウォールを突破し、何を建造できるか確認する。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY\"]/event/text"
+msgstr ""
 
-#: src-en/data/events_sector_obelisk.xml.append:256
+#: src-en/data/events_sector_obelisk.xml.append:257
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:259
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:268
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/event/crewMember"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:276
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:278
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[1]/text"
 msgstr "プロトコグニティブを建造する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:262
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/event/text"
-msgstr ""
-"新しい仲間が少し混乱した様子で製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。コグニティブは外に出て、あなたのクルーに加わった！"
-
-#: src-en/data/events_sector_obelisk.xml.append:266
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/text"
-msgstr "コモンウェルス・ハービンジャーを建造する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:273
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/event/text"
-msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
-
-#: src-en/data/events_sector_obelisk.xml.append:277
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[3]/text"
-msgstr "コモンウェルス・プラズマキャノンを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:284
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[3]/event/text"
-msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[1]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:288
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[4]/text"
-msgstr "コモンウェルス・ペイロードを建造する。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[2]/text"
+msgstr "コモンウェルス・ハービンジャーを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:295
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[4]/event/text"
-msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[2]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:299
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[5]/text"
-msgstr "コモンウェルス・ヘビーハービンジャーを建造する。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[3]/text"
+msgstr "コモンウェルス・プラズマキャノンを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:306
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[5]/event/text"
-msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[3]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:310
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[4]/text"
+msgstr "コモンウェルス・ペイロードを建造する。"
+
+#: src-en/data/events_sector_obelisk.xml.append:317
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[4]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:321
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[5]/text"
+msgstr "コモンウェルス・ヘビーハービンジャーを建造する。"
+
+#: src-en/data/events_sector_obelisk.xml.append:328
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[5]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:332
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[6]/text"
 msgstr "コモンウェルス・イラディケーターを建造する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:316
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/event/text"
-msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
-
-#: src-en/data/events_sector_obelisk.xml.append:320
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/text"
-msgstr "コモンウェルス・ピュリファイアを建造する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:327
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/event/text"
-msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
-
-#: src-en/data/events_sector_obelisk.xml.append:331
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[8]/text"
-msgstr "コモンウェルス・カーネイジを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:338
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[8]/event/text"
-msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[6]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:342
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[9]/text"
-msgstr "コモンウェルス・オンスロートを建造する。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[7]/text"
+msgstr "コモンウェルス・ピュリファイアを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:349
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[9]/event/text"
-msgstr "新しい武器が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはその武器を船に乗せた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[7]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:353
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[8]/text"
+msgstr "コモンウェルス・カーネイジを建造する。"
+
+#: src-en/data/events_sector_obelisk.xml.append:360
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[8]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:364
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[9]/text"
+msgstr "コモンウェルス・オンスロートを建造する。"
+
+#: src-en/data/events_sector_obelisk.xml.append:371
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[9]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:375
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[10]/text"
 msgstr "コモンウェルス・カーネイジドローンを建造する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:361
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/event/text"
-msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
-
-#: src-en/data/events_sector_obelisk.xml.append:365
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/text"
-msgstr "コモンウェルス・フェイザードローンを建造する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:372
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/event/text"
-msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
-
-#: src-en/data/events_sector_obelisk.xml.append:376
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[12]/text"
-msgstr "コモンウェルス・ピュリファイアドローンを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:383
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[12]/event/text"
-msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[10]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:387
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[13]/text"
-msgstr "コモンウェルス・オーバーウォッチャーを建造する。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[11]/text"
+msgstr "コモンウェルス・フェイザードローンを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:394
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[13]/event/text"
-msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[11]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:398
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[14]/text"
-msgstr "コモンウェルス・ハービンジャードローンを建造する。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[12]/text"
+msgstr "コモンウェルス・ピュリファイアドローンを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:405
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[14]/event/text"
-msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[12]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:409
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[15]/text"
-msgstr "プロトディレクターを建造する。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[13]/text"
+msgstr "コモンウェルス・オーバーウォッチャーを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:416
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[15]/event/text"
-msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[13]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:420
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[16]/text"
-msgstr "プロトアトマイザーを建造する。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[14]/text"
+msgstr "コモンウェルス・ハービンジャードローンを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:427
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[16]/event/text"
-msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[14]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:431
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[17]/text"
-msgstr "プロトメンダーを建造する。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[15]/text"
+msgstr "プロトディレクターを建造する。"
 
 #: src-en/data/events_sector_obelisk.xml.append:438
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[17]/event/text"
-msgstr "新しいドローン設計図が製造施設から出てくると、古いオートシップは崩れ始め、役立たずの残骸と化した。あなたはそのドローンを船に乗せた。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[15]/event/text"
+msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:442
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/text"
-msgstr "どれも役に立たない。船を解体する。"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[16]/text"
+msgstr "プロトアトマイザーを建造する。"
 
-#: src-en/data/events_sector_obelisk.xml.append:444
+#: src-en/data/events_sector_obelisk.xml.append:449
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/event/text"
-msgstr "古いオートシップをサルベージすることにし、そこから回収できる基本的なスクラップで間に合わせる。"
-
-#: src-en/data/events_sector_obelisk.xml.append:447
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/event/choice/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[16]/event/text"
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:453
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[17]/text"
+msgstr "プロトメンダーを建造する。"
+
+#: src-en/data/events_sector_obelisk.xml.append:460
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[17]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:464
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[18]/text"
+msgstr "どれも役に立たない。船を解体する。"
+
+#: src-en/data/events_sector_obelisk.xml.append:466
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[18]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:469
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[18]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:475
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
 msgstr "(コモンウェルスの身体) 死体を修理しようと試みる。"
 
-#: src-en/data/events_sector_obelisk.xml.append:455
+#: src-en/data/events_sector_obelisk.xml.append:477
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
-"工場はクルーのスキャンに苦労しているようだ。ひどく損傷しているためだろうが、最終的には彼らを蘇生させることに成功した…しかし、内部ソフトウェアがクラッシュするまでの一瞬だけだった。死体を修理するのに必要なものは、工場の修理能力を超えている。\n"
-"\t\n"
-"\t\t\t奇妙なことに、コモンウェルスが一時的に蘇生した直後、センサーに奇妙な異常が現れた。それは、身体がシャットダウンする前に発したエネルギーシグネチャと一致するようだ。もしかしたら、そのシグネチャを発している誰かが、身体を永久に蘇生させることができるかもしれない？"
 
-#: src-en/data/events_sector_obelisk.xml.append:465
+#: src-en/data/events_sector_obelisk.xml.append:486
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
-msgstr "(メンダードローン) 装置は壊れているようだ。我々のメンダードローンなら修理できるはずだ。"
-
-#: src-en/data/events_sector_obelisk.xml.append:467
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
 msgstr ""
-"装置はひどく損傷しており、修理には長い時間がかかった。最終的に、慎重な操作の末、あなたのメンダーは壊れた装置を完全に再構築することができた。それが起動すると、セクター内のある場所から奇妙な信号を受信した。そこではセンサーが巨大なエネルギースパイクを特定したばかりだ。そこにあるものは重要なものに違いない。"
 
-#: src-en/data/events_sector_obelisk.xml.append:476
+#: src-en/data/events_sector_obelisk.xml.append:488
 msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"prof_went_commonwealth_rift\"]/text"
-msgstr "装置は壊れていないようだ。起動する。"
-
-#: src-en/data/events_sector_obelisk.xml.append:478
-msgid ""
-"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"prof_went_commonwealth_rift\"]/event/text"
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
-"装置に触れると、突然動き出した。それが起動すると、セクター内のある地点から奇妙な信号を受信した。そこではセンサーが巨大なエネルギースパイクを特定したばかりだ。そこにあるものは重要なものに違いない。"
+
+#: src-en/data/events_sector_obelisk.xml.append:497
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:499
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:507
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:509
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_sector_obelisk.xml.append:518
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/event/crewMember"
+msgstr ""

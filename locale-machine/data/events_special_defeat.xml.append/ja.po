@@ -8,78 +8,84 @@ msgstr ""
 #: src-en/data/events_special_defeat.xml.append:5
 msgid ""
 "data/events_special_defeat.xml.append$//mod:findName[@name=\"DESTROYED_REBEL_POD\"]/mod-"
-"append:choice/text"
+"append:choice[1]/text"
 msgstr "（ヴァンス・プライム）彼らを船に歓迎する。"
 
-#: src-en/data/events_special_defeat.xml.append:11
+#: src-en/data/events_special_defeat.xml.append:9
+msgid ""
+"data/events_special_defeat.xml.append$//mod:findName[@name=\"DESTROYED_REBEL_POD\"]/mod-"
+"append:choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_special_defeat.xml.append:15
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_DESTROYED_REBEL_POD_VANCE\"]/text"
 msgstr ""
 "「なんてこった！ヴァ…ヴァンスだ！あなたと同じ船に乗れるなんて光栄です、閣下。もし連邦を助けるつもりなら、喜んで加わります…反乱軍を捨てることになっても。」"
 
-#: src-en/data/events_special_defeat.xml.append:21
+#: src-en/data/events_special_defeat.xml.append:25
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[1]"
 msgstr "船の青いライトが消え、今度は二度と点灯することはないだろう…"
 
-#: src-en/data/events_special_defeat.xml.append:22
+#: src-en/data/events_special_defeat.xml.append:26
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[2]"
 msgstr ""
 "あなたがこれほど簡単にコモンウェルスの船を排除できるのだから、彼らがあなたを恐れるのも無理はない。結局のところ、彼らは以前にもあなたのような人物を相手にしたことがあるのだ。"
 
-#: src-en/data/events_special_defeat.xml.append:23
+#: src-en/data/events_special_defeat.xml.append:27
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[3]"
 msgstr "支柱が破壊された後、船は自重で崩壊した。少なくとも、彼らは苦しまなかった…"
 
-#: src-en/data/events_special_defeat.xml.append:24
+#: src-en/data/events_special_defeat.xml.append:28
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DESTROYED_COMMONWEALTH\"]/text[4]"
 msgstr "彼らのイオンを注入された装備は、あなたの純粋な力と戦闘経験には敵わないようだ。"
 
-#: src-en/data/events_special_defeat.xml.append:33
+#: src-en/data/events_special_defeat.xml.append:37
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[1]"
 msgstr "船の内部は壊れた部品と奇妙な光る液体で満ちている。おそらくこれがコモンウェルスを潤滑させているものだろう。見るもおぞましい光景だ。"
 
-#: src-en/data/events_special_defeat.xml.append:34
+#: src-en/data/events_special_defeat.xml.append:38
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[2]"
 msgstr "彼らの一族を殺せば殺すほど、自分がエクスターミネーターのようになっていくのを感じる。その考えがあなたを恐怖に陥れる。"
 
-#: src-en/data/events_special_defeat.xml.append:35
+#: src-en/data/events_special_defeat.xml.append:39
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[3]"
 msgstr "船長を殺す直前に、船からいくつかの脱出ポッドが射出されるのを見た。追いかけることも考えたが、何人かは生かしておくことにした。"
 
-#: src-en/data/events_special_defeat.xml.append:36
+#: src-en/data/events_special_defeat.xml.append:40
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_DEAD_CREW_COMMONWEALTH\"]/text[4]"
 msgstr ""
 "コモンウェルスを殺すことは、他のオベリスクを殺すこととは違う。彼らの体は柔らかく、戦闘で本当のダメージを与えることのできない、より繊細なナノマシンでできている。この戦いの不公平さは、あなたも承知している。"
 
-#: src-en/data/events_special_defeat.xml.append:42
+#: src-en/data/events_special_defeat.xml.append:46
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_COMMONWEALTH_SURRENDER\"]/choice[1]/text"
 msgstr "彼らを行かせる。"
 
-#: src-en/data/events_special_defeat.xml.append:44
+#: src-en/data/events_special_defeat.xml.append:48
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_COMMONWEALTH_SURRENDER\"]/choice[1]/event/text"
 msgstr "コモンウェルスは安堵のため息をつき、急いで船をジャンプさせる前にできる限りのものを転送した。"
 
-#: src-en/data/events_special_defeat.xml.append:52
+#: src-en/data/events_special_defeat.xml.append:56
 msgid ""
 "data/events_special_defeat.xml.append$//event[@name=\"FR_COMMONWEALTH_SURRENDER\"]/choice[2]/text"
 msgstr "いやだ。"
 
-#: src-en/data/events_special_defeat.xml.append:57
+#: src-en/data/events_special_defeat.xml.append:61
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_SURRENDER_COMMONWEALTH\"]/text[1]"
-msgstr "「部外者よ！進撃を止めてくれ、スクラップが欲しいなら、いくらでもやるから、どうか我々を生かしてくれ！」"
+msgstr ""
 
-#: src-en/data/events_special_defeat.xml.append:58
+#: src-en/data/events_special_defeat.xml.append:62
 msgid ""
 "data/events_special_defeat.xml.append$//textList[@name=\"FR_TEXT_SURRENDER_COMMONWEALTH\"]/text[2]"
 msgstr "コモンウェルスは必死に通信を送ってくる。生かしてくれるなら、貴重品をすべて差し出すつもりだ。"

@@ -24,7 +24,6 @@ msgstr "未訪問の場所。"
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/text"
 msgstr ""
-"このビーコンには連邦の輸送船がいる。船はおそらく何らかのイーサー技術を運んでいると見て間違いないだろう。クルーを殺せば、彼らの貨物はあなたのものになる。"
 
 #: src-en/data/events_special_transports.xml.append:22
 msgid ""
@@ -126,4 +125,258 @@ msgstr ""
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH_CAPTURE\"]/text"
 msgstr ""
-"クルーは死亡し、船はあなたのものになった。貨物は自由に手に入れられる。兵器やドローンを探していると、他のエネルギーシールドと重ねがけできる奇妙なエネルギーシールド技術に偶然出くわした。"
+
+#: src-en/data/events_special_transports.xml.append:119
+msgid ""
+"data/events_special_transports.xml.append$//ship[@name=\"FR_SHIP_WARZONE_TRANSPORT_REBEL\"]/escape/text"
+msgstr "彼らは戦いたくないようだ。逃げようとしている。"
+
+#: src-en/data/events_special_transports.xml.append:134
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/beaconType/unvisitedTooltip"
+msgstr "未訪問の場所。"
+
+#: src-en/data/events_special_transports.xml.append:135
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/beaconType/visitedTooltip"
+msgstr "探索済みの場所。興味のあるものは何も残っていない。"
+
+#: src-en/data/events_special_transports.xml.append:136
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/beaconType/undiscoveredTooltip"
+msgstr "未訪問の場所。"
+
+#: src-en/data/events_special_transports.xml.append:138
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:142
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[1]/text"
+msgstr "物資の降伏を要求する。"
+
+#: src-en/data/events_special_transports.xml.append:144
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[1]/event/text"
+msgstr "力ずくで貨物を確保する準備をする。"
+
+#: src-en/data/events_special_transports.xml.append:147
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:153
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[2]/text"
+msgstr "船を避ける。"
+
+#: src-en/data/events_special_transports.xml.append:155
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[2]/event/text"
+msgstr "彼らは兵器の射程外にとどまり、やがてジャンプして去っていった。"
+
+#: src-en/data/events_special_transports.xml.append:157
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[2]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:161
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[2]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:169
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_CAPTURE_REBEL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:178
+msgid ""
+"data/events_special_transports.xml.append$//ship[@name=\"FR_SHIP_WARZONE_TRANSPORT_COALITION\"]/escape/text"
+msgstr "彼らは戦いたくないようだ。逃げようとしている。"
+
+#: src-en/data/events_special_transports.xml.append:189
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/beaconType/unvisitedTooltip"
+msgstr "未訪問の場所。"
+
+#: src-en/data/events_special_transports.xml.append:190
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/beaconType/visitedTooltip"
+msgstr "探索済みの場所。興味のあるものは何も残っていない。"
+
+#: src-en/data/events_special_transports.xml.append:191
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/beaconType/undiscoveredTooltip"
+msgstr "未訪問の場所。"
+
+#: src-en/data/events_special_transports.xml.append:193
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:197
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[1]/text"
+msgstr "物資の降伏を要求する。"
+
+#: src-en/data/events_special_transports.xml.append:199
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[1]/event/text"
+msgstr "力ずくで貨物を確保する準備をする。"
+
+#: src-en/data/events_special_transports.xml.append:203
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:209
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[2]/text"
+msgstr "船を避ける。"
+
+#: src-en/data/events_special_transports.xml.append:211
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[2]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:213
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[2]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:217
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[2]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:225
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_CAPTURE_COALITION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:234
+msgid ""
+"data/events_special_transports.xml.append$//ship[@name=\"FR_SHIP_WARZONE_TRANSPORT_FEDERATION\"]/escape/text"
+msgstr "彼らは戦いたくないようだ。逃げようとしている。"
+
+#: src-en/data/events_special_transports.xml.append:245
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/beaconType/unvisitedTooltip"
+msgstr "未訪問の場所。"
+
+#: src-en/data/events_special_transports.xml.append:246
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/beaconType/visitedTooltip"
+msgstr "探索済みの場所。興味のあるものは何も残っていない。"
+
+#: src-en/data/events_special_transports.xml.append:247
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/beaconType/undiscoveredTooltip"
+msgstr "未訪問の場所。"
+
+#: src-en/data/events_special_transports.xml.append:249
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:253
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[1]/text"
+msgstr "物資の降伏を要求する。"
+
+#: src-en/data/events_special_transports.xml.append:255
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[1]/event/text"
+msgstr "力ずくで貨物を確保する準備をする。"
+
+#: src-en/data/events_special_transports.xml.append:258
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:264
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:266
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:268
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[1]/text"
+msgstr "貨物を購入する。"
+
+#: src-en/data/events_special_transports.xml.append:270
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[1]/event/text"
+msgstr "取引は完了した。見たところ、この装備は役に立つかもしれない。"
+
+#: src-en/data/events_special_transports.xml.append:277
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[1]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:285
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[2]/text"
+msgstr "拒否して輸送船を攻撃する。"
+
+#: src-en/data/events_special_transports.xml.append:287
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[2]/event/text"
+msgstr "力ずくで貨物を確保する準備をする。"
+
+#: src-en/data/events_special_transports.xml.append:290
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[2]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:296
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[3]/text"
+msgstr "何でもない。"
+
+#: src-en/data/events_special_transports.xml.append:298
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[3]/event/text"
+msgstr "輸送船の船長は肩をすくめ、先を急いだ。"
+
+#: src-en/data/events_special_transports.xml.append:300
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[3]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:304
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[3]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:312
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[3]/text"
+msgstr "船を避ける。"
+
+#: src-en/data/events_special_transports.xml.append:314
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[3]/event/text"
+msgstr "彼らは兵器の射程外にとどまり、やがてジャンプして去っていった。"
+
+#: src-en/data/events_special_transports.xml.append:316
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[3]/event/choice[1]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:320
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[3]/event/choice[2]/text"
+msgstr ""
+
+#: src-en/data/events_special_transports.xml.append:328
+msgid ""
+"data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_CAPTURE_FEDERATION\"]/text"
+msgstr ""
