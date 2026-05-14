@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-14 13:23+0000\n"
+"PO-Revision-Date: 2026-05-14 21:17+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -337,41 +337,49 @@ msgstr "主动能力：召唤一架临时维修无人机。"
 #: src-en/data/blueprints.xml.append:172
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_jon\"]/powerList/power[3]"
-msgstr ""
+msgstr "掌握2级技能。"
 
 #: src-en/data/blueprints.xml.append:173
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_jon\"]/powerList/power[4]"
 msgstr ""
+"2 倍修复速度。他召唤的无人机在引擎、驾驶、护盾、武器或无人机控制系统舱室时，"
+"战斗或修复能力额外提升 50%。"
 
 #: src-en/data/blueprints.xml.append:178
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_daisy\"]/title"
-msgstr ""
+msgstr "方尖碑探险者"
 
 #: src-en/data/blueprints.xml.append:179
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_daisy\"]/short"
-msgstr ""
+msgstr "探险者"
 
 #: src-en/data/blueprints.xml.append:180
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_daisy\"]/desc"
 msgstr ""
+"联合方碑在武器与技术研发领域所能提供的最顶尖人才。如今从坟墓中归来，她急于向"
+"所有质疑她的人证明他们是错的。\n"
+"\n"
+"\t继承联合方碑属性：无法战斗，免疫火焰与窒息"
 
 #: src-en/data/blueprints.xml.append:187
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_daisy\"]/powerList/power[1]"
 msgstr ""
+"80 点生命值，自身每秒恢复 2.5 点生命值，同一舱室内的友方无人机每秒恢复 5 点生"
+"命值。"
 
 #: src-en/data/blueprints.xml.append:188
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_daisy\"]/powerList/power[2]"
-msgstr ""
+msgstr "10 倍修复速度，无法进行破坏。1.3 倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:189
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_daisy\"]/powerList/power[3]"
-msgstr ""
+msgstr "为同一星舰上的所有友方无人机提供可叠加的无人机强化增益。"
 
 #: src-en/data/blueprints.xml.append:194
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_deviser\"]/title"
@@ -919,37 +927,40 @@ msgstr "用他的扩音器持续播放流行的音乐，为与他在同一房间
 #: src-en/data/blueprints.xml.append:433
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_vance_one\"]/title"
-msgstr ""
+msgstr "军团上将"
 
 #: src-en/data/blueprints.xml.append:434
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_vance_one\"]/short"
-msgstr ""
+msgstr "上将"
 
 #: src-en/data/blueprints.xml.append:435
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_vance_one\"]/desc"
 msgstr ""
+"1号宇宙的万斯，军团士兵的领导者，叛军领导权的篡夺者。绝非善类。\n"
+"\t\n"
+"\t继承军团特工属性：移动速度翻倍，掌握 2 级技能，对窒息与火焰伤害有极强抗性。"
 
 #: src-en/data/blueprints.xml.append:442
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_vance_one\"]/powerList/power[1]"
-msgstr ""
+msgstr "200 点生命值。远程攻击速度降低 20%。"
 
 #: src-en/data/blueprints.xml.append:443
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_vance_one\"]/powerList/power[2]"
-msgstr ""
+msgstr "与友方人类在同一个舱室内时，造成 3 倍战斗伤害，且修复与破坏速度提升至 3 倍。"
 
 #: src-en/data/blueprints.xml.append:444
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_vance_one\"]/powerList/power[3]"
-msgstr ""
+msgstr "无法担任系统岗位，因为他坚信不应独自操控舰船。"
 
 #: src-en/data/blueprints.xml.append:445
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_unique_vance_one\"]/powerList/power[4]"
-msgstr ""
+msgstr "与他同一舱室内的友方人类，将获得他在与友方人类同舱时所得加成的 1.5 倍效果。"
 
 #: src-en/data/blueprints.xml.append:450
 #, fuzzy
@@ -1388,41 +1399,43 @@ msgstr "搭载了短距传送器，让其能够在当前舰船上随意传送。
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_legion_drone_battle\"]/desc"
 msgstr ""
+"军团制造的噩梦机器。由秘密的以太合金打造，以纯液态的以太为燃料，能喷出足以在"
+"数秒内熔化固态以太的烈焰。"
 
 #: src-en/data/blueprints.xml.append:706
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_legion_drone_battle\"]/title"
-msgstr ""
+msgstr "军团烟火战斗无人机"
 
 #: src-en/data/blueprints.xml.append:707
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_legion_drone_battle\"]/short"
-msgstr ""
+msgstr "军团战斗无人机。"
 
 #: src-en/data/blueprints.xml.append:712
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_legion_drone_battle\"]/powerList/power[1]"
-msgstr ""
+msgstr "175 点最大生命值，0.45 倍移动速度，免疫环境伤害。"
 
 #: src-en/data/blueprints.xml.append:713
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_legion_drone_battle\"]/powerList/power[2]"
-msgstr ""
+msgstr "战斗中攻击速度极快，但仅造成 0.5 倍伤害。"
 
 #: src-en/data/blueprints.xml.append:714
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_legion_drone_battle\"]/powerList/power[3]"
-msgstr ""
+msgstr "攻击 5 秒后在舱室内引发火灾。"
 
 #: src-en/data/blueprints.xml.append:715
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_legion_drone_battle\"]/powerList/power[4]"
-msgstr ""
+msgstr "对暴露皮肤的船员造成双倍伤害。"
 
 #: src-en/data/blueprints.xml.append:716
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_legion_drone_battle\"]/powerList/power[5]"
-msgstr ""
+msgstr "死亡时爆炸，对舱室内所有系统与船员造成伤害，并引发火灾。"
 
 #: src-en/data/blueprints.xml.append:721
 msgid ""
@@ -1659,12 +1672,9 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/short"
 msgstr "死灵巫皇"
 
 #: src-en/data/blueprints.xml.append:834
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_g\"]/powerList/power[1]"
-msgstr ""
-"周期性的获得所有伤害抗性，但失去80%的船员伤害。\n"
-"\t\t只会在当前所处舱室内有敌方船员时触发。"
+msgstr "主动能力：获得完全伤害抗性，但失去 80% 的船员伤害能力。"
 
 #: src-en/data/blueprints.xml.append:835
 msgid ""
@@ -1742,13 +1752,11 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/shor
 msgstr "亡灵守护者"
 
 #: src-en/data/blueprints.xml.append:871
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_phys\"]/powerList/power[1]"
 msgstr ""
-"周期性地对当前舱室内的系统造成5点离子伤害并完全修复系统。同时也会击晕所有其他"
-"身处此舱室内的人。\n"
-"\t\t只会在有系统的舱室内触发。"
+"主动能力：对其所在舱室的系统造成 5 点离子伤害，并将其完全修复。同时会眩晕该舱"
+"室内的所有其他人员。"
 
 #: src-en/data/blueprints.xml.append:872
 msgid ""
@@ -1787,12 +1795,11 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/shor
 msgstr "亡灵MFK王牌精英"
 
 #: src-en/data/blueprints.xml.append:890
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_cleo\"]/powerList/power[1]"
 msgstr ""
-"周期性地修复所有和他身处同一舱室的无人机，每秒恢复10点生命中，持续10秒。\n"
-"\t\t只在房间内有友方无人机的时候触发。"
+"主动能力：修复与他同一舱室内的所有无人机，使其每秒恢复 10 点生命值，持续 10 "
+"秒。"
 
 #: src-en/data/blueprints.xml.append:891
 msgid ""
@@ -1834,12 +1841,9 @@ msgid ""
 msgstr "亡灵破坏者"
 
 #: src-en/data/blueprints.xml.append:909
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[1]"
-msgstr ""
-"周期性地吃掉同一舱室所有敌方船员身体的一部分，同时治疗自身。\n"
-"\t\t只会在舱室内有敌方船员的情况下触发。"
+msgstr "主动能力：吞食舱室内的一名敌方船员，在此过程中治疗自身。"
 
 #: src-en/data/blueprints.xml.append:910
 msgid ""
@@ -1847,10 +1851,9 @@ msgid ""
 msgstr "主动能力：吃掉飞船的一部分来完全治疗自己，造成1点伤害，造成破舱并完全破坏系统。无法在敌舰内使用。"
 
 #: src-en/data/blueprints.xml.append:911
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_slimer\"]/powerList/power[3]"
-msgstr "150生命值，无法通过普通手段治疗。"
+msgstr "200生命值，无法通过普通手段治疗。"
 
 #: src-en/data/blueprints.xml.append:912
 msgid ""
@@ -1879,12 +1882,9 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/short
 msgstr "亡灵圣骑士"
 
 #: src-en/data/blueprints.xml.append:928
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_vin\"]/powerList/power[1]"
-msgstr ""
-"周期性在当前舱室点火。\n"
-"\t\t只会在敌舰上触发。"
+msgstr "主动能力：在当前舱室点燃火焰。"
 
 #: src-en/data/blueprints.xml.append:929
 msgid ""
@@ -1942,7 +1942,7 @@ msgstr "同一舱室除食铁族以外的敌方金属船员与无人机会减少
 #: src-en/data/blueprints.xml.append:950
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_zulu\"]/powerList/power[4]"
-msgstr ""
+msgstr "远程战斗中攻击速度极快，但仅造成 0.3 倍远程伤害。"
 
 #: src-en/data/blueprints.xml.append:957
 #, fuzzy
@@ -1972,17 +1972,19 @@ msgstr "亡灵戍卫者"
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_frostwall\"]/powerList/power[1]"
 msgstr ""
+"主动能力：封锁所在舱室，自身受到 35 点伤害，并使舱室内所有非冰冻类船员冻结 5 "
+"秒，期间无法行动，但所受伤害降低 50%。封锁持续时间是正常时长的两倍，碎片生命"
+"值也翻倍。"
 
 #: src-en/data/blueprints.xml.append:969
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_frostwall\"]/powerList/power[2]"
-msgstr "1.5倍远程伤害。"
+msgstr "2倍远程伤害。"
 
 #: src-en/data/blueprints.xml.append:970
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_frostwall\"]/powerList/power[3]"
-msgstr ""
+msgstr "与冰墙在同一舱室内的敌人将失去穿门特性，且移动速度降低 25%。"
 
 #: src-en/data/blueprints.xml.append:975
 #, fuzzy
@@ -2010,7 +2012,7 @@ msgstr "亡灵种植者"
 #: src-en/data/blueprints.xml.append:986
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_deathbloom\"]/powerList/power[1]"
-msgstr ""
+msgstr "主动能力：用致命孢子侵染当前舱室，每秒汲取敌人 10 点生命值。"
 
 #: src-en/data/blueprints.xml.append:987
 msgid ""
@@ -2018,9 +2020,12 @@ msgid ""
 msgstr "最大生命值提升至125。"
 
 #: src-en/data/blueprints.xml.append:988
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_deathbloom\"]/powerList/power[3]"
 msgstr ""
+"每当有敌方船员与死亡绽放处于同一舱室死亡时，她都将在此信标处获得 20 点额外最"
+"大生命值以及 20% 的固定额外伤害加成。"
 
 #: src-en/data/blueprints.xml.append:993
 #, fuzzy
@@ -2082,13 +2087,11 @@ msgid ""
 msgstr "亡灵保卫者"
 
 #: src-en/data/blueprints.xml.append:1021
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_charror\"]/powerList/power[1]"
 msgstr ""
-"周期性地污染附近的机械船员和无人机，禁用它们的 AI，使它们无法被控制，并阻止它"
-"们战斗、修理或破坏。同时，此船员在持续时间内受到的伤害减半。\n"
-"\t\t只会在当前舱室内有敌方船员时触发。"
+"主动能力：腐化附近的机械船员与无人机，禁用其 AI，使其无法控制，并阻止其战斗、"
+"修复或破坏。同时在此效果持续期间，将使查罗所受伤害减半。"
 
 #: src-en/data/blueprints.xml.append:1022
 msgid ""
@@ -2123,14 +2126,12 @@ msgid ""
 msgstr "亡灵电流吸虫"
 
 #: src-en/data/blueprints.xml.append:1039
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_leo\"]/powerList/power[1]"
 msgstr ""
-"周期性地黑入其所处的敌方系统舱室的舱门，持续 10 秒。在此期间，此船员获得 5 倍"
-"破坏伤害，对同一舱室内的敌人每秒造成1.5点伤害，进入隐形状态，但无法战斗或移动"
-"，并且受到3倍所有伤害。\n"
-"\t\t只会在敌方系统舱室内触发。"
+"主动能力：黑入其所处的敌方系统舱室的舱门，持续 10 秒。在此期间，此船员获得 5 "
+"倍破坏伤害，对同一舱室内的敌人每秒造成1.5点伤害，进入隐形状态，但无法战斗或移"
+"动，并且受到3倍所有伤害。"
 
 #: src-en/data/blueprints.xml.append:1040
 msgid ""
@@ -2586,28 +2587,24 @@ msgid ""
 msgstr "主动技能：给予同舱室所有螳螂族船员信息素技能效果。普通母巢螳螂将获得自由螳螂合成信息素效果。不与其本身的主动技能信息素效果叠加。"
 
 #: src-en/data/blueprints.xml.append:1226
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[3]"
-msgstr "2倍战斗伤害，1倍维修速度。"
+msgstr "2倍战斗伤害，1倍维修速度"
 
 #: src-en/data/blueprints.xml.append:1227
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[4]"
-msgstr "受到0.7倍战斗伤害，1.65倍移动速度。"
+msgstr "船员作战时承受 0.7 倍伤害"
 
 #: src-en/data/blueprints.xml.append:1228
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[5]"
-msgstr "技能提升速度很快。"
+msgstr "移动速度提升至 1.65 倍"
 
 #: src-en/data/blueprints.xml.append:1229
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_ghost_freddy\"]/powerList/power[6]"
-msgstr "技能提升速度很快。"
+msgstr "技能提升速度很快"
 
 #: src-en/data/blueprints.xml.append:1234
 msgid ""
@@ -3510,14 +3507,16 @@ msgid ""
 msgstr "1.5倍战斗伤害。"
 
 #: src-en/data/blueprints.xml.append:1607
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus\"]/desc"
 msgstr ""
 "现存最有钱的幻灵。被某种超自然的力量祝福使得它们的实力会随着口袋膨胀而膨胀"
 "。\n"
 "\t\n"
-"\t继承幻灵属性：免疫环境伤害，0.8倍移动速度，可穿透舱门"
+"\t继承魂灵属性：受魂灵实验室升级影响。\n"
+"\t\n"
+"\t继承幻灵属性：免疫环境伤害，0.8倍移动速度，可穿透舱门，受漂浪群实验室升级影"
+"响"
 
 #: src-en/data/blueprints.xml.append:1612
 msgid ""
@@ -3560,14 +3559,16 @@ msgid ""
 msgstr "货舱内每有2废料，增加1点最大生命值。"
 
 #: src-en/data/blueprints.xml.append:1628
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_augustus_enemy\"]/desc"
 msgstr ""
 "对现存最有钱的幻灵的拙劣模仿。被某种超自然的力量祝福使得它们的实力会随着口袋"
 "膨胀而膨胀。\n"
 "\t\n"
-"\t继承幻灵属性：免疫环境伤害，0.8倍移动速度，可穿透舱门"
+"\t继承魂灵属性：受魂灵实验室升级影响。\n"
+"\t\n"
+"\t继承幻灵属性：免疫环境伤害，0.8倍移动速度，可穿透舱门，受漂浪群实验室升级影"
+"响"
 
 #: src-en/data/blueprints.xml.append:1633
 msgid ""
