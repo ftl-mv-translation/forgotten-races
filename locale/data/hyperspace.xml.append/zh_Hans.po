@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-15 15:27+0000\n"
+"PO-Revision-Date: 2026-05-15 18:45+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datahyperspace-xml-append/zh_Hans/>\n"
@@ -377,7 +377,6 @@ msgstr ""
 "一个异常强大的能量护盾，保护着G的飞船。拥有80点生命值，并使敌方飞船有50%的概率抵抗离子伤害。"
 
 #: src-en/data/hyperspace.xml.append:338
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[42]/tooltip"
@@ -394,23 +393,25 @@ msgstr ""
 "敌方船员死亡后会以“幽灵”形态复活；这不会中断标准的克隆流程。幽灵无法被复活。"
 
 #: src-en/data/hyperspace.xml.append:348
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[44]/tooltip"
 msgstr ""
-"严寒空气：\n"
-"敌方雪人小队在敌方舰船内时每秒恢复20点生命值。"
+"冰霜装甲：\n"
+"每当你用武器对这艘敌舰造成船体伤害时，都会有一块碎片从其舰体脱落并飞向你的舰"
+"船。该碎片可穿透2层护盾，无法被防御无人机击落，命中时造成1点伤害并封锁房间。"
+"这艘舰船还有50%的几率免疫系统伤害。"
 
 #: src-en/data/hyperspace.xml.append:353
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[45]/tooltip"
 msgstr ""
-"活体战舰：\n"
-"这艘敌方战舰是活的，它已经吞噬了一个或多个旧船员。通过这个过程获得的强化效果"
-"会显示其图标。"
+"致命孢子：\n"
+"你的船员将感染致命孢子，任何友方船员死亡时，将使其他友方船员所受伤害提高10%，"
+"并使其主动技能冷却时间延长10%。此效果可叠加，且适用于所有舰船。\n"
+"\n"
+"跃迁后此效果将重置。"
 
 #: src-en/data/hyperspace.xml.append:360
 msgid ""
