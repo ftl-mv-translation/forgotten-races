@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-14 21:17+0000\n"
+"PO-Revision-Date: 2026-05-15 09:03+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -1714,12 +1714,9 @@ msgid ""
 msgstr "亡灵主教"
 
 #: src-en/data/blueprints.xml.append:853
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reborn_aleenor\"]/powerList/power[1]"
-msgstr ""
-"周期性进入狂暴模式，对当前舱室内的所有敌方船员以及系统造成伤害。\n"
-"\t\t只会在敌舰内触发。"
+msgstr "主动技能:进入狂暴模式，对当前舱室内的所有敌方船员以及系统造成伤害。"
 
 #: src-en/data/blueprints.xml.append:854
 msgid ""
@@ -1984,7 +1981,7 @@ msgstr "2倍远程伤害。"
 #: src-en/data/blueprints.xml.append:970
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_reformed_frostwall\"]/powerList/power[3]"
-msgstr "与冰墙在同一舱室内的敌人将失去穿门特性，且移动速度降低 25%。"
+msgstr "与霜晶壁垒在同一舱室内的敌人将失去穿门特性，且移动速度降低 25%。"
 
 #: src-en/data/blueprints.xml.append:975
 #, fuzzy
@@ -3822,30 +3819,30 @@ msgstr "可立刻扑灭火焰。"
 
 #: src-en/data/blueprints.xml.append:1741
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_demon_skull\"]/desc"
-msgstr ""
+msgstr "一只从字面意义上的地狱深渊中诞生的恶魔。脆弱但极具破坏性。"
 
 #: src-en/data/blueprints.xml.append:1742
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_demon_skull\"]/title"
-msgstr ""
+msgstr "恶魔仆从"
 
 #: src-en/data/blueprints.xml.append:1743
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_demon_skull\"]/short"
-msgstr ""
+msgstr "仆从"
 
 #: src-en/data/blueprints.xml.append:1748
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_demon_skull\"]/powerList/power[1]"
-msgstr ""
+msgstr "50 点最大生命值，免疫环境伤害，无法被心灵控制。"
 
 #: src-en/data/blueprints.xml.append:1749
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_demon_skull\"]/powerList/power[2]"
-msgstr ""
+msgstr "2 倍远程伤害。无法进行近战、操作系统、修复或灭火。"
 
 #: src-en/data/blueprints.xml.append:1750
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_demon_skull\"]/powerList/power[3]"
-msgstr ""
+msgstr "占用 1/4 船员槽位。2 倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:1755
 msgid ""
@@ -4153,7 +4150,6 @@ msgid ""
 msgstr "这种高级光点技术的神奇变体能在电离系统的同时修补舰体。另外此过程对有机生物的危害极大。"
 
 #: src-en/data/blueprints.xml.append:2190
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_FOCUS\"]/descriptionOverride"
 msgstr ""
@@ -4162,7 +4158,7 @@ msgstr ""
 "\n"
 "\t\t属性：\n"
 "\t\t能耗：3\n"
-"\t\t充能时间：30秒\n"
+"\t\t充能时间：20秒\n"
 "\n"
 "\t\t光束长度：光点\n"
 "\t\t光束速度：1\n"
@@ -4178,12 +4174,11 @@ msgstr ""
 "\t\t价格: 125~   -   售价: 62~"
 
 #: src-en/data/blueprints.xml.append:2209
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_FOCUS\"]/tooltipOverride"
 msgstr ""
 "能耗：3\n"
-"\t\t充能时间：30秒\n"
+"\t\t充能时间：20秒\n"
 "\n"
 "\t\t光束长度：光点\n"
 "\t\t光束速度：1\n"
@@ -5722,26 +5717,54 @@ msgstr "简单但强大的离子光束武器，结合了菲斯永恒苦痛的一
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PHYS_BEAM\"]/descriptionOverride"
 msgstr ""
+"一种简单而强大的离子光束武器，以少量菲斯的永恒痛苦锻造而成。若光束直接命中无"
+"人机系统，将眩晕所有敌方无人机。\n"
+"\t\n"
+"\t\t属性：\n"
+"\t\t所需能量：3\n"
+"\t\t充能时间：25 秒\n"
+"\t\t\n"
+"\t\t光束长度：100\n"
+"\t\t光束速度：5\n"
+"\t\n"
+"\t\t船员伤害：60\n"
+"\t\t离子伤害：2\n"
+"\t\n"
+"\t\t眩晕所有敌方无人机持续时间：5 秒\n"
+"\n"
+"\t\t默认售价：100～ 出售价格：50～"
 
 #: src-en/data/blueprints.xml.append:5646
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PHYS_BEAM\"]/tooltipOverride"
 msgstr ""
+"所需能量：3\n"
+"\t\t充能时间：25 秒\n"
+"\n"
+"\t\t光束长度：100\n"
+"\t\t光束速度：5\n"
+"\t\n"
+"\t\t船员伤害：60\n"
+"\t\t离子伤害：2\n"
+"\t\n"
+"\t\t眩晕所有敌方无人机：5 秒"
 
 #: src-en/data/blueprints.xml.append:5685
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ALEENOR_BIO_PIERCE\"]/title"
-msgstr ""
+msgstr "埃莉诺的穿刺辐射激光"
 
 #: src-en/data/blueprints.xml.append:5686
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ALEENOR_BIO_PIERCE\"]/short"
-msgstr ""
+msgstr "穿刺辐射"
 
 #: src-en/data/blueprints.xml.append:5688
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ALEENOR_BIO_PIERCE\"]/desc"
 msgstr ""
+"埃莉诺设计的精密辐射穿刺武器。它会对任何不幸被其击中的船员造成严重伤害，同时"
+"移除他们的窒息免疫，并使其在 10 秒内受到 +1 倍窒息伤害。开火时不会打断隐形。"
 
 #: src-en/data/blueprints.xml.append:5752
 #, fuzzy
@@ -5755,12 +5778,14 @@ msgid ""
 msgstr "‘火种’"
 
 #: src-en/data/blueprints.xml.append:5754
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_VIN_MISSILE\"]/desc"
 msgstr ""
-"文最中意的武器。差不多是多元宇宙中最“火热”的武器，它可以充能并发射多发导弹，"
-"不造成系统伤害，但必定起火并暂时使敌人对火焰易伤。"
+"文最中意的武器。差不多是多元宇宙中最“火热”的武器，它发射一枚强大的导弹，造成"
+"较低的系统伤害，但必定引发火灾，并使敌人在一段时间内持续灼烧，每秒造成 10 点"
+"伤害，持续 10 秒，伤害值随被击中船员所受的火焰伤害而缩放。\n"
+"\n"
+"\t负的火焰抗性会使被击中的船员转而获得治疗。"
 
 #: src-en/data/blueprints.xml.append:5758
 msgid ""
@@ -7013,7 +7038,7 @@ msgstr "粒子光束"
 #: src-en/data/blueprints.xml.append:8996
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LOOT_ELITE_REBEL_2\"]/short"
-msgstr "粒子光束"
+msgstr "粒子光束。"
 
 #: src-en/data/blueprints.xml.append:8997
 msgid ""
@@ -9083,12 +9108,12 @@ msgid ""
 msgstr "♕ 杀戮巨炮"
 
 #: src-en/data/blueprints.xml.append:13437
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_OBELISK_FLAGSHIP_MISSILE_Y\"]/desc"
 msgstr ""
-"[基础充能时间：55秒]激活一个毁灭性的导弹发射器发射4枚导弹。每枚导弹造成2点舰"
-"体伤害并附带破舰效果，击中船员会使其中毒，且有50%几率使目标系统降级3级。"
+"[基础充能时间：50秒]激活一个毁灭性的导弹发射器发射4枚导弹。每枚导弹造成2点舰"
+"体伤害并附带破舰效果，击中船员会使其中毒，[style[color:c200ff]]poisons[[/"
+"style]] 且有50%几率使目标系统降级3级。"
 
 #: src-en/data/blueprints.xml.append:13438
 #, fuzzy
@@ -9207,7 +9232,7 @@ msgstr "联合方碑猛攻空雷巨炮"
 #: src-en/data/blueprints.xml.append:13682
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_COMMONWEALTH_BROKEN_A\"]/short"
-msgstr "⛼ 猛攻巨炮"
+msgstr "⛼ 猛攻巨炮。"
 
 #: src-en/data/blueprints.xml.append:13683
 msgid ""
@@ -9274,18 +9299,16 @@ msgid ""
 msgstr "爆裂巨炮"
 
 #: src-en/data/blueprints.xml.append:13819
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER\"]/desc"
 msgstr ""
-"[基础充能时间：40秒]一连快速发射5道激光，每道激光造成1点舰体伤害并附带破舰效"
+"[基础充能时间：40秒]一连快速发射5道激光，每道激光造成2点舰体伤害并附带破舰效"
 "果。"
 
 #: src-en/data/blueprints.xml.append:13820
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_ALT_WITHER\"]/tooltip"
-msgstr "巨炮：一次发射5发1点舰体伤害且有破舰效果的激光。"
+msgstr "巨炮：一次发射5发2点舰体伤害且有破舰效果的激光。"
 
 #: src-en/data/blueprints.xml.append:13855
 msgid ""
@@ -9576,10 +9599,11 @@ msgid ""
 msgstr "地狱灵质巨炮"
 
 #: src-en/data/blueprints.xml.append:14454
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B\"]/desc"
-msgstr "[基础充能时间：40秒] 开启3道裂隙，对目标系统施加永久性、不可叠加的腐蚀效果。"
+msgstr ""
+"[基础冷却：50]撕开一道裂隙，汇聚所有力量。造成常规侵蚀，心灵控制被击中的船员 "
+"10 秒，造成破舱并封锁目标舱室，同时生成一名魂灵。"
 
 #: src-en/data/blueprints.xml.append:14455
 #, fuzzy
@@ -10005,10 +10029,9 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:15765
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"ARTILLERY_REBEL_MISSILE_ENEMY\"]/short"
-msgstr "巨炮。"
+msgstr "巨炮"
 
 #: src-en/data/blueprints.xml.append:15766
 msgid ""
@@ -10646,7 +10669,6 @@ msgid ""
 msgstr "安威斯的完美优化"
 
 #: src-en/data/blueprints.xml.append:17329
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_WITHER_PERFECTION\"]/desc"
 msgstr ""
@@ -10654,9 +10676,9 @@ msgstr ""
 "\t- 武器充能速度提升5%.\n"
 "\t- 护盾充能速度提升10%.\n"
 "\t- 超光速驱动充能速度提升15%.\n"
-"\t- 5%舰体损伤抵抗几率、5%系统损伤抵抗几率及25%离子损伤抵抗几率.\n"
-"\t- 舰内友方船员与无人机持续以每秒1点速度恢复生命值.\n"
-"\t- 舰内敌方船员与无人机持续以每秒1点速度损失生命值."
+"\t- 15%舰体损伤抵抗几率、15%系统损伤抵抗几率及50%离子损伤抵抗几率.\n"
+"\t- 舰内友方船员与无人机持续以每秒3点速度恢复生命值.\n"
+"\t- 舰内敌方船员与无人机持续以每秒5点速度损失生命值."
 
 #: src-en/data/blueprints.xml.append:17343
 msgid ""
@@ -10714,18 +10736,17 @@ msgid ""
 msgstr "团结精英实验装甲"
 
 #: src-en/data/blueprints.xml.append:17398
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_RUES_ROYAL_PLATING\"]/desc"
 msgstr ""
-"此项设计旨在融合联盟各派系的标志性增强技术。因此，这款独特的舰体装甲可提供多"
+"此项设计旨在融合星联各派系的标志性增强部件。因此，这款独特的舰体装甲可提供多"
 "重增益.\n"
-"\t- 20%舰体伤害免疫、20%系统伤害免疫、50%离子伤害免疫.\n"
+"\t- 20% 的舰体抗性几率：1 点伤害的射弹有 40% 的几率被无效化，其他所有伤害降"
+"低 1 点。\n"
 "\t- 自动修复舰内破舱.\n"
-"\t- 空舱室内友方船员承受全来源伤害降低20%，眩晕持续时间缩短25%.\n"
-"\t- 生命维持系统每提升1级功率，友方船员额外获得15%战斗伤害、20%移动速度、5%最"
-"大生命值及10%能量充能速度加成.\n"
-"\t- 敌方破坏速度降低30%.\n"
+"\t- 处于空舱室的友方船员获得 35% 的战斗抗性 以及 50% 的环境与眩晕抗性。\n"
+"\t-氧气系统每拥有1级能量，友方获得25%移动速度、6.25%最大生命值，并使主动技能"
+"冷却减少15%.\n"
 "\t- 可在战斗前提供一次撞向敌舰的机会."
 
 #: src-en/data/blueprints.xml.append:17412
@@ -11249,11 +11270,10 @@ msgid ""
 msgstr "克里奥的能量吸收器"
 
 #: src-en/data/blueprints.xml.append:17930
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENERGY_SIPHON\"]/desc"
 msgstr ""
-"你的船员可从无人机处吸收能量。当与友方无人机同处一室时，船员获得25%战斗伤害加"
-"成，并每秒恢复3.5点生命值；而与你的船员同处一室的无人机，其战斗伤害将减半。"
+"你的船员可从无人机中吸收能量。你控制的每架无人机船员获得 +0.25 倍的伤害与修复"
+"加成，以及 +25 的最大生命值。由你的武器和巨炮发射的无人机船员也计入此数量。"
 
 #: src-en/data/blueprints.xml.append:17938
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HOLY_FURY\"]/title"
@@ -11719,11 +11739,14 @@ msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LEGION_AEGIS\"]/titl
 msgstr "军团防护罩"
 
 #: src-en/data/blueprints.xml.append:18376
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LEGION_AEGIS\"]/desc"
 msgstr ""
-"这面极其强大的能量护盾由叛军最顶尖的技术人员锻造，并安装在由1号万斯主导的秘密"
-"旗舰计划中。提供10层能量盾，可提升武器充能速度10%，并内置生命扫描仪。"
+"这种极其强大的能量护盾由叛军最顶尖的技术人员锻造，并安装在由 1号万斯领导的一"
+"项秘密旗舰项目上。它拥有 10 点耐久。当能量护盾启动时：\n"
+"\n"
+"· 你的武器与巨炮的射速提升 20%；\n"
+"· 你的飞船闪避率提高 10 点；\n"
+"· 飞船的超光速引擎充能速度加快 60%。"
 
 #: src-en/data/blueprints.xml.append:18388
 msgid ""
@@ -11842,8 +11865,12 @@ msgstr "黑暗笼罩"
 #, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHADOW_MIST\"]/desc"
 msgstr ""
-"舰体笼罩在缥缈的暗影中。来袭弹体有25%几率被完全无效化，或偏离弹道，或直接不造"
-"成任何伤害。"
+"你的船员为登上这艘飞船已出卖灵魂，以此换来极致的力量，但也付出了代价。只要同"
+"一舱室内没有无人机，你所有的船员对敌方船员都是隐形的。\n"
+"\t\t\n"
+"然而，代价同样骇人。你船员的生命值被设定为 10 点，且无法以任何方式提升。\n"
+"\n"
+"异界存在与机械船员不受此装置影响。"
 
 #: src-en/data/blueprints.xml.append:18504
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_PANIC_ATTACK\"]/title"
@@ -12346,10 +12373,9 @@ msgid ""
 msgstr "自适应恶意软件升级"
 
 #: src-en/data/blueprints.xml.append:18909
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_HACKING_COOLDOWN\"]/desc"
-msgstr "黑客系统冷却时间减少5秒"
+msgstr "黑客系统冷却时间减少5秒。"
 
 #: src-en/data/blueprints.xml.append:18917
 msgid ""
@@ -12377,10 +12403,9 @@ msgid ""
 msgstr "时流冷却升级"
 
 #: src-en/data/blueprints.xml.append:18936
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TEMPORAL_COOLDOWN\"]/desc"
-msgstr "你的时流系统充能时间缩短5秒"
+msgstr "你的时流系统充能时间缩短5秒。"
 
 #: src-en/data/blueprints.xml.append:18944
 msgid ""
