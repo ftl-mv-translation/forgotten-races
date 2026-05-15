@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-15 09:03+0000\n"
-"Last-Translator: circle217 <3545024352@qq.com>\n"
+"PO-Revision-Date: 2026-05-15 11:17+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -5783,7 +5783,7 @@ msgid ""
 msgstr ""
 "文最中意的武器。差不多是多元宇宙中最“火热”的武器，它发射一枚强大的导弹，造成"
 "较低的系统伤害，但必定引发火灾，并使敌人在一段时间内持续灼烧，每秒造成 10 点"
-"伤害，持续 10 秒，伤害值随被击中船员所受的火焰伤害而缩放。\n"
+"伤害，持续 10 秒，伤害随被击中船员的火焰伤害抗性倍率而缩放。\n"
 "\n"
 "\t负的火焰抗性会使被击中的船员转而获得治疗。"
 
@@ -5791,11 +5791,51 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_VIN_MISSILE\"]/descriptionOverride"
 msgstr ""
+"文最中意的武器。差不多是多元宇宙中最“火热”的武器，它发射一枚强大的导弹，造成"
+"较低的系统伤害，但必定引发火灾，并使敌人在一段时间内持续灼烧，每秒造成 10 点"
+"伤害，持续 10 秒，伤害随被击中船员的火焰伤害抗性倍率而缩放。负的火焰抗性会使"
+"被击中的船员转而获得治疗。\n"
+"\t\n"
+"\t\t属性：\n"
+"\t\t所需能量：3\n"
+"\t\t充能时间：16 秒\n"
+"\t\t导弹消耗：1\n"
+"\t\t命中率加成：10%\n"
+"\n"
+"\t\t弹体数：1\n"
+"\t\n"
+"\t\t舰体伤害：2\n"
+"\t\t系统伤害：1\n"
+"\t\t船员伤害：60\n"
+"\t\t护盾穿透：10\n"
+"\t\n"
+"\t\t起火率：100%\n"
+"\t\t\n"
+"\t\t对击中的船员造成伤害：每秒10点，持续10秒，伤害随船员的火焰伤害抗性倍率而"
+"缩放（负值将治疗船员）。\n"
+"\n"
+"\t\t默认售价：160～出售价格：80～"
 
 #: src-en/data/blueprints.xml.append:5779
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_VIN_MISSILE\"]/tooltipOverride"
 msgstr ""
+"所需能量：3\n"
+"\t\t充能时间：16 秒\n"
+"\t\t导弹消耗：1\n"
+"\t\t命中加成：10%\n"
+"\n"
+"\t\t弹体数：1\n"
+"\t\n"
+"\t\t舰体伤害：2\n"
+"\t\t系统伤害：1\n"
+"\t\t船员伤害：60\n"
+"\t\t护盾穿透：10\n"
+"\t\n"
+"\t\t起火率：100%\n"
+"\t\t\n"
+"\t\t对击中的船员造成伤害：每秒 10 点，持续 10 秒，伤害值随船员的火焰伤害承受"
+"倍率缩放（负值将治疗船员）。"
 
 #: src-en/data/blueprints.xml.append:5842
 msgid ""
@@ -5820,12 +5860,12 @@ msgstr "无人机"
 #: src-en/data/blueprints.xml.append:5854
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_GHOSTLY_DRONE_BOARDER\"]/title"
-msgstr ""
+msgstr "灵朝士兵无人机[登舰]"
 
 #: src-en/data/blueprints.xml.append:5855
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_GHOSTLY_DRONE_BOARDER\"]/short"
-msgstr ""
+msgstr "灵朝 [攻击型]"
 
 #: src-en/data/blueprints.xml.append:5856
 #, fuzzy
@@ -5840,12 +5880,12 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:5870
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_GHOSTLY_DRONE_DEFEND\"]/title"
-msgstr ""
+msgstr "灵朝士兵无人机 [反登舰]"
 
 #: src-en/data/blueprints.xml.append:5871
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_GHOSTLY_DRONE_DEFEND\"]/short"
-msgstr ""
+msgstr "灵朝[防御型]"
 
 #: src-en/data/blueprints.xml.append:5872
 #, fuzzy
@@ -5947,42 +5987,45 @@ msgstr "一个古老的导弹发射器，远远超过你见过的任何发射器
 #: src-en/data/blueprints.xml.append:6238
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SPECTER_BEAM_1\"]/title"
-msgstr ""
+msgstr "“暮刃”光束 I"
 
 #: src-en/data/blueprints.xml.append:6239
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SPECTER_BEAM_1\"]/short"
-msgstr ""
+msgstr "“暮刃”I"
 
 #: src-en/data/blueprints.xml.append:6240
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SPECTER_BEAM_1\"]/desc"
 msgstr ""
+"这种可怕的武器由塔尔塔罗斯中最浓缩的灵质制成，能够穿透大多数护盾，同时召唤魂"
+"灵助你战斗。这些魂灵若在战斗中存活下来便会留下，如果你有传送器，还可以将其回"
+"收。"
 
 #: src-en/data/blueprints.xml.append:6274
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_FROSTWALL_CRYSTAL_ION\"]/title"
-msgstr ""
+msgstr "霜晶壁垒的水晶相位炮"
 
 #: src-en/data/blueprints.xml.append:6275
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_FROSTWALL_CRYSTAL_ION\"]/short"
-msgstr ""
+msgstr "水晶相位"
 
 #: src-en/data/blueprints.xml.append:6277
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_FROSTWALL_CRYSTAL_ION\"]/desc"
-msgstr ""
+msgstr "水晶与相位炮的奇异混合体。这种强大的武器几乎可以永久封锁房间。"
 
 #: src-en/data/blueprints.xml.append:6324
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_SPAWN_BATTLE\"]/title"
-msgstr ""
+msgstr "怪异仆从"
 
 #: src-en/data/blueprints.xml.append:6325
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_SPAWN_BATTLE\"]/short"
-msgstr ""
+msgstr "仆从"
 
 #: src-en/data/blueprints.xml.append:6326
 msgid ""
@@ -5992,12 +6035,12 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:6341
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_SPAWN_BOARDER\"]/title"
-msgstr ""
+msgstr "怪异仆从"
 
 #: src-en/data/blueprints.xml.append:6342
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_SPAWN_BOARDER\"]/short"
-msgstr ""
+msgstr "仆从"
 
 #: src-en/data/blueprints.xml.append:6343
 msgid ""
@@ -6007,57 +6050,70 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:6359
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_DEATHBLOOM_SPORE_BOMBLAUNCHER\"]/title"
-msgstr ""
+msgstr "死亡绽放的充能孢子发射器"
 
 #: src-en/data/blueprints.xml.append:6360
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_DEATHBLOOM_SPORE_BOMBLAUNCHER\"]/short"
-msgstr ""
+msgstr "充能孢子"
 
 #: src-en/data/blueprints.xml.append:6361
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_DEATHBLOOM_SPORE_BOMBLAUNCHER\"]/desc"
 msgstr ""
+"血兰花孢子发射器的一种奇异变体，其射击方式并非一次性全部释放，而是不知何故能"
+"够为弹药充能。作为死亡绽放的标志性武器，它也意味着携带着她致命的孢子，这些孢"
+"子会感染被击中的船员，对同舱室的船员造成每秒 2.5 伤害，效果可叠加，持续 10 秒"
+"。"
 
 #: src-en/data/blueprints.xml.append:6410
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_DEATHBLOOM_SPORE_BOMBLAUNCHER_ENEMY\"]/title"
-msgstr ""
+msgstr "死亡绽放的充能孢子发射器"
 
 #: src-en/data/blueprints.xml.append:6411
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_DEATHBLOOM_SPORE_BOMBLAUNCHER_ENEMY\"]/short"
-msgstr ""
+msgstr "充能孢子"
 
 #: src-en/data/blueprints.xml.append:6412
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_DEATHBLOOM_SPORE_BOMBLAUNCHER_ENEMY\"]/desc"
 msgstr ""
+"血兰花孢子发射器的一种奇异变体，其射击方式并非一次性全部释放，而是不知何故能"
+"够为弹药充能。作为死亡绽放的标志性武器，它也意味着携带着她致命的孢子，这些孢"
+"子会感染被击中的船员，对同舱室的船员造成每秒 2.5 伤害，效果可叠加，持续 10 秒"
+"。"
 
 #: src-en/data/blueprints.xml.append:6459
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_MORPH_DRONE\"]/title"
-msgstr ""
+msgstr "珀克的模物无人机"
 
 #: src-en/data/blueprints.xml.append:6460
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_MORPH_DRONE\"]/short"
-msgstr ""
+msgstr "模物无人机"
 
 #: src-en/data/blueprints.xml.append:6461
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_MORPH_DRONE\"]/desc"
 msgstr ""
+"[当前模式：全体模物族]一个被诅咒的装置，能从无尽的全体模物族库中向敌人发射各"
+"种模物族。它能够像多级无人机那样在全部 3 种模物族类型之间切换，模物族越强，所"
+"需的能量越多，无人机的速度也越慢。\n"
+"\t\t\n"
+"模物族可穿透所有护盾，不占用船员槽位，无法被克隆，且只能存活 20 秒。"
 
 #: src-en/data/blueprints.xml.append:6479
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_POK_MORPH_DRONE_WEAPON\"]/title"
-msgstr ""
+msgstr "珀克模物发射器"
 
 #: src-en/data/blueprints.xml.append:6481
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_POK_MORPH_DRONE_WEAPON\"]/short"
-msgstr ""
+msgstr "模物发射器"
 
 #: src-en/data/blueprints.xml.append:6482
 msgid ""
@@ -6067,27 +6123,32 @@ msgstr "开发人员信息。"
 #: src-en/data/blueprints.xml.append:6549
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_TECHNO_DRONE\"]/title"
-msgstr ""
+msgstr "珀克的模物畸变者无人机"
 
 #: src-en/data/blueprints.xml.append:6550
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_TECHNO_DRONE\"]/short"
-msgstr ""
+msgstr "模物畸变者无人机"
 
 #: src-en/data/blueprints.xml.append:6551
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_TECHNO_DRONE\"]/desc"
 msgstr ""
+"[当前模式：畸变者]一种被诅咒的装置，能从无尽的模物族畸变者库中向敌人发射各种"
+"畸变者。它能像多级无人机那样在全部 3 种模物族类型之间切换，模物族越强，所需的"
+"能量越多，无人机的速度也越慢。\n"
+"\t\t\n"
+"畸变者能穿透所有护盾，不占用船员槽位，无法被克隆，且只能存活 20 秒。"
 
 #: src-en/data/blueprints.xml.append:6569
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_POK_TECHNO_DRONE_WEAPON\"]/title"
-msgstr ""
+msgstr "珀克畸变者发射器"
 
 #: src-en/data/blueprints.xml.append:6571
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_POK_TECHNO_DRONE_WEAPON\"]/short"
-msgstr ""
+msgstr "畸变者发射器"
 
 #: src-en/data/blueprints.xml.append:6572
 msgid ""
@@ -6097,27 +6158,32 @@ msgstr "开发人员信息。"
 #: src-en/data/blueprints.xml.append:6639
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_MALFORMED_DRONE\"]/title"
-msgstr ""
+msgstr "珀克的精英模物无人机"
 
 #: src-en/data/blueprints.xml.append:6640
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_MALFORMED_DRONE\"]/short"
-msgstr ""
+msgstr "精英模物无人机"
 
 #: src-en/data/blueprints.xml.append:6641
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_MALFORMED_DRONE\"]/desc"
 msgstr ""
+"[当前模式：精英模物]一种被诅咒的装置，能从无尽的精英模物库中向敌人发射各种模"
+"物族。它能像多级无人机那样在全部 3 种模物类型之间切换，模物族越强，所需的能量"
+"越多，无人机的速度也越慢。\n"
+"\t\t\n"
+"模物能穿透所有护盾，不占用船员槽位，无法被克隆，且只能存活 20 秒。"
 
 #: src-en/data/blueprints.xml.append:6659
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_POK_MALFORMED_DRONE_WEAPON\"]/title"
-msgstr ""
+msgstr "珀克精英模物发射器"
 
 #: src-en/data/blueprints.xml.append:6661
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_POK_MALFORMED_DRONE_WEAPON\"]/short"
-msgstr ""
+msgstr "精英模物发射器"
 
 #: src-en/data/blueprints.xml.append:6662
 msgid ""
@@ -6127,27 +6193,32 @@ msgstr "开发人员信息。"
 #: src-en/data/blueprints.xml.append:6729
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_POK_DRONE\"]/title"
-msgstr ""
+msgstr "珀克的珀克发射无人机"
 
 #: src-en/data/blueprints.xml.append:6730
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_POK_DRONE\"]/short"
-msgstr ""
+msgstr "珀克发射无人机"
 
 #: src-en/data/blueprints.xml.append:6731
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_POK_POK_DRONE\"]/desc"
 msgstr ""
+"[当前模式：珀克]一种被诅咒的装置，能从无尽的活体模物族库中向敌人发射各种模物"
+"族。它能像 多级无人机那样在全部 3 种模物族类型之间切换，模物族越强，所需的能"
+"量越多，无人机的速度也越慢。\n"
+"\t\t\n"
+"模物族能穿透所有护盾，不占用船员槽位，无法被克隆，且只能存活 20 秒。"
 
 #: src-en/data/blueprints.xml.append:6749
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_POK_POK_DRONE_WEAPON\"]/title"
-msgstr ""
+msgstr "珀克 珀克发射器"
 
 #: src-en/data/blueprints.xml.append:6751
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_POK_POK_DRONE_WEAPON\"]/short"
-msgstr ""
+msgstr "珀克发射器"
 
 #: src-en/data/blueprints.xml.append:6752
 msgid ""
