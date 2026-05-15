@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-05-15 09:03+0000\n"
-"Last-Translator: circle217 <3545024352@qq.com>\n"
+"Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_sector_obeliskxmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -26,21 +26,31 @@ msgstr "未去过的位置。"
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/text"
 msgstr ""
+"抵达信标时，你迎面撞见一艘造型诡异的破损星舰，带着方碑族的设计特征。它的涂装"
+"配色与武器类型都前所未见，即便在这片可怖之地也显得格格不入。那艘星舰正试图发"
+"起通讯。"
 
 #: src-en/data/events_sector_obelisk.xml.append:15
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/text"
-msgstr ""
+msgstr "靠近受损的星舰，尝试接收其呼叫信号。"
 
 #: src-en/data/events_sector_obelisk.xml.append:17
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/text"
 msgstr ""
+"飞船的通讯频道里传出一阵杂音，夹杂着勉强能算作话语的声响，以短短十秒的循环反"
+"复播放。信号失真不仅让这段信息极难破译，其中的词句似乎还是一种极古老的方碑族"
+"语方言，连安威斯的翻译算法都无法解析。你推测若安装更好的翻译组件，或许就能理"
+"解这段信息。\n"
+"\t\t\t\t\n"
+"\t\t\t此外，你的扫描仪还探测到船内存在船员，但他们似乎完全自动化，无需任何外"
+"部操控。对方对你直接的呼叫尝试也毫无反应。"
 
 #: src-en/data/events_sector_obelisk.xml.append:21
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[1]/text"
-msgstr ""
+msgstr "尝试手动翻译。"
 
 #: src-en/data/events_sector_obelisk.xml.append:23
 msgid ""
@@ -91,7 +101,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:58
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_REQUIREMENT_DIRECTOR_DRONES_AND_DRONE_CONTROL\"]/text"
-msgstr ""
+msgstr "（导引无人机）看看我们能否让导引无人机为我们翻译这段文字。"
 
 #: src-en/data/events_sector_obelisk.xml.append:60
 msgid ""
@@ -106,7 +116,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:68
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COMMONWEALTH_OBELISK\"]/text"
-msgstr ""
+msgstr "（联合方碑船员）请我们的联合方碑船员来翻译这种奇怪的语言。"
 
 #: src-en/data/events_sector_obelisk.xml.append:70
 msgid ""
