@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-14 10:58+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-05-15 18:45+0000\n"
+"Last-Translator: Aleev <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datahyperspace-xml-append/ru/>\n"
 "Language: ru\n"
@@ -19,9 +19,11 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[1]/tooltip"
 msgstr ""
-"ЭФИРНЫЙ ЩИТ УНИЧТОЖИТЕЛЯ:\n"
-"Этот противник защищен массивным сложным и прочным Энергетическим щитом. "
-"Помимо обычных преимуществ суперщита, щиты перезаряжаются на 25% быстрее."
+"CABAL ROOMS:\n"
+"This enemy has one or more Cabal rooms, marked by the unique pink symbols "
+"and C icon in the top left. Cabal rooms will take no hull damage from "
+"weapons. Fires and breaches in the rooms will also be instantly fixed. Cabal "
+"rooms will take system damage as normal."
 
 #: src-en/data/hyperspace.xml.append:113
 #, fuzzy
@@ -29,9 +31,13 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
-"ШАПОЧКИ ИЗ ФОЛЬГИ:\n"
-"Пока вражеский Контроль разума запитан до 3-го уровня, весь вражеский экипаж "
-"получает полный иммунитет к КР]"
+"CABAL'S PROTECTION ARRAY:\n"
+"This enemy's crew will passively heal anywhere on their ship so long as "
+"their Medbay is powered, at 100% speed of the current Medbay power level.\n"
+"\n"
+"Their crew will also have 25% more movement speed per medbay level powered. "
+"Their Totality Commanders will also gain an extra charge of their full "
+"health healing for as long as their medbay has 3 or more power in it."
 
 #: src-en/data/hyperspace.xml.append:120
 msgid ""
@@ -47,7 +53,8 @@ msgid ""
 "append:shipIcon[4]/tooltip"
 msgstr ""
 "ШАПОЧКИ ИЗ ФОЛЬГИ:\n"
-"Пока вражеский Контроль разума запитан до 3-го уровня, весь вражеский экипаж получает полный иммунитет к КР]"
+"Пока вражеский Контроль разума запитан до 3-го уровня, весь вражеский экипаж "
+"получает полный иммунитет к КР."
 
 #: src-en/data/hyperspace.xml.append:130
 msgid ""
@@ -255,13 +262,11 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[29]/tooltip"
 msgstr ""
-"СПЕЦИАЛЬНОЕ ЭКРАНИРОВАНИЕ:\n"
-"Этот враг защищен продвинутым энергетическим щитом, который также не "
-"позволяет вашему экипажу использовать телепортаторы ближнего действия, "
-"находясь на борту вражеского корабля."
+"CEREBRAL OVERCHARGE:\n"
+"Enemy crew gain a 15% buff to repair and combat damage, and heal 50% faster "
+"while their Mind Control system is powered."
 
 #: src-en/data/hyperspace.xml.append:264
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[30]/tooltip"
@@ -271,10 +276,10 @@ msgstr ""
 "- На 5% быстрее заряжаются орудия.\n"
 "- На 10% быстрее зарядка щита.\n"
 "- На 15% быстрее зарядка ССД.\n"
-"- 5% шанс сопротивления корпуса, 5% шанс сопротивления систем и 25% шанс "
+"- 15% шанс сопротивления корпуса, 15% шанс сопротивления систем и 50% шанс "
 "сопротивления ионному урону.\n"
-"- Дружеский экипаж и дроны на вашем корабле постоянно исцеляются на 1 ОЗ/с.\n"
-"- Вражеский экипаж и дроны на вашем корабле постоянно получают урон на 1 ОЗ/"
+"- Дружеский экипаж и дроны на вашем корабле постоянно исцеляются на 3 ОЗ/с.\n"
+"- Вражеский экипаж и дроны на вашем корабле постоянно получают урон на 5 ОЗ/"
 "с."
 
 #: src-en/data/hyperspace.xml.append:275
@@ -286,15 +291,14 @@ msgstr ""
 "Этот враг защищен продвинутым энергетическим щитом, который также не позволяет вашему экипажу использовать телепортаторы ближнего действия, находясь на борту вражеского корабля."
 
 #: src-en/data/hyperspace.xml.append:280
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[32]/tooltip"
 msgstr ""
 "ЭКТОПЛАЗМАТИЧЕСКИЙ ГЕЛЬ:\n"
-"Пробоины на вражеском корабле будут автоматически заделываться даже в "
-"отсутствие экипажа. В пустых отсеках корабля вражеский экипаж невосприимчив "
-"к опасностям, а ваш экипаж передвигается с половинной скоростью и теряет "
+"Пробоины на вражеском корабле будут мгновенно заделываться даже в отсутствие "
+"экипажа. В пустых отсеках корабля вражеский экипаж невосприимчив к "
+"опасностям, а ваш экипаж передвигается с половинной скоростью и теряет "
 "способность сражаться."
 
 #: src-en/data/hyperspace.xml.append:285
@@ -335,10 +339,11 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[36]/tooltip"
 msgstr ""
-"АВАРИЙНЫЙ АВТОПИЛОТ:\n"
-"Этот корабль оснащен усовершенствованным автопилотом, который будет "
-"поддерживать корабль в рабочем состоянии до тех пор, пока хотя бы один враг "
-"жив или находится в процессе клонирования."
+"MOLTEN ARMOR:\n"
+"Your crew on this ship passively take 15 hp/s in damage. This damage counts "
+"as fire damage, and is modified accordingly. The ship also has a 25% chance "
+"to negate any hull damage, impacts that deal 1 damage have a 20% chance to "
+"be negated, and all other damage is reduced by 1."
 
 #: src-en/data/hyperspace.xml.append:313
 #, fuzzy
@@ -346,9 +351,10 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[37]/tooltip"
 msgstr ""
-"СВЯТАЯ ВЕРА:\n"
-"Вражеский экипаж лечится и клонируется на 50% быстрее, а лучевые орудия "
-"вражеского корабля пробивает 2 дополнительных слоя щита."
+"ENERGY SIPHON:\n"
+"\tFor each crew drone the enemy control, their crew gains +0.25x damage and "
+"repair as well as +25 max health. Drones fired by their weapons and "
+"artilleries also count towards this number."
 
 #: src-en/data/hyperspace.xml.append:318
 msgid ""
@@ -383,14 +389,13 @@ msgstr ""
 "Абсурдно мощный энергетический щит, защищающий корабль Ж. Имеет целостность 80 единиц и дает вражескому кораблю 50% шанс противостоять ионному урону."
 
 #: src-en/data/hyperspace.xml.append:338
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[42]/tooltip"
 msgstr ""
 "НЕКРОМАНТИЧЕСКАЯ АУРА:\n"
-"У вражеского экипажа призраков на 100 больше здоровья и сопротивление "
-"контролю разума."
+"У вражеских приведений на 100 больше здоровья и сопротивление контролю "
+"разума."
 
 #: src-en/data/hyperspace.xml.append:343
 msgid ""
@@ -406,9 +411,11 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[44]/tooltip"
 msgstr ""
-"ХОЛОДНЫЙ ВОЗДУХ:\n"
-"Экипаж вражеских снеговиков восстанавливают здоровье на 20 ОЗ/с, пока "
-"находится на борту вражеского корабля."
+"Frozen ARMOR:\n"
+"Every time you deal hull damage to this enemy with your weapons, a shard "
+"will break off and fly towards your ship. It will pierce 2 shields and can't "
+"be shot down by defense drones, deals 1 damage and locks down rooms on hit. "
+"The ship also has a 50% chance to negate system damage."
 
 #: src-en/data/hyperspace.xml.append:353
 #, fuzzy
@@ -416,10 +423,13 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[45]/tooltip"
 msgstr ""
-"ЖИВОЙ КОРАБЛЬ:\n"
-"Этот вражеский корабль живой и поглотил одного или нескольких своих бывших "
-"членов экипажа. Значки улучшений, которые он получил в результате этого "
-"процесса, отображаются на экране."
+"DEATHLY SPORES:\n"
+"Your crew will be infected with deathly spores, causing any allied crew who "
+"dies to make other allied crew take 10% more damage and increases their "
+"active ability cooldowns by 10%. This effect stacks and applies across all "
+"ships\n"
+"\n"
+"Effect is removed on jump."
 
 #: src-en/data/hyperspace.xml.append:360
 msgid ""
@@ -502,20 +512,16 @@ msgstr ""
 "Этот враг защищен энергетическим щитом, пропитанным эзотерическим, могущественным хаосом. Его целостность равна 15 единицам, вдвое плотнее обычного, поэтому обход твердого света не может ничего ему противопоставить, и дает этому кораблю 50% шанс не получить неионный урон."
 
 #: src-en/data/hyperspace.xml.append:410
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[56]/tooltip"
 msgstr ""
-"ЭКСПЕРИМЕНТАЛЬНАЯ ОБШИВКА:\n"
-"- 20% шанс сопрот. корпуса, 20% - системам, 50% - ионам.\n"
-"- Вражеский корабль автомат. заделывают пробоины даже без экипажа.\n"
-"- Вражеский экипаж, находящийся в пустых отсеках на своем корабле, получает "
-"на 20% меньше урона из всех источников и на 25% меньше длит. оглушения.\n"
-"- За каждый уровень Кислор. уст., вражеский экипаж получает +15% боевого "
-"урона, +20% скорости передв., +5% макс. здоровья и +10% скорость зарядки "
-"способностей.\n"
-"- На 30% медленнее саботаж ваших абордажников."
+"ЭГИДА ЛЕГИОНЕРА:\n"
+"Этот противник защищён чрезвычайно прочным энергетическим щитом. Его "
+"целостность составляет 10 единиц. Пока энергетический щит активен:\n"
+"\n"
+"- Скорострельность оружия и артиллерии противника повышена на 20%;\n"
+"- Уклонение корабля противника увеличена на 10%;"
 
 #: src-en/data/hyperspace.xml.append:418
 msgid ""
@@ -531,10 +537,17 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[58]/tooltip"
 msgstr ""
-"ПОЗОЛОЧЕННЫЕ СИСТЕМЫ:\n"
-"Системы этого корабля становятся тем эффективнее, чем больше у него лома. "
-"Каждые 10 единиц лома позволяют орудиям заряжаться на 1% быстрее. Каждые 5 "
-"единиц лома ускоряют регенерацию щитов на 1%."
+"R.U.E.S. ROYAL PLATING:\n"
+"This ship's unique hull armor provides several bonuses.\n"
+"- 20% hull resist chance. Impacts that deal 1 damage have a 40% chance to be "
+"negated, and all other damage is reduced by 1.\n"
+"- Breaches on this enemy will automatically be repaired even in the absence "
+"of crew.\n"
+"- Provides a 35% crew combat resistance and a 50% hazard resistance to enemy "
+"crew in empty rooms.\n"
+"- For each active power bar in Life Support, their crew get a bonus 25% "
+"movement speed, 6.25% maximum health, and reduces active ability cooldowns "
+"by 15%."
 
 #: src-en/data/hyperspace.xml.append:432
 msgid ""
@@ -2964,11 +2977,10 @@ msgid ""
 msgstr "МЕТАМОРФ"
 
 #: src-en/data/hyperspace.xml.append:20158
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_hatchling_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:20с]\n"
+"[ПЕРЕЗАРЯДКА:1с]\n"
 "\t\t\tМетаморф превращается во взрослую форму, одновременно полностью "
 "исцеляясь."
 
@@ -2979,11 +2991,10 @@ msgid ""
 msgstr "МЕТАМОРФ"
 
 #: src-en/data/hyperspace.xml.append:20185
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_adult_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:20с]\n"
+"[ПЕРЕЗАРЯДКА:1с]\n"
 "\t\t\tМетаморф превращается в ткача, одновременно полностью исцеляясь."
 
 #: src-en/data/hyperspace.xml.append:20211
@@ -3028,11 +3039,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20341
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\tПревращается в копию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТАЛЛИ]"
@@ -3043,11 +3053,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20363
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_tully_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ХЭЙНС]"
@@ -3058,11 +3067,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20386
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_haynes_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДЖЕРРИ]"
@@ -3073,11 +3081,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20409
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_jerry_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ЭЛЛИ]"
@@ -3088,11 +3095,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20432
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ellie_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СТЕФАН]"
@@ -3103,11 +3109,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20455
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_stephan_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУРЗИЛ]"
@@ -3118,11 +3123,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20478
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_turzil_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДЕВОРАК]"
@@ -3133,11 +3137,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20501
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_devorak_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АНУРАК]"
@@ -3148,11 +3151,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20524
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_anurak_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: КАЗ]"
@@ -3163,11 +3165,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20547
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_kaz_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ФРЕДДИ]"
@@ -3178,11 +3179,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20570
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_freddy_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СИМБИОНТ]"
@@ -3193,11 +3193,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20593
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_symbiote_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ВОРТИГОНТ]"
@@ -3208,11 +3207,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20616
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_vortigon_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУКО]"
@@ -3223,11 +3221,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20639
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_tuco_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АРИАДНА]"
@@ -3238,11 +3235,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20662
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ariadne_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: РУВЕН]"
@@ -3253,11 +3249,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20685
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ruwen_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДИАНЕШ]"
@@ -3268,11 +3263,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20708
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_dianesh_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ОБИН]"
@@ -3283,11 +3277,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20731
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_obyn_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: БИЛЛИ]"
@@ -3298,11 +3291,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20754
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_billy_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУМАН]"
@@ -3313,11 +3305,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20777
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_billy_box_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТУМАН]"
@@ -3328,11 +3319,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20800
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_nights_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СЛОКНОГ]"
@@ -3343,11 +3333,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20823
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_slocknog_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ИРВИН]"
@@ -3358,11 +3347,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20846
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_irwin_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: СИЛЬВАН]"
@@ -3373,11 +3361,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20869
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_sylvan_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТОНИ СТАРШИЙ]"
@@ -3388,11 +3375,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20892
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_tonysr_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТИРДЕО]"
@@ -3403,11 +3389,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20915
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_tyrdeo_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АЛЬКРАМ]"
@@ -3418,11 +3403,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20938
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_alkram_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: АЛЬКАЛИ]"
@@ -3433,11 +3417,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20961
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_alkali_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: УДЖ]"
@@ -3448,11 +3431,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:20984
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_ooj_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, иммунитет к опасностям и возможность проходить сквозь "
 "двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ПОМАЗАННИЦА]"
@@ -3463,11 +3445,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21007
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_anointed_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ПОЖИРАТЕЛЬ МАЯКОВ]"
@@ -3478,11 +3459,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21030
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_eater_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ДЕССИУС]"
@@ -3493,11 +3473,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21053
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_dessius_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: КОРОЛЕВА ПАУКОВ]"
@@ -3508,11 +3487,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21076
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_queen_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ГАНТПУТ]"
@@ -3523,11 +3501,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21099
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_guntput_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: МЕТЬЮНТ]"
@@ -3538,11 +3515,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21122
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_metyunt_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ВИТЭР]"
@@ -3553,11 +3529,10 @@ msgid ""
 msgstr "МОРФ"
 
 #: src-en/data/hyperspace.xml.append:21145
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_pok_morph_wither_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:60с]\n"
+"[ПЕРЕЗАРЯДКА:10с]\n"
 "\t\t\t\tПревращается в версию определенного уникального экипажа, получив все "
 "его способности, а также иммунитет к опасностям и возможность проходить "
 "сквозь двери. [СЛЕДУЮЩИЙ УНИКАЛЬНЫЙ: ТАЛЛИ]"
@@ -3647,7 +3622,6 @@ msgid ""
 msgstr "АССИМИЛЯЦИЯ"
 
 #: src-en/data/hyperspace.xml.append:23235
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_ANOINTED\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
@@ -3658,8 +3632,7 @@ msgstr ""
 "характеристики:\n"
 "\t\t\t\t-4x скорость передвижения, ремонта и саботажа\n"
 "\t\t\t\t-4x боевой урон\n"
-"\t\t\t\t-4 истощение кислорода/с\n"
-"\t\t\t\t-Удвоенная бонусная мощность"
+"\t\t\t\t-Удвоенная энергия системам"
 
 #: src-en/data/hyperspace.xml.append:23290
 msgid ""
