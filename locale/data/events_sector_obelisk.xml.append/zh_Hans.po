@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-15 15:27+0000\n"
+"PO-Revision-Date: 2026-05-15 18:45+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_sector_obeliskxmlappend/zh_Hans/>\n"
@@ -229,6 +229,9 @@ msgstr "跳过。"
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/text"
 msgstr ""
+"当那段嘈杂的信息被完整翻译后，你发现这艘船很可能在很久以前的方尖碑内战中被用"
+"作移动武器工厂。即便处于受损状态，它合成新装备的能力也可能派上用场。不过，若"
+"不先将其关闭，恐怕难以访问那座锻造厂。"
 
 #: src-en/data/events_sector_obelisk.xml.append:148
 msgid ""
@@ -236,17 +239,16 @@ msgid ""
 msgstr "尝试骇入舰船。"
 
 #: src-en/data/events_sector_obelisk.xml.append:150
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/event/text"
 msgstr ""
-"你编写了一个攻击自动舰船人工智能模块的程序。若想此计划成功，必须在抵御该舰攻"
-"击的同时确保不将其摧毁！"
+"你编写了一个攻击星舰的人工智能模块的程序。若想此计划成功，必须在抵御该舰攻击"
+"的同时确保不将其摧毁！"
 
 #: src-en/data/events_sector_obelisk.xml.append:154
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/event/triggeredEvent/triggeredEventBox/tooltip"
-msgstr ""
+msgstr "在避免摧毁那艘破损星舰的情况下坚持存活，以便让骇入程序持续运行。"
 
 #: src-en/data/events_sector_obelisk.xml.append:160
 msgid ""
@@ -262,6 +264,8 @@ msgstr "看看我们的联合方碑船员中是否有人能加速黑客入侵进
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/text"
 msgstr ""
+"你的联合方碑族船员在这些无人机被广泛使用的鼎盛时期就在场，因此对他们的系统仍"
+"然熟悉。它毫不费力地就成功解除了这艘星舰的防火墙。"
 
 #: src-en/data/events_sector_obelisk.xml.append:170
 msgid ""
@@ -274,10 +278,9 @@ msgid ""
 msgstr "（先进黑客）用你的黑客系统加速骇入过程。"
 
 #: src-en/data/events_sector_obelisk.xml.append:178
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"hacking\"]/event/text"
-msgstr "你高度先进的黑客系统完全能胜任此任务，无人机没怎么抵抗就屈服了。"
+msgstr "你高度先进的黑客系统完全能胜任此任务。无人机没怎么抵抗就屈服了。"
 
 #: src-en/data/events_sector_obelisk.xml.append:180
 msgid ""
@@ -287,7 +290,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_obelisk.xml.append:186
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[4]/text"
-msgstr ""
+msgstr "这太冒险了；远离那艘星舰。"
 
 #: src-en/data/events_sector_obelisk.xml.append:188
 msgid ""
