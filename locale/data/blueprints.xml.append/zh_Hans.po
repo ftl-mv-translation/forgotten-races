@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-15 14:12+0000\n"
+"PO-Revision-Date: 2026-05-15 15:27+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -6453,7 +6453,7 @@ msgstr ""
 "\t\t废料消耗：3\n"
 "\t\t导弹消耗：1\n"
 "\n"
-"\t\t爆炸半径：35\n"
+"\t\t半径：35\n"
 "\t\t每次发射随机导弹数：3 枚\n"
 "\t\t\n"
 "\t\t红色导弹：1 点舰体伤害与 3 点系统伤害，100% 起火率，彻底引燃被击中舱室"
@@ -6477,7 +6477,7 @@ msgstr ""
 "\t\t废料消耗：3\n"
 "\t\t导弹消耗：1\n"
 "\n"
-"\t\t爆炸半径：35\n"
+"\t\t半径：35\n"
 "\t\t每次发射随机导弹数：3 枚\n"
 "\t\t\n"
 "\t\t红色导弹：1 点舰体伤害与 3 点系统伤害，100% 起火率，彻底引燃被击中舱室"
@@ -7490,642 +7490,768 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:9602
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PURPLE_BEARD_B_LASER\"]/title"
-msgstr ""
+msgstr "维塔斯激光巨炮"
 
 #: src-en/data/blueprints.xml.append:9603
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PURPLE_BEARD_B_LASER\"]/short"
-msgstr ""
+msgstr "维塔斯巨炮"
 
 #: src-en/data/blueprints.xml.append:9604
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PURPLE_BEARD_B_LASER\"]/desc"
 msgstr ""
+"[基础冷却：45]一种改装后的天顶型巨炮。发射一发无法被闪避的强大激光，造成 3 点"
+"伤害，穿透所有护盾，且必定造成破舱。附带舰体爆破效果。"
 
 #: src-en/data/blueprints.xml.append:9605
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PURPLE_BEARD_B_LASER\"]/tooltip"
 msgstr ""
+"巨炮：发射一发无法被闪避的强大激光，造成 3 点伤害，穿透所有护盾，且必定造成破"
+"舱。附带舰体爆破效果。"
 
 #: src-en/data/blueprints.xml.append:9642
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PURPLE_BEARD_C_LASER\"]/title"
-msgstr ""
+msgstr "潘多拉激光巨炮"
 
 #: src-en/data/blueprints.xml.append:9643
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PURPLE_BEARD_C_LASER\"]/short"
-msgstr ""
+msgstr "潘多拉巨炮"
 
 #: src-en/data/blueprints.xml.append:9644
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PURPLE_BEARD_C_LASER\"]/desc"
 msgstr ""
+"[基础冷却：40]一种改装后的天顶巨炮，与损毁的预兆者激光混合，威力强大但精准度"
+"较差。发射 3 发造成 2 点伤害的炮弹。必定引发火灾或造成破舱。附带舰体爆破效果"
+"。半径 60。"
 
 #: src-en/data/blueprints.xml.append:9645
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_PURPLE_BEARD_C_LASER\"]/tooltip"
 msgstr ""
+"巨炮：发射 3 发造成 2 点伤害的炮弹。必定引发火灾或造成破舱。附带舰体爆破效果"
+"。半径 60。"
 
 #: src-en/data/blueprints.xml.append:9685
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_MISSILE\"]/title"
-msgstr ""
+msgstr "“阿特拉斯”导弹巨炮"
 
 #: src-en/data/blueprints.xml.append:9686
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_MISSILE\"]/short"
-msgstr ""
+msgstr "“阿特拉斯”巨炮"
 
 #: src-en/data/blueprints.xml.append:9687
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_MISSILE\"]/desc"
 msgstr ""
+"[基础冷却：40]叛军工程的巅峰之作。发射一枚强力弹头，对命中的舱室造成 3 点伤害"
+"，并对所有相邻舱室造成 1 点舰体伤害、2 点系统伤害与 15 点船员伤害。必定造成破"
+"舱，并拥有 +20% 的命中加成。"
 
 #: src-en/data/blueprints.xml.append:9688
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_MISSILE\"]/tooltip"
 msgstr ""
+"巨炮：发射一枚强力弹头，对命中的舱室造成 3 点伤害，并对所有相邻舱室造成 1 点"
+"舰体伤害、2 点系统伤害与 15 点船员伤害。必定造成破舱，并拥有 +20% 的命中加成"
+"。"
 
 #: src-en/data/blueprints.xml.append:9728
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_BOMB\"]/title"
-msgstr ""
+msgstr "集束炸弹巨炮"
 
 #: src-en/data/blueprints.xml.append:9729
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_BOMB\"]/short"
-msgstr ""
+msgstr "集束巨炮"
 
 #: src-en/data/blueprints.xml.append:9730
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_BOMB\"]/desc"
 msgstr ""
+"[基础冷却：30]叛军工程的巅峰之作。发射 3 枚弹头，每枚造成 4 点系统伤害与 60 "
+"点船员伤害。当瞄准己方舰船时仅发射 1 枚炸弹。+30% 命中加成。50% 起火几率。"
 
 #: src-en/data/blueprints.xml.append:9731
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_BOMB\"]/tooltip"
 msgstr ""
+"巨炮：发射 3 枚弹头，每枚造成 4 点系统伤害与 60 点船员伤害。当瞄准己方舰船时"
+"仅发射 1 枚炸弹。+30% 命中加成。50% 起火几率。"
 
 #: src-en/data/blueprints.xml.append:9762
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_BEAM\"]/title"
-msgstr ""
+msgstr "长枪光束巨炮"
 
 #: src-en/data/blueprints.xml.append:9763
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_BEAM\"]/short"
-msgstr ""
+msgstr "长枪巨炮"
 
 #: src-en/data/blueprints.xml.append:9764
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_BEAM\"]/desc"
 msgstr ""
+"[基础冷却：35]叛军工程的巅峰之作。为一道强大的光束充能，可穿透 3 层护盾并造"
+"成 3 点伤害，拥有 50% 的起火/破舱几率。光束长度 150。"
 
 #: src-en/data/blueprints.xml.append:9765
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_A_BEAM\"]/tooltip"
 msgstr ""
+"巨炮：为一道强大的光束充能，可穿透 3 层护盾并造成 3 点伤害，拥有 50% 的起火/"
+"破舱几率。光束长度 150。"
 
 #: src-en/data/blueprints.xml.append:9788
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_MISSILE\"]/title"
-msgstr ""
+msgstr "“凝固汽油”导弹巨炮"
 
 #: src-en/data/blueprints.xml.append:9789
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_MISSILE\"]/short"
-msgstr ""
+msgstr "“凝固汽油”巨炮"
 
 #: src-en/data/blueprints.xml.append:9790
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_MISSILE\"]/desc"
 msgstr ""
+"[基础冷却：40]发射一枚强力弹头，造成 90 点船员伤害、1 点舰体伤害与 3 点系统伤"
+"害，并对相邻舱室内的船员造成 30 点船员伤害。使被命中的舱室完全燃烧，并移除被"
+"主爆炸击中的船员的火焰免疫效果，持续 15 秒。+10% 命中加成。"
 
 #: src-en/data/blueprints.xml.append:9791
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_MISSILE\"]/tooltip"
 msgstr ""
+"巨炮：发射一枚强力弹头，造成 90 点船员伤害、1 点舰体伤害与 3 点系统伤害，并对"
+"相邻舱室内的船员造成 30 点船员伤害。使被命中的舱室完全燃烧，并移除被主爆炸击"
+"中的船员的火焰免疫效果，持续 15 秒。+10% 命中加成。"
 
 #: src-en/data/blueprints.xml.append:9854
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_BOMB\"]/title"
-msgstr ""
+msgstr "点火炸弹巨炮"
 
 #: src-en/data/blueprints.xml.append:9855
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_BOMB\"]/short"
-msgstr ""
+msgstr "点火巨炮"
 
 #: src-en/data/blueprints.xml.append:9856
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_BOMB\"]/desc"
 msgstr ""
+"[基础冷却：30]发射 3 枚弹头，每枚造成 2 点系统伤害与 105 点船员伤害。当瞄准己"
+"方舰船时仅发射 1 枚炸弹。使被命中的舱室完全燃烧。无法被闪避。"
 
 #: src-en/data/blueprints.xml.append:9857
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_BOMB\"]/tooltip"
 msgstr ""
+"巨炮：发射 3 枚弹头，每枚造成 2 点系统伤害与 105 点船员伤害。当瞄准己方舰船时"
+"仅发射 1 枚炸弹。使被命中的舱室完全燃烧。无法被闪避。"
 
 #: src-en/data/blueprints.xml.append:9889
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_LASER\"]/title"
-msgstr ""
+msgstr "终结者激光巨炮"
 
 #: src-en/data/blueprints.xml.append:9890
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_LASER\"]/short"
-msgstr ""
+msgstr "终结者巨炮"
 
 #: src-en/data/blueprints.xml.append:9891
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_LASER\"]/desc"
 msgstr ""
+"[基础冷却：35]发射一发强力激光，造成 2 点舰体伤害、3 点系统伤害与 60 点船员伤"
+"害。穿透 2 层护盾。使被命中的舱室完全燃烧。+10% 命中加成。"
 
 #: src-en/data/blueprints.xml.append:9892
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_B_LASER\"]/tooltip"
 msgstr ""
+"巨炮：发射一发强力激光，造成 2 点舰体伤害、3 点系统伤害与 60 点船员伤害。穿"
+"透 2 层护盾。使被命中的舱室完全燃烧。+10% 命中加成。"
 
 #: src-en/data/blueprints.xml.append:9929
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_BEAM\"]/title"
-msgstr ""
+msgstr "“锥刺”光束巨炮"
 
 #: src-en/data/blueprints.xml.append:9930
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_BEAM\"]/short"
-msgstr ""
+msgstr "“锥刺”巨炮"
 
 #: src-en/data/blueprints.xml.append:9931
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_BEAM\"]/desc"
 msgstr ""
+"[基础冷却：30]次时代光束设计的巅峰之作。为一道强大的光束充能，可穿透 4 层护盾"
+"，造成 2 点舰体伤害与 3 点系统伤害，并有 50% 的几率引发火灾或造成破舱。附带舰"
+"体爆破效果。光束长度 125。"
 
 #: src-en/data/blueprints.xml.append:9932
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_BEAM\"]/tooltip"
 msgstr ""
+"巨炮：为一道强大的光束充能，可穿透 4 层护盾，造成 2 点舰体伤害与 3 点系统伤害"
+"，并有 50% 的几率引发火灾或造成破舱。附带舰体爆破效果。光束长度 125。"
 
 #: src-en/data/blueprints.xml.append:9957
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_BOMB\"]/title"
-msgstr ""
+msgstr "阵列炸弹巨炮"
 
 #: src-en/data/blueprints.xml.append:9958
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_BOMB\"]/short"
-msgstr ""
+msgstr "阵列巨炮"
 
 #: src-en/data/blueprints.xml.append:9959
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_BOMB\"]/desc"
 msgstr ""
+"[基础冷却：25]次时代炸弹工程的巅峰之作。发射 6 枚弹头，每枚造成 4 点系统伤害"
+"与 60 点船员伤害。当瞄准己方舰船时仅发射 1 枚炸弹。+30% 命中加成。30% 起火/破"
+"舱几率。"
 
 #: src-en/data/blueprints.xml.append:9960
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_BOMB\"]/tooltip"
 msgstr ""
+"巨炮：发射 6 枚弹头，每枚造成 4 点系统伤害与 60 点船员伤害。当瞄准己方舰船时"
+"仅发射 1 枚炸弹。+30% 命中加成。30% 起火/破舱几率。"
 
 #: src-en/data/blueprints.xml.append:9991
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_LASER\"]/title"
-msgstr ""
+msgstr "顶峰激光巨炮"
 
 #: src-en/data/blueprints.xml.append:9992
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_LASER\"]/short"
-msgstr ""
+msgstr "顶峰巨炮"
 
 #: src-en/data/blueprints.xml.append:9993
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_LASER\"]/desc"
 msgstr ""
+"[基础冷却：30]发射一发强力激光，造成 6 点伤害，必定眩晕目标，并必然造成破舱或"
+"引发火灾。+10% 命中加成。"
 
 #: src-en/data/blueprints.xml.append:9994
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_FLAGSHIP_C_LASER\"]/tooltip"
-msgstr ""
+msgstr "巨炮：造成 6 点伤害，必定眩晕目标，并必然造成破舱或引发火灾。+10% 命中加成。"
 
 #: src-en/data/blueprints.xml.append:10031
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_A_LASER\"]/title"
-msgstr ""
+msgstr "天顶激光巨炮"
 
 #: src-en/data/blueprints.xml.append:10032
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_A_LASER\"]/short"
-msgstr ""
+msgstr "天顶巨炮"
 
 #: src-en/data/blueprints.xml.append:10033
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_A_LASER\"]/desc"
 msgstr ""
+"[基础冷却：35]发射一发强力激光，造成 4 点伤害，必定眩晕目标，并必然造成破舱或"
+"引发火灾。+10% 命中加成。"
 
 #: src-en/data/blueprints.xml.append:10034
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_A_LASER\"]/tooltip"
 msgstr ""
+"巨炮：发射一发强力激光，造成 4 点伤害，必定眩晕目标，并必然造成破舱或引发火灾"
+"。+10% 命中加成。"
 
 #: src-en/data/blueprints.xml.append:10069
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_A_PLASMA\"]/title"
-msgstr ""
+msgstr "顶点等离子巨炮"
 
 #: src-en/data/blueprints.xml.append:10070
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_A_PLASMA\"]/short"
-msgstr ""
+msgstr "顶点巨炮"
 
 #: src-en/data/blueprints.xml.append:10071
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_A_PLASMA\"]/desc"
 msgstr ""
+"[基础冷却：30]发射一发强力等离子相位炮，造成 2 点离子伤害与系统伤害，并穿透所"
+"有护盾。必定引发火灾。"
 
 #: src-en/data/blueprints.xml.append:10072
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_A_PLASMA\"]/tooltip"
 msgstr ""
+"巨炮：发射一发强力等离子相位炮，造成 2 点离子伤害与系统伤害，并穿透所有护盾。"
+"必定引发火灾。"
 
 #: src-en/data/blueprints.xml.append:10107
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_B_ION\"]/title"
-msgstr ""
+msgstr "相位辐射巨炮"
 
 #: src-en/data/blueprints.xml.append:10108
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_B_ION\"]/short"
-msgstr ""
+msgstr "相位巨炮"
 
 #: src-en/data/blueprints.xml.append:10109
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_B_ION\"]/desc"
 msgstr ""
+"[基础冷却：30]发射两发相位辐射，造成 1 点离子伤害与 45 点船员伤害，可使船员暂"
+"时失去行动能力，并穿透所有护盾。60% 破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10110
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_B_ION\"]/tooltip"
 msgstr ""
+"巨炮：发射两发相位辐射弹，造成 1 点离子伤害与 45 点船员伤害，可使船员暂时失去"
+"行动能力，并穿透所有护盾。60% 破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10156
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_B_BEAM\"]/title"
-msgstr ""
+msgstr "粒子光束巨炮"
 
 #: src-en/data/blueprints.xml.append:10157
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_B_BEAM\"]/short"
-msgstr ""
+msgstr "粒子光束巨炮"
 
 #: src-en/data/blueprints.xml.append:10158
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_B_BEAM\"]/desc"
 msgstr ""
+"[基础冷却：35]为一道强大的粒子光束充能，造成 4 点系统伤害，并有 60% 的几率引"
+"发火灾。光束长度 110。"
 
 #: src-en/data/blueprints.xml.append:10159
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_B_BEAM\"]/tooltip"
 msgstr ""
+"巨炮：为一道强大的粒子光束充能，造成 4 点系统伤害，并有 60% 的几率引发火灾。"
+"光束长度 110。"
 
 #: src-en/data/blueprints.xml.append:10188
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_ADDER\"]/title"
-msgstr ""
+msgstr "“蝰蛇”激光巨炮"
 
 #: src-en/data/blueprints.xml.append:10189
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_ADDER\"]/short"
-msgstr ""
+msgstr "“蝰蛇”巨炮"
 
 #: src-en/data/blueprints.xml.append:10190
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_ADDER\"]/desc"
 msgstr ""
+"[基础冷却：42]发射两发激光，每发造成 1 点伤害，并在每次射击后链式 1 点伤害。"
+"30% 起火几率。"
 
 #: src-en/data/blueprints.xml.append:10191
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_ADDER\"]/tooltip"
 msgstr ""
+"巨炮：发射两发激光，每发造成 1 点伤害，并在每次射击后链式 1 点伤害。30% 起火"
+"几率。"
 
 #: src-en/data/blueprints.xml.append:10232
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_SUBTRACTER\"]/title"
-msgstr ""
+msgstr "“减法”炸弹巨炮"
 
 #: src-en/data/blueprints.xml.append:10233
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_SUBTRACTER\"]/short"
-msgstr ""
+msgstr "“减法者”巨炮"
 
 #: src-en/data/blueprints.xml.append:10234
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_SUBTRACTER\"]/desc"
 msgstr ""
+"[基础冷却：35]发射一枚高放射性炸弹，造成 225 点船员伤害，并使被击中的船员暂时"
+"失去行动能力。无法被闪避。"
 
 #: src-en/data/blueprints.xml.append:10235
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_SUBTRACTER\"]/tooltip"
 msgstr ""
+"巨炮：发射一枚高放射性炸弹，造成 225 点船员伤害，并使被击中的船员暂时失去行动"
+"能力。无法被闪避。"
 
 #: src-en/data/blueprints.xml.append:10268
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_MULTIPLIER\"]/title"
-msgstr ""
+msgstr "“乘算器”破片巨炮"
 
 #: src-en/data/blueprints.xml.append:10269
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_MULTIPLIER\"]/short"
-msgstr ""
+msgstr "“乘算器”巨炮"
 
 #: src-en/data/blueprints.xml.append:10270
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_MULTIPLIER\"]/desc"
-msgstr ""
+msgstr "[基础冷却：10]发射一发破片，每层充能造成 1 点伤害。最多可充能 3 层。半径 40。"
 
 #: src-en/data/blueprints.xml.append:10271
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_MULTIPLIER\"]/tooltip"
-msgstr ""
+msgstr "巨炮：发射一发破片，每层充能造成 1 点伤害。最多可充能 3 层。半径 40。"
 
 #: src-en/data/blueprints.xml.append:10316
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_DIVIDER\"]/title"
-msgstr ""
+msgstr "'除算器'光束巨炮"
 
 #: src-en/data/blueprints.xml.append:10317
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_DIVIDER\"]/short"
-msgstr ""
+msgstr "'除算器'巨炮"
 
 #: src-en/data/blueprints.xml.append:10318
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_DIVIDER\"]/desc"
 msgstr ""
+"[基础冷却：40]发射一道光束，穿透 3 层护盾并造成 1 点伤害。必定造成破舱。光束"
+"长度 80，速度 1。"
 
 #: src-en/data/blueprints.xml.append:10319
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_DIVIDER\"]/tooltip"
 msgstr ""
+"巨炮：发射一道光束，穿透 3 层护盾并造成 1 点伤害。必定造成破舱。光束长度 80，"
+"速度 1。"
 
 #: src-en/data/blueprints.xml.append:10343
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_EQUALIZER\"]/title"
-msgstr ""
+msgstr "'均衡器' 光束巨炮"
 
 #: src-en/data/blueprints.xml.append:10344
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_EQUALIZER\"]/short"
-msgstr ""
+msgstr "'均衡器' 巨炮"
 
 #: src-en/data/blueprints.xml.append:10345
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_EQUALIZER\"]/desc"
-msgstr ""
+msgstr "[基础冷却：45]发射一发离子光点，造成 3 点离子伤害。必定引发火灾并造成眩晕。"
 
 #: src-en/data/blueprints.xml.append:10346
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_EQUALIZER\"]/tooltip"
-msgstr ""
+msgstr "巨炮：发射一发离子光点，造成 3 点离子伤害。必定引发火灾并造成眩晕。"
 
 #: src-en/data/blueprints.xml.append:10392
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_PERCENTAGE\"]/title"
-msgstr ""
+msgstr "'百分比'空雷巨炮"
 
 #: src-en/data/blueprints.xml.append:10393
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_PERCENTAGE\"]/short"
-msgstr ""
+msgstr "'百分比'巨炮"
 
 #: src-en/data/blueprints.xml.append:10394
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_PERCENTAGE\"]/desc"
 msgstr ""
+"[基础冷却：25]发射一组 4 枚空雷，每枚造成 1 点舰体伤害。必定造成火灾或破舱，"
+"并造成眩晕。半径 55。"
 
 #: src-en/data/blueprints.xml.append:10395
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_PERCENTAGE\"]/tooltip"
 msgstr ""
+"巨炮：发射一组 4 枚空雷，每枚造成 1 点舰体伤害。必定造成火灾或破舱，并造成眩"
+"晕。半径 55。"
 
 #: src-en/data/blueprints.xml.append:10436
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_GREATER_THAN\"]/title"
-msgstr ""
+msgstr "'大于器'巨炮"
 
 #: src-en/data/blueprints.xml.append:10437
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_GREATER_THAN\"]/short"
-msgstr ""
+msgstr "'大于器'巨炮"
 
 #: src-en/data/blueprints.xml.append:10438
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_GREATER_THAN\"]/desc"
 msgstr ""
+"[基础冷却：35]发射一枚无法被防御无人机锁定的导弹，造成 3 点伤害。无法被闪避。"
+"20% 起火/破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10439
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_MATH_GREATER_THAN\"]/tooltip"
 msgstr ""
+"巨炮：发射一枚无法被防御无人机锁定的导弹，造成 3 点伤害。无法被闪避。20% 起"
+"火/破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10479
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_REBEL_HEAVY_LASER\"]/title"
-msgstr ""
+msgstr "重型激光巨炮"
 
 #: src-en/data/blueprints.xml.append:10480
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_REBEL_HEAVY_LASER\"]/short"
-msgstr ""
+msgstr "重型巨炮"
 
 #: src-en/data/blueprints.xml.append:10481
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_REBEL_HEAVY_LASER\"]/desc"
 msgstr ""
+"[基础冷却：35]发射 2 发激光，造成 2 点系统伤害、2 点舰体伤害以及 45 点船员伤"
+"害。命中时眩晕船员 6 秒。20% 起火与破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10482
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_REBEL_HEAVY_LASER\"]/tooltip"
 msgstr ""
+"巨炮：发射 2 发激光，造成 2 点系统伤害、2 点舰体伤害以及 45 点船员伤害。命中"
+"时眩晕船员 6 秒。20% 起火与破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10520
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_REBEL_ENERGY\"]/title"
-msgstr ""
+msgstr "重型能量巨炮"
 
 #: src-en/data/blueprints.xml.append:10521
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_REBEL_ENERGY\"]/short"
-msgstr ""
+msgstr "能量巨炮"
 
 #: src-en/data/blueprints.xml.append:10522
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_REBEL_ENERGY\"]/desc"
 msgstr ""
+"[基础冷却：30]发射一发能量炮，造成 2 点舰体伤害与 2 点离子伤害。附带舰体爆破"
+"效果。60% 起火几率。"
 
 #: src-en/data/blueprints.xml.append:10523
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_REBEL_ENERGY\"]/tooltip"
 msgstr ""
+"巨炮：发射一发能量爆裂，造成 2 点舰体伤害与 2 点离子伤害。附带舰体爆破效果。"
+"60% 起火几率。"
 
 #: src-en/data/blueprints.xml.append:10566
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_HEAVY_LASER\"]/title"
-msgstr ""
+msgstr "重型激光巨炮"
 
 #: src-en/data/blueprints.xml.append:10567
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_HEAVY_LASER\"]/short"
-msgstr ""
+msgstr "重型巨炮"
 
 #: src-en/data/blueprints.xml.append:10568
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_HEAVY_LASER\"]/desc"
 msgstr ""
+"[基础冷却：35]发射 2 发激光，造成 2 点系统伤害、2 点舰体伤害以及 45 点船员伤"
+"害。命中时眩晕船员 6 秒。20% 起火与破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10569
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_HEAVY_LASER\"]/tooltip"
 msgstr ""
+"巨炮：发射 2 发激光，造成 2 点系统伤害、2 点舰体伤害以及 45 点船员伤害。命中"
+"时眩晕船员 6 秒。20% 起火与破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10607
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_BEAM\"]/title"
-msgstr ""
+msgstr "“镰刀”光束巨炮"
 
 #: src-en/data/blueprints.xml.append:10608
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_BEAM\"]/short"
-msgstr ""
+msgstr "'镰刀'巨炮"
 
 #: src-en/data/blueprints.xml.append:10609
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_BEAM\"]/desc"
 msgstr ""
+"[基础冷却：40]为一道巨型光束充能，可穿透所有护盾，造成 1 点舰体伤害、2 点系统"
+"伤害与 30 点船员伤害，并有 50% 的几率引发火灾或造成破舱。光束长度 250，速度 "
+"15。"
 
 #: src-en/data/blueprints.xml.append:10610
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_BEAM\"]/tooltip"
 msgstr ""
+"巨炮：为一道巨型光束充能，可穿透所有护盾，造成 1 点舰体伤害、2 点系统伤害与 "
+"30 点船员伤害，并有 50% 的几率引发火灾或造成破舱。光束长度 250，速度 15。"
 
 #: src-en/data/blueprints.xml.append:10633
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ENERGY\"]/title"
-msgstr ""
+msgstr "重型能量巨炮"
 
 #: src-en/data/blueprints.xml.append:10634
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ENERGY\"]/short"
-msgstr ""
+msgstr "能量巨炮"
 
 #: src-en/data/blueprints.xml.append:10635
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ENERGY\"]/desc"
 msgstr ""
+"[基础冷却：30]发射一发能量爆裂，造成 2 点舰体伤害与 2 点离子伤害。附带舰体爆"
+"破效果。60% 起火几率。"
 
 #: src-en/data/blueprints.xml.append:10636
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ENERGY\"]/tooltip"
 msgstr ""
+"巨炮：发射一发能量爆裂，造成 2 点舰体伤害与 2 点离子伤害。附带舰体爆破效果。"
+"60% 起火几率。"
 
 #: src-en/data/blueprints.xml.append:10679
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_FIRE\"]/title"
-msgstr ""
+msgstr "'焰剑'光束巨炮"
 
 #: src-en/data/blueprints.xml.append:10680
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_FIRE\"]/short"
-msgstr ""
+msgstr "'焰剑'巨炮"
 
 #: src-en/data/blueprints.xml.append:10681
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_FIRE\"]/desc"
 msgstr ""
+"[基础冷却：30]发射一道光束，穿透 2 层护盾，必定引发火灾，并暂时移除船员的火焰"
+"免疫效果，但不造成物理伤害。光束长度 300，速度 25。"
 
 #: src-en/data/blueprints.xml.append:10682
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_FIRE\"]/tooltip"
 msgstr ""
+"巨炮:发射一道光束，穿透 2 层护盾，必定引发火灾，并暂时移除船员的火焰免疫效果"
+"，但不造成物理伤害。光束长度 300，速度 25。"
 
 #: src-en/data/blueprints.xml.append:10724
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_ADAPT\"]/title"
-msgstr ""
+msgstr "'刺枪'光束巨炮"
 
 #: src-en/data/blueprints.xml.append:10725
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_ADAPT\"]/short"
-msgstr ""
+msgstr "'刺枪' 巨炮"
 
 #: src-en/data/blueprints.xml.append:10726
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_ADAPT\"]/desc"
 msgstr ""
+"[基础冷却：35]为一道巨型光束充能，造成 1 点伤害。每次开火后伤害增加 1.5 倍，"
+"增伤次数无上限。50% 起火/破舱几率。光束长度 150，速度 15。"
 
 #: src-en/data/blueprints.xml.append:10727
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_ADAPT\"]/tooltip"
 msgstr ""
+"巨炮:为一道巨型光束充能，造成 1 点伤害。每次开火后伤害增加 1.5 倍，增伤次数无"
+"上限。50% 起火/破舱几率。光束长度 150，速度 15。"
 
 #: src-en/data/blueprints.xml.append:10753
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_BREACH\"]/title"
-msgstr ""
+msgstr "'刺矛'光束巨炮"
 
 #: src-en/data/blueprints.xml.append:10754
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_BREACH\"]/short"
-msgstr ""
+msgstr "'刺矛'巨炮"
 
 #: src-en/data/blueprints.xml.append:10755
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_BREACH\"]/desc"
 msgstr ""
+"[基础冷却：35]发射一道光束，穿透 2 层护盾，必定造成破舱，并暂时移除船员的窒息"
+"免疫效果，但不造成物理伤害。光束长度 300，速度 25。"
 
 #: src-en/data/blueprints.xml.append:10756
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_B_BEAM_BREACH\"]/tooltip"
 msgstr ""
+"巨炮：发射一道光束，穿透 2 层护盾，必定造成破舱，并暂时移除船员的窒息免疫效果"
+"，但不造成物理伤害。光束长度 300，速度 25。"
 
 #: src-en/data/blueprints.xml.append:10798
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_BEAM\"]/title"
-msgstr ""
+msgstr "'三尖枪'光束巨炮"
 
 #: src-en/data/blueprints.xml.append:10799
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_BEAM\"]/short"
-msgstr ""
+msgstr "'三尖枪'巨炮"
 
 #: src-en/data/blueprints.xml.append:10800
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_BEAM\"]/desc"
 msgstr ""
+"[基础冷却：34/28/22/16]发射一道造成 2 点伤害的光束，并链式 3 次冷却时间。光束"
+"长度 110，速度 15。20% 破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10801
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_BEAM\"]/tooltip"
 msgstr ""
+"巨炮：发射一道造成 2 点伤害的光束，并链式 3 次冷却时间。光束长度 110，速度 15"
+"。20% 破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10828
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_FLAK\"]/title"
-msgstr ""
+msgstr "链式破片巨炮"
 
 #: src-en/data/blueprints.xml.append:10829
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_FLAK\"]/short"
-msgstr ""
+msgstr "链式破片巨炮"
 
 #: src-en/data/blueprints.xml.append:10830
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_FLAK\"]/desc"
 msgstr ""
+"[基础冷却：41/34/27/20]发射一组 10 发破片投射物，造成 1 点伤害，并链式 3 次冷"
+"却时间。20% 破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10831
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_FLAK\"]/tooltip"
 msgstr ""
+"巨炮：发射一组 10 发破片投射物，造成 1 点伤害，并链式 3 次冷却时间。20% 破舱"
+"几率。"
 
 #: src-en/data/blueprints.xml.append:10877
 msgid ""
