@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-15 13:13+0000\n"
+"PO-Revision-Date: 2026-05-15 13:41+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -6368,12 +6368,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:7116
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE_BLUE\"]/title"
-msgstr ""
+msgstr "导弹"
 
 #: src-en/data/blueprints.xml.append:7117
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE_BLUE\"]/short"
-msgstr ""
+msgstr "导弹"
 
 #: src-en/data/blueprints.xml.append:7118
 msgid ""
@@ -6383,12 +6383,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:7158
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE_GREEN\"]/title"
-msgstr ""
+msgstr "导弹"
 
 #: src-en/data/blueprints.xml.append:7159
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE_GREEN\"]/short"
-msgstr ""
+msgstr "导弹"
 
 #: src-en/data/blueprints.xml.append:7160
 msgid ""
@@ -6398,12 +6398,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:7202
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE_CYAN\"]/title"
-msgstr ""
+msgstr "导弹"
 
 #: src-en/data/blueprints.xml.append:7203
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE_CYAN\"]/short"
-msgstr ""
+msgstr "导弹"
 
 #: src-en/data/blueprints.xml.append:7204
 msgid ""
@@ -6413,12 +6413,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:7264
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE_PURPLE\"]/title"
-msgstr ""
+msgstr "导弹"
 
 #: src-en/data/blueprints.xml.append:7265
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE_PURPLE\"]/short"
-msgstr ""
+msgstr "导弹"
 
 #: src-en/data/blueprints.xml.append:7266
 msgid ""
@@ -6428,87 +6428,131 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:7321
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE\"]/title"
-msgstr ""
+msgstr "“迈达斯”集群导弹"
 
 #: src-en/data/blueprints.xml.append:7322
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE\"]/short"
-msgstr ""
+msgstr "“迈达斯”"
 
 #: src-en/data/blueprints.xml.append:7323
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE\"]/desc"
-msgstr ""
+msgstr "集群导弹通过专利复制技术，仅需消耗一枚导弹的成本便能发射多个低伤害弹头。"
 
 #: src-en/data/blueprints.xml.append:7324
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE\"]/descriptionOverride"
 msgstr ""
+"一把由纯金和灵质制成的武器。它每次发射一组 3 枚具有不同属性的金色弹头，但需要"
+"同时消耗废料和导弹才能开火。\n"
+"\n"
+"\t\t属性：\n"
+"\t\t所需能量：2\n"
+"\t\t充能时间：15 秒\n"
+"\t\t废料消耗：3\n"
+"\t\t导弹消耗：1\n"
+"\n"
+"\t\t爆炸半径：35\n"
+"\t\t每次发射随机导弹数：3 枚\n"
+"\t\t\n"
+"\t\t红色导弹：1 点舰体伤害与 3 点系统伤害，100% 起火率，彻底引燃被击中舱室"
+"。\n"
+"\t\t蓝色导弹：2 点舰体伤害，舰体爆破，100% 破舱率，缓慢侵蚀目标舱室系统。\n"
+"\t\t绿色导弹：1 点舰体伤害与 2 点离子伤害，眩晕被击中的船员 10 秒，瞬间摧毁任"
+"何被击中的船员无人机。\n"
+"\t\t青色导弹：1 点伤害，可被特定防御无人机探测到，封锁舱室，在封锁期间对舱室"
+"内所有船员施加冷冻哨卫减益效果。\n"
+"\t\t紫色导弹：1 点系统伤害与 90 点船员伤害，施加辐射减益效果，在 25 秒内每秒"
+"造成 3 点伤害，无法被闪避，对相邻舱室造成 1 点系统伤害。\n"
+"\t\t\n"
+"\t\t默认售价：250～出售价格：125～"
 
 #: src-en/data/blueprints.xml.append:7343
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE\"]/tooltipOverride"
 msgstr ""
+"所需能量：2\n"
+"\t\t充能时间：15 秒\n"
+"\t\t废料消耗：3\n"
+"\t\t导弹消耗：1\n"
+"\n"
+"\t\t爆炸半径：35\n"
+"\t\t每次发射随机导弹数：3 枚\n"
+"\t\t\n"
+"\t\t红色导弹：1 点舰体伤害与 3 点系统伤害，100% 起火率，彻底引燃被击中舱室"
+"。\n"
+"\t\t蓝色导弹：2 点舰体伤害，舰体爆破，100% 破舱率，缓慢侵蚀目标舱室系统。\n"
+"\t\t绿色导弹：1 点舰体伤害与 2 点离子伤害，眩晕被击中的船员 10 秒，瞬间摧毁任"
+"何被击中的船员无人机。\n"
+"\t\t青色导弹：1 点伤害，可被特定防御无人机探测到，封锁舱室，在封锁期间对舱室"
+"内所有船员施加冷冻哨卫减益效果。\n"
+"\t\t紫色导弹：1 点系统伤害与 90 点船员伤害，施加辐射减益效果，在 25 秒内每秒"
+"造成 3 点伤害，无法被闪避，对相邻舱室造成 1 点系统伤害。"
 
 #: src-en/data/blueprints.xml.append:7399
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMBAT_SALLY_BOMB\"]/title"
-msgstr ""
+msgstr "萨利的蜘蛛炸弹无人机"
 
 #: src-en/data/blueprints.xml.append:7400
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMBAT_SALLY_BOMB\"]/short"
-msgstr ""
+msgstr "蜘蛛炸弹"
 
 #: src-en/data/blueprints.xml.append:7401
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMBAT_SALLY_BOMB\"]/desc"
 msgstr ""
+"一种特殊的无人机，不造成实际伤害，而是发射炸弹，生成 2 只存活 20 秒的蜘蛛幼体"
+"。可规避所有反无人机措施。"
 
 #: src-en/data/blueprints.xml.append:7415
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_DRONE_SALLY_BOMB\"]/title"
-msgstr ""
+msgstr "蜘蛛炸弹"
 
 #: src-en/data/blueprints.xml.append:7460
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PRINCE_CANNON\"]/title"
-msgstr "王子的地狱炮"
+msgstr "撒旦哨卫"
 
 #: src-en/data/blueprints.xml.append:7461
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PRINCE_CANNON\"]/short"
-msgstr "地狱炮"
+msgstr "撒旦"
 
 #: src-en/data/blueprints.xml.append:7462
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PRINCE_CANNON\"]/desc"
 msgstr ""
-"一把武器，充满了不可言说的恐怖感。每五秒，被此导弹攻击的船员都会突变成未驯化"
-"的六脚马。"
+"在被击中的舱室中打开一扇通往地狱的传送门。任何穿过传送门的船员，其灵魂能量都"
+"会被吸走以为传送门供能，并在进入舱室 5 秒后召唤一个恶魔仆从。传送门将在 20 秒"
+"后关闭，但恶魔仆从可以在战斗后回收。"
 
 #: src-en/data/blueprints.xml.append:7490
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PRINCE_CANNON\"]/roomStatBoosts/statBoost[1]/powerEffect/buttonText"
-msgstr ""
+msgstr "召唤"
 
 #: src-en/data/blueprints.xml.append:7491
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PRINCE_CANNON\"]/roomStatBoosts/statBoost[1]/powerEffect/tooltip"
 msgstr ""
+"[冷却：5 秒]\n"
+"\t\t\t\t\t\t一名恶魔即将被召唤。"
 
 #: src-en/data/blueprints.xml.append:7519
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PRINCE_CANNON\"]/roomStatBoosts/statBoost[2]/powerEffect/buttonText"
-msgstr ""
+msgstr "召唤"
 
 #: src-en/data/blueprints.xml.append:7520
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PRINCE_CANNON\"]/roomStatBoosts/statBoost[2]/powerEffect/tooltip"
 msgstr ""
+"[冷却：5 秒]\n"
+"\t\t\t\t\t\t一名恶魔即将被召唤。"
 
 #: src-en/data/blueprints.xml.append:7559
 msgid ""
@@ -6974,11 +7018,47 @@ msgstr "哥泽什的私人武器。一把恐怖的辐射光束，其船员伤害
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_GOZIODEON_GUILLOTINE\"]/descriptionOverride"
 msgstr ""
+"哥泽什的专属武器。一种可怕的辐射光束，能连锁传递船员伤害，穿透多层护盾，制造"
+"大量灾害，并使敌人永久受到辐射中毒的折磨。\n"
+"\n"
+"\t\t属性：\n"
+"\t\t所需能量：4\n"
+"\t\t充能时间：20 秒\n"
+"\t\t链式效果：每次增加 15 点船员伤害\n"
+"\t\t链式伤害上限：120 点船员伤害（4 次连锁）\n"
+"\n"
+"\t\t光束长度：100\n"
+"\t\t光束速度：15\n"
+"\t\t\n"
+"\t\t系统伤害：2\n"
+"\t\t船员伤害：60\n"
+"\t\t护盾穿透：4\n"
+"\n"
+"\t\t起火率：40%\n"
+"\t\t破舱率：40%（调整后：24%）\n"
+"\t\t异常状态几率：100%\n"
+"\n"
+"\t\t默认售价：160～出售价格：80～"
 
 #: src-en/data/blueprints.xml.append:8493
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_GOZIODEON_GUILLOTINE\"]/tooltipOverride"
 msgstr ""
+"所需能量：4\n"
+"\t\t充能时间：20 秒\n"
+"\t\t链式效果：每次增加 15 点船员伤害\n"
+"\t\t链式伤害上限：120 点船员伤害（4 次连锁）\n"
+"\n"
+"\t\t光束长度：100\n"
+"\t\t光束速度：15\n"
+"\t\t\n"
+"\t\t系统伤害：2\n"
+"\t\t船员伤害：60\n"
+"\t\t护盾穿透：4\n"
+"\n"
+"\t\t起火率：40%\n"
+"\t\t破舱率：40%（调整后：24%）\n"
+"\t\t异常状态几率：100%"
 
 #: src-en/data/blueprints.xml.append:8572
 msgid ""
@@ -7027,12 +7107,12 @@ msgstr "被改造过的战戟光束。比普通版的光束长度更长，但光
 #: src-en/data/blueprints.xml.append:8700
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LOOT_ELITE_FEDERATION_1\"]/title"
-msgstr ""
+msgstr "重型激光 III"
 
 #: src-en/data/blueprints.xml.append:8701
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LOOT_ELITE_FEDERATION_1\"]/short"
-msgstr ""
+msgstr "重型 III"
 
 #: src-en/data/blueprints.xml.append:8703
 msgid ""
@@ -7042,12 +7122,12 @@ msgstr "特殊战利品武器，在货舱中的武器提示框内查看相关加
 #: src-en/data/blueprints.xml.append:8741
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LOOT_ELITE_FEDERATION_2\"]/title"
-msgstr ""
+msgstr "“长刃”光束"
 
 #: src-en/data/blueprints.xml.append:8742
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LOOT_ELITE_FEDERATION_2\"]/short"
-msgstr ""
+msgstr "“长刃”光束"
 
 #: src-en/data/blueprints.xml.append:8744
 msgid ""
@@ -7055,14 +7135,15 @@ msgid ""
 msgstr "特殊战利品武器，在货舱中的武器提示框内查看相关加成效果。"
 
 #: src-en/data/blueprints.xml.append:8770
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LOOT_ELITE_FEDERATION_3\"]/title"
-msgstr ""
+msgstr "“联合之力”"
 
 #: src-en/data/blueprints.xml.append:8771
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LOOT_ELITE_FEDERATION_3\"]/short"
-msgstr ""
+msgstr "“联合”"
 
 #: src-en/data/blueprints.xml.append:8773
 msgid ""
@@ -7072,7 +7153,7 @@ msgstr "特殊战利品武器，在货舱中的武器提示框内查看相关加
 #: src-en/data/blueprints.xml.append:8821
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LOOT_ELITE_COALITION_1\"]/title"
-msgstr ""
+msgstr "“玻瑞阿斯”导弹"
 
 #: src-en/data/blueprints.xml.append:8822
 msgid ""
