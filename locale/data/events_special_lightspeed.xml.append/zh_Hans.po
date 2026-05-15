@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-15 15:27+0000\n"
+"PO-Revision-Date: 2026-05-15 18:45+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_special_lightspeedxmlappend/zh_Hans/>\n"
@@ -254,10 +254,9 @@ msgid ""
 msgstr "确定调整航径。"
 
 #: src-en/data/events_special_lightspeed.xml.append:266
-#, fuzzy
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_FED_EMERGENCY\"]/choice[1]/event/text"
-msgstr "你准备跃迁至新坐标处，并相应地调整航径。"
+msgstr "你准备跃迁至新的坐标，并据此调整了航线。"
 
 #: src-en/data/events_special_lightspeed.xml.append:270
 msgid ""
@@ -273,6 +272,18 @@ msgstr "算了。"
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_WARZONE\"]/text"
 msgstr ""
+"名称： 纷争战区\n"
+"\t类型： 敌对星区\n"
+"\t独特： 是\n"
+"\t主导势力： 叛军、星联、联邦\n"
+"\t叛军威胁等级： ！极高！\n"
+"\t关注地点： 联邦研发总部\n"
+"\n"
+"\t此星区原为联邦的研发星区，直至叛军发动突袭，极大削弱了联邦在此的兵力存在，"
+"并夺取了他们的秘密项目——一艘联邦旗舰。此后，星联携己方旗舰入侵此星区，意图趁"
+"两方势力衰弱之际坐收渔利，夺取双方残余的科技。\n"
+"\n"
+"\t联邦舰队虽仍在此地活动，但已无法为你提供多少援助；在此，你只能靠自己了。"
 
 #: src-en/data/events_special_lightspeed.xml.append:295
 msgid ""
@@ -280,7 +291,6 @@ msgid ""
 msgstr "确定调整航径。"
 
 #: src-en/data/events_special_lightspeed.xml.append:297
-#, fuzzy
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_WARZONE\"]/choice[1]/event/text"
 msgstr "你准备跃迁至新坐标处，并相应地调整航径。"
