@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-15 15:27+0000\n"
+"PO-Revision-Date: 2026-05-15 18:45+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_special_guardsxmlappend/zh_Hans/>\n"
@@ -271,12 +271,12 @@ msgid ""
 msgstr "呼叫它们。"
 
 #: src-en/data/events_special_guards.xml.append:204
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/text"
 msgstr ""
-"舰船作出了回应，但船员的语言过于古老，翻译器仅能捕捉到几个可能仍存在于现代方"
-"碑语系的词汇：\"警戒——灭绝者——不欢迎——投降\""
+"舰船作出了回应，不过你的翻译器不断跳过对方船员话语中的大部分词语。或许他们的"
+"语言太过古老，与现代方碑语已无共通词汇。你勉强辨认出几个词：“当心——灭除者——不"
+"受欢迎——投降”"
 
 #: src-en/data/events_special_guards.xml.append:206
 msgid ""
@@ -311,12 +311,15 @@ msgstr "继续。"
 #: src-en/data/events_special_guards.xml.append:228
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/text"
-msgstr ""
+msgstr "（非联合方碑的方碑族船员）让你的方碑族船员去缓和局势。"
 
 #: src-en/data/events_special_guards.xml.append:230
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/text"
 msgstr ""
+"你的船员尝试呼叫那艘船，但徒劳无功。看来你的方碑族船员所说的语言，与对面船上"
+"的方碑族无法互通。为了缓和紧张局势，你的船员一番沟通下来，反而让对面的方碑族"
+"更加恼火了。"
 
 #: src-en/data/events_special_guards.xml.append:233
 msgid ""
@@ -329,16 +332,16 @@ msgid ""
 msgstr "（联合方碑族船员）你的联合方碑族船员想和它们说话。"
 
 #: src-en/data/events_special_guards.xml.append:241
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_commonwealth\"]/event/text"
 msgstr ""
-"你那联合方碑船员的身影让他们立刻放松下来，对方马上关闭了武器系统。经过沟通，"
-"你的联合方碑船员说服他们安装了一台翻译器，能把古老的联合方碑语言转换成通用语"
-"。\n"
+"你那联合方碑族船员的出现似乎就让他们安下了心，足以令他们立刻关闭了武器系统。"
+"经过一番漫长的讨论，你的联合方碑族船员成功说服他们安装了一个模块，能将古老的"
+"联合方碑语言翻译成可理解的内容。\n"
 "\n"
-"\t\t\t\t\t\"刚才的敌意很抱歉，只要有外人出现我们就会高度戒备。当年被灭绝者追"
-"杀的阴影到现在还挥之不去。我们是联合方碑的人，欢迎来到这个简陋的避难所。\""
+"\t\t\t\t\t\"为方才的敌意表示歉意。每当有外人出现，我们总会高度戒备。恐怕当年"
+"被灭绝者追杀的创伤至今仍萦绕不散。我们是联合方碑族，欢迎你来到这座简陋的避难"
+"所。\""
 
 #: src-en/data/events_special_guards.xml.append:246
 msgid ""
