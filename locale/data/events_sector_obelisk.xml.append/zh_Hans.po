@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-15 18:45+0000\n"
+"PO-Revision-Date: 2026-05-16 06:22+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_sector_obeliskxmlappend/zh_Hans/>\n"
@@ -176,7 +176,7 @@ msgstr "不管这艘奇怪的飞船。"
 #: src-en/data/events_sector_obelisk.xml.append:105
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[9]/event/text"
-msgstr ""
+msgstr "你认定破译这段信息不值得浪费时间，转而准备跃迁离开。"
 
 #: src-en/data/events_sector_obelisk.xml.append:107
 msgid ""
@@ -311,6 +311,14 @@ msgstr "跳过。"
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/text"
 msgstr ""
+"一旦这艘船的防火墙被攻破，你将它完全置于掌控之下就只是时间问题。船内的锻造厂"
+"仍然完好无损，但在整艘船因遭受你的攻击而散架之前，你大概只能从中取出一件装备"
+"。\n"
+"\t\n"
+"\t在搜索工厂时，你还发现了某种奇怪的立方体装置。如果它已损坏，你或许可以用一"
+"台强大的维修无人机将其修复。你还奇迹般地找到了这艘船的蓝图，尽管缺少许多关键"
+"功能，包括锻造厂在内。即便如此，一艘拥有此等技术水平的巡洋舰，哪怕受损，对联"
+"邦来说也能派上用场。"
 
 #: src-en/data/events_sector_obelisk.xml.append:208
 msgid ""
@@ -323,7 +331,6 @@ msgid ""
 msgstr "搜刮舰船。"
 
 #: src-en/data/events_sector_obelisk.xml.append:216
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[2]/event/text"
 msgstr "你决定拆解这艘老旧自动舰船，从它身上搜集能用的基础废料金属将就着用。"
@@ -352,6 +359,9 @@ msgstr "（维修无人机）这个装置似乎损坏了；我们的维修无人
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
+"修复这台严重受损的装置花了很长时间，但你的维修无人机最终还是将它彻底重建了。"
+"刚一启动，你就接收到了一个奇怪的信号，它来自星区中的某个地点——你的传感器刚刚"
+"在那里侦测到一次巨大的能量尖峰。不管那里有什么，必定非同小可。"
 
 #: src-en/data/events_sector_obelisk.xml.append:247
 msgid ""
@@ -416,7 +426,6 @@ msgid ""
 msgstr "制造一个联合方碑离子加农炮。"
 
 #: src-en/data/events_sector_obelisk.xml.append:306
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[3]/event/text"
 msgstr ""
@@ -429,7 +438,6 @@ msgid ""
 msgstr "制造一个联合方碑爆弹。"
 
 #: src-en/data/events_sector_obelisk.xml.append:317
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[4]/event/text"
 msgstr ""
@@ -442,7 +450,6 @@ msgid ""
 msgstr "制造一个联合方碑重型预兆者。"
 
 #: src-en/data/events_sector_obelisk.xml.append:328
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[5]/event/text"
 msgstr ""
@@ -455,7 +462,6 @@ msgid ""
 msgstr "制造一个联合方碑根除者。"
 
 #: src-en/data/events_sector_obelisk.xml.append:338
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[6]/event/text"
 msgstr ""
@@ -468,7 +474,6 @@ msgid ""
 msgstr "制造一个联合方碑净化者。"
 
 #: src-en/data/events_sector_obelisk.xml.append:349
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[7]/event/text"
 msgstr ""
@@ -481,7 +486,6 @@ msgid ""
 msgstr "制造一个联合方碑杀戮导弹。"
 
 #: src-en/data/events_sector_obelisk.xml.append:360
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[8]/event/text"
 msgstr ""
@@ -494,7 +498,6 @@ msgid ""
 msgstr "制造一个联合方碑猛攻空雷。"
 
 #: src-en/data/events_sector_obelisk.xml.append:371
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[9]/event/text"
 msgstr ""
@@ -507,12 +510,11 @@ msgid ""
 msgstr "制造一个联合方碑杀戮无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:383
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[10]/event/text"
 msgstr ""
-"当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
-"的残骸。你将无人机收归舰上。"
+"当新的无人机从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残"
+"骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:387
 msgid ""
@@ -520,12 +522,11 @@ msgid ""
 msgstr "制造一个联合方碑等离子无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:394
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[11]/event/text"
 msgstr ""
-"当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
-"的残骸。你将无人机收归舰上。"
+"当新的无人机从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残"
+"骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:398
 msgid ""
@@ -533,12 +534,11 @@ msgid ""
 msgstr "制造一个联合方碑净化者光点无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:405
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[12]/event/text"
 msgstr ""
-"当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
-"的残骸。你将无人机收归舰上。"
+"当新的无人机从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残"
+"骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:409
 msgid ""
@@ -546,12 +546,11 @@ msgid ""
 msgstr "制造一个联合方碑守望者无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:416
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[13]/event/text"
 msgstr ""
-"当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
-"的残骸。你将无人机收归舰上。"
+"当新的无人机从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残"
+"骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:420
 msgid ""
@@ -559,12 +558,11 @@ msgid ""
 msgstr "制造一个联合方碑预兆者无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:427
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[14]/event/text"
 msgstr ""
-"当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
-"的残骸。你将无人机收归舰上。"
+"当新的无人机从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残"
+"骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:431
 msgid ""
@@ -572,12 +570,11 @@ msgid ""
 msgstr "制造一个原型导引无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:438
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[15]/event/text"
 msgstr ""
-"当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
-"的残骸。你将无人机收归舰上。"
+"当新的无人机从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残"
+"骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:442
 msgid ""
@@ -585,12 +582,11 @@ msgid ""
 msgstr "制造一个原型解离无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:449
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[16]/event/text"
 msgstr ""
-"当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
-"的残骸。你将无人机收归舰上。"
+"当新的无人机从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残"
+"骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:453
 msgid ""
@@ -598,12 +594,11 @@ msgid ""
 msgstr "制造一个原型维修无人机。"
 
 #: src-en/data/events_sector_obelisk.xml.append:460
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[17]/event/text"
 msgstr ""
-"当新的无人机蓝图从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用"
-"的残骸。你将无人机收归舰上。"
+"当新的无人机从锻造厂产出时，那艘古老的自动舰船开始瓦解，最终化为一堆无用的残"
+"骸。你将无人机收归舰上。"
 
 #: src-en/data/events_sector_obelisk.xml.append:464
 msgid ""
@@ -611,7 +606,6 @@ msgid ""
 msgstr "这些都没什么用。把这艘船拆解掉。"
 
 #: src-en/data/events_sector_obelisk.xml.append:466
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[18]/event/text"
 msgstr "你决定拆解这艘老旧自动舰船，从它身上搜集能用的基础废料金属将就着用。"
@@ -638,7 +632,6 @@ msgstr ""
 "异常点的源头就藏着让尸体永久复活的方法？"
 
 #: src-en/data/events_sector_obelisk.xml.append:486
-#, fuzzy
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/text"
 msgstr "（维修无人机）这个装置似乎损坏了；我们的维修无人机应该能修好它。"
@@ -647,6 +640,9 @@ msgstr "（维修无人机）这个装置似乎损坏了；我们的维修无人
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
+"修复这台严重受损的装置花了很长时间，但你的维修无人机最终还是将它彻底重建了。"
+"刚一启动，你就接收到了一个奇怪的信号，它来自星区中的某个地点——你的传感器刚刚"
+"在那里侦测到一次巨大的能量尖峰。不管那里有什么，必定非同小可。"
 
 #: src-en/data/events_sector_obelisk.xml.append:497
 msgid ""
