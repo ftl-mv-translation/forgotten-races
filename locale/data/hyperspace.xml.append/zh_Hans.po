@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-05-16 06:21+0000\n"
-"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datahyperspace-xml-append/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -251,17 +251,15 @@ msgstr ""
 "尽管此舰船熔炉的主要用途是制造新武器，但它还运行着一套基础防御系统，若船员登船，该系统会对船员造成每秒3点伤害。"
 
 #: src-en/data/hyperspace.xml.append:259
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[29]/tooltip"
 msgstr ""
-"特殊护盾：\n"
-"该敌人受到先进能量护盾的保护，同时还会阻止你的船员在敌方飞船内使用短程传送器"
-"。"
+"脑力超载：\n"
+"当敌方的精神控制系统处于供能状态时，其船员获得15%的维修与战斗伤害加成，且治疗"
+"速度提升50%。"
 
 #: src-en/data/hyperspace.xml.append:264
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[30]/tooltip"
@@ -271,9 +269,9 @@ msgstr ""
 "- 武器充能速度提升5%。\n"
 "- 护盾充能速度提升10%。\n"
 "- 超光速引擎充能速度提升15%。\n"
-"- 船体抗性提升5%，系统抗性提升5%，离子抗性提升25%。\n"
-"- 船上的友方船员和无人机持续每秒恢复1点生命值。\n"
-"- 船上的敌方船员和无人机持续每秒受到1点伤害。"
+"- 船体抗性提升15%，系统抗性提升15%，离子抗性提升50%。\n"
+"- 船上的友方船员和无人机持续每秒恢复3点生命值。\n"
+"- 船上的敌方船员和无人机持续每秒受到3点伤害。"
 
 #: src-en/data/hyperspace.xml.append:275
 msgid ""
@@ -284,14 +282,13 @@ msgstr ""
 "该敌人受到先进能量护盾的保护，同时还会阻止你的船员在敌方飞船内使用短程传送器。"
 
 #: src-en/data/hyperspace.xml.append:280
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[32]/tooltip"
 msgstr ""
 "外星凝胶：\n"
-"敌方飞船上的破损处即使没有船员也会自动修复。在本船的空房间内，敌方船员对危险"
-"免疫，而己方船员移动速度减半且失去战斗能力。"
+"敌方飞船上的破损处即使没有船员也会立即自动修复。在本船的空房间内，敌方船员对"
+"危险免疫，而己方船员移动速度减半且失去战斗能力。"
 
 #: src-en/data/hyperspace.xml.append:285
 msgid ""
@@ -494,19 +491,16 @@ msgstr ""
 "该敌人受到一种蕴含秘法强大力量混沌的能量护盾保护。护盾的完整性为15点生命值，同时作为光质穿透器存在且无法被抵消，并使本舰有50%的概率免受非离子伤害。"
 
 #: src-en/data/hyperspace.xml.append:410
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[56]/tooltip"
 msgstr ""
-"实验性镀层：\n"
-"这艘飞船的独特船体装甲提供多项加成。\n"
-"- 20%船体抗性几率，20%系统抗性几率，50%离子抗性几率。\n"
-"- 敌方飞船即使在没有船员的情况下也会自动修复破损。\n"
-"- 敌方飞船空房间内的敌方船员受到所有来源伤害减少20%，眩晕持续时间降低25%。\n"
-"- 敌方生命维持系统每提升一级（满功率状态），敌方船员额外获得15%战斗伤害、"
-"20%移动速度、5%最大生命值以及10%更快的电力充能速率。\n"
-"- 你的登船部队的破坏速度降低30%。"
+"军团圣盾：\n"
+"该敌人受到一层高韧性能量护盾的保护。其完整度为10点生命值。当该能量护盾存在时"
+"：\n"
+"\n"
+"- 敌方的武器与火炮射速提升20%；\n"
+"- 敌方舰船的闪避率提升10点；"
 
 #: src-en/data/hyperspace.xml.append:418
 msgid ""
@@ -517,14 +511,18 @@ msgstr ""
 "此敌方人类船员被认为已拥有其所有三项基础实验室升级。"
 
 #: src-en/data/hyperspace.xml.append:423
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[58]/tooltip"
 msgstr ""
-"镀金系统：\n"
-"这艘船的系统携带的废料越多，效率就越高。每携带10个废料，其武器充能速度提升"
-"1%。每携带5个废料，其护盾再生速度提升1%。"
+"团结精英皇家镀层：\n"
+"此舰独特的船体装甲提供数项加成。\n"
+"- 20% 舰体伤害抵抗几率。造成1点伤害的攻击有40%几率被抵消，所有其他伤害降低1点"
+"。\n"
+"- 此敌舰上的船体缺口即使在无船员的情况下也会自动修复。\n"
+"- 为空房间中的敌方船员提供35%船员战斗抗性和50%危险抗性。\n"
+"- 生命维持系统中每有一格能量，其船员便获得额外25%移动速度、6.25%最大生命值，"
+"并使主动技能冷却时间缩短15%。"
 
 #: src-en/data/hyperspace.xml.append:432
 msgid ""
