@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-16 10:24+0000\n"
-"Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
+"PO-Revision-Date: 2026-05-16 18:10+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -5991,9 +5991,9 @@ msgstr "“暮刃”I"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SPECTER_BEAM_1\"]/desc"
 msgstr ""
-"这种可怕的武器由塔尔塔罗斯中最浓缩的灵质制成，能够穿透大多数护盾，同时召唤魂"
-"灵助你战斗。这些魂灵若在战斗中存活下来便会留下，如果你有传送器，还可以将其回"
-"收。"
+"这种可怕的武器由塔尔塔罗斯中最浓缩的灵质制成，能够穿透大多数护盾，同时召唤不"
+"死幽灵助你战斗。这些魂灵若在战斗中存活下来便会留下，如果你有传送器，还可以将"
+"其回收。"
 
 #: src-en/data/blueprints.xml.append:6274
 msgid ""
@@ -10038,12 +10038,11 @@ msgid ""
 msgstr "地狱门巨炮"
 
 #: src-en/data/blueprints.xml.append:14379
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL\"]/desc"
 msgstr ""
-"[基础充能时间：40秒] 在塔尔塔罗斯与目标之间开启2道裂隙。每道裂隙会生成一个临"
-"时幽灵船员。"
+"[基础充能时间：40秒] 在塔尔塔罗斯与目标之间开启2道裂隙。每道裂隙会生成一名临"
+"时不死幽灵船员。"
 
 #: src-en/data/blueprints.xml.append:14380
 #, fuzzy
@@ -13657,12 +13656,12 @@ msgstr "解锁被遗忘商店的访问权限，该商店出售所有被遗忘种
 #: src-en/data/blueprints.xml.append:19482
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FORGOTTEN_AENWITHER_CREWSER\"]/title"
-msgstr ""
+msgstr "被遗忘的船员选择"
 
 #: src-en/data/blueprints.xml.append:19483
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FORGOTTEN_AENWITHER_CREWSER\"]/desc"
-msgstr ""
+msgstr "让你在星舰管理菜单中获得 fr 独特物品。"
 
 #: src-en/data/blueprints.xml.append:19491
 msgid ""
@@ -13686,11 +13685,11 @@ msgstr "在此舱室内的船员将以每秒15点的速度持续受到伤害。"
 
 #: src-en/data/blueprints.xml.append:19509
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CABAL_ROOMS\"]/title"
-msgstr ""
+msgstr "C舱室"
 
 #: src-en/data/blueprints.xml.append:19510
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CABAL_ROOMS\"]/desc"
-msgstr ""
+msgstr "你的武器舱室与医疗室无法被破舱、点燃，也不会受到舰体伤害。"
 
 #: src-en/data/blueprints.xml.append:19525
 msgid ""
@@ -13865,47 +13864,94 @@ msgstr "幽灵"
 #: src-en/data/blueprints.xml.append:19645
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPECTER_INSTALLED\"]/desc"
-msgstr ""
+msgstr "魂灵升级已安装。"
 
 #: src-en/data/blueprints.xml.append:19651
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPECTER_FLAWLESS_ASCENSION\"]/title"
-msgstr ""
+msgstr "完美飞升"
 
 #: src-en/data/blueprints.xml.append:19652
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPECTER_FLAWLESS_ASCENSION\"]/desc"
 msgstr ""
+"你的死灵们需要双倍时间来为他们的能力充能，但他们的能力会以独特的方式得到增强"
+"。\n"
+"\t\t粘稠者：\n"
+"\t\t\t-吞噬：移除系统伤害，并允许在敌方舰船上使用。\n"
+"\t\t\t- 吞食：现在对敌方船员造成 75 点伤害，并根据舱室内的敌方船员数量，为粘"
+"稠者恢复 35 点生命值。\n"
+"\t\t菲斯：离子伤害提升至 8 点，眩晕现在只影响敌人。\n"
+"\t\t埃莉诺：船员伤害提升至 100 点，系统伤害提升至 4 点。\n"
+"\t\t文：\n"
+"\t\t\t- 增幅：移除自身伤害。\n"
+"\t\t\t- 融合：激活能力后，文的火焰治疗效果在 10 秒内翻倍。\n"
+"\t\t克里奥：无人机在效果持续期间也获得双倍伤害。\n"
+"\t\t祖鲁：移除效果期间的移动速度、破坏与伤害惩罚。\n"
+"\t\tG：在效果持续期间还会额外召唤 3 只不死幽灵。\n"
+"\t\t霜晶壁垒：移除自身伤害，并使被冻结的船员在效果持续期间承受全额伤害。\n"
+"\t\t死亡绽放：孢子的持续时间加倍，并使受孢子影响的敌人移动速度降低 10%。\n"
+"\t\t珀克：他们的畸变能力在所有形态下的冷却时间缩短至 10 秒。\n"
+"\t\t查罗：他们的能力现在影响所有类型的船员，且仅对敌人生效。\n"
+"\t\t里奥：所受伤害增加的效果改为作用于同一舱室内的敌人。\n"
+"\t\t希拉克：移除爆炸后的眩晕。\n"
+"\t\t奥古斯都：现在只需花费 1 点废料即可完全治愈他。\n"
+"\t\t萨利：幼体与成体能力现在只有 1 秒冷却时间，而织网形态的能力影响所有舰船"
+"。\n"
+"\t\t王子：还会在目标舱室造成破舱并引发火灾。\n"
+"\t\t特里亚克：特里亚克在效果持续期间免疫眩晕。"
 
 #: src-en/data/blueprints.xml.append:19680
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPECTER_TAILORED_SPECIALIZATION\"]/title"
-msgstr ""
+msgstr "定制专精"
 
 #: src-en/data/blueprints.xml.append:19681
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPECTER_TAILORED_SPECIALIZATION\"]/desc"
 msgstr ""
+"你的死灵们的优势与劣势都得到了极大的强化。\n"
+"\t\t粘稠者：主动技能冷却时间减少 50% - 船员伤害减半。\n"
+"\t\t菲斯：基础能量提供翻倍 - 无法进行破坏。\n"
+"\t\t埃莉诺：伤害翻倍 - 无法进行修复。\n"
+"\t\t文：生命值翻倍 - 速度减半。\n"
+"\t\t克利奥：生命值、速度、修复与伤害获得 1.3 倍加成 - 无法直接与敌方无人机战"
+"斗。\n"
+"\t\t祖鲁：破坏伤害翻倍 - 船员伤害减半。\n"
+"\t\tG：从环境伤害中获得的治疗翻倍 - 主动技能冷却时间增加 50%。\n"
+"\t\t霜晶壁垒：远程伤害翻倍 - 生命值减半。\n"
+"\t\t死亡绽放：氧气产量设定为 2.0（原为 0.1）- 治疗速度减半。\n"
+"\t\t珀克：移动速度提升 50%，主动技能冷却时间减少 50% - 占用 2 个船员槽位。\n"
+"\t\t查罗：修复速度翻倍 - 船员伤害减半。\n"
+"\t\t里奥：能量消耗翻倍 - 眩晕时间翻倍。\n"
+"\t\t希拉克：所受伤害减半 - 破坏伤害减半。\n"
+"\t\t奥古斯都：破坏、伤害与生命值获得 1.2 倍加成 - 移动速度减半。\n"
+"\t\t萨利：持续每秒恢复 15 点生命值 - 生命值减半。\n"
+"\t\t王子：移动速度翻倍 - 修复速度减半。\n"
+"\t\t特里亚克：心灵控制的船员在与他们同舱时造成的伤害翻倍 - 被眩晕的时间延长 "
+"10 倍。"
 
 #: src-en/data/blueprints.xml.append:19705
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPECTER_SPECTRAL_EXISTENCE\"]/title"
-msgstr ""
+msgstr "灵朝存在"
 
 #: src-en/data/blueprints.xml.append:19706
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPECTER_SPECTRAL_EXISTENCE\"]/desc"
 msgstr ""
+"不死幽灵不占用任何船员槽位。在船员损失事件中，普通幽灵将优先于任何其他船员被"
+"牺牲。"
 
 #: src-en/data/blueprints.xml.append:19712
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_REVENANT_TRUE_UNDEATH\"]/title"
-msgstr ""
+msgstr "复活赛"
 
 #: src-en/data/blueprints.xml.append:19713
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_REVENANT_TRUE_UNDEATH\"]/desc"
-msgstr ""
+msgstr "还魂者无法通过正常方式被克隆或治疗，但会在每次跃迁时复活。"
 
 #: src-en/data/blueprints.xml.append:19725
 msgid ""
@@ -14696,142 +14742,144 @@ msgstr "你可以在地图上看到标记出的运输舰、遗迹、增援部队
 #: src-en/data/blueprints.xml.append:20361
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_NOTORIETY\"]/title"
-msgstr ""
+msgstr "联结点恶名"
 
 #: src-en/data/blueprints.xml.append:20362
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_NOTORIETY\"]/desc"
-msgstr ""
+msgstr "所有武器获得 +10 护盾穿透。"
 
 #: src-en/data/blueprints.xml.append:20369
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GENERAL_NOTORIETY\"]/title"
-msgstr ""
+msgstr "全体恶名"
 
 #: src-en/data/blueprints.xml.append:20370
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GENERAL_NOTORIETY\"]/desc"
-msgstr ""
+msgstr "系统与舰体获得 +25% 的伤害抗性几率。"
 
 #: src-en/data/blueprints.xml.append:20377
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_UNION_NOTORIETY\"]/title"
-msgstr ""
+msgstr "同盟恶名"
 
 #: src-en/data/blueprints.xml.append:20378
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_UNION_NOTORIETY\"]/desc"
-msgstr ""
+msgstr "你的船员克隆与治疗速度提升 100%。"
 
 #: src-en/data/blueprints.xml.append:20385
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HARMONY_NOTORIETY\"]/title"
-msgstr ""
+msgstr "谐合恶名"
 
 #: src-en/data/blueprints.xml.append:20386
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_HARMONY_NOTORIETY\"]/desc"
-msgstr ""
+msgstr "你的飞船获得2级的自动操作与自动修复能力。"
 
 #: src-en/data/blueprints.xml.append:20393
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MINISTRY_NOTORIETY\"]/title"
-msgstr ""
+msgstr "牧师团恶名"
 
 #: src-en/data/blueprints.xml.append:20394
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MINISTRY_NOTORIETY\"]/desc"
-msgstr ""
+msgstr "获得一层可叠加的 10 点耐久的能量护盾。"
 
 #: src-en/data/blueprints.xml.append:20401
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FREE_MANTIS_NOTORIETY\"]/title"
-msgstr ""
+msgstr "自由螳螂恶名"
 
 #: src-en/data/blueprints.xml.append:20402
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FREE_MANTIS_NOTORIETY\"]/desc"
-msgstr ""
+msgstr "所有友方船员获得免费的螳螂信息素能力。"
 
 #: src-en/data/blueprints.xml.append:20409
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_OUTCAST_NOTORIETY\"]/title"
-msgstr ""
+msgstr "流放者恶名"
 
 #: src-en/data/blueprints.xml.append:20410
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_OUTCAST_NOTORIETY\"]/desc"
-msgstr ""
+msgstr "所有友方船员获得环境伤害免疫。"
 
 #: src-en/data/blueprints.xml.append:20417
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_IMPERIAL_NOTORIETY\"]/title"
-msgstr ""
+msgstr "水晶族恶名"
 
 #: src-en/data/blueprints.xml.append:20418
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_IMPERIAL_NOTORIETY\"]/desc"
 msgstr ""
+"每当你的飞船受到伤害时，会有 2 块碎片崩落并飞向你的敌人，这些碎片可穿透 2 层"
+"护盾。"
 
 #: src-en/data/blueprints.xml.append:20425
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GATHERING_NOTORIETY\"]/title"
-msgstr ""
+msgstr "集议会恶名"
 
 #: src-en/data/blueprints.xml.append:20426
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GATHERING_NOTORIETY\"]/desc"
-msgstr ""
+msgstr "消除武器的弹药消耗。"
 
 #: src-en/data/blueprints.xml.append:20433
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CONFEDERACY_NOTORIETY\"]/title"
-msgstr ""
+msgstr "血兰邦恶名"
 
 #: src-en/data/blueprints.xml.append:20434
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CONFEDERACY_NOTORIETY\"]/desc"
-msgstr ""
+msgstr "你每次跳跃将获得 10 点废料（不受废料/维修臂影响）。"
 
 #: src-en/data/blueprints.xml.append:20441
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GENIOCRACY_NOTORIETY\"]/title"
-msgstr ""
+msgstr "怪才体恶名"
 
 #: src-en/data/blueprints.xml.append:20442
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GENIOCRACY_NOTORIETY\"]/desc"
-msgstr ""
+msgstr "舰上所有敌方船员与无人机将每秒损失 10 点生命值。"
 
 #: src-en/data/blueprints.xml.append:20449
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_NOTORIETY\"]/title"
-msgstr ""
+msgstr "联合方碑恶名"
 
 #: src-en/data/blueprints.xml.append:20450
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_NOTORIETY\"]/desc"
-msgstr ""
+msgstr "完全离子免疫，并将标准护盾充能速度提升 150%。"
 
 #: src-en/data/blueprints.xml.append:20457
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ARGEONN_REPUTATION\"]/title"
-msgstr ""
+msgstr "阿尔吉恩集团声望"
 
 #: src-en/data/blueprints.xml.append:20458
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ARGEONN_REPUTATION\"]/desc"
-msgstr ""
+msgstr "武器射击之间的冷却时间缩短 25%。"
 
 #: src-en/data/blueprints.xml.append:20465
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SYNDICATE_REPUTATION\"]/title"
-msgstr ""
+msgstr "佣兵团声望"
 
 #: src-en/data/blueprints.xml.append:20466
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SYNDICATE_REPUTATION\"]/desc"
-msgstr ""
+msgstr "在跃迁过程中增加一个选项，拖延10次叛军追击，并完全绘制出即将前往的星区地图。"
 
 #: src-en/data/blueprints.xml.append:20473
 msgid ""
@@ -14845,354 +14893,366 @@ msgstr "使每位船员仅占用其平常一半的船员槽位。"
 
 #: src-en/data/blueprints.xml.append:20487
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_HAYNES\"]/title"
-msgstr ""
+msgstr "海因斯之魂"
 
 #: src-en/data/blueprints.xml.append:20488
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_HAYNES\"]/desc"
-msgstr ""
+msgstr "你的船员获得 +2.5 倍远程伤害加成"
 
 #: src-en/data/blueprints.xml.append:20495
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TULLY\"]/title"
-msgstr ""
+msgstr "塔利之魂"
 
 #: src-en/data/blueprints.xml.append:20496
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TULLY\"]/desc"
-msgstr ""
+msgstr "你的船员获得呼叫远程打击的能力，可对敌方舰船进行轰炸"
 
 #: src-en/data/blueprints.xml.append:20503
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ELLIE\"]/title"
-msgstr ""
+msgstr "埃莉之魂"
 
 #: src-en/data/blueprints.xml.append:20504
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ELLIE\"]/desc"
-msgstr ""
+msgstr "你的船员能瞬间破坏舱门"
 
 #: src-en/data/blueprints.xml.append:20511
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_STEPHAN\"]/title"
-msgstr ""
+msgstr "斯蒂芬之魂"
 
 #: src-en/data/blueprints.xml.append:20512
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_STEPHAN\"]/desc"
-msgstr ""
+msgstr "你的船员在己方舰船上获得双倍战斗伤害与治疗加成"
 
 #: src-en/data/blueprints.xml.append:20519
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_JERRY\"]/title"
-msgstr ""
+msgstr "杰瑞之魂"
 
 #: src-en/data/blueprints.xml.append:20520
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_JERRY\"]/desc"
-msgstr ""
+msgstr "你的船员获得 +100 最大生命值。"
 
 #: src-en/data/blueprints.xml.append:20527
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ANURAK\"]/title"
-msgstr ""
+msgstr "阿努拉克之魂"
 
 #: src-en/data/blueprints.xml.append:20528
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ANURAK\"]/desc"
-msgstr ""
+msgstr "敌方船员失去所有眩晕抗性。"
 
 #: src-en/data/blueprints.xml.append:20535
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_DEVORAK\"]/title"
-msgstr ""
+msgstr "德沃拉克之魂"
 
 #: src-en/data/blueprints.xml.append:20536
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_DEVORAK\"]/desc"
-msgstr ""
+msgstr "你的船员可以从任何位置、跨越任何舰船进行传送"
 
 #: src-en/data/blueprints.xml.append:20543
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_MAFAN\"]/title"
-msgstr ""
+msgstr "玛嬏之魂"
 
 #: src-en/data/blueprints.xml.append:20544
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_MAFAN\"]/desc"
-msgstr ""
+msgstr "你的船员死亡时，会对敌方船员造成额外 45 点伤害，并附加 2 点离子伤害"
 
 #: src-en/data/blueprints.xml.append:20551
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TURZIL\"]/title"
-msgstr ""
+msgstr "图尔齐尔之魂"
 
 #: src-en/data/blueprints.xml.append:20552
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TURZIL\"]/desc"
-msgstr ""
+msgstr "你的船员修复速度提升 50%"
 
 #: src-en/data/blueprints.xml.append:20559
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ARIADNE\"]/title"
-msgstr ""
+msgstr "阿里阿德涅之魂"
 
 #: src-en/data/blueprints.xml.append:20560
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ARIADNE\"]/desc"
-msgstr ""
+msgstr "消除敌方船员的火焰免疫"
 
 #: src-en/data/blueprints.xml.append:20567
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TUCO\"]/title"
-msgstr ""
+msgstr "图科之魂"
 
 #: src-en/data/blueprints.xml.append:20568
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TUCO\"]/desc"
-msgstr ""
+msgstr "你的船员获得 20% 的船员伤害与修复速度加成"
 
 #: src-en/data/blueprints.xml.append:20575
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_VORTIGON\"]/title"
-msgstr ""
+msgstr "沃蒂根之魂"
 
 #: src-en/data/blueprints.xml.append:20576
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_VORTIGON\"]/desc"
-msgstr ""
+msgstr "你的船员在火焰中会缓慢自愈"
 
 #: src-en/data/blueprints.xml.append:20583
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_SYMBIOTE\"]/title"
-msgstr ""
+msgstr "共生体之魂"
 
 #: src-en/data/blueprints.xml.append:20584
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_SYMBIOTE\"]/desc"
-msgstr ""
+msgstr "你的船员为所占据的系统舱室提供额外 1 点能量"
 
 #: src-en/data/blueprints.xml.append:20591
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_RUWEN\"]/title"
-msgstr ""
+msgstr "茹文之魂"
 
 #: src-en/data/blueprints.xml.append:20592
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_RUWEN\"]/desc"
 msgstr ""
+"你的船员获得以下主动能力：封锁舱室，获得抗性与再生能力。舱室内的友方/敌方船员"
+"将分别获得/失去 无视封锁与舱门的能力。"
 
 #: src-en/data/blueprints.xml.append:20599
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_DIANESH\"]/title"
-msgstr ""
+msgstr "黛安娜什之魂"
 
 #: src-en/data/blueprints.xml.append:20600
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_DIANESH\"]/desc"
-msgstr "友方水晶族船员每次跃迁可额外获得一次技能充能。"
+msgstr "友方水晶族船员每次跃迁获得两次额外的能力充能恢复"
 
 #: src-en/data/blueprints.xml.append:20607
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_KAZ\"]/title"
-msgstr ""
+msgstr "卡扎卡普勒斯里克之魂"
 
 #: src-en/data/blueprints.xml.append:20608
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_KAZ\"]/desc"
-msgstr ""
+msgstr "你的船员额外获得2.5倍战斗伤害"
 
 #: src-en/data/blueprints.xml.append:20615
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_FREDDY\"]/title"
-msgstr ""
+msgstr "弗雷迪之魂"
 
 #: src-en/data/blueprints.xml.append:20616
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_FREDDY\"]/desc"
-msgstr ""
+msgstr "你的船员在战斗中承受 0.7 倍伤害"
 
 #: src-en/data/blueprints.xml.append:20623
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_NIGHTS\"]/title"
-msgstr ""
+msgstr "七夜之魂"
 
 #: src-en/data/blueprints.xml.append:20624
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_NIGHTS\"]/desc"
-msgstr ""
+msgstr "你的船员破坏系统的速度提升三倍"
 
 #: src-en/data/blueprints.xml.append:20631
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_SLOCKNOG\"]/title"
-msgstr ""
+msgstr "斯洛克诺格之魂"
 
 #: src-en/data/blueprints.xml.append:20632
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_SLOCKNOG\"]/desc"
-msgstr ""
+msgstr "你的船员被动地为附近盟友每秒恢复 2 点生命值"
 
 #: src-en/data/blueprints.xml.append:20639
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_SYLVAN\"]/title"
-msgstr ""
+msgstr "希尔凡之魂"
 
 #: src-en/data/blueprints.xml.append:20640
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_SYLVAN\"]/desc"
-msgstr ""
+msgstr "你的船员获得以下主动能力：同时部署破舱炸弹、封锁炸弹与离子炸弹。"
 
 #: src-en/data/blueprints.xml.append:20647
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_IRWIN\"]/title"
-msgstr ""
+msgstr "厄文之魂"
 
 #: src-en/data/blueprints.xml.append:20648
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_IRWIN\"]/desc"
-msgstr ""
+msgstr "你的船员获得疯狂效果免疫"
 
 #: src-en/data/blueprints.xml.append:20655
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_BILLY\"]/title"
-msgstr ""
+msgstr "比利之魂"
 
 #: src-en/data/blueprints.xml.append:20656
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_BILLY\"]/desc"
-msgstr ""
+msgstr "你的船员获得心灵感应能力与心灵控制免疫"
 
 #: src-en/data/blueprints.xml.append:20663
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_EATER\"]/title"
-msgstr ""
+msgstr "信标吞噬者之魂"
 
 #: src-en/data/blueprints.xml.append:20664
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_EATER\"]/desc"
-msgstr ""
+msgstr "你的船员获得窒息免疫"
 
 #: src-en/data/blueprints.xml.append:20671
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ANOINTED\"]/title"
-msgstr ""
+msgstr "强选者之魂"
 
 #: src-en/data/blueprints.xml.append:20672
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ANOINTED\"]/desc"
 msgstr ""
+"你的船员获得以下主动能力：同化部分舰体，造成舰体伤害但暂时获得大幅增强的能力"
+"。施放时生命值完全恢复。"
 
 #: src-en/data/blueprints.xml.append:20679
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_DESSIUS\"]/title"
-msgstr ""
+msgstr "德修斯之魂"
 
 #: src-en/data/blueprints.xml.append:20680
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_DESSIUS\"]/desc"
-msgstr ""
+msgstr "你的船员获得无视舱门特性"
 
 #: src-en/data/blueprints.xml.append:20687
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_MAYEB\"]/title"
-msgstr ""
+msgstr "麻椰之魂"
 
 #: src-en/data/blueprints.xml.append:20688
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_MAYEB\"]/desc"
-msgstr ""
+msgstr "当你的船员生命值降至 30 以下时，将立即被治愈。效果每 45 秒可触发一次。"
 
 #: src-en/data/blueprints.xml.append:20695
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TYEREL\"]/title"
-msgstr ""
+msgstr "笛艾尔之魂"
 
 #: src-en/data/blueprints.xml.append:20696
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TYEREL\"]/desc"
 msgstr ""
+"友方船员获得 +20% 最大生命值、修复速度与治疗速度加成。敌方船员失去 15% 的最大"
+"生命值，且移动速度降低 25%"
 
 #: src-en/data/blueprints.xml.append:20703
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_IVAR\"]/title"
-msgstr ""
+msgstr "苡瓦之魂"
 
 #: src-en/data/blueprints.xml.append:20704
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_IVAR\"]/desc"
-msgstr ""
+msgstr "你每拥有一名船员，所有敌方船员在战斗中所受的伤害就增加 10%。"
 
 #: src-en/data/blueprints.xml.append:20711
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ALKALI\"]/title"
-msgstr ""
+msgstr "阿尔科莱之魂"
 
 #: src-en/data/blueprints.xml.append:20712
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ALKALI\"]/desc"
-msgstr ""
+msgstr "你的船员技能充能速度提升 50%"
 
 #: src-en/data/blueprints.xml.append:20719
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TYRDEO\"]/title"
-msgstr ""
+msgstr "泰迪奥之魂"
 
 #: src-en/data/blueprints.xml.append:20720
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TYRDEO\"]/desc"
-msgstr ""
+msgstr "你的船员从敌方系统中汲取 1 点能量"
 
 #: src-en/data/blueprints.xml.append:20727
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ALKRAM\"]/title"
-msgstr ""
+msgstr "阿尔克拉姆之魂"
 
 #: src-en/data/blueprints.xml.append:20728
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_ALKRAM\"]/desc"
-msgstr ""
+msgstr "你的船员若 5 秒内未受伤害，则每秒恢复 6.4 点生命值"
 
 #: src-en/data/blueprints.xml.append:20735
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TONYSR\"]/title"
-msgstr ""
+msgstr "托尼·西尼尔之魂"
 
 #: src-en/data/blueprints.xml.append:20736
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_TONYSR\"]/desc"
-msgstr ""
+msgstr "你的船员汲取敌方无人机、机械类与能量类船员的生命值"
 
 #: src-en/data/blueprints.xml.append:20743
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_OBYN\"]/title"
-msgstr ""
+msgstr "奥宾之魂"
 
 #: src-en/data/blueprints.xml.append:20744
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_OBYN\"]/desc"
-msgstr ""
+msgstr "将所有敌方船员的治疗速度设为 0 倍。"
 
 #: src-en/data/blueprints.xml.append:20751
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_SPIDER\"]/title"
-msgstr ""
+msgstr "蜘蛛女王之魂"
 
 #: src-en/data/blueprints.xml.append:20752
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_SPIDER\"]/desc"
-msgstr ""
+msgstr "使所有友方船员变得可控"
 
 #: src-en/data/blueprints.xml.append:20759
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_GUNTPUT\"]/title"
-msgstr ""
+msgstr "冈特普特之魂"
 
 #: src-en/data/blueprints.xml.append:20760
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_GUNTPUT\"]/desc"
-msgstr ""
+msgstr "你的船员移动速度提升 40%"
 
 #: src-en/data/blueprints.xml.append:20767
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_METYUNT\"]/title"
-msgstr ""
+msgstr "梅特恩特之魂"
 
 #: src-en/data/blueprints.xml.append:20768
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_METYUNT\"]/desc"
-msgstr ""
+msgstr "友方船员获得 50% 的火焰伤害抗性"
 
 #: src-en/data/blueprints.xml.append:20775
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_VANCE\"]/title"
-msgstr ""
+msgstr "万斯本尊之魂"
 
 #: src-en/data/blueprints.xml.append:20776
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_VANCE\"]/desc"
 msgstr ""
+"你的船员在敌方舰船上时，会入侵与其所在舱室相连的舱门；在己方舰船上时，则会解"
+"除舱门的入侵状态"
 
 #: src-en/data/blueprints.xml.append:20783
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_LEAH\"]/title"
-msgstr ""
+msgstr "莉娅之魂"
 
 #: src-en/data/blueprints.xml.append:20784
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_LEAH\"]/desc"
-msgstr ""
+msgstr "你的船员克隆速度提升 200%"
 
 #: src-en/data/blueprints.xml.append:20791
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_SAMMY\"]/title"
-msgstr ""
+msgstr "萨米之魂"
 
 #: src-en/data/blueprints.xml.append:20792
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_SAMMY\"]/desc"
-msgstr ""
+msgstr "降低敌方船员 50% 的伤害"
 
 #: src-en/data/blueprints.xml.append:20799
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_JON\"]/title"
-msgstr ""
+msgstr "乔恩之魂"
 
 #: src-en/data/blueprints.xml.append:20800
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_JON\"]/desc"
 msgstr ""
+"友方无人机在引擎、驾驶、护盾、武器或无人机系统舱室时，战斗或修复能力额外提升 "
+"50%"
 
 #: src-en/data/blueprints.xml.append:20807
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_CYRA\"]/title"
-msgstr ""
+msgstr "赛拉之魂"
 
 #: src-en/data/blueprints.xml.append:20808
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_CYRA\"]/desc"
-msgstr ""
+msgstr "友方船员移动速度翻倍"
 
 #: src-en/data/blueprints.xml.append:20815
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_MANTIS_QUEEN\"]/title"
-msgstr ""
+msgstr "莱孔普利纳克拉之魂"
 
 #: src-en/data/blueprints.xml.append:20816
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_MANTIS_QUEEN\"]/desc"
-msgstr ""
+msgstr "敌方母巢螳螂无法战斗"
 
 #: src-en/data/blueprints.xml.append:20823
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_BEARD\"]/title"
-msgstr ""
+msgstr "紫胡子之魂"
 
 #: src-en/data/blueprints.xml.append:20824
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SOUL_BEARD\"]/desc"
 msgstr ""
+"你的船员获得以下主动能力：在舱室内部署一枚激素炸弹，为自己及同一舱室内的所有"
+"友方船员提供 20% 的移动速度、战斗伤害、破坏伤害及修复速度加成，持续 10 秒。该"
+"效果不叠加。"
 
 #: src-en/data/blueprints.xml.append:20837
 msgid ""
@@ -15215,7 +15275,7 @@ msgstr "秘密魂灵星域的坐标。"
 #: src-en/data/blueprints.xml.append:20875
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_JON_CREWSER\"]/title"
-msgstr ""
+msgstr "乔恩的星舰"
 
 #: src-en/data/blueprints.xml.append:20876
 msgid ""
@@ -15225,7 +15285,7 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:20884
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_PURPLE_BEARD\"]/title"
-msgstr ""
+msgstr "紫胡子的星舰"
 
 #: src-en/data/blueprints.xml.append:20885
 msgid ""
@@ -15405,7 +15465,7 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:21055
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_TOTALITY_FLAGSHIP\"]/title"
-msgstr ""
+msgstr "统合旗舰"
 
 #: src-en/data/blueprints.xml.append:21056
 msgid ""
@@ -15415,7 +15475,7 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:21064
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_COALITION_FLAGSHIP\"]/title"
-msgstr ""
+msgstr "星联旗舰"
 
 #: src-en/data/blueprints.xml.append:21065
 msgid ""
@@ -15435,7 +15495,7 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:21082
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_LEGION_FLAGSHIP_C\"]/title"
-msgstr ""
+msgstr "1号万斯旗舰"
 
 #: src-en/data/blueprints.xml.append:21083
 msgid ""
@@ -15630,7 +15690,7 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:21280
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_FROSTWALL\"]/title"
-msgstr ""
+msgstr "霜晶壁垒的星舰"
 
 #: src-en/data/blueprints.xml.append:21281
 msgid ""
@@ -15640,7 +15700,7 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:21289
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_DEATHBLOOM\"]/title"
-msgstr ""
+msgstr "死亡绽放的星舰"
 
 #: src-en/data/blueprints.xml.append:21290
 msgid ""
@@ -15681,11 +15741,11 @@ msgstr "[错误]"
 
 #: src-en/data/blueprints.xml.append:21334
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_ORACLE\"]/title"
-msgstr ""
+msgstr "先知星舰"
 
 #: src-en/data/blueprints.xml.append:21335
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_ORACLE\"]/desc"
-msgstr ""
+msgstr ":)"
 
 #: src-en/data/blueprints.xml.append:21343
 msgid ""
@@ -15728,7 +15788,7 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:21379
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIP_REVENANT_SPECTER\"]/title"
-msgstr ""
+msgstr "不死幽灵星舰"
 
 #: src-en/data/blueprints.xml.append:21380
 msgid ""
@@ -15746,12 +15806,14 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:21403
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_FR_CLICKER\"]/title"
-msgstr ""
+msgstr "触摸的予礼"
 
 #: src-en/data/blueprints.xml.append:21404
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_FR_CLICKER\"]/desc"
 msgstr ""
+"你的飞船获得离子伤害免疫。敌方船员在“她的意志”系统舱室内时，每秒受到 10 点生"
+"命值伤害。"
 
 #: src-en/data/blueprints.xml.append:21411
 msgid ""
@@ -15823,6 +15885,10 @@ msgstr "灭绝的祝福"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_FR_EX_COMMONWEALTH_CREW\"]/desc"
 msgstr ""
+"你的联合方碑船员可以传送至任何地点。\n"
+"\n"
+"\t[B] - 作为一个外部恩赐，该装置将提供其常规效果，并且如果适用，还会与任何其"
+"他恩赐效果叠加。"
 
 #: src-en/data/blueprints.xml.append:21469
 msgid ""
@@ -16206,22 +16272,24 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:22757
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BROKEN_COMMONWEALTH_2\"]/class"
-msgstr ""
+msgstr "黛西的特员星舰"
 
 #: src-en/data/blueprints.xml.append:22758
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BROKEN_COMMONWEALTH_2\"]/name"
-msgstr ""
+msgstr "贝尔伦尼斯的复仇"
 
 #: src-en/data/blueprints.xml.append:22759
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BROKEN_COMMONWEALTH_2\"]/unlock"
-msgstr ""
+msgstr "征询一位曾死去的方碑关于某件神器的建议，以解锁这艘星舰。"
 
 #: src-en/data/blueprints.xml.append:22760
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BROKEN_COMMONWEALTH_2\"]/desc"
 msgstr ""
+"如今已完全修复并恢复了她个人涂装的黛西私人星舰，已准备好探索太空边疆，并痛扁"
+"任何遇到的灭绝者！"
 
 #: src-en/data/blueprints.xml.append:22836
 msgid ""
@@ -16596,17 +16664,19 @@ msgstr "联邦旗舰"
 #: src-en/data/blueprints.xml.append:24218
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_FEDERATION_FLAGSHIP\"]/name"
-msgstr ""
+msgstr "苍鹭"
 
 #: src-en/data/blueprints.xml.append:24219
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_FEDERATION_FLAGSHIP\"]/unlock"
-msgstr ""
+msgstr "在纷争战区阻止叛军的计划，以解锁这艘星舰。"
 
 #: src-en/data/blueprints.xml.append:24220
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_FEDERATION_FLAGSHIP\"]/desc"
 msgstr ""
+"复仇计划的最终成果，苍鹭凭借其标准巨炮与联邦标志性光束巨炮的升级版本，足以对"
+"抗其他旗舰。"
 
 #: src-en/data/blueprints.xml.append:24298
 msgid ""
@@ -16616,7 +16686,7 @@ msgstr "联邦旗舰"
 #: src-en/data/blueprints.xml.append:24299
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_FEDERATION_FLAGSHIP_2\"]/name"
-msgstr ""
+msgstr "孔雀"
 
 #: src-en/data/blueprints.xml.append:24300
 msgid ""
@@ -16627,16 +16697,18 @@ msgstr "使用A型星舰抵达第5星区来解锁此星舰。"
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_FEDERATION_FLAGSHIP_2\"]/desc"
 msgstr ""
+"苍鹭号早期被废弃的原型机，全力投入了光束技术研发。尽管它本应被销毁，但项目中"
+"的一位匿名成员偷走了这艘船，并将其卖给了一位光束爱好者及其船员。"
 
 #: src-en/data/blueprints.xml.append:24377
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_FEDERATION_FLAGSHIP_3\"]/class"
-msgstr ""
+msgstr "盟卫旗舰"
 
 #: src-en/data/blueprints.xml.append:24378
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_FEDERATION_FLAGSHIP_3\"]/name"
-msgstr ""
+msgstr "鸮"
 
 #: src-en/data/blueprints.xml.append:24379
 msgid ""
@@ -16647,6 +16719,8 @@ msgstr "使用B型星舰抵达第5星区，或使用A型星舰通关游戏来解
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_FEDERATION_FLAGSHIP_3\"]/desc"
 msgstr ""
+"在复仇计划取得革命性成功后，苍鹭号的改装版本被分发给了所有联邦盟友派系，其中"
+"就包括盟卫组织。"
 
 #: src-en/data/blueprints.xml.append:24460
 msgid ""
@@ -16656,7 +16730,7 @@ msgstr "联邦统一旗舰"
 #: src-en/data/blueprints.xml.append:24461
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_UNITY_FLAGSHIP\"]/name"
-msgstr ""
+msgstr "红腿叫鹤"
 
 #: src-en/data/blueprints.xml.append:24462
 msgid ""
