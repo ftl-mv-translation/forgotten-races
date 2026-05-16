@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-16 06:21+0000\n"
+"PO-Revision-Date: 2026-05-16 10:24+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_special_guardsxmlappend/zh_Hans/>\n"
@@ -423,7 +423,7 @@ msgstr "继续。"
 #: src-en/data/events_special_guards.xml.append:296
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_BEACON_COMMONWEALTH\"]/choice/event/choice[@req=\"fr_unique_daisy\"]/text"
-msgstr ""
+msgstr "（黛西）黛西想和他们谈谈。"
 
 #: src-en/data/events_special_guards.xml.append:298
 msgid ""
@@ -567,12 +567,11 @@ msgid ""
 msgstr "不，继续战斗。"
 
 #: src-en/data/events_special_guards.xml.append:413
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_DESTROY\"]/text"
 msgstr ""
 "你们击败了诡异的方碑守卫，其货舱内的物品想必已尽数毁坏。正欲离开时，你们发现"
-"一件奇特的装置竟在战斗中幸存——这是个似乎能解析守卫所用古老语言的翻译器。看来"
+"一件奇特的装置竟在战斗中幸存：这是个似乎能解析守卫所用古老语言的翻译器。看来"
 "这片星域被一个名为\"联合方碑\"的集团控制着。要是战前就有这个设备该多好……\n"
 "\n"
 "\t你们同时扫描了星域，发现在星域核心处出现与来时传送门相同的巨大能量波动。若"
@@ -584,7 +583,6 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events_special_guards.xml.append:424
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_COMMONWEALTH_DEADCREW\"]/text"
 msgstr ""
@@ -645,6 +643,9 @@ msgstr "继续。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/text"
 msgstr ""
+"这个星区本应是你和船员的避风港，但自从叛军袭击及随后的星联入侵以来，这里已沦"
+"为无人地带。更糟的是，海盗们也被吸引到此地，企图轻松搜刮废料。步步为营，时刻"
+"保持警惕。"
 
 #: src-en/data/events_special_guards.xml.append:504
 msgid ""
@@ -655,16 +656,20 @@ msgstr "继续。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/text"
 msgstr ""
+"看来星联设法抽调出了一艘精锐护卫舰，以阻止此星区获得任何增援，无论这些增援来"
+"自叛军还是联邦。“那么，你们就是他们派来试图与我们对战的增援？真可爱。告诉我，"
+"哦，那艘‘能行’的联邦船，你们指望如何仅凭一道孤零零的屏障来阻挡无尽的浪潮？”话"
+"音落下，护卫舰的武器随之启动。"
 
 #: src-en/data/events_special_guards.xml.append:508
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[1]/text"
-msgstr ""
+msgstr "准备战斗！"
 
 #: src-en/data/events_special_guards.xml.append:510
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[1]/event/text"
-msgstr ""
+msgstr "你将武器锁定那艘护卫舰，逼近并发起攻击。"
 
 #: src-en/data/events_special_guards.xml.append:513
 msgid ""
@@ -674,27 +679,37 @@ msgstr "继续。"
 #: src-en/data/events_special_guards.xml.append:519
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"fr_unique_mantis_queen\"]/text"
-msgstr ""
+msgstr "（莱孔普利纳克拉）莱孔普利纳克拉要求自由通行！"
 
 #: src-en/data/events_special_guards.xml.append:521
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"fr_unique_mantis_queen\"]/event/text"
 msgstr ""
+"“你竟敢用这种态度跟你的女王说话？立刻放我们过去，否则我亲手将你公开处决。听明"
+"白了吗？”\n"
+"\t\t\t\t\t\t\n"
+"\t\t\t\t\t卫兵一见到女王，慌忙立正致敬。“当……当然，陛下！这边请！”卫兵随即放"
+"行，还送来了一些补给，并通知联盟舰队准许你们通过。"
 
 #: src-en/data/events_special_guards.xml.append:528
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"unique_nights\"]/text"
-msgstr ""
+msgstr "（七夜）七夜要求同行！"
 
 #: src-en/data/events_special_guards.xml.append:530
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"unique_nights\"]/event/text"
 msgstr ""
+"“你给我听好了，你这不中用的士兵！立刻放我们过去，否则我就让你成为星联的头号敌"
+"人！”\n"
+"\n"
+"\t\t\t\t\t守卫愣了片刻，随即关掉了武器。“行吧，舰长。我这就通知舰队。”守卫还"
+"给你们送来了一些补给。"
 
 #: src-en/data/events_special_guards.xml.append:537
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_COALITION\"]/choice/event/choice[@req=\"unique_tyrdeo\"]/text"
-msgstr ""
+msgstr "（泰迪奥）要求自由通行。"
 
 #: src-en/data/events_special_guards.xml.append:539
 msgid ""
