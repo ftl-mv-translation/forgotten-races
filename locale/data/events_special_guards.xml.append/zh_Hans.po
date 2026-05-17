@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-17 05:05+0000\n"
+"PO-Revision-Date: 2026-05-18 03:06+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_special_guardsxmlappend/zh_Hans/>\n"
@@ -1122,6 +1122,11 @@ msgstr "未去过的位置。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_REBEL\"]/text"
 msgstr ""
+"一艘叛军精英舰船向你猛冲过来，所有武器整装待发。你料想这必定是那个守卫派来追"
+"杀你的船，于是准备好保卫你的飞船。\n"
+"\n"
+"然而，战斗尚未真正打响，你便侦测到远处那支联邦舰队也已将炮口对准了这艘叛军舰"
+"船。现在，全面混战正式爆发！"
 
 #: src-en/data/events_special_guards.xml.append:863
 msgid ""
@@ -1147,6 +1152,11 @@ msgstr "未去过的位置。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_REBEL\"]/text"
 msgstr ""
+"一艘MFK王牌舰船向你猛冲过来，所有武器整装待发。你料想这必定是那个守卫派来追杀"
+"你的船，于是准备好保卫你的飞船。\n"
+"\n"
+"然而，战斗尚未真正打响，你便侦测到远处那支联邦舰队也已将炮口对准了这艘叛军舰"
+"船。现在，全面混战正式爆发！"
 
 #: src-en/data/events_special_guards.xml.append:887
 msgid ""
@@ -1157,6 +1167,9 @@ msgstr "继续。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION\"]/text"
 msgstr ""
+"这个星区本应是你和船员的避风港，但自从叛军袭击及随后的星联入侵以来，这里已沦"
+"为无人地带。更糟的是，海盗们也被吸引到此地，企图轻松搜刮废料。步步为营，时刻"
+"保持警惕。"
 
 #: src-en/data/events_special_guards.xml.append:907
 msgid ""
@@ -1174,21 +1187,28 @@ msgstr "继续。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/text"
 msgstr ""
+"不知怎的，这片星区的联邦部队竟然奇迹般地顶住了叛军和星联的攻势，至今仍有一名"
+"精英守卫驻守在此。他们的武器启动了半晌，才意识到你并非威胁。“抱歉，变元者，自"
+"从入侵开始，我们就一直绷得紧紧的。我们现在缺人手、缺飞船，但武器倒是有不少富"
+"余，你要是有兴趣的话，当然可以匀给你。否则，我们也可以为你的船提供维修或补充"
+"燃料。”"
 
 #: src-en/data/events_special_guards.xml.append:919
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[1]/text"
-msgstr ""
+msgstr "请求援助。"
 
 #: src-en/data/events_special_guards.xml.append:923
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[2]/text"
-msgstr ""
+msgstr "攻击守卫。"
 
 #: src-en/data/events_special_guards.xml.append:925
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[2]/event/text"
 msgstr ""
+"守卫舰长对你们倒戈相向震惊不已。“我就知道你不对劲！我们不会再让你前进一步，你"
+"这疯狂的变元者！”"
 
 #: src-en/data/events_special_guards.xml.append:928
 msgid ""
@@ -1198,12 +1218,12 @@ msgstr "继续。"
 #: src-en/data/events_special_guards.xml.append:934
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[3]/text"
-msgstr ""
+msgstr "忽视守卫舰。"
 
 #: src-en/data/events_special_guards.xml.append:936
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY\"]/choice[3]/event/text"
-msgstr ""
+msgstr "你现在有时间在船上做些什么了。"
 
 #: src-en/data/events_special_guards.xml.append:938
 msgid ""
@@ -1219,59 +1239,71 @@ msgstr "跳过。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/text"
 msgstr ""
+"守卫为你接通了一条加密线路，联系上了附近为数不多幸存的一艘支援舰。这艘舰船正"
+"等候你的指令。"
 
 #: src-en/data/events_special_guards.xml.append:952
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_tully\"]/text"
-msgstr ""
+msgstr "（塔利）请求援助。"
 
 #: src-en/data/events_special_guards.xml.append:954
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_tully\"]/event/text"
 msgstr ""
+"守卫面露惊讶。“塔利上将？您在这儿做什么？！这里可是战事正酣的战区啊！算了，不"
+"问了，我们会把所有能匀出来的物资都给您！”"
 
 #: src-en/data/events_special_guards.xml.append:964
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_turzil\"]/text"
-msgstr ""
+msgstr "（图尔齐尔）请求援助。"
 
 #: src-en/data/events_special_guards.xml.append:966
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_turzil\"]/event/text"
 msgstr ""
+"守卫看到半械旅将军，露出了笑容。“图尔齐尔，在这危难时刻见到一张友好的面孔真好"
+"。希望你的战略头脑能像在第一次联邦内战时那样，助我们扭转战局！我们会尽力提供"
+"物资。”"
 
 #: src-en/data/events_special_guards.xml.append:976
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_mafan\"]/text"
-msgstr ""
+msgstr "（玛嬏）请求援助。"
 
 #: src-en/data/events_special_guards.xml.append:978
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_mafan\"]/event/text"
 msgstr ""
+"守卫花了一会儿才认出眼前的人。“博士，你来这星区有何贵干？不过请务必小心脚下，"
+"这里处处潜伏着危险。”"
 
 #: src-en/data/events_special_guards.xml.append:988
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_tyerel\"]/text"
-msgstr ""
+msgstr "（笛艾尔）请求援助。"
 
 #: src-en/data/events_special_guards.xml.append:990
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_tyerel\"]/event/text"
 msgstr ""
+"守卫点了点头。“当然，大使。我们这就把你需要的东西送过去。不过，我真希望你舰上"
+"的装备也够硬，光靠三寸不烂之舌在这儿可没多大用……”"
 
 #: src-en/data/events_special_guards.xml.append:1000
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_ruwen\"]/text"
-msgstr ""
+msgstr "（茹文）请求援助。"
 
 #: src-en/data/events_special_guards.xml.append:1002
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[@req=\"unique_ruwen\"]/event/text"
 msgstr ""
+"守卫点了点头。“当然，大使。我们这就把你需要的东西送过去。不过，我真希望你舰上"
+"的装备也够硬，光靠三寸不烂之舌在这儿可没多大用……”"
 
 #: src-en/data/events_special_guards.xml.append:1012
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[6]/text"
 msgstr "武器。"
@@ -1279,62 +1311,64 @@ msgstr "武器。"
 #: src-en/data/events_special_guards.xml.append:1014
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[6]/event/text"
-msgstr ""
+msgstr "一架补给无人机被派来为你的飞船补充一件全新武器。"
 
 #: src-en/data/events_special_guards.xml.append:1019
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[7]/text"
-msgstr ""
+msgstr "无人机。"
 
 #: src-en/data/events_special_guards.xml.append:1021
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[7]/event/text"
-msgstr ""
+msgstr "一架补给无人机被派来为你的飞船补充一架全新的无人机。"
 
 #: src-en/data/events_special_guards.xml.append:1026
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[8]/text"
-msgstr ""
+msgstr "维修。"
 
 #: src-en/data/events_special_guards.xml.append:1028
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[8]/event/text"
-msgstr ""
+msgstr "数架维修无人机被派来为你进行修复。"
 
 #: src-en/data/events_special_guards.xml.append:1033
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[9]/text"
-msgstr ""
+msgstr "燃料。"
 
 #: src-en/data/events_special_guards.xml.append:1035
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[9]/event/text"
-msgstr ""
+msgstr "一架燃料补给无人机被派来为你的飞船补充燃料。"
 
 #: src-en/data/events_special_guards.xml.append:1042
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[10]/text"
-msgstr ""
+msgstr "弹药。"
 
 #: src-en/data/events_special_guards.xml.append:1044
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[10]/event/text"
-msgstr ""
+msgstr "一架补给无人机被派来为你的飞船进行补给。"
 
 #: src-en/data/events_special_guards.xml.append:1051
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[11]/text"
-msgstr ""
+msgstr "无人机部件。"
 
 #: src-en/data/events_special_guards.xml.append:1053
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT\"]/choice[11]/event/text"
-msgstr ""
+msgstr "一架补给无人机被派来为你的飞船进行补给。"
 
 #: src-en/data/events_special_guards.xml.append:1062
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_CRIMINAL\"]/text"
 msgstr ""
+"这里有些不对劲。通常，联邦对你这样的飞船绝不会多看一眼，但现在，你却在守卫舰"
+"的频道里捕捉到了可疑的交谈声。"
 
 #: src-en/data/events_special_guards.xml.append:1064
 msgid ""
@@ -1345,6 +1379,8 @@ msgstr "继续。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_START_WARZONE_FEDERATION_CRIMINAL\"]/choice/event/text"
 msgstr ""
+"看来你的案底终于追上了你。守卫舰上的船员们已经听够了你犯下的种种罪行，眼下他"
+"们虽然忙得不可开交，却也不敢冒险让你未经一战就踏进这个星区！"
 
 #: src-en/data/events_special_guards.xml.append:1069
 msgid ""
@@ -1354,17 +1390,19 @@ msgstr "继续。"
 #: src-en/data/events_special_guards.xml.append:1083
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_SIGNAL\"]/text"
-msgstr ""
+msgstr "守卫舰似乎正在向附近的反舰炮台发出求救信号！准备应对冲击！"
 
 #: src-en/data/events_special_guards.xml.append:1085
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/text"
-msgstr ""
+msgstr "（信号稀释器）阻塞对方通讯。"
 
 #: src-en/data/events_special_guards.xml.append:1087
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
 msgstr ""
+"当没有反舰炮台激活时，你认为这是一个好兆头，说明你的增强部件功能正常，于是你"
+"继续战斗。"
 
 #: src-en/data/events_special_guards.xml.append:1091
 msgid ""
@@ -1374,12 +1412,14 @@ msgstr "继续。"
 #: src-en/data/events_special_guards.xml.append:1093
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_SIGNAL\"]/choice[2]/event/text"
-msgstr ""
+msgstr "突然，你侦测到远处星联与MFK的舰队调转了炮口，现在正指向那名联邦守卫！"
 
 #: src-en/data/events_special_guards.xml.append:1101
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_DESTROY\"]/text"
 msgstr ""
+"你已击败联邦守卫。无论他们船上曾载有何种货物，此刻都必定已化为乌有，但你好歹"
+"还能从残骸中回收一些补给。"
 
 #: src-en/data/events_special_guards.xml.append:1104
 msgid ""
@@ -1390,6 +1430,8 @@ msgstr "继续。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_DEADCREW\"]/text"
 msgstr ""
+"你已击败联邦守卫。船上已无船员阻拦，你可以搜查他们的货舱。你找到一件武器带回"
+"飞船，接着开始拆解他们的船体。"
 
 #: src-en/data/events_special_guards.xml.append:1113
 msgid ""
@@ -1400,6 +1442,9 @@ msgstr "继续。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_GUARD_WARZONE_FEDERATION_FOLLOWUP\"]/text"
 msgstr ""
+"你击毙联邦守卫的举动，毫无疑问已迫使他们派遣增援部队来追捕你。在这片星区探索"
+"时，务必步步留神。不过，鉴于当前战区的极度混乱，这里的守军也有极大可能忙于应"
+"对其他事务而无暇顾及你。"
 
 #: src-en/data/events_special_guards.xml.append:1130
 msgid ""
@@ -1430,6 +1475,12 @@ msgstr "未去过的位置。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_REINFORCEMENTS_WARZONE_FEDERATION\"]/text"
 msgstr ""
+"你瞥见一艘联邦舰船，但他们似乎并不乐意见到你。“叛徒！你们应该感到羞耻！”那艘"
+"船逼近发动攻击，没过多久你就意识到，这正是此前那些守卫派来追捕你的舰船之一，"
+"为的是报复你之前的攻击。\n"
+"\t\t\t\n"
+"\t然而，战斗尚未真正打响，你便侦测到远处MFK与星联的舰队也已调转炮口，对准了这"
+"艘联邦舰船。现在，全面混战正式爆发！"
 
 #: src-en/data/events_special_guards.xml.append:1156
 msgid ""
@@ -1455,6 +1506,12 @@ msgstr "未去过的位置。"
 msgid ""
 "data/events_special_guards.xml.append$//event[@name=\"FR_NEBULA_LIGHT_REINFORCEMENTS_WARZONE_FEDERATION\"]/text"
 msgstr ""
+"你瞥见一艘联邦舰船，但他们似乎并不乐意见到你。“叛徒！你们应该感到羞耻！”那艘"
+"船逼近发动攻击，没过多久你就意识到，这正是此前那些守卫派来追捕你的舰船之一，"
+"为的是报复你之前的攻击。\n"
+"\t\t\t\n"
+"\t然而，战斗尚未真正打响，你便侦测到远处MFK与星联的舰队也已调转炮口，对准了这"
+"艘联邦舰船。现在，全面混战正式爆发！"
 
 #: src-en/data/events_special_guards.xml.append:1180
 msgid ""
