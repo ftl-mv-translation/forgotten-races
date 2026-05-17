@@ -5,10 +5,22 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+<<<<<<< Updated upstream
 #: src-en/data/events_sector_obelisk.xml.append:9
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/beaconType/undiscoveredTooltip[1]"
 msgstr "Une étrange diffusion semble provenir de cette balise."
+=======
+#: src-en/data/events_sector_obelisk.xml.append:8
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/undiscoveredTooltip"
+msgstr "Une étrange émission semble provenir de cette balise."
+
+#: src-en/data/events_sector_obelisk.xml.append:9
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/beaconType/unvisitedTooltip"
+msgstr "Cette balise abritait un ancien drone."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:10
 msgid ""
@@ -19,11 +31,35 @@ msgstr "Un emplacement non visité."
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/text"
 msgstr ""
+<<<<<<< Updated upstream
+=======
+"En arrivant à la balise, vous vous retrouvez face à face avec un étrange "
+"vaisseau automatisé de conception Obélisque. Il arbore des couleurs et des "
+"armes de marques et de modèles que vous n'avez jamais vus auparavant, même "
+"dans cet endroit effrayant, et il tente d'ouvrir la communication."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:15
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/text"
 msgstr ""
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/text"
+msgstr "Approchez de l'Auto-vaisseau et essayez de recevoir l'appel."
+
+#: src-en/data/events_sector_obelisk.xml.append:16
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/text"
+msgstr ""
+"Le vaisseau émet un mélange de statique et de ce qui pourrait à peine être "
+"considéré comme des mots, en boucle pendant environ 10 secondes. Non "
+"seulement la distorsion du signal a rendu le message un cauchemar à décoder,"
+" mais le discours réel semblait être un dialecte obélisque beaucoup trop "
+"ancien pour que l'algorithme de traduction d'Aenwithe puisse le décoder. "
+"Vous pensez que si vous installez un meilleur pack de traduction, vous "
+"pourriez être en mesure de comprendre le message."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:17
 msgid ""
@@ -49,7 +85,7 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"UPG_AETHER_TRANSLATOR\""
 " and @lvl=\"0\"]/text"
-msgstr "Installer le Traducteur runique. [Coût : 10~, 1|]"
+msgstr "Installez le Traducteur runique. [Coût : 10~, 1|]"
 
 #: src-en/data/events_sector_obelisk.xml.append:34
 msgid ""
@@ -86,12 +122,39 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:58
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_REQUIREMENT_DIRECTOR_DRONES_AND_DRONE_CONTROL\"]/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/text"
+msgstr "Essayez de traduire manuellement les bruits."
+
+#: src-en/data/events_sector_obelisk.xml.append:46
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/event/text"
+msgstr ""
+"Vous décidez de faire les choses à la dure. Décoder le message est "
+"extrêmement difficile, et vous passez pas moins de quelques jours assis "
+"devant l'Auto-vaisseau, enrichissant votre traducteur."
+
+#: src-en/data/events_sector_obelisk.xml.append:49
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[3]/event/choice/text"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:60
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_REQUIREMENT_DIRECTOR_DRONES_AND_DRONE_CONTROL\"]/event/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/text"
+msgstr ""
+"Voyons si nous pouvons demander à notre Directeur de nous traduire le texte."
+
+#: src-en/data/events_sector_obelisk.xml.append:57
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_DIRECTOR_DRONES\"]/event/text"
+>>>>>>> Stashed changes
 msgstr ""
 "Vous entrez les données dans votre Directeur et attendez de voir ce qu'il "
 "peut décoder."
@@ -103,15 +166,44 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:68
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COMMONWEALTH_OBELISK\"]/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/text"
+msgstr ""
+"Demandez à l'un de nos Obélisques non-Commonwealth de traduire cette étrange"
+" langue."
+
+#: src-en/data/events_sector_obelisk.xml.append:67
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/text"
+msgstr ""
+"L'Obélisque se fige en entendant le message du drone. Cela prend quelques "
+"minutes, mais ils acceptent de traduire le message pour vous."
+
+#: src-en/data/events_sector_obelisk.xml.append:69
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/event/choice/text"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:70
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COMMONWEALTH_OBELISK\"]/event/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/text"
+msgstr ""
+"Demandez à l'un de nos Obélisques du Commonwealth de traduire cette étrange "
+"langue."
+
+#: src-en/data/events_sector_obelisk.xml.append:77
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"fr_commonwealth\"]/event/text"
+>>>>>>> Stashed changes
 msgstr ""
 "L'Obélisque du Commonwealth rédige rapidement une traduction complète du "
-"message pour vous et votre équipage."
+"message à lire pour vous et votre équipage."
 
 #: src-en/data/events_sector_obelisk.xml.append:72
 msgid ""
@@ -120,11 +212,30 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:78
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_ANCIENT_NO_COMMONWEALTH\"]/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/text"
+msgstr ""
+"Demandez à l'un de nos Cognitifs non métalliques de traduire cette étrange "
+"langue."
+
+#: src-en/data/events_sector_obelisk.xml.append:87
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/text"
+msgstr ""
+"Le Cognitif se met immédiatement au travail pour décoder le message, sans "
+"aucune difficulté apparente."
+
+#: src-en/data/events_sector_obelisk.xml.append:89
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/event/choice/text"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:82
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[@req=\"FR_BLUELIST_COGNITIVE_NOT_METAL\"]/text"
 msgstr ""
 
@@ -142,6 +253,10 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[8]/text"
 msgstr "Grand Dieu, éteignez le système radio et faites-le exploser !"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/text"
+msgstr "Mon Dieu, coupez le système radio et faites-le exploser !"
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:94
 msgid ""
@@ -150,12 +265,39 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:97
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[8]/event/choice/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/event/text"
+msgstr ""
+"Vous chargez vos armes, et le drone fait de même. Même dans son état "
+"endommagé, il est probable qu'il livre un combat acharné."
+
+#: src-en/data/events_sector_obelisk.xml.append:100
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[8]/event/choice/text"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:103
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[1]/event/choice[9]/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/text"
+msgstr "Coupez la radio et partez d'ici !"
+
+#: src-en/data/events_sector_obelisk.xml.append:108
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/text"
+msgstr ""
+"Vous décidez que décoder le message ne vaut pas votre temps, et vous vous "
+"préparez plutôt à sauter."
+
+#: src-en/data/events_sector_obelisk.xml.append:110
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[1]/event/choice[9]/event/choice[1]/text"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:105
@@ -182,15 +324,47 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[2]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:124
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[2]/event/choice/text"
+=======
+"Attaquez ce vaisseau, quoi que ce soit, il devrait y avoir quelque chose "
+"d'utile à l'intérieur."
+
+#: src-en/data/events_sector_obelisk.xml.append:124
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/event/text"
+msgstr ""
+"Vous chargez vos armes, et le drone fait de même. Même dans son état "
+"endommagé, il est probable qu'il livre un combat acharné."
+
+#: src-en/data/events_sector_obelisk.xml.append:127
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[2]/event/choice/text"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:130
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[3]/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/text"
+msgstr "Laissez l'Auto-vaisseau tranquille."
+
+#: src-en/data/events_sector_obelisk.xml.append:135
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/text"
+msgstr ""
+"Vous avez des problèmes bien plus importants à résoudre que de vous occuper "
+"d'un Auto-vaisseau endommagé."
+
+#: src-en/data/events_sector_obelisk.xml.append:137
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE\"]/choice[3]/event/choice[1]/text"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:132
@@ -202,9 +376,19 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[3]/event/choice[1]/text"
 msgstr ""
+<<<<<<< Updated upstream
+=======
+"Une fois la cacophonie des vaisseaux entièrement traduite, vous découvrez "
+"qu'il était probablement utilisé comme usine d'armes mobile lors des guerres"
+" civiles Obélisques il y a si longtemps. Même dans son état endommagé, la "
+"capacité de l'Auto-vaisseau à synthétiser de nouveaux équipements pourrait "
+"s'avérer utile. Accéder à la forge pourrait cependant s'avérer difficile "
+"sans désactiver l'Auto-vaisseau."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:138
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER\"]/choice[3]/event/choice[2]/text"
 msgstr ""
 
@@ -217,10 +401,26 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/text"
 msgstr "Tenter de pirater le vaisseau."
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/text"
+msgstr "Tentez de pirater le vaisseau."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:150
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[1]/event/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/event/text"
+msgstr ""
+"Vous mettez en place un programme pour attaquer le module d'IA de l'Auto-"
+"vaisseau. Si vous voulez que ce plan fonctionne, vous devrez tenir contre le"
+" vaisseau sans le détruire !"
+
+#: src-en/data/events_sector_obelisk.xml.append:156
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[1]/event/choice/text"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:154
@@ -237,12 +437,24 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/text"
 msgstr ""
-"Voir si un membre de notre équipage du Commonwealth peut accélérer le "
+"Voyons si un membre de notre équipage Commonwealth peut accélérer le "
 "processus de piratage."
 
 #: src-en/data/events_sector_obelisk.xml.append:168
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/text"
+msgstr ""
+"Votre équipage Commonwealth, ayant été présent au plus fort de l'utilisation"
+" de ces drones, parvient à désactiver les pare-feu de l'Auto-vaisseau sans "
+"trop de problèmes."
+
+#: src-en/data/events_sector_obelisk.xml.append:166
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"FR_LIST_CREW_COMMONWEALTH\"]/event/choice/text"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:170
@@ -259,13 +471,29 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:178
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"hacking\"]/event/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/event/text"
+msgstr ""
+"Votre système de piratage très avancé est parfaitement adapté à la tâche, et"
+" le drone se soumet sans grande résistance."
+
+#: src-en/data/events_sector_obelisk.xml.append:176
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[@req=\"hacking\"]/event/choice/text"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:180
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[@req=\"hacking\"]/event/choice/text"
 msgstr ""
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_DRONE_TRANSLATED\"]/choice[4]/text"
+msgstr "C'est trop risqué, reculez de l'Auto-vaisseau."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:186
 msgid ""
@@ -276,8 +504,9 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[4]/event/text"
 msgstr ""
-"Quels que soient les secrets de ce vaisseau, ils ne sont pas pertinents pour"
-" la mission actuelle. Vous faites demi-tour, vous préparant à un saut."
+"Quels que soient les secrets que recèle ce vaisseau, ils ne sont pas "
+"pertinents pour la mission actuelle. Vous faites demi-tour, vous préparant à"
+" sauter."
 
 #: src-en/data/events_sector_obelisk.xml.append:190
 msgid ""
@@ -288,9 +517,16 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_FORGE_CRUISER_TRANSLATED\"]/choice[4]/event/choice[2]/text"
 msgstr ""
+<<<<<<< Updated upstream
+=======
+"Une fois le pare-feu du vaisseau brisé, ce n'est qu'une question de temps avant que vous ne puissiez prendre le contrôle de l'intégralité du vaisseau. La forge miraculeuse à l'intérieur est toujours intacte, mais l'état endommagé du vaisseau signifie que vous n'en tirerez probablement qu'un seul équipement avant que le vaisseau ne se désagrège sous la contrainte.\n"
+"\t\n"
+"\tVous trouvez également une sorte d'étrange appareil cubique en fouillant l'usine. S'il est cassé, vous pourriez le réparer avec un puissant drone de maintenance."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:202
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/text"
 msgstr ""
 
@@ -299,6 +535,23 @@ msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[1]/text"
 msgstr "Fabriquer une arme ou un drone du Commonwealth."
 
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[1]/text"
+msgstr "Fabriquez une arme ou un drone du Commonwealth."
+
+#: src-en/data/events_sector_obelisk.xml.append:209
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/text"
+msgstr "Démantelez le vaisseau."
+
+#: src-en/data/events_sector_obelisk.xml.append:211
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[2]/event/text"
+msgstr ""
+"Vous décidez de récupérer l'ancien Auto-vaisseau, vous contentant de la "
+"ferraille de base que vous pouvez en récupérer."
+
+>>>>>>> Stashed changes
 #: src-en/data/events_sector_obelisk.xml.append:214
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[2]/text"
@@ -311,6 +564,7 @@ msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:219
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[2]/event/choice/text"
 msgstr ""
 
@@ -318,11 +572,21 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
 msgstr "(Corps du Commonwealth) Tenter de réparer le cadavre."
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
+msgstr "(Corps du Commonwealth) Tentez de réparer le cadavre."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:227
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
+=======
+"L'usine a du mal à scanner l'équipage, probablement parce qu'elle a été si gravement endommagée, mais elle parvient finalement à les ramener à la vie... mais seulement pour un instant avant que son logiciel interne ne plante. Tout ce qui est nécessaire pour réparer le cadavre dépasse les capacités de réparation de l'usine.\n"
+"\t\n"
+"\t\t\t\tÉtrangement, peu après que le Commonwealth soit momentanément revenu à la vie, une étrange anomalie apparaît sur vos capteurs, qui semble correspondre aux signatures énergétiques que le corps émettait avant de s'éteindre. Peut-être que celui qui émet ces signatures peut ramener le corps à la vie de façon permanente ?"
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:236
 msgid ""
@@ -335,19 +599,41 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
+=======
+"La réparation prend beaucoup de temps car l'appareil est très endommagé. "
+"Finalement, avec beaucoup de manœuvres délicates, votre Reconstructeur "
+"parvient à reconstruire entièrement l'appareil cassé. Au moment de son "
+"activation, vous recevez un étrange signal provenant d'un endroit du secteur"
+" où vos capteurs viennent d'identifier un pic d'énergie massif. Quoi qu'il y"
+" ait là, cela doit être important."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:247
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY\"]/text"
 msgstr ""
+<<<<<<< Updated upstream
+=======
+"Vous touchez l'appareil et il s'anime soudainement. Au moment de son "
+"activation, vous recevez un étrange signal provenant d'un point du secteur "
+"où vos capteurs viennent d'identifier un pic d'énergie massif. Quoi qu'il y "
+"ait là, cela doit être important."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:249
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_NO_DAISY\"]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
+=======
+"Vous franchissez les pare-feu de la forge, déterminant ce que vous pouvez "
+"construire."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:257
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/text"
 msgstr ""
 
@@ -371,30 +657,84 @@ msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[1]/text"
 msgstr "Construire un Proto-Cognitif."
 
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/text"
+msgstr "Construisez un Proto-Cognitif."
+
+#: src-en/data/events_sector_obelisk.xml.append:262
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[1]/event/text"
+msgstr ""
+"Alors que votre nouvel allié sort de la forge, légèrement confus, l'ancien "
+"Auto-vaisseau commence à s'effondrer, ne devenant plus qu'une épave inutile."
+" Le Cognitif s'éloigne et rejoint votre équipage !"
+
+#: src-en/data/events_sector_obelisk.xml.append:266
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/text"
+msgstr "Construisez un Augure du Commonwealth."
+
+#: src-en/data/events_sector_obelisk.xml.append:273
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[2]/event/text"
+msgstr ""
+"Alors que la nouvelle arme sort de la forge, l'ancien Auto-vaisseau commence"
+" à s'effondrer, ne devenant plus qu'une épave inutile. Vous embarquez "
+"l'arme."
+
+#: src-en/data/events_sector_obelisk.xml.append:277
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[3]/text"
+msgstr "Construisez un Canon Plasmatique du Commonwealth."
+
+>>>>>>> Stashed changes
 #: src-en/data/events_sector_obelisk.xml.append:284
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[1]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:288
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[2]/text"
 msgstr "Construire un Augure du Commonwealth."
+=======
+"Alors que la nouvelle arme sort de la forge, l'ancien Auto-vaisseau commence"
+" à s'effondrer, ne devenant plus qu'une épave inutile. Vous embarquez "
+"l'arme."
+
+#: src-en/data/events_sector_obelisk.xml.append:288
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[4]/text"
+msgstr "Construisez une Charge utile du Commonwealth."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:295
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[2]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:299
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[3]/text"
 msgstr "Construire un Canon Plasmatique du Commonwealth."
+=======
+"Alors que la nouvelle arme sort de la forge, l'ancien Auto-vaisseau commence"
+" à s'effondrer, ne devenant plus qu'une épave inutile. Vous embarquez "
+"l'arme."
+
+#: src-en/data/events_sector_obelisk.xml.append:299
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[5]/text"
+msgstr "Construisez un Augure Lourd du Commonwealth."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:306
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[3]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:310
 msgid ""
@@ -421,20 +761,69 @@ msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[6]/text"
 msgstr "Construire un Éradicateur du Commonwealth."
 
+=======
+"Alors que la nouvelle arme sort de la forge, l'ancien Auto-vaisseau commence"
+" à s'effondrer, ne devenant plus qu'une épave inutile. Vous embarquez "
+"l'arme."
+
+#: src-en/data/events_sector_obelisk.xml.append:310
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/text"
+msgstr "Construisez un Éradicateur du Commonwealth."
+
+#: src-en/data/events_sector_obelisk.xml.append:316
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[6]/event/text"
+msgstr ""
+"Alors que la nouvelle arme sort de la forge, l'ancien Auto-vaisseau commence"
+" à s'effondrer, ne devenant plus qu'une épave inutile. Vous embarquez "
+"l'arme."
+
+#: src-en/data/events_sector_obelisk.xml.append:320
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/text"
+msgstr "Construisez un Purificateur du Commonwealth."
+
+#: src-en/data/events_sector_obelisk.xml.append:327
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[7]/event/text"
+msgstr ""
+"Alors que la nouvelle arme sort de la forge, l'ancien Auto-vaisseau commence"
+" à s'effondrer, ne devenant plus qu'une épave inutile. Vous embarquez "
+"l'arme."
+
+#: src-en/data/events_sector_obelisk.xml.append:331
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[8]/text"
+msgstr "Construisez un Carnage du Commonwealth."
+
+>>>>>>> Stashed changes
 #: src-en/data/events_sector_obelisk.xml.append:338
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[6]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:342
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[7]/text"
 msgstr "Construire un Purificateur du Commonwealth."
+=======
+"Alors que la nouvelle arme sort de la forge, l'ancien Auto-vaisseau commence"
+" à s'effondrer, ne devenant plus qu'une épave inutile. Vous embarquez "
+"l'arme."
+
+#: src-en/data/events_sector_obelisk.xml.append:342
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[9]/text"
+msgstr "Construisez un Assaut du Commonwealth."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:349
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[7]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:353
 msgid ""
@@ -461,73 +850,188 @@ msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[10]/text"
 msgstr "Construire un Drone de Carnage du Commonwealth."
 
+=======
+"Alors que la nouvelle arme sort de la forge, l'ancien Auto-vaisseau commence"
+" à s'effondrer, ne devenant plus qu'une épave inutile. Vous embarquez "
+"l'arme."
+
+#: src-en/data/events_sector_obelisk.xml.append:353
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/text"
+msgstr "Construisez un Drone Carnage du Commonwealth."
+
+#: src-en/data/events_sector_obelisk.xml.append:361
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[10]/event/text"
+msgstr ""
+"Alors que le nouveau schéma de drone sort de la forge, l'ancien Auto-"
+"vaisseau commence à s'effondrer, ne devenant plus qu'une épave inutile. Vous"
+" embarquez le drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:365
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/text"
+msgstr "Construisez un Drone Phaseur du Commonwealth."
+
+#: src-en/data/events_sector_obelisk.xml.append:372
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[11]/event/text"
+msgstr ""
+"Alors que le nouveau schéma de drone sort de la forge, l'ancien Auto-"
+"vaisseau commence à s'effondrer, ne devenant plus qu'une épave inutile. Vous"
+" embarquez le drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:376
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[12]/text"
+msgstr "Construisez un Drone Purificateur du Commonwealth."
+
+>>>>>>> Stashed changes
 #: src-en/data/events_sector_obelisk.xml.append:383
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[10]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:387
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[11]/text"
 msgstr "Construire un Drone Phaseur du Commonwealth."
+=======
+"Alors que le nouveau schéma de drone sort de la forge, l'ancien Auto-"
+"vaisseau commence à s'effondrer, ne devenant plus qu'une épave inutile. Vous"
+" embarquez le drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:387
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[13]/text"
+msgstr "Construisez un Surveillant du Commonwealth."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:394
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[11]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:398
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[12]/text"
 msgstr "Construire un Drone Purificateur du Commonwealth."
+=======
+"Alors que le nouveau schéma de drone sort de la forge, l'ancien Auto-"
+"vaisseau commence à s'effondrer, ne devenant plus qu'une épave inutile. Vous"
+" embarquez le drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:398
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[14]/text"
+msgstr "Construisez un Drone Augure du Commonwealth."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:405
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[12]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:409
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[13]/text"
 msgstr "Construire un Surveillant du Commonwealth."
+=======
+"Alors que le nouveau schéma de drone sort de la forge, l'ancien Auto-"
+"vaisseau commence à s'effondrer, ne devenant plus qu'une épave inutile. Vous"
+" embarquez le drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:409
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[15]/text"
+msgstr "Construisez un Proto-Directeur."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:416
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[13]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:420
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[14]/text"
 msgstr "Construire un Drone Augure du Commonwealth."
+=======
+"Alors que le nouveau schéma de drone sort de la forge, l'ancien Auto-"
+"vaisseau commence à s'effondrer, ne devenant plus qu'une épave inutile. Vous"
+" embarquez le drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:420
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[16]/text"
+msgstr "Construisez un Proto-Atomiseur."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:427
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[14]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:431
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[15]/text"
 msgstr "Construire un Proto-Directeur."
+=======
+"Alors que le nouveau schéma de drone sort de la forge, l'ancien Auto-"
+"vaisseau commence à s'effondrer, ne devenant plus qu'une épave inutile. Vous"
+" embarquez le drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:431
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[17]/text"
+msgstr "Construisez un Proto-Reconstructeur."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:438
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[15]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
 
 #: src-en/data/events_sector_obelisk.xml.append:442
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[16]/text"
 msgstr "Construire un Proto-Atomiseur."
+=======
+"Alors que le nouveau schéma de drone sort de la forge, l'ancien Auto-"
+"vaisseau commence à s'effondrer, ne devenant plus qu'une épave inutile. Vous"
+" embarquez le drone."
+
+#: src-en/data/events_sector_obelisk.xml.append:442
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/text"
+msgstr "Aucun de ceux-ci ne sera utile. Démantelez le vaisseau."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:449
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[16]/event/text"
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/event/text"
+msgstr ""
+"Vous décidez de récupérer l'ancien Auto-vaisseau, vous contentant de la "
+"ferraille de base que vous pouvez en récupérer."
+
+#: src-en/data/events_sector_obelisk.xml.append:447
+msgid ""
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[18]/event/choice/text"
+>>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_sector_obelisk.xml.append:453
 msgid ""
+<<<<<<< Updated upstream
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[17]/text"
 msgstr "Construire un Proto-Reconstructeur."
 
@@ -555,11 +1059,21 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
 msgstr "(Corps du Commonwealth) Tenter de réparer le cadavre."
+=======
+"data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_AUTO_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/text"
+msgstr "(Corps du Commonwealth) Tentez de réparer le cadavre."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:477
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
+=======
+"L'usine a du mal à scanner l'équipage, probablement parce qu'elle a été si gravement endommagée, mais elle parvient finalement à les ramener à la vie... mais seulement pour un instant avant que son logiciel interne ne plante. Tout ce qui est nécessaire pour réparer le cadavre dépasse les capacités de réparation de l'usine.\n"
+"\t\n"
+"\t\t\tÉtrangement, peu après que le Commonwealth soit momentanément revenu à la vie, une étrange anomalie apparaît sur vos capteurs, qui semble correspondre aux signatures énergétiques que le corps émettait avant de s'éteindre. Peut-être que celui qui émet ces signatures peut ramener le corps à la vie de façon permanente ?"
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:486
 msgid ""
@@ -570,6 +1084,15 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_REQUIREMENT_MANDER_BROKEN_DEVICE\"]/event/text"
 msgstr ""
+<<<<<<< Updated upstream
+=======
+"La réparation prend beaucoup de temps car l'appareil est très endommagé. "
+"Finalement, avec beaucoup de manœuvres délicates, votre Reconstructeur "
+"parvient à reconstruire entièrement l'appareil cassé. Au moment de son "
+"activation, vous recevez un étrange signal provenant d'un endroit du secteur"
+" où vos capteurs viennent d'identifier un pic d'énergie massif. Quoi qu'il y"
+" ait là, cela doit être important."
+>>>>>>> Stashed changes
 
 #: src-en/data/events_sector_obelisk.xml.append:497
 msgid ""
@@ -595,3 +1118,10 @@ msgstr ""
 msgid ""
 "data/events_sector_obelisk.xml.append$//event[@name=\"FR_COMMONWEALTH_CRUISER_WIN_FORGE\"]/choice[@req=\"FR_COMMONWEALTH_PORTAL_OPENED_AND_DAISY\"]/event/crewMember"
 msgstr ""
+<<<<<<< Updated upstream
+=======
+"Vous touchez l'appareil et il s'anime soudainement. Au moment de son "
+"activation, vous recevez un étrange signal provenant d'un point du secteur "
+"où vos capteurs viennent d'identifier un pic d'énergie massif. Quoi qu'il y "
+"ait là, cela doit être important."
+>>>>>>> Stashed changes

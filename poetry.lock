@@ -387,14 +387,23 @@ files = [
 
 [[package]]
 name = "google-auth"
+<<<<<<< Updated upstream
 version = "2.52.0"
+=======
+version = "2.53.0"
+>>>>>>> Stashed changes
 description = "Google Authentication Library"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
+<<<<<<< Updated upstream
     {file = "google_auth-2.52.0-py3-none-any.whl", hash = "sha256:aee92803ba0ff93a70a3b8a35c7b4797837751cd6380b63ff38372b98f3ed627"},
     {file = "google_auth-2.52.0.tar.gz", hash = "sha256:01f30e1a9e3638698d89464f5e603ce29d18e1c0e63ec31ac570aba4e164aaf5"},
+=======
+    {file = "google_auth-2.53.0-py3-none-any.whl", hash = "sha256:6e7449917c599b35126a99ec268ec6880301f2fea41dce198fe8fd83ff642b68"},
+    {file = "google_auth-2.53.0.tar.gz", hash = "sha256:e7e6aa16f6bee7b2b264830fd04f08087a1d5a836df516251a5d15327b246c9c"},
+>>>>>>> Stashed changes
 ]
 
 [package.dependencies]
@@ -684,7 +693,11 @@ requests = "^2.31.0"
 type = "git"
 url = "https://github.com/ftl-mv-translation/mvloc.git"
 reference = "HEAD"
+<<<<<<< Updated upstream
 resolved_reference = "a1cd6d2ee090df9e4bd697acf1b7d3dec31332e1"
+=======
+resolved_reference = "3876e6e0241c9d989e907fa30f33ce21cd14ac71"
+>>>>>>> Stashed changes
 
 [[package]]
 name = "polib"
@@ -991,14 +1004,23 @@ all = ["numpy"]
 
 [[package]]
 name = "requests"
+<<<<<<< Updated upstream
 version = "2.34.1"
+=======
+version = "2.34.2"
+>>>>>>> Stashed changes
 description = "Python HTTP for Humans."
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
+<<<<<<< Updated upstream
     {file = "requests-2.34.1-py3-none-any.whl", hash = "sha256:bf38a3ff993960d3dd819c08862c40b3c703306eb7c744fcd9f4ddbb95b548f0"},
     {file = "requests-2.34.1.tar.gz", hash = "sha256:0fc5669f2b69704449fe1552360bd2a73a54512dfd03e65529157f1513322beb"},
+=======
+    {file = "requests-2.34.2-py3-none-any.whl", hash = "sha256:2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"},
+    {file = "requests-2.34.2.tar.gz", hash = "sha256:f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed"},
+>>>>>>> Stashed changes
 ]
 
 [package.dependencies]
