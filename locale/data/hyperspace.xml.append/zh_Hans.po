@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-17 05:05+0000\n"
+"PO-Revision-Date: 2026-05-18 03:06+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datahyperspace-xml-append/zh_Hans/>\n"
@@ -1247,7 +1247,7 @@ msgstr ""
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_unique_sammy\"]/powerEffect/buttonText"
-msgstr "变换旋律"
+msgstr "变换模式"
 
 #: src-en/data/hyperspace.xml.append:4490
 msgid ""
@@ -1261,7 +1261,7 @@ msgstr ""
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_unique_sammy_buff\"]/powerEffect/buttonText"
-msgstr "变换旋律"
+msgstr "变换模式"
 
 #: src-en/data/hyperspace.xml.append:4558
 msgid ""
@@ -1335,13 +1335,12 @@ msgid ""
 msgstr "本我模式"
 
 #: src-en/data/hyperspace.xml.append:4998
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_proto_cognitive\"]/powerEffect/tooltip"
 msgstr ""
 "冷却：30秒\n"
-"\t\t\t切换自动模式。认知体将无法被控制，但其所有属性值都将获得巨大提升。"
+"\t\t切换自动模式。认知体将无法被控制，但其所有属性值都将获得巨大提升。"
 
 #: src-en/data/hyperspace.xml.append:5045
 msgid ""
@@ -1350,13 +1349,12 @@ msgid ""
 msgstr "控制模式"
 
 #: src-en/data/hyperspace.xml.append:5046
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_proto_cognitive_automated\"]/powerEffect/tooltip"
 msgstr ""
 "冷却：30秒\n"
-"\t\t\t切换可控模式。你将完全掌控认知体，但其强化属性会消失。"
+"\t\t切换可控模式。你将完全掌控认知体，但其强化属性会消失。"
 
 #: src-en/data/hyperspace.xml.append:5112
 msgid ""
@@ -1384,11 +1382,13 @@ msgstr "当前处于自动模式。当飞船跃迁到另一个信标或扇区时
 
 #: src-en/data/hyperspace.xml.append:5600
 msgid "data/hyperspace.xml.append$//powerEffect[@name=\"fr_g_power\"]/buttonText"
-msgstr ""
+msgstr "飞升"
 
 #: src-en/data/hyperspace.xml.append:5601
 msgid "data/hyperspace.xml.append$//powerEffect[@name=\"fr_g_power\"]/tooltip"
 msgstr ""
+"【冷却时间：30秒 持续时间：10秒】\n"
+"\t\t完全免疫所有伤害，持续10秒，但自身造成的伤害降低80%。"
 
 #: src-en/data/hyperspace.xml.append:5684
 msgid ""
@@ -1399,6 +1399,8 @@ msgstr "狂暴"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_aleenor_power\"]/tooltip"
 msgstr ""
+"【冷却时间：30秒】\n"
+"\t\t\t对附近敌方船员造成40点伤害，并对系统造成2点伤害，100%几率造成破舱。"
 
 #: src-en/data/hyperspace.xml.append:5780
 msgid ""
@@ -1408,6 +1410,8 @@ msgstr "修理"
 #: src-en/data/hyperspace.xml.append:5781
 msgid "data/hyperspace.xml.append$//powerEffect[@name=\"fr_cleo_power\"]/tooltip"
 msgstr ""
+"【冷却时间：30秒 持续时间：10秒】\n"
+"在10秒内，为与克里奥同处一室的无人机每秒恢复10点生命值。"
 
 #: src-en/data/hyperspace.xml.append:5857
 msgid ""
@@ -1415,12 +1419,12 @@ msgid ""
 msgstr "吞噬"
 
 #: src-en/data/hyperspace.xml.append:5858
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_slimer_heal_power\"]/tooltip"
 msgstr ""
 "[冷却：10秒]\n"
-"\t\t\t造成1点船体伤害，完全摧毁系统并破坏房间。无法在敌方舰船内使用。"
+"\t\t\t造成1点船体伤害，完全摧毁系统并破坏房间，同时完全治愈粘稠者。无法在敌方"
+"舰船内使用。"
 
 #: src-en/data/hyperspace.xml.append:5870
 msgid ""
@@ -1433,6 +1437,8 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_reborn_slimer\"]/powerEffect[@name=\"fr_slimer_damage_power\"]/tooltip"
 msgstr ""
+"【冷却时间：20秒】\n"
+"吞噬附近所有敌方船员，造成40点伤害，房间内每有一个敌人治愈自身30点生命值。"
 
 #: src-en/data/hyperspace.xml.append:5927
 msgid ""
@@ -1442,6 +1448,9 @@ msgstr "电击"
 #: src-en/data/hyperspace.xml.append:5928
 msgid "data/hyperspace.xml.append$//powerEffect[@name=\"fr_phys_power\"]/tooltip"
 msgstr ""
+"【冷却时间：25秒】\n"
+"\t\t\t猛烈释放离子能量。造成5点离子伤害，击晕房内所有其他单位，并完全修复系统"
+"。"
 
 #: src-en/data/hyperspace.xml.append:6001
 msgid ""
@@ -1464,6 +1473,8 @@ msgstr "FUSION"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_vin_fire_power\"]/tooltip"
 msgstr ""
+"【冷却时间：15秒】\n"
+"\t\t\t在当前房间内纵火。"
 
 #: src-en/data/hyperspace.xml.append:6143
 msgid ""
@@ -1485,16 +1496,22 @@ msgstr "封锁"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_frostwall_power\"]/tooltip"
 msgstr ""
+"【冷却时间：20秒 消耗：35生命值】\n"
+"\t\t\t封锁当前房间，自身消耗35点生命值，将房内所有非冰系船员冻结5秒，使其无法"
+"行动，但期间受到的伤害减少50%。此封锁持续时间延长至正常的两倍，且冰块碎片拥有"
+"两倍的生命值。"
 
 #: src-en/data/hyperspace.xml.append:6383
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_deathbloom_power\"]/buttonText"
-msgstr ""
+msgstr "死亡之云"
 
 #: src-en/data/hyperspace.xml.append:6384
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_deathbloom_power\"]/tooltip"
 msgstr ""
+"【冷却时间：45秒 持续时间：10秒】\n"
+"\t\t\t以致命孢子侵染当前房间，每秒吸取房内敌方10点生命值。"
 
 #: src-en/data/hyperspace.xml.append:6413
 msgid ""
@@ -1517,6 +1534,9 @@ msgstr "腐化"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_charror_power\"]/tooltip"
 msgstr ""
+"【冷却时间：45秒 持续时间：20秒】\n"
+"\t\t\t腐化附近的机械船员与无人机，将其完全冻结20秒，并使它们在此期间受到的伤"
+"害减半。"
 
 #: src-en/data/hyperspace.xml.append:6711
 msgid ""
@@ -1526,6 +1546,10 @@ msgstr "融合"
 #: src-en/data/hyperspace.xml.append:6712
 msgid "data/hyperspace.xml.append$//powerEffect[@name=\"fr_leo_power\"]/tooltip"
 msgstr ""
+"【冷却时间：30秒 持续时间：10秒】\n"
+"骇入所在房间的门禁系统，持续10秒。在此期间，他的破坏伤害提升至5倍，每秒对房间"
+"内的敌人造成1.5点伤害，并进入隐形状态，但代价是受到三倍伤害，且无法战斗或移动"
+"。"
 
 #: src-en/data/hyperspace.xml.append:6827
 msgid ""
@@ -1567,10 +1591,11 @@ msgstr ""
 "\t\t\t\t呼叫联邦舰队进行1次炸弹支援，打击敌舰的系统与船员。"
 
 #: src-en/data/hyperspace.xml.append:7071
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_ghost_tully\"]/powerEffect[3]/buttonText"
-msgstr ""
+msgstr "紧急打击"
 
 #: src-en/data/hyperspace.xml.append:7072
 msgid ""
