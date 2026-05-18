@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-18 03:06+0000\n"
+"PO-Revision-Date: 2026-05-18 11:19+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -11834,11 +11834,11 @@ msgstr "霜晶壁垒的寒冰装甲"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FROZEN_CRYSTAL_ARMOR\"]/desc"
 msgstr ""
-"船体由晶态基底、灵质与少量纯粹熵体碳化压层而成，流光溢彩。受击时，船体将发射"
-"一枚无法闪避、穿透所有护盾、必引发火灾的2点伤害晶片，且多数防御无人机无法侦测"
-"此攻击。\n"
+"船体由晶态基底、灵质与少量纯粹熵体碳化压层而成，流光溢彩。当这艘船受到伤害时"
+"，它会发射一枚水晶碎片，造成 1 点伤害，封锁舱室，穿透 2 层护盾，且多数防御无"
+"人机无法侦测此攻击。\n"
 "\n"
-"\t此外，该镀层本身提供20%的系统损伤抵抗几率。"
+"\t此外，该镀层本身提供50%的系统损伤抵抗几率。"
 
 #: src-en/data/blueprints.xml.append:18074
 msgid ""
@@ -11849,11 +11849,11 @@ msgstr "霜晶壁垒的寒冰装甲（敌方）"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_FROZEN_CRYSTAL_ARMOR_ENEMY\"]/desc"
 msgstr ""
-"船体由晶态基底、灵质与少量纯粹熵体碳化压层而成，流光溢彩。受击时，船体将发射"
-"一枚无法闪避、穿透所有护盾、必引发火灾的2点伤害晶片，且多数防御无人机无法侦测"
-"此攻击。\n"
+"船体由晶态基底、灵质与少量纯粹熵体碳化压层而成，流光溢彩。当这艘船受到伤害时"
+"，它会发射一枚水晶碎片，造成 1 点伤害，封锁舱室，穿透 2 层护盾，且多数防御无"
+"人机无法侦测此攻击。\n"
 "\n"
-"\t此外，该镀层本身提供20%的系统损伤抵抗几率。"
+"\t此外，该镀层本身提供50%的系统损伤抵抗几率。"
 
 #: src-en/data/blueprints.xml.append:18085
 msgid ""
@@ -12020,7 +12020,7 @@ msgstr ""
 "这项革命性技术使你能够被动生成多层能量护盾，其最大层数由你的护盾系统等级决定"
 "。\n"
 "\t\t\n"
-"\t护盾层的再生速度受护盾充能速度与操作船员的技能等级共同影响。\n"
+"\t护盾层的再生速度受护盾充能速度与船员的护盾技能等级共同影响。\n"
 "\t\t\n"
 "\t该适配器能耗极高，会使常规护盾的充能速率减半。"
 
@@ -12044,7 +12044,8 @@ msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SELF_AWARE_COGNITIVE_INTELLIGENCE\"]/desc"
 msgstr ""
 "自我意识认知体智能（S.A.C.I）是有史以来最先进且尚未经过充分测试的AI模块之一。"
-"安装此模块的舰船将自动以2级技能水平操控所有系统。"
+"安装此模块的舰船将自动以2级技能水平操控所有系统，同时还增强手动控制巨炮时的权"
+"限，且无任何负面效果。"
 
 #: src-en/data/blueprints.xml.append:18243
 msgid ""
@@ -12055,8 +12056,9 @@ msgstr "湮灭力场"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ANNIHILATION_GRID\"]/desc"
 msgstr ""
-"军团士兵打造的尖端解放力场，通过以太强化了常规性能。敌方登船单位会每秒损失10"
-"点生命值，丧失无视舱门或传送移动的能力，并对舱门造成的伤害减半。"
+"军团士兵打造的尖端解放力场，通过以太强化了常规性能，不过其效果尚未能进行广泛"
+"测试。敌方登船单位会每秒损失10点生命值，丧失无视舱门或传送移动的能力，并对舱"
+"门造成的伤害减半。"
 
 #: src-en/data/blueprints.xml.append:18252
 msgid ""
@@ -12306,7 +12308,7 @@ msgstr "你船上不可控制的非机械异形船员，在与友方人类船员
 #: src-en/data/blueprints.xml.append:18473
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CLOAK_OF_DARKNESS\"]/title"
-msgstr "黑暗笼罩"
+msgstr "暗黑斗篷"
 
 #: src-en/data/blueprints.xml.append:18474
 msgid ""
@@ -12327,9 +12329,10 @@ msgstr ""
 
 #: src-en/data/blueprints.xml.append:18491
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHADOW_MIST\"]/title"
-msgstr "黑暗笼罩"
+msgstr "暗影迷雾"
 
 #: src-en/data/blueprints.xml.append:18492
+#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHADOW_MIST\"]/desc"
 msgstr ""
 "你的船员为登上这艘飞船已出卖灵魂，以此换来极致的力量，但也付出了代价。只要同"
@@ -12337,7 +12340,7 @@ msgstr ""
 "\t\t\n"
 "然而，代价同样骇人。你船员的生命值被设定为 10 点，且无法以任何方式提升。\n"
 "\n"
-"异界存在与机械船员不受此装置影响。"
+"怪异造物与机械船员不受此装置影响。"
 
 #: src-en/data/blueprints.xml.append:18504
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_PANIC_ATTACK\"]/title"
@@ -12429,7 +12432,7 @@ msgstr "电磁机械臂"
 #: src-en/data/blueprints.xml.append:18574
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_ELECTROMAGNETIC\"]/desc"
-msgstr "战斗前，你可启动此臂使敌方命中率降低10%，代价是失去感应器与黑客系统功能。"
+msgstr "战斗前，你可以激活此机械臂，以牺牲你的传感器为代价，使敌方命中率降低 10%。"
 
 #: src-en/data/blueprints.xml.append:18581
 msgid ""
@@ -12440,8 +12443,8 @@ msgstr "武器拆卸臂"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_WEAPON\"]/desc"
 msgstr ""
-"战斗前，你可启动此臂移除敌方一件武器，代价是消耗8点反应堆能量。使用此臂有"
-"10%概率根据被拆解武器的能耗（每格能量需求）获得10点废料。"
+"战斗前，你可启动此臂移除敌方一件武器，代价是消耗8点反应堆能量。同时，根据被禁"
+"用武器所需的能量数，每 1 点能量有 10% 的几率获得 10 点废料。"
 
 #: src-en/data/blueprints.xml.append:18589
 msgid ""
@@ -12461,7 +12464,7 @@ msgstr "星舰零件回收臂"
 #: src-en/data/blueprints.xml.append:18598
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_ARM_SHIP\"]/desc"
-msgstr "每当船体受损时，可获得0到2点废料的补偿。"
+msgstr "受到舰体伤害时，你会获得 0-2 点废料。"
 
 #: src-en/data/blueprints.xml.append:18605
 msgid ""
@@ -12575,8 +12578,8 @@ msgstr "特种弹药升级"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_WEAPONS_STATUS\"]/desc"
 msgstr ""
-"武器与无人机若具备造成火灾或舱体破损的几率，则引发火灾或舱体破损的几率提升"
-"10%。当破损几率超过100%时可能引发额外破损。调整后的数值不会在描述中显示。"
+"武器与无人机若具备造成火灾或舱体破舱的几率，则引发火灾或舱体破损的几率提升"
+"10%。当破舱几率超过100%时可能引发额外破损。调整后的数值不会在描述中显示。"
 
 #: src-en/data/blueprints.xml.append:18701
 msgid ""
@@ -12597,7 +12600,7 @@ msgstr "超频机构升级"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_WEAPONS_BOOST\"]/desc"
 msgstr ""
-"所有非光束武器与舰炮，若其本身具备相应属性，则额外造成1点船体、系统与离子伤害"
+"所有非光束武器与巨炮，若其本身具备相应属性，则额外造成1点船体、系统与离子伤害"
 "；若其本身造成船员伤害，则额外造成15点船员伤害。光束武器额外穿透1层护盾。此额"
 "外伤害不会在武器属性中显示。"
 
@@ -12689,7 +12692,9 @@ msgstr "充能干扰器升级"
 #: src-en/data/blueprints.xml.append:18792
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_CLOAK_CHARGE\"]/desc"
-msgstr "隐形期间，敌方武器充能将缓慢流失，流失速度为：每秒损失0.5秒的充能进度。"
+msgstr ""
+"当你处于隐形状态时，敌方武器充能将缓慢流失，流失速度为：每秒损失0.5秒的充能进"
+"度。"
 
 #: src-en/data/blueprints.xml.append:18800
 msgid ""
@@ -12709,7 +12714,7 @@ msgstr "传送充能升级"
 #: src-en/data/blueprints.xml.append:18810
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TELEPORTER_POWER\"]/desc"
-msgstr "船员通过传送系统登敌舰后，其技能将完全重置冷却。"
+msgstr "船员通过传送系统登敌舰后，其技能将完全恢复充能。"
 
 #: src-en/data/blueprints.xml.append:18818
 msgid ""
@@ -12759,7 +12764,7 @@ msgstr "先进纳米防护机升级"
 #: src-en/data/blueprints.xml.append:18855
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MEDBAY_NANO\"]/desc"
-msgstr "当医疗舱供能达到至少3级时，船员承受伤害降低10%。"
+msgstr "当医疗舱供能达到至少3级时，船员承受的所有伤害降低10%。"
 
 #: src-en/data/blueprints.xml.append:18863
 msgid ""
@@ -12779,7 +12784,7 @@ msgstr "快速止痛剂升级"
 #: src-en/data/blueprints.xml.append:18873
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MEDBAY_POWER\"]/desc"
-msgstr "你的船员获得能力：每次跳跃后可快速自我治疗20点生命值一次。"
+msgstr "你的所有船员获得能力：每次跳跃后可快速自我治疗20点生命值一次。"
 
 #: src-en/data/blueprints.xml.append:18881
 msgid ""
@@ -12810,8 +12815,8 @@ msgstr "心灵控制升级"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_MIND_DEBUFF\"]/desc"
 msgstr ""
-"被心灵控制的友方单位造成0.5倍船员伤害与破坏伤害，而被精神控制的敌方单位则造成"
-"2倍船员伤害与破坏伤害。"
+"受心灵控制的友方单位造成 0.5 倍伤害，破坏速度降低 0.5 倍；受心灵控制的敌方单"
+"位造成 2 倍伤害，破坏速度提升 2 倍。"
 
 #: src-en/data/blueprints.xml.append:18908
 msgid ""
@@ -12871,9 +12876,7 @@ msgstr "星舰时间扭曲升级"
 #: src-en/data/blueprints.xml.append:18954
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_TEMPORAL_GLOBAL\"]/desc"
-msgstr ""
-"降低敌方舰船以下功能5%：武器充能速度与护盾充能速率。同时，将其跃迁充能时间延"
-"长50%。"
+msgstr "敌方舰船的武器与护盾充能速度降低 5%，超光速引擎充能速度降低 50%。"
 
 #: src-en/data/blueprints.xml.append:18962
 msgid ""
@@ -12883,7 +12886,7 @@ msgstr "供能船员升级"
 #: src-en/data/blueprints.xml.append:18963
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_BATTERY_POWER\"]/desc"
-msgstr "能提供能量的船员现在会提供双倍能量。"
+msgstr "如果你的某位船员为自身所在的系统提供能量，该能量将会翻倍。"
 
 #: src-en/data/blueprints.xml.append:18971
 msgid ""
@@ -12903,7 +12906,7 @@ msgstr "临时舱格升级"
 #: src-en/data/blueprints.xml.append:18981
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NEXUS_DOORS_GRID\"]/desc"
-msgstr "敌方登舰单位每秒损失2点生命值，每级舱门升级额外增加1点伤害。"
+msgstr "敌方登舰单位每秒损失2点生命值，舱门系统每升 1 级，每秒额外损失 1 点生命值。"
 
 #: src-en/data/blueprints.xml.append:18989
 msgid ""
@@ -12971,10 +12974,7 @@ msgid ""
 msgstr ""
 "一项能增强光束与光点类武器及巨炮威力的尖端科技。\n"
 "\t\t\n"
-"\t此类武器将获得穿透所有护盾的能力，并在原伤害基础上额外造成1点所有类型的伤害"
-"，若原含船员伤害则提升15点。 \n"
-"\t\n"
-"\t额外伤害不会在武器属性面板显示。"
+"\t此类武器将获得穿透所有护盾的能力，额外的穿透不会显示在武器的属性面板中。"
 
 #: src-en/data/blueprints.xml.append:19049
 msgid ""
@@ -12987,7 +12987,7 @@ msgid ""
 msgstr ""
 "一项能增强光束与光点类武器及巨炮威力的尖端科技。\n"
 "\t\t\n"
-"\t此类武器在原伤害基础上额外造成1点所有类型的伤害，若原含船员伤害则提升15点"
+"\t此类武器在原伤害基础上额外造成2点所有类型的伤害，若原含船员伤害则提升30点"
 "。 \n"
 "\t\n"
 "\t额外伤害不会在武器属性面板显示。"
@@ -12999,8 +12999,8 @@ msgstr "光束武器商人热线"
 #: src-en/data/blueprints.xml.append:19063
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_BEAM_STORE\"]/desc"
 msgstr ""
-"允许你访问一个特殊商店。该商店每次被召唤时，会提供3款随机的光束类或精准射击类"
-"武器，且每款均以半价出售。\n"
+"允许你访问一个特殊商店。该商店每次被召唤时，都会提供 3 件随机光束或光点武器，"
+"以及 3 架随机光束或光点无人机，每架均享受 45% 的折扣。\n"
 "\t\t\n"
 "\t任何非巨炮型的光束武器均有可能在此商店中出现。"
 
@@ -13186,8 +13186,8 @@ msgstr "被劫持的全域干扰仪"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMBAT_HACKED_OMNI_JAMMER\"]/desc"
 msgstr ""
-"采用枢纽技术的超规格系统压制单元。可在战斗开始时激活，使敌舰所有系统的能量上"
-"限被永久限制2格。"
+"采用联结点技术的超规格系统压制单元。可在战斗开始时激活，能够模拟每一种非全能"
+"系统干扰器的效果，及其对应的蓝色选项。"
 
 #: src-en/data/blueprints.xml.append:19241
 msgid ""
@@ -13806,7 +13806,7 @@ msgstr "[L] 松质外层"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_LAB_ROCK_SPEED\"]/desc"
 msgstr ""
-"岩石族获得75%移动速度加成，但治疗速率减半\n"
+"岩石族获得75%移动速度加成，但失去 12% 的最大生命值。\n"
 "\t\n"
 "[L] - 作为外部实验室升级，此增强装置将提供正常效果但占用一个增强槽。它无法转"
 "化为实际实验室升级，但不会占用主槽位，且不可叠加生效。"
@@ -15654,7 +15654,7 @@ msgstr "你的AI化身船员只占普通船员槽位的0.1倍。"
 #: src-en/data/blueprints.xml.append:21459
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"JUDGE_BOON_FR_EX_COMMONWEALTH_CREW\"]/title"
-msgstr "灭绝的祝福"
+msgstr "[B] 灭绝的祝福"
 
 #: src-en/data/blueprints.xml.append:21460
 msgid ""
@@ -15770,7 +15770,7 @@ msgstr "灭绝者"
 #: src-en/data/blueprints.xml.append:21744
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ELITE_OBELISK_FLAGSHIP\"]/unlock"
-msgstr "使用方碑旗舰系列的布局A摧毁灭绝者。"
+msgstr "使用方碑旗舰系列的任意布局，摧毁灭绝者并达成联合方碑结局。"
 
 #: src-en/data/blueprints.xml.append:21745
 msgid ""
@@ -15901,7 +15901,7 @@ msgstr "灵能者"
 #: src-en/data/blueprints.xml.append:22212
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_SPHERAX\"]/unlock"
-msgstr "探索多元宇宙中心某个被遗忘种族的遗迹。"
+msgstr "探索多元宇宙中心某个被遗忘种族的遗迹，以解锁这艘巡洋舰。"
 
 #: src-en/data/blueprints.xml.append:22213
 msgid ""
@@ -15961,7 +15961,7 @@ msgstr "绝对收敛"
 #: src-en/data/blueprints.xml.append:22446
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_PERFECTED\"]/unlock"
-msgstr "解锁基础多元宇宙与被遗忘种族中的所有方碑族舰船，包括特员舰。"
+msgstr "解锁方碑系列、联合方碑系列、安威斯系列以及安威斯特员星舰，以解锁这艘星舰。"
 
 #: src-en/data/blueprints.xml.append:22447
 msgid ""
@@ -16021,14 +16021,15 @@ msgstr "昔日荣光"
 #: src-en/data/blueprints.xml.append:22677
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BROKEN_COMMONWEALTH\"]/unlock"
-msgstr "解锁方碑族星舰系列的C型以解锁此舰船。"
+msgstr "设法入侵方碑领地深处那艘破损的星舰，以解锁此舰船。"
 
 #: src-en/data/blueprints.xml.append:22678
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_BROKEN_COMMONWEALTH\"]/desc"
 msgstr ""
 "这艘舰船曾由一支早在跨物种战争中消亡的第三方碑族分支运作。如今仅余几门奇特的"
-"巨炮、一名认知体，以及一具其创造者破碎的遗体。"
+"巨炮、一名认知体，以及一具其创造者破碎的遗体。不幸的是，它曾经伟大的熔炉已因"
+"岁月的流逝而严重损坏。"
 
 #: src-en/data/blueprints.xml.append:22757
 msgid ""
@@ -16071,8 +16072,8 @@ msgstr "向某具方碑族遗体咨询某件神器的事宜以解锁此舰船。
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_COMMONWEALTH\"]/desc"
 msgstr ""
-"典范之力被灌注到这些方碑之中，将它们从坟墓中复活。凭借联合方碑科技的辅佐，以"
-"及创造同族的能力，它们已准备好掀起前所未有的波澜。"
+"这艘星舰在联合方碑融入联邦阵营后，作为礼物赠予了联邦。凭借他们手中的联合方碑"
+"技术以及制造更多此类技术的能力，联邦已准备好掀起前所未有的波澜。"
 
 #: src-en/data/blueprints.xml.append:22917
 msgid ""
@@ -16692,7 +16693,7 @@ msgstr "太空实验室"
 #: src-en/data/blueprints.xml.append:25180
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_JON_CREWSER\"]/unlock"
-msgstr "寻求某位上将关于特定神器的建议，即可解锁此舰。"
+msgstr "寻求某位首席技师关于特定神器的建议，即可解锁此舰。"
 
 #: src-en/data/blueprints.xml.append:25181
 msgid ""
