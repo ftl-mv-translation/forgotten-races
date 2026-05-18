@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-18 11:19+0000\n"
+"PO-Revision-Date: 2026-05-18 20:20+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_special_multiversexmlappend/zh_Hans/>\n"
@@ -1573,7 +1573,7 @@ msgstr "献上贡品以避免战斗。"
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_EXTREME\"]/choice[@req=\"loc_sector_count\""
 " and @lvl=\"0\"]/event/text"
-msgstr ""
+msgstr "“检测到贡品。敌对系统：已关闭。予以警告。”自动舰说完，便跃迁离去了。"
 
 #: src-en/data/events_special_multiverse.xml.append:1467
 msgid ""
@@ -1613,7 +1613,7 @@ msgstr "献上贡品以避免战斗。"
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_MV_TRAVELER_BOSS_COMMONWEALTH_GUARDIAN_CHAOS\"]/choice[@req=\"BRIBE_CHAOS\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "*%$##@*%!"
 
 #: src-en/data/events_special_multiverse.xml.append:1507
 msgid ""
@@ -1934,13 +1934,17 @@ msgstr "继续。"
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ENGI_REAL\"]/mod-"
 "append:choice/text"
-msgstr ""
+msgstr "展示“她的愿景”"
 
 #: src-en/data/events_special_multiverse.xml.append:1752
 msgid ""
 "data/events_special_multiverse.xml.append$//mod:findName[@name=\"THE_JUDGES_ENGI_REAL\"]/mod-"
 "append:choice/event/text"
 msgstr ""
+"“[ERROR]... 怎-怎-怎-怎么会... 这-这-这根本就不-不-不可能！不-不... 我-我得"
+"警-警告其他人！但-但是... 阔碧绝不会违-违-违背信条的！所以我-还是得-奖励-"
+"你... 我会赐予你触碰之赐！触碰之赐！留-留着它，为了将来，还有-再-再也别跟我们"
+"联系了！”"
 
 #: src-en/data/events_special_multiverse.xml.append:1756
 msgid ""
@@ -2122,12 +2126,11 @@ msgid ""
 msgstr "由于你的船员并没有死，所以无法克隆。"
 
 #: src-en/data/events_special_multiverse.xml.append:1934
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/text"
 msgstr ""
-"巨大的自动舰四分五裂，终于沉寂下来。在确认其系统全部失效后，你将飞船停靠在监"
-"狱旁边，与奥宾一同进入探查。"
+"巨大的自动舰四分五裂，终于彻底沉寂。在确认其系统全部失效后，你将飞船停靠在监"
+"狱旁边，与奥宾一同前去探查。"
 
 #: src-en/data/events_special_multiverse.xml.append:1937
 msgid ""
@@ -2135,16 +2138,15 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events_special_multiverse.xml.append:1939
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/text"
 msgstr ""
-"监狱大门竟未上锁——这里的建造者大概认为那艘自动巡航舰已是万全之策。设施内部陈"
-"列着成千上万的休眠舱，每个舱体内都沉睡着……苍白的晶体。是早已被认为灭绝的盐人"
-"，全被冻结在停滞场中！\n"
+"门并未上锁——修建这座设施的人大概以为那艘自动巡洋舰足以御敌。在设施内部，你发"
+"现了成千上万个休眠舱，每个舱内都存有……一堆泛白的晶体。曾被认为早已灭绝的盐人"
+"，全被冻结在停滞状态中！\n"
 "\t\t\t\n"
-"\t\t\t\t  奥宾几乎欣喜若狂地尖叫起来：“船长！我的天……快……快让我打开它们！”他"
-"冲向房间一侧的控制台，双手在键盘上疯狂敲击起来。"
+"\t\t\t\t奥宾几乎是欣喜若狂地尖叫起来：\"船长！我的天……我……让-让我打开它们"
+"！\"他冲向房间一侧的控制台，双手在键盘上疯狂敲击。"
 
 #: src-en/data/events_special_multiverse.xml.append:1943
 msgid ""
@@ -2152,18 +2154,17 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events_special_multiverse.xml.append:1945
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/choice/event/text"
 msgstr ""
-"解冻过程异常艰辛，花费数小时才将盐人从停滞场中安全唤醒而未引发系统休克。每十"
-"个休眠舱中仅有一个能成功复苏……但当又一位盐人踉跄地踏出舱门时，所有努力都值得"
-"了。\n"
+"将盐人从停滞状态中缓慢唤醒，以避免系统休克的风险，这一过程异常艰辛，耗时长达"
+"数小时。每十个休眠舱中，最终仅有一个能成功复苏……但终于，又一名盐人迷迷糊糊地"
+"踏出了他的休眠舱。\n"
 "\n"
-"\t\t\t\t\t\t\t\t  “这……是哪里？”苏醒的盐人茫然四顾。“成功了，船长！我们成功了"
-"！”奥宾欢呼雀跃，坐到刚苏醒的同胞身旁。但很快他压抑着激动将你拉到一旁：“船长…"
-"…这可能需要数日甚至数周才能完成。您不能在此耽搁，但……我可以。请允许我留下，您"
-"继续前行。”"
+"\t\t\t\t\t\t\t\t\"谁……？\"那名盐人环顾四周，开口问道。\"成功了，船长！成功了"
+"！\"奥宾高兴得跳了起来，在那名刚苏醒的盐人身旁坐下。然而，他的喜悦很快便黯淡"
+"了下来，他将你拉到一旁。\"船长……这可能需要数天，甚至数周才能理清。你不能在这"
+"里干等，但我可以。我请求你……别管我，继续前进吧。\""
 
 #: src-en/data/events_special_multiverse.xml.append:1953
 msgid ""
@@ -2171,16 +2172,15 @@ msgid ""
 msgstr "你确定吗，奥宾？"
 
 #: src-en/data/events_special_multiverse.xml.append:1955
-#, fuzzy
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"FR_SALT_BATTLESHIP_QUEST_WIN\"]/choice/event/choice/event/choice/event/text"
 msgstr ""
-"奥宾望着陆续走出休眠舱、与亲人团聚的盐人们。“是的船长。不过……我绝不会让您空手"
-"离开。”这位曾经绝无仅有的盐人将一枚存储芯片递到你手中。“这是我为同胞设计的巡"
-"洋舰蓝图。原本想亲手建造，但……那种生活已不再适合我。在您手中它能发挥更大价值"
-"。”\n"
+"奥宾望着一个个走出休眠舱、与家人重聚的盐人。“是的，船长。不过，我绝不会让你空"
+"手离开。”这位曾经唯一幸存的盐人将一枚拇指盘递到你手中。“这是我为同胞设计的巡"
+"洋舰蓝图。我本想亲手建造它，但……我想那种生活已经不再适合我了。在你手上，它能"
+"发挥更大的用处。”\n"
 "\n"
-"\t\t\t\t\t\t\t\t\t\t\t他上前一步，小心控制着不吸走你周身的水分。“我飞船上的武"
-"器也请随意取用，反正我再也不需要了……”你点头认可他的决定。另一位受你善举感动的"
-"盐人主动提出加入你的队伍。尽管叛军舰队此刻必然已追至附近，你却对此并不感到懊"
-"恼。"
+"\t\t\t\t\t\t\t\t\t\t\t他上前一步，小心翼翼地控制着不吸干你身上所有的水分。“我"
+"船上的武器也请随意取用，反正我再也不需要它们了……”你点了点头，肯定了他的决定。"
+"另一名盐人，被你的善举所触动，主动提出加入你的队伍。尽管叛军舰队此刻必定已经"
+"追上来了，你倒也并不太为此恼火。"
