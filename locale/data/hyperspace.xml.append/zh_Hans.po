@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-18 20:20+0000\n"
-"Last-Translator: stone <19732863360@163.com>\n"
+"PO-Revision-Date: 2026-05-18 20:21+0000\n"
+"Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datahyperspace-xml-append/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -2406,12 +2406,11 @@ msgid ""
 msgstr "授权"
 
 #: src-en/data/hyperspace.xml.append:9914
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_weaver_power\"]/tooltip"
 msgstr ""
 "[冷却时间：20秒  持续：10秒]\n"
-"\t\t\t完全治愈自身，提升其他友方蜘蛛的伤害2倍，持续10秒。"
+"\t\t\t完全治愈自身并提升其他友方蜘蛛的伤害2倍，持续10秒。"
 
 #: src-en/data/hyperspace.xml.append:9936
 msgid ""
@@ -2523,13 +2522,13 @@ msgstr "准备就绪：电离系统并眩晕敌方船员5秒。"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_legion_drone_battle\"]/powerEffect/buttonText"
-msgstr ""
+msgstr "纵火"
 
 #: src-en/data/hyperspace.xml.append:10823
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_legion_drone_battle\"]/powerEffect/tooltip"
-msgstr ""
+msgstr "准备就绪：开始点火"
 
 #: src-en/data/hyperspace.xml.append:11096
 msgid ""
@@ -2547,13 +2546,13 @@ msgstr "准备就绪：电离系统并眩晕敌方船员5秒。"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_technolegion_battle\"]/powerEffect/buttonText"
-msgstr ""
+msgstr "纵火"
 
 #: src-en/data/hyperspace.xml.append:11164
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:race[@name=\"fr_technolegion_battle\"]/powerEffect/tooltip"
-msgstr ""
+msgstr "准备就绪：开始点火"
 
 #: src-en/data/hyperspace.xml.append:11582
 msgid ""
@@ -2637,13 +2636,13 @@ msgstr "幽灵战斗无人机"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_LEGION_DRONE_BATTLE_BOARDER\"]/tooltipName"
-msgstr ""
+msgstr "军团士兵无人机"
 
 #: src-en/data/hyperspace.xml.append:11638
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:drone[@name=\"FR_LEGION_DRONE_BATTLE_DEFEND\"]/tooltipName"
-msgstr ""
+msgstr "军团士兵无人机"
 
 #: src-en/data/hyperspace.xml.append:12492
 msgid ""
@@ -2808,27 +2807,31 @@ msgstr ""
 "\t\t\t\t\t在当前舱室制造一处破舱。"
 
 #: src-en/data/hyperspace.xml.append:19418
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_slimer_heal_augment_power\"]/buttonText"
-msgstr "吞噬"
+msgstr "吞噬+"
 
 #: src-en/data/hyperspace.xml.append:19419
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_slimer_heal_augment_power\"]/tooltip"
 msgstr ""
+"【冷却时间：10秒】\n"
+"\t\t\t\t\t造成1点船体伤害并使所在舱室破损，以此完全治愈黏稠者。"
 
 #: src-en/data/hyperspace.xml.append:19443
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_SPECTER_FLAWLESS_ASCENSION\"]/statBoosts/statBoost[3]/powerEffect[@name=\"fr_slimer_damage_power\"]/buttonText"
-msgstr ""
+msgstr "进食+"
 
 #: src-en/data/hyperspace.xml.append:19447
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_SPECTER_FLAWLESS_ASCENSION\"]/statBoosts/statBoost[3]/powerEffect[@name=\"fr_slimer_damage_power\"]/tooltip"
 msgstr ""
+"【冷却时间：20秒】\n"
+"\t\t\t\t\t吞噬附近所有敌方船员，造成75点伤害，房间内每有一个敌人治愈自身35点"
+"生命值。"
 
 #: src-en/data/hyperspace.xml.append:19494
 msgid ""
@@ -2841,15 +2844,17 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:19525
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_aleenor_augment_power\"]/buttonText"
-msgstr "狂暴"
+msgstr "狂暴+"
 
 #: src-en/data/hyperspace.xml.append:19526
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_aleenor_augment_power\"]/tooltip"
 msgstr ""
+"【冷却时间：30秒】\n"
+"\t\t\t\t\t对附近敌方船员造成100点伤害，并对系统造成4点伤害，100%几率造成破舱"
+"。"
 
 #: src-en/data/hyperspace.xml.append:19555
 msgid ""
@@ -2857,12 +2862,11 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:19556
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_vin_speed_augment_power\"]/tooltip"
 msgstr ""
-"[冷却：10秒]    持续：10秒    -40点生命值]\n"
-"\t\t\t暂时恢复正常移动速度。"
+"[冷却：10秒]    持续：10秒]\n"
+"\t\t\t\t\t暂时恢复正常移动速度。"
 
 #: src-en/data/hyperspace.xml.append:19583
 msgid ""
@@ -2873,17 +2877,21 @@ msgstr "FUSION+"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_vin_fire_augment_power\"]/tooltip"
 msgstr ""
+"[冷却时间：15秒  持续时间：10秒]\n"
+"\t\t\t\t\t在当前房间引发火灾，并使维因在此期间从火焰伤害中获得治疗。"
 
 #: src-en/data/hyperspace.xml.append:19615
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_cleo_augment_power\"]/buttonText"
-msgstr "修理"
+msgstr "修理+"
 
 #: src-en/data/hyperspace.xml.append:19616
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_cleo_augment_power\"]/tooltip"
 msgstr ""
+"[冷却时间：30秒  持续时间：10秒]\n"
+"\t\t\t\t\t在10秒内，为与克里奥同处一室的无人机恢复10点生命值。在此期间，无人"
+"机的伤害也翻倍。"
 
 #: src-en/data/hyperspace.xml.append:19683
 msgid ""
