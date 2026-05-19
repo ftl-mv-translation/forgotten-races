@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-19 13:29+0000\n"
+"PO-Revision-Date: 2026-05-19 13:59+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -9949,31 +9949,32 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:14455
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_B\"]/tooltip"
-msgstr "炸弹巨炮，发射3枚炸弹，仅造成不可叠加的永久性腐蚀伤害。"
+msgstr ""
+"炸弹巨炮，发射 1 枚炸弹；造成常规侵蚀，精神控制被击中的船员 10 秒，造成破舱并"
+"封锁目标舱室，同时生成一名不死幽灵。"
 
 #: src-en/data/blueprints.xml.append:14538
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/title"
-msgstr "塔尔塔罗斯诅咒巨炮"
+msgstr "皇家诅咒巨炮"
 
 #: src-en/data/blueprints.xml.append:14539
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/short"
-msgstr "地狱诅咒巨炮"
+msgstr "诅咒巨炮"
 
 #: src-en/data/blueprints.xml.append:14540
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/desc"
 msgstr ""
-"[基础充能时间：40秒] 开启一道来自塔尔塔罗斯的强大裂隙，随机召唤七位还魂者中的"
-"一位作为临时盟友。被召唤的还魂者技能冷却时间缩短。"
+"[基础冷却：50]打开一道来自方碑首都 Liythkyk Yuk 的强大裂隙，生成一个为你战斗 "
+"20 秒的方碑族。无法被闪避。"
 
 #: src-en/data/blueprints.xml.append:14541
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_NECROMANTIC_PORTAL_C\"]/tooltip"
-msgstr ""
-"炸弹巨炮，造成2点系统伤害，召唤一个随机的还魂者。他们存活10秒并有更短的技能冷"
-"却。"
+msgstr "炸弹巨炮，生成一个为你战斗 20 秒的方碑族。无法被闪避。"
 
 #: src-en/data/blueprints.xml.append:14593
 msgid ""
@@ -9996,7 +9997,7 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_VORTEX\"]/tooltip"
 msgstr ""
 "4连发激光武器，造成4点系统伤害与45点船员伤害，完全穿透护盾，中等概率造成破舱"
-"但无舰体伤害。被激光击中的船员无法被克隆或传送。"
+"但无舰体伤害。被激光击中的船员无法被克隆，治疗或传送。"
 
 #: src-en/data/blueprints.xml.append:14660
 msgid ""
