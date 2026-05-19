@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-18 20:20+0000\n"
+"PO-Revision-Date: 2026-05-19 16:07+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_special_storagexmlappend/zh_Hans/>\n"
@@ -5437,10 +5437,9 @@ msgid ""
 msgstr "确定切换无人机的模式？"
 
 #: src-en/data/events_special_storage.xml.append:4273
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_LEGION_ZENITH\"]/choice[1]/text"
-msgstr "将无人机设置为\"激光模式\"。"
+msgstr "将无人机设置为\"长矛模式\"。"
 
 #: src-en/data/events_special_storage.xml.append:4275
 msgid ""
@@ -5475,7 +5474,7 @@ msgstr "确定切换无人机的模式？"
 #: src-en/data/events_special_storage.xml.append:4299
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_LEGION_LANCE\"]/choice[1]/text"
-msgstr ""
+msgstr "将无人机设置为齐尼思模式。"
 
 #: src-en/data/events_special_storage.xml.append:4301
 msgid ""
@@ -6143,11 +6142,10 @@ msgid ""
 msgstr "斯菲雷克斯。"
 
 #: src-en/data/events_special_storage.xml.append:4894
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_LAB\"]/mod-"
 "append:choice[5]/text"
-msgstr "幽灵"
+msgstr "不死幽灵。"
 
 #: src-en/data/events_special_storage.xml.append:4900
 msgid ""
@@ -6155,16 +6153,14 @@ msgid ""
 msgstr "你正在查看物种的实验室菜单：[盐人族]"
 
 #: src-en/data/events_special_storage.xml.append:4902
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[@req=\"FR_LAB_SALT_PRO_SLUG_SALT\"]/text"
 msgstr ""
 "当前特质：亲蛞蝓之盐\n"
-"\t\t[盐人被动技能伤害现在会治疗蛞蝓族，并对其他所有种族造成双倍伤害。奥宾的技"
+"\t\t[盐人被动技能伤害现在会治疗蛞蝓族，但对其他所有种族造成双倍伤害。奥宾的技"
 "能获得类似特性，但也会对盟友造成双倍伤害。]"
 
 #: src-en/data/events_special_storage.xml.append:4907
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[@req=\"FR_LAB_SALT_OATH_OF_PEACE\"]/text"
 msgstr ""
@@ -6172,14 +6168,12 @@ msgstr ""
 "\t\t[盐人失去战斗能力且移动速度减半，以此换取双倍破坏伤害。]"
 
 #: src-en/data/events_special_storage.xml.append:4912
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[@req=\"FR_LAB_SALT_HEALING_CRYTALS\"]/text"
 msgstr ""
-"当特质：治疗水晶\n"
-"\t\t[盐人从其被动伤害中获得与对敌人造成伤害等量的治疗。奥宾的技能会为自身及附"
-"近盟友提供每秒6点生命值的治疗，而不再伤害敌我双方。但盐人受到的所有伤害翻倍"
-"。]"
+"当前特质：治愈晶体\n"
+"\t\t[盐人造成的被动伤害会等量治疗自身。奥宾的技能不再伤害盟友和敌人，转而以每"
+"秒6点生命值的速度治疗自身及附近盟友。两者受到来自所有来源的伤害翻倍。]"
 
 #: src-en/data/events_special_storage.xml.append:4917
 msgid ""
@@ -6187,10 +6181,9 @@ msgid ""
 msgstr "当前特质：无"
 
 #: src-en/data/events_special_storage.xml.append:4921
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[5]/text"
-msgstr "主要：亲蛞蝓之盐。[已配置主要特质]"
+msgstr "主要：亲蛞蝓之盐。[已配置主要特质。]"
 
 #: src-en/data/events_special_storage.xml.append:4925
 msgid ""
@@ -6198,10 +6191,9 @@ msgid ""
 msgstr "主要：亲蛞蝓之盐。[消耗：50~]"
 
 #: src-en/data/events_special_storage.xml.append:4929
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[7]/text"
-msgstr "主要：和平誓约。[已配置主要特质]"
+msgstr "主要：和平誓约。[已配置主要特质。]"
 
 #: src-en/data/events_special_storage.xml.append:4933
 msgid ""
@@ -6209,10 +6201,9 @@ msgid ""
 msgstr "主要：和平誓约。[消耗：10~，12|]"
 
 #: src-en/data/events_special_storage.xml.append:4937
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT\"]/choice[9]/text"
-msgstr "主要：治疗水晶。[已配置主要特质]"
+msgstr "主要：治愈结晶。[已配置主要特质。]"
 
 #: src-en/data/events_special_storage.xml.append:4941
 msgid ""
@@ -6225,12 +6216,11 @@ msgid ""
 msgstr "返回。"
 
 #: src-en/data/events_special_storage.xml.append:4951
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT_PRO_SLUG_SALT\"]/text"
 msgstr ""
 "将要配置亲蛞蝓之盐特质。\n"
-"\t[盐人被动伤害现在会治疗蛞蝓，并对其他所有种族造成双倍伤害。奥宾的技能获得类"
+"\t[盐人被动伤害现在会治疗蛞蝓，但对其他所有种族造成双倍伤害。奥宾的技能获得类"
 "似特性，但也会对盟友造成双倍伤害。]\n"
 "\t\n"
 "\t[警告：配置后，你将无法再为盐人船员配置任何主要特质，也无法取消或替换该特质"
@@ -6257,7 +6247,6 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:4981
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT_OATH_OF_PEACE\"]/text"
 msgstr ""
@@ -6288,14 +6277,12 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:5012
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SALT_HEALING_CRYSTALS\"]/text"
 msgstr ""
-"将要配置治疗水晶特质。\n"
-"\t[盐人从其被动伤害中获得与对敌人造成伤害等量的治疗。奥宾的技能会为自身及附近"
-"盟友提供每秒6点生命值的治疗，而不再伤害敌我双方。但盐人受到的所有伤害翻倍"
-"。]\n"
+"将要配置治愈结晶特质。\n"
+"\t[盐人造成的被动伤害会等量治疗自身。奥宾的技能不再伤害盟友和敌人，转而以每秒"
+"6点生命值的速度治疗自身及附近盟友。两者受到所有来源的伤害翻倍。]\n"
 "\t\n"
 "\t[警告：配置后，你将无法再为盐人船员配置任何主要特质，也无法取消或替换该特质"
 "。]"
@@ -6340,12 +6327,11 @@ msgstr ""
 "\t\t[原能族不再生成全息影像，而是当其能力激活时，继承全息影像的属性30秒（25%伤害抗性、穿门效果、对危险和精神控制免疫，并为其所在系统提供1点能量）]"
 
 #: src-en/data/events_special_storage.xml.append:5054
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[@req=\"FR_LAB_OSMIAN_SOULFUL_LIGHT\"]/text"
 msgstr ""
 "已配备特质：具魂光质。\n"
-"\t\t[原能族全息影像的属性值减半，作为交换，它们拥有了无限的寿命。]"
+"\t\t[原能族全息影像的属性值减半以换取无限的寿命。]"
 
 #: src-en/data/events_special_storage.xml.append:5059
 msgid ""
@@ -6353,10 +6339,9 @@ msgid ""
 msgstr "当前特质：无"
 
 #: src-en/data/events_special_storage.xml.append:5063
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[5]/text"
-msgstr "主要：光质助手。[已配备升级]"
+msgstr "主要：光质助手。[已配备升级。]"
 
 #: src-en/data/events_special_storage.xml.append:5067
 msgid ""
@@ -6364,10 +6349,9 @@ msgid ""
 msgstr "主要：光质助手。[消耗：45~]"
 
 #: src-en/data/events_special_storage.xml.append:5071
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[7]/text"
-msgstr "主要：独一之身。[已配备升级]"
+msgstr "主要：独一之身。[已配备升级。]"
 
 #: src-en/data/events_special_storage.xml.append:5075
 msgid ""
@@ -6375,10 +6359,9 @@ msgid ""
 msgstr "主要：独一之身。[消耗: 5{, 20~]"
 
 #: src-en/data/events_special_storage.xml.append:5079
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[9]/text"
-msgstr "主要：具魂光质。[已配备升级]"
+msgstr "主要：具魂光质。[已配备升级。]"
 
 #: src-en/data/events_special_storage.xml.append:5083
 msgid ""
@@ -6449,12 +6432,11 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:5154
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN_SOULFUL_LIGHT\"]/text"
 msgstr ""
 "你将要配置具魂光质特质\n"
-"\t[原能族全息影像的属性值减半，作为交换，它们拥有了无限的生命。]\n"
+"\t[原能族全息影像的属性值减半以换得无限的生命。]\n"
 "\t\n"
 "\t[警告：配备此特质后，您将无法再为原能族船员安装任何主要特质，也无法停用此特"
 "质。]"
@@ -6511,10 +6493,9 @@ msgid ""
 msgstr "当前特质：无"
 
 #: src-en/data/events_special_storage.xml.append:5207
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[5]/text"
-msgstr "主要：元素失稳。[已配置主要特质]"
+msgstr "主要：元素失稳。[已配置主要特质。]"
 
 #: src-en/data/events_special_storage.xml.append:5211
 msgid ""
@@ -6522,10 +6503,9 @@ msgid ""
 msgstr "主要：元素失稳。[消耗：45~]"
 
 #: src-en/data/events_special_storage.xml.append:5215
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[7]/text"
-msgstr "主要：温度吸收。[已配置主要特质]"
+msgstr "主要：温度吸收。[已配置主要特质。]"
 
 #: src-en/data/events_special_storage.xml.append:5219
 msgid ""
@@ -6533,10 +6513,9 @@ msgid ""
 msgstr "主要：温度吸收。[消耗：25~，5{]"
 
 #: src-en/data/events_special_storage.xml.append:5223
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_ELEMAN\"]/choice[9]/text"
-msgstr "主要：强维护躯体。[已配置主要特质]"
+msgstr "主要：强维护躯体。[已配置主要特质。]"
 
 #: src-en/data/events_special_storage.xml.append:5227
 msgid ""
@@ -6641,12 +6620,11 @@ msgid ""
 msgstr "你正在查看实验室菜单：[斯菲雷克斯]"
 
 #: src-en/data/events_special_storage.xml.append:5331
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[@req=\"FR_LAB_SPHERAX_REFOCUSED\"]/text"
 msgstr ""
 "当前特质：能量重聚 。\n"
-"\t\t[斯菲雷克斯失去传送能力，但获得100点额外生命值上限、15%战斗伤害提升与"
+"\t\t[斯菲雷克斯失去传送能力，但获得100点额外生命值上限、15%战斗伤害提升，以及"
 "25%破坏速度加成。]"
 
 #: src-en/data/events_special_storage.xml.append:5336
@@ -6657,7 +6635,6 @@ msgstr ""
 "\t\t[若敌舰上不存在斯菲雷克斯，你所有的斯菲雷克斯将获得双倍维修速度。位于敌舰上的斯菲雷克斯造成的战斗伤害减半。]"
 
 #: src-en/data/events_special_storage.xml.append:5341
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[@req=\"FR_LAB_SPHERAX_ELETRONIC\"]/text"
 msgstr ""
@@ -6670,10 +6647,9 @@ msgid ""
 msgstr "当前特质：无"
 
 #: src-en/data/events_special_storage.xml.append:5350
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[5]/text"
-msgstr "主要：能量重聚。[已配置主要特质]"
+msgstr "主要：能量重聚。[已配置主要特质。]"
 
 #: src-en/data/events_special_storage.xml.append:5354
 msgid ""
@@ -6681,10 +6657,9 @@ msgid ""
 msgstr "主要：能量重聚。[消耗：55~]"
 
 #: src-en/data/events_special_storage.xml.append:5358
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[7]/text"
-msgstr "主要：非攻击性行为。[已配置主要特质]"
+msgstr "主要：非攻击性行为。[已配置主要特质。]"
 
 #: src-en/data/events_special_storage.xml.append:5362
 msgid ""
@@ -6692,10 +6667,9 @@ msgid ""
 msgstr "主要：非攻击性行为。[消耗：30~，2{]"
 
 #: src-en/data/events_special_storage.xml.append:5366
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX\"]/choice[9]/text"
-msgstr "主要：电子支配。[已配置主要特质]"
+msgstr "主要：电子支配。[已配置主要特质。]"
 
 #: src-en/data/events_special_storage.xml.append:5370
 msgid ""
@@ -6708,13 +6682,12 @@ msgid ""
 msgstr "返回。"
 
 #: src-en/data/events_special_storage.xml.append:5380
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX_REFOCUSED\"]/text"
 msgstr ""
 "将要配置能量重聚特质。\n"
-"\t[斯菲雷克斯失去传送能力，但获得100点额外生命值上限、15%战斗伤害提升与25%破"
-"坏速度加成。]\n"
+"\t[斯菲雷克斯失去传送能力，但获得100点额外生命值上限、15%战斗伤害提升，以及"
+"25%破坏速度加成。]\n"
 "\t\n"
 "\t[警告：配置后，你将无法再为斯菲雷克斯船员配置任何主要特质，也无法取消或替换"
 "该特质。]"
@@ -6769,7 +6742,6 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:5441
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPHERAX_ELETRONIC\"]/text"
 msgstr ""
@@ -6800,25 +6772,72 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:5471
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/text"
-msgstr "你正在查看实验室菜单：[斯菲雷克斯]"
+msgstr "你正在查看实验室菜单：[不死幽灵]"
 
 #: src-en/data/events_special_storage.xml.append:5473
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[@req=\"FR_LAB_SPECTER_FLAWLESS_ASCENSION\"]/text"
 msgstr ""
+"当前特质：完美飞升\n"
+"[你的幽灵们技能充能时间翻倍，但技能效果获得独特强化。\n"
+"黏稠者：\n"
+"- 吞噬：移除系统伤害，且可在敌方舰船内使用。\n"
+"- 进食：对敌方船员造成75点伤害，并为房间内每个敌方船员治疗黏稠者35点生命值"
+"。\n"
+"菲斯：离子伤害提升至8点，且击晕效果仅作用于敌人。\n"
+"埃莉诺：船员伤害提升至100点，系统伤害提升至4点。\n"
+"文：\n"
+"- 增压：移除自伤效果。\n"
+"- 聚变：激活技能后，文的火焰治疗量翻倍，持续10秒。\n"
+"克里奥：无人机在持续时间内伤害也翻倍。\n"
+"祖鲁：移除效果期间的移动速度、破坏和伤害惩罚。\n"
+"G：持续时间内同时召唤3个亡灵幽灵。\n"
+"霜晶壁垒：移除自伤效果，并使被冻结的船员在持续时间内承受全额伤害。\n"
+"死亡绽放：孢子持续时间翻倍，受孢子影响的敌人移动速度降低10%。\n"
+"珀克：其变形能力的冷却时间在所有形态下均缩短至10秒。\n"
+"查罗：其技能现在可影响所有船员类型，且仅作用于敌人。\n"
+"里奥：所受伤害增加的效果现在转而作用于房间内的敌人。\n"
+"西拉克：移除爆炸后的击晕效果。\n"
+"奥古斯都：完全治愈自身仅消耗1点废料。\n"
+"萨莉：幼体和成体形态的技能冷却时间仅1秒，而编织者形态的技能影响所有舰船。\n"
+"王子：同时使房间破损并引发火灾。\n"
+"特里亚克：效果持续期间免疫击晕。]"
 
 #: src-en/data/events_special_storage.xml.append:5499
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[@req=\"FR_LAB_SPECTER_TAILORED_SPECIALIZATION\"]/text"
 msgstr ""
+"当前特质：量身专精。\n"
+"\t\t[你的幽灵们的优势与劣势均被大幅强化。\n"
+"\t\t黏稠者：主动技能冷却时间减少50% — 船员伤害减半。\n"
+"\t\t菲斯：基础电力提供量翻倍 — 无法进行破坏。\n"
+"\t\t埃莉诺：伤害翻倍 — 无法进行维修。\n"
+"\t\t文：生命值翻倍 — 移动速度减半。\n"
+"\t\t克里奥：生命值、移动速度、维修与伤害获得1.3倍加成 — 无法直接与敌方无人机"
+"作战。\n"
+"\t\t祖鲁：破坏伤害翻倍 — 船员伤害减半。\n"
+"\t\tG：从环境危害中获得的治疗量翻倍 — 主动技能冷却时间增加50%。\n"
+"\t\t霜晶壁垒：远程伤害翻倍 — 生命值减半。\n"
+"\t\t死亡绽放：氧气产出提升至2.0（原为0.1）— 治疗速度减半。\n"
+"\t\t珀克：移动速度提升50%，主动技能冷却时间减少50% — 占用2个船员舱位。\n"
+"\t\t查罗：维修速度翻倍 — 船员伤害减半。\n"
+"\t\t里奥：电力汲取翻倍 — 被击晕时间翻倍。\n"
+"\t\t西拉克：受到伤害减半 — 破坏伤害减半。\n"
+"\t\t奥古斯都：破坏、伤害与生命值获得1.2倍加成 — 移动速度减半。\n"
+"\t\t萨莉：持续每秒恢复15点生命值 — 生命值减半。\n"
+"\t\t王子：移动速度翻倍 — 维修速度减半。\n"
+"\t\t特里亚克：同房间内被精神控制的船员造成的伤害翻倍 — 自身被击晕时间延长10倍"
+"。]"
 
 #: src-en/data/events_special_storage.xml.append:5521
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[@req=\"FR_LAB_SPECTER_SPECTRAL_EXISTENCE\"]/text"
 msgstr ""
+"当前安装：灵体存在。\n"
+"\t\t[幽灵不占用任何船员舱位。在船员损失事件中，普通幽灵将优先于*任何*其他船员"
+"被首先选中。]"
 
 #: src-en/data/events_special_storage.xml.append:5526
 msgid ""
@@ -6828,7 +6847,7 @@ msgstr "当前特质：无"
 #: src-en/data/events_special_storage.xml.append:5530
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[5]/text"
-msgstr ""
+msgstr "主特质：完美飞升。[特性已配置]"
 
 #: src-en/data/events_special_storage.xml.append:5534
 msgid ""
