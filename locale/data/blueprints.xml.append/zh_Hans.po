@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-19 05:24+0000\n"
+"PO-Revision-Date: 2026-05-19 13:29+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -10140,15 +10140,15 @@ msgstr "杰瑞激光巨炮"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_LASER\"]/desc"
 msgstr ""
-"[基础充能时间：25秒] 发射4道激光齐射。每道激光造成4点系统伤害，强化温特沃斯船"
-"员，并暂时禁用非温特沃斯船员的战斗能力。"
+"[基础充能时间：25秒] 4道激光齐射，4点系统伤害，非温特沃斯船员无法战斗，而被击"
+"中的温特沃斯船员则会每秒恢复 2 点生命值，持续 5 秒。"
 
 #: src-en/data/blueprints.xml.append:14992
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_LASER\"]/tooltip"
 msgstr ""
-"4道激光齐射，4点系统伤害，治愈温特沃斯船员，并暂时禁用非温特沃斯船员的战斗能"
-"力5秒。"
+"4道激光齐射，4点系统伤害，非温特沃斯船员无法战斗，而被击中的温特沃斯船员则会"
+"每秒恢复 2 点生命值，持续 5 秒。"
 
 #: src-en/data/blueprints.xml.append:15068
 msgid ""
@@ -10165,14 +10165,15 @@ msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_MISSILE\"]/desc"
 msgstr ""
 "[基础充能时间：35秒] 发射3发导弹齐射。每发导弹造成3点系统伤害，强化温特沃斯船"
-"员，并暂时禁用非温特沃斯船员的战斗能力。"
+"员（1.3 倍伤害与生命值，每秒恢复 2 点生命值），并暂时禁用非温特沃斯船员的战斗"
+"能力。"
 
 #: src-en/data/blueprints.xml.append:15071
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_MISSILE\"]/tooltip"
 msgstr ""
-"3发导弹齐射，3点系统伤害，强化温特沃斯船员，并暂时禁用非温特沃斯船员的战斗能"
-"力。"
+"3发导弹齐射，3点系统伤害，非温特沃斯船员在 10 秒内无法战斗，而被击中的温特沃"
+"斯船员则会获得增益（1.3 倍伤害与生命值）并每秒恢复 2 点生命值，持续 10 秒。"
 
 #: src-en/data/blueprints.xml.append:15186
 msgid ""
@@ -10188,13 +10189,15 @@ msgstr "杰瑞光束巨炮"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_BEAM\"]/desc"
 msgstr ""
-"[基础充能时间：30秒] 光束巨炮，造成2点舰体伤害，带破舰效果，并暂时禁用非温特"
-"沃斯船员的战斗能力。"
+"[基础充能时间：30秒] 光束巨炮，造成2点舰体伤害，带破舰效果，非温特沃斯船员在 "
+"10 秒内无法战斗，并被大幅削弱（0.7 倍伤害与生命值）。"
 
 #: src-en/data/blueprints.xml.append:15189
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_BEAM\"]/tooltip"
-msgstr "2点舰体伤害光束，带破舰效果，非温特沃斯船员10秒内无法战斗并受到严重削弱。"
+msgstr ""
+"2点舰体伤害光束，带破舰效果，非温特沃斯船员在 10 秒内无法战斗，并被大幅削弱（"
+"0.7 倍伤害与生命值）。"
 
 #: src-en/data/blueprints.xml.append:15278
 msgid ""
@@ -10210,15 +10213,16 @@ msgstr "杰瑞反物质巨炮"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_ANTIMATTER\"]/desc"
 msgstr ""
-"[基础充能时间：20秒] 发射3发离子弹齐射。每发造成1点离子、舰体和系统伤害，治疗"
-"温特沃斯船员，并禁用非温特沃斯船员的战斗能力。"
+"[基础充能时间：20秒] 3 发离子弹，造成 1 点离子、舰体及系统伤害，20% 命中加成"
+"。非温特沃斯船员无法战斗，而被击中的温特沃斯船员则会每秒恢复 2 点生命值，持"
+"续 5 秒。"
 
 #: src-en/data/blueprints.xml.append:15281
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_JERRY_FLAGSHIP_ANTIMATTER\"]/tooltip"
 msgstr ""
-"3发离子弹，造成1点离子、船体和系统伤害，20%命中率，非温特沃斯船员无法战斗，被"
-"击中的温特沃斯船员获得5秒治疗。"
+"3发离子弹，造成1点离子、船体和系统伤害，20%命中率，非温特沃斯船员无法战斗，而"
+"被击中的温特沃斯船员则会每秒恢复 2 点生命值，持续 5 秒。"
 
 #: src-en/data/blueprints.xml.append:15358
 msgid ""
@@ -10397,7 +10401,7 @@ msgstr "冰冻水晶"
 #: src-en/data/blueprints.xml.append:15842
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_FROZEN_CRYSTAL_SHARDS\"]/desc"
-msgstr "碳素水晶复仇弹体"
+msgstr "冰冻水晶复仇弹体"
 
 #: src-en/data/blueprints.xml.append:15886
 msgid ""
@@ -10412,7 +10416,7 @@ msgstr "冰冻水晶"
 #: src-en/data/blueprints.xml.append:15888
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_FROZEN_CRYSTAL_SHARDS_ENEMY\"]/desc"
-msgstr "碳素水晶复仇弹体"
+msgstr "冰冻水晶复仇弹体"
 
 #: src-en/data/blueprints.xml.append:15930
 msgid ""
@@ -10952,8 +10956,8 @@ msgstr "联合方碑离子发生器"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_COMMONWEALTH_IONIZER_UNLOCKED\"]/desc"
 msgstr ""
-"一套极其先进的超载系统，能使你所有武器和舰炮造成的离子伤害翻倍。此改装件无法"
-"将单次射击的离子伤害提升至9点以上。"
+"一种极其先进的过载系统，能使你非光束武器与巨炮造成的所有离子伤害翻倍。此装置"
+"无法将任何单次射击造成的离子伤害提升至 9 点以上。"
 
 #: src-en/data/blueprints.xml.append:17310
 msgid ""
@@ -11319,7 +11323,7 @@ msgstr "放射性黑洞"
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_OSMIAN_VORTEX\"]/desc"
 msgstr ""
 "该舰船从散发超强辐射的黑洞中汲取能量。该黑洞会根据你的反应堆等级降低敌方的生"
-"命上限、维修与治疗速度，这些减益效果初始较弱，但在反应堆高等级时会急速增强。"
+"命上限、维修与治疗速度。"
 
 #: src-en/data/blueprints.xml.append:17626
 msgid ""
@@ -11330,8 +11334,8 @@ msgstr "全息白洞"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_OSMIAN_VORTEX_HOLOGRAM\"]/desc"
 msgstr ""
-"该舰船从散发超强光质的白洞中汲取能量。所有友方全息影像提供双倍能量，其生命、"
-"伤害、维修、移动及破坏速度均随反应堆等级成长，等级越高加成越显著。"
+"该舰船从散发超强光质的白洞中汲取能量。所有友方全息影像提供双倍能量，其生命值"
+"、伤害、修复、移动及破坏速度均随反应堆等级提升而增强。"
 
 #: src-en/data/blueprints.xml.append:17635
 msgid ""
@@ -11342,9 +11346,9 @@ msgstr "治愈奇点"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_OSMIAN_VORTEX_HEAL\"]/desc"
 msgstr ""
-"该舰船从散发超强生命能量的空间异常体中汲取动力。该涡流能提升所有友方船员的生"
-"命上限并持续进行全图治疗，两项效果均随反应堆等级提升而增强，且每级增益随等级"
-"提高不断增长。"
+"该舰船从散发超强生命能量的空间异常体中汲取动力。这个漩涡能提升所有友方船员的"
+"最大生命值，并让他们在任何地方都能持续获得治疗，两种效果都随你的反应堆等级提"
+"升而增强。"
 
 #: src-en/data/blueprints.xml.append:17644
 msgid ""
@@ -11450,8 +11454,8 @@ msgstr "强效保温器"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SHIPWIDE_HEATER\"]/desc"
 msgstr ""
-"你的舰船内部酷热难当。这使得熔岩人在阵亡时能生成另一个熔岩人。没有火焰免疫的"
-"登船单位还会被动受到5点/秒的伤害。"
+"你的舰船内部酷热难当。这使得熔岩人在阵亡时能生成另一个熔岩人。具有火焰伤害易"
+"伤的登舰者也会被动地每秒受到 5 点伤害。"
 
 #: src-en/data/blueprints.xml.append:17744
 msgid ""
@@ -11550,8 +11554,8 @@ msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_SLIMER_GEL\"]/desc"
 msgstr ""
 "一种异常粘稠的蛞蝓族破口密封剂，唯有借助塔尔塔罗斯的黑魔法方可炼制。\n"
 "\n"
-"\t能覆盖空舱室的内壁。其中的友方船员可获得对危害环境的免疫力，而敌方登船者则"
-"会丧失战斗能力且移速减半。与常规蛞蝓凝胶一样，它也能修复破口。\n"
+"\t覆盖空舱室内部。其中的友方船员免疫环境伤害，而敌方登舰者则无法战斗，且移动"
+"速度减半。厚重的凝胶还能瞬间封闭你船上的任何破舱。\n"
 "\n"
 "\t在空白信标处为维修提供更廉价的选择。"
 
@@ -11628,7 +11632,7 @@ msgstr ""
 "\t–1级供能：友方船员获得窒息免疫。\n"
 "\t–2级供能：友方船员获得无视舱门能力。\n"
 "\t–3级供能：友方船员可传送至己方舰船任意舱室。\n"
-"\t–4级供能：友方船员可传送至任意舱室并直接抵达任意舰船。"
+"\t–4级供能：友方船员获得在双方舰船任意舱室间往返传送的能力。"
 
 #: src-en/data/blueprints.xml.append:17902
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_MOLTEN_ARMOR\"]/title"
@@ -11640,7 +11644,8 @@ msgstr ""
 "舰船内部充盈着实实在在、灼热异常的岩浆。此极端环境会无差别地对友方与敌方船员"
 "造成15点/秒的持续性伤害。该伤害视作火焰伤害，并受相关属性修正。\n"
 "\t\n"
-"\t装甲本体拥有50%概率免疫船体伤害，并可提供一次冲撞敌舰的机会。"
+"\t装甲本体拥有20%概率免疫船体伤害，并可提供一次冲撞敌舰的机会。并使造成 1 点"
+"伤害的来袭射弹有 20% 的几率被无效化，同时将所有其他伤害降低 1 点。"
 
 #: src-en/data/blueprints.xml.append:17914
 msgid ""
@@ -11779,8 +11784,8 @@ msgstr "G的死灵光环"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANTIC_PROJECTION\"]/desc"
 msgstr ""
-"强大死灵法术笼罩整艘舰船，所有友方魂灵族船员获得100点额外生命上限与精神控制免"
-"疫。"
+"强大死灵法术笼罩整艘舰船，所有友方亡灵与不死幽灵船员获得100点额外生命上限与精"
+"神控制免疫。"
 
 #: src-en/data/blueprints.xml.append:18027
 msgid ""
@@ -11790,7 +11795,9 @@ msgstr "G的诅咒光环"
 #: src-en/data/blueprints.xml.append:18028
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_NECROMANTIC_PROJECTION_CURSED\"]/desc"
-msgstr "强大法术笼罩整艘舰船，所有友方魂灵族船员获得200点额外生命上限与精神控制免疫。"
+msgstr ""
+"强大法术笼罩整艘舰船，所有友方亡灵与不死幽灵船员获得200点额外生命上限与心灵控"
+"制免疫。"
 
 #: src-en/data/blueprints.xml.append:18036
 msgid ""
