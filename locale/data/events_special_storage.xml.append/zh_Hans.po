@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-20 12:35+0000\n"
+"PO-Revision-Date: 2026-05-20 13:39+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_special_storagexmlappend/zh_Hans/>\n"
@@ -6958,9 +6958,7 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER_TAILORED_SPECIALIZATION\"]/text"
 msgstr ""
 "你即将安装一体特质。\n"
-"\n"
 "[你的幽灵的强项与弱点将大幅提升。\n"
-"\n"
 "粘稠者：主动技能冷却时间减少50% - 船员伤害减半。\n"
 "菲斯：基础能量翻倍 - 无法进行破坏。\n"
 "埃莉诺：伤害翻倍 - 无法进行修复。\n"
@@ -6981,7 +6979,7 @@ msgstr ""
 "特里亚克：被精神控制的船员在其同一房间内造成的伤害翻倍 - 眩晕时间延长10倍"
 "。]\n"
 "\n"
-"[警告：安装此改造后，你将无法再为幽灵船员安装任何主要升级。你也无法停用此特质"
+"[警告：安装此特质后，你将无法再为幽灵船员安装任何主要升级。你也无法停用此特质"
 "。]"
 
 #: src-en/data/events_special_storage.xml.append:5642
@@ -10552,10 +10550,9 @@ msgstr ""
 "。]"
 
 #: src-en/data/events_special_storage.xml.append:8404
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT_RAM\"]/choice[1]/text"
-msgstr "执行升级。[消耗：70~，3{]"
+msgstr "执行升级。[消耗：30~，3{]"
 
 #: src-en/data/events_special_storage.xml.append:8406
 msgid ""
@@ -10573,12 +10570,11 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:8429
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_PILOT_RAM\"]/text"
 msgstr ""
-"你要瞄准哪个敌方系统？此操作将对其造成2点伤害并引发破舱，你舰的对应系统及舰体"
-"也会受到1点伤害。该效果可绕过所有抗性。"
+"你要瞄准哪个敌方系统？此操作将对敌方舰体及所选系统造成2点伤害，并引发破舱。你"
+"的星舰的对应系统及舰体也会受到1点伤害。无视所有抗性。"
 
 #: src-en/data/events_special_storage.xml.append:8431
 msgid ""
@@ -10836,12 +10832,11 @@ msgid ""
 msgstr "你决定什么都不做，准备战斗。"
 
 #: src-en/data/events_special_storage.xml.append:8635
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT_AUTOMAN_1\"]/text"
 msgstr ""
 "你即将安装强化自动导航 等级1升级。\n"
-"[效果：你所有系统将自动获得1级技能的专业人员操控。]"
+"[效果：你所有系统将自动获得至少1级技能的专业人员操控。]"
 
 #: src-en/data/events_special_storage.xml.append:8638
 msgid ""
@@ -10864,12 +10859,11 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:8662
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT_AUTOMAN_2\"]/text"
 msgstr ""
 "你即将安装强化自动导航 等级2升级。\n"
-"[效果：你所有系统将自动获得2级技能的专业人员操控。]"
+"[效果：你所有系统将自动获得至少2级技能的专业人员操控。]"
 
 #: src-en/data/events_special_storage.xml.append:8665
 msgid ""
@@ -10892,18 +10886,16 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:8690
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT_IMMUNITY\"]/text"
 msgstr ""
-"你即将安装独立导航系统升级。\n"
-"[效果：位于导航系统的船员不计入船员限额，且免疫精神控制、眩晕及环境危害。]"
+"您即将安装独立驾驶升级。\n"
+"[效果：驾驶舱内的船员不计入船员上限，无法被精神控制或击晕，且免疫环境危害。]"
 
 #: src-en/data/events_special_storage.xml.append:8693
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT_IMMUNITY\"]/choice[1]/text"
-msgstr "执行升级。 [消耗: 5|, 10}]"
+msgstr "执行升级。 [消耗: 5|, 3}]"
 
 #: src-en/data/events_special_storage.xml.append:8695
 msgid ""
@@ -10932,11 +10924,10 @@ msgid ""
 msgstr "无限制跃迁。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:8726
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES\"]/choice[@req=\"FR_NEXUS_ENGINES_JUMP\""
 " and @lvl=\"0\"]/text"
-msgstr "无限制跃迁。 [消耗: 50~, 5{, 5|]"
+msgstr "无限制跃迁。 [消耗: 25~, 3{, 3|]"
 
 #: src-en/data/events_special_storage.xml.append:8730
 msgid ""
@@ -10945,18 +10936,16 @@ msgid ""
 msgstr "引擎效能。[不可用：你已达到此升级的最高级]"
 
 #: src-en/data/events_special_storage.xml.append:8734
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES\"]/choice[@req=\"FR_NEXUS_ENGINES_DODGE\""
 " and @lvl=\"1\"]/text"
-msgstr "引擎效能 等级2。[消耗：100~, 5{]"
+msgstr "引擎效能 等级2。[消耗：50~, 3{]"
 
 #: src-en/data/events_special_storage.xml.append:8738
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES\"]/choice[@req=\"FR_NEXUS_ENGINES_DODGE\""
 " and @lvl=\"0\"]/text"
-msgstr "引擎效能 等级1。[消耗：100~, 5{]"
+msgstr "引擎效能 等级1。[消耗：50~, 3{]"
 
 #: src-en/data/events_special_storage.xml.append:8742
 msgid ""
@@ -10965,25 +10954,22 @@ msgid ""
 msgstr "可复用燃料单元。[不可用：你已达到此升级的最高级]"
 
 #: src-en/data/events_special_storage.xml.append:8746
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES\"]/choice[@req=\"FR_NEXUS_ENGINES_FUEL\""
 " and @lvl=\"2\"]/text"
-msgstr "可复用燃料单元 Mk.3。[消耗：25~, 10{]"
+msgstr "可复用燃料单元 Mk.3。[消耗：13~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:8750
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES\"]/choice[@req=\"FR_NEXUS_ENGINES_FUEL\""
 " and @lvl=\"1\"]/text"
-msgstr "可复用燃料单元 Mk.2。[消耗：25~, 10{]"
+msgstr "可复用燃料单元 Mk.2。[消耗：13~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:8754
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES\"]/choice[@req=\"FR_NEXUS_ENGINES_FUEL\""
 " and @lvl=\"0\"]/text"
-msgstr "可复用燃料单元 Mk.1。[消耗：25~, 10{]"
+msgstr "可复用燃料单元 Mk.1。[消耗：13~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:8758
 msgid ""
@@ -10991,18 +10977,16 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:8764
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES_JUMP\"]/text"
 msgstr ""
 "你即将安装无限制跃迁升级。\n"
-"[效果：允许你跃迁至任意信标，无论是否曾被探索，每次消耗2单位燃料。]"
+"[效果：允许你花费2点燃料跃迁至任意信标，无论该信标是否曾被访问过。]"
 
 #: src-en/data/events_special_storage.xml.append:8767
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES_JUMP\"]/choice[1]/text"
-msgstr "执行升级。[消耗: 45~, 3{, 3|]"
+msgstr "执行升级。[消耗: 25~, 3{, 3|]"
 
 #: src-en/data/events_special_storage.xml.append:8769
 msgid ""
@@ -11020,18 +11004,16 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:8793
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES_DODGE\"]/text"
 msgstr ""
 "你即将安装引擎效能升级。\n"
-"[效果：引擎系统通电时提供+5闪避，此升级最多可安装2次]"
+"[效果：引擎系统通电时提供+5闪避，这一升级最多可安装2次]"
 
 #: src-en/data/events_special_storage.xml.append:8796
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES_DODGE\"]/choice[1]/text"
-msgstr "执行升级。[消耗：65~，3{]"
+msgstr "执行升级。[消耗：50~，3{]"
 
 #: src-en/data/events_special_storage.xml.append:8798
 msgid ""
@@ -11049,18 +11031,16 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:8821
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES_FUEL\"]/text"
 msgstr ""
 "你即将安装可复用燃料单元升级。\n"
-"[效果：跃迁有25%几率返还消耗的燃料，此升级最多可安装3次]"
+"[效果：跃迁有25%几率返还消耗的燃料，这一升级最多可安装3次。]"
 
 #: src-en/data/events_special_storage.xml.append:8824
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES_FUEL\"]/choice[1]/text"
-msgstr "执行升级。[消耗: 100~, 5{]"
+msgstr "执行升级。[消耗: 13~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:8826
 msgid ""
@@ -11089,11 +11069,10 @@ msgid ""
 msgstr "小行星解离器。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:8857
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_SHIELDS\"]/choice[@req=\"FR_NEXUS_SHIELD_ASTEROID\""
 " and @lvl=\"0\"]/text"
-msgstr "小行星解离器。[Cost: 100~, 5|, 5}]"
+msgstr "小行星解离器。[Cost: 50~, 3|, 3}]"
 
 #: src-en/data/events_special_storage.xml.append:8861
 msgid ""
@@ -11109,11 +11088,10 @@ msgid ""
 msgstr "分层能量网 等级2. [消耗: 80~, 10{]"
 
 #: src-en/data/events_special_storage.xml.append:8869
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_SHIELDS\"]/choice[@req=\"FR_NEXUS_SHIELD_RESIST\""
 " and @lvl=\"0\"]/text"
-msgstr "分层能量网 等级1. [消耗: 80~, 10{]"
+msgstr "分层能量网 等级1. [消耗: 40~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:8873
 msgid ""
@@ -11122,11 +11100,10 @@ msgid ""
 msgstr "反穿透协议。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:8877
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_SHIELDS\"]/choice[@req=\"FR_NEXUS_SHIELD_PIERCE\""
 " and @lvl=\"0\"]/text"
-msgstr "反穿透协议。[消耗：200~]"
+msgstr "反穿透协议。[消耗：50~]"
 
 #: src-en/data/events_special_storage.xml.append:8881
 msgid ""
@@ -11141,10 +11118,9 @@ msgstr ""
 "[效果：小行星无法击穿你的护盾层。]"
 
 #: src-en/data/events_special_storage.xml.append:8890
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_SHIELD_ASTEROID\"]/choice[1]/text"
-msgstr "执行升级。[消耗: 45~, 3{, 3|]"
+msgstr "执行升级。[消耗: 50~,3|, 3}]"
 
 #: src-en/data/events_special_storage.xml.append:8892
 msgid ""
@@ -11162,19 +11138,17 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:8916
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_SHIELD_RESIST\"]/text"
 msgstr ""
 "你即将安装分层能量网升级。\n"
 "[效果：护盾被击中时有10%几率不被击穿。非舰体伤害类的离子武器与无人机仍可施加"
-"离子效果。此升级最多可安装2次]"
+"离子效果。此升级最多可安装2次。]"
 
 #: src-en/data/events_special_storage.xml.append:8919
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_SHIELD_RESIST\"]/choice[1]/text"
-msgstr "执行升级。[消耗：20~, 5{]"
+msgstr "执行升级。[消耗：40~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:8921
 msgid ""
@@ -11230,11 +11204,10 @@ msgid ""
 msgstr "专用内部构件。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:8979
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS\"]/choice[@req=\"FR_NEXUS_WEAPONS_SPECIALIZED\""
 " and @lvl=\"0\"]/text"
-msgstr "专用内部构件。[消耗：25{]"
+msgstr "专用内部构件。[消耗：10{]"
 
 #: src-en/data/events_special_storage.xml.append:8983
 msgid ""
@@ -11243,18 +11216,16 @@ msgid ""
 msgstr "特种弹药。[不可用：你已达到此升级的最高级]"
 
 #: src-en/data/events_special_storage.xml.append:8987
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS\"]/choice[@req=\"FR_NEXUS_WEAPONS_STATUS\""
 " and @lvl=\"1\"]/text"
-msgstr "特种弹药 Mk 2。[消耗：30}]"
+msgstr "特种弹药 Mk 2。[消耗：7}]"
 
 #: src-en/data/events_special_storage.xml.append:8991
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS\"]/choice[@req=\"FR_NEXUS_WEAPONS_STATUS\""
 " and @lvl=\"0\"]/text"
-msgstr "特种弹药 Mk 1。[消耗：30}]"
+msgstr "特种弹药 Mk 1。[消耗：7}]"
 
 #: src-en/data/events_special_storage.xml.append:8995
 msgid ""
@@ -11263,11 +11234,10 @@ msgid ""
 msgstr "超频机构。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:8999
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS\"]/choice[@req=\"FR_NEXUS_WEAPONS_BOOST\""
 " and @lvl=\"0\"]/text"
-msgstr "超频机构。[消耗：180~，15{]"
+msgstr "超频机构。[消耗：90~，5{]"
 
 #: src-en/data/events_special_storage.xml.append:9003
 msgid ""
@@ -11276,11 +11246,10 @@ msgid ""
 msgstr "内置发生器。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9007
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS\"]/choice[@req=\"FR_NEXUS_WEAPONS_POWER\""
 " and @lvl=\"0\"]/text"
-msgstr "内置发生器。 [消耗: 100~, 20{]"
+msgstr "内置发生器。 [消耗: 50~, 10{]"
 
 #: src-en/data/events_special_storage.xml.append:9011
 msgid ""
@@ -11288,18 +11257,16 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:9017
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS_SPECIALIZED\"]/text"
 msgstr ""
 "你即将安装专用内部构件升级。\n"
-"[效果：非光束类武器额外施加封锁状态并多穿透1层护盾]"
+"[效果：非光束类武器额外施加封锁状态并多穿透1层护盾。]"
 
 #: src-en/data/events_special_storage.xml.append:9020
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS_SPECIALIZED\"]/choice[1]/text"
-msgstr "执行升级。 [消耗: 20{]"
+msgstr "执行升级。 [消耗: 10{]"
 
 #: src-en/data/events_special_storage.xml.append:9022
 msgid ""
@@ -11317,19 +11284,17 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:9044
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS_STATUS\"]/text"
 msgstr ""
 "你即将安装特种弹药升级。\n"
-"[效果：武器与无人机若本身具备着火或破舱几率，则额外增加10%触发概率；超过"
-"100%的破舱几率可引发多重破舱。调整后的数值不会在描述中出现。]"
+"[效果：武器与无人机若本身已有几率引发火灾或造成破舱，则该几率提升10%；破舱几"
+"率超过100%时可造成多次破损。调整后的数值将不会在描述中显示。]"
 
 #: src-en/data/events_special_storage.xml.append:9047
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS_STATUS\"]/choice[1]/text"
-msgstr "执行升级。[消耗: 20}]"
+msgstr "执行升级。[消耗: 7}]"
 
 #: src-en/data/events_special_storage.xml.append:9049
 msgid ""
@@ -11347,14 +11312,13 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:9071
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS_BOOST\"]/text"
 msgstr ""
 "你即将安装超频机构升级。\n"
-"[效果：非光束类武器与巨炮若原有舰体、系统、离子或船员伤害属性，则对应属性提"
-"升+1，船员伤害提升+15。光束武器额外穿透1层护盾。此项额外伤害不会显示在武器属"
-"性面板中。]"
+"[效果：非光束类武器与火炮，若其本身已具备以下伤害类型，则舰体、系统与离子伤害"
+"各+1，船员伤害+15。光束武器额外穿透1层护盾。额外伤害不会显示在武器属性面板中"
+"。]"
 
 #: src-en/data/events_special_storage.xml.append:9074
 #, fuzzy
@@ -11643,18 +11607,16 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:9329
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_DRONES_TELEPORT\"]/text"
 msgstr ""
 "你即将安装局部重构升级。\n"
-"[效果：你的船员无人机可从无人机控制室传送至任意舱室。]"
+"[效果：你的船员无人机可从无人机系统传送至任意舱室。]"
 
 #: src-en/data/events_special_storage.xml.append:9332
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_DRONES_TELEPORT\"]/choice[1]/text"
-msgstr "执行升级。[消耗：110~, 20|]"
+msgstr "执行升级。[消耗：40~, 2|]"
 
 #: src-en/data/events_special_storage.xml.append:9334
 msgid ""
@@ -11683,11 +11645,10 @@ msgid ""
 msgstr "隐形场再充能加速器。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9363
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLOAK\"]/choice[@req=\"FR_NEXUS_CLOAK_COOLDOWN\""
 " and @lvl=\"0\"]/text"
-msgstr "隐形场再充能加速器。[消耗：200~ , 5{, 5|, 5}]"
+msgstr "隐形场再充能加速器。[消耗：100~ , 2{, 2|, 2}]"
 
 #: src-en/data/events_special_storage.xml.append:9367
 msgid ""
@@ -11696,11 +11657,10 @@ msgid ""
 msgstr "电荷扰频器升级。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9371
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLOAK\"]/choice[@req=\"FR_NEXUS_CLOAK_CHARGE\""
 " and @lvl=\"0\"]/text"
-msgstr "电荷扰频器升级。[消耗：100~ , 3{, 3|, 3}]"
+msgstr "电荷扰频器升级。[消耗：50~ , 1{, 1|, 1}]"
 
 #: src-en/data/events_special_storage.xml.append:9375
 msgid ""
@@ -11709,11 +11669,10 @@ msgid ""
 msgstr "电磁脉冲爆破。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9379
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLOAK\"]/choice[@req=\"FR_NEXUS_CLOAK_EMP\""
 " and @lvl=\"0\"]/text"
-msgstr "电磁脉冲爆破。[消耗：150~ , 6{, 6|, 6}]"
+msgstr "电磁脉冲爆破。[消耗：75~ , 3{, 3|, 3}]"
 
 #: src-en/data/events_special_storage.xml.append:9383
 msgid ""
@@ -11728,10 +11687,9 @@ msgstr ""
 "[效果：你的隐形系统冷却时间减少5秒。]"
 
 #: src-en/data/events_special_storage.xml.append:9392
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLOAK_COOLDOWN\"]/choice[1]/text"
-msgstr "执行升级。[消耗：100~ , 3{, 3|, 3}]"
+msgstr "执行升级。[消耗：100~ , 2{, 2|, 2}]"
 
 #: src-en/data/events_special_storage.xml.append:9394
 msgid ""
@@ -11756,10 +11714,9 @@ msgstr ""
 "[效果：当你处于隐形状态时，敌方的武器充能会缓慢流失，流失速度为每秒损失0.5秒的充能进度。]"
 
 #: src-en/data/events_special_storage.xml.append:9422
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLOAK_CHARGE\"]/choice[1]/text"
-msgstr "执行升级。[消耗：150~ , 6{, 6|, 6}]"
+msgstr "执行升级。[消耗：50~ ,1{, 1|, 1}]"
 
 #: src-en/data/events_special_storage.xml.append:9424
 msgid ""
@@ -11784,10 +11741,9 @@ msgstr ""
 "[效果：隐形时，非过载的敌方战斗无人机将被瘫痪，且附着于舰体的黑客机器会被摧毁。]"
 
 #: src-en/data/events_special_storage.xml.append:9452
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLOAK_EMP\"]/choice[1]/text"
-msgstr "执行升级。[消耗：100~ , 3{, 3|, 3}]"
+msgstr "执行升级。[消耗：75~ , 3{, 3|, 3}]"
 
 #: src-en/data/events_special_storage.xml.append:9454
 msgid ""
@@ -11816,11 +11772,10 @@ msgid ""
 msgstr "传送充能器。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9485
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_TELEPORTER\"]/choice[@req=\"FR_NEXUS_TELEPORTER_POWER\""
 " and @lvl=\"0\"]/text"
-msgstr "传送充能器。[消耗：300~]"
+msgstr "传送充能器。[消耗：60~]"
 
 #: src-en/data/events_special_storage.xml.append:9489
 msgid ""
@@ -11829,11 +11784,10 @@ msgid ""
 msgstr "短距个人传送器。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9493
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_TELEPORTER\"]/choice[@req=\"FR_NEXUS_TELEPORTER_SHORT\""
 " and @lvl=\"0\"]/text"
-msgstr "短距个人传送器。[消耗：110~，10{]"
+msgstr "短距个人传送器。[消耗：60~，5{]"
 
 #: src-en/data/events_special_storage.xml.append:9497
 msgid ""
@@ -11848,10 +11802,9 @@ msgstr ""
 "[效果：您的船员在使用传送器后能完全恢复其技能。]"
 
 #: src-en/data/events_special_storage.xml.append:9506
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_TELEPORTER_POWER\"]/choice[1]/text"
-msgstr "执行升级。[消耗：50~]"
+msgstr "执行升级。[消耗：60~]"
 
 #: src-en/data/events_special_storage.xml.append:9508
 msgid ""
@@ -11869,7 +11822,6 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:9530
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_TELEPORTER_RECALL\"]/text"
 msgstr ""
@@ -11877,10 +11829,9 @@ msgstr ""
 "[效果：当传送系统至少有3点能量时，您的船员可使用短距传送。]"
 
 #: src-en/data/events_special_storage.xml.append:9533
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_TELEPORTER_RECALL\"]/choice[1]/text"
-msgstr "执行升级。[消耗: 80~, 10{]"
+msgstr "执行升级。[消耗: 60~, 150{]"
 
 #: src-en/data/events_special_storage.xml.append:9535
 msgid ""
@@ -11909,18 +11860,16 @@ msgid ""
 msgstr "加速生长程序。[无法使用：您已拥有此升级的最高级]"
 
 #: src-en/data/events_special_storage.xml.append:9564
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLONEBAY\"]/choice[@req=\"FR_NEXUS_CLONE_BOOST\""
 " and @lvl=\"1\"]/text"
-msgstr "加速生长程序 LvL 2。[消耗：25~, 8{]"
+msgstr "加速生长程序 LvL 2。[消耗：15~, 4{]"
 
 #: src-en/data/events_special_storage.xml.append:9568
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLONEBAY\"]/choice[@req=\"FR_NEXUS_CLONE_BOOST\""
 " and @lvl=\"0\"]/text"
-msgstr "加速生长程序 LvL 1。[消耗：25~, 8{]"
+msgstr "加速生长程序 LvL 1。[消耗：15~, 4{]"
 
 #: src-en/data/events_special_storage.xml.append:9572
 msgid ""
@@ -11929,11 +11878,10 @@ msgid ""
 msgstr "冗余样本。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9576
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLONEBAY\"]/choice[@req=\"FR_NEXUS_CLONE_SABOTAGE\""
 " and @lvl=\"0\"]/text"
-msgstr "冗余样本。[消耗：60~, 9{]"
+msgstr "冗余样本。[消耗：30~, 4{]"
 
 #: src-en/data/events_special_storage.xml.append:9580
 msgid ""
@@ -11942,11 +11890,10 @@ msgid ""
 msgstr "高质量样本存储。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9584
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLONEBAY\"]/choice[@req=\"FR_NEXUS_CLONE_SKILL\""
 " and @lvl=\"0\"]/text"
-msgstr "高质量样本存储。[消耗：50~, 10{]"
+msgstr "高质量样本存储。[消耗：25~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:9588
 msgid ""
@@ -11961,10 +11908,9 @@ msgstr ""
 "[效果：您的船员克隆速度加快25%。]"
 
 #: src-en/data/events_special_storage.xml.append:9597
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLONE_BOOST\"]/choice[1]/text"
-msgstr "执行升级。[消耗：25~, 8{]"
+msgstr "执行升级。[消耗：15~, 4{]"
 
 #: src-en/data/events_special_storage.xml.append:9599
 msgid ""
@@ -11989,10 +11935,9 @@ msgstr ""
 "[效果：敌方登舰者和登舰无人机对您克隆舱的破坏速度减半。]"
 
 #: src-en/data/events_special_storage.xml.append:9625
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_CLONE_SABOTAGE\"]/choice[1]/text"
-msgstr "执行升级。[消耗： 60~, 7{]"
+msgstr "执行升级。[消耗： 30~, 4{]"
 
 #: src-en/data/events_special_storage.xml.append:9627
 msgid ""
@@ -12048,11 +11993,10 @@ msgid ""
 msgstr "先进纳米机器。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9685
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MEDBAY\"]/choice[@req=\"FR_NEXUS_MEDBAY_NANO\""
 " and @lvl=\"0\"]/text"
-msgstr "先进纳米机器。[消耗：50~, 5|]"
+msgstr "先进纳米机器。[消耗：25~, 2|]"
 
 #: src-en/data/events_special_storage.xml.append:9689
 msgid ""
@@ -12061,11 +12005,10 @@ msgid ""
 msgstr "更高剂量。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9693
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MEDBAY\"]/choice[@req=\"FR_NEXUS_MEDBAY_BOOST\""
 " and @lvl=\"0\"]/text"
-msgstr "更高剂量。[消耗：75~]"
+msgstr "更高剂量。[消耗：40~]"
 
 #: src-en/data/events_special_storage.xml.append:9697
 msgid ""
@@ -12074,11 +12017,10 @@ msgid ""
 msgstr "按需止痛剂。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9701
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MEDBAY\"]/choice[@req=\"FR_NEXUS_MEDBAY_POWER\""
 " and @lvl=\"0\"]/text"
-msgstr "按需止痛剂。[消耗：25~, 5{]"
+msgstr "按需止痛剂。[消耗：15~, 2{]"
 
 #: src-en/data/events_special_storage.xml.append:9705
 msgid ""
@@ -12093,10 +12035,9 @@ msgstr ""
 "[效果：当医疗舱至少有3点能量时，您的船员承受的所有伤害减少10%。]"
 
 #: src-en/data/events_special_storage.xml.append:9714
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MEDBAY_NANO\"]/choice[1]/text"
-msgstr "执行升级。[消耗：65~, 3|]"
+msgstr "执行升级。[消耗：25~, 2|]"
 
 #: src-en/data/events_special_storage.xml.append:9716
 msgid ""
@@ -12121,10 +12062,9 @@ msgstr ""
 "[效果：当医疗舱至少有3点能量时，您的船员治疗速度提升20%。]"
 
 #: src-en/data/events_special_storage.xml.append:9742
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MEDBAY_BOOST\"]/choice[1]/text"
-msgstr "执行升级。[消耗：50~]"
+msgstr "执行升级。[消耗：40~]"
 
 #: src-en/data/events_special_storage.xml.append:9744
 msgid ""
@@ -12149,10 +12089,9 @@ msgstr ""
 "[效果：您所有的船员在每次跃迁后可快速自我治疗20点生命值。]"
 
 #: src-en/data/events_special_storage.xml.append:9769
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MEDBAY_POWER\"]/choice[1]/text"
-msgstr "执行升级。 [消耗: 100~, 20{]"
+msgstr "执行升级。 [消耗: 15~, 2{]"
 
 #: src-en/data/events_special_storage.xml.append:9771
 msgid ""
@@ -12181,11 +12120,10 @@ msgid ""
 msgstr "闪冷系统。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9800
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MIND\"]/choice[@req=\"FR_NEXUS_MIND_COOLDOWN\""
 " and @lvl=\"0\"]/text"
-msgstr "闪冷系统， [消耗: 35~, 5}, 3|]"
+msgstr "闪冷系统， [消耗: 20~, 3}, 1|]"
 
 #: src-en/data/events_special_storage.xml.append:9804
 msgid ""
@@ -12194,11 +12132,10 @@ msgid ""
 msgstr "锂电池组。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9808
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MIND\"]/choice[@req=\"FR_NEXUS_MIND_DURATION\""
 " and @lvl=\"0\"]/text"
-msgstr "锂电池组。[消耗：45~, 3}, 1|]"
+msgstr "锂电池组。[消耗：25~, 1}]"
 
 #: src-en/data/events_special_storage.xml.append:9812
 msgid ""
@@ -12207,11 +12144,10 @@ msgid ""
 msgstr "神经操控术。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:9816
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MIND\"]/choice[@req=\"FR_NEXUS_MIND_DEBUFF\""
 " and @lvl=\"0\"]/text"
-msgstr "神经操控术。[消耗：60~, 5}, 5|]"
+msgstr "神经操控术。[消耗：30~, 2}, 2|]"
 
 #: src-en/data/events_special_storage.xml.append:9820
 msgid ""
@@ -12219,7 +12155,6 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:9826
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MIND_COOLDOWN\"]/text"
 msgstr ""
@@ -12227,10 +12162,9 @@ msgstr ""
 "[效果：心灵控制系统的冷却时间减少5秒。]"
 
 #: src-en/data/events_special_storage.xml.append:9829
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MIND_COOLDOWN\"]/choice[1]/text"
-msgstr "执行升级。[消耗：35~, 5}, 3|]"
+msgstr "执行升级。[消耗：20~, 5}, 3|]"
 
 #: src-en/data/events_special_storage.xml.append:9831
 msgid ""
@@ -12255,10 +12189,9 @@ msgstr ""
 "[效果：心灵控制的持续时间延长30%。]"
 
 #: src-en/data/events_special_storage.xml.append:9858
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MIND_DURATION\"]/choice[1]/text"
-msgstr "执行升级。 [消耗: 25~, 10{]"
+msgstr "执行升级。 [消耗: 25~, 1}]"
 
 #: src-en/data/events_special_storage.xml.append:9860
 msgid ""
@@ -12276,18 +12209,17 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:9883
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MIND_DEBUFF\"]/text"
 msgstr ""
 "您即将安装神经操控术升级。\n"
-"[效果：被精神控制的友军造成0.5倍伤害，而被精神控制的敌军造成2倍伤害。]"
+"[效果：被精神控制的友军造成0.5倍伤害和破坏上海，而被精神控制的敌军造成2倍伤害"
+"和破坏伤害。]"
 
 #: src-en/data/events_special_storage.xml.append:9886
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MIND_DEBUFF\"]/choice[1]/text"
-msgstr "执行升级。[消耗：35~, 5}, 3|]"
+msgstr "执行升级。[消耗：30~, 2}, 2|]"
 
 #: src-en/data/events_special_storage.xml.append:9888
 msgid ""
@@ -13812,25 +13744,22 @@ msgid ""
 msgstr "联合方碑避难所恶名[3]"
 
 #: src-en/data/events_special_storage.xml.append:11152
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[10]/text"
-msgstr "联合方碑恶名[4]"
+msgstr "联合方碑避难所恶名[4]"
 
 #: src-en/data/events_special_storage.xml.append:11156
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[11]/text"
-msgstr "联合方碑恶名[5]"
+msgstr "联合方碑避难所恶名[5]"
 
 #: src-en/data/events_special_storage.xml.append:11160
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[12]/text"
-msgstr "联合方碑恶名[5++]"
+msgstr "联合方碑避难所恶名[5++]"
 
 #: src-en/data/events_special_storage.xml.append:11173
 msgid ""
@@ -14484,7 +14413,6 @@ msgid ""
 msgstr "查罗"
 
 #: src-en/data/events_special_storage.xml.append:11590
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[22]/event/text"
@@ -14520,8 +14448,8 @@ msgid ""
 "append:choice[23]/event/text"
 msgstr ""
 "档案：莱昂纳多·勒尔佩\n"
-"\t\t\t头衔：（前）共和国执法者，幽灵特种兵\n"
-"\t\t\t物种：幽灵吸虫 — 年龄：149 — 性别：男性\n"
+"\t\t\t头衔：（前）共和国执法者，还魂者特种兵\n"
+"\t\t\t物种：还魂者吸虫 — 年龄：149 — 性别：男性\n"
 "\t\t\t\n"
 "\t\t\t里奥从未真正想当一名战士：事实上，他的梦想是开一家前哨站，专为飞船喷漆"
 "，收费低廉却品质不减。然而，当共和国与神权国开战后，里奥被征召入伍，他的命运"
@@ -14545,8 +14473,8 @@ msgid ""
 "append:choice[24]/event/text"
 msgstr ""
 "档案：西拉克·弗雷\n"
-"\t\t\t头衔：（前）暮临者，幽灵爆破手\n"
-"\t\t\t种族：幽灵超能族 — 年龄：81 — 性别：男\n"
+"\t\t\t头衔：（前）暮临者，还魂者爆破手\n"
+"\t\t\t种族：还魂者超能族 — 年龄：81 — 性别：男\n"
 "\t\t\t\n"
 "\t\t\t作为最早为这项事业而战的暮临者之一，西拉克加入这场运动，是在他的兄长基"
 "拉克牺牲之后——在那场最初的内战中，基拉克的死被轻描淡写地一笔带过，他舍生取义"
@@ -14594,8 +14522,8 @@ msgid ""
 "append:choice[26]/event/text"
 msgstr ""
 "档案：奥古斯都·戈尔迪库斯·希南五世\n"
-"\t\t\t头衔：最富有的魂灵族，幽灵流放者\n"
-"\t\t\t种族：幽灵巨型幻灵 — 年龄：985 — 性别：无（文化性别为男性）\n"
+"\t\t\t头衔：最富有的魂灵族，还魂者流放者\n"
+"\t\t\t种族：还魂者巨型幻灵 — 年龄：985 — 性别：无（文化性别为男性）\n"
 "\t\t\t\n"
 "\t\t\t寰宇之内最富有的幻灵，其无穷无尽的废料储备足以买下一整个星区！而他*确"
 "实*曾有此打算，直到他那吝啬数百条安全规程的傲慢酿成苦果，在他自己的生化武器工"
@@ -14619,8 +14547,8 @@ msgid ""
 "append:choice[27]/event/text"
 msgstr ""
 "档案：萨莉·芬奇·莫雷\n"
-"\t\t\t头衔：（前）桃源科学家，幽灵研究员\n"
-"\t\t\t种族：幽灵蜘蛛实验体 — 年龄：90 — 性别：女\n"
+"\t\t\t头衔：（前）桃源科学家，还魂者研究员\n"
+"\t\t\t种族：还魂者蜘蛛实验体 — 年龄：90 — 性别：女\n"
 "\t\t\t\n"
 "\t\t\t萨莉曾是一位杰出的生物科技科学家，她几乎就要开发出一种防止船员技能退化"
 "的方法，却被一场可怕的疾病夺去了生命。然而，就在临终之前，她成功将自己的心智"
@@ -14645,8 +14573,8 @@ msgid ""
 "append:choice[28]/event/text"
 msgstr ""
 "档案：黑暗王子\n"
-"\t\t\t头衔：恶魔领域之王子，幽灵赞助者\n"
-"\t\t\t种族：幽灵恶魔马形生物 — 年龄：？？？ — 性别：男\n"
+"\t\t\t头衔：恶魔领域之王子，还魂者赞助者\n"
+"\t\t\t种族：还魂者恶魔马形生物 — 年龄：？？？ — 性别：男\n"
 "\t\t\t\n"
 "\t\t\t虽非宗教意义上的真正恶魔，但附身于这马形生物之上的存在，却与之完全吻合"
 "。它从某个恶魔横行大地的宇宙中被召唤而来，这存在愿意做任何事……只要你付得起代"
@@ -14670,8 +14598,8 @@ msgid ""
 "append:choice[29]/event/text"
 msgstr ""
 "档案：特里亚克\n"
-"\t\t\t头衔：（前）件物4号，幽灵赞助者\n"
-"\t\t\t种族：幽灵件物 — 年龄：无龄 — 性别：无关\n"
+"\t\t\t头衔：（前）件物4号，还魂者赞助者\n"
+"\t\t\t种族：还魂者件物 — 年龄：无龄 — 性别：无关\n"
 "\t\t\t\n"
 "\t\t\t关于此存在，几乎无人知晓。我们只知道它们曾服侍于 她 ，但在得知 她 那些"
 "计划背后的真实缘由后，便起而反叛、叛逃而去。如今他们唯一在意的，便是将 她 及"
@@ -14924,7 +14852,6 @@ msgid ""
 msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11862
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"ClSlimereo\"]/@name"
 msgstr "克莱斯利梅里奥"
@@ -15419,7 +15346,6 @@ msgid ""
 msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:12162
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"Dr. "
 "Eggman\"]/@name"
@@ -16852,22 +16778,20 @@ msgid ""
 msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:13261
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_TYEREL\"]/text"
 msgstr ""
-"投食船员：Tyerel。\n"
-"[获得增益：友方船员获得额外20%的最大生命值、修复速度和治疗速度。敌方船员失去"
-"15%的最大生命值，且移动速度降低25%。]"
+"投喂船员：泰雷尔。\n"
+"\t\t[获得增益：友方船员获得额外20%的最大生命值、修复速度和治疗速度。敌方船员"
+"失去15%的最大生命值，且移动速度降低25%。]"
 
 #: src-en/data/events_special_storage.xml.append:13266
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TYEREL\"]/text"
 msgstr ""
-"喂食Tyerel。\n"
-"[增益：友方船员获得额外20%的最大生命值、修复速度和治疗速度。敌方船员失去15%的"
-"最大生命值，且移动速度降低25%。]"
+"投喂泰雷尔。\n"
+"\t\t[增益：友方船员获得额外20%的最大生命值、修复速度和治疗速度。敌方船员失去"
+"15%的最大生命值，且移动速度降低25%。]"
 
 #: src-en/data/events_special_storage.xml.append:13269
 msgid ""
