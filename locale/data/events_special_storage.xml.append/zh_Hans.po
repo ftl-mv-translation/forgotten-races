@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-20 03:28+0000\n"
-"Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
+"PO-Revision-Date: 2026-05-20 12:34+0000\n"
+"Last-Translator: stone <19732863360@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_special_storagexmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -389,11 +389,10 @@ msgid ""
 msgstr "重置你的联合方碑解离无人机模物技变者 [-3{]"
 
 #: src-en/data/events_special_storage.xml.append:338
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_MORPH_TRANSFORM\"]/mod:findWithChildLike[1]/mod:findLike/mod-"
 "append:choice[3]/event/text"
-msgstr "你的技变者变回其原始形状。"
+msgstr "你的模物族变回其原始形状。"
 
 #: src-en/data/events_special_storage.xml.append:341
 msgid ""
@@ -1534,7 +1533,7 @@ msgstr "（教学娱乐模块）激活此模块，体验有趣的数学问题！
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[7]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "（军团无人机）设置无人机的状态。[当前模式：光束]"
 
 #: src-en/data/events_special_storage.xml.append:1443
 msgid ""
@@ -1558,13 +1557,13 @@ msgstr "（原型解离无人机）切换其模式。[当前模式：登舰]"
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[7]/mod-"
 "append:choice[5]/text"
-msgstr ""
+msgstr "（灵朝士兵无人机）设置无人机的状态。[当前模式：反登舰]"
 
 #: src-en/data/events_special_storage.xml.append:1459
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[7]/mod-"
 "append:choice[6]/text"
-msgstr ""
+msgstr "（灵朝士兵无人机）设置无人机的状态。[当前模式：登舰]"
 
 #: src-en/data/events_special_storage.xml.append:1463
 msgid ""
@@ -1666,35 +1665,37 @@ msgstr "（桃源战斗无人机）切换其模式。[当前模式：空雷]"
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[7]/mod-"
 "append:choice[23]/text"
-msgstr ""
+msgstr "（珀克的模物发射器无人机）设置无人机的模式。[当前模式：模物]"
 
 #: src-en/data/events_special_storage.xml.append:1531
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[7]/mod-"
 "append:choice[24]/text"
-msgstr ""
+msgstr "（珀克的模物发射器无人机）设置无人机的模式。[当前模式：模物技变者]"
 
 #: src-en/data/events_special_storage.xml.append:1535
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[7]/mod-"
 "append:choice[25]/text"
-msgstr ""
+msgstr "（珀克的模物发射器无人机）设置无人机的模式。[当前模式：模物畸变者]"
 
 #: src-en/data/events_special_storage.xml.append:1539
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[7]/mod-"
 "append:choice[26]/text"
-msgstr ""
+msgstr "（珀克的珀克发射器无人机）设置无人机的模式。[当前模式：珀克]"
 
 #: src-en/data/events_special_storage.xml.append:1545
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_MORPH\"]/text"
 msgstr ""
+"您想将无人机设置为哪种模式？\n"
+"当前状态：[发射物：模物，速度 15]"
 
 #: src-en/data/events_special_storage.xml.append:1548
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_MORPH\"]/choice[1]/text"
-msgstr ""
+msgstr "将无人机设置为发射模物技变者。[发射物：模物技变者，速度 12]"
 
 #: src-en/data/events_special_storage.xml.append:1550
 msgid ""
@@ -1719,7 +1720,7 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:1566
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_MORPH\"]/choice[2]/text"
-msgstr ""
+msgstr "将无人机设置为发射模物畸变者。[发射物：模物畸变者，速度 8]"
 
 #: src-en/data/events_special_storage.xml.append:1568
 msgid ""
@@ -1745,6 +1746,9 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_MORPH\"]/choice[@req=\"FR_MORPH_REVENANT_FORMS\"]/text"
 msgstr ""
+"将无人机设置为发射珀克。[发射物：珀克，速度 5]\n"
+"\n"
+"警告：这将消耗你的珀克！此操作不可逆转！"
 
 #: src-en/data/events_special_storage.xml.append:1588
 msgid ""
@@ -1780,11 +1784,13 @@ msgstr "返回到切换菜单。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_TECHNO\"]/text"
 msgstr ""
+"您想将无人机设置为哪种模式？\n"
+"当前状态：[发射物：模物技变者，速度 12]"
 
 #: src-en/data/events_special_storage.xml.append:1617
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_TECHNO\"]/choice[1]/text"
-msgstr ""
+msgstr "将无人机设置为发射模物。[发射物：模物，速度 15]"
 
 #: src-en/data/events_special_storage.xml.append:1619
 msgid ""
@@ -1809,7 +1815,7 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:1635
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_TECHNO\"]/choice[2]/text"
-msgstr ""
+msgstr "将无人机设置为发射模物畸变者。[发射物：模物畸变者，速度 8]"
 
 #: src-en/data/events_special_storage.xml.append:1637
 msgid ""
@@ -1835,6 +1841,9 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_TECHNO\"]/choice[@req=\"FR_MORPH_REVENANT_FORMS\"]/text"
 msgstr ""
+"将无人机设置为发射珀克。[发射物：珀克，速度 5]\n"
+"\n"
+"警告：这将消耗你的珀克！此操作不可逆转！"
 
 #: src-en/data/events_special_storage.xml.append:1657
 msgid ""
@@ -1870,11 +1879,13 @@ msgstr "返回到切换菜单。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_MALFORMED\"]/text"
 msgstr ""
+"您想将无人机设置为哪种模式？\n"
+"当前状态：[发射物：模物畸变者，速度 8]"
 
 #: src-en/data/events_special_storage.xml.append:1686
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_MALFORMED\"]/choice[1]/text"
-msgstr ""
+msgstr "将无人机设置为发射模物。[发射物：模物，速度 15]"
 
 #: src-en/data/events_special_storage.xml.append:1688
 msgid ""
@@ -1899,7 +1910,7 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:1704
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_MALFORMED\"]/choice[2]/text"
-msgstr ""
+msgstr "将无人机设置为发射模物技变者。[发射物：模物技变者，速度 12]"
 
 #: src-en/data/events_special_storage.xml.append:1706
 msgid ""
@@ -1924,7 +1935,7 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:1722
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_MALFORMED\"]/choice[3]/text"
-msgstr ""
+msgstr "将无人机设置为发射模物畸变者。[发射物：模物畸变者，速度 8]"
 
 #: src-en/data/events_special_storage.xml.append:1724
 msgid ""
@@ -1955,11 +1966,13 @@ msgstr "返回到切换菜单。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_POK\"]/text"
 msgstr ""
+"您想将无人机设置为哪种模式？\n"
+"当前状态：[发射物：珀克，速度 5]"
 
 #: src-en/data/events_special_storage.xml.append:1749
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_POK\"]/choice[1]/text"
-msgstr ""
+msgstr "将无人机设置为发射模物。[发射物：模物，速度 15]"
 
 #: src-en/data/events_special_storage.xml.append:1751
 msgid ""
@@ -1984,7 +1997,7 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:1767
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_POK\"]/choice[2]/text"
-msgstr ""
+msgstr "将无人机设置为发射模物技变者。[发射物：模物技变者，速度 12]"
 
 #: src-en/data/events_special_storage.xml.append:1769
 msgid ""
@@ -2009,7 +2022,7 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:1785
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_COMBAT_CHECK_POK_POK\"]/choice[3]/text"
-msgstr ""
+msgstr "将无人机设置为发射模物畸变者。[发射物：模物畸变者，速度 8]"
 
 #: src-en/data/events_special_storage.xml.append:1787
 msgid ""
@@ -6852,39 +6865,41 @@ msgstr "主特质：完美飞升。[特性已配置]"
 #: src-en/data/events_special_storage.xml.append:5534
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[6]/text"
-msgstr ""
+msgstr "主要：无瑕飞升。[消耗：100~]"
 
 #: src-en/data/events_special_storage.xml.append:5538
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[7]/text"
-msgstr ""
+msgstr "主要：量身专精。[已安装升级。]"
 
 #: src-en/data/events_special_storage.xml.append:5542
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[8]/text"
-msgstr ""
+msgstr "主要：量身专精。[消耗：25{]"
 
 #: src-en/data/events_special_storage.xml.append:5546
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[9]/text"
-msgstr ""
+msgstr "主要：灵体存在。[已安装升级。]"
 
 #: src-en/data/events_special_storage.xml.append:5550
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[@req=\"FR_LAB_SALT_INSTALLED\"]/text"
-msgstr ""
+msgstr "主要：灵体存在。[消耗：15|30]"
 
 #: src-en/data/events_special_storage.xml.append:5554
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[@req=\"FR_LAB_REVENANT_TRUE_UNDEATH\""
 " and @lvl=\"1\"]/text"
 msgstr ""
+"次要[还魂者]：永恒不死。[已安装升级]\n"
+"[还魂者无法通过常规方式克隆或治疗，但会在跳跃时复活。]"
 
 #: src-en/data/events_special_storage.xml.append:5559
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[@req=\"FR_LAB_REVENANT_TRUE_UNDEATH\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "次要[还魂者]：永恒不死。[消耗：45~]"
 
 #: src-en/data/events_special_storage.xml.append:5563
 msgid ""
@@ -6895,12 +6910,38 @@ msgstr "返回。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER_FLAWLESS_ASCENSION\"]/text"
 msgstr ""
+"你即将安装完美飞升特质。\n"
+"[你的幽灵们技能充能时间翻倍，但技能效果获得独特强化。\n"
+"黏稠者：\n"
+"- 吞噬：移除系统伤害，且可在敌方舰船内使用。\n"
+"- 进食：对敌方船员造成75点伤害，并为房间内每个敌方船员治疗黏稠者35点生命值"
+"。\n"
+"菲斯：离子伤害提升至8点，且击晕效果仅作用于敌人。\n"
+"埃莉诺：船员伤害提升至100点，系统伤害提升至4点。\n"
+"文：\n"
+"- 增压：移除自伤效果。\n"
+"- 聚变：激活技能后，文的火焰治疗量翻倍，持续10秒。\n"
+"克里奥：无人机在持续时间内伤害也翻倍。\n"
+"祖鲁：移除效果期间的移动速度、破坏和伤害惩罚。\n"
+"G：持续时间内同时召唤3个亡灵幽灵。\n"
+"霜晶壁垒：移除自伤效果，并使被冻结的船员在持续时间内承受全额伤害。\n"
+"死亡绽放：孢子持续时间翻倍，受孢子影响的敌人移动速度降低10%。\n"
+"珀克：其变形能力的冷却时间在所有形态下均缩短至10秒。\n"
+"查罗：其技能现在可影响所有船员类型，且仅作用于敌人。\n"
+"里奥：所受伤害增加的效果现在转而作用于房间内的敌人。\n"
+"西拉克：移除爆炸后的击晕效果。\n"
+"奥古斯都：完全治愈自身仅消耗1点废料。\n"
+"萨莉：幼体和成体形态的技能冷却时间仅1秒，而编织者形态的技能影响所有舰船。\n"
+"王子：同时使房间破损并引发火灾。\n"
+"特里亚克：效果持续期间免疫击晕。]\n"
+"\n"
+"[警告：安装此改造后，你将无法再为幽灵船员安装任何主要升级。你也无法停用此特质"
+"。]"
 
 #: src-en/data/events_special_storage.xml.append:5595
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER_FLAWLESS_ASCENSION\"]/choice[1]/text"
-msgstr "配置特质。[消耗：30~]"
+msgstr "配置特质。[消耗：100~]"
 
 #: src-en/data/events_special_storage.xml.append:5597
 msgid ""
@@ -6921,6 +6962,32 @@ msgstr "算了。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER_TAILORED_SPECIALIZATION\"]/text"
 msgstr ""
+"你即将安装一体特质。\n"
+"\n"
+"[你的幽灵的强项与弱点将大幅提升。\n"
+"\n"
+"粘稠者：主动技能冷却时间减少50% - 船员伤害减半。\n"
+"菲斯：基础能量翻倍 - 无法进行破坏。\n"
+"埃莉诺：伤害翻倍 - 无法进行修复。\n"
+"文：生命值翻倍 - 速度减半。\n"
+"克里奥：生命值、速度、修复能力与伤害获得1.3倍加成 - 无法直接与敌方无人机战斗"
+"。\n"
+"祖鲁：破坏伤害翻倍 - 船员伤害减半。\n"
+"G：从环境危害中获得的治疗效果翻倍 - 主动技能冷却时间增加50%。\n"
+"霜晶壁垒：远程伤害翻倍 - 生命值减半。\n"
+"死亡绽放：氧气产量设为2.0（原为0.1） - 治疗速度减半。\n"
+"珀克：移动速度提高50%，主动技能冷却时间减少50% - 占用2个船员槽位。\n"
+"查罗：修复速度翻倍 - 船员伤害减半。\n"
+"里奥：能量消耗翻倍 - 眩晕时间翻倍。\n"
+"西拉克：所受伤害减半 - 破坏伤害减半。\n"
+"奥古斯都：破坏、伤害和生命值获得1.2倍乘数 - 移动速度减半。\n"
+"萨利：持续每秒治疗15点生命值 - 生命值减半。\n"
+"王子：移动速度翻倍 - 修复速度减半。\n"
+"特里亚克：被精神控制的船员在其同一房间内造成的伤害翻倍 - 眩晕时间延长10倍"
+"。]\n"
+"\n"
+"[警告：安装此改造后，你将无法再为幽灵船员安装任何主要升级。你也无法停用此特质"
+"。]"
 
 #: src-en/data/events_special_storage.xml.append:5642
 #, fuzzy
@@ -6947,6 +7014,12 @@ msgstr "算了。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER_SPECTRAL_EXISTENCE\"]/text"
 msgstr ""
+"你即将安装灵性之光特质。\n"
+"[幽灵不占用任何船员槽位。在船员损失事件中，普通幽灵将优先于任何其他船员被牺牲"
+"。]\n"
+"\n"
+"[警告：安装此改造后，你将无法再为幽灵船员安装任何主要升级。你也无法停用此模组"
+"。]"
 
 #: src-en/data/events_special_storage.xml.append:5672
 #, fuzzy
@@ -6973,6 +7046,10 @@ msgstr "算了。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_REVENANT_TRUE_UNDEATH\"]/text"
 msgstr ""
+"你即将安装永恒不死改造。\n"
+"[效果：还魂者无法通过常规方式克隆或治疗，但会在跳跃时复活。]\n"
+"\n"
+"[警告：此改造仅影响还魂者船员。之后你仍可安装其他次要特质和主要特质。]"
 
 #: src-en/data/events_special_storage.xml.append:5702
 msgid ""
@@ -6996,7 +7073,7 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_REVENANT_TRUE_UNDEATH\"]/choice[@req=\"LAB_UPGRADE\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "你必须先拥有实验室升级才能安装此特质。"
 
 #: src-en/data/events_special_storage.xml.append:5719
 msgid ""
@@ -8496,10 +8573,11 @@ msgstr ""
 "会吸引任何前来调查你劣行之人的目光。"
 
 #: src-en/data/events_special_storage.xml.append:6870
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JOB_FLEET\"]/mod-"
 "append:choice[4]/text"
-msgstr ""
+msgstr "使用你的空雷开采发射器。[-17]，拖延3次叛军追击]"
 
 #: src-en/data/events_special_storage.xml.append:6872
 msgid ""
@@ -8535,7 +8613,7 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JOB_FLEET\"]/mod-"
 "append:choice[5]/text"
-msgstr ""
+msgstr "使用你的审判Mk3地雷发射器。[-7]，拖延2次叛军追击。]"
 
 #: src-en/data/events_special_storage.xml.append:6898
 msgid ""
@@ -8571,13 +8649,15 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JOB_FLEET\"]/mod-"
 "append:choice[6]/text"
-msgstr ""
+msgstr "使用你的维和能量空雷发射器。[-15]，拖延2次叛军追击，不影响恶名值。]"
 
 #: src-en/data/events_special_storage.xml.append:6924
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JOB_FLEET\"]/mod-"
 "append:choice[6]/event/text"
 msgstr ""
+"你改装了弹药，为叛军设下了陷阱。幸运的是，由于某些晦涩的法律漏洞，使用这种武"
+"器并不违法，尽管它在道德上非常值得商榷。"
 
 #: src-en/data/events_special_storage.xml.append:6943
 msgid ""
@@ -9320,7 +9400,7 @@ msgstr "开始战斗！"
 #: src-en/data/events_special_storage.xml.append:7475
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_JAM_OMNI\"]/choice[@req=\"drones_enemy\"]/text"
-msgstr ""
+msgstr "无人机控制。"
 
 #: src-en/data/events_special_storage.xml.append:7477
 msgid ""
@@ -9570,7 +9650,7 @@ msgstr "开始战斗！"
 #: src-en/data/events_special_storage.xml.append:7655
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_JAM_OMNI\"]/choice[@req=\"fr_clicker_enemy\"]/text"
-msgstr ""
+msgstr "她的愿景。"
 
 #: src-en/data/events_special_storage.xml.append:7657
 msgid ""
@@ -9595,7 +9675,7 @@ msgstr "开始战斗！"
 #: src-en/data/events_special_storage.xml.append:7673
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_JAM_OMNI\"]/choice[19]/text"
-msgstr ""
+msgstr "改为执行其他操作。"
 
 #: src-en/data/events_special_storage.xml.append:7677
 msgid ""
@@ -9723,7 +9803,7 @@ msgstr "开始战斗！"
 #: src-en/data/events_special_storage.xml.append:7767
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_JAM_OMNI_BATTERY\"]/choice[@req=\"drones_enemy\"]/text"
-msgstr ""
+msgstr "无人机控制。"
 
 #: src-en/data/events_special_storage.xml.append:7769
 msgid ""
@@ -9873,7 +9953,7 @@ msgstr "开始战斗！"
 #: src-en/data/events_special_storage.xml.append:7877
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_JAM_OMNI_BATTERY\"]/choice[@req=\"fr_clicker_enemy\"]/text"
-msgstr ""
+msgstr "她的愿景。"
 
 #: src-en/data/events_special_storage.xml.append:7879
 msgid ""
@@ -9888,7 +9968,7 @@ msgstr "开始战斗！"
 #: src-en/data/events_special_storage.xml.append:7888
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_JAM_OMNI_BATTERY\"]/choice[19]/text"
-msgstr ""
+msgstr "改为执行其他操作。"
 
 #: src-en/data/events_special_storage.xml.append:7892
 msgid ""
@@ -13796,7 +13876,7 @@ msgstr "（联合方碑避难所）"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_LOOT\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "（纷争战区）"
 
 #: src-en/data/events_special_storage.xml.append:11189
 msgid ""
@@ -13894,13 +13974,22 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "万斯·温特沃斯本尊"
 
 #: src-en/data/events_special_storage.xml.append:11275
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
+"资料：万斯·温特沃斯本尊\n"
+"头衔：多元宇宙叛军领袖、（前）联邦海军上将、螳螂-联邦战争老兵、温特沃斯工业首"
+"席执行官\n"
+"种族：人类 - 年龄：75岁 - 性别：男\n"
+"\n"
+"万斯本尊是一个复杂的人物。关于他的事迹多到足以填满整座图书馆：他发起了多元宇"
+"宙有史以来最大规模的叛乱，毁掉了无数人的生活，并造就了一头名为叛军的吞噬一切"
+"的怪物——到了现在，这头怪物已无法被遏制或永久终结。你同意给他第二次机会，这要"
+"么说明你富有同情心，要么说明你愚不可及。"
 
 #: src-en/data/events_special_storage.xml.append:11282
 msgid ""
@@ -13919,6 +14008,13 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[2]/event/text"
 msgstr ""
+"资料：莱孔普利纳克拉女王\n"
+"头衔：螳螂母巢女王\n"
+"种族：螳螂 - 年龄：80岁 - 性别：女\n"
+"\n"
+"现任螳螂母巢女王莱孔普利伊纳克拉，是促成母巢与星联结盟的负责人。她对这一决定"
+"感到后悔，但在当前经济危机重创母巢的情况下，已无力做出太多改变。希望现在情况"
+"能开始有所好转。"
 
 #: src-en/data/events_special_storage.xml.append:11297
 msgid ""
@@ -13937,6 +14033,13 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
+"资料：塞拉·布莱克\n"
+"头衔：受保护地守护者、初代MFK王牌\n"
+"种族：人类 - 年龄：74岁 - 性别：女\n"
+"\n"
+"作为两位初代MFK之一，塞拉·布莱克主要负责保护庇护所并确保万斯的侄子杰瑞·温特沃"
+"斯安然无恙。她对万斯极为忠诚，是他最亲密的伙伴，仅次于他的侄子。两人关系曾密"
+"切到在过去有过一段私情。"
 
 #: src-en/data/events_special_storage.xml.append:11312
 msgid ""
@@ -13948,13 +14051,20 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[4]/text"
-msgstr ""
+msgstr "莉亚·艾波巴兹"
 
 #: src-en/data/events_special_storage.xml.append:11320
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[4]/event/text"
 msgstr ""
+"资料：莉娅·艾波巴兹\n"
+"头衔：光束大师、你的宿敌\n"
+"种族：人类 - 年龄：24岁 - 性别：女\n"
+"\n"
+"她是丁克尔曼·赖希斯特·冯·艾波巴兹三三四世伯爵的女儿，也是你个人的宿敌。她在常"
+"识和策略方面有所欠缺，但在纯粹的决心上却有过之而无不及。你对她说过的话似乎让"
+"她倒向了你的阵营，所以现在你们俩的关系恐怕更像是亦敌亦友，而非宿敌。"
 
 #: src-en/data/events_special_storage.xml.append:11327
 msgid ""
@@ -13966,13 +14076,20 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[5]/text"
-msgstr ""
+msgstr "迈克尔·斯特普福德"
 
 #: src-en/data/events_special_storage.xml.append:11335
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[5]/event/text"
 msgstr ""
+"资料：迈克尔·斯特普福德\n"
+"头衔：（前）蜘蛛萨米的扮演者\n"
+"种族：人类 - 年龄：20岁 - 性别：男\n"
+"\n"
+"他曾是蜘蛛萨米的扮演者，或者说至少他曾经是，直到有一次与装扮成小马埃莉的斯蒂"
+"芬近距离接触后，他留下了心理创伤，无法再为“鲜花与阳光”公司工作。他能得到这份"
+"工作，是因为曾在万斯的侄子杰瑞·温特沃斯的生日派对上扮演过埃莉。"
 
 #: src-en/data/events_special_storage.xml.append:11342
 msgid ""
@@ -13991,6 +14108,15 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[6]/event/text"
 msgstr ""
+"资料：哥泽什·拉尔·奥伊拉库斯\n"
+"头衔：游灵领袖\n"
+"种族：阿尔法流浪者（更准确地说，是骚灵） - 年龄：666岁 - 性别：不详\n"
+"\n"
+"游魂的大佬，这是王朝这一带规模最大、实力最强的犯罪组织。哥泽什诞生于方碑帝国"
+"崩塌之后，在大王朝大萧条来临之前，他早年在家族生意中享受着奢华与成功的生活。"
+"大萧条的到来使他为了生存而走上犯罪道路。事实证明，他经营犯罪组织很有一套，几"
+"个世纪后便成功建立了一个犯罪帝国——只要他敢踏出y游灵领地，这个帝国足以与任何海"
+"盗组织匹敌甚至超越。"
 
 #: src-en/data/events_special_storage.xml.append:11357
 msgid ""
@@ -14002,13 +14128,21 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[7]/text"
-msgstr ""
+msgstr "斯特凡·理查德"
 
 #: src-en/data/events_special_storage.xml.append:11365
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[7]/event/text"
 msgstr ""
+"资料：斯特凡·理查德\n"
+"头衔：空雷发射器销售员\n"
+"种族：人类 - 年龄：42岁 - 性别：男\n"
+"\n"
+"关于斯特凡，没什么太多可说的。他继承了一家地雷发射器商店，店铺位于联邦领地内"
+"一个别致的空间站上。生意一直不错，直到一次怪异的事故将他生活和工作的空间站传"
+"送到了跨时间线的某个地方，最终抵达了一片对他来说完全陌生的土地。这里充满了各"
+"种他闻所未闻的外星种族，以及他完全看不懂的武器。"
 
 #: src-en/data/events_special_storage.xml.append:11372
 msgid ""
@@ -14020,13 +14154,22 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[8]/text"
-msgstr ""
+msgstr "乔恩·布里格斯"
 
 #: src-en/data/events_special_storage.xml.append:11380
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[8]/event/text"
 msgstr ""
+"资料：乔恩·布里格斯\n"
+"头衔：温特沃斯首席技师、多元宇宙叛军\n"
+"种族：人类 - 年龄：45岁 - 性别：男\n"
+"\n"
+"乔恩是温特沃斯创新革新社内最负盛名的技师之一：他在无人机领域的专业知识无人能"
+"及。事实上，无人机增强器技术正是由他完善的。该技术可以轻松安装在任何无人机控"
+"制等级足够高的飞船上，无需任何外部改造。虽然他是从第一宇宙来到这个宇宙的，但"
+"乔恩的实际出生地并不为人所知——这意味着似乎每一个宇宙中的乔恩，都会在人生中的"
+"某个时刻做出这个决定。"
 
 #: src-en/data/events_special_storage.xml.append:11387
 msgid ""
@@ -14038,13 +14181,25 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[9]/text"
-msgstr ""
+msgstr "紫胡子"
 
 #: src-en/data/events_special_storage.xml.append:11395
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[9]/event/text"
 msgstr ""
+"资料：克林特·希尔曼\n"
+"头衔：（前）紫胡子恐怖海盗、（前）第45师军团上尉、海盗传奇\n"
+"种族：人类 - 年龄：65岁 - 性别：男\n"
+"\n"
+"克林特在第一宇宙出生并长大。从很小的时候起，他就被训练成为一名叛军士兵。10岁"
+"之后，他被万斯一号亲自从家人身边带走，从那以后，他每天都接受训练，立志成为一"
+"名军团士兵。虽然他在军团中晋升得非常快，但他的职业生涯在一次被迫行动后停滞了—"
+"—那次行动的细节，他至今拒绝提及或详细说明。无论那件事是什么，都极其残忍，彻底"
+"摧毁了他对叛军的信念。他伪造了自己的死亡，并将一台多元宇宙驱动器临时改装到他"
+"那艘可靠的军团突击舰上，逃离了第一宇宙。由于无意加入任何其他阵营，克林特转而"
+"投身海盗行当，迅速打响名号，赢得了“紫胡子”的绰号。正如他们所说，剩下的就都成"
+"为历史了。"
 
 #: src-en/data/events_special_storage.xml.append:11402
 msgid ""
@@ -14056,13 +14211,20 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[10]/text"
-msgstr ""
+msgstr "虫后毒蛛"
 
 #: src-en/data/events_special_storage.xml.append:11410
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[10]/event/text"
 msgstr ""
+"资料：夏洛特\n"
+"头衔：虫后毒蛛\n"
+"种族：变异巨型外星蜘蛛 - 年龄：20岁 - 性别：雌性\n"
+"\n"
+"虽然与普通的巨型外星蜘蛛女王相似，但这个特定个体能够分泌出强效毒液，即使是最"
+"顽强的岩石族也能轻易瘫痪。然而，她无法产卵，因此永远无法繁衍自己的后代——这一"
+"事实或许促成了她对一切蜘蛛相关事物的喜爱。"
 
 #: src-en/data/events_special_storage.xml.append:11417
 msgid ""
@@ -14074,13 +14236,19 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[11]/text"
-msgstr ""
+msgstr "机械小马"
 
 #: src-en/data/events_special_storage.xml.append:11425
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[11]/event/text"
 msgstr ""
+"资料：3QU3STR14\n"
+"头衔：机械小马\n"
+"种族：半械族 - 年龄：80岁 - 性别：不详\n"
+"\n"
+"关于这个奇怪的半械族，人们所知不多。我们只知道它喜欢假装自己是一匹小马，如果"
+"有人告诉它它其实不是小马，它会非常伤心。"
 
 #: src-en/data/events_special_storage.xml.append:11432
 msgid ""
@@ -14099,6 +14267,13 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[12]/event/text"
 msgstr ""
+"资料：黏稠者·斯斯特里尔三世\n"
+"头衔：（前）星盗会之王、还魂者卫兵\n"
+"种族：还魂者蛞蝓 - 年龄：254岁 - 性别：雌雄同体（文化认同为男性）\n"
+"\n"
+"他是星盗会政体还被称为“蛞蝓集体星盗会政体”时的老王，如今已故。他的统治极其残"
+"暴，以至于导致星盗会政体在之后近100年的时间里变成了一个共和国。他的死因是食物"
+"中毒，源于一批劣质的致幻瓜果——这是由他自己的儿子一手策划的。"
 
 #: src-en/data/events_special_storage.xml.append:11447
 msgid ""
@@ -14117,6 +14292,14 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[13]/event/text"
 msgstr ""
+"资料：菲斯·卡瓦\n"
+"头衔：离子尖啸者、还魂者吉祥物\n"
+"种族：还魂者甲壳 - 年龄：151岁 - 性别：女\n"
+"\n"
+"甲壳政府曾提议设立一个新的研究部门，但这个部门在成立之初便告失败。菲斯是该项"
+"目的第一个活体测试对象，她在“诞生”后不久便死去，并随后控制了整个设施及其所有"
+"研究，用以制造更多自己的同类。她喜欢让别人快乐，并且在从诅咒中解脱后，不再时"
+"刻承受痛苦。"
 
 #: src-en/data/events_special_storage.xml.append:11462
 msgid ""
@@ -14135,6 +14318,15 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[14]/event/text"
 msgstr ""
+"资料：埃莉诺·拉基特拉皮克\n"
+"头衔：螳螂主教、还魂者突击手\n"
+"种族：还魂者螳螂 - 年龄：210岁 - 性别：女\n"
+"\n"
+"她是拉特拉克帕卡女王选出的最忠诚的主教之一，负责看守位于螳螂母巢首都最深处孵"
+"化场。她的一生除了工作之外别无他物，但在白银时代那场大孵化场火灾中，她为了保"
+"护虫卵而牺牲。那场火灾夺去了数百万螳螂的生命，如果不是埃莉诺的机智和牺牲，整"
+"个帝国可能就此终结。她的名字至今在螳螂母巢中仍受尊崇，甚至还有一个以她命名的"
+"节日。"
 
 #: src-en/data/events_special_storage.xml.append:11477
 msgid ""
@@ -14153,6 +14345,14 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[15]/event/text"
 msgstr ""
+"资料：文·维特雷顿\n"
+"头衔：岩石圣骑士、还魂者执法者\n"
+"种族：还魂者岩石族 - 年龄：450岁 - 性别：男\n"
+"\n"
+"一位在岩石神权国度过了一段非常和平时期的岩石圣骑士，他的力量并不出众，一生中"
+"也未有什么建树。事实上，他最值得一提的事迹是他的死法。他在睡觉时，自动驾驶系"
+"统发生故障，将他直接送入了附近的一颗红巨星。不用说，他对被G呼来喝去这件事并不"
+"怎么高兴。"
 
 #: src-en/data/events_special_storage.xml.append:11492
 msgid ""
@@ -14171,6 +14371,13 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[16]/event/text"
 msgstr ""
+"资料：克里奥·史密斯\n"
+"头衔：MFK王牌、还魂者聆听者\n"
+"种族：还魂者人类 - 年龄：70岁 - 性别：男\n"
+"\n"
+"他是G的队伍中最年轻的还魂者，也是最不稳定的一个。在一台经过改造的维修无人机手"
+"中惨死后，这位前MFK王牌如今只剩下破碎的躯壳。他生前并非什么引人注目的王牌，因"
+"此他的死被叛军掩盖，他的名字也只沦为用来吓唬新兵的一则古老传说。"
 
 #: src-en/data/events_special_storage.xml.append:11507
 msgid ""
@@ -14189,6 +14396,13 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[17]/event/text"
 msgstr ""
+"资料：光辉祖鲁\n"
+"头衔：还魂者右手\n"
+"种族：还魂者食铁族 - 年龄：??? - 性别：不详\n"
+"\n"
+"第一位还魂者，也是G的老朋友。正是因为他们的死亡，G才走上了钻研死灵术的道路，"
+"徒劳地希望能让他们复活。如今，祖鲁的存在只是为了延续G的意志，无条件地服务于她"
+"。直到你打破了G的诅咒，拯救了他们。"
 
 #: src-en/data/events_special_storage.xml.append:11522
 msgid ""
@@ -14207,6 +14421,13 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[18]/event/text"
 msgstr ""
+"资料：死灵巫妖 G\n"
+"头衔：还魂者领袖、死灵巫妖、（前）方碑皇家导航员\n"
+"种族：还魂者方碑 - 年龄：约10万岁 - 性别：不详（文化认同为女性）\n"
+"\n"
+"作为负责绘制其他宇宙航图的方碑王室成员，G 一生都是 Y 女王麾下忠诚的工作者，即"
+"便死后她仍希望能再次亲自见到她的女王。在她挚友祖鲁去世后，G 陷入了深深的抑郁"
+"之中，不幸的是，当她找到《死灵之书》后，这份抑郁被一股黑暗的野心所取代。"
 
 #: src-en/data/events_special_storage.xml.append:11537
 msgid ""
@@ -14218,13 +14439,20 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[19]/text"
-msgstr ""
+msgstr "霜晶壁垒"
 
 #: src-en/data/events_special_storage.xml.append:11545
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[19]/event/text"
 msgstr ""
+"资料：霜晶壁垒·戴蒙德什\n"
+"头衔：（前）哨兵、还魂者传道者\n"
+"种族：还魂者水晶 - 年龄：580岁 - 性别：男\n"
+"\n"
+"一名技艺精湛的哨兵，曾前途一片光明，直到他被派往执行一项任务：从一艘形似乌托"
+"邦人作品的神秘灰色飞船手中，夺回一批珍贵的水晶武器货物。但那艘飞船上的某种东"
+"西改变了霜晶壁垒。他的心智沦陷于无休止的低语之中，不久之后便被击毙。"
 
 #: src-en/data/events_special_storage.xml.append:11552
 msgid ""
@@ -14236,13 +14464,22 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[20]/text"
-msgstr ""
+msgstr "死亡绽放"
 
 #: src-en/data/events_special_storage.xml.append:11560
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[20]/event/text"
 msgstr ""
+"资料：死亡绽放·伊瑟蒂尔\n"
+"头衔：（前）宝藏猎人、还魂者寻觅者\n"
+"种族：还魂者血草兰花 - 年龄：208岁 - 性别：女\n"
+"\n"
+"死亡绽放的名字听起来可能充满攻击性和杀戮意味，但事实上，她是联邦之外你能找到"
+"的最友善的吸血草之一。实际上，她很少前往血草兰花控制的星区，通常只是偶尔进入"
+"以出售她珍贵的文物。在她死后，整个星区不得不被隔离，因为她的孢子不知何故适应"
+"了太空真空环境，并且每个周期都变得更加致命。如今，它们已是血草兰花所知的、最"
+"致命的生物危害。"
 
 #: src-en/data/events_special_storage.xml.append:11567
 msgid ""
@@ -14261,6 +14498,12 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[21]/event/text"
 msgstr ""
+"资料：珀克·多克\n"
+"头衔：禁忌实验体、还魂者渗透者\n"
+"种族：还魂者模物族 - 年龄：??? - 性别：不详\n"
+"\n"
+"如果不是因为只是个小小家伙，珀克本可以成为最强大的渗透者单位。他们憎恶暴力，"
+"只想和大家做朋友。不幸的是，他们被迫服从“守望者”的命令。"
 
 #: src-en/data/events_special_storage.xml.append:11582
 msgid ""
@@ -14272,7 +14515,7 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[22]/text"
-msgstr ""
+msgstr "查罗"
 
 #: src-en/data/events_special_storage.xml.append:11590
 msgid ""
@@ -15664,7 +15907,7 @@ msgstr "开始战斗！"
 #: src-en/data/events_special_storage.xml.append:12667
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_RADIOACTIVE_FURY_C\"]/choice[2]/text"
-msgstr ""
+msgstr "改为执行其他操作。"
 
 #: src-en/data/events_special_storage.xml.append:12673
 msgid ""
@@ -15699,7 +15942,7 @@ msgstr "开始战斗！"
 #: src-en/data/events_special_storage.xml.append:12699
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_RADIOACTIVE_FURY_S\"]/choice[2]/text"
-msgstr ""
+msgstr "改为执行其他操作。"
 
 #: src-en/data/events_special_storage.xml.append:12713
 msgid ""
@@ -16867,7 +17110,7 @@ msgstr ""
 #: src-en/data/events_special_storage.xml.append:13679
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"pilot\"]/text"
-msgstr ""
+msgstr "改为执行其他操作。"
 
 #: src-en/data/events_special_storage.xml.append:13694
 msgid ""
