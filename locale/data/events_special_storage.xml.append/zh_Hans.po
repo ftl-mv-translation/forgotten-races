@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-20 12:34+0000\n"
-"Last-Translator: circle217 <3545024352@qq.com>\n"
+"PO-Revision-Date: 2026-05-20 12:35+0000\n"
+"Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_special_storagexmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -115,11 +115,10 @@ msgid ""
 msgstr "（万能光束商店）召唤一个万能光束商店。"
 
 #: src-en/data/events_special_storage.xml.append:96
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_AUG\"]/mod-"
 "append:choice[10]/text"
-msgstr "（新潘多拉魔盒）试试你的运气。"
+msgstr "（新型潘多拉魔盒）试试你的运气。"
 
 #: src-en/data/events_special_storage.xml.append:100
 msgid ""
@@ -1430,14 +1429,12 @@ msgid ""
 msgstr "（全系统干扰器+应急供能器）干扰敌舰系统！"
 
 #: src-en/data/events_special_storage.xml.append:1360
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_FAIL_REAL\"]/mod-"
 "append:choice[9]/text"
 msgstr "（放射性狂怒—船员）切换你的增强部件模式！"
 
 #: src-en/data/events_special_storage.xml.append:1364
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_FAIL_REAL\"]/mod-"
 "append:choice[10]/text"
@@ -1504,14 +1501,12 @@ msgid ""
 msgstr "（全系统干扰器+应急供能器）干扰敌舰系统！"
 
 #: src-en/data/events_special_storage.xml.append:1411
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_REAL\"]/mod-"
 "append:choice[9]/text"
 msgstr "（放射性狂怒—船员）切换你的增强部件模式！"
 
 #: src-en/data/events_special_storage.xml.append:1415
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_REAL\"]/mod-"
 "append:choice[10]/text"
@@ -1566,14 +1561,12 @@ msgid ""
 msgstr "（灵朝士兵无人机）设置无人机的状态。[当前模式：登舰]"
 
 #: src-en/data/events_special_storage.xml.append:1463
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[7]/mod-"
 "append:choice[7]/text"
 msgstr "（生孳无人机）设置无人机的状态。[当前模式：反人员/维修]"
 
 #: src-en/data/events_special_storage.xml.append:1467
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[7]/mod-"
 "append:choice[8]/text"
@@ -6992,10 +6985,9 @@ msgstr ""
 "。]"
 
 #: src-en/data/events_special_storage.xml.append:5642
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER_TAILORED_SPECIALIZATION\"]/choice[1]/text"
-msgstr "配置特质。[消耗：25~]"
+msgstr "配置特质。[消耗：25{]"
 
 #: src-en/data/events_special_storage.xml.append:5644
 msgid ""
@@ -7024,10 +7016,9 @@ msgstr ""
 "。]"
 
 #: src-en/data/events_special_storage.xml.append:5672
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER_SPECTRAL_EXISTENCE\"]/choice[1]/text"
-msgstr "配备此特质。[消耗：15| 20~]"
+msgstr "配备此特质。[消耗：15| 30}]"
 
 #: src-en/data/events_special_storage.xml.append:5674
 msgid ""
@@ -8265,12 +8256,11 @@ msgstr ""
 "\t\t\t[当前增益：你的舰船拥有6层额外能量护盾]"
 
 #: src-en/data/events_special_storage.xml.append:6632
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OSMIAN_SACRIFICE_0\"]/text"
 msgstr ""
 "投喂一名原能族。[0/2] \n"
-"\t\t\t[下一阶段增益：你的船员会为其所处舱室的系统提供1点能量。]"
+"\t\t\t[下一阶段增益：你的船员会为其所处你的船上的系统提供1点能量。]"
 
 #: src-en/data/events_special_storage.xml.append:6635
 msgid ""
@@ -8288,14 +8278,13 @@ msgid ""
 msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:6648
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OSMIAN_SACRIFICE_1\"]/text"
 msgstr ""
 "投喂一名原能族。[1/2] \n"
-"\t\t\t[当前增益：你的船员会为其所处舱室的系统提供1点能量] \n"
-"\t\t\t[下一阶段增益：船员在你的舰船内为其所处系统提供1点能量，在敌舰内时则锁"
-"定敌舰系统1点能量]"
+"\t\t\t[当前增益：你的船员会为其正所处的你的舱室的系统提供1点能量] \n"
+"\t\t\t[下一阶段增益：船员在你的舰船内为其正所处的你的系统提供1点能量，在敌舰"
+"内时则锁定敌舰系统1点能量]"
 
 #: src-en/data/events_special_storage.xml.append:6652
 msgid ""
@@ -8313,21 +8302,19 @@ msgid ""
 msgstr "完成了…"
 
 #: src-en/data/events_special_storage.xml.append:6666
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OSMIAN_SACRIFICE_HALF\"]/text"
 msgstr ""
 "无可投喂的原能族。[1/2] \n"
-"\t\t\t[当前增益：你的船员会为其所处舱室的系统提供1点能量]"
+"\t\t\t[当前增益：你的船员会为其所处你的舰船的系统提供1点能量]"
 
 #: src-en/data/events_special_storage.xml.append:6671
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_OSMIAN_SACRIFICE_2\"]/text"
 msgstr ""
 "舰船已不再需要原能族。[2/2] \n"
-"\t\t\t[当前增益：你的船员在你的舰船内为其所处系统提供1点能量，在敌舰内时则锁"
-"定敌舰系统1点能量]"
+"\t\t\t[当前增益：你的船员在你的舰船内时为其正所处的系统提供1点能量，在敌舰内"
+"时则锁定敌舰系统1点能量]"
 
 #: src-en/data/events_special_storage.xml.append:6676
 msgid ""
@@ -8566,13 +8553,12 @@ msgid ""
 msgstr "使用你的黄金“猛攻”空雷发射器。[-30~，造成2次舰队延迟，不影响声望值]"
 
 #: src-en/data/events_special_storage.xml.append:6862
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JOB_FLEET\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
-"你将废料填入中空雷壳并为叛军设下陷阱。此举显然违法，但雷体废料的高价值很可能"
-"会吸引任何前来调查你劣行之人的目光。"
+"你将废料装入空心空雷，为叛军设下陷阱。这么做绝对是违法的，但鉴于这些空雷价值"
+"不菲，任何被派来核查你劣行的人，或许都会被其高昂价值所诱惑而替你保守秘密。"
 
 #: src-en/data/events_special_storage.xml.append:6870
 msgid ""
@@ -9155,11 +9141,10 @@ msgid ""
 msgstr "寻找莉娅。"
 
 #: src-en/data/events_special_storage.xml.append:7298
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_CREW_REAL\"]/mod-"
 "append:choice[6]/text"
-msgstr "让杰瑞骑上你的暗影六脚马。"
+msgstr "寻找紫胡子。"
 
 #: src-en/data/events_special_storage.xml.append:7302
 msgid ""
@@ -9982,13 +9967,12 @@ msgid ""
 msgstr "你决定什么都不做，准备战斗。"
 
 #: src-en/data/events_special_storage.xml.append:7910
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_AUG_GHOST_SPAWNER_SUMMON\"]/mod-"
 "append:event/text"
 msgstr ""
-"令你震惊的是，从传送门中走出的竟是哥泽什本尊！更让你错愕的是，他并未立即发动"
-"攻击，反而提出要…加入你的船员队伍？"
+"令你震惊的是，从传送门中走出的竟是戈泽什本人！更不可思议的是，他并没有立刻动"
+"手攻击你，反而提出要……加入你的队伍？"
 
 #: src-en/data/events_special_storage.xml.append:7911
 msgid ""
@@ -10009,12 +9993,11 @@ msgid ""
 msgstr "新的恶魔已经诞生。"
 
 #: src-en/data/events_special_storage.xml.append:7947
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_TECH_SCHEMATICS\"]/text"
 msgstr ""
 "请选择要升级的系统：\n"
-"\t[查看升级项将显示其详细信息，确认后再进行购买]"
+"\t[查看升级项将显示其详细信息，确认后再进行购买。]"
 
 #: src-en/data/events_special_storage.xml.append:7951
 msgid ""
@@ -10119,28 +10102,24 @@ msgid ""
 msgstr "你拥有一个可安装的联结点机械臂插槽。你也可以拆卸现有机械臂，但不会回收任何资源。你可以同时装备1支普通机械臂和1支联结点机械臂。"
 
 #: src-en/data/events_special_storage.xml.append:8033
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_INSTALL\"]/choice[1]/text"
-msgstr "电磁臂。[消耗：150~]"
+msgstr "电磁臂。[消耗：70~]"
 
 #: src-en/data/events_special_storage.xml.append:8037
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_INSTALL\"]/choice[2]/text"
-msgstr "武器拆卸臂。[消耗：70~，15{]"
+msgstr "武器拆卸臂。[消耗：70~，5{]"
 
 #: src-en/data/events_special_storage.xml.append:8041
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_INSTALL\"]/choice[3]/text"
-msgstr "导弹回收臂。[消耗：20}]"
+msgstr "导弹回收臂。[消耗：5}]"
 
 #: src-en/data/events_special_storage.xml.append:8045
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_INSTALL\"]/choice[4]/text"
-msgstr "舰体回收臂。[消耗：100~，5|]"
+msgstr "舰体回收臂。[消耗：50~，2|]"
 
 #: src-en/data/events_special_storage.xml.append:8049
 msgid ""
@@ -10148,19 +10127,17 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:8055
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_ELECTROMAGNETIC\"]/text"
 msgstr ""
 "你即将安装电磁臂。\n"
-"[效果：战斗开始前，你可以激活此机械臂以降低敌人10%命中率，代价是失去传感器与"
-"黑客系统功能。]"
+"[效果：战斗开始前，你可以激活此机械臂以降低敌人10%命中率，代价是失去传感器功"
+"能。]"
 
 #: src-en/data/events_special_storage.xml.append:8058
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_ELECTROMAGNETIC\"]/choice[1]/text"
-msgstr "执行升级。[消耗：50~]"
+msgstr "执行升级。[消耗：70~]"
 
 #: src-en/data/events_special_storage.xml.append:8060
 msgid ""
@@ -10183,10 +10160,9 @@ msgid ""
 msgstr "你想做什么？"
 
 #: src-en/data/events_special_storage.xml.append:8084
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_ELECTROMAGNETIC_ARM\"]/choice[1]/text"
-msgstr "降低敌方命中率10%，代价是禁用你的传感器与黑客系统。"
+msgstr "以禁用你的传感器与黑客系统为代价降低敌方命中率10%。"
 
 #: src-en/data/events_special_storage.xml.append:8086
 msgid ""
@@ -10199,10 +10175,9 @@ msgid ""
 msgstr "开始战斗！"
 
 #: src-en/data/events_special_storage.xml.append:8097
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_ELECTROMAGNETIC_ARM\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
-msgstr "[应急供能器] 降低敌方命中率10%，代价是禁用你的传感器系统。"
+msgstr "[应急供能器]降低敌方命中率10%。"
 
 #: src-en/data/events_special_storage.xml.append:8099
 msgid ""
@@ -10237,10 +10212,9 @@ msgstr ""
 "[效果：战斗开始前，你可以激活此机械臂以移除敌方一件武器，代价是消耗8点反应堆能量。被拆卸武器每需要1格能量，均有10%几率额外获得10废料。]"
 
 #: src-en/data/events_special_storage.xml.append:8129
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_WEAPON\"]/choice[1]/text"
-msgstr "执行升级。 [消耗: 70~, 15}]"
+msgstr "执行升级。 [消耗: 70~, 5}]"
 
 #: src-en/data/events_special_storage.xml.append:8131
 msgid ""
@@ -10322,18 +10296,16 @@ msgid ""
 msgstr "你决定什么都不做，准备战斗。"
 
 #: src-en/data/events_special_storage.xml.append:8198
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_MISSILE\"]/text"
 msgstr ""
 "你即将安装导弹回收臂。\n"
-"[效果：未命中的导弹射击将退还1枚导弹。]"
+"[效果：消耗弹药类武器未命中的射击将退还1枚导弹。]"
 
 #: src-en/data/events_special_storage.xml.append:8201
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_MISSILE\"]/choice[1]/text"
-msgstr "执行升级。[消耗: 20}]"
+msgstr "执行升级。[消耗: 5}]"
 
 #: src-en/data/events_special_storage.xml.append:8203
 msgid ""
@@ -10358,10 +10330,9 @@ msgstr ""
 "[效果：舰体受损时可获得0-2废料。]"
 
 #: src-en/data/events_special_storage.xml.append:8228
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_SHIP\"]/choice[1]/text"
-msgstr "执行升级。[消耗：50~, 5|]"
+msgstr "执行升级。[消耗：50~, 2|]"
 
 #: src-en/data/events_special_storage.xml.append:8230
 msgid ""
@@ -10409,13 +10380,12 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:8279
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_UNINSTALL_ELECTROMAGNETIC\"]/text"
 msgstr ""
 "你即将拆卸电磁臂。\n"
 "\t[你将失去以下效果：战斗开始前，可激活此机械臂使敌人命中率降低10%，代价是失"
-"去传感器与黑客系统功能。]"
+"去传感器功能。]"
 
 #: src-en/data/events_special_storage.xml.append:8282
 msgid ""
@@ -10530,11 +10500,10 @@ msgid ""
 msgstr "精准冲撞。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:8367
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT\"]/choice[@req=\"FR_NEXUS_PILOT_RAM\""
 " and @lvl=\"0\"]/text"
-msgstr "精准冲撞。[消耗：60~, 7{]"
+msgstr "精准冲撞。[消耗：30~, 3{]"
 
 #: src-en/data/events_special_storage.xml.append:8371
 msgid ""
@@ -10547,16 +10516,14 @@ msgid ""
 msgstr "强化自动导航。[不可用：你已达到此升级的最高级]"
 
 #: src-en/data/events_special_storage.xml.append:8379
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT\"]/choice[@req=\"FR_REQUIREMENT_AUTOMAN_UPGRADE_1\"]/text"
-msgstr "强化自动导航 等级2。[消耗：100~]"
+msgstr "强化自动导航 等级2。[消耗：50~]"
 
 #: src-en/data/events_special_storage.xml.append:8383
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT\"]/choice[@req=\"FR_REQUIREMENT_NO_AUTOMAN_UPGRADE\"]/text"
-msgstr "强化自动导航 等级1。[消耗：100~]"
+msgstr "强化自动导航 等级1。[消耗：50~]"
 
 #: src-en/data/events_special_storage.xml.append:8387
 msgid ""
@@ -10565,11 +10532,10 @@ msgid ""
 msgstr "独立导航系统。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:8391
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT\"]/choice[@req=\"FR_NEXUS_PILOT_IMMUNITY\""
 " and @lvl=\"0\"]/text"
-msgstr "独立导航系统。[消耗：5|, 10}]"
+msgstr "独立导航系统。[消耗：5|, 3}]"
 
 #: src-en/data/events_special_storage.xml.append:8395
 msgid ""
@@ -14541,6 +14507,13 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[23]/event/text"
 msgstr ""
+"档案：莱昂纳多·勒尔佩\n"
+"\t\t\t头衔：（前）共和国执法者，幽灵特种兵\n"
+"\t\t\t物种：幽灵吸虫 — 年龄：149 — 性别：男性\n"
+"\t\t\t\n"
+"\t\t\t里奥从未真正想当一名战士：事实上，他的梦想是开一家前哨站，专为飞船喷漆"
+"，收费低廉却品质不减。然而，当共和国与神权国开战后，里奥被征召入伍，他的命运"
+"就此注定。"
 
 #: src-en/data/events_special_storage.xml.append:11612
 msgid ""
@@ -14559,6 +14532,14 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[24]/event/text"
 msgstr ""
+"档案：西拉克·弗雷\n"
+"\t\t\t头衔：（前）暮临者，幽灵爆破手\n"
+"\t\t\t种族：幽灵超能族 — 年龄：81 — 性别：男\n"
+"\t\t\t\n"
+"\t\t\t作为最早为这项事业而战的暮临者之一，西拉克加入这场运动，是在他的兄长基"
+"拉克牺牲之后——在那场最初的内战中，基拉克的死被轻描淡写地一笔带过，他舍生取义"
+"的壮举连个名分都没能留下。在“她”的影响下陷入疯狂之后，如今这位暮临者眼中所能"
+"看到的，只有他生前所背负的痛苦与仇恨。"
 
 #: src-en/data/events_special_storage.xml.append:11627
 msgid ""
@@ -14577,6 +14558,11 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[25]/event/text"
 msgstr ""
+"档案：\t\t\t\t  ···你\n"
+"\t\t\t头衔：\t\t\t \t\t累了\n"
+"\t\t\t种族：　　　　　　　　　　···该\n"
+"\t\t\t休\t\t\t息\t\t\t了\n"
+"\t\t\t歇\t\t\t  歇\t\t\t吧"
 
 #: src-en/data/events_special_storage.xml.append:11642
 msgid ""
@@ -14595,6 +14581,13 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[26]/event/text"
 msgstr ""
+"档案：奥古斯都·戈尔迪库斯·希南五世\n"
+"\t\t\t头衔：最富有的魂灵族，幽灵流放者\n"
+"\t\t\t种族：幽灵巨型幻灵 — 年龄：985 — 性别：无（文化性别为男性）\n"
+"\t\t\t\n"
+"\t\t\t寰宇之内最富有的幻灵，其无穷无尽的废料储备足以买下一整个星区！而他*确"
+"实*曾有此打算，直到他那吝啬数百条安全规程的傲慢酿成苦果，在他自己的生化武器工"
+"厂的爆炸中灰飞烟灭。"
 
 #: src-en/data/events_special_storage.xml.append:11657
 msgid ""
@@ -14613,6 +14606,14 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[27]/event/text"
 msgstr ""
+"档案：萨莉·芬奇·莫雷\n"
+"\t\t\t头衔：（前）桃源科学家，幽灵研究员\n"
+"\t\t\t种族：幽灵蜘蛛实验体 — 年龄：90 — 性别：女\n"
+"\t\t\t\n"
+"\t\t\t萨莉曾是一位杰出的生物科技科学家，她几乎就要开发出一种防止船员技能退化"
+"的方法，却被一场可怕的疾病夺去了生命。然而，就在临终之前，她成功将自己的心智"
+"与意识上传到了她的伙伴——那只巨型外星蜘蛛芬奇体内。如今，告别了身为人类的往昔"
+"岁月，她在这广袤的多元宇宙中，寻找着属于自己的容身之所。"
 
 #: src-en/data/events_special_storage.xml.append:11672
 msgid ""
@@ -14624,13 +14625,20 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[28]/text"
-msgstr ""
+msgstr "王子"
 
 #: src-en/data/events_special_storage.xml.append:11680
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[28]/event/text"
 msgstr ""
+"档案：黑暗王子\n"
+"\t\t\t头衔：恶魔领域之王子，幽灵赞助者\n"
+"\t\t\t种族：幽灵恶魔马形生物 — 年龄：？？？ — 性别：男\n"
+"\t\t\t\n"
+"\t\t\t虽非宗教意义上的真正恶魔，但附身于这马形生物之上的存在，却与之完全吻合"
+"。它从某个恶魔横行大地的宇宙中被召唤而来，这存在愿意做任何事……只要你付得起代"
+"价。而这代价通常是你的灵魂。"
 
 #: src-en/data/events_special_storage.xml.append:11687
 msgid ""
@@ -14649,6 +14657,13 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[29]/event/text"
 msgstr ""
+"档案：特里亚克\n"
+"\t\t\t头衔：（前）件物4号，幽灵赞助者\n"
+"\t\t\t种族：幽灵件物 — 年龄：无龄 — 性别：无关\n"
+"\t\t\t\n"
+"\t\t\t关于此存在，几乎无人知晓。我们只知道它们曾服侍于 她 ，但在得知 她 那些"
+"计划背后的真实缘由后，便起而反叛、叛逃而去。如今他们唯一在意的，便是将 她 及"
+"其所有仆从彻底毁灭。"
 
 #: src-en/data/events_special_storage.xml.append:11702
 msgid ""
@@ -14660,13 +14675,22 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[30]/text"
-msgstr ""
+msgstr "贝尔伦尼斯"
 
 #: src-en/data/events_special_storage.xml.append:11710
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[30]/event/text"
 msgstr ""
+"档案：贝尔伦尼斯\n"
+"\t\t\t头衔：联合方碑探索与研究首席科学家\n"
+"\t\t\t种族：方碑族 — 年龄：约90000岁（死亡时）— 性别：无（文化认同为女性）\n"
+"\t\t\t\n"
+"\t\t\t贝尔伦尼斯，大家也叫她黛西，曾是避难所武器与无人机研发的首席科学家。她"
+"的成果远超同侪，然而她的雄心壮志对避难所这片方寸之地而言，实在过于宏大。她渴"
+"望探索外界，为族人的事业寻求盟友。她作为潜在安全威胁的身份引发了巨大争议，甚"
+"至在避难所内造成了分裂。她离开了这个星系，可惜未能走远，皇族便追上了她，将其"
+"置于死地，任凭她的巡洋舰漂流，作为其威能的阴森警示。"
 
 #: src-en/data/events_special_storage.xml.append:11717
 msgid ""
@@ -14677,17 +14701,17 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11737
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/text"
-msgstr ""
+msgstr "你想挑选哪位特员？"
 
 #: src-en/data/events_special_storage.xml.append:11739
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vance\"]/text"
-msgstr ""
+msgstr "召唤万斯本尊"
 
 #: src-en/data/events_special_storage.xml.append:11741
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vance\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11742
 msgid ""
@@ -14703,18 +14727,18 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11751
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vance_one\"]/text"
-msgstr ""
+msgstr "召唤万斯本尊"
 
 #: src-en/data/events_special_storage.xml.append:11753
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vance_one\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11754
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"Vance "
 "One\"]/@name"
-msgstr ""
+msgstr "万斯本尊"
 
 #: src-en/data/events_special_storage.xml.append:11757
 msgid ""
@@ -14724,16 +14748,16 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11763
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_cyra\"]/text"
-msgstr ""
+msgstr "召唤赛拉"
 
 #: src-en/data/events_special_storage.xml.append:11765
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_cyra\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11766
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Cyra\"]/@name"
-msgstr ""
+msgstr "赛拉"
 
 #: src-en/data/events_special_storage.xml.append:11769
 msgid ""
@@ -14741,14 +14765,15 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events_special_storage.xml.append:11775
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_gozer\"]/text"
-msgstr ""
+msgstr "召唤戈齐奥德翁"
 
 #: src-en/data/events_special_storage.xml.append:11777
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_gozer\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11778
 msgid ""
@@ -14763,12 +14788,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11787
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_mantis_queen\"]/text"
-msgstr ""
+msgstr "召唤莱孔普利纳克拉"
 
 #: src-en/data/events_special_storage.xml.append:11789
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_mantis_queen\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11790
 msgid ""
@@ -14783,12 +14808,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11799
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_aleenor\"]/text"
-msgstr ""
+msgstr "召唤埃莉诺"
 
 #: src-en/data/events_special_storage.xml.append:11801
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_aleenor\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11802
 msgid ""
@@ -14803,12 +14828,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11811
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_g\"]/text"
-msgstr ""
+msgstr "召唤G"
 
 #: src-en/data/events_special_storage.xml.append:11813
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_g\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11814
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"G\"]/@name"
@@ -14822,12 +14847,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11823
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_zulu\"]/text"
-msgstr ""
+msgstr "召唤祖鲁"
 
 #: src-en/data/events_special_storage.xml.append:11825
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_zulu\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11826
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Zulu\"]/@name"
@@ -14841,12 +14866,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11835
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vin\"]/text"
-msgstr ""
+msgstr "召唤文"
 
 #: src-en/data/events_special_storage.xml.append:11837
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vin\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11838
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Vin\"]/@name"
@@ -14860,12 +14885,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11847
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_cleo\"]/text"
-msgstr ""
+msgstr "召唤文"
 
 #: src-en/data/events_special_storage.xml.append:11849
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_cleo\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11850
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Cleo\"]/@name"
@@ -14879,17 +14904,18 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11859
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_slimer\"]/text"
-msgstr ""
+msgstr "召唤粘稠者"
 
 #: src-en/data/events_special_storage.xml.append:11861
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_slimer\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11862
+#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"ClSlimereo\"]/@name"
-msgstr ""
+msgstr "克莱斯利梅里奥"
 
 #: src-en/data/events_special_storage.xml.append:11865
 msgid ""
@@ -14899,12 +14925,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11871
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_phys\"]/text"
-msgstr ""
+msgstr "召唤菲斯"
 
 #: src-en/data/events_special_storage.xml.append:11873
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_phys\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11874
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Phys\"]/@name"
@@ -14918,12 +14944,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11883
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_charror\"]/text"
-msgstr ""
+msgstr "召唤查罗"
 
 #: src-en/data/events_special_storage.xml.append:11885
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_charror\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11886
 msgid ""
@@ -14938,17 +14964,17 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11895
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_deathbloom\"]/text"
-msgstr ""
+msgstr "召唤死亡绽放"
 
 #: src-en/data/events_special_storage.xml.append:11897
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_deathbloom\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11898
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"Deathbloom\"]/@name"
-msgstr ""
+msgstr "死亡绽放"
 
 #: src-en/data/events_special_storage.xml.append:11901
 msgid ""
@@ -14958,12 +14984,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11907
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_leo\"]/text"
-msgstr ""
+msgstr "召唤里奥"
 
 #: src-en/data/events_special_storage.xml.append:11909
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_leo\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11910
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Leo\"]/@name"
@@ -14977,12 +15003,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11919
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_searak\"]/text"
-msgstr ""
+msgstr "召唤西拉克"
 
 #: src-en/data/events_special_storage.xml.append:11921
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_searak\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11922
 msgid ""
@@ -14997,12 +15023,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11931
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_watcher\"]/text"
-msgstr ""
+msgstr "召唤监视者"
 
 #: src-en/data/events_special_storage.xml.append:11933
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_watcher\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11934
 msgid ""
@@ -15017,12 +15043,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11943
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_pok\"]/text"
-msgstr ""
+msgstr "召唤珀克"
 
 #: src-en/data/events_special_storage.xml.append:11945
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_pok\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11946
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Pok\"]/@name"
@@ -15036,17 +15062,17 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11955
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_frostwall\"]/text"
-msgstr ""
+msgstr "召唤霜晶壁垒"
 
 #: src-en/data/events_special_storage.xml.append:11957
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_frostwall\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11958
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"Frostwall\"]/@name"
-msgstr ""
+msgstr "霜晶壁垒"
 
 #: src-en/data/events_special_storage.xml.append:11961
 msgid ""
@@ -15056,12 +15082,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11967
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_sammy\"]/text"
-msgstr ""
+msgstr "召唤萨米"
 
 #: src-en/data/events_special_storage.xml.append:11969
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_sammy\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11970
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Sammy\"]/@name"
@@ -15075,12 +15101,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11979
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_spider_venom\"]/text"
-msgstr ""
+msgstr "召唤夏洛特"
 
 #: src-en/data/events_special_storage.xml.append:11981
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_spider_venom\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11982
 msgid ""
@@ -15095,12 +15121,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:11991
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_pony_engi\"]/text"
-msgstr ""
+msgstr "召唤3QU3STR14"
 
 #: src-en/data/events_special_storage.xml.append:11993
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_pony_engi\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:11994
 msgid ""
@@ -15115,17 +15141,17 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:12003
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_stephan\"]/text"
-msgstr ""
+msgstr "召唤斯蒂芬"
 
 #: src-en/data/events_special_storage.xml.append:12005
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_stephan\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:12006
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"Stephan\"]/@name"
-msgstr ""
+msgstr "斯蒂芬"
 
 #: src-en/data/events_special_storage.xml.append:12009
 msgid ""
@@ -15135,12 +15161,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:12015
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_augustus\"]/text"
-msgstr ""
+msgstr "召唤奥古斯都"
 
 #: src-en/data/events_special_storage.xml.append:12017
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_augustus\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:12018
 msgid ""
@@ -15155,12 +15181,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:12027
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_leah\"]/text"
-msgstr ""
+msgstr "召唤莉娅"
 
 #: src-en/data/events_special_storage.xml.append:12029
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_leah\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:12030
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Leah\"]/@name"
@@ -15174,12 +15200,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:12039
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_sally\"]/text"
-msgstr ""
+msgstr "召唤萨利"
 
 #: src-en/data/events_special_storage.xml.append:12041
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_sally\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:12042
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Sally\"]/@name"
@@ -15193,12 +15219,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:12051
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_prince\"]/text"
-msgstr ""
+msgstr "召唤黑暗王子"
 
 #: src-en/data/events_special_storage.xml.append:12053
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_prince\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:12054
 msgid ""
@@ -15214,12 +15240,12 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:12063
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_tririac\"]/text"
-msgstr ""
+msgstr "召唤特里亚克"
 
 #: src-en/data/events_special_storage.xml.append:12065
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_tririac\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:12066
 msgid ""
@@ -15234,17 +15260,17 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:12075
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_rockmore\"]/text"
-msgstr ""
+msgstr "召唤岩莫"
 
 #: src-en/data/events_special_storage.xml.append:12077
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_rockmore\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:12078
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"Rockmore\"]/@name"
-msgstr ""
+msgstr "岩莫"
 
 #: src-en/data/events_special_storage.xml.append:12081
 msgid ""
@@ -15254,17 +15280,17 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:12087
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_victor\"]/text"
-msgstr ""
+msgstr "召唤维克多"
 
 #: src-en/data/events_special_storage.xml.append:12089
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_victor\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:12090
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"Victor\"]/@name"
-msgstr ""
+msgstr "维克多"
 
 #: src-en/data/events_special_storage.xml.append:12093
 msgid ""
@@ -15274,16 +15300,16 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:12099
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_jon\"]/text"
-msgstr ""
+msgstr "召唤乔恩"
 
 #: src-en/data/events_special_storage.xml.append:12101
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_jon\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:12102
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Jon\"]/@name"
-msgstr ""
+msgstr "乔恩"
 
 #: src-en/data/events_special_storage.xml.append:12105
 msgid ""
@@ -15293,16 +15319,16 @@ msgstr "继续。"
 #: src-en/data/events_special_storage.xml.append:12111
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_daisy\"]/text"
-msgstr ""
+msgstr "召唤黛西"
 
 #: src-en/data/events_special_storage.xml.append:12113
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_daisy\"]/event/text"
-msgstr ""
+msgstr "船员已被召唤。"
 
 #: src-en/data/events_special_storage.xml.append:12114
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Daisy\"]/@name"
-msgstr ""
+msgstr "黛西"
 
 #: src-en/data/events_special_storage.xml.append:12117
 msgid ""
@@ -16800,17 +16826,21 @@ msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸
 #: src-en/data/events_special_storage.xml.append:13423
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SPIDER\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:13429
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_GUNTPUT\"]/text"
 msgstr ""
+"投喂船员：冈特普特\n"
+"\t\t[获得增益：你的船员移动速度提升40%。]"
 
 #: src-en/data/events_special_storage.xml.append:13434
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_GUNTPUT\"]/text"
 msgstr ""
+"投喂冈特普特\n"
+"\t\t[增益：你的船员移动速度提升40%。]"
 
 #: src-en/data/events_special_storage.xml.append:13437
 msgid ""
@@ -16825,17 +16855,21 @@ msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸
 #: src-en/data/events_special_storage.xml.append:13444
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_GUNTPUT\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:13450
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_METYUNT\"]/text"
 msgstr ""
+"投喂船员：梅特恩特\n"
+"\t\t[获得增益：友方船员获得50%火焰伤害抗性。]"
 
 #: src-en/data/events_special_storage.xml.append:13455
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_METYUNT\"]/text"
 msgstr ""
+"投喂梅特恩特\n"
+"\t\t[增益：友方船员获得50%火焰伤害抗性。]"
 
 #: src-en/data/events_special_storage.xml.append:13458
 msgid ""
@@ -16850,17 +16884,23 @@ msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸
 #: src-en/data/events_special_storage.xml.append:13465
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_METYUNT\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:13471
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_VANCE\"]/text"
 msgstr ""
+"投喂船员：万斯本尊\n"
+"\t\t[获得增益：你的船员在敌方舰船时，会骇入所在房间连通的所有舱门；在己方舰船"
+"时，则会解除这些舱门的骇入状态。]"
 
 #: src-en/data/events_special_storage.xml.append:13476
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_VANCE\"]/text"
 msgstr ""
+"投喂万斯本尊\n"
+"\t\t[增益：你的船员在敌方舰船时，会骇入所在房间连通的所有舱门；在己方舰船时，"
+"则会解除这些舱门的骇入状态。]"
 
 #: src-en/data/events_special_storage.xml.append:13479
 msgid ""
@@ -16875,17 +16915,21 @@ msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸
 #: src-en/data/events_special_storage.xml.append:13486
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_VANCE\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:13492
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_LEAH\"]/text"
 msgstr ""
+"投喂船员：莉娅\n"
+"\t\t[获得增益：你的船员克隆速度提升200%。]"
 
 #: src-en/data/events_special_storage.xml.append:13497
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_LEAH\"]/text"
 msgstr ""
+"投喂莉娅\n"
+"\t\t[增益：你的船员克隆速度提升200%。]"
 
 #: src-en/data/events_special_storage.xml.append:13500
 msgid ""
@@ -16900,17 +16944,21 @@ msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸
 #: src-en/data/events_special_storage.xml.append:13507
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_LEAH\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:13513
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_SAMMY\"]/text"
 msgstr ""
+"投喂船员：萨米\n"
+"\t\t[获得增益：敌方船员造成的伤害降低50%]"
 
 #: src-en/data/events_special_storage.xml.append:13518
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SAMMY\"]/text"
 msgstr ""
+"投喂萨米\n"
+"\t\t[增益：敌方船员造成的伤害降低50%]"
 
 #: src-en/data/events_special_storage.xml.append:13521
 msgid ""
@@ -16925,17 +16973,23 @@ msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸
 #: src-en/data/events_special_storage.xml.append:13528
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SAMMY\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:13534
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_JON\"]/text"
 msgstr ""
+"投喂船员：乔恩\n"
+"\t\t[获得增益：友方无人机在引擎、驾驶、护盾、武器或无人机控制室时，其战斗或维"
+"修效率额外提升50%]"
 
 #: src-en/data/events_special_storage.xml.append:13539
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_JON\"]/text"
 msgstr ""
+"投喂乔恩\n"
+"\t\t[增益：友方无人机在引擎、驾驶、护盾、武器或无人机控制室时，其战斗或维修效"
+"率额外提升50%]"
 
 #: src-en/data/events_special_storage.xml.append:13542
 msgid ""
@@ -16950,17 +17004,21 @@ msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸
 #: src-en/data/events_special_storage.xml.append:13549
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_JON\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:13555
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_CYRA\"]/text"
 msgstr ""
+"投喂船员：赛拉\n"
+"\t\t[获得增益：友方船员移动速度翻倍。]"
 
 #: src-en/data/events_special_storage.xml.append:13560
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_CYRA\"]/text"
 msgstr ""
+"投喂赛拉\n"
+"\t\t[增益：友方船员移动速度翻倍。]"
 
 #: src-en/data/events_special_storage.xml.append:13563
 msgid ""
@@ -16975,17 +17033,21 @@ msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸
 #: src-en/data/events_special_storage.xml.append:13570
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_CYRA\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:13576
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_MANTIS_QUEEN\"]/text"
 msgstr ""
+"投喂船员：莱孔普利纳克拉\n"
+"\t\t[获得增益：敌方母巢螳螂无法进行战斗。]"
 
 #: src-en/data/events_special_storage.xml.append:13581
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_MANTIS_QUEEN\"]/text"
 msgstr ""
+"投喂莱孔普利纳克拉\n"
+"\t\t[增益：敌方母巢螳螂无法进行战斗。]"
 
 #: src-en/data/events_special_storage.xml.append:13584
 msgid ""
@@ -17000,17 +17062,25 @@ msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸
 #: src-en/data/events_special_storage.xml.append:13591
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_MANTIS_QUEEN\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:13597
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_BEARD\"]/text"
 msgstr ""
+"投喂船员：紫胡子\n"
+"\t\t[获得增益：你的船员获得以下主动技能：向所在房间部署一枚兴奋剂炸弹，为自身"
+"及同房间所有友方船员提供移动速度、战斗伤害、破坏伤害和维修速度的20%增益，持续"
+"10秒。效果不可叠加。]"
 
 #: src-en/data/events_special_storage.xml.append:13602
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_BEARD\"]/text"
 msgstr ""
+"投喂紫胡子\n"
+"\t\t[增益：你的船员获得以下主动技能：向所在房间部署一枚兴奋剂炸弹，为自身及同"
+"房间所有友方船员提供移动速度、战斗伤害、破坏伤害和维修速度的20%增益，持续10秒"
+"。效果不可叠加。]"
 
 #: src-en/data/events_special_storage.xml.append:13605
 msgid ""
@@ -17025,7 +17095,7 @@ msgstr "你的船员无法被克隆，因为舰船将他们的灵魂也一并吸
 #: src-en/data/events_special_storage.xml.append:13612
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_BEARD\"]/event/choice/text"
-msgstr ""
+msgstr "完成了。"
 
 #: src-en/data/events_special_storage.xml.append:13618
 msgid ""
@@ -17035,79 +17105,79 @@ msgstr "算了，做点别的。"
 #: src-en/data/events_special_storage.xml.append:13632
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/text"
-msgstr ""
+msgstr "你想偷什么？"
 
 #: src-en/data/events_special_storage.xml.append:13634
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasWeapons\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "武器"
 
 #: src-en/data/events_special_storage.xml.append:13636
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasWeapons\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "这件敌人的武器突然出现在了你的货舱里。"
 
 #: src-en/data/events_special_storage.xml.append:13639
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasWeapons\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr ""
+msgstr "是时候战斗了！"
 
 #: src-en/data/events_special_storage.xml.append:13645
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasWeapons\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "敌人没有武器。"
 
 #: src-en/data/events_special_storage.xml.append:13649
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasDrones\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "无人机"
 
 #: src-en/data/events_special_storage.xml.append:13651
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasDrones\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "这件敌人的无人机突然出现在了你的货舱里。"
 
 #: src-en/data/events_special_storage.xml.append:13654
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasDrones\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr ""
+msgstr "是时候战斗了！"
 
 #: src-en/data/events_special_storage.xml.append:13660
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasDrones\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "敌人没有无人机。"
 
 #: src-en/data/events_special_storage.xml.append:13664
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasCrew\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "船员"
 
 #: src-en/data/events_special_storage.xml.append:13666
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasCrew\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "敌方船员突然出现在你的飞船上，准备好为你而战。"
 
 #: src-en/data/events_special_storage.xml.append:13669
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasCrew\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr ""
+msgstr "是时候战斗了！"
 
 #: src-en/data/events_special_storage.xml.append:13675
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasCrew\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "敌人没有船员。"
 
 #: src-en/data/events_special_storage.xml.append:13679
 msgid ""
@@ -17117,7 +17187,7 @@ msgstr "改为执行其他操作。"
 #: src-en/data/events_special_storage.xml.append:13694
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_EDUTAINMENT_MODULE\"]/text"
-msgstr ""
+msgstr "准备好踏上一段穿越数学平原的奇妙冒险了吗？"
 
 #: src-en/data/events_special_storage.xml.append:13696
 msgid ""
@@ -17127,562 +17197,582 @@ msgstr "是的！"
 #: src-en/data/events_special_storage.xml.append:13698
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_EDUTAINMENT_MODULE\"]/choice[1]/event/text"
-msgstr ""
+msgstr "你等待模块完全加载，然后激活其战斗功能。是时候来点数学了！"
 
 #: src-en/data/events_special_storage.xml.append:13703
 msgid ""
 "data/events_special_storage.xml.append$//triggeredEvent[@name=\"FR_EDUTAINMENT_TRIGGER\"]/triggeredEventBox/tooltip"
-msgstr ""
+msgstr "你的数学题将在倒计时结束后出现。"
 
 #: src-en/data/events_special_storage.xml.append:13709
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_EDUTAINMENT_MODULE\"]/choice[2]/text"
-msgstr ""
+msgstr "不……还是做点别的吧。"
 
 #: src-en/data/events_special_storage.xml.append:13740
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_WRONG\"]/text"
-msgstr ""
+msgstr "抱歉，变元者，看来你答错了。坏学生就得受罚。"
 
 #: src-en/data/events_special_storage.xml.append:13744
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_CORRECT\"]/text"
-msgstr ""
+msgstr "出色的数学能力，变元者！现在，该给你奖励了……"
 
 #: src-en/data/events_special_storage.xml.append:13746
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_CORRECT\"]/choice/text"
-msgstr "继续。"
+msgstr "继续…"
 
 #: src-en/data/events_special_storage.xml.append:13771
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_FIRE\"]/text"
-msgstr ""
+msgstr "敌方星舰已经起火！"
 
 #: src-en/data/events_special_storage.xml.append:13776
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_BREACH\"]/text"
-msgstr ""
+msgstr "敌方星舰已经充满破洞！"
 
 #: src-en/data/events_special_storage.xml.append:13781
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_SYSTEM_DAMAGE\"]/text"
-msgstr ""
+msgstr "敌方星舰的系统已被伤害！"
 
 #: src-en/data/events_special_storage.xml.append:13788
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_HEAL\"]/text"
-msgstr ""
+msgstr "你的飞船已恢复至最佳状态！"
 
 #: src-en/data/events_special_storage.xml.append:13793
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_SCRAP\"]/text"
-msgstr ""
+msgstr "你因出色的回答而获得了额外信用点！"
 
 #: src-en/data/events_special_storage.xml.append:13800
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_MISSILE\"]/text"
-msgstr ""
+msgstr "你的军械库已得到补给！"
 
 #: src-en/data/events_special_storage.xml.append:13807
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_DRONE\"]/text"
-msgstr ""
+msgstr "你的无人机部件已补充完毕！"
 
 #: src-en/data/events_special_storage.xml.append:13814
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_FUEL\"]/text"
-msgstr ""
+msgstr "你的燃料储备已补充完毕！"
 
 #: src-en/data/events_special_storage.xml.append:13821
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_1\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！6减3等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:13823
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_1\"]/choice[1]/text"
-msgstr ""
+msgstr "9"
 
 #: src-en/data/events_special_storage.xml.append:13827
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_1\"]/choice[2]/text"
-msgstr ""
+msgstr "3"
 
 #: src-en/data/events_special_storage.xml.append:13831
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_1\"]/choice[3]/text"
-msgstr ""
+msgstr "2"
 
 #: src-en/data/events_special_storage.xml.append:13836
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_2\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！3加4加7等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:13838
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_2\"]/choice[1]/text"
-msgstr ""
+msgstr "15"
 
 #: src-en/data/events_special_storage.xml.append:13842
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_2\"]/choice[2]/text"
-msgstr ""
+msgstr "18"
 
 #: src-en/data/events_special_storage.xml.append:13846
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_2\"]/choice[3]/text"
-msgstr ""
+msgstr "14"
 
 #: src-en/data/events_special_storage.xml.append:13851
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_3\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！16的平方根是多少？”"
 
 #: src-en/data/events_special_storage.xml.append:13853
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_3\"]/choice[1]/text"
-msgstr ""
+msgstr "4"
 
 #: src-en/data/events_special_storage.xml.append:13857
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_3\"]/choice[2]/text"
-msgstr ""
+msgstr "32"
 
 #: src-en/data/events_special_storage.xml.append:13861
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_3\"]/choice[3]/text"
-msgstr ""
+msgstr "2.51"
 
 #: src-en/data/events_special_storage.xml.append:13866
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_4\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！在 n+5=3 中，n 的值是多少？”"
 
 #: src-en/data/events_special_storage.xml.append:13868
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_4\"]/choice[1]/text"
-msgstr ""
+msgstr "2"
 
 #: src-en/data/events_special_storage.xml.append:13872
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_4\"]/choice[2]/text"
-msgstr ""
+msgstr "-3"
 
 #: src-en/data/events_special_storage.xml.append:13876
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_4\"]/choice[3]/text"
-msgstr ""
+msgstr "-2"
 
 #: src-en/data/events_special_storage.xml.append:13881
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_5\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！(1+1+1)+(1×0)等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:13883
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_5\"]/choice[1]/text"
-msgstr ""
+msgstr "4"
 
 #: src-en/data/events_special_storage.xml.append:13887
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_5\"]/choice[2]/text"
-msgstr ""
+msgstr "0"
 
 #: src-en/data/events_special_storage.xml.append:13891
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_5\"]/choice[3]/text"
-msgstr ""
+msgstr "3"
 
 #: src-en/data/events_special_storage.xml.append:13896
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_6\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！若 p+2=8×6，p 的值是多少？”"
 
 #: src-en/data/events_special_storage.xml.append:13898
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_6\"]/choice[1]/text"
-msgstr ""
+msgstr "50"
 
 #: src-en/data/events_special_storage.xml.append:13902
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_6\"]/choice[2]/text"
-msgstr ""
+msgstr "46"
 
 #: src-en/data/events_special_storage.xml.append:13906
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_6\"]/choice[3]/text"
-msgstr ""
+msgstr "48"
 
 #: src-en/data/events_special_storage.xml.append:13911
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_7\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！2+2等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:13913
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_7\"]/choice[1]/text"
-msgstr ""
+msgstr "4"
 
 #: src-en/data/events_special_storage.xml.append:13917
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_7\"]/choice[2]/text"
-msgstr ""
+msgstr "22"
 
 #: src-en/data/events_special_storage.xml.append:13921
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_7\"]/choice[3]/text"
-msgstr ""
+msgstr "8"
 
 #: src-en/data/events_special_storage.xml.append:13926
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_8\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！9加10等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:13928
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_8\"]/choice[1]/text"
-msgstr ""
+msgstr "16"
 
 #: src-en/data/events_special_storage.xml.append:13932
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_8\"]/choice[2]/text"
-msgstr ""
+msgstr "19"
 
 #: src-en/data/events_special_storage.xml.append:13936
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_8\"]/choice[3]/text"
-msgstr ""
+msgstr "21"
 
 #: src-en/data/events_special_storage.xml.append:13938
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_8\"]/choice[3]/event/text"
-msgstr ""
+msgstr "“错了，但我喜欢你的思路，[学生姓名]！这次就不罚你了！”"
 
 #: src-en/data/events_special_storage.xml.append:13943
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_9\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！12减7等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:13945
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_9\"]/choice[1]/text"
-msgstr ""
+msgstr "19"
 
 #: src-en/data/events_special_storage.xml.append:13949
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_9\"]/choice[2]/text"
-msgstr ""
+msgstr "5"
 
 #: src-en/data/events_special_storage.xml.append:13953
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_9\"]/choice[3]/text"
-msgstr ""
+msgstr "8"
 
 #: src-en/data/events_special_storage.xml.append:13958
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_10\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！7+8等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:13960
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_10\"]/choice[1]/text"
-msgstr ""
+msgstr "56"
 
 #: src-en/data/events_special_storage.xml.append:13964
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_10\"]/choice[2]/text"
-msgstr ""
+msgstr "13"
 
 #: src-en/data/events_special_storage.xml.append:13968
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_10\"]/choice[3]/text"
-msgstr ""
+msgstr "15"
 
 #: src-en/data/events_special_storage.xml.append:13973
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_11\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！12/3等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:13975
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_11\"]/choice[1]/text"
-msgstr ""
+msgstr "4"
 
 #: src-en/data/events_special_storage.xml.append:13979
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_11\"]/choice[2]/text"
-msgstr ""
+msgstr "6"
 
 #: src-en/data/events_special_storage.xml.append:13983
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_11\"]/choice[3]/text"
-msgstr ""
+msgstr "3"
 
 #: src-en/data/events_special_storage.xml.append:13988
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_12\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！6乘9等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:13990
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_12\"]/choice[1]/text"
-msgstr ""
+msgstr "54"
 
 #: src-en/data/events_special_storage.xml.append:13994
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_12\"]/choice[2]/text"
-msgstr ""
+msgstr "67"
 
 #: src-en/data/events_special_storage.xml.append:13998
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_12\"]/choice[3]/text"
-msgstr ""
+msgstr "96"
 
 #: src-en/data/events_special_storage.xml.append:14003
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_13\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！在 9/3 + x = 22 中，x 的值是多少？”"
 
 #: src-en/data/events_special_storage.xml.append:14005
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_13\"]/choice[1]/text"
-msgstr ""
+msgstr "17"
 
 #: src-en/data/events_special_storage.xml.append:14009
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_13\"]/choice[2]/text"
-msgstr ""
+msgstr "25"
 
 #: src-en/data/events_special_storage.xml.append:14013
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_13\"]/choice[3]/text"
-msgstr ""
+msgstr "19"
 
 #: src-en/data/events_special_storage.xml.append:14018
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_14\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！8的绝对值是多少？”"
 
 #: src-en/data/events_special_storage.xml.append:14020
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_14\"]/choice[1]/text"
-msgstr ""
+msgstr "-8"
 
 #: src-en/data/events_special_storage.xml.append:14024
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_14\"]/choice[2]/text"
-msgstr ""
+msgstr "8"
 
 #: src-en/data/events_special_storage.xml.append:14028
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_14\"]/choice[3]/text"
-msgstr ""
+msgstr "4"
 
 #: src-en/data/events_special_storage.xml.append:14033
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_15\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！若 x = 4，2x + 3 等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:14035
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_15\"]/choice[1]/text"
-msgstr ""
+msgstr "11"
 
 #: src-en/data/events_special_storage.xml.append:14039
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_15\"]/choice[2]/text"
-msgstr ""
+msgstr "16"
 
 #: src-en/data/events_special_storage.xml.append:14043
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_15\"]/choice[3]/text"
-msgstr ""
+msgstr "存在无限种可能的结果。"
 
 #: src-en/data/events_special_storage.xml.append:14048
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_16\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！457加932等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:14050
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_16\"]/choice[1]/text"
-msgstr ""
+msgstr "1267"
 
 #: src-en/data/events_special_storage.xml.append:14054
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_16\"]/choice[2]/text"
-msgstr ""
+msgstr "1389"
 
 #: src-en/data/events_special_storage.xml.append:14058
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_16\"]/choice[3]/text"
-msgstr ""
+msgstr "1397"
 
 #: src-en/data/events_special_storage.xml.append:14063
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_17\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！7+7是多少？”"
 
 #: src-en/data/events_special_storage.xml.append:14065
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_17\"]/choice[1]/text"
-msgstr ""
+msgstr "13"
 
 #: src-en/data/events_special_storage.xml.append:14069
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_17\"]/choice[2]/text"
-msgstr ""
+msgstr "18"
 
 #: src-en/data/events_special_storage.xml.append:14073
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_17\"]/choice[3]/text"
-msgstr ""
+msgstr "14"
 
 #: src-en/data/events_special_storage.xml.append:14078
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_18\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！-12的绝对值是多少？”"
 
 #: src-en/data/events_special_storage.xml.append:14080
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_18\"]/choice[1]/text"
-msgstr ""
+msgstr "12"
 
 #: src-en/data/events_special_storage.xml.append:14084
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_18\"]/choice[2]/text"
-msgstr ""
+msgstr "-12"
 
 #: src-en/data/events_special_storage.xml.append:14088
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_18\"]/choice[3]/text"
-msgstr ""
+msgstr "6"
 
 #: src-en/data/events_special_storage.xml.append:14093
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_19\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！在 4y = 8 + 4 中，y 的值是多少？”"
 
 #: src-en/data/events_special_storage.xml.append:14095
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_19\"]/choice[1]/text"
-msgstr ""
+msgstr "8"
 
 #: src-en/data/events_special_storage.xml.append:14099
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_19\"]/choice[2]/text"
-msgstr ""
+msgstr "3"
 
 #: src-en/data/events_special_storage.xml.append:14103
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_19\"]/choice[3]/text"
-msgstr ""
+msgstr "6"
 
 #: src-en/data/events_special_storage.xml.append:14108
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_20\"]/text"
-msgstr ""
+msgstr "凯莉短暂停火。“下——下——下一道题！14除以7等于几？”"
 
 #: src-en/data/events_special_storage.xml.append:14110
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_20\"]/choice[1]/text"
-msgstr ""
+msgstr "6"
 
 #: src-en/data/events_special_storage.xml.append:14114
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_20\"]/choice[2]/text"
-msgstr ""
+msgstr "3"
 
 #: src-en/data/events_special_storage.xml.append:14118
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_20\"]/choice[3]/text"
-msgstr ""
+msgstr "2"
 
 #: src-en/data/events_special_storage.xml.append:14133
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[48]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "启用点击系统的功能并暂停。"
 
 #: src-en/data/events_special_storage.xml.append:14139
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[48]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "禁用点击系统功能并暂停。"
 
 #: src-en/data/events_special_storage.xml.append:14156
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
+"当前生效的恩赐：先驱的恩惠\n"
+"\t\t你的斯菲雷克斯族船员无法被击晕。"
 
 #: src-en/data/events_special_storage.xml.append:14161
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
+"当前生效的恩赐：还魂者的恩惠\n"
+"\t\t所有船员可穿透舱门，并免疫窒息伤害。"
 
 #: src-en/data/events_special_storage.xml.append:14166
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
+"当前生效的恩赐：雪人的恩惠\n"
+"\t\t你的雪人族船员将使与其同处一室的所有敌人减速。"
 
 #: src-en/data/events_special_storage.xml.append:14171
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[4]/text"
 msgstr ""
+"当前生效的恩赐：熔岩人的恩惠\n"
+"\t\t你的熔岩人船员将缓慢伤害与其同处一室的敌人。"
 
 #: src-en/data/events_special_storage.xml.append:14176
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[5]/text"
 msgstr ""
+"当前生效的恩赐：人造物的恩惠\n"
+"\t\t你的AI化身船员将仅占用普通船员十分之一的空间。"
 
 #: src-en/data/events_special_storage.xml.append:14181
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[6]/text"
 msgstr ""
+"当前生效的恩赐：灭绝的恩惠\n"
+"\t\t你的联合方碑族船员可以传送至任何位置。"
 
 #: src-en/data/events_special_storage.xml.append:14186
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[7]/text"
 msgstr ""
+"当前生效的恩赐：被遗忘者的恩惠\n"
+"\t\t你的盐人船员免疫窒息与击晕。"
 
 #: src-en/data/events_special_storage.xml.append:14191
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[8]/text"
 msgstr ""
+"当前生效的恩赐：凋零的祝福\n"
+"\t\t所有光束武器额外穿透1层护盾。"
 
 #: src-en/data/events_special_storage.xml.append:14196
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[9]/text"
 msgstr ""
+"当前生效的恩赐：离子的祝福\n"
+"\t\t你的飞船获得50%离子抗性。"
 
 #: src-en/data/events_special_storage.xml.append:14201
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[10]/text"
 msgstr ""
+"当前生效的恩赐：触碰的恩惠\n"
+"\t\t你的飞船免疫离子伤害。敌方船员处于\"她的意志\"系统内部时，每秒受到10点生"
+"命值伤害。"
 
 #: src-en/data/events_special_storage.xml.append:14217
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_EXPLOSIVE\"]/mod-"
 "append:choice/text"
-msgstr ""
+msgstr "她的愿景"
 
 #: src-en/data/events_special_storage.xml.append:14219
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_EXPLOSIVE\"]/mod-"
 "append:choice/event/text"
-msgstr ""
+msgstr "你激活了载荷，并将其从舰船上发射了出去。"
 
 #: src-en/data/events_special_storage.xml.append:14223
 msgid ""
@@ -17694,18 +17784,20 @@ msgstr "开始战斗！"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX\"]/text"
 msgstr ""
+"你确定要这么做吗？\n"
+"\t[50%几率获得惊人奖励，50%几率遭遇可怕后果。每个星区可使用3次。]"
 
 #: src-en/data/events_special_storage.xml.append:14242
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX\"]/choice[@req=\"loc_fr_neo_pandora_box_opened_times\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "打开箱子，等待里面的东西吧。[剩余3次]"
 
 #: src-en/data/events_special_storage.xml.append:14244
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX\"]/choice[@req=\"loc_fr_neo_pandora_box_opened_times\""
 " and @lvl=\"0\"]/event/text"
-msgstr ""
+msgstr "你按下箱子背后的开关，随着箱壁向外展开，一阵嘶嘶的声响逸了出来……"
 
 #: src-en/data/events_special_storage.xml.append:14247
 msgid ""
@@ -17717,13 +17809,13 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX\"]/choice[@req=\"loc_fr_neo_pandora_box_opened_times\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "打开箱子，等待里面的东西吧。[剩余2次]"
 
 #: src-en/data/events_special_storage.xml.append:14257
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX\"]/choice[@req=\"loc_fr_neo_pandora_box_opened_times\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "你按下箱子背后的开关，随着箱壁向外展开，一阵嘶嘶的声响逸了出来……"
 
 #: src-en/data/events_special_storage.xml.append:14260
 msgid ""
@@ -17735,13 +17827,13 @@ msgstr "继续。"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX\"]/choice[@req=\"loc_fr_neo_pandora_box_opened_times\""
 " and @lvl=\"2\"]/text"
-msgstr ""
+msgstr "打开箱子，等待里面的东西吧。[剩余1次]"
 
 #: src-en/data/events_special_storage.xml.append:14270
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX\"]/choice[@req=\"loc_fr_neo_pandora_box_opened_times\""
 " and @lvl=\"2\"]/event/text"
-msgstr ""
+msgstr "你按下箱子背后的开关，随着箱壁向外展开，一阵嘶嘶的声响逸了出来……"
 
 #: src-en/data/events_special_storage.xml.append:14273
 msgid ""
@@ -17758,101 +17850,141 @@ msgstr "算了，做点别的。"
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[1]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。仿佛魔法般，飞船的武器系统似"
+"乎得到了升级，武器装填速度提升了！"
 
 #: src-en/data/events_special_storage.xml.append:14292
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[2]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。你还没来得及反应，飞船的武器"
+"系统就已严重损毁、难以修复，装填速度也随之变慢了……"
 
 #: src-en/data/events_special_storage.xml.append:14296
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[3]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。仿佛魔法般，飞船的护盾系统似"
+"乎得到了升级，护盾充能速度提升了！"
 
 #: src-en/data/events_special_storage.xml.append:14300
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[4]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。你还没来得及反应，飞船的护盾"
+"系统就已严重损毁、难以修复，充能速度也随之变慢了……"
 
 #: src-en/data/events_special_storage.xml.append:14304
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[5]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。仿佛魔法般，飞船的引擎系统似"
+"乎得到了升级，超光速引擎的充能将变得更快！"
 
 #: src-en/data/events_special_storage.xml.append:14308
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[6]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。你还没来得及反应，飞船的引擎"
+"系统就已严重损毁、难以修复，超光速引擎的充能将因此变慢……"
 
 #: src-en/data/events_special_storage.xml.append:14312
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[7]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。仿佛魔法般，一名新船员凭空现"
+"身！他们看起来有些困惑，但愿意加入你的事业。"
 
 #: src-en/data/events_special_storage.xml.append:14316
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[8]/text"
 msgstr ""
+"一道耀眼的光芒充满飞船，亮得你眼前只剩一片纯白。你还没来得及反应，一名船员就"
+"在你眼前被分解成了原子形态。"
 
 #: src-en/data/events_special_storage.xml.append:14319
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[8]/removeCrew/text"
 msgstr ""
+"你的船员并未在克隆舱中出现，而且他们的档案似乎也已被彻底抹除。无论他们遭遇了"
+"什么，都已无法挽回。"
 
 #: src-en/data/events_special_storage.xml.append:14323
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[9]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。仿佛魔法般，一名新船员凭空现"
+"身！他们看起来有些困惑，但愿意加入你的事业。"
 
 #: src-en/data/events_special_storage.xml.append:14327
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[10]/text"
 msgstr ""
+"一道耀眼的光芒充满飞船，亮得你眼前只剩一片纯白。你还没来得及反应，一名船员就"
+"在你眼前被分解成了原子形态。"
 
 #: src-en/data/events_special_storage.xml.append:14330
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[10]/removeCrew/text"
 msgstr ""
+"你的船员并未在克隆舱中出现，而且他们的档案似乎也已被彻底抹除。无论他们遭遇了"
+"什么，都已无法挽回。"
 
 #: src-en/data/events_special_storage.xml.append:14334
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[11]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。仿佛魔法般，你的飞船已完全修"
+"复，资源储备也大幅提升！"
 
 #: src-en/data/events_special_storage.xml.append:14344
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[12]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。你还没来得及反应，你的飞船就"
+"被推到了毁灭的边缘，而所有非燃料储备也在你眼前凭空消失……"
 
 #: src-en/data/events_special_storage.xml.append:14354
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[13]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。仿佛魔法般，你的飞船已完全修"
+"复，资源储备也大幅提升！"
 
 #: src-en/data/events_special_storage.xml.append:14364
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[14]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。你还没来得及反应，你的飞船就"
+"被推到了毁灭的边缘，而所有非燃料储备也在你眼前凭空消失……"
 
 #: src-en/data/events_special_storage.xml.append:14374
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[15]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。仿佛魔法般，叛军舰队突然比你"
+"预想的要远了许多！"
 
 #: src-en/data/events_special_storage.xml.append:14378
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[16]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。你还没来得及反应，叛军舰队突"
+"然离你比你想象的要近得多……"
 
 #: src-en/data/events_special_storage.xml.append:14382
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[17]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。仿佛魔法般，叛军舰队突然比你"
+"预想的要远了许多！"
 
 #: src-en/data/events_special_storage.xml.append:14386
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[18]/text"
 msgstr ""
+"一道耀眼的光芒充盈全舰，亮得你眼前只剩一片纯白。你还没来得及反应，叛军舰队突"
+"然离你比你想象的要近得多……"
 
 #: src-en/data/events_special_storage.xml.append:14401
 msgid ""
