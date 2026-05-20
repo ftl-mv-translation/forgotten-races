@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-20 01:16+0000\n"
+"PO-Revision-Date: 2026-05-20 03:28+0000\n"
 "Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/dataevents_special_storagexmlappend/zh_Hans/>\n"
@@ -12575,18 +12575,16 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:10196
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_BATTERY_SHIELD\"]/text"
 msgstr ""
-"您即将安装量子助推器升级。\n"
-"[效果：您获得一层额外的能量护盾。]"
+"您即将安装护盾供能器升级升级。\n"
+"[效果：您获得一层额外的可堆叠的能量护盾。]"
 
 #: src-en/data/events_special_storage.xml.append:10199
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_BATTERY_SHIELD\"]/choice[1]/text"
-msgstr "执行升级。 [消耗: 100~, 20{]"
+msgstr "执行升级。 [消耗: 40~, 2{]"
 
 #: src-en/data/events_special_storage.xml.append:10201
 msgid ""
@@ -12615,11 +12613,10 @@ msgid ""
 msgstr "临时舱格。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:10230
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_DOORS\"]/choice[@req=\"FR_NEXUS_DOORS_GRID\""
 " and @lvl=\"0\"]/text"
-msgstr "临时舱格。[消耗：100~]"
+msgstr "临时舱格。[消耗：50~]"
 
 #: src-en/data/events_special_storage.xml.append:10234
 msgid ""
@@ -12628,11 +12625,10 @@ msgid ""
 msgstr "强化金属结构。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:10238
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_DOORS\"]/choice[@req=\"FR_NEXUS_DOORS_REINFORCED\""
 " and @lvl=\"0\"]/text"
-msgstr "强化金属结构。 [消耗: 70~, 3{]"
+msgstr "强化金属结构。 [消耗: 35~, 1{]"
 
 #: src-en/data/events_special_storage.xml.append:10242
 msgid ""
@@ -12641,11 +12637,10 @@ msgid ""
 msgstr "共享居住区。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:10246
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_DOORS\"]/choice[@req=\"FR_NEXUS_DOORS_CREW\""
 " and @lvl=\"0\"]/text"
-msgstr "共享居住区。[消耗：80~]"
+msgstr "共享居住区。[消耗：40~]"
 
 #: src-en/data/events_special_storage.xml.append:10250
 msgid ""
@@ -12653,13 +12648,12 @@ msgid ""
 msgstr "算了。"
 
 #: src-en/data/events_special_storage.xml.append:10256
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_DOORS_GRID\"]/text"
 msgstr ""
-"您即将安装临时舱格升级。\n"
-"[效果：敌方登舰者每秒损失2点生命值，且每级门禁系统会额外造成每秒1点生命值损失"
-"。]"
+"您即将安装临时能量栅格升级。\n"
+"[效果：敌方登舰者每秒损失2点生命值，且门禁系统高于1级时，每级额外造成每秒1点"
+"生命值损失。]"
 
 #: src-en/data/events_special_storage.xml.append:10259
 msgid ""
@@ -12689,10 +12683,9 @@ msgstr ""
 "[效果：敌方登舰者与无人机在您舰内破坏门禁所需时间延长一倍。]"
 
 #: src-en/data/events_special_storage.xml.append:10286
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_DOORS_REINFORCED\"]/choice[1]/text"
-msgstr "执行升级。 [消耗: 25~, 10{]"
+msgstr "执行升级。 [消耗: 35~, 1{]"
 
 #: src-en/data/events_special_storage.xml.append:10288
 msgid ""
@@ -12717,10 +12710,9 @@ msgstr ""
 "[效果：您的船员仅占用正常船员空间需求的60%。]"
 
 #: src-en/data/events_special_storage.xml.append:10314
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_DOORS_CREW\"]/choice[1]/text"
-msgstr "执行升级。[消耗：50~]"
+msgstr "执行升级。[消耗：40~]"
 
 #: src-en/data/events_special_storage.xml.append:10316
 msgid ""
@@ -12749,11 +12741,10 @@ msgid ""
 msgstr "热能追踪传感器。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:10344
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_SENSORS\"]/choice[@req=\"FR_NEXUS_SENSORS_CHARGE\""
 " and @lvl=\"0\"]/text"
-msgstr "热能追踪传感器。[消耗：300~]"
+msgstr "热能追踪传感器。[消耗：75~]"
 
 #: src-en/data/events_special_storage.xml.append:10348
 msgid ""
@@ -12762,11 +12753,10 @@ msgid ""
 msgstr "高精度设备。[已安装]"
 
 #: src-en/data/events_special_storage.xml.append:10352
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_SENSORS\"]/choice[@req=\"FR_NEXUS_SENSORS_ACCURACY\""
 " and @lvl=\"0\"]/text"
-msgstr "高精度设备。[消耗：200~]"
+msgstr "高精度设备。[消耗：50~]"
 
 #: src-en/data/events_special_storage.xml.append:10356
 msgid ""
@@ -13642,13 +13632,12 @@ msgid ""
 msgstr "已发现"
 
 #: src-en/data/events_special_storage.xml.append:11042
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_FISH_GLOSSARY_5\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
-"这种奇特的鱼仅存于生死交织之地。传说食用此鱼能大幅提升皮肤的腐蚀性，既可轻易"
-"破坏系统，又能穿透舱门。"
+"这种奇特的鱼仅存于生死交织之地。传说食用此鱼能大幅提升皮肤的腐蚀性，可以轻易"
+"破坏系统，且能穿透舱门。"
 
 #: src-en/data/events_special_storage.xml.append:11048
 msgid ""
@@ -13723,67 +13712,58 @@ msgid ""
 msgstr "友方获得+250%破坏伤害与穿门能力"
 
 #: src-en/data/events_special_storage.xml.append:11116
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[1]/text"
-msgstr "联合方碑恶名[--5]"
+msgstr "联合方碑避难所恶名[--5]"
 
 #: src-en/data/events_special_storage.xml.append:11120
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[2]/text"
-msgstr "联合方碑恶名[-5]"
+msgstr "联合方碑避难所恶名[-5]"
 
 #: src-en/data/events_special_storage.xml.append:11124
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[3]/text"
-msgstr "联合方碑恶名[-4]"
+msgstr "联合方碑避难所恶名[-4]"
 
 #: src-en/data/events_special_storage.xml.append:11128
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[4]/text"
-msgstr "联合方碑恶名[-3]"
+msgstr "联合方碑避难所恶名[-3]"
 
 #: src-en/data/events_special_storage.xml.append:11132
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[5]/text"
-msgstr "联合方碑恶名[-2]"
+msgstr "联合方碑避难所恶名[-2]"
 
 #: src-en/data/events_special_storage.xml.append:11136
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[6]/text"
-msgstr "联合方碑恶名[-1]"
+msgstr "联合方碑避难所恶名[-1]"
 
 #: src-en/data/events_special_storage.xml.append:11140
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[7]/text"
-msgstr "联合方碑恶名[1]"
+msgstr "联合方碑避难所恶名[1]"
 
 #: src-en/data/events_special_storage.xml.append:11144
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[8]/text"
-msgstr "联合方碑恶名[2]"
+msgstr "联合方碑避难所恶名[2]"
 
 #: src-en/data/events_special_storage.xml.append:11148
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[9]/text"
-msgstr "联合方碑恶名[3]"
+msgstr "联合方碑避难所恶名[3]"
 
 #: src-en/data/events_special_storage.xml.append:11152
 #, fuzzy
