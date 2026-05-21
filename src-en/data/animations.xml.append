@@ -3501,22 +3501,22 @@ SLIMER ANIMATIONS
 <anim name="fr_reborn_zulu_shoot_down">
 	<sheet>fr_reborn_zulu</sheet>
 	<desc length="3" x="0" y="9"/>
-	<time>0.1</time>
+	<time>1</time>
 </anim>
 <anim name="fr_reborn_zulu_shoot_right">
 	<sheet>fr_reborn_zulu</sheet>
 	<desc length="3" x="6" y="9"/>
-	<time>0.1</time>
+	<time>1</time>
 </anim>
 <anim name="fr_reborn_zulu_shoot_up">
 	<sheet>fr_reborn_zulu</sheet>
 	<desc length="3" x="3" y="9"/>
-	<time>0.1</time>
+	<time>1</time>
 </anim>
 <anim name="fr_reborn_zulu_shoot_left">
 	<sheet>fr_reborn_zulu</sheet>
 	<desc length="3" x="9" y="9"/>
-	<time>0.1</time>
+	<time>1</time>
 </anim>
 <anim name="fr_reborn_zulu_fire_down">
 	<sheet>fr_reborn_zulu</sheet>
@@ -4363,7 +4363,7 @@ SLIMER ANIMATIONS
 </anim>
 <anim name="fr_reformed_frostwall_punch_up">
 	<sheet>fr_reformed_frostwall</sheet>
-	<desc length="6" x="3" y="10"/>
+	<desc length="6" x="0" y="10"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_reformed_frostwall_punch_down">
@@ -13395,6 +13395,115 @@ SLIMER ANIMATIONS
 </anim>
 <anim name="fr_ghostly_battledrone_2_portrait">
 	<sheet>fr_ghostly_battledrone_2</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<!-- 
+*********************************************************************************************************
+                   ELDRITCH SPAWN (GOOD)
+*********************************************************************************************************
+-->
+
+<animSheet fh="35" fw="35" h="245" name="fr_eldritch_spawn" w="1155">people/fr_eldritch_spawn_base.png</animSheet>
+<animSheet name="fr_eldritch_spawn_death" w="320" h="32" fh="32" fw="32">effects/explosion_big1_strip10.png</animSheet>
+<anim name="fr_eldritch_spawn_death_right">
+	<sheet>fr_eldritch_spawn_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_death_left">
+	<sheet>fr_eldritch_spawn_death</sheet>
+	<desc length="10" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_walk_down">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="4" x="0" y="5"/>
+	<time>1</time>
+</anim>
+<anim name="fr_eldritch_spawn_walk_left">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="5" x="4" y="5"/>
+	<time>1</time>
+</anim>
+<anim name="fr_eldritch_spawn_walk_up">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="4" x="0" y="4"/>
+	<time>1</time>
+</anim>
+<anim name="fr_eldritch_spawn_walk_right">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="5" x="4" y="4"/>
+	<time>1</time>
+</anim>
+<anim name="fr_eldritch_spawn_fire_down">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="9" x="0" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_fire_right">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="9" x="0" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_fire_up">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="9" x="0" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_fire_left">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="9" x="0" y="3"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_repair">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="18" x="0" y="2"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_punch_down">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="4" x="0" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_punch_up">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="4" x="5" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_shoot_up">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="12" x="13" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_shoot_down">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="12" x="10" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_shoot_left">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="12" x="10" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_shoot_right">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="12" x="10" y="1"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_power_down">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="11" x="2" y="0"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_power_up">
+	<sheet>fr_eldritch_spawn</sheet>
+	<desc length="33" x="0" y="6"/>
+	<time>1.0</time>
+</anim>
+<anim name="fr_eldritch_spawn_portrait">
+	<sheet>fr_eldritch_spawn</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
 </anim>

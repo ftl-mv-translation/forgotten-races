@@ -735,5 +735,23 @@
 		</mod:findLike>
 	</mod:findLike>
 </mod:findName>
+
+<mod:findName type="event" name="BOSS_NEGOTIATE_1">
+	<mod-append:choice hidden="true" req="fr_ach_boss_piratekestrel">
+		<text>We managed to scatter an entire pirate fleet to save an Unity outpost.</text>
+		<event load="BOSS_NEGOTIATE_2"/>
+	</mod-append:choice>
+	<mod-append:choice hidden="true" req="fr_ach_boss_ruesflagship">
+		<text>We managed to do what you couldn't and saved a Rebel outpost from the assault of the R.U.E.S. flagship.</text>
+		<event load="BOSS_NEGOTIATE_2"/>
+	</mod-append:choice>
+</mod:findName>
 	
+<mod:findName type="event" name="BOSS_NEGOTIATE_2">
+	<mod-append:choice hidden="true" req="fr_ach_boss_mfkcruiser">
+		<text>It's no Flagship, but we destroyed an MFK Cruiser. We can handle anything the Rebellion throws at us.</text>
+		<event load="BOSS_NEGOTIATE_3"/>
+	</mod-append:choice>
+</mod:findName>
+
 </FTL>

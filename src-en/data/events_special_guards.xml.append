@@ -123,6 +123,39 @@
 	</mod-append:choice>
 </mod:findName>
 
+<mod:findName type="event" name="GUARD_BLACKMARKET">
+	<mod-append:choice req="fr_unique_purple_beard" blue="true" hidden="true">
+		<text>(Purple Beard) "Let us pass..."</text>
+		<event>
+			<text>The guard stares at Purple Beard for almost a full minute, their mouth agape, before nodding. The guard cuts the comms without saying another word, though soon hails you again. "Purple Beard, sir. One of our soldiers would like to join your crew, is this an acceptable tribute?"
+
+The fabled pirate takes his sweet time thinking about it, before nodding. "Yes...it is." The new crew is then beamed abord your ship and the guard cuts the call again.</text>
+			<crewMember amount="1" combat="2" class="LIST_CREW_PIRATE_ELITE_RANDOM"/>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="GUARD_ESTATE">
+	<mod-append:choice req="fr_unique_jon" blue="true" hidden="true">
+		<text>(Jon) Access the drone's mainframe and disable it.</text>
+		<event>
+			<text>"I remember this design, sleek, potent and power efficient. This shouldn't take long, I know an easy way to gain complete developer access." After less than a minute, Jon gains total control over the ship. First he forces the drone to beam abord a cache of supplies and a sentry weapons before shutting it down for good.</text>
+			<weapon name="GIFTLIST_ESTATE"/>
+			<autoReward level="HIGH">standard_no_item</autoReward>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
+<mod:findName type="event" name="GUARD_SHIPYARD">
+	<mod-append:choice req="fr_unique_jon" blue="true" hidden="true">
+		<text>(Jon) Access the drone's mainframe and disable it.</text>
+		<event>
+			<text>Jon makes quick work of the auto's firewall without even breaking a sweat. After gaining total control, he forces the drone to beam abord a cache of supplies before shutting it down for good.</text>
+			<autoReward level="HIGH">standard</autoReward>
+		</event>
+	</mod-append:choice>
+</mod:findName>
+
 <mod:findName type="event" name="GUARD_UNION_COREWORLDS">
 	<mod-append:choice req="unique_symbiote" lvl="0" max_group="0" blue="false">
 		<text>Undergo the inspection.</text>
@@ -914,7 +947,7 @@
 </event>
 
 <event name="FR_START_WARZONE_FEDERATION_FRIENDLY">
-	<text>By some miracle the Federation forces in this sector managed to weather the attacks from the Rebels and the Coalition enough to still have a elite guard present. Their weapons power on for a moment before they realize you aren't a threat "I'm sorry, renegade, we have all been on edge since the invasion started. We are short on manpower and ships but we do have a surpluss of weapons, if you are interested of course. Otherwise we can repair or refuel your ship."</text>
+	<text>By some miracle the Federation forces in this sector managed to weather the attacks from the Rebels and the Coalition enough to still have a elite guard present. Their weapons power on for a moment before they realize you aren't a threat. "I'm sorry, renegade, we have all been on edge since the invasion started. We are short on manpower and ships but we do have a surplus of weapons, if you are interested of course. Otherwise we can repair or refuel your ship."</text>
 	<choice>
 		<text>Request support.</text>
 		<event load="FR_START_WARZONE_FEDERATION_FRIENDLY_SUPPORT"/>

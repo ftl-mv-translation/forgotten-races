@@ -1767,6 +1767,30 @@
 	</powerList>
 </crewBlueprint>
 
+<crewBlueprint name="fr_eldritch_spawn_enemy">
+	<desc>The spawn of eldritch power.</desc>
+	<title>Lesser Eldritch Spawn</title>
+	<short>L. Spawn</short>
+	<cost>5000000</cost>
+	<rarity>0</rarity>
+	<powerList>
+		<power>Takes 20% damage in combat. Cannot be stunned or mind controlled. Destroying Drone Control will repel it.</power>
+		<power>3x repair speed. 0.5x movement speed. 1.5x crew damage and sabotage speed.</power>
+	</powerList>
+</crewBlueprint>
+
+<crewBlueprint name="fr_eldritch_spawn">
+	<title>Eldritch Spawn</title>
+	<short>Spawn</short>
+	<desc>The spawn of eldritch power, now in your hands.</desc>
+	<cost>2147483647</cost>
+	<rarity>0</rarity>
+	<powerList>
+		<power>Cannot be damaged, stunned or mind controlled. Destroying Drone Control will repel it.</power>
+		<power>3x repair speed. 0.5x movement speed. 1.5x crew damage and sabotage speed.</power>
+	</powerList>
+</crewBlueprint>
+
 <crewBlueprint name="fr_bonus_tririac">
 	<desc>An unknown creature that haunts the higher planes in search of new thralls to bolster their enigmatic cause.
 	
@@ -6317,6 +6341,43 @@
 	<iconImage>ion</iconImage>
 </weaponBlueprint>
 
+<droneBlueprint name="FR_SPAWN_ENEMY">
+	<type>BOARDER</type>
+	<locked>1</locked>
+	<tip>tip_toggle_crew</tip>
+	<title>Lesser Eldritch Spawn</title>
+	<short>L. Spawn</short>
+	<desc>A mysterious creature birthed from the mind of an eldritch power. Their power has been greatly drained however.
+    
+-Takes 20% damage from comabt. Cannot be stunned or mind controlled. Destroying Drone Control will repel it.
+-3x repair speed. 0.5x movement speed. 1.5x crew damage and sabotage speed.
+-Technopaths can't copy its eldritch systems.</desc>
+	<power>1</power>
+	<speed>999</speed>
+	<cost>200</cost>
+	<bp>3</bp>
+	<rarity>0</rarity>
+	<iconImage>battle</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="FR_SPAWN_ENEMY_REPAIR">
+	<type>REPAIR</type>
+	<locked>1</locked>
+	<tip>tip_toggle_crew</tip>
+	<title>Lesser Eldritch Spawn</title>
+	<short>L. Spawn</short>
+	<desc>A mysterious creature birthed from the mind of an eldritch power. Their power has been greatly drained however.
+    
+-Takes 20% damage from comabt. Cannot be stunned or mind controlled. Destroying Drone Control will repel it.
+-3x repair speed. 0.5x movement speed. 1.5x crew damage and sabotage speed.
+-Technopaths can't copy its eldritch systems.</desc>
+	<power>1</power>
+	<cost>200</cost>
+	<bp>3</bp>
+	<rarity>0</rarity>
+	<iconImage>battle</iconImage>
+</droneBlueprint>
+
 <droneBlueprint name="FR_SPAWN_BATTLE">
 	<type>REPAIR</type>
 	<locked>1</locked>
@@ -6326,9 +6387,10 @@
 	<desc>A mysterious creature birthed from the mind of an eldritch power.
     
 -Cannot be damaged, stunned or mind controlled. Destroying Drone Control will repel it.
+-3x repair speed. 0.5x movement speed. 1.5x crew damage and sabotage speed.
 -Technopaths can't copy its eldritch systems.</desc>
 	<power>1</power>
-	<cost>200</cost>
+	<cost>2002</cost>
 	<bp>3</bp>
 	<rarity>0</rarity>
 	<iconImage>battle</iconImage>
@@ -6343,13 +6405,14 @@
 	<desc>A mysterious creature birthed from the mind of an eldritch power.
     
 -Cannot be damaged, stunned or mind controlled. Destroying Drone Control will repel it.
+-3x repair speed. 0.5x movement speed. 1.5x crew damage and sabotage speed.
 -Technopaths can't copy its eldritch systems.</desc>
 	<power>1</power>
 	<speed>999</speed>
-	<cost>200</cost>
+	<cost>2002</cost>
 	<bp>3</bp>
 	<rarity>0</rarity>
-	<iconImage>battle</iconImage>
+	<iconImage>boarder</iconImage>
 </droneBlueprint>
 
 <weaponBlueprint name="FR_DEATHBLOOM_SPORE_BOMBLAUNCHER">
@@ -10565,12 +10628,12 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<flavorType>Artillery</flavorType>
 	<title>Heavy Laser Artillery</title>
 	<short>Heavy Artillery</short>
-	<desc>[Base cooldown: 35] Fires a barrage of 2 lasers that do 2 system and hull damage and 45 crew damage. Stuns crew for 6 seconds on hit. 20% fire and breach chance.</desc>
-	<tooltip>Artillery: Fires a barrage of 2 lasers that do 2 system and hull damage and 45 crew damage. Stuns crew for 6 seconds on hit. 20% fire and breach chance.</tooltip>
+	<desc>[Base cooldown: 35] Fires a barrage of 3 lasers that do 2 system and hull damage and 45 crew damage. Stuns crew for 6 seconds on hit. 20% fire and breach chance.</desc>
+	<tooltip>Artillery: Fires a barrage of 3 lasers that do 2 system and hull damage and 45 crew damage. Stuns crew for 6 seconds on hit. 20% fire and breach chance.</tooltip>
 	<damage>2</damage>
 	<persDamage>1</persDamage>
 	<stun>6</stun>
-	<shots>2</shots>
+	<shots>3</shots>
 	<sp>0</sp>
 	<fireChance>2</fireChance>
 	<breachChance>2</breachChance>
@@ -10632,12 +10695,12 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<flavorType>Artillery</flavorType>
 	<title>Heavy Energy Artillery</title>
 	<short>Energy Artillery</short>
-	<desc>[Base cooldown: 30] Fires a single energy blast that deals 2 hull and ion damage. Hullbuster. 60% fire chance.</desc>
-	<tooltip>Artillery: Fires a single energy blast that deals 2 hull and ion damage. Hullbuster. 60% fire chance.</tooltip>
-	<damage>2</damage>
+	<desc>[Base cooldown: 30] Fires a single energy blast that deals 3 hull and ion damage. Hullbuster. 60% fire chance.</desc>
+	<tooltip>Artillery: Fires a single energy blast that deals 3 hull and ion damage. Hullbuster. 60% fire chance.</tooltip>
+	<damage>3</damage>
 	<noSysDamage>true</noSysDamage>
 	<noPersDamage>true</noPersDamage>
-	<ion>2</ion>
+	<ion>3</ion>
 	<hullBust>1</hullBust>
 	<speed>40</speed>
 	<shots>1</shots>
@@ -10797,14 +10860,14 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<flavorType>Artillery</flavorType>
 	<title>'Corseque' Beam Artillery</title>
 	<short>'Corseque' Artillery</short>
-	<desc>[Base cooldown: 34/28/22/16] Fires a beam that deals 2 damage and chains its cooldown 3 times. Beam length of 110 and speed of 15. 20% breach chance.</desc>
+	<desc>[Base cooldown: 39/33/27/21] Fires a beam that deals 2 damage and chains its cooldown 3 times. Beam length of 110 and speed of 15. 20% breach chance.</desc>
 	<tooltip>Artillery: Fires a beam that deals 2 damage and chains its cooldown 3 times. Beam length of 110 and speed of 15. 20% breach chance.</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
 	<breachChance>2</breachChance>
 	<speed>15</speed>
-	<cooldown>34</cooldown>
+	<cooldown>39</cooldown>
 	<rarity>0</rarity>
 	<image>beam_contact</image>
 	<length>110</length>
@@ -10827,7 +10890,7 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<drone_targetable>1</drone_targetable>
 	<title>Chain Flak Artillery</title>
 	<short>C. Flak Artillery</short>
-	<desc>[Base cooldown: 41/34/27/20] Fires a burst of 10 flak projectiles that deals 1 damage and chains its cooldown 3 times. 20% breach chance.</desc>
+	<desc>[Base cooldown: 45/38/31/24] Fires a burst of 10 flak projectiles that deals 1 damage and chains its cooldown 3 times. 20% breach chance.</desc>
 	<tooltip>Artillery: Fires a burst of 10 flak projectiles that deals 1 damage and chains its cooldown 3 times. 20% breach chance.</tooltip>
 	<radius>30</radius>
 	<damage>1</damage>
@@ -10837,7 +10900,7 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<fireChance>0</fireChance>
 	<breachChance>2</breachChance>
 	<speed>26</speed>
-	<cooldown>41</cooldown>
+	<cooldown>45</cooldown>
 	<rarity>0</rarity>
 	<projectiles>
 		<projectile count="5" fake="false">debris_large</projectile>
@@ -10876,7 +10939,7 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<flavorType>Artillery</flavorType>
 	<title>Chain Energy Artillery</title>
 	<short>C. Energy Artillery</short>
-	<desc>[Base cooldown: 30/23/16/9] Fires two energy blasts that deals 1 hull and ion damage and chains its cooldown 3 times. 30% fire chance.</desc>
+	<desc>[Base cooldown: 35/28/21/14] Fires two energy blasts that deals 1 hull and ion damage and chains its cooldown 3 times. 30% fire chance.</desc>
 	<tooltip>Artillery: Fires two energy blasts that deals 1 hull and ion damage and chains its cooldown 3 times. 30% fire chance.</tooltip>
 	<damage>1</damage>
 	<noSysDamage>true</noSysDamage>
@@ -10888,7 +10951,7 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<fireChance>3</fireChance>
 	<breachChance>0</breachChance>
 	<stunChance>0</stunChance>
-	<cooldown>30</cooldown>
+	<cooldown>35</cooldown>
 	<power>2</power>
 	<cost>50</cost>
 	<bp>3</bp>
@@ -10926,12 +10989,12 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<flavorType>Artillery</flavorType>
 	<title>€ Heavy Laser Artillery</title>
 	<short>€ Heavy Artillery</short>
-	<desc>[Base cooldown: 30] Fires a barrage of 3 lasers that do 2 system and hull damage and 45 crew damage. Stuns crew for 10 seconds on hit. 40% fire and breach chance.</desc>
-	<tooltip>Artillery: Fires a barrage of 3 lasers that do 2 system and hull damage and 45 crew damage. Stuns crew for 10 seconds on hit. 40% fire and breach chance.</tooltip>
+	<desc>[Base cooldown: 30] Fires a barrage of 4 lasers that do 2 system and hull damage and 45 crew damage. Stuns crew for 10 seconds on hit. 40% fire and breach chance.</desc>
+	<tooltip>Artillery: Fires a barrage of 4 lasers that do 2 system and hull damage and 45 crew damage. Stuns crew for 10 seconds on hit. 40% fire and breach chance.</tooltip>
 	<damage>2</damage>
 	<persDamage>1</persDamage>
 	<stun>10</stun>
-	<shots>3</shots>
+	<shots>4</shots>
 	<sp>0</sp>
 	<fireChance>4</fireChance>
 	<breachChance>8</breachChance>
@@ -10993,12 +11056,12 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<flavorType>Artillery</flavorType>
 	<title>€ Heavy Energy Artillery</title>
 	<short>€ Energy Artillery</short>
-	<desc>[Base cooldown: 30] Fires two energy blasts that deal 2 hull and ion damage with hullbuster. Always stats fires.</desc>
-	<tooltip>Artillery: Fires two energy blasts that deal 2 hull and ion damage with hullbuster. Always stats fires.</tooltip>
-	<damage>2</damage>
+	<desc>[Base cooldown: 30] Fires two energy blasts that deal 3 hull and ion damage with hullbuster. Always starts fires.</desc>
+	<tooltip>Artillery: Fires two energy blasts that deal 3 hull and ion damage with hullbuster. Always starts fires.</tooltip>
+	<damage>3</damage>
 	<noSysDamage>true</noSysDamage>
 	<noPersDamage>true</noPersDamage>
-	<ion>2</ion>
+	<ion>3</ion>
 	<hullBust>1</hullBust>
 	<speed>40</speed>
 	<shots>2</shots>
@@ -11175,7 +11238,7 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<damage>2</damage>
 	<noSysDamage>true</noSysDamage>
 	<mv-hack duration="5"/>
-	<sp>0</sp>
+	<sp>10</sp>
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
 	<cooldown>45</cooldown>
@@ -14308,6 +14371,7 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 						<hideCooldown>true</hideCooldown>
 						<hideCharges>true</hideCharges>
 						<respawnCharges>0</respawnCharges>
+						<powerCharges>1</powerCharges>
 						<chargesPerJump>1</chargesPerJump>
 						<initialCharges>0</initialCharges>
 						<selfHealth>-9999</selfHealth>
@@ -17838,6 +17902,8 @@ Your hacking also lasts for 20% longer.</desc>
 
 	The crew (and all their subtypes) affected are the following: Giant Alien Spiders, Morphs, Six-Legged Equinoids, Tree Lizard Things, Osmian Zoltans and Sirens.
 
+	Lanius can also consume engis and other robotic beings, including drones.
+
 	Be warned though, Eldritch Beings are inedible and will instead damage your crew by 2 hp/s while being eaten.</desc>
 	<cost>160</cost>
 	<bp>12</bp>
@@ -18128,6 +18194,14 @@ Once consumed will also allow you to find a single slaver ship during jumpspeed.
 	<bp>0</bp>
 </augBlueprint>
 
+<augBlueprint name="FR_TELEPORT_RECALL">
+	<title>Personal Teleporters</title>
+	<desc>Crew on an enemy ship that is jumping or being destroyed will be automatically recalled.</desc>
+	<cost>150</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
 <augBlueprint name="FR_SOUL_STEALER">
 	<title>Soul Stealer</title>
 	<desc>This ship lost the ability to eat generic crew for boosts, but in its place it can now absorb the very souls of notable beings. This power, however, won't work on Obelisk/undead/chaotic/Morph crew or those found in the center of everything.
@@ -18141,7 +18215,9 @@ Crew sacrificed to the ship can't be cloned.</desc>
 
 <augBlueprint name="FR_GHOSTLY_REPAIR_BOTS">
 	<title>Charror's Nanomachines</title>
-	<desc>Charror's experiments with nanomachines have allowed them to infuse Med-Bots with souls. The nanomachines passively repair systems and extinguish fires at the same rate as a human, multiplied by the amount of powered system levels in Drone Control. They also seal breaches at a static rate.</desc>
+	<desc>Charror's experiments with nanomachines have allowed them to infuse Med-Bots with souls. The nanomachines passively repair systems and extinguish fires at the same rate as a human, multiplied by the amount of powered system levels in Drone Control. 
+		
+They also seal breaches at a static rate.</desc>
 	<cost>200</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
@@ -19682,7 +19758,7 @@ The beacon also houses a small energy reserve for your Mind Control system, allo
 		Slimer: Reduces his active ability cooldowns by 50% - Halves his crew damage.
 		Phys: Provides double her base power - Can't sabotage.
 		Aleenor: Doubles her damage - Can't repair.
-		Vin: Dubles his health - Halves his speed.
+		Vin: Doubles his health - Halves his speed.
 		Cleo: Gains a 1.3x bonus to health, speed, repair and damage - Cannot fight enemy drones directly. 
 		Zulu: Doubles his sabotage damage - Halves his crew damage.
 		G: Doubles the healing gained from hazards - Raises her active ability cooldowns by 50%.
@@ -31401,7 +31477,7 @@ Luckily, a few Royals survived the fight and "willingly" offered to join the cau
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM" layout="fr_player_chaos_revenant_deathbloom_a" img="fr_player_chaos_revenant_deathbloom_a">
-	<class>Deathbloom' Cruiser</class>
+	<class>Deathbloom's Cruiser</class>
 	<name>The Wolfsbane</name>
 	<unlock>Set free the soul of a diligent Vampweed in a chaotic environment to unlock this ship.</unlock>
 	<desc>Deathbloom's signature vessel is infested with deadly spores, allowing her and her crew to easily kill any crew standing in their way.</desc>
@@ -31478,7 +31554,7 @@ Luckily, a few Royals survived the fight and "willingly" offered to join the cau
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM_2" layout="fr_player_chaos_revenant_deathbloom_b" img="fr_player_chaos_revenant_deathbloom_b">
-	<class>Deathbloom' Cruiser</class>
+	<class>Deathbloom's Cruiser</class>
 	<name>Aconitine</name>
 	<unlock>Get to Sector 5 with the Type A to unlock this ship.</unlock>
 	<desc>After reintegrating into Vampweed society, Deathbloom was approached by the Geniocracy and offered a once in a lifetime chance to work with their top scientists. The result? This ungodly ship filled with deadly gas.</desc>
@@ -31558,7 +31634,7 @@ Luckily, a few Royals survived the fight and "willingly" offered to join the cau
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM_3" layout="fr_player_chaos_revenant_deathbloom_c" img="fr_player_chaos_revenant_deathbloom_c">
-	<class>Deathbloom' Cruiser</class>
+	<class>Deathbloom's Cruiser</class>
 	<name>The Lifeforce</name>
 	<unlock>Get to Sector 5 with the Type B or beat the game with the Type A to unlock this ship.</unlock>
 	<desc>Intrigued by the efficiency of Deathbloom's spores, a group of Ministry scientists approached her with a novel idea: Combine her spore capabilities with their energy shield technology. This ship is the result.</desc>

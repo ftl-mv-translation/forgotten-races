@@ -148,13 +148,13 @@
 		<text>Attempt to hack the ship.</text>
 		<event>
 			<text>You set up a program to attack the cruiser's AI module. If you want this plan to work, you will have to hold out against the ship without destroying it!</text>
-				<triggeredEvent event="FR_COMMONWEALTH_CRUISER_WIN" time="60" thisFight="true">
-					<triggeredEventBox load="DEFAULT_TIMER" pos="combat">
-						<warning time="10.0" flash="false"/>
-						<tooltip>Survive without destroying the broken cruiser, so the hack routine can run.</tooltip>
-					</triggeredEventBox>
-					<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
-				</triggeredEvent>
+			<triggeredEvent event="FR_COMMONWEALTH_CRUISER_WIN" time="60" thisFight="true" clearOnJump="true">
+				<triggeredEventBox load="DEFAULT_TIMER" pos="combat">
+					<warning time="10.0" flash="true"/>
+					<tooltip>Survive without destroying the broken cruiser, so the hack routine can run.</tooltip>
+				</triggeredEventBox>
+				<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+			</triggeredEvent>
 			<ship hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -199,7 +199,7 @@
 </event>
 
 <event name="FR_COMMONWEALTH_CRUISER_WIN">
-	<text>Once the ship's firewall is broken, it's only a matter of time until you're able to bring the entire vessel under your command. The forge within is still intact, but you will likely only get a single piece of equipment out of it before the ship falls apart from the damage it sustained during your attack.
+	<text>Once the ship's firewall is broken, it's only a matter of time until you're able to bring the entire vessel under your command. The forge within is still functional, but you will likely only get a single piece of equipment out of it before the ship falls apart from its heavily damaged state.
 	
 	You also find some kind of strange cubical device while searching the factory. If it's broken, you might be able to repair it with a powerful repair drone. You also miraculously find blueprints for the ship, albeit missing many key features, including its forge. Nevertheless, even a damaged cruiser of this caliber of technology can be useful to the Federation.</text>
 	<ship hostile="false"/>

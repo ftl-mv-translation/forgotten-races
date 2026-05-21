@@ -23,18 +23,76 @@
 		<event name="FR_NEUTRAL_COMMONWEALTH" req="loc_sylvankilled"/>
 		<event name="FR_NEUTRAL_COMMONWEALTH" req="quarantine"/>
 		<event name="GNOME_HATER" req="chaos_mode"/>
-		<event name="SYLVAN_SPAWNER_EXTREME" req="challenge_level" lvl="3" max_lvl="3"/>
-		<event name="SYLVAN_SPAWNER_CHALLENGE" req="challenge_level" lvl="2" max_lvl="2"/>
-		<event name="SYLVAN_SPAWNER_NORMAL" req="challenge_level" lvl="1" max_lvl="1"/>
-		<event name="SYLVAN_SPAWNER_CASUAL" req="challenge_level" lvl="0" max_lvl="0"/>
+		<event name="FR_SYLVAN_COMMONWEALTH_SPAWNER_EXTREME" req="challenge_level" lvl="3" max_lvl="3"/>
+		<event name="FR_SYLVAN_COMMONWEALTH_SPAWNER_CHALLENGE" req="challenge_level" lvl="2" max_lvl="2"/>
+		<event name="FR_SYLVAN_COMMONWEALTH_SPAWNER_NORMAL" req="challenge_level" lvl="1" max_lvl="1"/>
+		<event name="FR_SYLVAN_COMMONWEALTH_SPAWNER_CASUAL" req="challenge_level" lvl="0" max_lvl="0"/>
 	</loadEventList>
 </event>
 
-<mod:findName type="event" name="SYLVAN_LOADER">
-    <mod:findLike type="loadEventList">
-		<mod-append:event name="FR_SYLVAN_COMMONWEALTH_LOADER" req="SEC SECRET_FR_COMMONWEALTH" lvl="1"/>
-    </mod:findLike>
-</mod:findName>
+<event name="FR_SYLVAN_COMMONWEALTH_SPAWNER_CASUAL">
+	<preventQuest/>
+	<runFromFleet closest="true"/>
+	<preventBossFleet forever="true"/>
+	<beaconType id="map_icon_merchant" global="true" req="SYLVAN_BEACON_CHECK">
+		<color r="155" g="90" b="205" a="1.0"/>
+		<unvisitedTooltip>This is the location of the Traveling Merchant.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+	</beaconType>
+	<ship load="SHIP_TRAVELING_MERCHANT_CASUAL" hostile="false"/>
+	<loadEvent>FR_SYLVAN_COMMONWEALTH_LOADER</loadEvent>
+</event>
+<ship name="SHIP_TRAVELING_MERCHANT_CASUAL" auto_blueprint="MU_TRAVELING_MERCHANT_CASUAL">
+	<destroyed load="SYLVAN_DESTRUCTION"/>
+	<deadCrew load="SYLVAN_CREWKILL"/>
+</ship>
+<!--normal-->
+<event name="FR_SYLVAN_COMMONWEALTH_SPAWNER_NORMAL">
+	<preventQuest/>
+	<runFromFleet closest="true"/>
+	<preventBossFleet forever="true"/>
+	<beaconType id="map_icon_merchant" global="true" req="SYLVAN_BEACON_CHECK">
+		<color r="155" g="90" b="205" a="1.0"/>
+		<unvisitedTooltip>This is the location of the Traveling Merchant.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+	</beaconType>
+	<ship load="SHIP_TRAVELING_MERCHANT_NORMAL" hostile="false"/>
+	<loadEvent>FR_SYLVAN_COMMONWEALTH_LOADER</loadEvent>
+</event>
+<ship name="SHIP_TRAVELING_MERCHANT_NORMAL" auto_blueprint="MU_TRAVELING_MERCHANT_NORMAL">
+	<destroyed load="SYLVAN_DESTRUCTION"/>
+	<deadCrew load="SYLVAN_CREWKILL"/>
+</ship>
+<!--challenge-->
+<event name="FR_SYLVAN_COMMONWEALTH_SPAWNER_CHALLENGE">
+	<preventQuest/>
+	<runFromFleet closest="true"/>
+	<preventBossFleet forever="true"/>
+	<beaconType id="map_icon_merchant" global="true" req="SYLVAN_BEACON_CHECK">
+		<color r="155" g="90" b="205" a="1.0"/>
+		<unvisitedTooltip>This is the location of the Traveling Merchant.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+	</beaconType>
+	<ship load="SHIP_TRAVELING_MERCHANT_CHALLENGE" hostile="false"/>
+	<loadEvent>FR_SYLVAN_COMMONWEALTH_LOADER</loadEvent>
+</event>
+<ship name="SHIP_TRAVELING_MERCHANT_CHALLENGE" auto_blueprint="MU_TRAVELING_MERCHANT_CHALLENGE">
+	<destroyed load="SYLVAN_DESTRUCTION"/>
+	<deadCrew load="SYLVAN_CREWKILL"/>
+</ship>
+<!--extreme-->
+<event name="FR_SYLVAN_COMMONWEALTH_SPAWNER_EXTREME">
+	<preventQuest/>
+	<runFromFleet closest="true"/>
+	<preventBossFleet forever="true"/>
+	<beaconType id="map_icon_merchant" global="true" req="SYLVAN_BEACON_CHECK">
+		<color r="155" g="90" b="205" a="1.0"/>
+		<unvisitedTooltip>This is the location of the Traveling Merchant.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+	</beaconType>
+	<ship load="SHIP_TRAVELING_MERCHANT_EXTREME" hostile="false"/>
+	<loadEvent>FR_SYLVAN_COMMONWEALTH_LOADER</loadEvent>
+</event>
 
 <event name="FR_SYLVAN_COMMONWEALTH_LOADER">
 	<loadEventList seeded="false" first="false" default="FR_SYLVAN_COMMONWEALTH">
@@ -45,7 +103,6 @@
 
 <event name="FR_SYLVAN_COMMONWEALTH">
 	<text>"Ssstranger, Ssstranger! Now thisss isss a ssstrange place to find each other in, eh? Thossse cube people ssseem sssurprisssingly friendly asss well. I actually came here to help you out in your missssion; can't let my mossst valuable cussstomer die on me, can I? Although, I'm afraid we might only have a sssingle ssshot at leaving thisss place, ssso how about I join your crew for the time being? After we do our ussssual trading of courssse."</text>
-	<ship load="SHIP_TRAVELING_MERCHANT_CHALLENGE" hostile="false"/>
 	<choice hidden="true" req="unique_sylvan" max_group="0">
 		<text>(Sylvan) Use Sylvan to hail Sylvan.</text>
 		<event>

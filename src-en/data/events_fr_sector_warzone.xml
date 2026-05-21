@@ -187,15 +187,15 @@
         <event>
             <text>The scout leads you to the landing pad of the facility; the journey is quick and uneventful, with the radio eeriely quiet. After landing your ship and disembarking, you are greeted by worn Defender Engi with a missing arm and a cracked visor, flanked by 2 Federation elite soldiers. 
 
-            "Federation Renegade, welcome. I am: Lead Scientist HS-98A. Specialization = Flagship model ships. I was in charge of: Project Retribution." The Engi explains, despite the fact that their broken voice synthesizer is struggling to keep up with their thoughts.
+"Federation Renegade, welcome. I am: Lead Scientist HS-98A. Specialization = Flagship model ships. I was in charge of: Project Retribution." The Engi explains, despite the fact that their broken voice synthesizer is struggling to keep up with their thoughts.
         
-            "Project was = Near completion when Rebel forces attacked. They stole: Prototype Flagship made for the Federation. We were forced to: Teach them how to pilot it or else we would have been all killed." The Engi's tone seems emotionless as usual, but you could imagine a tinge of regret in their synthetic voice.</text>
+"Project was = Near completion when Rebel forces attacked. They stole: Prototype Flagship made for the Federation. We were forced to: Teach them how to pilot it or else we would have been all killed." The Engi's tone seems emotionless as usual, but you could imagine a tinge of regret in their synthetic voice.</text>
 			<choice hidden="true">
-				<text>Let me guess, you want us to retrive the ship?</text>
+				<text>Let me guess, you want us to retrieve the ship?</text>
 				<event>
 					<text>The Engi nods robotically. "That is what this unit hopes, yes. If the flagship were to be adapted by the Rebellion, then it's this unit's fear that it may doom our reality." The Engi speaks in a tone that almost sounds grim.
                                         
-                    "I know Renegades do not work for price = free. Thus I purpose a: mutually beneficial arrengement. You clear the flagship of rebels while keeping the ship = intact and you may keep the ship's: blueprints. How does this offer sound?"</text>
+"I know Renegades do not work for price = free. Thus I purpose a: mutually beneficial arrengement. You clear the flagship of rebels while keeping the ship = intact and you may keep the ship's: blueprints. How does this offer sound?"</text>
                     <choice hidden="true">
                         <text>You can count us in!</text>
                         <event>
@@ -249,7 +249,7 @@
         </event>
     </choice>
     <choice hidden="true">
-        <text>This is suspecious, avoid the ship and prepare to jump away.</text>
+        <text>This is suspicious, avoid the ship and prepare to jump away.</text>
         <event>
             <text>Knowing how dangerous this sector is, trusting any random ship, even Federation ones, is a risk too great to take right now.</text>
             <choice hidden="true">
@@ -358,9 +358,9 @@
 	<choice hidden="true">
 		<text>Attack the Flagship.</text>
 		<event>
-			<text>You charge fowards, forcing the flagship to engage you. You receive a transmission from the flagship; on the other end is no less than a rock elder!
+			<text>You charge onwards, forcing the flagship to engage you. You receive a transmission from the flagship; on the other end is no less than a rock elder!
 
-			"Ah, the weak and pathetic Federation ship; I've heard a lot about your struggle. You haven't got an idea of what you are signing up for, have you? I'm Rockmore, the Elder in charge of the Inquisition's research, and I'm here to make sure both the Rebels and the Federation are without any technology that might aid them against the Crusade. I will enjoy watching you struggle, little fly."</text>
+"Ah, the weak and pathetic Federation ship; I've heard a lot about your struggle. You haven't got an idea of what you are signing up for, have you? I'm Rockmore, the Elder in charge of the Inquisition's research, and I'm here to make sure both the Rebels and the Federation are without any technology that might aid them against the Crusade. I will enjoy watching you struggle, little fly."</text>
 			<ship hostile="true"/>
             <choice hidden="true">
 				<text>Continue...</text>
@@ -387,19 +387,20 @@
 <event name="FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DESTROYED">
 	<text>The massive flagship cracks in half before exploding. While you did save the technicians, the blueprints of the flagship are now lost forever.</text>
 	<autoReward level="HIGH">standard</autoReward>
+	<variable name="fr_ach_boss_ruesflagship" op="set" val="1"/>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
 			<text>You are soon hailed by the technician dressed in MV Rebel colors from the outpost. "Renegade, thank the heavens you arrived! The flagship, it attacked us suddenly! This outpost wasn't meant for combat; it was simply a place to repair our auto-ships. The few ships we had defending us were destroyed in seconds... I can't imagine what would have happened if you hadn't got here."
 
-            The rebel clears his throat. "My name is Jon. I'm the lead technician here, sent by Universe 1 to help train the new generation of technicians. Though, seeing all the carnage the Rebellion did here with my own eyes... I fear I'm not cut out for this job anymore. Would you mind if I joined your crew?"</text>
+The rebel clears his throat. "My name is Jon Briggs. I'm the lead technician here, sent by Universe 1 to help train the new generation of technicians. Though, seeing all the carnage the Rebellion did here with my own eyes... I fear I'm not cut out for this job anymore. Would you mind if I joined your crew?"</text>
             <crewMember amount="1" class="fr_unique_jon">Jon Briggs</crewMember>
 		</event>
 	</choice>
 </event>
 
 <event name="FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DEADCREW">
-	<text>Rockmore puts up a good fight, being the last one to fall; however, even his mighty hammer can't stop you. You quickly locate the control panel and download the blueprints before scraping the ship. You also find a unique weapon, one much more powerful than the standard variant, problably reserved for only the mightiest of Coalition soldiers.</text>
+	<text>Rockmore puts up a good fight, being the last one to fall; however, even his mighty hammer can't stop you. You quickly locate the control panel and download the blueprints before scrapping the ship. You also find a unique weapon, one much more powerful than the standard variant, problably reserved for only the mightiest of Coalition soldiers.</text>
 	<autoReward level="HIGH">standard</autoReward>
     <unlockCustomShip silent="false">PLAYER_SHIP_FR_COALITION_FLAGSHIP</unlockCustomShip>
     <weapon name="FR_LIST_LOOT_ELITE_COALITION"/>
@@ -408,7 +409,7 @@
 		<event>
 			<text>You are soon hailed by the technician dressed in MV Rebel colors from the outpost. "Renegade, thank the heavens you arrived! The flagship, it attacked us suddenly! This outpost wasn't meant for combat; it was simply a place to repair our auto-ships. The few ships we had defending us were destroyed in seconds... I can't imagine what would have happened if you hadn't got here."
 
-            The rebel clears his throat. "My name is Jon. I'm the lead technician here, sent by Universe 1 to help train the new generation of technicians. Though, seeing all the carnage the Rebellion did here with my own eyes... I fear I'm not cut out for this job anymore. Would you mind if I joined your crew?"</text>
+The rebel clears his throat. "My name is Jon. I'm the lead technician here, sent by Universe 1 to help train the new generation of technicians. Though, seeing all the carnage the Rebellion did here with my own eyes... I fear I'm not cut out for this job anymore. Would you mind if I joined your crew?"</text>
             <crewMember amount="1" class="fr_unique_jon">Jon Briggs</crewMember>
 		</event>
 	</choice>
@@ -436,7 +437,7 @@
 	<destroyed>
 		<text>The mighty pirate ship cracks in half, its advanced design clearly reaching its limits. Still, some mechanism in its construction prevents its total destruction, with only half the ship blowing up.
 
-		You first scrap the destroyed half; in it, you find the highly advanced weapon Purple Beard used against you, still intact even after such an explosion! The other laser seems to have been badly damaged during the fight, however, to the point where it can no longer be used.</text>
+You first scrap the destroyed half; in it, you find the highly advanced weapon Purple Beard used against you, still intact even after such an explosion! The other laser seems to have been badly damaged during the fight, however, to the point where it can no longer be used.</text>
 		<weapon name="ZENITH_1"/>
 		<autoReward level="HIGH">standard_no_item</autoReward>
 		<choice hidden="true">
@@ -447,7 +448,7 @@
 	<deadCrew>
 		<text>Purple Beard was an exceptional opponent, but even he had his limits. The fight is long and painful but eventually the last of his crew falls, leaving the rest of his ship ready for scrapping.
 
-		The first thing you attempt to recover is his powerful lasers; however, it seems one of them was damaged badly during the fight and can't be recovered. At least the other one is in perfect condition.</text>
+The first thing you attempt to recover is his powerful lasers; however, it seems one of them was damaged badly during the fight and can't be recovered. At least the other one is in perfect condition.</text>
 		<weapon name="ZENITH_1"/>
 		<autoReward level="HIGH">standard_no_item</autoReward>
 		<choice>
@@ -488,7 +489,7 @@
 							<choice hidden="true">
 								<text>You don't seem to enjoy being a pirate. Why not join our crew and become a hero?</text>
 								<event>
-									<text>Purple Beard freezes for a moment, his eyes now fully visible. A slight tear forms on their corners before it is swiftly removed with his aged sleeves. He smiles slightly as he finally looks at you directly in the eyes. "...Heh... If you aren't the weirdest Renegade I've ever met... Truth be told... I always wished I could... start over... Very well, Renegade... I accept your offer... However... I can't just leave... A legend like me deserves a good death... Tell you what... you will fight me and my crew... Feel free to be as violent as you wish... make it something worthy of my legend... Once the fight ends, scrap this ship... I have a plan... En guarde..."</text>
+									<text>Purple Beard freezes for a moment, his eyes now fully visible. A slight tear forms on their corners before it is swiftly removed with his aged sleeves. He smiles slightly as he finally looks at you directly in the eyes. "...Heh... If you aren't the weirdest Renegade I've ever met... Truth be told... I always wished I could... start over... Very well, Renegade... I accept your offer... However... I can't just leave... A legend like me deserves a good death... Tell you what... you will fight me and my crew... Feel free to be as violent as you wish... make it something worthy of my legend... Once the fight ends, scrap this ship... I have a plan... En garde..."</text>
 									<variable name="loc_fr_purple_beard_plan" op="set" val="1"/>
 									<ship hostile="true"/>
 									<choice hidden="true">
@@ -727,7 +728,7 @@
 	<text>A nearby Elite Federation outpost is surprisingly still open for business, despite the fact that it's in the middle of this warzone. The fleet is problably giving them enough protection to not be on full lockdown.</text>
 	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_UNITY</customFleet>
 	<ship load="FR_SHIP_WARZONE_STORE_STATION_FEDERATION" hostile="false"/>
-	<choice req="rep_comb_federation" lvl="-999" max_lvl="1" hidden="true">
+	<choice req="rep_comb_federation" lvl="-999" max_lvl="1" hidden="true" blue="false">
 		<text>See what they're offering.</text>
 		<event>
 			<text>Before you shop, you still have some time to do something else aboard the ship.</text>
@@ -742,7 +743,7 @@
 			</choice>
 		</event>
 	</choice>
-	<choice req="rep_comb_federation" lvl="2" hidden="true">
+	<choice req="rep_comb_federation" lvl="2" hidden="true" blue="false">
 		<text>See what they're offering.</text>
         <event>
             <text>As you attempt to dock onto the station, your sensors notice its weapons have suddenly gone online! "We've heard about all your misdeeds, Renegade! We won't let you make our job harder than it already is!"</text>
@@ -864,7 +865,7 @@
 		<event>
 			<text>"Coalition outpost, I demand access to your store as well as a parting gift in the form of a weapon. This is an order."
 				
-			Whoever is in charge of the outpost scrambles to attention at the sight of the Queen. "O-Of course, your highness! Right this way!" The station leader allows you to shop in their outpost and then gifts you the weapon as ordered.</text>
+Whoever is in charge of the outpost scrambles to attention at the sight of the Queen. "O-Of course, your highness! Right this way!" The station leader allows you to shop in their outpost and then gifts you the weapon as ordered.</text>
 			<autoReward level="HIGH">standard_no_item</autoReward>
 			<weapon name="GIFTLIST_COALITION"/>
 			<store>FR_STORE_COALITION_ELITE</store>
@@ -883,7 +884,7 @@
 		<event>
 			<text>"Hey you sssslime bagssss! Let ussss sssshop in your sssstupid outposssst! And give ussss a new weapon too!"
 
-			The leader of the outpost freezes for a moment, "Very well, Captain. You may dock your ship." The station leader allows you to shop in their outpost and then gifts you the weapon as ordered.</text>
+The leader of the outpost freezes for a moment, "Very well, Captain. You may dock your ship." The station leader allows you to shop in their outpost and then gifts you the weapon as ordered.</text>
 			<autoReward level="HIGH">standard_no_item</autoReward>
 			<weapon name="GIFTLIST_COALITION"/>
 			<store>FR_STORE_COALITION_ELITE</store>
@@ -902,7 +903,7 @@
 		<event>
 			<text>"Excuse me, but I'm Tyrdeo, the President of the Republic. As one of the leaders of the Coalition, I ask that you allow me and my crew to shop in this establishment. Also, as I'm sure you have heard, leaders of the Coalition are entitled to one free weapon in any Coalition outpost."
 
-			The leader of the outpost tilts their head for a moment before shrugging. "Very well, President. You may dock your ship." The station leader allows you to shop in their outpost and then gifts you the weapon as ordered.</text>
+The leader of the outpost tilts their head for a moment before shrugging. "Very well, President. You may dock your ship." The station leader allows you to shop in their outpost and then gifts you the weapon as ordered.</text>
 			<autoReward level="HIGH">standard_no_item</autoReward>
 			<weapon name="GIFTLIST_COALITION"/>
 			<store>FR_STORE_COALITION_ELITE</store>
@@ -1094,7 +1095,7 @@
 	</beaconType>
 	<text>It seems even this battle-ravaged place isn't safe from piracy. A group of very influential and wealthy pirates decided to set up a black market store in this sector, potentially hoping to score some easy sales or salvage from damaged vessels. These pirates don't seem like the usual lot either, so be careful when dealing with them.
 
-	As you approach the station you see what appears to be a pirate fleet. How those unaffiliated pirates even managed to steal multiple fleet ships is beyond you, but you doubt they are just for show.</text>
+As you approach the station you see what appears to be a pirate fleet. How those unaffiliated pirates even managed to steal multiple fleet ships is beyond you, but you doubt they are just for show.</text>
 	<ship load="FR_SHIP_WARZONE_STORE_STATION_PIRATE" hostile="false"/>
 	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_PIRATE</customFleet>
 	<choice hidden="true">
@@ -1129,7 +1130,7 @@
 		</event>
 	</choice>
 	<choice req="fr_unique_purple_beard" blue="true" hidden="true">
-		<text>(Purple Beard) Demand tribbute.</text>
+		<text>(Purple Beard) Demand tribute.</text>
 		<event>
 			<text>The pirates immediately notice the pirate leader as soon as he enters the view of the feed, with the leader of the store hailing you, "Well turn me sideways and call me porky! If it isn't the legendary Purple Beard himself! Didn't know we were in the presence of legends! Let me be your own personal tour guide of our little 'fixer-upper', and please, have this little gift, as a little gift between fellow pirates."</text>
 			<autoReward level="HIGH">stuff</autoReward>
@@ -2389,7 +2390,7 @@ The crystal sighs. "I suppose what's done is done... but my crew seem to have gi
 	<choice req="LIST_CREW_ENGI" hidden="true">
 		<text>(Engi Crew) Repair the auto.</text>
 		<event>
-			<text>Your Engi isn't used to working with rebel auto ships, and so isn't as efficient at repairing them as Engineers or Technicians, still it manages to repair the ship enough for it to give you some supplies. However midway through the exchange the auto ship detects you as an enemy and powers its offensive weapons to fight you..</text>
+			<text>Your Engi isn't used to working with rebel auto ships, and so isn't as efficient at repairing them as Engineers or Technicians, still it manages to repair the ship enough for it to give you some supplies. However midway through the exchange the auto ship detects you as an enemy and powers its offensive weapons to fight you.</text>
 			<autoReward level="MED">standard_no_item</autoReward>
 			<ship hostile="true"/>
 			<choice hidden="true">
@@ -2454,7 +2455,7 @@ The crystal sighs. "I suppose what's done is done... but my crew seem to have gi
 
 <event name="FR_DISTRESS_WARZONE_FEDERATION_PIRATE" unique="true">
 	<distressBeacon/>
-	<text>You find two ships in this beacon, a Unity shuttle and a Unity battleship, with the distress call coming from the shuttle. They hail you. "Renegade! You gotta help us! A group of Coalition soldiers took over our ship while we were sleeping! If they can infiltrate out ranks then the damage done could be immeasurable! If you could keep the ship intact then we would greatly pay you everything we have aboard, but if you have to then we accept the consequences of having our old shit destroyed."</text> 
+	<text>You find two ships in this beacon, a Unity shuttle and a Unity battleship, with the distress call coming from the shuttle. They hail you. "Renegade! You gotta help us! A group of Coalition soldiers took over our ship while we were sleeping! If they can infiltrate out ranks then the damage done could be immeasurable! Especially since we were also carrying a large supply of elite spore weapons! If you could keep the ship intact then we would greatly pay you everything we have aboard, but if you have to then we accept the consequences of having our old ship destroyed."</text> 
 	<ship load="FR_SHIP_WARZONE_FEDERATION_ELITE_STOLEN" hostile="false"/>
 	<choice hidden="true">
 		<text>Attack the Battleship!</text>
@@ -2546,7 +2547,7 @@ The crystal sighs. "I suppose what's done is done... but my crew seem to have gi
 </event>
 
 <event name="FR_DISTRESS_WARZONE_SIREN_WON">
-    <text>The EDC ship hails you. "Renegade! You actually did it! How the hell did you manage to resist the trance of those weird noodle monsters? I guess that doesn't matter, you are a hero in the EDC's eyes today! Plase, take this augment as a token of gratitude, it's something every militia ship is given and greatly help us resist enemy ship suppress fire!"</text>
+    <text>The EDC ship hails you. "Renegade! You actually did it! How the hell did you manage to resist the trance of those weird noodle monsters? I guess that doesn't matter, you are a hero in the EDC's eyes today! Please, take this augment as a token of gratitude, it's something every militia ship is given and greatly help us resist enemy ship suppress fire!"</text>
     <autoReward level="MED">standard_no_item</autoReward>
 	<augment name="EX_SHIELD_RECHARGE"/>
 	<choice hidden="true">
@@ -2602,11 +2603,11 @@ The crystal sighs. "I suppose what's done is done... but my crew seem to have gi
 
 <event name="FR_DISTRESS_WARZONE_GENERIC_REBEL">
 	<distressBeacon/>
-	<text>You are hailed by a Union ship fleeing from an MFK Ace. The Union ship hails you and begs you to help them.</text> 
+	<text>As soon as you land, you see a Union ship fleeing from an MFK Ace. The Union ship hails you and begs you to help them.</text> 
 	<choice hidden="true">
 		<text>Attack the MFK Ace!</text>
 		<event>
-			<text>The MFK Ace managed to land a shot on the Union shuttle right as their shields were down. You aren't sure if they survived but you can't check right now as the Rebel points their guns at you.</text>
+			<text>Before you can power your weapons, the MFK Ace manages to land a shot on the Union shuttle right as their shields were down from another volley. You aren't sure if they survived but you can't check right now as the Rebel points their guns at you.</text>
 			<ship load="FR_SHIP_WARZONE_DISTRESS_REBEL" hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -2663,11 +2664,11 @@ The crystal sighs. "I suppose what's done is done... but my crew seem to have gi
 
 <event name="FR_DISTRESS_WARZONE_GENERIC_COALITION">
 	<distressBeacon/>
-	<text>You are hailed by a Union ship fleeing from an R.U.E.S. The Union ship hail you and begs you to help them..</text> 
+	<text>As soon as you land, you see a Union ship fleeing from an R.U.E.S. The Union ship hails you and begs you to help them.</text> 
 	<choice hidden="true">
 		<text>Attack R.U.E.S.!</text>
 		<event>
-			<text>The R.U.E.S. managed to land a shot on the Union shuttle right as their shields were down. You aren't sure if they survived but you can't check right now as the Coalition ship points its guns at you.</text>
+			<text>Before you can power your weapons, R.U.E.S. manages to land a shot on the Union shuttle right as their shields were down from another volley. You aren't sure if they survived but you can't check right now as the Coalition ship points its guns at you.</text>
 			<ship load="FR_SHIP_WARZONE_DISTRESS_COALITION" hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -2713,11 +2714,11 @@ The crystal sighs. "I suppose what's done is done... but my crew seem to have gi
 
 <event name="FR_DISTRESS_WARZONE_GENERIC_PIRATE">
 	<distressBeacon/>
-	<text>You are hailed by a Union ship fleeing from an elite pirate. The Union ship hail you and begs you to help them.</text> 
+	<text>As soon as you land, you see a Union ship fleeing from an elite pirate. The Union ship hails you and begs you to help them.</text> 
 	<choice hidden="true">
 		<text>Attack Pirate!</text>
 		<event>
-			<text>The pirate managed to land a shot on the Union shuttle right as their shields were down. You aren't sure if they survived but you can't check right now as the pirate points their guns at you.</text>
+			<text>Before you can power your weapons, the pirate manages to land a shot on the Union shuttle right as their shields were down from another volley. You aren't sure if they survived but you can't check right now as the pirate points their guns at you.</text>
 			<ship load="FR_SHIP_WARZONE_DISTRESS_PIRATE" hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -2788,7 +2789,7 @@ The crystal sighs. "I suppose what's done is done... but my crew seem to have gi
 </eventList>
 
 <event name="FR_ELITE_WARZONE_COALITION_RUES">
-	<text>The R.U.E.S. are only ever seen near either top secret mission or around the Coalition's home base of operations, even seeing one is something now all renegades can say they have done. They are cunning, ruthless and most of all, viscious. Unfortunately one has detected your presence in this beacon and is charging towards you!</text> 
+	<text>The R.U.E.S. are only ever seen near either top secret mission or around the Coalition's home base of operations, even seeing one is something not all renegades can say they have done. They are cunning, ruthless and most of all, viscious. Unfortunately one has detected your presence in this beacon and is charging towards you!</text> 
 	<ship load="FR_SHIP_WARZONE_ELITE_COALITION_FIGHT" hostile="true"/>
 	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES</customFleet>
 	<choice hidden="true">
@@ -3411,18 +3412,18 @@ The crystal sighs. "I suppose what's done is done... but my crew seem to have gi
 	<preventQuest/>
 	<text>As soon as you arrive you notice a huge crowd of Federation ships stationed around a Unity station. As you cycle through the Federation Military bands, you find the one that all the ships seem to be using to communicate.
 		
-	There seems to be a meeting going on between a human soldier, a Defender Engi, a Peace-keeper Zoltan and what seems to be a high-ranking Federation official. The soldier is the first to speak. "You must be MAD, Lieutenant Kely! We don't have the equipment to fight off their elites! We would all be obliterated in seconds! Even if Luminus was able to gather a few of his Ministry friends to help us, a single MFK Ace would blast us back to the Stone Ages!"
+There seems to be a meeting going on between a human soldier, a Defender Engi, a Peace-keeper Zoltan and what seems to be a high-ranking Federation official. The soldier is the first to speak. "You must be MAD, Lieutenant Kely! We don't have the equipment to fight off their elites! We would all be obliterated in seconds! Even if Luminus was able to gather a few of his Ministry friends to help us, a single MFK Ace would blast us back to the Stone Ages!"
 
-	The Lieutenant sighs, her short faded green-dyed hair almost fully obscured by her helmet. "I understand your concerns, Officer Jan, but we are running out of options fast. This package is *essential*. We can't allow either the Rebels or the Coalition to get their hands on the full machine, no matter the cost." Her voice is tired but she maintains her resolve.
+The Lieutenant sighs, her short faded green-dyed hair almost fully obscured by her helmet. "I understand your concerns, Officer Jan, but we are running out of options fast. This package is *essential*. We can't allow either the Rebels or the Coalition to get their hands on the full machine, no matter the cost." Her voice is tired but she maintains her resolve.
 
-	The Defender engi speaks, their voice changing pitch every other sentence. "Affirmative. However, risk of failure exceeds safe parameters. Probability of total failure = almost guaranteed." The Peacekeeper groans. "Look, can we speed this up? If we are about to die anyways then we might as well just get it over with."</text> 
+The Defender engi speaks, their voice changing pitch every other sentence. "Affirmative. However, risk of failure exceeds safe parameters. Probability of total failure = almost guaranteed." The Peacekeeper groans. "Look, can we speed this up? If we are about to die anyways then we might as well just get it over with."</text> 
 	<ship load="FR_SHIP_WARZONE_STORE_STATION_FEDERATION" hostile="false"/>
 	<choice hidden="true">
 		<text>Offer to help.</text>
 		<event>
 			<text>Kely looks at you, clearly startled by your interjection. "Ah, you must be the Renegade we hired for this reality. I suppose you are better-equipped than any of us at the moment. Very well, I will send you the coordinates to the first piece. There are two in total; once you have both of them, you will need to deliver them to my superiors. Don't worry about the specifics; once you get the first piece, you will be directed to the other one."
 
-	The peace-keeper stares at you for a moment. "If you want to go on this mission then the least we can do is offer you something to help you fight off whatever foes you come across. We can't afford to give you everything but feel free to pick any of our offers."</text>
+The peace-keeper stares at you for a moment. "If you want to go on this mission then the least we can do is offer you something to help you fight off whatever foes you come across. We can't afford to give you everything but feel free to pick any of our offers."</text>
 			<choice>
 				<text>We need crew.</text>
 				<event>
@@ -3554,6 +3555,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 <event name="FR_QUEST_WARZONE_FEDERATION_GATLING_PART_1_WIN">
     <text>With the Rebel ship dealt with, you are free to secure the crate. As you bring it aboard your ship, you notice a place for you to insert your Federation ID into. After doing so, the crate verifies you as a member of the Federation and uploads the next set of coordinates into your ship's map system. You decide to open the crate, only to find what seems to be parts of a gun, one that seems to have a shallow resemblence to the Vulcan, just much bigger. It's currently unusable though, since the other half is necessary for the gun to actually fire.</text>
     <autoReward level="MED">standard_no_item</autoReward>
+	<variable name="fr_ach_boss_mfkcruiser" op="set" val="1"/>
 	<augment name="FR_UNITY_GATLING_PARTS_1"/>
 	<quest event="FR_QUEST_WARZONE_FEDERATION_GATLING_PART_2"/>
 </event>
@@ -3594,7 +3596,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 	</quest>
 	<text>You reach the coordinates for the second half of this strange weapon only to find another Unity ship, this time a battleship, intact but completely inert. You also see a massive R.U.E.S. cruiser, armed and ready to engage with you. However, instead of attacking right away, they hail you.
 
-	"Oh my goodnesssss! Issss that a little Federation sssship wanting to 'avenge' their dead friendssss?!" The Knight captain burst out laughing. "That'ssss the cutesssst thing I have sssseen all day! You are a funny persssson, Federation renegade. I like funny people. You can leave now, unlesssss you want to end up like your friendssss over there."</text> 
+"Oh my goodnesssss! Issss that a little Federation sssship wanting to 'avenge' their dead friendssss?!" The Knight captain burst out laughing. "That'ssss the cutesssst thing I have sssseen all day! You are a funny persssson, Federation renegade. I like funny people. You can leave now, unlesssss you want to end up like your friendssss over there."</text> 
 	<ship load="FR_SHIP_WARZONE_ELITE_COALITION_CRUISER" hostile="false"/>
 	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_RUES</customFleet>
 	<choice req="FR_UNITY_GATLING_PARTS_1" lvl="1" max_group="0" blue="false" hidden="true">
@@ -3617,7 +3619,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 		<event>
 			<text>"Noble warriors! This is your Queen speaking! I demand you vacate this beacon immediately!"
 				
-			The Knight captain freezes. This is the first time you have ever seen a Knight completely out of their element. "O-Of coursssse, Your Highnesssss! We will leave right away!" The captain does as ordered and jumps away, giving you free acess to the wreck.</text>
+The Knight captain freezes. This is the first time you have ever seen a Knight completely out of their element. "O-Of coursssse, Your Highnesssss! We will leave right away!" The captain does as ordered and jumps away, giving you free acess to the wreck.</text>
 			<instantEscape/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -3630,7 +3632,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 		<event>
 			<text>"Hey! SSSSoldier! Take your fancy sssship and get the hell out of here!"
 
-			The Knight captain freezes before nodding violently. "O-Of coursssse, Your Highnesssss! We will leave right away!" The captain does as ordered and jumps away, giving you free acess to the wreck.</text>
+The Knight captain freezes before nodding violently. "O-Of coursssse, Your Highnesssss! We will leave right away!" The captain does as ordered and jumps away, giving you free acess to the wreck.</text>
 			<instantEscape/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -3643,7 +3645,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 		<event>
 			<text>"Excuse me, but I'm Tyrdeo, the President of the Republic. I'm sure you are aware that the Coalition soldiers cannot threaten their leaders without severe consequences. If you were to leave, I would be willing to 'forget' this little event."
 
-			The Knight captain freezes before gulping and nodding slowly. "O-Of coursssse, Your Excellency. We will leave right away." The captain does as ordered and jumps away, giving you free acess to the wreck.</text>
+The Knight captain freezes before gulping and nodding slowly. "O-Of coursssse, Your Excellency. We will leave right away." The captain does as ordered and jumps away, giving you free acess to the wreck.</text>
 			<instantEscape/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -3712,9 +3714,9 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 	</quest>
 	<text>As you reach the Federation outpost given by the coordinates, you are shocked by what you see: a Unity Kestrel that has been somehow commandeered by pirates! Unity Kestrels are rare enough to see outside of Universe 0's mega shipyards, but to see one fall prey to unaffiliated  pirates is a once-in-a-lifetime event.
 
-	Unfortunately, it doesn't seem like the Kestrel is alone, as you can see a few pirate fleets attacking the few remaining Unity fleet ships. If you were to guess, another faction must have attacked this outpost before the pirates because there's no way unaffiliated pirates could overpower a well-defended Unity outpost.
+Unfortunately, it doesn't seem like the Kestrel is alone, as you can see a few pirate fleets attacking the few remaining Unity fleet ships. If you were to guess, another faction must have attacked this outpost before the pirates because there's no way unaffiliated pirates could overpower a well-defended Unity outpost.
 
-	You are hailed by the outpost's captain. "A Renegade? What are you doing here?" You explain to the captain of the outpost about your mission to deliver the weapon parts. She seems relieved once she finally realizes what you are talking about. "Oh thank the stars the gun didn't fall prey to the Rebels or the Coalition! Look, we will gladly let you keep the gun once it's repaired, but please help us first! We think the leader of this attack is in the Kestrel, since it's where most of the radio waves are coming from. Please take them out by whatever means necessary!"</text> 
+You are hailed by the outpost's captain. "A Renegade? What are you doing here?" You explain to the captain of the outpost about your mission to deliver the weapon parts. She seems relieved once she finally realizes what you are talking about. "Oh thank the stars the gun didn't fall prey to the Rebels or the Coalition! Look, we will gladly let you keep the gun once it's repaired, but please help us first! We think the leader of this attack is in the Kestrel, since it's where most of the radio waves are coming from. Please take them out by whatever means necessary!"</text> 
 	<ship load="FR_SHIP_WARZONE_PIRATE_ELITE_KESTREL_CRUISER" hostile="false"/>
 	<customFleet right="false" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_PIRATE</customFleet>
 	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_UNITY</customFleet>
@@ -3723,7 +3725,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 		<event>
 			<text>You are suddenly hailed by the Kestrel as you aproach it. On screen is a man who is likely the captain of the ship. "Ohohoho! Another challanger joins the ring, eh? Well if today isn't my lucky day! I always wanted to fight a Renagade! Now come! Let's battle this out, cruiser on cruiser!" 
 				
-			Before the battle can start, however, you see a Unity ship, a Peace-Keeping ship, a Federation ship, and a Harmony ship all arrive together. You are hailed by the Unity ship and on screen is Kely! "Renegade! Thank goodness you are OK! Our station was unfortunately destroyed by a fleet of MFK Aces, but we all managed to escape. We heard of a pirate attack and came here to try and help them but it seems our paths crossed once more. We will help defend the outpost; focus on fighting off the Kestrel!"</text>
+Before the battle can start, however, you see a Unity ship, a Peace-Keeping ship, a Federation ship, and a Harmony ship all arrive together. You are hailed by the Unity ship and on screen is Kely! "Renegade! Thank goodness you are OK! Our station was unfortunately destroyed by a fleet of MFK Aces, but we all managed to escape. We heard of a pirate attack and came here to try and help them but it seems our paths crossed once more. We will help defend the outpost; focus on fighting off the Kestrel!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -3736,7 +3738,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 		<event>
 			<text>"Hear me!... If you value... your lives... I suggest... you stand down... and leave this place! All of you!"
 				
-			There's silence on your comms for several seconds before the captain of the Kestrel replies, their voice shakey and unsure. "Oh... shit... Fellas! Everyone scram!" The comm systems erupt with the sounds of people panicking, and just like that every pirate has left the area without saying another word. You look at Purple Beard, who seems proud of what he has just done, for once.</text>
+There's silence on your comms for several seconds before the captain of the Kestrel replies, their voice shakey and unsure. "Oh... shit... Fellas! Everyone scram!" The comm systems erupt with the sounds of people panicking, and just like that every pirate has left the area without saying another word. You look at Purple Beard, who seems proud of what he has just done, for once.</text>
 			<instantEscape/>
 			<choice hidden="true">
 				<text>Continue...</text>
@@ -3753,7 +3755,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 <event name="FR_QUEST_WARZONE_FEDERATION_GATLING_PART_FINAL_WIN_PURPLE_BEARD">
 	<text>It doesn't take long for the last few remaining pirates to leave the scene. The few that stay to fight are quickly captured or eliminated.
 
-	You are hailed by the outpost. "Renegade! I-I can't believe my eyes! They all scattered! I thought most of them would have stayed and fought; they clearly had the numbers advantage! But I guess this shows that you can never fully predict what a pirate will do. We normally don't give this much away for good deeds, but I think you earned some extra special compensation today!"</text>
+You are hailed by the outpost. "Renegade! I-I can't believe my eyes! They all scattered! I thought most of them would have stayed and fought; they clearly had the numbers advantage! But I guess this shows that you can never fully predict what a pirate will do. We normally don't give this much away for good deeds, but I think you earned some extra special compensation today!"</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<removeHazards/>
 	<choice req="FR_UNITY_GATLING_PARTS_2" lvl="1" max_group="0" blue="false" hidden="true">
@@ -3761,7 +3763,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 		<event>
 			<text>"O-Oh! Right right right! Sorry, I almost forgot! Please, come inside our outpost! We will fix up that gun and, as a gesture of good will, you can keep it and use it as you see fit!" You dock your ship on the outpost alongside Kely and her friends. You two meet in the outpost and talk while your gun is assembled. Once it's finished, Kely herself offers to install the gun on your ship; apparently, she used to be a engineer before the war.
 
-			Once everything is setup, you bid farewell to the outpost and return to your ship. You have a feeling the word of your deeds here will spread far and wide.</text>
+Once everything is setup, you bid farewell to the outpost and return to your ship. You have a feeling the word of your deeds here will spread far and wide.</text>
 			<weapon name="FR_LOOT_ELITE_FEDERATION_3"/>
 			<removeItem>FR_UNITY_GATLING_PARTS_2</removeItem>
 			<event load="FR_MORALITY_REMOVE_GENERAL_DOUBLE"/>
@@ -3776,15 +3778,16 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 <event name="FR_QUEST_WARZONE_FEDERATION_GATLING_PART_FINAL_WIN">
 	<text>As soon as the Kestrel falls, all the pirate ships suddenly stop for a few seconds. For a moment you worry that they will try to avenge their leader, but thankfully instead they all scatter, problably seeing the way the fight is going to end.
 
-	You are hailed by the outpost. "Renegade! I-I can't believe my eyes! They all scattered! I mean, I thought they would be easier to defeat without their leader but I wouldn't have ever guessed that they would disband on the spot! Shows you that you can never trust a pirate to have your back. We normally don't give this much away for good deeds, but I think you earned some extra special compensation today!"</text>
+You are hailed by the outpost. "Renegade! I-I can't believe my eyes! They all scattered! I mean, I thought they would be easier to defeat without their leader but I wouldn't have ever guessed that they would disband on the spot! Shows you that you can never trust a pirate to have your back. We normally don't give this much away for good deeds, but I think you earned some extra special compensation today!"</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<removeHazards/>
+	<variable name="fr_ach_boss_piratekestrel" op="set" val="1"/>
 	<choice req="FR_UNITY_GATLING_PARTS_2" lvl="1" max_group="0" blue="false" hidden="true">
 		<text>We were glad to help, what about the gun though?</text>
 		<event>
 			<text>"O-Oh! Right right right! Sorry, I almost forgot! Please, come inside our outpost! We will fix up that gun and, as a gesture of good will, you can keep it and use it as you see fit!" You dock your ship on the outpost alongside Kely and her friends. You two meet in the outpost and talk while your gun is assembled. Once it's finished, Kely herself offers to install the gun on your ship; apparently, she used to be a engineer before the war.
 
-			Once everything is setup, you bid farewell to the outpost and return to your ship. You have a feeling the word of your deeds here will spread far and wide.</text>
+Once everything is setup, you bid farewell to the outpost and return to your ship. You have a feeling the word of your deeds here will spread far and wide.</text>
 			<weapon name="FR_LOOT_ELITE_FEDERATION_3"/>
 			<removeItem>FR_UNITY_GATLING_PARTS_2</removeItem>
 			<event load="FR_MORALITY_REMOVE_GENERAL_DOUBLE"/>
@@ -3829,7 +3832,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 	<preventQuest/>
 	<text>It seems you aren't alone on this beacon, as an MFK Ace ship is parked close by. Strangely, their weapons remain offline though they seem to spot you. Instead of a fight, they hail you. "Renegade! I'm so glad you were the one that found me and not some Coalition dog or strict Federation soldier. Look, let's not waste your time here and get straight to the point. I do not want to be here and fight this endless war for someone I've never met nor care about. I want O U T, do you get me? We saw a few MFK Ace pirates when fighting around in this sector, and we believe that a pirate's life might be just what we need."
 
-	The rebel clears their throat before speaking again. "This ship and crew... well, they became my new home after we left Universe 1, and I can't bear to leave them behind. So I've been scouting ahead, asking the right people the right questions, and I found a particular beacon that doesn't have any Rebel presence on it. If you could bring us there undetected then we can find a way to exit this sector without command even realizing we were gone. We won't need all the guns we got from the ships we destroyed here once we are free, so we plan to compensate you really well once this is over. So... what do you say, renegade?"</text> 
+The rebel clears their throat before speaking again. "This ship and crew... well, they became my new home after we left Universe 1, and I can't bear to leave them behind. So I've been scouting ahead, asking the right people the right questions, and I found a particular beacon that doesn't have any Rebel presence on it. If you could bring us there undetected then we can find a way to exit this sector without command even realizing we were gone. We won't need all the guns we got from the ships we destroyed here once we are free, so we plan to compensate you really well once this is over. So... what do you say, renegade?"</text> 
 	<ship load="FR_SHIP_WARZONE_SELITE_REBEL_ESCAPE" hostile="false"/>
 	<choice hidden="true">
 		<text>Offer to help them.</text>
@@ -3942,7 +3945,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 		<event>
 			<text>"Brave Federation soldier! This Rebel ship is one of our best spies! Power down your weapons and allow them to leave the area!"
 				
-			The Unity captain is a bit confused at first but quickly grins and nods. "Ooooh I see what you mean! Great plan, Admiral! We will go back to kicking some Rebel ass. You do whatever you feel like you have to, we won't get on your way!"</text>
+The Unity captain is a bit confused at first but quickly grins and nods. "Ooooh I see what you mean! Great plan, Admiral! We will go back to kicking some Rebel ass. You do whatever you feel like you have to, we won't get on your way!"</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
@@ -4013,7 +4016,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 	<preventQuest/>
 	<text>You wonder why there's a singular beacon in the whole sector that's inside an out-of-place nebula. According to your database, this sector wasn't meant to even have any nebula-covered beacons. You start exploring this strange place when you see an even stranger R.U.E.S. ship in the distance. The nebula is too thick to make out any details but the silhouette isn't one from a ship you recognise.
 
-	You approach the ship to get a better look at it, but before you can hail it, the ship seems to notice you and starts backing away. It isn't long before its FTL drive starts charging.</text> 
+You approach the ship to get a better look at it, but before you can hail it, the ship seems to notice you and starts backing away. It isn't long before its FTL drive starts charging.</text> 
 	<environment type="nebula"/>
 	<ship load="FR_SHIP_WARZONE_ELITE_COALITION_CEALAFORMER" hostile="false"/>
 	<choice hidden="true">
@@ -4129,7 +4132,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 		<event>
 			<text>Inside the cargo bay you find 3 pedestals, one with a powerful looking gun, one with a extremely advanced looking drone, and another with some kind of augment installer that looks advanced beyond anything you have ever seen before.
 
-			At first you think you can take all 3, but right before you take the gun you see a few lasers protecting it and the other three pedestals. You can take one for sure, but the other two will at best be locked out of your reach or at worst be destroyed.</text>
+At first you think you can take all 3, but right before you take the gun you see a few lasers protecting it and the other three pedestals. You can take one for sure, but the other two will at best be locked out of your reach or at worst be destroyed.</text>
 			<choice>
 				<text>Take the gun!</text>
 				<event>
@@ -4317,7 +4320,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 	<choice hidden="true">
 		<text>Prepare for combat!</text>
 		<event>
-			<text>The ship hails you. A Saboteur appears on screen and chuckles. "Come on, Renegade, did you really think this ship was all we had on this beacon?" The slug snickers and then grins. "Oh nonono, in fact, I guess you can say you've fallen into out little... trap." the slug bursts out laughing as your boarder alarms blare! You also detect more teleporter signatures flaring up on the nearby moon; they must be using the R.U.E.S. ship as a way to track your ship's location!</text>
+			<text>The ship hails you. A Saboteur appears on screen and chuckles. "Come on, Renegade, did you really think this ship was all we had on this beacon?" The slug snickers and then grins. "Oh nonono, in fact, I guess you can say you've fallen into our little... trap." the slug bursts out laughing as your boarder alarms blare! You also detect more teleporter signatures flaring up on the nearby moon; they must be using the R.U.E.S. ship as a way to track your ship's location!</text>
 			<boarders min="2" max="2" class="FR_SHOP_LIST_CREW_COALITION_ELITE"/>
 			<triggeredEvent name="FR_WARZONE_COALITION_BOARDING_WAVE_LOOP" event="FR_WARZONE_COALITION_BOARDING_WAVE" time="60" thisFight="true" clearOnJump="true" loops="999">
 				<triggeredEventBox load="DEFAULT_SMALL">
@@ -4558,7 +4561,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 		<event>
 			<text>"Good. See? Wasn't this so much easier than fighting?" The pirate captain chuckles, but doesn't cut the feed. He grins and turns to his second in command to the right of him. "Say, Joie, what if we used some of that good old pirate freedom that we have been promised when we defacted?" You can't see the other pirate but you can hear them chuckling loudly.
 
-			"Sorry, little Feddy buddy, but it seems your scrap isn't enough. No, we want something a lot more valuable than that... how about your ship and crew?" The pirate smirks and powers on their weapons! You might be able to recover your wasted goods if you kill them.</text>
+"Sorry, little Feddy buddy, but it seems your scrap isn't enough. No, we want something a lot more valuable than that... how about your ship and crew?" The pirate smirks and powers on their weapons! You might be able to recover your wasted goods if you kill them.</text>
 			<item_modify>
 				<item type="scrap" min="-50" max="-50"/>
 				<item type="missiles" min="-10" max="-6"/>
@@ -4857,7 +4860,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 	<deadCrew>
 		<text>Before the last soldier falls, they send out one last encrypted command to their ship's systems. Your crew quickly evacuates, thinking it was a self destruct command, but nothing happens. 
 			
-		Once you feel safe enough to return and explore the ship, you realize what the command did: it wiped out every single storage system in the ship completely clean. Seems like this mystery will live on for now.</text>
+Once you feel safe enough to return and explore the ship, you realize what the command did: it wiped out every single storage system in the ship completely clean. Seems like this mystery will live on for now.</text>
 		<autoReward level="HIGH">standard_no_item</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -4881,7 +4884,7 @@ They hail you. "Hah! I was told some Federation clown would come and try stop us
 				<event>
 					<text>Your commander is hesitant at first, but soon agrees to help you. However, they refuse to decrypt the message to you, only telling you what the message was about. It seems this is an Assault vessel built specifically to track rogue Renegades like you. After a lot of persuasion, they agree to ask for the other vessel back down from the fight.
 
-					"Bird of Prey, this is Nested Owl. The Eagle is hunting its own. I repeat, the Eagle is hunting its own. Over."</text>
+"Bird of Prey, this is Nested Owl. The Eagle is hunting its own. I repeat, the Eagle is hunting its own. Over."</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>

@@ -27,16 +27,6 @@ function(ShipManager, AugName, AugValue)
   return Defines.Chain.CONTINUE, AugValue
 end)
 
-script.on_internal_event(Defines.InternalEvents.GET_AUGMENTATION_VALUE,
-function(ShipManager, AugName, AugValue)
-  if AugName == "SLUG_GEL" and ShipManager:HasAugmentation("FR_GHOSTLY_REPAIR_BOTS") > 0 then
-    local powerBars = ShipManager:GetSystemPower(4)
-    local RepairSpeed = (powerBars * ShipManager:GetAugmentationValue("FR_GHOSTLY_REPAIR_BOTS"))
-    AugValue = AugValue + RepairSpeed
-  end
-  return Defines.Chain.CONTINUE, AugValue
-end)
-
 -- Double ion
 
 local function fr_weapon_ionize(ship, _, projectile)

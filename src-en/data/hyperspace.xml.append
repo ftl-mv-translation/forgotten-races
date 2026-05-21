@@ -11,7 +11,7 @@
 -->
 
 <mod:findLike type="version">
-    <mod:setValue>^1.17.1</mod:setValue>
+    <mod:setValue>^1.21.0</mod:setValue>
 </mod:findLike>
 
 <!--
@@ -104,6 +104,11 @@
 <mod:findLike type="ships" limit="1">
   <mod:findLike type="shipIcons" limit="1">
 	<mod-append:shipIcon>
+        <name>icon_ancient_dna</name>
+        <tooltip>ANCIENT CYBERNETICS:
+This enemy's non-mechanical crew gain an extra 50% resistance to fire and suffocation, and +33% Max Health. However, the foreign implants also slow the passive healing speed of affected crew by 33%.</tooltip>
+    </mod-append:shipIcon>
+	<mod-append:shipIcon>
         <name>icon_fr_cabal_room</name>
         <tooltip>CABAL ROOMS:
 This enemy has one or more Cabal rooms, marked by the unique pink symbols and C icon in the top left. Cabal rooms will take no hull damage from weapons. Fires and breaches in the rooms will also be instantly fixed. Cabal rooms will take system damage as normal.</tooltip>
@@ -187,11 +192,6 @@ This enemy has one or more cursed rooms, marked by the pink border. Cursed rooms
 		<tooltip>CORRUPTED ROOMS:
 This enemy has one or more corrupted rooms, marked by rapidly flashing colors. Corrupted rooms are immune to system and ion damage, are sabotaged at a tenth of the normal speed, and deal 100 hp/s in damage to your crew. Enemy crew are healed for 100 hp/s in these rooms.</tooltip>
 	</mod-append:shipIcon>
-	<mod-append:shipIcon>
-        <name>icon_breach_sealant</name>
-        <tooltip>BREACH SEALANT:
-Breaches on the enemy ship will automatically be repaired even in the absence of crew.</tooltip>
-    </mod-append:shipIcon>
 	<mod-append:shipIcon>
         <name>icon_ancient_weapon_pre_igniter</name>
         <tooltip>ANCIENT HYPER-IGNITER:
@@ -527,7 +527,7 @@ Stacks upon already existing death effects.</tooltip>
 
 <bossShip>FR_BOSS_QUEST_SELITE_REBEL_CRUISER</bossShip>
 <bossShip>FR_BOSS_QUEST_ELITE_COALITION_CRUISER</bossShip>
-<bossShip>FR_BOSS_QUEST_PIRATE_ELITE_KESTREL_CRUISER</bossShip>
+<bossShip yOffset="50">FR_BOSS_QUEST_PIRATE_ELITE_KESTREL_CRUISER</bossShip>
 
 <bossShip>FR_BOSS_QUEST_ELITE_COALITION_CEALAFORMER</bossShip>
 
@@ -2625,6 +2625,9 @@ Stacks upon already existing death effects.</tooltip>
 	<category type="AUGMENTS">
 		<item>
 			<blueprint>FR_EGGMANS_VIRUS</blueprint>
+		</item>
+		<item>
+			<blueprint>FR_TELEPORT_RECALL</blueprint>
 		</item>
 	</category>
 	<category type="DRONES">
@@ -6035,7 +6038,8 @@ Stacks upon already existing death effects.</tooltip>
 	<canPhaseThroughDoors>true</canPhaseThroughDoors>
 	<sabotageSpeedMultiplier>4</sabotageSpeedMultiplier>
 	<rangedDamageMultiplier>0.30</rangedDamageMultiplier>
-	<animBase>mantis</animBase>
+	<animBase>human</animBase>
+	<shootTimer min="100" max="150"/>
 	<deathSounds>
 		<deathSound>shrikeDeath</deathSound>
 	</deathSounds>
@@ -10780,6 +10784,8 @@ Stacks upon already existing death effects.</tooltip>
 		<hasCustomDeathAnimation>true</hasCustomDeathAnimation>
 		<hasDeathExplosion>true</hasDeathExplosion>
 		<stunMultiplier>0.25</stunMultiplier>
+		<animBase>human</animBase>
+		<shootTimer min="100" max="150"/>
 		<shootingSounds>
 			<shootingSound>nothing</shootingSound>
 		</shootingSounds>
@@ -11169,6 +11175,62 @@ Stacks upon already existing death effects.</tooltip>
 		<deathSound>sysExplosion</deathSound>
 	</deathSounds>
 </mod-append:race>
+<mod-append:race name="fr_eldritch_spawn_enemy">
+	<controllable>true</controllable>
+	<animSheet>fr_eldritch_spawn</animSheet>
+	<selectable>true</selectable>
+	<allDamageTakenMultiplier>0.2</allDamageTakenMultiplier>
+	<maxHealth>400</maxHealth>
+	<animBase>rock</animBase>
+	<canFight>true</canFight>
+	<noClone>true</noClone>
+	<noSlot>true</noSlot>
+	<canSabotage>true</canSabotage>
+	<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+	<repairSpeed>3.0</repairSpeed>
+	<damageMultiplier>1.5</damageMultiplier>
+	<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+	<canRepair>true</canRepair>
+	<canBurn>false</canBurn>
+	<canSuffocate>false</canSuffocate>
+	<canMan>false</canMan>
+	<resistsMindControl>true</resistsMindControl>
+	<stunMultiplier>0</stunMultiplier> 
+	<repairSpeed>3.0</repairSpeed>
+	<droneAI>
+		<fightAI/>
+		<repairAI/>
+		<returnToDroneRoom/>
+	</droneAI>
+</mod-append:race>
+<mod-append:race name="fr_eldritch_spawn">
+	<controllable>true</controllable>
+	<selectable>true</selectable>
+	<allDamageTakenMultiplier>0</allDamageTakenMultiplier>
+	<maxHealth>400</maxHealth>
+	<noClone>true</noClone>
+	<noSlot>true</noSlot>
+	<animBase>rock</animBase>
+	<canFight>true</canFight>
+	<canSabotage>true</canSabotage>
+	<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+	<repairSpeed>3.0</repairSpeed>
+	<damageMultiplier>1.5</damageMultiplier>
+	<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+	<canRepair>true</canRepair>
+	<canBurn>false</canBurn>
+	<canSuffocate>false</canSuffocate>
+	<canMan>false</canMan>
+	<resistsMindControl>true</resistsMindControl>
+	<stunMultiplier>0</stunMultiplier> 
+	<repairSpeed>3.0</repairSpeed>
+	<canPhaseThroughDoors>true</canPhaseThroughDoors>
+	<droneAI>
+		<fightAI/>
+		<repairAI/>
+		<returnToDroneRoom/>
+	</droneAI>
+</mod-append:race>
 </mod:findLike>
 
 <!-- APPENDED RACES-->
@@ -11321,6 +11383,7 @@ Stacks upon already existing death effects.</tooltip>
 		</mod:findLike>
 	</mod:findLike>
 </mod:findName>
+
 
 
 <mod:findName type="race" name="unique_freddy">
@@ -11577,12 +11640,20 @@ Stacks upon already existing death effects.</tooltip>
 </mod:findLike>
 
 <mod:findLike type="drones" limit="1">
+	<mod-append:drone name="FR_SPAWN_ENEMY">
+		<crewBlueprint>fr_eldritch_spawn_enemy</crewBlueprint>
+		<tooltipName>Eldritch Spawn</tooltipName>
+	</mod-append:drone>
+	<mod-append:drone name="FR_SPAWN_ENEMY_REPAIR">
+		<crewBlueprint>fr_eldritch_spawn_enemy</crewBlueprint>
+		<tooltipName>Eldritch Spawn</tooltipName>
+	</mod-append:drone>
 	<mod-append:drone name="FR_SPAWN_BATTLE">
-		<crewBlueprint>eldritch_spawn</crewBlueprint>
+		<crewBlueprint>fr_eldritch_spawn</crewBlueprint>
 		<tooltipName>Eldritch Spawn</tooltipName>
 	</mod-append:drone>
 	<mod-append:drone name="FR_SPAWN_BOARDER">
-		<crewBlueprint>eldritch_spawn</crewBlueprint>
+		<crewBlueprint>fr_eldritch_spawn</crewBlueprint>
 		<tooltipName>Eldritch Spawn</tooltipName>
 	</mod-append:drone>
 	<mod-append:drone name="FR_ATOMC_DEFEND">
@@ -15491,6 +15562,105 @@ Stacks upon already existing death effects.</tooltip>
 				<blueprintList load="FR_LIST_CREW_THINGS"/>
 			</whiteList>
 		</statBoost>
+		<statBoost name="statBoost">
+			<statBoost name="trueHealAmount">
+				<boostType>FLAT</boostType>
+				<amount>-5</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<droneTarget>CREW</droneTarget>
+				<whiteList>
+					<blueprintList load="FR_ROBOTIC_CREW"/>
+				</whiteList>
+			</statBoost>
+			<shipTarget>CURRENT_ROOM</shipTarget>
+			<crewTarget>ALLIES</crewTarget>
+			<droneTarget>CREW</droneTarget>
+			<whiteList>
+				<blueprintList load="LIST_CREW_LANIUS"/>
+			</whiteList>
+		</statBoost>
+		<statBoost name="statBoost">
+			<statBoost name="trueHealAmount">
+				<boostType>FLAT</boostType>
+				<amount>10</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ENEMIES</crewTarget>
+				<droneTarget>CREW</droneTarget>
+				<whiteList>
+					<blueprintList load="LIST_CREW_LANIUS"/>
+				</whiteList>
+			</statBoost>
+			<shipTarget>CURRENT_ROOM</shipTarget>
+			<crewTarget>ENEMIES</crewTarget>
+			<droneTarget>CREW</droneTarget>
+			<whiteList>
+				<blueprintList load="FR_ROBOTIC_CREW"/>
+			</whiteList>
+		</statBoost>
+		<statBoost name="statBoost">
+			<statBoost name="trueHealAmount">
+				<boostType>FLAT</boostType>
+				<amount>10</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<droneTarget>CREW</droneTarget>
+				<whiteList>
+					<blueprintList load="LIST_CREW_LANIUS"/>
+				</whiteList>
+			</statBoost>
+			<shipTarget>CURRENT_ROOM</shipTarget>
+			<crewTarget>ALLIES</crewTarget>
+			<droneTarget>CREW</droneTarget>
+			<whiteList>
+				<blueprintList load="FR_ROBOTIC_CREW"/>
+			</whiteList>
+		</statBoost>
+		<statBoost name="statBoost">
+			<statBoost name="trueHealAmount">
+				<boostType>FLAT</boostType>
+				<amount>-5</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALL</crewTarget>
+				<droneTarget>DRONES</droneTarget>
+			</statBoost>
+			<shipTarget>CURRENT_ROOM</shipTarget>
+			<crewTarget>ALLIES</crewTarget>
+			<droneTarget>CREW</droneTarget>
+			<whiteList>
+				<blueprintList load="LIST_CREW_LANIUS"/>
+			</whiteList>
+		</statBoost>
+		<statBoost name="statBoost">
+			<statBoost name="trueHealAmount">
+				<boostType>FLAT</boostType>
+				<amount>10</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ENEMIES</crewTarget>
+				<droneTarget>CREW</droneTarget>
+				<whiteList>
+					<blueprintList load="LIST_CREW_LANIUS"/>
+				</whiteList>
+			</statBoost>
+			<shipTarget>CURRENT_ROOM</shipTarget>
+			<crewTarget>ENEMIES</crewTarget>
+			<droneTarget>DRONES</droneTarget>
+		</statBoost>
+		<statBoost name="statBoost">
+			<statBoost name="trueHealAmount">
+				<boostType>FLAT</boostType>
+				<amount>10</amount>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<droneTarget>CREW</droneTarget>
+				<whiteList>
+					<blueprintList load="LIST_CREW_LANIUS"/>
+				</whiteList>
+			</statBoost>
+			<shipTarget>CURRENT_ROOM</shipTarget>
+			<crewTarget>ALLIES</crewTarget>
+			<droneTarget>DRONES</droneTarget>
+		</statBoost>
 	</statBoosts>
 	<locked/>
 </mod-append:aug>
@@ -15816,7 +15986,7 @@ Stacks upon already existing death effects.</tooltip>
 		<statBoost name="statBoost">
 			<statBoost name="maxHealth">
 				<boostType>FLAT</boostType>
-				<amount>20</amount>
+				<amount>25</amount>
 				<shipTarget>ALL</shipTarget>
 				<crewTarget>ALLIES</crewTarget>
 				<droneTarget>CREW</droneTarget>
@@ -15830,7 +16000,7 @@ Stacks upon already existing death effects.</tooltip>
 		<statBoost name="statBoost">
 			<statBoost name="maxHealth">
 				<boostType>FLAT</boostType>
-				<amount>20</amount>
+				<amount>25</amount>
 				<shipTarget>ALL</shipTarget>
 				<crewTarget>ALLIES</crewTarget>
 				<droneTarget>CREW</droneTarget>
@@ -16319,11 +16489,16 @@ Stacks upon already existing death effects.</tooltip>
 	<locked/>
 </mod-append:aug>
 
+<mod-append:aug name="FR_TELEPORT_RECALL">
+	<function name="TELEPORT_RECALL" value="1" useForReqs="true" warning="false"/>
+</mod-append:aug>
+
 <mod-append:aug name="FR_SOUL_STEALER">
 	<locked/>
 </mod-append:aug>
 
 <mod-append:aug name="FR_GHOSTLY_REPAIR_BOTS">
+	<function name="SLUG_GEL" value="2" useForReqs="true" warning="false"/>
 	<locked/>
 	<icon>icon_fr_ghostly_repair_bots</icon>
 </mod-append:aug>
@@ -17050,7 +17225,7 @@ Stacks upon already existing death effects.</tooltip>
 	<statBoosts>  
 		<statBoost name="maxHealth">
 			<boostType>SET</boostType>
-			<value>10</value>
+			<amount>10</amount>
 			<shipTarget>ALL</shipTarget>
 			<crewTarget>ALLIES</crewTarget>
 			<droneTarget>CREW</droneTarget>
@@ -24434,6 +24609,9 @@ Stacks upon already existing death effects.</tooltip>
 	            <mod-append:fr_ghostly_drone />
 	            <mod-append:fr_atomw />
 	            <mod-append:fr_atomc />
+	            <mod-append:eldritch_spawn />
+	            <mod-append:fr_eldritch_spawn />
+	            <mod-append:fr_eldritch_spawn_enemy />
             </mod:findLike>
         </mod:findName>
         <mod:findName type="statBoost" name="damageMultiplier">
@@ -24452,6 +24630,9 @@ Stacks upon already existing death effects.</tooltip>
 	            <mod-append:fr_ghostly_drone />
 	            <mod-append:fr_atomw />
 	            <mod-append:fr_atomc />
+	            <mod-append:eldritch_spawn />
+	            <mod-append:fr_eldritch_spawn />
+	            <mod-append:fr_eldritch_spawn_enemy />
             </mod:findLike>
         </mod:findName>
         <mod:findName type="statBoost" name="sabotageSpeedMultiplier">
@@ -24470,6 +24651,9 @@ Stacks upon already existing death effects.</tooltip>
 	            <mod-append:fr_ghostly_drone />
 	            <mod-append:fr_atomw />
 	            <mod-append:fr_atomc />
+	            <mod-append:eldritch_spawn />
+	            <mod-append:fr_eldritch_spawn />
+	            <mod-append:fr_eldritch_spawn_enemy />
             </mod:findLike>
         </mod:findName>
         <mod:findName type="statBoost" name="repairSpeed">
@@ -24488,6 +24672,9 @@ Stacks upon already existing death effects.</tooltip>
 	            <mod-append:fr_ghostly_drone />
 	            <mod-append:fr_atomw />
 	            <mod-append:fr_atomc />
+	            <mod-append:eldritch_spawn />
+	            <mod-append:fr_eldritch_spawn />
+	            <mod-append:fr_eldritch_spawn_enemy />
             </mod:findLike>
         </mod:findName>
         <mod:findName type="statBoost" name="moveSpeedMultiplier">
@@ -24506,6 +24693,9 @@ Stacks upon already existing death effects.</tooltip>
 	            <mod-append:fr_ghostly_drone />
 	            <mod-append:fr_atomw />
 	            <mod-append:fr_atomc />
+	            <mod-append:eldritch_spawn />
+	            <mod-append:fr_eldritch_spawn />
+	            <mod-append:fr_eldritch_spawn_enemy />
             </mod:findLike>
         </mod:findName>
     </mod:findLike>
@@ -28125,6 +28315,7 @@ Stacks upon already existing death effects.</tooltip>
 		<hiddenAug>FR_SHIP_CHARROR</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>8</crewLimit>
+		<systemLimit>10</systemLimit>
 		<crew>
 			<fr_reformed_charror room="0" name="Charror"/> <!--piloting-->
 			<engi_defender room="15"/> <!--engines-->
@@ -29126,9 +29317,11 @@ Stacks upon already existing death effects.</tooltip>
 	<shipIcons>
 		<shipIcon>icon_threat</shipIcon>
 		<shipIcon>icon_invasion</shipIcon>
+		<shipIcon>icon_ancient_dna</shipIcon>
 	</shipIcons>
 	<noFuelStalemate/>
 	<hiddenAug>UPG_TECH_BYPASS</hiddenAug>
+	<hiddenAug>ANCIENT_DNA</hiddenAug>
 	<crew>
 		<leech_ampere room="22" /> <!--engines-->
 		<rock_paladin room="11" /> <!--weapons-->
@@ -29943,7 +30136,7 @@ Stacks upon already existing death effects.</tooltip>
 	<shipIcons>
 		<shipIcon>icon_threat</shipIcon>
 		<shipIcon>icon_no2</shipIcon>
-		<shipIcon>icon_breach_sealant</shipIcon>
+		<shipIcon>icon_sealant</shipIcon>
 	</shipIcons>
 	<crew>
 		<fr_gozer room="8" name="Goziodeon"/> <!--teleporter-->
@@ -31333,6 +31526,10 @@ Stacks upon already existing death effects.</tooltip>
 <variable name="fr_ach_trans_commonwealth" op="set" val="0" />
 <variable name="fr_ach_trans_warzone" op="set" val="0" />
 
+<variable name="fr_ach_boss_mfkcruiser" op="set" val="0" />
+<variable name="fr_ach_boss_piratekestrel" op="set" val="0" />
+<variable name="fr_ach_boss_ruesflagship" op="set" val="0" />
+
 <metaVariable name="fish_obtained_FR_TARTARUS" op="set" val="0"/>
 
 <variable name="fr_addon_installed_check_forgotten_races" op="set" val="1"/>
@@ -31858,38 +32055,6 @@ Stacks upon already existing death effects.</tooltip>
 	<name>unique_kaz</name>
 </req>
 
-<!--metal crew-->
-
-<req name="FR_METALOID_CREW" type="any">
-	<name>LIST_CREW_LANIUS</name>
-	<name>LIST_CREW_METAL</name>
-	<name>FR_LIST_DRONE_CREW</name>
-	<name>FR_BLUELIST_OPERATORS</name>
-	<name>FR_LIST_CREW_DIAMOND</name>
-</req>
-
-<!--metal crew-->
-
-<req name="FR_ROBOTIC_CREW" type="any">
-	<name>LIST_CREW_METAL</name>
-	<name>FR_LIST_DRONE_CREW</name>
-	<name>FR_BLUELIST_OPERATORS</name>
-	<name>FR_LIST_CREW_DIAMOND</name>
-</req>
-
-<!--metal crew no charror-->
-
-<req name="FR_ROBOTIC_CREW_NO_CHARROR" type="all">
-	<req type="any">
-		<name>LIST_CREW_METAL</name>
-		<name>FR_LIST_DRONE_CREW</name>
-		<name>FR_BLUELIST_OPERATORS</name>
-		<name>FR_LIST_CREW_DIAMOND</name>
-	</req>
-	<req lvl="0" max_lvl="0">
-		<name>fr_reformed_charror</name>
-	</req>
-</req>
 
 <!--auto daisy stuff-->
 
