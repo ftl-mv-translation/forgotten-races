@@ -4119,12 +4119,12 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac\"]/powerList/power[2]"
 msgstr ""
-"0.5x combat and sabotage damage, 200 Max Health, mind control immunity."
+"0.8x combat and sabotage damage, 200 Max Health, mind control immunity."
 
 #: src-en/data/blueprints.xml.append:1808
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac\"]/powerList/power[3]"
-msgstr "For each Tririac on screen, their abilities will recharge 25% slower."
+msgstr "For each Tririac on screen, their their damage is reduced by 10%."
 
 #: src-en/data/blueprints.xml.append:1809
 msgid ""
@@ -6371,6 +6371,7 @@ msgstr ""
 "A mysterious creature birthed from the mind of an eldritch power.\n"
 "    \n"
 "-Cannot be damaged, stunned or mind controlled. Destroying Drone Control will repel it.\n"
+"-3x repair speed. 0.5x movement speed. 1.5x crew damage and sabotage speed.\n"
 "-Technopaths can't copy its eldritch systems."
 
 #: src-en/data/blueprints.xml.append:6384
@@ -6390,6 +6391,7 @@ msgstr ""
 "A mysterious creature birthed from the mind of an eldritch power.\n"
 "    \n"
 "-Cannot be damaged, stunned or mind controlled. Destroying Drone Control will repel it.\n"
+"-3x repair speed. 0.5x movement speed. 1.5x crew damage and sabotage speed.\n"
 "-Technopaths can't copy its eldritch systems."
 
 #: src-en/data/blueprints.xml.append:6403
@@ -8502,7 +8504,7 @@ msgstr "Heavy Artillery"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_HEAVY_LASER\"]/desc"
 msgstr ""
-"[Base cooldown: 35] Fires a barrage of 2 lasers that do 2 system and hull "
+"[Base cooldown: 35] Fires a barrage of 3 lasers that do 2 system and hull "
 "damage and 45 crew damage. Stuns crew for 6 seconds on hit. 20% fire and "
 "breach chance."
 
@@ -8510,7 +8512,7 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_HEAVY_LASER\"]/tooltip"
 msgstr ""
-"Artillery: Fires a barrage of 2 lasers that do 2 system and hull damage and "
+"Artillery: Fires a barrage of 3 lasers that do 2 system and hull damage and "
 "45 crew damage. Stuns crew for 6 seconds on hit. 20% fire and breach chance."
 
 #: src-en/data/blueprints.xml.append:10651
@@ -8553,14 +8555,14 @@ msgstr "Energy Artillery"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ENERGY\"]/desc"
 msgstr ""
-"[Base cooldown: 30] Fires a single energy blast that deals 2 hull and ion "
+"[Base cooldown: 30] Fires a single energy blast that deals 3 hull and ion "
 "damage. Hullbuster. 60% fire chance."
 
 #: src-en/data/blueprints.xml.append:10680
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ENERGY\"]/tooltip"
 msgstr ""
-"Artillery: Fires a single energy blast that deals 2 hull and ion damage. "
+"Artillery: Fires a single energy blast that deals 3 hull and ion damage. "
 "Hullbuster. 60% fire chance."
 
 #: src-en/data/blueprints.xml.append:10723
@@ -8656,7 +8658,7 @@ msgstr "'Corseque' Artillery"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_BEAM\"]/desc"
 msgstr ""
-"[Base cooldown: 34/28/22/16] Fires a beam that deals 2 damage and chains its"
+"[Base cooldown: 39/33/27/21] Fires a beam that deals 2 damage and chains its"
 " cooldown 3 times. Beam length of 110 and speed of 15. 20% breach chance."
 
 #: src-en/data/blueprints.xml.append:10845
@@ -8680,7 +8682,7 @@ msgstr "C. Flak Artillery"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_FLAK\"]/desc"
 msgstr ""
-"[Base cooldown: 41/34/27/20] Fires a burst of 10 flak projectiles that deals"
+"[Base cooldown: 45/38/31/24] Fires a burst of 10 flak projectiles that deals"
 " 1 damage and chains its cooldown 3 times. 20% breach chance."
 
 #: src-en/data/blueprints.xml.append:10875
@@ -8704,7 +8706,7 @@ msgstr "C. Energy Artillery"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_ENERGY\"]/desc"
 msgstr ""
-"[Base cooldown: 30/23/16/9] Fires two energy blasts that deals 1 hull and "
+"[Base cooldown: 35/28/21/14] Fires two energy blasts that deals 1 hull and "
 "ion damage and chains its cooldown 3 times. 30% fire chance."
 
 #: src-en/data/blueprints.xml.append:10924
@@ -8728,7 +8730,7 @@ msgstr "€ Heavy Artillery"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ELITE_HEAVY_LASER\"]/desc"
 msgstr ""
-"[Base cooldown: 30] Fires a barrage of 3 lasers that do 2 system and hull "
+"[Base cooldown: 30] Fires a barrage of 4 lasers that do 2 system and hull "
 "damage and 45 crew damage. Stuns crew for 10 seconds on hit. 40% fire and "
 "breach chance."
 
@@ -8736,7 +8738,7 @@ msgstr ""
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ELITE_HEAVY_LASER\"]/tooltip"
 msgstr ""
-"Artillery: Fires a barrage of 3 lasers that do 2 system and hull damage and "
+"Artillery: Fires a barrage of 4 lasers that do 2 system and hull damage and "
 "45 crew damage. Stuns crew for 10 seconds on hit. 40% fire and breach "
 "chance."
 
@@ -8780,15 +8782,15 @@ msgstr "€ Energy Artillery"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ELITE_ENERGY\"]/desc"
 msgstr ""
-"[Base cooldown: 30] Fires two energy blasts that deal 2 hull and ion damage "
-"with hullbuster. Always stats fires."
+"[Base cooldown: 30] Fires two energy blasts that deal 3 hull and ion damage "
+"with hullbuster. Always starts fires."
 
 #: src-en/data/blueprints.xml.append:11041
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ELITE_ENERGY\"]/tooltip"
 msgstr ""
-"Artillery: Fires two energy blasts that deal 2 hull and ion damage with "
-"hullbuster. Always stats fires."
+"Artillery: Fires two energy blasts that deal 3 hull and ion damage with "
+"hullbuster. Always starts fires."
 
 #: src-en/data/blueprints.xml.append:11084
 msgid ""
@@ -12433,6 +12435,8 @@ msgstr ""
 "\n"
 "\tThe crew (and all their subtypes) affected are the following: Giant Alien Spiders, Morphs, Six-Legged Equinoids, Tree Lizard Things, Osmian Zoltans and Sirens.\n"
 "\n"
+"\tLanius can also consume engis and other robotic beings, including drones.\n"
+"\n"
 "\tBe warned though, Eldritch Beings are inedible and will instead damage your crew by 2 hp/s while being eaten."
 
 #: src-en/data/blueprints.xml.append:17901
@@ -12828,10 +12832,9 @@ msgstr "Charror's Nanomachines"
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GHOSTLY_REPAIR_BOTS\"]/desc"
 msgstr ""
-"Charror's experiments with nanomachines have allowed them to infuse Med-Bots"
-" with souls. The nanomachines passively repair systems and extinguish fires "
-"at the same rate as a human, multiplied by the amount of powered system "
-"levels in Drone Control. They also seal breaches at a static rate."
+"Charror's experiments with nanomachines have allowed them to infuse Med-Bots with souls. The nanomachines passively repair systems and extinguish fires at the same rate as a human, multiplied by the amount of powered system levels in Drone Control. \n"
+"\t\t\n"
+"They also seal breaches at a static rate."
 
 #: src-en/data/blueprints.xml.append:18214
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_THE_ORACLE\"]/title"
@@ -14722,7 +14725,7 @@ msgstr ""
 "\t\tSlimer: Reduces his active ability cooldowns by 50% - Halves his crew damage.\n"
 "\t\tPhys: Provides double her base power - Can't sabotage.\n"
 "\t\tAleenor: Doubles her damage - Can't repair.\n"
-"\t\tVin: Dubles his health - Halves his speed.\n"
+"\t\tVin: Doubles his health - Halves his speed.\n"
 "\t\tCleo: Gains a 1.3x bonus to health, speed, repair and damage - Cannot fight enemy drones directly. \n"
 "\t\tZulu: Doubles his sabotage damage - Halves his crew damage.\n"
 "\t\tG: Doubles the healing gained from hazards - Raises her active ability cooldowns by 50%.\n"
@@ -19835,7 +19838,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:31465
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM\"]/class"
-msgstr "Deathboom's Cruiser"
+msgstr "Deathbloom's Cruiser"
 
 #: src-en/data/blueprints.xml.append:31466
 msgid ""
@@ -19859,7 +19862,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:31542
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM_2\"]/class"
-msgstr "Deathboom's Cruiser"
+msgstr "Deathbloom's Cruiser"
 
 #: src-en/data/blueprints.xml.append:31543
 msgid ""
@@ -19882,7 +19885,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:31622
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM_3\"]/class"
-msgstr "Deathboom's Cruiser"
+msgstr "Deathbloom's Cruiser"
 
 #: src-en/data/blueprints.xml.append:31623
 msgid ""
