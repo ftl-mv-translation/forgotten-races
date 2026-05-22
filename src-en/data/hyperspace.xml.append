@@ -526,7 +526,7 @@ Stacks upon already existing death effects.</tooltip>
 <bossShip yOffset="200">FR_WENTWORTH_CARRYSHIP_AUTO</bossShip>
 
 <bossShip>FR_BOSS_QUEST_SELITE_REBEL_CRUISER</bossShip>
-<bossShip>FR_BOSS_QUEST_ELITE_COALITION_CRUISER</bossShip>
+<bossShip yOffset="50">FR_BOSS_QUEST_ELITE_COALITION_CRUISER</bossShip>
 <bossShip yOffset="50">FR_BOSS_QUEST_PIRATE_ELITE_KESTREL_CRUISER</bossShip>
 
 <bossShip>FR_BOSS_QUEST_ELITE_COALITION_CEALAFORMER</bossShip>
@@ -10280,7 +10280,7 @@ Stacks upon already existing death effects.</tooltip>
 	<canPhaseThroughDoors>true</canPhaseThroughDoors>
 	<maxHealth>200</maxHealth>
 	<sabotageSpeedMultiplier>0.5</sabotageSpeedMultiplier>
-	<damageMultiplier>0.5</damageMultiplier>
+	<damageMultiplier>0.8</damageMultiplier>
 	<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
 	<resistsMindControl>true</resistsMindControl>
 	<noClone>true</noClone>
@@ -10308,7 +10308,7 @@ Stacks upon already existing death effects.</tooltip>
 			</deathEffect>
 			<shipTarget>ALL</shipTarget>
 			<crewTarget>SELF</crewTarget>
-			<droneTarget>ALL</droneTarget>
+			<droneTarget>CREW</droneTarget>
 			<extraConditions type="and">
 				<stunned>false</stunned>
 			</extraConditions>
@@ -10323,20 +10323,9 @@ Stacks upon already existing death effects.</tooltip>
 				<eldritch_thing />
 			</whiteList>
 		</statBoost>
-		<statBoost name="transformRace">
-			<boostType>SET</boostType>
-			<race>fr_bonus_tririac_noclone</race>
-			<shipTarget>CURRENT_ROOM</shipTarget>
-			<crewTarget>ENEMY</crewTarget>
-			<affectsSelf>false</affectsSelf>
-			<whiteList>
-				<fr_bonus_tririac />
-				<fr_bonus_tririac_enemy />
-			</whiteList>
-		</statBoost>
-		<statBoost name="powerRechargeMultiplier">
+		<statBoost name="damageMultiplier">
 			<boostType>MULT</boostType>
-			<amount>0.75</amount>
+			<amount>0.9</amount>
 			<shipTarget>ALL</shipTarget>
 			<crewTarget>ALL</crewTarget>
 			<whiteList>
@@ -10417,7 +10406,7 @@ Stacks upon already existing death effects.</tooltip>
 	<canPhaseThroughDoors>true</canPhaseThroughDoors>
 	<maxHealth>200</maxHealth>
 	<sabotageSpeedMultiplier>0.5</sabotageSpeedMultiplier>
-	<damageMultiplier>0.5</damageMultiplier>
+	<damageMultiplier>0.8</damageMultiplier>
 	<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
 	<resistsMindControl>true</resistsMindControl>
 	<noClone>true</noClone>
@@ -10475,106 +10464,6 @@ Stacks upon already existing death effects.</tooltip>
 	</passiveStatBoosts>
 	<powerEffect>
 		<activateWhenReady>true</activateWhenReady>
-		<friendlyFire>true</friendlyFire>
-		<shipFriendlyFire>true</shipFriendlyFire>
-		<cooldown>20</cooldown>
-		<jumpCooldown>continue</jumpCooldown>
-		<powerSounds>
-			<powerSound>mindControl</powerSound>
-		</powerSounds>
-		<finishSounds>
-			<finishSound>mindControlEnd</finishSound>
-		</finishSounds>
-		<req>
-			<enemyInRoom/>
-		</req>
-		<buttonText>COMMAND</buttonText>
-		<tooltip>[COOLDOWN:20s  DURATION:10s]
-			Mind controls a random enemy in the same room as Tririac for 10 seconds.</tooltip>
-		<cooldownColor r="194" g="190" b="118" />
-		<temporaryEffect>
-			<duration>10</duration>
-			<cooldownColor r="92" g="90" b="56" />
-		</temporaryEffect>
-	</powerEffect>
-</mod-append:race>
-
-<mod-append:race name="fr_bonus_tririac_noclone">
-	<essential>1</essential>
-	<animSheet>fr_bonus_tririac</animSheet>
-	<lowHealthThreshold>-1</lowHealthThreshold>
-	<noWarning>true</noWarning>
-	<canSuffocate>false</canSuffocate>
-	<canBurn>false</canBurn>
-	<canPhaseThroughDoors>true</canPhaseThroughDoors>
-	<maxHealth>200</maxHealth>
-	<sabotageSpeedMultiplier>0.5</sabotageSpeedMultiplier>
-	<damageMultiplier>0.5</damageMultiplier>
-	<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
-	<resistsMindControl>true</resistsMindControl>
-	<noClone>true</noClone>
-	<animBase>rock</animBase>
-	<repairSounds animSoundFrame="5">
-		<repairSound>rockThud1</repairSound>
-		<repairSound>rockThud2</repairSound>
-		<repairSound>rockThud3</repairSound>
-	  </repairSounds>
-	<passiveStatBoosts>
-		<statBoost name="crewSlots">
-			<boostType>SET</boostType>
-			<value>0</value>
-			<shipTarget>ENEMY_SHIP</shipTarget>
-			<crewTarget>SELF</crewTarget>
-		</statBoost>
-		<statBoost name="powerRechargeMultiplier">
-			<boostType>MULT</boostType>
-			<amount>0.75</amount>
-			<shipTarget>ALL</shipTarget>
-			<crewTarget>ALL</crewTarget>
-			<whiteList>
-				<fr_bonus_tririac />
-			</whiteList>
-		</statBoost>
-		<statBoost name="maxHealth">
-			<boostType>FLAT</boostType>
-			<amount>50</amount>
-			<shipTarget>ALL</shipTarget>
-			<crewTarget>ALLIED</crewTarget>
-			<priority>0</priority>
-			<whiteList>
-				<eldritch_cat />
-			</whiteList>
-		</statBoost>
-		<statBoost name="damageMultiplier">
-			<boostType>MULT</boostType>
-			<amount>2</amount>
-			<shipTarget>CURRENT_ROOM</shipTarget>
-			<crewTarget>CURRENT_ALLIES</crewTarget>
-			<priority>999</priority>
-		</statBoost>
-		<statBoost name="damageMultiplier">
-			<boostType>MULT</boostType>
-			<amount>0.5</amount>
-			<shipTarget>CURRENT_ROOM</shipTarget>
-			<crewTarget>ALLIES</crewTarget>
-			<priority>999</priority>
-		</statBoost>
-		<statBoost name="trueHealAmount">
-			<boostType>FLAT</boostType>
-			<amount>-2</amount>
-			<shipTarget>CURRENT_ROOM</shipTarget>
-			<crewTarget>CURRENT_ALLIES</crewTarget>
-			<priority>999</priority>
-		</statBoost>
-		<statBoost name="trueHealAmount">
-			<boostType>FLAT</boostType>
-			<amount>2</amount>
-			<shipTarget>CURRENT_ROOM</shipTarget>
-			<crewTarget>ALLIES</crewTarget>
-			<priority>999</priority>
-		</statBoost>
-	</passiveStatBoosts>
-	<powerEffect name="fr_tririac_power">
 		<friendlyFire>true</friendlyFire>
 		<shipFriendlyFire>true</shipFriendlyFire>
 		<cooldown>20</cooldown>

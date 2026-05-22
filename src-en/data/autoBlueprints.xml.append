@@ -661,7 +661,6 @@
 <blueprintList name="FR_LIST_CREW_THINGS">
 	<name>fr_bonus_tririac</name>
 	<name>fr_bonus_tririac_enemy</name>
-	<name>fr_bonus_tririac_noclone</name>
 	<name>eldritch_thing</name>
 	<name>eldritch_thing_weak</name>
 	<name>eldritch_thing_noclone</name>
@@ -6418,6 +6417,17 @@
 	<mod-append:name>FR_ESTATE_SUPPRESSOR</mod-append:name>
 </mod:findName>
 
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    SHIPS: CLOBBERING (TEMP)
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<mod:findName type="shipBlueprint" name="MU_FED_BATTLESHIP_ELITE">
+	<mod:setAttributes img="mu_fed_battleship_elite"/>
+</mod:findName>
 
 <!--
 	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

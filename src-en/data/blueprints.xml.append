@@ -1804,8 +1804,8 @@
 	<rarity>0</rarity>
 	<powerList>
 		<power>Active Ability: Mind controls a random enemy crew in the same room as Tririac for 10 seconds.</power>
-		<power>0.5x combat and sabotage damage, 200 Max Health, mind control immunity.</power>
-		<power>For each Tririac on screen, their abilities will recharge 25% slower.</power>
+		<power>0.8x combat and sabotage damage, 200 Max Health, mind control immunity.</power>
+		<power>For each Tririac on screen, their their damage is reduced by 10%.</power>
 		<power>Enemy crew you mind control deal 2x damage at the cost of losing 2 hp/s while mind controlled and in the same room as Tririac.</power>
 	</powerList>
 </crewBlueprint>
@@ -1824,25 +1824,6 @@
 	<powerList>
 		<power>Active Ability: Mind controls a random enemy crew in the same room as Tririac for 10 seconds.</power>
 		<power>0.5x combat and sabotage damage, 200 Max Health, mind control immunity.</power>
-		<power>Enemy crew you mind control deal 2x damage at the cost of losing 2 hp/s while mind controlled and in the same room as Tririac.</power>
-	</powerList>
-</crewBlueprint>
-
-<crewBlueprint name="fr_bonus_tririac_noclone">
-	<desc>An unknown creature that haunts the higher planes in search of new thralls to bolster their enigmatic cause.
-	
-	Inherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.
-
-	Inherited Thing stats: 0.5x movement speed, duplicates if they die while not stunned.</desc>
-	<title>Umbral Eldritch Thing</title>
-	<short>U. Thing</short>
-	<cost>110</cost>
-	<bp>2</bp>
-	<rarity>0</rarity>
-	<powerList>
-		<power>Active Ability: Mind controls a random enemy crew in the same room as Tririac for 10 seconds.</power>
-		<power>0.5x combat and sabotage damage, 200 Max Health, mind control immunity.</power>
-		<power>For each Tririac on screen, their abilities will recharge 25% slower.</power>
 		<power>Enemy crew you mind control deal 2x damage at the cost of losing 2 hp/s while mind controlled and in the same room as Tririac.</power>
 	</powerList>
 </crewBlueprint>
@@ -9061,7 +9042,7 @@ Morphs pierce all shields, use no crew slots, can't be cloned and live for 20 se
 	<tooltip>Beam that does 2 system; pierces 2 shields; always starts fires.</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
-	<sp>2</sp>
+	<sp>3</sp>
 	<fireChance>10</fireChance>
 	<breachChance>0</breachChance>
 	<cooldown>18</cooldown>
@@ -14365,6 +14346,10 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 			<statBoost name="powerEffect">
 				<boostType>ADD</boostType>
 					<powerEffect>
+						<req type="enemy">
+							<enemyShip/>
+							<systemInRoom/>
+						</req>
 						<cooldown>1</cooldown>
 						<jumpCooldown>full</jumpCooldown>
 						<activateWhenReady>true</activateWhenReady>
