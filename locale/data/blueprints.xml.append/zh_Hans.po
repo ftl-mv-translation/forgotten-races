@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-22 15:08+0000\n"
-"Last-Translator: circle217 <3545024352@qq.com>\n"
+"PO-Revision-Date: 2026-05-23 12:24+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -3703,10 +3703,9 @@ msgid ""
 msgstr "0.5倍战斗与破坏伤害，200最大生命值，免疫心灵控制。"
 
 #: src-en/data/blueprints.xml.append:1808
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac\"]/powerList/power[3]"
-msgstr "当前每有一个特里亚克存在于屏幕上，他们的能力充能速度就会减慢25%。"
+msgstr "当前每有一个特里亚克存在于屏幕上，其伤害降低 10%。"
 
 #: src-en/data/blueprints.xml.append:1809
 msgid ""
@@ -5782,13 +5781,13 @@ msgid ""
 msgstr "仆从"
 
 #: src-en/data/blueprints.xml.append:6368
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_SPAWN_BATTLE\"]/desc"
 msgstr ""
 "一个从异界力量的思维中诞生的神秘生物。\n"
 "    \n"
 "- 无法被伤害、击晕或精神控制。摧毁无人机控制系统可将其驱散。\n"
+"-修复速度降低 3 倍。移动速度降低 0.5 倍。船员伤害与破坏速度提升 1.5 倍。\n"
 "- 科技模物无法复制其异界系统。"
 
 #: src-en/data/blueprints.xml.append:6384
@@ -5802,13 +5801,13 @@ msgid ""
 msgstr "仆从"
 
 #: src-en/data/blueprints.xml.append:6386
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_SPAWN_BOARDER\"]/desc"
 msgstr ""
 "一个从异界力量的思想中诞生的神秘生物。\n"
 "    \n"
 "- 无法被伤害、击晕或精神控制。摧毁无人机控制系统可将其驱散。\n"
+"-修复速度降低 3 倍。移动速度降低 0.5 倍。船员伤害与破坏速度提升 1.5 倍。\n"
 "- 科技模物无法复制其异界系统。"
 
 #: src-en/data/blueprints.xml.append:6403
@@ -7768,19 +7767,17 @@ msgid ""
 msgstr "能量巨炮"
 
 #: src-en/data/blueprints.xml.append:10679
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ENERGY\"]/desc"
 msgstr ""
-"[基础冷却：30]发射一发能量爆裂，造成 2 点舰体伤害与 2 点离子伤害。附带舰体爆"
+"[基础冷却：30]发射一发能量爆裂，造成 3 点舰体伤害与 3 点离子伤害。附带舰体爆"
 "破效果。60% 起火几率。"
 
 #: src-en/data/blueprints.xml.append:10680
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ENERGY\"]/tooltip"
 msgstr ""
-"巨炮：发射一发能量爆裂，造成 2 点舰体伤害与 2 点离子伤害。附带舰体爆破效果。"
+"巨炮：发射一发能量爆裂，造成 3 点舰体伤害与 3 点离子伤害。附带舰体爆破效果。"
 "60% 起火几率。"
 
 #: src-en/data/blueprints.xml.append:10723
@@ -7859,11 +7856,10 @@ msgid ""
 msgstr "'三尖枪'巨炮"
 
 #: src-en/data/blueprints.xml.append:10844
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_C_BEAM\"]/desc"
 msgstr ""
-"[基础冷却：34/28/22/16]发射一道造成 2 点伤害的光束，并链式 3 次冷却时间。光束"
+"[基础冷却：39/33/27/21]发射一道造成 2 点伤害的光束，并链式 3 次冷却时间。光束"
 "长度 110，速度 15。20% 破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10845
@@ -7928,19 +7924,17 @@ msgid ""
 msgstr "€ 重型巨炮"
 
 #: src-en/data/blueprints.xml.append:10973
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ELITE_HEAVY_LASER\"]/desc"
 msgstr ""
-"[基础冷却：30]发射 3 发激光，造成 2 点系统伤害、2 点舰体伤害以及 45 点船员伤"
+"[基础冷却：30]发射 4 发激光，造成 2 点系统伤害、2 点舰体伤害以及 45 点船员伤"
 "害。命中时眩晕船员 10 秒。40% 起火与破舱几率。"
 
 #: src-en/data/blueprints.xml.append:10974
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ELITE_HEAVY_LASER\"]/tooltip"
 msgstr ""
-"巨炮：发射 3 发激光，造成 2 点系统伤害、2 点舰体伤害以及 45 点船员伤害。命中"
+"巨炮：发射 4 发激光，造成 2 点系统伤害、2 点舰体伤害以及 45 点船员伤害。命中"
 "时眩晕船员 10 秒。40% 起火与破舱几率。"
 
 #: src-en/data/blueprints.xml.append:11012
@@ -7978,19 +7972,17 @@ msgid ""
 msgstr "€ 能量巨炮"
 
 #: src-en/data/blueprints.xml.append:11040
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ELITE_ENERGY\"]/desc"
 msgstr ""
-"[基础冷却：30]发射两发能量，造成 2 点舰体伤害与 2 点离子伤害，附带舰体爆破效"
+"[基础冷却：30]发射两发能量，造成 3 点舰体伤害与 3 点离子伤害，附带舰体爆破效"
 "果。必定引发火灾。"
 
 #: src-en/data/blueprints.xml.append:11041
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_FEDERATION_FLAGSHIP_ELITE_ENERGY\"]/tooltip"
 msgstr ""
-"巨炮：发射两发能量，造成 2 点舰体伤害与 2 点离子伤害，附带舰体爆破效果。必定"
+"巨炮：发射两发能量，造成 3 点舰体伤害与 3 点离子伤害，附带舰体爆破效果。必定"
 "引发火灾。"
 
 #: src-en/data/blueprints.xml.append:11084
@@ -11135,7 +11127,6 @@ msgid ""
 msgstr "无尽盛宴"
 
 #: src-en/data/blueprints.xml.append:17884
-#, fuzzy
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ENDLESS_FEAST\"]/desc"
 msgstr ""
 "这艘飞船上的船员被施加了一种超自然的饥饿感，渴望吞食异形生物（无论是友方还是"
@@ -11146,6 +11137,8 @@ msgstr ""
 "\n"
 "\t受影响的船员（及其所有亚种）包括：巨型异形蜘蛛、模物族、六脚马、树蜥蜴、原"
 "能族、异鸣族。\n"
+"\n"
+"\t食铁族也可以吞噬半械族及其他机器人生物，包括无人机。\n"
 "\n"
 "\t请务必注意，异界存在是不可食用的，反而会在被吞食时以每秒 2 点的速度伤害你的"
 "船员。"
@@ -11493,13 +11486,13 @@ msgid ""
 msgstr "查罗的纳米机器"
 
 #: src-en/data/blueprints.xml.append:18203
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GHOSTLY_REPAIR_BOTS\"]/desc"
 msgstr ""
 "查罗的纳米机器实验成功为医疗机器人注入了灵魂。这些纳米机器能以人类水平的效率"
-"被动修复系统并扑灭火灾，其效率随无人机系统供能等级的提升而倍增，同时还能以固"
-"定速率修复舱室破破舱。"
+"被动修复系统并扑灭火灾，其效率随无人机系统供能等级的提升而倍增。\n"
+"\t\t\n"
+"同时还能以固定速率修复舱室破破舱。"
 
 #: src-en/data/blueprints.xml.append:18214
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_THE_ORACLE\"]/title"
