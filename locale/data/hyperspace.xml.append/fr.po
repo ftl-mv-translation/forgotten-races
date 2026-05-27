@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-05-27 21:16+0000\n"
+"Last-Translator: kronen68 <obrice@hotmail.fr>\n"
+"Language-Team: French <https://weblate.hyperq.be/projects/forgotten-races/"
+"datahyperspace-xml-append/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/hyperspace.xml.append:108
 msgid ""
@@ -21,22 +28,29 @@ msgstr ""
 "Tant que le Contrôle Mental ennemi est alimenté au niveau 3, tout l'équipage adverse bénéficie d'une immunité totale au Contrôle Mental."
 
 #: src-en/data/hyperspace.xml.append:118
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[3]/tooltip"
 msgstr ""
-"RÉSEAU DE DÉFLEXION MENTALE :\n"
-"Tant que le Contrôle Mental ennemi est alimenté au niveau 3, tout l'équipage adverse bénéficie d'une immunité totale au Contrôle Mental."
+"SYSTÈME DE PROTECTION DE CABAL :\n"
+"L'équipage de cet ennemi se soignera passivement partout sur son vaisseau "
+"tant que son infirmerie sera alimentée, à une vitesse égale à 100 % du "
+"niveau d'alimentation actuel de l'infirmerie.\n"
+"\n"
+"Son équipage bénéficiera également d'une vitesse de déplacement accrue de 25 "
+"% par niveau d'alimentation de l'infirmerie. Leurs Commandants de la "
+"Totalité obtiennent aussi une charge supplémentaire de leur soin intégral "
+"tant que leur infirmerie dispose d’au moins 3 niveaux d’énergie."
 
 #: src-en/data/hyperspace.xml.append:125
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[4]/tooltip"
 msgstr ""
-"INFRASTRUCTURE DE MAINTENANCE DU COMMONWEALTH : \n"
-"Ce vaisseau ennemi est truffé d'un réseau incroyablement complexe de nœuds diffusant des nanomachines. Celles-ci infligent passivement 5 PV/s de dégâts à votre équipage, tout en soignant les drones et l'équipage métallique ennemis à hauteur de 5 PV/s. Le système éteint activement les incendies et répare les brèches du vaisseau ennemi."
+"BOUCLIER ÉTHÉRIQUE DE L'EXTERMINATEUR :\n"
+"Cet ennemi est protégé par un bouclier énergétique massif, sophistiqué et "
+"résistant. En plus des avantages habituels des super-boucliers, ceux-ci se "
+"rechargent 25 % plus vite."
 
 #: src-en/data/hyperspace.xml.append:130
 msgid ""
@@ -75,37 +89,36 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:159
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[10]/tooltip"
 msgstr ""
-"MENACE DU REVENANT CHAOTIQUE : \n"
-"Il n'y a plus d'échappatoire, Renégat.\n"
-"\t/\n"
-":)"
+"BUTIN DU REVENANT :\n"
+"Cet ennemi transporte une arme ou un drone spécial doté de capacités "
+"surnaturelles. La destruction du vaisseau n'offre que 50 % de chances de "
+"faire apparaître l'objet, mais tuer l'équipage garantit son obtention.\n"
+"\n"
+"Si le vaisseau est automatisé, le butin apparaîtra systématiquement."
 
 #: src-en/data/hyperspace.xml.append:166
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[11]/tooltip"
 msgstr ""
-"MENACE DU REVENANT CHAOTIQUE : \n"
-"Il n'y a plus d'échappatoire, Renégat.\n"
-"\t/\n"
-":)"
+"BUTIN DU VAISSEAU AMIRAL :\n"
+"Cet ennemi est équipé d'une arme spéciale dotée de capacités surnaturelles "
+"ou d'un drone. La destruction du vaisseau ou l'élimination de l'équipage "
+"garantit que le butin sera lâché."
 
 #: src-en/data/hyperspace.xml.append:171
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[12]/tooltip"
 msgstr ""
-"MENACE DU REVENANT CHAOTIQUE : \n"
-"Il n'y a plus d'échappatoire, Renégat.\n"
-"\t/\n"
-":)"
+"MENACE REVENANT :\n"
+"Cet ennemi constituera une menace majeure pour un vaisseau non préparé. Les "
+"énergies sombres qu'il dégage empêchent votre propulseur SPL de se "
+"recharger, vous devrez donc mettre tout en œuvre pour l'emporter !"
 
 #: src-en/data/hyperspace.xml.append:176
 msgid ""
@@ -118,13 +131,10 @@ msgstr ""
 ":)"
 
 #: src-en/data/hyperspace.xml.append:183
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[14]/tooltip"
-msgstr ""
-"PIECES CORROMPUES : \n"
-"Cet ennemi possède une ou plusieurs salles corrompues, indiquées par des couleurs clignotant rapidement. Les salles corrompues sont immunisées contre les dégâts de système et d'ions, sont sabotées à un dixième de la vitesse normale et infligent 100 PV/s de dégâts à votre équipage. L'équipage ennemi, quant à lui, récupère 100 PV/s dans ces salles."
+msgstr "Repose-toi maintenant."
 
 #: src-en/data/hyperspace.xml.append:187
 msgid ""
@@ -143,14 +153,13 @@ msgstr ""
 "Cet ennemi possède une ou plusieurs salles corrompues, indiquées par des couleurs clignotant rapidement. Les salles corrompues sont immunisées contre les dégâts de système et d'ions, sont sabotées à un dixième de la vitesse normale et infligent 100 PV/s de dégâts à votre équipage. L'équipage ennemi, quant à lui, récupère 100 PV/s dans ces salles."
 
 #: src-en/data/hyperspace.xml.append:197
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[17]/tooltip"
 msgstr ""
-"XÉNOPHOBIE : \n"
-"L'équipage humain de cet ennemi bénéficie d'un bonus de 33 % à toutes ses statistiques principales, mais son équipage non-humain subit un malus de 40 % sur ces mêmes statistiques. \n"
-"(Les statistiques principales incluent la santé, les dégâts, la réparation, le sabotage et la vitesse de déplacement)."
+"HYPER-PRÉ-CHARGEUR ANCIEN :\n"
+"Les armes de cet ennemi sont déjà chargées et tirent toutes dès le début du "
+"combat. De plus, elles se rechargent 15 % plus vite."
 
 #: src-en/data/hyperspace.xml.append:202
 msgid ""
@@ -162,13 +171,18 @@ msgstr ""
 "(Les statistiques principales incluent la santé, les dégâts, la réparation, le sabotage et la vitesse de déplacement)."
 
 #: src-en/data/hyperspace.xml.append:208
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[19]/tooltip"
 msgstr ""
-"MOLÉCULES DENSES : \n"
-"L'équipage Fantôme de ce vaisseau dispose de 20 points de vie supplémentaires, mais il ne peut plus passer à travers les portes."
+"NOUVEL ORDRE :\n"
+"L'équipage Zoltan de cet ennemi confère 1 point de puissance supplémentaire, "
+"peut se téléporter dans n'importe quelle pièce de l'un ou l'autre des "
+"vaisseaux, et bénéficie d'une vitesse de réparation et de dégâts de combat "
+"multipliés par 1,5, mais son équipage non-Zoltan subit une réduction de 40 % "
+"de toutes ses statistiques principales.\n"
+"(Les statistiques principales comprennent la santé, les dégâts, la "
+"réparation, le sabotage et la vitesse de déplacement)."
 
 #: src-en/data/hyperspace.xml.append:214
 msgid ""
@@ -221,19 +235,15 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:254
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[28]/tooltip"
 msgstr ""
-"COMPOSANTS INTERNES PERFECTIONNÉS : \n"
-"Les systèmes de cet ennemi sont hautement optimisés et bénéficient de plusieurs bonus spéciaux :\n"
-"-Charge des armes 5 % plus rapide.\n"
-"-Charge du bouclier 10 % plus rapide.\n"
-"-Charge du générateur SPL 15 % plus rapide.\n"
-"-5 % de chances de résister aux dégâts de coque, 5 % aux dégâts de système et 25 % aux dégâts d'ions.\n"
-"-L'équipage et les drones alliés à bord de votre vaisseau regagnent constamment 1 PV/s.\n"
-"-L'équipage et les drones ennemis à bord de votre vaisseau subissent constamment 1 PV/s de dégâts."
+"FORGE ÉTHER DU COMMONWEALTH :\n"
+"Bien que la forge de ce vaisseau serve principalement à fabriquer de "
+"nouvelles armes, elle alimente également un système de défense rudimentaire "
+"qui inflige 3 points de dégâts par seconde à votre équipage s'il monte à "
+"bord du vaisseau."
 
 #: src-en/data/hyperspace.xml.append:259
 #, fuzzy
@@ -245,19 +255,22 @@ msgstr ""
 "Cet ennemi est protégé par un bouclier énergétique avancé qui empêche également votre équipage d'utiliser les téléporteurs à courte portée lorsqu'il se trouve à bord du vaisseau ennemi."
 
 #: src-en/data/hyperspace.xml.append:264
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[30]/tooltip"
 msgstr ""
-"COMPOSANTS INTERNES PERFECTIONNÉS : \n"
-"Les systèmes de cet ennemi sont hautement optimisés et bénéficient de plusieurs bonus spéciaux :\n"
+"COMPOSANTS INTERNES PERFECTIONNÉS : \n"
+"Les systèmes de cet ennemi sont hautement optimisés et bénéficient de "
+"plusieurs bonus spéciaux :\n"
 "-Charge des armes 5 % plus rapide.\n"
 "-Charge du bouclier 10 % plus rapide.\n"
 "-Charge du générateur SPL 15 % plus rapide.\n"
-"-5 % de chances de résister aux dégâts de coque, 5 % aux dégâts de système et 25 % aux dégâts d'ions.\n"
-"-L'équipage et les drones alliés à bord de votre vaisseau regagnent constamment 1 PV/s.\n"
-"-L'équipage et les drones ennemis à bord de votre vaisseau subissent constamment 1 PV/s de dégâts."
+"-15 % de chances de résister aux dégâts de coque, 15 % aux dégâts de système "
+"et 50 % aux dégâts d'ions.\n"
+"-L'équipage et les drones alliés à bord de votre vaisseau regagnent "
+"constamment 3 PV/s.\n"
+"-L'équipage et les drones ennemis à bord de votre vaisseau subissent "
+"constamment 5 PV/s de dégâts."
 
 #: src-en/data/hyperspace.xml.append:275
 msgid ""
@@ -280,13 +293,19 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:290
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[34]/tooltip"
 msgstr ""
-"ARMURE EN FUSION : \n"
-"Votre équipage à bord de ce vaisseau subit passivement 15 PV/s de dégâts. Ces dégâts sont considérés comme des dégâts d'incendie et sont modifiés en conséquence. Le vaisseau a également 50 % de chances d'annuler les dégâts de coque."
+"PHÉROMONES SPIRITUELLES :\n"
+"Le vaisseau ennemi bénéficie de bonus de plus en plus importants pour son "
+"équipage à chaque niveau activé du système de survie.\n"
+"- Niveau 1 : L'équipage allié devient immunisé contre la suffocation.\n"
+"- Niveau 2 : L'équipage allié acquiert la capacité de traverser les portes.\n"
+"- Niveau 3 : L'équipage allié acquiert la capacité de se téléporter dans "
+"n'importe quelle pièce de votre vaisseau.\n"
+"- Niveau 4 : L'équipage allié acquiert la capacité de se téléporter dans "
+"n'importe quelle pièce et vers l'un ou l'autre des vaisseaux directement."
 
 #: src-en/data/hyperspace.xml.append:299
 msgid ""
@@ -352,13 +371,18 @@ msgstr ""
 "L'équipage Bonhomme de neige de l'ennemi récupère 20 PV/s tant qu'il se trouve à bord du vaisseau ennemi."
 
 #: src-en/data/hyperspace.xml.append:353
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[45]/tooltip"
 msgstr ""
-"VAISSEAU VIVANT : \n"
-"Ce vaisseau ennemi est un organisme vivant qui a dévoré un ou plusieurs de ses anciens membres d'équipage. Les icônes des augmentations qu'il a acquises grâce à ce processus sont affichées."
+"SPORES MORTELLES :\n"
+"Votre équipage sera infecté par des spores mortelles. Ainsi, chaque membre "
+"d'équipage allié qui meurt fera subir 10 % de dégâts supplémentaires aux "
+"autres membres d'équipage alliés et augmentera de 10 % le temps de recharge "
+"de leurs capacités actives. Cet effet est cumulable et s'applique à tous les "
+"vaisseaux.\n"
+"\n"
+"L'effet est supprimé après un saut."
 
 #: src-en/data/hyperspace.xml.append:360
 msgid ""
