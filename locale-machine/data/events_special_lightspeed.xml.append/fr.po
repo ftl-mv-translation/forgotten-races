@@ -9,71 +9,63 @@ msgstr ""
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU\"]/mod-"
 "append:choice/text"
-msgstr "Sauter vers le Secteur de la Prime Fantôme."
+msgstr "Sauter vers le secteur de la Prime Fantôme."
 
 #: src-en/data/events_special_lightspeed.xml.append:16
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_LASTSTAND\"]/mod-"
 "append:choice/text"
-msgstr "Sauter vers le Secteur de la Prime Fantôme."
+msgstr "Sauter vers le secteur de la Prime Fantôme."
 
 #: src-en/data/events_special_lightspeed.xml.append:24
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_MENU\"]/mod-"
-<<<<<<< Updated upstream
 "append:choice[1]/text"
-msgstr "Procéder vers le Secteur du Commonwealth."
-=======
-"append:choice/text"
-msgstr "Continuer vers le Secteur du Commonwealth."
->>>>>>> Stashed changes
+msgstr "Procéder au secteur du Commonwealth."
 
 #: src-en/data/events_special_lightspeed.xml.append:28
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_MENU\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "Procéder à la Zone de guerre contestée."
 
 #: src-en/data/events_special_lightspeed.xml.append:35
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_MENU_NOEQUIPMENT\"]/mod-"
-<<<<<<< Updated upstream
 "append:choice[1]/text"
-msgstr "Procéder vers le Secteur du Commonwealth."
-=======
-"append:choice/text"
-msgstr "Continuer vers le Secteur du Commonwealth."
->>>>>>> Stashed changes
+msgstr "Procéder au secteur du Commonwealth."
 
 #: src-en/data/events_special_lightspeed.xml.append:39
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_MENU_NOEQUIPMENT\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "Procéder à la Zone de guerre contestée."
 
 #: src-en/data/events_special_lightspeed.xml.append:46
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_HAT\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "Aller à la Zone de guerre contestée."
 
 #: src-en/data/events_special_lightspeed.xml.append:50
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_HAT\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "La Zone de guerre contestée est derrière vous."
 
 #: src-en/data/events_special_lightspeed.xml.append:57
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_EQUIPMENT\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "(Adhésion Tiiikaka) Localiser un vaisseau esclavagiste."
 
 #: src-en/data/events_special_lightspeed.xml.append:59
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_EQUIPMENT\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
+"Votre vaisseau se verrouille rapidement sur un vaisseau esclavagiste dans le"
+" prochain secteur."
 
 #: src-en/data/events_special_lightspeed.xml.append:63
 msgid ""
@@ -86,12 +78,14 @@ msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_EQUIPMENT\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
+"(Bonus de réputation du Syndicat) Retarder la flotte et cartographier le "
+"secteur."
 
 #: src-en/data/events_special_lightspeed.xml.append:71
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"ATLAS_EQUIPMENT\"]/mod-"
 "append:choice[2]/event/text"
-msgstr ""
+msgstr "Le bonus prend effet."
 
 #: src-en/data/events_special_lightspeed.xml.append:76
 msgid ""
@@ -103,14 +97,6 @@ msgstr ""
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS\"]/text"
 msgstr ""
-"Vous êtes sur le point de changer d'itinéraire. Ci-dessous l'entrée de l'Atlas pour ce secteur.\n"
-"\tNom : Tartarus\n"
-"\tType : Hostile\n"
-"\tUnique : Oui\n"
-"\tFaction dominante : Les Revenants\n"
-"\tNiveau de menace rebelle : Aucun\n"
-"\t\n"
-"\tLa plupart des informations sur ce secteur lointain sont complètement vides. Tout ce que vous pouvez distinguer est une liste de noms bizarres provenant de la prime, et un titre menaçant offert au secteur : Tartarus. Les Chasseurs d'effroi vous ont dit que cette étendue d'espace abritait de véritables morts-vivants, mais cela ne peut pas être vrai... n'est-ce pas ?"
 
 #: src-en/data/events_special_lightspeed.xml.append:105
 msgid ""
@@ -137,20 +123,12 @@ msgstr ""
 #: src-en/data/events_special_lightspeed.xml.append:121
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS\"]/choice[2]/text"
-msgstr "Peu importe."
+msgstr "Tant pis."
 
 #: src-en/data/events_special_lightspeed.xml.append:129
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS_BOSS\"]/text"
 msgstr ""
-"Vous êtes sur le point de changer d'itinéraire. Ci-dessous l'entrée de l'Atlas pour ce secteur.\n"
-"\tNom : Tartarus\n"
-"\tType : Hostile\n"
-"\tUnique : Oui\n"
-"\tFaction dominante : Les Revenants\n"
-"\tNiveau de menace rebelle : Aucun\n"
-"\t\n"
-"\tLa plupart des informations sur ce secteur lointain sont complètement vides. Tout ce que vous pouvez distinguer est une liste de noms bizarres provenant de la prime, et un titre menaçant offert au secteur : Tartarus. Les Chasseurs d'effroi vous ont dit que cette étendue d'espace abritait de véritables morts-vivants, mais cela ne peut pas être vrai... n'est-ce pas ?"
 
 #: src-en/data/events_special_lightspeed.xml.append:138
 msgid ""
@@ -177,7 +155,7 @@ msgstr ""
 #: src-en/data/events_special_lightspeed.xml.append:155
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_TARTARUS_BOSS\"]/choice[2]/text"
-msgstr "Peu importe."
+msgstr "Tant pis."
 
 #: src-en/data/events_special_lightspeed.xml.append:186
 msgid ""
@@ -193,7 +171,7 @@ msgstr ""
 "\tFaction dominante : ???\n"
 "\tNiveau de menace rebelle : ???\n"
 "\n"
-"\tIl n'y a aucune donnée concernant le prochain secteur dans votre Atlas."
+"\tIl n'y a aucune donnée sur le prochain secteur dans votre Atlas."
 
 #: src-en/data/events_special_lightspeed.xml.append:199
 msgid ""
@@ -219,21 +197,33 @@ msgstr ""
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_WARZONE_WARP\"]/text"
 msgstr ""
+"Nom : Secteur de la Zone de guerre contestée\n"
+"\tType : Hostile\n"
+"\tUnique : Oui\n"
+"\tFaction dominante : La Rébellion, la Coalition et la Fédération\n"
+"\tNiveau de menace rebelle : !CRITIQUEMENT ÉLEVÉ !\n"
+"\tEmplacements d'intérêt : Quartier général R&D de la Fédération\n"
+"\n"
+"\tCe secteur était autrefois le secteur R&D de la Fédération jusqu'à ce que les Rebelles lancent une attaque surprise, affaiblissant considérablement la présence de la Fédération dans le secteur et s'emparant de leur projet secret, un vaisseau amiral de la Fédération. Après cela, la Coalition a envahi le secteur avec un vaisseau amiral qui lui était propre, espérant éliminer les deux factions affaiblies et s'emparer de toute technologie restante de l'une ou l'autre faction.\n"
+"\n"
+"\tBien que toujours présentes, les forces de la Fédération ne pourront pas vous offrir beaucoup d'aide ; vous êtes seul ici.\n"
+"\n"
+"\tATTENTION : LE SECTEUR EST REMPLI D'ENNEMIS PUISSANTS ET DANGEREUX AINSI QUE DE BARRAGES ASB CONSTANTS. VOUS POUVEZ REDIRIGER VOTRE VAISSEAU VERS L'AMBASSADE DE LA FÉDÉRATION AVANT D'ATTERRIR SI LE RISQUE EST TROP ÉLEVÉ."
 
 #: src-en/data/events_special_lightspeed.xml.append:248
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_WARZONE_WARP\"]/choice[1]/text"
-msgstr "Quitter l'hypervitesse."
+msgstr "Sortir de l'hypervitesse."
 
 #: src-en/data/events_special_lightspeed.xml.append:252
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_WARZONE_WARP\"]/choice[@req=\"COORDS\"]/text"
-msgstr ""
+msgstr "Changer d'itinéraire."
 
 #: src-en/data/events_special_lightspeed.xml.append:256
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_WARZONE_WARP\"]/choice[3]/text"
-msgstr ""
+msgstr "Rediriger le saut vers l'Ambassade de la Fédération !"
 
 #: src-en/data/events_special_lightspeed.xml.append:264
 msgid ""
@@ -259,6 +249,16 @@ msgstr "Tant pis."
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FR_LIGHTSPEED_SECTOR_WARP_WARZONE\"]/text"
 msgstr ""
+"Nom : Secteur de la Zone de guerre contestée\n"
+"\tType : Hostile\n"
+"\tUnique : Oui\n"
+"\tFaction dominante : La Rébellion, la Coalition et la Fédération\n"
+"\tNiveau de menace rebelle : !CRITIQUEMENT ÉLEVÉ !\n"
+"\tEmplacements d'intérêt : Quartier général R&D de la Fédération\n"
+"\n"
+"\tCe secteur était autrefois le secteur R&D de la Fédération jusqu'à ce que les Rebelles lancent une attaque surprise, affaiblissant considérablement la présence de la Fédération dans le secteur et s'emparant de leur projet secret, un vaisseau amiral de la Fédération. Après cela, la Coalition a envahi le secteur avec un vaisseau amiral qui lui était propre, espérant éliminer les deux factions affaiblies et s'emparer de toute technologie restante de l'une ou l'autre faction.\n"
+"\n"
+"\tBien que toujours présentes, les forces de la Fédération ne pourront pas vous offrir beaucoup d'aide ; vous êtes seul ici."
 
 #: src-en/data/events_special_lightspeed.xml.append:295
 msgid ""
@@ -283,7 +283,7 @@ msgstr "Tant pis."
 #: src-en/data/events_special_lightspeed.xml.append:328
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"FISH_FR_TARTARUS_GIVE\"]/text"
-msgstr "Vous avez pêché un poisson mort-vivant unique !"
+msgstr "Vous avez pêché un poisson-mort-vivant unique !"
 
 #: src-en/data/events_special_lightspeed.xml.append:332
 msgid ""
