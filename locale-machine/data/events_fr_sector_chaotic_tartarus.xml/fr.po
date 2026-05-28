@@ -14,11 +14,16 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//textList[@name=\"FR_TEXT_START_CHAOTIC_TARTARUS\"]/text"
 msgstr ""
+"Alors que vous sautez dans l'entrée du secteur, un cri aigu assaille vos sens. Le gnome a commencé ses manigances habituelles, mais... à un niveau que vous n'avez jamais vu auparavant ! Tout votre vaisseau commence à trembler et à tourner, faisant tomber tout le monde alors que le gnome est projeté dans vos mains, vous forçant à le serrer pour votre vie tandis que votre monde s'éteint. Lorsque vous vous réveillez, les étoiles à l'extérieur sont rouges et tordues d'une manière qui devrait être impossible. Pire encore, toutes les entrées de prime de votre liste ont été entièrement remplacées par de tout nouveaux individus !\n"
+"\n"
+"Il semble également y avoir 2 primes uniques étiquetées \" Primes Bonus \". Il semble qu'elles ne soient pas nécessaires pour progresser dans le système appliqué ici, mais vous doutez de ne pas être récompensé en les accomplissant."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:46
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_FROSTWALL\"]/destroyed/text"
 msgstr ""
+"Le vaisseau Cristalien se brise en une multitude de pièces tranchantes, "
+"tourbillonnant dans l'abîme."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:48
 msgid ""
@@ -29,6 +34,8 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_FROSTWALL\"]/deadCrew/text"
 msgstr ""
+"Frostwall s'effondre enfin, ses cristaux se fissurant et se brisant alors "
+"que son esprit s'évanouit."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:55
 msgid ""
@@ -39,24 +46,32 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_1\"]/text"
 msgstr ""
+"Après avoir sauté vers la balise suivante, vous commencez à lire la prime "
+"avec hésitation. Elle raconte l'histoire de Frostwall, une Sentinelle "
+"Cristalien. Connu uniquement par son surnom, grâce à la teinte grisâtre qui "
+"traverse son extérieur, il a disparu un jour après avoir fait une "
+"déclaration contre l'Impératrice. La rumeur veut qu'il ait commencé à "
+"entendre des chuchotements dans sa tête qui l'ont rendu fou, et qu'il ait "
+"été exécuté pour sa désobéissance – la preuve de ces rumeurs se dresse "
+"devant vous maintenant."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:66
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_1\"]/choice/text"
-msgstr "Eh bien... ça me semble étrangement familier."
+msgstr "Eh bien... ça me semble terriblement familier."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:68
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_1\"]/choice/event/text"
 msgstr ""
-"Vous regardez le gnome, mais il est simplement revenu à un état inerte. En "
-"le posant, vous levez les yeux pour découvrir un énorme vaisseau Cristalien "
-"vous fixant, vos communications se remplissant de chuchotements démoniaques "
-"et de parasites alors que son obscurité impossible enveloppe tout au-delà de"
-" votre hublot. Le message qu'il envoie est uniquement audio, mais vous "
-"pouvez entendre la voix distinctive et scintillante d'un Cristalien hurlant "
-"de douleur alors que le vaisseau lève ses armes. \"Les... les-les... les "
-"voix... les VOIX ! HORS DE MA TÊTE !\""
+"Vous jetez un coup d'œil au gnome, mais il est simplement revenu à un état "
+"inerte. Le posant, vous levez les yeux pour trouver un immense vaisseau "
+"Cristalien vous fixant, vos communications se remplissant de murmures "
+"démoniaques et de statique tandis que son obscurité impossible enveloppe "
+"tout au-delà de votre hublot. L'appel qu'il envoie est uniquement audio, "
+"mais vous pouvez entendre la voix distincte et chatoyante d'un Cristalien "
+"hurlant de douleur alors que le vaisseau lève ses armes. \" Les... le-le-"
+"le... les voix... les VOIX ! SORTIEZ DE MA TÊTE ! \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:71
 msgid ""
@@ -67,6 +82,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_FROSTWALL_DEFEAT\"]/text"
 msgstr ""
+"Une fois que vous avez fini de démanteler ce que vous pouvez, vous regardez "
+"le Gnome, il s'est mystérieusement tourné dans la direction approximative de"
+" votre prochaine cible."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:83
 msgid ""
@@ -77,11 +95,16 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_FROSTWALL_DEFEAT\"]/choice/event/text"
 msgstr ""
+"En levant les yeux, vous voyez Frostwall, debout juste devant vous. Son apparence, bien que déformée par une luminescence spirituelle, est exactement telle que votre entrée l'a décrite. Avant que vous ne puissiez dégainer votre blaster, il lève la main, souhaitant simplement parler.\n"
+"\n"
+"\t\t\t\" Merci, cher Renégat. Bien que j'aie peut-être... retrouvé ma raison... il y a des choses bien plus dangereuses à discuter en ce moment. Si ce... ce gnome... est vraiment ce que je pense, alors... vous avez peut-être déclenché une chaîne d'événements irréversibles, qui pourrait mettre fin à toutes choses si elle était laissée se dérouler, juste en l'apportant ici. \" Frostwall parle d'un ton doux et gentil, aidant à vous rassurer quant à son retour à la lumière alors que sa forme commence à se désintégrer dans l'air. \" Je ferai de mon mieux pour vous guider à travers ce secteur, bien que je sois malheureusement lié et ne puisse pas servir directement à bord de votre vaisseau. J'espère que vous pourrez comprendre ma situation. \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:96
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_DEATHBLOOM\"]/destroyed/text"
 msgstr ""
+"Le vaisseau tremble, se fissure et se brise en un million de morceaux, "
+"quelque chose qu'un vaisseau Vampiflore ne devrait certainement pas faire."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:98
 msgid ""
@@ -92,6 +115,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_DEATHBLOOM\"]/deadCrew/text"
 msgstr ""
+"Le corps de la Vampiflore palpite et se tord avant de gonfler rapidement et "
+"d'exploser en d'innombrables spores. Heureusement, votre équipage a pu les "
+"contenir avant que les choses n'empirent."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:105
 msgid ""
@@ -102,6 +128,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_2\"]/text"
 msgstr ""
+"Si ce que Frostwall a dit est vrai, alors il n'y a pas de temps à perdre. Peu importe les âmes des morts qui résident ici - vous devez élucider ce mystère ! Ce n'est pas comme si vous pouviez partir de toute façon ; toutes vos tentatives de vous téléporter hors du secteur par tous les moyens ont échoué, parfois de manière catastrophique, ne laissant que l'achèvement de la liste comme seul recours possible. La prochaine sur votre liste de cibles est Deathbloom, une chasseuse de trésors Vampiflore.\n"
+"\n"
+"\tSelon votre liste, elle est tombée sur un ancien tome à la suite d'une longue et ardue expédition qui a tué nombre de ses alliés. Quand elle a lu le tome, une éternité de murmures aliénants a rempli son esprit, la rendant catatonique et incapable de détourner son vaisseau d'une collision avec une comète. Étrangement, personne n'a jamais retrouvé le corps. Frostwall soupire tout autour de vous en lisant... il semble qu'il ne soit pas le seul maudit par ces murmures."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:116
 msgid ""
@@ -112,6 +141,13 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_2\"]/choice/event/text"
 msgstr ""
+"Vos capteurs à courte portée détectent soudainement la présence d'un "
+"vaisseau – un vaisseau Vampiflore, entièrement décomposé par des vignes "
+"remplies de poison, ses composants végétaux étant tous morts d'une étrange "
+"pourriture. Deathbloom elle-même apparaît à l'autre bout de l'écran, sa voix"
+" semblable à celle d'un zombie. \" D-Douleur... tant... de... douleur dans "
+"mes veines... Je... j-je, je dois me... débarrasser de cette douleur ! V-..."
+" vous ferez très bien l'affaire ! \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:121
 msgid ""
@@ -122,6 +158,8 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_DEATHBLOOM_DEFEAT\"]/text"
 msgstr ""
+"Espérons que, sans personne pour répandre activement le poison et la mort, "
+"vous pourrez en apprendre davantage sur cet endroit."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:133
 msgid ""
@@ -132,11 +170,16 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_DEATHBLOOM_DEFEAT\"]/choice/event/text"
 msgstr ""
+"Avant même que vous ne puissiez commencer à réfléchir, vous entendez la voix de Frostwall autour du vaisseau. \" Hm... je ressens une sorte de... pouvoir. Une sorte étrange de... R-Renégat, attention, attention ! \"\n"
+"\n"
+"\t\t\tDeathbloom se manifeste devant vous, l'air tout aussi choqué que vous. Avant que vous ne puissiez la maîtriser, elle s'écrie. \" N-Ne tirez pas ! J-Je... les voix, elles sont... parties ? Je... je sens toujours du poison couler dans mon corps, mais... je peux... un peu penser clairement ! J-Je... suis... désolée, Renégat... \" Deathbloom soupire d'exaspération, mais elle se redresse un instant alors que sa forme commence à se dissiper, se mêlant à l'air aux côtés de Frostwall. \" Peut-être que je pourrais... vous aider aussi ? Je vous accompagnerai ! \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:146
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_POK\"]/destroyed/text"
 msgstr ""
+"Le vaisseau de Pok s'éclabousse en une multitude de gouttes violettes, "
+"chacune se dirigeant dans une direction différente."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:148
 msgid ""
@@ -147,6 +190,8 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_POK\"]/deadCrew/text"
 msgstr ""
+"Le morphe violet change rapidement entre toutes ses formes en mourant, pour "
+"finalement retrouver sa forme blobby originale."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:155
 msgid ""
@@ -157,9 +202,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_3\"]/text"
 msgstr ""
-"Avant que quoi que ce soit ne puisse vous interrompre cette fois, vous commencez à lire la troisième prime. Un Morphe, simplement nommé Pok, forgé par une division particulière de scientifiques Coquilles. Selon la prime, tous ont regardé avec un grand étonnement lorsque Pok s'est transformé en un gnome de jardin, sans même savoir ce que c'était.\n"
+"Avant que quoi que ce soit ne puisse vous interrompre cette fois, vous commencez à lire la troisième prime. Un Morphe, simplement nommé Pok, forgé par une division particulière de scientifiques Coquille. Selon la prime, ils ont tous regardé avec émerveillement lorsque Pok s'est transformé en un gnome de jardin, sans même savoir ce que c'était.\n"
 "\n"
-"\tCela a conduit à la découverte que Pok était, en un sens, le Morphe parfait, capable de mimer n'importe qui jusqu'à leurs détails personnels parfaitement, à partir de rien d'autre qu'une seule image. Malheureusement, cela signifiait que le Morphe avait une génétique horriblement instable, le forçant à alterner continuellement entre les formes afin de prolonger sa durée de vie tragiquement courte."
+"\tCela a conduit à la découverte que Pok était, en un sens, le Morphe parfait, capable d'imiter n'importe qui jusque dans les moindres détails personnels, à partir de rien d'autre qu'une seule image. Malheureusement, cela signifiait que le Morphe avait une génétique horriblement instable, les forçant à passer continuellement d'une forme à l'autre afin de prolonger leur durée de vie tragiquement courte."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:166
 msgid ""
@@ -170,6 +215,10 @@ msgstr "Mais... comment est-ce possible ?"
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_3\"]/choice/event/text"
 msgstr ""
+"Vous vous tournez vers l'air, prêt à demander à Frostwall comment cela est "
+"possible, mais vous êtes interrompu par l'arrivée d'un vaisseau gélatineux, "
+"probablement commandé par Pok. Vous ne recevez aucun salut, et êtes plutôt "
+"frappé par la vue du vaisseau équipé de 2 armes à clones !"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:171
 msgid ""
@@ -180,6 +229,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_POK_DEFEAT\"]/text"
 msgstr ""
+"Vous priez pour que ce soit la dernière fois que vous ayez à affronter un "
+"vaisseau avec un canon à clones – cette arme a été proscrite dès sa mise sur"
+" le marché."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:183
 msgid ""
@@ -190,6 +242,11 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_POK_DEFEAT\"]/choice/event/text"
 msgstr ""
+"Pok se manifeste sur votre pont presque immédiatement, bien plus vite que les deux autres spectres. Il prend la forme d'un cœur, puis d'une copie de votre vaisseau, puis d'une poignée de main, et enfin d'une sorte d'étrange créature alien tripode, barrée. Vous n'avez aucune idée de la rapidité avec laquelle un Morphe peut changer de forme !\n"
+"\n"
+"\t\t\tDeathbloom se remanifeste sur votre vaisseau, et la masse gélatineuse saute pratiquement dans ses bras, roucoulant doucement. Frostwall parle en arrière-plan, résolu. \" J-Je... suppose que nous pouvons garder ce Morphe avec nous, alors. \"\n"
+"\t\t\t\n"
+"\t\t\tLa prochaine prime semble vous avertir que la cible aura des drones de défense très puissants."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:198
 msgid ""
@@ -207,6 +264,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_CHARROR\"]/deadCrew/text"
 msgstr ""
+"L'étrange Engi tente de redémarrer ses systèmes une dernière fois avant "
+"qu'il ne se fige et ne plante, son corps devenant flasque une dernière fois "
+"après cela."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:207
 msgid ""
@@ -217,19 +277,28 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_4\"]/text"
 msgstr ""
-"Vous ne perdez pas de temps à vérifier votre prochaine cible. Charror, un Défenseur Engi, et l'un des plus loyaux de l'Harmonie. On dit qu'il était stationné en permanence près d'un Lien clé, éliminant toute chance d'être séparé de son commandement central... jusqu'à ce que, apparemment, il disparaisse pendant plusieurs jours, puis revienne se plaindre de chuchotements et d'un désir d'acquérir une \"âme\".\n"
+"Vous ne perdez pas de temps à vérifier votre prochaine cible. Charror, un Défenseur Engi, et l'un des plus loyaux de l'Harmonie. Il est dit qu'ils étaient stationnés en permanence près d'un Lien clé, éliminant toute chance qu'ils puissent être séparés de leur commandement central... jusqu'à ce que, apparemment, ils disparaissent pendant plusieurs jours, puis reviennent se plaindre de murmures et d'un désir d'acquérir une \" âme \".\n"
 "\n"
-"\tLes jours suivants, Charror est devenu un criminel intergalactique, kidnappant plusieurs humains et les vidant de chaque dernière goutte de leur force vitale pour se forger ce que les rituels surnaturels pouvaient créer de plus proche d'une âme artificielle. L'implanter en eux a complètement brisé leur esprit, et l'Harmonie a été forcée de les abattre avant qu'ils ne puissent se réintégrer au réseau et provoquer une catastrophe."
+"\tDans les jours suivants, Charror est devenu un criminel intergalactique, kidnappant plusieurs humains et les vidant de chaque goutte de leur force vitale pour se forger ce que les rituels surnaturels pouvaient créer de plus proche d'une âme artificielle. L'implanter en eux-mêmes a complètement brisé leur esprit, et l'Harmonie a été contrainte de les éliminer avant qu'ils ne puissent se réintégrer au réseau et provoquer une fusion catastrophique."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:222
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_4\"]/choice/text"
-msgstr "Reprogrammer un Défenseur ? Qui aurait pu réussir un tel exploit ?"
+msgstr "Reprogrammer un Défenseur ? Qui aurait pu accomplir un tel exploit ?"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:224
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_4\"]/choice/event/text"
 msgstr ""
+"Frostwall hausse les épaules, tout aussi confus que vous. Avant que vous "
+"n'ayez le temps de réfléchir davantage, un vaisseau Engi multicolore saute "
+"vers la balise, son affichage de couleurs hypnotisant brillant sur la coque "
+"tandis que ses lumières vacillent violemment. Le vaisseau vous hélle, "
+"révélant un capitaine dont les nanomachines se désagrégeaient activement en "
+"un miasme prismatique autour de son corps. Charror essaie de parler, mais "
+"son discours est fortement entaché de plusieurs messages d'erreur et de cris"
+" de colère. Cela n'a pas d'importance, cependant – les canons du vaisseau "
+"sont chauds !"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:227
 msgid ""
@@ -240,6 +309,8 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_CHARROR_DEFEAT\"]/text"
 msgstr ""
+"Des Engis avec des âmes... c'est quelque chose à quoi vous préférez ne plus "
+"jamais penser..."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:239
 msgid ""
@@ -252,14 +323,14 @@ msgid ""
 msgstr ""
 "L'Engi ne perd pas de temps à apparaître devant vous, à peine capable de rester stable.\n"
 "\n"
-"\t\t\t\"Protocole 120 : Gratitu-ZzZzZz. Soutien contre [CODE D'ERREUR 0x0004] est requis, les COMPÉTENCES de cette unité peuvent êtzZzZzZzZz utiles. Unité plus sous contrôle [CODE D'ERREUR 0x0004], besoin d'honorer SAUVEUR esZzZz... primordial.\" Les autres apparitions haussent simplement les épaules, gardant un œil sur Charror as their form melds with the ship."
+"\t\t\t\" Protocole 120 : Gratitu-ZzZzZz. Un soutien contre [CODE D'ERREUR 0x0004] est requis, les COMPÉTENCES de cette unité peuvent êtrZzZzZzZz utiles. L'unité n'est plus sous contrôle [CODE D'ERREUR 0x0004], honorer le SAUVEUR esZzZzZz... primordial. \" Les autres apparitions haussent simplement les épaules, gardant un œil sur Charror alors que sa forme se fond dans le vaisseau."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:252
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_LEO\"]/destroyed/text"
 msgstr ""
-"Les lumières s'éteignent dans le néant alors que le vaisseau est mis en "
-"pièces, sa conception soignée et courbée détruite sous votre puissance."
+"Les lumières s'estompent dans le néant tandis que le vaisseau est déchiré, "
+"sa conception courbe et soignée détruite sous votre puissance."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:254
 msgid ""
@@ -270,6 +341,8 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_LEO\"]/deadCrew/text"
 msgstr ""
+"La puissante sangsue expulse une dernière décharge de courant avant que son "
+"corps ne s'éteigne et ne devienne inerte."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:261
 msgid ""
@@ -280,19 +353,22 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_5\"]/text"
 msgstr ""
-"La prochaine prime sur votre liste a l'entrée la plus courte jusqu'à présent. Leo, un Ampère Sangsue, était stationné aux frontières du Capitole d'Eargen, menant une existence principalement banale, marquée par des batailles occasionnelles avec des pirates ou des Rebelles. Un jour, cependant, sa vie a été bouleversée par un vaisseau de fabrication et de classe inconnues, se précipitant vers le centre du système.\n"
+"La prochaine prime de votre liste a l'entrée la plus courte jusqu'à présent. Leo, une Sangsue Ampère, était stationné aux frontières du Capitole d'Eargen, menant une existence généralement banale, marquée par des batailles occasionnelles avec des pirates ou des rebelles. Un jour, cependant, sa vie a été bouleversée par un vaisseau de fabrication et de classe inconnues, fonçant vers le centre du système.\n"
 "\n"
-"\tLe combat, selon les renseignements d'Eargen, a duré moins de dix secondes, l'équipage entier ayant été tué d'une manière particulièrement macabre. L'analyse de matière biopérilleuse sur les murs a suggéré que la plupart des membres d'équipage sont morts parce que leurs têtes ont éclaté, toutes leurs cellules nerveuses ayant été carbonisées. Leo a été signalé disparu, et le vaisseau a immédiatement disparu après le combat ; il est probable qu'il ait été enlevé."
+"\tLe combat, selon les renseignements d'Eargen, a duré moins de dix secondes, l'équipage entier ayant été tué de manière particulièrement macabre. L'analyse de la matière bio-dangereuse sur les murs a suggéré que la plupart des membres d'équipage sont morts parce que leurs têtes ont éclaté, toutes leurs cellules nerveuses ayant été carbonisées. Leo a été porté disparu, et le vaisseau a immédiatement disparu après le combat ; il est probable qu'il ait été enlevé."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:272
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_5\"]/choice/text"
-msgstr "Je suppose qu'il ne sera pas porté disparu longtemps."
+msgstr "Je suppose qu'il ne sera pas disparu longtemps."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:274
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_5\"]/choice/event/text"
 msgstr ""
+"Frostwall acquiesce. Peu après, un vaisseau Sangsue apparaît devant vous, "
+"une brillante lumière verte rayonnant de ses extrémités. Pas d'appel, pas de"
+" quartier, il lève simplement ses armes et ouvre le feu."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:277
 msgid ""
@@ -303,6 +379,8 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEO_DEFEAT\"]/text"
 msgstr ""
+"Si la République avait plus de vaisseaux comme celui-ci, alors peut-être ne "
+"seraient-ils pas forcés de rejoindre la Coalition pour survivre..."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:289
 msgid ""
@@ -313,11 +391,18 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEO_DEFEAT\"]/choice/event/text"
 msgstr ""
+"La Sangsue met beaucoup de temps à enfin se manifester devant vous et les "
+"autres Spectres. Bien que Leo ne parle pas, vous ressentez une gratitude "
+"émanant de lui. Il se dissipe simplement dans l'ambiance du vaisseau, "
+"apparaissant occasionnellement d'un endroit à l'autre dans les recoins les "
+"plus cachés."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:300
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_SEARAK\"]/destroyed/text"
 msgstr ""
+"Le vaisseau, et sa salle des clones inhabituellement puissante, ont "
+"finalement été déchirés."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:302
 msgid ""
@@ -328,6 +413,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_SEARAK\"]/deadCrew/text"
 msgstr ""
+"Même à la mort de Searak, la salle des clones fissurée tente une dernière "
+"fois de le réanimer, avant de finalement échouer et de s'éteindre pour "
+"toujours."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:309
 msgid ""
@@ -338,9 +426,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_6\"]/text"
 msgstr ""
-"Espérons que vous pourrez démêler cette affaire de Tartarus, votre liste devenant de plus en plus courte. Votre prochaine cible est Searak, l'un des tout premiers Crépusculeurs à rejoindre le mouvement et à voir le combat.\n"
+"Espérons que vous pourrez élucider toute cette affaire du Tartarus, votre liste se raccourcissant de plus en plus. Votre prochaine cible est Searak, l'un des tout premiers Crépusculeurs à rejoindre le mouvement et à voir le combat.\n"
 "\n"
-"\tSelon des rapports de bataille récupérés, un mystérieux vaisseau blanc a abattu le vaisseau de Searak et a trafiqué sa salle des clones. L'incident a plongé Searak dans la folie lors de sa renaissance, et il a commencé à télécharger son esprit dans la banque d'ADN dans un effort pour propager le chaos. Le capitaine du vaisseau a été forcé de se suicider en dirigeant le vaisseau vers un pulsar, anéantissant toutes ses traces."
+"\tSelon des rapports de bataille récupérés, un mystérieux vaisseau blanc a abattu le vaisseau de Searak et a altéré sa salle des clones. L'incident a rendu Searak fou lors de sa renaissance, et il a commencé à télécharger son esprit dans la banque d'ADN dans un effort pour propager le chaos. Le capitaine du vaisseau a été contraint de se suicider en dirigeant le vaisseau vers un pulsar, anéantissant toutes ses traces."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:320
 msgid ""
@@ -351,6 +439,11 @@ msgstr "Dommage que nous ne connaissions jamais le nom du capitaine..."
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_6\"]/choice/event/text"
 msgstr ""
+"Votre équipage et les esprits baissent la tête, pensifs, avant que le "
+"vaisseau ne se manifeste en alimentant ses armes. C'est Searak, avec un "
+"salut cinglant. \" Je vois ! Ceux dont les voix me préviennent sont enfin "
+"arrivés... et pas un instant trop tôt ! Frères, sœurs, aux armes, aux armes "
+"! \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:325
 msgid ""
@@ -361,6 +454,8 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_SEARAK_DEFEAT\"]/text"
 msgstr ""
+"Vous vous détournez de la console de commande, vous attendant à ce que "
+"Searak se manifeste."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:337
 msgid ""
@@ -371,11 +466,24 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_SEARAK_DEFEAT\"]/choice/event/text"
 msgstr ""
+"L'ancien fier Martyr se manifeste devant vous, sa fierté et sa vigueur lui "
+"ayant été retirées. \" ...comment...? Comment ai-je pu être si... facile "
+"à... manipuler ? Pendant toute ma vie, je... me suis battu pour ce que je "
+"croyais juste, mais... maintenant, tout ce dont on se souviendra de moi, "
+"c'est... un lunatique. Et, un traître. \" Les autres apparitions "
+"s'approchent, et Frostwall tend une main à serrer, que Searak prend avant de"
+" s'évanouir. \" Je ne pourrai peut-être pas me racheter, mais... le moins "
+"que je puisse faire, c'est vous aider à traverser cet enfer. \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:352
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_AUTO\"]/text"
 msgstr ""
+"Vous attendez avec impatience, désireux de révéler la prime finale. Avant "
+"que vous ne puissiez afficher la page, cependant, le fichier se brouille "
+"tandis qu'un... Auto-vaisseau Rebelle ? Il apparaît devant vous, armes déjà "
+"amorcées, son groupe de capteurs brillant d'un vert menaçant tandis que sa "
+"coque étrange et dorée scintille à la lumière d'une étoile proche."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:355
 msgid ""
@@ -386,6 +494,9 @@ msgstr "Quoi... ?"
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_AUTO\"]/choice/event/text"
 msgstr ""
+"Aucun membre de votre équipage ne sait pourquoi il est là, non plus. Quelques-uns des spectres que vous avez libérés ne reconnaissent même pas le vaisseau, car la Rébellion n'était même pas une lueur dans les yeux de Vance quand ils étaient vivants. Il vous hélle, jouant un message simple, enregistré avant de passer à l'attaque.\n"
+"\t\t\t\n"
+"\t\t\t\" Vaisseau de la Fédération. Vous êtes allé trop loin, et avez trop vu, pour votre propre bien. Vous devez maintenant être éliminé pour maintenir la sécurité opérationnelle. Exécution du protocole L-3312 - pour la Légion ! \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:362
 msgid ""
@@ -396,12 +507,12 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_AUTO_DEFEAT\"]/text"
 msgstr ""
-"L'Auto-vaisseau parvient à se battre pendant quelques minutes, même avec une"
-" partie arrière manquante. Alors qu'il commence enfin à s'effondrer, il "
-"charge désespérément son générateur SPL pour tenter de s'échapper, but il "
-"est arrêté net par l'allumage d'un réservoir de carburant qui oblitère tout "
-"le vaisseau ! Il ne reste pas beaucoup de ferraille, mais les morceaux qui "
-"restent sont des morceaux d'Éther extrêmement précieux."
+"L'Auto-vaisseau parvient à combattre pendant quelques minutes, même avec un "
+"arrière manquant. Alors qu'il commence finalement à s'effondrer, il charge "
+"désespérément son générateur SPL pour tenter de s'échapper, mais il est "
+"stoppé net par l'allumage d'un réservoir de carburant qui oblitère "
+"l'ensemble du vaisseau ! Il ne reste pas beaucoup de ferraille, mais les "
+"morceaux présents sont des fragments d'Éther extrêmement précieux."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:374
 msgid ""
@@ -412,14 +523,17 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_AUTO_DEFEAT\"]/choice/event/text"
 msgstr ""
-"Un peu de recherche vous permet de récupérer un objet qui n'a pas été brisé par l'explosion : la boîte noire de l'Auto-vaisseau. Charror se met au travail pour décrypter son contenu, une tâche qui s'avère étonnamment difficile, mais il parvient finalement à en extraire un court clip vidéo.\n"
+"Une petite recherche vous permet de récupérer un objet qui n'a pas été brisé par l'explosion : la boîte noire de l'Auto-vaisseau. Charror se met au travail pour en décrypter le contenu, une tâche qui s'avère étonnamment difficile, mais il réussit finalement à extraire un court clip vidéo.\n"
 "\n"
-"\t\t\tTout le monde se rassemble pour regarder nul autre que Vance Wentworth conclure un accord avec... quelque chose. Les pixels autour sont si flous et sur-compressés que l'identification est impossible, mais vous savez déjà que cela ne peut pas être bon si Vance est directement impliqué. Charror parvient également à déterrer les plans d'un Auto-vaisseau similaire et des données sur une forme avancée de grille d'émancipation similaire à celle utilisée par votre ennemi !"
+"\t\t\tTout le monde se rassemble pour regarder nul autre que Vance Wentworth conclure un accord avec... quelque chose. Les pixels autour sont si flous et surcompressés que l'identification est impossible, mais vous savez déjà que cela ne peut pas être bon si Vance est directement impliqué. Charror parvient également à déterrer à la fois les plans d'un Auto-vaisseau similaire et des données sur une forme avancée de grille d'émancipation similaire à celle déployée par votre ennemi !"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:388
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_WATCHER\"]/destroyed/text"
 msgstr ""
+"Une énorme entaille déchire la coque du vaisseau, des vrilles de statique "
+"bleue s'en échappant avant que l'abominable excuse de vaisseau spatial "
+"n'explose, se désintégrant en poussière juste sous vos yeux."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:390
 msgid ""
@@ -430,6 +544,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"SHIP_FR_CHAOS_REVENANT_WATCHER\"]/deadCrew/text"
 msgstr ""
+"Vous n'êtes même pas sûr que le soi-disant \" Veilleur \" soit réellement "
+"mort ou non. Tout ce que vous pouvez faire, c'est espérer qu'ils sont "
+"vraiment partis."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:397
 msgid ""
@@ -440,11 +557,16 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_DEATH_WATCHER\"]/lose/@text"
 msgstr ""
+"V O U S  P O U V E Z  M A I N T E N A N T  D O R M I R  L E  S O M M E I L  "
+"S A N S  F I N"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:413
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_SIREN\"]/text"
 msgstr ""
+"Votre interruption étant écartée, le moment est venu de découvrir votre dernière prime. Lorsque vous ouvrez le fichier, vous trouvez...\n"
+"\n"
+"\t...rien. Pas de contes ni de rumeurs, pas d'informations, juste une seule ligne de texte massive lisant \" Le Veilleur \". Alors que vous croisez le regard avec le nom, vous ressentez une douleur accablante à l'arrière de votre tête, et êtes sur le point de vous évanouir lorsque Frostwall vous rattrape... la sensation est la même que lorsque vous êtes entré, et le gnome a hurlé."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:417
 msgid ""
@@ -457,9 +579,9 @@ msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_SIREN\"]/choice[@req=\"gnome\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"Devant vous se tient le gnome... pendant une seconde, avant qu'il ne se téléporte. Vous levez les yeux vers le hublot, et détournez immédiatement le regard. Du bruit et des vertiges envahissent votre esprit, la simple vue du vaisseau devant vous vous donne envie de vomir... et pourtant, rien ne sort lorsque vous commencez à avoir des haut-le-cœur. L'œil de l'Observateur remplit tous les écrans, des murmures s'immiscent dans chaque recoin de votre esprit et de l'esprit de tous à bord, chacun sachant enfin ce qui a tourmenté les fantômes pendant si longtemps.\n"
+"Devant vous se tient le gnome... pendant une seconde, avant qu'il ne se téléporte. Vous levez les yeux vers le hublot, et détournez immédiatement le regard. Statique et vertiges envahissent votre esprit, la simple vue du vaisseau devant vous vous donne envie de vomir... et pourtant, rien ne vient quand vous commencez à vomir à sec. L'œil du Veilleur remplit chaque écran, des murmures s'immiscent dans chaque recoin de votre esprit et de l'esprit de tous à bord, chacun sachant enfin ce qui a tourmenté les fantômes si longtemps.\n"
 "\n"
-"\t\t\t\tVotre cible finale ne ressemble à aucune autre, sa forme semblant fusionner avec l'espace qui vous entoure. Le rugissement surnaturel de ses moteurs résonne à travers votre vaisseau, malgré le fait que vous soyez tous deux dans l'espace, mais... le vaisseau de l'Observateur semble ralentir, pointant plutôt ses armes sur vous ! Peut-être veulent-ils ne laisser aucun témoin, vous réfléchissez un instant, avant de croiser à nouveau le regard de la présence démoniaque et de donner l'ordre d'ouvrir le feu !"
+"\t\t\t\tVotre cible finale est vraiment différente de toutes les autres, sa forme semblant se fondre dans l'espace qui vous entoure. Le rugissement surnaturel de leurs moteurs résonne à travers votre vaisseau, malgré le fait que vous soyez tous deux dans l'espace, mais... le vaisseau du Veilleur semble ralentir, pointant plutôt ses armes vers vous ! Peut-être veulent-ils ne laisser aucun témoin, vous réfléchissez un instant, avant de croiser à nouveau le regard de la présence démoniaque et de donner l'ordre d'ouvrir le feu !"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:425
 msgid ""
@@ -478,9 +600,9 @@ msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$/dummyroot/FTL/event[@name=\"FR_TARTARUS_BOUNTIES_CHAOS_SIREN\"]/choice[@req=\"gnome\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
-"Devant vous se tient le gnome... pendant une seconde, avant qu'il ne se téléporte. Vous levez les yeux vers le hublot, et détournez immédiatement le regard. Du bruit et des vertiges envahissent votre esprit, la simple vue du vaisseau devant vous vous donne envie de vomir... et pourtant, rien ne sort lorsque vous commencez à avoir des haut-le-cœur. L'œil de l'Observateur remplit tous les écrans, des murmures s'immiscent dans chaque recoin de votre esprit et de l'esprit de tous à bord, chacun sachant enfin ce qui a tourmenté les fantômes pendant si longtemps.\n"
+"Devant vous se tient le gnome... pendant une seconde, avant qu'il ne se téléporte. Vous levez les yeux vers le hublot, et détournez immédiatement le regard. Statique et vertiges envahissent votre esprit, la simple vue du vaisseau devant vous vous donne envie de vomir... et pourtant, rien ne vient quand vous commencez à vomir à sec. L'œil du Veilleur remplit chaque écran, des murmures s'immiscent dans chaque recoin de votre esprit et de l'esprit de tous à bord, chacun sachant enfin ce qui a tourmenté les fantômes si longtemps.\n"
 "\n"
-"\t\t\t\tVotre cible finale ne ressemble à aucune autre, sa forme semblant fusionner avec l'espace qui vous entoure. Le rugissement surnaturel de ses moteurs résonne à travers votre vaisseau, malgré le fait que vous soyez tous deux dans l'espace, mais... le vaisseau de l'Observateur semble ralentir, pointant plutôt ses armes sur vous ! Peut-être veulent-ils ne laisser aucun témoin, vous réfléchissez un instant, avant de croiser à nouveau le regard de la présence démoniaque et de donner l'ordre d'ouvrir le feu !"
+"\t\t\t\tVotre cible finale est vraiment différente de toutes les autres, sa forme semblant se fondre dans l'espace qui vous entoure. Le rugissement surnaturel de leurs moteurs résonne à travers votre vaisseau, malgré le fait que vous soyez tous deux dans l'espace, mais... le vaisseau du Veilleur semble ralentir, pointant plutôt ses armes vers vous ! Peut-être veulent-ils ne laisser aucun témoin, vous réfléchissez un instant, avant de croiser à nouveau le regard de la présence démoniaque et de donner l'ordre d'ouvrir le feu !"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:439
 msgid ""
@@ -492,6 +614,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_WATCHER_DEFEAT\"]/text"
 msgstr ""
+"Qui que fût ce Veilleur, vous priez de ne plus jamais revoir quelqu'un comme"
+" lui. Vous avez l'impression que vous ne dormirez plus jamais bien après "
+"aujourd'hui..."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:451
 msgid ""
@@ -502,26 +627,31 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_WATCHER_DEFEAT\"]/choice/event/text"
 msgstr ""
-"Personne sur votre vaisseau ne célèbre. Personne ne vient même discuter du combat. Tout le monde est absolument silencieux, leurs personnalités autrefois exubérantes remplacées par un vide... même les fantômes, qui semblent avoir complètement disparu. Même vous vous sentez vide à l'intérieur, comme si votre âme même avait été arrachée de votre corps physique.\n"
+"Personne à bord de votre vaisseau ne célèbre. Personne ne vient même discuter du combat. Tout le monde est absolument silencieux, leurs personnalités autrefois exubérantes remplacées par un vide béant... même les fantômes, qui semblent avoir complètement disparu. Vous aussi, vous vous sentez vide à l'intérieur, comme si votre âme même avait été arrachée de votre corps physique.\n"
 "\n"
-"\t\t\tVous parvenez à retracer les coordonnées de saut prévues par l'Observateur... peut-être cela vous mènera-t-il au remède contre ce vide, et peut-être à la fin de ce voyage sauvage."
+"\t\t\tVous êtes capable de tracer les coordonnées de saut prévues par le Veilleur... peut-être cela vous mènera-t-il à la guérison de ce vide, et peut-être à la fin de ce voyage sauvage."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:475
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_DEATH_LEGION_FLAGSHIP\"]/lose/@text"
 msgstr ""
+"Le multivers tremble alors qu'une vague interminable de légionnaires "
+"immortels conquiert tout."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:479
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_AUTO\"]/text"
 msgstr ""
+"Il semble que ce vaisseau soit également équipé d'un système d'IA avancé. "
+"Maintenant que l'équipage est mort, il a pris le contrôle ! Vous sentez "
+"également les niveaux d'oxygène chuter sur le Vaisseau Amiral..."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:488
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS\"]/beaconType/unvisitedTooltip"
 msgstr ""
-"Emplacement de la prime finale, elle ne semble être disponible qu'après "
-"avoir accompli toutes les autres primes."
+"Emplacement de la prime finale, il semble n'être disponible qu'après "
+"l'achèvement de toutes les autres primes."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:489
 msgid ""
@@ -532,9 +662,9 @@ msgstr "Emplacement de la prime finale."
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS\"]/text"
 msgstr ""
-"L'espace ici n'est rempli que de rires fous, des murmures adaptés à vos souvenirs les plus profonds s'immisçant dans votre esprit.\n"
+"L'espace ici n'est rempli que de rires aliénants, de murmures adaptés à vos souvenirs les plus profonds s'immisçant dans votre esprit.\n"
 "\n"
-"\tIl y a une balise de sortie ici, mais... elle semble pourrie, effondrée. Il semble vraiment n'y avoir aucun moyen de sortir d'ici, cependant... peut-être qu'effacer votre liste de primes pourrait vous donner une piste."
+"\tIl y a une balise de sortie ici, mais... elle semble pourrie, effritée. Il ne semble vraiment pas y avoir d'issue, cependant... peut-être que vider votre liste de primes pourrait vous donner un indice."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:496
 msgid ""
@@ -545,18 +675,21 @@ msgstr "Nous avons encore du travail à faire."
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS\"]/choice[@req=\"loc_fr_bounty_progression_chaos\""
 " and @lvl=\"0\"]/text"
-msgstr "La balise de sortie est vide. La liste doit être effacée en premier !"
+msgstr "La balise de sortie est vide. La liste doit être vidée d'abord !"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:504
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS\"]/choice[@req=\"loc_fr_bounty_progression_chaos\""
 " and @lvl=\"8\"]/text"
-msgstr "Restez à la balise. C'est là que l'Observateur voulait aller !"
+msgstr "Restez à la balise. C'est là que le Veilleur voulait aller !"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:512
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS_TRUE\"]/text"
 msgstr ""
+"Bien que ce ne soit pas l'assaut absolu sur vos sens que le Veilleur était, le vaisseau qui saute à portée de combat n'est pas moins redoutable. Un tout nouveau modèle de Vaisseau Amiral Rebelle, équipé d'une technologie que vous comprenez à peine, et peint dans les mêmes couleurs bizarres que l'Auto-vaisseau que vous avez rencontré plus tôt ! Non seulement cela, mais il semble que vous ne soyez pas seuls non plus, car toute une foule de vaisseaux de la flotte de conception similaire au vaisseau amiral sont également présents. Celui qui vous hélle depuis le pont n'est autre que Vance Wentworth, Amiral de la Flotte Rebelle.\n"
+"\n"
+"\t\" Eh bien, eh bien... si ce n'est pas le petit vaisseau de la Fédération qui pouvait. \" Vance siffle, se tournant brièvement et souriant à un individu ligoté et bâillonné dans le coin, flanqué de deux soldats rebelles en armure non identifiable. \" Après avoir découvert ce que vous avez fait à mon petit drone, j'ai eu le sentiment que je devrais le faire moi-même... il semble que mon partenaire commercial n'ait pas été un problème pour vous. \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:520
 msgid ""
@@ -567,9 +700,9 @@ msgstr "Attendez, si vous êtes Vance... alors qui est... ça ?"
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_TARTARUS_FINAL_BOSS_CHAOS_TRUE\"]/choice/event/text"
 msgstr ""
-"Vance sourit de toutes ses dents, comme s'il venait d'assister à l'incendie d'une planète entière remplie d'enfants Orchidées. Il ne répond pas à votre question.\n"
+"Vance sourit jusqu'aux oreilles, comme s'il venait de regarder une planète pleine d'enfants Orchidées brûler. Il ne répond pas à votre question.\n"
 "\n"
-"\t\t\t\"Oh ! Je vois que vous voulez une explication. Quelque chose pour satisfaire votre petite curiosité gloutonne, n'est-ce pas...? Non ! Non, non, NON ! Je ne vous donnerai rien à dévorer. J'ai attendu DES DÉCENNIES pour lancer les choses ici. Et, maintenant que je vous ai, vous et mon petit ami ici, là où je les veux... il est temps d'exécuter. Je ne laisserai pas un pitoyable petit ver comme vous m'empêcher de faire tout ce que j'ai toujours voulu faire ! Oh, petit lèche-fantômes peureux, j'espère que vous vous défendrez. Cela vaudra d'autant plus la peine de vous regarder... vous... tortiller !\""
+"\t\t\t\" Oh ! Je vois que vous voulez une explication. Quelque chose pour satisfaire votre petite esprit gloutonne, non...? Non ! Non, non, NON ! Je ne vous donnerai rien à dévorer. J'ai attendu des DÉCENNIES pour que les choses avancent ici. Et, maintenant que je vous ai tous les deux, vous et mon petit ami ici, là où je les veux... il est temps d'exécuter. Je ne laisserai pas une misérable petite larve comme vous m'empêcher de faire tout ce que j'ai toujours voulu faire ! Oh, espèce de petite tarlouze embrasseuse de fantômes, j'espère que vous vous battrez bien. Ce sera d'autant plus satisfaisant de vous regarder... vous... tortiller ! \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:527
 msgid ""
@@ -580,11 +713,11 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/text"
 msgstr ""
-"Au début, il semble que le vaisseau amiral ne puisse jamais tomber. "
-"Cependant, une grande explosion du centre du vaisseau vous prouve "
-"instantanément le contraire. Il est instantanément consumé dans l'explosion,"
-" envoyant une onde de choc qui déchire presque votre propre vaisseau en deux"
-" !"
+"Au début, on aurait dit que le vaisseau amiral ne pourrait jamais tomber. "
+"Cependant, une grande explosion depuis le centre du vaisseau prouve "
+"instantanément le contraire. Il est instantanément consumé par l'explosion, "
+"envoyant une onde de choc qui déchire presque votre propre vaisseau en deux "
+"!"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:542
 msgid ""
@@ -595,6 +728,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/choice/event/text"
 msgstr ""
+"Vous et votre équipage commencez à vous sentir plus légers sur vos pieds. Il semble que la destruction du vaisseau ait levé la malédiction du Veilleur... du moins, partiellement, car les spectres ne reviennent pas. Il s'agissait sûrement de Vance-1, un Vance clé dans la chaîne de commandement de la Rébellion. Pourquoi d'autre commanderait-il une sorte de vaisseau amiral expérimental super-prototype ?\n"
+"\t\t\t\t\t\n"
+"\t\t\t\tAlors, quelque chose vous frappe... qu'en est-il de l'otage dans le cockpit ? Heureusement, le pont est en grande partie intact parmi l'épave, ayant été fortement renforcé. Apportant le morceau du vaisseau, vous transportez l'homme blessé à bord et retirez son bâillon pour révéler... un autre Vance !?"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:548
 msgid ""
@@ -605,24 +741,24 @@ msgstr "...qu'est-ce que..."
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/choice/event/choice/event/text"
 msgstr ""
-"Vance soupire, hochant la tête. \"Oui. Je suis Vance. Le... Vance. Vance... Prime. J-je crains d'en savoir autant que vous, malheureusement. Vance-1 m'a trahi, a volé mon projet favori... que vous venez de faire exploser. Si... Si je devais deviner, Vance-1 voulait découvrir les secrets de la vie et de la mort dans une sorte de... plan ultime pour contrôler le Multivers ?\"\n"
+"Vance soupire, hochant la tête. \" Oui. Je suis Vance. Le... Vance. Vance... Prime. J-je crains de savoir à peu près autant que vous, malheureusement. Vance-1 m'a trahi, a volé mon projet favori... que vous venez de faire exploser. Si... Si je devais deviner, Vance-1 voulait découvrir les secrets de la vie et de la mort dans une sorte de... plan ultime pour contrôler le Multivers ? \"\n"
 "\n"
-"\t\t\t\t\t\tL'homme grisonnant ferme les yeux, secouant la tête. \"J-je fus tout aussi aveuglé par cela que vous !\""
+"\t\t\t\t\t\tL'homme grisonnant ferme les yeux, secouant la tête. \" J-je suis tombé des nues autant que vous ! \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:554
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/choice/event/choice/event/choice/text"
 msgstr ""
-"Donnez-moi une seule raison pour laquelle je ne devrais pas vous éventrer là"
-" où vous êtes."
+"Donnez-moi une raison pour laquelle je ne devrais pas vous éventrer là où "
+"vous êtes."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:556
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_LEGION_FLAGSHIP_DEFEAT\"]/choice/event/choice/event/choice/event/text"
 msgstr ""
-"Vance gémit de frustration. \"Je connais le seul moyen de sortir d'ici. Cela, et... j'ai les plans de mon petit vaisseau amiral dans mes dossiers. Prenez-les...\"\n"
+"Vance gémit de frustration. \" Je connais le seul moyen de sortir d'ici. Cela, et... j'ai les plans de mon petit vaisseau amiral dans mes fichiers. Prenez-le... \"\n"
 "\n"
-"\t\t\t\t\t\t\t\t\tIl vous jette une petite clé USB, avant de se relever en titubant. \"Quand vous serez prêt... dites-moi simplement quand nous devrons partir. Autant que je reste, puisque... je n'ai plus ma place dans la Rébellion après que ce salaud m'ait volé ma place.\""
+"\t\t\t\t\t\t\t\t\tIl vous lance une petite clé USB, avant de se lever en titubant. \" Quand vous serez prêt... dites-moi simplement quand nous devons partir. Autant que je reste, puisque... je n'ai plus ma place dans la Rébellion après que ce salaud m'ait volé ma position. \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:560
 msgid ""
@@ -635,7 +771,7 @@ msgid ""
 msgstr ""
 "Vous informez Vance que vous êtes prêt à partir. Il soupire, vous tendant un petit cube flottant qui pulse d'une lumière fuchsia.\n"
 "\t\n"
-"\t\"Mettez ceci dans le réservoir de carburant de votre moteur. Vance-1 avait probablement l'intention de l'utiliser pour frapper l'Univers 0 lorsqu'il a quitté Tartarus. Pour autant que je sache, c'est le seul outil de ce genre qui existe... alors choisissez votre destination avec sagesse, Renégat.\""
+"\t\" Mettez ceci dans le réservoir de carburant de votre moteur. Vance-1 avait probablement l'intention de l'utiliser pour attaquer l'Univers 0 quand il a quitté le Tartarus. Pour autant que je sache, c'est le seul outil de ce genre qui existe... alors choisissez votre destination sagement, Renégat. \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:577
 msgid ""
@@ -646,8 +782,8 @@ msgstr "Hein... étrangement charitable de votre part, Vance."
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_VANCE_SECTOR_SELECT\"]/choice/event/text"
 msgstr ""
-"\"Oh, ce n'est pas de la charité, je préfère juste foutre le camp d'ici, "
-"même si cela signifie vous aider.\" Il rétorque."
+"\" Oh, ce n'est pas de la charité, je préfère juste foutre le camp d'ici, "
+"même si ça signifie vous aider. \" ricane-t-il."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:581
 msgid ""
@@ -659,21 +795,21 @@ msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/text"
 msgstr ""
 "Soudain, un membre de votre équipage pointe vers le hublot. Il semble qu'un "
-"certain nombre d'armes bizarres foncent à travers l'espace, d'apparence "
-"similaire à de nombreux vaisseaux mystérieux que vous venez de combattre. "
-"Ils sont sur une trajectoire de collision avec un soleil voisin ; leur "
-"vitesse signifie que vous n'aurez le temps d'en sélectionner qu'un !"
+"certain nombre d'armes bizarres traversent l'espace, d'apparence similaire à"
+" de nombreux vaisseaux mystérieux que vous venez de combattre. Ils sont en "
+"collision avec un soleil proche ; leur vitesse signifie que vous n'aurez le "
+"temps d'en sélectionner qu'une seule !"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:591
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[1]/text"
-msgstr ""
+msgstr "Choisissez le Phaseur Cristal de Frostwall."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:593
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[1]/event/text"
 msgstr ""
-"Vous parvenez à attraper l'étrange arme du lot, les autres filant devant "
+"Vous parvenez à arracher l'étrange arme du lot, les autres filant devant "
 "votre vaisseau et dans l'étoile. Tout espoir de les récupérer est perdu."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:596
@@ -684,13 +820,13 @@ msgstr ""
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:602
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[2]/text"
-msgstr ""
+msgstr "Choisissez le Lanceur de Spores à Charge de Deathbloom."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:604
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[2]/event/text"
 msgstr ""
-"Vous parvenez à attraper l'étrange arme du lot, les autres filant devant "
+"Vous parvenez à arracher l'étrange arme du lot, les autres filant devant "
 "votre vaisseau et dans l'étoile. Tout espoir de les récupérer est perdu."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:607
@@ -701,12 +837,14 @@ msgstr ""
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:613
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[3]/text"
-msgstr ""
+msgstr "Choisissez le Drone Lanceur Morphe de Pok."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:615
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[3]/event/text"
 msgstr ""
+"Vous parvenez à attraper le drone étrange du lot, les autres filant devant "
+"votre vaisseau et dans l'étoile. Tout espoir de les récupérer est perdu."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:618
 msgid ""
@@ -722,6 +860,8 @@ msgstr "Choisissez le drone à rayon de Charror."
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[4]/event/text"
 msgstr ""
+"Vous parvenez à attraper le drone étrange du lot, les autres filant devant "
+"votre vaisseau et dans l'étoile. Tout espoir de les récupérer est perdu."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:629
 msgid ""
@@ -731,13 +871,13 @@ msgstr ""
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:635
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[5]/text"
-msgstr "Choisissez la batterie de Léo."
+msgstr "Choisissez la batterie de Leo."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:637
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[5]/event/text"
 msgstr ""
-"Vous parvenez à attraper l'étrange arme du lot, les autres filant devant "
+"Vous parvenez à arracher l'étrange arme du lot, les autres filant devant "
 "votre vaisseau et dans l'étoile. Tout espoir de les récupérer est perdu."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:640
@@ -754,7 +894,7 @@ msgstr "Choisissez le canon à énergie de Searak."
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[6]/event/text"
 msgstr ""
-"Vous parvenez à attraper l'étrange arme du lot, les autres filant devant "
+"Vous parvenez à arracher l'étrange arme du lot, les autres filant devant "
 "votre vaisseau et dans l'étoile. Tout espoir de les récupérer est perdu."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:651
@@ -766,11 +906,14 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[7]/text"
 msgstr ""
+"Choisissez le Battledrone Pyrotechnique Légionnaire de l'Auto-vaisseau."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:659
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_WEAPON_CHAOS_SELECT_TARTARUS\"]/choice[7]/event/text"
 msgstr ""
+"Vous parvenez à attraper le drone étrange du lot, les autres filant devant "
+"votre vaisseau et dans l'étoile. Tout espoir de les récupérer est perdu."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:662
 msgid ""
@@ -781,21 +924,30 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/text"
 msgstr ""
+"Attaché à la note se trouve... une forme de support de stockage de données. "
+"Le décrypter révèle des informations sur... une forme de rituel de "
+"purification. Il ne fonctionnera qu'une seule fois - vous devrez choisir "
+"quel fantôme vous voulez ramener à la conscience, les autres pourront, "
+"cependant, être mis au repos."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:672
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[1]/text"
-msgstr ""
+msgstr "Choisissez Frostwall."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:674
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[1]/event/text"
 msgstr ""
+"Vous et votre équipage effectuez un bref rituel, et Frostwall se manifeste "
+"devant vos yeux, se frottant la tête. \" Vous... vous m'avez sauvé ! À "
+"partir d'aujourd'hui... je me battrai à vos côtés, Capitaine, jusqu'à la fin"
+" du Multivers ! \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:675
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[1]/event/crewMember"
-msgstr ""
+msgstr "Frostwall"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:677
 msgid ""
@@ -805,17 +957,21 @@ msgstr ""
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:683
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[2]/text"
-msgstr ""
+msgstr "Choisissez Deathbloom."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:685
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[2]/event/text"
 msgstr ""
+"Vous et votre équipage effectuez un bref rituel, et Deathbloom se manifeste "
+"devant vos yeux, faisant fleurir ses pétales. \" Hahaaa, voilà ce dont je "
+"parle ! Allez, Renégat... il y aura toujours plus d'endroits à découvrir, "
+"plus de trésors à trouver. \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:686
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[2]/event/crewMember"
-msgstr ""
+msgstr "Deathbloom"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:688
 msgid ""
@@ -831,9 +987,9 @@ msgstr "Choisissez Pok."
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[3]/event/text"
 msgstr ""
-"Vous et votre équipage tenez un bref rituel, et Pok se manifeste devant vos "
-"yeux, vacillant de joie. \"Pok !\" Le petit Morphe se transforme en une "
-"forme identique à la vôtre et vous fait un énorme câlin."
+"Vous et votre équipage effectuez un bref rituel, et Pok se manifeste devant "
+"vos yeux, chancelant de joie. \" Pok ! \" Le petit Morphe se transforme en "
+"une forme identique à la vôtre et vous fait un gros câlin."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:697
 msgid ""
@@ -854,9 +1010,9 @@ msgstr "Choisissez Charror."
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[4]/event/text"
 msgstr ""
-"Vous et votre équipage tenez un bref rituel, et Charror se manifeste devant "
-"vos yeux, son corps entièrement composé pendant un seul instant. "
-"\"Miséricorde...? Cette unité esSssSst... reconnaissante.\""
+"Vous et votre équipage effectuez un bref rituel, et Charror se manifeste "
+"devant vos yeux, son corps entièrement composé pendant un instant. \" "
+"Miséricorde...? Cette unité esZzZzZz... reconnaissante. \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:708
 msgid ""
@@ -877,10 +1033,10 @@ msgstr "Choisissez Leo."
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[5]/event/text"
 msgstr ""
-"Vous et votre équipage tenez un bref rituel, et Leo se manifeste devant vos "
-"yeux, rassemblant enfin le courage de parler. \"Miséricorde ? Après tout... "
-"vous voulez toujours que je... vive ? Renégat. Considérez-moi comme un "
-"véritable ami, alors !\""
+"Vous et votre équipage effectuez un bref rituel, et Leo se manifeste devant "
+"vos yeux, rassemblant enfin le courage de parler. \" Miséricorde ? Après "
+"tout... vous voulez toujours que je... vive ? Renégat. Considérez-moi comme "
+"un véritable ami, alors ! \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:719
 msgid ""
@@ -901,11 +1057,12 @@ msgstr "Choisissez Searak."
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CREW_CHAOS_SELECT_TARTARUS\"]/choice[6]/event/text"
 msgstr ""
-"Vous et votre équipage tenez un bref rituel, et Searak se manifeste devant "
-"vos yeux, ses robes flottant fièrement dans un vent inexistant. \"Durant "
-"toutes mes années de service, quelle qu'en soit la cause, je n'ai jamais vu "
-"le genre de courage que vous avez affiché aujourd'hui. Si je rentre chez "
-"moi, chaque Crépusculeur qui vivra chantera vos exploits d'aujourd'hui !"
+"Vous et votre équipage effectuez un bref rituel, et Searak se manifeste "
+"devant vos yeux, ses robes flottant fièrement dans un vent inexistant. \" "
+"Pendant toutes mes années de service, quelle que soit la cause, je n'ai "
+"jamais vu le genre de courage que vous avez montré aujourd'hui. Si je rentre"
+" chez moi, chaque Crépusculeur qui vivra chantera vos exploits d'aujourd'hui"
+" !"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:730
 msgid ""
@@ -926,6 +1083,8 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_PRINCE\"]/destroyed/text"
 msgstr ""
+"Alors que le vaisseau se disloque, d'étranges symboles clignotent devant vos"
+" yeux, vous rendant étourdi et confus."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:760
 msgid ""
@@ -936,6 +1095,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_PRINCE\"]/deadCrew/text"
 msgstr ""
+"Vous vous attendiez à ce que des démons littéraux soient plus difficiles à "
+"tuer, bien qu'il semble que tout ce dont ils sont faits soit toujours aussi "
+"vulnérable que l'équipage vivant."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:767
 msgid ""
@@ -946,18 +1108,21 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_PRINCE\"]/text"
 msgstr ""
+"Vous atteignez l'emplacement étiqueté comme la \" prime bonus \". Comme prévu, un vaisseau de conception unique orbite autour de la balise, vous hélant dès qu'il détecte votre présence. Un linceul d'obscurité absolue masque des parties de la véritable apparence du vaisseau. Selon la légende, un vaisseau comme celui-ci était commandé par un être connu sous le nom de Prince des Ténèbres, un esprit démoniaque sous la forme d'un Équinoïde. Le Prince ne vous parle pas, se contentant de graver son message directement dans votre esprit.\n"
+"\t\n"
+"\t\" Et ainsi, un autre mortel me défie. Je viens des profondeurs d'un lieu inconcevable, et j'ai vu des éons passer en un clin d'œil. Votre vie, pour moi, n'est qu'un seul atome dans la grande conception du Multivers. Combattez bien, Renégat, et impressionnez-moi - vous pourriez vous retrouver avec une belle récompense. \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:784
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_PRINCE\"]/choice/text"
-msgstr "Préparez-vous au combat !"
+msgstr "Préparez-vous à combattre !"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:786
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_PRINCE\"]/choice/event/text"
 msgstr ""
-"Réalisant qu'il n'y a aucun moyen de sortir d'ici sans combat, vous allumez "
-"vos armes et engagez le vaisseau."
+"Réalisant qu'il n'y a pas d'issue sans combat, vous allumez vos armes et "
+"engagez le vaisseau."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:788
 msgid ""
@@ -968,9 +1133,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_PRINCE_DEFEATED\"]/text"
 msgstr ""
-"Vous êtes également surpris de trouver une arme spéciale parmi l'épave ! Vous n'avez jamais rien vu de tel auparavant, vous supposez donc qu'il s'agit d'un modèle personnalisé fabriqué par les étranges êtres.\n"
+"Vous êtes également surpris de trouver une arme spéciale parmi les débris ! Vous n'avez jamais rien vu de tel auparavant, vous supposez donc qu'il doit s'agir d'un modèle personnalisé fabriqué par les étranges êtres.\n"
 "\t\t\n"
-"\t\tLe Prince se manifeste devant vous alors que vous retournez au vaisseau. Avant que vous ne puissiez dégainer votre blaster, vous entendez les mots résonner dans votre tête. \"N'aie crainte, mortel. Je viens vous offrir vos butins de guerre, et vous rejoindre pour le reste de votre mission. J'espère que votre présence ne ternira pas ma réputation.\""
+"\t\tLe Prince se manifeste devant vous alors que vous revenez au vaisseau. Avant que vous ne puissiez dégainer votre blaster, vous entendez les mots résonner dans votre tête. \" Ne craignez rien, mortel. Je viens vous offrir votre butin de guerre, et vous rejoindre pour le reste de votre mission. J'espère que votre présence ne ternira pas ma réputation. \""
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:801
 msgid ""
@@ -981,6 +1146,8 @@ msgstr "Prince des Ténèbres"
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_TRIRIAC\"]/destroyed/text"
 msgstr ""
+"Cet absolument énorme vaisseau semble avoir atteint ses limites. Il semble "
+"que même la technologie surnaturelle ne puisse pas combattre éternellement."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:818
 msgid ""
@@ -991,6 +1158,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//ship[@name=\"FR_SHIP_CHAOS_REVENANT_TRIRIAC\"]/deadCrew/text"
 msgstr ""
+"Après beaucoup d'efforts pour s'assurer que chaque être surnaturel était "
+"mort, vous pouvez enfin vous reposer un instant lorsque vous voyez Tririac "
+"tomber et ne pas se relever instantanément."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:825
 msgid ""
@@ -1001,18 +1171,25 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_TRIRIAC\"]/text"
 msgstr ""
+"Vous atteignez l'emplacement étiqueté comme la \" prime bonus \". Comme prévu, un vaisseau de conception unique orbite autour de la balise, vous hélant dès qu'il détecte votre présence. Ses lumières commencent à attirer votre esprit, et vous pouvez à peine résister à son attrait. Il n'y a aucune légende attachée à ce vaisseau, ni aucune conception de coque que vous pourriez imaginer lui ressembler même de loin.\n"
+"\n"
+"\tL'être en charge du vaisseau commence à parler, les mots mêmes envoyant votre cerveau dans une douleur lancinante, des migraines se frayant un chemin à travers votre tête. \" ENFANT DE L'HOMME. NE RÉSISTEZ PAS À L'APPEL. \"\n"
+"\n"
+"\t\" SOUMETTEZ-VOUS. \"\n"
+"\n"
+"\tAvertissement : Ce vaisseau pourrait s'avérer extrêmement difficile, voire impossible, de nettoyer entièrement l'équipage de cet ennemi si vous n'avez pas de moyen fiable de contrôler mentalement, brûler et/ou étourdir les ennemis. N'hésitez pas à ignorer cet ennemi si vous n'êtes pas prêt."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:850
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_TRIRIAC\"]/choice[1]/text"
-msgstr "Préparez-vous au combat !"
+msgstr "Préparez-vous à combattre !"
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:852
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_TRIRIAC\"]/choice[1]/event/text"
 msgstr ""
-"Réalisant qu'il n'y a aucun moyen de sortir d'ici sans combat, vous allumez "
-"vos armes et engagez le vaisseau."
+"Réalisant qu'il n'y a pas d'issue sans combat, vous allumez vos armes et "
+"engagez le vaisseau."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:855
 msgid ""
@@ -1022,12 +1199,14 @@ msgstr ""
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:861
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_TRIRIAC\"]/choice[2]/text"
-msgstr ""
+msgstr "Reculez."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:863
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_TRIRIAC\"]/choice[2]/event/text"
 msgstr ""
+"Ce vaisseau est beaucoup trop puissant pour vous. Mieux vaut les laisser "
+"tranquilles."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:865
 msgid ""
@@ -1038,9 +1217,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_chaotic_tartarus.xml$//event[@name=\"FR_CHAOS_REVENANT_TRIRIAC_DEFEATED\"]/text"
 msgstr ""
-"Vous êtes également surpris de trouver une arme spéciale parmi l'épave ! Vous n'avez jamais rien vu de tel auparavant, vous supposez donc qu'il s'agit d'un modèle personnalisé fabriqué par les étranges êtres.\n"
-"\t\n"
-"\tL'étrange entité aux commandes commence à se manifester devant vous, et vous vous préparez à un assaut mental comme vous n'en avez jamais vu. Mais... cela ne vient pas, et l'être costaud se retire simplement dans les entrailles du vaisseau. Peut-être... travailleront-ils avec vous, pour l'instant."
+"Vous êtes également surpris de trouver une arme spéciale parmi l'épave ! Vous n'avez jamais rien vu de tel auparavant, vous supposez donc qu'il s'agit d'un modèle personnalisé créé par les étranges êtres.\n"
+"\t\t\n"
+"\tL'étrange entité aux commandes commence à se manifester devant vous, et vous vous préparez à un assaut mental sans précédent. Mais... il ne vient pas, et l'être costaud se retire simplement dans les entrailles du vaisseau. Peut-être... travailleront-ils avec vous, pour l'instant."
 
 #: src-en/data/events_fr_sector_chaotic_tartarus.xml:877
 msgid ""

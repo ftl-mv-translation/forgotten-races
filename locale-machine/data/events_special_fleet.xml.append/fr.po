@@ -10,24 +10,24 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Vance Prime) \" Halte, soldat ! Ici Vance Prime ! Abaissez les armes, "
-"coupez l'alimentation de vos armes ! \""
+"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Cessez le combat, coupez "
+"vos armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:7
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/event[1]/text"
 msgstr ""
-"\" C'est un honneur de vous rencontrer, monsieur ! Oui, nous allons nous "
-"retirer sur votre ordre ! \""
+"\" C'est un honneur de vous rencontrer, monsieur ! Oui, nous nous retirerons"
+" sur votre ordre ! \""
 
 #: src-en/data/events_special_fleet.xml.append:13
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/event[2]/text"
 msgstr ""
-"\" Vance Prime ! Monsieur, c'est un honneur de vous rencontrer ! Nous "
-"manquons de provisions, mais nous avons un peu trop de corps à bord ! \" Le "
+"\"Vance Prime ! Monsieur, c'est un honneur de vous rencontrer ! Nous "
+"manquons de provisions, mais nous avons un peu trop de corps à bord !\" Le "
 "Rebelle propose de rejoindre votre équipage."
 
 #: src-en/data/events_special_fleet.xml.append:19
@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Le capitaine Rebelle n'en croit pas ses yeux en voyant que votre vaisseau "
 "transporte le seul et unique Vance Prime ! Ils s'excusent rapidement et "
-"promettent de retarder la flotte autant que possible avant de s'éloigner."
+"promettent de retarder la flotte autant que possible avant de sauter."
 
 #: src-en/data/events_special_fleet.xml.append:26
 msgid ""
@@ -58,31 +58,24 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
-"La flotte est maintenant consciente de la trahison de Vance Prime et ne vous"
-" enverra plus de soldats qui écouteront."
+"La flotte est maintenant au courant de la trahison de Vance Prime et ne vous"
+" enverra aucun soldat qui l'écoutera."
 
 #: src-en/data/events_special_fleet.xml.append:39
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
-<<<<<<< Updated upstream
-=======
-"(Identification Forgée) Essayez de faire passer votre vaisseau pour un "
-"vaisseau Rebelle."
-
-#: src-en/data/events_special_fleet.xml.append:41
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
-"append:choice[3]/event[1]/text"
-msgstr "\" Quoi ? Vous nous prenez pour des idiots ? Votre carte est fausse ! \""
->>>>>>> Stashed changes
+"La flotte n'est plus composée que de sympathisants MFK, refusant même "
+"d'envisager de parler à Vance One."
 
 #: src-en/data/events_special_fleet.xml.append:43
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[4]/text"
 msgstr ""
+"(Vance One) \"Halte, soldat ! Ici Vance One ! Cessez le combat, coupez vos "
+"armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:45
 msgid ""
@@ -97,6 +90,9 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[4]/event[2]/text"
 msgstr ""
+"\"Vance One ! Monsieur, c'est un honneur de vous rencontrer ! Nous manquons "
+"de provisions, mais nous avons un peu trop de corps à bord !\" Le Rebelle "
+"propose de rejoindre votre équipage."
 
 #: src-en/data/events_special_fleet.xml.append:57
 msgid ""
@@ -105,13 +101,15 @@ msgid ""
 msgstr ""
 "Le capitaine Rebelle n'en croit pas ses yeux en voyant que votre vaisseau "
 "transporte le seul et unique Vance Prime ! Ils s'excusent rapidement et "
-"promettent de retarder la flotte autant que possible avant de s'enfuir."
+"promettent de retarder la flotte autant que possible avant de sauter."
 
 #: src-en/data/events_special_fleet.xml.append:64
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[4]/event[4]/text"
 msgstr ""
+"\" Nous savons ce que vous avez fait, Légionnaire ! Pas de pitié pour les "
+"traîtres ! \""
 
 #: src-en/data/events_special_fleet.xml.append:67
 msgid ""
@@ -124,8 +122,8 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[5]/text"
 msgstr ""
-"(Fausse identification) Tenter de faire passer votre vaisseau pour un "
-"Rebelle."
+"(Faux papiers) Tentez de faire passer votre vaisseau pour un vaisseau "
+"rebelle."
 
 #: src-en/data/events_special_fleet.xml.append:75
 msgid ""
@@ -146,33 +144,33 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[5]/event[2]/text"
 msgstr ""
-"Le capitaine rebelle examine la carte d'identité, puis hausse les épaules. "
-"\" Euh, d'accord. Fais attention gamin, il y a beaucoup d'espions de la "
-"Fédération là-bas. \""
+"Le capitaine rebelle examine la pièce d'identité, avant de hausser les "
+"épaules. \"Ehhh, d'accord. Fais attention gamin, il y a beaucoup d'espions "
+"de la Fédération là-bas.\""
 
 #: src-en/data/events_special_fleet.xml.append:90
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Vance Prime) \" Halte, soldat ! Ici Vance Prime ! Abaissez les armes, "
-"coupez l'alimentation de vos armes ! \""
+"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Cessez le combat, coupez "
+"vos armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:92
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/event[1]/text"
 msgstr ""
-"\" C'est un honneur de vous rencontrer, monsieur ! Oui, nous allons nous "
-"retirer sur votre ordre ! \""
+"\" C'est un honneur de vous rencontrer, monsieur ! Oui, nous nous retirerons"
+" sur votre ordre ! \""
 
 #: src-en/data/events_special_fleet.xml.append:98
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[1]/event[2]/text"
 msgstr ""
-"\" Vance Prime ! Monsieur, c'est un honneur de vous rencontrer ! Nous "
-"manquons de provisions, mais nous avons un peu trop de corps à bord ! \" Le "
+"\"Vance Prime ! Monsieur, c'est un honneur de vous rencontrer ! Nous "
+"manquons de provisions, mais nous avons un peu trop de corps à bord !\" Le "
 "Rebelle propose de rejoindre votre équipage."
 
 #: src-en/data/events_special_fleet.xml.append:104
@@ -182,7 +180,7 @@ msgid ""
 msgstr ""
 "Le capitaine Rebelle n'en croit pas ses yeux en voyant que votre vaisseau "
 "transporte le seul et unique Vance Prime ! Ils s'excusent rapidement et "
-"promettent de retarder la flotte autant que possible avant de s'éloigner."
+"promettent de retarder la flotte autant que possible avant de sauter."
 
 #: src-en/data/events_special_fleet.xml.append:111
 msgid ""
@@ -203,92 +201,24 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
-"La flotte est maintenant consciente de la trahison de Vance Prime et ne vous"
-" enverra plus de soldats qui écouteront."
+"La flotte est maintenant au courant de la trahison de Vance Prime et ne vous"
+" enverra aucun soldat qui l'écoutera."
 
 #: src-en/data/events_special_fleet.xml.append:124
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
-<<<<<<< Updated upstream
-=======
-"(Identification Forgée) Essayez de faire passer votre vaisseau pour un "
-"vaisseau Rebelle."
-
-#: src-en/data/events_special_fleet.xml.append:92
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
-"append:choice[3]/event[1]/text"
-msgstr "\" Quoi ? Vous nous prenez pour des idiots ? Votre carte est fausse ! \""
-
-#: src-en/data/events_special_fleet.xml.append:94
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
-"append:choice[3]/event[1]/choice/text"
-msgstr ""
-
-#: src-en/data/events_special_fleet.xml.append:99
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
-"append:choice[3]/event[2]/text"
-msgstr ""
-"Le capitaine rebelle examine la carte d'identité, puis hausse les épaules. "
-"\" Euh, d'accord. Fais attention gamin, il y a beaucoup d'espions de la "
-"Fédération là-bas. \""
-
-#: src-en/data/events_special_fleet.xml.append:107
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
-"append:choice[1]/text"
-msgstr ""
-"(Vance Prime) \" Halte, soldat ! Ici Vance Prime ! Abaissez les armes, "
-"coupez l'alimentation de vos armes ! \""
-
-#: src-en/data/events_special_fleet.xml.append:109
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
-"append:choice[1]/event[1]/text"
-msgstr ""
-"\" Bon sang... c'est Vance Prime ! D-désolé de vous avoir attaqué, "
-"monsieur... je ne sais pas pourquoi vous me dites d'arrêter, mais je vais le"
-" faire ! \""
-
-#: src-en/data/events_special_fleet.xml.append:115
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
-"append:choice[1]/event[2]/text"
-msgstr ""
-"\" Bon sang... c'est Vance Prime ! D-désolé de vous avoir attaqué, monsieur,"
-" je ferai tout ce qui est en mon pouvoir pour aider ! \""
-
-#: src-en/data/events_special_fleet.xml.append:122
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
-"append:choice[2]/text"
-msgstr ""
-"La flotte est maintenant consciente de la trahison de Vance Prime et ne vous"
-" enverra plus de soldats qui écouteront."
-
-#: src-en/data/events_special_fleet.xml.append:126
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
-"append:choice[3]/text"
-msgstr ""
-"(Identification Forgée) Essayez de faire passer votre vaisseau pour un "
-"vaisseau Rebelle."
->>>>>>> Stashed changes
+"La flotte n'est plus composée que de sympathisants MFK, refusant même "
+"d'envisager de parler à Vance One."
 
 #: src-en/data/events_special_fleet.xml.append:128
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[4]/text"
 msgstr ""
-<<<<<<< Updated upstream
-=======
-"\" Quoi ? Vous nous prenez pour des idiots ? Nous voyons bien quand vous "
-"essayez de nous tromper, petit rat ! \""
->>>>>>> Stashed changes
+"(Vance One) \"Halte, soldat ! Ici Vance One ! Cessez le combat, coupez vos "
+"armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:130
 msgid ""
@@ -303,59 +233,40 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[4]/event[2]/text"
 msgstr ""
+"\"Vance One ! Monsieur, c'est un honneur de vous rencontrer ! Nous manquons "
+"de provisions, mais nous avons un peu trop de corps à bord !\" Le Rebelle "
+"propose de rejoindre votre équipage."
 
 #: src-en/data/events_special_fleet.xml.append:142
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[4]/event[3]/text"
 msgstr ""
-<<<<<<< Updated upstream
 "Le capitaine Rebelle n'en croit pas ses yeux en voyant que votre vaisseau "
 "transporte le seul et unique Vance Prime ! Ils s'excusent rapidement et "
-"promettent de retarder la flotte autant que possible avant de s'enfuir."
-=======
-"(Vance Prime) \" Halte, soldat ! Ici Vance Prime ! Abaissez les armes, "
-"coupez l'alimentation de vos armes ! \""
->>>>>>> Stashed changes
+"promettent de retarder la flotte autant que possible avant de sauter."
 
 #: src-en/data/events_special_fleet.xml.append:149
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[4]/event[4]/text"
 msgstr ""
-<<<<<<< Updated upstream
-=======
-"\" Bon sang... c'est Vance Prime ! D-désolé de vous avoir attaqué, "
-"monsieur... je ne sais pas pourquoi vous me dites d'arrêter, mais je vais le"
-" faire ! \""
->>>>>>> Stashed changes
+"\" Nous savons ce que vous avez fait, Légionnaire ! Pas de pitié pour les "
+"traîtres ! \""
 
 #: src-en/data/events_special_fleet.xml.append:152
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[4]/event[4]/choice/text"
 msgstr ""
-<<<<<<< Updated upstream
-=======
-"\" Bon sang... c'est Vance Prime ! D-désolé de vous avoir attaqué, monsieur,"
-" je ferai tout ce qui est en mon pouvoir pour aider ! \""
-
-#: src-en/data/events_special_fleet.xml.append:154
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
-"append:choice[2]/text"
-msgstr ""
-"La flotte est maintenant consciente de la trahison de Vance Prime et ne vous"
-" enverra plus de soldats qui écouteront."
->>>>>>> Stashed changes
 
 #: src-en/data/events_special_fleet.xml.append:158
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[5]/text"
 msgstr ""
-"(Identification Forgée) Essayez de faire passer votre vaisseau pour un "
-"vaisseau Rebelle."
+"(Faux papiers) Tentez de faire passer votre vaisseau pour un vaisseau "
+"rebelle."
 
 #: src-en/data/events_special_fleet.xml.append:160
 msgid ""
@@ -376,24 +287,24 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ELITE_FEDERATION\"]/mod-"
 "append:choice[5]/event[2]/text"
 msgstr ""
-"Le capitaine rebelle examine la carte d'identité, puis hausse les épaules. "
-"\"Ehhh, bien sûr. Fais attention, gamin, il y a beaucoup d'espions de la "
-"Fédération là-bas\"."
+"Le capitaine rebelle examine la pièce d'identité, avant de hausser les "
+"épaules. \"Ehhh, d'accord. Fais attention gamin, il y a beaucoup d'espions "
+"de la Fédération là-bas.\""
 
 #: src-en/data/events_special_fleet.xml.append:175
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Rendez-vous, éteignez vos "
-"armes !\""
+"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Cessez le combat, coupez "
+"vos armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:177
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/event[1]/text"
 msgstr ""
-"\"Nom d'un chien... c'est Vance Prime ! D-désolé de vous avoir attaqué, "
+"\"Nom d'une pipe... c'est Vance Prime ! D-désolé de vous avoir attaqué, "
 "monsieur... Je ne sais pas pourquoi vous me dites d'arrêter, mais je vais le"
 " faire !\""
 
@@ -402,15 +313,15 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/event[2]/text"
 msgstr ""
-"\"Nom d'un chien... c'est Vance Prime ! D-désolé de vous avoir attaqué, "
-"monsieur, je ferai tout ce que je peux pour aider !\""
+"\"Nom d'une pipe... c'est Vance Prime ! D-désolé de vous avoir attaqué, "
+"monsieur, je ferai tout mon possible pour vous aider !\""
 
 #: src-en/data/events_special_fleet.xml.append:190
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
-"La flotte est maintenant consciente de la trahison de Vance Prime et ne vous"
+"La flotte est maintenant au courant de la trahison de Vance Prime et ne vous"
 " enverra aucun soldat qui l'écoutera."
 
 #: src-en/data/events_special_fleet.xml.append:194
@@ -418,18 +329,22 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
+"La flotte n'est plus composée que de sympathisants MFK, refusant même "
+"d'envisager de parler à Vance One."
 
 #: src-en/data/events_special_fleet.xml.append:198
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[4]/text"
 msgstr ""
+"(Vance One) \"Halte, soldat ! Ici Vance One ! Cessez le combat, coupez vos "
+"armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:200
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[4]/event/text"
-msgstr ""
+msgstr "\"Vous nous prenez pour des idiots ?! Mort aux Légionnaires traîtres !\""
 
 #: src-en/data/events_special_fleet.xml.append:203
 msgid ""
@@ -442,130 +357,21 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[5]/text"
 msgstr ""
-"(Fausse identification) Tenter de faire passer votre vaisseau pour un "
-"Rebelle."
+"(Faux papiers) Tentez de faire passer votre vaisseau pour un vaisseau "
+"rebelle."
 
 #: src-en/data/events_special_fleet.xml.append:211
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[5]/event/text"
 msgstr ""
-"\" Quoi ? Vous nous prenez pour des idiots ? Nous voyons bien quand vous "
-"essayez de nous tromper, petit rat ! \""
+"\"Quoi ? Vous nous prenez pour des idiots ? Nous savons quand vous essayez "
+"de nous tromper, petite ordure !\""
 
-<<<<<<< Updated upstream
 #: src-en/data/events_special_fleet.xml.append:213
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FINISH_BEACON_FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[5]/event/choice/text"
-=======
-#: src-en/data/events_special_fleet.xml.append:162
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
-"append:choice[3]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events_special_fleet.xml.append:171
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
-"append:choice[1]/text"
-msgstr ""
-"(Vance Prime) \" Halte, soldat ! Ici Vance Prime ! Abaissez les armes, "
-"coupez l'alimentation de vos armes ! \""
-
-#: src-en/data/events_special_fleet.xml.append:173
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
-"append:choice[1]/event/text"
-msgstr ""
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans hésiter, l'Amiral donne un coup"
-" de pied au gnome dans un coin, le faisant taire pour l'instant, et exige "
-"que la flotte vous laisse passer."
-
-#: src-en/data/events_special_fleet.xml.append:181
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
-"append:choice[2]/text"
-msgstr ""
-"Le gnome semble brouiller vos communications. Vous ne pouvez pas contacter "
-"la flotte."
-
-#: src-en/data/events_special_fleet.xml.append:185
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
-"append:choice[3]/text"
-msgstr ""
-"(Identification Forgée) Essayez de faire passer votre vaisseau pour un "
-"vaisseau Rebelle."
-
-#: src-en/data/events_special_fleet.xml.append:187
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
-"append:choice[3]/event/text"
-msgstr ""
-"Alors que vous remettez votre carte d'identité, le gnome hurle, transformant"
-" les données de votre carte en une série de symboles cognito-dangereux. Le "
-"Rebelle s'affaisse en arrière, ses yeux complètement noirs, laissant "
-"échapper des litres de sang de sa bouche tandis que les autres Rebelles "
-"horrifiés se mettent en position de combat !"
-
-#: src-en/data/events_special_fleet.xml.append:190
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
-"append:choice[3]/event/choice/text"
-msgstr ""
-
-#: src-en/data/events_special_fleet.xml.append:199
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS\"]/mod-"
-"append:choice[1]/text"
-msgstr ""
-"(Vance Prime) \" Halte, soldat ! Ici Vance Prime ! Abaissez les armes, "
-"coupez l'alimentation de vos armes ! \""
-
-#: src-en/data/events_special_fleet.xml.append:201
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS\"]/mod-"
-"append:choice[1]/event/text"
-msgstr ""
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans hésiter, l'Amiral donne un coup"
-" de pied au gnome dans un coin, le faisant taire pour l'instant, et exige "
-"que la flotte vous laisse passer."
-
-#: src-en/data/events_special_fleet.xml.append:209
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS\"]/mod-"
-"append:choice[2]/text"
-msgstr ""
-"Le gnome semble brouiller vos communications. Vous ne pouvez pas contacter "
-"la flotte."
-
-#: src-en/data/events_special_fleet.xml.append:213
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS\"]/mod-"
-"append:choice[3]/text"
-msgstr ""
-"(Identification Forgée) Essayez de faire passer votre vaisseau pour un "
-"vaisseau Rebelle."
-
-#: src-en/data/events_special_fleet.xml.append:215
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS\"]/mod-"
-"append:choice[3]/event/text"
-msgstr ""
-"Alors que vous remettez votre carte d'identité, le gnome hurle, transformant"
-" les données de votre carte en une série de symboles cognito-dangereux. Le "
-"Rebelle s'affaisse en arrière, ses yeux complètement noirs, laissant "
-"échapper des litres de sang de sa bouche tandis que les autres Rebelles "
-"horrifiés se mettent en position de combat !"
-
-#: src-en/data/events_special_fleet.xml.append:217
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS\"]/mod-"
-"append:choice[3]/event/choice/text"
->>>>>>> Stashed changes
 msgstr ""
 
 #: src-en/data/events_special_fleet.xml.append:222
@@ -573,39 +379,32 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Vance Prime) \" Halte, soldat ! Ici Vance Prime ! Abaissez les armes, "
-"coupez l'alimentation de vos armes ! \""
+"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Cessez le combat, coupez "
+"vos armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:224
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/event[1]/text"
 msgstr ""
-<<<<<<< Updated upstream
-"\"Nom d'un chien... c'est Vance Prime ! D-désolé de vous avoir attaqué, "
+"\"Nom d'une pipe... c'est Vance Prime ! D-désolé de vous avoir attaqué, "
 "monsieur... Je ne sais pas pourquoi vous me dites d'arrêter, mais je vais le"
 " faire !\""
-=======
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans hésiter, l'Amiral donne un coup"
-" de pied au gnome dans un coin, le faisant taire pour l'instant, et exige "
-"que la flotte vous laisse passer."
->>>>>>> Stashed changes
 
 #: src-en/data/events_special_fleet.xml.append:230
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[1]/event[2]/text"
 msgstr ""
-"\"Nom d'un chien... c'est Vance Prime ! D-désolé de vous avoir attaqué, "
-"monsieur, je ferai tout ce que je peux pour aider !\""
+"\"Nom d'une pipe... c'est Vance Prime ! D-désolé de vous avoir attaqué, "
+"monsieur, je ferai tout mon possible pour vous aider !\""
 
 #: src-en/data/events_special_fleet.xml.append:237
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
-"La flotte est maintenant consciente de la trahison de Vance Prime et ne vous"
+"La flotte est maintenant au courant de la trahison de Vance Prime et ne vous"
 " enverra aucun soldat qui l'écoutera."
 
 #: src-en/data/events_special_fleet.xml.append:241
@@ -613,19 +412,22 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
-<<<<<<< Updated upstream
+"La flotte n'est plus composée que de sympathisants MFK, refusant même "
+"d'envisager de parler à Vance One."
 
 #: src-en/data/events_special_fleet.xml.append:245
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[4]/text"
 msgstr ""
+"(Vance One) \"Halte, soldat ! Ici Vance One ! Cessez le combat, coupez vos "
+"armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:247
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[4]/event/text"
-msgstr ""
+msgstr "\"Vous nous prenez pour des idiots ?! Mort aux Légionnaires traîtres !\""
 
 #: src-en/data/events_special_fleet.xml.append:250
 msgid ""
@@ -638,28 +440,16 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[5]/text"
 msgstr ""
-"(Fausse identification) Tenter de faire passer votre vaisseau pour un "
-"Rebelle."
-=======
-"(Identification Forgée) Essayez de faire passer votre vaisseau pour un "
-"vaisseau Rebelle."
->>>>>>> Stashed changes
+"(Faux papiers) Tentez de faire passer votre vaisseau pour un vaisseau "
+"rebelle."
 
 #: src-en/data/events_special_fleet.xml.append:258
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_ACE_FEDERATION\"]/mod-"
 "append:choice[5]/event/text"
 msgstr ""
-<<<<<<< Updated upstream
 "\"Quoi ? Vous nous prenez pour des idiots ? Nous savons quand vous essayez "
-"de nous tromper, petit rat !\""
-=======
-"Alors que vous remettez votre carte d'identité, le gnome hurle, transformant"
-" les données de votre carte en une série de symboles cognito-dangereux. Le "
-"Rebelle s'affaisse en arrière, ses yeux complètement noirs, laissant "
-"échapper des litres de sang de sa bouche tandis que les autres Rebelles "
-"horrifiés se mettent en position de combat !"
->>>>>>> Stashed changes
+"de nous tromper, petite ordure !\""
 
 #: src-en/data/events_special_fleet.xml.append:260
 msgid ""
@@ -667,60 +457,23 @@ msgid ""
 "append:choice[5]/event/choice/text"
 msgstr ""
 
-<<<<<<< Updated upstream
-=======
-#: src-en/data/events_special_fleet.xml.append:253
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS_FLAGSHIP\"]/mod-"
-"append:choice[1]/text"
-msgstr ""
-"(Vance Prime) \" Halte, soldat ! Ici Vance Prime ! Abaissez les armes, "
-"coupez l'alimentation de vos armes ! \""
-
-#: src-en/data/events_special_fleet.xml.append:255
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS_FLAGSHIP\"]/mod-"
-"append:choice[1]/event/text"
-msgstr ""
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans hésiter, l'Amiral donne un coup"
-" de pied au gnome dans un coin, le faisant taire pour l'instant, et exige "
-"que la flotte vous laisse passer."
-
-#: src-en/data/events_special_fleet.xml.append:263
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS_FLAGSHIP\"]/mod-"
-"append:choice[2]/text"
-msgstr ""
-"Le gnome semble brouiller vos communications. Vous ne pouvez pas contacter "
-"la flotte."
-
-#: src-en/data/events_special_fleet.xml.append:267
-msgid ""
-"data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_FLEET_CHAOS_FLAGSHIP\"]/mod-"
-"append:choice[3]/text"
-msgstr ""
-"(Identification Forgée) Essayez de faire passer votre vaisseau pour un "
-"vaisseau Rebelle."
-
->>>>>>> Stashed changes
 #: src-en/data/events_special_fleet.xml.append:269
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Rendez-vous, éteignez vos "
-"armes !\""
+"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Cessez le combat, coupez "
+"vos armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:271
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans perdre un instant, l'Amiral "
-"envoie le gnome dans un coin, le faisant taire pour l'instant, et exige que "
-"la flotte vous laisse passer."
+"Alors que Vance tente de héler la flotte, le gnome se met à hurler, tentant "
+"de noyer vos communications. Sans hésiter, l'Amiral envoie le gnome dans un "
+"coin, le faisant taire pour l'instant, et exige que la flotte vous laisse "
+"passer."
 
 #: src-en/data/events_special_fleet.xml.append:279
 msgid ""
@@ -735,16 +488,18 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
+"(Vance One) \"Halte, soldat ! Ici Vance One ! Cessez le combat, coupez vos "
+"armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:285
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans perdre un instant, l'Amiral "
-"envoie le gnome dans un coin, le faisant taire pour l'instant, et exige que "
-"la flotte vous laisse passer."
+"Alors que Vance tente de héler la flotte, le gnome se met à hurler, tentant "
+"de noyer vos communications. Sans hésiter, l'Amiral envoie le gnome dans un "
+"coin, le faisant taire pour l'instant, et exige que la flotte vous laisse "
+"passer."
 
 #: src-en/data/events_special_fleet.xml.append:293
 msgid ""
@@ -759,8 +514,8 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS\"]/mod-"
 "append:choice[5]/text"
 msgstr ""
-"(Fausse identification) Tenter de faire passer votre vaisseau pour un "
-"Rebelle."
+"(Faux papiers) Tentez de faire passer votre vaisseau pour un vaisseau "
+"rebelle."
 
 #: src-en/data/events_special_fleet.xml.append:299
 msgid ""
@@ -769,9 +524,9 @@ msgid ""
 msgstr ""
 "Alors que vous remettez votre carte d'identité, le gnome hurle, transformant"
 " les données de votre carte en une série de symboles cognito-dangereux. Le "
-"Rebelle s'affaisse en arrière, ses yeux complètement noirs, laissant "
-"échapper des litres de sang de sa bouche tandis que les autres Rebelles "
-"horrifiés se mettent en position de combat !"
+"Rebelle s'affaisse, les yeux complètement noirs, laissant couler des litres "
+"de sang de sa bouche tandis que les autres Rebelles horrifiés se mettent en "
+"position de combat !"
 
 #: src-en/data/events_special_fleet.xml.append:302
 msgid ""
@@ -784,18 +539,18 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_LIGHT_FLEET_CHAOS\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Rendez-vous, éteignez vos "
-"armes !\""
+"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Cessez le combat, coupez "
+"vos armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:313
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_LIGHT_FLEET_CHAOS\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans perdre un instant, l'Amiral "
-"envoie le gnome dans un coin, le faisant taire pour l'instant, et exige que "
-"la flotte vous laisse passer."
+"Alors que Vance tente de héler la flotte, le gnome se met à hurler, tentant "
+"de noyer vos communications. Sans hésiter, l'Amiral envoie le gnome dans un "
+"coin, le faisant taire pour l'instant, et exige que la flotte vous laisse "
+"passer."
 
 #: src-en/data/events_special_fleet.xml.append:321
 msgid ""
@@ -810,16 +565,18 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_LIGHT_FLEET_CHAOS\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
+"(Vance One) \"Halte, soldat ! Ici Vance One ! Cessez le combat, coupez vos "
+"armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:327
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_LIGHT_FLEET_CHAOS\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans perdre un instant, l'Amiral "
-"envoie le gnome dans un coin, le faisant taire pour l'instant, et exige que "
-"la flotte vous laisse passer."
+"Alors que Vance tente de héler la flotte, le gnome se met à hurler, tentant "
+"de noyer vos communications. Sans hésiter, l'Amiral envoie le gnome dans un "
+"coin, le faisant taire pour l'instant, et exige que la flotte vous laisse "
+"passer."
 
 #: src-en/data/events_special_fleet.xml.append:335
 msgid ""
@@ -834,8 +591,8 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_LIGHT_FLEET_CHAOS\"]/mod-"
 "append:choice[5]/text"
 msgstr ""
-"(Fausse identification) Tenter de faire passer votre vaisseau pour un "
-"Rebelle."
+"(Faux papiers) Tentez de faire passer votre vaisseau pour un vaisseau "
+"rebelle."
 
 #: src-en/data/events_special_fleet.xml.append:341
 msgid ""
@@ -844,9 +601,9 @@ msgid ""
 msgstr ""
 "Alors que vous remettez votre carte d'identité, le gnome hurle, transformant"
 " les données de votre carte en une série de symboles cognito-dangereux. Le "
-"Rebelle s'effondre, les yeux complètement noirs, laissant échapper des "
-"litres de sang de sa bouche tandis que les autres Rebelles horrifiés se "
-"mettent en position de combat !"
+"Rebelle s'affaisse, les yeux complètement noirs, laissant couler des litres "
+"de sang de sa bouche tandis que les autres Rebelles horrifiés se mettent en "
+"position de combat !"
 
 #: src-en/data/events_special_fleet.xml.append:343
 msgid ""
@@ -859,18 +616,18 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Rendez-vous, éteignez vos "
-"armes !\""
+"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Cessez le combat, coupez "
+"vos armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:354
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans perdre un instant, l'Amiral "
-"envoie le gnome dans un coin, le faisant taire pour l'instant, et exige que "
-"la flotte vous laisse passer."
+"Alors que Vance tente de héler la flotte, le gnome se met à hurler, tentant "
+"de noyer vos communications. Sans hésiter, l'Amiral envoie le gnome dans un "
+"coin, le faisant taire pour l'instant, et exige que la flotte vous laisse "
+"passer."
 
 #: src-en/data/events_special_fleet.xml.append:362
 msgid ""
@@ -885,16 +642,18 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
+"(Vance One) \"Halte, soldat ! Ici Vance One ! Cessez le combat, coupez vos "
+"armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:368
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans perdre un instant, l'Amiral "
-"envoie le gnome dans un coin, le faisant taire pour l'instant, et exige que "
-"la flotte vous laisse passer."
+"Alors que Vance tente de héler la flotte, le gnome se met à hurler, tentant "
+"de noyer vos communications. Sans hésiter, l'Amiral envoie le gnome dans un "
+"coin, le faisant taire pour l'instant, et exige que la flotte vous laisse "
+"passer."
 
 #: src-en/data/events_special_fleet.xml.append:376
 msgid ""
@@ -909,8 +668,8 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[5]/text"
 msgstr ""
-"(Fausse identification) Tenter de faire passer votre vaisseau pour un "
-"Rebelle."
+"(Faux papiers) Tentez de faire passer votre vaisseau pour un vaisseau "
+"rebelle."
 
 #: src-en/data/events_special_fleet.xml.append:382
 msgid ""
@@ -919,9 +678,9 @@ msgid ""
 msgstr ""
 "Alors que vous remettez votre carte d'identité, le gnome hurle, transformant"
 " les données de votre carte en une série de symboles cognito-dangereux. Le "
-"Rebelle s'effondre, les yeux complètement noirs, laissant échapper des "
-"litres de sang de sa bouche tandis que les autres Rebelles horrifiés se "
-"mettent en position de combat !"
+"Rebelle s'affaisse, les yeux complètement noirs, laissant couler des litres "
+"de sang de sa bouche tandis que les autres Rebelles horrifiés se mettent en "
+"position de combat !"
 
 #: src-en/data/events_special_fleet.xml.append:384
 msgid ""
@@ -934,18 +693,18 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_LIGHT_FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
-"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Rendez-vous, éteignez vos "
-"armes !\""
+"(Vance Prime) \"Halte, soldat ! Ici Vance Prime ! Cessez le combat, coupez "
+"vos armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:395
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_LIGHT_FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans perdre un instant, l'Amiral "
-"envoie le gnome dans un coin, le faisant taire pour l'instant, et exige que "
-"la flotte vous laisse passer."
+"Alors que Vance tente de héler la flotte, le gnome se met à hurler, tentant "
+"de noyer vos communications. Sans hésiter, l'Amiral envoie le gnome dans un "
+"coin, le faisant taire pour l'instant, et exige que la flotte vous laisse "
+"passer."
 
 #: src-en/data/events_special_fleet.xml.append:403
 msgid ""
@@ -960,16 +719,18 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_LIGHT_FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
+"(Vance One) \"Halte, soldat ! Ici Vance One ! Cessez le combat, coupez vos "
+"armes !\""
 
 #: src-en/data/events_special_fleet.xml.append:409
 msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_LIGHT_FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
-"Alors que Vance tente de contacter la flotte, le gnome se met à hurler, "
-"essayant de couvrir vos communications. Sans perdre un instant, l'Amiral "
-"envoie le gnome dans un coin, le faisant taire pour l'instant, et exige que "
-"la flotte vous laisse passer."
+"Alors que Vance tente de héler la flotte, le gnome se met à hurler, tentant "
+"de noyer vos communications. Sans hésiter, l'Amiral envoie le gnome dans un "
+"coin, le faisant taire pour l'instant, et exige que la flotte vous laisse "
+"passer."
 
 #: src-en/data/events_special_fleet.xml.append:417
 msgid ""
@@ -984,8 +745,8 @@ msgid ""
 "data/events_special_fleet.xml.append$//mod:findName[@name=\"NEBULA_LIGHT_FLEET_CHAOS_FLAGSHIP\"]/mod-"
 "append:choice[5]/text"
 msgstr ""
-"(Fausse identification) Tenter de faire passer votre vaisseau pour un "
-"Rebelle."
+"(Faux papiers) Tentez de faire passer votre vaisseau pour un vaisseau "
+"rebelle."
 
 #: src-en/data/events_special_fleet.xml.append:423
 msgid ""
@@ -994,9 +755,9 @@ msgid ""
 msgstr ""
 "Alors que vous remettez votre carte d'identité, le gnome hurle, transformant"
 " les données de votre carte en une série de symboles cognito-dangereux. Le "
-"Rebelle s'effondre, les yeux complètement noirs, laissant échapper des "
-"litres de sang de sa bouche tandis que les autres Rebelles horrifiés se "
-"mettent en position de combat !"
+"Rebelle s'affaisse, les yeux complètement noirs, laissant couler des litres "
+"de sang de sa bouche tandis que les autres Rebelles horrifiés se mettent en "
+"position de combat !"
 
 #: src-en/data/events_special_fleet.xml.append:425
 msgid ""

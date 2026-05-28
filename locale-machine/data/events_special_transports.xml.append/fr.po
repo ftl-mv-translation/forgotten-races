@@ -24,17 +24,14 @@ msgstr "Un emplacement non visité."
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/text"
 msgstr ""
-<<<<<<< Updated upstream
-=======
-"Cette balise abrite un transport du Commonwealth. Il est sûr de parier que "
-"le vaisseau transporte probablement de la technologie Éther. Si vous "
-"parvenez à tuer son équipage, leur cargaison sera à vous."
->>>>>>> Stashed changes
+"Cette balise héberge un transporteur du Commonwealth. Il y a fort à parier "
+"que le vaisseau transporte de la technologie Éther. Si vous pouvez tuer son "
+"équipage, sa cargaison sera vôtre."
 
 #: src-en/data/events_special_transports.xml.append:22
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[1]/text"
-msgstr "Exiger la reddition de leurs biens."
+msgstr "Exiger la remise de leurs biens."
 
 #: src-en/data/events_special_transports.xml.append:24
 msgid ""
@@ -49,17 +46,17 @@ msgstr ""
 #: src-en/data/events_special_transports.xml.append:33
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[@req=\"FR_COMMONWEALTH_CREW_MORAL\"]/text"
-msgstr "(Équipage du Commonwealth + Bonne Réputation) Parler au transport."
+msgstr "(Équipage du Commonwealth + Bonne réputation) Parler au transporteur."
 
 #: src-en/data/events_special_transports.xml.append:35
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[@req=\"FR_COMMONWEALTH_CREW_MORAL\"]/event/text"
 msgstr ""
-"Votre équipage parle au capitaine du transport, expliquant l'importance de "
-"votre mission. Le capitaine du transport semble comprendre, mais mentionne "
-"également que la cargaison qu'ils transportent est vitale pour cette même "
-"mission. Si vous êtes prêt à payer une compensation, ils sont prêts à faire "
-"une exception."
+"Votre équipage s'adresse au capitaine du transporteur, expliquant "
+"l'importance de votre mission. Le capitaine du transporteur semble "
+"comprendre, mais mentionne également que la cargaison qu'ils transportent "
+"est vitale pour cette même mission. Si vous êtes prêt à payer une "
+"compensation, ils sont prêts à faire une exception."
 
 #: src-en/data/events_special_transports.xml.append:37
 msgid ""
@@ -70,8 +67,8 @@ msgstr "Acheter la cargaison."
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[@req=\"FR_COMMONWEALTH_CREW_MORAL\"]/event/choice[1]/event/text"
 msgstr ""
-"La transaction est effectuée. D'après les apparences, cette pièce "
-"d'équipement pourrait s'avérer utile."
+"La transaction est effectuée. D'après les apparences, cet équipement "
+"pourrait s'avérer utile."
 
 #: src-en/data/events_special_transports.xml.append:46
 msgid ""
@@ -81,7 +78,7 @@ msgstr ""
 #: src-en/data/events_special_transports.xml.append:54
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[@req=\"FR_COMMONWEALTH_CREW_MORAL\"]/event/choice[2]/text"
-msgstr "Refuser et attaquer le transport."
+msgstr "Refuser et attaquer le transporteur."
 
 #: src-en/data/events_special_transports.xml.append:56
 msgid ""
@@ -96,12 +93,12 @@ msgstr ""
 #: src-en/data/events_special_transports.xml.append:65
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[@req=\"FR_COMMONWEALTH_CREW_MORAL\"]/event/choice[3]/text"
-msgstr "Peu importe."
+msgstr "Tant pis."
 
 #: src-en/data/events_special_transports.xml.append:67
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[@req=\"FR_COMMONWEALTH_CREW_MORAL\"]/event/choice[3]/event/text"
-msgstr "Le capitaine du transport hausse les épaules et continue sa route."
+msgstr "Le capitaine du transporteur hausse les épaules et poursuit sa route."
 
 #: src-en/data/events_special_transports.xml.append:69
 msgid ""
@@ -121,7 +118,7 @@ msgstr "Éviter le vaisseau."
 #: src-en/data/events_special_transports.xml.append:83
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH\"]/choice[3]/event/text"
-msgstr "Ils restent hors de portée de vos armes, et finissent par sauter."
+msgstr "Ils restent hors de portée de vos armes et finissent par sauter."
 
 #: src-en/data/events_special_transports.xml.append:85
 msgid ""
@@ -137,7 +134,10 @@ msgstr ""
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_COMMONWEALTH_CAPTURE\"]/text"
 msgstr ""
-<<<<<<< Updated upstream
+"L'équipage est mort, vous laissant le vaisseau. Sa cargaison est vôtre. En "
+"cherchant des armes ou des drones, vous tombez cependant sur un étrange "
+"bouclier énergétique capable de se cumuler avec d'autres formes de boucliers"
+" énergétiques."
 
 #: src-en/data/events_special_transports.xml.append:119
 msgid ""
@@ -164,11 +164,15 @@ msgstr "Un emplacement non visité."
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/text"
 msgstr ""
+"Cette balise héberge un transporteur MFK Rebel Ace flanqué d'une flotte MFK,"
+" bien que, heureusement, la flotte ne semble pas vous remarquer ou s'en "
+"soucier. Il y a fort à parier que le vaisseau transporte une technologie "
+"spéciale. Si vous pouvez tuer son équipage, sa cargaison sera vôtre."
 
 #: src-en/data/events_special_transports.xml.append:142
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_REBEL\"]/choice[1]/text"
-msgstr "Exiger la reddition de leurs biens."
+msgstr "Exiger la remise de leurs biens."
 
 #: src-en/data/events_special_transports.xml.append:144
 msgid ""
@@ -204,6 +208,9 @@ msgstr ""
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_CAPTURE_REBEL\"]/text"
 msgstr ""
+"L'équipage est mort, vous laissant le vaisseau. Sa cargaison est vôtre. À "
+"bord se trouve la technologie spéciale que vous attendiez, que vous ramenez "
+"à votre vaisseau."
 
 #: src-en/data/events_special_transports.xml.append:178
 msgid ""
@@ -230,11 +237,16 @@ msgstr "Un emplacement non visité."
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/text"
 msgstr ""
+"Cette balise héberge un transporteur de la Coalition E.E.U.R. flanqué d'une "
+"flotte E.E.U.R., bien que, heureusement, la flotte ne semble pas vous "
+"remarquer ou s'en soucier. Il y a fort à parier que le vaisseau transporte "
+"très probablement une technologie spéciale. Si vous pouvez tuer son "
+"équipage, sa cargaison sera vôtre."
 
 #: src-en/data/events_special_transports.xml.append:197
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[1]/text"
-msgstr "Exiger la reddition de leurs biens."
+msgstr "Exiger la remise de leurs biens."
 
 #: src-en/data/events_special_transports.xml.append:199
 msgid ""
@@ -254,7 +266,7 @@ msgstr "Éviter le vaisseau."
 #: src-en/data/events_special_transports.xml.append:211
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_COALITION\"]/choice[2]/event/text"
-msgstr ""
+msgstr "Ils restent hors de portée de vos armes et finissent par sauter."
 
 #: src-en/data/events_special_transports.xml.append:213
 msgid ""
@@ -270,6 +282,9 @@ msgstr ""
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_CAPTURE_COALITION\"]/text"
 msgstr ""
+"L'équipage est mort, vous laissant le vaisseau. Sa cargaison est vôtre. À "
+"bord se trouve la technologie spéciale que vous attendiez, que vous ramenez "
+"à votre vaisseau."
 
 #: src-en/data/events_special_transports.xml.append:234
 msgid ""
@@ -296,11 +311,15 @@ msgstr "Un emplacement non visité."
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/text"
 msgstr ""
+"Cette balise héberge un transporteur Élite de la Fédération flanqué d'une "
+"flotte Élite de la Fédération. Il y a fort à parier que le vaisseau "
+"transporte très probablement une technologie spéciale. Si vous pouvez tuer "
+"son équipage, sa cargaison sera vôtre."
 
 #: src-en/data/events_special_transports.xml.append:253
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[1]/text"
-msgstr "Exiger la reddition de leurs biens."
+msgstr "Exiger la remise de leurs biens."
 
 #: src-en/data/events_special_transports.xml.append:255
 msgid ""
@@ -315,12 +334,17 @@ msgstr ""
 #: src-en/data/events_special_transports.xml.append:264
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/text"
-msgstr ""
+msgstr "(Fédération Élite + Bonne réputation) Parler au transporteur."
 
 #: src-en/data/events_special_transports.xml.append:266
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/text"
 msgstr ""
+"Votre équipage s'adresse au capitaine du transporteur, expliquant "
+"l'importance de votre mission. Le capitaine du transporteur semble "
+"comprendre, mais mentionne également que la cargaison qu'ils transportent "
+"est vitale pour cette même mission. Si vous êtes prêt à payer une "
+"compensation, ils sont prêts à faire une exception."
 
 #: src-en/data/events_special_transports.xml.append:268
 msgid ""
@@ -331,8 +355,8 @@ msgstr "Acheter la cargaison."
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[1]/event/text"
 msgstr ""
-"La transaction est effectuée. Apparemment, cette pièce d'équipement pourrait"
-" s'avérer utile."
+"La transaction est effectuée. D'après les apparences, cet équipement "
+"pourrait s'avérer utile."
 
 #: src-en/data/events_special_transports.xml.append:277
 msgid ""
@@ -342,7 +366,7 @@ msgstr ""
 #: src-en/data/events_special_transports.xml.append:285
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[2]/text"
-msgstr "Refuser et attaquer le transport."
+msgstr "Refuser et attaquer le transporteur."
 
 #: src-en/data/events_special_transports.xml.append:287
 msgid ""
@@ -362,7 +386,7 @@ msgstr "Tant pis."
 #: src-en/data/events_special_transports.xml.append:298
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_FEDERATION\"]/choice[@req=\"FEDERATION_CREW_MORAL\"]/event/choice[3]/event/text"
-msgstr "Le capitaine du transport hausse les épaules et poursuit son chemin."
+msgstr "Le capitaine du transporteur hausse les épaules et poursuit sa route."
 
 #: src-en/data/events_special_transports.xml.append:300
 msgid ""
@@ -398,9 +422,6 @@ msgstr ""
 msgid ""
 "data/events_special_transports.xml.append$//event[@name=\"FR_TRANSPORT_WARZONE_CAPTURE_FEDERATION\"]/text"
 msgstr ""
-=======
-"L'équipage est mort, vous laissant avec le vaisseau. Sa cargaison est à "
-"vous. Cependant, en fouillant pour des armes ou des drones, vous tombez sur "
-"une étrange technologie de bouclier d'énergie capable de se cumuler avec "
-"d'autres formes de boucliers d'énergie."
->>>>>>> Stashed changes
+"L'équipage est mort, vous laissant le vaisseau. Sa cargaison est vôtre. À "
+"bord se trouve la technologie spéciale que vous attendiez, que vous ramenez "
+"à votre vaisseau."
