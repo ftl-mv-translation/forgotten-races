@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-03 17:55+0000\n"
+"PO-Revision-Date: 2026-06-05 12:16+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datatext_miscxmlappend/ru/>\n"
@@ -54,28 +54,28 @@ msgstr "#МЕСТОПОЛОЖЕНИЕ ЗОНДА#"
 #: src-en/data/text_misc.xml.append:20
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"map_icon_fr_warzone_federation_hq\"]"
-msgstr ""
+msgstr "#ШТАБ. ФЕДЕРАЦИИ [!]#"
 
 #: src-en/data/text_misc.xml.append:21
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"map_icon_fr_warzone_rebel_hanger\"]"
-msgstr ""
+msgstr "#ФЛАГМАН ФЕДЕРАЦИИ [!]#"
 
 #: src-en/data/text_misc.xml.append:22
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_fr_warzone_rebel_city\"]"
-msgstr ""
+msgstr "#ФЛАГМАН КОАЛИЦИИ [!]#"
 
 #: src-en/data/text_misc.xml.append:23
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_fr_warzone_part_1\"]"
-msgstr ""
+msgstr "#ЧАСТЬ 1 [!]#"
 
 #: src-en/data/text_misc.xml.append:24
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_fr_warzone_part_2\"]"
-msgstr ""
+msgstr "#ЧАСТЬ 2 [!]#"
 
 #: src-en/data/text_misc.xml.append:25
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_fr_warzone_part_final\"]"
-msgstr ""
+msgstr "#АВАНПОСТ ФЕДЕРАЦИИ [!]#"
 
 #: src-en/data/text_misc.xml.append:27
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_fr_commonwealth_store\"]"
@@ -83,38 +83,40 @@ msgstr "МАГАЗИН [СОДРУЖЕСТВО]"
 
 #: src-en/data/text_misc.xml.append:28
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_fr_store_rebel_selite\"]"
-msgstr ""
+msgstr "МАГАЗИН [МФК]"
 
 #: src-en/data/text_misc.xml.append:29
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"map_icon_fr_store_coalition_elite\"]"
-msgstr ""
+msgstr "МАГАЗИН [ЭЭРЕ]"
 
 #: src-en/data/text_misc.xml.append:30
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"map_icon_fr_store_federation_elite\"]"
-msgstr ""
+msgstr "МАГАЗИН [ЕДИНСТВО]"
 
 #: src-en/data/text_misc.xml.append:31
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_fr_store_pirate_elite\"]"
-msgstr ""
+msgstr "МАГАЗИН [ЭЛИТНЫЕ ПИРАТЫ]"
 
 #: src-en/data/text_misc.xml.append:33
 msgid "data/text_misc.xml.append$//text[@name=\"map_icon_fr_bonus_revenants\"]"
-msgstr ""
+msgstr "@БОНУС [!]@"
 
 #: src-en/data/text_misc.xml.append:35
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"fr_power_not_ready_fighting_or_stunned\"]"
-msgstr ""
+msgstr "Не готово: экипаж не сражается или находится в оглушенном состоянии"
 
 #: src-en/data/text_misc.xml.append:37
 msgid "data/text_misc.xml.append$//text[@name=\"map_fr_icon_slaver\"]"
-msgstr ""
+msgstr "РАБЫ"
 
 #: src-en/data/text_misc.xml.append:47
 msgid "data/text_misc.xml.append$//text[@name=\"fr_warning_math\"]"
 msgstr ""
+"МАТЕМАТИЧЕСКИЙ ВОПРОС\\n"
+"СКОРО"
 
 #: src-en/data/text_misc.xml.append:57
 msgid "data/text_misc.xml.append$//text[@name=\"tip_fr_fish_food\"]"
@@ -136,42 +138,86 @@ msgstr ""
 #: src-en/data/text_misc.xml.append:60
 msgid "data/text_misc.xml.append$//text[@name=\"tip_fr_elite_federation_loot_1\"]"
 msgstr ""
+"ДОБЫЧА ЕДИНСТВА\n"
+"Оглушает пораженных членов экипажа на 10 секунд\n"
+"+30 урону экипажу \n"
+"+1 к урону по системам \n"
+"-3 секунды к времени перезарядки"
 
 #: src-en/data/text_misc.xml.append:65
 msgid "data/text_misc.xml.append$//text[@name=\"tip_fr_elite_federation_loot_2\"]"
 msgstr ""
+"ДОБЫЧА ЕДИНСТВА\n"
+"Оглушает пораженных членов экипажа на 10 секунд\n"
+"+30 урону экипажу \n"
+"+1 к урону по системам \n"
+"+20% к шансу возгорания и пробоины\n"
+"-3 секунды к времени перезарядки"
 
 #: src-en/data/text_misc.xml.append:71
 msgid "data/text_misc.xml.append$//text[@name=\"tip_fr_elite_federation_loot_3\"]"
 msgstr ""
+"ДОБЫЧА ЕДИНСТВА\n"
+"Оглушает пораженных членов экипажа на 2 секунд\n"
+"+15 урону экипажу \n"
+"+20% к шансу возгорания и +10% - пробоины\n"
+"-3 секунды к времени перезарядки перед началом цепи (общее время перезарядки "
+"остается прежним)"
 
 #: src-en/data/text_misc.xml.append:76
 msgid "data/text_misc.xml.append$//text[@name=\"tip_fr_elite_coalition_loot_1\"]"
 msgstr ""
+"ДОБЫЧА ЭЭРЕ\n"
+"+20% к шансу возгорания и пробоины\n"
+"+20% к точности\n"
+"-4 секунды к времени перезарядки"
 
 #: src-en/data/text_misc.xml.append:80
 msgid "data/text_misc.xml.append$//text[@name=\"tip_fr_elite_coalition_loot_2\"]"
 msgstr ""
+"ДОБЫЧА ЭЭРЕ\n"
+"+1 выпущенный снаряд\n"
+"+30% к шансу пробоины\n"
+"-2 секунды к времени перезарядки"
 
 #: src-en/data/text_misc.xml.append:84
 msgid "data/text_misc.xml.append$//text[@name=\"tip_fr_elite_rebel_loot_1\"]"
 msgstr ""
+"ДОБЫЧА ЭЭРЕ\n"
+"+10% к точности\n"
+"+10% к шансу возгорания и пробоины\n"
+"-1.5 секунды к времени перезарядки"
 
 #: src-en/data/text_misc.xml.append:88
 msgid "data/text_misc.xml.append$//text[@name=\"tip_fr_elite_rebel_loot_2\"]"
 msgstr ""
+"ДОБЫЧА МФК\n"
+"+2 к пробитию щита\n"
+"+60% к шансу возгорания\n"
+"-1 секунды к времени перезарядки"
 
 #: src-en/data/text_misc.xml.append:92
 msgid "data/text_misc.xml.append$//text[@name=\"tip_fr_elite_auto_loot_1\"]"
 msgstr ""
+"ДОБЫЧА ИННОВАЦИЙ\n"
+"+1 выпущенный снаряд\n"
+"+10 к скорости снаряда\n"
+"-2 секунды к времени перезарядки"
 
 #: src-en/data/text_misc.xml.append:96
 msgid "data/text_misc.xml.append$//text[@name=\"tip_fr_elite_rock_loot_1\"]"
 msgstr ""
+"ДОБЫЧА ИННОВАЦИЙ\n"
+"-15 радиуса, +10% к шанса на возгорания и пробоины\n"
+"-2 секунды к времени перезарядки"
 
 #: src-en/data/text_misc.xml.append:99
 msgid "data/text_misc.xml.append$//text[@name=\"tip_fr_elite_zoltan_loot_1\"]"
 msgstr ""
+"ДОБЫЧА МИРОТВОРЦЕВ\n"
+"+1 к урону по корпусу\n"
+"+40% к шансу возгорания\n"
+"-1 секунда к времени перезарядки"
 
 #: src-en/data/text_misc.xml.append:113
 msgid "data/text_misc.xml.append$//text[@name=\"fr_credit_victory_commonwealth\"]"
