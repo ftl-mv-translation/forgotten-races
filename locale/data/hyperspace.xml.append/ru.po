@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-10 11:49+0000\n"
+"PO-Revision-Date: 2026-06-10 12:47+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datahyperspace-xml-append/ru/>\n"
@@ -2396,7 +2396,8 @@ msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_augustus_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:1с]\n"
-"\t\t\tЗаплатите 10 лома, чтобы полностью его исцелить. Всегда срабатывает, если он достигает 10 здоровья."
+"\t\t\tЗаплатить 10 лома, чтобы полностью его исцелить. Всегда срабатывает, "
+"если он достигает 10 здоровья."
 
 #: src-en/data/hyperspace.xml.append:9777
 msgid ""
@@ -2692,6 +2693,9 @@ msgstr "ШРАПНЕЛЬ"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_shrapnel_ammo\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:1с]\n"
+"\t\t\t\t\t\tЗаставляет цель, на которую нацелен экипаж, терять 2 ОЗ/с. "
+"Эффект суммируется до 5 раз и действует в течение 5 секунд."
 
 #: src-en/data/hyperspace.xml.append:14783
 msgid ""
@@ -2846,124 +2850,153 @@ msgstr ""
 "\t\t\t\t\tВзламывает занятый отсек."
 
 #: src-en/data/hyperspace.xml.append:19482
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_slimer_heal_augment_power\"]/buttonText"
-msgstr "ПОЖИРАТЕЛЬ"
+msgstr "ПОЖИРАТЕЛЬ+"
 
 #: src-en/data/hyperspace.xml.append:19483
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_slimer_heal_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА: 10с]\n"
+"\t\t\t\t\tНаносит 1 урона корпусу и создает пробоину, полностью "
+"восстанавливая здоровье Слимера."
 
 #: src-en/data/hyperspace.xml.append:19507
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_SPECTER_FLAWLESS_ASCENSION\"]/statBoosts/statBoost[3]/powerEffect[@name=\"fr_slimer_damage_power\"]/buttonText"
-msgstr ""
+msgstr "ЕДА+"
 
 #: src-en/data/hyperspace.xml.append:19511
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_LAB_SPECTER_FLAWLESS_ASCENSION\"]/statBoosts/statBoost[3]/powerEffect[@name=\"fr_slimer_damage_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:20с]\n"
+"\t\t\t\t\tПожирает всех вражеских членов экипажа поблизости, нанося им 75 "
+"урона, и восстанавливает себе 35 ОЗ за каждого врага в помещении."
 
 #: src-en/data/hyperspace.xml.append:19558
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_phys_augment_power\"]/buttonText"
-msgstr ""
+msgstr "ШОК+"
 
 #: src-en/data/hyperspace.xml.append:19559
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_phys_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:25с]\n"
+"\t\t\t\t\tСтремительно выбрасывает ионную энергию. Наносит 8 ионного урона, "
+"оглушает всех остальных в помещении и полностью ремонтирует системы."
 
 #: src-en/data/hyperspace.xml.append:19589
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_aleenor_augment_power\"]/buttonText"
-msgstr "БЕРСЕРК"
+msgstr "БЕРСЕРК+"
 
 #: src-en/data/hyperspace.xml.append:19590
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_aleenor_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:30с]\n"
+"\t\t\t\t\tНаносит 100 урона ближайшему вражескому экипажу и 4 урона системе; "
+"100% вероятность пробоины."
 
 #: src-en/data/hyperspace.xml.append:19619
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_vin_speed_augment_power\"]/buttonText"
-msgstr ""
+msgstr "БУСТ+"
 
 #: src-en/data/hyperspace.xml.append:19620
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_vin_speed_augment_power\"]/tooltip"
 msgstr ""
-"[ПЕРЕЗАРЯДКА:10с ДЛИТЕЛЬНОСТЬ:10с -40 ОЗ]\n"
-"\t\t\tВременно двигается с нормальной скоростью."
+"[ПЕРЕЗАРЯДКА:10с ДЛИТЕЛЬНОСТЬ:10с]\n"
+"\t\t\t\t\tВременно передвигается с обычной скоростью."
 
 #: src-en/data/hyperspace.xml.append:19647
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_vin_fire_augment_power\"]/buttonText"
-msgstr "СПЛАВ"
+msgstr "СПЛАВ+"
 
 #: src-en/data/hyperspace.xml.append:19648
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_vin_fire_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:15с ДЛИТЕЛЬНОСТЬ:10с]\n"
+"\t\t\t\t\tРазжигает огонь в текущем помещении и на время действия этого "
+"эффекта позволяет Вину восстанавливать здоровье при получении урона от огня."
 
 #: src-en/data/hyperspace.xml.append:19679
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_cleo_augment_power\"]/buttonText"
-msgstr "РЕМОНТ"
+msgstr "РЕМОНТ+"
 
 #: src-en/data/hyperspace.xml.append:19680
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_cleo_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:30с ДЛИТЕЛЬНОСТЬ:10с]\n"
+"\t\t\t\t\tИсцеляет дронов, находящихся в одном помещении с Клео, на 10 ОЗ в "
+"течение 10 секунд. Кроме того, на время действия эффекта урон дрона "
+"увеличивается вдвое."
 
 #: src-en/data/hyperspace.xml.append:19747
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_zulu_augment_power\"]/buttonText"
-msgstr ""
+msgstr "БЛЕСК+"
 
 #: src-en/data/hyperspace.xml.append:19748
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_zulu_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:30с]\n"
+"\t\t\t\t\tМгновенно поглощает кислород и восстанавливает здоровье союзников "
+"поблизости со скоростью 10 ОЗ/с."
 
 #: src-en/data/hyperspace.xml.append:19789
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_g_augment_power\"]/buttonText"
-msgstr ""
+msgstr "ВОЗНЕСЕНИЕ+"
 
 #: src-en/data/hyperspace.xml.append:19790
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_g_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:30с  ДЛИТЕЛЬНОСТЬ:10с]\n"
+"\t\t\t\tНа 10 секунд становится полностью неуязвимым для урона, но теряет "
+"80% урона, наносимого экипажу. Кроме того, на время действия этого эффекта "
+"появляются 3 неупокоенных духа."
 
 #: src-en/data/hyperspace.xml.append:19912
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_frostwall_augment_power\"]/buttonText"
-msgstr "БЛОКИРОВКА"
+msgstr "БЛОКИРОВКА+"
 
 #: src-en/data/hyperspace.xml.append:19913
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_frostwall_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА: 20с]\n"
+"\t\t\t\t\tИзолирует отсек, получая 35 урона и замораживая всех членов "
+"экипажа, не являющихся ледяными существами, на 5 секунд, что не позволяет им "
+"действовать, но на время действия уменьшает получаемый ими урон на 50%. "
+"Изоляция длится в два раза дольше обычного, а осколки имеют в два раза "
+"больше ОЗ."
 
 #: src-en/data/hyperspace.xml.append:19938
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_deathbloom_augment_power\"]/buttonText"
-msgstr ""
+msgstr "ОБЛАКО СМЕРТИ+"
 
 #: src-en/data/hyperspace.xml.append:19939
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_deathbloom_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:45с  ДЛИТЕЛЬНОСТЬ:20с]\n"
+"\t\t\t\t\tЗаполняет помещение смертоносными спорами, которые отнимают у "
+"врагов в этом помещении 10 ОЗ/с. Также замедляет врагов на 10%."
 
 #: src-en/data/hyperspace.xml.append:19982
 msgid ""
@@ -2974,51 +3007,60 @@ msgstr "ПОРЧА"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_charror_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:45с  ДЛИТЕЛЬНОСТЬ:20с]\n"
+"\t\t\t\t\tОбезоруживает ближайших врагов, полностью обездвиживая их на 20 "
+"секунд. Кроме того, вдвое снижает получаемый урон."
 
 #: src-en/data/hyperspace.xml.append:20070
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_leo_augment_power\"]/buttonText"
-msgstr ""
+msgstr "СЛИЯНИЕ+"
 
 #: src-en/data/hyperspace.xml.append:20071
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_leo_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:30с ДЛИТЕЛЬНОСТЬ:10с]\n"
+"\t\t\t\t\tВ течение 10 секунд взламывает двери в помещении, в котором "
+"находится. В это время он получает 5х урон при саботаже, заставляет врагов "
+"находящимся в одном помещении с Лео получать 3х урона, а также наносит 1.5 "
+"ОЗ/с урона врагам в помещении и становится невидимым, но при этом не может "
+"сражаться или передвигаться."
 
 #: src-en/data/hyperspace.xml.append:20151
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_searak_augment_power\"]/buttonText"
-msgstr "СВЕРХНОВА"
+msgstr "СВЕРХНОВА+"
 
 #: src-en/data/hyperspace.xml.append:20152
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_searak_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:25с]\n"
-"\t\t\tНачинает обратный отсчет времени до самоубийства. По окончании отсчета произойдет взрыв, который нанесет 150 ед. урона всем врагам в отсеке, а также вызовет пожар и нанесет 2 системного урона текущему отсеку. Если обратный отсчет прерван смертью, способность будет отменена. Не может быть активирована при оглушении или телепортации. \n"
-"\t\t\tВзрыв нанесет Сираку лишь 25 урона, и он не сможет действовать в течение 15 секунд."
+"\t\t\tНачинает обратный отсчет времени до самоубийства. По окончании отсчета "
+"произойдет взрыв, который нанесет 150 ед. урона всем врагам в отсеке, а "
+"также вызовет пожар и нанесет 2 системного урона текущему отсеку. Если "
+"обратный отсчет прерван смертью, способность будет отменена. Не может быть "
+"активирована при оглушении или телепортации. \n"
+"\t\t\tВзрыв нанесет Сираку лишь 25 урона."
 
 #: src-en/data/hyperspace.xml.append:20196
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_augustus_augment_power\"]/buttonText"
-msgstr "ПРОДАНО"
+msgstr "ПРОДАНО+"
 
 #: src-en/data/hyperspace.xml.append:20197
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_augustus_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:1с]\n"
-"\t\t\tЗаплатите 10 лома, чтобы полностью его исцелить. Всегда срабатывает, если он достигает 10 здоровья."
+"\t\t\t\tЗаплатить 1 лома, чтобы полностью его исцелить. Всегда срабатывает, "
+"если он достигает 10 здоровья."
 
 #: src-en/data/hyperspace.xml.append:20221
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_hatchling_augment_power\"]/buttonText"
-msgstr "МЕТАМОРФ"
+msgstr "МЕТАМОРФ+"
 
 #: src-en/data/hyperspace.xml.append:20222
 msgid ""
@@ -3028,10 +3070,9 @@ msgstr ""
 "\t\t\tМетаморф превращается во взрослую форму, одновременно полностью исцеляясь."
 
 #: src-en/data/hyperspace.xml.append:20248
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_adult_augment_power\"]/buttonText"
-msgstr "МЕТАМОРФ"
+msgstr "МЕТАМОР+"
 
 #: src-en/data/hyperspace.xml.append:20249
 msgid ""
@@ -3041,29 +3082,32 @@ msgstr ""
 "\t\t\tМетаморф превращается в ткача, одновременно полностью исцеляясь."
 
 #: src-en/data/hyperspace.xml.append:20275
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_weaver_augment_power\"]/buttonText"
-msgstr "УСИЛЕНИЕ"
+msgstr "УСИЛЕНИЕ+"
 
 #: src-en/data/hyperspace.xml.append:20276
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_sally_weaver_augment_power\"]/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:20с ДЛИТЕЛЬНОСТЬ:10с]\n"
-"\t\t\tПолностью исцеляет себя и дает силу всем остальным дружественным паукам, увеличивая до 2х их урон на 10 секунд."
+"\t\t\t\t\tПолностью исцеляет себя и дает силу всем остальным дружественным "
+"паукам, увеличивая до 2х их урон на 10 секунд."
 
 #: src-en/data/hyperspace.xml.append:20315
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_prince_augment_power\"]/buttonText"
-msgstr "ТЬМА"
+msgstr "ТЬМА+"
 
 #: src-en/data/hyperspace.xml.append:20316
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_prince_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:30с ДЛИТЕЛЬНОСТЬ:10с]\n"
+"\t\t\t\t\tОкутывает помещение тенью, полностью нейтрализуя урон от "
+"дальнобойного оружия вражеского экипажа и снижая скорость их ремонта и "
+"саботажа до 0.25х. Кроме того, возникает пожар и в помещение образуется "
+"пробоина."
 
 #: src-en/data/hyperspace.xml.append:20379
 msgid ""
@@ -3074,6 +3118,10 @@ msgstr "КОМАНДА"
 msgid ""
 "data/hyperspace.xml.append$//powerEffect[@name=\"fr_tririac_augment_power\"]/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:20с ДЛИТЕЛЬНОСТЬ:10с]\n"
+"\t\t\t\t\tНа 10 секунд берет под контроль случайного врага, находящегося в "
+"том же помещении, что и Тририак. На время действия этого эффекта Тририак "
+"становится невосприимчивым к оглушению."
 
 #: src-en/data/hyperspace.xml.append:20404
 msgid ""
@@ -3532,6 +3580,9 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_FREE_MANTIS_NOTORIETY\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА:17с ДЛИТЕЛЬНОСТЬ:7с]\n"
+"\t\t\t\t\t\tУвеличивает скорость передвижения до 1.6х, а урон экипажа - до "
+"2.2х."
 
 #: src-en/data/hyperspace.xml.append:22878
 msgid ""
@@ -3540,13 +3591,13 @@ msgid ""
 msgstr "УДАР"
 
 #: src-en/data/hyperspace.xml.append:22879
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_TULLY\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:15с]\n"
-"\t\t\t\tВызывает бомбовый удар флота Федерации, поражающий системы и экипаж вражеского корабля."
+"\t\t\t\t\tВызывает бомбовый удар флота Федерации, поражающий системы и "
+"экипаж вражеского корабля."
 
 #: src-en/data/hyperspace.xml.append:23091
 msgid ""
@@ -3555,17 +3606,16 @@ msgid ""
 msgstr "БЛОКИРОВКА"
 
 #: src-en/data/hyperspace.xml.append:23092
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_RUWEN\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:28с  ДЛИТЕЛЬНОСТЬ:12с]\n"
-"\t\t\t\tЗапирает отсек и дает следующие эффекты:\n"
-"\t\t\t\t-Регенерация здоровья 3 ОЗ/с\n"
-"\t\t\t\t-Получает 0.5x урона в бою с экипажем\n"
-"\t\t\t\t-Ближайший экипаж получают свойства игнорировать двери\n"
-"\t\t\t\t-Враги теряют свойства игнорировать двери"
+"\t\t\t\t\t\tЗапирает отсек и дает следующие эффекты:\n"
+"\t\t\t\t\t\t-Регенерация здоровья 3 ОЗ/с\n"
+"\t\t\t\t\t\t-Получает 0.5x урона в бою с экипажем\n"
+"\t\t\t\t\t\t-Ближайший экипаж получают свойства игнорировать двери\n"
+"\t\t\t\t\t\t-Враги теряют свойства игнорировать двери"
 
 #: src-en/data/hyperspace.xml.append:23214
 msgid ""
@@ -3574,13 +3624,14 @@ msgid ""
 msgstr "БОМБА"
 
 #: src-en/data/hyperspace.xml.append:23215
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_SYLVAN\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
 "[ПЕРЕЗАРЯДКА:45с]\n"
-"\t\t\t\tРазмещает пробойную, ионную и изоляционную бомбу (30 урона по экипажу, 2 урона по системе, 5с оглушения, 3 ионного урона). Дружественного огня по экипажу нет, но может поразить ваши собственные системы."
+"\t\t\t\t\t\tРазмещает пробойную, ионную и изоляционную бомбу (30 урона по "
+"экипажу, 2 урона по системе, 5с оглушения, 3 ионного урона). Дружественного "
+"огня по экипажу нет, но может поразить ваши собственные системы."
 
 #: src-en/data/hyperspace.xml.append:23298
 msgid ""
@@ -3603,25 +3654,31 @@ msgstr ""
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_MAYEB\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/buttonText"
-msgstr ""
+msgstr "ВТОРОЕ ДЫХАНИЕ"
 
 #: src-en/data/hyperspace.xml.append:23355
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_MAYEB\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
+"[ДЛИТЕЛЬНОСТЬ:45с]\n"
+"\t\t\t\t\t\tИсцеление"
 
 #: src-en/data/hyperspace.xml.append:23706
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_BEARD\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/buttonText"
-msgstr ""
+msgstr "СТИМ-БОМБА"
 
 #: src-en/data/hyperspace.xml.append:23707
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_BEARD\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
+"[ПЕРЕЗАРЯДКА: 30с]\n"
+"\t\t\t\t\tУстанавливает бомбу, которая на 10 секунд увеличивает скорость "
+"передвижения, урон в бою, урон при саботаже и скорость ремонта на 20% для "
+"него самого и всех союзников, находящихся в том же помещении."
 
 #: src-en/data/hyperspace.xml.append:24851
 msgid ""
@@ -3728,84 +3785,84 @@ msgstr "Аэнвитэ"
 msgid ""
 "data/hyperspace.xml.append$//fr_human_totality[@name=\"Star's "
 "Collapse\"]/@name"
-msgstr ""
+msgstr "Коллапс звезды"
 
 #: src-en/data/hyperspace.xml.append:25491
 msgid ""
 "data/hyperspace.xml.append$//fr_human_totality[@name=\"Entropy's "
 "End\"]/@name"
-msgstr ""
+msgstr "Конец энтропии"
 
 #: src-en/data/hyperspace.xml.append:25492
 msgid ""
 "data/hyperspace.xml.append$//fr_human_totality[@name=\"Eclipse's "
 "Shadow\"]/@name"
-msgstr ""
+msgstr "Тень затмения"
 
 #: src-en/data/hyperspace.xml.append:25502
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_UNITY_FLAGSHIP_3\"]/crew/fr_unique_victor[@name=\"Victor\"]/@name"
-msgstr ""
+msgstr "Виктор"
 
 #: src-en/data/hyperspace.xml.append:25748
 msgid "data/hyperspace.xml.append$//unique_ariadne[@name=\"Ariadne\"]/@name"
-msgstr ""
+msgstr "Ариадна"
 
 #: src-en/data/hyperspace.xml.append:25802
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_RUES_FLAGSHIP_3\"]/crew/fr_unique_rockmore[@name=\"Rockmore\"]/@name"
-msgstr ""
+msgstr "Валунгор"
 
 #: src-en/data/hyperspace.xml.append:25832
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_JON_CREWSER\"]/crew/fr_unique_jon[@name=\"Jon\"]/@name"
-msgstr ""
+msgstr "Джон"
 
 #: src-en/data/hyperspace.xml.append:25842
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_JON_CREWSER_2\"]/crew/fr_unique_jon[@name=\"Jon\"]/@name"
-msgstr ""
+msgstr "Джон"
 
 #: src-en/data/hyperspace.xml.append:25853
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_JON_CREWSER_3\"]/crew/fr_unique_jon[@name=\"Jon\"]/@name"
-msgstr ""
+msgstr "Джон"
 
 #: src-en/data/hyperspace.xml.append:25854
 msgid "data/hyperspace.xml.append$//fr_unique_eggman[@name=\"Eggman\"]/@name"
-msgstr ""
+msgstr "Яйцеголовый"
 
 #: src-en/data/hyperspace.xml.append:25884
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_PURPLE_BEARD_CREWSER\"]/crew/fr_unique_purple_beard[@name=\"Purple"
 " Beard\"]/@name"
-msgstr ""
+msgstr "Пурпурная Борода"
 
 #: src-en/data/hyperspace.xml.append:25896
 msgid ""
 "data/hyperspace.xml.append$//fr_unique_purple_beard[@name=\"Ophiuchus\"]/@name"
-msgstr ""
+msgstr "Офиух"
 
 #: src-en/data/hyperspace.xml.append:25897
 msgid "data/hyperspace.xml.append$//human_angel[@name=\"Pisces\"]/@name"
-msgstr ""
+msgstr "Писцис"
 
 #: src-en/data/hyperspace.xml.append:25898
 msgid "data/hyperspace.xml.append$//human_angel[@name=\"Libra\"]/@name"
-msgstr ""
+msgstr "Либра"
 
 #: src-en/data/hyperspace.xml.append:25908
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_PURPLE_BEARD_CREWSER_3\"]/crew/fr_unique_purple_beard[@name=\"Purple"
 " Beard\"]/@name"
-msgstr ""
+msgstr "Пурпурная Борода"
 
 #: src-en/data/hyperspace.xml.append:25976
 msgid ""
@@ -4077,11 +4134,11 @@ msgstr "Слимер"
 
 #: src-en/data/hyperspace.xml.append:26971
 msgid "data/hyperspace.xml.append$//unique_nights[@name=\"Nights\"]/@name"
-msgstr ""
+msgstr "Туман"
 
 #: src-en/data/hyperspace.xml.append:26974
 msgid "data/hyperspace.xml.append$//unique_slocknog[@name=\"Slocknog\"]/@name"
-msgstr ""
+msgstr "Слокног"
 
 #: src-en/data/hyperspace.xml.append:27002
 msgid ""
@@ -4141,7 +4198,7 @@ msgstr "Вин"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_REVENANT_VIN_3\"]/crew/fr_unique_prophet[@name=\"Prophet\"]/@name"
-msgstr ""
+msgstr "Пророк"
 
 #: src-en/data/hyperspace.xml.append:27544
 msgid ""
@@ -4225,41 +4282,41 @@ msgstr "Аэнвитэ"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_FROSTWALL\"]/crew/fr_reformed_frostwall[@name=\"Frostwall\"]/@name"
-msgstr ""
+msgstr "Фростволл"
 
 #: src-en/data/hyperspace.xml.append:27772
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_FROSTWALL_2\"]/crew/fr_reformed_frostwall[@name=\"Frostwall\"]/@name"
-msgstr ""
+msgstr "Фростволл"
 
 #: src-en/data/hyperspace.xml.append:27783
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_FROSTWALL_3\"]/crew/fr_reformed_frostwall[@name=\"Frostwall\"]/@name"
-msgstr ""
+msgstr "Фростволл"
 
 #: src-en/data/hyperspace.xml.append:27930
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM\"]/crew/fr_reformed_deathbloom[@name=\"Deathbloom\"]/@name"
-msgstr ""
+msgstr "Смертоцветка"
 
 #: src-en/data/hyperspace.xml.append:27940
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM_2\"]/crew/fr_reformed_deathbloom[@name=\"Deathbloom\"]/@name"
-msgstr ""
+msgstr "Смертоцветка"
 
 #: src-en/data/hyperspace.xml.append:27941
 msgid "data/hyperspace.xml.append$//unique_alkali[@name=\"Alkali\"]/@name"
-msgstr ""
+msgstr "Алькали"
 
 #: src-en/data/hyperspace.xml.append:28126
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM_3\"]/crew/fr_reformed_deathbloom[@name=\"Deathbloom\"]/@name"
-msgstr ""
+msgstr "Смертоцветка"
 
 #: src-en/data/hyperspace.xml.append:28156
 msgid ""
@@ -4307,7 +4364,7 @@ msgstr "Чарро"
 
 #: src-en/data/hyperspace.xml.append:28236
 msgid "data/hyperspace.xml.append$//fr_reformed_charror[@name=\"Oracle\"]/@name"
-msgstr ""
+msgstr "Оракул"
 
 #: src-en/data/hyperspace.xml.append:28264
 msgid ""
@@ -4341,11 +4398,11 @@ msgstr "Сирак"
 
 #: src-en/data/hyperspace.xml.append:28344
 msgid "data/hyperspace.xml.append$//unique_devorak[@name=\"Devorak\"]/@name"
-msgstr ""
+msgstr "Деворак"
 
 #: src-en/data/hyperspace.xml.append:28345
 msgid "data/hyperspace.xml.append$//unique_anurak[@name=\"Anurak\"]/@name"
-msgstr ""
+msgstr "Анурак"
 
 #: src-en/data/hyperspace.xml.append:28360
 msgid ""
@@ -4376,7 +4433,7 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"PLAYER_SHIP_FR_LEGION_FLAGSHIP_3\"]/crew/fr_unique_vance_one[@name=\"Vance"
 " One\"]/@name"
-msgstr ""
+msgstr "Вэнс Один"
 
 #: src-en/data/hyperspace.xml.append:28538
 msgid ""
@@ -4405,19 +4462,19 @@ msgstr "Салли"
 #: src-en/data/hyperspace.xml.append:28602
 msgid ""
 "data/hyperspace.xml.append$//fr_bonus_sally_adult[@name=\"Dr. Sally\"]/@name"
-msgstr ""
+msgstr "Доктор Салли"
 
 #: src-en/data/hyperspace.xml.append:28603
 msgid "data/hyperspace.xml.append$//easter_coomer[@name=\"Dr. Conner\"]/@name"
-msgstr ""
+msgstr "Доктор Коннер"
 
 #: src-en/data/hyperspace.xml.append:28604
 msgid "data/hyperspace.xml.append$//easter_bubby[@name=\"Dr. Bryan\"]/@name"
-msgstr ""
+msgstr "Доктор Брайан"
 
 #: src-en/data/hyperspace.xml.append:28605
 msgid "data/hyperspace.xml.append$//easter_tommy[@name=\"Dr. Terry\"]/@name"
-msgstr ""
+msgstr "Доктор Терри"
 
 #: src-en/data/hyperspace.xml.append:28613
 msgid ""
@@ -4427,7 +4484,7 @@ msgstr "Салли"
 
 #: src-en/data/hyperspace.xml.append:28614
 msgid "data/hyperspace.xml.append$//unique_queen[@name=\"The Queen\"]/@name"
-msgstr ""
+msgstr "Королева"
 
 #: src-en/data/hyperspace.xml.append:28615
 msgid ""
@@ -4464,11 +4521,11 @@ msgstr "Тририак"
 
 #: src-en/data/hyperspace.xml.append:28695
 msgid "data/hyperspace.xml.append$//eldritch_thing[@name=\"Thing 5\"]/@name"
-msgstr ""
+msgstr "Нечто 5"
 
 #: src-en/data/hyperspace.xml.append:28696
 msgid "data/hyperspace.xml.append$//eldritch_thing_weak[@name=\"Thing 6\"]/@name"
-msgstr ""
+msgstr "Нечто 6"
 
 #: src-en/data/hyperspace.xml.append:28868
 msgid ""
@@ -4486,44 +4543,44 @@ msgstr "Тририак"
 msgid ""
 "data/hyperspace.xml.append$//fr_human_totality[@name=\"Pulsar's "
 "Wrath\"]/@name"
-msgstr ""
+msgstr "Гнев пульсара"
 
 #: src-en/data/hyperspace.xml.append:29330
 msgid ""
 "data/hyperspace.xml.append$//fr_human_totality[@name=\"Intrepid "
 "Singularity\"]/@name"
-msgstr ""
+msgstr "Неукротимая сингулярность"
 
 #: src-en/data/hyperspace.xml.append:29331
 msgid ""
 "data/hyperspace.xml.append$//fr_human_totality[@name=\"Gravity's "
 "Anchor\"]/@name"
-msgstr ""
+msgstr "Гравитационный якорь"
 
 #: src-en/data/hyperspace.xml.append:29332
 msgid ""
 "data/hyperspace.xml.append$//fr_human_totality[@name=\"Uncaring "
 "Twilight\"]/@name"
-msgstr ""
+msgstr "Безразличные сумерки"
 
 #: src-en/data/hyperspace.xml.append:29374
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_PURPLE_BEARD_ASSAULT\"]/crew/fr_unique_purple_beard[@name=\"Purple"
 " Beard\"]/@name"
-msgstr ""
+msgstr "Пурпурная Борода"
 
 #: src-en/data/hyperspace.xml.append:29450
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_QUEST_FEDERATION_FLAGSHIP\"]/crew/fr_unique_victor[@name=\"Victor\"]/@name"
-msgstr ""
+msgstr "Виктор"
 
 #: src-en/data/hyperspace.xml.append:29474
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_QUEST_COALITION_FLAGSHIP\"]/crew/fr_unique_rockmore[@name=\"Rockmore\"]/@name"
-msgstr ""
+msgstr "Валунгор"
 
 #: src-en/data/hyperspace.xml.append:29496
 msgid ""
@@ -4613,13 +4670,13 @@ msgstr "Ж"
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_CHAOS_REVENANT_FROSTWALL\"]/crew/fr_reformed_frostwall[@name=\"Frostwall\"]/@name"
-msgstr ""
+msgstr "Фростволл"
 
 #: src-en/data/hyperspace.xml.append:30312
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_CHAOS_REVENANT_DEATHBLOOM\"]/crew/fr_reformed_deathbloom[@name=\"Deathbloom\"]/@name"
-msgstr ""
+msgstr "Смертоцветка"
 
 #: src-en/data/hyperspace.xml.append:30335
 msgid ""
@@ -4656,7 +4713,7 @@ msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:customShip[@name=\"FR_BOSS_CHAOS_REVENANT_LEGION_FLAGSHIP\"]/crew/fr_unique_vance_one[@name=\"Vance"
 " One\"]/@name"
-msgstr ""
+msgstr "Вэнс Один"
 
 #: src-en/data/hyperspace.xml.append:30452
 msgid ""
@@ -4985,36 +5042,38 @@ msgid ""
 msgstr "Благословение получено"
 
 #: src-en/data/hyperspace.xml.append:30912
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[14]/mod-"
 "append:page/section[3]/@text"
-msgstr "Забытые события"
+msgstr "Забытые дары"
 
 #: src-en/data/hyperspace.xml.append:30914
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_CLICKER\"]/name"
-msgstr ""
+msgstr "Дар касания"
 
 #: src-en/data/hyperspace.xml.append:30915
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_CLICKER\"]/secretName"
-msgstr ""
+msgstr "Дар ???"
 
 #: src-en/data/hyperspace.xml.append:30916
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_CLICKER\"]/secretDescription"
-msgstr ""
+msgstr "Получите дар ??? от Корби."
 
 #: src-en/data/hyperspace.xml.append:30917
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_CLICKER\"]/description"
 msgstr ""
+"Полностью улучшите способность Ее воля и покажите ее Корби. \n"
+"\t\t\t\tПока способность действует; скорость передвижения вашего экипажа "
+"удваивается."
 
 #: src-en/data/hyperspace.xml.append:30919
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_BOON_CLICKER\"]/header"
-msgstr ""
+msgstr "Дар получен"
 
 #: src-en/data/hyperspace.xml.append:30926
 msgid ""
@@ -5439,7 +5498,6 @@ msgid ""
 msgstr "Активируйте странное устройство на сломанной оружейной фабрике."
 
 #: src-en/data/hyperspace.xml.append:31090
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_EVENT_GUARDIAN\"]/name"
 msgstr "Чужак-инсайдер"
@@ -5559,17 +5617,21 @@ msgstr "Забытый транспорт"
 #: src-en/data/hyperspace.xml.append:31134
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_TRANS_WARZONE\"]/name"
-msgstr ""
+msgstr "Транспортник из зоны боевых действий"
 
 #: src-en/data/hyperspace.xml.append:31135
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_TRANS_WARZONE\"]/secretDescription"
 msgstr ""
+"Получите добычу из любого транспортника с добычей в Зоне боевых действий."
 
 #: src-en/data/hyperspace.xml.append:31136
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_TRANS_WARZONE\"]/description"
 msgstr ""
+"Получите Зарядный лазер мод. III/Пучок частиц, Тяжелый лазер мод. III/Луч "
+"\"Глефа\" или ракетную установку \"Борей\"/Облучающее осколочное орудие из "
+"любого транспортника с добычей в Зоне боевых действий."
 
 #: src-en/data/hyperspace.xml.append:31138
 msgid ""
@@ -5610,7 +5672,7 @@ msgstr "Забытая музыка"
 #: src-en/data/hyperspace.xml.append:31153
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_WARZONE\"]/name"
-msgstr ""
+msgstr "Зона боевых действий - композитор: Altzeus (при участии Lizzard)"
 
 #: src-en/data/hyperspace.xml.append:31163
 msgid ""
@@ -5635,7 +5697,7 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:31187
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_CHAOTIC_TARTARUS\"]/name"
-msgstr ""
+msgstr "Хаотический Тартар - композитор: Altzeus"
 
 #: src-en/data/hyperspace.xml.append:31188
 msgid ""
@@ -5697,7 +5759,7 @@ msgstr "???"
 #: src-en/data/hyperspace.xml.append:31259
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_FR_MUSIC_LEGION_FLAGSHIP\"]/name"
-msgstr ""
+msgstr "Неоспоримое превосходство (тема флагмана Легиона) - композитор: Lizzard"
 
 #: src-en/data/hyperspace.xml.append:31260
 msgid ""
