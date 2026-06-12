@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-11 18:36+0000\n"
+"PO-Revision-Date: 2026-06-12 23:18+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "dataevents_fr_sector_warzonexml/ru/>\n"
@@ -14,9 +14,13 @@ msgstr ""
 "X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_fr_sector_warzone.xml:107
+#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_MIXED_SIGNAL\"]/text"
 msgstr ""
+"Похоже, вражеский корабль посылает сигнал бедствия ближайшему флоту! Однако, "
+"поскольку оба флота сражаются друг с другом, пропустить этот сигнал означало "
+"бы, что враг тоже окажется под прицелом."
 
 #: src-en/data/events_fr_sector_warzone.xml:109
 msgid ""
@@ -27,6 +31,8 @@ msgstr "(Глушитель сигналов) Заглушить их сигна
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_MIXED_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
 msgstr ""
+"Если ПКБ не активируется, вы считаете это хорошим знаком, означающим, что "
+"ваш модуль сработал должным образом, и продолжаете сражаться."
 
 #: src-en/data/events_fr_sector_warzone.xml:115
 msgid ""
@@ -37,6 +43,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_HOSTILE_SIGNAL\"]/text"
 msgstr ""
+"Похоже, вражеский корабль посылает сигнал бедствия ближайшему флоту! "
+"Приготовиться к столкновению!"
 
 #: src-en/data/events_fr_sector_warzone.xml:126
 msgid ""
@@ -47,6 +55,8 @@ msgstr "(Глушитель сигналов) Заглушить их сигна
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_HOSTILE_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
 msgstr ""
+"Если ПКБ не активируется, вы считаете это хорошим знаком, означающим, что "
+"ваш модуль сработал должным образом, и продолжаете сражаться."
 
 #: src-en/data/events_fr_sector_warzone.xml:132
 msgid ""
@@ -54,9 +64,12 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_fr_sector_warzone.xml:141
+#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_ALLY_SIGNAL\"]/text"
 msgstr ""
+"Похоже, корабль союзников посылает сигнал бедствия ближайшему флоту! Вы "
+"можете перехватить его, если вам не нужна поддержка."
 
 #: src-en/data/events_fr_sector_warzone.xml:143
 msgid ""
@@ -67,6 +80,8 @@ msgstr "(Глушитель сигналов) Заглушить их сигна
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_ALLY_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
 msgstr ""
+"Если ПКБ не активируется, вы считаете это хорошим знаком, означающим, что "
+"ваш модуль сработал должным образом, и продолжаете сражаться."
 
 #: src-en/data/events_fr_sector_warzone.xml:149
 msgid ""
@@ -76,12 +91,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:179
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "Местонахождение штаб-квартиры исследовательского центра Федерации."
 
 #: src-en/data/events_fr_sector_warzone.xml:180
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Посещенное место. Ничего интересного."
 
 #: src-en/data/events_fr_sector_warzone.xml:181
 msgid ""
@@ -92,26 +107,56 @@ msgstr "Непосещенное место."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/text"
 msgstr ""
+"Вы прибываете в штаб-квартиру исследовательского центра Федерации - или, по "
+"крайней мере, в то, что от нее осталось, хотя он, судя по всему, находится в "
+"удивительно хорошем состоянии, учитывая, что совсем недавно на него напал "
+"целый флот. Небольшой разведывательный корабль Федерации сканирует ваш "
+"корабль, чтобы убедиться, что вы не представляете угрозы, после чего улетает "
+"в сторону базы."
 
 #: src-en/data/events_fr_sector_warzone.xml:186
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/text"
-msgstr ""
+msgstr "Следовать за кораблем."
 
 #: src-en/data/events_fr_sector_warzone.xml:188
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/text"
 msgstr ""
+"Разведчик ведет вас к посадочной площадке объекта; путь проходит быстро и "
+"без происшествий, в эфире царит зловещая тишина. После приземления корабля и "
+"высадки вас встречает потрепанный энджи-Защитник с отсутствующей рукой и "
+"треснувшим визором, по бокам от которого стоят два элитных солдата "
+"Федерации. \n"
+"\n"
+"\"Ренегат Федерации, добро пожаловать. Я: ведущий ученый ХС-98A. "
+"Специализация = корабли-флагманы. Я руководил: Проектом \"Возмездие\", - "
+"объясняет энджи, несмотря на то, что его сломанный голосовой синтезатор с "
+"трудом успевает за его мыслями.\n"
+"        \n"
+"\"Проект был = почти завершен, когда напали силы повстанцев. Они украли "
+"прототип флагмана, созданного для Федерации. Мы были вынуждены: научить их "
+"управлять им, иначе нас всех убили бы\", - тон энджи, как обычно, кажется "
+"бесстрастным, но в его синтетическом голосе можно уловить нотку сожаления."
 
 #: src-en/data/events_fr_sector_warzone.xml:194
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/text"
-msgstr ""
+msgstr "Дай угадаю, вы хотите, чтобы мы вернули корабль?"
 
 #: src-en/data/events_fr_sector_warzone.xml:196
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/text"
 msgstr ""
+"Энджи механически кивает. \"Именно на это надеется данный юнит, да. Если "
+"флагман будет переоборудован повстанцами, то данный юнит опасается, что это "
+"может привести к гибели нашей реальности\". Энджи говорит тоном, который "
+"звучит весьма мрачно.\n"
+"                                        \n"
+"\"Я знаю, что Ренегаты не работают = бесплатно. Поэтому я предлагаю: "
+"взаимовыгодное соглашение. Вы очистите флагман от повстанцев, сохранив "
+"корабль = в целости и сохранности, и сможете оставить себе: чертежи корабля. "
+"Как вам такое предложение?\""
 
 #: src-en/data/events_fr_sector_warzone.xml:200
 msgid ""
@@ -122,16 +167,26 @@ msgstr "Вы можете рассчитывать на нас!"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
+"Энджи кивает. \"Хорошо. К счастью, мы можем отследить: флагман. Мы добавим "
+"отметку на: вашу карту\". ХС-98A передает координаты на ваш корабль, после "
+"чего на мгновение отключается, а через несколько секунд перезагружается."
 
 #: src-en/data/events_fr_sector_warzone.xml:205
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/choice/text"
-msgstr ""
+msgstr "С вами все в порядке?"
 
 #: src-en/data/events_fr_sector_warzone.xml:207
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/choice/event/text"
 msgstr ""
+"Энджи вяло кивает. \"Моя форма = не имеет значения перед лицом Восстания\". "
+"Внезапно энджи на мгновение замирает, а затем поспешно поворачивается к вам. "
+"\"Похоже, есть еще одна проблема, Ренегат. Коалиция тоже прислала свой "
+"флагман. Похоже, что пока он: атакует повстанцев. Однако, как только с "
+"повстанцами разберутся, они наверняка направят свои орудия на: Федерацию. Не "
+"могли бы вы разобраться и с этой угрозой? Этот юнит уверен, что вы также "
+"можете получить: вознаграждение за это\"."
 
 #: src-en/data/events_fr_sector_warzone.xml:209
 msgid ""
@@ -142,16 +197,22 @@ msgstr "Конечно."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
+"Энджи кивает, после чего его тело постепенно отключается, но на этот раз он "
+"уже не включается снова. Охранники благодарят вас за помощь и позволяют вам "
+"идти."
 
 #: src-en/data/events_fr_sector_warzone.xml:216
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/choice/event/choice[2]/text"
-msgstr ""
+msgstr "У нас и так дел по горло. Мы должны отказаться."
 
 #: src-en/data/events_fr_sector_warzone.xml:218
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/choice/event/choice[2]/event/text"
 msgstr ""
+"Энджи медленно кивает и отключается - на этот раз навсегда. Солдаты "
+"сопровождают вас обратно на корабль, и вы отправляетесь в путь, держа в уме "
+"свою цель."
 
 #: src-en/data/events_fr_sector_warzone.xml:220
 msgid ""
@@ -166,12 +227,12 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_warzone.xml:234
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[2]/text"
-msgstr ""
+msgstr "Это звучит слишком опасно, мы не можем так рисковать."
 
 #: src-en/data/events_fr_sector_warzone.xml:236
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[2]/event/text"
-msgstr ""
+msgstr "Энджи кивает, после чего разрешает вам и вашей команде уйти."
 
 #: src-en/data/events_fr_sector_warzone.xml:238
 msgid ""
@@ -187,11 +248,16 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[2]/text"
 msgstr ""
+"Это выглядит подозрительно, держаться подальше от корабля и приготовиться к "
+"прыжку."
 
 #: src-en/data/events_fr_sector_warzone.xml:254
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[2]/event/text"
 msgstr ""
+"Учитывая, насколько опасен этот сектор, доверять какому-либо случайному "
+"кораблю, даже кораблю Федерации, - это слишком большой риск, чтобы идти на "
+"него сейчас."
 
 #: src-en/data/events_fr_sector_warzone.xml:256
 msgid ""
@@ -206,27 +272,39 @@ msgstr "Ничего не делать."
 #: src-en/data/events_fr_sector_warzone.xml:270
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "Местонахождение похищенного флагмана Федерации."
 
 #: src-en/data/events_fr_sector_warzone.xml:271
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Посещенное место. Ничего интересного."
 
 #: src-en/data/events_fr_sector_warzone.xml:281
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/text"
 msgstr ""
+"Вы вычислили местонахождение похищенного флагмана Федерации; судя по всему, "
+"он находится в ангаре повстанцев. Охрана здесь на удивление слабая, хотя вы "
+"сомневаетесь, что так будет продолжаться долго."
 
 #: src-en/data/events_fr_sector_warzone.xml:286
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать флагман."
 
 #: src-en/data/events_fr_sector_warzone.xml:288
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[1]/event/text"
 msgstr ""
+"Вы устремляетесь вперед, вынуждая корабль вступить с вами в бой. Похоже, у "
+"повстанцев не хватило времени полностью перекрасить корабль в цвета "
+"повстанцев. Тем не менее, судя по всему, его вооружение полностью готово к "
+"бою. Внезапно с флагмана поступает вызов. На вашем экране появляется "
+"повстанец в летном шлеме, скрывающем его ярко-рыжие волосы. \"Так это ты и "
+"есть тот Ренегат, которого Федерация послала, чтобы остановить нас, да? "
+"Очень мило. Наше дело слишком велико, чтобы его смог остановить такая "
+"подлизывающаяся Федерации шавка, как ты. Готовься испытать на себе ярость "
+"Восстания! Ведь я, Виктор, сокрушу тебя!\""
 
 #: src-en/data/events_fr_sector_warzone.xml:291
 msgid ""
@@ -237,11 +315,18 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[1]/event/choice[@req=\"unique_vance\"]/text"
 msgstr ""
+"(Вэнс Первый) \"Стой, солдат! Приказываю тебе эвакуировать флагман и "
+"доставить его в целости и сохранности в штаб-квартиру Федерации!\""
 
 #: src-en/data/events_fr_sector_warzone.xml:297
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[1]/event/choice[@req=\"unique_vance\"]/event/text"
 msgstr ""
+"Виктор моргает, а затем его лицо искажается от чистой ярости. \"Ах ты "
+"предательская крыса! Ты бросил нас и уполз обратно в разваливающийся улей "
+"грязи, который зовется Федерацией! Ты не повстанец! Ты позор, ты зараза! И я "
+"с огромным удовольствием уничтожу тебя!\". Виктор обрывает связь и атакует, "
+"оставляя Вэнса кипеть от злости."
 
 #: src-en/data/events_fr_sector_warzone.xml:299
 msgid ""
@@ -251,12 +336,15 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:307
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[2]/text"
-msgstr ""
+msgstr "Уйти."
 
 #: src-en/data/events_fr_sector_warzone.xml:309
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[2]/event/text"
 msgstr ""
+"Нападение на этот корабль - все равно что бросить камень в осиное гнездо. "
+"Если вам дорога жизнь, то лучше поспешить убраться оттуда, пока вас не "
+"заметили."
 
 #: src-en/data/events_fr_sector_warzone.xml:311
 msgid ""
@@ -272,6 +360,10 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP_DEADCREW\"]/text"
 msgstr ""
+"Когда падают замертво последние оставшиеся повстанцы, вы понимаете, что "
+"нельзя терять ни секунды времени. Повстанцы, несомненно, успели запросить "
+"подкрепление перед смертью, а это значит, что вам нужно действовать быстро, "
+"если вы хотите заполучить чертежи."
 
 #: src-en/data/events_fr_sector_warzone.xml:326
 msgid ""
@@ -282,6 +374,12 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP_DEADCREW\"]/choice/event/text"
 msgstr ""
+"На поиск нужных чертежей уходит минута, но вам удается их найти. Жаль, что "
+"проект не будет реализован в ближайшее время, но, по крайней мере, вы не "
+"дали повстанцам воспользоваться им. На обратном пути вы также обнаруживаете "
+"уникальное модифицированное оружие. Похоже, оно предназначено только для "
+"самых высокопоставленных солдат Федерации, но вы решаете, что вам можно его "
+"забрать."
 
 #: src-en/data/events_fr_sector_warzone.xml:332
 msgid ""
@@ -291,27 +389,40 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:343
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "Местонахождение похищенного флагмана Коалиции."
 
 #: src-en/data/events_fr_sector_warzone.xml:344
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Посещенное место. Ничего интересного."
 
 #: src-en/data/events_fr_sector_warzone.xml:354
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/text"
 msgstr ""
+"Вы вычислили местонахождение флагмана Коалиции, который, судя по всему, "
+"готовится атаковать небольшой аванпост повстанцев. Его защищают лишь "
+"несколько технических кораблей, и без вашей помощи они долго не продержатся."
 
 #: src-en/data/events_fr_sector_warzone.xml:359
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать флагман."
 
 #: src-en/data/events_fr_sector_warzone.xml:361
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/choice[1]/event/text"
 msgstr ""
+"Вы устремляетесь вперед, вынуждая флагман вступить с вами в бой. Вы "
+"получаете сообщение с флагмана; на другом конце оказывается ни кто иной, как "
+"старейшина валунов!\n"
+"\n"
+"\"Ах, слабый и жалкий корабль Федерации; я много слышал о вашей борьбе. Вы "
+"даже не представляете, на что вы подписались, не так ли? Я Валунгор, "
+"старейшина, ответственный за исследования Инквизиции, и я здесь, чтобы "
+"убедиться, что ни у повстанцев, ни у Федерации нет никаких технологий, "
+"которые могли бы помочь им в борьбе против крестового похода. Мне будет "
+"приятно наблюдать, как ты тщетно сопротивляешься, мелкая букашка\"."
 
 #: src-en/data/events_fr_sector_warzone.xml:366
 msgid ""
@@ -321,12 +432,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:372
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/choice[2]/text"
-msgstr ""
+msgstr "Повстанцы могут сами о себе позаботиться."
 
 #: src-en/data/events_fr_sector_warzone.xml:374
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/choice[2]/event/text"
-msgstr ""
+msgstr "Это они затеяли всю эту заварушку; по-вашему, это карма."
 
 #: src-en/data/events_fr_sector_warzone.xml:376
 msgid ""
@@ -342,6 +453,8 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DESTROYED\"]/text"
 msgstr ""
+"Огромный флагманский корабль раскололся пополам, а затем взорвался. Хотя вам "
+"и удалось спасти техников, чертежи флагмана теперь безвозвратно утрачены."
 
 #: src-en/data/events_fr_sector_warzone.xml:392
 msgid ""
@@ -352,16 +465,35 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DESTROYED\"]/choice/event/text"
 msgstr ""
+"Вскоре к вам подходит техник из аванпоста, одетый в форму МВ повстанцев. "
+"\"Ренегат, слава небесам, что вы прибыли! Флагман внезапно напал на нас! "
+"Этот аванпост не был предназначен для ведения боевых действий; это было "
+"просто место для ремонта наших автоматических кораблей. Те немногие корабли, "
+"которые у нас были для защиты, были уничтожены за считанные секунды... Не "
+"могу себе представить, что бы произошло, если бы вы не успел сюда "
+"добраться\".\n"
+"\n"
+"Повстанец прочищает горло. \"Меня зовут Джон Бриггс. Я главный техник здесь, "
+"меня прислала Вселенная 1, чтобы я помогал обучать новое поколение техников. "
+"Однако, увидев собственными глазами всю ту бойню, которую устроило здесь "
+"Восстание... боюсь, я больше не гожусь для этой работы. Не возражаете, если "
+"я присоединюсь к вашей команде?\""
 
 #: src-en/data/events_fr_sector_warzone.xml:397
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DESTROYED\"]/choice/event/crewMember"
-msgstr ""
+msgstr "Джон Бриггс"
 
 #: src-en/data/events_fr_sector_warzone.xml:403
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DEADCREW\"]/text"
 msgstr ""
+"Валунгор оказывает достойное сопротивление и умирает последним; однако даже "
+"его могучий молот не способен остановить вас. Вы быстро находит панель "
+"управления и скачиваете чертежи, а затем разбираете корабль на запчасти. Вы "
+"также находите уникальное оружие, гораздо более мощное, чем стандартный "
+"вариант, которое, вероятно, предназначено только для самых сильных солдат "
+"Коалиции."
 
 #: src-en/data/events_fr_sector_warzone.xml:408
 msgid ""
@@ -372,16 +504,39 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DEADCREW\"]/choice/event/text"
 msgstr ""
+"Вскоре к вам подходит техник из аванпоста, одетый в форму МВ повстанцев. "
+"\"Ренегат, слава небесам, что вы прибыли! Флагман внезапно напал на нас! "
+"Этот аванпост не был предназначен для ведения боевых действий; это было "
+"просто место для ремонта наших автоматических кораблей. Те немногие корабли, "
+"которые у нас были для защиты, были уничтожены за считанные секунды... Не "
+"могу себе представить, что бы произошло, если бы вы не успел сюда "
+"добраться\".\n"
+"\n"
+"Повстанец прочищает горло. \"Меня зовут Джон. Я главный техник здесь, меня "
+"прислала Вселенная 1, чтобы я помогал обучать новое поколение техников. "
+"Однако, увидев собственными глазами всю ту бойню, которую устроило здесь "
+"Восстание... боюсь, я больше не гожусь для этой работы. Не возражаете, если "
+"я присоединюсь к вашей команде?\""
 
 #: src-en/data/events_fr_sector_warzone.xml:413
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DEADCREW\"]/choice/event/crewMember"
-msgstr ""
+msgstr "Джон Бриггс"
 
 #: src-en/data/events_fr_sector_warzone.xml:438
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_PURPLE_BEARD\"]/destroyed/text"
 msgstr ""
+"Мощный пиратский корабль раскололся пополам - его передовая конструкция явно "
+"достигла пределов своих возможностей. Тем не менее, какой-то механизм в его "
+"конструкции предотвратил полное разрушение, и взорвалась лишь половина "
+"корабля.\n"
+"\n"
+"Сначала вы разбираете разрушенную половину; в ней вы находите "
+"ультрасовременное оружие, которое Пурпурная Борода использовал против вас, и "
+"которое осталось целым даже после такого взрыва! Другой лазер, похоже, был "
+"сильно поврежден во время боя до такой степени, что его больше нельзя "
+"использовать."
 
 #: src-en/data/events_fr_sector_warzone.xml:444
 msgid ""
@@ -392,6 +547,13 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_PURPLE_BEARD\"]/deadCrew/text"
 msgstr ""
+"Пурпурная Борода был выдающимся противником, но даже у него были свои "
+"пределы. Сражение было долгим и изнурительным, но в конце концов последний "
+"из его команды пал, и корабль остался в состоянии, пригодном лишь на лом.\n"
+"\n"
+"Первым делом вы пытаетесь извлечь его мощные лазеры; однако, похоже, один из "
+"них был серьезно поврежден во время боя и не подлежит восстановлению. По "
+"крайней мере, второй находится в идеальном состоянии."
 
 #: src-en/data/events_fr_sector_warzone.xml:455
 msgid ""
@@ -402,46 +564,82 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/text"
 msgstr ""
+"Как только вы попадаете к этому маяку, вас сразу же вызывает единственный "
+"другой корабль, находящийся здесь... если не считать гигантский флот на "
+"заднем плане. \"Ренегат... Похоже, наши пути наконец-то пересеклись...\" "
+"Человек на экране - легендарный корсар Пурпурная Борода, единственный "
+"независимый пират, когда-либо достигший такого звания.\n"
+"\n"
+"\tЕго голос медленный и тяжелый; хотя он и избегает смотреть вам в глаза, вы "
+"все равно чувствуете огромный вес, исходящий от него. Его внешность "
+"подтверждает легенды, которые ходят о нем в менее благопристойных уголках "
+"Мультивселенной - о бывшем повстанце из Легиона, который предал своих, "
+"разочаровавшись в деле. Поскольку из-за его прошлого каждая фракция хотела "
+"его смерти, единственный путь, по которому он мог пойти, - это путь пирата."
 
 #: src-en/data/events_fr_sector_warzone.xml:478
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/text"
-msgstr ""
+msgstr "Так это ты и есть легендарный Пурпурная Борода?"
 
 #: src-en/data/events_fr_sector_warzone.xml:480
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/text"
 msgstr ""
+"Пират морщится при этом имени, но медленно кивает. \"...Да, я... Хотя... "
+"лучше бы я им не был...\" Мужчина отводит взгляд. На мгновение видны его "
+"глаза: один - кибернетический протез, а другой - стеклянный глаз, поперек "
+"которого проходит вертикальный шрам. \"И я полагаю... ты хочешь меня убить?\""
 
 #: src-en/data/events_fr_sector_warzone.xml:482
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/text"
-msgstr ""
+msgstr "Не особо."
 
 #: src-en/data/events_fr_sector_warzone.xml:484
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/event/text"
 msgstr ""
+"Легенда, похоже, озадачена вашим признанием. \"...ты... не хочешь?... "
+"Почему? Я же самый разыскиваемый преступник во всей Мультивселенной!\" И "
+"снова вы мельком видите его глаза. В них, кажется, отражается смесь "
+"удивления и, возможно, легкой надежды."
 
 #: src-en/data/events_fr_sector_warzone.xml:486
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/event/choice/text"
 msgstr ""
+"Мы - Ренегаты; в некоторых кругах наша репутация не намного лучше твоей."
 
 #: src-en/data/events_fr_sector_warzone.xml:488
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/event/choice/event/text"
 msgstr ""
+"Мужчина издает сдержанный смешок, который тут же переходит в мучительный "
+"кашель. Когда он приходит в себя, он снова говорит: \"...Понятно... "
+"Значит... если ты не хочешь меня убить... чего ты хочешь?\""
 
 #: src-en/data/events_fr_sector_warzone.xml:490
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/event/choice/event/choice/text"
 msgstr ""
+"Похоже, тебе не нравится быть пиратом. Почему бы тебе не присоединиться к "
+"нашей команде и не стать героем?"
 
 #: src-en/data/events_fr_sector_warzone.xml:492
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/event/choice/event/choice/event/text"
 msgstr ""
+"Пурпурная Борода на мгновение замирает, и теперь его глаза видны во всей "
+"красе. В уголках глаз появляется слезинка, но он быстро вытирает ее "
+"поношенным рукавом. Он слегка улыбается, наконец глядя вам прямо в глаза. "
+"\"...Хех... если ты не самый странный Ренегат, которого я когда-либо "
+"встречал... Честно говоря... я всегда хотел... начать все сначала... Ладно, "
+"Ренегат... я принимаю твое предложение... Однако... я не могу просто уйти... "
+"Легенда вроде меня заслуживает достойной смерти... Так вот что: ты сразишься "
+"со мной и моей командой. Можешь быть настолько жестоким, насколько "
+"пожелаешь - сделай так, чтобы это было достойно моей легенды. После боя "
+"разнеси этот корабль в клочья... у меня есть план... К бою!\""
 
 #: src-en/data/events_fr_sector_warzone.xml:496
 msgid ""
@@ -457,6 +655,8 @@ msgstr "Да."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[2]/event/text"
 msgstr ""
+"Пират вздыхает. \"...Ладно... Удачи... Ренегат...\". Связь обрывается, и "
+"оружие пирата переходит в боевой режим."
 
 #: src-en/data/events_fr_sector_warzone.xml:511
 msgid ""
@@ -467,16 +667,36 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$/dummyroot/FTL/event[@name=\"FR_WARZONE_PURPLE_BEARD_WIN\"]/text"
 msgstr ""
+"Пиратский флот внезапно замирает, осознав, что легенда повержена. Вскоре к "
+"вам обращается гигантский валун-Изгой из пиратского флота. \"Ты... ты убил "
+"его... Я едва верю своим глазам! Ренегат! Не знаю, осознаешь ли ты, что "
+"только что наделал, но, убив Пурпурную Бороду, ты теперь займешь его место в "
+"наших легендах!\" Затем он обращается ко всем остальным кораблям флота. "
+"\"Все! Немедленно прекратите атаку на Ренегата! Теперь он наш лидер!\" Вас "
+"внезапно заваливают приветствиями со всех пиратских кораблей в радиусе "
+"действия маяка, и все поют песни в вашу честь. Вскоре небольшой пиратский "
+"челнок доставляет вам ящик с припасами. Похоже, пиратство иногда бывает "
+"выгодным..."
 
 #: src-en/data/events_fr_sector_warzone.xml:527
 msgid ""
 "data/events_fr_sector_warzone.xml$/dummyroot/FTL/event[@name=\"FR_WARZONE_PURPLE_BEARD_WIN_PLAN\"]/text"
 msgstr ""
+"Пиратский флот внезапно замирает, осознав, что легенда повержена. Вскоре к "
+"вам обращается гигантский валун-Изгой из пиратского флота. \"Ты... ты убил "
+"его... Я едва верю своим глазам! Ренегат! Не знаю, осознаешь ли ты, что "
+"только что наделал, но, убив Пурпурную Бороду, ты теперь займешь его место в "
+"наших легендах!\" Затем он обращается ко всем остальным кораблям флота. "
+"\"Все! Немедленно прекратите атаку на Ренегата! Теперь он наш лидер!\" Вас "
+"внезапно заваливают приветствиями со всех пиратских кораблей в радиусе "
+"действия маяка, и все поют песни в вашу честь. Вскоре небольшой пиратский "
+"челнок доставляет вам ящик с припасами. Похоже, пиратство иногда бывает "
+"выгодным..."
 
 #: src-en/data/events_fr_sector_warzone.xml:531
 msgid ""
 "data/events_fr_sector_warzone.xml$/dummyroot/FTL/event[@name=\"FR_WARZONE_PURPLE_BEARD_WIN_PLAN\"]/choice/text"
-msgstr ""
+msgstr "Продолжить разбирать корабль."
 
 #: src-en/data/events_fr_sector_warzone.xml:533
 msgid ""
@@ -917,6 +1137,8 @@ msgstr "(Глушитель сигналов) Заглушить их сигна
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/choice[5]/event/choice[@req=\"PDS_DISABLE\"]/event/text"
 msgstr ""
+"Если ПКБ не активируется, вы считаете это хорошим знаком, означающим, что "
+"ваш модуль сработал должным образом, и продолжаете сражаться."
 
 #: src-en/data/events_fr_sector_warzone.xml:933
 msgid ""
@@ -3679,7 +3901,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3501
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_QUEST_WARZONE_FEDERATION_GATLING_PART_1\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Посещенное место. Ничего интересного."
 
 #: src-en/data/events_fr_sector_warzone.xml:3511
 msgid ""
@@ -3769,7 +3991,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3587
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_QUEST_WARZONE_FEDERATION_GATLING_PART_2\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Посещенное место. Ничего интересного."
 
 #: src-en/data/events_fr_sector_warzone.xml:3597
 msgid ""
@@ -3898,7 +4120,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3705
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_QUEST_WARZONE_FEDERATION_GATLING_PART_FINAL\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "Посещенное место. Ничего интересного."
 
 #: src-en/data/events_fr_sector_warzone.xml:3715
 msgid ""
