@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-14 09:37+0000\n"
+"PO-Revision-Date: 2026-06-15 10:36+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "dataevents_fr_sector_warzonexml/ru/>\n"
@@ -2321,16 +2321,28 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_COALITION_UNION\"]/text"
 msgstr ""
+"Как только вы приближаетесь к этому маяку, корабль наполняется сигналами "
+"бедствия, поступающими с соседней луны. Похоже, флот Коалиции атакует "
+"практически беззащитную исследовательскую станцию Союза, а во главе атаки "
+"стоит эсминец ЭЭРЕ. Несколько кораблей Ополчения пытаются выиграть для "
+"экипажа время, необходимое для эвакуации, но без посторонней помощи им это "
+"не удастся."
 
 #: src-en/data/events_fr_sector_warzone.xml:1740
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_COALITION_UNION\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать эсминец!"
 
 #: src-en/data/events_fr_sector_warzone.xml:1742
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_COALITION_UNION\"]/choice[1]/event/text"
 msgstr ""
+"Корабль Коалиции застигнут врасплох внезапным появлением подкрепления. Но "
+"они не теряют самообладания и направляют свое оружие на вас. \"Ренегат "
+"Федерации?! Что ты здесь делаешь?! Знаешь что, мне плевать, что командование "
+"считает это пустой тратой времени, я уничтожу твой корабль, а затем и этих "
+"бесполезных существ в исследовательской станции! Тогда я... то есть *мы* "
+"наконец-то будем иметь место, где можно отдохнуть после каждого боя!\""
 
 #: src-en/data/events_fr_sector_warzone.xml:1745
 msgid ""
@@ -2346,6 +2358,9 @@ msgstr "Не ввязываться в это."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_COALITION_UNION\"]/choice[2]/event/text"
 msgstr ""
+"Напасть на командующего целым флотом - это была бы ошибка, которую вы сейчас "
+"не можете себе позволить. Лучше просто уйти и сделать вид, что вы ничего "
+"этого не видели."
 
 #: src-en/data/events_fr_sector_warzone.xml:1755
 msgid ""
@@ -2361,6 +2376,11 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_COALITION_UNION_WIN\"]/text"
 msgstr ""
+"Без эсминца, возглавлявшего атаку, остальная часть флота рассеялась, по-"
+"видимому, получив приказ к отступлению. К вам обращается ученый Союза: "
+"\"Слава небесам, что вы прибыли! Наша отважная охрана сделала все, что "
+"могла, но против целого флота у нас не было бы ни единого шанса! Пожалуйста, "
+"возьмите этот модуль; я уверен, он пригодится вам в вашей миссии\"."
 
 #: src-en/data/events_fr_sector_warzone.xml:1772
 msgid ""
@@ -2371,16 +2391,24 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_DAMAGED\"]/text"
 msgstr ""
+"Несмотря на то что этот маяк находится достаточно близко к флоту МФК, чтобы "
+"попасть в зону действия ПКБ, здесь удивительно спокойно. Единственное, что "
+"привлекает внимание, - это поврежденный корабль асов МФК. Хотя, судя по "
+"всему, повреждения не затронули важных для боевых действий систем. Они "
+"замечают вас, но не предпринимают никаких враждебных действий."
 
 #: src-en/data/events_fr_sector_warzone.xml:1792
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_DAMAGED\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать МФК!"
 
 #: src-en/data/events_fr_sector_warzone.xml:1794
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_DAMAGED\"]/choice[1]/event/text"
 msgstr ""
+"Корабль асов МФК с трудом запускает свои системы для вступления в бой, но "
+"быстро приводит их в рабочее состояние, достаточное для того, чтобы "
+"сразиться с вами."
 
 #: src-en/data/events_fr_sector_warzone.xml:1797
 msgid ""
@@ -2390,12 +2418,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:1803
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_DAMAGED\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на них."
 
 #: src-en/data/events_fr_sector_warzone.xml:1805
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_DAMAGED\"]/choice[2]/event/text"
 msgstr ""
+"Если они не напали на вас первыми, значит, они не хотят с вами сражаться. И, "
+"следовательно, по той же логике, вы тоже решаете не сражаться с ними."
 
 #: src-en/data/events_fr_sector_warzone.xml:1807
 msgid ""
@@ -2411,6 +2441,10 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_REBEL_AUTO_ELITE_FIGHT\"]/destroyed/text"
 msgstr ""
+"Вы уничтожили автоматический корабль Инноваций. Нельзя было отрицать "
+"растущую угрозу, исходящую от этого противника, но в конечном итоге он "
+"оказался всего лишь адской машиной, которую ваша демонстрация силы быстро "
+"заставила замолчать."
 
 #: src-en/data/events_fr_sector_warzone.xml:1823
 msgid ""
@@ -2421,6 +2455,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_REBEL_AUTO_ELITE_FIGHT\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз продвинутого автоматического корабля уцелел в бою. Внутри "
+"находится исправное оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:1828
 msgid ""
@@ -2431,16 +2467,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_AUTO_FIGHT\"]/text"
 msgstr ""
+"К вашему удивлению, вы обнаруживаете, что в этом довольно уединенном маяке "
+"сражаются два автоматических корабля: корабль Федерации и корабль повстанцев "
+"Инноваций. Корабль повстанцев, будучи элитным, явно превосходит противника "
+"и, если его не остановить, несомненно уничтожит корабль Федерации."
 
 #: src-en/data/events_fr_sector_warzone.xml:1840
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_AUTO_FIGHT\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать автоматический корабль повстанцев!"
 
 #: src-en/data/events_fr_sector_warzone.xml:1842
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_AUTO_FIGHT\"]/choice[1]/event/text"
 msgstr ""
+"Автоматический корабль мгновенно отвечает на вашу агрессию тем же, нацеливая "
+"свое оружие прямо на вас!"
 
 #: src-en/data/events_fr_sector_warzone.xml:1845
 msgid ""
@@ -2450,12 +2492,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:1851
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_AUTO_FIGHT\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на них."
 
 #: src-en/data/events_fr_sector_warzone.xml:1853
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_AUTO_FIGHT\"]/choice[2]/event/text"
 msgstr ""
+"Это всего лишь автоматические корабли, один больше или меньше - в общем и "
+"целом это не имеет значения."
 
 #: src-en/data/events_fr_sector_warzone.xml:1855
 msgid ""
@@ -2471,21 +2515,28 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_AUTO_FIGHT_WIN\"]/text"
 msgstr ""
+"Автоматический корабль Федерации вызывает вас. \"Ренегат. Ваш вклад был "
+"отмечен и признан достойным награды высокого уровня\"."
 
 #: src-en/data/events_fr_sector_warzone.xml:1880
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_COALITION_NEUTRAL\"]/text"
 msgstr ""
+"Когда флот ЭЭРЕ появляется вдали, вы ожидаете, что в любой момент начнется "
+"сражение с кораблем Коалиции, но вместо этого вас просто вызывает на связь "
+"корабль ЭЭРЕ. \"О боже, *еще один* корабль Федерации?! Мы только что "
+"уничтожили целый флот, вы, тупицы! Знаете что? Мне лень ссс вами возитьссся, "
+"можете убиратьссся\". Слизень отмахивается от вас."
 
 #: src-en/data/events_fr_sector_warzone.xml:1884
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_COALITION_NEUTRAL\"]/choice[1]/text"
-msgstr ""
+msgstr "Мы должны отомстить за павших! Атаковать корабль Коалиции!"
 
 #: src-en/data/events_fr_sector_warzone.xml:1886
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_COALITION_NEUTRAL\"]/choice[1]/event/text"
-msgstr ""
+msgstr "Слизень ворчит и тихо ругается под нос, а затем активирует свое оружие."
 
 #: src-en/data/events_fr_sector_warzone.xml:1889
 msgid ""
@@ -2495,12 +2546,15 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:1895
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_COALITION_NEUTRAL\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на них."
 
 #: src-en/data/events_fr_sector_warzone.xml:1897
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_COALITION_NEUTRAL\"]/choice[2]/event/text"
 msgstr ""
+"Хотя гибель экипажа Федерации - это большая потеря, но с учетом огромного "
+"флота на заднем плане нападать на этого самодовольного слизня - просто "
+"ужасная идея."
 
 #: src-en/data/events_fr_sector_warzone.xml:1899
 msgid ""
@@ -2516,21 +2570,27 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_REBEL_AUTO_ELITE_ESCAPING\"]/gotaway/text"
 msgstr ""
+"Автоматический корабль успел уйти в прыжок. С точностью до секунды уже "
+"чувствуется, как автоматический флот приближается к вам."
 
 #: src-en/data/events_fr_sector_warzone.xml:1920
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_AUTO_ESCAPING\"]/text"
 msgstr ""
+"Как только вы совершите прыжок к этому маяку, вы замечаете, что ССД начинает "
+"заряжаться. Оглядевшись по сторонам, вы видите автоматический корабль "
+"повстанцев Инноваций, готовящийся к прыжку; если ему удастся уйти, он, без "
+"сомнения, направится предупредить флот повстанцев."
 
 #: src-en/data/events_fr_sector_warzone.xml:1923
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_AUTO_ESCAPING\"]/choice[1]/text"
-msgstr ""
+msgstr "Мы не можем позволить ему сбежать! Атаковать его!"
 
 #: src-en/data/events_fr_sector_warzone.xml:1925
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_AUTO_ESCAPING\"]/choice[1]/event/text"
-msgstr ""
+msgstr "Автоматический корабль активирует оружие, но не прекращает зарядку ССД."
 
 #: src-en/data/events_fr_sector_warzone.xml:1928
 msgid ""
@@ -2540,37 +2600,52 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:1934
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_AUTO_ESCAPING\"]/choice[2]/text"
-msgstr ""
+msgstr "Пусть сбежит."
 
 #: src-en/data/events_fr_sector_warzone.xml:1936
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_AUTO_ESCAPING\"]/choice[2]/event/text"
 msgstr ""
+"Автоматические корабли Инноваций - это крепкие орешки; лучше дать ему уйти, "
+"чем пытаться разобраться с их передовыми системами и вооружением."
 
 #: src-en/data/events_fr_sector_warzone.xml:1945
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_ENGINEER_REQUEST\"]/text"
 msgstr ""
+"Техников редко можно встретить за пределами их основных секторов, но, судя "
+"по всему, повстанцы настолько отчаянно нуждаются в поддержке, что готовы "
+"обратиться к ним за помощью. Однако корабль Техников не нападает на вас, а "
+"вместо этого вызывает вас. \"Ренегат, я знаю, что это прозвучит странно, но "
+"мы сильно отстаем от плана и нам нужно быстро добыть лом. У нас нет "
+"оборудования, которое мы могли бы вам продать, но мы готовы предоставить вам "
+"одного из наших обученных специалистов\"."
 
 #: src-en/data/events_fr_sector_warzone.xml:1948
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_ENGINEER_REQUEST\"]/choice[1]/text"
-msgstr ""
+msgstr "Нанять их члена экипажа."
 
 #: src-en/data/events_fr_sector_warzone.xml:1950
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_ENGINEER_REQUEST\"]/choice[1]/event/text"
 msgstr ""
+"Полевой Техник поблагодарил вас и с улыбкой обратился к своему экипажу. Он "
+"долго рассказывает об условиях труда, но ничего не показалось вам "
+"подозрительным, поэтому вы без особых опасений приняли его."
 
 #: src-en/data/events_fr_sector_warzone.xml:1958
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_ENGINEER_REQUEST\"]/choice[2]/text"
-msgstr ""
+msgstr "Отклонить их предложение."
 
 #: src-en/data/events_fr_sector_warzone.xml:1960
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_ENGINEER_REQUEST\"]/choice[2]/event/text"
 msgstr ""
+"Техник, похоже, начинает паниковать; он не ожидал, что вы откажетесь от его "
+"предложения. \"Прости, Ренегат, но мы слишком сильно отстаем от графика, "
+"чтобы упустить такую возможность. Активируем оружие\"."
 
 #: src-en/data/events_fr_sector_warzone.xml:1963
 msgid ""
@@ -2581,16 +2656,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_REBEL\"]/text"
 msgstr ""
+"Вы обнаруживаете корабль асов МФК, патрулирующий вблизи маяка, хотя он вас "
+"пока не заметил."
 
 #: src-en/data/events_fr_sector_warzone.xml:1982
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_REBEL\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать его!"
 
 #: src-en/data/events_fr_sector_warzone.xml:1984
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_REBEL\"]/choice[1]/event/text"
 msgstr ""
+"Вражеский корабль быстро реагирует на ваше появление, приводя в боевую "
+"готовность свое вооружение."
 
 #: src-en/data/events_fr_sector_warzone.xml:1987
 msgid ""
@@ -2600,12 +2679,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:1993
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_REBEL\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на него."
 
 #: src-en/data/events_fr_sector_warzone.xml:1995
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_REBEL\"]/choice[2]/event/text"
 msgstr ""
+"Вам удается оставаться незамеченным вражеским кораблем достаточно долго, "
+"чтобы ваш ССД зарядился."
 
 #: src-en/data/events_fr_sector_warzone.xml:1997
 msgid ""
@@ -2621,16 +2702,21 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_COALITION\"]/text"
 msgstr ""
+"У этого маяка вы обнаруживаете дрейфующий корабль ЭЭРЕ. Его системы "
+"находятся в рабочем состоянии, и вы обнаруживаете, что внутри есть экипаж. "
+"Скорее всего, они просто отдыхают."
 
 #: src-en/data/events_fr_sector_warzone.xml:2013
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_COALITION\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать их!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2015
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_COALITION\"]/choice[1]/event/text"
 msgstr ""
+"Вражеский корабль быстро реагирует на ваше появление, приводя в боевую "
+"готовность свое вооружение."
 
 #: src-en/data/events_fr_sector_warzone.xml:2018
 msgid ""
@@ -2640,12 +2726,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2024
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_COALITION\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на них."
 
 #: src-en/data/events_fr_sector_warzone.xml:2026
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_COALITION\"]/choice[2]/event/text"
 msgstr ""
+"Вам удается оставаться незамеченным вражеским кораблем достаточно долго, "
+"чтобы ваш ССД зарядился."
 
 #: src-en/data/events_fr_sector_warzone.xml:2028
 msgid ""
@@ -2661,16 +2749,20 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_FEDERATION\"]/text"
 msgstr ""
+"Вы обнаруживаете корабль Единства, охраняющий важный торговый маршрут. Они "
+"сканируют ваш корабль и пропускают вас без проблем."
 
 #: src-en/data/events_fr_sector_warzone.xml:2050
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_FEDERATION\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать их!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2052
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_FEDERATION\"]/choice[1]/event/text"
 msgstr ""
+"Вражеский корабль быстро реагирует на вашу агрессию, в свою очередь "
+"активируя оружие."
 
 #: src-en/data/events_fr_sector_warzone.xml:2055
 msgid ""
@@ -2680,12 +2772,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2061
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_FEDERATION\"]/choice[2]/text"
-msgstr ""
+msgstr "Двигаться дальше."
 
 #: src-en/data/events_fr_sector_warzone.xml:2063
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_FEDERATION\"]/choice[2]/event/text"
 msgstr ""
+"В конце концов корабль перестает следить за вами, и вы можете "
+"беспрепятственно зарядить свой ССД."
 
 #: src-en/data/events_fr_sector_warzone.xml:2065
 msgid ""
@@ -2701,16 +2795,21 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_PIRATE\"]/text"
 msgstr ""
+"Вы замечаете элитный пиратский корабль, быстро проходящий мимо этого маяка; "
+"скорее всего, на его борту находится похищенный груз, который пираты "
+"намерены позже сбыть."
 
 #: src-en/data/events_fr_sector_warzone.xml:2081
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_PIRATE\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать их!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2083
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_PIRATE\"]/choice[1]/event/text"
 msgstr ""
+"Вражеский корабль быстро реагирует на вашу агрессию, в свою очередь "
+"активируя оружие."
 
 #: src-en/data/events_fr_sector_warzone.xml:2086
 msgid ""
@@ -2720,12 +2819,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2092
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_PIRATE\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на них."
 
 #: src-en/data/events_fr_sector_warzone.xml:2094
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_PIRATE\"]/choice[2]/event/text"
 msgstr ""
+"Корабль не обращает на вас внимания и, как только зарядка двигателя "
+"завершается, уходит в прыжок."
 
 #: src-en/data/events_fr_sector_warzone.xml:2097
 msgid ""
@@ -2790,16 +2891,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_UNION_COALITION\"]/text"
 msgstr ""
+"Вы попадаете к этому маяку и видите небольшой шаттл Союза, с трудом "
+"уклоняющийся от атак корабля ЭЭРЕ. Они отчаянно вызывают вас и просят о "
+"помощи."
 
 #: src-en/data/events_fr_sector_warzone.xml:2163
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_UNION_COALITION\"]/choice[1]/text"
-msgstr ""
+msgstr "Защитить шаттл!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2165
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_UNION_COALITION\"]/choice[1]/event/text"
 msgstr ""
+"Кораблю Коалиции удается вывести из строя щиты шаттла, и как раз в тот "
+"момент, когда они собираются уничтожить его, вам удается привлечь их "
+"внимание. Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2168
 msgid ""
@@ -2809,12 +2916,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2174
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_UNION_COALITION\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на их крики."
 
 #: src-en/data/events_fr_sector_warzone.xml:2176
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_UNION_COALITION\"]/choice[2]/event/text"
 msgstr ""
+"Вы выключаете устройство связи и готовитесь к прыжку, стараясь забыть, что "
+"это вообще когда-либо происходило."
 
 #: src-en/data/events_fr_sector_warzone.xml:2178
 msgid ""
@@ -2830,6 +2939,9 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_UNION_COALITION_WIN\"]/text"
 msgstr ""
+"Экипаж Союза получил ранения, но серьезных травм нет. Они благодарят вас за "
+"помощь и в качестве награды дарят одно ненужное им оружие, которое они "
+"собирались продать."
 
 #: src-en/data/events_fr_sector_warzone.xml:2194
 msgid ""
@@ -2840,6 +2952,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_CRYSTAL_ELITE_DISTRESS\"]/destroyed/text"
 msgstr ""
+"Ярко-красные обломки корабля Часовых уносятся в бездну, когда могучий "
+"элитный корабль замирает."
 
 #: src-en/data/events_fr_sector_warzone.xml:2205
 msgid ""
@@ -2850,6 +2964,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_CRYSTAL_ELITE_DISTRESS\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз корабля элиты кристаллинов уцелел в бою. Внутри находится "
+"исправное оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2210
 msgid ""
@@ -2860,6 +2976,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_CRYSTAL_ELITE_DISTRESS\"]/deadCrew/text"
 msgstr ""
+"Последний член экипажа могучего элитного корабля падает на землю, положив "
+"наконец конец этой битве."
 
 #: src-en/data/events_fr_sector_warzone.xml:2220
 msgid ""
@@ -2870,6 +2988,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_CRYSTAL_ELITE_DISTRESS\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз корабля элиты кристаллинов уцелел в бою. Внутри находится "
+"исправное оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2225
 msgid ""
@@ -2880,6 +3000,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_VAMPWEED_ELITE_DISTRESS\"]/destroyed/text"
 msgstr ""
+"Вам удалось уничтожить Культиваторов и их корабль, и теперь вы можете "
+"разобрать его на лом."
 
 #: src-en/data/events_fr_sector_warzone.xml:2242
 msgid ""
@@ -2890,6 +3012,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_VAMPWEED_ELITE_DISTRESS\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз корабля элиты Вампсорняков уцелел в бою. Внутри находится "
+"исправное оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2247
 msgid ""
@@ -2900,6 +3024,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_VAMPWEED_ELITE_DISTRESS\"]/deadCrew/text"
 msgstr ""
+"Вам удалось уничтожить экипаж Культиваторов, и теперь их корабль можно "
+"разобрать на лом."
 
 #: src-en/data/events_fr_sector_warzone.xml:2257
 msgid ""
@@ -2910,6 +3036,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_VAMPWEED_ELITE_DISTRESS\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз корабля элиты Вампсорняков уцелел в бою. Внутри находится "
+"исправное оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2262
 msgid ""
@@ -2920,16 +3048,28 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_VAMPWEED_CRYSTAL\"]/text"
 msgstr ""
+"Похоже, с этого маяка поступили два разных сигнала бедствия: один - с "
+"корабля Часовых, а другой - с Культиваторов. Судя по всему, Федерация "
+"обратилась к ним за помощью в освобождении сектора, но, видимо, произошло "
+"что-то, что заставило их сражаться друг с другом. Они, похоже, вступили в "
+"смертельную дуэль, в которой экипаж кристаллинов почти полностью уничтожен "
+"захватчиками, а корабль Вампсорняков грозит развалиться в любой момент от "
+"множества попаданий кристаллинов.\n"
+"\n"
+"Оба корабля уже заметили вас, поэтому отказ помочь любому из них снизит ваш "
+"авторитет у обеих фракций."
 
 #: src-en/data/events_fr_sector_warzone.xml:2281
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_VAMPWEED_CRYSTAL\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать корабль Часовых."
 
 #: src-en/data/events_fr_sector_warzone.xml:2283
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_VAMPWEED_CRYSTAL\"]/choice[1]/event/text"
 msgstr ""
+"Корабль Культиваторов отступает, пытаясь уклониться от выстрелов, а корабль "
+"Часовых направляет на вас свое мощное элитное оружие."
 
 #: src-en/data/events_fr_sector_warzone.xml:2286
 msgid ""
@@ -2939,12 +3079,15 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2292
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_VAMPWEED_CRYSTAL\"]/choice[2]/text"
-msgstr ""
+msgstr "Атаковать корабль Культиваторов."
 
 #: src-en/data/events_fr_sector_warzone.xml:2294
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_VAMPWEED_CRYSTAL\"]/choice[2]/event/text"
 msgstr ""
+"Культиваторы быстро телепортируют обратно свой экипаж, оставив оставшиеся "
+"кристаллинов пока в живых. Не задумываясь ни на секунду, они направляют свое "
+"оружие и экипаж на вас."
 
 #: src-en/data/events_fr_sector_warzone.xml:2297
 msgid ""
@@ -2954,12 +3097,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2303
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_VAMPWEED_CRYSTAL\"]/choice[3]/text"
-msgstr ""
+msgstr "Не вступать в схватку."
 
 #: src-en/data/events_fr_sector_warzone.xml:2305
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_VAMPWEED_CRYSTAL\"]/choice[3]/event/text"
 msgstr ""
+"Независимо от последствий, это гораздо более безопасный вариант, чем "
+"сражаться с кем-либо из этих врагов."
 
 #: src-en/data/events_fr_sector_warzone.xml:2307
 msgid ""
@@ -2970,6 +3115,19 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_VAMPWEED_CRYSTAL_CRYSTAL_WON\"]/text"
 msgstr ""
+"Почти разбитый корабль Культиваторов с трудом появляется в поле зрения после "
+"окончания боя; через некоторое время они выходят на связь. \"Ренегат "
+"Федерации, ни за что на свете я бы не подумал, что мы когда-нибудь будем "
+"рады увидеть кого-то из вашей компании. Нас вызвали сюда, чтобы помочь вам в "
+"войне, но эти проклятые тупоголовые кристаллины все время хотели выследить "
+"каждого проклятого пирата, который попадал на наш радар! Мы хотели, чтобы "
+"они поняли: мы здесь с очень конкретной миссией, но они просто не слушали... "
+"Мы пытались вбить им в их тупые черепа немного здравого смысла, но... Боюсь, "
+"я, возможно, сказал вещи, о которых теперь жалею...\"\n"
+"\t\t\n"
+"Культиватор вздыхает. \"Ну, мой корабль почти уничтожен, а вся моя команда "
+"погибла... Не возражаете, если я на время присоединюсь к вам? Обещаю, что "
+"расскажу своим вышестоящим о том, что вы сегодня здесь сделали\"."
 
 #: src-en/data/events_fr_sector_warzone.xml:2321
 msgid ""
@@ -2980,6 +3138,21 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_VAMPWEED_CRYSTAL_VAMPWEED_WON\"]/text"
 msgstr ""
+"Единственный оставшийся член экипажа корабля Часовых вызывает вас: \"Ренегат "
+"Федерации... Понятно. Я должен был догадаться, что кто-то из вас окажется "
+"здесь. Это сражение... не должно было произойти. Мы должны были действовать "
+"сообща, но этим грязным пиратам достаточно было предложить кучу лома "
+"коррумпированным Вампсорням, чтобы те закрывали глаза и каждый раз уходили "
+"безнаказанными! Мы собственными глазами видели, какой ущерб могут нанести "
+"эти пираты! Они в одиночку уничтожили элитный корабль Коалиции прямо у нас "
+"на глазах! Мы даже слышали слухи, что теперь в их распоряжении целые "
+"флоты!\"\n"
+"\n"
+"Кристаллин вздыхает. \"Полагаю, что сделано - сделано... но, похоже, моя "
+"команда зря пожертвовала своими жизнями, чтобы защитить меня. Мой корабль "
+"слишком поврежден, чтобы снова совершить прыжок, не опасаясь, что он "
+"развалится на части... Не могли бы вы позволить мне служить на вашем "
+"корабле, пока я не смогу вернуться в свой родной сектор?\""
 
 #: src-en/data/events_fr_sector_warzone.xml:2333
 msgid ""
@@ -2990,21 +3163,34 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/text"
 msgstr ""
+"Вы быстро обнаруживаете источник сигнала бедствия: судя по всему, "
+"автоматический корабль Инноваций получил повреждения настолько серьезные, "
+"что не может отличить своих от врагов. Вы могли бы потратить время на его "
+"ремонт, но есть вероятность, что он нападет на вас, если вы почините его "
+"системы распознавания. Или же вы можете воспользоваться неисправностью его "
+"сенсоров и заставить его выдать вам припасы."
 
 #: src-en/data/events_fr_sector_warzone.xml:2344
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[1]/text"
-msgstr ""
+msgstr "Починить корабль."
 
 #: src-en/data/events_fr_sector_warzone.xml:2346
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[1]/event[1]/text"
 msgstr ""
+"Через некоторое время автоматический корабль был успешно отремонтирован без "
+"замены неисправных сенсоров. \"Отчет о состоянии. Корабль восстановлен до "
+"полной работоспособности. Полагается вознаграждение\". Перед тем как уйти в "
+"прыжок, автоматический корабль выдает немного припасов."
 
 #: src-en/data/events_fr_sector_warzone.xml:2353
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[1]/event[2]/text"
 msgstr ""
+"Через некоторое время вам удается успешно отремонтировать автоматический "
+"корабль... возможно, слишком успешно, ведь теперь, когда его сенсоры "
+"заработали, он тут же нацеливает на вас свое оружие."
 
 #: src-en/data/events_fr_sector_warzone.xml:2357
 msgid ""
@@ -3015,9 +3201,13 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[1]/event[3]/text"
 msgstr ""
+"Похоже, во время попытки отремонтировать корабль вы случайно соединили не те "
+"провода, что привело к сильному взрыву внутри судна. Вам повезло, что никто "
+"из экипажа не пострадал, но дело было на волоске. К сожалению, уцелело не "
+"так много, чтобы можно было разобрать на лом, поскольку взрыв почти "
+"полностью уничтожил корабль."
 
 #: src-en/data/events_fr_sector_warzone.xml:2369
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[2]/text"
 msgstr "Атаковать автоматический корабль!"
@@ -3026,6 +3216,12 @@ msgstr "Атаковать автоматический корабль!"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[2]/event/text"
 msgstr ""
+"Независимо от того, поврежден они или нет, автоматические корабли Инноваций "
+"слишком опасны, чтобы оставлять их в строю; для всех будет безопаснее, если "
+"мы уничтожим их, пока они никому не причинили вреда. Автоматический корабль "
+"с трудом обеспечивает работу своего вооружения, в результате чего в конечном "
+"итоге повреждает собственные системы. Тем не менее, даже в поврежденном "
+"состоянии корабли Инноваций остаются грозными противниками."
 
 #: src-en/data/events_fr_sector_warzone.xml:2376
 msgid ""
@@ -3035,22 +3231,30 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2382
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
-msgstr ""
+msgstr "(Член экипажа-Инженер) Починить автоматический корабль."
 
 #: src-en/data/events_fr_sector_warzone.xml:2384
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr ""
+"Ваш инженер точно знает, что нужно починить на корабле, чтобы тот, прежде "
+"чем запустить протоколы самоуничтожения, смог передать вам ценные припасы - "
+"так он не станет угрозой для других."
 
 #: src-en/data/events_fr_sector_warzone.xml:2391
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[@req=\"LIST_CREW_ENGI\"]/text"
-msgstr ""
+msgstr "(Член экипажа-энджи) Починить автоматический корабль."
 
 #: src-en/data/events_fr_sector_warzone.xml:2393
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
 msgstr ""
+"Ваш энджи не привык работать с кораблями повстанцев, поэтому он не так "
+"эффективен в их ремонте, как Инженеры или Техники, но ему все же удается "
+"отремонтировать корабль настолько, что тот сможет передать вам часть "
+"припасов. Однако в середине обмена автоматический корабль распознает вас как "
+"врага и активирует свое вооружение, чтобы сразиться с вами."
 
 #: src-en/data/events_fr_sector_warzone.xml:2397
 msgid ""
@@ -3060,12 +3264,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2403
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[5]/text"
-msgstr ""
+msgstr "Избегать автоматический корабль."
 
 #: src-en/data/events_fr_sector_warzone.xml:2405
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[5]/event/text"
 msgstr ""
+"Последнее, с чем вам хочется иметь дело, - это неисправный автоматический "
+"корабль. Вы держитесь от него подальше и готовитесь к прыжку."
 
 #: src-en/data/events_fr_sector_warzone.xml:2407
 msgid ""
@@ -3081,6 +3287,8 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_FEDERATION_ELITE_STOLEN\"]/destroyed/text"
 msgstr ""
+"Мощный корабль Федерации разваливается на части. Жаль, что столь мощные "
+"технологии пришлось потратить впустую..."
 
 #: src-en/data/events_fr_sector_warzone.xml:2422
 msgid ""
@@ -3091,6 +3299,10 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_FEDERATION_ELITE_STOLEN\"]/destroyed/choice/event/text"
 msgstr ""
+"Шаттл снова выходит на связь. \"Спасибо, Ренегат. Я постараюсь как можно "
+"лучше объяснить своим вышестоящим, что здесь сегодня произошло. Уверен, они "
+"поймут, почему вы уничтожили наш корабль. Не стесняйтесь забрать на лом все, "
+"что найдете; вы это заслужили\"."
 
 #: src-en/data/events_fr_sector_warzone.xml:2427
 msgid ""
@@ -3101,6 +3313,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_FEDERATION_ELITE_STOLEN\"]/deadCrew/text"
 msgstr ""
+"Когда падает последний солдат Коалиции, невольно охватывает сильное чувство "
+"справедливости за то, что вы отомстили за всех погибших. Надеюсь, потеря "
+"этих элитных солдат затормозит планы Коалиции в этой войне."
 
 #: src-en/data/events_fr_sector_warzone.xml:2436
 msgid ""
@@ -3111,6 +3326,10 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_FEDERATION_ELITE_STOLEN\"]/deadCrew/choice/event/text"
 msgstr ""
+"Шаттл снова вызывает вас: \"Ренегат! Вы справились! То есть, конечно же, вы "
+"справились, почему я вообще в вас сомневался? Вы не только расправились с "
+"мерзкими солдатами Коалиции, но и сорвали все их планы, связанные с этим "
+"кораблем. Пожалуйста, возьмите это оружие и весь лом, который у нас есть!\"."
 
 #: src-en/data/events_fr_sector_warzone.xml:2442
 msgid ""
@@ -3121,16 +3340,28 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_FEDERATION_PIRATE\"]/text"
 msgstr ""
+"У этого маяке вы обнаруживаете два корабля: шаттл Единства и линкор "
+"Единства, причем сигнал бедствия исходит именно со шаттла. Они выходят на "
+"связь с вами. \"Ренегат! Вы должны нам помочь! Группа солдат Коалиции "
+"захватила наш корабль, пока мы спали! Если они смогут проникнуть в наши "
+"ряды, то нанесенный ущерб может быть неизмеримым! Особенно учитывая, что у "
+"нас на борту был большой запас элитного спорового оружия! Если вы сможете "
+"сохранить корабль в целости, мы с радостью отдадим вам все, что у нас есть "
+"на борту, но если случится непоправимое, мы смиримся с уничтожением нашего "
+"старого корабля\"."
 
 #: src-en/data/events_fr_sector_warzone.xml:2461
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_FEDERATION_PIRATE\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать линкор!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2463
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_FEDERATION_PIRATE\"]/choice[1]/event/text"
 msgstr ""
+"Если у вас есть возможность помочь в обороне этого сектора, то этой "
+"возможностью нужно воспользоваться. Даже если для этого придется сражаться "
+"против технологий Федерации."
 
 #: src-en/data/events_fr_sector_warzone.xml:2466
 msgid ""
@@ -3140,12 +3371,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2472
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_FEDERATION_PIRATE\"]/choice[2]/text"
-msgstr ""
+msgstr "Отказаться помогать."
 
 #: src-en/data/events_fr_sector_warzone.xml:2474
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_FEDERATION_PIRATE\"]/choice[2]/event/text"
 msgstr ""
+"Капитан шаттла выглядит ошеломленным. Он открывает рот, чтобы что-то "
+"сказать, но слова не идут. Видеосвязь обрывается, и вы готовитесь к прыжку."
 
 #: src-en/data/events_fr_sector_warzone.xml:2476
 msgid ""
@@ -3161,6 +3394,8 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SIREN\"]/destroyed/text"
 msgstr ""
+"Загадочное судно уничтожено. Вы разбираете его гладкий белый корпус, а "
+"радужные огни то зажигаются, то гаснут."
 
 #: src-en/data/events_fr_sector_warzone.xml:2492
 msgid ""
@@ -3171,6 +3406,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SIREN\"]/deadCrew/text"
 msgstr ""
+"Экипаж загадочного судна погиб. Вы разбираете его гладкий белый корпус, а "
+"радужные огни то зажигаются, то гаснут."
 
 #: src-en/data/events_fr_sector_warzone.xml:2500
 msgid ""
@@ -3181,6 +3418,10 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SIREN\"]/deadCrew/choice/event/text"
 msgstr ""
+"К вашему удивлению, вы обнаруживаете в трюме корабля пришельцев еще одного "
+"человека. Похоже, он находится в каком-то странном трансе, который сейчас "
+"постепенно проходит. Как только он оказывается в безопасности, он "
+"соглашается присоединиться к вашей команде."
 
 #: src-en/data/events_fr_sector_warzone.xml:2505
 msgid ""
@@ -3191,16 +3432,25 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_SIREN\"]/text"
 msgstr ""
+"Вы совершаете прыжок и обнаруживаете два корабля: корабль ЭОК и странный "
+"белый корабль, по корпусу которого танцуют радужные огни. Корабль ополченцев "
+"вызывает вас: \"РЕНЕГАТ! ПОЖАЛУЙСТА, РАДИ БОГА, ПОМОГИТЕ НАМ! ТОТ КОРАБЛЬ "
+"ПОХИЩАЕТ ВЕСЬ НАШ ЭКИПАЖ! МЫ ПЫТАЛИСЬ С НИМИ СРАЖАТЬСЯ, НО ДЖИМ ПРОСТО "
+"ПОТЕРЯЛ СОЗНАНИЕ, НЕ УСПЕВ ДАЖЕ ВЫСТРЕЛИТЬ! МНЕ ВСЕ РАВНО, ЧТО ВЫ СДЕЛАЕТЕ, "
+"ПРОСТО УНИЧТОЖЬТЕ ЕГО, ПОЖАЛУЙСТА!\""
 
 #: src-en/data/events_fr_sector_warzone.xml:2522
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_SIREN\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать странный корабль!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2524
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_SIREN\"]/choice[1]/event/text"
 msgstr ""
+"Как только орудия вражеского корабля нацеливаются на вас, вы внезапно "
+"чувствуете, как разыгрывается сильная головная боль. Вы понятия не имеете, "
+"что это за штуковина, но вы не позволите им причинить вред кому-либо еще!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2527
 msgid ""
@@ -3210,12 +3460,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2533
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_SIREN\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на их просьбу о помощи."
 
 #: src-en/data/events_fr_sector_warzone.xml:2535
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_SIREN\"]/choice[2]/event/text"
 msgstr ""
+"Скоро связь прерывается, и с того конца слышен лишь слабый шум. Через "
+"несколько минут странный корабль уходит в прыжке."
 
 #: src-en/data/events_fr_sector_warzone.xml:2538
 msgid ""
@@ -3231,6 +3483,12 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_SIREN_WON\"]/text"
 msgstr ""
+"Корабль ЭОК вызывает вас. \"Ренегат! Вы действительно это сделали! Как, черт "
+"возьми, вам удалось устоять перед гипнозом этих странных лапшичных монстров? "
+"Но, пожалуй, это не имеет значения - сегодня в глазах ЭОК вы - герой! "
+"Пожалуйста, примите этот модуль в знак благодарности - его получает каждый "
+"корабль ополчения, и он значительно помогает нам противостоять подавляющему "
+"огню вражеских кораблей!\""
 
 #: src-en/data/events_fr_sector_warzone.xml:2554
 msgid ""
@@ -3241,6 +3499,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_DISTRESS_REBEL\"]/destroyed/text"
 msgstr ""
+"Вы уничтожили корабль элиты повстанцев, хотя это задача не из легких. "
+"Конечно, этого недостаточно, чтобы оказать существенное влияние на флот, но "
+"это все равно большая победа."
 
 #: src-en/data/events_fr_sector_warzone.xml:2571
 msgid ""
@@ -3288,16 +3549,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_REBEL\"]/text"
 msgstr ""
+"Едва закончив прыжок вы замечаете корабль Союза, спасающийся от асаов МФК. "
+"Корабль Союза выходит на связь с вами и умоляет о помощи."
 
 #: src-en/data/events_fr_sector_warzone.xml:2608
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_REBEL\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать асов МФК!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2610
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_REBEL\"]/choice[1]/event/text"
 msgstr ""
+"Не успеваете вы активировать свое оружие, как асы МФК наносит удар по шаттлу "
+"Союза - как раз в тот момент, когда его щиты были выведены из строя "
+"очередным залпом. Вы знаете, выжили ли они, но проверить это сейчас не "
+"получается, поскольку повстанцы нацелили на вас свое оружие."
 
 #: src-en/data/events_fr_sector_warzone.xml:2613
 msgid ""
@@ -3307,12 +3574,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2619
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_REBEL\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на них."
 
 #: src-en/data/events_fr_sector_warzone.xml:2621
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_REBEL\"]/choice[2]/event/text"
 msgstr ""
+"Из-за вашего бездействия шаттл очень быстро был уничтожен. Что еще хуже, "
+"повстанцы теперь нацелили на вас свое оружие."
 
 #: src-en/data/events_fr_sector_warzone.xml:2624
 msgid ""
@@ -3372,16 +3641,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_COALITION\"]/text"
 msgstr ""
+"Как только вы закончили прыжок, вы замечаете корабль Союза, спасающийся от "
+"корабля ЭЭРЕ. Корабль Союза выходит на связь с вами и умоляет о помощи."
 
 #: src-en/data/events_fr_sector_warzone.xml:2669
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_COALITION\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать ЭЭРЕ!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2671
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_COALITION\"]/choice[1]/event/text"
 msgstr ""
+"Не успеваете вы активировать свое оружие, как ЭЭРЕ. наносит удар по шаттлу "
+"Союза - как раз в тот момент, когда его щиты были опущены после очередной "
+"залпы. Вы не знаете, выжили ли они, но проверить это сейчас не получается, "
+"поскольку корабль Коалиции нацелил на вас свои орудия."
 
 #: src-en/data/events_fr_sector_warzone.xml:2674
 msgid ""
@@ -3391,12 +3666,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2680
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_COALITION\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на них."
 
 #: src-en/data/events_fr_sector_warzone.xml:2682
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_COALITION\"]/choice[2]/event/text"
 msgstr ""
+"Из-за вашего бездействия шаттл очень быстро был уничтожен. Что еще хуже, "
+"корабль Коалиции теперь нацелил на вас свои орудия."
 
 #: src-en/data/events_fr_sector_warzone.xml:2685
 msgid ""
@@ -3417,16 +3694,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_PIRATE\"]/text"
 msgstr ""
+"Едва закончив прыжок, вы видите корабль Союза, спасающийся от элитных "
+"пиратов. Корабль Союза выходит на связь с вами и умоляет о помощи."
 
 #: src-en/data/events_fr_sector_warzone.xml:2719
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_PIRATE\"]/choice[1]/text"
-msgstr ""
+msgstr "Атаковать пиратов!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2721
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_PIRATE\"]/choice[1]/event/text"
 msgstr ""
+"Не успеваете вы активировать оружие, как пираты делают залп по шаттлу "
+"Союза - как раз в тот момент, когда его щиты были опущены после очередной "
+"очереди. Вы не знаете, выжили ли они, но проверить это сейчас не получается, "
+"так как пираты нацелили на вас оружие."
 
 #: src-en/data/events_fr_sector_warzone.xml:2724
 msgid ""
@@ -3436,12 +3719,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_fr_sector_warzone.xml:2730
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_PIRATE\"]/choice[2]/text"
-msgstr ""
+msgstr "Не обращать внимания на них."
 
 #: src-en/data/events_fr_sector_warzone.xml:2732
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_PIRATE\"]/choice[2]/event/text"
 msgstr ""
+"Из-за вашего бездействия шаттл очень быстро был уничтожен. Что еще хуже, "
+"пираты теперь нацелили на вас свое оружие."
 
 #: src-en/data/events_fr_sector_warzone.xml:2735
 msgid ""
@@ -3452,11 +3737,15 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_DISTRESS_WARZONE_GENERIC_WIN\"]/event[1]/text"
 msgstr ""
+"Похоже, экипаж Союза не пережил боя. С тяжелым сердцем вы разбираете их "
+"корабль."
 
 #: src-en/data/events_fr_sector_warzone.xml:2749
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_DISTRESS_WARZONE_GENERIC_WIN\"]/event[2]/text"
 msgstr ""
+"Экипаж Союза почти полностью погиб, за исключением одного человека. "
+"Поскольку его корабль вышел из строя, он просит принять его в ваш экипаж."
 
 #: src-en/data/events_fr_sector_warzone.xml:2752
 msgid ""
@@ -3467,6 +3756,10 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_DISTRESS_WARZONE_GENERIC_WIN\"]/event[3]/text"
 msgstr ""
+"Похоже, экипажу Союза удалось отремонтировать корабль, пока шел бой. Он по-"
+"прежнему сильно поврежден, но вполне исправен, чтобы добраться до ближайшего "
+"аванпоста. Они благодарят вас за помощь и дарят вам одно из своих орудий, а "
+"также немного припасов."
 
 #: src-en/data/events_fr_sector_warzone.xml:2761
 msgid ""
@@ -3477,16 +3770,24 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_RUES\"]/text"
 msgstr ""
+"ЭЭРЕ можно увидеть только во время сверхсекретных миссий или вблизи "
+"оперативной базы Коалиции, и даже увидеть одного из них - это то, чем могут "
+"похвастаться далеко не все Ренегаты. Они хитры, безжалостны и, прежде всего, "
+"жестоки. К сожалению, одни из них обнаружили ваше присутствие в этом маяке и "
+"мчатся к вам!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2796
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_RUES\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2798
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_RUES\"]/choice/event/text"
 msgstr ""
+"Капитан ЭЭРЕ смеется, обращаясь к вам. \"Какое у вас маленькое и жалкое "
+"судно. Удивительно, что пираты не обчистили вас дочиста еще раньше. Ну что "
+"ж, позвольте мне сделать то, что не смогли сделать эти слабаки!\""
 
 #: src-en/data/events_fr_sector_warzone.xml:2800
 msgid ""
@@ -3497,6 +3798,10 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_SLUG\"]/destroyed/text"
 msgstr ""
+"Какими бы внушительными ни были корабли Тумана, им не хватает той дисциплины "
+"и подготовки, которыми обычно обладают другие элитные подразделения. Тем не "
+"менее, их грязные приемы явно не сработали сегодня, поскольку их корабль "
+"разваливается на части."
 
 #: src-en/data/events_fr_sector_warzone.xml:2813
 msgid ""
@@ -3507,11 +3812,16 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_SLUG\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз корабля атаманов Тумана уцелел в бою. Внутри находится "
+"исправное оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2821
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_SLUG\"]/deadCrew/text"
 msgstr ""
+"Экипажи Тумана отличаются невероятной выносливостью и оснащены лучшим "
+"оборудованием, которое только может предложить Клептократия. Тем не менее, "
+"они гибнут, как и все остальные."
 
 #: src-en/data/events_fr_sector_warzone.xml:2824
 msgid ""
@@ -3522,21 +3832,32 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_SLUG\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз корабля атаманов Тумана уцелел в бою. Внутри находится "
+"исправное оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2840
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_KNIGHT\"]/text"
 msgstr ""
+"Похоже, Туман воспринял потери Коалиции в этом секторе на свой счет, ведь он "
+"направил корабль со своими личными элитными солдатами в сопровождении флота "
+"ЭЭРЕ! От этого сражения тоже не уйти, ведь Атаманы Тумана уже мчатся к вам, "
+"не давая вам даже времени среагировать!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2844
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_KNIGHT\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2846
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_KNIGHT\"]/choice/event/text"
 msgstr ""
+"Атаман Тумана смеется, и обращается к вам ровно настолько, чтобы "
+"перекинуться парой слов, после чего связь обрывается. \"Похоже, ты "
+"ссссегодня сссовершил... роковую ошшшибку, Ренегат\". Вы не знаете, была ли "
+"это игра слов, но у вас нет времени об этом размышлять, ведь враг уже открыл "
+"огонь в вашем направлении!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2848
 msgid ""
@@ -3547,6 +3868,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_MANTIS\"]/destroyed/text"
 msgstr ""
+"Даже у самых мощных кораблей Улья есть свои пределы, и, похоже, вражеский "
+"корабль Епископов наконец-то достиг их. С последним скрежетом корабль "
+"разлетается на части."
 
 #: src-en/data/events_fr_sector_warzone.xml:2861
 msgid ""
@@ -3557,11 +3881,16 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_MANTIS\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз корабля Епископов уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2869
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_MANTIS\"]/deadCrew/text"
 msgstr ""
+"Епископы-богомолы - одни из лучших воинов во всей Мультивселенной; в них "
+"идеально сочетаются скорость и сила. Однако какими бы могущественными ни "
+"были воины, рано или поздно им всем суждено пасть."
 
 #: src-en/data/events_fr_sector_warzone.xml:2872
 msgid ""
@@ -3572,21 +3901,30 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_MANTIS\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз корабля Епископов уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2888
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_BISHOP\"]/text"
 msgstr ""
+"Если идет сражение, можете быть уверены, что богомолы не заставит себя долго "
+"ждать и присоединятся к нему. Епископы еще более преданны и готовы служить "
+"своей королеве, где бы и когда бы то ни было. Наглядный пример - корабль "
+"Епископов, мчащийся на вас со скоростью, при которой вам будет нелегко уйти."
 
 #: src-en/data/events_fr_sector_warzone.xml:2892
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_BISHOP\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2894
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_BISHOP\"]/choice/event/text"
 msgstr ""
+"Епископы вызывают вас. \"Ренегат! Королева Лейконплииинакра приказала "
+"захватить сектор! Ничто не помешает планам Вашего Величества! Сражайтесь "
+"достойно - победит лучший воин!\""
 
 #: src-en/data/events_fr_sector_warzone.xml:2896
 msgid ""
@@ -3597,6 +3935,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_ROCK\"]/destroyed/text"
 msgstr ""
+"Хотя корабли Паладинов кажутся неуязвимыми, при достаточном усилии их все же "
+"можно победить. Немногие сумели уничтожить корпус Паладинов и остаться в "
+"живых, чтобы рассказать об этом. Теперь вы - один из них."
 
 #: src-en/data/events_fr_sector_warzone.xml:2909
 msgid ""
@@ -3607,11 +3948,18 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_ROCK\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз корабля Паладинов уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2917
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_ROCK\"]/deadCrew/text"
 msgstr ""
+"Подобно своим кораблям, Паладины - самый выносливый и стойкий экипаж, с "
+"которым вам когда-либо доводилось столкнуться в Мультивселенной. Некоторые "
+"могут даже подумать, что они бессмертны, учитывая, сколько ударов они "
+"способны выдержать, не моргнув глазом, а тем временем вы находитесь перед "
+"вражеским кораблем, лишенным всякой жизни."
 
 #: src-en/data/events_fr_sector_warzone.xml:2920
 msgid ""
@@ -3622,21 +3970,31 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_ROCK\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз корабля Паладинов уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2935
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_PALADIN\"]/text"
 msgstr ""
+"Теократия использует свои корабли Паладинов только тогда, когда ее волю "
+"необходимо навязать с помощью крайних мер. Они одновременно сокрушают как "
+"сопротивление врага, так и его надежды. В плане скорости они тоже не "
+"отстают, о чем ясно свидетельствует корабль валунов, мчащийся на вас с такой "
+"скоростью, что бегство становится невозможным."
 
 #: src-en/data/events_fr_sector_warzone.xml:2939
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_PALADIN\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2941
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_PALADIN\"]/choice/event/text"
 msgstr ""
+"Паладины вызывают вас. \"Фу, очередной грязный жук из Федерации, которого "
+"нужно раздавить. А я-то думал, что мы наконец-то нашли достойного противника "
+"в этом секторе слабаков. Сегодня ты познаешь гнев Инквизиции, еретик!\""
 
 #: src-en/data/events_fr_sector_warzone.xml:2943
 msgid ""
@@ -3647,6 +4005,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_LEECH\"]/destroyed/text"
 msgstr ""
+"Амперы прошли специальную подготовку под руководством самой Коалиции и "
+"гораздо опаснее обычных пиявок. Уничтожив этот корабль, вы, вероятно, лишили "
+"Республику значительной части ее боеспособных солдат."
 
 #: src-en/data/events_fr_sector_warzone.xml:2956
 msgid ""
@@ -3657,11 +4018,16 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_LEECH\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз корабля пиявок уцелел в бою. Внутри находится исправное оружие, "
+"которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2964
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_LEECH\"]/deadCrew/text"
 msgstr ""
+"Амперы проходят специальную подготовку непосредственно в Коалиции и гораздо "
+"опаснее обычных пиявок. Уничтожив весь их экипаж, вы, вероятно, лишили "
+"Республику значительной части ее боеспособных солдат."
 
 #: src-en/data/events_fr_sector_warzone.xml:2967
 msgid ""
@@ -3672,21 +4038,32 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_LEECH\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз корабля пиявок уцелел в бою. Внутри находится исправное оружие, "
+"которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:2982
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_AMPERE\"]/text"
 msgstr ""
+"Коалиция, должно быть, в отчаянии, раз решила задействовать в бою своих "
+"Амперов. Хотя их корабли и выглядят довольно грозно, их экипажи далеко не "
+"так опытны, чтобы выдержать такое же напряжение, как другие элитные "
+"подразделения фракций. Впрочем, это не значит, что им не удается время от "
+"времени сделать что-то хорошо, например, застать вас врасплох, как сейчас, и "
+"втянуть в бой."
 
 #: src-en/data/events_fr_sector_warzone.xml:2986
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_AMPERE\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:2988
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_AMPERE\"]/choice/event/text"
 msgstr ""
+"Амперы вызывают вас. \"Я устал каждый раз избегать вас, Ренегатов, когда нам "
+"нужно разведать маяк! Пора наконец-то показать вам силу нашего альянса!\" "
+"Оружие корабля активируется."
 
 #: src-en/data/events_fr_sector_warzone.xml:2990
 msgid ""
@@ -3697,6 +4074,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL\"]/destroyed/text"
 msgstr ""
+"Вы уничтожили корабль элиты повстанцев, хотя это задача не из легких. "
+"Конечно, этого недостаточно, чтобы оказать существенное влияние на флот, но "
+"это все равно большая победа."
 
 #: src-en/data/events_fr_sector_warzone.xml:3009
 msgid ""
@@ -3738,7 +4118,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3039
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_REBEL_MFK\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:3041
 msgid ""
@@ -3764,6 +4144,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_ENGINEER\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз корабля Техников уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3064
 msgid ""
@@ -3779,6 +4161,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_ENGINEER\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз корабля Техников уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3078
 msgid ""
@@ -3788,7 +4172,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3082
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_REBEL_TECHNICIAN\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:3084
 msgid ""
@@ -3809,6 +4193,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_AUTO\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз автоматического корабля Инноваций уцелел в бою. Внутри "
+"находится исправное оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3110
 msgid ""
@@ -3818,7 +4204,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3114
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_REBEL_ESTATE\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:3116
 msgid ""
@@ -3838,7 +4224,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3140
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_UNITY\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:3142
 msgid ""
@@ -3864,6 +4250,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STEALTH\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз стелс-корабля уцелел в бою. Внутри находится исправное оружие, "
+"которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3166
 msgid ""
@@ -3879,6 +4267,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STEALTH\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз стелс-корабля уцелел в бою. Внутри находится исправное оружие, "
+"которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3180
 msgid ""
@@ -3888,7 +4278,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3184
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_STEALTH\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:3186
 msgid ""
@@ -3914,6 +4304,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_MILITIA\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз элиты Ополчения уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3209
 msgid ""
@@ -3929,6 +4321,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_MILITIA\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз элиты Ополчения уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3223
 msgid ""
@@ -3938,7 +4332,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3227
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_EDC\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:3229
 msgid ""
@@ -3988,7 +4382,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3274
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_HARMONY\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:3276
 msgid ""
@@ -4014,6 +4408,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_ZOLTAN\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз элиты золтан уцелел в бою. Внутри находится исправное оружие, "
+"которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3299
 msgid ""
@@ -4029,6 +4425,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_ZOLTAN\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз элиты золтан уцелел в бою. Внутри находится исправное оружие, "
+"которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3317
 msgid ""
@@ -4038,7 +4436,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3321
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_PEACE_KEEPER\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:3323
 msgid ""
@@ -4064,6 +4462,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_ORCHID\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз элиты орхидей уцелел в бою. Внутри находится исправное оружие, "
+"которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3346
 msgid ""
@@ -4079,6 +4479,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_ORCHID\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз элиты орхидей уцелел в бою. Внутри находится исправное оружие, "
+"которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3364
 msgid ""
@@ -4088,7 +4490,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3368
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_PRAETOR\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:3370
 msgid ""
@@ -4108,7 +4510,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3384
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_PIRATE\"]/choice/text"
-msgstr ""
+msgstr "Активировать оружие!"
 
 #: src-en/data/events_fr_sector_warzone.xml:3386
 msgid ""
@@ -4539,6 +4941,9 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL_ESCAPE\"]/destroyed/text"
 msgstr ""
+"Вы уничтожили корабль элиты повстанцев, хотя это задача не из легких. "
+"Конечно, этого недостаточно, чтобы оказать существенное влияние на флот, но "
+"это все равно большая победа."
 
 #: src-en/data/events_fr_sector_warzone.xml:3807
 msgid ""
@@ -4616,6 +5021,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_FEDERATION_ESCAPE_EXIT\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз элиты Федерации уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3867
 msgid ""
@@ -4636,6 +5043,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_FEDERATION_ESCAPE_EXIT\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз элиты Федерации уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:3882
 msgid ""
@@ -5017,6 +5426,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_AUTO_NO_ASB\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз автоматического корабля Инноваций уцелел в бою. Внутри "
+"находится исправное оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:4242
 msgid ""
@@ -5473,7 +5884,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:4654
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_HOSTILE_WARZONE_FEDERATION_AUTO\"]/choice[@req=\"LIST_CREW_ENGI\"]/text"
-msgstr ""
+msgstr "(Член экипажа-энджи) Починить автоматический корабль."
 
 #: src-en/data/events_fr_sector_warzone.xml:4656
 msgid ""
@@ -5483,7 +5894,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:4662
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_HOSTILE_WARZONE_FEDERATION_AUTO\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
-msgstr ""
+msgstr "(Член экипажа-Инженер) Починить автоматический корабль."
 
 #: src-en/data/events_fr_sector_warzone.xml:4664
 msgid ""
@@ -5509,6 +5920,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_MANTIS_DOUBLE\"]/destroyed/text"
 msgstr ""
+"Даже у самых мощных кораблей Улья есть свои пределы, и, похоже, вражеский "
+"корабль Епископов наконец-то достиг их. С последним скрежетом корабль "
+"разлетается на части."
 
 #: src-en/data/events_fr_sector_warzone.xml:4687
 msgid ""
@@ -5519,6 +5933,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_MANTIS_DOUBLE\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз корабля Епископов уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:4692
 msgid ""
@@ -5539,6 +5955,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_MANTIS_DOUBLE\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз корабля Епископов уцелел в бою. Внутри находится исправное "
+"оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:4707
 msgid ""
@@ -5569,6 +5987,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_SLUG_DOUBLE\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз корабля атаманов Тумана уцелел в бою. Внутри находится "
+"исправное оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:4741
 msgid ""
@@ -5579,6 +5999,9 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_SLUG_DOUBLE\"]/deadCrew/text"
 msgstr ""
+"Экипажи Тумана отличаются невероятной выносливостью и оснащены лучшим "
+"оборудованием, которое только может предложить Клептократия. Тем не менее, "
+"они гибнут, как и все остальные."
 
 #: src-en/data/events_fr_sector_warzone.xml:4751
 msgid ""
@@ -5589,6 +6012,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_SLUG_DOUBLE\"]/deadCrew/choice/event/text"
 msgstr ""
+"Похоже, груз корабля атаманов Тумана уцелел в бою. Внутри находится "
+"исправное оружие, которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:4756
 msgid ""
@@ -5624,6 +6049,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_ENGINEER_AUTO\"]/destroyed/choice/event/text"
 msgstr ""
+"Похоже, груз элиты Техников уцелел в бою. Внутри находится исправное оружие, "
+"которое вы поднимаете на борт."
 
 #: src-en/data/events_fr_sector_warzone.xml:4795
 msgid ""
