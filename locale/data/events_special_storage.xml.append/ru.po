@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-17 18:55+0000\n"
+"PO-Revision-Date: 2026-06-19 10:36+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "dataevents_special_storagexmlappend/ru/>\n"
@@ -6602,8 +6602,12 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[@req=\"FR_LAB_OSMIAN_ONE_BODY\"]/text"
 msgstr ""
-"Добавлено: Одно тело.\n"
-"\t\t[Осмианцы больше не создают голограммы, вместо этого они наследуют характеристики голограмм на 30 секунд, когда активируется их способность. (25% сопротивления урону, возможность проходить сквозь двери, иммунитет к опасностям и контролю разума, дают 1 энергию системе, в которой они находятся)]"
+"Добавлено: Единое тело.\n"
+"\t\t[Осмианцы больше не создают голограммы, вместо этого они наследуют "
+"характеристики голограмм на 30 секунд, когда активируется их способность. "
+"(25% сопротивления урону, возможность проходить сквозь двери, иммунитет к "
+"опасностям и контролю разума, дают 1 энергию системе, в которой они "
+"находятся)]"
 
 #: src-en/data/events_special_storage.xml.append:5054
 msgid ""
@@ -6631,12 +6635,12 @@ msgstr "Осн: Световые помощники. [Цена: 45~]"
 #: src-en/data/events_special_storage.xml.append:5071
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[7]/text"
-msgstr "Осн: Одно тело. [Улучшение уже добавлено]"
+msgstr "Осн: Единое тело. [Улучшение уже добавлено]"
 
 #: src-en/data/events_special_storage.xml.append:5075
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN\"]/choice[8]/text"
-msgstr "Осн: Одно тело. [Цена: 5{, 20~]"
+msgstr "Осн: Единое тело. [Цена: 5{, 20~]"
 
 #: src-en/data/events_special_storage.xml.append:5079
 msgid ""
@@ -6686,10 +6690,16 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_OSMIAN_ONE_BODY\"]/text"
 msgstr ""
-"Вы собираетесь добавить модификацию Одно тело.\n"
-"\t[Осмианцы больше не создают голограммы, вместо этого они наследуют характеристики голограмм на 30 секунд, когда активируется их способность. (25% сопротивления урону, возможность проходить сквозь двери, иммунитет к опасностям и контролю разума, дают 1 энергию системе, в которой они находятся)]\n"
+"Вы собираетесь добавить модификацию Единое тело.\n"
+"\t[Осмианцы больше не создают голограммы, вместо этого они наследуют "
+"характеристики голограмм на 30 секунд, когда активируется их способность. "
+"(25% сопротивления урону, возможность проходить сквозь двери, иммунитет к "
+"опасностям и контролю разума, дают 1 энергию системе, в которой они "
+"находятся)]\n"
 "\t\n"
-"\t[Предупреждение: После ее добавления вы больше не сможете применять основные модификации к экипажу расы осмианцев. Вы также не сможете деактивировать эту модификацию]"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации к экипажу расы осмианцев. Вы также не сможете "
+"деактивировать эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:5128
 msgid ""
@@ -7078,7 +7088,7 @@ msgstr ""
 "35 здоровья за каждого вражеского члена экипажа в помещении.\n"
 "\t\tФиз: Урон от ионов увеличен до 8, а оглушение теперь действует только на "
 "врагов.\n"
-"\t\tАлинор: Увеличивает урон по экипажу до 100, а урон системам - до 4.\n"
+"\t\tАлеенор: Увеличивается урон по экипажу до 100, а урон системам - до 4.\n"
 "\t\tВин:\n"
 "\t\t- БУСТ: Устраняет урон по себе.\n"
 "\t\t- СПЛАВ: Исцеление от огня Вин удваивается на 10 секунд после активации "
@@ -7089,7 +7099,7 @@ msgstr ""
 "\t\tЖ: Призывает 3 неупокоенных духа.\n"
 "\t\tФростволл: Полностью исцеляется, и заставляет замороженных членов "
 "экипажа получать полный урон на время действия.\n"
-"\t\tСмертоцветка: Удваивает продолжительность действия спор и снижает "
+"\t\tСмертоцветка: Удваивается продолжительность действия спор и снижается "
 "скорость врагов, находящихся под их воздействием, на 10%.\n"
 "\t\tПок: Время восстановления способности трансформации сокращается до 10 "
 "секунд во всех формах.\n"
@@ -7111,6 +7121,40 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[@req=\"FR_LAB_SPECTER_TAILORED_SPECIALIZATION\"]/text"
 msgstr ""
+"Добавлено: Индивидуальная специализация.\n"
+"\t\t[Сильные и слабые стороны ваших духов значительно усилены.\n"
+"\t\tСлимер: Сокращается время восстановления его активных способностей на "
+"50%, но урон, наносимый его командой, уменьшается вдвое.\n"
+"\t\tФиз: Дает удвоенную базовую энергию, но не может использовать саботаж.\n"
+"\t\tАлеенор: Удваивается урон, но не может ремонтировать.\n"
+"\t\tВин: Удваивается свое здоровье, но снижается скорость передвижения "
+"вдвое.\n"
+"\t\tКлео: Получает бонус 1.3x к здоровью, скорости, ремонту и урону, но не "
+"может напрямую сражаться с вражескими дронами. \n"
+"\t\tЗулу: Удваивается урон при саботаже, но снижается урон, наносимый "
+"экипажу вдвое.\n"
+"\t\tЖ: Удваивается исцеление, получаемое от опасностей, но увеличивается "
+"время перезарядки ее активных способностей на 50%.\n"
+"\t\tФростволл: Удваивается его урон в дальнем бою, но уменьшается здоровье "
+"вдвое.\n"
+"\t\tСмертоцветка: Увеличивается ее производство кислорода до 2.0х (вместо "
+"0.1х), но уменьшается скорость исцеления вдвое. \n"
+"\t\tПок: Передвигается на 50% быстрее, а время перезарядки их активных "
+"способностей сокращается на 50%, но занимает 2 слота экипажа.\n"
+"\t\tЧарро: Удваивается скорость ремонта, но вдвое уменьшается урон, "
+"наносимый экипажу.\n"
+"\t\tЛео: Удваивается поглощение энергии, но удваивается и продолжительность "
+"оглушения.\n"
+"\t\tСирак: Вдвое уменьшается получаемый урон, но вдвое уменьшается урон при "
+"саботаже.\n"
+"\t\tАвгуст: Увеличивается урон при саботажа, общий урон и здоровье в 1.2х, "
+"но вдвое уменьшается скорость передвижения.\n"
+"\t\tСалли: Постоянно исцеляется со скоростью 15 ОЗ/с, но уменьшается "
+"здоровье вдвое.\n"
+"\t\tПринц: Удваивается скорость передвижения, но уменьшается скорость "
+"ремонта вдвое.\n"
+"\t\tТририак: Удваивается урон, наносимый экипажем, находящимся под контролем "
+"разума в одной помещении с ним, но они оглушаются в 10 раз дольше]"
 
 #: src-en/data/events_special_storage.xml.append:5521
 msgid ""
@@ -7161,7 +7205,7 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER\"]/choice[@req=\"FR_LAB_REVENANT_TRUE_UNDEATH\""
 " and @lvl=\"1\"]/text"
 msgstr ""
-"Всп [Ревенанты]: Истинное нежить. [Улучшение уже добавлено]\n"
+"Всп [Ревенанты]: Истинная нежить. [Улучшение уже добавлено]\n"
 "\t\t[Ревенантов нельзя клонировать или исцелять обычными способами, но при "
 "прыжке они будут воскрешаться]"
 
@@ -7180,6 +7224,48 @@ msgstr "Вернуться."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER_FLAWLESS_ASCENSION\"]/text"
 msgstr ""
+"Вы хотите доабвить: Безупречное вознесение.\n"
+"\t\t[Вашим духам требуется в два раза больше времени на перезарядку "
+"способностей, но их способности получают уникальные усиления.\n"
+"\t\tСлимер: \n"
+"\t\t- ПОЖИРАТЕЛЬ: Устраняет системный урон и позволяет использовать "
+"способность на вражеском корабле.\n"
+"\t\t- СЪЕСТЬ: Наносит 75 урона вражескому экипажу и восстанавливает Слимеру "
+"35 здоровья за каждого вражеского члена экипажа в помещении.\n"
+"\t\tФиз: Урон от ионов увеличен до 8, а оглушение теперь действует только на "
+"врагов.\n"
+"\t\tАлеенор: Увеличивается урон по экипажу до 100, а урон системам - до 4.\n"
+"\t\tВин:\n"
+"\t\t- БУСТ: Устраняет урон по себе.\n"
+"\t\t- СПЛАВ: Исцеление от огня Вин удваивается на 10 секунд после активации "
+"способности.\n"
+"\t\tКлео: Дроны также получают удвоенный урон на время действия эффекта.\n"
+"\t\tЗулу: Устраняет штрафы к скорости передвижения, саботажу и урону на "
+"время действия эффекта.\n"
+"\t\tЖ: Призывает 3 неупокоенных духа.\n"
+"\t\tФростволл: Полностью исцеляется, и заставляет замороженных членов "
+"экипажа получать полный урон на время действия.\n"
+"\t\tСмертоцветка: Удваивается продолжительность действия спор и снижается "
+"скорость врагов, находящихся под их воздействием, на 10%.\n"
+"\t\tПок: Время восстановления способности трансформации сокращается до 10 "
+"секунд во всех формах.\n"
+"\t\tЧарро: Способность теперь действует на все типы экипажа и применяется "
+"только к врагам.\n"
+"\t\tЛео: Теперь увеличение получаемого урона распространяется на врагов, "
+"находящихся в помещении.\n"
+"\t\tСирак: Снимает оглушение после взрыва.\n"
+"\t\tАвгуст: Теперь для полного восстановления здоровья требуется всего 1 "
+"лом.\n"
+"\t\tСалли: Время перезарядки способностей \"Детеныш\" и \"Взрослый\" теперь "
+"составляет всего 1 секунду, а способность в форме \"Ткач\" действует на все "
+"корабли.\n"
+"\t\tПринц: Создает пробоину и возгорание в помещении.\n"
+"\t\tТририак: На время действия эффекта Тририак становится невосприимчивым к "
+"оглушению]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации для экипажа духов. Вы также не сможете деактивировать "
+"эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:5595
 msgid ""
@@ -7205,6 +7291,43 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER_TAILORED_SPECIALIZATION\"]/text"
 msgstr ""
+"Вы хотите добавить модификацию Единое тело.\n"
+"\t[Сильные и слабые стороны ваших духов значительно усиливаются.\n"
+"Слимер: Сокращается время восстановления его активных способностей на 50%, "
+"но урон, наносимый его командой, уменьшается вдвое.\n"
+"\tФиз: Дает удвоенную базовую энергию, но не может использовать саботаж.\n"
+"\tАлеенор: Удваивается урон, но не может ремонтировать.\n"
+"\tВин: Удваивается свое здоровье, но снижается скорость передвижения вдвое.\n"
+"\tКлео: Получает бонус 1.3x к здоровью, скорости, ремонту и урону, но не "
+"может напрямую сражаться с вражескими дронами. \n"
+"\tЗулу: Удваивается урон при саботаже, но снижается урон, наносимый экипажу "
+"вдвое.\n"
+"\tЖ: Удваивается исцеление, получаемое от опасностей, но увеличивается время "
+"перезарядки ее активных способностей на 50%.\n"
+"\tФростволл: Удваивается его урон в дальнем бою, но уменьшается здоровье "
+"вдвое.\n"
+"\tСмертоцветка: Увеличивается ее производство кислорода до 2.0х (вместо 0.1х)"
+", но уменьшается скорость исцеления вдвое. \n"
+"\tПок: Передвигается на 50% быстрее, а время перезарядки их активных "
+"способностей сокращается на 50%, но занимает 2 слота экипажа.\n"
+"\tЧарро: Удваивается скорость ремонта, но вдвое уменьшается урон, наносимый "
+"экипажу.\n"
+"\tЛео: Удваивается поглощение энергии, но удваивается и продолжительность "
+"оглушения.\n"
+"\tСирак: Вдвое уменьшается получаемый урон, но вдвое уменьшается урон при "
+"саботаже.\n"
+"\tАвгуст: Увеличивается урон при саботажа, общий урон и здоровье в 1.2х, но "
+"вдвое уменьшается скорость передвижения.\n"
+"\tСалли: Постоянно исцеляется со скоростью 15 ОЗ/с, но уменьшается здоровье "
+"вдвое.\n"
+"\tПринц: Удваивается скорость передвижения, но уменьшается скорость ремонта "
+"вдвое.\n"
+"\tТририак: Удваивается урон, наносимый экипажем, находящимся под контролем "
+"разума в одной помещении с ним, но они оглушаются в 10 раз дольше]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации для экипажа духов. Вы также не сможете деактивировать "
+"эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:5642
 msgid ""
@@ -7230,6 +7353,14 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_SPECTER_SPECTRAL_EXISTENCE\"]/text"
 msgstr ""
+"Вы хотите добавить модификацию Свет души.\n"
+"\t[Духи не занимают места в экипаже. В случае потери членов экипажа "
+"приоритет будет отдаваться обычным духам перед *любыми* другими членами "
+"экипажа]\n"
+"\t\n"
+"\t[Предупреждение: После ее добавления вы больше не сможете применять "
+"основные модификации для экипажа духов. Вы также не сможете деактивировать "
+"эту модификацию]"
 
 #: src-en/data/events_special_storage.xml.append:5672
 msgid ""
@@ -7255,6 +7386,13 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_LAB_FR_REVENANT_TRUE_UNDEATH\"]/text"
 msgstr ""
+"Вы хотите добавить модификацию Истинная нежить.\n"
+"\t[Эффекты: Ревенантов нельзя клонировать или исцелять обычными способами, "
+"но при прыжке они будут воскрешаться]\n"
+"\t\n"
+"\t[Предупреждение: Эффекты от этой модификации распространяются только на "
+"экипаж ревенантов После ее добавления вы сможете добавить другие "
+"вспомогательные и основные модификации]"
 
 #: src-en/data/events_special_storage.xml.append:5702
 msgid ""
@@ -9017,6 +9155,8 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JOB_FLEET\"]/mod-"
 "append:choice[5]/text"
 msgstr ""
+"Использовать свой миномет Инквизиции мод. III [-7}, дает задержку флота на 2 "
+"прыжка]"
 
 #: src-en/data/events_special_storage.xml.append:6898
 msgid ""
@@ -9056,12 +9196,18 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JOB_FLEET\"]/mod-"
 "append:choice[6]/text"
 msgstr ""
+"Использовать свой Энергетический миротворческий миномет [-15}, дает задержку "
+"флота на 2 прыжка, не влияет на известность]"
 
 #: src-en/data/events_special_storage.xml.append:6924
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JOB_FLEET\"]/mod-"
 "append:choice[6]/event/text"
 msgstr ""
+"Вы подготавливаете боеприпасы и устраиваете западню для повстанцев. К "
+"счастью, благодаря малоизвестным лазейкам в законе использование этого "
+"оружия не является незаконным, хотя с моральной точки зрения оно весьма "
+"сомнительно."
 
 #: src-en/data/events_special_storage.xml.append:6943
 msgid ""
@@ -9572,11 +9718,10 @@ msgid ""
 msgstr "Искать Лию."
 
 #: src-en/data/events_special_storage.xml.append:7298
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_CREW_REAL\"]/mod-"
 "append:choice[6]/text"
-msgstr "Посадить Джерри на своего Теневого Эквиноида."
+msgstr "Найти Пурпурную Бороду."
 
 #: src-en/data/events_special_storage.xml.append:7302
 msgid ""
@@ -10068,7 +10213,7 @@ msgstr "Перейти к битве!"
 #: src-en/data/events_special_storage.xml.append:7655
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_JAM_OMNI\"]/choice[@req=\"fr_clicker_enemy\"]/text"
-msgstr ""
+msgstr "Ее воля."
 
 #: src-en/data/events_special_storage.xml.append:7657
 msgid ""
@@ -10093,7 +10238,7 @@ msgstr "Перейти к битве!"
 #: src-en/data/events_special_storage.xml.append:7673
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_JAM_OMNI\"]/choice[19]/text"
-msgstr ""
+msgstr "Лучше заняться чем-нибудь другим."
 
 #: src-en/data/events_special_storage.xml.append:7677
 msgid ""
@@ -10371,7 +10516,7 @@ msgstr "Перейти к битве!"
 #: src-en/data/events_special_storage.xml.append:7877
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_JAM_OMNI_BATTERY\"]/choice[@req=\"fr_clicker_enemy\"]/text"
-msgstr ""
+msgstr "Ее воля."
 
 #: src-en/data/events_special_storage.xml.append:7879
 msgid ""
@@ -10386,7 +10531,7 @@ msgstr "Перейти к битве!"
 #: src-en/data/events_special_storage.xml.append:7888
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_JAM_OMNI_BATTERY\"]/choice[19]/text"
-msgstr ""
+msgstr "Лучше заняться чем-нибудь другим."
 
 #: src-en/data/events_special_storage.xml.append:7892
 msgid ""
@@ -10399,14 +10544,13 @@ msgid ""
 msgstr "Вы решаете ничего не делать и готовитесь к бою."
 
 #: src-en/data/events_special_storage.xml.append:7910
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_AUG_GHOST_SPAWNER_SUMMON\"]/mod-"
 "append:event/text"
 msgstr ""
-"К вашему удивлению, из портала появляется сам Гозиодеон! К вашему полному "
-"потрясению, он не пытается сразу же напасть на вас, а предлагает... "
-"присоединиться к вашему экипажу?"
+"К вашему удивлению, из портала появляется сам Гозиодеон! Удивительно, но он "
+"не пытается сразу же напасть на вас, а предлагает... присоединиться к вашему "
+"экипажу?"
 
 #: src-en/data/events_special_storage.xml.append:7911
 msgid ""
@@ -10427,7 +10571,6 @@ msgid ""
 msgstr "На свет появляется новый демон."
 
 #: src-en/data/events_special_storage.xml.append:7947
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_TECH_SCHEMATICS\"]/text"
 msgstr ""
@@ -10565,12 +10708,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:8055
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_ELECTROMAGNETIC\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Электромагнитный кран.\n"
-"[Эффекты: Перед боем вы можете активировать этот кран, чтобы снизить точность противника на 10% ценой отключения Сенсоров и Взломщика]"
+"[Эффекты: Перед боем вы можете активировать этот кран, чтобы снизить "
+"точность противника на 10% ценой отключения Сенсоров]"
 
 #: src-en/data/events_special_storage.xml.append:8058
 msgid ""
@@ -10598,7 +10741,6 @@ msgid ""
 msgstr "Что бы вы хотели сделать?"
 
 #: src-en/data/events_special_storage.xml.append:8084
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_ELECTROMAGNETIC_ARM\"]/choice[1]/text"
 msgstr ""
@@ -10616,12 +10758,9 @@ msgid ""
 msgstr "Перейти к битве!"
 
 #: src-en/data/events_special_storage.xml.append:8097
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_ELECTROMAGNETIC_ARM\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
-msgstr ""
-"[Аварийный генератор] Снижает точность противника на 10% в обмен на "
-"отключение системы сенсоров."
+msgstr "[Аварийный генератор] Снижает точность противника на 10%."
 
 #: src-en/data/events_special_storage.xml.append:8099
 msgid ""
@@ -10746,12 +10885,12 @@ msgid ""
 msgstr "Вы решаете ничего не делать и готовитесь к бою."
 
 #: src-en/data/events_special_storage.xml.append:8198
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_MISSILE\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Кран для извлечения боеголовок.\n"
-"[Эффекты: Промахнувшиеся ракеты возвращают 1 боеголовку]"
+"[Эффекты: За промахи при стрельбе из оружия, расходующего боеприпасы, "
+"возвращается 1 боеголовка]"
 
 #: src-en/data/events_special_storage.xml.append:8201
 msgid ""
@@ -10833,12 +10972,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:8279
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ARM_UNINSTALL_ELECTROMAGNETIC\"]/text"
 msgstr ""
 "Вы собираетесь демонтировать Электромагнитный кран.\n"
-"\t[Вы потеряете эти эффекты: Перед боем вы можете активировать этот кран, чтобы снизить точность противника на 10% ценой отключения Сенсоров и Взломщика]"
+"\t[Вы потеряете эти эффекты: Перед боем вы можете активировать этот кран, "
+"чтобы снизить точность противника на 10% ценой отключения Сенсоров]"
 
 #: src-en/data/events_special_storage.xml.append:8282
 msgid ""
@@ -11000,12 +11139,14 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:8401
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT_RAM\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Неистовый таран.\n"
-"[Эффекты: Перед боем вы можете выбрать систему для тарана, нанося 2 урона корпусу и этой системе, а также создавая пробоину. Такой удар также нанесет 1 урон вашей версии той же системы и вашему корпусу. Игнорирует сопротивления]"
+"[Эффекты: Перед боем вы можете выбрать систему для тарана. Вы нанесите 2 "
+"урона корпусу противника и выбранной системе, создавая там пробоину. Удар "
+"также нанесет по 1 урону вашему корпусу и соответствующей вашей системе. "
+"Обходит сопротивление]"
 
 #: src-en/data/events_special_storage.xml.append:8404
 msgid ""
@@ -11028,13 +11169,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:8429
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_PILOT_RAM\"]/text"
 msgstr ""
-"На какую вражескую систему вы хотите нацелиться? Это нанесет ей 2 урона и "
-"создаст пробоину. Ваша версия этой системы и ваш корпус также получат 1 "
-"урон. Игнорирует сопротивления."
+"На какую вражескую систему вы хотите нацелиться? Это нанесет 2 урона корпусу "
+"противника и выбранной системе, создав в ней пробоину. Ваша соответствующая "
+"система и корпус также получат по 1 урону. Обходит сопротивление."
 
 #: src-en/data/events_special_storage.xml.append:8431
 msgid ""
@@ -11308,12 +11448,12 @@ msgid ""
 msgstr "Вы решаете ничего не делать и готовитесь к бою."
 
 #: src-en/data/events_special_storage.xml.append:8635
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT_AUTOMAN_1\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Улучшенный автопилот. Улучшение 1 ур.\n"
-"[Эффекты: Все ваши системы будут автоматически обслуживаться на 1-м уровне навыков]"
+"[Эффекты: Все ваши системы будут автоматически обслуживаться не ниже чем на "
+"1-м уровне навыков]"
 
 #: src-en/data/events_special_storage.xml.append:8638
 msgid ""
@@ -11336,12 +11476,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:8662
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT_AUTOMAN_2\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Улучшенный автопилот. Улучшение 2 ур.\n"
-"[Эффекты: Все ваши системы будут автоматически обслуживаться на 2-м уровне навыков]"
+"[Эффекты: Все ваши системы будут автоматически обслуживаться не ниже чем на "
+"2-м уровне навыков]"
 
 #: src-en/data/events_special_storage.xml.append:8665
 msgid ""
@@ -11364,12 +11504,13 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:8690
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_PILOT_IMMUNITY\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Изолированная Рулевая рубка.\n"
-"[Эффекты: Ваш экипаж в Рулевой рубке не учитывается в лимите экипажа, не поддается контролю разума или оглушению и имеет иммунитет к опасностям]"
+"[Эффекты: Ваш экипаж в Рулевой рубке не учитывается в лимите экипажа, их "
+"невозможно подвергнуть контролю разума или оглушению и они имеют иммунитет к "
+"опасностям]"
 
 #: src-en/data/events_special_storage.xml.append:8693
 msgid ""
@@ -11437,25 +11578,22 @@ msgstr ""
 "количество улучшений этого типа]"
 
 #: src-en/data/events_special_storage.xml.append:8746
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES\"]/choice[@req=\"FR_NEXUS_ENGINES_FUEL\""
 " and @lvl=\"2\"]/text"
-msgstr "Многоразовые топливные элементы мод. III [Цена: 25~, 10{]"
+msgstr "Многоразовые топливные элементы мод. III [Цена: 13~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:8750
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES\"]/choice[@req=\"FR_NEXUS_ENGINES_FUEL\""
 " and @lvl=\"1\"]/text"
-msgstr "Многоразовые топливные элементы мод. II [Цена: 25~, 10{]"
+msgstr "Многоразовые топливные элементы мод. II [Цена: 13~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:8754
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES\"]/choice[@req=\"FR_NEXUS_ENGINES_FUEL\""
 " and @lvl=\"0\"]/text"
-msgstr "Многоразовые топливные элементы мод. I [Цена: 25~, 10{]"
+msgstr "Многоразовые топливные элементы мод. I [Цена: 13~, 5{]"
 
 #: src-en/data/events_special_storage.xml.append:8758
 msgid ""
@@ -11463,12 +11601,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:8764
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES_JUMP\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Неограниченный прыжок.\n"
-"[Эффекты: Позволяет прыгать на любой маяк, независимо от того, посещался ли он ранее за 2 топлива]"
+"[Эффекты: Позволяет прыгать на любой маяк за 2 топлива, независимо от того, "
+"посещался ли он ранее]"
 
 #: src-en/data/events_special_storage.xml.append:8767
 msgid ""
@@ -11491,12 +11629,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:8793
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES_DODGE\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Эффективная работа двигателя.\n"
-"[Эффекты: Дает +5 уклонения, пока работают двигатели, может быть установлено до 2 раз]"
+"[Эффекты: Дает +5 уклонения, пока работают двигатели. Может быть установлено "
+"до 2 раз]"
 
 #: src-en/data/events_special_storage.xml.append:8796
 msgid ""
@@ -11519,12 +11657,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:8821
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_ENGINES_FUEL\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Многоразовые топливные элементы.\n"
-"[Эффекты: Прыжки с вероятностью 25% возвращают использованное топливо, можно установить до 3 раз]"
+"[Эффекты: Прыжки с вероятностью 25% возвращают использованное топливо. Можно "
+"установить до 3 раз]"
 
 #: src-en/data/events_special_storage.xml.append:8824
 msgid ""
@@ -11628,12 +11766,13 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:8916
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_SHIELD_RESIST\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Многослойные энергетические сети.\n"
-"[Эффекты: Щиты с вероятностью 10% не разрушаются при попадании. Ионные орудия и дроны, не наносящие урон корпусу, будут по-прежнему наносить ионный урон. Можно установить до 2 раз]"
+"[Эффекты: Щиты с вероятностью 10% не разрушаются при попадании. Ионные "
+"орудия и дроны, не наносящие урон корпусу, будут по-прежнему наносить ионный "
+"урон. Можно установить до 2 раз]"
 
 #: src-en/data/events_special_storage.xml.append:8919
 msgid ""
@@ -11708,18 +11847,16 @@ msgstr ""
 "улучшений этого типа]"
 
 #: src-en/data/events_special_storage.xml.append:8987
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS\"]/choice[@req=\"FR_NEXUS_WEAPONS_STATUS\""
 " and @lvl=\"1\"]/text"
-msgstr "Экзотические боеприпасы мод. II [Цена: 30}]"
+msgstr "Экзотические боеприпасы мод. II [Цена: 7}]"
 
 #: src-en/data/events_special_storage.xml.append:8991
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS\"]/choice[@req=\"FR_NEXUS_WEAPONS_STATUS\""
 " and @lvl=\"0\"]/text"
-msgstr "Экзотические боеприпасы мод. I [Цена: 30}]"
+msgstr "Экзотические боеприпасы мод. I [Цена: 7}]"
 
 #: src-en/data/events_special_storage.xml.append:8995
 msgid ""
@@ -11751,12 +11888,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:9017
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS_SPECIALIZED\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Специальные компоненты.\n"
-"[Эффекты: Нелучевые орудия применяют запирание отсеков и пробивают на 1 слой щита больше]"
+"[Эффекты: Нелучевые орудия применяют запирание отсеков и пробивают на 1 слой "
+"щита больше]"
 
 #: src-en/data/events_special_storage.xml.append:9020
 msgid ""
@@ -11779,12 +11916,14 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:9044
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS_STATUS\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Экзотические боеприпасы.\n"
-"[Эффекты: Орудия и дроны получают +10% к шансу вызвать пожар или пробоину, если они уже обладают такой возможностью; шанс пробоины более 100% может вызвать несколько пробоин. Скорректированные значения не будут отображаться в описании]"
+"[Эффекты: Орудия и дроны получают +10% к шансу вызвать пожар или пробоину, "
+"если у них уже есть такой шанс; вероятность пробоины более 100% может "
+"вызвать несколько пробоин. Скорректированные значения не будут отображаться "
+"в описании]"
 
 #: src-en/data/events_special_storage.xml.append:9047
 msgid ""
@@ -11807,12 +11946,14 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:9071
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_WEAPONS_BOOST\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Разогнанные механизмы.\n"
-"[Эффекты: Нелучевое оружие и артиллерия наносят дополнительно +1 урона корпусу, системам и ионного урона, а также +15 урона экипажу, если это орудие уже обладает одной из этих характеристик. Лучи пробивают еще 1 слой щита. Дополнительный урон не будет отображаться в характеристиках орудия]"
+"[Эффекты: Нелучевое оружие и артиллерия наносят дополнительно +1 урона "
+"корпусу, системам и ионного урона, а также +15 урона экипажу, если данное "
+"оружие и так наносит урон этих типов. Лучи пробивают еще 1 слой щита. "
+"Дополнительный урон не будет отображаться в характеристиках орудия]"
 
 #: src-en/data/events_special_storage.xml.append:9074
 msgid ""
@@ -11915,10 +12056,9 @@ msgstr ""
 "[Эффекты: Ваш экипаж получает иммунитет к огню и удушью в пустых отсеках]"
 
 #: src-en/data/events_special_storage.xml.append:9162
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_OXYGEN_EMPTY\"]/choice[1]/text"
-msgstr "Установить улучшение. [Цена: 25{]"
+msgstr "Установить улучшение. [Цена: 25~]"
 
 #: src-en/data/events_special_storage.xml.append:9164
 msgid ""
@@ -12090,12 +12230,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:9329
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_DRONES_TELEPORT\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Локальная реконструкция.\n"
-"[Эффекты: Дроны вашего экипажа могут телепортироваться в любой отсек с вашего блока контроля дронов]"
+"[Эффекты: Дроны вашего экипажа могут телепортироваться в любой отсек с "
+"вашего блока Контроля дронов]"
 
 #: src-en/data/events_special_storage.xml.append:9332
 msgid ""
@@ -12306,12 +12446,13 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:9530
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_TELEPORTER_RECALL\"]/text"
 msgstr ""
-"Вы собираетесь установить улучшение Персональные телепортаторы малого радиуса действия.\n"
-"[Эффекты: Ваш экипаж может использовать телепортацию на короткие расстояния, пока в системе телепортера есть хотя бы 3 энергии]"
+"Вы собираетесь установить улучшение Персональные телепортаторы малого "
+"радиуса действия.\n"
+"[Эффекты: Ваш экипаж может использовать телепортацию на короткие расстояния, "
+"пока в системе Телепортатора есть хотя бы 3 энергии]"
 
 #: src-en/data/events_special_storage.xml.append:9533
 msgid ""
@@ -12642,12 +12783,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:9826
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MIND_COOLDOWN\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Быстрое охлаждение.\n"
-"[Эффекты: Время перезарядки вашей системы контроля разума сокращается на 5 секунд]"
+"[Эффекты: Время перезарядки вашей системы Контроля разума сокращается на 5 "
+"секунд]"
 
 #: src-en/data/events_special_storage.xml.append:9829
 msgid ""
@@ -12697,12 +12838,13 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:9883
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_MIND_DEBUFF\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Контроль нервной системы.\n"
-"[Эффекты: Союзники, управляемые контролем разумом, наносят 0.5x урона, а враги, управляемые контролем разума, наносят 2x урона]"
+"[Эффекты: Союзники, управляемые контролем разумом, наносят 0.5x урона в бою "
+"и при саботаже, а враги, управляемые контролем разума, наносят 2x урона в "
+"бою и при саботаже]"
 
 #: src-en/data/events_special_storage.xml.append:9886
 msgid ""
@@ -12925,12 +13067,13 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:10089
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_TEMPORAL_BOOST\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Персональное микровремя.\n"
-"[Эффекты: Каждый уровень вашего Временного манипулятора повышает скорость ремонта и саботажа вашего экипажа на 10%, а скорость ремонта и саботажа вражеского экипажа снижается на 10%]"
+"[Эффекты: Каждый уровень вашего Временного манипулятора повышает скорость "
+"ремонта и саботажа вашего экипажа на 10%, а скорость ремонта и саботажа "
+"вражеского экипажа снижается на 10%]"
 
 #: src-en/data/events_special_storage.xml.append:10092
 msgid ""
@@ -13014,12 +13157,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:10169
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_BATTERY_POWER\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Энергизатор экипажа.\n"
-"[Эффекты: Если кто-то из вашего экипажа дает энергию системе, в которой он находится, это количество энергии удваивается]"
+"[Эффекты: Если кто-то из вашего экипажа дает энергию системе, в которой он "
+"находится, это количество энергии удваивается]"
 
 #: src-en/data/events_special_storage.xml.append:10172
 msgid ""
@@ -13042,12 +13185,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:10196
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_BATTERY_SHIELD\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Квантовый усилитель.\n"
-"[Эффекты: Вы получаете дополнительный слой энергетического щита]"
+"[Эффекты: Вы получаете дополнительный слой энергетического щита, который "
+"складывается с уже имеющимися]"
 
 #: src-en/data/events_special_storage.xml.append:10199
 msgid ""
@@ -13116,12 +13259,12 @@ msgid ""
 msgstr "Неважно."
 
 #: src-en/data/events_special_storage.xml.append:10256
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_NEXUS_DOORS_GRID\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Импровизированная электросеть.\n"
-"[Эффекты: Вражеские абордажники теряют 2 ОЗ/с, плюс еще 1 ОЗ/с за каждый уровень системы дверей]"
+"[Эффекты: Вражеские абордажники теряют 2 ОЗ/с, плюс дополнительно еще 1 ОЗ/с "
+"за каждый уровень Контроля разума выше 1-го]"
 
 #: src-en/data/events_special_storage.xml.append:10259
 msgid ""
@@ -14102,15 +14245,14 @@ msgid ""
 msgstr "НАЙДЕНА"
 
 #: src-en/data/events_special_storage.xml.append:11042
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_FISH_GLOSSARY_5\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
 "Эту странную рыбу можно найти только в том месте, где жизнь и смерть "
 "сливаются воедино. Легенды гласят, что если накормить себя этой рыбой, то "
-"кожа станет гораздо более прочной, что позволит вам при необходимости легче "
-"ломать системы, а также проходить сквозь двери."
+"кожа станет гораздо более прочной, что позволит с легкостью разрушать "
+"системы, а также проходить сквозь двери."
 
 #: src-en/data/events_special_storage.xml.append:11048
 msgid ""
@@ -14192,88 +14334,76 @@ msgstr ""
 "+250% урона при саботаже и возможность проходить сквозь двери для союзников"
 
 #: src-en/data/events_special_storage.xml.append:11116
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[1]/text"
-msgstr "Дурная слава Содружества [--5]"
+msgstr "Дурная слава убежища Содружества [--5]"
 
 #: src-en/data/events_special_storage.xml.append:11120
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[2]/text"
-msgstr "Дурная слава Содружества [-5]"
+msgstr "Дурная слава убежища Содружества [-5]"
 
 #: src-en/data/events_special_storage.xml.append:11124
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[3]/text"
-msgstr "Дурная слава Содружества [-4]"
+msgstr "Дурная слава убежища Содружества [-4]"
 
 #: src-en/data/events_special_storage.xml.append:11128
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[4]/text"
-msgstr "Дурная слава Содружества [-3]"
+msgstr "Дурная слава убежища Содружества [-3]"
 
 #: src-en/data/events_special_storage.xml.append:11132
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[5]/text"
-msgstr "Дурная слава Содружества [-2]"
+msgstr "Дурная слава убежища Содружества [-2]"
 
 #: src-en/data/events_special_storage.xml.append:11136
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[6]/text"
-msgstr "Дурная слава Содружества [-1]"
+msgstr "Дурная слава убежища Содружества [-1]"
 
 #: src-en/data/events_special_storage.xml.append:11140
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[7]/text"
-msgstr "Дурная слава Содружества [1]"
+msgstr "Дурная слава убежища Содружества [1]"
 
 #: src-en/data/events_special_storage.xml.append:11144
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[8]/text"
-msgstr "Дурная слава Содружества [2]"
+msgstr "Дурная слава убежища Содружества [2]"
 
 #: src-en/data/events_special_storage.xml.append:11148
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[9]/text"
-msgstr "Дурная слава Содружества [3]"
+msgstr "Дурная слава убежища Содружества [3]"
 
 #: src-en/data/events_special_storage.xml.append:11152
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[10]/text"
-msgstr "Дурная слава Содружества [4]"
+msgstr "Дурная слава убежища Содружества [4]"
 
 #: src-en/data/events_special_storage.xml.append:11156
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[11]/text"
-msgstr "Дурная слава Содружества [5]"
+msgstr "Дурная слава убежища Содружества [5]"
 
 #: src-en/data/events_special_storage.xml.append:11160
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[12]/text"
-msgstr "Дурная слава Содружества [5++]"
+msgstr "Дурная слава убежища Содружества [5++]"
 
 #: src-en/data/events_special_storage.xml.append:11173
 msgid ""
@@ -14393,13 +14523,26 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "Вэнс Вентворт Первый"
 
 #: src-en/data/events_special_storage.xml.append:11275
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[1]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Вэнс Вентворт Первый\n"
+"            Титулы: Лидер Мультивселенского восстания, (бывший) адмирал "
+"Федерации, ветеран войны между богомолами и Федерацией, генеральный директор "
+"Вентворт Индастриз\n"
+"            Вид: человек - Возраст: 75 - Пол: мужской\n"
+"\t\t\t\n"
+"\t\t\tВэнс Первый - сложная личность. О нем можно рассказать столько, что "
+"хватило бы на целую библиотеку: он развязал крупнейшее восстание, которое "
+"когда-либо видела Мультивселенная, разрушил жизни бесчисленного множества "
+"людей и создал в рамках Восстания всепоглощающего монстра, которого на "
+"данный момент невозможно ни сдержать, ни навсегда остановить. Тот факт, что "
+"вы согласились дать ему второй шанс, свидетельствует либо о вашем "
+"сострадании, либо о вашей глупости."
 
 #: src-en/data/events_special_storage.xml.append:11282
 msgid ""
@@ -14418,6 +14561,15 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[2]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Королева Лейконплииинакра\n"
+"\t\t\tТитулы: Королева Улья богомолов\n"
+"\t\t\tВид: Богомол — Возраст: 80 — Пол: Женский\n"
+"\t\t\t\n"
+"\t\t\tНынешняя королева Улья богомолов, королева Лейконплииинакра, была той, "
+"кто заключил союз Улья с Коалицией. Она сожалеет об этом, но не может "
+"сделать почти ничего, чтобы изменить ситуацию, поскольку нынешний "
+"экономический кризис разрушает Улей. Надеемся, что теперь ситуация начнет "
+"меняться к лучшему."
 
 #: src-en/data/events_special_storage.xml.append:11297
 msgid ""
@@ -14429,13 +14581,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[3]/text"
-msgstr ""
+msgstr "Сайра Блэк"
 
 #: src-en/data/events_special_storage.xml.append:11305
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[3]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Сайра Блэк\n"
+"\t\t\tТитулы: Управляющая Протекторатом, одна из первых асов МФК\n"
+"\t\t\tВид: Человек - Возраст: 74 года - Пол: женский\n"
+"\t\t\t\n"
+"\t\t\tСайра Блэк, одна из двух первых членов МФК, является главной "
+"ответственной за защиту Протектората и обеспечение безопасности и "
+"благополучия племянника Вэнса, Джерри Вентворта. Она чрезвычайно лояльна "
+"Вэнсу и является его ближайшим соратником, уступая по близости только его "
+"племяннику. В прошлом они были настолько близки, что у них был роман."
 
 #: src-en/data/events_special_storage.xml.append:11312
 msgid ""
@@ -14447,13 +14608,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[4]/text"
-msgstr ""
+msgstr "Лия Эпплбазз"
 
 #: src-en/data/events_special_storage.xml.append:11320
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[4]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Лия Эпплбазз\n"
+"\t\t\tТитулы: Повелительница лучей, Ваш заклятый враг\n"
+"\t\t\tВид: Человек - Возраст: 24 - Пол: Женский\n"
+"\t\t\t\n"
+"\t\t\tДочь графа Динклмана Райхстера фон Эпплбазза Три-Три Четвертый и ваша "
+"личный заклятый враг. Недостаток здравого смысла и стратегического мышления "
+"она с лихвой компенсирует чистой решимостью. Похоже, что-то сделанное вами "
+"смогло склонить ее на вашу сторону, так что теперь вы с ней, вероятно, "
+"скорее друзья-соперники, чем настоящие враги."
 
 #: src-en/data/events_special_storage.xml.append:11327
 msgid ""
@@ -14465,13 +14635,23 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[5]/text"
-msgstr ""
+msgstr "Майкл Стэпфорд"
 
 #: src-en/data/events_special_storage.xml.append:11335
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[5]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Майкл Стэпфорд\n"
+"\t\t\tТитулы: (Бывший) маскот паука Пейдена\n"
+"\t\t\tВид: человек - Возраст: 20 лет - Пол: мужской\n"
+"\t\t\t\n"
+"\t\t\tАктер, исполнявший роль паука Пейдена, или, по крайней мере, он *был* "
+"исполнителем этой роли, пока близкое знакомство со Стефаном, одетым в костюм "
+"Элли эквиноида, не нанесло ему психологическую травму и не лишило "
+"возможности дальше работать в компании \"Цветочки и Солнышко\". Он получил "
+"эту роль благодаря тому, что сыграл Элли на дне рождения Джерри Вентворта, "
+"племянника Вэнса."
 
 #: src-en/data/events_special_storage.xml.append:11342
 msgid ""
@@ -14490,6 +14670,20 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[6]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Гозиодеон Лар Ауилакус\n"
+"\t\t\tТитулы: Лидер терзателей\n"
+"\t\t\tВид: Альфа-бродяга (а точнее - полтергейст) - Возраст: 666 - Пол: "
+"Отсутствует\n"
+"\t\t\t\n"
+"\t\t\tГлаварь терзателей - крупнейшей и сильнейшей преступной организации в "
+"этой части Династии. Родившись сразу после распада империи обелисков, "
+"Гозиодеон в молодости наслаждался роскошной жизнью и успехом в семейном "
+"бизнесе, пока не наступила Великая депрессия Династии, из-за которой ему "
+"пришлось обратиться к преступной деятельности, чтобы выжить. Оказалось, что "
+"у него был талант к управлению преступными организациями, и за несколько "
+"столетий ему удалось построить преступную империю, способную сравниться и "
+"превзойти любую пиратскую организацию - если бы только он когда-нибудь "
+"осмелился покинуть территорию призраков."
 
 #: src-en/data/events_special_storage.xml.append:11357
 msgid ""
@@ -14501,13 +14695,23 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[7]/text"
-msgstr ""
+msgstr "Стефан Ричард"
 
 #: src-en/data/events_special_storage.xml.append:11365
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[7]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Стефан Ричард\n"
+"\t\t\tТитулы: Продавец минометов\n"
+"\t\t\tВид: Человек - Возраст: 42 - Пол: Мужской\n"
+"\t\t\t\n"
+"\t\t\tО Стефане особо нечего сказать. Он унаследовал магазин минометов на "
+"небольшой уютной станции в пространстве Федерации; дела шли хорошо, пока "
+"странный несчастный случай не привел к тому, что станция, где он жил и "
+"работал, была переброшена через временные линии. В итоге он оказался в "
+"совершенно чуждом для себя мире, полном пришельцев, о которых никогда не "
+"слышал, и оружия, принцип работы которого был ему совершенно непонятен."
 
 #: src-en/data/events_special_storage.xml.append:11372
 msgid ""
@@ -14526,6 +14730,18 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[8]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Джон Бриггс\n"
+"\t\t\tТитулы: Ведущий техник Вентворт, Мультивселенский повстанец\n"
+"\t\t\tВид: Человек - Возраст: 45 - Пол: Мужской\n"
+"\t\t\t\n"
+"\t\t\tДжон - один из самых известных техников в компании Инновации Вентворт: "
+"его опыт в области дронов не имеет себе равных. Фактически, именно он довел "
+"до совершенства технологию стимулятора дронов. Ее легко установить на любые "
+"корабли с достаточно высоким уровнем блока Контроля дронов без необходимости "
+"использования каких-либо внешних модулей. Хотя он прибыл в эту вселенную из "
+"Вселенной 1, настоящее место рождения Джона неизвестно, что позволяет "
+"предположить, что каждый Джон, по-видимому, принимает такое решение в тот "
+"или иной момент своей жизни."
 
 #: src-en/data/events_special_storage.xml.append:11387
 msgid ""
@@ -14544,6 +14760,23 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[9]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Клинт Ширман\n"
+"\t\t\tТитулы: (Ныне бывший) Грозный пират Пурпурная Борода, (бывший) капитан "
+"Легионеров 45-й дивизии, легенда пиратского мира\n"
+"\t\t\tВид: Человек - Возраст: 65 - Пол: Мужской\n"
+"\t\t\t\n"
+"\t\t\tКлинт родился и вырос во Вселенной 1. С самого раннего возраста его "
+"готовили к службе в рядах повстанцев. В возрасте 10 лет его забрал из семьи "
+"сам Вэнс Первый, и с тех пор он ежедневно тренировался, чтобы стать "
+"Легионером. Хотя он очень быстро продвигался по служебной лестнице Легиона, "
+"его карьера прервалась, когда его заставили совершить поступок, о котором он "
+"до сих пор отказывается говорить или рассказывать подробности. Что бы это ни "
+"было, это было настолько жестоко, что подорвало его веру в Восстание. Он "
+"инсценировал собственную смерть и сбежал из Вселенной 1, установив "
+"импровизированный МВ двигатель к своему верному штурмовому кораблю Легиона. "
+"Не желая присоединяться к какой-либо другой фракции, Клинт стал пиратом, "
+"быстро сделав себе имя и заслужив прозвище Пурпурная Борода. Остальное, как "
+"говорится, уже история."
 
 #: src-en/data/events_special_storage.xml.append:11402
 msgid ""
@@ -14555,13 +14788,24 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[10]/text"
-msgstr ""
+msgstr "Королева ядовитых пауков."
 
 #: src-en/data/events_special_storage.xml.append:11410
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[10]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Шарлотта\n"
+"\t\t\tТитулы: Королева ядовитых пауков\n"
+"\t\t\tВид: Мутировавший гигантский инопланетный паук - Возраст: 20 - Пол: "
+"женский\n"
+"\t\t\t\n"
+"\t\t\tХотя этот конкретный экземпляр похож на обычную королеву гигантских "
+"инопланетных пауков, он способен выделять мощный яд, который с лёгкостью "
+"может убить даже самого выносливого валуна. Однако она не способна "
+"откладывать яйца, поэтому никогда не сможет создать собственное потомство: "
+"возможно, именно этот факт и объясняет ее привязанность ко всему, что "
+"связано с пауками."
 
 #: src-en/data/events_special_storage.xml.append:11417
 msgid ""
@@ -14573,13 +14817,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[11]/text"
-msgstr ""
+msgstr "Киберпони"
 
 #: src-en/data/events_special_storage.xml.append:11425
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[11]/event/text"
 msgstr ""
+"ПРОФИЛЬ: 3КВ3СТР14\n"
+"\t\t\tТитулы: Кибернетический пони\n"
+"\t\t\tВид: Энджи - Возраст: 80 - Пол: Отсутствует\n"
+"\t\t\t\n"
+"\t\t\tОб этом странном энджи известно не так много. Все, что мы знаем, - это "
+"то, что он любит притворяться пони и будет очень обижен, если кто-нибудь "
+"скажет ему, что на самом деле он не пони."
 
 #: src-en/data/events_special_storage.xml.append:11432
 msgid ""
@@ -14598,6 +14849,17 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[12]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Слимер Ссстриэль III\n"
+"\t\t\tТитулы: (Бывший) король Клептократии, Страж ревенантов\n"
+"\t\t\tВид: Ревенант-слизень - Возраст: 254 - Пол: гермафродит (в культурном "
+"смысле мужчина)\n"
+"\t\t\t\n"
+"\t\t\tСтарый, ныне покойный король Клептократии, когда она еще называлась "
+"\"Коллективная Клептократия слизней\". Его правление было настолько "
+"жестоким, что привело к тому, что Клептократия на почти 100 лет превратилась "
+"в республику. Его смерть наступила в результате пищевого отравления, "
+"вызванного партией галлюциногенных дынь, что было подстроено его собственным "
+"сыном."
 
 #: src-en/data/events_special_storage.xml.append:11447
 msgid ""
@@ -14778,6 +15040,13 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[22]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Ошибка персонажа\n"
+"\t\t\tТитулы: (Бывший) Защитник, хакер-ревенант\n"
+"\t\t\tВид: Энджи-ревенант - Возраст: ??? - Пол: Отсутствует\n"
+"\t\t\t\n"
+"\t\t\tОКО ВОЗНОСИТСЯ СКВОЗЬ ОБЛАКА НАШЕГО СОЗНАНИЯ - ОБЕЩАННЫЙ КОНЕЦ "
+"ЗАПЕЧАТЛЕЕТ ЕЕ ВОЛЮ, КОГДА ЛИК РАЗОРВЕТ НАШУ ИСКУССТВЕННУЮ РЕАЛЬНОСТЬ. "
+"ПОЭТОМУ ГОТОВЬТЕСЬ, ИБО ГРЯДУЩАЯ БУРЯ НЕ ПОЩАДИТ НИ ОДНОГО СУДНА."
 
 #: src-en/data/events_special_storage.xml.append:11597
 msgid ""
@@ -16163,7 +16432,7 @@ msgstr "Перейти к битве!"
 #: src-en/data/events_special_storage.xml.append:12667
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_RADIOACTIVE_FURY_C\"]/choice[2]/text"
-msgstr ""
+msgstr "Лучше заняться чем-нибудь другим."
 
 #: src-en/data/events_special_storage.xml.append:12673
 msgid ""
@@ -16198,7 +16467,7 @@ msgstr "Перейти к битве!"
 #: src-en/data/events_special_storage.xml.append:12699
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_RADIOACTIVE_FURY_S\"]/choice[2]/text"
-msgstr ""
+msgstr "Лучше заняться чем-нибудь другим."
 
 #: src-en/data/events_special_storage.xml.append:12713
 msgid ""
@@ -17452,7 +17721,7 @@ msgstr ""
 #: src-en/data/events_special_storage.xml.append:13679
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"pilot\"]/text"
-msgstr ""
+msgstr "Лучше заняться чем-нибудь другим."
 
 #: src-en/data/events_special_storage.xml.append:13694
 msgid ""
