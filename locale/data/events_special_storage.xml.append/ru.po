@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-19 10:36+0000\n"
+"PO-Revision-Date: 2026-06-19 17:09+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "dataevents_special_storagexmlappend/ru/>\n"
@@ -7113,7 +7113,7 @@ msgstr ""
 "\t\tСалли: Время перезарядки способностей \"Детеныш\" и \"Взрослый\" теперь "
 "составляет всего 1 секунду, а способность в форме \"Ткач\" действует на все "
 "корабли.\n"
-"\t\tПринц: Создает пробоину и возгорание в помещении.\n"
+"\t\tКнязь: Создает пробоину и возгорание в помещении.\n"
 "\t\tТририак: На время действия эффекта Тририак становится невосприимчивым к "
 "оглушению]"
 
@@ -7151,7 +7151,7 @@ msgstr ""
 "но вдвое уменьшается скорость передвижения.\n"
 "\t\tСалли: Постоянно исцеляется со скоростью 15 ОЗ/с, но уменьшается "
 "здоровье вдвое.\n"
-"\t\tПринц: Удваивается скорость передвижения, но уменьшается скорость "
+"\t\tКнязь: Удваивается скорость передвижения, но уменьшается скорость "
 "ремонта вдвое.\n"
 "\t\tТририак: Удваивается урон, наносимый экипажем, находящимся под контролем "
 "разума в одной помещении с ним, но они оглушаются в 10 раз дольше]"
@@ -7259,7 +7259,7 @@ msgstr ""
 "\t\tСалли: Время перезарядки способностей \"Детеныш\" и \"Взрослый\" теперь "
 "составляет всего 1 секунду, а способность в форме \"Ткач\" действует на все "
 "корабли.\n"
-"\t\tПринц: Создает пробоину и возгорание в помещении.\n"
+"\t\tКнязь: Создает пробоину и возгорание в помещении.\n"
 "\t\tТририак: На время действия эффекта Тририак становится невосприимчивым к "
 "оглушению]\n"
 "\t\n"
@@ -7320,7 +7320,7 @@ msgstr ""
 "вдвое уменьшается скорость передвижения.\n"
 "\tСалли: Постоянно исцеляется со скоростью 15 ОЗ/с, но уменьшается здоровье "
 "вдвое.\n"
-"\tПринц: Удваивается скорость передвижения, но уменьшается скорость ремонта "
+"\tКнязь: Удваивается скорость передвижения, но уменьшается скорость ремонта "
 "вдвое.\n"
 "\tТририак: Удваивается урон, наносимый экипажем, находящимся под контролем "
 "разума в одной помещении с ним, но они оглушаются в 10 раз дольше]\n"
@@ -7490,22 +7490,21 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/text"
 msgstr ""
-"Покормить корабль человеком. [0/2] \n"
+"Поглотить человека. [0/2] \n"
 "\t\t\t[Следующий бонус: ваш экипаж получит +25% сопротивления опасностям]"
 
 #: src-en/data/events_special_storage.xml.append:5799
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/event/text"
 msgstr ""
-"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
-"боль, но очень надеетесь, что нет."
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:5803
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:5806
 msgid ""
@@ -7516,7 +7515,7 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/text"
 msgstr ""
-"Покормить корабль человеком. [1/2] \n"
+"Поглотить человека. [1/2] \n"
 "\t\t\t[Текущий бонус: ваш экипаж имеет +25% сопротивления опасностям]\n"
 "\t\t\t[Следующий бонус: ваш экипаж получит +50% сопротивления опасностям]"
 
@@ -7524,15 +7523,14 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/event/text"
 msgstr ""
-"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
-"боль, но очень надеетесь, что нет."
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:5821
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_HUMAN_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:5824
 msgid ""
@@ -7564,15 +7562,14 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_0\"]/event/text"
 msgstr ""
-"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
-"боль, но очень надеетесь, что нет."
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:5847
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:5850
 msgid ""
@@ -7591,15 +7588,14 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_1\"]/event/text"
 msgstr ""
-"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
-"боль, но очень надеетесь, что нет."
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:5865
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ENGI_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:5868
 msgid ""
@@ -7631,15 +7627,14 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_0\"]/event/text"
 msgstr ""
-"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
-"боль, но очень надеетесь, что нет."
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:5891
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:5894
 msgid ""
@@ -7658,15 +7653,14 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_1\"]/event/text"
 msgstr ""
-"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
-"боль, но очень надеетесь, что нет."
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:5909
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ROCK_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:5912
 msgid ""
@@ -7698,15 +7692,14 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_0\"]/event/text"
 msgstr ""
-"Процесс завершается в считанные секунды, но вы не знаете, испытывал ли он "
-"боль, но очень надеетесь, что нет."
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:5935
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:5938
 msgid ""
@@ -7732,8 +7725,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ZOLTAN_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:5956
 msgid ""
@@ -7772,8 +7764,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:5982
 msgid ""
@@ -7799,8 +7790,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MANTIS_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6000
 msgid ""
@@ -7839,8 +7829,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6026
 msgid ""
@@ -7866,8 +7855,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_CRYSTAL_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6044
 msgid ""
@@ -7906,8 +7894,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6070
 msgid ""
@@ -7933,8 +7920,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SLUG_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6088
 msgid ""
@@ -7973,8 +7959,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6114
 msgid ""
@@ -8000,8 +7985,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SHELL_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6132
 msgid ""
@@ -8040,8 +8024,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6158
 msgid ""
@@ -8067,8 +8050,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_ORCHID_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6176
 msgid ""
@@ -8107,8 +8089,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6202
 msgid ""
@@ -8134,8 +8115,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LANIUS_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6220
 msgid ""
@@ -8174,8 +8154,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6246
 msgid ""
@@ -8201,8 +8180,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LEECH_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6264
 msgid ""
@@ -8241,8 +8219,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LIZARD_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6290
 msgid ""
@@ -8268,8 +8245,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_LIZARD_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6308
 msgid ""
@@ -8308,8 +8284,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_GHOST_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6334
 msgid ""
@@ -8335,8 +8310,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_GHOST_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6352
 msgid ""
@@ -8375,8 +8349,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_PONY_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6378
 msgid ""
@@ -8402,8 +8375,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_PONY_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6396
 msgid ""
@@ -8442,8 +8414,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MORPH_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6422
 msgid ""
@@ -8469,8 +8440,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_MORPH_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6440
 msgid ""
@@ -8509,8 +8479,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SPIDER_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6466
 msgid ""
@@ -8536,8 +8505,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SPIDER_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6484
 msgid ""
@@ -8576,8 +8544,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SIREN_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6510
 msgid ""
@@ -8603,8 +8570,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SIREN_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6528
 msgid ""
@@ -8643,8 +8609,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_COGNITIVE_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6554
 msgid ""
@@ -8670,8 +8635,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_COGNITIVE_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6572
 msgid ""
@@ -8710,8 +8674,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OBELISK_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6598
 msgid ""
@@ -8737,8 +8700,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OBELISK_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6616
 msgid ""
@@ -8778,8 +8740,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OSMIAN_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6642
 msgid ""
@@ -8808,8 +8769,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_OSMIAN_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6660
 msgid ""
@@ -8850,8 +8810,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SALT_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6686
 msgid ""
@@ -8877,8 +8836,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SALT_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6704
 msgid ""
@@ -8915,8 +8873,7 @@ msgstr "Процесс завершается в считанные секунд
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SNOWMAN_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6730
 msgid ""
@@ -8940,8 +8897,7 @@ msgstr "Процесс завершается в считанные секунд
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_SNOWMAN_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6748
 msgid ""
@@ -8980,8 +8936,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_AIAVATAR_SACRIFICE_0\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6774
 msgid ""
@@ -9007,8 +8962,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_LIVING_SHIP\"]/choice[@req=\"FR_LIST_AIAVATAR_SACRIFICE_1\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:6792
 msgid ""
@@ -14337,73 +14291,73 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[1]/text"
-msgstr "Дурная слава убежища Содружества [--5]"
+msgstr "Дурная слава Убежища Содружества [--5]"
 
 #: src-en/data/events_special_storage.xml.append:11120
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[2]/text"
-msgstr "Дурная слава убежища Содружества [-5]"
+msgstr "Дурная слава Убежища Содружества [-5]"
 
 #: src-en/data/events_special_storage.xml.append:11124
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[3]/text"
-msgstr "Дурная слава убежища Содружества [-4]"
+msgstr "Дурная слава Убежища Содружества [-4]"
 
 #: src-en/data/events_special_storage.xml.append:11128
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[4]/text"
-msgstr "Дурная слава убежища Содружества [-3]"
+msgstr "Дурная слава Убежища Содружества [-3]"
 
 #: src-en/data/events_special_storage.xml.append:11132
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[5]/text"
-msgstr "Дурная слава убежища Содружества [-2]"
+msgstr "Дурная слава Убежища Содружества [-2]"
 
 #: src-en/data/events_special_storage.xml.append:11136
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[6]/text"
-msgstr "Дурная слава убежища Содружества [-1]"
+msgstr "Дурная слава Убежища Содружества [-1]"
 
 #: src-en/data/events_special_storage.xml.append:11140
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[7]/text"
-msgstr "Дурная слава убежища Содружества [1]"
+msgstr "Дурная слава Убежища Содружества [1]"
 
 #: src-en/data/events_special_storage.xml.append:11144
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[8]/text"
-msgstr "Дурная слава убежища Содружества [2]"
+msgstr "Дурная слава Убежища Содружества [2]"
 
 #: src-en/data/events_special_storage.xml.append:11148
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[9]/text"
-msgstr "Дурная слава убежища Содружества [3]"
+msgstr "Дурная слава Убежища Содружества [3]"
 
 #: src-en/data/events_special_storage.xml.append:11152
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[10]/text"
-msgstr "Дурная слава убежища Содружества [4]"
+msgstr "Дурная слава Убежища Содружества [4]"
 
 #: src-en/data/events_special_storage.xml.append:11156
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[11]/text"
-msgstr "Дурная слава убежища Содружества [5]"
+msgstr "Дурная слава Убежища Содружества [5]"
 
 #: src-en/data/events_special_storage.xml.append:11160
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_NOTORIETY\"]/mod-"
 "append:choice[12]/text"
-msgstr "Дурная слава убежища Содружества [5++]"
+msgstr "Дурная слава Убежища Содружества [5++]"
 
 #: src-en/data/events_special_storage.xml.append:11173
 msgid ""
@@ -14851,7 +14805,7 @@ msgid ""
 msgstr ""
 "ПРОФИЛЬ: Слимер Ссстриэль III\n"
 "\t\t\tТитулы: (Бывший) король Клептократии, Страж ревенантов\n"
-"\t\t\tВид: Ревенант-слизень - Возраст: 254 - Пол: гермафродит (в культурном "
+"\t\t\tВид: Ревенант-слизень - Возраст: 254 - Пол: Гермафродит (в культурном "
 "смысле мужчина)\n"
 "\t\t\t\n"
 "\t\t\tСтарый, ныне покойный король Клептократии, когда она еще называлась "
@@ -14878,6 +14832,17 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[13]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Физ Карвар\n"
+"\t\t\tТитулы: Ионный Шрайкер, маскот ревенантов\n"
+"\t\t\tВид: Ревенант-ракушка - Возраст: 151 - Пол: женский\n"
+"\t\t\t\n"
+"\t\t\tПравительство ревенантов когда-то предложило создать новый "
+"исследовательский отдел, который провалился сразу же после своего основания. "
+"Физ, первый живой экземпляр их проекта, умерла вскоре после своего "
+"\"рождения\" и захватила весь объект вместе со всеми его исследованиями, "
+"чтобы создать больше таких, как она. Ей нравится делать других счастливыми, "
+"и теперь, освободившись от проклятия, она больше не испытывает постоянной "
+"боли."
 
 #: src-en/data/events_special_storage.xml.append:11462
 msgid ""
@@ -14896,6 +14861,18 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[14]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Алеенор Лакитрапикк\n"
+"\t\t\tТитулы: Епископ богомолов, ревенант-страйкер\n"
+"\t\t\tВид: Ревенант-богомол - Возраст: 210 - Пол: женский\n"
+"\t\t\t\n"
+"\t\t\tОдна из самых преданных Епископов, избранных королевой Латраккпкат для "
+"присмотра за инкубаторием в самой глубокой части столицы Улья богомолов. Ее "
+"жизнь почти полностью состояла лишь из исполнения своих обязанностей, но она "
+"погибла, защищая яйца от Великого пожара инкубатория в Серебряном веке - "
+"трагедии, унесшей жизни миллионов богомолов и которая могла бы положить "
+"конец всей империи, если бы не быстрое мышление и самопожертвование Алеенор. "
+"Ее имя до сих пор почитается в Улье богомолов, и в ее честь даже был "
+"учрежден отдельный праздник."
 
 #: src-en/data/events_special_storage.xml.append:11477
 msgid ""
@@ -14914,6 +14891,16 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[15]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Вин Витредонн\n"
+"\t\t\tТитулы: Паладин валунов, силовик ревенентов\n"
+"\t\t\tВид: Ревенант-валун - Возраст: 450 - Пол: мужской\n"
+"\t\t\t\n"
+"\t\t\tПаладин валунов, служивший и проживший очень мирный период Теократии "
+"валунов; его сила не была чем-то выдающимся, и он не добился в жизни особых "
+"успехов. На самом деле, самое примечательное в его жизни - это то, как он "
+"умер. Во время сна его автопилот вышел из строя, и он устремился прямо в "
+"ближайшую красную гигантскую звезду. Разумеется, ему не нравится, что им "
+"командует Ж."
 
 #: src-en/data/events_special_storage.xml.append:11492
 msgid ""
@@ -14932,6 +14919,16 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[16]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Клео Смит\n"
+"\t\t\tТитулы: Ас МФК, Ревенант-слушатель\n"
+"\t\t\tВид: Ревенант-человек - Возраст: 70 - Пол: Мужской\n"
+"\t\t\t\n"
+"\t\t\tСамый молодой ревенант в команде Ж, а также самый нестабильный. После "
+"своей жестокой гибели от рук модифицированного ремонтного дрона этот бывший "
+"ас МФК теперь представляет собой лишь бледную тень того, кем он когда-то "
+"был. Он не был выдающимся асом, поэтому его смерть была скрыта повстанцами, "
+"а его имя со временем стало не более чем старой легендой, которой пугают "
+"новых рекрутов."
 
 #: src-en/data/events_special_storage.xml.append:11507
 msgid ""
@@ -14950,6 +14947,15 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[17]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Зулу Сияющий\n"
+"\t\t\tТитулы: Правая рука ревенантов\n"
+"\t\t\tВид: Ревенант-ланиус - Возраст: ??? - Пол: Отсутствует\n"
+"\t\t\t\n"
+"\t\t\tПервый ревенант и старый друг Ж. Именно его смерть стала причиной "
+"того, что Ж погрузилась в некромантию в тщетной надежде вернуть его к жизни. "
+"Теперь он существует лишь для того, чтобы воплощать волю Ж, безоговорочно "
+"служа ей. По крайней мере, так было до тех пор, пока вы не сняли с нее "
+"проклятие и не спасли его."
 
 #: src-en/data/events_special_storage.xml.append:11522
 msgid ""
@@ -14968,6 +14974,18 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[18]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Ж Некролич\n"
+"\t\t\tТитулы: Лидер ревенантов, Некролич, (бывшая) навигатор Дворян "
+"обелисков\n"
+"\t\t\tВид: Ревенант-обелиск - Возраст: примерно 100000 - Пол: Отсутствует (в "
+"культурном плане женщина)\n"
+"\t\t\t\n"
+"\t\t\tЖ, навигатор Дворян обелисков, ответственная за составление карт "
+"других вселенных, всю свою жизнь была преданной слугой королевы У и даже "
+"после смерти по-прежнему надеется, что сможет снова увидеть свою королеву "
+"лично. После смерти своего близкого драга Зулу, Ж впала в глубокую "
+"депрессию, которая, к сожалению, сменилась мрачной амбицией, как только она "
+"обнаружила Некрономикон."
 
 #: src-en/data/events_special_storage.xml.append:11537
 msgid ""
@@ -14986,6 +15004,15 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[19]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Фростволл Димондеш\n"
+"\t\t\tТитулы: (Бывший) Часовой, Проповедник ревенантов\n"
+"\t\t\tВид: Ревенант-кристаллин - Возраст: 580 - Пол: мужской\n"
+"\t\t\t\n"
+"\t\t\tОпытный Часовой, у которого впереди было светлое будущее, пока его не "
+"отправили на миссию по возвращению ценного груза кристаллического оружия из "
+"рук странного серого корабля, напоминавшего творения утопианцев. Но что-то в "
+"этом корабле изменило Фростволл. Его разум поддался непрекращающимся "
+"шепотам, и вскоре после этого его убили."
 
 #: src-en/data/events_special_storage.xml.append:11552
 msgid ""
@@ -15004,6 +15031,19 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[20]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Смертоцветка Й'Сиртил\n"
+"\t\t\tТитулы: (Бывшая) охотница за сокровищами, искательница ревенантов\n"
+"\t\t\tВид: Ревенант-Оро'баче - Возраст: 208 - Пол: женский\n"
+"\t\t\t\n"
+"\t\t\tИмя Смертоцветка может звучать агрессивно и угрожающе, но на самом "
+"деле она была одной из самых добрых Вампсорняков, которых можно было "
+"встретить за пределами Конфедерации. Более того, она редко посещала секторы, "
+"контролируемые Вампсорняками, обычно заглядывая туда лишь для того, чтобы "
+"продать свои ценные артефакты. После ее смерти систему пришлось поместить в "
+"карантин, так как ее споры каким-то образом приспособились к вакууму космоса "
+"и с каждым циклом становились все более смертоносными. Теперь они "
+"представляют собой самую смертоносную биологическую угрозу, известную "
+"Вампсорнякам."
 
 #: src-en/data/events_special_storage.xml.append:11567
 msgid ""
@@ -15022,6 +15062,13 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[21]/event/text"
 msgstr ""
+"ПРОФИЛЬ: ПОК ДОК\n"
+"\t\t\tТитулы: Запретный эксперимент, лазутчик ревенантов\n"
+"\t\t\tВид: Ревенант-морф - Возраст: ??? - Пол: Отсутствует\n"
+"\t\t\t\n"
+"\t\t\tПок был бы самым могущественным лазутчиком, если бы не был таким "
+"маленьким. Он ненавидит насилие и просто хочет дружить с другими. К "
+"сожалению, он вынужден подчиняться приказам Наблюдателя."
 
 #: src-en/data/events_special_storage.xml.append:11582
 msgid ""
@@ -15033,7 +15080,7 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[22]/text"
-msgstr ""
+msgstr "ЧАРРО"
 
 #: src-en/data/events_special_storage.xml.append:11590
 msgid ""
@@ -15065,6 +15112,15 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[23]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Леонардо Лерпае\n"
+"\t\t\tТитулы: (Бывший) силовик Ирген, спецназовец ревенантов\n"
+"\t\t\tВид: Ревенант-пиявка - Возраст: 149 - Пол: мужской\n"
+"\t\t\t\n"
+"\t\t\tЛео на самом деле никогда не хотел быть бойцом: на самом деле, он "
+"мечтал открыть мастерскую, специализирующуюся на покраске кораблей по низким "
+"ценам без ущерба для качества. К сожалению, как только Республика начала "
+"войну с Теократией, Лео был призван в армию, и таким образом его судьба была "
+"предрешена."
 
 #: src-en/data/events_special_storage.xml.append:11612
 msgid ""
@@ -15083,6 +15139,15 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[24]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Сирак Фрей\n"
+"\t\t\tТитулы: (Бывший) Вестник Заката, бомбардировщик ревенантов\n"
+"\t\t\tВид: Ревенант-золтан - Возраст: 81 - Пол: мужской\n"
+"\t\t\t\n"
+"\t\t\tСирак, один из первых Вестников Заката, вступивший в ряды движения, "
+"присоединился к нему после того, как смерть его брата, Кирака, преднамеренно "
+"скрыли во время первой гражданской войны, лишив его жертву заслуженной "
+"чести. Сойдя с ума под влиянием Ее, теперь Вестник Заката видит только ту "
+"боль и ненависть, которые он нес при жизни."
 
 #: src-en/data/events_special_storage.xml.append:11627
 msgid ""
@@ -15101,6 +15166,11 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[25]/event/text"
 msgstr ""
+"ПРОФИЛЬ:                    ТЫ\n"
+"            Титулы:                        -\n"
+"            Вид:                УСТАЛ\n"
+"            \n"
+"            ОТДОХНИ                СЕЙЧАС"
 
 #: src-en/data/events_special_storage.xml.append:11642
 msgid ""
@@ -15119,6 +15189,16 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[26]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Август Голдикус Шинан V\n"
+"\t\t\tТитулы: Величайший призрак, изгнанный ревенант\n"
+"\t\t\tВид: Ревенант-Альфа фантом - Возраст: 985 - Пол: Отсутствует (в "
+"культурном смысле мужской)\n"
+"\t\t\t\n"
+"\t\t\tСамый богатый призрак во вселенной, его бесконечных запасов лома "
+"хватили бы на покупку целого сектора! Именно это он и *хотел* сделать, но "
+"его собственная гордыня привела к гибели: он пренебрег сотнями правил "
+"техники безопасности и погиб в результате взрыва собственного завода по "
+"производству анти-био оружия."
 
 #: src-en/data/events_special_storage.xml.append:11657
 msgid ""
@@ -15137,6 +15217,16 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[27]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Салли Финч Морри\n"
+"\t\t\tТитулы: (Бывшая) ученая Аркадии, исследовательница ревенантов\n"
+"\t\t\tВид: Ревенант-экспериментальный паук - Возраст: 90 - Пол: женский\n"
+"\t\t\t\n"
+"\t\t\tСалли была блестящим ученым-биотехнологом, которая была близка к "
+"разработке способа предотвращения ухудшения навыков экипажа, когда ужасная "
+"болезнь унесла ее жизнь. Однако незадолго до смерти ей удалось загрузить "
+"свой разум и сознание в своего спутника - гигантского инопланетного паука по "
+"имени Финч. Теперь, оставив позади свою человеческую жизнь, она ищет свое "
+"место в этой огромной Мультивселенной."
 
 #: src-en/data/events_special_storage.xml.append:11672
 msgid ""
@@ -15148,13 +15238,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[28]/text"
-msgstr ""
+msgstr "Князь"
 
 #: src-en/data/events_special_storage.xml.append:11680
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[28]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Князь Тьмы\n"
+"\t\t\tТитулы: Князь демонического царства, покровитель ревенантов\n"
+"\t\t\tВид: Ревенант-демонический эквиноид - Возраст: ??? - Пол: Мужской\n"
+"\t\t\t\n"
+"\t\t\tХотя он и не является демоном в буквальном смысле, существо, "
+"вселившееся в этого эквиноида, идеально соответствует этому описанию. "
+"Призванное из вселенной, где демонические существа бродят по земле, это "
+"существо готово на все... за определенную цену. И этой ценой, как правило, "
+"становится ваша душа."
 
 #: src-en/data/events_special_storage.xml.append:11687
 msgid ""
@@ -15173,6 +15272,14 @@ msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[29]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Тририак\n"
+"\t\t\tТитулы: (Бывшое) нечто #4, Поставщик ревенантов\n"
+"\t\t\tВид: Ревенант-нечто - Возраст: Бесконечный - Пол: Не имеет значения\n"
+"\t\t\t\n"
+"\t\t\tОб этом существе практически ничего не известно. Известно лишь, что "
+"когда-то оно служило Ей, но, узнав истинную суть Ее планов, взбунтовалось и "
+"перешло на сторону врага. Теперь ее единственная цель - полностью уничтожить "
+"Ее и всех Ее слуг."
 
 #: src-en/data/events_special_storage.xml.append:11702
 msgid ""
@@ -15184,13 +15291,28 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[30]/text"
-msgstr ""
+msgstr "Беллреннис"
 
 #: src-en/data/events_special_storage.xml.append:11710
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_STATUS_CREW\"]/mod-"
 "append:choice[30]/event/text"
 msgstr ""
+"ПРОФИЛЬ: Беллреннис\n"
+"\t\t\tТитулы: Ведущий научный сотрудник по исследованиям и разведке "
+"Содружества\n"
+"\t\t\tВид: Обелиск - Возраст: примерно 90 000 (на момент смерти) - Пол: "
+"Отсутствует (в культурном смысле женщина)\n"
+"\t\t\t\n"
+"\t\t\tБеллреннис, также известная как Дейзи, была ведущим исследователем в "
+"области оружия и дронов в Убежище. Ее работа значительно превосходила "
+"достижения ее коллег, но ее амбиции были слишком велики для такого "
+"небольшого места, каким было Убежище. Она хотела исследовать внешний мир, "
+"чтобы найти союзников для дела своего народа. Ее статус потенциальной угрозы "
+"безопасности вызвал столько споров, что привел к расколу в Убежище. Она "
+"покинула систему, но, к сожалению, не успела уйти далеко, прежде чем Дворяне "
+"настигли ее, убили, а ее крейсер оставили дрейфовать в космосе в качестве "
+"мрачного напоминания о своей силе."
 
 #: src-en/data/events_special_storage.xml.append:11717
 msgid ""
@@ -15201,17 +15323,17 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11737
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/text"
-msgstr ""
+msgstr "Каких уникальных персонажей вы хотите призвать?"
 
 #: src-en/data/events_special_storage.xml.append:11739
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vance\"]/text"
-msgstr ""
+msgstr "Призвать Вэнса Первого."
 
 #: src-en/data/events_special_storage.xml.append:11741
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vance\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11742
 msgid ""
@@ -15227,12 +15349,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11751
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vance_one\"]/text"
-msgstr ""
+msgstr "Призвать Вэнса Первого."
 
 #: src-en/data/events_special_storage.xml.append:11753
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vance_one\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11754
 msgid ""
@@ -15248,12 +15370,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11763
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_cyra\"]/text"
-msgstr ""
+msgstr "Призвать Сайру."
 
 #: src-en/data/events_special_storage.xml.append:11765
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_cyra\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11766
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Cyra\"]/@name"
@@ -15267,12 +15389,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11775
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_gozer\"]/text"
-msgstr ""
+msgstr "Призвать Гозиодеона."
 
 #: src-en/data/events_special_storage.xml.append:11777
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_gozer\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11778
 msgid ""
@@ -15287,12 +15409,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11787
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_mantis_queen\"]/text"
-msgstr ""
+msgstr "Призвать Лейконплииинакру."
 
 #: src-en/data/events_special_storage.xml.append:11789
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_mantis_queen\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11790
 msgid ""
@@ -15307,12 +15429,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11799
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_aleenor\"]/text"
-msgstr ""
+msgstr "Призвать Алеенор."
 
 #: src-en/data/events_special_storage.xml.append:11801
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_aleenor\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11802
 msgid ""
@@ -15327,12 +15449,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11811
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_g\"]/text"
-msgstr ""
+msgstr "Призвать Ж."
 
 #: src-en/data/events_special_storage.xml.append:11813
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_g\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11814
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"G\"]/@name"
@@ -15346,12 +15468,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11823
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_zulu\"]/text"
-msgstr ""
+msgstr "Призвать Зулу."
 
 #: src-en/data/events_special_storage.xml.append:11825
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_zulu\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11826
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Zulu\"]/@name"
@@ -15365,12 +15487,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11835
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vin\"]/text"
-msgstr ""
+msgstr "Призвать Вин."
 
 #: src-en/data/events_special_storage.xml.append:11837
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_vin\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11838
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Vin\"]/@name"
@@ -15384,12 +15506,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11847
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_cleo\"]/text"
-msgstr ""
+msgstr "Призвать Вин."
 
 #: src-en/data/events_special_storage.xml.append:11849
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_cleo\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11850
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Cleo\"]/@name"
@@ -15403,17 +15525,17 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11859
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_slimer\"]/text"
-msgstr ""
+msgstr "Призвать Слимера."
 
 #: src-en/data/events_special_storage.xml.append:11861
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_slimer\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11862
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"ClSlimereo\"]/@name"
-msgstr ""
+msgstr "Кл. Слимерио"
 
 #: src-en/data/events_special_storage.xml.append:11865
 msgid ""
@@ -15423,12 +15545,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11871
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_phys\"]/text"
-msgstr ""
+msgstr "Призвать Физ."
 
 #: src-en/data/events_special_storage.xml.append:11873
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_phys\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11874
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Phys\"]/@name"
@@ -15442,12 +15564,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11883
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_charror\"]/text"
-msgstr ""
+msgstr "Призвать Чарро."
 
 #: src-en/data/events_special_storage.xml.append:11885
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_charror\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11886
 msgid ""
@@ -15462,12 +15584,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11895
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_deathbloom\"]/text"
-msgstr ""
+msgstr "Призвать Смертоцветку."
 
 #: src-en/data/events_special_storage.xml.append:11897
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_deathbloom\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11898
 msgid ""
@@ -15482,12 +15604,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11907
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_leo\"]/text"
-msgstr ""
+msgstr "Призвать Лео."
 
 #: src-en/data/events_special_storage.xml.append:11909
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_leo\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11910
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Leo\"]/@name"
@@ -15501,12 +15623,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11919
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_searak\"]/text"
-msgstr ""
+msgstr "Призвать Сирака."
 
 #: src-en/data/events_special_storage.xml.append:11921
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_searak\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11922
 msgid ""
@@ -15521,12 +15643,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11931
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_watcher\"]/text"
-msgstr ""
+msgstr "Призвать Наблюдателя."
 
 #: src-en/data/events_special_storage.xml.append:11933
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_watcher\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11934
 msgid ""
@@ -15541,12 +15663,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11943
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_pok\"]/text"
-msgstr ""
+msgstr "Призвать Пока."
 
 #: src-en/data/events_special_storage.xml.append:11945
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_pok\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11946
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Pok\"]/@name"
@@ -15560,12 +15682,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11955
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_frostwall\"]/text"
-msgstr ""
+msgstr "Призвать Фростволл."
 
 #: src-en/data/events_special_storage.xml.append:11957
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_frostwall\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11958
 msgid ""
@@ -15580,12 +15702,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11967
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_sammy\"]/text"
-msgstr ""
+msgstr "Призвать Пейдена."
 
 #: src-en/data/events_special_storage.xml.append:11969
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_sammy\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11970
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Sammy\"]/@name"
@@ -15599,12 +15721,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11979
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_spider_venom\"]/text"
-msgstr ""
+msgstr "Призвать Шарлотту."
 
 #: src-en/data/events_special_storage.xml.append:11981
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_spider_venom\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11982
 msgid ""
@@ -15619,12 +15741,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:11991
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_pony_engi\"]/text"
-msgstr ""
+msgstr "Призвать 3КВ3СТРИ91."
 
 #: src-en/data/events_special_storage.xml.append:11993
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_pony_engi\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:11994
 msgid ""
@@ -15639,17 +15761,17 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12003
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_stephan\"]/text"
-msgstr ""
+msgstr "Призвать Стефана."
 
 #: src-en/data/events_special_storage.xml.append:12005
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_stephan\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12006
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"Stephan\"]/@name"
-msgstr ""
+msgstr "Стефан"
 
 #: src-en/data/events_special_storage.xml.append:12009
 msgid ""
@@ -15659,12 +15781,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12015
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_augustus\"]/text"
-msgstr ""
+msgstr "Призвать Августа."
 
 #: src-en/data/events_special_storage.xml.append:12017
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_augustus\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12018
 msgid ""
@@ -15679,12 +15801,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12027
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_leah\"]/text"
-msgstr ""
+msgstr "Призвать Лию."
 
 #: src-en/data/events_special_storage.xml.append:12029
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_leah\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12030
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Leah\"]/@name"
@@ -15698,12 +15820,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12039
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_sally\"]/text"
-msgstr ""
+msgstr "Призвать Салли."
 
 #: src-en/data/events_special_storage.xml.append:12041
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_sally\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12042
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Sally\"]/@name"
@@ -15717,12 +15839,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12051
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_prince\"]/text"
-msgstr ""
+msgstr "Призвать Князя Тьмы."
 
 #: src-en/data/events_special_storage.xml.append:12053
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_prince\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12054
 msgid ""
@@ -15738,12 +15860,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12063
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_tririac\"]/text"
-msgstr ""
+msgstr "Призвать Тририака."
 
 #: src-en/data/events_special_storage.xml.append:12065
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_tririac\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12066
 msgid ""
@@ -15758,12 +15880,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12075
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_rockmore\"]/text"
-msgstr ""
+msgstr "Призвать Валунгора."
 
 #: src-en/data/events_special_storage.xml.append:12077
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_rockmore\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12078
 msgid ""
@@ -15778,12 +15900,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12087
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_victor\"]/text"
-msgstr ""
+msgstr "Призвать Виктора."
 
 #: src-en/data/events_special_storage.xml.append:12089
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_victor\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12090
 msgid ""
@@ -15798,12 +15920,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12099
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_jon\"]/text"
-msgstr ""
+msgstr "Призвать Джона."
 
 #: src-en/data/events_special_storage.xml.append:12101
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_jon\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12102
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Jon\"]/@name"
@@ -15817,12 +15939,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12111
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_daisy\"]/text"
-msgstr ""
+msgstr "Призвать Дейзи."
 
 #: src-en/data/events_special_storage.xml.append:12113
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_daisy\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12114
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Daisy\"]/@name"
@@ -15836,12 +15958,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12123
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_y\"]/text"
-msgstr ""
+msgstr "Призвать У."
 
 #: src-en/data/events_special_storage.xml.append:12125
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_y\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12126
 msgid "data/events_special_storage.xml.append$//crewMember[@name=\"Y\"]/@name"
@@ -15855,12 +15977,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12135
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_purple_beard\"]/text"
-msgstr ""
+msgstr "Призвать Пурпурную Бороду."
 
 #: src-en/data/events_special_storage.xml.append:12137
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_purple_beard\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12138
 msgid ""
@@ -15876,12 +15998,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12147
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_prophet\"]/text"
-msgstr ""
+msgstr "Призвать Истинного Пророка."
 
 #: src-en/data/events_special_storage.xml.append:12149
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_prophet\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12150
 msgid ""
@@ -15896,18 +16018,18 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12159
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_eggman\"]/text"
-msgstr ""
+msgstr "Призвать доктора Яйцеголова."
 
 #: src-en/data/events_special_storage.xml.append:12161
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_WITHER_CREWSER_CREW\"]/choice[@req=\"fr_loc_wither_crew_eggman\"]/event/text"
-msgstr ""
+msgstr "Экипаж призван."
 
 #: src-en/data/events_special_storage.xml.append:12162
 msgid ""
 "data/events_special_storage.xml.append$//crewMember[@name=\"Dr. "
 "Eggman\"]/@name"
-msgstr ""
+msgstr "Доктор Яйцеголов."
 
 #: src-en/data/events_special_storage.xml.append:12165
 msgid ""
@@ -15923,16 +16045,24 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_TIIIKAKA_MEMBERSHIP\"]/text"
 msgstr ""
+"Вы уверены, что хотите это сделать?\n"
+"[Действие приведет к получению членства. Вы получите +10 к репутации "
+"работорговцев и сможете обнаруживать корабли работорговцев в следующем "
+"секторе при прыжке]"
 
 #: src-en/data/events_special_storage.xml.append:12188
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_TIIIKAKA_MEMBERSHIP\"]/choice[1]/text"
-msgstr ""
+msgstr "Зарегистрироваться и получить членскую карточку."
 
 #: src-en/data/events_special_storage.xml.append:12190
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_TIIIKAKA_MEMBERSHIP\"]/choice[1]/event/text"
 msgstr ""
+"Вы заходите на весьма подозрительный, но, как ни странно, безопасный сайт "
+"Тииикака и регистрируетесь в их базе данных. Во всплывающем окне вас "
+"приветствуют в престижном списке клиентов их клана. Вы не знаете, стоит ли "
+"вам этим гордиться."
 
 #: src-en/data/events_special_storage.xml.append:12195
 msgid ""
@@ -15947,7 +16077,7 @@ msgstr "Неважно, заняться чем-то еще."
 #: src-en/data/events_special_storage.xml.append:12210
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_ENCOUNTER_MEMBERSHIP_SLAVER\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "Местонахождение работорговцев Тииикакака."
 
 #: src-en/data/events_special_storage.xml.append:12211
 msgid ""
@@ -15958,21 +16088,55 @@ msgstr "Посещенное место. Ничего интересного."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/text"
 msgstr ""
+"Какие усиления вы хотите получить? Все возможные бонусы перечислены ниже.\n"
+"\n"
+"Дурная слава Нексуса: все виды оружия получают +10 к пробитию щитов.\n"
+"Общая дурная слава: +25% к шансу сопротивления урону, наносимому вашим "
+"системам и корпусу.\n"
+"Дурная слава Союза: ваши члены экипажа клонируются и исцеляются на 100% "
+"быстрее.\n"
+"Дурная слава Гармонии: ваш корабль получает автоматическое управление "
+"системами на 2-м уровне навыков, а также автоматический ремонт.\n"
+"Дурная слава Министерства: ваш корабль получает накопительный энергетический "
+"щит на 10 единиц прочности.\n"
+"Дурная слава Свободных Богомолов: все союзные члены экипажа получают "
+"способность \"Феромоны богомолов\".\n"
+"Дурная слава Изгоев: все союзные члены экипажа получают иммунитет к "
+"опасностям.\n"
+"Дурная слава Империи: каждый раз, когда ваш корабль получает урон, от него "
+"отрываются 2 осколка и летят в сторону врага, пробивая 2 щита.\n"
+"Дурная слава Соцветия: отменяет расход боеприпасов для оружия.\n"
+"Дурная слава Конфедерации: вы будете получать 10 единиц лома при каждом "
+"прыжке (не зависит от кранов на лом и ремонт).\n"
+"Дурная слава Гениократии: весь вражеский экипаж и дроны на борту теряют 10 "
+"ОЗ/с.\n"
+"Дурная слава Убежища Содружества: полный иммунитет к ионному оружию и "
+"увеличение стандартной скорости зарядки щитов на 150%.\n"
+"Дурная слава Аргеонна: время перезарядки между выстрелами оружия сокращается "
+"на 25%.\n"
+"Дурная слава Синдиката: добавляет опцию во время прыжка, которая дает 10 "
+"прыжков задержки флота и полностью отображает карту предстоящего сектора.\n"
+"Дурная слава Тиикака: каждый член экипажа занимает только половину своего "
+"обычного места."
 
 #: src-en/data/events_special_storage.xml.append:12247
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_NEXUS_NOTORIETY\"]/text"
 msgstr ""
+"Бонус Нексуса уже получен!\n"
+"[Все виды оружия получают +10 к пробитию щита]"
 
 #: src-en/data/events_special_storage.xml.append:12252
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_NEXUS_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Нексуса.\n"
+"[Все виды оружия получают +10 к пробитию щита]"
 
 #: src-en/data/events_special_storage.xml.append:12255
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_NEXUS_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12258
 msgid ""
@@ -15983,16 +16147,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_GENERAL_NOTORIETY\"]/text"
 msgstr ""
+"Общий бонус уже получен!\n"
+"[+25% шанса противостоять повреждениям систем и корпуса]"
 
 #: src-en/data/events_special_storage.xml.append:12269
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_GENERAL_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить общий бонус.\n"
+"[+25% шанса противостоять повреждениям систем и корпуса]"
 
 #: src-en/data/events_special_storage.xml.append:12272
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_GENERAL_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12275
 msgid ""
@@ -16003,16 +16171,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_UNION_NOTORIETY\"]/text"
 msgstr ""
+"Бонус Союза уже получен!\n"
+"[Ваш экипаж клонируется и исцеляется на 100% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:12286
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_UNION_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Союза.\n"
+"[Ваш экипаж клонируется и исцеляется на 100% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:12289
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_UNION_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12292
 msgid ""
@@ -16023,16 +16195,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_HARMONY_NOTORIETY\"]/text"
 msgstr ""
+"Бонус Гармонии уже получен!\n"
+"[Ваш корабль получает автоматическое управление системами на 2-м уровне "
+"навыков, а также автоматический ремонт]"
 
 #: src-en/data/events_special_storage.xml.append:12303
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_HARMONY_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Гармонии.\n"
+"[Ваш корабль получает автоматическое управление системами на 2-м уровне "
+"навыков, а также автоматический ремонт]"
 
 #: src-en/data/events_special_storage.xml.append:12306
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_HARMONY_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12309
 msgid ""
@@ -16043,16 +16221,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_MINISTRY_NOTORIETY\"]/text"
 msgstr ""
+"Бонус Министерства уже получен!\n"
+"[Ваш корабль получает накопительный энергетический щит на 10 единиц "
+"прочности]"
 
 #: src-en/data/events_special_storage.xml.append:12320
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_MINISTRY_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Министерства.\n"
+"[Ваш корабль получает накопительный энергетический щит на 10 единиц "
+"прочности]"
 
 #: src-en/data/events_special_storage.xml.append:12323
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_MINISTRY_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12326
 msgid ""
@@ -16063,16 +16247,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_FREE_MANTIS_NOTORIETY\"]/text"
 msgstr ""
+"Бонус Свободных Богомолов уже получен!\n"
+"[Все союзные члены экипажа получают способность \"Феромоны богомолов\"]"
 
 #: src-en/data/events_special_storage.xml.append:12337
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_FREE_MANTIS_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Свободных Богомолов.\n"
+"[Все союзные члены экипажа получают способность \"Феромоны богомолов\"]"
 
 #: src-en/data/events_special_storage.xml.append:12340
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_FREE_MANTIS_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12343
 msgid ""
@@ -16083,16 +16271,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_OUTCAST_NOTORIETY\"]/text"
 msgstr ""
+"Бонус Изгоев уже получен!\n"
+"[Все союзные члены экипажа получают иммунитет к опасностям]"
 
 #: src-en/data/events_special_storage.xml.append:12354
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_OUTCAST_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Изгоев.\n"
+"[Все союзные члены экипажа получают иммунитет к опасностям]"
 
 #: src-en/data/events_special_storage.xml.append:12357
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_OUTCAST_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12360
 msgid ""
@@ -16103,16 +16295,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_IMPERIAL_NOTORIETY\"]/text"
 msgstr ""
+"Бонус Империи уже получен!\n"
+"[Каждый раз, когда ваш корабль получает урон, от него отрываются 2 осколка и "
+"летят в сторону врага, пробивая 2 щита]"
 
 #: src-en/data/events_special_storage.xml.append:12371
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_IMPERIAL_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Империи.\n"
+"[Каждый раз, когда ваш корабль получает урон, от него отрываются 2 осколка и "
+"летят в сторону врага, пробивая 2 щита]"
 
 #: src-en/data/events_special_storage.xml.append:12374
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_IMPERIAL_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12377
 msgid ""
@@ -16123,16 +16321,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_GATHERING_NOTORIETY\"]/text"
 msgstr ""
+"Бонус Соцветия уже получен!\n"
+"[Отменяет расход боеприпасов для оружия]"
 
 #: src-en/data/events_special_storage.xml.append:12388
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_GATHERING_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Соцветия.\n"
+"[Отменяет расход боеприпасов для оружия]"
 
 #: src-en/data/events_special_storage.xml.append:12391
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_GATHERING_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12394
 msgid ""
@@ -16143,16 +16345,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_CONFEDERACY_NOTORIETY\"]/text"
 msgstr ""
+"Бонус Конфедерации уже получен!\n"
+"[Вы будете получать 10 единиц лома при каждом прыжке (не зависит от кранов "
+"на лом и ремонт)]"
 
 #: src-en/data/events_special_storage.xml.append:12405
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_CONFEDERATE_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Конфедерации.\n"
+"[Вы будете получать 10 единиц лома при каждом прыжке (не зависит от кранов "
+"на лом и ремонт)]"
 
 #: src-en/data/events_special_storage.xml.append:12408
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_CONFEDERATE_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12414
 msgid ""
@@ -16163,16 +16371,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_GENIOCRACY_NOTORIETY\"]/text"
 msgstr ""
+"Бонус Гениократии уже получен!\n"
+"[Весь вражеский экипаж и дроны на борту теряют 10 ОЗ/с]"
 
 #: src-en/data/events_special_storage.xml.append:12425
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_GENIOCRACY_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Гениократии.\n"
+"[Весь вражеский экипаж и дроны на борту теряют 10 ОЗ/с]"
 
 #: src-en/data/events_special_storage.xml.append:12428
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_GENIOCRACY_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12431
 msgid ""
@@ -16183,16 +16395,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_COMMONWEALTH_NOTORIETY\"]/text"
 msgstr ""
+"Бонус Убежища Содружества уже получен!\n"
+"[Полный иммунитет к ионному оружию и увеличение стандартной скорости зарядки "
+"щитов на 150%]"
 
 #: src-en/data/events_special_storage.xml.append:12442
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_COMMONWEALTH_NOTORIETY_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Убежища Содружества.\n"
+"[Полный иммунитет к ионному оружию и увеличение стандартной скорости зарядки "
+"щитов на 150%]"
 
 #: src-en/data/events_special_storage.xml.append:12445
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_COMMONWEALTH_NOTORIETY_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12448
 msgid ""
@@ -16203,16 +16421,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_ARGEONN_REPUTATION\"]/text"
 msgstr ""
+"Бонус Арджонна уже получен!\n"
+"[Время перезарядки между выстрелами оружия сокращается на 25%]"
 
 #: src-en/data/events_special_storage.xml.append:12459
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_ARGEONN_REPUTATION_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Арджонна.\n"
+"[Время перезарядки между выстрелами оружия сокращается на 25%]"
 
 #: src-en/data/events_special_storage.xml.append:12462
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_ARGEONN_REPUTATION_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12465
 msgid ""
@@ -16223,16 +16445,22 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_SYNDICATE_REPUTATION\"]/text"
 msgstr ""
+"Бонус Синдиката уже получен!\n"
+"[Добавляет опцию во время прыжка, которая дает 10 прыжков задержки флота и "
+"полностью отображает карту предстоящего сектора]"
 
 #: src-en/data/events_special_storage.xml.append:12476
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_SYNDICATE_REPUTATION_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Синдиката.\n"
+"[Добавляет опцию во время прыжка, которая дает 10 прыжков задержки флота и "
+"полностью отображает карту предстоящего сектора]"
 
 #: src-en/data/events_special_storage.xml.append:12479
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_SYNDICATE_REPUTATION_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12482
 msgid ""
@@ -16243,16 +16471,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_TIIIKAKA_REPUTATION\"]/text"
 msgstr ""
+"Бонус Тииикака уже получен!\n"
+"[Каждый член экипажа занимает только половину своего обычного места]"
 
 #: src-en/data/events_special_storage.xml.append:12493
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_TIIIKAKA_REPUTATION_REQUIREMENT\"]/text"
 msgstr ""
+"Получить бонус Тииикака.\n"
+"[Каждый член экипажа занимает только половину своего обычного места]"
 
 #: src-en/data/events_special_storage.xml.append:12496
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SUPREME_HATRED\"]/choice[@req=\"FR_TIIIKAKA_REPUTATION_REQUIREMENT\"]/event/text"
-msgstr ""
+msgstr "Грехи окупились. Бонус был получен."
 
 #: src-en/data/events_special_storage.xml.append:12499
 msgid ""
@@ -16267,52 +16499,52 @@ msgstr "Неважно, заняться чем-то еще."
 #: src-en/data/events_special_storage.xml.append:12519
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_ECHO_PLATING\"]/text"
-msgstr ""
+msgstr "Чем вы хотите заняться?"
 
 #: src-en/data/events_special_storage.xml.append:12521
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_ECHO_PLATING\"]/choice[@req=\"FR_LIST_CREW_SPIDER_MATURE\"]/text"
-msgstr ""
+msgstr "Скрестить двух гигантских инопланетных пауков."
 
 #: src-en/data/events_special_storage.xml.append:12523
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_ECHO_PLATING\"]/choice[@req=\"FR_LIST_CREW_SPIDER_MATURE\"]/event/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12528
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_ECHO_PLATING\"]/choice[@req=\"FR_ADULT_QUEEN_SPIDER\"]/text"
-msgstr ""
+msgstr "Скрестить взрослого самца и самку гигантского инопланетного паука."
 
 #: src-en/data/events_special_storage.xml.append:12532
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_ECHO_PLATING\"]/choice[@req=\"LIST_CREW_QUEEN\"]/text"
-msgstr ""
+msgstr "Скрестить двух королев гигантских инопланетных пауков."
 
 #: src-en/data/events_special_storage.xml.append:12534
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_ECHO_PLATING\"]/choice[@req=\"LIST_CREW_QUEEN\"]/event/text"
-msgstr ""
+msgstr "Родилась новая королева."
 
 #: src-en/data/events_special_storage.xml.append:12539
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_ECHO_PLATING\"]/choice[@req=\"FR_LIST_CREW_SPIDER_VENOM\"]/text"
-msgstr ""
+msgstr "Скрестить двух королев ядовитых пауков."
 
 #: src-en/data/events_special_storage.xml.append:12541
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_ECHO_PLATING\"]/choice[@req=\"FR_LIST_CREW_SPIDER_VENOM\"]/event/text"
-msgstr ""
+msgstr "Родилась новая королева."
 
 #: src-en/data/events_special_storage.xml.append:12546
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_ECHO_PLATING\"]/choice[@req=\"FR_ADULT_VENOM_SPIDER\"]/text"
-msgstr ""
+msgstr "Скрестить взрослую и ядовитую королеву пауков."
 
 #: src-en/data/events_special_storage.xml.append:12550
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_ECHO_PLATING\"]/choice[@req=\"FR_QUEEN_VENOM_SPIDER\"]/text"
-msgstr ""
+msgstr "Скрестить королеву и ядовитую королеву пауков."
 
 #: src-en/data/events_special_storage.xml.append:12554
 msgid ""
@@ -16322,87 +16554,96 @@ msgstr "Неважно, заняться чем-то еще."
 #: src-en/data/events_special_storage.xml.append:12561
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_QUEEN_RANDOM\"]/event[1]/text"
-msgstr ""
+msgstr "Родилась новая королева."
 
 #: src-en/data/events_special_storage.xml.append:12565
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_QUEEN_RANDOM\"]/event[2]/text"
-msgstr ""
+msgstr "Родилась новая ядовитая королева."
 
 #: src-en/data/events_special_storage.xml.append:12572
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_QUEEN_RANDOM\"]/event[1]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12576
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_QUEEN_RANDOM\"]/event[2]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12580
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_QUEEN_RANDOM\"]/event[3]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12584
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_QUEEN_RANDOM\"]/event[4]/text"
-msgstr ""
+msgstr "Родилась новая королева."
 
 #: src-en/data/events_special_storage.xml.append:12591
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_BASIC_RANDOM\"]/event[1]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12595
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_BASIC_RANDOM\"]/event[2]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12599
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_BASIC_RANDOM\"]/event[3]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12603
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_BASIC_RANDOM\"]/event[4]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12607
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_BASIC_RANDOM\"]/event[5]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12611
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_BASIC_RANDOM\"]/event[6]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12615
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_BASIC_RANDOM\"]/event[7]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12619
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_BASIC_RANDOM\"]/event[8]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12623
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_BASIC_RANDOM\"]/event[9]/text"
-msgstr ""
+msgstr "Родился новый детеныш."
 
 #: src-en/data/events_special_storage.xml.append:12627
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_ECHO_PLATING_VENOM_BASIC_RANDOM\"]/event[10]/text"
-msgstr ""
+msgstr "Родилась новая ядовитая королева."
 
 #: src-en/data/events_special_storage.xml.append:12641
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_RADIOACTIVE_FURY_C\"]/text"
 msgstr ""
+"Вы уверены, что хотите изменить режим? \n"
+"\t\n"
+"\t[ТЕКУЩИЙ РЕЖИМ: ЭКИПАЖ\n"
+"\n"
+"\tВ режиме \"Экипаж\": ваши члены экипажа исцеляются на 200% быстрее, "
+"клонируются на 100% быстрее и обладают иммунитетом к опасностям.\n"
+"\n"
+"\tВ режиме \"Бортовой\": ваше оружие пробивает на 2 слоя щитов больше, а "
+"ваши щиты восстанавливаются на 50% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:12649
 msgid ""
@@ -16412,7 +16653,7 @@ msgstr "Да."
 #: src-en/data/events_special_storage.xml.append:12651
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_RADIOACTIVE_FURY_C\"]/choice[1]/event/text"
-msgstr ""
+msgstr "Вы начинаете переключать режим модуля..."
 
 #: src-en/data/events_special_storage.xml.append:12654
 msgid ""
@@ -16422,7 +16663,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12656
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_RADIOACTIVE_FURY_C\"]/choice[1]/event/choice/event/text"
-msgstr ""
+msgstr "Вы завершили процесс, и ваш модуль теперь снова готов к использованию!"
 
 #: src-en/data/events_special_storage.xml.append:12659
 msgid ""
@@ -16438,6 +16679,15 @@ msgstr "Лучше заняться чем-нибудь другим."
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_RADIOACTIVE_FURY_S\"]/text"
 msgstr ""
+"Вы уверены, что хотите изменить режим? \n"
+"\t\n"
+"\t[ТЕКУЩИЙ РЕЖИМ: БОРТОВОЙ\n"
+"\n"
+"\tВ режиме \"Экипаж\": ваши члены экипажа исцеляются на 200% быстрее, "
+"клонируются на 100% быстрее и обладают иммунитетом к опасностям.\n"
+"\n"
+"\tВ режиме \"Бортовой\": ваше оружие пробивает на 2 слоя щитов больше, а "
+"ваши щиты восстанавливаются на 50% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:12681
 msgid ""
@@ -16447,7 +16697,7 @@ msgstr "Да."
 #: src-en/data/events_special_storage.xml.append:12683
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_RADIOACTIVE_FURY_S\"]/choice[1]/event/text"
-msgstr ""
+msgstr "Вы начинаете переключать режим модуля..."
 
 #: src-en/data/events_special_storage.xml.append:12686
 msgid ""
@@ -16457,7 +16707,7 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:12688
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_RADIOACTIVE_FURY_S\"]/choice[1]/event/choice/event/text"
-msgstr ""
+msgstr "Вы завершили процесс, и ваш модуль теперь снова готов к использованию!"
 
 #: src-en/data/events_special_storage.xml.append:12691
 msgid ""
@@ -16472,29 +16722,34 @@ msgstr "Лучше заняться чем-нибудь другим."
 #: src-en/data/events_special_storage.xml.append:12713
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/text"
-msgstr ""
+msgstr "Из кого из уникальных персонажей вы хотите извлечь душу?"
 
 #: src-en/data/events_special_storage.xml.append:12715
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_HAYNES\"]/text"
 msgstr ""
+"Экипаж поглощен: Хейнс.\n"
+"\t\t[Полученный бонус: Ваш экипаж получает +2.5х к урона в дальнем бою]"
 
 #: src-en/data/events_special_storage.xml.append:12720
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_HAYNES\"]/text"
 msgstr ""
+"Поглотить Хейнса.\n"
+"\t\t[Бонус: Ваш экипаж получает +2.5х к урона в дальнем бою]"
 
 #: src-en/data/events_special_storage.xml.append:12723
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_HAYNES\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12727
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_HAYNES\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12730
 msgid ""
@@ -16505,23 +16760,32 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_TULLY\"]/text"
 msgstr ""
+"Экипаж поглощен: Талли.\n"
+"\t\t[Полученный бонус: Ваш экипаж получает возможность вызвать удар с "
+"дальнего расстояния, в результате которого вражеский корабль подвергается "
+"бомбардировке]"
 
 #: src-en/data/events_special_storage.xml.append:12741
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TULLY\"]/text"
 msgstr ""
+"Поглотить Талли.\n"
+"\t\t[Бонус: Ваш экипаж получает возможность вызвать удар с дальнего "
+"расстояния, в результате которого вражеский корабль подвергается "
+"бомбардировке]"
 
 #: src-en/data/events_special_storage.xml.append:12744
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TULLY\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12748
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TULLY\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12751
 msgid ""
@@ -16532,23 +16796,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_ELLIE\"]/text"
 msgstr ""
+"Экипаж поглощен: Элли.\n"
+"\t\t[Полученный бонус: Ваш экипаж мгновенно взламывает двери]"
 
 #: src-en/data/events_special_storage.xml.append:12762
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ELLIE\"]/text"
 msgstr ""
+"Поглотить Элли.\n"
+"\t\t[Бонус: Ваш экипаж мгновенно взламывает двери]"
 
 #: src-en/data/events_special_storage.xml.append:12765
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ELLIE\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12769
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ELLIE\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12772
 msgid ""
@@ -16559,23 +16828,30 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEPHAN\"]/text"
 msgstr ""
+"Экипаж поглощен: Стефан.\n"
+"\t\t[Полученный бонус: Ваш экипаж наносит 2х урона в бою, а также исцеление "
+"на собственном корабле]"
 
 #: src-en/data/events_special_storage.xml.append:12783
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_STEPHAN\"]/text"
 msgstr ""
+"Поглотить Стефана.\n"
+"\t\t[Бонус: Ваш экипаж наносит 2х урона в бою, а также исцеление на "
+"собственном корабле]"
 
 #: src-en/data/events_special_storage.xml.append:12786
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_STEPHAN\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12790
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_STEPHAN\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12793
 msgid ""
@@ -16586,23 +16862,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_JERRY\"]/text"
 msgstr ""
+"Экипаж поглощен: Джерри.\n"
+"\t\t[Полученный бонус: Ваш экипаж получает +100 к макс. здоровью]"
 
 #: src-en/data/events_special_storage.xml.append:12804
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_JERRY\"]/text"
 msgstr ""
+"Поглотить Джерри.\n"
+"\t\t[Бонус: Ваш экипаж получает +100 к макс. здоровью]"
 
 #: src-en/data/events_special_storage.xml.append:12807
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_JERRY\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12811
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_JERRY\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12814
 msgid ""
@@ -16613,23 +16894,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_ANURAK\"]/text"
 msgstr ""
+"Экипаж поглощен: Анурак.\n"
+"\t\t[Полученный бонус: Экипаж противника теряет всю устойчивость к оглушению]"
 
 #: src-en/data/events_special_storage.xml.append:12825
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ANURAK\"]/text"
 msgstr ""
+"Поглотить Анурака.\n"
+"\t\t[Бонус: Экипаж противника теряет всю устойчивость к оглушению]"
 
 #: src-en/data/events_special_storage.xml.append:12828
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ANURAK\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12832
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ANURAK\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12835
 msgid ""
@@ -16640,23 +16926,29 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_DEVORAK\"]/text"
 msgstr ""
+"Экипаж поглощен: Деворак.\n"
+"\t\t[Полученный бонус: Ваш экипаж может телепортироваться из любой точки "
+"любого корабля]"
 
 #: src-en/data/events_special_storage.xml.append:12846
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_DEVORAK\"]/text"
 msgstr ""
+"Поглотить Деворака.\n"
+"\t\t[Бонус: Ваш экипаж может телепортироваться из любой точки любого корабля]"
 
 #: src-en/data/events_special_storage.xml.append:12849
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_DEVORAK\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12853
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_DEVORAK\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12856
 msgid ""
@@ -16667,23 +16959,30 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_MAFAN\"]/text"
 msgstr ""
+"Экипаж поглощен: Мафан.\n"
+"\t\t[Полученный бонус: После смерти ваш экипаж наносит дополнительные 45 "
+"урона экипажу противника и 2 единицы ионного урона]"
 
 #: src-en/data/events_special_storage.xml.append:12867
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_MAFAN\"]/text"
 msgstr ""
+"Поглотить Мафана.\n"
+"\t\t[Бонус: После смерти ваш экипаж наносит дополнительные 45 урона экипажу "
+"противника и 2 единицы ионного урона]"
 
 #: src-en/data/events_special_storage.xml.append:12870
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_MAFAN\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12874
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_MAFAN\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12877
 msgid ""
@@ -16694,23 +16993,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_TURZIL\"]/text"
 msgstr ""
+"Экипаж поглощен: Турзил.\n"
+"\t\t[Полученный бонус: Ваш экипаж выполняет ремонт на 50% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:12888
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TURZIL\"]/text"
 msgstr ""
+"Поглотить Турзила.\n"
+"\t\t[Бонус: Ваш экипаж выполняет ремонт на 50% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:12891
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TURZIL\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12895
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TURZIL\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12898
 msgid ""
@@ -16721,23 +17025,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_ARIADNE\"]/text"
 msgstr ""
+"Экипаж поглощен: Ариадна.\n"
+"\t\t[Полученный бонус: Снимает иммунитет вражеского экипажа к огню]"
 
 #: src-en/data/events_special_storage.xml.append:12909
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ARIADNE\"]/text"
 msgstr ""
+"Поглотить Ариадну.\n"
+"\t\t[Бонус: Снимает иммунитет вражеского экипажа к огню]"
 
 #: src-en/data/events_special_storage.xml.append:12912
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ARIADNE\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12916
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ARIADNE\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12919
 msgid ""
@@ -16748,23 +17057,29 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_TUCO\"]/text"
 msgstr ""
+"Экипаж поглощен: Туко.\n"
+"\t\t[Полученный бонус: Ваш экипаж на 20% увеличивает урон в бою и скорость "
+"ремонта]"
 
 #: src-en/data/events_special_storage.xml.append:12930
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TUCO\"]/text"
 msgstr ""
+"Поглотить Туко.\n"
+"\t\t[Бонус: Ваш экипаж на 20% увеличивает урон в бою и скорость ремонта]"
 
 #: src-en/data/events_special_storage.xml.append:12933
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TUCO\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12937
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TUCO\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12940
 msgid ""
@@ -16775,23 +17090,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_VORTIGON\"]/text"
 msgstr ""
+"Экипаж поглощен: Вортигон.\n"
+"\t\t[Полученный бонус: Ваш экипаж постепенно исцеляется в огне]"
 
 #: src-en/data/events_special_storage.xml.append:12951
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_VORTIGON\"]/text"
 msgstr ""
+"Поглотить Вортигона.\n"
+"\t\t[Бонус: Ваш экипаж постепенно исцеляется в огне]"
 
 #: src-en/data/events_special_storage.xml.append:12954
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_VORTIGON\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12958
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_VORTIGON\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12961
 msgid ""
@@ -16802,24 +17122,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_SYMBIOTE\"]/text"
 msgstr ""
+"Экипаж поглощен: Симбиот.\n"
+"\t\t[Полученный бонус: Ваш экипаж дает 1 энергии системе в которой находится]"
 
 #: src-en/data/events_special_storage.xml.append:12972
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SYMBIOTE\"]/text"
 msgstr ""
+"Поглотить Симбиота.\n"
+"\t\t[Бонус: Ваш экипаж дает 1 энергии системе в которой находится]"
 
 #: src-en/data/events_special_storage.xml.append:12975
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SYMBIOTE\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:12979
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SYMBIOTE\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:12982
 msgid ""
@@ -16830,23 +17154,34 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_RUWEN\"]/text"
 msgstr ""
+"Экипаж поглощен: Рувен.\n"
+"\t\t[Полученный бонус: Ваш экипаж получает следующую активную способность: "
+"запирает отсек, получает сопротивляемость и регенерацию. Союзные/вражеские "
+"члены экипажа, находящиеся в помещении, получают/теряют возможность "
+"игнорировать запертые отсеки и двери]"
 
 #: src-en/data/events_special_storage.xml.append:12993
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_RUWEN\"]/text"
 msgstr ""
+"Поглотить Рувена.\n"
+"\t\t[Бонус: Ваш экипаж получает следующую активную способность: запирает "
+"отсек, получает сопротивляемость и регенерацию. Союзные/вражеские члены "
+"экипажа, находящиеся в помещении, получают/теряют возможность игнорировать "
+"запертые отсеки и двери]"
 
 #: src-en/data/events_special_storage.xml.append:12996
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_RUWEN\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13000
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_RUWEN\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13003
 msgid ""
@@ -16857,23 +17192,30 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_DIANESH\"]/text"
 msgstr ""
+"Экипаж поглощен: Дианеш.\n"
+"\t\t[Полученный бонус: Союзные кристаллины в экипаже восстанавливают по два "
+"заряда способностей за каждый прыжок]"
 
 #: src-en/data/events_special_storage.xml.append:13014
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_DIANESH\"]/text"
 msgstr ""
+"Поглотить Дианеш.\n"
+"\t\t[Бонус: Союзные кристаллины в экипаже восстанавливают по два заряда "
+"способностей за каждый прыжок]"
 
 #: src-en/data/events_special_storage.xml.append:13017
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_DIANESH\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13021
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_DIANESH\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13024
 msgid ""
@@ -16884,23 +17226,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_KAZ\"]/text"
 msgstr ""
+"Экипаж поглощен: Казааакплеткилик.\n"
+"\t\t[Полученный бонус: Ваш экипаж наносит в 2.5х урона в бою с экипажем]"
 
 #: src-en/data/events_special_storage.xml.append:13035
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_KAZ\"]/text"
 msgstr ""
+"Поглотить Казааакплеткилика.\n"
+"\t\t[Бонус: Ваш экипаж наносит в 2.5х урона в бою с экипажем]"
 
 #: src-en/data/events_special_storage.xml.append:13038
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_KAZ\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13042
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_KAZ\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13045
 msgid ""
@@ -16911,23 +17258,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_FREDDY\"]/text"
 msgstr ""
+"Экипаж поглощен: Фредди.\n"
+"\t\t[Полученный бонус: Ваш экипаж получает 0.7х урона в бою против экипажа]"
 
 #: src-en/data/events_special_storage.xml.append:13056
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_FREDDY\"]/text"
 msgstr ""
+"Поглотить Фредди.\n"
+"\t\t[Бонус: Ваш экипаж получает 0.7х урона в бою против экипажа]"
 
 #: src-en/data/events_special_storage.xml.append:13059
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_FREDDY\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13063
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_FREDDY\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13066
 msgid ""
@@ -16938,23 +17290,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_NIGHTS\"]/text"
 msgstr ""
+"Экипаж поглощен: Туман.\n"
+"\t\t[Полученный бонус: Ваш экипаж саботирует системы в три раза быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:13077
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_NIGHTS\"]/text"
 msgstr ""
+"Поглотить Тумана.\n"
+"\t\t[Бонус: Ваш экипаж саботирует системы в три раза быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:13080
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_NIGHTS\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13084
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_NIGHTS\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13087
 msgid ""
@@ -16965,23 +17322,30 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_SLOCKNOG\"]/text"
 msgstr ""
+"Экипаж поглощен: Слокног.\n"
+"\t\t[Полученный бонус: Ваш экипаж пассивно восстанавливает здоровье "
+"находящихся поблизости союзников со скоростью 2 ОЗ/с]"
 
 #: src-en/data/events_special_storage.xml.append:13098
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SLOCKNOG\"]/text"
 msgstr ""
+"Поглотить Слокног.\n"
+"\t\t[Бонус: Ваш экипаж пассивно восстанавливает здоровье находящихся "
+"поблизости союзников со скоростью 2 ОЗ/с]"
 
 #: src-en/data/events_special_storage.xml.append:13101
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SLOCKNOG\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13105
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SLOCKNOG\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13108
 msgid ""
@@ -16992,23 +17356,30 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_SYLVAN\"]/text"
 msgstr ""
+"Экипаж поглощен: Сильван.\n"
+"\t\t[Полученный бонус: Ваш экипаж получает следующую активную способность: "
+"одновременно применяет пробойную, запирающую и ионную бомбу]"
 
 #: src-en/data/events_special_storage.xml.append:13119
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SYLVAN\"]/text"
 msgstr ""
+"Поглотить Сильвана.\n"
+"\t\t[Бонус: Ваш экипаж получает следующую активную способность: одновременно "
+"применяет пробойную, запирающую и ионную бомбу]"
 
 #: src-en/data/events_special_storage.xml.append:13122
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SYLVAN\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13126
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SYLVAN\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13129
 msgid ""
@@ -17019,23 +17390,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_IRWIN\"]/text"
 msgstr ""
+"Экипаж поглощен: Ирвин.\n"
+"\t\t[Полученный бонус: Ваш экипаж становится невосприимчивым к безумию]"
 
 #: src-en/data/events_special_storage.xml.append:13140
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_IRWIN\"]/text"
 msgstr ""
+"Поглотить Ирвина.\n"
+"\t\t[Бонус: Ваш экипаж становится невосприимчивым к безумию]"
 
 #: src-en/data/events_special_storage.xml.append:13143
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_IRWIN\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13147
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_IRWIN\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13150
 msgid ""
@@ -17046,23 +17422,30 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_BILLY\"]/text"
 msgstr ""
+"Экипаж поглощен: Билли.\n"
+"\t\t[Полученный бонус: Ваш экипаж обретает телепатические способности и "
+"иммунитет к контролю разума]"
 
 #: src-en/data/events_special_storage.xml.append:13161
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_BILLY\"]/text"
 msgstr ""
+"Поглотить Билли.\n"
+"\t\t[Бонус: Ваш экипаж обретает телепатические способности и иммунитет к "
+"контролю разума]"
 
 #: src-en/data/events_special_storage.xml.append:13164
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_BILLY\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13168
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_BILLY\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13171
 msgid ""
@@ -17073,23 +17456,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_EATER\"]/text"
 msgstr ""
+"Экипаж поглощен: Пожиратель маяков.\n"
+"\t\t[Полученный бонус: Ваш экипаж получает иммунитет к удушению]"
 
 #: src-en/data/events_special_storage.xml.append:13182
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_EATER\"]/text"
 msgstr ""
+"Поглотить Пожирателя маяков.\n"
+"\t\t[Бонус: Ваш экипаж получает иммунитет к удушению]"
 
 #: src-en/data/events_special_storage.xml.append:13185
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_EATER\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13189
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_EATER\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13192
 msgid ""
@@ -17100,23 +17488,34 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_ANOINTED\"]/text"
 msgstr ""
+"Экипаж поглощен: Помазанница.\n"
+"\t\t[Полученный бонус: Ваш экипаж получает следующую активную способность: "
+"ассимилирует часть корпуса корабля, нанося ему урон, но временно получая "
+"значительно усиленные способности. При применении способности здоровье "
+"полностью восстанавливается]"
 
 #: src-en/data/events_special_storage.xml.append:13203
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ANOINTED\"]/text"
 msgstr ""
+"Поглотить Помазанницу.\n"
+"\t\t[Бонус: Ваш экипаж получает следующую активную способность: ассимилирует "
+"часть корпуса корабля, нанося ему урон, но временно получая значительно "
+"усиленные способности. При применении способности здоровье полностью "
+"восстанавливается]"
 
 #: src-en/data/events_special_storage.xml.append:13206
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ANOINTED\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13210
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ANOINTED\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13213
 msgid ""
@@ -17127,23 +17526,29 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_DESSIUS\"]/text"
 msgstr ""
+"Экипаж поглощен: Дессиус.\n"
+"\t\t[Полученный бонус: Ваш экипаж обретает способность проходить сквозь "
+"двери]"
 
 #: src-en/data/events_special_storage.xml.append:13224
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_DESSIUS\"]/text"
 msgstr ""
+"Поглотить Дессиуса.\n"
+"\t\t[Бонус: Ваш экипаж обретает способность проходить сквозь двери]"
 
 #: src-en/data/events_special_storage.xml.append:13227
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_DESSIUS\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13231
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_DESSIUS\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13234
 msgid ""
@@ -17154,23 +17559,30 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_MAYEB\"]/text"
 msgstr ""
+"Экипаж поглощен: Майев.\n"
+"\t\t[Полученный бонус: Когда здоровье вашего экипажа опустится ниже 30, он "
+"будет мгновенно исцелен. Время перезарядки - 45 секунд]"
 
 #: src-en/data/events_special_storage.xml.append:13245
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_MAYEB\"]/text"
 msgstr ""
+"Поглотить Майев.\n"
+"\t\t[Бонус: Когда здоровье вашего экипажа опустится ниже 30, он будет "
+"мгновенно исцелен. Время перезарядки - 45 секунд]"
 
 #: src-en/data/events_special_storage.xml.append:13248
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_MAYEB\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13252
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_MAYEB\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13255
 msgid ""
@@ -17181,23 +17593,32 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_TYEREL\"]/text"
 msgstr ""
+"Экипаж поглощен: Тай Э'Рел.\n"
+"\t\t[Полученный бонус: Союзный экипаж получает +20% максимального здоровья, "
+"скорости ремонта и скорости восстановления здоровья. Вражеский экипаж теряет "
+"15% своего максимального здоровья и передвигается на 25% медленнее]"
 
 #: src-en/data/events_special_storage.xml.append:13266
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TYEREL\"]/text"
 msgstr ""
+"Поглотить Тай Э'Рела.\n"
+"\t\t[Бонус: Союзный экипаж получает +20% максимального здоровья, скорости "
+"ремонта и скорости восстановления здоровья. Вражеский экипаж теряет 15% "
+"своего максимального здоровья и передвигается на 25% медленнее]"
 
 #: src-en/data/events_special_storage.xml.append:13269
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TYEREL\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13273
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TYEREL\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13276
 msgid ""
@@ -17208,23 +17629,30 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_IVAR\"]/text"
 msgstr ""
+"Экипаж поглощен: Ивар.\n"
+"\t\t[Полученный бонус: В бою с экипажем противника каждый член вашего "
+"экипажа увеличивает урон, наносимый вражескому экипажу, на 10%]"
 
 #: src-en/data/events_special_storage.xml.append:13287
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_IVAR\"]/text"
 msgstr ""
+"Поглотить Ивара.\n"
+"\t\t[Бонус: В бою с экипажем противника каждый член вашего экипажа "
+"увеличивает урон, наносимый вражескому экипажу, на 10%]"
 
 #: src-en/data/events_special_storage.xml.append:13290
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_IVAR\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13294
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_IVAR\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13297
 msgid ""
@@ -17235,23 +17663,29 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_ALKALI\"]/text"
 msgstr ""
+"Экипаж поглощен: Алькали.\n"
+"\t\t[Полученный бонус: Способности вашего экипажа восстанавливаются на 50% "
+"быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:13308
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ALKALI\"]/text"
 msgstr ""
+"Поглотить Алькали.\n"
+"\t\t[Бонус: Способности вашего экипажа восстанавливаются на 50% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:13311
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ALKALI\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13315
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ALKALI\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13318
 msgid ""
@@ -17262,23 +17696,29 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_TYRDEO\"]/text"
 msgstr ""
+"Экипаж поглощен: Тирдео.\n"
+"\t\t[Полученный бонус: Ваш экипаж поглощает 1 единицу энергии у вражеских "
+"систем]"
 
 #: src-en/data/events_special_storage.xml.append:13329
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TYRDEO\"]/text"
 msgstr ""
+"Поглотить Тирдео.\n"
+"\t\t[Бонус: Ваш экипаж поглощает 1 единицу энергии у вражеских систем]"
 
 #: src-en/data/events_special_storage.xml.append:13332
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TYRDEO\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13336
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TYRDEO\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13339
 msgid ""
@@ -17289,23 +17729,30 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_ALKRAM\"]/text"
 msgstr ""
+"Экипаж поглощен: Алькрам.\n"
+"\t\t[Полученный бонус: Если ваш экипаж не получает урона в течение 5 секунд, "
+"он восстанавливает 6.4 ОЗ/с]"
 
 #: src-en/data/events_special_storage.xml.append:13350
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ALKRAM\"]/text"
 msgstr ""
+"Поглотить Алькрама.\n"
+"\t\t[Бонус: Если ваш экипаж не получает урона в течение 5 секунд, он "
+"восстанавливает 6.4 ОЗ/с]"
 
 #: src-en/data/events_special_storage.xml.append:13353
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ALKRAM\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13357
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_ALKRAM\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13360
 msgid ""
@@ -17316,23 +17763,30 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_TONYSR\"]/text"
 msgstr ""
+"Экипаж поглощен: Тони Ст.\n"
+"\t\t[Полученный бонус: Ваш экипаж уменьшает запас здоровья вражеских дронов, "
+"механических и энергетических юнитов]"
 
 #: src-en/data/events_special_storage.xml.append:13371
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TONYSR\"]/text"
 msgstr ""
+"Поглотить Тони Ст.\n"
+"\t\t[Бонус: Ваш экипаж уменьшает запас здоровья вражеских дронов, "
+"механических и энергетических юнитов]"
 
 #: src-en/data/events_special_storage.xml.append:13374
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TONYSR\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13378
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_TONYSR\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13381
 msgid ""
@@ -17343,23 +17797,30 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_OBYN\"]/text"
 msgstr ""
+"Экипаж поглощен: Обин.\n"
+"\t\t[Полученный бонус: Снижает скорость восстановления здоровья всего "
+"вражеского экипажа до 0x]"
 
 #: src-en/data/events_special_storage.xml.append:13392
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_OBYN\"]/text"
 msgstr ""
+"Поглотить Обина.\n"
+"\t\t[Бонус: Снижает скорость восстановления здоровья всего вражеского "
+"экипажа до 0x]"
 
 #: src-en/data/events_special_storage.xml.append:13395
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_OBYN\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13399
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_OBYN\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13402
 msgid ""
@@ -17370,23 +17831,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_SPIDER\"]/text"
 msgstr ""
+"Экипаж поглощен: Королева пауков.\n"
+"\t\t[Полученный бонус: Позволяет управлять всеми союзными членами экипажа]"
 
 #: src-en/data/events_special_storage.xml.append:13413
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SPIDER\"]/text"
 msgstr ""
+"Поглотить Королеву пауков.\n"
+"\t\t[Бонус: Позволяет управлять всеми союзными членами экипажа]"
 
 #: src-en/data/events_special_storage.xml.append:13416
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SPIDER\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13420
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SPIDER\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13423
 msgid ""
@@ -17397,23 +17863,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_GUNTPUT\"]/text"
 msgstr ""
+"Экипаж поглощен: Гантпут.\n"
+"\t\t[Полученный бонус: Ваш экипаж передвигается на 40% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:13434
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_GUNTPUT\"]/text"
 msgstr ""
+"Поглотить Гантпута.\n"
+"\t\t[Бонус: Ваш экипаж передвигается на 40% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:13437
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_GUNTPUT\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13441
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_GUNTPUT\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13444
 msgid ""
@@ -17424,23 +17895,29 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_METYUNT\"]/text"
 msgstr ""
+"Экипаж поглощен: Метьюнт.\n"
+"\t\t[Полученный бонус: Союзный экипаж получает 50% сопротивления урону от "
+"огня]"
 
 #: src-en/data/events_special_storage.xml.append:13455
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_METYUNT\"]/text"
 msgstr ""
+"Поглотить Метьюнта.\n"
+"\t\t[Бонус: Союзный экипаж получает 50% сопротивления урону от огня]"
 
 #: src-en/data/events_special_storage.xml.append:13458
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_METYUNT\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13462
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_METYUNT\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13465
 msgid ""
@@ -17451,23 +17928,32 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_VANCE\"]/text"
 msgstr ""
+"Экипаж поглощен: Вэнс Первый.\n"
+"\t\t[Полученный бонус: Находясь на вражеском корабле, ваш экипаж "
+"автоматически взламывает двери отсека, в котором находится, а находясь на "
+"вашем корабле - снимает взлом с дверей]"
 
 #: src-en/data/events_special_storage.xml.append:13476
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_VANCE\"]/text"
 msgstr ""
+"Поглотить Вэнса Первого.\n"
+"\t\t[Бонус: Находясь на вражеском корабле, ваш экипаж автоматически "
+"взламывает двери отсека, в котором находится, а находясь на вашем корабле - "
+"снимает взлом с дверей]"
 
 #: src-en/data/events_special_storage.xml.append:13479
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_VANCE\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13483
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_VANCE\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13486
 msgid ""
@@ -17478,23 +17964,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_LEAH\"]/text"
 msgstr ""
+"Экипаж поглощен: Лия.\n"
+"\t\t[Полученный бонус: Ваш экипаж клонируется на 200% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:13497
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_LEAH\"]/text"
 msgstr ""
+"Поглотить Лию.\n"
+"\t\t[Бонус: Ваш экипаж клонируется на 200% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:13500
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_LEAH\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13504
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_LEAH\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13507
 msgid ""
@@ -17505,23 +17996,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_SAMMY\"]/text"
 msgstr ""
+"Экипаж поглощен: Пейден.\n"
+"\t\t[Полученный бонус: Снижает урон, наносимый вражеским экипажем на 50%]"
 
 #: src-en/data/events_special_storage.xml.append:13518
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SAMMY\"]/text"
 msgstr ""
+"Поглотить Пейдена.\n"
+"\t\t[Бонус: Снижает урон, наносимый вражеским экипажем на 50%]"
 
 #: src-en/data/events_special_storage.xml.append:13521
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SAMMY\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13525
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_SAMMY\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13528
 msgid ""
@@ -17532,23 +18028,32 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_JON\"]/text"
 msgstr ""
+"Экипаж поглощен: Джон.\n"
+"\t\t[Полученный бонус: Дроны союзников получают дополнительный бонус +50% к "
+"боевым характеристикам или ремонту, если находятся в отсеках Двигателей, "
+"Рулевой рубки, Щитов, Оружия или блока Контроля дронов]"
 
 #: src-en/data/events_special_storage.xml.append:13539
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_JON\"]/text"
 msgstr ""
+"Поглотить Джона.\n"
+"\t\t[Бонус: Дроны союзников получают дополнительный бонус +50% к боевым "
+"характеристикам или ремонту, если находятся в отсеках Двигателей, Рулевой "
+"рубки, Щитов, Оружия или блока Контроля дронов]"
 
 #: src-en/data/events_special_storage.xml.append:13542
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_JON\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13546
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_JON\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13549
 msgid ""
@@ -17559,23 +18064,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_CYRA\"]/text"
 msgstr ""
+"Экипаж поглощен: Сайра.\n"
+"\t\t[Полученный бонус: Экипаж союзников передвигается в два раза быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:13560
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_CYRA\"]/text"
 msgstr ""
+"Поглотить Сайру.\n"
+"\t\t[Бонус: Экипаж союзников передвигается в два раза быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:13563
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_CYRA\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13567
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_CYRA\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13570
 msgid ""
@@ -17586,23 +18096,28 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_MANTIS_QUEEN\"]/text"
 msgstr ""
+"Экипаж поглощен: Лейконплииинакра.\n"
+"\t\t[Полученный бонус: Вражеские богомолы Улья не способны сражаться]"
 
 #: src-en/data/events_special_storage.xml.append:13581
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_MANTIS_QUEEN\"]/text"
 msgstr ""
+"Поглотить Лейконплииинакру.\n"
+"\t\t[Бонус: Вражеские богомолы Улья не способны сражаться]"
 
 #: src-en/data/events_special_storage.xml.append:13584
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_MANTIS_QUEEN\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13588
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_MANTIS_QUEEN\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13591
 msgid ""
@@ -17613,23 +18128,36 @@ msgstr "Сделано."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_BEARD\"]/text"
 msgstr ""
+"Экипаж поглощен: Пурпурная Борода.\n"
+"\t\t[Полученный бонус: Ваши члены экипажа получает следующую активную "
+"способность: размещают в помещении стимулирующую бомбу, которая на 10 секунд "
+"увеличивает скорость передвижения, урон в бою, урон при саботаже и скорость "
+"ремонта на 20% для него самого и всех союзников, находящихся в том же "
+"помещении. Эффект не суммируется]"
 
 #: src-en/data/events_special_storage.xml.append:13602
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_BEARD\"]/text"
 msgstr ""
+"Поглотить Пурпурную Бороду.\n"
+"\t\t[Бонус: Ваши члены экипажа получает следующую активную способность: "
+"размещают в помещении стимулирующую бомбу, которая на 10 секунд увеличивает "
+"скорость передвижения, урон в бою, урон при саботаже и скорость ремонта на "
+"20% для него самого и всех союзников, находящихся в том же помещении. Эффект "
+"не суммируется]"
 
 #: src-en/data/events_special_storage.xml.append:13605
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_BEARD\"]/event/text"
 msgstr ""
+"Процесс завершается в считанные секунды. Остается только надеяться, что он "
+"был безболезненным."
 
 #: src-en/data/events_special_storage.xml.append:13609
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_AUG_FR_SOUL_STEALER\"]/choice[@req=\"FR_SOUL_STEALER_BEARD\"]/event/removeCrew/text"
 msgstr ""
-"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил и его "
-"душу."
+"Вашего члена экипажа нельзя клонировать, поскольку корабль поглотил его душу."
 
 #: src-en/data/events_special_storage.xml.append:13612
 msgid ""
@@ -17644,79 +18172,81 @@ msgstr "Неважно, заняться чем-то еще."
 #: src-en/data/events_special_storage.xml.append:13632
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/text"
-msgstr ""
+msgstr "Что вы хотите украсть?"
 
 #: src-en/data/events_special_storage.xml.append:13634
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasWeapons\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "Оружие"
 
 #: src-en/data/events_special_storage.xml.append:13636
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasWeapons\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "В вашем грузовом отсеке внезапно появляется вражеское оружие."
 
 #: src-en/data/events_special_storage.xml.append:13639
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasWeapons\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr ""
+msgstr "Время сражаться!"
 
 #: src-en/data/events_special_storage.xml.append:13645
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasWeapons\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "У врага нет оружия."
 
 #: src-en/data/events_special_storage.xml.append:13649
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasDrones\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "Дрон."
 
 #: src-en/data/events_special_storage.xml.append:13651
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasDrones\""
 " and @lvl=\"1\"]/event/text"
-msgstr ""
+msgstr "В вашем грузовом отсеке внезапно появляется вражеский дрон."
 
 #: src-en/data/events_special_storage.xml.append:13654
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasDrones\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr ""
+msgstr "Время сражаться!"
 
 #: src-en/data/events_special_storage.xml.append:13660
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasDrones\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "У врага нет дронов."
 
 #: src-en/data/events_special_storage.xml.append:13664
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasCrew\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "Экипаж."
 
 #: src-en/data/events_special_storage.xml.append:13666
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasCrew\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
+"Экипаж противника внезапно появляется на вашем корабле, готовый сражаться на "
+"вашей стороне."
 
 #: src-en/data/events_special_storage.xml.append:13669
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasCrew\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr ""
+msgstr "Время сражаться!"
 
 #: src-en/data/events_special_storage.xml.append:13675
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/event[@name=\"FR_COMBAT_CHECK_THE_ORACLE\"]/choice[@req=\"fr_enemyHasCrew\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "У врага нет экипажа."
 
 #: src-en/data/events_special_storage.xml.append:13679
 msgid ""
@@ -17745,6 +18275,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//triggeredEvent[@name=\"FR_EDUTAINMENT_TRIGGER\"]/triggeredEventBox/tooltip"
 msgstr ""
+"Ваш вопрос по математике появится после окончания этого обратного отсчета."
 
 #: src-en/data/events_special_storage.xml.append:13709
 msgid ""
@@ -17755,14 +18286,16 @@ msgstr "Нет... лучше заняться чем-нибудь другим."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_WRONG\"]/text"
 msgstr ""
+"Извини, Ренегат, но, похоже, ты неверно понял вопрос. Плохих учеников нужно "
+"наказывать."
 
 #: src-en/data/events_special_storage.xml.append:13744
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_CORRECT\"]/text"
 msgstr ""
+"Отличные математические способности, Ренегат! А теперь - твоя награда..."
 
 #: src-en/data/events_special_storage.xml.append:13746
-#, fuzzy
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_CORRECT\"]/choice/text"
 msgstr "Продолжить..."
@@ -17770,519 +18303,587 @@ msgstr "Продолжить..."
 #: src-en/data/events_special_storage.xml.append:13771
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_FIRE\"]/text"
-msgstr ""
+msgstr "Вражеский корабль загорелся!"
 
 #: src-en/data/events_special_storage.xml.append:13776
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_BREACH\"]/text"
-msgstr ""
+msgstr "Вражеский корабль теперь весь в дырках!"
 
 #: src-en/data/events_special_storage.xml.append:13781
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_SYSTEM_DAMAGE\"]/text"
-msgstr ""
+msgstr "Системы вражеского корабля повреждены!"
 
 #: src-en/data/events_special_storage.xml.append:13788
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_HEAL\"]/text"
-msgstr ""
+msgstr "Ваш корабль снова в идеальном состоянии!"
 
 #: src-en/data/events_special_storage.xml.append:13793
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_SCRAP\"]/text"
-msgstr ""
+msgstr "За такой замечательный ответ вы получили дополнительные баллы!"
 
 #: src-en/data/events_special_storage.xml.append:13800
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_MISSILE\"]/text"
-msgstr ""
+msgstr "Ваш арсенал пополнен!"
 
 #: src-en/data/events_special_storage.xml.append:13807
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_DRONE\"]/text"
-msgstr ""
+msgstr "Ваши дрон-комплекты поступили!"
 
 #: src-en/data/events_special_storage.xml.append:13814
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_REWARD_FUEL\"]/text"
-msgstr ""
+msgstr "Ваши запасы топлива пополнены!"
 
 #: src-en/data/events_special_storage.xml.append:13821
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_1\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет 6-3?\""
 
 #: src-en/data/events_special_storage.xml.append:13823
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_1\"]/choice[1]/text"
-msgstr ""
+msgstr "9"
 
 #: src-en/data/events_special_storage.xml.append:13827
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_1\"]/choice[2]/text"
-msgstr ""
+msgstr "3"
 
 #: src-en/data/events_special_storage.xml.append:13831
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_1\"]/choice[3]/text"
-msgstr ""
+msgstr "2"
 
 #: src-en/data/events_special_storage.xml.append:13836
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_2\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет 3+4+7?\""
 
 #: src-en/data/events_special_storage.xml.append:13838
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_2\"]/choice[1]/text"
-msgstr ""
+msgstr "15"
 
 #: src-en/data/events_special_storage.xml.append:13842
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_2\"]/choice[2]/text"
-msgstr ""
+msgstr "18"
 
 #: src-en/data/events_special_storage.xml.append:13846
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_2\"]/choice[3]/text"
-msgstr ""
+msgstr "14"
 
 #: src-en/data/events_special_storage.xml.append:13851
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_3\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Каков "
+"квадратный корень из 16?\""
 
 #: src-en/data/events_special_storage.xml.append:13853
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_3\"]/choice[1]/text"
-msgstr ""
+msgstr "4"
 
 #: src-en/data/events_special_storage.xml.append:13857
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_3\"]/choice[2]/text"
-msgstr ""
+msgstr "32"
 
 #: src-en/data/events_special_storage.xml.append:13861
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_3\"]/choice[3]/text"
-msgstr ""
+msgstr "2.51"
 
 #: src-en/data/events_special_storage.xml.append:13866
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_4\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять.\"С-с-с-следующая задача! Каково "
+"значение \"n\" в выражении n+5=3?\""
 
 #: src-en/data/events_special_storage.xml.append:13868
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_4\"]/choice[1]/text"
-msgstr ""
+msgstr "2"
 
 #: src-en/data/events_special_storage.xml.append:13872
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_4\"]/choice[2]/text"
-msgstr ""
+msgstr "-3"
 
 #: src-en/data/events_special_storage.xml.append:13876
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_4\"]/choice[3]/text"
-msgstr ""
+msgstr "-2"
 
 #: src-en/data/events_special_storage.xml.append:13881
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_5\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет (1+1+1)+(1x0)?\""
 
 #: src-en/data/events_special_storage.xml.append:13883
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_5\"]/choice[1]/text"
-msgstr ""
+msgstr "4"
 
 #: src-en/data/events_special_storage.xml.append:13887
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_5\"]/choice[2]/text"
-msgstr ""
+msgstr "0"
 
 #: src-en/data/events_special_storage.xml.append:13891
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_5\"]/choice[3]/text"
-msgstr ""
+msgstr "3"
 
 #: src-en/data/events_special_storage.xml.append:13896
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_6\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Каково "
+"значение \"p\", если p+2=8*6?\""
 
 #: src-en/data/events_special_storage.xml.append:13898
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_6\"]/choice[1]/text"
-msgstr ""
+msgstr "50"
 
 #: src-en/data/events_special_storage.xml.append:13902
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_6\"]/choice[2]/text"
-msgstr ""
+msgstr "46"
 
 #: src-en/data/events_special_storage.xml.append:13906
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_6\"]/choice[3]/text"
-msgstr ""
+msgstr "48"
 
 #: src-en/data/events_special_storage.xml.append:13911
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_7\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет 2+2?\""
 
 #: src-en/data/events_special_storage.xml.append:13913
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_7\"]/choice[1]/text"
-msgstr ""
+msgstr "4"
 
 #: src-en/data/events_special_storage.xml.append:13917
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_7\"]/choice[2]/text"
-msgstr ""
+msgstr "22"
 
 #: src-en/data/events_special_storage.xml.append:13921
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_7\"]/choice[3]/text"
-msgstr ""
+msgstr "8"
 
 #: src-en/data/events_special_storage.xml.append:13926
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_8\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет 9+10?\""
 
 #: src-en/data/events_special_storage.xml.append:13928
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_8\"]/choice[1]/text"
-msgstr ""
+msgstr "16"
 
 #: src-en/data/events_special_storage.xml.append:13932
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_8\"]/choice[2]/text"
-msgstr ""
+msgstr "19"
 
 #: src-en/data/events_special_storage.xml.append:13936
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_8\"]/choice[3]/text"
-msgstr ""
+msgstr "21"
 
 #: src-en/data/events_special_storage.xml.append:13938
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_8\"]/choice[3]/event/text"
 msgstr ""
+"\"Неправильно, но мне нравится твой подход, [ИМЯ СТУДЕНТА]! На этот раз "
+"штрафа не будет!\""
 
 #: src-en/data/events_special_storage.xml.append:13943
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_9\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет 12-7?\""
 
 #: src-en/data/events_special_storage.xml.append:13945
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_9\"]/choice[1]/text"
-msgstr ""
+msgstr "19"
 
 #: src-en/data/events_special_storage.xml.append:13949
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_9\"]/choice[2]/text"
-msgstr ""
+msgstr "5"
 
 #: src-en/data/events_special_storage.xml.append:13953
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_9\"]/choice[3]/text"
-msgstr ""
+msgstr "8"
 
 #: src-en/data/events_special_storage.xml.append:13958
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_10\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет 7+8?\""
 
 #: src-en/data/events_special_storage.xml.append:13960
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_10\"]/choice[1]/text"
-msgstr ""
+msgstr "56"
 
 #: src-en/data/events_special_storage.xml.append:13964
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_10\"]/choice[2]/text"
-msgstr ""
+msgstr "13"
 
 #: src-en/data/events_special_storage.xml.append:13968
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_10\"]/choice[3]/text"
-msgstr ""
+msgstr "15"
 
 #: src-en/data/events_special_storage.xml.append:13973
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_11\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет 12/3?\""
 
 #: src-en/data/events_special_storage.xml.append:13975
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_11\"]/choice[1]/text"
-msgstr ""
+msgstr "4"
 
 #: src-en/data/events_special_storage.xml.append:13979
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_11\"]/choice[2]/text"
-msgstr ""
+msgstr "6"
 
 #: src-en/data/events_special_storage.xml.append:13983
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_11\"]/choice[3]/text"
-msgstr ""
+msgstr "3"
 
 #: src-en/data/events_special_storage.xml.append:13988
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_12\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет 6*9?\""
 
 #: src-en/data/events_special_storage.xml.append:13990
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_12\"]/choice[1]/text"
-msgstr ""
+msgstr "54"
 
 #: src-en/data/events_special_storage.xml.append:13994
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_12\"]/choice[2]/text"
-msgstr ""
+msgstr "67"
 
 #: src-en/data/events_special_storage.xml.append:13998
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_12\"]/choice[3]/text"
-msgstr ""
+msgstr "96"
 
 #: src-en/data/events_special_storage.xml.append:14003
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_13\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Каково "
+"значение переменной \"x\" в уравнении 9/3+x=22?\""
 
 #: src-en/data/events_special_storage.xml.append:14005
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_13\"]/choice[1]/text"
-msgstr ""
+msgstr "17"
 
 #: src-en/data/events_special_storage.xml.append:14009
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_13\"]/choice[2]/text"
-msgstr ""
+msgstr "25"
 
 #: src-en/data/events_special_storage.xml.append:14013
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_13\"]/choice[3]/text"
-msgstr ""
+msgstr "19"
 
 #: src-en/data/events_special_storage.xml.append:14018
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_14\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Каково "
+"абсолютное значение числа 8?\""
 
 #: src-en/data/events_special_storage.xml.append:14020
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_14\"]/choice[1]/text"
-msgstr ""
+msgstr "-8"
 
 #: src-en/data/events_special_storage.xml.append:14024
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_14\"]/choice[2]/text"
-msgstr ""
+msgstr "8"
 
 #: src-en/data/events_special_storage.xml.append:14028
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_14\"]/choice[3]/text"
-msgstr ""
+msgstr "4"
 
 #: src-en/data/events_special_storage.xml.append:14033
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_15\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Если x=4, "
+"то сколько будет 2x+3?\""
 
 #: src-en/data/events_special_storage.xml.append:14035
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_15\"]/choice[1]/text"
-msgstr ""
+msgstr "11"
 
 #: src-en/data/events_special_storage.xml.append:14039
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_15\"]/choice[2]/text"
-msgstr ""
+msgstr "16"
 
 #: src-en/data/events_special_storage.xml.append:14043
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_15\"]/choice[3]/text"
-msgstr ""
+msgstr "Вариантов результатов бесконечно много."
 
 #: src-en/data/events_special_storage.xml.append:14048
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_16\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет 457+932?\""
 
 #: src-en/data/events_special_storage.xml.append:14050
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_16\"]/choice[1]/text"
-msgstr ""
+msgstr "1267"
 
 #: src-en/data/events_special_storage.xml.append:14054
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_16\"]/choice[2]/text"
-msgstr ""
+msgstr "1389"
 
 #: src-en/data/events_special_storage.xml.append:14058
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_16\"]/choice[3]/text"
-msgstr ""
+msgstr "1397"
 
 #: src-en/data/events_special_storage.xml.append:14063
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_17\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет 7+7?\""
 
 #: src-en/data/events_special_storage.xml.append:14065
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_17\"]/choice[1]/text"
-msgstr ""
+msgstr "13"
 
 #: src-en/data/events_special_storage.xml.append:14069
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_17\"]/choice[2]/text"
-msgstr ""
+msgstr "18"
 
 #: src-en/data/events_special_storage.xml.append:14073
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_17\"]/choice[3]/text"
-msgstr ""
+msgstr "14"
 
 #: src-en/data/events_special_storage.xml.append:14078
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_18\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Каково "
+"абсолютное значение числа -12?\""
 
 #: src-en/data/events_special_storage.xml.append:14080
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_18\"]/choice[1]/text"
-msgstr ""
+msgstr "12"
 
 #: src-en/data/events_special_storage.xml.append:14084
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_18\"]/choice[2]/text"
-msgstr ""
+msgstr "-12"
 
 #: src-en/data/events_special_storage.xml.append:14088
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_18\"]/choice[3]/text"
-msgstr ""
+msgstr "6"
 
 #: src-en/data/events_special_storage.xml.append:14093
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_19\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Каково "
+"значение переменной \"y\" в уравнении 4y=8+4?\""
 
 #: src-en/data/events_special_storage.xml.append:14095
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_19\"]/choice[1]/text"
-msgstr ""
+msgstr "8"
 
 #: src-en/data/events_special_storage.xml.append:14099
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_19\"]/choice[2]/text"
-msgstr ""
+msgstr "3"
 
 #: src-en/data/events_special_storage.xml.append:14103
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_19\"]/choice[3]/text"
-msgstr ""
+msgstr "6"
 
 #: src-en/data/events_special_storage.xml.append:14108
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_20\"]/text"
 msgstr ""
+"На мгновение Кэлли перестает стрелять. \"С-с-с-следующая задача! Сколько "
+"будет 14/7?\""
 
 #: src-en/data/events_special_storage.xml.append:14110
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_20\"]/choice[1]/text"
-msgstr ""
+msgstr "6"
 
 #: src-en/data/events_special_storage.xml.append:14114
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_20\"]/choice[2]/text"
-msgstr ""
+msgstr "3"
 
 #: src-en/data/events_special_storage.xml.append:14118
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"FR_EDUTAINMENT_QUESTION_20\"]/choice[3]/text"
-msgstr ""
+msgstr "2"
 
 #: src-en/data/events_special_storage.xml.append:14133
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[48]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "Включить функцию системы кликера с паузой."
 
 #: src-en/data/events_special_storage.xml.append:14139
 msgid ""
 "data/events_special_storage.xml.append$/dummyroot/FTL/mod:findName[48]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "Отключить функцию системы кликера с паузой."
 
 #: src-en/data/events_special_storage.xml.append:14156
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
+"Активное благо: Благо предтечи\n"
+"\t\tВаши сфераксы в экипаже не могут быть оглушены."
 
 #: src-en/data/events_special_storage.xml.append:14161
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
+"Активное благо: Благо ревенантов\n"
+"\t\tВсе члены экипажа могут проходить сквозь двери и обладают иммунитетом к "
+"урону от удушья."
 
 #: src-en/data/events_special_storage.xml.append:14166
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
+"Активное благо: Благо снега\n"
+"\t\tВаши снеговики в экипаже замедляют всех врагов, находящихся в том же "
+"помещении, что и они."
 
 #: src-en/data/events_special_storage.xml.append:14171
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[4]/text"
 msgstr ""
+"Активное благо: Благо лавы\n"
+"\t\tВаши лавамены в экипаже будут постепенно наносить урон врагам, "
+"находящимся в одном помещении с ними."
 
 #: src-en/data/events_special_storage.xml.append:14176
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[5]/text"
 msgstr ""
+"Активное благо: Благо искусственности\n"
+"\t\tВаши ИИ-аватары в экипаже будут занимать всего 0.1x места по сравнению с "
+"обычным экипажем."
 
 #: src-en/data/events_special_storage.xml.append:14181
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[6]/text"
 msgstr ""
+"Активное благо: Благо вымерших\n"
+"\t\tВаши Содружества в экипаже могут телепортироваться куда угодно."
 
 #: src-en/data/events_special_storage.xml.append:14186
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[7]/text"
 msgstr ""
+"Активное благо: Благо забытых\n"
+"\t\tВаши соляные в экипаже становятся невосприимчивыми к удушению и "
+"оглушению."
 
 #: src-en/data/events_special_storage.xml.append:14191
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[8]/text"
 msgstr ""
+"Активное благословение: Благословение увядания\n"
+"\t\tВсе лучевые виды оружия пробивают на 1 слой щита больше."
 
 #: src-en/data/events_special_storage.xml.append:14196
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[9]/text"
 msgstr ""
+"Активное благословение: Благословение ионов\n"
+"\t\tВаш корабль получает 50% сопротивление ионному воздействию."
 
 #: src-en/data/events_special_storage.xml.append:14201
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_INVENTORY\"]/mod-"
 "append:choice[10]/text"
 msgstr ""
+"Активный дар: Дар касания\n"
+"\t\tВаш корабль становится неуязвимым для ионного урона. Экипаж противника "
+"теряет 10 ОЗ/с, находясь в системе Ее воли."
 
 #: src-en/data/events_special_storage.xml.append:14217
 msgid ""
@@ -18294,7 +18895,7 @@ msgstr "Ее воля"
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_EXPLOSIVE\"]/mod-"
 "append:choice/event/text"
-msgstr ""
+msgstr "Вы активируете полезную нагрузку и запускаете ее с корабля."
 
 #: src-en/data/events_special_storage.xml.append:14223
 msgid ""
@@ -18306,6 +18907,9 @@ msgstr "Перейти к битве!"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX\"]/text"
 msgstr ""
+"Вы уверены, что хотите это сделать?\n"
+"\t[50% шанс получить потрясающую награду, 50% шанс - ужасный исход; можно "
+"использовать 3 раза в каждом секторе]"
 
 #: src-en/data/events_special_storage.xml.append:14242
 msgid ""
@@ -18318,6 +18922,8 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX\"]/choice[@req=\"loc_fr_neo_pandora_box_opened_times\""
 " and @lvl=\"0\"]/event/text"
 msgstr ""
+"Вы нажимаете переключатель на задней стороне ящика, и с шипящим звуком его "
+"стенки начинают раздвигаться наружу..."
 
 #: src-en/data/events_special_storage.xml.append:14247
 msgid ""
@@ -18336,6 +18942,8 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX\"]/choice[@req=\"loc_fr_neo_pandora_box_opened_times\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
+"Вы нажимаете переключатель на задней стороне ящика, и с шипящим звуком его "
+"стенки начинают раздвигаться наружу..."
 
 #: src-en/data/events_special_storage.xml.append:14260
 msgid ""
@@ -18354,6 +18962,8 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX\"]/choice[@req=\"loc_fr_neo_pandora_box_opened_times\""
 " and @lvl=\"2\"]/event/text"
 msgstr ""
+"Вы нажимаете переключатель на задней стороне ящика, и с шипящим звуком его "
+"стенки начинают раздвигаться наружу..."
 
 #: src-en/data/events_special_storage.xml.append:14273
 msgid ""
@@ -18422,31 +19032,49 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[7]/text"
 msgstr ""
+"Корабль наполняет ослепительный свет, настолько яркий, что перед глазами "
+"становится совершенно бело. Словно по волшебству, из ниоткуда появляется "
+"новый член экипажа! Он выглядит растерянным, но готов присоединиться к "
+"вашему делу."
 
 #: src-en/data/events_special_storage.xml.append:14316
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[8]/text"
 msgstr ""
+"Корабль наполняет ослепительный свет, настолько яркий, что перед глазами "
+"становится совершенно бело. Не успеваете вы даже среагировать, как один из "
+"членов вашего экипаже прямо на ваших глазах распадается на атомы."
 
 #: src-en/data/events_special_storage.xml.append:14319
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[8]/removeCrew/text"
 msgstr ""
+"Ваш член экипажа не появляется в Клон-отсеке, и, судя по всему, его данные "
+"были полностью стерты. То, что с ними произошло, уже невозможно исправить."
 
 #: src-en/data/events_special_storage.xml.append:14323
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[9]/text"
 msgstr ""
+"Корабль наполняет ослепительный свет, настолько яркий, что перед глазами "
+"становится совершенно бело. Словно по волшебству, из ниоткуда появляется "
+"новый член экипажа! Он выглядит растерянным, но готов присоединиться к "
+"вашему делу."
 
 #: src-en/data/events_special_storage.xml.append:14327
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[10]/text"
 msgstr ""
+"Корабль наполняет ослепительный свет, настолько яркий, что перед глазами "
+"становится совершенно бело. Не успеваете вы даже среагировать, как один из "
+"членов вашего экипаже прямо на ваших глазах распадается на атомы."
 
 #: src-en/data/events_special_storage.xml.append:14330
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[10]/removeCrew/text"
 msgstr ""
+"Ваш член экипажа не появляется в Клон-отсеке, и, судя по всему, его данные "
+"были полностью стерты. То, что с ними произошло, уже невозможно исправить."
 
 #: src-en/data/events_special_storage.xml.append:14334
 msgid ""
@@ -18460,6 +19088,10 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[12]/text"
 msgstr ""
+"Корабль наполняет ослепительный свет, настолько яркий, что перед глазами "
+"становится совершенно бело. Вы даже не успеваете среагировать, как ваш "
+"корабль оказывается на волосок от уничтожения, а все ваши запасы, кроме "
+"топлива, исчезают прямо на глазах..."
 
 #: src-en/data/events_special_storage.xml.append:14354
 msgid ""
@@ -18473,35 +19105,51 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[14]/text"
 msgstr ""
+"Корабль наполняет ослепительный свет, настолько яркий, что перед глазами "
+"становится совершенно бело. Вы даже не успеваете среагировать, как ваш "
+"корабль оказывается на волосок от уничтожения, а все ваши запасы, кроме "
+"топлива, исчезают прямо на глазах..."
 
 #: src-en/data/events_special_storage.xml.append:14374
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[15]/text"
 msgstr ""
+"Корабль наполняет ослепительный свет, настолько яркий, что перед глазами "
+"становится совершенно бело. Словно по волшебству, флот повстанцев внезапно "
+"оказался гораздо дальше от вас, чем вы думали!"
 
 #: src-en/data/events_special_storage.xml.append:14378
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[16]/text"
 msgstr ""
+"Корабль наполняет ослепительный свет, настолько яркий, что перед глазами "
+"становится совершенно бело. Словно по волшебству, флот повстанцев внезапно "
+"оказался гораздо дальше от вас, чем вы думали..."
 
 #: src-en/data/events_special_storage.xml.append:14382
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[17]/text"
 msgstr ""
+"Корабль наполняет ослепительный свет, настолько яркий, что перед глазами "
+"становится совершенно бело. Словно по волшебству, флот повстанцев внезапно "
+"оказался гораздо дальше от вас, чем вы думали!"
 
 #: src-en/data/events_special_storage.xml.append:14386
 msgid ""
 "data/events_special_storage.xml.append$//eventList[@name=\"STORAGE_CHECK_FR_AUG_NEO_PANDORA_BOX_OPEN\"]/event[18]/text"
 msgstr ""
+"Корабль наполняет ослепительный свет, настолько яркий, что перед глазами "
+"становится совершенно бело. Словно по волшебству, флот повстанцев внезапно "
+"оказался гораздо дальше от вас, чем вы думали..."
 
 #: src-en/data/events_special_storage.xml.append:14401
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_SYSTEM_WEAPON_REPLICATOR\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "Улучшение недоступно. Зерновая оранжерея уже выполняет эту функцию."
 
 #: src-en/data/events_special_storage.xml.append:14405
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"STORAGE_CHECK_SYSTEM_WEAPON_REPLICATOR\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "Улучшение недоступно. Зерновая оранжерея уже выполняет эту функцию."
