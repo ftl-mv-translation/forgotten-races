@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-21 17:36+0000\n"
+"PO-Revision-Date: 2026-06-23 22:22+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/forgotten-races/"
 "datablueprintsxmlappend/ru/>\n"
@@ -4383,13 +4383,11 @@ msgid ""
 msgstr "U. Thing"
 
 #: src-en/data/blueprints.xml.append:1806
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac\"]/powerList/power[1]"
 msgstr ""
-"Активная способность (срабатывает автоматически): контролирует разум "
-"случайного вражеского члена экипажа, находящегося в одном отсеке с Тририаком"
-" в течение 10 секунд."
+"Активная способность: контролирует разум случайного вражеского члена "
+"экипажа, находящегося в одном отсеке с Тририаком в течение 10 секунд."
 
 #: src-en/data/blueprints.xml.append:1807
 msgid ""
@@ -4435,13 +4433,11 @@ msgid ""
 msgstr "U. Thing"
 
 #: src-en/data/blueprints.xml.append:1825
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac_enemy\"]/powerList/power[1]"
 msgstr ""
-"Активная способность (срабатывает автоматически): контролирует разум "
-"случайного вражеского члена экипажа, находящегося в одном отсеке с Тририаком"
-" в течение 10 секунд."
+"Активная способность: контролирует разум случайного вражеского члена "
+"экипажа, находящегося в одном отсеке с Тририаком в течение 10 секунд."
 
 #: src-en/data/blueprints.xml.append:1826
 msgid ""
@@ -4699,12 +4695,12 @@ msgid ""
 msgstr "Плазма ⛼"
 
 #: src-en/data/blueprints.xml.append:2297
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_COMMONWEALTH_ION\"]/desc"
 msgstr ""
-"Высокотехнологичный бластер, заряженный энергией, достаточной для перегрузки"
-" систем, и наносящий реальные повреждения, а не просто ионизацию."
+"Очень продвинутый фазер, заряженный энергией, достаточной для пробивания "
+"любых щитов и ионизации систем, при этом наносящий системам урон, а не "
+"ограничивающийся лишь их ионизацией."
 
 #: src-en/data/blueprints.xml.append:2339
 msgid ""
@@ -5247,13 +5243,11 @@ msgid ""
 msgstr "Фазер ⛼"
 
 #: src-en/data/blueprints.xml.append:3274
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_COMMONWEALTH_COMBAT_ION\"]/desc"
 msgstr ""
 "Этот дрон создан раньше всех остальных известных схем и может похвастаться "
-"мощным бластером, способным полностью перегрузить системы и наносить "
-"реальный ущерб."
+"мощным бластером, способным полностью перегрузить системы и обойти щиты."
 
 #: src-en/data/blueprints.xml.append:3290
 msgid ""
@@ -5426,11 +5420,12 @@ msgstr ""
 " склеивает корпус и не наносит системного урона."
 
 #: src-en/data/blueprints.xml.append:3631
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_WITHER_PROTOTYPE_HAVOC\"]/descriptionOverride"
 msgstr ""
-"Этот луч уничтожает всякое подобие порядка внутри цели, распространяя ионизацию и уничтожая экипаж. В качестве компромисса он также сшивает корпус и не наносит системного урона.\n"
+"Этот луч уничтожает всякое подобие порядка внутри цели, распространяя "
+"ионизацию и уничтожая экипаж. В качестве компромисса он также сшивает корпус "
+"и не наносит системного урона.\n"
 "\n"
 "\t\tХарактеристики:\n"
 "\t\tНеобходимая мощность: 3\n"
@@ -5891,14 +5886,17 @@ msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERW\"]/short"
 msgstr "Экс. Наладчик"
 
 #: src-en/data/blueprints.xml.append:4543
-#, fuzzy
 msgid "data/blueprints.xml.append$//droneBlueprint[@name=\"FR_MENDERW\"]/desc"
 msgstr ""
-"Этот прототип эфирного дрона ремонтирует с приемлемой скоростью, усиливая экипаж и ослабляя врагов.\n"
+"Этот прототип эфирного дрона ремонтирует с приемлемой скоростью, усиливая "
+"экипаж и ослабляя врагов.\n"
 "    \n"
 "-50 ОЗ, 1.5x скорость ремонта, 2x скорость передвижения\n"
-"-Дружеский экипаж, находящийся в одном отсеке с Наладчиком, получает иммунитет к урону от удушья.\n"
-"-Вражеский экипаж, находящийся в одном отсеке с Наладчиком, лишается иммунитета к удушью и получает сопротивление, равное 2х получаемому урону.\n"
+"-Дружеский экипаж, находящийся в одном отсеке с Наладчиком, получает "
+"иммунитет к урону от удушья.\n"
+"-Вражеский экипаж, находящийся в одном отсеке с Наладчиком, лишается "
+"иммунитета к удушью, а их сопротивляемость будет установлена на уровень, при "
+"котором они будут получать 2х урона.\n"
 "-Наносит 10-секундное оглушение при уничтожении"
 
 #: src-en/data/blueprints.xml.append:4560
@@ -6282,51 +6280,81 @@ msgstr ""
 "на ваш собственный корабль."
 
 #: src-en/data/blueprints.xml.append:5631
-#, fuzzy
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PHYS_BEAM\"]/title"
-msgstr "Физура"
+msgstr "Луч \"Физура\""
 
 #: src-en/data/blueprints.xml.append:5632
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PHYS_BEAM\"]/short"
 msgstr "Физура"
 
 #: src-en/data/blueprints.xml.append:5633
-#, fuzzy
 msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PHYS_BEAM\"]/desc"
 msgstr ""
 "Простое, но мощное ионно-лучевое орудие, созданное с добавлением крупицы "
-"вечных страданий Физ."
+"вечных страданий Физ. Оглушает всех вражеских дронов, если луч попадает "
+"непосредственно в блок Контроля дронов."
 
 #: src-en/data/blueprints.xml.append:5635
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PHYS_BEAM\"]/descriptionOverride"
 msgstr ""
+"Простое, но мощное ионное лучевое оружие, созданное с использованием "
+"частички вечных страданий Физ. Оглушает всех вражеских дронов, если луч "
+"попадает непосредственно в блок Контроля дронов.\n"
+"    \n"
+"\t\tХарактеристики:\n"
+"\t\tТребуемая мощность: 3\n"
+"\t\tВремя перезарядки:: 25 секунд\n"
+"        \n"
+"\t\tДлина луча: 100\n"
+"\t\tСкорость луча: 5\n"
+"    \n"
+"\t\tУрон экипажу: 60\n"
+"\t\tИонный урон: 2\n"
+"    \n"
+"\t\tОглушает все вражеские дроны на: 5 секунд\n"
+"\n"
+"\t\tПокупка: 100~   -   Продажа: 50~"
 
 #: src-en/data/blueprints.xml.append:5651
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_PHYS_BEAM\"]/tooltipOverride"
 msgstr ""
+"Необходимая мощность: 3\n"
+"\t\tВремя перезарядки: 25 секунд\n"
+"\n"
+"\t\tДлина луча: 100\n"
+"\t\tСкорость луча: 5\n"
+"\t\n"
+"\t\tУрон экипажу: 60\n"
+"\t\tИонный урон: 2\n"
+"    \n"
+"\t\tОглушает всех вражеских дронов на: 5 секунд"
 
 #: src-en/data/blueprints.xml.append:5690
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ALEENOR_BIO_PIERCE\"]/title"
-msgstr ""
+msgstr "Облучающий пронзающий лазер Алеенор"
 
 #: src-en/data/blueprints.xml.append:5691
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ALEENOR_BIO_PIERCE\"]/short"
-msgstr ""
+msgstr "Обл. пронз."
 
 #: src-en/data/blueprints.xml.append:5693
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ALEENOR_BIO_PIERCE\"]/desc"
 msgstr ""
+"Точное анти-био пронзающее оружие, разработанное Алеенор. Оно наносит "
+"значительный урон любому экипажу, которому не повезло попасть под его удар, "
+"а также снимает с него иммунитет к удушению и заставляет получать на +1x "
+"больше урона от удушения в течение 10 секунд. При стрельбе не нарушает "
+"маскировку."
 
 #: src-en/data/blueprints.xml.append:5757
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_VIN_MISSILE\"]/title"
-msgstr "Залповая ракетная установка \"Прометей\""
+msgstr "Ракетная установка \"Прометей\""
 
 #: src-en/data/blueprints.xml.append:5758
 msgid ""
@@ -6334,13 +6362,18 @@ msgid ""
 msgstr "Прометей"
 
 #: src-en/data/blueprints.xml.append:5759
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_VIN_MISSILE\"]/desc"
 msgstr ""
-"Проект Вин. Это, вероятно, самая горячая пушка в Мультивселенной. Она "
-"заряжается и выпускает шквал ракет, которые не наносят системного урона, но "
-"всегда вызывают пожар и временно делают врагов уязвимыми к огню."
+"Любимый проект Вин. Пожалуй, самое крутое оружие во всей Мультивселенной: "
+"оно запускает мощную ракету, которая наносит небольшой урон системам, но "
+"всегда вызывает возгорание и наносит врагам временный урон от огня - 10 ОЗ/с "
+"в течение 10 секунд, который зависит от получаемого пораженным членом "
+"экипажа урона от огня. При отрицательной сопротивляемости огню пораженный "
+"член экипажа вместо этого восстанавливает здоровье.\n"
+"\n"
+"\tОтрицательная огнестойкость приведет к тому, что попавший под удар экипаж "
+"будет исцеляться."
 
 #: src-en/data/blueprints.xml.append:5763
 msgid ""
@@ -6820,10 +6853,9 @@ msgid "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_LEO_FLAK\"]/desc"
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:6945
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SEARAK_ENERGY\"]/title"
-msgstr "Перегруженная энергетическая пушка"
+msgstr "Облучающая энергетическая пушка Сирака"
 
 #: src-en/data/blueprints.xml.append:6946
 #, fuzzy
@@ -6832,13 +6864,13 @@ msgid ""
 msgstr "Перегр. ЭП"
 
 #: src-en/data/blueprints.xml.append:6948
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_SEARAK_ENERGY\"]/desc"
 msgstr ""
-"Энергетическая пушка Сирака наносит системный урон, а также урон по корпусу "
-"и ионный урон. Оружие может заряжаться несколькими выстрелами и стрелять по "
-"радиусу."
+"Особая энергетическая пушка Сирака, настроенная таким образом, чтобы "
+"наносить значительный урон экипажу, находящемуся в помещении, без ущерба для "
+"обычных преимуществ энергетического оружия. Сильно ослабляет экипаж, "
+"попавший под удар."
 
 #: src-en/data/blueprints.xml.append:6994
 msgid ""
