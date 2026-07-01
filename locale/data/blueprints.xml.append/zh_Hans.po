@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-07-01 14:17+0000\n"
-"Last-Translator: OXKHA（红月） <2280614500@qq.com>\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -3645,12 +3645,14 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:1782
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac\"]/desc"
 msgstr ""
 "一种未知的生物，出没于更高的层面，寻找新的奴隶来支持他们神秘的事业。\n"
 "\t\n"
-"\t继承不死幽灵属性：不会受到环境伤害，可穿透舱门，受不死幽灵的实验室升级的影响。\n"
+"\t继承不死幽灵属性：不会受到环境伤害，可穿透舱门，受不死幽灵的实验室升级的影"
+"响。\n"
 "\t\n"
 "\t继承件物属性：0.5倍移动速度，死亡时若没有被眩晕则会分裂。"
 
@@ -3676,6 +3678,7 @@ msgid ""
 msgstr "0.5倍战斗与破坏伤害，200最大生命值，免疫心灵控制。"
 
 #: src-en/data/blueprints.xml.append:1795
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac\"]/powerList/power[3]"
 msgstr "当前每有一个特里亚克存在于屏幕上，其伤害降低 10%。"
@@ -6156,10 +6159,12 @@ msgid ""
 msgstr "集群导弹通过专利复制技术，仅需消耗一枚导弹的成本便能发射多个低伤害弹头。"
 
 #: src-en/data/blueprints.xml.append:7356
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE\"]/descriptionOverride"
 msgstr ""
-"一把由纯金和灵质制成的武器。它每次发射一组 3 枚具有不同属性的金色弹头，但需要同时消耗废料和导弹才能开火。\n"
+"一把由纯金和灵质制成的武器。它每次发射一组 3 枚具有不同属性的金色弹头，但需要"
+"同时消耗废料和导弹才能开火。\n"
 "\n"
 "\t\t属性：\n"
 "\t\t所需能量：2\n"
@@ -6170,15 +6175,20 @@ msgstr ""
 "\t\t半径：35\n"
 "\t\t每次发射随机导弹数：3 枚\n"
 "\t\t\n"
-"\t\t红色导弹：1 点舰体伤害与 3 点系统伤害，100% 起火率，彻底引燃被击中舱室。\n"
+"\t\t红色导弹：1 点舰体伤害与 3 点系统伤害，100% 起火率，彻底引燃被击中舱室"
+"。\n"
 "\t\t蓝色导弹：2 点舰体伤害，舰体爆破，100% 破舱率，缓慢侵蚀目标舱室系统。\n"
-"\t\t绿色导弹：1 点舰体伤害与 2 点离子伤害，眩晕被击中的船员 10 秒，瞬间摧毁任何被击中的船员无人机。\n"
-"\t\t青色导弹：1 点伤害，可被特定防御无人机探测到，封锁舱室，在封锁期间对舱室内所有船员施加冷冻哨卫减益效果。\n"
-"\t\t紫色导弹：1 点系统伤害与 90 点船员伤害，施加辐射减益效果，在 25 秒内每秒造成 3 点伤害，无法被闪避，对相邻舱室造成 1 点系统伤害。\n"
+"\t\t绿色导弹：1 点舰体伤害与 2 点离子伤害，眩晕被击中的船员 10 秒，瞬间摧毁任"
+"何被击中的船员无人机。\n"
+"\t\t青色导弹：1 点伤害，可被特定防御无人机探测到，封锁舱室，在封锁期间对舱室"
+"内所有船员施加冷冻哨卫减益效果。\n"
+"\t\t紫色导弹：1 点系统伤害与 90 点船员伤害，施加辐射减益效果，在 25 秒内每秒"
+"造成 3 点伤害，无法被闪避，对相邻舱室造成 1 点系统伤害。\n"
 "\t\t\n"
 "\t\t默认售价：250～出售价格：125～"
 
 #: src-en/data/blueprints.xml.append:7375
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_AUGUSTUS_MISSILE\"]/tooltipOverride"
 msgstr ""
@@ -6190,11 +6200,15 @@ msgstr ""
 "\t\t半径：35\n"
 "\t\t每次发射随机导弹数：3 枚\n"
 "\t\t\n"
-"\t\t红色导弹：1 点舰体伤害与 3 点系统伤害，100% 起火率，彻底引燃被击中舱室。\n"
+"\t\t红色导弹：1 点舰体伤害与 3 点系统伤害，100% 起火率，彻底引燃被击中舱室"
+"。\n"
 "\t\t蓝色导弹：2 点舰体伤害，舰体爆破，100% 破舱率，缓慢侵蚀目标舱室系统。\n"
-"\t\t绿色导弹：1 点舰体伤害与 2 点离子伤害，眩晕被击中的船员 10 秒，瞬间摧毁任何被击中的船员无人机。\n"
-"\t\t青色导弹：1 点伤害，可被特定防御无人机探测到，封锁舱室，在封锁期间对舱室内所有船员施加冷冻哨卫减益效果。\n"
-"\t\t紫色导弹：1 点系统伤害与 90 点船员伤害，施加辐射减益效果，在 25 秒内每秒造成 3 点伤害，无法被闪避，对相邻舱室造成 1 点系统伤害。"
+"\t\t绿色导弹：1 点舰体伤害与 2 点离子伤害，眩晕被击中的船员 10 秒，瞬间摧毁任"
+"何被击中的船员无人机。\n"
+"\t\t青色导弹：1 点伤害，可被特定防御无人机探测到，封锁舱室，在封锁期间对舱室"
+"内所有船员施加冷冻哨卫减益效果。\n"
+"\t\t紫色导弹：1 点系统伤害与 90 点船员伤害，施加辐射减益效果，在 25 秒内每秒"
+"造成 3 点伤害，无法被闪避，对相邻舱室造成 1 点系统伤害。"
 
 #: src-en/data/blueprints.xml.append:7431
 msgid ""
@@ -7431,9 +7445,12 @@ msgid ""
 msgstr "天顶巨炮"
 
 #: src-en/data/blueprints.xml.append:10065
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"FR_ARTILLERY_LEGION_AUTO_A_LASER\"]/desc"
-msgstr "[基础冷却：35]发射一发强力激光，造成 4 点伤害，必定眩晕目标，并必然造成破舱或引发火灾。+10% 命中加成。"
+msgstr ""
+"[基础冷却：35]发射一发强力激光，造成 4 点伤害，必定眩晕目标，并必然造成破舱或"
+"引发火灾。+10% 命中加成。"
 
 #: src-en/data/blueprints.xml.append:10066
 msgid ""
@@ -10602,11 +10619,14 @@ msgid ""
 msgstr "阴谋社的防护阵列"
 
 #: src-en/data/blueprints.xml.append:17424
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_CABALS_PROTECTION_ARRAY\"]/desc"
 msgstr ""
-"一套经过完美调校的超级医疗机器人阵列，旨在不惜一切代价维持舰上船员的生命。当医疗室通电时：\n"
-"\t你的船员将被动获得治疗，治疗速度等同于你当前医疗室等级的速度。同时，医疗室每拥有一级能量，船员便获得 25% 的移动速度加成；\n"
+"一套经过完美调校的超级医疗机器人阵列，旨在不惜一切代价维持舰上船员的生命。当"
+"医疗室通电时：\n"
+"\t你的船员将被动获得治疗，治疗速度等同于你当前医疗室等级的速度。同时，医疗室"
+"每拥有一级能量，船员便获得 25% 的移动速度加成；\n"
 "\t当医疗室达到 3 级能量时，统合指挥官将获得一次额外的再生刺激剂能力充能。"
 
 #: src-en/data/blueprints.xml.append:17434
@@ -10719,10 +10739,12 @@ msgid ""
 msgstr "无人机升腾器"
 
 #: src-en/data/blueprints.xml.append:17532
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_DRONE_ASCENDER\"]/desc"
 msgstr ""
-"传说中的“无人机增幅器 2.0”，这件装置是乔恩本人首次接触到皇家以太科技后，利用该技术将无人机船员的能力提升到新水平所制。其效果可与无人机增幅器叠加。\n"
+"传说中的“无人机增幅器 2.0”，这件装置是乔恩本人首次接触到皇家以太科技后，利用"
+"该技术将无人机船员的能力提升到新水平所制。其效果可与无人机增幅器叠加。\n"
 "\t\t\n"
 "你的无人机船员获得：\n"
 "+20% 移动速度；\n"
@@ -11028,10 +11050,13 @@ msgid ""
 msgstr "皇家信息素"
 
 #: src-en/data/blueprints.xml.append:17821
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ROYAL_PHEROMONES\"]/desc"
 msgstr ""
-"由螳螂女皇调配、为女皇服务、并与众生共享的信息素合剂。氧气系统每提升一级功率，所有友方船员的破坏伤害增加20%，维修速度提高10%。当氧气系统供能时，友方母巢螳螂还将获得心灵控制免疫。"
+"由螳螂女皇调配、为女皇服务、并与众生共享的信息素合剂。氧气系统每提升一级功率"
+"，所有友方船员的破坏伤害增加20%，维修速度提高10%。当氧气系统供能时，友方母巢"
+"螳螂还将获得心灵控制免疫。"
 
 #: src-en/data/blueprints.xml.append:17830
 msgid ""
@@ -11438,10 +11463,12 @@ msgid ""
 msgstr "查罗的纳米机器"
 
 #: src-en/data/blueprints.xml.append:18191
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GHOSTLY_REPAIR_BOTS\"]/desc"
 msgstr ""
-"查罗的纳米机器实验成功为医疗机器人注入了灵魂。这些纳米机器能以人类水平的效率被动修复系统并扑灭火灾，其效率随无人机系统供能等级的提升而倍增。\n"
+"查罗的纳米机器实验成功为医疗机器人注入了灵魂。这些纳米机器能以人类水平的效率"
+"被动修复系统并扑灭火灾，其效率随无人机系统供能等级的提升而倍增。\n"
 "\t\t\n"
 "同时还能以固定速率修复舱室破破舱。"
 
