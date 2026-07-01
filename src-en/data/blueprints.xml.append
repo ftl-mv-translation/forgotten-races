@@ -729,19 +729,6 @@
     </powerList>
 </crewBlueprint>
 
-<crewBlueprint name="fr_ghostly_battledrone_2">
-    <desc>A machination composed of pure souls and energy. It is slow, but highly durable and capable of delivering powerful strikes.</desc>
-    <title>Ghostly Battledrone MK II</title>
-    <short>G. Battle. II</short>
-    <cost>10</cost>
-    <bp>4</bp>
-    <rarity>0</rarity>
-    <powerList>
-		<power>250 Max Health, 0.5x movement speed, immune to hazards. Deals 2x combat damage.</power>
-		<power>Sabotages at half speed.</power>
-    </powerList>
-</crewBlueprint>
-
 <crewBlueprint name="fr_specter">
     <desc>The wisp of a deceased soul brought back to existence through foul necromancy. It is incapable of feeling anything.</desc>
     <title>Undead Specter</title>
@@ -1057,7 +1044,7 @@
 		<power>Active Ability: Detonation ability that deals 25 self damage, 150 enemy crew damage, starts a fire, and deals 2 system damage to the current room. After the explosion triggers, Searak will be unable to act for 15 seconds.</power>
 		<power>Fully powers non essential systems. Provides 2 power to essential systems.</power>
 		<power>Takes 0.65x combat damage.</power>
-		<power>Clones at 5% speed. Heals 100x faster.</power>
+		<power>Clones at half speed. Heals 100x faster.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1796,7 +1783,7 @@
 	
 	Inherited Specter stats: takes no damage from hazards, has door phasing properties, is affected by Specter lab upgrades.
 
-	Inherited Thing stats: 0.5x movement speed, duplicates if they die while not stunned.</desc>
+	Inherited Thing stats: 0.5x movement speed.</desc>
 	<title>Umbral Eldritch Thing</title>
 	<short>U. Thing</short>
 	<cost>110</cost>
@@ -1805,6 +1792,7 @@
 	<powerList>
 		<power>Active Ability: Mind controls a random enemy crew in the same room as Tririac for 10 seconds.</power>
 		<power>0.8x combat and sabotage damage, 200 Max Health, mind control immunity.</power>
+		<power>If Tririac dies while not stunned or while using their active ability, they will split into two new Triracs</power>
 		<power>For each Tririac on screen, their their damage is reduced by 10%.</power>
 		<power>Enemy crew you mind control deal 2x damage at the cost of losing 2 hp/s while mind controlled and in the same room as Tririac.</power>
 	</powerList>
@@ -2500,7 +2488,7 @@
 				<surgeon/>
 				<atomr/>
 				<atom/>
-				<fr_ghostly_drone/>
+				<fr_ghostly_battledrone/>
 				<fr_legion_drone_battle/>
 				<fr_atomw/>
 				<fr_atomc/>
@@ -2584,7 +2572,7 @@
 				<surgeon/>
 				<atomr/>
 				<atom/>
-				<fr_ghostly_drone/>
+				<fr_ghostly_battledrone/>
 				<fr_legion_drone_battle/>
 				<fr_atomw/>
 				<fr_atomc/>
@@ -5843,7 +5831,7 @@
 </weaponBlueprint>
 
 <!-- CLEO-BATTLEDRONE -->
-<crewBlueprint name="fr_ghostly_drone">
+<crewBlueprint name="fr_ghostly_battledrone">
 	<title>Ghostly Drone</title>
 	<short>Ghostly Drone</short>
 	<desc>YOU SHOULD NEVER SEE THIS.</desc>
@@ -6371,7 +6359,7 @@
 -3x repair speed. 0.5x movement speed. 1.5x crew damage and sabotage speed.
 -Technopaths can't copy its eldritch systems.</desc>
 	<power>1</power>
-	<cost>2002</cost>
+	<cost>200</cost>
 	<bp>3</bp>
 	<rarity>0</rarity>
 	<iconImage>battle</iconImage>
@@ -6390,7 +6378,7 @@
 -Technopaths can't copy its eldritch systems.</desc>
 	<power>1</power>
 	<speed>999</speed>
-	<cost>2002</cost>
+	<cost>200</cost>
 	<bp>3</bp>
 	<rarity>0</rarity>
 	<iconImage>boarder</iconImage>
@@ -7376,11 +7364,11 @@ Morphs pierce all shields, use no crew slots, can't be cloned and live for 20 se
 		Shot Radius: 35
 		Fires 3 Random Missiles Per Shot
 		
-		Red Missile: 1 hull and 3 system damage, 100% fire chance, fully ignites the room hit.
-		Blue Missile: 2 hull damage, hullbust, 100% breach chance, slowly erode the system in the targeted room.
-		Green Missile: 1 hull and 2 Ion Damage, stuns crew hit for 10 seconds, destroys any crew drone hit instantly.
-		Cyan Missile: 1 Damage, undetectable by certain Defense Drones, locks down room, inflicts Cryo-Sentry debuffs on all crew members in room for the lockdown duration.
-		Purple Missile: 1 system and 90 crew damage, inflicts radiation debuffs, inflicts 3 damage per second over 25 seconds, can't miss, deals 1 system damage to surrounding rooms.
+		Red Missile: 1 hull and 3 system damage, 100% fire, fully ignites the room hit.
+		Blue Missile: 2 hull damage, hullbust, 100% breach, slow erosion.
+		Green Missile: 1 hull and 2 Ion Damage, 10 second stun, destroys crew drones on hit.
+		Cyan Missile: 1 Damage, stealth, locks down room, room is afflicted by the Cryo-Sentry debuffs.
+		Purple Missile: 1 system and 90 crew damage, rad debuffs, inflicts 3hp/s for 25 seconds, can't miss, deals 1 system damage to surrounding rooms.
 		
 		Default Price: 250~   -   Selling Price: 125~
 	</descriptionOverride>
@@ -7392,11 +7380,11 @@ Morphs pierce all shields, use no crew slots, can't be cloned and live for 20 se
 		Shot Radius: 35
 		Fires 3 Random Missiles Per Shot
 		
-		Red Missile: 1 hull and 3 system damage, 100% fire chance, fully ignites the room hit.
-		Blue Missile: 2 hull damage, hullbust, 100% breach chance, slowly erode the system in the targeted room.
-		Green Missile: 1 hull and 2 Ion Damage, stuns crew hit for 10 seconds, destroys any crew drone hit instantly.
-		Cyan Missile: 1 Damage, undetectable by certain Defense Drones, locks down room, inflicts Cryo-Sentry debuffs on all crew members in room for the lockdown duration.
-		Purple Missile: 1 system and 90 crew damage, inflicts radiation debuffs, inflicts 3 damage per second over 25 seconds, can't miss, deals 1 system damage to surrounding rooms.</tooltipOverride>
+		Red Missile: 1 hull and 3 system damage, 100% fire, fully ignites the room hit.
+		Blue Missile: 2 hull damage, hullbust, 100% breach, slow erosion.
+		Green Missile: 1 hull and 2 Ion Damage, 10 second stun, destroys crew drones on hit.
+		Cyan Missile: 1 Damage, stealth, locks down room, room is afflicted by the Cryo-Sentry debuffs.
+		Purple Missile: 1 system and 90 crew damage, rad debuffs, inflicts 3hp/s for 25 seconds, can't miss, deals 1 system damage to surrounding rooms.</tooltipOverride>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>50</radius>
 	<shots>1</shots>
@@ -8794,7 +8782,7 @@ Morphs pierce all shields, use no crew slots, can't be cloned and live for 20 se
 	<sp>0</sp>
 	<fireChance>2</fireChance>
 	<breachChance>2</breachChance>
-	<cooldown>22</cooldown>
+	<cooldown>17</cooldown>
 	<power>4</power>
 	<cost>95</cost>
 	<bp>12</bp>
@@ -10074,7 +10062,7 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<flavorType>Newgen Artillery</flavorType>
 	<title>Zenith Laser Artillery</title>
 	<short>Zenith Artillery</short>
-	<desc>[Base cooldown: 35] Fires a single powerful laser shot that deals 4 damage, always stuns and either breaches or starts a fire. +10% accuracy.</desc>
+	<desc>[Base cooldown: 25] Fires a single powerful laser shot that deals 4 damage, always stuns and either breaches or starts a fire. +10% accuracy.</desc>
 	<tooltip>Artillery: Fires a single laser that does 4 damage. Stuns crew for 5 seconds on hit. Always either breaches or starts a fire. +10% accuracy.</tooltip>
 	<damage>4</damage>
 	<shots>1</shots>
@@ -10083,7 +10071,7 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 	<breachChance>10</breachChance>
 	<accuracyMod>10</accuracyMod>
 	<stun>5</stun>
-	<cooldown>35</cooldown>
+	<cooldown>25</cooldown>
 	<power>1</power>
 	<cost>150</cost>
 	<rarity>0</rarity>
@@ -17434,7 +17422,7 @@ Provides 2 fleet delay for 7 missiles at empty beacons.</desc>
 <augBlueprint name="FR_CABALS_PROTECTION_ARRAY">
 	<title>Cabal's Protection Array</title>
 	<desc>An array of supercharged medbots perfectly tuned to keep the ship's crew alive no matter what. While the medbay is powered:
-	- Your crew will passively heal at 100% the speed of your current level medbay. They also gain a 25% boost to their movement speed for each powered level of medbay;
+	- Your crew will passively heal at 100% the speed of your current powered level medbay. They also gain a 25% boost to their movement speed for each powered level of medbay;
 	- At a powered lvl 3 medbay, Totality Commanders gain an extra charge to their Reconstructive Stimulant ability.</desc>
 	<cost>150</cost>
 	<rarity>0</rarity>
@@ -17544,12 +17532,12 @@ It can only, however, be opened 3 times per sector.</desc>
 	<desc>The fabled 'Drone Booster 2.0', this augment was made by Jon himself after first coming across royal aether tech, using said tech to boost the abilities of crew drones to new levels. Stacks with the effects of Drone Booster.
 		
 Your crew drones gain:
-+20% movement speed;
-+15% boost to combat/sabotage damage, repair/extinguishing speed; 
-take 10% less damage; 
-break doors twice as quickly; 
-provide 1 power in your ship and drain 1 power in the enemy ship;
-+10% boost to crew healing wherever applicable.</desc>
+- +20% movement speed;
+- +15% boost to combat/sabotage damage, repair/extinguishing speed; 
+- Take 10% less damage; 
+- Break doors twice as quickly; 
+- Provide 1 power in your ship and drain 1 power in the enemy ship;
+- +10% boost to crew healing wherever applicable.</desc>
 	<cost>150</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -17830,7 +17818,7 @@ Your hacking also lasts for 20% longer.</desc>
 
 <augBlueprint name="FR_ROYAL_PHEROMONES">
 	<title>Royal Pheromones</title>
-	<desc>A concoction of Mantis pheromones made by the Queen, for the Queen, to be shared with everybody. For each powered level of Life Support, all friendly crew increase their sabotage damage by 20% and their repair speed by 10%. Friendly Hive Mantis also become immune to mind control while Life Support is powered.</desc>
+	<desc>A concoction of Mantis pheromones made by the Queen, for the Queen, to be shared with everybody. For each powered level of Life Support, all friendly crew increase their sabotage damage by 20% and their repair speed by 10%. Friendly non-queen Hive Mantis also become immune to mind control while Life Support is powered.</desc>
 	<cost>200</cost>
 	<bp>12</bp>
 	<rarity>0</rarity>
@@ -18200,9 +18188,9 @@ Crew sacrificed to the ship can't be cloned.</desc>
 
 <augBlueprint name="FR_GHOSTLY_REPAIR_BOTS">
 	<title>Charror's Nanomachines</title>
-	<desc>Charror's experiments with nanomachines have allowed them to infuse Med-Bots with souls. The nanomachines passively repair systems and extinguish fires at the same rate as a human, multiplied by the amount of powered system levels in Drone Control. 
+	<desc>Charror's experiments with nanomachines have allowed them to infuse Med-Bots with souls. The nanomachines passively repair systems at the same rate as a human, multiplied by the amount of powered system levels in Drone Control. 
 		
-They also seal breaches at a static rate.</desc>
+They also seal breaches and extinguish fires at a static rate.</desc>
 	<cost>200</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
@@ -19711,14 +19699,10 @@ The beacon also houses a small energy reserve for your Mind Control system, allo
 <augBlueprint name="FR_LAB_SPECTER_FLAWLESS_ASCENSION">
 	<title>Flawless Ascension</title>
 	<desc>Your Specters take twice as long to charge their abilities but their abilities become boosted in unique ways.
-		Slimer: 
-		- DEVOUR: Removes the system damage and allows it to be used in the enemy ship.
-		- EAT: Now deals 75 damage to enemy crew and heals Slimer for 35 for each enemy crew in the room.
+		Slimer: EAT: Now deals 75 damage to enemy crew and heals Slimer for 35 for each enemy crew in the room.
 		Phys: Ion damage is raised to 8 and the stun now only affects enemies.
 		Aleenor: Raises crew damage to 100 damage and system damage to 4 damage.
-		Vin:
-		- BOOST: Removes the self damage.
-		- FUSION: Vin's fire healing will be doubled for 10 seconds after activating the ability.
+		Vin: FUSION: Vin's fire healing will be doubled for 10 seconds after activating the ability.
 		Cleo: The drones also gain double damage for the duration.
 		Zulu: Removes the movement speed, sabotage and damage penalties during the effect.
 		G: Also spawns 3 undead specters for the duration.
@@ -23581,7 +23565,7 @@ Luckily, a few Royals survived the fight and "willingly" offered to join the cau
 
 <shipBlueprint name="PLAYER_SHIP_FR_ALT_WITHER" layout="fr_player_alt_wither_a" img="fr_player_alt_wither_a">
 	<class>Alt-Aenwithe Cruiser</class>
-	<name>The Pride of Aenwithe</name>
+	<name>Pride of Aenwithe</name>
 	<unlock>Consult the advice of a certain Obelisk engineer about a certain artifact to unlock this ship.</unlock>
 	<desc>The personal cruiser of Aenwithe. With a lot of unexpected free time on his hands, he decided to go out and explore the Multiverse - and it seems there are a lot of other Aenwithes out there to keep him company.</desc>
 	<systemList>
@@ -30605,7 +30589,7 @@ Luckily, a few Royals survived the fight and "willingly" offered to join the cau
 	<weaponList missiles="0" count="2">
 		<weapon name="ION_1" />
 	</weaponList>
-	<droneList drones="0" count="4">
+	<droneList drones="10" count="4">
 		<drone name="FR_GHOSTLY_DRONE_DEFEND" />
 		<drone name="LOOT_AUTO_1_LASER" />
 		<drone name="REPAIR" />
@@ -33262,8 +33246,8 @@ Luckily, a few Royals survived the fight and "willingly" offered to join the cau
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones power="5" max="8" room="10" start="true" img="room_drones_5" />
-		<engines power="3" room="24" start="true" img="room_engines_2">
+		<drones power="3" max="8" room="10" start="true" img="room_drones_5" />
+		<engines power="2" room="24" start="true" img="room_engines_2">
 			<slot>
 				<direction>down</direction>
 				<number>2</number>
@@ -33307,14 +33291,12 @@ Luckily, a few Royals survived the fight and "willingly" offered to join the cau
 	<weaponSlots>2</weaponSlots>
 	<droneSlots>3</droneSlots>
 	<weaponList missiles="0" count="2" />
-	<droneList drones="8" count="3">
+	<droneList drones="5" count="3">
 		<drone name="FR_DRONE_LEGION_LANCE" />
-		<drone name="GUARDIAN_1_DRONE" />
 	</droneList>
 	<health amount="30" />
-	<maxPower amount="14" />
+	<maxPower amount="11" />
 	<aug name="LOCKED_XENOPHOBIA" />
-	<aug name="EX_LAB_HUMAN_TEAMWORK" />
 	<shieldImage>mup_giant</shieldImage>
 	<mv-mapImage>map_icon_fr_player_legion_flagship_a</mv-mapImage>
 </shipBlueprint>

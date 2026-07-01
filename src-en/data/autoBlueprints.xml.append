@@ -57,11 +57,9 @@
 	<name>fr_menderc</name>
 	<name>fr_directorw</name>
 	<name>fr_menderw</name>
-	<name>fr_ghostly_drone</name>
+	<name>fr_ghostly_battledrone</name>
 	<name>fr_atomw</name>
 	<name>fr_atomc</name>
-	<name>fr_ghostly_battledrone</name>
-	<name>fr_ghostly_battledrone_2</name>
 	<name>engi</name>
 	<name>engi_separatist</name>
 	<name>engi_separatist_nano</name>
@@ -124,11 +122,9 @@
 	<name>fr_menderc</name>
 	<name>fr_directorw</name>
 	<name>fr_menderw</name>
-	<name>fr_ghostly_drone</name>
+	<name>fr_ghostly_battledrone</name>
 	<name>fr_atomw</name>
 	<name>fr_atomc</name>
-	<name>fr_ghostly_battledrone</name>
-	<name>fr_ghostly_battledrone_2</name>
 	<name>engi</name>
 	<name>engi_separatist</name>
 	<name>engi_separatist_nano</name>
@@ -191,11 +187,9 @@
 	<name>fr_menderc</name>
 	<name>fr_directorw</name>
 	<name>fr_menderw</name>
-	<name>fr_ghostly_drone</name>
+	<name>fr_ghostly_battledrone</name>
 	<name>fr_atomw</name>
 	<name>fr_atomc</name>
-	<name>fr_ghostly_battledrone</name>
-	<name>fr_ghostly_battledrone_2</name>
 	<name>engi</name>
 	<name>engi_separatist</name>
 	<name>engi_separatist_nano</name>
@@ -1062,11 +1056,9 @@
 	<name>surgeon</name>
 	<name>atomr</name>
 	<name>atom</name>
-	<name>fr_ghostly_drone</name>
+	<name>fr_ghostly_battledrone</name>
 	<name>fr_atomw</name>
 	<name>fr_atomc</name>
-	<name>fr_ghostly_battledrone</name>
-	<name>fr_ghostly_battledrone_2</name>
 	<name>roomba</name>
 	<name>drone_recon_boarder</name>
 	<name>surgeon_chaos</name>
@@ -1117,11 +1109,9 @@
 	<name>fr_menderc</name>
 	<name>fr_directorw</name>
 	<name>fr_menderw</name>
-	<name>fr_ghostly_drone</name>
+	<name>fr_ghostly_battledrone</name>
 	<name>fr_atomw</name>
 	<name>fr_atomc</name>
-	<name>fr_ghostly_battledrone</name>
-	<name>fr_ghostly_battledrone_2</name>
 </blueprintList>
 
 <blueprintList name="FR_LIST_CREW_NORMAL_GHOST">
@@ -2222,11 +2212,10 @@
 	<mod-append:name>fr_menderc</mod-append:name>
 	<mod-append:name>fr_directorw</mod-append:name>
 	<mod-append:name>fr_menderw</mod-append:name>
-	<mod-append:name>fr_ghostly_drone</mod-append:name>
+	<mod-append:name>fr_ghostly_battledrone</mod-append:name>
 	<mod-append:name>fr_atomw</mod-append:name>
 	<mod-append:name>fr_atomc</mod-append:name>
-	<mod-append:name>fr_ghostly_battledrone</mod-append:name>
-	<mod-append:name>fr_ghostly_battledrone_2</mod-append:name>
+	<mod-append:name>fr_reformed_charror</mod-append:name>
 	<mod-append:name>fr_absolute_cognitive</mod-append:name>
 	<mod-append:name>fr_absolute_cognitive_auto</mod-append:name>
 	<mod-append:name>fr_absolute_cognitive_boarding</mod-append:name>
@@ -2561,6 +2550,7 @@
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_CREW_GAS">
+	<mod-append:name>fr_ghostly_battledrone</mod-append:name>
 	<mod-append:name>fr_absolute_cognitive</mod-append:name>
 	<mod-append:name>fr_absolute_cognitive_auto</mod-append:name>
 	<mod-append:name>fr_absolute_cognitive_boarding</mod-append:name>

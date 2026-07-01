@@ -15,7 +15,7 @@ function(shipManager)
   end
 end)
 
---auto extinguish and breach part of auto repair
+--[[auto extinguish and breach part of auto repair
 
 script.on_internal_event(Defines.InternalEvents.GET_AUGMENTATION_VALUE,
 function(ShipManager, AugName, AugValue)
@@ -25,7 +25,7 @@ function(ShipManager, AugName, AugValue)
     AugValue = AugValue + RepairSpeed
   end
   return Defines.Chain.CONTINUE, AugValue
-end)
+end)]]
 
 -- Double ion
 

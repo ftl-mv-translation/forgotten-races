@@ -11576,7 +11576,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 			Title: Forbidden Experiment, Revenant Infiltrator
 			Species: Revenant Morph - Age: ??? - Gender: N/A
 			
-			Pok would be the most powerful Infiltrator unit if they weren't just a little guy. They hate violance and just want to be friends with others. Unfortunately, they are forced to obey The Watcher's commands.
+			Pok would be the most powerful Infiltrator unit if they weren't just a little guy. They hate violence and just want to be friends with others. Unfortunately, they are forced to obey The Watcher's commands.
 			</text>
 			<choice>
 				<text>Continue...</text>
@@ -11739,7 +11739,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Vance Prime</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="unique_vance" name="Vance Prime"/>
+			<crewMember amount="1" class="unique_vance">Vance Prime</crewMember>
 			<variable name="fr_loc_wither_crew_vance" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11751,7 +11751,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Vance Prime</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_unique_vance_one" name="Vance One"/>
+			<crewMember amount="1" class="fr_unique_vance_one">Vance One</crewMember>
 			<variable name="fr_loc_wither_crew_vance_one" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11763,7 +11763,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Cyra</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="unique_cyra" name="Cyra"/>
+			<crewMember amount="1" class="unique_cyra">Cyra</crewMember>
 			<variable name="fr_loc_wither_crew_cyra" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11775,7 +11775,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Goziodeon</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_gozer" name="Goziodeon"/>
+			<crewMember amount="1" class="fr_gozer">Goziodeon</crewMember>
 			<variable name="fr_loc_wither_crew_gozer" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11787,7 +11787,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Leikonpliiinakra</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_unique_mantis_queen" name="Leikonpliiinakra"/>
+			<crewMember amount="1" class="fr_unique_mantis_queen">Leikonpliiinakra</crewMember>
 			<variable name="fr_loc_wither_crew_mantis_queen" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11799,7 +11799,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Aleenor</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reborn_aleenor" name="Aleenor"/>
+			<crewMember amount="1" class="fr_reborn_aleenor">Aleenor</crewMember>
 			<variable name="fr_loc_wither_crew_aleenor" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11811,7 +11811,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon G</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reborn_g" name="G"/>
+			<crewMember amount="1" class="fr_reborn_g">G</crewMember>
 			<variable name="fr_loc_wither_crew_g" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11823,7 +11823,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Zulu</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reborn_zulu" name="Zulu"/>
+			<crewMember amount="1" class="fr_reborn_zulu">Zulu</crewMember>
 			<variable name="fr_loc_wither_crew_zulu" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11835,7 +11835,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Vin</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reborn_vin" name="Vin"/>
+			<crewMember amount="1" class="fr_reborn_vin">Vin</crewMember>
 			<variable name="fr_loc_wither_crew_vin" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11847,7 +11847,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Vin</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reborn_cleo" name="Cleo"/>
+			<crewMember amount="1" class="fr_reborn_cleo">Cleo</crewMember>
 			<variable name="fr_loc_wither_crew_cleo" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11859,7 +11859,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Slimer</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reborn_slimer" name="ClSlimereo"/>
+			<crewMember amount="1" class="fr_reborn_slimer">ClSlimereo</crewMember>
 			<variable name="fr_loc_wither_crew_slimer" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11871,7 +11871,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Phys</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reborn_phys" name="Phys"/>
+			<crewMember amount="1" class="fr_reborn_phys">Phys</crewMember>
 			<variable name="fr_loc_wither_crew_phys" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11883,7 +11883,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Charror</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reformed_charror" name="Charror"/>
+			<crewMember amount="1" class="fr_reformed_charror">Charror</crewMember>
 			<variable name="fr_loc_wither_crew_charror" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11895,7 +11895,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Deathbloom</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reformed_deathbloom" name="Deathbloom"/>
+			<crewMember amount="1" class="fr_reformed_deathbloom">Deathbloom</crewMember>
 			<variable name="fr_loc_wither_crew_deathbloom" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11907,7 +11907,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Leo</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reformed_leo" name="Leo"/>
+			<crewMember amount="1" class="fr_reformed_leo">Leo</crewMember>
 			<variable name="fr_loc_wither_crew_leo" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11919,7 +11919,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Searak</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reformed_searak" name="Searak"/>
+			<crewMember amount="1" class="fr_reformed_searak">Searak</crewMember>
 			<variable name="fr_loc_wither_crew_searak" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11931,7 +11931,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Watcher</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_watcher" name="Watcher"/>
+			<crewMember amount="1" class="fr_watcher">Watcher</crewMember>
 			<variable name="fr_loc_wither_crew_watcher" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11943,7 +11943,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Pok</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reformed_pok" name="Pok"/>
+			<crewMember amount="1" class="fr_reformed_pok">Pok</crewMember>
 			<variable name="fr_loc_wither_crew_pok" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11955,7 +11955,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Frostwall</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_reformed_frostwall" name="Frostwall"/>
+			<crewMember amount="1" class="fr_reformed_frostwall">Frostwall</crewMember>
 			<variable name="fr_loc_wither_crew_frostwall" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11967,7 +11967,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Sammy</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_unique_sammy" name="Sammy"/>
+			<crewMember amount="1" class="fr_unique_sammy">Sammy</crewMember>
 			<variable name="fr_loc_wither_crew_sammy" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11979,7 +11979,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Charlotte</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="spider_venom" name="Charlotte"/>
+			<crewMember amount="1" class="spider_venom">Charlotte</crewMember>
 			<variable name="fr_loc_wither_crew_spider_venom" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -11991,7 +11991,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon 3QU3STR14</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="pony_engi" name="3QU3STR14"/>
+			<crewMember amount="1" class="pony_engi">3QU3STR14</crewMember>
 			<variable name="fr_loc_wither_crew_pony_engi" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12003,7 +12003,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Stephan</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="human_humanoid" name="Stephan"/>
+			<crewMember amount="1" class="human_humanoid">Stephan</crewMember>
 			<variable name="fr_loc_wither_crew_stephan" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12015,7 +12015,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Augustus</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_bonus_augustus" name="Augustus"/>
+			<crewMember amount="1" class="fr_bonus_augustus">Augustus</crewMember>
 			<variable name="fr_loc_wither_crew_augustus" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12027,7 +12027,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Leah</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="unique_leah" name="Leah"/>
+			<crewMember amount="1" class="unique_leah">Leah</crewMember>
 			<variable name="fr_loc_wither_crew_leah" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12039,7 +12039,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Sally</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_bonus_sally_adult" name="Sally"/>
+			<crewMember amount="1" class="fr_bonus_sally_adult">Sally</crewMember>
 			<variable name="fr_loc_wither_crew_sally" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12051,7 +12051,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Prince of Darkness</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_bonus_prince" name="Prince of Darkness"/>
+			<crewMember amount="1" class="fr_bonus_prince">Prince of Darkness</crewMember>
 			<variable name="fr_loc_wither_crew_prince" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12063,7 +12063,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Tririac</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_bonus_tririac" name="Tririac"/>
+			<crewMember amount="1" class="fr_bonus_tririac">Tririac</crewMember>
 			<variable name="fr_loc_wither_crew_tririac" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12075,7 +12075,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Rockmore</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_unique_rockmore" name="Rockmore"/>
+			<crewMember amount="1" class="fr_unique_rockmore">Rockmore</crewMember>
 			<variable name="fr_loc_wither_crew_rockmore" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12087,7 +12087,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Victor</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_unique_victor" name="Victor"/>
+			<crewMember amount="1" class="fr_unique_victor">Victor</crewMember>
 			<variable name="fr_loc_wither_crew_victor" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12099,7 +12099,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Jon</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_unique_jon" name="Jon"/>
+			<crewMember amount="1" class="fr_unique_jon">Jon</crewMember>
 			<variable name="fr_loc_wither_crew_jon" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12111,7 +12111,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Daisy</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_unique_daisy" name="Daisy"/>
+			<crewMember amount="1" class="fr_unique_daisy">Daisy</crewMember>
 			<variable name="fr_loc_wither_crew_daisy" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12123,7 +12123,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Y</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_unique_y" name="Y"/>
+			<crewMember amount="1" class="fr_unique_y">Y</crewMember>
 			<variable name="fr_loc_wither_crew_y" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12135,7 +12135,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Purple Beard</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_unique_purple_beard" name="Purple Beard"/>
+			<crewMember amount="1" class="fr_unique_purple_beard">Purple Beard</crewMember>
 			<variable name="fr_loc_wither_crew_purple_beard" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12147,7 +12147,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon The True Prophet</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_unique_prophet" name="Prophet"/>
+			<crewMember amount="1" class="fr_unique_prophet">Prophet</crewMember>
 			<variable name="fr_loc_wither_crew_prophet" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>
@@ -12159,7 +12159,7 @@ WARNING: WILL CONSUME YOUR POK! THIS ISN'T REVERSIBLE!</text>
 		<text>Summon Dr. Eggman</text>
         <event>
             <text>The crew is summoned.</text>
-			<crewMember amount="1" class="fr_unique_eggman" name="Dr. Eggman"/>
+			<crewMember amount="1" class="fr_unique_eggman">Dr. Eggman</crewMember>
 			<variable name="fr_loc_wither_crew_eggman" op="set" val="1"/>
             <choice hidden="true">
                 <text>Continue...</text>

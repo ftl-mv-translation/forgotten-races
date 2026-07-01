@@ -310,7 +310,7 @@
 					Daisy turns to you and 'smiles', already on her way to the cockpit. "What are we waiting for? Let's get going!"</text>
 					<achievement silent="false">ACH_FR_EVENT_COMMONWEALTH</achievement>
 					<remove name="FR_COMMONWEALTHS_BODY"/>
-					<crewMember amount="1" all_skills="2" class="fr_commonwealth"/>
+					<crewMember amount="1" all_skills="2" class="fr_unique_daisy">Daisy</crewMember>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event/>
@@ -1292,13 +1292,19 @@
 <event name="FR_NEUTRAL_COMMONWEALTH_ROYAL_GUARD_KILL">
 	<text>You are hailed by the escapee. "Well, would you look at that. I guess mortals aren't as useless as I thought. Since I'm being unfairly chased and persecuted at the moment, I will take refuge in your ship for the time being. Please don't embarrass me while I'm aboard."</text>
 	<crewMember amount="1" all_skills="2" class="obelisk_royal"/>
-	<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH"/>
+	</choice>
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_ROYAL_ESCAPEE_KILL">
 	<text>You are hailed by the guard. "Thank the stars you stopped them, Outsider! We are forever in your debt from this day onwards! If that Exterminator managed to leave the sector... Well, let's just be happy they failed. All thanks to you, meaning you deserve a reward worthy of the danger you stopped. We avoid giving these out since we know the damage that these horrific weapons can inflict, but I believe you have earned the right to use them. Peace be with you, Outsider."</text>
 	<weapon name="FR_GIFTLIST_ROYAL_WEAPONS"/>
-	<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+	</choice>
 </event>
 
 
@@ -1336,7 +1342,10 @@
 		<event>
 			<text>The Commonwealth's interest is very much piqued. "Outsider, that data is incredible! We haven't seen the outside realms in so long... Please, accept our gratitude and compensation."</text>
 			<autoReward level="MED">standard</autoReward>
-			<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+			</choice>
 		</event>
 	</choice>
 </event>
@@ -1382,7 +1391,10 @@
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
-			<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ENGINEER">
@@ -1400,7 +1412,10 @@
 			<text>Your Engi is no stranger to working on Auto-ships and drones, though they've never had to repair anything quite like this ship. Surprisingly, they manage to repair the Auto-ship. Once fixed, it distributes supplies and patches up your hull. "OUTSIDER. APPRECIATION: ETERNAL. PLEASE HAVE: REPAIR + REWARD + FAME"</text>
 			<autoReward level="RANDOM">stuff</autoReward>
 			<damage amount="-5"/>
-			<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="fr_commonwealth">
@@ -1409,14 +1424,20 @@
 			<text>Your Commonwealth is no stranger to working on Auto-ships and drones; in fact, repairing broken guardian ships is just part of the routine for them. Unsurprisingly, they manage to repair the Auto-ship. Once fixed it distributes supplies and patches up your hull. "OUTSIDER. APPRECIATION: ETERNAL. PLEASE HAVE: REPAIR + REWARD + FAME"</text>
 			<autoReward level="HIGH">stuff</autoReward>
 			<damage amount="-5"/>
-			<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+			</choice>
 		</event>
 	</choice>
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_AUTO_ESCAPE">
 	<text>The Auto escapes before you can stop it. It will surely broadcast your attempted murder to every living being in the tri-star area. Oh well...</text>
-	<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH"/>
+	</choice>
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE" unique="true">
@@ -1482,7 +1503,10 @@
 <event name="FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_SUCCESS">
 	<text>Your idea works perfectly, and within minutes the Commonwealth's shields are back in fully working order. They hail you. "Thank you so much for your help, Outsider. I always believed in the kindness of strangers, and it warms my mechanical heart to know I was right. Please, take this weapon: it's the least I could do."</text>
 	<weapon name="FR_GIFTLIST_COMMONWEALTH_WEAPONS"/>
-	<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+	</choice>
 </event>
 
 <eventList name="FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_TELEPORT">
@@ -1586,7 +1610,10 @@
 	<text>With a heavy heart, you remove the test augment. If only things had gone differently...</text>
 	<clearJumpEvent/>
 	<remove name="HIDDEN ION_ARMOR_NEUTRALIZER"/>
-	<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_NEGATIVE_COMMONWEALTH"/>
+	</choice>
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_BAIL">
@@ -1663,7 +1690,10 @@
 <event name="FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO_FULL">
 	<text>Your ion defenses are more than enough to fully absorb the next ion blast, allowing the Auto to get the chance to fully purge all the ionic energy from its system. Once it's back in working order, it hails you. "OUTSIDER. APPRECIATION: ETERNAL. PLEASE HAVE: REWARD + FAME"</text>
 	<autoReward level="HIGH">stuff</autoReward>
-	<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+	</choice>
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION" unique="true">
@@ -1745,7 +1775,10 @@
 	<text>Once the Auto jumps away, you are hailed by the station. "Fantastic work, Outsider! We tracked the probe and are on our way to fix it for good. Here's your reward: A lightweight version of the Maintenance Infrastructure network that our Auto-ships use. Peace be with you, Outsider."</text>
 	<autoReward level="HIGH">standard_no_item</autoReward>
 	<augment name="FR_LIGHTWEIGHT_COMMONWEALTH_MAINTENANCE_INFRASTRUCTURE"/>
-	<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+	</choice>
 </event>
 
 <event name="FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS" unique="true">
@@ -2017,7 +2050,10 @@
 		<text>The Auto's energy grid manages to hold on long enough for the ship to jump away, but not before dispensing a create of supplies as thanks.</text>
 		<autoReward level="HIGH">stuff</autoReward>
 		<instantEscape/>
-		<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="FR_MORALITY_UPDATE_POSITIVE_COMMONWEALTH"/>
+		</choice>
 	</event>
 	<event>
 		<text>Your attempt doesn't work out the way you expected. It seems the Auto's power grid was so damaged by its shut down that it overloads as soon as you charge it, causing the ship to blow up. You scrap what you can of the remains.</text>

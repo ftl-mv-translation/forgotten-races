@@ -25,7 +25,7 @@
 	<preventFleet/>
 	<text>As you survey your surroundings, you notice a cluster of large ruins on the surface of the only planet orbiting around a pulsar. Another Slug transport is parked in the vicinity, boasting prominent pirate stripes over the painfully subdued blues and yellows of Hektar Industries. They hail you.
 
-    "You there! What do you think you are doing here? You can't jussst waltz around like you own the place. Where did you learn mannersss like that?" You see a Slug that is dressed like Sylvan on the other hand. However, it's clear they aren't Sylvan.
+"You there! What do you think you are doing here? You can't jussst waltz around like you own the place. Where did you learn mannersss like that?" You see a Slug that is dressed like Sylvan on the other hand. However, it's clear they aren't Sylvan.
     </text>
 	<ship load="SHIP_FR_QUEST_BILLVAN" hostile="false"/> 
     <environment type="pulsar"/>
@@ -34,19 +34,19 @@
 				<event>
 					<text>The Slug seems insulted at the comment, crossing their arms and staring you dead in the eye. "Pretending?! Why would I do that?! I'm not pretending to be my brother, I'm honoring hisss legacy! I'm Billy Hektar, though sssince everyone here is named after Sssylvan, you can call me Billvan if you wish. I'm the ex-CEO of Hektar Indussstriesss, currently a corporate exile... Not that I regret that happening, I'm glad I'm out of that sssnake pit of a corporation."
 
-                    Billvan raises an eyebrow. "...What are you even doing here? You should be dead by now; those crazy versions of my brother don't hand out exceptions to any bozo that somehow finds this place. Trust me, I know how terrible it is to find acceptance around here."</text>
+Billvan raises an eyebrow. "...What are you even doing here? You should be dead by now; those crazy versions of my brother don't hand out exceptions to any bozo that somehow finds this place. Trust me, I know how terrible it is to find acceptance around here."</text>
 						<choice hidden="true">
 							<text>We wanted to check out those ruins.</text>
                                 <event>
                                     <text>Billvan's demeanor quickly shifts. "Back off, weirdo, these ruinsss are property of Sssylvan Prime! He gave me the missssion to protect thessse ruinsss that were recccently dissscovered until he hasss the time to explore them himssself, and I won't let some ssstranger ruin my reputation after I worked ssso hard to earn it! Besssides, this planet is protected by a very powerful ssshield put there by Prime himssself; only authorized people can even get close to itsss atmosssphere without burning to asssh!"
 										
-									"I will give you a few minutesss to jump away, otherwissse... I will ssshow you the thingsss I learned while being the CEO of Hektar!"</text>
+"I will give you a few minutesss to jump away, otherwissse... I will ssshow you the thingsss I learned while being the CEO of Hektar!"</text>
 									<choice hidden="true">
 										<text>Power up your weapons; we need to convince him to let us access those ruins!</text>
 											<event>
 												<text>Billvan sighs. "I didn't want to have to do thisss, but now there's no way out for you!"
 
-												It seems that if you want to be allowed in there, Billvan *must* live.
+It seems that if you want to be allowed in there, Billvan *must* live.
 												</text>
 													<ship hostile="true"/>
 													<choice hidden="true">
@@ -60,7 +60,7 @@
 										<event>
 											<text>"Good, thank you for underssstanding. I do hope your meeting with Prime goes well." You get ready to jump before you receive another hail.
 
-											"You know what? For being such a good sssport, here'sss the blueprintsss to an old cruiser idea I had before... well, let'sss just sssay it would be my way of sssecuring my brother's legacccy. Good luck!"
+"You know what? For being such a good sssport, here'sss the blueprintsss to an old cruiser idea I had before... well, let'sss just sssay it would be my way of sssecuring my brother's legacccy. Good luck!"
 											</text>
 												<unlockCustomShip silent="false">PLAYER_SHIP_FR_SYLEAH_CREWSER_2</unlockCustomShip>
 												<choice>
@@ -118,7 +118,7 @@
 <event name="FR_BILLVAN_QUEST_SURRENDER">
 	<text>Billvan desperately hails you, feeling the heat of your firepower.
 
-    "L-Look, I underssstand you are deathly curiousss to know what'sss in the ruinsss, and, honestly? Ssso am I! Ssso, how about we make a deal? You let me live, and I won't report you to Prime. I can even lower the sssshield and let you explore the ruinsss, though pleassse promisssse me you won't messss it up..."
+"L-Look, I underssstand you are deathly curiousss to know what'sss in the ruinsss, and, honestly? Ssso am I! Ssso, how about we make a deal? You let me live, and I won't report you to Prime. I can even lower the sssshield and let you explore the ruinsss, though pleassse promisssse me you won't messss it up..."
     </text>
 	<choice hidden="true">
 		<text>Spare Billvan.</text>
@@ -147,13 +147,13 @@
 		<event>
 			<text>As you explore deeper you start to understand what happened here. Long ago, this strange race lived right here in the Nexus, holding complete dominion over this solar system for eons. You realize just how ancient these murals must be, since there are absolutely no mentions of Slugs, Sylvans, or even other aliens to begin with!
 
-            The story seems to imply that the aliens didn't value power or currency the same way almost all people do in the present day, instead focusing solely on bettering themselves and their technology. They even decided to confine themselves to this system after transcending mortality and finding no need to hunt down resources from outside it.</text>
+The story seems to imply that the aliens didn't value power or currency the same way almost all people do in the present day, instead focusing solely on bettering themselves and their technology. They even decided to confine themselves to this system after transcending mortality and finding no need to hunt down resources from outside it.</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
 					<text>Unfortunately, the decision to stay was their downfall. The end of the mural depicts a sun going supernova, an event that likely wiped out every last one of their kind. From seeing this mural and how advanced the aliens were, you can't help but feel that at least a few of them likely prepared for this apocalypse.
 
-					Eventually, you enter a particularly massive room, likely a hangar for large ships. A terminal sits in the middle of the room, fairly damaged, but you are able to extract information from it containing the blueprints for both a cruiser-sized vessel and the metallic bodies these ancient aliens graduated to!</text>
+Eventually, you enter a particularly massive room, likely a hangar for large ships. A terminal sits in the middle of the room, fairly damaged, but you are able to extract information from it containing the blueprints for both a cruiser-sized vessel and the metallic bodies these ancient aliens graduated to!</text>
 						<achievement silent="false">ACH_FR_EVENT_SPHERAX</achievement>
 						<unlockCustomShip silent="false">PLAYER_SHIP_FR_SPHERAX</unlockCustomShip>
 				</event>

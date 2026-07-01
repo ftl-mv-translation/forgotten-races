@@ -2527,14 +2527,15 @@
 
 
 <animSheet name="fr_technolegion_battle" w="280" h="245" fw="35" fh="35">people/fr_technolegion_battle_base.png</animSheet>
+<animSheet name="fr_technolegion_battle_death" w="320" h="32" fh="32" fw="32">effects/explosion_big1_strip10.png</animSheet>
 <anim name="fr_technolegion_battle_death_right">
-	<sheet>fr_technolegion_battle</sheet>
-	<desc length="7" x="0" y="2"/>
+	<sheet>fr_technolegion_battle_death</sheet>
+	<desc length="10" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_technolegion_battle_death_left">
-	<sheet>fr_technolegion_battle</sheet>
-	<desc length="7" x="0" y="2"/>
+	<sheet>fr_technolegion_battle_death</sheet>
+	<desc length="10" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_technolegion_battle_walk_down">
@@ -4552,12 +4553,12 @@ SLIMER ANIMATIONS
 </anim>
 <anim name="fr_reformed_pok_punch_down">
 	<sheet>fr_reformed_pok</sheet>
-	<desc length="7" x="0" y="11"/>
+	<desc length="7" x="0" y="10"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_reformed_pok_punch_up">
 	<sheet>fr_reformed_pok</sheet>
-	<desc length="10" x="0" y="11"/>
+	<desc length="7" x="0" y="11"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_reformed_pok_fire_right">
@@ -4684,12 +4685,12 @@ SLIMER ANIMATIONS
 </anim>
 <anim name="fr_reformed_charror_shoot_right">
 	<sheet>fr_reformed_charror</sheet>
-	<desc length="3" x="3" y="9"/>
+	<desc length="3" x="6" y="9"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_reformed_charror_shoot_up">
 	<sheet>fr_reformed_charror</sheet>
-	<desc length="3" x="6" y="9"/>
+	<desc length="3" x="3" y="9"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_reformed_charror_shoot_left">
@@ -4846,12 +4847,12 @@ SLIMER ANIMATIONS
 </anim>
 <anim name="fr_reformed_leo_punch_up">
 	<sheet>fr_reformed_leo</sheet>
-	<desc length="8" x="0" y="11"/>
+	<desc length="8" x="0" y="9"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_reformed_leo_punch_down">
 	<sheet>fr_reformed_leo</sheet>
-	<desc length="8" x="0" y="12"/>
+	<desc length="8" x="0" y="10"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_reformed_leo_teleport">
@@ -4899,7 +4900,7 @@ SLIMER ANIMATIONS
 <anim name="fr_reformed_searak_clone">
 	<sheet>fr_reformed_searak</sheet>
 	<desc length="12" x="0" y="2"/>
-	<time>0.5</time>
+	<time>1</time>
 </anim>
 <anim name="fr_reformed_searak_walk_down">
 	<sheet>fr_reformed_searak</sheet>
@@ -5973,8 +5974,9 @@ SLIMER ANIMATIONS
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
 </anim>
-<animSheet name="fr_ghost_devorak" w="560" h="245" fw="35" fh="35">people/fr_ghost_devorak_base.png</animSheet>
-<animSheet name="explosion_fr_ghost_devorak_death" w="640" h="64" fw="64" fh="64">effects/explosion_big1_strip10.png</animSheet>
+
+<animSheet fh="35" fw="35" h="245" name="fr_ghost_devorak" w="560">people/fr_ghost_devorak_base.png</animSheet>
+<animSheet fh="64" fw="64" h="64" name="explosion_fr_ghost_devorak_death" w="640">effects/explosion_big1_strip10.png</animSheet>
 <anim name="fr_ghost_devorak_death_right">
 	<sheet>explosion_fr_ghost_devorak_death</sheet>
 	<desc length="10" x="0" y="0"/>
@@ -5987,107 +5989,107 @@ SLIMER ANIMATIONS
 </anim>
 <anim name="fr_ghost_devorak_clone">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="6" x="0" y="1"/>
+	<desc length="6" x="10" y="0"/>
 	<time>0.5</time>
 </anim>
 <anim name="fr_ghost_devorak_walk_down">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="0" y="12"/>
+	<desc length="4" x="0" y="6"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_walk_right">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="4" y="12"/>
+	<desc length="4" x="4" y="6"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_walk_up">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="0" y="11"/>
+	<desc length="4" x="8" y="6"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_walk_left">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="4" y="11"/>
+	<desc length="4" x="12" y="6"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_shoot_down">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="3" x="0" y="10"/>
+	<desc length="3" x="0" y="5"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_shoot_right">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="3" x="3" y="10"/>
+	<desc length="3" x="3" y="5"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_shoot_up">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="3" x="2" y="0"/>
+	<desc length="3" x="6" y="5"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_shoot_left">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="3" x="5" y="0"/>
+	<desc length="3" x="9" y="5"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_fire_down">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="0" y="9"/>
+	<desc length="4" x="0" y="4"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_fire_right">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="4" y="9"/>
+	<desc length="4" x="4" y="4"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_fire_up">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="0" y="8"/>
+	<desc length="4" x="8" y="4"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_fire_left">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="4" y="8"/>
+	<desc length="4" x="12" y="4"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_repair">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="8" x="0" y="7"/>
+	<desc length="8" x="2" y="0"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_punch_up">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="6" x="0" y="5"/>
+	<desc length="8" x="8" y="3"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_punch_down">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="6" x="0" y="6"/>
+	<desc length="8" x="0" y="3"/>
 	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_teleport">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="8" x="0" y="2"/>
-	<time>0.5</time>
+	<desc length="16" x="0" y="1"/>
+	<time>1.0</time>
 </anim>
 <anim name="fr_ghost_devorak_type_right">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="0" y="4"/>
+	<desc length="4" x="0" y="2"/>
 	<time>1</time>
 </anim>
 <anim name="fr_ghost_devorak_type_left">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="4" y="4"/>
+	<desc length="4" x="4" y="2"/>
 	<time>1</time>
 </anim>
 <anim name="fr_ghost_devorak_type_up">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="0" y="3"/>
+	<desc length="4" x="8" y="2"/>
 	<time>1</time>
 </anim>
 <anim name="fr_ghost_devorak_type_down">
 	<sheet>fr_ghost_devorak</sheet>
-	<desc length="4" x="4" y="3"/>
+	<desc length="4" x="12" y="2"/>
 	<time>1</time>
 </anim>
 <anim name="fr_ghost_devorak_portrait">
@@ -13322,79 +13324,6 @@ SLIMER ANIMATIONS
 </anim>
 <anim name="fr_ghostly_battledrone_portrait">
 	<sheet>fr_ghostly_battledrone</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-
-<animSheet name="fr_ghostly_battledrone_2" w="280" h="210" fw="35" fh="35">people/fr_ghostly_battledrone_2_base.png</animSheet>
-<animSheet name="fr_ghostly_battledrone_2_death" w="320" h="32" fh="32" fw="32">effects/explosion1_strip10.png</animSheet>
-<anim name="fr_ghostly_battledrone_2_death_right">
-	<sheet>fr_ghostly_battledrone_2_death</sheet>
-	<desc length="10" x="0" y="0"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_death_left">
-	<sheet>fr_ghostly_battledrone_2_death</sheet>
-	<desc length="10" x="0" y="0"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_walk_down">
-	<sheet>fr_ghostly_battledrone_2</sheet>
-	<desc length="4" x="0" y="5"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_walk_right">
-	<sheet>fr_ghostly_battledrone_2</sheet>
-	<desc length="4" x="4" y="5"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_walk_up">
-	<sheet>fr_ghostly_battledrone_2</sheet>
-	<desc length="4" x="0" y="4"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_walk_left">
-	<sheet>fr_ghostly_battledrone_2</sheet>
-	<desc length="4" x="4" y="4"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_shoot_down">
-	<sheet>fr_ghostly_battledrone_2</sheet>
-	<desc length="3" x="0" y="3"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_shoot_right">
-	<sheet>fr_ghostly_battledrone_2</sheet>
-	<desc length="3" x="3" y="3"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_shoot_up">
-	<sheet>fr_ghostly_battledrone_2</sheet>
-	<desc length="3" x="2" y="0"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_shoot_left">
-	<sheet>fr_ghostly_battledrone_2</sheet>
-	<desc length="3" x="5" y="0"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_power_down">
-	<sheet>fr_ghostly_battledrone_2</sheet>
-	<desc length="7" x="0" y="2"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_power_up">
-	<sheet>fr_ghostly_battledrone_2</sheet>
-	<desc length="7" x="0" y="1"/>
-	<time>1.0</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_fly">
-	<sheet>fr_ghostly_battledrone_2</sheet>
-	<desc length="1" x="0" y="0"/>
-	<time>1</time>
-</anim>
-<anim name="fr_ghostly_battledrone_2_portrait">
-	<sheet>fr_ghostly_battledrone_2</sheet>
 	<desc length="1" x="0" y="0"/>
 	<time>1</time>
 </anim>

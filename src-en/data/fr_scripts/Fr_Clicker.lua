@@ -458,3 +458,13 @@ script.on_internal_event(Defines.InternalEvents.CONSTRUCT_SHIP_SYSTEM, function(
         system.bBoostable = false
     end
 end)
+
+script.on_internal_event(Defines.InternalEvents.JUMP_LEAVE, function(shipManager)
+    if shipManager.iShipId == 0 and shipManager:HasSystem(Hyperspace.ShipSystem.NameToSystemId("fr_clicker")) then
+        local system = shipManager:GetSystem(Hyperspace.ShipSystem.NameToSystemId("fr_clicker"))
+        local gui = Hyperspace.App.gui
+        if system:GetLocked() and (gui.upgradeButton.bActive and not gui.event_pause) then
+            system:LockSystem(0)
+        end
+    end
+end)

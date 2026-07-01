@@ -35,34 +35,34 @@
 		<text>The fleet is now aware of Vance Prime's betrayal, and will not send any soldiers to you who will listen.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="2" blue="false" hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false" hidden="true" max_group="11">
 		<text>The fleet is now only made up of MFK sympathizers, refusing to even entertain talking to Vance One.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="2" blue="true" hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="11">
 		<text>(Vance One) "Halt, soldier! This is Vance One! Stand down, power off your weapons!"</text>
 			<event>
 				<text>"It's an honor to meet you, sir! Yes, we will stand down at your order!"</text>
 					<autoReward level="HIGH">standard</autoReward>
-					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 					<ship hostile="false"/>
 			</event>
 			<event>
 				<text>"Vance One! Sir, it's an honor to meet you! We are short on supplies, but we do have one too many bodies onboard!" The Rebel offers to join your crew.</text>
 					<crewMember amount="1" class="human_soldier"/>
-					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 					<ship hostile="false"/>
 			</event>
 			<event>
 				<text>The Rebel captain can't believe their eyes when they see that your ship carries the one and only Vance Prime! They quickly apologize and promise to delay the fleet as much as they can before jumping away.</text>
 					<modifyPursuit amount="-2"/>
 					<instantEscape/>
-					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 					<ship hostile="false"/>
 			</event>
 			<event>
 				<text>"We know what you did, Legionnaire! No mercy for traitors!"</text>
-				<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+				<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="COMBAT_CHECK"/>
@@ -120,34 +120,34 @@
 		<text>The fleet is now aware of Vance Prime's betrayal, and will not send any soldiers to you who will listen.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="2" blue="false" hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false" hidden="true" max_group="11">
 		<text>The fleet is now only made up of MFK sympathizers, refusing to even entertain talking to Vance One.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="2" blue="true" hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="11">
 		<text>(Vance One) "Halt, soldier! This is Vance One! Stand down, power off your weapons!"</text>
 			<event>
 				<text>"It's an honor to meet you, sir! Yes, we will stand down at your order!"</text>
 					<autoReward level="HIGH">standard</autoReward>
-					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 					<ship hostile="false"/>
 			</event>
 			<event>
 				<text>"Vance One! Sir, it's an honor to meet you! We are short on supplies, but we do have one too many bodies onboard!" The Rebel offers to join your crew.</text>
 					<crewMember amount="1" class="human_soldier"/>
-					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 					<ship hostile="false"/>
 			</event>
 			<event>
 				<text>The Rebel captain can't believe their eyes when they see that your ship carries the one and only Vance Prime! They quickly apologize and promise to delay the fleet as much as they can before jumping away.</text>
 					<modifyPursuit amount="-2"/>
 					<instantEscape/>
-					<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+					<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 					<ship hostile="false"/>
 			</event>
 			<event>
 				<text>"We know what you did, Legionnaire! No mercy for traitors!"</text>
-				<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+				<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="COMBAT_CHECK"/>
@@ -190,15 +190,15 @@
 		<text>The fleet is now aware of Vance Prime's betrayal, and will not send any soldiers to you who will listen.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="2" blue="false" hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false" hidden="true" max_group="11">
 		<text>The fleet is now only made up of MFK sympathizers, refusing to even entertain talking to Vance One.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="2" blue="true" hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="11">
 		<text>(Vance One) "Halt, soldier! This is Vance One! Stand down, power off your weapons!"</text>
 			<event>
 				<text>"You think we are idiots?! Death to traitor Legionnaires!"</text>
-				<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+				<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="COMBAT_CHECK"/>
@@ -237,15 +237,15 @@
 		<text>The fleet is now aware of Vance Prime's betrayal, and will not send any soldiers to you who will listen.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="2" blue="false" hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false" hidden="true" max_group="11">
 		<text>The fleet is now only made up of MFK sympathizers, refusing to even entertain talking to Vance One.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="2" blue="true" hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="11">
 		<text>(Vance One) "Halt, soldier! This is Vance One! Stand down, power off your weapons!"</text>
 			<event>
 				<text>"You think we are idiots?! Death to traitor Legionnaires!"</text>
-				<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+				<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event load="COMBAT_CHECK"/>
@@ -285,7 +285,7 @@
 			<text>As Vance attempts to hail the fleet, the gnome begins to screech, attempting to drown out your comms. Without missing a beat, the Admiral punts the gnome into the corner, causing it to shut up for now, and demands the fleet let you pass.</text>
 			<playSound>gm_owie</playSound>
 			<autoReward level="HIGH">standard</autoReward>
-			<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+			<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 			<ship hostile="false"/>
 		</event>
 	</mod-append:choice>
@@ -321,17 +321,17 @@
 		<text>The gnome appears to be jamming your comms. You can't contact the fleet.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="2" blue="true" hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="11">
 		<text>(Vance One) "Halt, soldier! This is Vance One! Stand down, power off your weapons!"</text>
 		<event>
 			<text>As Vance attempts to hail the fleet, the gnome begins to screech, attempting to drown out your comms. Without missing a beat, the Admiral punts the gnome into the corner, causing it to shut up for now, and demands the fleet let you pass.</text>
 			<playSound>gm_owie</playSound>
 			<autoReward level="HIGH">standard</autoReward>
-			<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+			<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 			<ship hostile="false"/>
 		</event>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="2" blue="false"  hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false"  hidden="true" max_group="11">
 		<text>The gnome appears to be jamming your comms. You can't contact the fleet.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
@@ -362,17 +362,17 @@
 		<text>The gnome appears to be jamming your comms. You can't contact the fleet.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="2" blue="true" hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="11">
 		<text>(Vance One) "Halt, soldier! This is Vance One! Stand down, power off your weapons!"</text>
 		<event>
 			<text>As Vance attempts to hail the fleet, the gnome begins to screech, attempting to drown out your comms. Without missing a beat, the Admiral punts the gnome into the corner, causing it to shut up for now, and demands the fleet let you pass.</text>
 			<playSound>gm_owie</playSound>
 			<autoReward level="HIGH">standard</autoReward>
-			<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+			<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 			<ship hostile="false"/>
 		</event>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="2" blue="false"  hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false"  hidden="true" max_group="11">
 		<text>The gnome appears to be jamming your comms. You can't contact the fleet.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
@@ -403,17 +403,17 @@
 		<text>The gnome appears to be jamming your comms. You can't contact the fleet.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="2" blue="true" hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT" lvl="1" blue="true" hidden="true" max_group="11">
 		<text>(Vance One) "Halt, soldier! This is Vance One! Stand down, power off your weapons!"</text>
 		<event>
 			<text>As Vance attempts to hail the fleet, the gnome begins to screech, attempting to drown out your comms. Without missing a beat, the Admiral punts the gnome into the corner, causing it to shut up for now, and demands the fleet let you pass.</text>
 			<playSound>gm_owie</playSound>
 			<autoReward level="HIGH">standard</autoReward>
-			<variable name="loc_fr_fleet_count_vance" op="add" val="1"/>
+			<variable name="loc_fr_fleet_count_vance_one" op="add" val="1"/>
 			<ship hostile="false"/>
 		</event>
 	</mod-append:choice>
-	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="2" blue="false"  hidden="true" max_group="10">
+	<mod-append:choice req="FR_REQUIREMENT_HAS_VANCE_ONE_FLEET_COUNT_EXCEEDED" lvl="1" blue="false"  hidden="true" max_group="11">
 		<text>The gnome appears to be jamming your comms. You can't contact the fleet.</text>
 		<event load="OPTION_INVALID"/>
 	</mod-append:choice>

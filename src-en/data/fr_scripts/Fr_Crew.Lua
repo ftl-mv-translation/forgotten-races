@@ -165,7 +165,36 @@ local resists_mind_control = mods.multiverse.resists_mind_control
 local can_be_mind_controlled = mods.multiverse.can_be_mind_controlled
 
 script.on_internal_event(Defines.InternalEvents.ACTIVATE_POWER, function(power, ship)
-    if power.crew.blueprint.name ~= "fr_bonus_tririac" or power.crew.blueprint.name ~= "fr_bonus_tririac_noclone" or power.crew.blueprint.name ~= "fr_bonus_tririac_enemy" then
+    if power.crew.blueprint.name ~= "fr_bonus_tririac" then
+        return
+    end
+    local roomId = power.crew.iRoomId
+    local mindControlledCrew = 0
+    for crewmem in vter(ship.vCrewList) do
+        local doControl = crewmem.iRoomId == roomId and
+                          crewmem.currentShipId == ship.iShipId and
+                          crewmem.iShipId ~= power.crew.iShipId and
+                          crewmem ~= power.crew
+        if doControl then
+            if can_be_mind_controlled(crewmem) then
+                crewmem:SetMindControl(true)
+                local mcTable = userdata_table(crewmem, "mods.mv.crewStuff")
+                mcTable.mcTime = math.max(10, mcTable.mcTime or 0)
+                mindControlledCrew = mindControlledCrew + 1
+                if mindControlledCrew >= 1 then break end
+            elseif resists_mind_control(crewmem) then
+                crewmem.bResisted = true
+            end
+        end
+    end
+end)
+
+local userdata_table = mods.multiverse.userdata_table
+local resists_mind_control = mods.multiverse.resists_mind_control
+local can_be_mind_controlled = mods.multiverse.can_be_mind_controlled
+
+script.on_internal_event(Defines.InternalEvents.ACTIVATE_POWER, function(power, ship)
+    if power.crew.blueprint.name ~= "fr_bonus_tririac_enemy" then
         return
     end
     local roomId = power.crew.iRoomId

@@ -180,7 +180,7 @@
 		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
 		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
 	</beaconType>
-	<text>You arrive at the Federation Research Headquarters, or at least what's left of it, though it seems to be in surprisingly good condition given it was atacked by a whole fleet not too long ago. A small Federation scout scans your ship just to make sure you are not a threat before flying away towards the base. </text>
+	<text>You arrive at the Federation Research Headquarters, or at least what's left of it, though it seems to be in surprisingly good condition given it was attacked by a whole fleet not too long ago. A small Federation scout scans your ship just to make sure you are not a threat before flying away towards the base. </text>
 	<img back="FR_BACK_EVENT_FEDERATION_HQ" planet="NONE"/>
 	<choice hidden="true">
         <text>Follow the ship.</text>
@@ -471,7 +471,7 @@ The first thing you attempt to recover is his powerful lasers; however, it seems
 <event name="FR_WARZONE_PURPLE_BEARD" unique="true">
 	<text>As soon as you jump into this beacon you are immediately hailed by the only other ship at this beacon... at least, apart from the giant fleet in the background. "Renegade... So it seems our paths have finally crossed..." The man on the screen is the legendary corsair Purple Beard, the only unaffiliated  pirate to ever reach such a rank.
 
-	His voice is slow and heavy; even though he avoids looking at you in the eyes, you can still feel a tremandous weight behind his own. His apperance reinforces the legends told about him in the less savory places of the multiverse, about an ex-Legionarre Rebel who betrayed his own after becoming disillusioned with the cause. With every faction wanting him dead for his past, the only path he could tread was that of a pirate.</text> 
+	His voice is slow and heavy; even though he avoids looking at you in the eyes, you can still feel a tremandous weight behind his own. His apperance reinforces the legends told about him in the less savory places of the multiverse, about an ex-Legionnaire Rebel who betrayed his own after becoming disillusioned with the cause. With every faction wanting him dead for his past, the only path he could tread was that of a pirate.</text> 
 	<ship load="FR_SHIP_WARZONE_PURPLE_BEARD" hostile="false"/>
 	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_PIRATE</customFleet>
 	<choice hidden="true">
@@ -957,7 +957,7 @@ The leader of the outpost tilts their head for a moment before shrugging. "Very 
 	</choice>
 </event>
 
-<ship name="FR_SHIP_WARZONE_STORE_STATION_REBEL" auto_blueprint="MU_REBEL_STATION_SELITE">
+<ship name="FR_SHIP_WARZONE_STORE_STATION_REBEL" auto_blueprint="FR_REBEL_STATION_SELITE">
 	<surrender min="999" max="999" load="FR_WARZONE_HOSTILE_SIGNAL"/>
 	<destroyed>
 		<text>The outpost has been destroyed. While there are plenty of supplies left behind from the wreck itself, any extra supplies in its cargo have surely been destroyed.</text>
@@ -1300,7 +1300,7 @@ As you approach the station you see what appears to be a pirate fleet. How those
 </ship>
 
 <event name="FR_ITEM_WARZONE_PIRATE_TRADE" unique="true">
-	<text>A elite pirate seems to have set up shop on this beacon. They hail you and offer you a random power-efficient weapon for a heavy discount. The catch is that you won't know what it is until you buy it. In the background, you also see what appears to be a pirate fleet, problably taking this opportunity to get easy tribute.</text>
+	<text>An elite pirate seems to have set up shop on this beacon. They hail you and offer you a random power-efficient weapon for a heavy discount. The catch is that you won't know what it is until you buy it. In the background, you also see what appears to be a pirate fleet, probably taking this opportunity to get easy tribute.</text>
 	<ship load="FR_SHIP_WARZONE_ELITE_PIRATE_FIGHT" hostile="false"/>
 	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_PIRATE</customFleet>
 	<choice hidden="true">
@@ -1401,7 +1401,7 @@ As you approach the station you see what appears to be a pirate fleet. How those
 </event>
 
 <event name="FR_ITEM_WARZONE_LANIUS" unique="true">
-	<text>This beacon seems really uneventful until you detect a a hail from a nearby Lanius shuttle. "Seek metal. Ship too small to hold metal. Join crew?".</text>
+	<text>This beacon seems really uneventful until you detect a hail from a nearby Lanius shuttle. "Seek metal. Ship too small to hold metal. Join crew?".</text>
 	<choice hidden="true">
         <text>Allow the Lanius to join your crew.</text>
         <event>
@@ -1834,7 +1834,7 @@ As you approach the station you see what appears to be a pirate fleet. How those
 </ship>
 
 <event name="FR_NEUTRAL_WARZONE_AUTO_FIGHT" unique="true">
-	<text>To your surprise you find two auto ships fighting in this rather secluded beacon, a Federation and a Innovation Rebel auto ship. The rebel one, being an elite ship, has the clear upper hand and will certainly destroy the Federation one if not stopped.</text> 
+	<text>To your surprise you find two auto ships fighting in this rather secluded beacon, a Federation and an Innovation Rebel auto ship. The rebel one, being an elite ship, has the clear upper hand and will certainly destroy the Federation one if not stopped.</text> 
 	<ship load="FR_SHIP_WARZONE_REBEL_AUTO_ELITE_FIGHT" hostile="false"/>
 	<choice hidden="true">
 		<text>Attack the Rebel auto!</text>
@@ -2157,7 +2157,7 @@ As you approach the station you see what appears to be a pirate fleet. How those
 
 <event name="FR_DISTRESS_WARZONE_UNION_COALITION" unique="true">
 	<distressBeacon/>
-	<text>You jump into this beacon to find a small Union shuttle barely managing to dodge the attacks from a R.U.E.S. ship. They desperately hail and bg you to help them.</text> 
+	<text>You jump into this beacon to find a small Union shuttle barely managing to dodge the attacks from a R.U.E.S. ship. They desperately hail and beg you to help them.</text> 
 	<ship load="FR_SHIP_WARZONE_ELITE_COALITION_UNION" hostile="false"/>
 	<choice hidden="false">
 		<text>Defend the shuttle!</text>
@@ -3081,7 +3081,7 @@ The crystal sighs. "I suppose what's done is done... but my crew seem to have gi
 	<choice hidden="true">
 		<text>Weapons up!</text>
 		<event>
-			<text>The Field Technician hails you. "I apologise for what we need to do, but unfortunately we have been given very firm instructions to make sure you won't stop any plans our bosses have. Wentowrth Innovations would appreciate your cooperation if you just depowered your systems and made our life easier."</text>
+			<text>The Field Technician hails you. "I apologise for what we need to do, but unfortunately we have been given very firm instructions to make sure you won't stop any plans our bosses have. Wentworth Innovations would appreciate your cooperation if you just depowered your systems and made our life easier."</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event load="COMBAT_CHECK"/>
@@ -3377,7 +3377,7 @@ The crystal sighs. "I suppose what's done is done... but my crew seem to have gi
 </event>
 
 <event name="FR_ELITE_WARZONE_PIRATE">
-	<text>The war for this sector has truly unearthed the true threat that the unaffiliated  pirates can pose. Their use of highly illigal and dangerous weapons combined with their truly reckless abandon when it comes to picking their targets makes them a threat that should be taken as seriously as the MFK Aces or R.U.E.S.. It seems you are now one of their targets, as an elite pirate has caught you off guard!</text> 
+	<text>The war for this sector has truly unearthed the true threat that the unaffiliated  pirates can pose. Their use of highly illegal and dangerous weapons combined with their truly reckless abandon when it comes to picking their targets makes them a threat that should be taken as seriously as the MFK Aces or R.U.E.S.. It seems you are now one of their targets, as an elite pirate has caught you off guard!</text> 
 	<ship load="FR_SHIP_WARZONE_ELITE_PIRATE_FIGHT" hostile="true"/>
 	<customFleet right="true" firing="true" autoDarkening="true">FR_CUSTOM_FLEET_PIRATE</customFleet>
 	<choice hidden="true">
@@ -3761,12 +3761,15 @@ You are hailed by the outpost. "Renegade! I-I can't believe my eyes! They all sc
 	<choice req="FR_UNITY_GATLING_PARTS_2" lvl="1" max_group="0" blue="false" hidden="true">
 		<text>We were glad to help, but what about the gun?</text>
 		<event>
-			<text>"O-Oh! Right right right! Sorry, I almost forgot! Please, come inside our outpost! We will fix up that gun and, as a gesture of good will, you can keep it and use it as you see fit!" You dock your ship on the outpost alongside Kely and her friends. You two meet in the outpost and talk while your gun is assembled. Once it's finished, Kely herself offers to install the gun on your ship; apparently, she used to be a engineer before the war.
+			<text>"O-Oh! Right right right! Sorry, I almost forgot! Please, come inside our outpost! We will fix up that gun and, as a gesture of good will, you can keep it and use it as you see fit!" You dock your ship on the outpost alongside Kely and her friends. You two meet in the outpost and talk while your gun is assembled. Once it's finished, Kely herself offers to install the gun on your ship; apparently, she used to be an engineer before the war.
 
 Once everything is setup, you bid farewell to the outpost and return to your ship. You have a feeling the word of your deeds here will spread far and wide.</text>
 			<weapon name="FR_LOOT_ELITE_FEDERATION_3"/>
 			<removeItem>FR_UNITY_GATLING_PARTS_2</removeItem>
-			<event load="FR_MORALITY_REMOVE_GENERAL_DOUBLE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="FR_MORALITY_REMOVE_GENERAL_DOUBLE"/>
+			</choice>
 		</event>
 	</choice>
 	<choice req="FR_UNITY_GATLING_PARTS_2" lvl="0" max_lvl="0" max_group="0" blue="false" hidden="true">
@@ -3785,12 +3788,15 @@ You are hailed by the outpost. "Renegade! I-I can't believe my eyes! They all sc
 	<choice req="FR_UNITY_GATLING_PARTS_2" lvl="1" max_group="0" blue="false" hidden="true">
 		<text>We were glad to help, what about the gun though?</text>
 		<event>
-			<text>"O-Oh! Right right right! Sorry, I almost forgot! Please, come inside our outpost! We will fix up that gun and, as a gesture of good will, you can keep it and use it as you see fit!" You dock your ship on the outpost alongside Kely and her friends. You two meet in the outpost and talk while your gun is assembled. Once it's finished, Kely herself offers to install the gun on your ship; apparently, she used to be a engineer before the war.
+			<text>"O-Oh! Right right right! Sorry, I almost forgot! Please, come inside our outpost! We will fix up that gun and, as a gesture of good will, you can keep it and use it as you see fit!" You dock your ship on the outpost alongside Kely and her friends. You two meet in the outpost and talk while your gun is assembled. Once it's finished, Kely herself offers to install the gun on your ship; apparently, she used to be an engineer before the war.
 
 Once everything is setup, you bid farewell to the outpost and return to your ship. You have a feeling the word of your deeds here will spread far and wide.</text>
 			<weapon name="FR_LOOT_ELITE_FEDERATION_3"/>
 			<removeItem>FR_UNITY_GATLING_PARTS_2</removeItem>
-			<event load="FR_MORALITY_REMOVE_GENERAL_DOUBLE"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="FR_MORALITY_REMOVE_GENERAL_DOUBLE"/>
+			</choice>
 		</event>
 	</choice>
 	<choice req="FR_UNITY_GATLING_PARTS_2" lvl="0" max_lvl="0" max_group="0" blue="false" hidden="true">
@@ -4130,7 +4136,7 @@ You approach the ship to get a better look at it, but before you can hail it, th
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>Inside the cargo bay you find 3 pedestals, one with a powerful looking gun, one with a extremely advanced looking drone, and another with some kind of augment installer that looks advanced beyond anything you have ever seen before.
+			<text>Inside the cargo bay you find 3 pedestals, one with a powerful looking gun, one with an extremely advanced looking drone, and another with some kind of augment installer that looks advanced beyond anything you have ever seen before.
 
 At first you think you can take all 3, but right before you take the gun you see a few lasers protecting it and the other three pedestals. You can take one for sure, but the other two will at best be locked out of your reach or at worst be destroyed.</text>
 			<choice>
@@ -4239,7 +4245,7 @@ At first you think you can take all 3, but right before you take the gun you see
 
 
 <event name="FR_HOSTILE_WARZONE_REBEL_AUTO_HACK" unique="true">
-	<text>Before you can even react, all of your subsystems are instantly hacked, with only piloting remaining barely functional. You quickly find the culprit, a Innovation Saboteur who identified you as a threat and is moving in to engage.</text> 
+	<text>Before you can even react, all of your subsystems are instantly hacked, with only piloting remaining barely functional. You quickly find the culprit, an Innovation Saboteur who identified you as a threat and is moving in to engage.</text> 
 	<ship load="FR_SHIP_WARZONE_ELITE_AUTO_NO_ASB" hostile="true"/>
 	<status type="limit" target="player" system="doors" amount="0"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
