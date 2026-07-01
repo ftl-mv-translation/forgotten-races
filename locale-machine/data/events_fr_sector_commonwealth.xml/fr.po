@@ -318,6 +318,11 @@ msgstr ""
 "\t\t\n"
 "\t\t\t\t\tDaisy se tourne vers vous et \" sourit \", déjà en route vers le cockpit. \" Qu'attendons-nous ? Allons-y ! \""
 
+#: src-en/data/events_fr_sector_commonwealth.xml:313
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED\"]/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/crewMember"
+msgstr "Daisy"
+
 #: src-en/data/events_fr_sector_commonwealth.xml:315
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_COMMONWEALTH_REPAIR_CENTER_DESTROYED\"]/choice/event/choice[@req=\"FR_COMMONWEALTHS_BODY\"]/event/choice/text"
@@ -1837,7 +1842,12 @@ msgstr ""
 "votre vaisseau pour le moment. S'il vous plaît, ne me mettez pas dans "
 "l'embarras pendant que je suis à bord. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1299
+#: src-en/data/events_fr_sector_commonwealth.xml:1296
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL_GUARD_KILL\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:1302
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL_ESCAPEE_KILL\"]/text"
 msgstr ""
@@ -1850,7 +1860,12 @@ msgstr ""
 " que ces armes horribles peuvent infliger, mais je crois que vous avez gagné"
 " le droit de les utiliser. Que la paix soit avec vous, Étranger. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1306
+#: src-en/data/events_fr_sector_commonwealth.xml:1305
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ROYAL_ESCAPEE_KILL\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:1312
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/text"
 msgstr ""
@@ -1859,53 +1874,53 @@ msgstr ""
 "en plein milieu d'une tâche très importante en ce moment. Que la paix soit "
 "avec vous. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1309
+#: src-en/data/events_fr_sector_commonwealth.xml:1315
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[1]/text"
 msgstr "Attaquer les arpenteurs."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1311
+#: src-en/data/events_fr_sector_commonwealth.xml:1317
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[1]/event/text"
 msgstr ""
 "Les arpenteurs sont pris par surprise, un de vos tirs les frôlant avant même"
 " qu'ils ne puissent réagir. Ils activent leurs armes et avancent vers vous."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1314
+#: src-en/data/events_fr_sector_commonwealth.xml:1320
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1320
+#: src-en/data/events_fr_sector_commonwealth.xml:1326
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[2]/text"
 msgstr "Les laisser tranquilles."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1322
+#: src-en/data/events_fr_sector_commonwealth.xml:1328
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[2]/event/text"
 msgstr ""
 "L'équipe apprécie votre considération et décide de vous offrir une petite "
 "boîte de ferraille en guise de remerciement."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1325
+#: src-en/data/events_fr_sector_commonwealth.xml:1331
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[2]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1329
+#: src-en/data/events_fr_sector_commonwealth.xml:1335
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[2]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1335
+#: src-en/data/events_fr_sector_commonwealth.xml:1341
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[@req=\"ADV_SCANNERS\"]/text"
 msgstr ""
 "(Scanners à longue portée) Offrez-leur vos données cartographiques "
 "détaillées."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1337
+#: src-en/data/events_fr_sector_commonwealth.xml:1343
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[@req=\"ADV_SCANNERS\"]/event/text"
 msgstr ""
@@ -1914,19 +1929,24 @@ msgstr ""
 "longtemps... S'il vous plaît, acceptez notre gratitude et notre "
 "compensation. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1345
+#: src-en/data/events_fr_sector_commonwealth.xml:1346
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC\"]/choice[@req=\"ADV_SCANNERS\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:1354
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/text"
 msgstr ""
 "Vous trouvez une Auto Commonwealth se réparant à proximité. Il semble que le"
 " champ d'astéroïdes n'ait pas été tendre avec la petite Auto."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1351
+#: src-en/data/events_fr_sector_commonwealth.xml:1360
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[1]/text"
 msgstr "Attaquer l'Auto."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1353
+#: src-en/data/events_fr_sector_commonwealth.xml:1362
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[1]/event/text"
 msgstr ""
@@ -1934,17 +1954,17 @@ msgstr ""
 " de fuir. Si elle parvient à s'échapper, elle informera certainement les "
 "autres de vos actions."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1356
+#: src-en/data/events_fr_sector_commonwealth.xml:1365
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1362
+#: src-en/data/events_fr_sector_commonwealth.xml:1371
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[2]/text"
 msgstr "Ignorer l'auto et démanteler le champ voisin."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1364
+#: src-en/data/events_fr_sector_commonwealth.xml:1373
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[2]/event/text"
 msgstr ""
@@ -1952,22 +1972,22 @@ msgstr ""
 " des morceaux cassés qui flottent autour de l'Auto. Ce n'est pas grand-"
 "chose, mais chaque petit geste aide."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1367
+#: src-en/data/events_fr_sector_commonwealth.xml:1376
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[2]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1371
+#: src-en/data/events_fr_sector_commonwealth.xml:1380
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[2]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1377
+#: src-en/data/events_fr_sector_commonwealth.xml:1386
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/text"
 msgstr "(Drone de maintenance) Réparez l'auto-vaisseau. [1|]"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1379
+#: src-en/data/events_fr_sector_commonwealth.xml:1388
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/text"
 msgstr ""
@@ -1976,12 +1996,17 @@ msgstr ""
 "APPRÉCIATION : ÉTERNELLE. VEUILLEZ AVOIR : RÉPARATION + RÉCOMPENSE + "
 "RENOMMÉE \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1389
+#: src-en/data/events_fr_sector_commonwealth.xml:1395
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"DRONE_CONTROL_REPAIR_ALL\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:1401
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
 msgstr "(Équipage ingénieur) Réparez l'auto-vaisseau."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1391
+#: src-en/data/events_fr_sector_commonwealth.xml:1403
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr ""
@@ -1993,12 +2018,12 @@ msgstr ""
 "de même, le cœur lourd, vous démanteler ce que vous pouvez des restes du "
 "vaisseau."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1398
+#: src-en/data/events_fr_sector_commonwealth.xml:1410
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"LIST_CREW_ENGI\"]/text"
 msgstr "(Équipage Engi) Réparez l'auto-vaisseau."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1400
+#: src-en/data/events_fr_sector_commonwealth.xml:1412
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/text"
 msgstr ""
@@ -2008,12 +2033,17 @@ msgstr ""
 "distribue des provisions et répare votre coque. \" ÉTRANGER. APPRÉCIATION : "
 "ÉTERNELLE. VEUILLEZ AVOIR : RÉPARATION + RÉCOMPENSE + RENOMMÉE \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1407
+#: src-en/data/events_fr_sector_commonwealth.xml:1416
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"LIST_CREW_ENGI\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:1422
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"fr_commonwealth\"]/text"
 msgstr "(Équipage Commonwealth) Réparez l'auto-vaisseau."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1409
+#: src-en/data/events_fr_sector_commonwealth.xml:1424
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"fr_commonwealth\"]/event/text"
 msgstr ""
@@ -2024,7 +2054,12 @@ msgstr ""
 " APPRÉCIATION : ÉTERNELLE. VEUILLEZ AVOIR : RÉPARATION + RÉCOMPENSE + "
 "RENOMMÉE \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1418
+#: src-en/data/events_fr_sector_commonwealth.xml:1428
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_AUTO\"]/choice[@req=\"fr_commonwealth\"]/event/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:1436
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_AUTO_ESCAPE\"]/text"
 msgstr ""
@@ -2032,7 +2067,12 @@ msgstr ""
 "diffuser votre tentative de meurtre à tous les êtres vivants de la zone tri-"
 "stellaire. Tant pis..."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1423
+#: src-en/data/events_fr_sector_commonwealth.xml:1438
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_AUTO_ESCAPE\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:1444
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/text"
 msgstr ""
@@ -2041,73 +2081,73 @@ msgstr ""
 " constamment bombardée par des astéroïdes. À ce rythme, ils ne tiendront pas"
 " beaucoup plus longtemps."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1428
+#: src-en/data/events_fr_sector_commonwealth.xml:1449
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"DRONE_CONTROL_DEFENSE\"]/text"
 msgstr ""
 "(Drone de défense) Utilisez un drone de défense pour protéger leur vaisseau."
 " [-1|]"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1432
+#: src-en/data/events_fr_sector_commonwealth.xml:1453
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"DRONE_CONTROL_OVERCHARGER\"]/text"
 msgstr ""
 "(Drone Surchageur) Utilisez un drone Surchageur pour protéger leur vaisseau."
 " [-1|]"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1436
+#: src-en/data/events_fr_sector_commonwealth.xml:1457
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"DRONE_CONTROL_REPAIR_CREW\"]/text"
 msgstr ""
 "(Drone de maintenance) Envoyez un drone de maintenance pour réparer leurs "
 "boucliers. [-1|]"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1440
+#: src-en/data/events_fr_sector_commonwealth.xml:1461
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"BLUELIST_BOMB_REPAIR\"]/text"
 msgstr ""
 "(Grappe de réparation) Lancez une bombe réparante sur leurs boucliers. [-1|]"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1444
+#: src-en/data/events_fr_sector_commonwealth.xml:1465
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"teleporter\"]/text"
 msgstr "(Téléporteur) Proposez de les téléporter à bord de votre vaisseau."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1448
+#: src-en/data/events_fr_sector_commonwealth.xml:1469
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"BLUELIST_ARMOR\"]/text"
 msgstr ""
 "(Blindage de Coque) Protégez leur vaisseau avec le vôtre et escortez-les "
 "hors de là."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1452
+#: src-en/data/events_fr_sector_commonwealth.xml:1473
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[@req=\"COMBAT_REPAIR\"]/text"
 msgstr "(Disperseur de Réparobots) Réparez leurs boucliers avec les nanobots."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1456
+#: src-en/data/events_fr_sector_commonwealth.xml:1477
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[8]/text"
 msgstr "Attaquer le vaisseau."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1458
+#: src-en/data/events_fr_sector_commonwealth.xml:1479
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[8]/event/text"
 msgstr ""
 "Bien que gravement endommagé par le champ d'astéroïdes, l'ennemi ne recule "
 "pas devant un combat."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1461
+#: src-en/data/events_fr_sector_commonwealth.xml:1482
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[8]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1467
+#: src-en/data/events_fr_sector_commonwealth.xml:1488
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[9]/text"
 msgstr "Restez en arrière et ne vous impliquez pas."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1469
+#: src-en/data/events_fr_sector_commonwealth.xml:1490
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[9]/event/text"
 msgstr ""
@@ -2115,17 +2155,17 @@ msgstr ""
 " un vaisseau d'étrangers. Vous pouvez sauter maintenant, ou vous pouvez "
 "essayer de récupérer de la ferraille du vaisseau en détresse."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1471
+#: src-en/data/events_fr_sector_commonwealth.xml:1492
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[9]/event/choice[1]/text"
 msgstr "Ne risquez rien."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1475
+#: src-en/data/events_fr_sector_commonwealth.xml:1496
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE\"]/choice[9]/event/choice[2]/text"
 msgstr "Essayez de ramasser de la ferraille."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1483
+#: src-en/data/events_fr_sector_commonwealth.xml:1504
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_SUCCESS\"]/text"
 msgstr ""
@@ -2136,7 +2176,12 @@ msgstr ""
 "que j'avais raison. S'il vous plaît, prenez cette arme : c'est le moins que "
 "je puisse faire. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1490
+#: src-en/data/events_fr_sector_commonwealth.xml:1507
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_SUCCESS\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:1514
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_TELEPORT\"]/event[1]/text"
 msgstr ""
@@ -2146,7 +2191,7 @@ msgstr ""
 "toujours reconnaissant de lui avoir sauvé la vie et décide de servir sur "
 "votre vaisseau à partir de maintenant."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1494
+#: src-en/data/events_fr_sector_commonwealth.xml:1518
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_TELEPORT\"]/event[2]/text"
 msgstr ""
@@ -2155,7 +2200,7 @@ msgstr ""
 "commence à examiner la situation et décide que vous servir est sa meilleure "
 "chance de survie."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1501
+#: src-en/data/events_fr_sector_commonwealth.xml:1525
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_GREEDY\"]/event[1]/text"
 msgstr ""
@@ -2163,7 +2208,7 @@ msgstr ""
 "astéroïdes se faufilent à travers vos défenses, vous laissant avec quelques "
 "trous dans votre vaisseau à gérer."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1510
+#: src-en/data/events_fr_sector_commonwealth.xml:1534
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_GREEDY\"]/event[2]/text"
 msgstr ""
@@ -2172,7 +2217,7 @@ msgstr ""
 "vaisseau Commonwealth par ses dégâts et à son explosion. Tant pis, plus de "
 "choses à collectionner."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1514
+#: src-en/data/events_fr_sector_commonwealth.xml:1538
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_ASTEROIDS_RESCUE_GREEDY\"]/event[3]/text"
 msgstr ""
@@ -2181,7 +2226,7 @@ msgstr ""
 "vous éloignez et chargez votre générateur SPL avant que les choses "
 "n'empirent."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1524
+#: src-en/data/events_fr_sector_commonwealth.xml:1548
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/text"
 msgstr ""
@@ -2193,12 +2238,12 @@ msgstr ""
 "vous n'êtes pas bien préparé, elle désactivera vos boucliers et vos armes, "
 "vous laissant sans défense et désarmé. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1528
+#: src-en/data/events_fr_sector_commonwealth.xml:1552
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1530
+#: src-en/data/events_fr_sector_commonwealth.xml:1554
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/text"
 msgstr ""
@@ -2209,12 +2254,12 @@ msgstr ""
 "bataille. Gagnez, et vous pourrez garder cette technologie pour votre propre"
 " usage. Qu'en dites-vous, Étranger ? \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1532
+#: src-en/data/events_fr_sector_commonwealth.xml:1556
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/choice[1]/text"
 msgstr "Marché conclu, que le combat commence !"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1534
+#: src-en/data/events_fr_sector_commonwealth.xml:1558
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/choice[1]/event/text"
 msgstr ""
@@ -2222,34 +2267,34 @@ msgstr ""
 "votre soute et attendent que vous l'installiez. Une fois vos préparatifs "
 "terminés, ils activent leurs armes et avancent."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1539
+#: src-en/data/events_fr_sector_commonwealth.xml:1563
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1545
+#: src-en/data/events_fr_sector_commonwealth.xml:1569
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/choice[2]/text"
 msgstr "Refuser le test."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1547
+#: src-en/data/events_fr_sector_commonwealth.xml:1571
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/choice[2]/event/text"
 msgstr ""
 "Le Commonwealth est très déçu, mais ils vous permettent de partir quand "
 "même."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1549
+#: src-en/data/events_fr_sector_commonwealth.xml:1573
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/choice[2]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1553
+#: src-en/data/events_fr_sector_commonwealth.xml:1577
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST\"]/choice/event/choice[2]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1563
+#: src-en/data/events_fr_sector_commonwealth.xml:1587
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER\"]/text"
 msgstr ""
@@ -2258,12 +2303,12 @@ msgstr ""
 "Désactivez vos armes afin que nous puissions retirer l'augmentation et vous "
 "donner votre prix ! \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1565
+#: src-en/data/events_fr_sector_commonwealth.xml:1589
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER\"]/choice[1]/text"
 msgstr "Désactivez vos armes."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1567
+#: src-en/data/events_fr_sector_commonwealth.xml:1591
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER\"]/choice[1]/event/text"
 msgstr ""
@@ -2272,58 +2317,63 @@ msgstr ""
 "récompense arrive peu après : une augmentation à base d'éther qui supprime "
 "complètement la résistance ionique ennemie !"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1574
+#: src-en/data/events_fr_sector_commonwealth.xml:1598
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER\"]/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1580
+#: src-en/data/events_fr_sector_commonwealth.xml:1604
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_SHIP_COMMONWEALTH_PULSAR_TEST_SURRENDER\"]/choice[2]/text"
 msgstr "Les ignorer et continuer à se battre."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1586
+#: src-en/data/events_fr_sector_commonwealth.xml:1610
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_KILL\"]/text"
 msgstr ""
 "Le cœur lourd, vous retirez l'augmentation de test. Si seulement les choses "
 "s'étaient passées différemment..."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1593
+#: src-en/data/events_fr_sector_commonwealth.xml:1614
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_KILL\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:1620
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_BAIL\"]/text"
 msgstr ""
 "\" Étranger, souhaitez-vous arrêter le test ? Vous pouvez retirer "
 "l'augmentation, mais notre combat prendra fin. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1595
+#: src-en/data/events_fr_sector_commonwealth.xml:1622
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_BAIL\"]/choice[1]/text"
 msgstr "Non, nous continuerons à nous battre !"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1600
+#: src-en/data/events_fr_sector_commonwealth.xml:1627
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_BAIL\"]/choice[2]/text"
 msgstr "Oui, arrêtez le test !"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1602
+#: src-en/data/events_fr_sector_commonwealth.xml:1629
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_BAIL\"]/choice[2]/event/text"
 msgstr ""
 "Le Commonwealth est très déçu, mais ils vous permettent de partir quand "
 "même."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1607
+#: src-en/data/events_fr_sector_commonwealth.xml:1634
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_BAIL\"]/choice[2]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1611
+#: src-en/data/events_fr_sector_commonwealth.xml:1638
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_TEST_BAIL\"]/choice[2]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1619
+#: src-en/data/events_fr_sector_commonwealth.xml:1646
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/text"
 msgstr ""
@@ -2331,58 +2381,58 @@ msgstr ""
 "erratique. L'Auto vous hèle et envoie un tas de messages brouillés qui n'ont"
 " aucun sens. Elle ne semble cependant pas agressive."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1623
+#: src-en/data/events_fr_sector_commonwealth.xml:1650
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[@req=\"ION_ARMOR\"]/text"
 msgstr ""
 "(Immunité ionique partielle) Protégez leur vaisseau de la prochaine "
 "impulsion de pulsar."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1627
+#: src-en/data/events_fr_sector_commonwealth.xml:1654
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[@req=\"fr_full_ion_immunity\"]/text"
 msgstr ""
 "(Immunité ionique totale) Protégez leur vaisseau de la prochaine impulsion "
 "de pulsar."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1631
+#: src-en/data/events_fr_sector_commonwealth.xml:1658
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[3]/text"
 msgstr "Attaquer l'Auto."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1633
+#: src-en/data/events_fr_sector_commonwealth.xml:1660
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[3]/event/text"
 msgstr ""
 "L'Auto-vaisseau émet un hurlement terrifiant sur vos communications puis "
 "passe à l'attaque."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1636
+#: src-en/data/events_fr_sector_commonwealth.xml:1663
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[3]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1642
+#: src-en/data/events_fr_sector_commonwealth.xml:1669
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[4]/text"
 msgstr "Le laisser en vie."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1644
+#: src-en/data/events_fr_sector_commonwealth.xml:1671
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[4]/event/text"
 msgstr "Vous vous éloignez lentement de l'Auto et vous préparez à sauter."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1646
+#: src-en/data/events_fr_sector_commonwealth.xml:1673
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[4]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1650
+#: src-en/data/events_fr_sector_commonwealth.xml:1677
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO\"]/choice[4]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1658
+#: src-en/data/events_fr_sector_commonwealth.xml:1685
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO_PARTIAL\"]/text"
 msgstr ""
@@ -2391,7 +2441,7 @@ msgstr ""
 "suffi à surcharger son réacteur et à le faire exploser. Dommage, mais au "
 "moins vous pouvez récupérer ses restes."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1664
+#: src-en/data/events_fr_sector_commonwealth.xml:1691
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO_FULL\"]/text"
 msgstr ""
@@ -2401,7 +2451,12 @@ msgstr ""
 " est de nouveau opérationnelle, elle vous hèle. \" ÉTRANGER. APPRÉCIATION : "
 "ÉTERNELLE. VEUILLEZ AVOIR : RÉCOMPENSE + RENOMMÉE \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1670
+#: src-en/data/events_fr_sector_commonwealth.xml:1694
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_PULSAR_AUTO_FULL\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:1700
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/text"
 msgstr ""
@@ -2413,12 +2468,12 @@ msgstr ""
 "survivre à ces dangereuses éruptions solaires. Je vous suggère de partir "
 "avant que votre coque ne soit trop endommagée. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1673
+#: src-en/data/events_fr_sector_commonwealth.xml:1703
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/text"
 msgstr "Pouvons-nous aider ?"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1675
+#: src-en/data/events_fr_sector_commonwealth.xml:1705
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/text"
 msgstr ""
@@ -2435,12 +2490,12 @@ msgstr ""
 "sauter vers un endroit suffisamment sûr pour que nous puissions la réparer "
 "complètement. Qu'en dites-vous ? \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1677
+#: src-en/data/events_fr_sector_commonwealth.xml:1707
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[1]/text"
 msgstr "Accepter la mission."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1679
+#: src-en/data/events_fr_sector_commonwealth.xml:1709
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -2449,71 +2504,71 @@ msgstr ""
 "d'urgence simplement en activant vos armes. Tout ce que vous avez à faire "
 "maintenant est d'attendre qu'elle saute au loin."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1684
+#: src-en/data/events_fr_sector_commonwealth.xml:1714
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1690
+#: src-en/data/events_fr_sector_commonwealth.xml:1720
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[2]/text"
 msgstr "Nous préférerions vous attaquer à la place."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1692
+#: src-en/data/events_fr_sector_commonwealth.xml:1722
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "La station est prise par surprise, mais elle ne recule pas, activant plutôt "
 "ses armes."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1695
+#: src-en/data/events_fr_sector_commonwealth.xml:1725
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1701
+#: src-en/data/events_fr_sector_commonwealth.xml:1731
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[3]/text"
 msgstr "Cela semble trop risqué. Non, merci."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1703
+#: src-en/data/events_fr_sector_commonwealth.xml:1733
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[3]/event/text"
 msgstr "Le Commonwealth comprend votre hésitation et vous permet de partir."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1705
+#: src-en/data/events_fr_sector_commonwealth.xml:1735
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[3]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1709
+#: src-en/data/events_fr_sector_commonwealth.xml:1739
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[1]/event/choice[3]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1717
+#: src-en/data/events_fr_sector_commonwealth.xml:1747
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[2]/text"
 msgstr "Attaquer la station."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1719
+#: src-en/data/events_fr_sector_commonwealth.xml:1749
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[2]/event/text"
 msgstr ""
 "La station est prise par surprise, mais elle ne recule pas, activant plutôt "
 "ses armes."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1722
+#: src-en/data/events_fr_sector_commonwealth.xml:1752
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[2]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1728
+#: src-en/data/events_fr_sector_commonwealth.xml:1758
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[3]/text"
 msgstr "Faites comme ils ont dit et partez."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1730
+#: src-en/data/events_fr_sector_commonwealth.xml:1760
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[3]/event/text"
 msgstr ""
@@ -2521,17 +2576,17 @@ msgstr ""
 "coque pour tenter de compenser tout dommage que le soleil pourrait vous "
 "causer."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1733
+#: src-en/data/events_fr_sector_commonwealth.xml:1763
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[3]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1737
+#: src-en/data/events_fr_sector_commonwealth.xml:1767
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION\"]/choice[3]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1745
+#: src-en/data/events_fr_sector_commonwealth.xml:1775
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION_ESCAPE\"]/text"
 msgstr ""
@@ -2541,17 +2596,22 @@ msgstr ""
 "d'infrastructure de maintenance que nos Auto-vaisseaux utilisent. Que la "
 "paix soit avec vous, Étranger. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1755
+#: src-en/data/events_fr_sector_commonwealth.xml:1779
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_STATION_ESCAPE\"]/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:1788
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/beaconType/unvisitedTooltip"
 msgstr "C'est l'emplacement d'une ruine."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1756
+#: src-en/data/events_fr_sector_commonwealth.xml:1789
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/beaconType/visitedTooltip"
 msgstr "Emplacement déjà exploré. Il n'y reste rien d'intéressant."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1758
+#: src-en/data/events_fr_sector_commonwealth.xml:1791
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/text"
 msgstr ""
@@ -2560,14 +2620,14 @@ msgstr ""
 "Explorer les ruines devrait être possible, bien que cela nécessite un "
 "équipage spécialisé."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1762
+#: src-en/data/events_fr_sector_commonwealth.xml:1795
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"BLUELIST_CREW_NO2\"]/text"
 msgstr ""
 "(Équipage anaérobie) Envoyez votre équipage anaérobie pour atteindre le "
 "premier point de contrôle."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1766
+#: src-en/data/events_fr_sector_commonwealth.xml:1799
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"LIST_CREW_ROCK\"]/text"
 msgstr ""
@@ -2575,7 +2635,7 @@ msgstr ""
 "avoir juste assez de points de vie pour atteindre le premier point de "
 "contrôle."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1770
+#: src-en/data/events_fr_sector_commonwealth.xml:1803
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"BLUELIST_PHEROMONES\"]/text"
 msgstr ""
@@ -2583,7 +2643,7 @@ msgstr ""
 "phéromones – ils devraient être assez rapides pour atteindre le premier "
 "point de contrôle."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1774
+#: src-en/data/events_fr_sector_commonwealth.xml:1807
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"SPEED_SUITS\"]/text"
 msgstr ""
@@ -2591,14 +2651,14 @@ msgstr ""
 " ils devraient être assez rapides pour atteindre le premier point de "
 "contrôle."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1778
+#: src-en/data/events_fr_sector_commonwealth.xml:1811
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"O2_MASKS\"]/text"
 msgstr ""
 "(Respirateurs d'urgence) Utilisez des respirateurs pour atteindre le premier"
 " point de contrôle."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1782
+#: src-en/data/events_fr_sector_commonwealth.xml:1815
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"LIST_CREW_ORCHID\"]/text"
 msgstr ""
@@ -2606,7 +2666,7 @@ msgstr ""
 "fournir de l'oxygène assez longtemps pour atteindre le premier point de "
 "contrôle."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1786
+#: src-en/data/events_fr_sector_commonwealth.xml:1819
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[@req=\"CREW_OXYGEN\"]/text"
 msgstr ""
@@ -2614,27 +2674,27 @@ msgstr ""
 "devrait pouvoir fournir de l'oxygène assez longtemps pour atteindre le "
 "premier point de contrôle."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1790
+#: src-en/data/events_fr_sector_commonwealth.xml:1823
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[8]/text"
 msgstr "Ignorer les ruines et partir."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1792
+#: src-en/data/events_fr_sector_commonwealth.xml:1825
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[8]/event/text"
 msgstr "Aucune récompense ne vaut les risques, nous ferions mieux de partir."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1794
+#: src-en/data/events_fr_sector_commonwealth.xml:1827
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[8]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1798
+#: src-en/data/events_fr_sector_commonwealth.xml:1831
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS\"]/choice[8]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1806
+#: src-en/data/events_fr_sector_commonwealth.xml:1839
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/text"
 msgstr ""
@@ -2642,82 +2702,82 @@ msgstr ""
 " pouvez l'activer, vous pourrez peut-être localiser des objets de valeur à "
 "proximité."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1808
+#: src-en/data/events_fr_sector_commonwealth.xml:1841
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"LIST_CREW_POWER\"]/text"
 msgstr ""
 "(Équipage générateur de puissance) Utilisez votre équipage générateur de "
 "puissance pour démarrer le système."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1812
+#: src-en/data/events_fr_sector_commonwealth.xml:1845
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"FR_REQUIREMENT_POWER_DRONES_AND_DRONE_CONTROL\"]/text"
 msgstr ""
 "(Drone générateur de puissance) Utilisez votre drone générateur de puissance"
 " pour démarrer le système."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1816
+#: src-en/data/events_fr_sector_commonwealth.xml:1849
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"FR_REQUIREMENT_POWER_WEAPONS_AND_WEAPON_SYSTEM\"]/text"
 msgstr ""
 "(Armes génératrices de puissance) Utilisez votre arme génératrice de "
 "puissance pour démarrer le système."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1820
+#: src-en/data/events_fr_sector_commonwealth.xml:1853
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"zoltan_osmian\"]/text"
 msgstr "(Équipage Osmien) Générez un hologramme pour démarrer le système."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1824
+#: src-en/data/events_fr_sector_commonwealth.xml:1857
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"LIST_CREW_SLUG\"]/text"
 msgstr ""
 "(Équipage Limace) Demandez à votre Limace de scanner le vaisseau à la place."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1828
+#: src-en/data/events_fr_sector_commonwealth.xml:1861
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"BLUELIST_CREW_SNAIL\"]/text"
 msgstr ""
 "(Coquille Télépathique) Demandez à votre Coquille télépathique de scanner le"
 " vaisseau à la place."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1832
+#: src-en/data/events_fr_sector_commonwealth.xml:1865
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"battery\"]/text"
 msgstr ""
 "(Batterie de secours) Utilisez votre sous-système de batterie pour démarrer "
 "le système."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1836
+#: src-en/data/events_fr_sector_commonwealth.xml:1869
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr ""
 "(Générateur d'urgence) Utilisez votre générateur d'urgence pour démarrer le "
 "système."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1840
+#: src-en/data/events_fr_sector_commonwealth.xml:1873
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[9]/text"
 msgstr "Nous ne pouvons pas continuer, faisons demi-tour."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1842
+#: src-en/data/events_fr_sector_commonwealth.xml:1875
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[9]/event/text"
 msgstr ""
 "Votre équipage parvient à revenir en toute sécurité à votre vaisseau, mais "
 "il rentre les mains vides."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1844
+#: src-en/data/events_fr_sector_commonwealth.xml:1877
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[9]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1848
+#: src-en/data/events_fr_sector_commonwealth.xml:1881
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_1\"]/choice[9]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1857
+#: src-en/data/events_fr_sector_commonwealth.xml:1890
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/text"
 msgstr ""
@@ -2727,136 +2787,136 @@ msgstr ""
 "beaucoup plus. Alors qu'il suit le chemin tracé, il rencontre un autre "
 "obstacle : une porte scellée."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1859
+#: src-en/data/events_fr_sector_commonwealth.xml:1892
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"BLUELIST_CREW_STRONG\"]/text"
 msgstr ""
 "(Équipage robuste) Demandez à votre équipage robuste d'ouvrir un passage."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1863
+#: src-en/data/events_fr_sector_commonwealth.xml:1896
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"CREW_FIREARMS\"]/text"
 msgstr ""
 "(Armureries améliorées) Utilisez vos armes à feu supérieures pour ouvrir un "
 "passage."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1867
+#: src-en/data/events_fr_sector_commonwealth.xml:1900
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"BLUELIST_CREW_NODOORS\"]/text"
 msgstr ""
 "(Équipage intangible) Utilisez votre équipage intangible pour traverser le "
 "passage et l'ouvrir de l'intérieur."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1871
+#: src-en/data/events_fr_sector_commonwealth.xml:1904
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"teleporter\"]/text"
 msgstr "(Téléporteur) Téléportez votre équipage de l'autre côté."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1875
+#: src-en/data/events_fr_sector_commonwealth.xml:1908
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"LOCKED_GLOBAL_TELEPORT\"]/text"
 msgstr "(Téléportation centrale) Téléportez votre équipage de l'autre côté."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1879
+#: src-en/data/events_fr_sector_commonwealth.xml:1912
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"DRONE_CONTROL_BOARDING_DAMAGE\"]/text"
 msgstr ""
 "(Drone d'abordage) Demandez à votre drone d'abordage de faire un trou dans "
 "le passage."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1883
+#: src-en/data/events_fr_sector_commonwealth.xml:1916
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"FR_REQUIREMENT_DOOR_CUTTER_DRONES_AND_DRONE_CONTROL\"]/text"
 msgstr ""
 "(Drone découpeur de porte) Demandez à votre drone de percer un trou dans le "
 "passage."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1887
+#: src-en/data/events_fr_sector_commonwealth.xml:1920
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[@req=\"FR_DOOR_BREAKER_CREW\"]/text"
 msgstr ""
 "(Équipage brise-porte) Demandez à votre équipage de faire un trou dans le "
 "passage."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1891
+#: src-en/data/events_fr_sector_commonwealth.xml:1924
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[9]/text"
 msgstr "Nous ne pouvons pas continuer, faisons demi-tour."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1893
+#: src-en/data/events_fr_sector_commonwealth.xml:1926
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[9]/event/text"
 msgstr ""
 "Votre équipage parvient à revenir en toute sécurité à votre vaisseau, mais "
 "il rentre les mains vides."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1895
+#: src-en/data/events_fr_sector_commonwealth.xml:1928
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[9]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1899
+#: src-en/data/events_fr_sector_commonwealth.xml:1932
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_2\"]/choice[9]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1906
+#: src-en/data/events_fr_sector_commonwealth.xml:1939
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/text"
 msgstr ""
 "Votre équipage franchit la dernière pièce avant le coffre-fort. "
 "Malheureusement, elle est lourdement gardée par des drones atomiseurs."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1908
+#: src-en/data/events_fr_sector_commonwealth.xml:1941
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[@req=\"FR_LIST_CREW_COMBAT\"]/text"
 msgstr ""
 "(Équipage de Bataille) Laissez votre équipage de combat mener l'assaut."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1912
+#: src-en/data/events_fr_sector_commonwealth.xml:1945
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[@req=\"DRONE_CONTROL_BOARDING_DAMAGE\"]/text"
 msgstr ""
 "(Drone d'abordage) Envoyez votre drone d'abordage pour engager les drones "
 "atomiseurs."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1916
+#: src-en/data/events_fr_sector_commonwealth.xml:1949
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[@req=\"CREW_FIREARMS\"]/text"
 msgstr ""
 "(Armureries améliorées) Équipez vos soldats d'armes supérieures pour faire "
 "face aux drones atomiseurs."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1920
+#: src-en/data/events_fr_sector_commonwealth.xml:1953
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[@req=\"BLUELIST_BOMBS_CREWDAMAGE\"]/text"
 msgstr ""
 "(Arme à bombe infligeant des dégâts à l'équipage) Exterminez les drones "
 "atomiseurs."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1924
+#: src-en/data/events_fr_sector_commonwealth.xml:1957
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[5]/text"
 msgstr "Nous ne pouvons pas continuer, faisons demi-tour."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1926
+#: src-en/data/events_fr_sector_commonwealth.xml:1959
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[5]/event/text"
 msgstr ""
 "Votre équipage parvient à revenir en toute sécurité à votre vaisseau, mais "
 "il rentre les mains vides."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1928
+#: src-en/data/events_fr_sector_commonwealth.xml:1961
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[5]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1932
+#: src-en/data/events_fr_sector_commonwealth.xml:1965
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_3\"]/choice[5]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1941
+#: src-en/data/events_fr_sector_commonwealth.xml:1974
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_VAULT\"]/text"
 msgstr ""
@@ -2866,12 +2926,12 @@ msgstr ""
 " pistolet Royal. Vous ordonnez à votre équipage de prendre tout ce qu'il "
 "peut."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1951
+#: src-en/data/events_fr_sector_commonwealth.xml:1984
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_VAULT\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1953
+#: src-en/data/events_fr_sector_commonwealth.xml:1986
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_SOLAR_RUINS_ROOM_VAULT\"]/choice/event/text"
 msgstr ""
@@ -2882,7 +2942,7 @@ msgstr ""
 "Commonwealth espérait l'utiliser contre les Royaux, mais en a été empêché. "
 "Votre équipage revient triomphant avec un grand butin."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1961
+#: src-en/data/events_fr_sector_commonwealth.xml:1994
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/text"
 msgstr ""
@@ -2892,86 +2952,86 @@ msgstr ""
 "Quelques minutes plus tard, il parvient à se remettre en ligne, mais il "
 "semble que l'arrêt ait endommagé son alimentation électrique."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1965
+#: src-en/data/events_fr_sector_commonwealth.xml:1998
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[@req=\"LIST_CREW_POWER\"]/text"
 msgstr ""
 "(Équipage générateur de puissance) Utilisez votre équipage générateur de "
 "puissance pour démarrer les systèmes de l'Auto."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1969
+#: src-en/data/events_fr_sector_commonwealth.xml:2002
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[@req=\"FR_REQUIREMENT_POWER_DRONES_AND_DRONE_CONTROL\"]/text"
 msgstr ""
 "(Drone générateur de puissance) Utilisez votre drone générateur de puissance"
 " pour démarrer les systèmes de l'Auto."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1973
+#: src-en/data/events_fr_sector_commonwealth.xml:2006
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[@req=\"FR_REQUIREMENT_POWER_WEAPONS_AND_WEAPON_SYSTEM\"]/text"
 msgstr ""
 "(Armes génératrices de puissance) Utilisez votre arme génératrice de "
 "puissance pour démarrer les systèmes de l'Auto."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1977
+#: src-en/data/events_fr_sector_commonwealth.xml:2010
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[@req=\"zoltan_osmian\"]/text"
 msgstr ""
 "(Équipage Osmien) Générez un hologramme pour démarrer les systèmes de "
 "l'Auto."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1981
+#: src-en/data/events_fr_sector_commonwealth.xml:2014
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[@req=\"battery\"]/text"
 msgstr ""
 "(Batterie de secours) Utilisez votre sous-système de batterie pour démarrer "
 "les systèmes de l'Auto."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1985
+#: src-en/data/events_fr_sector_commonwealth.xml:2018
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[@req=\"DEBUG_GENERATOR\"]/text"
 msgstr ""
 "(Générateur d'urgence) Utilisez votre Générateur d'urgence pour démarrer les"
 " systèmes de l'Auto."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1989
+#: src-en/data/events_fr_sector_commonwealth.xml:2022
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[7]/text"
 msgstr "Attaquer l'Auto."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1991
+#: src-en/data/events_fr_sector_commonwealth.xml:2024
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[7]/event/text"
 msgstr ""
 "L'Auto-vaisseau redirige toute sa puissance restante vers ses systèmes de "
 "combat ; il semble qu'il ne s'effondrera pas sans un combat."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:1994
+#: src-en/data/events_fr_sector_commonwealth.xml:2027
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[7]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2000
+#: src-en/data/events_fr_sector_commonwealth.xml:2033
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[8]/text"
 msgstr "Le laisser en vie."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2002
+#: src-en/data/events_fr_sector_commonwealth.xml:2035
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[8]/event/text"
 msgstr "Vous vous éloignez lentement de l'Auto et vous préparez à sauter."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2004
+#: src-en/data/events_fr_sector_commonwealth.xml:2037
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[8]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2008
+#: src-en/data/events_fr_sector_commonwealth.xml:2041
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO\"]/choice[8]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2017
+#: src-en/data/events_fr_sector_commonwealth.xml:2050
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO_HELP\"]/event[1]/text"
 msgstr ""
@@ -2979,7 +3039,12 @@ msgstr ""
 " que le vaisseau puisse sauter, mais pas avant d'avoir distribué une caisse "
 "de provisions en guise de remerciement."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2023
+#: src-en/data/events_fr_sector_commonwealth.xml:2054
+msgid ""
+"data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO_HELP\"]/event[1]/choice/text"
+msgstr ""
+
+#: src-en/data/events_fr_sector_commonwealth.xml:2059
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_AUTO_HELP\"]/event[2]/text"
 msgstr ""
@@ -2988,35 +3053,35 @@ msgstr ""
 "surcharge dès que vous le chargez, provoquant l'explosion du vaisseau. Vous "
 "démanteler ce que vous pouvez des restes."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2030
+#: src-en/data/events_fr_sector_commonwealth.xml:2066
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS\"]/text"
 msgstr ""
 "Cette balise semble être les séquelles d'une bataille féroce, avec des "
 "débris de vaisseaux de flotte et de croiseurs."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2034
+#: src-en/data/events_fr_sector_commonwealth.xml:2070
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS\"]/choice[@req=\"pilot\"]/text"
 msgstr ""
 "(Pilotage amélioré) Demandez à votre pilote d'explorer soigneusement les "
 "débris."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2038
+#: src-en/data/events_fr_sector_commonwealth.xml:2074
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS\"]/choice[@req=\"ADV_SCANNERS\"]/text"
 msgstr ""
 "(Scanners à longue portée) Utilisez vos scanners pour obtenir une lecture "
 "détaillée des débris."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2042
+#: src-en/data/events_fr_sector_commonwealth.xml:2078
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS\"]/choice[@req=\"sensors\"]/text"
 msgstr ""
 "(Capteurs améliorés) Utilisez vos capteurs avancés pour obtenir une lecture "
 "détaillée des débris."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2046
+#: src-en/data/events_fr_sector_commonwealth.xml:2082
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS\"]/choice[@req=\"FR_SCAN_AND_PILOT\"]/text"
 msgstr ""
@@ -3024,17 +3089,17 @@ msgstr ""
 "une lecture détaillée des débris et votre pilotage amélioré pour explorer "
 "soigneusement les débris."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2050
+#: src-en/data/events_fr_sector_commonwealth.xml:2086
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS\"]/choice[5]/text"
 msgstr "Tenter d'explorer les débris sans outils appropriés."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2054
+#: src-en/data/events_fr_sector_commonwealth.xml:2090
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS\"]/choice[6]/text"
 msgstr "Ignorer les débris."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2056
+#: src-en/data/events_fr_sector_commonwealth.xml:2092
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS\"]/choice[6]/event/text"
 msgstr ""
@@ -3042,24 +3107,24 @@ msgstr ""
 "s'occuper de tous ces vaisseaux cassés. Vous attendez que votre SPL se "
 "charge."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2058
+#: src-en/data/events_fr_sector_commonwealth.xml:2094
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS\"]/choice[6]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2062
+#: src-en/data/events_fr_sector_commonwealth.xml:2098
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS\"]/choice[6]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2071
+#: src-en/data/events_fr_sector_commonwealth.xml:2107
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_GAMBLE\"]/event[1]/text"
 msgstr ""
 "Vous ne trouvez pas grand-chose sur le terrain. Après un certain temps, vous"
 " décidez d'abandonner la recherche."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2074
+#: src-en/data/events_fr_sector_commonwealth.xml:2110
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_GAMBLE\"]/event[2]/text"
 msgstr ""
@@ -3068,7 +3133,7 @@ msgstr ""
 "quoi vous vous attendiez, mais au moins vous ne repartez pas les mains "
 "vides."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2078
+#: src-en/data/events_fr_sector_commonwealth.xml:2114
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_GAMBLE\"]/event[3]/text"
 msgstr ""
@@ -3077,14 +3142,14 @@ msgstr ""
 "! Votre équipage parvient à récupérer quelques objets mais non sans de "
 "lourdes pertes."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2082
+#: src-en/data/events_fr_sector_commonwealth.xml:2118
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_GAMBLE\"]/event[3]/removeCrew/text"
 msgstr ""
 "Heureusement, votre membre d'équipage était suffisamment proche du vaisseau "
 "pour que la salle des clones puisse le réanimer."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2086
+#: src-en/data/events_fr_sector_commonwealth.xml:2122
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_GAMBLE\"]/event[4]/text"
 msgstr ""
@@ -3093,7 +3158,7 @@ msgstr ""
 "encombre à l'aller, vous n'avez pas autant de chance au retour. Au moins, "
 "vous en avez tiré une quantité décente de ressources."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2094
+#: src-en/data/events_fr_sector_commonwealth.xml:2130
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_SCAN\"]/event[1]/text"
 msgstr ""
@@ -3102,7 +3167,7 @@ msgstr ""
 "quoi vous vous attendiez, mais au moins vous ne repartez pas les mains "
 "vides."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2098
+#: src-en/data/events_fr_sector_commonwealth.xml:2134
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_SCAN\"]/event[2]/text"
 msgstr ""
@@ -3111,7 +3176,7 @@ msgstr ""
 "pièges avant que vous ne puissiez les déclencher accidentellement, vous "
 "permettant de récupérer le butin sans aucun problème."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2102
+#: src-en/data/events_fr_sector_commonwealth.xml:2138
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_SCAN\"]/event[3]/text"
 msgstr ""
@@ -3121,7 +3186,7 @@ msgstr ""
 " vous a permis d'obtenir un gain plus important que vous n'auriez eu "
 "autrement."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2110
+#: src-en/data/events_fr_sector_commonwealth.xml:2146
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_PILOT\"]/event[1]/text"
 msgstr ""
@@ -3130,7 +3195,7 @@ msgstr ""
 "quoi vous vous attendiez, mais au moins vous ne repartez pas les mains "
 "vides."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2114
+#: src-en/data/events_fr_sector_commonwealth.xml:2150
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_PILOT\"]/event[2]/text"
 msgstr ""
@@ -3139,14 +3204,14 @@ msgstr ""
 "! Vous subissez de lourdes pertes mais vous parvenez à récupérer la majeure "
 "partie du butin du coffre-fort grâce à votre pilotage amélioré."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2118
+#: src-en/data/events_fr_sector_commonwealth.xml:2154
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_PILOT\"]/event[2]/removeCrew/text"
 msgstr ""
 "Heureusement, votre membre d'équipage était suffisamment proche du vaisseau "
 "pour que la salle des clones puisse le réanimer."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2122
+#: src-en/data/events_fr_sector_commonwealth.xml:2158
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_PILOT\"]/event[3]/text"
 msgstr ""
@@ -3156,7 +3221,7 @@ msgstr ""
 " récupérer du matériel sans risque de dommages. Vous repartez avec plus de "
 "ressources que prévu."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2129
+#: src-en/data/events_fr_sector_commonwealth.xml:2165
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_BOTH\"]/event[1]/text"
 msgstr ""
@@ -3164,7 +3229,7 @@ msgstr ""
 "vaisseau de la flotte. Vos scans et votre pilotage vous permettent d'en "
 "obtenir beaucoup plus que prévu."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2133
+#: src-en/data/events_fr_sector_commonwealth.xml:2169
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_BOTH\"]/event[2]/text"
 msgstr ""
@@ -3173,7 +3238,7 @@ msgstr ""
 "pièges avant que vous ne puissiez les déclencher accidentellement, vous "
 "permettant de récupérer le butin sans aucun problème."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2137
+#: src-en/data/events_fr_sector_commonwealth.xml:2173
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//eventList[@name=\"FR_NEUTRAL_COMMONWEALTH_STORM_DEBRIS_BOTH\"]/event[3]/text"
 msgstr ""
@@ -3183,20 +3248,20 @@ msgstr ""
 " récupérer du matériel sans risque de dommages. Vous repartez avec plus de "
 "ressources que prévu."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2143
+#: src-en/data/events_fr_sector_commonwealth.xml:2179
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/text"
 msgstr ""
 "Cette balise abrite une station Commonwealth qui se nomme une \" raffinerie "
 "\". Elle semble spécialisée dans les gaz de nébuleuse."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2147
+#: src-en/data/events_fr_sector_commonwealth.xml:2183
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/text"
 msgstr "Contacter la raffinerie."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2149
+#: src-en/data/events_fr_sector_commonwealth.xml:2185
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"-999\"]/event/text"
@@ -3205,13 +3270,13 @@ msgstr ""
 "qu'ils décident de vous offrir un réservoir gratuit de gaz rares de "
 "nébuleuse avant de vous remercier de votre visite."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2154
+#: src-en/data/events_fr_sector_commonwealth.xml:2190
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/text"
 msgstr "Contacter la raffinerie."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2156
+#: src-en/data/events_fr_sector_commonwealth.xml:2192
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/text"
@@ -3221,44 +3286,44 @@ msgstr ""
 "à les vendre avec une forte réduction si vous diffusez l'information sur "
 "notre raffinerie. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2158
+#: src-en/data/events_fr_sector_commonwealth.xml:2194
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice[1]/text"
 msgstr "Marché conclu !"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2165
+#: src-en/data/events_fr_sector_commonwealth.xml:2201
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice[2]/text"
 msgstr "Non, merci."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2167
+#: src-en/data/events_fr_sector_commonwealth.xml:2203
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice[2]/event/text"
 msgstr ""
 "Les ouvriers semblent déçus, mais ils vous permettent de partir quand même."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2169
+#: src-en/data/events_fr_sector_commonwealth.xml:2205
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice[2]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2173
+#: src-en/data/events_fr_sector_commonwealth.xml:2209
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"0\"]/event/choice[2]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2181
+#: src-en/data/events_fr_sector_commonwealth.xml:2217
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/text"
 msgstr "Contacter le magasin."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2183
+#: src-en/data/events_fr_sector_commonwealth.xml:2219
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/text"
@@ -3266,50 +3331,50 @@ msgstr ""
 "La station ne répond pas par des mots - au lieu de cela, leurs armes "
 "s'activent !"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2186
+#: src-en/data/events_fr_sector_commonwealth.xml:2222
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[@req=\"fr_rep_commonwealth\""
 " and @lvl=\"3\"]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2192
+#: src-en/data/events_fr_sector_commonwealth.xml:2228
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[4]/text"
 msgstr "Attaquer la raffinerie."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2194
+#: src-en/data/events_fr_sector_commonwealth.xml:2230
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[4]/event/text"
 msgstr ""
 "Les armes de la station s'animent ; il semble qu'ils s'attendaient à ce que "
 "vous soyez hostile."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2197
+#: src-en/data/events_fr_sector_commonwealth.xml:2233
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[4]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2203
+#: src-en/data/events_fr_sector_commonwealth.xml:2239
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[5]/text"
 msgstr "Ignorer la raffinerie."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2205
+#: src-en/data/events_fr_sector_commonwealth.xml:2241
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[5]/event/text"
 msgstr "Vous coupez votre radio et vous préparez à sauter."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2207
+#: src-en/data/events_fr_sector_commonwealth.xml:2243
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[5]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2211
+#: src-en/data/events_fr_sector_commonwealth.xml:2247
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_REFINERY\"]/choice[5]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2219
+#: src-en/data/events_fr_sector_commonwealth.xml:2255
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_PIRATE\"]/text"
 msgstr ""
@@ -3317,12 +3382,12 @@ msgstr ""
 "\n"
 "\tSoudain, ils vous hèlent et bloquent votre charge SPL. \" Étranger, faisons vite. Nous achèterons ton silence, ou il y aura des problèmes. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2225
+#: src-en/data/events_fr_sector_commonwealth.xml:2261
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_PIRATE\"]/choice[1]/text"
 msgstr "Acceptez leur pot-de-vin."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2227
+#: src-en/data/events_fr_sector_commonwealth.xml:2263
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_PIRATE\"]/choice[1]/event/text"
 msgstr ""
@@ -3332,22 +3397,22 @@ msgstr ""
 "petit bug ne fera rien si tu gardes ta bouche fermée. Maintenant, avance, tu"
 " attires trop l'attention sur notre position. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2232
+#: src-en/data/events_fr_sector_commonwealth.xml:2268
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_PIRATE\"]/choice[2]/text"
 msgstr "Attaquez les pirates !"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2234
+#: src-en/data/events_fr_sector_commonwealth.xml:2270
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_PIRATE\"]/choice[2]/event/text"
 msgstr "Le pirate secoue la tête. \" Mauvais choix, Étranger. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2237
+#: src-en/data/events_fr_sector_commonwealth.xml:2273
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_NEBULA_PIRATE\"]/choice[2]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2245
+#: src-en/data/events_fr_sector_commonwealth.xml:2281
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC_AUTO\"]/text"
 msgstr ""
@@ -3355,49 +3420,49 @@ msgstr ""
 "cette balise. Vous tentez de la héler, mais il semble qu'elle vous ignore ou"
 " que ses communications soient hors ligne."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2248
+#: src-en/data/events_fr_sector_commonwealth.xml:2284
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC_AUTO\"]/choice[1]/text"
 msgstr "Attaquer l'Auto."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2250
+#: src-en/data/events_fr_sector_commonwealth.xml:2286
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC_AUTO\"]/choice[1]/event/text"
 msgstr "L'Auto entre en action dès que vous activez vos armes."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2253
+#: src-en/data/events_fr_sector_commonwealth.xml:2289
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC_AUTO\"]/choice[1]/event/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2259
+#: src-en/data/events_fr_sector_commonwealth.xml:2295
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC_AUTO\"]/choice[2]/text"
 msgstr "Le laisser en vie."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2261
+#: src-en/data/events_fr_sector_commonwealth.xml:2297
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC_AUTO\"]/choice[2]/event/text"
 msgstr ""
 "L'Auto finit par vous répondre, vous envoyant une salutation joyeuse avant "
 "de vous transférer une caisse de ressources en guise de remerciement."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2264
+#: src-en/data/events_fr_sector_commonwealth.xml:2300
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC_AUTO\"]/choice[2]/event/choice[1]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2268
+#: src-en/data/events_fr_sector_commonwealth.xml:2304
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_NEUTRAL_COMMONWEALTH_GENERIC_AUTO\"]/choice[2]/event/choice[2]/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2296
+#: src-en/data/events_fr_sector_commonwealth.xml:2332
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_HOSTILE_COMMONWEALTH_AUTO\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2302
+#: src-en/data/events_fr_sector_commonwealth.xml:2338
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_AUTO\"]/text[1]"
 msgstr ""
@@ -3405,7 +3470,7 @@ msgstr ""
 "frôlant à peine vos boucliers. Vous tentez de les héler pour demander ce qui"
 " se passe, mais vous n'entendez que du bruit statique en retour."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2303
+#: src-en/data/events_fr_sector_commonwealth.xml:2339
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_AUTO\"]/text[2]"
 msgstr ""
@@ -3413,12 +3478,12 @@ msgstr ""
 "répondent seulement : \" ÉTRANGER DÉTECTÉ. MENACE IMMINENTE ! \" avant "
 "d'attaquer."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2304
+#: src-en/data/events_fr_sector_commonwealth.xml:2340
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_AUTO\"]/text[3]"
 msgstr "\" ÉTRANGER. TON EXISTENCE EST : ILLÉGALE. S'IL TE PLAÎT : MEURS \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2305
+#: src-en/data/events_fr_sector_commonwealth.xml:2341
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_AUTO\"]/text[4]"
 msgstr ""
@@ -3426,7 +3491,7 @@ msgstr ""
 "plus sujettes aux erreurs et aux défaillances que les nobles. C'est peut-"
 "être dû à tout l'équipement ionique qu'elles transportent."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2306
+#: src-en/data/events_fr_sector_commonwealth.xml:2342
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_AUTO\"]/text[5]"
 msgstr ""
@@ -3434,33 +3499,33 @@ msgstr ""
 "amis, ils ne partagent pas le même amour pour les Auto-vaisseaux. C'est "
 "peut-être pour cela qu'ils agissent si souvent de manière excessive."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2307
+#: src-en/data/events_fr_sector_commonwealth.xml:2343
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_AUTO\"]/text[6]"
 msgstr ""
 "L'Auto-vaisseau transmet une forme de musique classique sur vos "
 "communications avant de passer à l'attaque. Au moins, il a du goût."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2308
+#: src-en/data/events_fr_sector_commonwealth.xml:2344
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_AUTO\"]/text[7]"
 msgstr ""
 "Vous vous demandez si C.I.C.A est au courant des Auto-Obélisques. Les "
 "déteste-t-elle ou ressent-elle une sorte de camaraderie envers eux ?"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2316
+#: src-en/data/events_fr_sector_commonwealth.xml:2352
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_HOSTILE_COMMONWEALTH_GENERIC\"]/choice/text"
 msgstr ""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2322
+#: src-en/data/events_fr_sector_commonwealth.xml:2358
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_GENERIC\"]/text[1]"
 msgstr ""
 "\" Étranger ! Ta persévérance à survivre est admirable, mais futile. Je "
 "ferai en sorte que ton nom ne soit pas oublié. \""
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2323
+#: src-en/data/events_fr_sector_commonwealth.xml:2359
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_GENERIC\"]/text[2]"
 msgstr ""
@@ -3468,7 +3533,7 @@ msgstr ""
 "attaques. Il semble que les mots ne puissent pas vous aider dans toutes les "
 "situations."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2324
+#: src-en/data/events_fr_sector_commonwealth.xml:2360
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_GENERIC\"]/text[3]"
 msgstr ""
@@ -3476,7 +3541,7 @@ msgstr ""
 "mais ils ne sont pas un monolithe, et tous ne partagent pas la même foi "
 "envers les Étrangers. Preuve en est."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2325
+#: src-en/data/events_fr_sector_commonwealth.xml:2361
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_GENERIC\"]/text[4]"
 msgstr ""
@@ -3484,7 +3549,7 @@ msgstr ""
 "êtes agressé verbalement par les insultes les plus viles imaginables avant "
 "qu'ils n'ouvrent le feu."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2326
+#: src-en/data/events_fr_sector_commonwealth.xml:2362
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_GENERIC\"]/text[5]"
 msgstr ""
@@ -3492,7 +3557,7 @@ msgstr ""
 "constamment ionisés. Il semble, cependant, que vous n'aurez pas encore votre"
 " pause."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2327
+#: src-en/data/events_fr_sector_commonwealth.xml:2363
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_GENERIC\"]/text[6]"
 msgstr ""
@@ -3500,7 +3565,7 @@ msgstr ""
 "que les attaquer n'est pas la bonne solution... à moins qu'ils n'attaquent "
 "les premiers, c'est-à-dire, comme maintenant !"
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2328
+#: src-en/data/events_fr_sector_commonwealth.xml:2364
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//textList[@name=\"FR_TEXT_HOSTILE_COMMONWEALTH_GENERIC\"]/text[7]"
 msgstr ""
@@ -3509,7 +3574,7 @@ msgstr ""
 "interrompues par un tir devant votre proue, alors qu'un vaisseau "
 "Commonwealth se dirige vers vous pour attaquer."
 
-#: src-en/data/events_fr_sector_commonwealth.xml:2336
+#: src-en/data/events_fr_sector_commonwealth.xml:2372
 msgid ""
 "data/events_fr_sector_commonwealth.xml$//event[@name=\"FR_HOSTILE_COMMONWEALTH_GENERIC_LARGE\"]/choice/text"
 msgstr ""
