@@ -1,14 +1,23 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-09-03 13:36+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/forgotten-races/dataevents_fr_sector_warzonexml/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_fr_sector_warzone.xml:107
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_MIXED_SIGNAL\"]/text"
 msgstr ""
+"敌舰似乎正在向附近的一支舰队发送求救信号！不过，由于双方舰队正在交战，让这个"
+"信号发出去也意味着敌方自己也会成为目标。"
 
 #: src-en/data/events_fr_sector_warzone.xml:109
 msgid ""
@@ -16,10 +25,11 @@ msgid ""
 msgstr "（信号稀释器）阻塞对方通讯。"
 
 #: src-en/data/events_fr_sector_warzone.xml:111
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_MIXED_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
-msgstr "当没有反舰炮台激活时，你认为这是一个好兆头，说明你的增强部件功能正常，于是你继续战斗。"
+msgstr ""
+"当没有反舰炮台激活时，你认为这是一个好兆头，说明你的增强部件功能正常，于是你"
+"继续战斗。"
 
 #: src-en/data/events_fr_sector_warzone.xml:115
 msgid ""
@@ -29,7 +39,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:124
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_HOSTILE_SIGNAL\"]/text"
-msgstr ""
+msgstr "敌舰似乎正在向附近的一支舰队发送求救信号！准备承受冲击！"
 
 #: src-en/data/events_fr_sector_warzone.xml:126
 msgid ""
@@ -37,10 +47,11 @@ msgid ""
 msgstr "（信号稀释器）阻塞对方通讯。"
 
 #: src-en/data/events_fr_sector_warzone.xml:128
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_HOSTILE_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
-msgstr "当没有反舰炮台激活时，你认为这是一个好兆头，说明你的增强部件功能正常，于是你继续战斗。"
+msgstr ""
+"当没有反舰炮台激活时，你认为这是一个好兆头，说明你的增强部件功能正常，于是你"
+"继续战斗。"
 
 #: src-en/data/events_fr_sector_warzone.xml:132
 msgid ""
@@ -51,6 +62,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_ALLY_SIGNAL\"]/text"
 msgstr ""
+"一艘友军舰船似乎正在向附近的一支舰队发送求救信号！如果你不需要增援，可以拦截"
+"它。"
 
 #: src-en/data/events_fr_sector_warzone.xml:143
 msgid ""
@@ -58,10 +71,11 @@ msgid ""
 msgstr "（信号稀释器）阻塞对方通讯。"
 
 #: src-en/data/events_fr_sector_warzone.xml:145
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_ALLY_SIGNAL\"]/choice[@req=\"PDS_DISABLE\"]/event/text"
-msgstr "当没有反舰炮台激活时，你认为这是一个好兆头，说明你的增强部件功能正常，于是你继续战斗。"
+msgstr ""
+"当没有反舰炮台激活时，你认为这是一个好兆头，说明你的增强部件功能正常，于是你"
+"继续战斗。"
 
 #: src-en/data/events_fr_sector_warzone.xml:149
 msgid ""
@@ -71,12 +85,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:179
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "联邦研究总部的所在地。"
 
 #: src-en/data/events_fr_sector_warzone.xml:180
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "已探索的位置。没有留下任何有价值的东西。"
 
 #: src-en/data/events_fr_sector_warzone.xml:181
 msgid ""
@@ -87,26 +101,44 @@ msgstr "未去过的位置。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/text"
 msgstr ""
+"你抵达了联邦研究总部，至少是它的残骸，不过考虑到不久前它还遭到了一整支舰队的"
+"攻击，它的状况好得令人惊讶。一艘小型联邦侦察机扫描了你的舰船，以确认你不是敌"
+"舰，然后朝着基地飞走了。"
 
 #: src-en/data/events_fr_sector_warzone.xml:186
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/text"
-msgstr ""
+msgstr "跟随那艘舰船。"
 
 #: src-en/data/events_fr_sector_warzone.xml:188
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/text"
 msgstr ""
+"侦察兵带你来到设施的着陆平台；旅程短暂且平静，无线电静得令人不安。在降落你的"
+"舰船并下船后，迎接你的是一位破旧的、断了一臂、面罩破裂的半械保卫者，两侧是两"
+"名联邦精英士兵。\n"
+"\n"
+"“联邦变元者，欢迎。我是：首席科学家 HS-98A。专业领域 = 旗舰级舰船。我负责：复"
+"仇计划。”半械解释道，尽管他们破旧的语音合成器在努力跟上他们的思路。\n"
+"\n"
+"“计划当时 = 接近完成，叛军发动了袭击。他们偷走了：为联邦制造的原型旗舰。我们"
+"被迫：教他们如何驾驶它，否则我们全都会被杀死。”半械的语调似乎一如既往地毫无感"
+"情，但你能在他们合成的声音中想象出一丝遗憾。"
 
 #: src-en/data/events_fr_sector_warzone.xml:194
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/text"
-msgstr ""
+msgstr "让我猜猜，你想让我们去回收那艘舰船？"
 
 #: src-en/data/events_fr_sector_warzone.xml:196
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/text"
 msgstr ""
+"半械机械地点了点头。“这正是本单元所希望的，是的。如果那艘旗舰被叛军改造，本单"
+"元担心它可能会毁灭我们的现实。”半械说话的语气几乎听起来很严峻。\n"
+"                                       \n"
+"“我知道变元者不为免费工作。因此我提议一个：互惠互利安排。你清除旗舰上的叛军，"
+"同时保持舰船 = 完好无损，你可以保留该舰船的：蓝图。这个提议听起来怎么样？”"
 
 #: src-en/data/events_fr_sector_warzone.xml:200
 msgid ""
@@ -117,16 +149,22 @@ msgstr "算我们一个！"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
+"半械点了点头。“很好。幸运的是，我们可以追踪：那艘旗舰。我们会在地图上添加一个"
+"标记。” HS-98A 将坐标传输到你的舰船，然后暂时关机，几秒后重新启动。"
 
 #: src-en/data/events_fr_sector_warzone.xml:205
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/choice/text"
-msgstr ""
+msgstr "你还好吗？"
 
 #: src-en/data/events_fr_sector_warzone.xml:207
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/choice/event/text"
 msgstr ""
+"半械族迟缓地点了点头。“我的形态在叛军面前无足轻重。”突然，半械停顿了一下，然"
+"后匆忙转向你。“似乎还有另一个问题，变元者。星联也派出了一艘他们自己的旗舰。目"
+"前看来：它正在攻击叛军。然而，一旦叛军被解决，他们肯定会将炮口转向：联邦。你"
+"愿意也处理这个威胁吗？本单元确信你也会因此获得：补偿。”"
 
 #: src-en/data/events_fr_sector_warzone.xml:209
 msgid ""
@@ -137,16 +175,18 @@ msgstr "好的。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/choice/event/choice[1]/event/text"
 msgstr ""
+"半械点了点头，然后他们的身体慢慢关闭，不过这次他们没有重新启动。守卫们感谢你"
+"的帮助，然后让你继续上路。"
 
 #: src-en/data/events_fr_sector_warzone.xml:216
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/choice/event/choice[2]/text"
-msgstr ""
+msgstr "我们手头的事已经够多了。我们必须通过。"
 
 #: src-en/data/events_fr_sector_warzone.xml:218
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[1]/event/choice/event/choice[2]/event/text"
-msgstr ""
+msgstr "半械慢慢关闭，这次是永久关闭。士兵们引导你回到你的舰船，你带着目标出发了。"
 
 #: src-en/data/events_fr_sector_warzone.xml:220
 msgid ""
@@ -161,12 +201,12 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:234
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[2]/text"
-msgstr ""
+msgstr "那听起来太危险了，我们不能冒这个险。"
 
 #: src-en/data/events_fr_sector_warzone.xml:236
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[1]/event/choice/event/choice[2]/event/text"
-msgstr ""
+msgstr "半械点了点头，然后允许你和你的船员离开。"
 
 #: src-en/data/events_fr_sector_warzone.xml:238
 msgid ""
@@ -181,12 +221,12 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:252
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[2]/text"
-msgstr ""
+msgstr "这很可疑，避开那艘舰船并准备跳跃离开。"
 
 #: src-en/data/events_fr_sector_warzone.xml:254
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ\"]/choice[2]/event/text"
-msgstr ""
+msgstr "知道这个星区有多危险，信任任何随机舰船，即使是联邦的，现在也是太大的风险。"
 
 #: src-en/data/events_fr_sector_warzone.xml:256
 msgid ""
@@ -201,27 +241,34 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:270
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "被偷走的联邦旗舰的位置。"
 
 #: src-en/data/events_fr_sector_warzone.xml:271
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "已探索的位置。没有留下任何有价值的东西。"
 
 #: src-en/data/events_fr_sector_warzone.xml:281
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/text"
 msgstr ""
+"你已经追踪到了被偷走的联邦旗舰的位置；它似乎位于一个叛军机库的中央。安保也出"
+"奇地松懈，不过你怀疑这种情况不会持续太久。"
 
 #: src-en/data/events_fr_sector_warzone.xml:286
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击那艘旗舰。"
 
 #: src-en/data/events_fr_sector_warzone.xml:288
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[1]/event/text"
 msgstr ""
+"你向前冲锋，迫使那艘舰船与你交战。看来叛军没有足够的时间把舰船完全涂成叛军的"
+"颜色。不过，它的武器似乎已经完全激活。你突然收到了旗舰的通讯。屏幕上出现了一"
+"个戴着飞行员头盔、遮住火红头发的叛军。“这么说，你就是联邦派来阻止我们的那个变"
+"元者，嗯？真是可爱。我们的伟业可不是你这种溜须拍马的联邦走狗能阻止的。准备好"
+"感受叛军的怒火吧！因为我，维克多，将把你击倒！”"
 
 #: src-en/data/events_fr_sector_warzone.xml:291
 msgid ""
@@ -232,11 +279,16 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[1]/event/choice[@req=\"unique_vance\"]/text"
 msgstr ""
+"（万斯本尊）“站住，士兵！我命令你撤离那艘旗舰，并完好无损地把它送回联邦总部！"
+"”"
 
 #: src-en/data/events_fr_sector_warzone.xml:297
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[1]/event/choice[@req=\"unique_vance\"]/event/text"
 msgstr ""
+"维克多眨了眨眼，然后他们的脸因纯粹的愤怒而扭曲。“你这个叛徒！你离开我们，跑回"
+"联邦那个腐朽的肮脏巢穴！你不是叛军！你是耻辱，是病毒！我很乐意清除掉你！”维克"
+"多关闭了通讯并发动攻击，留下万斯怒火中烧。"
 
 #: src-en/data/events_fr_sector_warzone.xml:299
 msgid ""
@@ -246,12 +298,14 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:307
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[2]/text"
-msgstr ""
+msgstr "离开。"
 
 #: src-en/data/events_fr_sector_warzone.xml:309
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP\"]/choice[2]/event/text"
 msgstr ""
+"攻击这艘舰船无异于向马蜂窝扔石头。你决定还是好好活着，于是在被发现之前迅速离"
+"开了"
 
 #: src-en/data/events_fr_sector_warzone.xml:311
 msgid ""
@@ -267,6 +321,8 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP_DEADCREW\"]/text"
 msgstr ""
+"当最后剩下的叛军倒下时，你知道没有时间可以浪费了。叛军在他们死前肯定已经请求"
+"了增援，这意味着如果你想拿到蓝图，就必须动作快点。"
 
 #: src-en/data/events_fr_sector_warzone.xml:326
 msgid ""
@@ -277,6 +333,9 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_FEDERATION_FLAGSHIP_DEADCREW\"]/choice/event/text"
 msgstr ""
+"花了一分钟才找到正确的设计图，你设法拿到了它。遗憾的是该项目不会很快部署，但"
+"至少你阻止了叛军使用它。你还在出去的路上找到了一把独特的改装枪。它似乎只留给"
+"最高级别的联邦士兵专用，但你认为拿走它应该没问题。"
 
 #: src-en/data/events_fr_sector_warzone.xml:332
 msgid ""
@@ -286,27 +345,35 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:343
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "被偷走的星联旗舰的位置。"
 
 #: src-en/data/events_fr_sector_warzone.xml:344
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "已探索的位置。没有留下任何有价值的东西。"
 
 #: src-en/data/events_fr_sector_warzone.xml:354
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/text"
 msgstr ""
+"你已经追踪到了星联旗舰的位置，它似乎正专注于攻击一个叛军小前哨站。除了几艘技"
+"师舰船外，几乎没有舰船在防守它，没有你的帮助它们撑不了多久。"
 
 #: src-en/data/events_fr_sector_warzone.xml:359
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击那艘旗舰。"
 
 #: src-en/data/events_fr_sector_warzone.xml:361
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/choice[1]/event/text"
 msgstr ""
+"你向前冲锋，迫使旗舰与你交战。你收到了来自旗舰的传输；另一端正是岩石长老本人"
+"！\n"
+"\n"
+"“啊，那艘虚弱的、可悲的联邦舰船；我听说过很多关于你挣扎的事迹。你根本不知道自"
+"己正在面对什么，是吗？我是岩莫，负责圣判所的长老，我来这里是为了确保叛军和联"
+"邦都没有任何可能帮助他们对抗圣战的技术。我会很享受看着你挣扎的，小飞虫。”"
 
 #: src-en/data/events_fr_sector_warzone.xml:366
 msgid ""
@@ -316,12 +383,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:372
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/choice[2]/text"
-msgstr ""
+msgstr "叛军能自己应付。"
 
 #: src-en/data/events_fr_sector_warzone.xml:374
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP\"]/choice[2]/event/text"
-msgstr ""
+msgstr "是他们挑起了这场混乱；在你看来，这就是因果报应。"
 
 #: src-en/data/events_fr_sector_warzone.xml:376
 msgid ""
@@ -337,6 +404,8 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DESTROYED\"]/text"
 msgstr ""
+"那艘巨大的旗舰裂成两半，然后爆炸了。虽然你救了那些技师，但旗舰的蓝图现在永远"
+"丢失了。"
 
 #: src-en/data/events_fr_sector_warzone.xml:392
 msgid ""
@@ -347,6 +416,14 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DESTROYED\"]/choice/event/text"
 msgstr ""
+"你很快被前哨站那个穿着 MV 叛军配色制服的技术人员呼叫。“变元者，感谢上苍你来了"
+"！那艘旗舰，它突然攻击了我们！这个前哨站不是用来战斗的；它只是一个修理我们自"
+"动舰船的地方。我们仅有的几艘防御舰船在几秒钟内就被摧毁了……我无法想象如果你没"
+"有及时赶到会发生什么。”\n"
+"\n"
+"那个叛军清了清嗓子。“我叫乔恩。我是这里的首席技师，由1号宇宙派遣来帮助培训新"
+"一代革新社技工。不过，亲眼目睹叛军在这里造成的所有破坏……我担心我不再适合这份"
+"工作了。你介意我加入你的船员吗？”"
 
 #: src-en/data/events_fr_sector_warzone.xml:397
 msgid ""
@@ -357,6 +434,9 @@ msgstr "乔恩·布里格斯"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DEADCREW\"]/text"
 msgstr ""
+"岩莫进行了一场顽强的战斗，是最后一个倒下的；然而，即使是他那把强大的锤子也无"
+"法阻止你。你迅速找到控制面板，下载了蓝图，然后拆解了舰船。你还发现了一件独特"
+"的武器，比标准型号强大得多，可能只预留给星联最强大的士兵使用。"
 
 #: src-en/data/events_fr_sector_warzone.xml:408
 msgid ""
@@ -367,6 +447,14 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_FEDERATION_HQ_COALITION_FLAGSHIP_DEADCREW\"]/choice/event/text"
 msgstr ""
+"你很快被前哨站那个穿着 MV 叛军配色制服的技术人员呼叫。“变元者，感谢上苍你来了"
+"！那艘旗舰，它突然攻击了我们！这个前哨站不是用来战斗的；它只是一个修理我们自"
+"动舰船的地方。我们仅有的几艘防御舰船在几秒钟内就被摧毁了……我无法想象如果你没"
+"有及时赶到会发生什么。”\n"
+"\n"
+"那个叛军清了清嗓子。“我叫乔恩。我是这里的首席技师，由1号宇宙派遣来帮助培训新"
+"一代革新社技工。不过，亲眼目睹叛军在这里造成的所有破坏……我担心我不再适合这份"
+"工作了。你介意我加入你的船员吗？”"
 
 #: src-en/data/events_fr_sector_warzone.xml:413
 msgid ""
@@ -401,42 +489,55 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:478
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/text"
-msgstr ""
+msgstr "这么说你就是传说中的紫胡子？"
 
 #: src-en/data/events_fr_sector_warzone.xml:480
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/text"
 msgstr ""
+"那个海盗听到这个名字畏缩了一下，但慢慢点了点头。“……是的，我是……不过……我希望我"
+"不是……”那个人移开了视线。他的眼睛只在瞬间可见：一只，是义眼，另一只，是一只玻"
+"璃义眼，上面有一道垂直的疤痕穿过。“……我猜……你想杀了我？”"
 
 #: src-en/data/events_fr_sector_warzone.xml:482
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/text"
-msgstr ""
+msgstr "其实并不想。"
 
 #: src-en/data/events_fr_sector_warzone.xml:484
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/event/text"
 msgstr ""
+"这位传说人物似乎对你的坦白感到惊讶。“……你……不想？……为什么？我可是全多元宇宙头"
+"号通缉犯！”你又瞥见了他的眼睛。似乎流露出惊讶，或许还有一丝希望。"
 
 #: src-en/data/events_fr_sector_warzone.xml:486
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/event/choice/text"
-msgstr ""
+msgstr "我们是变元者；在某些地方，我们的名声并不比你好多少。"
 
 #: src-en/data/events_fr_sector_warzone.xml:488
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/event/choice/event/text"
 msgstr ""
+"那个人发出一声干涩的笑声，然后猛烈地咳嗽起来。等他恢复后，他再次开口。“……我明"
+"白了……那么……如果你不想杀我……你想要什么？”"
 
 #: src-en/data/events_fr_sector_warzone.xml:490
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/event/choice/event/choice/text"
-msgstr ""
+msgstr "你似乎并不喜欢当海盗。为什么不加入我们的船员，成为一名英雄呢？"
 
 #: src-en/data/events_fr_sector_warzone.xml:492
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[1]/event/choice/event/choice/event/text"
 msgstr ""
+"紫胡子愣住了，他的眼睛现在完全可见。眼角泛起一丝泪光，然后迅速被他苍老的袖子"
+"拭去。他微微一笑，终于直视着你的眼睛。“……呵……你不是我见过的最奇怪的变元者……说"
+"实话……我一直希望能……重新开始……好吧，变元者……我接受你的提议……不过……我不能就这"
+"么离开……像我这样的传说人物理应得到一个好的结局……这样吧……你将与我和我的船员战"
+"斗……随意，你想多暴力都行……让它配得上我的传说……战斗结束后，拆解这艘舰船……我有"
+"一个计划……请准备……”"
 
 #: src-en/data/events_fr_sector_warzone.xml:496
 msgid ""
@@ -452,6 +553,8 @@ msgstr "是的。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_WARZONE_PURPLE_BEARD\"]/choice/event/choice[2]/event/text"
 msgstr ""
+"那个海盗叹了口气。“……好吧……祝你好运……变元者……”通讯切断了，海盗的武器进入了战"
+"斗状态。"
 
 #: src-en/data/events_fr_sector_warzone.xml:511
 msgid ""
@@ -462,31 +565,51 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$/dummyroot/FTL/event[@name=\"FR_WARZONE_PURPLE_BEARD_WIN\"]/text"
 msgstr ""
+"海盗舰队突然停止了行动，因为他们意识到传说人物已经被击败了。你很快被海盗舰队"
+"中一个巨大的岩石流放者呼叫。“你……你杀了他……我简直不敢相信自己的眼睛！变元者！"
+"我不知道你是否意识到你刚刚做了什么，但通过杀死紫胡子，你现在将取代他在我们传"
+"说中的地位！”然后她呼叫了所有其他舰队舰船。“所有人！立即停止攻击变元者！他现"
+"在是我们的领袖！”你突然被信标中每一艘海盗船的通讯淹没了，都在唱颂歌赞美你。没"
+"过多久，一艘小型海盗穿梭机送来了一箱补给品。看来当海盗是有回报的……有时候。"
 
 #: src-en/data/events_fr_sector_warzone.xml:527
 msgid ""
 "data/events_fr_sector_warzone.xml$/dummyroot/FTL/event[@name=\"FR_WARZONE_PURPLE_BEARD_WIN_PLAN\"]/text"
 msgstr ""
+"海盗舰队突然停止了行动，因为他们意识到传说人物已经被击败了。你很快被海盗舰队"
+"中一个巨大的岩石流放者呼叫。“你……你杀了他……我简直不敢相信自己的眼睛！变元者！"
+"我不知道你是否意识到你刚刚做了什么，但通过杀死紫胡子，你现在将取代他在我们传"
+"说中的地位！”然后她呼叫了所有其他舰队舰船。“所有人！立即停止攻击变元者！他现"
+"在是我们的领袖！”你突然被信标中每一艘海盗船的通讯淹没了，都在唱颂歌赞美你。没"
+"过多久，一艘小型海盗穿梭机送来了一箱补给品。看来当海盗是有回报的……有时候。"
 
 #: src-en/data/events_fr_sector_warzone.xml:531
 msgid ""
 "data/events_fr_sector_warzone.xml$/dummyroot/FTL/event[@name=\"FR_WARZONE_PURPLE_BEARD_WIN_PLAN\"]/choice/text"
-msgstr ""
+msgstr "继续拆解那艘舰船。"
 
 #: src-en/data/events_fr_sector_warzone.xml:533
 msgid ""
 "data/events_fr_sector_warzone.xml$/dummyroot/FTL/event[@name=\"FR_WARZONE_PURPLE_BEARD_WIN_PLAN\"]/choice/event/text"
 msgstr ""
+"你几乎快要把舰船的其余部分拆解完时，看到了一个隐藏得如此之好的密封房间，你差"
+"点错过了它。打开之后，迎接你的是一个隐藏的小型克隆舱，它刚刚完成了对紫胡子的"
+"克隆！把他带回你的舰船，让他稍微恢复一下后，他带着灿烂的笑容向你走来。“变元者"
+"！能……打完一架后看到你安然无恙真是太好了……”他痛苦地笑了笑，拍了拍你的肩膀，力"
+"道比他这个年纪的人预期的要大。"
 
 #: src-en/data/events_fr_sector_warzone.xml:535
 msgid ""
 "data/events_fr_sector_warzone.xml$/dummyroot/FTL/event[@name=\"FR_WARZONE_PURPLE_BEARD_WIN_PLAN\"]/choice/event/choice/text"
-msgstr ""
+msgstr "这就是你的计划吗？"
 
 #: src-en/data/events_fr_sector_warzone.xml:537
 msgid ""
 "data/events_fr_sector_warzone.xml$/dummyroot/FTL/event[@name=\"FR_WARZONE_PURPLE_BEARD_WIN_PLAN\"]/choice/event/choice/event/text"
 msgstr ""
+"他慢慢地点了点头。“现在所有人都以为我已经死了……我的传说终于可以安息了……而且……"
+"为了感谢你给了我新生命……我会在你的旅程中帮助你……变元者……或者我应该叫你……‘海盗"
+"传说’……”他眨了眨眼，干涩地笑了笑。"
 
 #: src-en/data/events_fr_sector_warzone.xml:538
 msgid ""
@@ -497,6 +620,8 @@ msgstr "紫胡子"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_COALITION\"]/destroyed/text"
 msgstr ""
+"当你看着星联飞船解体时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是谁想"
+"出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:568
 msgid ""
@@ -507,6 +632,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_COALITION\"]/destroyed/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:573
 msgid ""
@@ -517,6 +644,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_COALITION\"]/deadCrew/text"
 msgstr ""
+"当他们的最后一名船员倒下时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是"
+"谁想出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:583
 msgid ""
@@ -527,6 +656,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_COALITION\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:588
 msgid ""
@@ -537,6 +668,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION_COALITION\"]/text"
 msgstr ""
+"附近的一家联邦商店正受到一艘 R.U.E.S. 舰船的攻击。他们的防御正在迅速瓦解；没"
+"有你的帮助，他们撑不了多久了！"
 
 #: src-en/data/events_fr_sector_warzone.xml:606
 msgid ""
@@ -559,7 +692,6 @@ msgid ""
 msgstr "无视商人。"
 
 #: src-en/data/events_fr_sector_warzone.xml:619
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION_COALITION\"]/choice[2]/event/text"
 msgstr "幸运的是，自动舰无视了你的存在。"
@@ -578,6 +710,8 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_REBEL\"]/destroyed/text"
 msgstr ""
+"你摧毁了叛军精英舰船：这可不是件容易的事。这还不足以影响整个舰队，但依然是一"
+"场伟大的胜利。"
 
 #: src-en/data/events_fr_sector_warzone.xml:637
 msgid ""
@@ -588,6 +722,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_REBEL\"]/destroyed/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:642
 msgid ""
@@ -598,6 +734,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_REBEL\"]/deadCrew/text"
 msgstr ""
+"你消灭了叛军精英舰船上的所有船员：这可不是件容易的事。不过，这还不足以影响整"
+"个舰队，但依然是一场伟大的胜利。"
 
 #: src-en/data/events_fr_sector_warzone.xml:652
 msgid ""
@@ -608,6 +746,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_REBEL\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:657
 msgid ""
@@ -618,6 +758,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION_REBEL\"]/text"
 msgstr ""
+"附近的一家联邦商店正受到一艘 MFK 王牌舰船的攻击。他们正试图反击，但很快就被压"
+"制了。"
 
 #: src-en/data/events_fr_sector_warzone.xml:679
 msgid ""
@@ -640,7 +782,6 @@ msgid ""
 msgstr "无视商人。"
 
 #: src-en/data/events_fr_sector_warzone.xml:692
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION_REBEL\"]/choice[2]/event/text"
 msgstr "幸运的是，自动舰无视了你的存在。"
@@ -663,24 +804,26 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:717
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DESTROYED_FEDERATION_STATION_ELITE\"]/choice/event/text"
-msgstr ""
+msgstr "精英联邦空间站的货物似乎幸免。里面有一件功能完好的武器，你把它搬回了船上。"
 
 #: src-en/data/events_fr_sector_warzone.xml:728
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION\"]/text"
 msgstr ""
+"附近的一个精英联邦前哨站出人意料地仍在营业，尽管它正处于这个战区的中心。舰队"
+"大概给了他们足够的保护，让他们不必完全封锁。"
 
 #: src-en/data/events_fr_sector_warzone.xml:732
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION\"]/choice[@req=\"rep_comb_federation\""
 " and @lvl=\"-999\"]/text"
-msgstr ""
+msgstr "看看他们提供什么。"
 
 #: src-en/data/events_fr_sector_warzone.xml:734
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION\"]/choice[@req=\"rep_comb_federation\""
 " and @lvl=\"-999\"]/event/text"
-msgstr ""
+msgstr "在你购物之前，你还有时间在舰船上做点别的事。"
 
 #: src-en/data/events_fr_sector_warzone.xml:737
 msgid ""
@@ -698,13 +841,15 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION\"]/choice[@req=\"rep_comb_federation\""
 " and @lvl=\"2\"]/text"
-msgstr ""
+msgstr "看看他们提供什么。"
 
 #: src-en/data/events_fr_sector_warzone.xml:749
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION\"]/choice[@req=\"rep_comb_federation\""
 " and @lvl=\"2\"]/event/text"
 msgstr ""
+"当你试图停靠到空间站时，你的传感器注意到它的武器突然激活了！“我们听说了你所有"
+"的恶行，变元者！我们不会让你把我们的工作变得更难的！”"
 
 #: src-en/data/events_fr_sector_warzone.xml:752
 msgid ""
@@ -715,12 +860,14 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:758
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION\"]/choice[@req=\"LIST_CREW_FEDERATION_ELITE_EASTER\"]/text"
-msgstr ""
+msgstr "（精英联邦船员）请求军用物资。"
 
 #: src-en/data/events_fr_sector_warzone.xml:760
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION\"]/choice[@req=\"LIST_CREW_FEDERATION_ELITE_EASTER\"]/event/text"
 msgstr ""
+"“一名联邦士兵！你一定是一艘非常重要的舰船！由于我们有多余的武器，我们很乐意赠"
+"送你一件作为感谢。”"
 
 #: src-en/data/events_fr_sector_warzone.xml:765
 msgid ""
@@ -735,12 +882,12 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:775
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION\"]/choice[@req=\"unique_tully\"]/text"
-msgstr ""
+msgstr "（塔利）请求军用物资。"
 
 #: src-en/data/events_fr_sector_warzone.xml:777
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION\"]/choice[@req=\"unique_tully\"]/event/text"
-msgstr ""
+msgstr "“塔利上将？很荣幸终于见到您！请收下这件武器作为礼物，并随意浏览我们的商店！”"
 
 #: src-en/data/events_fr_sector_warzone.xml:782
 msgid ""
@@ -753,7 +900,6 @@ msgid ""
 msgstr "跳过。"
 
 #: src-en/data/events_fr_sector_warzone.xml:792
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION\"]/choice[5]/text"
 msgstr "攻击空间站。"
@@ -762,6 +908,8 @@ msgstr "攻击空间站。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_FEDERATION\"]/choice[5]/event/text"
 msgstr ""
+"没有什么能阻止你成为一个无情掠夺你所遇到的一切的人。希望你没有挑起一场打不赢"
+"的战斗。"
 
 #: src-en/data/events_fr_sector_warzone.xml:797
 msgid ""
@@ -771,17 +919,17 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:806
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_STATION_COALITION\"]/surrender/text"
-msgstr ""
+msgstr "“好吧！我们明白了，你非常厉害！我们会让你交易的，不过快点！”"
 
 #: src-en/data/events_fr_sector_warzone.xml:808
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_STATION_COALITION\"]/surrender/choice[1]/text"
-msgstr ""
+msgstr "停止开火并进行交易。"
 
 #: src-en/data/events_fr_sector_warzone.xml:810
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_STATION_COALITION\"]/surrender/choice[1]/event/text"
-msgstr ""
+msgstr "R.U.E.S. 空间站关闭了武器。你担心这是某种陷阱，但你现在已经太远了，无法回头。"
 
 #: src-en/data/events_fr_sector_warzone.xml:815
 msgid ""
@@ -791,7 +939,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:817
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_STATION_COALITION\"]/surrender/choice[1]/event/choice/event/text"
-msgstr ""
+msgstr "在你购物之前，你还有时间在舰船上做点别的事。"
 
 #: src-en/data/events_fr_sector_warzone.xml:820
 msgid ""
@@ -806,22 +954,25 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:832
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_STATION_COALITION\"]/surrender/choice[2]/text"
-msgstr ""
+msgstr "拒绝并彻底摧毁空间站。"
 
 #: src-en/data/events_fr_sector_warzone.xml:845
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/text"
 msgstr ""
+"看起来星联在这个信标建立了一个精英前进前哨站，很可能是为了支持他们进入这个星"
+"区的攻势。安保很严密，R.U.E.S. 舰队遍布空间站周围。也许如果你有合适的船员，你"
+"可以把舰船伪装成星联间谍船？"
 
 #: src-en/data/events_fr_sector_warzone.xml:849
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/choice[@req=\"FR_LIST_CREW_RUES\"]/text"
-msgstr ""
+msgstr "（R.U.E.S. 精英船员）获得访问权限。"
 
 #: src-en/data/events_fr_sector_warzone.xml:851
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/choice[@req=\"FR_LIST_CREW_RUES\"]/event/text"
-msgstr ""
+msgstr "你的船员不得不加班加点地说服守卫，但最终他们让你进去了。"
 
 #: src-en/data/events_fr_sector_warzone.xml:854
 msgid ""
@@ -836,7 +987,7 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:864
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/choice[@req=\"fr_unique_mantis_queen\"]/text"
-msgstr ""
+msgstr "（莱孔普利纳克拉）莱孔普利纳克拉要求进入！"
 
 #: src-en/data/events_fr_sector_warzone.xml:866
 msgid ""
@@ -856,7 +1007,7 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:883
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/choice[@req=\"unique_nights\"]/text"
-msgstr ""
+msgstr "（七夜）七夜要求进入！"
 
 #: src-en/data/events_fr_sector_warzone.xml:885
 msgid ""
@@ -876,7 +1027,7 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:902
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/choice[@req=\"unique_tyrdeo\"]/text"
-msgstr ""
+msgstr "（泰迪奥）泰迪奥要求进入！"
 
 #: src-en/data/events_fr_sector_warzone.xml:904
 msgid ""
@@ -896,12 +1047,12 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:921
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/choice[5]/text"
-msgstr ""
+msgstr "攻击前哨站；也许他们会尊重你的力量并让你交易？"
 
 #: src-en/data/events_fr_sector_warzone.xml:923
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/choice[5]/event/text"
-msgstr ""
+msgstr "你准备攻击前哨站。正如所料，他们向附近的舰队发出了 ASB 增援请求。"
 
 #: src-en/data/events_fr_sector_warzone.xml:928
 msgid ""
@@ -909,10 +1060,11 @@ msgid ""
 msgstr "（信号稀释器）阻塞对方通讯。"
 
 #: src-en/data/events_fr_sector_warzone.xml:930
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/choice[5]/event/choice[@req=\"PDS_DISABLE\"]/event/text"
-msgstr "当没有反舰炮台激活时，你认为这是一个好兆头，说明你的增强部件功能正常，于是你继续战斗。"
+msgstr ""
+"当没有反舰炮台激活时，你认为这是一个好兆头，说明你的增强部件功能正常，于是你"
+"继续战斗。"
 
 #: src-en/data/events_fr_sector_warzone.xml:933
 msgid ""
@@ -927,12 +1079,14 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:945
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/choice[6]/text"
-msgstr ""
+msgstr "我们在这里什么也做不了。"
 
 #: src-en/data/events_fr_sector_warzone.xml:947
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_COALITION\"]/choice[6]/event/text"
 msgstr ""
+"完全是浪费，但你没有可以用来潜入的东西，而且攻击前哨站风险太大，因为它被舰队"
+"包围着。"
 
 #: src-en/data/events_fr_sector_warzone.xml:949
 msgid ""
@@ -948,11 +1102,13 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_STATION_REBEL\"]/destroyed/text"
 msgstr ""
+"前哨站已被摧毁。虽然残骸本身留下了大量补给品，但其货物中的任何额外补给品肯定"
+"都已被摧毁。"
 
 #: src-en/data/events_fr_sector_warzone.xml:967
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_STATION_REBEL\"]/deadCrew/text"
-msgstr ""
+msgstr "前哨站的船员已被消灭。你在调查内部之前拆解了舰船的外部。"
 
 #: src-en/data/events_fr_sector_warzone.xml:970
 msgid ""
@@ -962,22 +1118,27 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:972
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_STATION_REBEL\"]/deadCrew/choice/event/text"
-msgstr ""
+msgstr "幸运的是，叛军似乎储备了大量资源，现在所有这些都归你了。"
 
 #: src-en/data/events_fr_sector_warzone.xml:988
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/text"
 msgstr ""
+"看起来叛军急于在这个星区安顿下来。一个贸易前哨站已经在这个信标建立，可能是为"
+"了作为过往叛军舰船以及包围它的舰队的检查站。实际上，只有精英叛军船员才能和他"
+"们有所进展。"
 
 #: src-en/data/events_fr_sector_warzone.xml:992
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[@req=\"human_technician\"]/text"
-msgstr ""
+msgstr "（革新社技工）假装是一艘叛军舰船。"
 
 #: src-en/data/events_fr_sector_warzone.xml:994
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[@req=\"human_technician\"]/event/text"
 msgstr ""
+"你的技工设法伪装得足够好，让前哨站相信了你的谎言。他们让你交易，还给了你一些"
+"补给品。"
 
 #: src-en/data/events_fr_sector_warzone.xml:998
 msgid ""
@@ -992,12 +1153,14 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:1008
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[@req=\"human_mfk\"]/text"
-msgstr ""
+msgstr "（MFK王牌）假装是一艘叛军舰船。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1010
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[@req=\"human_mfk\"]/event/text"
 msgstr ""
+"你的 MFK 王牌设法伪装得足够好，让前哨站相信了你的谎言。他们让你交易，还给了你"
+"一些补给品。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1014
 msgid ""
@@ -1012,12 +1175,14 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:1024
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[@req=\"unique_vance\"]/text"
-msgstr ""
+msgstr "（万斯本尊）“致敬，忠诚的士兵！允许我们停靠和购物，这是命令！”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1026
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[@req=\"unique_vance\"]/event/text"
 msgstr ""
+"“哦——哦靠！当然，长官！这边请！”空间站里的士兵们全都手忙脚乱地准备迎接他们的"
+"领袖。其中一名 MFK 王牌甚至提出要加入你的舰船。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1030
 msgid ""
@@ -1032,12 +1197,15 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:1040
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[@req=\"fr_unique_vance_one\"]/text"
-msgstr ""
+msgstr "（1号万斯）“致敬，士兵！允许我们停靠和购物，这是命令！”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1042
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[@req=\"fr_unique_vance_one\"]/event/text"
 msgstr ""
+"负责通讯的 MFK 王牌士兵眨了眨眼，然后喊道：“1号？！你他妈在这里干什么？！不管"
+"你的计划是什么，我们都不会让它得逞！伙计们，各就各位！我们有只老鼠要碾碎！”前"
+"哨站进入了敌对状态，不再接受任何通讯。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1044
 msgid ""
@@ -1047,12 +1215,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1050
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[5]/text"
-msgstr ""
+msgstr "攻击空间站；也许他们有备用补给！"
 
 #: src-en/data/events_fr_sector_warzone.xml:1052
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[5]/event/text"
-msgstr ""
+msgstr "你启动武器并攻击前哨站。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1055
 msgid ""
@@ -1062,12 +1230,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1061
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[6]/text"
-msgstr ""
+msgstr "无视前哨站。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1063
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_REBEL\"]/choice[6]/event/text"
-msgstr ""
+msgstr "你飞过前哨站，决定在这个本已充满敌意的星区不再引发更多冲突。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1065
 msgid ""
@@ -1083,26 +1251,34 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_STATION_PIRATE\"]/destroyed/text"
 msgstr ""
+"无论他们多有影响力，归根结底他们还是海盗。当你看着他们那用不义之财建立的空间"
+"站化为尘土时，你松了一口气，因为他们不会让这个星区变得更像地狱了。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1083
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_STORE_STATION_PIRATE\"]/deadCrew/text"
-msgstr ""
+msgstr "现在连最顽固的海盗也阻止不了你了。这个星区又少了一个祸害。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1096
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_PIRATE\"]/text"
 msgstr ""
+"“看来即使是这个饱受战火摧残的地方，也难逃海盗的魔爪。一群非常有影响力和富有的"
+"海盗决定在这个星区建立一个黑市商店，可能是希望从受损的舰船上轻松获得一些销售"
+"或打捞品。这些海盗似乎也不是等闲之辈，所以与他们打交道时要小心。\n"
+"\n"
+"当你接近空间站时，你看到了一个似乎由海盗组成的舰队。那些无关联的海盗是如何设"
+"法偷到多艘舰队舰船的，这让你无法理解，但你怀疑它们不仅仅是用来展示的。”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1102
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_PIRATE\"]/choice[1]/text"
-msgstr ""
+msgstr "去市场购物。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1104
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_PIRATE\"]/choice[1]/event/text"
-msgstr ""
+msgstr "一些精英走私者欢迎你进入，并提供一些不太合法的服务和商品。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1107
 msgid ""
@@ -1117,12 +1293,15 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:1117
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_PIRATE\"]/choice[@req=\"human_angel\"]/text"
-msgstr ""
+msgstr "（死亡使者船员）要求进贡。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1119
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_PIRATE\"]/choice[@req=\"human_angel\"]/event/text"
 msgstr ""
+"海盗们立刻注意到了你的死亡使者船员，商店的首领呼叫你：“好好好，我们这儿来了个"
+"什么？威尔的头号人物之一？现在，我们可不想和他打架，不如这样，我们给你点小意"
+"思，你在这儿看到的任何东西都别往外说？”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1123
 msgid ""
@@ -1137,12 +1316,16 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:1133
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_PIRATE\"]/choice[@req=\"fr_unique_purple_beard\"]/text"
-msgstr ""
+msgstr "（紫胡子）要求进贡。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1135
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_PIRATE\"]/choice[@req=\"fr_unique_purple_beard\"]/event/text"
 msgstr ""
+"海盗们一看到那个海盗头目出现在通讯画面中，就立刻认出了他，商店的首领呼叫你：“"
+"把我转个身然后叫我胖墩！这不是传说中的紫胡子本人吗！没想到我们竟能见到传说人"
+"物！让我亲自做你的导游，带你参观我们这个小‘修缮工坊’，并且，请收下这个小礼物"
+"，作为海盗同僚之间的一点小意思。”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1139
 msgid ""
@@ -1162,7 +1345,7 @@ msgstr "攻击海盗！"
 #: src-en/data/events_fr_sector_warzone.xml:1151
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_PIRATE\"]/choice[4]/event/text"
-msgstr ""
+msgstr "这些渣滓终究还是不法之徒，不管他们是不是在经营市场。是时候终结他们的恶行了。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1154
 msgid ""
@@ -1172,12 +1355,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1160
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_PIRATE\"]/choice[5]/text"
-msgstr ""
+msgstr "无视市场。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1162
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_STORE_WARZONE_PIRATE\"]/choice[5]/event/text"
-msgstr ""
+msgstr "你不打算做任何黑市交易。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1164
 msgid ""
@@ -1193,6 +1376,9 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_GIFT\"]/text"
 msgstr ""
+"一艘精英联邦舰船呼叫你。“变元者！这个星区到处都是想要我们死的人。在这种时候，"
+"我们必须互相照应。我们有一件多余的武器，是几次跃迁前从一艘 MFK 王牌舰船上捡来"
+"的；我们用不上，所以不如给你吧。”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1202
 msgid ""
@@ -1204,7 +1390,7 @@ msgstr "接受。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_GIFT\"]/choice[@req=\"rep_comb_federation\""
 " and @lvl=\"-999\"]/event/text"
-msgstr ""
+msgstr "联邦舰长笑了笑，把武器连同一个小包裹的资源一起发送了过来。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1210
 msgid ""
@@ -1217,6 +1403,8 @@ msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_GIFT\"]/choice[@req=\"rep_comb_federation\""
 " and @lvl=\"2\"]/event/text"
 msgstr ""
+"联邦舰长正要发送武器时，突然认出了你是谁。“等等！你就是那个自从到了这里就一直"
+"给我们惹麻烦的可恶变元者！像你这样的渣滓只配去死！”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1215
 msgid ""
@@ -1227,12 +1415,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1221
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_GIFT\"]/choice[3]/text"
-msgstr ""
+msgstr "攻击那艘联邦舰船！"
 
 #: src-en/data/events_fr_sector_warzone.xml:1223
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_GIFT\"]/choice[3]/event/text"
-msgstr ""
+msgstr "舰长对你的突然背叛感到震惊。“叛徒！我早该知道你们这种人不可信！”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1226
 msgid ""
@@ -1242,12 +1430,14 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1232
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_GIFT\"]/choice[4]/text"
-msgstr ""
+msgstr "拒绝他们的提议。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1234
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_GIFT\"]/choice[4]/event/text"
 msgstr ""
+"你感谢了舰长，并保证你的装备足够应对这个星区。舰长虽然困惑，但无论如何还是接"
+"受了你的选择。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1236
 msgid ""
@@ -1263,46 +1453,58 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_DEBRIS\"]/text"
 msgstr ""
+"这个信标似乎是三方势力之间一场大规模小规模冲突的发生地，周围散落着残骸。其中"
+"一些残骸还没有被海盗拆解过，尽管他们回来取走剩下的只是时间问题。在海盗到来之"
+"前，你有足够的时间打捞一艘舰船。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1252
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_DEBRIS\"]/choice[1]/text"
-msgstr ""
+msgstr "打捞联邦残骸。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1254
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_DEBRIS\"]/choice[1]/event/text"
 msgstr ""
+"你快速打捞了统一舰船。真可惜，一艘如此有潜力的舰船却落得如此悲惨的下场。令你"
+"惊讶的是，你在舰船内部发现了一名幸存者！你救了他们之后，他们提出要加入你的船"
+"员。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1260
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_DEBRIS\"]/choice[2]/text"
-msgstr ""
+msgstr "打捞叛军残骸。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1262
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_DEBRIS\"]/choice[2]/event/text"
 msgstr ""
+"你快速打捞了 MFK 王牌舰船。看来万斯那支可怕的大舰队并没有你想象的那么强大。在"
+"舰船内部，你发现了一件奇怪的激光武器。你不知道它从何而来，也不知道叛军是怎么"
+"得到的，但它似乎真的很强大。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1268
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_DEBRIS\"]/choice[3]/text"
-msgstr ""
+msgstr "打捞星联残骸。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1270
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_DEBRIS\"]/choice[3]/event/text"
 msgstr ""
+"你快速打捞了 R.U.E.S. 舰船。星联对他们的精英舰船保护得很严密，只将其部署在对"
+"付极高价值目标时。在舰船内部，你发现了一个他们标志性增强部件的模块化版本，可"
+"以随时安装和卸载。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1276
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_DEBRIS\"]/choice[4]/text"
-msgstr ""
+msgstr "不打捞任何东西。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1278
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_DEBRIS\"]/choice[4]/event/text"
-msgstr ""
+msgstr "出问题的风险太高了，不值得冒险打捞随机残骸。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1280
 msgid ""
@@ -1318,19 +1520,23 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_PIRATE_TRADE\"]/text"
 msgstr ""
+"一个精英海盗似乎在这个信标上建立了商店。他们呼叫你，并以大幅折扣向你提供一件"
+"随机的节能型武器。问题在于，在你购买之前不会知道它是什么。在背景中，你还看到"
+"似乎有一支海盗舰队，可能是在利用这个机会轻松收取进贡。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1307
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_PIRATE_TRADE\"]/choice[1]/text"
-msgstr ""
+msgstr "购买武器。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1309
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_PIRATE_TRADE\"]/choice[1]/event/text"
 msgstr ""
+"海盗一确认你的购买，就把装着武器的板条箱传送了过来。你担心自己可能被骗了，但"
+"幸运的是，这个海盗自始至终都很有信誉。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1317
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_PIRATE_TRADE\"]/choice[2]/text"
 msgstr "攻击海盗！"
@@ -1338,7 +1544,7 @@ msgstr "攻击海盗！"
 #: src-en/data/events_fr_sector_warzone.xml:1319
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_PIRATE_TRADE\"]/choice[2]/event/text"
-msgstr ""
+msgstr "海盗对你的行为并不惊讶，因为看起来他们在你完成武器充能之前就已经启动了武器。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1322
 msgid ""
@@ -1348,12 +1554,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1328
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_PIRATE_TRADE\"]/choice[3]/text"
-msgstr ""
+msgstr "什么都不买。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1330
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_PIRATE_TRADE\"]/choice[3]/event/text"
-msgstr ""
+msgstr "海盗对你拒绝他们的交易感到有点不快，但他们还不至于鲁莽到因此攻击你。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1332
 msgid ""
@@ -1369,26 +1575,30 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_AUTO_REPAIR\"]/text"
 msgstr ""
+"一艘联邦自动舰船似乎已经被部署到这个星区，以帮助战争而努力，免费向联邦盟友提"
+"供资源和维修组合。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1354
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_AUTO_REPAIR\"]/choice[1]/text"
-msgstr ""
+msgstr "接受帮助。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1356
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_AUTO_REPAIR\"]/choice[1]/event/text"
 msgstr ""
+"自动舰船迅速将一个装有补给品的板条箱转移过来，然后毫不费力地完全修复了你的舰"
+"船。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1366
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_AUTO_REPAIR\"]/choice[2]/text"
-msgstr ""
+msgstr "接受帮助。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1368
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_AUTO_REPAIR\"]/choice[2]/event/text"
-msgstr ""
+msgstr "自动舰船扫描了你的舰船，然后迅速启动了武器。看来你的恶名已经先于你到达了。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1371
 msgid ""
@@ -1396,7 +1606,6 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1377
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_AUTO_REPAIR\"]/choice[3]/text"
 msgstr "攻击自动舰！"
@@ -1404,7 +1613,7 @@ msgstr "攻击自动舰！"
 #: src-en/data/events_fr_sector_warzone.xml:1379
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_AUTO_REPAIR\"]/choice[3]/event/text"
-msgstr ""
+msgstr "自动舰船迅速对你的攻击做出了反应，并启动了武器。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1382
 msgid ""
@@ -1414,12 +1623,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1388
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_AUTO_REPAIR\"]/choice[4]/text"
-msgstr ""
+msgstr "拒绝帮助。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1390
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_FEDERATION_AUTO_REPAIR\"]/choice[4]/event/text"
-msgstr ""
+msgstr "自动舰船只是结束了它的传输，然后继续前进寻找另一艘舰船提供帮助。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1392
 msgid ""
@@ -1435,26 +1644,28 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_LANIUS\"]/text"
 msgstr ""
+"这个信标似乎真的很平静，直到你探测到附近一艘食铁穿梭机发来的通讯。“寻找金属。"
+"舰船太小，无法容纳金属。加入船员？”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1406
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_LANIUS\"]/choice[1]/text"
-msgstr ""
+msgstr "允许食铁加入你的船员。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1408
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_LANIUS\"]/choice[1]/event/text"
-msgstr ""
+msgstr "食铁被从穿梭机中弹射出来，并迅速到达了你的舰船。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1413
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_LANIUS\"]/choice[2]/text"
-msgstr ""
+msgstr "拒绝"
 
 #: src-en/data/events_fr_sector_warzone.xml:1415
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_LANIUS\"]/choice[2]/event/text"
-msgstr ""
+msgstr "食铁非常失望，但他们迅速跳跃离开，去寻找一艘更好的舰船。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1417
 msgid ""
@@ -1470,21 +1681,23 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_GENERIC\"]/text"
 msgstr ""
+"从信标处，你可以看到几个巨大的物体。其中有两个巨大的碎片场，充满了各种派系的"
+"残骸。你可以在这个信标打捞舰船，但不知道会发现什么。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1431
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_GENERIC\"]/choice[1]/text"
-msgstr ""
+msgstr "探索那堆金属碎片。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1435
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_GENERIC\"]/choice[2]/text"
-msgstr ""
+msgstr "离开这些碎片场。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1437
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ITEM_WARZONE_GENERIC\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你决定不花时间检查这些碎片场。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1439
 msgid ""
@@ -1500,61 +1713,78 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_ITEM_WARZONE_GENERIC_EXPLORE\"]/event[1]/text"
 msgstr ""
+"你搜索了碎片场，但似乎这里没有任何有价值的东西。不幸的是，碎片既松散又密集，"
+"所以你必须在为超光速引擎充能时避免受到伤害！"
 
 #: src-en/data/events_fr_sector_warzone.xml:1456
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_ITEM_WARZONE_GENERIC_EXPLORE\"]/event[2]/text"
 msgstr ""
+"你搜索了碎片场。在大量毫无价值的垃圾中，你设法在了一大堆碎片中找到了一个隐藏"
+"的导弹补给。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1460
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_ITEM_WARZONE_GENERIC_EXPLORE\"]/event[3]/text"
-msgstr ""
+msgstr "你搜索了碎片场。虽然大部分是无用的垃圾，但你设法凑到了少量有用的资源。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1464
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_ITEM_WARZONE_GENERIC_EXPLORE\"]/event[4]/text"
 msgstr ""
+"你搜索了碎片场。材料本身大多是毫无价值的碎片，但在垃圾中有一艘联邦穿梭机。它"
+"拼命地呼叫你。“求你了，变元者，让我加入你的船员吧！这艘穿梭机几乎要没燃料和氧"
+"气了！”\n"
+"接受联邦人员加入你的船员。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1466
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_ITEM_WARZONE_GENERIC_EXPLORE\"]/event[4]/choice[1]/text"
-msgstr ""
+msgstr "接受联邦人员加入你的船员。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1468
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_ITEM_WARZONE_GENERIC_EXPLORE\"]/event[4]/choice[1]/event/text"
 msgstr ""
+"那名船员进入你的舰船时松了一口气。“那些该死的叛军在我们最脆弱的时候袭击了我们"
+"，我想没有其他人幸存下来了……”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1473
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_ITEM_WARZONE_GENERIC_EXPLORE\"]/event[4]/choice[2]/text"
-msgstr ""
+msgstr "无视那艘穿梭机。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1478
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_ITEM_WARZONE_GENERIC_EXPLORE\"]/event[5]/text"
 msgstr ""
+"你搜索了碎片场。材料本身大多是毫无价值的垃圾，但在碎片场中漂流着一艘严重受损"
+"的星联侦察船。它拼命地呼叫你。“联邦变元者！如果你允许我登上你的舰船，我就会听"
+"从你的命令！”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1480
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_ITEM_WARZONE_GENERIC_EXPLORE\"]/event[5]/choice[1]/text"
-msgstr ""
+msgstr "接受星联人员加入你的船员。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1482
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_ITEM_WARZONE_GENERIC_EXPLORE\"]/event[5]/choice[1]/event/text"
 msgstr ""
+"那名船员在你让他们上船时似乎松了口气。“终于。一艘出奇强大的海盗船在战斗结束后"
+"堵住了我们。他们在战斗前似乎部署了某种奇怪的增强部件，让我们的枪无法开火。”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1487
 msgid ""
 "data/events_fr_sector_warzone.xml$//eventList[@name=\"FR_ITEM_WARZONE_GENERIC_EXPLORE\"]/event[5]/choice[2]/text"
-msgstr ""
+msgstr "无视那艘侦察船。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1512
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_REBEL_SELITE_DOGFIGHT\"]/destroyed/text"
 msgstr ""
+"你摧毁了叛军精英舰船：这可不是件容易的事。这还不足以影响整个舰队，但依然是一"
+"场伟大的胜利。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1515
 msgid ""
@@ -1565,6 +1795,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_REBEL_SELITE_DOGFIGHT\"]/destroyed/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1520
 msgid ""
@@ -1575,6 +1807,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_REBEL_SELITE_DOGFIGHT\"]/deadCrew/text"
 msgstr ""
+"你消灭了叛军精英舰船上的所有船员：这可不是件容易的事。这还不足以影响整个舰队"
+"，但依然是一场伟大的胜利。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1530
 msgid ""
@@ -1585,6 +1819,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_REBEL_SELITE_DOGFIGHT\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1535
 msgid ""
@@ -1595,6 +1831,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_DOGFIGHT\"]/destroyed/text"
 msgstr ""
+"当你看着星联飞船解体时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是谁想"
+"出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:1553
 msgid ""
@@ -1605,6 +1843,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_DOGFIGHT\"]/destroyed/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1558
 msgid ""
@@ -1615,6 +1855,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_DOGFIGHT\"]/deadCrew/text"
 msgstr ""
+"当他们的最后一名船员倒下时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是"
+"谁想出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:1568
 msgid ""
@@ -1625,6 +1867,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_DOGFIGHT\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1573
 msgid ""
@@ -1635,16 +1879,20 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_COALITION_BATTLE\"]/text"
 msgstr ""
+"一艘 R.U.E.S. 和一艘 MFK 王牌舰船正在这个信标上进行激烈的缠斗，而他们各自的舰"
+"队正在后方交战。你可以选择一方并肩作战，但这会导致舰队也开始以你为目标。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1586
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_COALITION_BATTLE\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击 R.U.E.S.。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1588
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_COALITION_BATTLE\"]/choice[1]/event/text"
 msgstr ""
+"星联舰船被你的推进打了个措手不及。它认为叛军舰船的威胁比你低，于是将武器转向"
+"了你的舰船。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1591
 msgid ""
@@ -1654,12 +1902,14 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1597
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_COALITION_BATTLE\"]/choice[2]/text"
-msgstr ""
+msgstr "攻击 MFK 王牌。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1599
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_COALITION_BATTLE\"]/choice[2]/event/text"
 msgstr ""
+"叛军在看到你接近之前设法瘫痪了星联的武器。他们毫不浪费时间，下一发就瞄准了你"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1602
 msgid ""
@@ -1669,12 +1919,12 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1608
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_COALITION_BATTLE\"]/choice[3]/text"
-msgstr ""
+msgstr "无视他们并准备跳跃离开。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1610
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_COALITION_BATTLE\"]/choice[3]/event/text"
-msgstr ""
+msgstr "介入这场冲突的任何一方都势必会引发问题。最好让他们自相残杀。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1612
 msgid ""
@@ -1690,11 +1940,16 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_COALITION_BATTLE_COALITION\"]/text"
 msgstr ""
+"R.U.E.S. 舰船呼叫你。“一个联邦变元者帮助我们~~~？现在我算是见~~~识到一切了！"
+"我想你应~~~该得到奖励。”舰长笑了笑，然后切断了通讯。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1630
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_COALITION_BATTLE_REBEL\"]/text"
 msgstr ""
+"MFK 王牌舰船呼叫你。“我真不敢相信我会对一只联邦狗说这话，但谢谢你的帮助。那些"
+"星联怪胎比预想的要难缠得多。虽然我很不愿意承认，但你值得一份奖励。”舰长叹了口"
+"气，然后切断了通讯。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1641
 msgid ""
@@ -1710,16 +1965,18 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_PIRATE_FEDERATION\"]/text"
 msgstr ""
+"看起来一个精英海盗正在与一艘精英联邦舰船进行缠斗。那个海盗不知何故占据了上风"
+"，而后方的联邦舰队却难以击中他们，使得整个情况更加令人费解。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1662
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_PIRATE_FEDERATION\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击海盗。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1664
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_PIRATE_FEDERATION\"]/choice[1]/event/text"
-msgstr ""
+msgstr "海盗船长笑着张开双臂欢迎另一个挑战者。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1667
 msgid ""
@@ -1729,12 +1986,14 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1673
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_PIRATE_FEDERATION\"]/choice[2]/text"
-msgstr ""
+msgstr "不要介入。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1675
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_PIRATE_FEDERATION\"]/choice[2]/event/text"
 msgstr ""
+"那个海盗如果能在精英联邦舰船周围如此轻松地绕圈，那它的水平很可能与你不在一个"
+"级别。无视他们更安全。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1677
 msgid ""
@@ -1750,6 +2009,11 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_PIRATE_FEDERATION_WIN\"]/text"
 msgstr ""
+"联邦舰船呼叫你。“感谢你来了，变元者。我不知道那些海盗怎么会那么有经验，与他们"
+"战斗感觉就像在对抗 MFK 王牌！我们也听到报告说这个星区周围还有其他像这样的恶毒"
+"海盗……等这件事结束后，我要向高层指挥报告这些‘精英海盗’的存在，这个威胁需要被"
+"更认真地对待。不管怎样，你今天的勇敢值得一份奖励，我们也会确保把你的勇气传播"
+"给其他人。”"
 
 #: src-en/data/events_fr_sector_warzone.xml:1694
 msgid ""
@@ -1760,6 +2024,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_DESTROYER\"]/destroyed/text"
 msgstr ""
+"当你看着星联飞船解体时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是谁想"
+"出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:1706
 msgid ""
@@ -1770,6 +2036,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_DESTROYER\"]/destroyed/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1711
 msgid ""
@@ -1780,6 +2048,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_DESTROYER\"]/deadCrew/text"
 msgstr ""
+"当他们的最后一名船员倒下时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是"
+"谁想出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:1721
 msgid ""
@@ -1790,6 +2060,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_DESTROYER\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1726
 msgid ""
@@ -1869,7 +2141,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1803
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_REBEL_DAMAGED\"]/choice[2]/text"
-msgstr ""
+msgstr "无视他们。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1805
 msgid ""
@@ -1929,7 +2201,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1851
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_AUTO_FIGHT\"]/choice[2]/text"
-msgstr ""
+msgstr "无视他们。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1853
 msgid ""
@@ -1974,7 +2246,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1895
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_COALITION_NEUTRAL\"]/choice[2]/text"
-msgstr ""
+msgstr "无视他们。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1897
 msgid ""
@@ -2064,7 +2336,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:1982
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_REBEL\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击他们！"
 
 #: src-en/data/events_fr_sector_warzone.xml:1984
 msgid ""
@@ -2079,7 +2351,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:1993
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_REBEL\"]/choice[2]/text"
-msgstr ""
+msgstr "无视他们。"
 
 #: src-en/data/events_fr_sector_warzone.xml:1995
 msgid ""
@@ -2104,7 +2376,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:2013
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_COALITION\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击他们！"
 
 #: src-en/data/events_fr_sector_warzone.xml:2015
 msgid ""
@@ -2119,7 +2391,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:2024
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_COALITION\"]/choice[2]/text"
-msgstr ""
+msgstr "无视他们。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2026
 msgid ""
@@ -2144,7 +2416,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:2050
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_FEDERATION\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击他们！"
 
 #: src-en/data/events_fr_sector_warzone.xml:2052
 msgid ""
@@ -2184,7 +2456,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:2081
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_PIRATE\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击他们！"
 
 #: src-en/data/events_fr_sector_warzone.xml:2083
 msgid ""
@@ -2199,7 +2471,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:2092
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_NEUTRAL_WARZONE_GENERIC_PIRATE\"]/choice[2]/text"
-msgstr ""
+msgstr "无视他们。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2094
 msgid ""
@@ -2220,6 +2492,8 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_UNION\"]/destroyed/text"
 msgstr ""
+"当你看着星联飞船解体时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是谁想"
+"出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:2130
 msgid ""
@@ -2230,6 +2504,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_UNION\"]/destroyed/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2135
 msgid ""
@@ -2240,6 +2516,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_UNION\"]/deadCrew/text"
 msgstr ""
+"当他们的最后一名船员倒下时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是"
+"谁想出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:2145
 msgid ""
@@ -2250,6 +2528,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_UNION\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2150
 msgid ""
@@ -2487,7 +2767,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_fr_sector_warzone.xml:2369
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_REBEL_AUTO_BROKEN\"]/choice[2]/text"
 msgstr "攻击自动舰！"
@@ -2721,6 +3000,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_DISTRESS_REBEL\"]/destroyed/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2576
 msgid ""
@@ -2731,6 +3012,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_DISTRESS_REBEL\"]/deadCrew/text"
 msgstr ""
+"你消灭了叛军精英舰船上的所有船员：这可不是件容易的事。不过，这还不足以影响整"
+"个舰队，但依然是一场伟大的胜利。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2586
 msgid ""
@@ -2741,6 +3024,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_DISTRESS_REBEL\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2591
 msgid ""
@@ -2770,7 +3055,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:2619
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_REBEL\"]/choice[2]/text"
-msgstr ""
+msgstr "无视他们。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2621
 msgid ""
@@ -2786,6 +3071,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_DISTRESS_COALITION\"]/destroyed/text"
 msgstr ""
+"当你看着星联飞船解体时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是谁想"
+"出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:2636
 msgid ""
@@ -2796,6 +3083,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_DISTRESS_COALITION\"]/destroyed/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2641
 msgid ""
@@ -2806,6 +3095,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_DISTRESS_COALITION\"]/deadCrew/text"
 msgstr ""
+"当他们的最后一名船员倒下时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是"
+"谁想出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:2651
 msgid ""
@@ -2816,6 +3107,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_DISTRESS_COALITION\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2656
 msgid ""
@@ -2845,7 +3138,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:2680
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_COALITION\"]/choice[2]/text"
-msgstr ""
+msgstr "无视他们。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2682
 msgid ""
@@ -2890,7 +3183,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:2730
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_DISTRESS_WARZONE_GENERIC_PIRATE\"]/choice[2]/text"
-msgstr ""
+msgstr "无视他们。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2732
 msgid ""
@@ -2935,7 +3228,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:2796
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_RUES\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:2798
 msgid ""
@@ -2960,7 +3253,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:2815
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_SLUG\"]/destroyed/choice/event/text"
-msgstr ""
+msgstr "夜爵士舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2821
 msgid ""
@@ -2975,7 +3268,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:2826
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_SLUG\"]/deadCrew/choice/event/text"
-msgstr ""
+msgstr "夜爵士舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2840
 msgid ""
@@ -2985,7 +3278,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:2844
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_KNIGHT\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:2846
 msgid ""
@@ -3010,7 +3303,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:2863
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_MANTIS\"]/destroyed/choice/event/text"
-msgstr ""
+msgstr "主教舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2869
 msgid ""
@@ -3025,7 +3318,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:2874
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_MANTIS\"]/deadCrew/choice/event/text"
-msgstr ""
+msgstr "主教舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上。"
 
 #: src-en/data/events_fr_sector_warzone.xml:2888
 msgid ""
@@ -3035,7 +3328,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:2892
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_BISHOP\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:2894
 msgid ""
@@ -3085,7 +3378,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:2939
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_PALADIN\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:2941
 msgid ""
@@ -3135,7 +3428,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:2986
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_COALITION_AMPERE\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:2988
 msgid ""
@@ -3161,11 +3454,15 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL\"]/destroyed/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3017
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL\"]/deadCrew/text"
 msgstr ""
+"你消灭了叛军精英舰船上的所有船员：这可不是件容易的事。不过，这还不足以影响整"
+"个舰队，但依然是一场伟大的胜利。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3020
 msgid ""
@@ -3176,6 +3473,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3035
 msgid ""
@@ -3185,7 +3484,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3039
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_REBEL_MFK\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:3041
 msgid ""
@@ -3235,7 +3534,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3082
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_REBEL_TECHNICIAN\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:3084
 msgid ""
@@ -3265,7 +3564,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3114
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_REBEL_ESTATE\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:3116
 msgid ""
@@ -3285,7 +3584,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3140
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_UNITY\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:3142
 msgid ""
@@ -3335,7 +3634,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3184
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_STEALTH\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:3186
 msgid ""
@@ -3385,7 +3684,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3227
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_EDC\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:3229
 msgid ""
@@ -3435,7 +3734,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3274
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_HARMONY\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:3276
 msgid ""
@@ -3485,7 +3784,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3321
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_PEACE_KEEPER\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:3323
 msgid ""
@@ -3535,7 +3834,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3368
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_FEDERATION_PRAETOR\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:3370
 msgid ""
@@ -3555,7 +3854,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3384
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_ELITE_WARZONE_PIRATE\"]/choice/text"
-msgstr ""
+msgstr "武器充能！"
 
 #: src-en/data/events_fr_sector_warzone.xml:3386
 msgid ""
@@ -3675,7 +3974,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3501
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_QUEST_WARZONE_FEDERATION_GATLING_PART_1\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "已探索的位置。没有留下任何有价值的东西。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3511
 msgid ""
@@ -3765,7 +4064,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3587
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_QUEST_WARZONE_FEDERATION_GATLING_PART_2\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "已探索的位置。没有留下任何有价值的东西。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3597
 msgid ""
@@ -3894,7 +4193,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:3705
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_QUEST_WARZONE_FEDERATION_GATLING_PART_FINAL\"]/beaconType/visitedTooltip"
-msgstr ""
+msgstr "已探索的位置。没有留下任何有价值的东西。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3715
 msgid ""
@@ -4008,11 +4307,15 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL_ESCAPE\"]/destroyed/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3821
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL_ESCAPE\"]/deadCrew/text"
 msgstr ""
+"你消灭了叛军精英舰船上的所有船员：这可不是件容易的事。不过，这还不足以影响整"
+"个舰队，但依然是一场伟大的胜利。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3824
 msgid ""
@@ -4023,6 +4326,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL_ESCAPE\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3839
 msgid ""
@@ -4098,6 +4403,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL_ESCAPE_EXIT\"]/destroyed/text"
 msgstr ""
+"你摧毁了叛军精英舰船：这可不是件容易的事。这还不足以影响整个舰队，但依然是一"
+"场伟大的胜利。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3902
 msgid ""
@@ -4108,6 +4415,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL_ESCAPE_EXIT\"]/destroyed/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3907
 msgid ""
@@ -4128,6 +4437,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL_ESCAPE_EXIT\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:3922
 msgid ""
@@ -4232,7 +4543,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:4029
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_QUEST_WARZONE_COALITION_CEALAFORMER\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击他们！"
 
 #: src-en/data/events_fr_sector_warzone.xml:4031
 msgid ""
@@ -4398,6 +4709,8 @@ msgstr ""
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL_NO_ASB\"]/destroyed/text"
 msgstr ""
+"你摧毁了叛军精英舰船：这可不是件容易的事。这还不足以影响整个舰队，但依然是一"
+"场伟大的胜利。"
 
 #: src-en/data/events_fr_sector_warzone.xml:4188
 msgid ""
@@ -4408,6 +4721,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL_NO_ASB\"]/destroyed/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:4196
 msgid ""
@@ -4423,6 +4738,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_REBEL_NO_ASB\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英叛军舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:4213
 msgid ""
@@ -4498,6 +4815,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_BOARDING\"]/destroyed/text"
 msgstr ""
+"当你看着星联飞船解体时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是谁想"
+"出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:4294
 msgid ""
@@ -4508,6 +4827,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_BOARDING\"]/destroyed/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:4299
 msgid ""
@@ -4518,6 +4839,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_BOARDING\"]/deadCrew/text"
 msgstr ""
+"当他们的最后一名船员倒下时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是"
+"谁想出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:4309
 msgid ""
@@ -4528,6 +4851,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_BOARDING\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:4314
 msgid ""
@@ -4613,6 +4938,8 @@ msgstr "跳过。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_NO_ASB\"]/destroyed/text"
 msgstr ""
+"当你看着星联飞船解体时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是谁想"
+"出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:4397
 msgid ""
@@ -4623,11 +4950,15 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_NO_ASB\"]/destroyed/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:4405
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_NO_ASB\"]/deadCrew/text"
 msgstr ""
+"当他们的最后一名船员倒下时，你思忖着“R.U.E.S.”这个缩写有多蠢。说真的，到底是"
+"谁想出来的？"
 
 #: src-en/data/events_fr_sector_warzone.xml:4408
 msgid ""
@@ -4638,6 +4969,8 @@ msgstr "继续。"
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_ELITE_COALITION_NO_ASB\"]/deadCrew/choice/event/text"
 msgstr ""
+"精英星联舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上"
+"。"
 
 #: src-en/data/events_fr_sector_warzone.xml:4419
 msgid ""
@@ -4793,7 +5126,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_fr_sector_warzone.xml:4566
-#, fuzzy
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_HOSTILE_WARZONE_PIRATE_STATION\"]/choice[3]/text"
 msgstr "缴纳费用。"
@@ -4846,7 +5178,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:4624
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_HOSTILE_WARZONE_FEDERATION_MISTAKE\"]/choice[3]/text"
-msgstr ""
+msgstr "与那艘舰船战斗！"
 
 #: src-en/data/events_fr_sector_warzone.xml:4626
 msgid ""
@@ -4906,7 +5238,7 @@ msgstr ""
 #: src-en/data/events_fr_sector_warzone.xml:4676
 msgid ""
 "data/events_fr_sector_warzone.xml$//event[@name=\"FR_HOSTILE_WARZONE_FEDERATION_AUTO\"]/choice[4]/text"
-msgstr ""
+msgstr "与那艘舰船战斗！"
 
 #: src-en/data/events_fr_sector_warzone.xml:4678
 msgid ""
@@ -4931,7 +5263,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:4695
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_MANTIS_DOUBLE\"]/destroyed/choice/event/text"
-msgstr ""
+msgstr "主教舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上。"
 
 #: src-en/data/events_fr_sector_warzone.xml:4698
 msgid ""
@@ -4951,7 +5283,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:4710
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_MANTIS_DOUBLE\"]/deadCrew/choice/event/text"
-msgstr ""
+msgstr "主教舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上。"
 
 #: src-en/data/events_fr_sector_warzone.xml:4713
 msgid ""
@@ -4981,7 +5313,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:4744
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_SLUG_DOUBLE\"]/destroyed/choice/event/text"
-msgstr ""
+msgstr "夜爵士舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上。"
 
 #: src-en/data/events_fr_sector_warzone.xml:4747
 msgid ""
@@ -5001,7 +5333,7 @@ msgstr "继续。"
 #: src-en/data/events_fr_sector_warzone.xml:4759
 msgid ""
 "data/events_fr_sector_warzone.xml$//ship[@name=\"FR_SHIP_WARZONE_SELITE_SLUG_DOUBLE\"]/deadCrew/choice/event/text"
-msgstr ""
+msgstr "夜爵士舰船的货物似乎幸免于战斗。里面有一件功能完好的武器，你把它搬回了船上。"
 
 #: src-en/data/events_fr_sector_warzone.xml:4762
 msgid ""
@@ -5136,7 +5468,7 @@ msgstr "跳过。"
 #: src-en/data/events_fr_sector_warzone.xml:4913
 msgid ""
 "data/events_fr_sector_warzone.xml$/dummyroot/FTL/event[@name=\"FR_FINISH_BEACON_WARZONE_TOTALITY\"]/choice/event/choice[2]/text"
-msgstr ""
+msgstr "与那艘舰船战斗！"
 
 #: src-en/data/events_fr_sector_warzone.xml:4915
 msgid ""
