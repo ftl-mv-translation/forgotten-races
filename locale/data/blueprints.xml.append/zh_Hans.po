@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-09-04 14:36+0000\n"
+"PO-Revision-Date: 2026-09-05 15:36+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/forgotten-races/datablueprintsxmlappend/zh_Hans/>\n"
@@ -1399,7 +1399,7 @@ msgstr "鬼魂作战无人机"
 
 #: src-en/data/blueprints.xml.append:723
 msgid "data/blueprints.xml.append$/dummyroot/FTL/crewBlueprint[40]/short"
-msgstr "鬼魂作战"
+msgstr "鬼魂作战。"
 
 #: src-en/data/blueprints.xml.append:728
 msgid ""
@@ -3652,7 +3652,7 @@ msgstr ""
 "\t继承不死幽灵属性：不会受到环境伤害，可穿透舱门，受不死幽灵的实验室升级的影"
 "响。\n"
 "\n"
-"\t继承件物属性：0.5倍移动速度"
+"\t继承件物属性：0.5倍移动速度。"
 
 #: src-en/data/blueprints.xml.append:1787
 msgid ""
@@ -3679,7 +3679,7 @@ msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"fr_bonus_tririac\"]/powerList/power[3]"
 msgstr ""
 "如果特里亚克在未处于眩晕状态或正在使用其主动能力时死亡，它将分裂成两个新的特"
-"里亚克。"
+"里亚克"
 
 #: src-en/data/blueprints.xml.append:1796
 msgid ""
@@ -11050,13 +11050,12 @@ msgid ""
 msgstr "皇家信息素"
 
 #: src-en/data/blueprints.xml.append:17821
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_ROYAL_PHEROMONES\"]/desc"
 msgstr ""
 "由螳螂女皇调配、为女皇服务、并与众生共享的信息素合剂。氧气系统每提升一级功率"
-"，所有友方船员的破坏伤害增加20%，维修速度提高10%。当氧气系统供能时，友方母巢"
-"螳螂还将获得心灵控制免疫。"
+"，所有友方船员的破坏伤害增加20%，维修速度提高10%。当氧气系统供能时，友方非女"
+"王母巢螳螂也将免疫心灵控制。"
 
 #: src-en/data/blueprints.xml.append:17830
 msgid ""
@@ -11463,14 +11462,13 @@ msgid ""
 msgstr "查罗的纳米机器"
 
 #: src-en/data/blueprints.xml.append:18191
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_GHOSTLY_REPAIR_BOTS\"]/desc"
 msgstr ""
 "查罗的纳米机器实验成功为医疗机器人注入了灵魂。这些纳米机器能以人类水平的效率"
 "被动修复系统并扑灭火灾，其效率随无人机系统供能等级的提升而倍增。\n"
 "\t\t\n"
-"同时还能以固定速率修复舱室破破舱。"
+"同时还能以固定速率修复舱室破舱。"
 
 #: src-en/data/blueprints.xml.append:18202
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"FR_THE_ORACLE\"]/title"
@@ -13128,21 +13126,16 @@ msgid ""
 msgstr "完美飞升"
 
 #: src-en/data/blueprints.xml.append:19701
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPECTER_FLAWLESS_ASCENSION\"]/desc"
 msgstr ""
 "你的死灵们需要双倍时间来为他们的能力充能，但他们的能力会以独特的方式得到增强"
 "。\n"
-"\t\t黏稠者：\n"
-"\t\t\t-吞噬：移除系统伤害，并允许在敌方舰船上使用。\n"
-"\t\t\t- 吞食：现在对敌方船员造成 75 点伤害，并根据舱室内的敌方船员数量，为黏"
-"稠者恢复 35 点生命值。\n"
+"\t\t黏稠者：- 吞食：现在对敌方船员造成 75 点伤害，并根据舱室内的敌方船员数量"
+"，为黏稠者恢复 35 点生命值。\n"
 "\t\t菲斯：离子伤害提升至 8 点，眩晕现在只影响敌人。\n"
 "\t\t埃莉诺：船员伤害提升至 100 点，系统伤害提升至 4 点。\n"
-"\t\t文：\n"
-"\t\t\t- 增幅：移除自身伤害。\n"
-"\t\t\t- 融合：激活能力后，文的火焰治疗效果在 10 秒内翻倍。\n"
+"\t\t文：- 融合：激活能力后，文的火焰治疗效果在 10 秒内翻倍。\n"
 "\t\t克里奥：无人机在效果持续期间也获得双倍伤害。\n"
 "\t\t祖鲁：移除效果期间的移动速度、破坏与伤害惩罚。\n"
 "\t\tG：在效果持续期间还会额外召唤 3 只不死幽灵。\n"
@@ -13164,7 +13157,6 @@ msgid ""
 msgstr "定制专精"
 
 #: src-en/data/blueprints.xml.append:19726
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"FR_LAB_SPECTER_TAILORED_SPECIALIZATION\"]/desc"
 msgstr ""
@@ -13173,7 +13165,8 @@ msgstr ""
 "\t\t菲斯：基础能量提供翻倍 - 无法进行破坏。\n"
 "\t\t埃莉诺：伤害翻倍 - 无法进行修复。\n"
 "\t\t文：生命值翻倍 - 速度减半。\n"
-"\t\t克里奥：生命值、速度、修复与伤害获得 1.3 倍加成 - 无法直接与敌方无人机战斗。\n"
+"\t\t克里奥：生命值、速度、修复与伤害获得 1.3 倍加成 - 无法直接与敌方无人机战"
+"斗。\n"
 "\t\t祖鲁：破坏伤害翻倍 - 船员伤害减半。\n"
 "\t\tG：从环境伤害中获得的治疗翻倍 - 主动技能冷却时间增加 50%。\n"
 "\t\t霜晶壁垒：远程伤害翻倍 - 生命值减半。\n"
@@ -13185,7 +13178,8 @@ msgstr ""
 "\t\t奥古斯都：破坏、伤害与生命值获得 1.2 倍加成 - 移动速度减半。\n"
 "\t\t萨利：持续每秒恢复 15 点生命值 - 生命值减半。\n"
 "\t\t王子：移动速度翻倍 - 修复速度减半。\n"
-"\t\t特里亚克：心灵控制的船员在与他们同舱时造成的伤害翻倍 - 被眩晕的时间延长 10 倍。"
+"\t\t特里亚克：心灵控制的船员在与他们同舱时造成的伤害翻倍 - 被眩晕的时间延长 "
+"10 倍。"
 
 #: src-en/data/blueprints.xml.append:19750
 msgid ""
@@ -15683,7 +15677,6 @@ msgid ""
 msgstr "至高安威斯星舰"
 
 #: src-en/data/blueprints.xml.append:23568
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_ALT_WITHER\"]/name"
 msgstr "安威斯的骄傲"
@@ -17750,7 +17743,6 @@ msgid ""
 msgstr "在完全屈服于混沌疯狂之后，霜晶壁垒被彻底整合进了监视者的行列，随之而来的是安装了那里最好的韵律。"
 
 #: src-en/data/blueprints.xml.append:31449
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM\"]/class"
 msgstr "死亡绽放的星舰"
@@ -17771,7 +17763,6 @@ msgid ""
 msgstr "死亡绽放的标志性舰船中遍布致命孢子，使她与她的船员能轻易杀死任何挡路的船员。"
 
 #: src-en/data/blueprints.xml.append:31526
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM_2\"]/class"
 msgstr "死亡绽放的星舰"
@@ -17792,7 +17783,6 @@ msgid ""
 msgstr "在重新融入血兰花社会后，死亡绽放得到了怪才体的邀请，获得了与他们的顶尖科学家合作的千载难逢的机会。结果呢？就是这艘充满致命气体的可怖舰船。"
 
 #: src-en/data/blueprints.xml.append:31606
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_FR_CHAOS_REVENANT_DEATHBLOOM_3\"]/class"
 msgstr "死亡绽放的星舰"
