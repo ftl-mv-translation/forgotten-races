@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-01 14:17+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-11-16 13:44+0000\n"
+"Last-Translator: kronen68 <obrice@hotmail.fr>\n"
 "Language-Team: French <https://weblate.hyperq.be/projects/forgotten-races/"
 "datahyperspace-xml-append/fr/>\n"
 "Language: fr\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: src-en/data/hyperspace.xml.append:108
 msgid ""
@@ -19,13 +19,16 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:113
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
-"RÉSEAU DE DÉFLEXION MENTALE :\n"
-"Tant que le Contrôle Mental ennemi est alimenté au niveau 3, tout l'équipage adverse bénéficie d'une immunité totale au Contrôle Mental."
+"SALLES CABAL:\n"
+"Cet ennemi dispose d'une ou plusieurs salles Cabal, signalées par des "
+"symboles roses distinctifs et une icône 'C' en haut à gauche. Les salles "
+"Cabal ne subissent aucun dégât de coque infligé par les armes. Les incendies "
+"et les brèches dans ces salles sont également réparés instantanément. Les "
+"salles Cabal subissent toutefois des dégâts aux systèmes comme d'habitude."
 
 #: src-en/data/hyperspace.xml.append:118
 msgid ""
@@ -224,13 +227,14 @@ msgstr ""
 "Bien que la forge de ce vaisseau serve principalement à fabriquer de nouvelles armes, elle alimente également un système de défense rudimentaire qui inflige 3 points de dégâts par seconde à votre équipage s'il monte à bord du vaisseau."
 
 #: src-en/data/hyperspace.xml.append:259
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[29]/tooltip"
 msgstr ""
-"BOUCLIER SINGULIER : \n"
-"Cet ennemi est protégé par un bouclier énergétique avancé qui empêche également votre équipage d'utiliser les téléporteurs à courte portée lorsqu'il se trouve à bord du vaisseau ennemi."
+"SURCHARGE CÉRÉBRALE : \n"
+"Les équipages ennemis bénéficient d'un bonus de 15 % aux dégâts infligés en "
+"réparation et au combat, et se soignent 50 % plus vite tant que leur système "
+"de 'Contrôle mental' est activé."
 
 #: src-en/data/hyperspace.xml.append:264
 msgid ""
@@ -333,14 +337,17 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:348
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[44]/tooltip"
 msgstr ""
-"AIR GLACIAL : \n"
-"L'équipage Bonhomme de neige de l'ennemi récupère 20 PV/s tant qu'il se "
-"trouve à bord du vaisseau ennemi."
+"ARMURE GLACIALE : \n"
+"Chaque fois que vous infligez des dégâts à la coque de cet ennemi avec vos "
+"armes, un éclat se détache et vole en direction de votre vaisseau. Il "
+"transperce 2 boucliers et ne peut pas être abattu par les drones de "
+"défense ; il inflige 1 point de dégâts et bloque l'accès aux salles "
+"lorsqu'il touche sa cible. Le vaisseau a également 50 % de chances d'annuler "
+"les dégâts infligés à ses systèmes."
 
 #: src-en/data/hyperspace.xml.append:353
 msgid ""
@@ -369,13 +376,15 @@ msgstr ""
 "Ce vaisseau ennemi est un organisme vivant qui a dévoré un ou plusieurs de ses anciens membres d'équipage. Les icônes des augmentations qu'il a acquises grâce à ce processus sont affichées."
 
 #: src-en/data/hyperspace.xml.append:370
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[48]/tooltip"
 msgstr ""
-"GRILLE D'ANNIHILATION : \n"
-"Votre équipage à bord de ce vaisseau perd 10 PV/s, perd la capacité de passer à travers les portes ou de se déplacer par téléportation, et inflige des dégâts divisés par deux aux portes."
+"NANOMACHINES SPECTRALES : \n"
+"Cet ennemi réparera automatiquement tous ses systèmes à la vitesse d'un "
+"humain, multipliée par la quantité d'énergie disponible dans son système de "
+"contrôle des drones. Les incendies et les brèches seront également réparés "
+"automatiquement."
 
 #: src-en/data/hyperspace.xml.append:375
 msgid ""
@@ -440,13 +449,15 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:432
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike/mod-"
 "append:shipIcon[59]/tooltip"
 msgstr ""
-"FERRAILLEUR : \n"
-"Ce vaisseau transporte 100 ferraille dans sa soute."
+"SYSTÈMES DORÉS : \n"
+"Plus ce vaisseau transporte de ferraille, plus ses systèmes gagnent en "
+"efficacité. Tous les 10 unités de ferraille, ses armes se rechargent 1 % "
+"plus vite. Tous les 5 unités de ferraille, ses boucliers se régénèrent 1 % "
+"plus vite."
 
 #: src-en/data/hyperspace.xml.append:437
 msgid ""
@@ -553,11 +564,10 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:831
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod-"
 "append:customStore[2]/category[7]/customTitle"
-msgstr "ÉQUIPAGE"
+msgstr "ÉQUIPAGE MFK"
 
 #: src-en/data/hyperspace.xml.append:844
 msgid ""
@@ -590,11 +600,10 @@ msgid ""
 msgstr ""
 
 #: src-en/data/hyperspace.xml.append:972
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[5]/mod-"
 "append:customStore[3]/category[7]/customTitle"
-msgstr "ÉQUIPAGE"
+msgstr "ÉQUIPAGE UNION"
 
 #: src-en/data/hyperspace.xml.append:986
 msgid ""
@@ -2966,13 +2975,13 @@ msgid ""
 msgstr "FRAPPE"
 
 #: src-en/data/hyperspace.xml.append:22794
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_TULLY\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
-"[TEMPS DE RECHARGE : 15s]\n"
-"\t\t\t\tDemande une frappe de bombes à la flotte de la Fédération, visant les systèmes et l'équipage du vaisseau ennemi."
+"[TEMPS DE RECHARGE : 15s]\n"
+"\t\t\t\t\t\tDemande une frappe de bombes à la flotte de la Fédération, "
+"visant les systèmes et l'équipage du vaisseau ennemi."
 
 #: src-en/data/hyperspace.xml.append:23006
 msgid ""
@@ -2993,13 +3002,14 @@ msgid ""
 msgstr "BOMBE"
 
 #: src-en/data/hyperspace.xml.append:23130
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//mod-"
 "append:aug[@name=\"FR_SOUL_SYLVAN\"]/statBoosts/statBoost[@name=\"powerEffect\"]/powerEffect/tooltip"
 msgstr ""
-"[Temps de Recharge : 45s]\n"
-"\t\t\t\tDéployer une bréche, Ion et Verouillage bombe (30 dégâts à l'équipage, 2 dommages au système, 5s d'étourdissement, 3 dommages ioniques). Pas de dégat à l'équipage allié mais peut affecter vos propres systèmes."
+"[Temps de Recharge : 45s]\n"
+"\t\t\t\t\t\tDéployer une bréche, Ion et Verouillage bombe (30 dégâts à "
+"l'équipage, 2 dommages au système, 5s d'étourdissement, 3 dommages ioniques)"
+". Pas de dégat à l'équipage allié mais peut affecter vos propres systèmes."
 
 #: src-en/data/hyperspace.xml.append:23213
 msgid ""
